@@ -38,6 +38,9 @@ from urllib.parse import quote
 START = "## 850章节开始"
 END = "## 850章节结束"
 SOURCE_HEADING = "## 数据来源"
+# 官方原图绝对地址：GitHub 渲染 README 时会通过其图片代理加载，避免相对路径被重写成
+# /github/.../raw/main/... 再重定向。未来 Fork 可用 --image-base-url 切换。
+IMAGE_BASE_URL = "https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/"
 
 INTRO = (
     "这里汇总 **C001–C100 共 100 个场景、850 个目标词**的场景学习卡："
@@ -75,6 +78,10 @@ def cell(value):
 
 def relative_url(relpath):
     return "/".join(quote(segment) for segment in relpath.split("/"))
+
+
+def image_url(base_url, relpath):
+    return base_url + relative_url(relpath)
 
 
 def sha256_file(path):
@@ -202,11 +209,11 @@ def load_cards(root):
     return cards
 
 
-def render_chapter(card):
+def render_chapter(card, image_base):
     title = card["title"]
     alt = html.escape("%s %s" % (card["id"], title), quote=True)
     lines = ["### %s · %s" % (card["id"], title), ""]
-    lines.append('<img src="%s" width="480" alt="%s">' % (relative_url(card["image"]), alt))
+    lines.append('<img src="%s" width="480" alt="%s">' % (image_url(image_base, card["image"]), alt))
     lines += ["", "| 单词 | 中文 | 例句 |", "| --- | --- | --- |"]
     for word, sense, example_en, example_zh in card["rows"]:
         example = "%s<br>%s" % (cell(example_en), cell(example_zh))
@@ -214,10 +221,10 @@ def render_chapter(card):
     return lines
 
 
-def build_body(cards):
+def build_body(cards, image_base=IMAGE_BASE_URL):
     body = [MAINTENANCE_COMMENT, "", INTRO, "", APP_COPY, ""]
     for index, card in enumerate(cards):
-        body += render_chapter(card)
+        body += render_chapter(card, image_base)
         if index != len(cards) - 1:
             body.append("")
     return body
@@ -246,6 +253,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="同步根 README 的 850 场景卡章节")
     parser.add_argument("--check", action="store_true", help="只读判断是否已同步")
     parser.add_argument("--readme", default=None, help="README 路径（相对调用 cwd）")
+    parser.add_argument("--image-base-url", default=IMAGE_BASE_URL,
+                        help="图片绝对地址前缀（默认官方 raw main；Fork 可切换）")
     args = parser.parse_args(argv)
 
     root = repo_root()
@@ -254,7 +263,8 @@ def main(argv=None):
         fail("README 不存在：%s" % readme_path)
 
     cards = load_cards(root)
-    body = build_body(cards)
+    image_base = args.image_base_url if args.image_base_url.endswith("/") else args.image_base_url + "/"
+    body = build_body(cards, image_base)
     current = open(readme_path, encoding="utf-8").read()
     updated = render(current, body)
 

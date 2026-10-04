@@ -49,7 +49,7 @@
 
 ### README 场景卡章节（机械生成）
 
-根 `README.md` 的 `## 850章节开始` … `## 850章节结束` 区间由 `python3 scene-cards-850/scripts/sync-readme.py` 从已审定卡片数据生成（100 个 `### Cxxx · 标题`，图片 + 单词/中文/例句三列表，保留目标词高亮），**请勿手改**。只读校验用 `--check`（不一致退出非零、不写）；临时文件用 `--readme PATH`（相对 cwd 解析，数据源仍本仓库）。选图按每卡 `piclex/Cxxx_job.json` 的 `imagePath`（相对 job 目录、仓库内）；**C001 当前绑定 `workflow/references/instagram-warm.png`，将来跟随 job 合法更新**，其余为 `images/Cxxx.png`，不用未绑定冷图或预览副本。
+根 `README.md` 的 `## 850章节开始` … `## 850章节结束` 区间由 `python3 scene-cards-850/scripts/sync-readme.py` 从已审定卡片数据生成（100 个 `### Cxxx · 标题`，图片 + 单词/中文/例句三列表，保留目标词高亮），**请勿手改**。只读校验用 `--check`（不一致退出非零、不写）；临时文件用 `--readme PATH`（相对 cwd 解析，数据源仍本仓库）。图片 `src` 使用官方原图绝对地址（常量 `IMAGE_BASE_URL`，默认 `https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/`；Fork 可用 `--image-base-url` 切换），让 GitHub 走图片代理、避开相对路径重写重定向；保持 `<img width="480">`。**线上验收必须用浏览器实际确认 `naturalWidth > 0`（100 张），本地文件存在不等于 GitHub 加载成功**；实际是否修复以 Root 线上验收为准。选图按每卡 `piclex/Cxxx_job.json` 的 `imagePath`（相对 job 目录、仓库内）；**C001 当前绑定 `workflow/references/instagram-warm.png`，将来跟随 job 合法更新**，其余为 `images/Cxxx.png`，不用未绑定冷图或预览副本。
 
 底图压缩可选：`python3 scene-cards-850/scripts/compress-card-images.py [--card Cxxx] [--force]` 用本地 ONEPUNCH 默认近视觉无损处理每卡 job 实际选图（原图不可变，`--force` 跳过旧回执复用供工具升级重试），输出 `images/compressed/`，逐张写 `manifest.json`；只在 `written` 且严格更小、宽高/源 SHA 一致时引用副本，`unchanged` 不复制。`sync-readme.py` 仅当 manifest 项与当前 job 选图的源/输出哈希匹配时才用压缩图，否则回退 job 原图（未来换图不套旧压缩版）。
 

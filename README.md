@@ -12,7 +12,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C001 · 清晨醒来
 
-<img src="scene-cards-850/workflow/references/instagram-warm.png" width="480" alt="C001 清晨醒来">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/workflow/references/instagram-warm.png" width="480" alt="C001 清晨醒来">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C002 · 窗前的昼夜
 
-<img src="scene-cards-850/images/C002.png" width="480" alt="C002 窗前的昼夜">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C002.png" width="480" alt="C002 窗前的昼夜">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C003 · 整理房间
 
-<img src="scene-cards-850/images/C003.png" width="480" alt="C003 整理房间">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C003.png" width="480" alt="C003 整理房间">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -61,7 +61,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C004 · 开门迎客
 
-<img src="scene-cards-850/images/C004.png" width="480" alt="C004 开门迎客">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C004.png" width="480" alt="C004 开门迎客">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -77,7 +77,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C005 · 一家人围桌
 
-<img src="scene-cards-850/images/C005.png" width="480" alt="C005 一家人围桌">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C005.png" width="480" alt="C005 一家人围桌">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -91,7 +91,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C006 · 照顾小宝宝
 
-<img src="scene-cards-850/images/C006.png" width="480" alt="C006 照顾小宝宝">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C006.png" width="480" alt="C006 照顾小宝宝">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -107,7 +107,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C007 · 洗漱台前
 
-<img src="scene-cards-850/images/C007.png" width="480" alt="C007 洗漱台前">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C007.png" width="480" alt="C007 洗漱台前">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -122,7 +122,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C008 · 打扫与晾干
 
-<img src="scene-cards-850/images/C008.png" width="480" alt="C008 打扫与晾干">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C008.png" width="480" alt="C008 打扫与晾干">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -138,7 +138,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C009 · 沙发边的小宠物
 
-<img src="scene-cards-850/images/C009.png" width="480" alt="C009 沙发边的小宠物">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C009.png" width="480" alt="C009 沙发边的小宠物">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -153,7 +153,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C010 · 睡前安静下来
 
-<img src="scene-cards-850/images/C010.png" width="480" alt="C010 睡前安静下来">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C010.png" width="480" alt="C010 睡前安静下来">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -168,7 +168,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C011 · 准备早餐
 
-<img src="scene-cards-850/images/C011.png" width="480" alt="C011 准备早餐">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C011.png" width="480" alt="C011 准备早餐">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -184,7 +184,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C012 · 炉边热汤
 
-<img src="scene-cards-850/images/C012.png" width="480" alt="C012 炉边热汤">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C012.png" width="480" alt="C012 炉边热汤">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -200,7 +200,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C013 · 摆好餐具
 
-<img src="scene-cards-850/images/C013.png" width="480" alt="C013 摆好餐具">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C013.png" width="480" alt="C013 摆好餐具">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -216,7 +216,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C014 · 温热的甜饮
 
-<img src="scene-cards-850/images/C014.png" width="480" alt="C014 温热的甜饮">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C014.png" width="480" alt="C014 温热的甜饮">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -233,7 +233,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C015 · 水果摊上的颜色
 
-<img src="scene-cards-850/images/C015.png" width="480" alt="C015 水果摊上的颜色">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C015.png" width="480" alt="C015 水果摊上的颜色">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -248,7 +248,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C016 · 面包店的烤箱
 
-<img src="scene-cards-850/images/C016.png" width="480" alt="C016 面包店的烤箱">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C016.png" width="480" alt="C016 面包店的烤箱">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -264,7 +264,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C017 · 切肉与备菜
 
-<img src="scene-cards-850/images/C017.png" width="480" alt="C017 切肉与备菜">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C017.png" width="480" alt="C017 切肉与备菜">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -280,7 +280,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C018 · 瓶塞与玻璃杯
 
-<img src="scene-cards-850/images/C018.png" width="480" alt="C018 瓶塞与玻璃杯">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C018.png" width="480" alt="C018 瓶塞与玻璃杯">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -296,7 +296,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C019 · 老式茶室礼貌点单
 
-<img src="scene-cards-850/images/C019.png" width="480" alt="C019 老式茶室礼貌点单">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C019.png" width="480" alt="C019 老式茶室礼貌点单">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -314,7 +314,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C020 · 餐后收拾
 
-<img src="scene-cards-850/images/C020.png" width="480" alt="C020 餐后收拾">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C020.png" width="480" alt="C020 餐后收拾">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -329,7 +329,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C021 · 出门穿衣
 
-<img src="scene-cards-850/images/C021.png" width="480" alt="C021 出门穿衣">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C021.png" width="480" alt="C021 出门穿衣">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -344,7 +344,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C022 · 门口换鞋
 
-<img src="scene-cards-850/images/C022.png" width="480" alt="C022 门口换鞋">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C022.png" width="480" alt="C022 门口换鞋">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -359,7 +359,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C023 · 布料店选材
 
-<img src="scene-cards-850/images/C023.png" width="480" alt="C023 布料店选材">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C023.png" width="480" alt="C023 布料店选材">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -375,7 +375,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C024 · 缝补一处破洞
 
-<img src="scene-cards-850/images/C024.png" width="480" alt="C024 缝补一处破洞">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C024.png" width="480" alt="C024 缝补一处破洞">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -391,7 +391,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C025 · 试衣镜前比较
 
-<img src="scene-cards-850/images/C025.png" width="480" alt="C025 试衣镜前比较">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C025.png" width="480" alt="C025 试衣镜前比较">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -407,7 +407,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C026 · 雨天走进商店
 
-<img src="scene-cards-850/images/C026.png" width="480" alt="C026 雨天走进商店">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C026.png" width="480" alt="C026 雨天走进商店">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -422,7 +422,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C027 · 买菜装篮子
 
-<img src="scene-cards-850/images/C027.png" width="480" alt="C027 买菜装篮子">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C027.png" width="480" alt="C027 买菜装篮子">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -436,7 +436,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C028 · 收银台算账
 
-<img src="scene-cards-850/images/C028.png" width="480" alt="C028 收银台算账">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C028.png" width="480" alt="C028 收银台算账">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -451,7 +451,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C029 · 礼物与首饰
 
-<img src="scene-cards-850/images/C029.png" width="480" alt="C029 礼物与首饰">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C029.png" width="480" alt="C029 礼物与首饰">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -466,7 +466,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C030 · 退换货的选择
 
-<img src="scene-cards-850/images/C030.png" width="480" alt="C030 退换货的选择">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C030.png" width="480" alt="C030 退换货的选择">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -482,7 +482,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C031 · 街角问路
 
-<img src="scene-cards-850/images/C031.png" width="480" alt="C031 街角问路">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C031.png" width="480" alt="C031 街角问路">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -497,7 +497,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C032 · 穿过一座桥
 
-<img src="scene-cards-850/images/C032.png" width="480" alt="C032 穿过一座桥">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C032.png" width="480" alt="C032 穿过一座桥">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -513,7 +513,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C033 · 车站准备出发
 
-<img src="scene-cards-850/images/C033.png" width="480" alt="C033 车站准备出发">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C033.png" width="480" alt="C033 车站准备出发">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -529,7 +529,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C034 · 驾驶与刹车
 
-<img src="scene-cards-850/images/C034.png" width="480" alt="C034 驾驶与刹车">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C034.png" width="480" alt="C034 驾驶与刹车">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -545,7 +545,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C035 · 进出与上下
 
-<img src="scene-cards-850/images/C035.png" width="480" alt="C035 进出与上下">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C035.png" width="480" alt="C035 进出与上下">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -562,7 +562,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C036 · 飞机飞过海岛
 
-<img src="scene-cards-850/images/C036.png" width="480" alt="C036 飞机飞过海岛">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C036.png" width="480" alt="C036 飞机飞过海岛">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -577,7 +577,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C037 · 港口启航
 
-<img src="scene-cards-850/images/C037.png" width="480" alt="C037 港口启航">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C037.png" width="480" alt="C037 港口启航">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -592,7 +592,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C038 · 酒店入住与位置
 
-<img src="scene-cards-850/images/C038.png" width="480" alt="C038 酒店入住与位置">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C038.png" width="480" alt="C038 酒店入住与位置">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -607,7 +607,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C039 · 山路转弯
 
-<img src="scene-cards-850/images/C039.png" width="480" alt="C039 山路转弯">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C039.png" width="480" alt="C039 山路转弯">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -622,7 +622,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C040 · 日历上的旅行
 
-<img src="scene-cards-850/images/C040.png" width="480" alt="C040 日历上的旅行">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C040.png" width="480" alt="C040 日历上的旅行">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -640,7 +640,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C041 · 公园里种树
 
-<img src="scene-cards-850/images/C041.png" width="480" alt="C041 公园里种树">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C041.png" width="480" alt="C041 公园里种树">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -656,7 +656,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C042 · 从种子到收成
 
-<img src="scene-cards-850/images/C042.png" width="480" alt="C042 从种子到收成">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C042.png" width="480" alt="C042 从种子到收成">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -671,7 +671,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C043 · 草地上的昆虫
 
-<img src="scene-cards-850/images/C043.png" width="480" alt="C043 草地上的昆虫">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C043.png" width="480" alt="C043 草地上的昆虫">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -686,7 +686,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C044 · 农场动物围栏
 
-<img src="scene-cards-850/images/C044.png" width="480" alt="C044 农场动物围栏">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C044.png" width="480" alt="C044 农场动物围栏">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -702,7 +702,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C045 · 自然观察小径
 
-<img src="scene-cards-850/images/C045.png" width="480" alt="C045 自然观察小径">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C045.png" width="480" alt="C045 自然观察小径">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -718,7 +718,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C046 · 溪边垂钓
 
-<img src="scene-cards-850/images/C046.png" width="480" alt="C046 溪边垂钓">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C046.png" width="480" alt="C046 溪边垂钓">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -733,7 +733,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C047 · 天气突然变化
 
-<img src="scene-cards-850/images/C047.png" width="480" alt="C047 天气突然变化">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C047.png" width="480" alt="C047 天气突然变化">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -747,7 +747,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C048 · 四季的公园
 
-<img src="scene-cards-850/images/C048.png" width="480" alt="C048 四季的公园">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C048.png" width="480" alt="C048 四季的公园">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -760,7 +760,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C049 · 阳光与阴影
 
-<img src="scene-cards-850/images/C049.png" width="480" alt="C049 阳光与阴影">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C049.png" width="480" alt="C049 阳光与阴影">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -773,7 +773,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C050 · 辨认东南西北
 
-<img src="scene-cards-850/images/C050.png" width="480" alt="C050 辨认东南西北">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C050.png" width="480" alt="C050 辨认东南西北">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -788,7 +788,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C051 · 镜前认识面部
 
-<img src="scene-cards-850/images/C051.png" width="480" alt="C051 镜前认识面部">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C051.png" width="480" alt="C051 镜前认识面部">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -804,7 +804,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C052 · 伸展身体
 
-<img src="scene-cards-850/images/C052.png" width="480" alt="C052 伸展身体">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C052.png" width="480" alt="C052 伸展身体">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -819,7 +819,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C053 · 理解身体内部
 
-<img src="scene-cards-850/images/C053.png" width="480" alt="C053 理解身体内部">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C053.png" width="480" alt="C053 理解身体内部">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -834,7 +834,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C054 · 牙科小检查
 
-<img src="scene-cards-850/images/C054.png" width="480" alt="C054 牙科小检查">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C054.png" width="480" alt="C054 牙科小检查">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -848,7 +848,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C055 · 感冒来就诊
 
-<img src="scene-cards-850/images/C055.png" width="480" alt="C055 感冒来就诊">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C055.png" width="480" alt="C055 感冒来就诊">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -863,7 +863,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C056 · 处理小伤口
 
-<img src="scene-cards-850/images/C056.png" width="480" alt="C056 处理小伤口">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C056.png" width="480" alt="C056 处理小伤口">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -878,7 +878,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C057 · 呼吸与消化
 
-<img src="scene-cards-850/images/C057.png" width="480" alt="C057 呼吸与消化">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C057.png" width="480" alt="C057 呼吸与消化">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -891,7 +891,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C058 · 球场上的运动
 
-<img src="scene-cards-850/images/C058.png" width="480" alt="C058 球场上的运动">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C058.png" width="480" alt="C058 球场上的运动">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -909,7 +909,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C059 · 泳池里的平衡
 
-<img src="scene-cards-850/images/C059.png" width="480" alt="C059 泳池里的平衡">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C059.png" width="480" alt="C059 泳池里的平衡">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -924,7 +924,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C060 · 情绪的几张脸
 
-<img src="scene-cards-850/images/C060.png" width="480" alt="C060 情绪的几张脸">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C060.png" width="480" alt="C060 情绪的几张脸">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -939,7 +939,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C061 · 课堂里的学习
 
-<img src="scene-cards-850/images/C061.png" width="480" alt="C061 课堂里的学习">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C061.png" width="480" alt="C061 课堂里的学习">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -954,7 +954,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C062 · 书桌上的文具
 
-<img src="scene-cards-850/images/C062.png" width="480" alt="C062 书桌上的文具">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C062.png" width="480" alt="C062 书桌上的文具">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -969,7 +969,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C063 · 图书馆选读物
 
-<img src="scene-cards-850/images/C063.png" width="480" alt="C063 图书馆选读物">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C063.png" width="480" alt="C063 图书馆选读物">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -985,7 +985,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C064 · 做题与纠错
 
-<img src="scene-cards-850/images/C064.png" width="480" alt="C064 做题与纠错">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C064.png" width="480" alt="C064 做题与纠错">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1000,7 +1000,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C065 · 手工几何图案
 
-<img src="scene-cards-850/images/C065.png" width="480" alt="C065 手工几何图案">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C065.png" width="480" alt="C065 手工几何图案">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1017,7 +1017,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C066 · 画室的小作品
 
-<img src="scene-cards-850/images/C066.png" width="480" alt="C066 画室的小作品">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C066.png" width="480" alt="C066 画室的小作品">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1033,7 +1033,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C067 · 舞台音乐排练
 
-<img src="scene-cards-850/images/C067.png" width="480" alt="C067 舞台音乐排练">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C067.png" width="480" alt="C067 舞台音乐排练">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1049,7 +1049,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C068 · 摄影与胶片记录
 
-<img src="scene-cards-850/images/C068.png" width="480" alt="C068 摄影与胶片记录">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C068.png" width="480" alt="C068 摄影与胶片记录">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1062,7 +1062,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C069 · 游园会小表演
 
-<img src="scene-cards-850/images/C069.png" width="480" alt="C069 游园会小表演">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C069.png" width="480" alt="C069 游园会小表演">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1078,7 +1078,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C070 · 安排学习进度
 
-<img src="scene-cards-850/images/C070.png" width="480" alt="C070 安排学习进度">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C070.png" width="480" alt="C070 安排学习进度">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1094,7 +1094,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C071 · 办公室开会
 
-<img src="scene-cards-850/images/C071.png" width="480" alt="C071 办公室开会">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C071.png" width="480" alt="C071 办公室开会">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1110,7 +1110,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C072 · 白板上的讨论
 
-<img src="scene-cards-850/images/C072.png" width="480" alt="C072 白板上的讨论">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C072.png" width="480" alt="C072 白板上的讨论">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1128,7 +1128,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C073 · 电子邮件与包裹
 
-<img src="scene-cards-850/images/C073.png" width="480" alt="C073 电子邮件与包裹">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C073.png" width="480" alt="C073 电子邮件与包裹">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1140,7 +1140,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C074 · 报刊摊与广告
 
-<img src="scene-cards-850/images/C074.png" width="480" alt="C074 报刊摊与广告">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C074.png" width="480" alt="C074 报刊摊与广告">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1154,7 +1154,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C075 · 向专家请教
 
-<img src="scene-cards-850/images/C075.png" width="480" alt="C075 向专家请教">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C075.png" width="480" alt="C075 向专家请教">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1169,7 +1169,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C076 · 创业小摊的账本
 
-<img src="scene-cards-850/images/C076.png" width="480" alt="C076 创业小摊的账本">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C076.png" width="480" alt="C076 创业小摊的账本">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1185,7 +1185,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C077 · 项目分工板
 
-<img src="scene-cards-850/images/C077.png" width="480" alt="C077 项目分工板">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C077.png" width="480" alt="C077 项目分工板">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1201,7 +1201,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C078 · 提交申请等回复
 
-<img src="scene-cards-850/images/C078.png" width="480" alt="C078 提交申请等回复">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C078.png" width="480" alt="C078 提交申请等回复">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1217,7 +1217,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C079 · 保护私人资料
 
-<img src="scene-cards-850/images/C079.png" width="480" alt="C079 保护私人资料">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C079.png" width="480" alt="C079 保护私人资料">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1232,7 +1232,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C080 · 日程先后顺序
 
-<img src="scene-cards-850/images/C080.png" width="480" alt="C080 日程先后顺序">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C080.png" width="480" alt="C080 日程先后顺序">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1248,7 +1248,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C081 · 修理一把木椅
 
-<img src="scene-cards-850/images/C081.png" width="480" alt="C081 修理一把木椅">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C081.png" width="480" alt="C081 修理一把木椅">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1265,7 +1265,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C082 · 搭建小砖屋
 
-<img src="scene-cards-850/images/C082.png" width="480" alt="C082 搭建小砖屋">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C082.png" width="480" alt="C082 搭建小砖屋">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1282,7 +1282,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C083 · 水管与水泵
 
-<img src="scene-cards-850/images/C083.png" width="480" alt="C083 水管与水泵">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C083.png" width="480" alt="C083 水管与水泵">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1297,7 +1297,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C084 · 电路里的连接
 
-<img src="scene-cards-850/images/C084.png" width="480" alt="C084 电路里的连接">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C084.png" width="480" alt="C084 电路里的连接">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1312,7 +1312,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C085 · 绳索和小机关
 
-<img src="scene-cards-850/images/C085.png" width="480" alt="C085 绳索和小机关">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C085.png" width="480" alt="C085 绳索和小机关">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1326,7 +1326,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C086 · 实验室的物质变化
 
-<img src="scene-cards-850/images/C086.png" width="480" alt="C086 实验室的物质变化">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C086.png" width="480" alt="C086 实验室的物质变化">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1342,7 +1342,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C087 · 量一量称一称
 
-<img src="scene-cards-850/images/C087.png" width="480" alt="C087 量一量称一称">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C087.png" width="480" alt="C087 量一量称一称">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1357,7 +1357,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C088 · 发现与发明
 
-<img src="scene-cards-850/images/C088.png" width="480" alt="C088 发现与发明">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C088.png" width="480" alt="C088 发现与发明">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1372,7 +1372,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C089 · 理解原因与结果
 
-<img src="scene-cards-850/images/C089.png" width="480" alt="C089 理解原因与结果">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C089.png" width="480" alt="C089 理解原因与结果">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1388,7 +1388,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C090 · 消防安全演练
 
-<img src="scene-cards-850/images/C090.png" width="480" alt="C090 消防安全演练">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C090.png" width="480" alt="C090 消防安全演练">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1403,7 +1403,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C091 · 认识彼此
 
-<img src="scene-cards-850/images/C091.png" width="480" alt="C091 认识彼此">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C091.png" width="480" alt="C091 认识彼此">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1421,7 +1421,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C092 · 朋友相伴的一天
 
-<img src="scene-cards-850/images/C092.png" width="480" alt="C092 朋友相伴的一天">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C092.png" width="480" alt="C092 朋友相伴的一天">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1437,7 +1437,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C093 · 城市规则与公共服务
 
-<img src="scene-cards-850/images/C093.png" width="480" alt="C093 城市规则与公共服务">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C093.png" width="480" alt="C093 城市规则与公共服务">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1453,7 +1453,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C094 · 历史馆里的战争展
 
-<img src="scene-cards-850/images/C094.png" width="480" alt="C094 历史馆里的战争展">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C094.png" width="480" alt="C094 历史馆里的战争展">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1471,7 +1471,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C095 · 法庭里的公正
 
-<img src="scene-cards-850/images/C095.png" width="480" alt="C095 法庭里的公正">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C095.png" width="480" alt="C095 法庭里的公正">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1486,7 +1486,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C096 · 挫折后再尝试
 
-<img src="scene-cards-850/images/C096.png" width="480" alt="C096 挫折后再尝试">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C096.png" width="480" alt="C096 挫折后再尝试">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1501,7 +1501,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C097 · 思考我是谁
 
-<img src="scene-cards-850/images/C097.png" width="480" alt="C097 思考我是谁">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C097.png" width="480" alt="C097 思考我是谁">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1516,7 +1516,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C098 · 指出这里和那里
 
-<img src="scene-cards-850/images/C098.png" width="480" alt="C098 指出这里和那里">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C098.png" width="480" alt="C098 指出这里和那里">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1533,7 +1533,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C099 · 数量与范围的小问题
 
-<img src="scene-cards-850/images/C099.png" width="480" alt="C099 数量与范围的小问题">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C099.png" width="480" alt="C099 数量与范围的小问题">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
@@ -1550,7 +1550,7 @@ Basic English 850 words 是一种基础英语词汇表，包含了850个常用�
 
 ### C100 · 一句话里的转折与条件
 
-<img src="scene-cards-850/images/C100.png" width="480" alt="C100 一句话里的转折与条件">
+<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/images/C100.png" width="480" alt="C100 一句话里的转折与条件">
 
 | 单词 | 中文 | 例句 |
 | --- | --- | --- |
