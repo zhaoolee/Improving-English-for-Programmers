@@ -1,0 +1,246 @@
+{
+  "id": "C100",
+  "chapter": "社会与表达",
+  "title": "一句话里的转折与条件",
+  "scene": "同一主角在晴天与雨天选择活动，用两到三幅连续场景及短对话表达 and、but、if、though、while。",
+  "target_count": 5,
+  "primary_words": [
+    "and",
+    "but",
+    "if",
+    "though",
+    "while"
+  ],
+  "targets": [
+    {
+      "word_id": "W021",
+      "word": "and",
+      "aliases": [],
+      "source_zh_unreviewed": "和；与",
+      "planned_mode": "context",
+      "sense_zh": "并且",
+      "pos": "conjunction",
+      "ipa_us": "/ænd/",
+      "ipa_uk": "/ænd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I go outside and walk when it is clear.",
+        "matched_form": "and",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I go outside and walk when it is clear.",
+      "example_zh": "天气晴朗时，我出门并散步。",
+      "bbox_normalized": null,
+      "collocations": [
+        "read and rest",
+        "walk and talk"
+      ],
+      "example_en_highlighted": "I go outside **and** walk when it is clear.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W107",
+      "word": "but",
+      "aliases": [],
+      "source_zh_unreviewed": "但是",
+      "planned_mode": "context",
+      "sense_zh": "但是",
+      "pos": "conjunction",
+      "ipa_us": "/bʌt/",
+      "ipa_uk": "/bʌt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I want to walk, but it is raining in the first scene.",
+        "matched_form": "but",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I want to walk, but it is raining in the first scene.",
+      "example_zh": "我想散步，但是第一个场景中正在下雨。",
+      "bbox_normalized": null,
+      "collocations": [
+        "but now",
+        "but it rains"
+      ],
+      "example_en_highlighted": "I want to walk, **but** it is raining in the first scene.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W354",
+      "word": "if",
+      "aliases": [],
+      "source_zh_unreviewed": "如果",
+      "planned_mode": "context",
+      "sense_zh": "如果",
+      "pos": "conjunction",
+      "ipa_us": "/ɪf/",
+      "ipa_uk": "/ɪf/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "If it rains, I read indoors.",
+        "matched_form": "if",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "If it rains, I read indoors.",
+      "example_zh": "如果下雨，我就在室内读书。",
+      "bbox_normalized": null,
+      "collocations": [
+        "if it rains",
+        "if possible"
+      ],
+      "example_en_highlighted": "**If** it rains, I read indoors.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W754",
+      "word": "though",
+      "aliases": [],
+      "source_zh_unreviewed": "虽然",
+      "planned_mode": "context",
+      "sense_zh": "虽然",
+      "pos": "conjunction",
+      "ipa_us": "/ðoʊ/",
+      "ipa_uk": "/ðəʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Though it is raining, I enjoy my book.",
+        "matched_form": "though",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Though it is raining, I enjoy my book.",
+      "example_zh": "虽然正在下雨，我仍享受读书。",
+      "bbox_normalized": null,
+      "collocations": [
+        "though it rains",
+        "though small"
+      ],
+      "example_en_highlighted": "**Though** it is raining, I enjoy my book.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W820",
+      "word": "while",
+      "aliases": [],
+      "source_zh_unreviewed": "当...的时候",
+      "planned_mode": "context",
+      "sense_zh": "当……时",
+      "pos": "conjunction",
+      "ipa_us": "/waɪl/",
+      "ipa_uk": "/waɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I stay indoors while the rain falls.",
+        "matched_form": "while",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I stay indoors while the rain falls.",
+      "example_zh": "下雨时，我待在室内。",
+      "bbox_normalized": null,
+      "collocations": [
+        "while I read",
+        "while it rains"
+      ],
+      "example_en_highlighted": "I stay indoors **while** the rain falls.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "If it rains, I read indoors; but when it clears, I go outside and walk.",
+    "zh": "如果下雨，我就在室内读书；天气放晴时，我就出门散步。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C100\n标题 一句话里的转折与条件\n场景 同一主角在晴天与雨天选择活动，用两到三幅连续场景及短对话表达 and、but、if、though、while。\n目标词 and, but, if, though, while\n原创主配文草案 If it rains, I stay in; but if it is clear, I go out.\n中文草案 如果下雨，我就待在室内；如果天气晴朗，我就出门。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Exactly two vertically stacked photographic panels, same adult woman. Upper sitting indoors with open book beside rain-speckled window, lower walking on sunlit garden path after rain with matching modest cardigan. Cool Korean refined travel/lifestyle portrait, real skin and hands, no text, labels or symbolic words. Clearly different activities and weather; conditional and contrast meaning only in later original sentences.",
+  "status": "approved",
+  "image_path": "images/C100.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 5,
+    "content_entries_complete": 5,
+    "sentence_evidence_complete": 5,
+    "verified_targets": 5,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C100 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:19:16 UTC",
+    "prompt_path": "prompts/C100_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C100.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅雨窗室内阅读，下幅雨后庭院步行，保持同一故事角色；五连词全部句子，不把天气当连词框。"
+  }
+}

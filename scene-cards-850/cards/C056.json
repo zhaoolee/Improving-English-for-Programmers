@@ -1,0 +1,364 @@
+{
+  "id": "C056",
+  "chapter": "身体与健康",
+  "title": "处理小伤口",
+  "scene": "医护人员包扎小伤，血与伤口采用温和教学图，病人神志清醒。",
+  "target_count": 8,
+  "primary_words": [
+    "wound",
+    "blood",
+    "operation",
+    "conscious",
+    "physical",
+    "serious",
+    "help",
+    "safe"
+  ],
+  "targets": [
+    {
+      "word_id": "W842",
+      "word": "wound",
+      "aliases": [],
+      "source_zh_unreviewed": "伤口",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "伤口",
+      "pos": "noun",
+      "ipa_us": "/wuːnd/",
+      "ipa_uk": "/wuːnd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前臂微小红点伤口，框选这一局部，非整条手臂。",
+        "sentence": "There is a small wound on my arm.",
+        "matched_form": "wound",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "There is a small wound on my arm.",
+      "example_zh": "我的手臂上有一个小伤口。",
+      "bbox_normalized": [
+        0.439,
+        0.676,
+        0.472,
+        0.699
+      ],
+      "collocations": [
+        "a small wound"
+      ],
+      "example_en_highlighted": "There is a small **wound** on my arm.",
+      "annotation_mode": "object",
+      "annotation_note": "前臂微小红点伤口，框选这一局部，非整条手臂。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W075",
+      "word": "blood",
+      "aliases": [],
+      "source_zh_unreviewed": "血",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "血",
+      "pos": "noun",
+      "ipa_us": "/blʌd/",
+      "ipa_uk": "/blʌd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "纱布上的小红点由故事说明为血，非材料检测。",
+        "sentence": "A drop of blood marks the gauze.",
+        "matched_form": "blood",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A drop of blood marks the gauze.",
+      "example_zh": "一滴血在纱布上留下痕迹。",
+      "bbox_normalized": [
+        0.731,
+        0.855,
+        0.763,
+        0.875
+      ],
+      "collocations": [
+        "a drop of blood"
+      ],
+      "example_en_highlighted": "A drop of **blood** marks the gauze.",
+      "annotation_mode": "object",
+      "annotation_note": "纱布上的小红点由故事说明为血，非材料检测。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W496",
+      "word": "operation",
+      "aliases": [],
+      "source_zh_unreviewed": "操作；手术",
+      "planned_mode": "context",
+      "sense_zh": "手术",
+      "pos": "noun",
+      "ipa_us": "/ˌɑːpəˈreɪʃən/",
+      "ipa_uk": "/ˌɒpəˈreɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The doctor says this wound does not need an operation.",
+        "matched_form": "operation",
+        "referent_region_verified": false,
+        "context": "包扎不冒充手术，判断仅为虚构故事台词。",
+        "image_verified": null
+      },
+      "example_en": "The doctor says this wound does not need an operation.",
+      "example_zh": "医生说这个伤口不需要手术。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an operation"
+      ],
+      "example_en_highlighted": "The doctor says this wound does not need an **operation**.",
+      "annotation_mode": "context",
+      "annotation_note": "包扎不冒充手术，判断仅为虚构故事台词。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W155",
+      "word": "conscious",
+      "aliases": [],
+      "source_zh_unreviewed": "有意识的",
+      "planned_mode": "context",
+      "sense_zh": "神志清醒的",
+      "pos": "adjective",
+      "ipa_us": "/ˈkɑːnʃəs/",
+      "ipa_uk": "/ˈkɒnʃəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I remain conscious and answer the nurse.",
+        "matched_form": "conscious",
+        "referent_region_verified": false,
+        "context": "清醒状态由故事明确，不仅按睁眼判断。",
+        "image_verified": null
+      },
+      "example_en": "I remain conscious and answer the nurse.",
+      "example_zh": "我保持清醒，回答护士的话。",
+      "bbox_normalized": null,
+      "collocations": [
+        "remain conscious"
+      ],
+      "example_en_highlighted": "I remain **conscious** and answer the nurse.",
+      "annotation_mode": "context",
+      "annotation_note": "清醒状态由故事明确，不仅按睁眼判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W523",
+      "word": "physical",
+      "aliases": [],
+      "source_zh_unreviewed": "物理的；身体的",
+      "planned_mode": "context",
+      "sense_zh": "身体的",
+      "pos": "adjective",
+      "ipa_us": "/ˈfɪzɪkəl/",
+      "ipa_uk": "/ˈfɪzɪkəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The wound causes physical discomfort.",
+        "matched_form": "physical",
+        "referent_region_verified": false,
+        "context": "physical与不适搭配，由完整句子支持。",
+        "image_verified": null
+      },
+      "example_en": "The wound causes physical discomfort.",
+      "example_zh": "这个伤口带来身体不适。",
+      "bbox_normalized": null,
+      "collocations": [
+        "physical discomfort"
+      ],
+      "example_en_highlighted": "The wound causes **physical** discomfort.",
+      "annotation_mode": "context",
+      "annotation_note": "physical与不适搭配，由完整句子支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W637",
+      "word": "serious",
+      "aliases": [],
+      "source_zh_unreviewed": "严肃的",
+      "planned_mode": "context",
+      "sense_zh": "严重的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsɪriəs/",
+      "ipa_uk": "/ˈsɪəriəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The nurse says the injury is not serious.",
+        "matched_form": "serious",
+        "referent_region_verified": false,
+        "context": "不用表面图进行真实伤情分级。",
+        "image_verified": null
+      },
+      "example_en": "The nurse says the injury is not serious.",
+      "example_zh": "护士说这次受伤并不严重。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a serious injury"
+      ],
+      "example_en_highlighted": "The nurse says the injury is not **serious**.",
+      "annotation_mode": "context",
+      "annotation_note": "不用表面图进行真实伤情分级。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W336",
+      "word": "help",
+      "aliases": [],
+      "source_zh_unreviewed": "帮助",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "帮助",
+      "pos": "verb",
+      "ipa_us": "/help/",
+      "ipa_uk": "/help/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际护理协助动作的手部区域。",
+        "sentence": "The nurse helps me with the dressing.",
+        "matched_form": "helps",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The nurse helps me with the dressing.",
+      "example_zh": "护士帮我处理敷料。",
+      "bbox_normalized": [
+        0.457,
+        0.583,
+        0.8,
+        0.795
+      ],
+      "collocations": [
+        "help me"
+      ],
+      "example_en_highlighted": "The nurse **helps** me with the dressing.",
+      "annotation_mode": "action",
+      "annotation_note": "实际护理协助动作的手部区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W613",
+      "word": "safe",
+      "aliases": [],
+      "source_zh_unreviewed": "安全的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "安全的",
+      "pos": "adjective",
+      "ipa_us": "/seɪf/",
+      "ipa_uk": "/seɪf/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel safe while the nurse helps me.",
+        "matched_form": "safe",
+        "referent_region_verified": false,
+        "context": "主观安全感由句子说明，不构成医学保证。",
+        "image_verified": null
+      },
+      "example_en": "I feel safe while the nurse helps me.",
+      "example_zh": "护士帮助我时，我感觉安心。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel safe"
+      ],
+      "example_en_highlighted": "I feel **safe** while the nurse helps me.",
+      "annotation_mode": "context",
+      "annotation_note": "主观安全感由句子说明，不构成医学保证。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A small wound on my arm needs care, and someone is here to help.",
+    "zh": "手臂上的小伤口需要照料，有人正在帮我。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "wound 在伤口义中的发音需要单独复核；画面采用温和教学示意。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C056\n标题 处理小伤口\n场景 医护人员包扎小伤，血与伤口采用温和教学图，病人神志清醒。\n目标词 wound, blood, operation, conscious, physical, serious, help, safe\n原创主配文草案 The wound is serious, but help is here.\n中文草案 伤口严重，但帮助已经到来。\n编辑注意 wound 在伤口义中的发音需要单独复核；画面采用温和教学示意。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Non-graphic calm clinic editorial: dressed woman seated at left with forearm gently resting on table while female clinician in pale coat applies a clean small dressing, hands anatomically natural. A tiny superficial scratch with ONE pinhead-sized red dot visible near dressing, no open wound gore. A small clean gauze pad with a tiny red spot lies separately on tray so blood cue is discernible. Caring neutral expression, no surgical scene, no needles; caption will explain hypothetical operation and subjective states separately.",
+  "status": "approved",
+  "image_path": "images/C056.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C056 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T14:59:59Z",
+    "prompt_path": "prompts/C056_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C056.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "前臂可见针尖大小红点与微小伤口，托盘纱布有独立血点；护士贴敷动作清楚，未画手术，operation例句为不需要手术。"
+  }
+}

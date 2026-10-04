@@ -1,0 +1,335 @@
+C072  白板上的讨论
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C072.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C072.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:35:27 UTC
+  提示词文件: prompts/C072_image_final.txt
+
+场景: 两位同事在白板前交换意见，从争论走向建议和决定。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 左侧女子持笔张手说话，右侧女子倾听，手部可信；白板无字不解释成实际计划，具体观点决定与问句由配文说明。
+
+主配文:
+  英文: We talk about the problem, share an opinion, and agree on the next step.
+  中文: 我们谈论这个问题，分享看法，并商定下一步。
+  类型: original | 来源: None | 状态: final
+
+目标词 (11): discussion, opinion, argument, suggestion, decision, agreement, talk, say, about, why, how
+
+------------------------------------------------------------------------
+[1/11] discussion  (W203)
+  词义: 讨论
+  词性: noun
+  音标: UK /dɪˈskʌʃən/ | US /dɪˈskʌʃən/
+  搭配: a useful discussion; have a discussion
+  例句: We have a discussion about the problem.
+  例句高亮: We have a **discussion** about the problem.
+  例句中文: 我们讨论这个问题。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（讨论），待最终图确认。
+  坐标(normalized): [0.112, 0.256, 0.996, 0.722]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "面对面手势与倾听构成讨论场景，议题由故事指定。"
+    sentence: "We have a discussion about the problem."
+    matched_form: "discussion"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 讨论
+
+------------------------------------------------------------------------
+[2/11] opinion  (W497)
+  词义: 看法
+  词性: noun
+  音标: UK /əˈpɪnjən/ | US /əˈpɪnjən/
+  搭配: share an opinion; in my opinion
+  例句: I share my opinion with my colleague.
+  例句高亮: I share my **opinion** with my colleague.
+  例句中文: 我和同事分享我的看法。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I share my opinion with my colleague.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I share my opinion with my colleague."
+    matched_form: "opinion"
+    context: "由原创例句给出的语境：I share my opinion with my colleague.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 意见
+
+------------------------------------------------------------------------
+[3/11] argument  (W032)
+  词义: 争论
+  词性: noun
+  音标: UK /ˈɑːɡjəmənt/ | US /ˈɑːrɡjəmənt/
+  搭配: an argument about; avoid an argument
+  例句: We avoid an argument and listen carefully.
+  例句高亮: We avoid an **argument** and listen carefully.
+  例句中文: 我们避免争论，认真倾听。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We avoid an argument and listen carefully.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We avoid an argument and listen carefully."
+    matched_form: "argument"
+    context: "由原创例句给出的语境：We avoid an argument and listen carefully.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 争论；论点
+
+------------------------------------------------------------------------
+[4/11] suggestion  (W726)
+  词义: 建议
+  词性: noun
+  音标: UK /səˈdʒestʃən/ | US /səˈdʒestʃən/
+  搭配: make a suggestion; a helpful suggestion
+  例句: Her suggestion is to try a smaller step.
+  例句高亮: Her **suggestion** is to try a smaller step.
+  例句中文: 她的建议是先尝试一个较小的步骤。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Her suggestion is to try a smaller step.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Her suggestion is to try a smaller step."
+    matched_form: "suggestion"
+    context: "由原创例句给出的语境：Her suggestion is to try a smaller step.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 建议
+
+------------------------------------------------------------------------
+[5/11] decision  (W188)
+  词义: 决定
+  词性: noun
+  音标: UK /dɪˈsɪʒən/ | US /dɪˈsɪʒən/
+  搭配: make a decision; a shared decision
+  例句: We make a decision together.
+  例句高亮: We make a **decision** together.
+  例句中文: 我们一起作出决定。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We make a decision together.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We make a decision together."
+    matched_form: "decision"
+    context: "由原创例句给出的语境：We make a decision together.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 决定
+
+------------------------------------------------------------------------
+[6/11] agreement  (W014)
+  词义: 一致意见
+  词性: noun
+  音标: UK /əˈɡriːmənt/ | US /əˈɡriːmənt/
+  搭配: reach agreement; in agreement
+  例句: We reach agreement on the next step.
+  例句高亮: We reach **agreement** on the next step.
+  例句中文: 我们就下一步达成一致。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We reach agreement on the next step.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We reach agreement on the next step."
+    matched_form: "agreement"
+    context: "由原创例句给出的语境：We reach agreement on the next step.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 协议；一致
+
+------------------------------------------------------------------------
+[7/11] talk  (W737)
+  词义: 交谈
+  词性: verb
+  音标: UK /tɔːk/ | US /tɔːk/
+  搭配: talk about; talk with
+  例句: We talk beside the whiteboard.
+  例句高亮: We **talk** beside the whiteboard.
+  例句中文: 我们在白板旁交谈。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（交谈），待最终图确认。
+  坐标(normalized): [0.145, 0.471, 0.609, 0.663]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左女子开口与张手交流的姿势，交谈由句子明示。"
+    sentence: "We talk beside the whiteboard."
+    matched_form: "talk"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 说话
+
+------------------------------------------------------------------------
+[8/11] say  (W618)
+  词义: 说
+  词性: verb
+  音标: UK /seɪ/ | US /seɪ/
+  搭配: say something; say why
+  例句: I say why I prefer this plan.
+  例句高亮: I **say** why I prefer this plan.
+  例句中文: 我说出偏好这个计划的原因。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I say why I prefer this plan.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I say why I prefer this plan."
+    matched_form: "say"
+    context: "由原创例句给出的语境：I say why I prefer this plan.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 说
+
+------------------------------------------------------------------------
+[9/11] about  (W003)
+  词义: 关于
+  词性: preposition
+  音标: UK /əˈbaʊt/ | US /əˈbaʊt/
+  搭配: talk about; think about
+  例句: We talk about the new plan.
+  例句高亮: We talk **about** the new plan.
+  例句中文: 我们谈论这个新计划。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We talk about the new plan.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We talk about the new plan."
+    matched_form: "about"
+    context: "由原创例句给出的语境：We talk about the new plan.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 关于；大约
+
+------------------------------------------------------------------------
+[10/11] why  (W825)
+  词义: 为什么
+  词性: adverb
+  音标: UK /waɪ/ | US /waɪ/
+  搭配: ask why; explain why
+  例句: Why should we try this plan?
+  例句高亮: **Why** should we try this plan?
+  例句中文: 我们为什么要尝试这个计划？
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Why should we try this plan?；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Why should we try this plan?"
+    matched_form: "why"
+    context: "由原创例句给出的语境：Why should we try this plan?；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 为什么
+
+------------------------------------------------------------------------
+[11/11] how  (W349)
+  词义: 怎样
+  词性: adverb
+  音标: UK /haʊ/ | US /haʊ/
+  搭配: ask how; explain how
+  例句: How can we make the plan simpler?
+  例句高亮: **How** can we make the plan simpler?
+  例句中文: 我们怎样能让这个计划更简单？
+  标注模式: context
+  标注说明: 由原创例句给出的语境：How can we make the plan simpler?；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "How can we make the plan simpler?"
+    matched_form: "how"
+    context: "由原创例句给出的语境：How can we make the plan simpler?；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 如何
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 11
+  content_entries_complete: 11
+  sentence_evidence_complete: 11
+  verified_targets: 11
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 9
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C072 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two adult female colleagues beside blank whiteboard with only simple arrow and unlabelled shapes, main woman open hand speaking, friend thoughtfully listening, marker tray. Cool daylight polished office candid, no writing letters numbers or UI, no visible aggression. Conversation exchange real, negative space around edges.

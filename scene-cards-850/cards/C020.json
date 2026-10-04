@@ -1,0 +1,366 @@
+{
+  "id": "C020",
+  "chapter": "食物与用餐",
+  "title": "餐后收拾",
+  "scene": "主角收集剩食，食物容器有盖，少量汤滴落，展示避免浪费。",
+  "target_count": 8,
+  "primary_words": [
+    "waste",
+    "cover",
+    "vessel",
+    "drop",
+    "bit",
+    "last",
+    "end",
+    "because"
+  ],
+  "targets": [
+    {
+      "word_id": "W805",
+      "word": "waste",
+      "aliases": [],
+      "source_zh_unreviewed": "浪费",
+      "planned_mode": "context",
+      "sense_zh": "浪费",
+      "pos": "verb",
+      "ipa_us": "/weɪst/",
+      "ipa_uk": "/weɪst/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I do not waste food.",
+        "matched_form": "waste",
+        "context": "保存剩食的故事与否定例句",
+        "image_verified": null
+      },
+      "example_en": "I do not waste food.",
+      "example_zh": "我不浪费食物。",
+      "bbox_normalized": null,
+      "collocations": [
+        "waste food"
+      ],
+      "example_en_highlighted": "I do not **waste** food.",
+      "annotation_mode": "context",
+      "annotation_note": "保存剩食的故事与否定例句",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W165",
+      "word": "cover",
+      "aliases": [],
+      "source_zh_unreviewed": "覆盖",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "盖子",
+      "pos": "noun",
+      "ipa_us": "/ˈkʌvər/",
+      "ipa_uk": "/ˈkʌvə/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "手中圆形容器盖，采用名词义",
+        "sentence": "The cover fits the vessel.",
+        "matched_form": "cover",
+        "image_verified": true
+      },
+      "example_en": "The cover fits the vessel.",
+      "example_zh": "盖子与容器相配。",
+      "bbox_normalized": [
+        0.338,
+        0.548,
+        0.594,
+        0.665
+      ],
+      "collocations": [
+        "a bowl cover"
+      ],
+      "example_en_highlighted": "The **cover** fits the vessel.",
+      "annotation_mode": "object",
+      "annotation_note": "手中圆形容器盖，采用名词义",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W795",
+      "word": "vessel",
+      "aliases": [],
+      "source_zh_unreviewed": "容器",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "容器",
+      "pos": "noun",
+      "ipa_us": "/ˈvesəl/",
+      "ipa_uk": "/ˈvesəl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "前景盛汤的瓷制容器；此处正式用语容器义，不是船",
+        "sentence": "The vessel holds the soup.",
+        "matched_form": "vessel",
+        "image_verified": true
+      },
+      "example_en": "The vessel holds the soup.",
+      "example_zh": "容器里装着汤。",
+      "bbox_normalized": [
+        0.377,
+        0.669,
+        0.655,
+        0.837
+      ],
+      "collocations": [
+        "a food vessel"
+      ],
+      "example_en_highlighted": "The **vessel** holds the soup.",
+      "annotation_mode": "object",
+      "annotation_note": "前景盛汤的瓷制容器；此处正式用语容器义，不是船",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W219",
+      "word": "drop",
+      "aliases": [],
+      "source_zh_unreviewed": "掉落",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "一滴",
+      "pos": "noun",
+      "ipa_us": "/drɑːp/",
+      "ipa_uk": "/drɒp/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "勺子托碟上的独立小汤滴",
+        "sentence": "A drop of soup is on the saucer.",
+        "matched_form": "drop",
+        "image_verified": true
+      },
+      "example_en": "A drop of soup is on the saucer.",
+      "example_zh": "托碟上有一滴汤。",
+      "bbox_normalized": [
+        0.827,
+        0.822,
+        0.857,
+        0.835
+      ],
+      "collocations": [
+        "a drop of soup"
+      ],
+      "example_en_highlighted": "A **drop** of soup is on the saucer.",
+      "annotation_mode": "object",
+      "annotation_note": "勺子托碟上的独立小汤滴",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W070",
+      "word": "bit",
+      "aliases": [],
+      "source_zh_unreviewed": "一点儿；一些",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "少量",
+      "pos": "noun",
+      "ipa_us": "/bɪt/",
+      "ipa_uk": "/bɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+        "sentence": "I save a bit of food for tomorrow.",
+        "matched_form": "bit",
+        "context": "名词少量，由a bit of结构说明",
+        "image_verified": null
+      },
+      "example_en": "I save a bit of food for tomorrow.",
+      "example_zh": "我留一点食物明天吃。",
+      "bbox_normalized": [
+        0.164,
+        0.758,
+        0.266,
+        0.803
+      ],
+      "collocations": [
+        "a bit of food"
+      ],
+      "example_en_highlighted": "I save a **bit** of food for tomorrow.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W387",
+      "word": "last",
+      "aliases": [],
+      "source_zh_unreviewed": "最后的；持续的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "最后的",
+      "pos": "adjective",
+      "ipa_us": "/læst/",
+      "ipa_uk": "/lɑːst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+        "sentence": "This is the last piece of bread.",
+        "matched_form": "last",
+        "context": "最后这一顺序由场景设定说明",
+        "image_verified": null
+      },
+      "example_en": "This is the last piece of bread.",
+      "example_zh": "这是最后一块面包。",
+      "bbox_normalized": [
+        0.164,
+        0.758,
+        0.266,
+        0.803
+      ],
+      "collocations": [
+        "the last piece"
+      ],
+      "example_en_highlighted": "This is the **last** piece of bread.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W232",
+      "word": "end",
+      "aliases": [],
+      "source_zh_unreviewed": "结束；末尾",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "结束",
+      "pos": "noun",
+      "ipa_us": "/end/",
+      "ipa_uk": "/end/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I clear the table at the end of the meal.",
+        "matched_form": "end",
+        "context": "名词结束，由餐后叙述说明",
+        "image_verified": null
+      },
+      "example_en": "I clear the table at the end of the meal.",
+      "example_zh": "用餐结束时我收拾餐桌。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the end of a meal"
+      ],
+      "example_en_highlighted": "I clear the table at the **end** of the meal.",
+      "annotation_mode": "context",
+      "annotation_note": "名词结束，由餐后叙述说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W058",
+      "word": "because",
+      "aliases": [],
+      "source_zh_unreviewed": "因为",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "因为",
+      "pos": "conjunction",
+      "ipa_us": "/bɪˈkɔːz/",
+      "ipa_uk": "/bɪˈkɒz/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I cover the food because we need it tomorrow.",
+        "matched_form": "because",
+        "context": "引导原因从句的连词，无独立可见物体",
+        "image_verified": null
+      },
+      "example_en": "I cover the food because we need it tomorrow.",
+      "example_zh": "我把食物盖好，因为我们明天还需要它。",
+      "bbox_normalized": null,
+      "collocations": [
+        "because we need it"
+      ],
+      "example_en_highlighted": "I cover the food **because** we need it tomorrow.",
+      "annotation_mode": "context",
+      "annotation_note": "引导原因从句的连词，无独立可见物体",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I cover the last bit of food because tomorrow is another day.",
+    "zh": "我把最后一点食物盖好，因为明天又是新的一天。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C020\n标题 餐后收拾\n场景 主角收集剩食，食物容器有盖，少量汤滴落，展示避免浪费。\n目标词 waste, cover, vessel, drop, bit, last, end, because\n原创主配文草案 Keep the food covered because we need it tomorrow.\n中文草案 把食物盖好，因为我们明天还需要它。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Refined cool home dining room after a meal. Woman at center gently placing a round ceramic LID onto a matching round FOOD STORAGE VESSEL on table front-center; lid held clearly separate tilted above container, only one lid, coherent hands. Vessel contains a small portion of leftover vegetable soup. Small plate with a last tiny piece of bread at left. Metal spoon resting on small saucer at right with one small drop of soup on saucer. No garbage, no trash bin. Saving leftovers, real porcelain, linen and food textures, elegant daylight.",
+  "status": "approved",
+  "image_path": "images/C020.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C020 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T22:54:39Z",
+    "ended_at": "2026-10-02T22:58:34Z",
+    "prompt_path": "prompts/C020_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C020.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "独立圆盖、盛汤容器、小块面包及托碟上一滴汤均清楚；双手自然，盖子尚未盖合，动作与保存剩食主题一致。last/end/because等依原创叙述，均无虚假框。"
+  }
+}

@@ -1,0 +1,280 @@
+C086  实验室的物质变化
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C086.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C086.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:02:09 UTC
+  提示词文件: prompts/C086_image_final.txt
+
+场景: 封闭安全演示台，酸、化学物质、粉末及带毒性警示的封存样品清楚；剖面示意膨胀与反应，旁白解释科学理论。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 五种封存展示样品清楚，深色瓶有警示图形；物质成分教学设定，不把图生背景细字当来源。
+
+主配文:
+  英文: We examine sealed samples and discuss a reaction, its cause, and the theory behind it.
+  中文: 我们观察封存的样品，讨论反应、它的起因及背后的理论。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): acid, chemical, powder, substance, expansion, reaction, science, theory, poison
+
+------------------------------------------------------------------------
+[1/9] acid  (W005)
+  词义: 酸
+  词性: noun
+  音标: UK /ˈæsɪd/ | US /ˈæsɪd/
+  搭配: an acid sample; a weak acid
+  例句: The clear bottle holds the sealed acid sample in our lesson.
+  例句高亮: The clear bottle holds the sealed **acid** sample in our lesson.
+  例句中文: 本课中，透明瓶装着封存的酸样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（酸），待最终图确认。
+  坐标(normalized): [0.066, 0.688, 0.161, 0.861]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左边封存透明液体瓶，故事指定酸样品。"
+    sentence: "The clear bottle holds the sealed acid sample in our lesson."
+    matched_form: "acid"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 酸；酸性的
+
+------------------------------------------------------------------------
+[2/9] chemical  (W127)
+  词义: 化学物质
+  词性: noun
+  音标: UK /ˈkemɪkəl/ | US /ˈkemɪkəl/
+  搭配: a chemical sample; a sealed chemical
+  例句: The amber bottle holds a chemical sample in the story.
+  例句高亮: The amber bottle holds a **chemical** sample in the story.
+  例句中文: 故事中，棕色瓶装着化学物质样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（化学物质），待最终图确认。
+  坐标(normalized): [0.195, 0.704, 0.285, 0.859]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧棕色样品瓶，故事指定化学物质。"
+    sentence: "The amber bottle holds a chemical sample in the story."
+    matched_form: "chemical"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 化学的；化学物质
+
+------------------------------------------------------------------------
+[3/9] powder  (W547)
+  词义: 粉末
+  词性: noun
+  音标: UK /ˈpaʊdə/ | US /ˈpaʊdɚ/
+  搭配: white powder; a jar of powder
+  例句: White powder is sealed inside the jar.
+  例句高亮: White **powder** is sealed inside the jar.
+  例句中文: 白色粉末封存在罐子里。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（粉末），待最终图确认。
+  坐标(normalized): [0.285, 0.739, 0.446, 0.922]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景白粉玻璃罐。"
+    sentence: "White powder is sealed inside the jar."
+    matched_form: "powder"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 粉末；火药
+
+------------------------------------------------------------------------
+[4/9] substance  (W722)
+  词义: 物质
+  词性: noun
+  音标: UK /ˈsʌbstəns/ | US /ˈsʌbstəns/
+  搭配: a solid substance; a sample substance
+  例句: The solid substance is displayed under glass.
+  例句高亮: The solid **substance** is displayed under glass.
+  例句中文: 这种固体物质陈列在玻璃罩下。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（物质），待最终图确认。
+  坐标(normalized): [0.576, 0.716, 0.737, 0.834]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中间玻璃罩下固体结晶样品。"
+    sentence: "The solid substance is displayed under glass."
+    matched_form: "substance"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 物质
+
+------------------------------------------------------------------------
+[5/9] expansion  (W244)
+  词义: 膨胀
+  词性: noun
+  音标: UK /ɪkˈspænʃən/ | US /ɪkˈspænʃən/
+  搭配: thermal expansion; expansion of a gas
+  例句: Our lesson explains the expansion of a gas when it is heated.
+  例句高亮: Our lesson explains the **expansion** of a gas when it is heated.
+  例句中文: 本课解释气体受热时的膨胀。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Our lesson explains the expansion of a gas when it is heated."
+    matched_form: "expansion"
+    context: "由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 扩张；膨胀
+
+------------------------------------------------------------------------
+[6/9] reaction  (W579)
+  词义: 反应
+  词性: noun
+  音标: UK /riˈækʃən/ | US /riˈækʃən/
+  搭配: a chemical reaction; observe a reaction
+  例句: We discuss a chemical reaction without opening the samples.
+  例句高亮: We discuss a chemical **reaction** without opening the samples.
+  例句中文: 我们不打开样品，只讨论化学反应。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We discuss a chemical reaction without opening the samples."
+    matched_form: "reaction"
+    context: "由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 反应；反作用
+
+------------------------------------------------------------------------
+[7/9] science  (W621)
+  词义: 科学
+  词性: noun
+  音标: UK /ˈsaɪəns/ | US /ˈsaɪəns/
+  搭配: study science; a science lesson
+  例句: Science helps us ask questions about these substances.
+  例句高亮: **Science** helps us ask questions about these substances.
+  例句中文: 科学帮助我们就这些物质提出问题。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Science helps us ask questions about these substances."
+    matched_form: "science"
+    context: "由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 科学
+
+------------------------------------------------------------------------
+[8/9] theory  (W748)
+  词义: 理论
+  词性: noun
+  音标: UK /ˈθɪəri/ | US /ˈθɪri/
+  搭配: a scientific theory; test a theory
+  例句: A theory can explain results and make predictions.
+  例句高亮: A **theory** can explain results and make predictions.
+  例句中文: 理论可以解释结果并作出预测。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A theory can explain results and make predictions."
+    matched_form: "theory"
+    context: "由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 理论
+
+------------------------------------------------------------------------
+[9/9] poison  (W538)
+  词义: 毒物
+  词性: noun
+  音标: UK /ˈpɔɪzən/ | US /ˈpɔɪzən/
+  搭配: a poison sample; keep poison sealed
+  例句: The dark bottle represents poison in this teaching display.
+  例句高亮: The dark bottle represents **poison** in this teaching display.
+  例句中文: 深色瓶在这个教学展示中代表毒物。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（毒物），待最终图确认。
+  坐标(normalized): [0.83, 0.65, 0.956, 0.885]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧有警示的深瓶，故事明确代表毒物。"
+    sentence: "The dark bottle represents poison in this teaching display."
+    matched_form: "poison"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 毒药；毒害
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 5
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C086 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman in a modest lab coat at a museum chemistry teaching display. All samples sealed on a tidy cool grey tabletop: small clear bottle holding transparent liquid on left, second amber sample bottle, glass jar of white powder foreground, solid crystalline sample under glass, separate sealed dark bottle behind a transparent cover with a simple skull pictogram and no letters. No mixing, no instructions, no readable formulas. Realistic materials and hands, premium cool Korean editorial portrait.

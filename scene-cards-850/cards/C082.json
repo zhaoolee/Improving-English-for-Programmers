@@ -1,0 +1,472 @@
+{
+  "id": "C082",
+  "chapter": "工具与科学",
+  "title": "搭建小砖屋",
+  "scene": "模型建造过程，砖、石、屋顶、底座、结构和水平线明确。",
+  "target_count": 10,
+  "primary_words": [
+    "brick",
+    "stone",
+    "roof",
+    "base",
+    "structure",
+    "level",
+    "fixed",
+    "board",
+    "rough",
+    "top"
+  ],
+  "targets": [
+    {
+      "word_id": "W094",
+      "word": "brick",
+      "aliases": [],
+      "source_zh_unreviewed": "砖",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "砖",
+      "pos": "noun",
+      "ipa_us": "/brɪk/",
+      "ipa_uk": "/brɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "底板上独立小红砖。",
+        "sentence": "A red brick lies beside the model.",
+        "matched_form": "brick",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A red brick lies beside the model.",
+      "example_zh": "一块红砖放在模型旁。",
+      "bbox_normalized": [
+        0.244,
+        0.743,
+        0.411,
+        0.798
+      ],
+      "collocations": [
+        "a red brick",
+        "a brick wall"
+      ],
+      "example_en_highlighted": "A red **brick** lies beside the model.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（砖），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W712",
+      "word": "stone",
+      "aliases": [],
+      "source_zh_unreviewed": "石头",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "石头",
+      "pos": "noun",
+      "ipa_us": "/stoʊn/",
+      "ipa_uk": "/stəʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧独立灰石。",
+        "sentence": "The stone has a rough surface.",
+        "matched_form": "stone",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The stone has a rough surface.",
+      "example_zh": "这块石头有粗糙的表面。",
+      "bbox_normalized": [
+        0.882,
+        0.706,
+        0.998,
+        0.784
+      ],
+      "collocations": [
+        "a rough stone",
+        "a stone sample"
+      ],
+      "example_en_highlighted": "The **stone** has a rough surface.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（石头），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W604",
+      "word": "roof",
+      "aliases": [],
+      "source_zh_unreviewed": "屋顶",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "屋顶",
+      "pos": "noun",
+      "ipa_us": "/ruːf/",
+      "ipa_uk": "/ruːf/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "小屋右半侧坡屋顶。",
+        "sentence": "The small house has a sloping roof.",
+        "matched_form": "roof",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The small house has a sloping roof.",
+      "example_zh": "这个小房子有倾斜的屋顶。",
+      "bbox_normalized": [
+        0.579,
+        0.561,
+        0.831,
+        0.682
+      ],
+      "collocations": [
+        "a sloping roof",
+        "the roof of"
+      ],
+      "example_en_highlighted": "The small house has a sloping **roof**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（屋顶），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W052",
+      "word": "base",
+      "aliases": [],
+      "source_zh_unreviewed": "基础；底部",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "底座",
+      "pos": "noun",
+      "ipa_us": "/beɪs/",
+      "ipa_uk": "/beɪs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "承托模型的木底座，取前沿可见面。",
+        "sentence": "The model stands on a flat base.",
+        "matched_form": "base",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The model stands on a flat base.",
+      "example_zh": "模型立在平坦的底座上。",
+      "bbox_normalized": [
+        0.162,
+        0.731,
+        0.998,
+        0.876
+      ],
+      "collocations": [
+        "a flat base",
+        "on a base"
+      ],
+      "example_en_highlighted": "The model stands on a flat **base**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（底座），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W721",
+      "word": "structure",
+      "aliases": [],
+      "source_zh_unreviewed": "结构",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "结构",
+      "pos": "noun",
+      "ipa_us": "/ˈstrʌktʃɚ/",
+      "ipa_uk": "/ˈstrʌktʃə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "敞开红砖墙及门洞的墙体结构。",
+        "sentence": "The open side shows the wall structure.",
+        "matched_form": "structure",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The open side shows the wall structure.",
+      "example_zh": "敞开的一侧展示了墙体结构。",
+      "bbox_normalized": [
+        0.367,
+        0.573,
+        0.647,
+        0.788
+      ],
+      "collocations": [
+        "a simple structure",
+        "the wall structure"
+      ],
+      "example_en_highlighted": "The open side shows the wall **structure**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（结构），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W399",
+      "word": "level",
+      "aliases": [],
+      "source_zh_unreviewed": "水平；水平的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "水平的",
+      "pos": "adjective",
+      "ipa_us": "/ˈlevəl/",
+      "ipa_uk": "/ˈlevəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "水平仪气泡和底板，水平属性由示范故事指定。",
+        "sentence": "The board is level on the table.",
+        "matched_form": "level",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The board is level on the table.",
+      "example_zh": "板子水平放在桌上。",
+      "bbox_normalized": [
+        0.695,
+        0.763,
+        0.86,
+        0.807
+      ],
+      "collocations": [
+        "a level surface",
+        "keep level"
+      ],
+      "example_en_highlighted": "The board is **level** on the table.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（水平的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W270",
+      "word": "fixed",
+      "aliases": [],
+      "source_zh_unreviewed": "固定的；不变的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "固定的",
+      "pos": "adjective",
+      "ipa_us": "/fɪkst/",
+      "ipa_uk": "/fɪkst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The roof is fixed in place in the story.",
+        "matched_form": "fixed",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The roof is fixed in place in the story.",
+      "example_zh": "故事中的屋顶已经固定好。",
+      "bbox_normalized": null,
+      "collocations": [
+        "fixed in place",
+        "a fixed part"
+      ],
+      "example_en_highlighted": "The roof is **fixed** in place in the story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W078",
+      "word": "board",
+      "aliases": [],
+      "source_zh_unreviewed": "板；董事会",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "木板",
+      "pos": "noun",
+      "ipa_us": "/bɔːrd/",
+      "ipa_uk": "/bɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "承托房屋的独立木板。",
+        "sentence": "A wooden board supports the house.",
+        "matched_form": "board",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A wooden board supports the house.",
+      "example_zh": "一块木板托着房子。",
+      "bbox_normalized": [
+        0.162,
+        0.731,
+        0.998,
+        0.876
+      ],
+      "collocations": [
+        "a wooden board",
+        "a flat board"
+      ],
+      "example_en_highlighted": "A wooden **board** supports the house.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（木板），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W607",
+      "word": "rough",
+      "aliases": [],
+      "source_zh_unreviewed": "粗糙的；艰难的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "粗糙的",
+      "pos": "adjective",
+      "ipa_us": "/rʌf/",
+      "ipa_uk": "/rʌf/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "石头有清楚粗糙不规则表面。",
+        "sentence": "The grey stone looks rough.",
+        "matched_form": "rough",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The grey stone looks rough.",
+      "example_zh": "这块灰色石头看起来粗糙。",
+      "bbox_normalized": [
+        0.882,
+        0.706,
+        0.998,
+        0.784
+      ],
+      "collocations": [
+        "a rough surface",
+        "a rough stone"
+      ],
+      "example_en_highlighted": "The grey stone looks **rough**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（粗糙的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W773",
+      "word": "top",
+      "aliases": [],
+      "source_zh_unreviewed": "顶部",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "顶部",
+      "pos": "noun",
+      "ipa_us": "/tɑːp/",
+      "ipa_uk": "/tɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "模型屋顶顶部边缘。",
+        "sentence": "The roof is at the top of the model.",
+        "matched_form": "top",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The roof is at the top of the model.",
+      "example_zh": "屋顶位于模型顶部。",
+      "bbox_normalized": [
+        0.572,
+        0.554,
+        0.76,
+        0.592
+      ],
+      "collocations": [
+        "at the top",
+        "the top of"
+      ],
+      "example_en_highlighted": "The roof is at the **top** of the model.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（顶部），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I build a small brick house on a flat base and check its roof.",
+    "zh": "我在平坦的底座上搭建一个小砖屋，并检查屋顶。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C082\n标题 搭建小砖屋\n场景 模型建造过程，砖、石、屋顶、底座、结构和水平线明确。\n目标词 brick, stone, roof, base, structure, level, fixed, board, rough, top\n原创主配文草案 The roof is part of the structure.\n中文草案 屋顶是结构的一部分。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool Korean craft editorial adult woman making tabletop miniature brick house. Simple tiny red bricks, a grey rough stone sample beside it, flat wooden board base, gabled slate-grey roof fixed on one half revealing wall structure on other half, small plain bubble spirit level on board (no numbers), clearly horizontal straight surface. Crisp miniature details, realistic hands, no text or logos.",
+  "status": "approved",
+  "image_path": "images/C082.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 9,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C082 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:03:02 UTC",
+    "prompt_path": "prompts/C082_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C082.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "微型砖屋敞开半侧墙体，另一侧斜屋顶，前景底板和气泡水平仪、右侧粗石清楚。"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "filename": "C056-处理小伤口.png",
+  "labels": [
+    {
+      "x": 455,
+      "y": 687,
+      "english": "wound",
+      "chinese": "伤口",
+      "phoneticUS": "/wuːnd/",
+      "phoneticUK": "/wuːnd/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 670
+      },
+      "anchorPosition": {
+        "x": 455,
+        "y": 687
+      },
+      "boundingBox": {
+        "left": 439,
+        "top": 676,
+        "right": 472,
+        "bottom": 699
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前臂微小红点伤口，框选这一局部，非整条手臂。",
+        "association": "前臂微小红点伤口，框选这一局部，非整条手臂。",
+        "collocation": "a small wound",
+        "example": "There is a small wound on my arm.",
+        "exampleChinese": "我的手臂上有一个小伤口。"
+      }
+    },
+    {
+      "x": 747,
+      "y": 865,
+      "english": "blood",
+      "chinese": "血",
+      "phoneticUS": "/blʌd/",
+      "phoneticUK": "/blʌd/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 747,
+        "y": 865
+      },
+      "boundingBox": {
+        "left": 731,
+        "top": 855,
+        "right": 763,
+        "bottom": 875
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "纱布上的小红点由故事说明为血，非材料检测。",
+        "association": "纱布上的小红点由故事说明为血，非材料检测。",
+        "collocation": "a drop of blood",
+        "example": "A drop of blood marks the gauze.",
+        "exampleChinese": "一滴血在纱布上留下痕迹。"
+      }
+    },
+    {
+      "x": 115,
+      "y": 80,
+      "english": "operation",
+      "chinese": "手术",
+      "phoneticUS": "/ˌɑːpəˈreɪʃən/",
+      "phoneticUK": "/ˌɒpəˈreɪʃən/",
+      "bubblePosition": {
+        "x": 115,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "包扎不冒充手术，判断仅为虚构故事台词。",
+        "association": "包扎不冒充手术，判断仅为虚构故事台词。",
+        "collocation": "an operation",
+        "example": "The doctor says this wound does not need an operation.",
+        "exampleChinese": "医生说这个伤口不需要手术。"
+      }
+    },
+    {
+      "x": 570,
+      "y": 70,
+      "english": "conscious",
+      "chinese": "神志清醒的",
+      "phoneticUS": "/ˈkɑːnʃəs/",
+      "phoneticUK": "/ˈkɒnʃəs/",
+      "bubblePosition": {
+        "x": 570,
+        "y": 70
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "清醒状态由故事明确，不仅按睁眼判断。",
+        "association": "清醒状态由故事明确，不仅按睁眼判断。",
+        "collocation": "remain conscious",
+        "example": "I remain conscious and answer the nurse.",
+        "exampleChinese": "我保持清醒，回答护士的话。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 460,
+      "english": "physical",
+      "chinese": "身体的",
+      "phoneticUS": "/ˈfɪzɪkəl/",
+      "phoneticUK": "/ˈfɪzɪkəl/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 460
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "physical与不适搭配，由完整句子支持。",
+        "association": "physical与不适搭配，由完整句子支持。",
+        "collocation": "physical discomfort",
+        "example": "The wound causes physical discomfort.",
+        "exampleChinese": "这个伤口带来身体不适。"
+      }
+    },
+    {
+      "x": 560,
+      "y": 465,
+      "english": "serious",
+      "chinese": "严重的",
+      "phoneticUS": "/ˈsɪriəs/",
+      "phoneticUK": "/ˈsɪəriəs/",
+      "bubblePosition": {
+        "x": 560,
+        "y": 465
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "不用表面图进行真实伤情分级。",
+        "association": "不用表面图进行真实伤情分级。",
+        "collocation": "a serious injury",
+        "example": "The nurse says the injury is not serious.",
+        "exampleChinese": "护士说这次受伤并不严重。"
+      }
+    },
+    {
+      "x": 628,
+      "y": 689,
+      "english": "help",
+      "chinese": "帮助",
+      "phoneticUS": "/help/",
+      "phoneticUK": "/help/",
+      "bubblePosition": {
+        "x": 910,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 628,
+        "y": 689
+      },
+      "boundingBox": {
+        "left": 457,
+        "top": 583,
+        "right": 800,
+        "bottom": 795
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际护理协助动作的手部区域。",
+        "association": "实际护理协助动作的手部区域。",
+        "collocation": "help me",
+        "example": "The nurse helps me with the dressing.",
+        "exampleChinese": "护士帮我处理敷料。"
+      }
+    },
+    {
+      "x": 115,
+      "y": 925,
+      "english": "safe",
+      "chinese": "安全的",
+      "phoneticUS": "/seɪf/",
+      "phoneticUK": "/seɪf/",
+      "bubblePosition": {
+        "x": 115,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "主观安全感由句子说明，不构成医学保证。",
+        "association": "主观安全感由句子说明，不构成医学保证。",
+        "collocation": "feel safe",
+        "example": "I feel safe while the nurse helps me.",
+        "exampleChinese": "护士帮助我时，我感觉安心。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A small wound on my arm needs care, and someone is here to help.",
+    "chinese": "手臂上的小伤口需要照料，有人正在帮我。",
+    "source": "原创配文 · C056 处理小伤口",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,21 @@
+{
+  "cardID": "C099",
+  "imagePath": "../images/C099.png",
+  "imageSHA256": "534a62cdfb5c337c6ed31d6ca431eeda5d88d59d03d886d27a6f9d7065ef3cd6",
+  "imageReviewed": true,
+  "annotationsPath": "C099_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "all",
+    "every",
+    "only",
+    "almost",
+    "quite",
+    "very",
+    "so",
+    "such",
+    "any",
+    "not"
+  ],
+  "receiptPath": "C099_import_receipt.json"
+}

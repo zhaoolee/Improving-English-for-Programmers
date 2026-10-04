@@ -1,0 +1,252 @@
+C038  酒店入住与位置
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C038.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C038.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:16:08Z
+  提示词文件: prompts/C038_image_final.txt
+
+场景: 简洁酒店接待场景，用房间剖面表达正面、后面、中间和两侧。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 三椅横列、白椅居中与两侧蓝椅清晰，前台正面、椅侧和相隔地面的关系可定位。未读取酒店房号或虚构房间剖面。
+
+主配文:
+  英文: A place to pause, between two chairs and opposite the hotel desk.
+  中文: 在两把椅子之间、酒店前台对面，找一处停歇的位置。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): place, position, front, side, middle, between, opposite, at
+
+------------------------------------------------------------------------
+[1/8] place  (W528)
+  词义: 地方
+  词性: noun
+  音标: UK /pleɪs/ | US /pleɪs/
+  搭配: a quiet place
+  例句: This is a quiet place to rest.
+  例句高亮: This is a quiet **place** to rest.
+  例句中文: 这是一个安静的休息地方。
+  标注模式: object
+  标注说明: 酒店休息座椅区定位本句指代的地方。
+  坐标(normalized): [0.0, 0.488, 0.998, 0.776]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "酒店休息座椅区定位本句指代的地方。"
+    sentence: "This is a quiet place to rest."
+    matched_form: "place"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 地方；位置
+
+------------------------------------------------------------------------
+[2/8] position  (W543)
+  词义: 位置
+  词性: noun
+  音标: UK /pəˈzɪʃn/ | US /pəˈzɪʃn/
+  搭配: the position of
+  例句: The position of the chair is easy to see.
+  例句高亮: The **position** of the chair is easy to see.
+  例句中文: 椅子的位置很容易看出来。
+  标注模式: relation
+  标注说明: 中间椅子相对两侧椅子的实际位置。
+  坐标(normalized): [0.328, 0.486, 0.663, 0.774]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中间椅子相对两侧椅子的实际位置。"
+    sentence: "The position of the chair is easy to see."
+    matched_form: "position"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 位置；职位
+
+------------------------------------------------------------------------
+[3/8] front  (W293)
+  词义: 正面
+  词性: noun
+  音标: UK /frʌnt/ | US /frʌnt/
+  搭配: the front of
+  例句: The front of the desk faces the chairs.
+  例句高亮: The **front** of the desk faces the chairs.
+  例句中文: 前台的正面对着椅子。
+  标注模式: object
+  标注说明: 前台面向椅子的正面板。
+  坐标(normalized): [0.234, 0.34, 0.833, 0.44]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前台面向椅子的正面板。"
+    sentence: "The front of the desk faces the chairs."
+    matched_form: "front"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 前面；正面
+
+------------------------------------------------------------------------
+[4/8] side  (W652)
+  词义: 侧面
+  词性: noun
+  音标: UK /saɪd/ | US /saɪd/
+  搭配: the side of
+  例句: I can see the side of the chair.
+  例句高亮: I can see the **side** of the chair.
+  例句中文: 我能看见椅子的侧面。
+  标注模式: object
+  标注说明: 中间椅子实际可见侧部。
+  坐标(normalized): [0.608, 0.55, 0.666, 0.728]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中间椅子实际可见侧部。"
+    sentence: "I can see the side of the chair."
+    matched_form: "side"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 侧面
+
+------------------------------------------------------------------------
+[5/8] middle  (W440)
+  词义: 中间
+  词性: noun
+  音标: UK /ˈmɪdl/ | US /ˈmɪdl/
+  搭配: in the middle
+  例句: The white chair is in the middle.
+  例句高亮: The white chair is in the **middle**.
+  例句中文: 白色椅子在中间。
+  标注模式: relation
+  标注说明: 三椅组与中间白椅的相对位置。
+  坐标(normalized): [0.0, 0.488, 0.998, 0.776]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "三椅组与中间白椅的相对位置。"
+    sentence: "The white chair is in the middle."
+    matched_form: "middle"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 中间的
+
+------------------------------------------------------------------------
+[6/8] between  (W067)
+  词义: 在之间
+  词性: preposition
+  音标: UK /bɪˈtwiːn/ | US /bɪˈtwiːn/
+  搭配: between two chairs
+  例句: The white chair is between two blue chairs.
+  例句高亮: The white chair is **between** two blue chairs.
+  例句中文: 白色椅子在两把蓝色椅子之间。
+  标注模式: relation
+  标注说明: 框含三把椅子的左右之间关系，不只框白椅。
+  坐标(normalized): [0.0, 0.488, 0.998, 0.776]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "框含三把椅子的左右之间关系，不只框白椅。"
+    sentence: "The white chair is between two blue chairs."
+    matched_form: "between"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 在...之间
+
+------------------------------------------------------------------------
+[7/8] opposite  (W498)
+  词义: 在对面
+  词性: preposition
+  音标: UK /ˈɒpəzɪt/ | US /ˈɑːpəzɪt/
+  搭配: opposite the desk
+  例句: The chairs are opposite the desk.
+  例句高亮: The chairs are **opposite** the desk.
+  例句中文: 椅子在前台对面。
+  标注模式: relation
+  标注说明: 座椅与前台相隔地面且面对的空间关系。
+  坐标(normalized): [0.0, 0.338, 0.997, 0.775]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "座椅与前台相隔地面且面对的空间关系。"
+    sentence: "The chairs are opposite the desk."
+    matched_form: "opposite"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 相反的
+
+------------------------------------------------------------------------
+[8/8] at  (W037)
+  词义: 在
+  词性: preposition
+  音标: UK /æt/ | US /æt/
+  搭配: at the desk
+  例句: I wait at the hotel desk.
+  例句高亮: I wait **at** the hotel desk.
+  例句中文: 我在酒店前台等候。
+  标注模式: context
+  标注说明: 介词在完整句中解释，不把at独立等同于前台。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I wait at the hotel desk."
+    matched_form: "at"
+    context: "介词在完整句中解释，不把at独立等同于前台。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 在；在于
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C038 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One cool boutique hotel lobby environmental portrait, woman standing beside a reception desk at far right. In foreground three separate lounge chairs arranged in a straight horizontal row: left blue-grey, middle ivory, right blue-grey, all fully visible. Middle chair clearly between the other two. Reception desk directly across the room from chairs, broad open floor separates them. Front face of desk and side face of middle chair readable. Architectural interior photography, no room numbers or signs, avoid confusing mirrors.

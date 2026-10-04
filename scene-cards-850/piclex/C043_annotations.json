@@ -1,0 +1,286 @@
+{
+  "filename": "C043-草地上的昆虫.png",
+  "labels": [
+    {
+      "x": 832,
+      "y": 344,
+      "english": "grass",
+      "chinese": "草",
+      "phoneticUS": "/ɡræs/",
+      "phoneticUK": "/ɡrɑːs/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 175
+      },
+      "anchorPosition": {
+        "x": 832,
+        "y": 344
+      },
+      "boundingBox": {
+        "left": 654,
+        "top": 269,
+        "right": 992,
+        "bottom": 402
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "微距中的实际草叶。",
+        "association": "微距中的实际草叶。",
+        "collocation": "green grass",
+        "example": "The grass is green beside the path.",
+        "exampleChinese": "小径旁的草是绿色的。"
+      }
+    },
+    {
+      "x": 118,
+      "y": 522,
+      "english": "bee",
+      "chinese": "蜜蜂",
+      "phoneticUS": "/biː/",
+      "phoneticUK": "/biː/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 375
+      },
+      "anchorPosition": {
+        "x": 118,
+        "y": 522
+      },
+      "boundingBox": {
+        "left": 52,
+        "top": 417,
+        "right": 348,
+        "bottom": 611
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "有翅六足分节的蜜蜂。",
+        "association": "有翅六足分节的蜜蜂。",
+        "collocation": "a honey bee",
+        "example": "A bee rests on the flower.",
+        "exampleChinese": "一只蜜蜂停在花上。"
+      }
+    },
+    {
+      "x": 725,
+      "y": 505,
+      "english": "ant",
+      "chinese": "蚂蚁",
+      "phoneticUS": "/ænt/",
+      "phoneticUK": "/ænt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 430
+      },
+      "anchorPosition": {
+        "x": 725,
+        "y": 505
+      },
+      "boundingBox": {
+        "left": 589,
+        "top": 475,
+        "right": 912,
+        "bottom": 625
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立六足分节蚂蚁，步行由句子说明。",
+        "association": "独立六足分节蚂蚁，步行由句子说明。",
+        "collocation": "a small ant",
+        "example": "An ant walks on a blade of grass.",
+        "exampleChinese": "一只蚂蚁在一片草叶上走。"
+      }
+    },
+    {
+      "x": 236,
+      "y": 843,
+      "english": "worm",
+      "chinese": "蠕虫",
+      "phoneticUS": "/wɜːrm/",
+      "phoneticUK": "/wɜːm/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 958.4180866317649
+      },
+      "anchorPosition": {
+        "x": 236,
+        "y": 843
+      },
+      "boundingBox": {
+        "left": 25,
+        "top": 739,
+        "right": 417,
+        "bottom": 945
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "无足蚯蚓，明确不是昆虫。",
+        "association": "无足蚯蚓，明确不是昆虫。",
+        "collocation": "a garden worm",
+        "example": "The worm lies on damp soil.",
+        "exampleChinese": "蠕虫在潮湿土壤上。"
+      }
+    },
+    {
+      "x": 848,
+      "y": 844,
+      "english": "fly",
+      "chinese": "苍蝇",
+      "phoneticUS": "/flaɪ/",
+      "phoneticUK": "/flaɪ/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 848,
+        "y": 844
+      },
+      "boundingBox": {
+        "left": 537,
+        "top": 716,
+        "right": 933,
+        "bottom": 955
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立两翅六足苍蝇，选择名词义。",
+        "association": "独立两翅六足苍蝇，选择名词义。",
+        "collocation": "a house fly",
+        "example": "A fly rests on a leaf.",
+        "exampleChinese": "一只苍蝇停在叶上。"
+      }
+    },
+    {
+      "x": 308,
+      "y": 522,
+      "english": "insect",
+      "chinese": "昆虫",
+      "phoneticUS": "/ˈɪnsekt/",
+      "phoneticUK": "/ˈɪnsekt/",
+      "bubblePosition": {
+        "x": 440,
+        "y": 450
+      },
+      "anchorPosition": {
+        "x": 308,
+        "y": 522
+      },
+      "boundingBox": {
+        "left": 52,
+        "top": 417,
+        "right": 348,
+        "bottom": 611
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。",
+        "association": "用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。",
+        "collocation": "a small insect",
+        "example": "The bee is an insect.",
+        "exampleChinese": "蜜蜂是一种昆虫。"
+      }
+    },
+    {
+      "x": 821,
+      "y": 592,
+      "english": "small",
+      "chinese": "小的",
+      "phoneticUS": "/smɔːl/",
+      "phoneticUK": "/smɔːl/",
+      "bubblePosition": {
+        "x": 910,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 821,
+        "y": 592
+      },
+      "boundingBox": {
+        "left": 589,
+        "top": 475,
+        "right": 912,
+        "bottom": 625
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际蚂蚁与草叶比例定位大小，不测长度。",
+        "association": "实际蚂蚁与草叶比例定位大小，不测长度。",
+        "collocation": "a small ant",
+        "example": "The ant is small beside the leaf.",
+        "exampleChinese": "蚂蚁在叶子旁显得很小。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 75,
+      "english": "natural",
+      "chinese": "自然的",
+      "phoneticUS": "/ˈnætʃrəl/",
+      "phoneticUK": "/ˈnætʃrəl/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。",
+        "association": "自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。",
+        "collocation": "a natural habitat",
+        "example": "The grass provides a natural habitat.",
+        "exampleChinese": "草地提供自然栖息环境。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Small lives in the grass: a bee, an ant, and a patient observer.",
+    "chinese": "草间的小生命：蜜蜂、蚂蚁，还有一位耐心的观察者。",
+    "source": "原创配文 · C043 草地上的昆虫",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

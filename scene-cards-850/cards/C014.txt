@@ -1,0 +1,279 @@
+C014  温热的甜饮
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C014.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C014.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T14:44:39Z → 2026-10-02T14:46:33Z
+  提示词文件: prompts/C014_image_final.txt
+
+场景: 杯中温热饮品，糖罐与水壶在旁；递杯动作突出。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 两名成年女性递接同一杯茶，杯子与手部结构清晰；左下金属水壶，右下开放玻璃碗中的糖颗粒可辨。甜度、温度、饮品身份由原创设定与例句说明，give/take/for/with不设置虚假物体框。
+
+主配文:
+  英文: I give you a cup of warm tea with sugar.
+  中文: 我递给你一杯加糖的温茶。
+  类型: original | 来源: None | 状态: final
+
+目标词 (10): cup, kettle, sugar, sweet, warm, drink, give, take, for, with
+
+------------------------------------------------------------------------
+[1/10] cup  (W173)
+  词义: 杯子
+  词性: noun
+  音标: UK /kʌp/ | US /kʌp/
+  搭配: a cup of tea
+  例句: The cup is white.
+  例句高亮: The **cup** is white.
+  例句中文: 杯子是白色的。
+  标注模式: object
+  标注说明: 两人之间的白色杯子
+  坐标(normalized): [0.483, 0.468, 0.601, 0.542]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "两人之间的白色杯子"
+    sentence: "The cup is white."
+    matched_form: "cup"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 杯子
+------------------------------------------------------------------------
+[2/10] kettle  (W376)
+  词义: 水壶
+  词性: noun
+  音标: UK /ˈketəl/ | US /ˈketəl/
+  搭配: a metal kettle
+  例句: The kettle is on the counter.
+  例句高亮: The **kettle** is on the counter.
+  例句中文: 水壶在台面上。
+  标注模式: object
+  标注说明: 有壶嘴和提手的金属烧水壶
+  坐标(normalized): [0.0, 0.66, 0.337, 0.932]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "有壶嘴和提手的金属烧水壶"
+    sentence: "The kettle is on the counter."
+    matched_form: "kettle"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 水壶；茶壶
+------------------------------------------------------------------------
+[3/10] sugar  (W725)
+  词义: 糖
+  词性: noun
+  音标: UK /ˈʃʊɡə/ | US /ˈʃʊɡər/
+  搭配: a little sugar
+  例句: The sugar is in the bowl.
+  例句高亮: The **sugar** is in the bowl.
+  例句中文: 糖在碗里。
+  标注模式: object
+  标注说明: 开放玻璃碗中的白色颗粒，糖的身份由原创设定说明
+  坐标(normalized): [0.731, 0.846, 0.862, 0.903]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "开放玻璃碗中的白色颗粒，糖的身份由原创设定说明"
+    sentence: "The sugar is in the bowl."
+    matched_form: "sugar"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 糖
+------------------------------------------------------------------------
+[4/10] sweet  (W731)
+  词义: 甜的
+  词性: adjective
+  音标: UK /swiːt/ | US /swiːt/
+  搭配: a sweet drink
+  例句: The tea is sweet with sugar.
+  例句高亮: The tea is **sweet** with sugar.
+  例句中文: 加糖的茶是甜的。
+  标注模式: context
+  标注说明: 味觉由句子说明，不声称照片测得甜度
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The tea is sweet with sugar."
+    matched_form: "sweet"
+    context: "味觉由句子说明，不声称照片测得甜度"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 甜的
+------------------------------------------------------------------------
+[5/10] warm  (W803)
+  词义: 温热的
+  词性: adjective
+  音标: UK /wɔːm/ | US /wɔːrm/
+  搭配: a warm drink
+  例句: The tea is warm.
+  例句高亮: The tea is **warm**.
+  例句中文: 茶是温热的。
+  标注模式: context
+  标注说明: 温度由设定说明，少量水汽不证明具体温度
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The tea is warm."
+    matched_form: "warm"
+    context: "温度由设定说明，少量水汽不证明具体温度"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 温暖的
+------------------------------------------------------------------------
+[6/10] drink  (W217)
+  词义: 饮品
+  词性: noun
+  音标: UK /drɪŋk/ | US /drɪŋk/
+  搭配: a warm drink
+  例句: Tea is a drink.
+  例句高亮: Tea is a **drink**.
+  例句中文: 茶是一种饮品。
+  标注模式: object
+  标注说明: drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。
+  坐标(normalized): [0.483, 0.468, 0.601, 0.542]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。"
+    sentence: "Tea is a drink."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 喝
+------------------------------------------------------------------------
+[7/10] give  (W301)
+  词义: 给；递给
+  词性: verb
+  音标: UK /ɡɪv/ | US /ɡɪv/
+  搭配: give you a cup
+  例句: I give you a cup of tea.
+  例句高亮: I **give** you a cup of tea.
+  例句中文: 我递给你一杯茶。
+  标注模式: action
+  标注说明: 两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。
+  坐标(normalized): [0.286, 0.456, 0.696, 0.602]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。"
+    sentence: "I give you a cup of tea."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 给予；给
+------------------------------------------------------------------------
+[8/10] take  (W736)
+  词义: 接过
+  词性: verb
+  音标: UK /teɪk/ | US /teɪk/
+  搭配: take the cup
+  例句: Please take the cup.
+  例句高亮: Please **take** the cup.
+  例句中文: 请接过杯子。
+  标注模式: action
+  标注说明: 两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。
+  坐标(normalized): [0.286, 0.456, 0.696, 0.602]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。"
+    sentence: "Please take the cup."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 拿；取
+------------------------------------------------------------------------
+[9/10] for  (W282)
+  词义: 给；为了
+  词性: preposition
+  音标: UK /fɔː/ | US /fɔːr/
+  搭配: for you
+  例句: This cup is for you.
+  例句高亮: This cup is **for** you.
+  例句中文: 这杯是给你的。
+  标注模式: context
+  标注说明: 高亮for，说明接受者，不设框
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "This cup is for you."
+    matched_form: "for"
+    context: "高亮for，说明接受者，不设框"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 对于；为了
+------------------------------------------------------------------------
+[10/10] with  (W835)
+  词义: 带有
+  词性: preposition
+  音标: UK /wɪð/ | US /wɪð/
+  搭配: tea with sugar
+  例句: I like tea with sugar.
+  例句高亮: I like tea **with** sugar.
+  例句中文: 我喜欢加糖的茶。
+  标注模式: context
+  标注说明: 高亮with，说明饮品配料，不设框
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I like tea with sugar."
+    matched_form: "with"
+    context: "高亮with，说明饮品配料，不设框"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 和
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 10
+  content_entries_complete: 10
+  sentence_evidence_complete: 10
+  verified_targets: 10
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C014 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=15 | meta.approved_cards=15
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elegant apartment kitchen, TWO distinct East Asian adults. Main woman at left offers ONE small white ceramic CUP of tea by its handle, recipient adult woman at right in pale slate shirt accepts supporting cup underneath. Cup fully visible between coherent hands, no duplicated cup or fingers. Counter foreground has one unbranded steel stovetop KETTLE with spout and handle left, an OPEN clear glass sugar bowl with visible white sugar granules at right. Subtle faint steam above tea, no strong boiling. Two people modestly smaller, clean wall above and counter below for labels.

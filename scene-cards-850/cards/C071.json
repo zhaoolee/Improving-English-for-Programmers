@@ -1,0 +1,418 @@
+{
+  "id": "C071",
+  "chapter": "工作与信息",
+  "title": "办公室开会",
+  "scene": "经理、秘书与同事在办公室围桌讨论，组织结构以简单墙图呈现。",
+  "target_count": 9,
+  "primary_words": [
+    "office",
+    "work",
+    "company",
+    "manager",
+    "secretary",
+    "meeting",
+    "organization",
+    "group",
+    "join"
+  ],
+  "targets": [
+    {
+      "word_id": "W490",
+      "word": "office",
+      "aliases": [],
+      "source_zh_unreviewed": "办公室",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "办公室",
+      "pos": "noun",
+      "ipa_us": "/ˈɔːfɪs/",
+      "ipa_uk": "/ˈɒfɪs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌面、笔记本和笔记电脑构成故事指定的办公环境。",
+        "sentence": "We meet in the office.",
+        "matched_form": "office",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We meet in the office.",
+      "example_zh": "我们在办公室见面。",
+      "bbox_normalized": [
+        0.005,
+        0.568,
+        0.998,
+        0.991
+      ],
+      "collocations": [
+        "in the office",
+        "an office meeting"
+      ],
+      "example_en_highlighted": "We meet in the **office**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（办公室），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W840",
+      "word": "work",
+      "aliases": [],
+      "source_zh_unreviewed": "工作",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "工作",
+      "pos": "noun",
+      "ipa_us": "/wɝːk/",
+      "ipa_uk": "/wɜːk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We discuss our work at the table.",
+        "matched_form": "work",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We discuss our work at the table.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We discuss our work at the table.",
+      "example_zh": "我们围坐桌旁讨论工作。",
+      "bbox_normalized": null,
+      "collocations": [
+        "at work",
+        "discuss work"
+      ],
+      "example_en_highlighted": "We discuss our **work** at the table.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We discuss our work at the table.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W148",
+      "word": "company",
+      "aliases": [],
+      "source_zh_unreviewed": "公司",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "公司",
+      "pos": "noun",
+      "ipa_us": "/ˈkʌmpəni/",
+      "ipa_uk": "/ˈkʌmpəni/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We work for the same company.",
+        "matched_form": "company",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We work for the same company.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We work for the same company.",
+      "example_zh": "我们为同一家公司工作。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a small company",
+        "work for a company"
+      ],
+      "example_en_highlighted": "We work for the same **company**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We work for the same company.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W424",
+      "word": "manager",
+      "aliases": [],
+      "source_zh_unreviewed": "经理；管理人",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "经理",
+      "pos": "noun",
+      "ipa_us": "/ˈmænɪdʒɚ/",
+      "ipa_uk": "/ˈmænɪdʒə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中心桌首女子，句子明确指定她是经理。",
+        "sentence": "The woman at the head of the table is our manager.",
+        "matched_form": "manager",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The woman at the head of the table is our manager.",
+      "example_zh": "坐在桌首的女子是我们的经理。",
+      "bbox_normalized": [
+        0.352,
+        0.203,
+        0.743,
+        0.702
+      ],
+      "collocations": [
+        "our manager",
+        "a team manager"
+      ],
+      "example_en_highlighted": "The woman at the head of the table is our **manager**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（经理），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W628",
+      "word": "secretary",
+      "aliases": [],
+      "source_zh_unreviewed": "秘书",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "秘书",
+      "pos": "noun",
+      "ipa_us": "/ˈsekrəteri/",
+      "ipa_uk": "/ˈsekrətri/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧持笔在本子上记笔记的女子，故事指定秘书角色。",
+        "sentence": "Our secretary takes notes during the meeting.",
+        "matched_form": "secretary",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Our secretary takes notes during the meeting.",
+      "example_zh": "我们的秘书在会议中做笔记。",
+      "bbox_normalized": [
+        0.759,
+        0.26,
+        0.998,
+        0.662
+      ],
+      "collocations": [
+        "a secretary",
+        "the meeting secretary"
+      ],
+      "example_en_highlighted": "Our **secretary** takes notes during the meeting.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（秘书），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W437",
+      "word": "meeting",
+      "aliases": [],
+      "source_zh_unreviewed": "会议",
+      "planned_mode": "context",
+      "sense_zh": "会议",
+      "pos": "noun",
+      "ipa_us": "/ˈmiːtɪŋ/",
+      "ipa_uk": "/ˈmiːtɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "三位同事围桌交流的关系，会议由句子明确。",
+        "sentence": "Three colleagues sit together for a meeting.",
+        "matched_form": "meeting",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Three colleagues sit together for a meeting.",
+      "example_zh": "三位同事坐在一起开会。",
+      "bbox_normalized": [
+        0.002,
+        0.198,
+        0.998,
+        0.839
+      ],
+      "collocations": [
+        "hold a meeting",
+        "a team meeting"
+      ],
+      "example_en_highlighted": "Three colleagues sit together for a **meeting**.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（会议），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W502",
+      "word": "organization",
+      "aliases": [],
+      "source_zh_unreviewed": "组织；机构",
+      "planned_mode": "context",
+      "sense_zh": "组织",
+      "pos": "noun",
+      "ipa_us": "/ˌɔːrɡənəˈzeɪʃən/",
+      "ipa_uk": "/ˌɔːɡənaɪˈzeɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our organization has two teams.",
+        "matched_form": "organization",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Our organization has two teams.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Our organization has two teams.",
+      "example_zh": "我们的组织有两个团队。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a small organization",
+        "the organization of"
+      ],
+      "example_en_highlighted": "Our **organization** has two teams.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Our organization has two teams.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W315",
+      "word": "group",
+      "aliases": [],
+      "source_zh_unreviewed": "组；群",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "小组",
+      "pos": "noun",
+      "ipa_us": "/ɡruːp/",
+      "ipa_uk": "/ɡruːp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "三人共同围桌，句子指定同一个小组。",
+        "sentence": "Our group has three people.",
+        "matched_form": "group",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Our group has three people.",
+      "example_zh": "我们的小组有三个人。",
+      "bbox_normalized": [
+        0.002,
+        0.198,
+        0.998,
+        0.839
+      ],
+      "collocations": [
+        "a small group",
+        "work in a group"
+      ],
+      "example_en_highlighted": "Our **group** has three people.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（小组），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W371",
+      "word": "join",
+      "aliases": [],
+      "source_zh_unreviewed": "加入；参加",
+      "planned_mode": "context",
+      "sense_zh": "参加",
+      "pos": "verb",
+      "ipa_us": "/dʒɔɪn/",
+      "ipa_uk": "/dʒɔɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I join the meeting after lunch.",
+        "matched_form": "join",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I join the meeting after lunch.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I join the meeting after lunch.",
+      "example_zh": "午饭后我参加会议。",
+      "bbox_normalized": null,
+      "collocations": [
+        "join a meeting",
+        "join the group"
+      ],
+      "example_en_highlighted": "I **join** the meeting after lunch.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I join the meeting after lunch.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Our group meets in the office, and I join the discussion about our work.",
+    "zh": "我们的小组在办公室开会，我加入了关于工作的讨论。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C071\n标题 办公室开会\n场景 经理、秘书与同事在办公室围桌讨论，组织结构以简单墙图呈现。\n目标词 office, work, company, manager, secretary, meeting, organization, group, join\n原创主配文草案 The group has a meeting in the office.\n中文草案 小组在办公室开会。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Refined cool Korean adult women office meeting, main 25-year-old woman seated near center, one colleague at head of table and one taking notes to side. Three people, clear table, notebooks, wall with simple blank organization blocks and no text. Friendly natural gestures, understated professional clothing, cool daylight, uncluttered edges.",
+  "status": "approved",
+  "image_path": "images/C071.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 5,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C071 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:35:50 UTC",
+    "prompt_path": "prompts/C071_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C071.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三人围桌会议与右侧记笔记女子清楚；经理明确指中心桌首女子，职业由句子设定，非外貌识别。办公室框只取桌面及办公物件。"
+  }
+}

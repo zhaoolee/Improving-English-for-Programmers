@@ -1,0 +1,1048 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "recognitionProvider": "Codex conversation vision",
+  "regionPolicy": "每卡整图一次视觉识别；具体词保留局部范围，抽象与功能词明确语境；不调用外部识别。",
+  "cards": {
+    "C091": {
+      "sourcePath": "scene-cards-850/images/C091.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:13:55 UTC",
+      "imageReview": "三成人两儿童分开，蓝衣男孩米白衣女孩符合故事，角色年龄性别仅为虚构教学设定。11标签完整保留。",
+      "avoidRegions": [
+        [
+          65,
+          160,
+          212,
+          273
+        ],
+        [
+          436,
+          220,
+          579,
+          361
+        ],
+        [
+          786,
+          222,
+          925,
+          375
+        ],
+        [
+          92,
+          453,
+          219,
+          574
+        ],
+        [
+          646,
+          460,
+          770,
+          608
+        ]
+      ],
+      "geometry": {
+        "person": {
+          "bubble": [
+            500,
+            80
+          ],
+          "evidence": "中央完整人物，person指一个人。",
+          "box": [
+            330,
+            182,
+            712,
+            996
+          ],
+          "anchor": [
+            521,
+            589
+          ]
+        },
+        "man": {
+          "bubble": [
+            145,
+            355
+          ],
+          "evidence": "左侧成人，故事自称Jun并明确成年男子。",
+          "box": [
+            3,
+            66,
+            333,
+            783
+          ],
+          "anchor": [
+            168,
+            424
+          ]
+        },
+        "woman": {
+          "bubble": [
+            700,
+            160
+          ],
+          "evidence": "中央成人，故事自称Mina并明确成年女子。",
+          "box": [
+            330,
+            182,
+            712,
+            996
+          ],
+          "anchor": [
+            521,
+            589
+          ]
+        },
+        "boy": {
+          "bubble": [
+            145,
+            930
+          ],
+          "evidence": "前景左蓝衣儿童，故事明确男孩十岁。",
+          "box": [
+            1,
+            389,
+            338,
+            998
+          ],
+          "anchor": [
+            169,
+            693
+          ]
+        },
+        "girl": {
+          "bubble": [
+            865,
+            935
+          ],
+          "evidence": "前景右米白衣儿童，故事明确女孩十岁。",
+          "box": [
+            579,
+            428,
+            887,
+            998
+          ],
+          "anchor": [
+            733,
+            713
+          ]
+        },
+        "young": {
+          "bubble": [
+            460,
+            450
+          ],
+          "evidence": "年龄小来自故事年龄，不从肤质判断实际年龄。"
+        },
+        "male": {
+          "bubble": [
+            145,
+            75
+          ],
+          "evidence": "男性参与者由虚构故事明确。"
+        },
+        "female": {
+          "bubble": [
+            850,
+            75
+          ],
+          "evidence": "女性参与者由虚构故事明确。"
+        },
+        "among": {
+          "bubble": [
+            485,
+            935
+          ],
+          "evidence": "中央人位于其他四人之中，群体空间关系清楚。",
+          "box": [
+            1,
+            66,
+            998,
+            996
+          ],
+          "anchor": [
+            499,
+            531
+          ]
+        },
+        "sex": {
+          "bubble": [
+            870,
+            540
+          ],
+          "evidence": "仅解释性别分类义，不涉及性行为或推断真人生理。"
+        },
+        "who": {
+          "bubble": [
+            865,
+            745
+          ],
+          "evidence": "谁的问句由例句教学。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C092": {
+      "sourcePath": "scene-cards-850/images/C092.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:15:15 UTC",
+      "imageReview": "左女子与右女子自然握手，旁边成年伴侣清楚。婚姻友谊是故事设定，不按接触动作证明。",
+      "avoidRegions": [
+        [
+          133,
+          257,
+          261,
+          408
+        ],
+        [
+          608,
+          257,
+          746,
+          410
+        ],
+        [
+          781,
+          153,
+          897,
+          304
+        ]
+      ],
+      "geometry": {
+        "friend": {
+          "bubble": [
+            525,
+            100
+          ],
+          "evidence": "右侧握手女子，句子明确她是我的朋友。",
+          "box": [
+            394,
+            234,
+            788,
+            998
+          ],
+          "anchor": [
+            591,
+            616
+          ]
+        },
+        "married": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "婚姻由故事设定。"
+        },
+        "relation": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "伴侣关系由原创句明确。"
+        },
+        "kind": {
+          "bubble": [
+            850,
+            530
+          ],
+          "evidence": "友善的待人意图由本人表达。"
+        },
+        "respect": {
+          "bubble": [
+            150,
+            480
+          ],
+          "evidence": "认真倾听表示尊重，由句子说明。"
+        },
+        "society": {
+          "bubble": [
+            150,
+            900
+          ],
+          "evidence": "社会共同生活由例句表达。"
+        },
+        "common": {
+          "bubble": [
+            850,
+            740
+          ],
+          "evidence": "有些地方的常见问候方式，避免普遍性断言。"
+        },
+        "behavior": {
+          "bubble": [
+            850,
+            940
+          ],
+          "evidence": "友善举止由例句说明。"
+        },
+        "shake": {
+          "bubble": [
+            480,
+            640
+          ],
+          "evidence": "双方右手相握的局部动作。",
+          "box": [
+            353,
+            541,
+            466,
+            595
+          ],
+          "anchor": [
+            409,
+            568
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C093": {
+      "sourcePath": "scene-cards-850/images/C093.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:14:34 UTC",
+      "imageReview": "女子在地图前说明，两位听众，窗外教堂有塔尖十字；政务身份宗教法律具体内容全部由原创教学故事明示。",
+      "avoidRegions": [
+        [
+          413,
+          169,
+          538,
+          276
+        ],
+        [
+          74,
+          410,
+          217,
+          563
+        ],
+        [
+          731,
+          535,
+          914,
+          666
+        ]
+      ],
+      "geometry": {
+        "government": {
+          "bubble": [
+            180,
+            75
+          ],
+          "evidence": "政府组织由故事指定，建筑不能证明政府身份。"
+        },
+        "political": {
+          "bubble": [
+            850,
+            80
+          ],
+          "evidence": "政治问题由例句教学。"
+        },
+        "law": {
+          "bubble": [
+            850,
+            350
+          ],
+          "evidence": "法律含义用一般词汇例句，无具体法律建议。"
+        },
+        "rule": {
+          "bubble": [
+            145,
+            350
+          ],
+          "evidence": "场地使用规则由句子明确。"
+        },
+        "peace": {
+          "bubble": [
+            850,
+            770
+          ],
+          "evidence": "意见不同仍和平共处由原创句表达。"
+        },
+        "protest": {
+          "bubble": [
+            155,
+            880
+          ],
+          "evidence": "和平抗议是讲解故事，图不是抗议现场。"
+        },
+        "religion": {
+          "bubble": [
+            480,
+            930
+          ],
+          "evidence": "宗教话题在例句中明示。"
+        },
+        "church": {
+          "bubble": [
+            475,
+            75
+          ],
+          "evidence": "窗外实体小教堂及尖塔十字，非地图图标。",
+          "box": [
+            48,
+            111,
+            153,
+            323
+          ],
+          "anchor": [
+            100,
+            217
+          ]
+        },
+        "free": {
+          "bubble": [
+            850,
+            935
+          ],
+          "evidence": "自由提问由会议故事明确。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C094": {
+      "sourcePath": "scene-cards-850/images/C094.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:16:29 UTC",
+      "imageReview": "玻璃后旧步枪和背景左侧微型军队展示清楚，无战斗动作伤情；历史战争概念用原创讲解。",
+      "avoidRegions": [
+        [
+          340,
+          192,
+          537,
+          355
+        ]
+      ],
+      "geometry": {
+        "history": {
+          "bubble": [
+            155,
+            80
+          ],
+          "evidence": "历史学习由故事说明。"
+        },
+        "war": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "战争代价用句子说明。"
+        },
+        "army": {
+          "bubble": [
+            155,
+            590
+          ],
+          "evidence": "左下展柜里的排列微型人物，故事指定军队模型。",
+          "box": [
+            1,
+            444,
+            248,
+            596
+          ],
+          "anchor": [
+            124,
+            520
+          ]
+        },
+        "military": {
+          "bubble": [
+            510,
+            85
+          ],
+          "evidence": "军事历史展厅由句子明确。"
+        },
+        "gun": {
+          "bubble": [
+            850,
+            465
+          ],
+          "evidence": "玻璃后完整旧步枪，不是背景人物持枪。",
+          "box": [
+            832,
+            19,
+            934,
+            813
+          ],
+          "anchor": [
+            883,
+            416
+          ]
+        },
+        "attack": {
+          "bubble": [
+            155,
+            365
+          ],
+          "evidence": "历史进攻是讲解故事，未显示攻击动作。"
+        },
+        "fight": {
+          "bubble": [
+            155,
+            775
+          ],
+          "evidence": "士兵战斗由故事说明。"
+        },
+        "violent": {
+          "bubble": [
+            850,
+            680
+          ],
+          "evidence": "暴力冲突通过例句讲述，未推断现场暴力。"
+        },
+        "against": {
+          "bubble": [
+            155,
+            940
+          ],
+          "evidence": "反战的信息在句子中表达。"
+        },
+        "dead": {
+          "bubble": [
+            490,
+            940
+          ],
+          "evidence": "纪念死去士兵由故事明确，不按展品判断死亡。"
+        },
+        "death": {
+          "bubble": [
+            850,
+            940
+          ],
+          "evidence": "战争中死亡由原创句表达，无伤亡画面。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C095": {
+      "sourcePath": "scene-cards-850/images/C095.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:15:51 UTC",
+      "imageReview": "模拟法官在高桌后，前景空牢房缩小模型可见；犯罪惩罚内心感受由句子，不把参与者当真实被告。",
+      "avoidRegions": [
+        [
+          456,
+          206,
+          533,
+          281
+        ],
+        [
+          79,
+          265,
+          170,
+          357
+        ],
+        [
+          934,
+          275,
+          997,
+          396
+        ]
+      ],
+      "geometry": {
+        "judge": {
+          "bubble": [
+            500,
+            95
+          ],
+          "evidence": "高台桌后女子，明确扮演法官。",
+          "box": [
+            347,
+            178,
+            632,
+            342
+          ],
+          "anchor": [
+            489,
+            260
+          ]
+        },
+        "crime": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "模拟案件为虚构犯罪，非指控真实人物。"
+        },
+        "prison": {
+          "bubble": [
+            850,
+            945
+          ],
+          "evidence": "玻璃罩内空牢房模型的床、栏杆和墙。",
+          "box": [
+            390,
+            594,
+            828,
+            845
+          ],
+          "anchor": [
+            609,
+            719
+          ]
+        },
+        "punishment": {
+          "bubble": [
+            845,
+            100
+          ],
+          "evidence": "公平惩罚是故事中法官考虑的事。"
+        },
+        "cruel": {
+          "bubble": [
+            150,
+            490
+          ],
+          "evidence": "残忍对待由例句讨论，画面无虐待。"
+        },
+        "hate": {
+          "bubble": [
+            850,
+            490
+          ],
+          "evidence": "本人厌恶残忍由句子表达。"
+        },
+        "disgust": {
+          "bubble": [
+            150,
+            735
+          ],
+          "evidence": "厌恶是叙述者感受，不从表情推断。"
+        },
+        "shame": {
+          "bubble": [
+            150,
+            935
+          ],
+          "evidence": "羞愧是虚构发言者陈述，非可见外貌。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C096": {
+      "sourcePath": "scene-cards-850/images/C096.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:17:08 UTC",
+      "imageReview": "上幅纸塔失败下幅重新搭稳，朋友陪伴，小奖牌下幅右底可见；心理评价全部由故事自述。",
+      "avoidRegions": [
+        [
+          453,
+          72,
+          655,
+          199
+        ],
+        [
+          472,
+          575,
+          637,
+          733
+        ],
+        [
+          798,
+          523,
+          981,
+          676
+        ]
+      ],
+      "geometry": {
+        "hope": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "希望下一次成功由本人表达。"
+        },
+        "regret": {
+          "bubble": [
+            850,
+            90
+          ],
+          "evidence": "遗憾第一次仓促由本人表达。"
+        },
+        "reward": {
+          "bubble": [
+            850,
+            940
+          ],
+          "evidence": "右下圆奖牌，故事指定努力的奖励。",
+          "box": [
+            717,
+            933,
+            815,
+            965
+          ],
+          "anchor": [
+            766,
+            949
+          ]
+        },
+        "chance": {
+          "bubble": [
+            145,
+            590
+          ],
+          "evidence": "再一次尝试机会在原创句中。"
+        },
+        "trouble": {
+          "bubble": [
+            850,
+            350
+          ],
+          "evidence": "难以让纸塔直立由故事明确。"
+        },
+        "foolish": {
+          "bubble": [
+            145,
+            365
+          ],
+          "evidence": "不明智评价针对仓促选择，不评价人物外貌。"
+        },
+        "wise": {
+          "bubble": [
+            500,
+            935
+          ],
+          "evidence": "花时间检查是明智选择，例句说明。"
+        },
+        "tendency": {
+          "bubble": [
+            145,
+            930
+          ],
+          "evidence": "仓促倾向是本人长期自述，不按单幅推断。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C097": {
+      "sourcePath": "scene-cards-850/images/C097.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:17:44 UTC",
+      "imageReview": "写笔记和镜中单一反射自然，旅行照片清楚；全八词用句子，不能给思想画虚假脑部框。",
+      "avoidRegions": [
+        [
+          401,
+          170,
+          660,
+          375
+        ],
+        [
+          825,
+          449,
+          940,
+          580
+        ]
+      ],
+      "geometry": {
+        "self": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "自我意识由写作自述。"
+        },
+        "mind": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "脑海问题由本人句子表达。"
+        },
+        "thought": {
+          "bubble": [
+            850,
+            330
+          ],
+          "evidence": "想法内容由原创例句。"
+        },
+        "idea": {
+          "bubble": [
+            150,
+            460
+          ],
+          "evidence": "新点子换角度由句子。"
+        },
+        "belief": {
+          "bubble": [
+            150,
+            680
+          ],
+          "evidence": "多年的信念由本人故事。"
+        },
+        "existence": {
+          "bubble": [
+            850,
+            760
+          ],
+          "evidence": "存在的意义为思考话题。"
+        },
+        "impulse": {
+          "bubble": [
+            150,
+            920
+          ],
+          "evidence": "冲动及暂停由本人句子。"
+        },
+        "living": {
+          "bubble": [
+            850,
+            940
+          ],
+          "evidence": "生物需要由词汇句子说明，不从静态人像判断生理状态。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C098": {
+      "sourcePath": "scene-cards-850/images/C098.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:18:22 UTC",
+      "imageReview": "左女子指本子，右女子指杯，远处男子独立桌；人称所属与远近指示全部例句明确，thing只框具体杯。",
+      "avoidRegions": [
+        [
+          182,
+          287,
+          402,
+          460
+        ],
+        [
+          613,
+          289,
+          810,
+          462
+        ],
+        [
+          915,
+          202,
+          997,
+          270
+        ]
+      ],
+      "geometry": {
+        "I": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "左侧本人说我，第一人称由故事指定。"
+        },
+        "you": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "对朋友称你，例句。"
+        },
+        "he": {
+          "bubble": [
+            850,
+            545
+          ],
+          "evidence": "远处朋友称他由故事指定。"
+        },
+        "this": {
+          "bubble": [
+            145,
+            620
+          ],
+          "evidence": "靠近说话者的本子由句子指代。"
+        },
+        "that": {
+          "bubble": [
+            850,
+            700
+          ],
+          "evidence": "靠近听者的杯子由句子指代。"
+        },
+        "here": {
+          "bubble": [
+            145,
+            775
+          ],
+          "evidence": "这里在说话者身边，由例句明确。"
+        },
+        "there": {
+          "bubble": [
+            520,
+            85
+          ],
+          "evidence": "那里指另一桌，句子语境。"
+        },
+        "mine": {
+          "bubble": [
+            145,
+            935
+          ],
+          "evidence": "本子归属由本人说我的。"
+        },
+        "name": {
+          "bubble": [
+            500,
+            940
+          ],
+          "evidence": "名字Mina为虚构故事，不读取真人姓名。"
+        },
+        "thing": {
+          "bubble": [
+            850,
+            920
+          ],
+          "evidence": "右侧独立咖啡杯作为一件有用东西。",
+          "box": [
+            690,
+            729,
+            855,
+            823
+          ],
+          "anchor": [
+            772,
+            776
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C099": {
+      "sourcePath": "scene-cards-850/images/C099.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:18:47 UTC",
+      "imageReview": "四杯在左托盘一杯在外，总五杯，右托盘空；限定词及程度词全用独立句子，不框虚假all物体。",
+      "avoidRegions": [
+        [
+          442,
+          147,
+          628,
+          369
+        ]
+      ],
+      "geometry": {
+        "all": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "五杯整体由句子说明。"
+        },
+        "every": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "每一个杯子的逐个范围由例句。"
+        },
+        "only": {
+          "bubble": [
+            145,
+            365
+          ],
+          "evidence": "仅一杯在外与句子相符。"
+        },
+        "almost": {
+          "bubble": [
+            850,
+            410
+          ],
+          "evidence": "四在盘内一在外，几乎全部由句子教学。"
+        },
+        "quite": {
+          "bubble": [
+            145,
+            580
+          ],
+          "evidence": "相当简单由叙述者评价。"
+        },
+        "very": {
+          "bubble": [
+            850,
+            625
+          ],
+          "evidence": "很小由教学故事说明。"
+        },
+        "so": {
+          "bubble": [
+            150,
+            800
+          ],
+          "evidence": "如此小以so...that句子表达。"
+        },
+        "such": {
+          "bubble": [
+            520,
+            925
+          ],
+          "evidence": "这样的一套用such a语法表达。"
+        },
+        "any": {
+          "bubble": [
+            850,
+            920
+          ],
+          "evidence": "询问空盘是否有任何杯子。"
+        },
+        "not": {
+          "bubble": [
+            145,
+            950
+          ],
+          "evidence": "单独杯不在第一托盘的否定句。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C100": {
+      "sourcePath": "scene-cards-850/images/C100.png",
+      "generationStartedAt": "2026-10-03 18:13:18 UTC",
+      "generationEndedAt": "2026-10-03 18:19:16 UTC",
+      "imageReview": "上幅雨窗室内阅读，下幅雨后庭院步行，保持同一故事角色；五连词全部句子，不把天气当连词框。",
+      "avoidRegions": [
+        [
+          453,
+          58,
+          648,
+          228
+        ],
+        [
+          505,
+          522,
+          620,
+          642
+        ]
+      ],
+      "geometry": {
+        "and": {
+          "bubble": [
+            155,
+            80
+          ],
+          "evidence": "出门并步行，连接两个动作。"
+        },
+        "but": {
+          "bubble": [
+            850,
+            80
+          ],
+          "evidence": "想散步但是下雨的转折。"
+        },
+        "if": {
+          "bubble": [
+            155,
+            380
+          ],
+          "evidence": "如果下雨则室内读书的条件。"
+        },
+        "though": {
+          "bubble": [
+            850,
+            600
+          ],
+          "evidence": "虽然下雨仍享受书的让步。"
+        },
+        "while": {
+          "bubble": [
+            155,
+            935
+          ],
+          "evidence": "下雨期间在室内的时间关系。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "reviewCompletedAt": "2026-10-03T18:25:58.128111+00:00"
+}

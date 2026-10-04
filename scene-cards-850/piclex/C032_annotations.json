@@ -1,0 +1,313 @@
+{
+  "filename": "C032-穿过一座桥.png",
+  "labels": [
+    {
+      "x": 866,
+      "y": 520,
+      "english": "bridge",
+      "chinese": "桥",
+      "phoneticUS": "/brɪdʒ/",
+      "phoneticUK": "/brɪdʒ/",
+      "bubblePosition": {
+        "x": 690,
+        "y": 350
+      },
+      "anchorPosition": {
+        "x": 866,
+        "y": 520
+      },
+      "boundingBox": {
+        "left": 533,
+        "top": 416,
+        "right": 996,
+        "bottom": 992
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桥面与护栏的实际区域。",
+        "association": "桥面与护栏的实际区域。",
+        "collocation": "cross the bridge",
+        "example": "The bridge crosses the river.",
+        "exampleChinese": "这座桥横跨河流。"
+      }
+    },
+    {
+      "x": 948,
+      "y": 850,
+      "english": "across",
+      "chinese": "横穿",
+      "phoneticUS": "/əˈkrɔːs/",
+      "phoneticUK": "/əˈkrɒs/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 915
+      },
+      "anchorPosition": {
+        "x": 948,
+        "y": 850
+      },
+      "boundingBox": {
+        "left": 530,
+        "top": 414,
+        "right": 996,
+        "bottom": 992
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "人物和桥面跨河路线共同定位across，句子说明跨越。",
+        "association": "人物和桥面跨河路线共同定位across，句子说明跨越。",
+        "collocation": "across the bridge",
+        "example": "We walk across the bridge.",
+        "exampleChinese": "我们步行穿过这座桥。"
+      }
+    },
+    {
+      "x": 118,
+      "y": 710,
+      "english": "near",
+      "chinese": "近的",
+      "phoneticUS": "/nɪr/",
+      "phoneticUK": "/nɪə/",
+      "bubblePosition": {
+        "x": 113,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 118,
+        "y": 710
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 527,
+        "right": 225,
+        "bottom": 957
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。",
+        "association": "左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。",
+        "collocation": "the near part",
+        "example": "The near part of the bridge is beside me.",
+        "exampleChinese": "桥的近处部分就在我身旁。"
+      }
+    },
+    {
+      "x": 877,
+      "y": 390,
+      "english": "far",
+      "chinese": "在远处",
+      "phoneticUS": "/fɑːr/",
+      "phoneticUK": "/fɑː/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 245
+      },
+      "anchorPosition": {
+        "x": 877,
+        "y": 390
+      },
+      "boundingBox": {
+        "left": 849,
+        "top": 289,
+        "right": 977,
+        "bottom": 574
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。",
+        "association": "桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。",
+        "collocation": "far away",
+        "example": "The other traveller is far away.",
+        "exampleChinese": "另一位旅人在远处。"
+      }
+    },
+    {
+      "x": 768,
+      "y": 646,
+      "english": "distance",
+      "chinese": "距离",
+      "phoneticUS": "/ˈdɪstəns/",
+      "phoneticUK": "/ˈdɪstəns/",
+      "bubblePosition": {
+        "x": 807,
+        "y": 790
+      },
+      "anchorPosition": {
+        "x": 768,
+        "y": 646
+      },
+      "boundingBox": {
+        "left": 538,
+        "top": 467,
+        "right": 910,
+        "bottom": 847
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。",
+        "association": "前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。",
+        "collocation": "the distance between",
+        "example": "There is some distance between the two travellers.",
+        "exampleChinese": "两位旅人之间有一段距离。"
+      }
+    },
+    {
+      "x": 135,
+      "y": 80,
+      "english": "from",
+      "chinese": "从",
+      "phoneticUS": "/frʌm/",
+      "phoneticUK": "/frɒm/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "起点介词在完整句中解释，不独立框桥端。",
+        "association": "起点介词在完整句中解释，不独立框桥端。",
+        "collocation": "from here",
+        "example": "We walk from here to the other bank.",
+        "exampleChinese": "我们从这里走到另一岸。"
+      }
+    },
+    {
+      "x": 350,
+      "y": 80,
+      "english": "to",
+      "chinese": "到",
+      "phoneticUS": "/tuː/",
+      "phoneticUK": "/tuː/",
+      "bubblePosition": {
+        "x": 350,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "终点介词在完整句中解释，不等同于某物体。",
+        "association": "终点介词在完整句中解释，不等同于某物体。",
+        "collocation": "to the other bank",
+        "example": "We walk to the other bank.",
+        "exampleChinese": "我们走到另一岸。"
+      }
+    },
+    {
+      "x": 242,
+      "y": 562,
+      "english": "walk",
+      "chinese": "步行",
+      "phoneticUS": "/wɔːk/",
+      "phoneticUK": "/wɔːk/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 340
+      },
+      "anchorPosition": {
+        "x": 242,
+        "y": 562
+      },
+      "boundingBox": {
+        "left": 217,
+        "top": 164,
+        "right": 538,
+        "bottom": 955
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主人公完整步态和桥面接触位置。",
+        "association": "主人公完整步态和桥面接触位置。",
+        "collocation": "walk across",
+        "example": "I walk across the bridge.",
+        "exampleChinese": "我步行过桥。"
+      }
+    },
+    {
+      "x": 529,
+      "y": 630,
+      "english": "whistle",
+      "chinese": "哨子",
+      "phoneticUS": "/ˈwɪsl/",
+      "phoneticUK": "/ˈwɪsl/",
+      "bubblePosition": {
+        "x": 685,
+        "y": 659
+      },
+      "anchorPosition": {
+        "x": 529,
+        "y": 630
+      },
+      "boundingBox": {
+        "left": 516,
+        "top": 611,
+        "right": 543,
+        "bottom": 649
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中/腕绳上的实体金属哨子，选名词义而非声音。",
+        "association": "手中/腕绳上的实体金属哨子，选名词义而非声音。",
+        "collocation": "a metal whistle",
+        "example": "I carry a small whistle.",
+        "exampleChinese": "我带着一个小哨子。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A bridge, two travellers, and a little distance between us.",
+    "chinese": "一座桥，两位旅人，彼此之间隔着一小段距离。",
+    "source": "原创配文 · C032 穿过一座桥",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

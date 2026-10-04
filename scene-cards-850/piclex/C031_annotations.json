@@ -1,0 +1,286 @@
+{
+  "filename": "C031-街角问路.png",
+  "labels": [
+    {
+      "x": 130,
+      "y": 450,
+      "english": "street",
+      "chinese": "街道",
+      "phoneticUS": "/striːt/",
+      "phoneticUK": "/striːt/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 620
+      },
+      "anchorPosition": {
+        "x": 130,
+        "y": 450
+      },
+      "boundingBox": {
+        "left": 50,
+        "top": 370,
+        "right": 206,
+        "bottom": 558
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "人物身旁有建筑与人行道的街道区域。",
+        "association": "人物身旁有建筑与人行道的街道区域。",
+        "collocation": "a quiet street",
+        "example": "The street beside us is quiet.",
+        "exampleChinese": "我们身旁的街道很安静。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 467,
+      "english": "road",
+      "chinese": "道路",
+      "phoneticUS": "/roʊd/",
+      "phoneticUK": "/rəʊd/",
+      "bubblePosition": {
+        "x": 580,
+        "y": 520
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 467
+      },
+      "boundingBox": {
+        "left": 398,
+        "top": 419,
+        "right": 632,
+        "bottom": 627
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "通向远处街区的主道路。",
+        "association": "通向远处街区的主道路。",
+        "collocation": "the main road",
+        "example": "The road leads into town.",
+        "exampleChinese": "这条路通向镇里。"
+      }
+    },
+    {
+      "x": 520,
+      "y": 300,
+      "english": "town",
+      "chinese": "小镇",
+      "phoneticUS": "/taʊn/",
+      "phoneticUK": "/taʊn/",
+      "bubblePosition": {
+        "x": 555,
+        "y": 120
+      },
+      "anchorPosition": {
+        "x": 520,
+        "y": 300
+      },
+      "boundingBox": {
+        "left": 83,
+        "top": 142,
+        "right": 957,
+        "bottom": 388
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。",
+        "association": "远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。",
+        "collocation": "a small town",
+        "example": "We explore a small town.",
+        "exampleChinese": "我们游览一个小镇。"
+      }
+    },
+    {
+      "x": 465,
+      "y": 665,
+      "english": "map",
+      "chinese": "地图",
+      "phoneticUS": "/mæp/",
+      "phoneticUK": "/mæp/",
+      "bubblePosition": {
+        "x": 570,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 465,
+        "y": 665
+      },
+      "boundingBox": {
+        "left": 365,
+        "top": 595,
+        "right": 573,
+        "bottom": 740
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中展开的纸质路线图，无需读取地名。",
+        "association": "手中展开的纸质路线图，无需读取地名。",
+        "collocation": "check the map",
+        "example": "I check the map in my hands.",
+        "exampleChinese": "我查看手里的地图。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 433,
+      "english": "left",
+      "chinese": "向左",
+      "phoneticUS": "/left/",
+      "phoneticUK": "/left/",
+      "bubblePosition": {
+        "x": 118,
+        "y": 245
+      },
+      "anchorPosition": {
+        "x": 150,
+        "y": 433
+      },
+      "boundingBox": {
+        "left": 50,
+        "top": 370,
+        "right": 206,
+        "bottom": 558
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "路口左侧分支与指路手势，方向以当前画面行进视角解释。",
+        "association": "路口左侧分支与指路手势，方向以当前画面行进视角解释。",
+        "collocation": "turn left",
+        "example": "Turn left at the corner.",
+        "exampleChinese": "在拐角处向左转。"
+      }
+    },
+    {
+      "x": 910,
+      "y": 408,
+      "english": "right",
+      "chinese": "向右",
+      "phoneticUS": "/raɪt/",
+      "phoneticUK": "/raɪt/",
+      "bubblePosition": {
+        "x": 890,
+        "y": 245
+      },
+      "anchorPosition": {
+        "x": 910,
+        "y": 408
+      },
+      "boundingBox": {
+        "left": 790,
+        "top": 350,
+        "right": 976,
+        "bottom": 478
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "路口右侧分支，句子以画面行进方向解释。",
+        "association": "路口右侧分支，句子以画面行进方向解释。",
+        "collocation": "turn right",
+        "example": "You can turn right at this corner.",
+        "exampleChinese": "你可以在这个拐角处向右转。"
+      }
+    },
+    {
+      "x": 535,
+      "y": 625,
+      "english": "way",
+      "chinese": "路线",
+      "phoneticUS": "/weɪ/",
+      "phoneticUK": "/weɪ/",
+      "bubblePosition": {
+        "x": 725,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 535,
+        "y": 625
+      },
+      "boundingBox": {
+        "left": 365,
+        "top": 595,
+        "right": 573,
+        "bottom": 740
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。",
+        "association": "纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。",
+        "collocation": "find the way",
+        "example": "The map helps us find the way.",
+        "exampleChinese": "地图帮助我们找到路线。"
+      }
+    },
+    {
+      "x": 170,
+      "y": 75,
+      "english": "where",
+      "chinese": "在哪里",
+      "phoneticUS": "/wer/",
+      "phoneticUK": "/weə/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "问路疑问句提供语境，没有独立可定位对象。",
+        "association": "问路疑问句提供语境，没有独立可定位对象。",
+        "collocation": "where is",
+        "example": "Where is the town centre?",
+        "exampleChinese": "镇中心在哪里？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A map in my hands, a quiet street, and a new way through town.",
+    "chinese": "手里一张地图，眼前一条安静的街，我在小镇寻找新的路线。",
+    "source": "原创配文 · C031 街角问路",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

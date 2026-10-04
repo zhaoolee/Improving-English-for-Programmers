@@ -1,0 +1,289 @@
+{
+  "filename": "C016-面包店的烤箱.png",
+  "labels": [
+    {
+      "x": 90,
+      "y": 300,
+      "english": "oven",
+      "chinese": "烤箱",
+      "phoneticUS": "/ˈʌvən/",
+      "phoneticUK": "/ˈʌvən/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 490
+      },
+      "anchorPosition": {
+        "x": 90,
+        "y": 300
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 0,
+        "right": 224,
+        "bottom": 431
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "后方打开的烤箱",
+        "association": "后方打开的烤箱",
+        "collocation": "a hot oven",
+        "example": "The cake comes out of the oven.",
+        "exampleChinese": "蛋糕从烤箱里取出来。"
+      }
+    },
+    {
+      "x": 535,
+      "y": 710,
+      "english": "cake",
+      "chinese": "蛋糕",
+      "phoneticUS": "/keɪk/",
+      "phoneticUK": "/keɪk/",
+      "bubblePosition": {
+        "x": 570,
+        "y": 852
+      },
+      "anchorPosition": {
+        "x": 535,
+        "y": 710
+      },
+      "boundingBox": {
+        "left": 335,
+        "top": 585,
+        "right": 790,
+        "bottom": 770
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景圆形海绵蛋糕",
+        "association": "前景圆形海绵蛋糕",
+        "collocation": "a slice of cake",
+        "example": "The cake is on a stand.",
+        "exampleChinese": "蛋糕放在蛋糕架上。"
+      }
+    },
+    {
+      "x": 550,
+      "y": 632,
+      "english": "jelly",
+      "chinese": "果冻状果酱",
+      "phoneticUS": "/ˈdʒeli/",
+      "phoneticUK": "/ˈdʒeli/",
+      "bubblePosition": {
+        "x": 790,
+        "y": 566
+      },
+      "anchorPosition": {
+        "x": 550,
+        "y": 632
+      },
+      "boundingBox": {
+        "left": 353,
+        "top": 591,
+        "right": 775,
+        "bottom": 685
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "蛋糕上平滑无籽的红色果酱层；采用美式果冻状果酱义，身份由设定说明",
+        "association": "蛋糕上平滑无籽的红色果酱层；采用美式果冻状果酱义，身份由设定说明",
+        "collocation": "fruit jelly",
+        "example": "I spread fruit jelly on the cake.",
+        "exampleChinese": "我在蛋糕上涂果冻状果酱。"
+      }
+    },
+    {
+      "x": 115,
+      "y": 854,
+      "english": "taste",
+      "chinese": "味道",
+      "phoneticUS": "/teɪst/",
+      "phoneticUK": "/teɪst/",
+      "bubblePosition": {
+        "x": 115,
+        "y": 854
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "味觉由例句说明，不能从照片测量",
+        "association": "味觉由例句说明，不能从照片测量",
+        "collocation": "a sweet taste",
+        "example": "The cake has a sweet taste.",
+        "exampleChinese": "蛋糕有甜甜的味道。"
+      }
+    },
+    {
+      "x": 340,
+      "y": 50,
+      "english": "smell",
+      "chinese": "气味",
+      "phoneticUS": "/smel/",
+      "phoneticUK": "/smel/",
+      "bubblePosition": {
+        "x": 340,
+        "y": 50
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "嗅觉由原创场景叙述说明",
+        "association": "嗅觉由原创场景叙述说明",
+        "collocation": "the smell of cake",
+        "example": "I love the smell of fresh cake.",
+        "exampleChinese": "我喜欢新鲜蛋糕的香气。"
+      }
+    },
+    {
+      "x": 907,
+      "y": 852,
+      "english": "bitter",
+      "chinese": "苦的",
+      "phoneticUS": "/ˈbɪtər/",
+      "phoneticUK": "/ˈbɪtə/",
+      "bubblePosition": {
+        "x": 907,
+        "y": 852
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "咖啡味道由例句说明，不把蛋糕说成苦的",
+        "association": "咖啡味道由例句说明，不把蛋糕说成苦的",
+        "collocation": "bitter coffee",
+        "example": "The coffee tastes bitter.",
+        "exampleChinese": "咖啡喝起来是苦的。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 945,
+      "english": "good",
+      "chinese": "好的",
+      "phoneticUS": "/ɡʊd/",
+      "phoneticUK": "/ɡʊd/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 945
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "评价由叙述者表达",
+        "association": "评价由叙述者表达",
+        "collocation": "a good cake",
+        "example": "This is a good cake.",
+        "exampleChinese": "这是个不错的蛋糕。"
+      }
+    },
+    {
+      "x": 450,
+      "y": 945,
+      "english": "bad",
+      "chinese": "不好的",
+      "phoneticUS": "/bæd/",
+      "phoneticUK": "/bæd/",
+      "bubblePosition": {
+        "x": 450,
+        "y": 945
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "条件性例句；不声称图中蛋糕烤焦",
+        "association": "条件性例句；不声称图中蛋糕烤焦",
+        "collocation": "a bad taste",
+        "example": "Burned cake has a bad taste.",
+        "exampleChinese": "烤焦的蛋糕味道不好。"
+      }
+    },
+    {
+      "x": 397,
+      "y": 255,
+      "english": "bite",
+      "chinese": "一口",
+      "phoneticUS": "/baɪt/",
+      "phoneticUK": "/baɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 397,
+        "y": 255
+      },
+      "boundingBox": {
+        "left": 350,
+        "top": 229,
+        "right": 441,
+        "bottom": 283
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。",
+        "association": "叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。",
+        "collocation": "a bite of cake",
+        "example": "I take a bite of cake.",
+        "exampleChinese": "我吃一口蛋糕。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A bite of cake, a little fruit jelly, and the smell of baking.",
+    "chinese": "一口蛋糕，少许果冻状果酱，还有烘焙的香气。",
+    "source": "原创配文 · C016 面包店的烤箱",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

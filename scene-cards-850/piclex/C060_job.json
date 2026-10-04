@@ -1,0 +1,19 @@
+{
+  "cardID": "C060",
+  "imagePath": "../images/C060.png",
+  "imageSHA256": "58312f189d96cb5600a4a162a30566f204c99928ad25a6a1bbf08996b691dc79",
+  "imageReviewed": true,
+  "annotationsPath": "C060_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "smile",
+    "laugh",
+    "cry",
+    "sad",
+    "angry",
+    "fear",
+    "shock",
+    "surprise"
+  ],
+  "receiptPath": "C060_import_receipt.json"
+}

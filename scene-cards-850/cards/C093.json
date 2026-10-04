@@ -1,0 +1,402 @@
+{
+  "id": "C093",
+  "chapter": "社会与表达",
+  "title": "城市规则与公共服务",
+  "scene": "市政大厅公共说明会，政务人员解释法律、规则和政治议题。",
+  "target_count": 9,
+  "primary_words": [
+    "government",
+    "political",
+    "law",
+    "rule",
+    "peace",
+    "protest",
+    "religion",
+    "church",
+    "free"
+  ],
+  "targets": [
+    {
+      "word_id": "W308",
+      "word": "government",
+      "aliases": [],
+      "source_zh_unreviewed": "政府",
+      "planned_mode": "context",
+      "sense_zh": "政府",
+      "pos": "noun",
+      "ipa_us": "/ˈɡʌvɚnmənt/",
+      "ipa_uk": "/ˈɡʌvənmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The local government holds a public meeting in our story.",
+        "matched_form": "government",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The local government holds a public meeting in our story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The local government holds a public meeting in our story.",
+      "example_zh": "故事中的地方政府举行公共说明会。",
+      "bbox_normalized": null,
+      "collocations": [
+        "local government",
+        "government services"
+      ],
+      "example_en_highlighted": "The local **government** holds a public meeting in our story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The local government holds a public meeting in our story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W540",
+      "word": "political",
+      "aliases": [],
+      "source_zh_unreviewed": "政治的；政治上的",
+      "planned_mode": "context",
+      "sense_zh": "政治的",
+      "pos": "adjective",
+      "ipa_us": "/pəˈlɪtɪkəl/",
+      "ipa_uk": "/pəˈlɪtɪkəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We ask a political question about public decisions.",
+        "matched_form": "political",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We ask a political question about public decisions.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We ask a political question about public decisions.",
+      "example_zh": "我们就公共决策提出一个政治问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a political question",
+        "political discussion"
+      ],
+      "example_en_highlighted": "We ask a **political** question about public decisions.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We ask a political question about public decisions.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W390",
+      "word": "law",
+      "aliases": [],
+      "source_zh_unreviewed": "法律",
+      "planned_mode": "context",
+      "sense_zh": "法律",
+      "pos": "noun",
+      "ipa_us": "/lɔː/",
+      "ipa_uk": "/lɔː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A law sets rules that people must follow.",
+        "matched_form": "law",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A law sets rules that people must follow.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A law sets rules that people must follow.",
+      "example_zh": "法律规定人们必须遵守的规则。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the law",
+        "a public law"
+      ],
+      "example_en_highlighted": "A **law** sets rules that people must follow.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A law sets rules that people must follow.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W610",
+      "word": "rule",
+      "aliases": [],
+      "source_zh_unreviewed": "规则；统治",
+      "planned_mode": "context",
+      "sense_zh": "规则",
+      "pos": "noun",
+      "ipa_us": "/ruːl/",
+      "ipa_uk": "/ruːl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We discuss a rule for using the hall.",
+        "matched_form": "rule",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We discuss a rule for using the hall.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We discuss a rule for using the hall.",
+      "example_zh": "我们讨论使用大厅的一项规则。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a public rule",
+        "follow a rule"
+      ],
+      "example_en_highlighted": "We discuss a **rule** for using the hall.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We discuss a rule for using the hall.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W519",
+      "word": "peace",
+      "aliases": [],
+      "source_zh_unreviewed": "和平；平静",
+      "planned_mode": "context",
+      "sense_zh": "和平",
+      "pos": "noun",
+      "ipa_us": "/piːs/",
+      "ipa_uk": "/piːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "People can disagree and still live in peace.",
+        "matched_form": "peace",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：People can disagree and still live in peace.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "People can disagree and still live in peace.",
+      "example_zh": "人们可以意见不同，仍然和平共处。",
+      "bbox_normalized": null,
+      "collocations": [
+        "live in peace",
+        "work for peace"
+      ],
+      "example_en_highlighted": "People can disagree and still live in **peace**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：People can disagree and still live in peace.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W560",
+      "word": "protest",
+      "aliases": [],
+      "source_zh_unreviewed": "抗议；反对",
+      "planned_mode": "context",
+      "sense_zh": "抗议",
+      "pos": "noun",
+      "ipa_us": "/ˈproʊtest/",
+      "ipa_uk": "/ˈprəʊtest/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The speaker describes a peaceful protest in the story.",
+        "matched_form": "protest",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The speaker describes a peaceful protest in the story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The speaker describes a peaceful protest in the story.",
+      "example_zh": "发言者讲述故事中的一场和平抗议。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a peaceful protest",
+        "make a protest"
+      ],
+      "example_en_highlighted": "The speaker describes a peaceful **protest** in the story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The speaker describes a peaceful protest in the story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W589",
+      "word": "religion",
+      "aliases": [],
+      "source_zh_unreviewed": "宗教",
+      "planned_mode": "context",
+      "sense_zh": "宗教",
+      "pos": "noun",
+      "ipa_us": "/rɪˈlɪdʒən/",
+      "ipa_uk": "/rɪˈlɪdʒən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Religion is one topic in our vocabulary discussion.",
+        "matched_form": "religion",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Religion is one topic in our vocabulary discussion.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Religion is one topic in our vocabulary discussion.",
+      "example_zh": "宗教是我们词汇讨论的一个话题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "freedom of religion",
+        "a religion"
+      ],
+      "example_en_highlighted": "**Religion** is one topic in our vocabulary discussion.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Religion is one topic in our vocabulary discussion.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W131",
+      "word": "church",
+      "aliases": [],
+      "source_zh_unreviewed": "教堂",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "教堂",
+      "pos": "noun",
+      "ipa_us": "/tʃɝːtʃ/",
+      "ipa_uk": "/tʃɜːtʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "窗外实体小教堂及尖塔十字，非地图图标。",
+        "sentence": "A small church stands outside the window.",
+        "matched_form": "church",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A small church stands outside the window.",
+      "example_zh": "窗外立着一座小教堂。",
+      "bbox_normalized": [
+        0.048,
+        0.111,
+        0.153,
+        0.323
+      ],
+      "collocations": [
+        "a small church",
+        "the church outside"
+      ],
+      "example_en_highlighted": "A small **church** stands outside the window.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（教堂），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W289",
+      "word": "free",
+      "aliases": [],
+      "source_zh_unreviewed": "自由的；免费的",
+      "planned_mode": "context",
+      "sense_zh": "自由的",
+      "pos": "adjective",
+      "ipa_us": "/friː/",
+      "ipa_uk": "/friː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "People are free to ask questions at this meeting.",
+        "matched_form": "free",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：People are free to ask questions at this meeting.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "People are free to ask questions at this meeting.",
+      "example_zh": "人们在这场会议上可以自由提问。",
+      "bbox_normalized": null,
+      "collocations": [
+        "free to ask",
+        "free discussion"
+      ],
+      "example_en_highlighted": "People are **free** to ask questions at this meeting.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：People are free to ask questions at this meeting.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "At a public meeting, we discuss a rule and ask how government serves people.",
+    "zh": "在公共说明会上，我们讨论一项规则，询问政府如何服务人们。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C093\n标题 城市规则与公共服务\n场景 市政大厅公共说明会，政务人员解释法律、规则和政治议题。\n目标词 government, political, law, rule, peace, protest, religion, church, free\n原创主配文草案 A public rule should serve the people.\n中文草案 公共规则应当为人们服务。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman speaker at a modest municipal-style community hall meeting, two adult visitors listening, simple blank town map pictograms behind speaker. Through side window a recognizable small church with steeple and cross far outside, clearly separate from hall. Cool Korean civic editorial environmental portrait, no real politicians, party logos, readable words or legal text.",
+  "status": "approved",
+  "image_path": "images/C093.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 8,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C093 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:14:34 UTC",
+    "prompt_path": "prompts/C093_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C093.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "女子在地图前说明，两位听众，窗外教堂有塔尖十字；政务身份宗教法律具体内容全部由原创教学故事明示。"
+  }
+}

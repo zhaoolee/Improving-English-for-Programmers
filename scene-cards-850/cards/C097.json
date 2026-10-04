@@ -1,0 +1,360 @@
+{
+  "id": "C097",
+  "chapter": "社会与表达",
+  "title": "思考我是谁",
+  "scene": "主角在镜前记录生活，用回忆照片与旁白表达 self、mind、thought、idea、belief、existence、impulse 和 living。",
+  "target_count": 8,
+  "primary_words": [
+    "self",
+    "mind",
+    "thought",
+    "idea",
+    "belief",
+    "existence",
+    "impulse",
+    "living"
+  ],
+  "targets": [
+    {
+      "word_id": "W633",
+      "word": "self",
+      "aliases": [],
+      "source_zh_unreviewed": "自己",
+      "planned_mode": "context",
+      "sense_zh": "自我",
+      "pos": "noun",
+      "ipa_us": "/self/",
+      "ipa_uk": "/self/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Writing helps me explore my sense of self.",
+        "matched_form": "self",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Writing helps me explore my sense of self.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Writing helps me explore my sense of self.",
+      "example_zh": "写作帮助我探索自我意识。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a sense of self",
+        "my inner self"
+      ],
+      "example_en_highlighted": "Writing helps me explore my sense of **self**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Writing helps me explore my sense of self.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W443",
+      "word": "mind",
+      "aliases": [],
+      "source_zh_unreviewed": "心智；思想",
+      "planned_mode": "context",
+      "sense_zh": "心智",
+      "pos": "noun",
+      "ipa_us": "/maɪnd/",
+      "ipa_uk": "/maɪnd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Many questions come into my mind.",
+        "matched_form": "mind",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Many questions come into my mind.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Many questions come into my mind.",
+      "example_zh": "许多问题进入我的脑海。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in my mind",
+        "an open mind"
+      ],
+      "example_en_highlighted": "Many questions come into my **mind**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Many questions come into my mind.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W755",
+      "word": "thought",
+      "aliases": [],
+      "source_zh_unreviewed": "思考",
+      "planned_mode": "context",
+      "sense_zh": "想法",
+      "pos": "noun",
+      "ipa_us": "/θɔːt/",
+      "ipa_uk": "/θɔːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I write down a thought before I forget it.",
+        "matched_form": "thought",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I write down a thought before I forget it.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I write down a thought before I forget it.",
+      "example_zh": "忘记之前，我记下这个想法。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a new thought",
+        "write a thought"
+      ],
+      "example_en_highlighted": "I write down a **thought** before I forget it.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I write down a thought before I forget it.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W353",
+      "word": "idea",
+      "aliases": [],
+      "source_zh_unreviewed": "想法；主意",
+      "planned_mode": "context",
+      "sense_zh": "点子",
+      "pos": "noun",
+      "ipa_us": "/aɪˈdiːə/",
+      "ipa_uk": "/aɪˈdɪə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A new idea helps me see the problem differently.",
+        "matched_form": "idea",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A new idea helps me see the problem differently.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A new idea helps me see the problem differently.",
+      "example_zh": "一个新点子帮助我换个角度看问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a new idea",
+        "have an idea"
+      ],
+      "example_en_highlighted": "A new **idea** helps me see the problem differently.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A new idea helps me see the problem differently.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W063",
+      "word": "belief",
+      "aliases": [],
+      "source_zh_unreviewed": "信念；信仰",
+      "planned_mode": "context",
+      "sense_zh": "信念",
+      "pos": "noun",
+      "ipa_us": "/bɪˈliːf/",
+      "ipa_uk": "/bɪˈliːf/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I question a belief that I have held for years.",
+        "matched_form": "belief",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I question a belief that I have held for years.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I question a belief that I have held for years.",
+      "example_zh": "我反思一个持有多年的信念。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a personal belief",
+        "question a belief"
+      ],
+      "example_en_highlighted": "I question a **belief** that I have held for years.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I question a belief that I have held for years.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W243",
+      "word": "existence",
+      "aliases": [],
+      "source_zh_unreviewed": "存在",
+      "planned_mode": "context",
+      "sense_zh": "存在",
+      "pos": "noun",
+      "ipa_us": "/ɪɡˈzɪstəns/",
+      "ipa_uk": "/ɪɡˈzɪstəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I reflect on the meaning of human existence.",
+        "matched_form": "existence",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I reflect on the meaning of human existence.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I reflect on the meaning of human existence.",
+      "example_zh": "我思考人类存在的意义。",
+      "bbox_normalized": null,
+      "collocations": [
+        "human existence",
+        "the meaning of existence"
+      ],
+      "example_en_highlighted": "I reflect on the meaning of human **existence**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I reflect on the meaning of human existence.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W357",
+      "word": "impulse",
+      "aliases": [],
+      "source_zh_unreviewed": "冲动",
+      "planned_mode": "context",
+      "sense_zh": "冲动",
+      "pos": "noun",
+      "ipa_us": "/ˈɪmpʌls/",
+      "ipa_uk": "/ˈɪmpʌls/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I pause before acting on a sudden impulse.",
+        "matched_form": "impulse",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I pause before acting on a sudden impulse.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I pause before acting on a sudden impulse.",
+      "example_zh": "我在按照突然的冲动行动之前停一下。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a sudden impulse",
+        "resist an impulse"
+      ],
+      "example_en_highlighted": "I pause before acting on a sudden **impulse**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I pause before acting on a sudden impulse.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W411",
+      "word": "living",
+      "aliases": [],
+      "source_zh_unreviewed": "生活的",
+      "planned_mode": "context",
+      "sense_zh": "活着的",
+      "pos": "adjective",
+      "ipa_us": "/ˈlɪvɪŋ/",
+      "ipa_uk": "/ˈlɪvɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I think about the needs of living things.",
+        "matched_form": "living",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I think about the needs of living things.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I think about the needs of living things.",
+      "example_zh": "我思考生物的需要。",
+      "bbox_normalized": null,
+      "collocations": [
+        "living things",
+        "a living person"
+      ],
+      "example_en_highlighted": "I think about the needs of **living** things.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I think about the needs of living things.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I write down a thought and consider how an idea can change my view of myself.",
+    "zh": "我记下一段想法，思考一个新点子如何改变我看待自己的方式。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "抽象与历史词用展板解说、短对话或旁白，不能强行绑到普通物体。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C097\n标题 思考我是谁\n场景 主角在镜前记录生活，用回忆照片与旁白表达 self、mind、thought、idea、belief、existence、impulse 和 living。\n目标词 self, mind, thought, idea, belief, existence, impulse, living\n原创主配文草案 A new idea can change the way I see myself.\n中文草案 一个新想法能改变我看待自己的方式。\n编辑注意 抽象与历史词用展板解说、短对话或旁白，不能强行绑到普通物体。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at quiet cool pearl-toned desk writing in blank notebook, small upright mirror reflecting her naturally, two ordinary unlabelled travel snapshots beside notebook. Korean polished introspective editorial portrait, real skin, credible single reflection, no text, no mystical thought icons or words. Inner mental concepts only represented by later original sentences.",
+  "status": "approved",
+  "image_path": "images/C097.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 8,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C097 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:17:44 UTC",
+    "prompt_path": "prompts/C097_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C097.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "写笔记和镜中单一反射自然，旅行照片清楚；全八词用句子，不能给思想画虚假脑部框。"
+  }
+}

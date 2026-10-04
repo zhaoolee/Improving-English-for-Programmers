@@ -1,0 +1,1264 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "recognitionProvider": "Codex conversation vision",
+  "regionPolicy": "每卡整图一次视觉识别；具体词保留局部范围，抽象与功能词明确语境；不调用外部识别。",
+  "cards": {
+    "C061": {
+      "sourcePath": "scene-cards-850/images/C061.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:17:24 UTC",
+      "imageReview": "教师持打开书与粉笔授课，两个成年学习者，手部可信；学校是故事设定，框只取课堂场所。声音与知识仅句子证据。",
+      "avoidRegions": [
+        [
+          258,
+          108,
+          398,
+          229
+        ]
+      ],
+      "geometry": {
+        "school": {
+          "bubble": [
+            870,
+            880
+          ],
+          "evidence": "教室中的黑板桌椅与学习者，句子明确设定为学校课堂，不以装修独立证明学校资质。",
+          "box": [
+            15,
+            336,
+            998,
+            981
+          ],
+          "anchor": [
+            506,
+            658
+          ]
+        },
+        "teaching": {
+          "bubble": [
+            145,
+            260
+          ],
+          "evidence": "持书指向黑板的授课姿势；故事指定教学活动。",
+          "box": [
+            221,
+            109,
+            756,
+            448
+          ],
+          "anchor": [
+            488,
+            278
+          ]
+        },
+        "learning": {
+          "bubble": [
+            865,
+            150
+          ],
+          "evidence": "学习是过程，由例句表达。"
+        },
+        "education": {
+          "bubble": [
+            865,
+            290
+          ],
+          "evidence": "成人教育由故事说明。"
+        },
+        "knowledge": {
+          "bubble": [
+            865,
+            420
+          ],
+          "evidence": "知识非可见物体。"
+        },
+        "language": {
+          "bubble": [
+            865,
+            550
+          ],
+          "evidence": "语言类别通过句子说明。"
+        },
+        "book": {
+          "bubble": [
+            120,
+            515
+          ],
+          "evidence": "教师手中的打开书。",
+          "box": [
+            331,
+            317,
+            560,
+            406
+          ],
+          "anchor": [
+            445,
+            361
+          ]
+        },
+        "chalk": {
+          "bubble": [
+            570,
+            675
+          ],
+          "evidence": "黑板托架上两支白粉笔，框不套整面黑板。",
+          "box": [
+            705,
+            538,
+            792,
+            558
+          ],
+          "anchor": [
+            748,
+            548
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C062": {
+      "sourcePath": "scene-cards-850/images/C062.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:16:46 UTC",
+      "imageReview": "钢笔尖、木铅笔、墨水瓶、纸与书页清晰，书页自带细小不可读纹理；便条内容与单词只用句子。书页例句改为指向已打开书页，避免声称翻页动作。",
+      "avoidRegions": [
+        [
+          302,
+          81,
+          625,
+          292
+        ]
+      ],
+      "geometry": {
+        "paper": {
+          "bubble": [
+            125,
+            560
+          ],
+          "evidence": "写字的独立白纸，不取笔记便笺。",
+          "box": [
+            148,
+            628,
+            690,
+            798
+          ],
+          "anchor": [
+            419,
+            713
+          ]
+        },
+        "pen": {
+          "bubble": [
+            135,
+            690
+          ],
+          "evidence": "手持黑色钢笔与金属笔尖。",
+          "box": [
+            229,
+            548,
+            383,
+            735
+          ],
+          "anchor": [
+            306,
+            641
+          ]
+        },
+        "pencil": {
+          "bubble": [
+            615,
+            945
+          ],
+          "evidence": "桌底部木制铅笔。",
+          "box": [
+            398,
+            833,
+            601,
+            931
+          ],
+          "anchor": [
+            499,
+            882
+          ]
+        },
+        "ink": {
+          "bubble": [
+            135,
+            915
+          ],
+          "evidence": "开口深色墨水瓶；内容由句子指定墨水。",
+          "box": [
+            238,
+            757,
+            378,
+            878
+          ],
+          "anchor": [
+            308,
+            817
+          ]
+        },
+        "note": {
+          "bubble": [
+            875,
+            920
+          ],
+          "evidence": "便条尚未写成，句子为计划写便条。"
+        },
+        "page": {
+          "bubble": [
+            895,
+            520
+          ],
+          "evidence": "右侧打开书的一页。",
+          "box": [
+            721,
+            604,
+            998,
+            716
+          ],
+          "anchor": [
+            859,
+            660
+          ]
+        },
+        "writing": {
+          "bubble": [
+            630,
+            535
+          ],
+          "evidence": "手持钢笔在纸上留下笔迹的动作。",
+          "box": [
+            88,
+            549,
+            384,
+            739
+          ],
+          "anchor": [
+            236,
+            644
+          ]
+        },
+        "word": {
+          "bubble": [
+            870,
+            95
+          ],
+          "evidence": "新单词只在原创例句中明示。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C063": {
+      "sourcePath": "scene-cards-850/images/C063.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:18:02 UTC",
+      "imageReview": "图书馆书架与持书阅读姿势清晰，文学类别不依封面判断，兴趣与记忆均为语境。",
+      "avoidRegions": [
+        [
+          351,
+          301,
+          605,
+          461
+        ]
+      ],
+      "geometry": {
+        "library": {
+          "bubble": [
+            130,
+            90
+          ],
+          "evidence": "书架与阅览空间，故事明确为图书馆。",
+          "box": [
+            2,
+            4,
+            605,
+            416
+          ],
+          "anchor": [
+            303,
+            210
+          ]
+        },
+        "reading": {
+          "bubble": [
+            150,
+            570
+          ],
+          "evidence": "握书翻阅的手与打开书，阅读活动由句子说明。",
+          "box": [
+            156,
+            691,
+            901,
+            835
+          ],
+          "anchor": [
+            528,
+            763
+          ]
+        },
+        "fiction": {
+          "bubble": [
+            870,
+            130
+          ],
+          "evidence": "小说类别来自故事，封面不可证明。"
+        },
+        "story": {
+          "bubble": [
+            870,
+            270
+          ],
+          "evidence": "故事内容非静态画面可读证据。"
+        },
+        "prose": {
+          "bubble": [
+            870,
+            410
+          ],
+          "evidence": "散文体分类由例句明确。"
+        },
+        "verse": {
+          "bubble": [
+            875,
+            560
+          ],
+          "evidence": "另一本书的诗歌由例句指定。"
+        },
+        "interest": {
+          "bubble": [
+            155,
+            445
+          ],
+          "evidence": "阅读兴趣由例句表达。"
+        },
+        "memory": {
+          "bubble": [
+            155,
+            930
+          ],
+          "evidence": "记忆不可从外观判断。"
+        },
+        "ever": {
+          "bubble": [
+            870,
+            930
+          ],
+          "evidence": "曾经的经历由问句表达。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C064": {
+      "sourcePath": "scene-cards-850/images/C064.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:18:42 UTC",
+      "imageReview": "两位成年学习者讨论练习，左侧练习纸可定位；对错标记不当作数学结论，问题答案和真假由句子解释。",
+      "avoidRegions": [
+        [
+          286,
+          149,
+          503,
+          349
+        ],
+        [
+          755,
+          269,
+          997,
+          470
+        ]
+      ],
+      "geometry": {
+        "question": {
+          "bubble": [
+            140,
+            85
+          ],
+          "evidence": "提问由原创句明示。"
+        },
+        "answer": {
+          "bubble": [
+            850,
+            105
+          ],
+          "evidence": "比较答案由句子明示。"
+        },
+        "example": {
+          "bubble": [
+            135,
+            445
+          ],
+          "evidence": "例子由句子提供。"
+        },
+        "test": {
+          "bubble": [
+            125,
+            840
+          ],
+          "evidence": "左侧独立练习纸，故事指定练习测验。",
+          "box": [
+            36,
+            688,
+            389,
+            811
+          ],
+          "anchor": [
+            212,
+            749
+          ]
+        },
+        "error": {
+          "bubble": [
+            875,
+            615
+          ],
+          "evidence": "错误由句子表达，不凭叉号编造内容。"
+        },
+        "wrong": {
+          "bubble": [
+            140,
+            585
+          ],
+          "evidence": "错误答案的语境，非人物外观。"
+        },
+        "true": {
+          "bubble": [
+            550,
+            930
+          ],
+          "evidence": "水冷到一定程度结冰的真实陈述。"
+        },
+        "false": {
+          "bubble": [
+            870,
+            915
+          ],
+          "evidence": "所有鸟都会飞是不真实的陈述。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C065": {
+      "sourcePath": "scene-cards-850/images/C065.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:19:11 UTC",
+      "imageReview": "桌面蓝圆、绿方、粉直角、两深色平行条与紫曲线均独立清楚。圆片在透视中呈椭圆，不声称形状变成椭圆；铅笔尖在右下方。",
+      "avoidRegions": [
+        [
+          466,
+          63,
+          709,
+          243
+        ]
+      ],
+      "geometry": {
+        "circle": {
+          "bubble": [
+            110,
+            600
+          ],
+          "evidence": "蓝色圆片，俯斜视透视。",
+          "box": [
+            131,
+            663,
+            309,
+            751
+          ],
+          "anchor": [
+            220,
+            707
+          ]
+        },
+        "square": {
+          "bubble": [
+            390,
+            540
+          ],
+          "evidence": "绿色四边等长正方形纸片，透视但形状明确。",
+          "box": [
+            369,
+            647,
+            551,
+            750
+          ],
+          "anchor": [
+            460,
+            698
+          ]
+        },
+        "line": {
+          "bubble": [
+            120,
+            760
+          ],
+          "evidence": "上方一根深色直纸条表示线。",
+          "box": [
+            111,
+            789,
+            407,
+            823
+          ],
+          "anchor": [
+            259,
+            806
+          ]
+        },
+        "angle": {
+          "bubble": [
+            875,
+            565
+          ],
+          "evidence": "两根粉条的直角交接处。",
+          "box": [
+            622,
+            644,
+            814,
+            736
+          ],
+          "anchor": [
+            718,
+            690
+          ]
+        },
+        "curve": {
+          "bubble": [
+            705,
+            930
+          ],
+          "evidence": "紫色弧形纸条。",
+          "box": [
+            469,
+            785,
+            730,
+            859
+          ],
+          "anchor": [
+            599,
+            822
+          ]
+        },
+        "parallel": {
+          "bubble": [
+            390,
+            930
+          ],
+          "evidence": "两根平行深色纸条，框同时包含两条。",
+          "box": [
+            104,
+            785,
+            409,
+            875
+          ],
+          "anchor": [
+            256,
+            830
+          ]
+        },
+        "round": {
+          "bubble": [
+            120,
+            940
+          ],
+          "evidence": "同一蓝色圆片表达圆的属性。",
+          "box": [
+            131,
+            663,
+            309,
+            751
+          ],
+          "anchor": [
+            220,
+            707
+          ]
+        },
+        "straight": {
+          "bubble": [
+            395,
+            750
+          ],
+          "evidence": "下方深色直纸条。",
+          "box": [
+            111,
+            827,
+            407,
+            875
+          ],
+          "anchor": [
+            259,
+            851
+          ]
+        },
+        "flat": {
+          "bubble": [
+            865,
+            750
+          ],
+          "evidence": "右侧平放的白纸。",
+          "box": [
+            793,
+            594,
+            998,
+            862
+          ],
+          "anchor": [
+            895,
+            728
+          ]
+        },
+        "point": {
+          "bubble": [
+            905,
+            920
+          ],
+          "evidence": "木铅笔石墨尖端。",
+          "box": [
+            792,
+            787,
+            839,
+            822
+          ],
+          "anchor": [
+            815,
+            804
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C066": {
+      "sourcePath": "scene-cards-850/images/C066.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:19:53 UTC",
+      "imageReview": "静物画、左侧空框、右下颜料与左下设计草图清楚；白膏罐的用途由故事指定为浆糊，花茎可定位。画上细小花瓣可见。",
+      "avoidRegions": [
+        [
+          353,
+          186,
+          539,
+          374
+        ]
+      ],
+      "geometry": {
+        "art": {
+          "bubble": [
+            120,
+            75
+          ],
+          "evidence": "艺术创作由句子表达。"
+        },
+        "picture": {
+          "bubble": [
+            875,
+            85
+          ],
+          "evidence": "画架上的花瓶静物画。",
+          "box": [
+            682,
+            69,
+            998,
+            704
+          ],
+          "anchor": [
+            840,
+            386
+          ]
+        },
+        "frame": {
+          "bubble": [
+            105,
+            445
+          ],
+          "evidence": "左侧独立木空画框。",
+          "box": [
+            1,
+            78,
+            156,
+            628
+          ],
+          "anchor": [
+            78,
+            353
+          ]
+        },
+        "paint": {
+          "bubble": [
+            865,
+            800
+          ],
+          "evidence": "右下调色盘上的颜料。",
+          "box": [
+            624,
+            759,
+            998,
+            902
+          ],
+          "anchor": [
+            811,
+            830
+          ]
+        },
+        "design": {
+          "bubble": [
+            290,
+            750
+          ],
+          "evidence": "桌上纸张的花瓶轮廓草图。",
+          "box": [
+            164,
+            763,
+            450,
+            862
+          ],
+          "anchor": [
+            307,
+            812
+          ]
+        },
+        "form": {
+          "bubble": [
+            670,
+            950
+          ],
+          "evidence": "画中花瓶轮廓及形状。",
+          "box": [
+            770,
+            347,
+            911,
+            567
+          ],
+          "anchor": [
+            840,
+            457
+          ]
+        },
+        "detail": {
+          "bubble": [
+            850,
+            395
+          ],
+          "evidence": "画中白花的一片花瓣。",
+          "box": [
+            814,
+            279,
+            870,
+            351
+          ],
+          "anchor": [
+            842,
+            315
+          ]
+        },
+        "delicate": {
+          "bubble": [
+            130,
+            665
+          ],
+          "evidence": "左侧真实花朵的纤细茎。",
+          "box": [
+            44,
+            534,
+            86,
+            725
+          ],
+          "anchor": [
+            65,
+            629
+          ]
+        },
+        "paste": {
+          "bubble": [
+            400,
+            940
+          ],
+          "evidence": "中央白膏罐；例句明确它是纸片拼贴用浆糊，不按瓶中文字判断。",
+          "box": [
+            475,
+            758,
+            587,
+            874
+          ],
+          "anchor": [
+            531,
+            816
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C067": {
+      "sourcePath": "scene-cards-850/images/C067.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:20:20 UTC",
+      "imageReview": "三人乐队排练，吉他与舞台地板可见；声音、和声、节奏与听觉均非照片可证明。",
+      "avoidRegions": [
+        [
+          442,
+          176,
+          592,
+          324
+        ],
+        [
+          91,
+          270,
+          177,
+          354
+        ],
+        [
+          898,
+          388,
+          977,
+          466
+        ]
+      ],
+      "geometry": {
+        "music": {
+          "bubble": [
+            850,
+            75
+          ],
+          "evidence": "音乐由排练故事说明。"
+        },
+        "instrument": {
+          "bubble": [
+            145,
+            570
+          ],
+          "evidence": "左侧吉他，乐器义。",
+          "box": [
+            1,
+            426,
+            364,
+            581
+          ],
+          "anchor": [
+            182,
+            503
+          ]
+        },
+        "band": {
+          "bubble": [
+            125,
+            900
+          ],
+          "evidence": "三人一起排练的关系，故事指定同一乐队。",
+          "box": [
+            2,
+            176,
+            998,
+            979
+          ],
+          "anchor": [
+            500,
+            577
+          ]
+        },
+        "song": {
+          "bubble": [
+            850,
+            230
+          ],
+          "evidence": "歌曲由例句说明。"
+        },
+        "rhythm": {
+          "bubble": [
+            850,
+            555
+          ],
+          "evidence": "鼓的节奏不可从静态图直接听见。"
+        },
+        "harmony": {
+          "bubble": [
+            850,
+            720
+          ],
+          "evidence": "和声由句子明示，不把两张嘴当声学证据。"
+        },
+        "stage": {
+          "bubble": [
+            510,
+            945
+          ],
+          "evidence": "人物脚下舞台地板。",
+          "box": [
+            96,
+            887,
+            998,
+            992
+          ],
+          "anchor": [
+            547,
+            939
+          ]
+        },
+        "voice": {
+          "bubble": [
+            145,
+            140
+          ],
+          "evidence": "嗓音通过句子表达。"
+        },
+        "hearing": {
+          "bubble": [
+            510,
+            75
+          ],
+          "evidence": "听觉能力不能据外貌推断。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C068": {
+      "sourcePath": "scene-cards-850/images/C068.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:21:00 UTC",
+      "imageReview": "手中相机、两张相似景观照片、打印机出纸照片和左照片黑点均清楚。记录与再次发生用句子。",
+      "avoidRegions": [
+        [
+          295,
+          117,
+          600,
+          337
+        ]
+      ],
+      "geometry": {
+        "camera": {
+          "bubble": [
+            145,
+            460
+          ],
+          "evidence": "双手间的无标相机镜头及机身。",
+          "box": [
+            384,
+            367,
+            629,
+            552
+          ],
+          "anchor": [
+            506,
+            459
+          ]
+        },
+        "record": {
+          "bubble": [
+            870,
+            115
+          ],
+          "evidence": "旅行记录的功能由句子表达。"
+        },
+        "copy": {
+          "bubble": [
+            540,
+            950
+          ],
+          "evidence": "中间的同景观照片作为左照片副本，由故事指定。",
+          "box": [
+            410,
+            808,
+            695,
+            926
+          ],
+          "anchor": [
+            552,
+            867
+          ]
+        },
+        "print": {
+          "bubble": [
+            865,
+            730
+          ],
+          "evidence": "从右侧打印机伸出的照片。",
+          "box": [
+            720,
+            793,
+            996,
+            914
+          ],
+          "anchor": [
+            858,
+            853
+          ]
+        },
+        "mark": {
+          "bubble": [
+            155,
+            940
+          ],
+          "evidence": "左照片白边上的独立黑圆点。",
+          "box": [
+            376,
+            912,
+            401,
+            924
+          ],
+          "anchor": [
+            388,
+            918
+          ]
+        },
+        "again": {
+          "bubble": [
+            135,
+            100
+          ],
+          "evidence": "再一次使用相机在例句里明示。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C069": {
+      "sourcePath": "scene-cards-850/images/C069.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:21:43 UTC",
+      "imageReview": "主角在小平台表演帽子丝巾戏法，朋友作为观众；愉快幽默不按笑脸推断，由句子明示。",
+      "avoidRegions": [
+        [
+          395,
+          156,
+          529,
+          299
+        ],
+        [
+          110,
+          557,
+          218,
+          695
+        ],
+        [
+          908,
+          536,
+          998,
+          708
+        ]
+      ],
+      "geometry": {
+        "play": {
+          "bubble": [
+            150,
+            100
+          ],
+          "evidence": "演出前玩游戏的故事，不把观看表演当玩耍。"
+        },
+        "amusement": {
+          "bubble": [
+            855,
+            75
+          ],
+          "evidence": "娱乐由例句说明。"
+        },
+        "pleasure": {
+          "bubble": [
+            850,
+            205
+          ],
+          "evidence": "愉快由例句表达。"
+        },
+        "humor": {
+          "bubble": [
+            150,
+            370
+          ],
+          "evidence": "幽默的内容通过句子表达。"
+        },
+        "trick": {
+          "bubble": [
+            855,
+            410
+          ],
+          "evidence": "拿帽子和丝巾示意魔术动作，戏法由故事明示。",
+          "box": [
+            499,
+            171,
+            738,
+            542
+          ],
+          "anchor": [
+            618,
+            356
+          ]
+        },
+        "act": {
+          "bubble": [
+            155,
+            510
+          ],
+          "evidence": "正在表演的主角，故事指定魔术节目。",
+          "box": [
+            328,
+            117,
+            759,
+            982
+          ],
+          "anchor": [
+            543,
+            549
+          ]
+        },
+        "attraction": {
+          "bubble": [
+            510,
+            930
+          ],
+          "evidence": "吸引人的程度由故事说明。"
+        },
+        "happy": {
+          "bubble": [
+            865,
+            935
+          ],
+          "evidence": "开心是人物自述，不把表情当确定证据。"
+        },
+        "event": {
+          "bubble": [
+            145,
+            850
+          ],
+          "evidence": "平台与观众关系，故事指定公园活动。",
+          "box": [
+            17,
+            502,
+            998,
+            982
+          ],
+          "anchor": [
+            507,
+            742
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C070": {
+      "sourcePath": "scene-cards-850/images/C070.png",
+      "generationStartedAt": "2026-10-03 17:16:08 UTC",
+      "generationEndedAt": "2026-10-03 17:22:21 UTC",
+      "imageReview": "三框清单第一项勾选、第二项空白，书与文具分组清楚；笔是钢笔圆珠笔而非铅笔，sort例句改为文具；整理动作的结果由已分组托盘和故事说明。",
+      "avoidRegions": [
+        [
+          442,
+          63,
+          644,
+          241
+        ]
+      ],
+      "geometry": {
+        "list": {
+          "bubble": [
+            115,
+            430
+          ],
+          "evidence": "上幅手持三项清单。",
+          "box": [
+            195,
+            309,
+            415,
+            517
+          ],
+          "anchor": [
+            305,
+            413
+          ]
+        },
+        "order": {
+          "bubble": [
+            890,
+            530
+          ],
+          "evidence": "上幅整齐叠放的两本书，次序由故事指定。",
+          "box": [
+            458,
+            439,
+            803,
+            565
+          ],
+          "anchor": [
+            630,
+            502
+          ]
+        },
+        "first": {
+          "bubble": [
+            110,
+            710
+          ],
+          "evidence": "下幅清单从上到下第一项勾选框。",
+          "box": [
+            124,
+            716,
+            170,
+            750
+          ],
+          "anchor": [
+            147,
+            733
+          ]
+        },
+        "second": {
+          "bubble": [
+            110,
+            835
+          ],
+          "evidence": "下幅第二个空框。",
+          "box": [
+            122,
+            769,
+            162,
+            800
+          ],
+          "anchor": [
+            142,
+            784
+          ]
+        },
+        "step": {
+          "bubble": [
+            850,
+            75
+          ],
+          "evidence": "任务步骤通过句子说明。"
+        },
+        "complete": {
+          "bubble": [
+            125,
+            75
+          ],
+          "evidence": "完成状态由清单故事指定。"
+        },
+        "regular": {
+          "bubble": [
+            860,
+            225
+          ],
+          "evidence": "定期安排需要跨时间语境。"
+        },
+        "frequent": {
+          "bubble": [
+            845,
+            950
+          ],
+          "evidence": "频率由例句说明，单幅无法证明。"
+        },
+        "sort": {
+          "bubble": [
+            855,
+            785
+          ],
+          "evidence": "两个托盘中不同文具分组结果；动作语境由句子指定。",
+          "box": [
+            683,
+            666,
+            923,
+            938
+          ],
+          "anchor": [
+            803,
+            802
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "reviewCompletedAt": "2026-10-03T17:30:26.270139+00:00"
+}

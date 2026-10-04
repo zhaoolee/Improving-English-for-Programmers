@@ -1,0 +1,19 @@
+{
+  "cardID": "C015",
+  "imagePath": "../images/C015.png",
+  "imageSHA256": "4f30e313c4e9011cea519d1589f79129a686f5c889d91ab20b33cc8e47fb8dcc",
+  "imageReviewed": true,
+  "annotationsPath": "C015_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "apple",
+    "orange",
+    "berry",
+    "fruit",
+    "nut",
+    "red",
+    "yellow",
+    "green"
+  ],
+  "receiptPath": "C015_import_receipt.json"
+}

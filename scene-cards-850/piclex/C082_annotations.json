@@ -1,0 +1,356 @@
+{
+  "filename": "C082-搭建小砖屋.png",
+  "labels": [
+    {
+      "x": 327,
+      "y": 770,
+      "english": "brick",
+      "chinese": "砖",
+      "phoneticUS": "/brɪk/",
+      "phoneticUK": "/brɪk/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 835
+      },
+      "anchorPosition": {
+        "x": 327,
+        "y": 770
+      },
+      "boundingBox": {
+        "left": 244,
+        "top": 743,
+        "right": 411,
+        "bottom": 798
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（砖），待最终图确认。",
+        "association": "场景中体现的具体对象（砖），待最终图确认。",
+        "collocation": "a red brick; a brick wall",
+        "example": "A red brick lies beside the model.",
+        "exampleChinese": "一块红砖放在模型旁。"
+      }
+    },
+    {
+      "x": 940,
+      "y": 745,
+      "english": "stone",
+      "chinese": "石头",
+      "phoneticUS": "/stoʊn/",
+      "phoneticUK": "/stəʊn/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 940,
+        "y": 745
+      },
+      "boundingBox": {
+        "left": 882,
+        "top": 706,
+        "right": 998,
+        "bottom": 784
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（石头），待最终图确认。",
+        "association": "场景中体现的具体对象（石头），待最终图确认。",
+        "collocation": "a rough stone; a stone sample",
+        "example": "The stone has a rough surface.",
+        "exampleChinese": "这块石头有粗糙的表面。"
+      }
+    },
+    {
+      "x": 705,
+      "y": 621,
+      "english": "roof",
+      "chinese": "屋顶",
+      "phoneticUS": "/ruːf/",
+      "phoneticUK": "/ruːf/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 425
+      },
+      "anchorPosition": {
+        "x": 705,
+        "y": 621
+      },
+      "boundingBox": {
+        "left": 579,
+        "top": 561,
+        "right": 831,
+        "bottom": 682
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（屋顶），待最终图确认。",
+        "association": "场景中体现的具体对象（屋顶），待最终图确认。",
+        "collocation": "a sloping roof; the roof of",
+        "example": "The small house has a sloping roof.",
+        "exampleChinese": "这个小房子有倾斜的屋顶。"
+      }
+    },
+    {
+      "x": 580,
+      "y": 803,
+      "english": "base",
+      "chinese": "底座",
+      "phoneticUS": "/beɪs/",
+      "phoneticUK": "/beɪs/",
+      "bubblePosition": {
+        "x": 480,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 580,
+        "y": 803
+      },
+      "boundingBox": {
+        "left": 162,
+        "top": 731,
+        "right": 998,
+        "bottom": 876
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（底座），待最终图确认。",
+        "association": "场景中体现的具体对象（底座），待最终图确认。",
+        "collocation": "a flat base; on a base",
+        "example": "The model stands on a flat base.",
+        "exampleChinese": "模型立在平坦的底座上。"
+      }
+    },
+    {
+      "x": 507,
+      "y": 680,
+      "english": "structure",
+      "chinese": "结构",
+      "phoneticUS": "/ˈstrʌktʃɚ/",
+      "phoneticUK": "/ˈstrʌktʃə/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 620
+      },
+      "anchorPosition": {
+        "x": 507,
+        "y": 680
+      },
+      "boundingBox": {
+        "left": 367,
+        "top": 573,
+        "right": 647,
+        "bottom": 788
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（结构），待最终图确认。",
+        "association": "场景中体现的具体对象（结构），待最终图确认。",
+        "collocation": "a simple structure; the wall structure",
+        "example": "The open side shows the wall structure.",
+        "exampleChinese": "敞开的一侧展示了墙体结构。"
+      }
+    },
+    {
+      "x": 777,
+      "y": 785,
+      "english": "level",
+      "chinese": "水平的",
+      "phoneticUS": "/ˈlevəl/",
+      "phoneticUK": "/ˈlevəl/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 785
+      },
+      "anchorPosition": {
+        "x": 777,
+        "y": 785
+      },
+      "boundingBox": {
+        "left": 695,
+        "top": 763,
+        "right": 860,
+        "bottom": 807
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（水平的），待最终图确认。",
+        "association": "场景中体现的关系（水平的），待最终图确认。",
+        "collocation": "a level surface; keep level",
+        "example": "The board is level on the table.",
+        "exampleChinese": "板子水平放在桌上。"
+      }
+    },
+    {
+      "x": 160,
+      "y": 110,
+      "english": "fixed",
+      "chinese": "固定的",
+      "phoneticUS": "/fɪkst/",
+      "phoneticUK": "/fɪkst/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 110
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "fixed in place; a fixed part",
+        "example": "The roof is fixed in place in the story.",
+        "exampleChinese": "故事中的屋顶已经固定好。"
+      }
+    },
+    {
+      "x": 580,
+      "y": 803,
+      "english": "board",
+      "chinese": "木板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 810
+      },
+      "anchorPosition": {
+        "x": 580,
+        "y": 803
+      },
+      "boundingBox": {
+        "left": 162,
+        "top": 731,
+        "right": 998,
+        "bottom": 876
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（木板），待最终图确认。",
+        "association": "场景中体现的具体对象（木板），待最终图确认。",
+        "collocation": "a wooden board; a flat board",
+        "example": "A wooden board supports the house.",
+        "exampleChinese": "一块木板托着房子。"
+      }
+    },
+    {
+      "x": 940,
+      "y": 745,
+      "english": "rough",
+      "chinese": "粗糙的",
+      "phoneticUS": "/rʌf/",
+      "phoneticUK": "/rʌf/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 630
+      },
+      "anchorPosition": {
+        "x": 940,
+        "y": 745
+      },
+      "boundingBox": {
+        "left": 882,
+        "top": 706,
+        "right": 998,
+        "bottom": 784
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（粗糙的），待最终图确认。",
+        "association": "场景中体现的具体对象（粗糙的），待最终图确认。",
+        "collocation": "a rough surface; a rough stone",
+        "example": "The grey stone looks rough.",
+        "exampleChinese": "这块灰色石头看起来粗糙。"
+      }
+    },
+    {
+      "x": 666,
+      "y": 573,
+      "english": "top",
+      "chinese": "顶部",
+      "phoneticUS": "/tɑːp/",
+      "phoneticUK": "/tɒp/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 95
+      },
+      "anchorPosition": {
+        "x": 666,
+        "y": 573
+      },
+      "boundingBox": {
+        "left": 572,
+        "top": 554,
+        "right": 760,
+        "bottom": 592
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（顶部），待最终图确认。",
+        "association": "场景中体现的具体对象（顶部），待最终图确认。",
+        "collocation": "at the top; the top of",
+        "example": "The roof is at the top of the model.",
+        "exampleChinese": "屋顶位于模型顶部。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I build a small brick house on a flat base and check its roof.",
+    "chinese": "我在平坦的底座上搭建一个小砖屋，并检查屋顶。",
+    "source": "原创配文 · C082 搭建小砖屋",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

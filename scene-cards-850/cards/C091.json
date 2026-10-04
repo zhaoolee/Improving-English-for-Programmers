@@ -1,0 +1,498 @@
+{
+  "id": "C091",
+  "chapter": "社会与表达",
+  "title": "认识彼此",
+  "scene": "首次见面的小组互相介绍，展示不同年龄和性别人物；sex 只按性别分类解释，among 在群体语境中表达。",
+  "target_count": 11,
+  "primary_words": [
+    "person",
+    "man",
+    "woman",
+    "boy",
+    "girl",
+    "young",
+    "male",
+    "female",
+    "among",
+    "sex",
+    "who"
+  ],
+  "targets": [
+    {
+      "word_id": "W522",
+      "word": "person",
+      "aliases": [],
+      "source_zh_unreviewed": "人；个人",
+      "planned_mode": "context",
+      "sense_zh": "人",
+      "pos": "noun",
+      "ipa_us": "/ˈpɝːsən/",
+      "ipa_uk": "/ˈpɜːsən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中央完整人物，person指一个人。",
+        "sentence": "Each person introduces themselves.",
+        "matched_form": "person",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Each person introduces themselves.",
+      "example_zh": "每个人自我介绍。",
+      "bbox_normalized": [
+        0.33,
+        0.182,
+        0.712,
+        0.996
+      ],
+      "collocations": [
+        "each person",
+        "a friendly person"
+      ],
+      "example_en_highlighted": "Each **person** introduces themselves.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（人），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W423",
+      "word": "man",
+      "aliases": [],
+      "source_zh_unreviewed": "男人",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "成年男子",
+      "pos": "noun",
+      "ipa_us": "/mæn/",
+      "ipa_uk": "/mæn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧成人，故事自称Jun并明确成年男子。",
+        "sentence": "The man on the left introduces himself as Jun.",
+        "matched_form": "man",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The man on the left introduces himself as Jun.",
+      "example_zh": "左边的成年男子介绍自己叫Jun。",
+      "bbox_normalized": [
+        0.003,
+        0.066,
+        0.333,
+        0.783
+      ],
+      "collocations": [
+        "a young man",
+        "the man on the left"
+      ],
+      "example_en_highlighted": "The **man** on the left introduces himself as Jun.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（成年男子），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W836",
+      "word": "woman",
+      "aliases": [],
+      "source_zh_unreviewed": "女人",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "成年女子",
+      "pos": "noun",
+      "ipa_us": "/ˈwʊmən/",
+      "ipa_uk": "/ˈwʊmən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中央成人，故事自称Mina并明确成年女子。",
+        "sentence": "The woman in the middle introduces herself as Mina.",
+        "matched_form": "woman",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The woman in the middle introduces herself as Mina.",
+      "example_zh": "中间的成年女子介绍自己叫Mina。",
+      "bbox_normalized": [
+        0.33,
+        0.182,
+        0.712,
+        0.996
+      ],
+      "collocations": [
+        "a young woman",
+        "the woman in the middle"
+      ],
+      "example_en_highlighted": "The **woman** in the middle introduces herself as Mina.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（成年女子），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W087",
+      "word": "boy",
+      "aliases": [],
+      "source_zh_unreviewed": "男孩",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "男孩",
+      "pos": "noun",
+      "ipa_us": "/bɔɪ/",
+      "ipa_uk": "/bɔɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景左蓝衣儿童，故事明确男孩十岁。",
+        "sentence": "The boy in blue is ten in our story.",
+        "matched_form": "boy",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The boy in blue is ten in our story.",
+      "example_zh": "故事中，穿蓝衣的男孩十岁。",
+      "bbox_normalized": [
+        0.001,
+        0.389,
+        0.338,
+        0.998
+      ],
+      "collocations": [
+        "a young boy",
+        "the boy in blue"
+      ],
+      "example_en_highlighted": "The **boy** in blue is ten in our story.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（男孩），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W300",
+      "word": "girl",
+      "aliases": [],
+      "source_zh_unreviewed": "女孩",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "女孩",
+      "pos": "noun",
+      "ipa_us": "/ɡɝːl/",
+      "ipa_uk": "/ɡɜːl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景右米白衣儿童，故事明确女孩十岁。",
+        "sentence": "The girl in cream is ten in our story.",
+        "matched_form": "girl",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The girl in cream is ten in our story.",
+      "example_zh": "故事中，穿米白衣的女孩十岁。",
+      "bbox_normalized": [
+        0.579,
+        0.428,
+        0.887,
+        0.998
+      ],
+      "collocations": [
+        "a young girl",
+        "the girl in cream"
+      ],
+      "example_en_highlighted": "The **girl** in cream is ten in our story.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（女孩），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W850",
+      "word": "young",
+      "aliases": [],
+      "source_zh_unreviewed": "年轻的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "年轻的",
+      "pos": "adjective",
+      "ipa_us": "/jʌŋ/",
+      "ipa_uk": "/jʌŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The two children are young in this story.",
+        "matched_form": "young",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The two children are young in this story.",
+      "example_zh": "故事中的两个孩子年龄小。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a young person",
+        "still young"
+      ],
+      "example_en_highlighted": "The two children are **young** in this story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W422",
+      "word": "male",
+      "aliases": [],
+      "source_zh_unreviewed": "男性的",
+      "planned_mode": "context",
+      "sense_zh": "男性的",
+      "pos": "adjective",
+      "ipa_us": "/meɪl/",
+      "ipa_uk": "/meɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Jun is a male participant in our fictional group.",
+        "matched_form": "male",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Jun is a male participant in our fictional group.",
+      "example_zh": "Jun是我们虚构小组中的男性参与者。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a male participant",
+        "male or female"
+      ],
+      "example_en_highlighted": "Jun is a **male** participant in our fictional group.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W261",
+      "word": "female",
+      "aliases": [],
+      "source_zh_unreviewed": "女性的；雌性的",
+      "planned_mode": "context",
+      "sense_zh": "女性的",
+      "pos": "adjective",
+      "ipa_us": "/ˈfiːmeɪl/",
+      "ipa_uk": "/ˈfiːmeɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Mina is a female participant in our fictional group.",
+        "matched_form": "female",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Mina is a female participant in our fictional group.",
+      "example_zh": "Mina是我们虚构小组中的女性参与者。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a female participant",
+        "female or male"
+      ],
+      "example_en_highlighted": "Mina is a **female** participant in our fictional group.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W018",
+      "word": "among",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之中；在...之间",
+      "planned_mode": "context",
+      "sense_zh": "在……之中",
+      "pos": "preposition",
+      "ipa_us": "/əˈmʌŋ/",
+      "ipa_uk": "/əˈmʌŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中央人位于其他四人之中，群体空间关系清楚。",
+        "sentence": "I stand among the other people.",
+        "matched_form": "among",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I stand among the other people.",
+      "example_zh": "我站在其他人之中。",
+      "bbox_normalized": [
+        0.001,
+        0.066,
+        0.998,
+        0.996
+      ],
+      "collocations": [
+        "among friends",
+        "among the group"
+      ],
+      "example_en_highlighted": "I stand **among** the other people.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（在……之中），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W639",
+      "word": "sex",
+      "aliases": [],
+      "source_zh_unreviewed": "性别",
+      "planned_mode": "context",
+      "sense_zh": "性别",
+      "pos": "noun",
+      "ipa_us": "/seks/",
+      "ipa_uk": "/seks/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "In this vocabulary lesson, sex means a male or female category.",
+        "matched_form": "sex",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "In this vocabulary lesson, sex means a male or female category.",
+      "example_zh": "在这节词汇课里，sex指男性或女性的性别类别。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sex category",
+        "sex and age"
+      ],
+      "example_en_highlighted": "In this vocabulary lesson, **sex** means a male or female category.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W824",
+      "word": "who",
+      "aliases": [],
+      "source_zh_unreviewed": "谁",
+      "planned_mode": "context",
+      "sense_zh": "谁",
+      "pos": "pronoun",
+      "ipa_us": "/huː/",
+      "ipa_uk": "/huː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Who is standing beside Mina?",
+        "matched_form": "who",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Who is standing beside Mina?",
+      "example_zh": "谁站在Mina旁边？",
+      "bbox_normalized": null,
+      "collocations": [
+        "who is here",
+        "ask who"
+      ],
+      "example_en_highlighted": "**Who** is standing beside Mina?",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Each person introduces themselves; we learn who is here and get to know one another.",
+    "zh": "每个人自我介绍；我们认识在场的人，彼此熟悉起来。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "sex 本卡按性别义，不涉及性行为；male/female 按语境解释。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C091\n标题 认识彼此\n场景 首次见面的小组互相介绍，展示不同年龄和性别人物；sex 只按性别分类解释，among 在群体语境中表达。\n目标词 person, man, woman, boy, girl, young, male, female, among, sex, who\n原创主配文草案 Every person has a name and a story.\n中文草案 每个人都有名字和故事。\n编辑注意 sex 本卡按性别义，不涉及性行为；male/female 按语境解释。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool Korean polished family community meeting outdoors. Main adult woman about 25 centered, adult man left, boy about 10 in plain blue sweater foreground left, girl about 10 in cream sweater foreground right, another adult woman right. Five people distinctly separated, normal friendly introductions, fully clothed ordinary safe family scene, natural skin and hands, no text or labels. Ages and gender descriptions belong to fictional teaching story, not biometric inference.",
+  "status": "approved",
+  "image_path": "images/C091.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 6,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C091 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:13:55 UTC",
+    "prompt_path": "prompts/C091_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C091.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三成人两儿童分开，蓝衣男孩米白衣女孩符合故事，角色年龄性别仅为虚构教学设定。11标签完整保留。"
+  }
+}

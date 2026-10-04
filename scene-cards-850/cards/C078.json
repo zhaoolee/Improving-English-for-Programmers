@@ -1,0 +1,398 @@
+{
+  "id": "C078",
+  "chapter": "工作与信息",
+  "title": "提交申请等回复",
+  "scene": "主角提交申请，窗口给出批准与条件，再呈现可能和不确定的结果。",
+  "target_count": 9,
+  "primary_words": [
+    "approval",
+    "condition",
+    "possible",
+    "probable",
+    "doubt",
+    "seem",
+    "may",
+    "will",
+    "certain"
+  ],
+  "targets": [
+    {
+      "word_id": "W030",
+      "word": "approval",
+      "aliases": [],
+      "source_zh_unreviewed": "批准；认可",
+      "planned_mode": "context",
+      "sense_zh": "批准",
+      "pos": "noun",
+      "ipa_us": "/əˈpruːvəl/",
+      "ipa_uk": "/əˈpruːvəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I wait for approval of my application.",
+        "matched_form": "approval",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I wait for approval of my application.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I wait for approval of my application.",
+      "example_zh": "我等待申请获批。",
+      "bbox_normalized": null,
+      "collocations": [
+        "ask for approval",
+        "receive approval"
+      ],
+      "example_en_highlighted": "I wait for **approval** of my application.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I wait for approval of my application.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W153",
+      "word": "condition",
+      "aliases": [],
+      "source_zh_unreviewed": "条件",
+      "planned_mode": "context",
+      "sense_zh": "条件",
+      "pos": "noun",
+      "ipa_us": "/kənˈdɪʃən/",
+      "ipa_uk": "/kənˈdɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "One condition is that I provide the missing document.",
+        "matched_form": "condition",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：One condition is that I provide the missing document.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "One condition is that I provide the missing document.",
+      "example_zh": "一个条件是我补交缺少的文件。",
+      "bbox_normalized": null,
+      "collocations": [
+        "meet a condition",
+        "a condition for"
+      ],
+      "example_en_highlighted": "One **condition** is that I provide the missing document.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：One condition is that I provide the missing document.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W544",
+      "word": "possible",
+      "aliases": [],
+      "source_zh_unreviewed": "可能的；可能性",
+      "planned_mode": "context",
+      "sense_zh": "可能的",
+      "pos": "adjective",
+      "ipa_us": "/ˈpɑːsəbəl/",
+      "ipa_uk": "/ˈpɒsəbəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "An answer today is possible.",
+        "matched_form": "possible",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：An answer today is possible.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "An answer today is possible.",
+      "example_zh": "今天得到答复是可能的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be possible",
+        "a possible result"
+      ],
+      "example_en_highlighted": "An answer today is **possible**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：An answer today is possible.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W554",
+      "word": "probable",
+      "aliases": [],
+      "source_zh_unreviewed": "可能的；很可能发生的",
+      "planned_mode": "context",
+      "sense_zh": "很可能的",
+      "pos": "adjective",
+      "ipa_us": "/ˈprɑːbəbəl/",
+      "ipa_uk": "/ˈprɒbəbəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A reply tomorrow is more probable.",
+        "matched_form": "probable",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A reply tomorrow is more probable.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A reply tomorrow is more probable.",
+      "example_zh": "更可能的是明天得到答复。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a probable result",
+        "seem probable"
+      ],
+      "example_en_highlighted": "A reply tomorrow is more **probable**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A reply tomorrow is more probable.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W212",
+      "word": "doubt",
+      "aliases": [],
+      "source_zh_unreviewed": "怀疑",
+      "planned_mode": "context",
+      "sense_zh": "疑虑",
+      "pos": "noun",
+      "ipa_us": "/daʊt/",
+      "ipa_uk": "/daʊt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I have a doubt about one detail.",
+        "matched_form": "doubt",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I have a doubt about one detail.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I have a doubt about one detail.",
+      "example_zh": "我对一个细节有疑虑。",
+      "bbox_normalized": null,
+      "collocations": [
+        "have a doubt",
+        "in doubt"
+      ],
+      "example_en_highlighted": "I have a **doubt** about one detail.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I have a doubt about one detail.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W631",
+      "word": "seem",
+      "aliases": [],
+      "source_zh_unreviewed": "似乎",
+      "planned_mode": "context",
+      "sense_zh": "似乎",
+      "pos": "verb",
+      "ipa_us": "/siːm/",
+      "ipa_uk": "/siːm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The condition seems clear after the explanation.",
+        "matched_form": "seems",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The condition seems clear after the explanation.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The condition seems clear after the explanation.",
+      "example_zh": "解释之后，这个条件似乎清楚了。",
+      "bbox_normalized": null,
+      "collocations": [
+        "seem clear",
+        "seem possible"
+      ],
+      "example_en_highlighted": "The condition **seems** clear after the explanation.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The condition seems clear after the explanation.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W432",
+      "word": "may",
+      "aliases": [],
+      "source_zh_unreviewed": "可能；也许",
+      "planned_mode": "context",
+      "sense_zh": "可能",
+      "pos": "modal verb",
+      "ipa_us": "/meɪ/",
+      "ipa_uk": "/meɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The reply may arrive tomorrow.",
+        "matched_form": "may",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The reply may arrive tomorrow.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The reply may arrive tomorrow.",
+      "example_zh": "答复可能明天到。",
+      "bbox_normalized": null,
+      "collocations": [
+        "may arrive",
+        "may be"
+      ],
+      "example_en_highlighted": "The reply **may** arrive tomorrow.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The reply may arrive tomorrow.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W827",
+      "word": "will",
+      "aliases": [],
+      "source_zh_unreviewed": "将会",
+      "planned_mode": "context",
+      "sense_zh": "将会",
+      "pos": "modal verb",
+      "ipa_us": "/wɪl/",
+      "ipa_uk": "/wɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I will check for a reply tomorrow.",
+        "matched_form": "will",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I will check for a reply tomorrow.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I will check for a reply tomorrow.",
+      "example_zh": "我明天会查看有没有答复。",
+      "bbox_normalized": null,
+      "collocations": [
+        "will reply",
+        "will check"
+      ],
+      "example_en_highlighted": "I **will** check for a reply tomorrow.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I will check for a reply tomorrow.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W120",
+      "word": "certain",
+      "aliases": [],
+      "source_zh_unreviewed": "确定的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "确定的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsɝːtən/",
+      "ipa_uk": "/ˈsɜːtən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The date is not certain yet.",
+        "matched_form": "certain",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The date is not certain yet.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The date is not certain yet.",
+      "example_zh": "日期还不确定。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be certain",
+        "a certain result"
+      ],
+      "example_en_highlighted": "The date is not **certain** yet.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The date is not certain yet.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I hand in my application and ask what condition must be met for approval.",
+    "zh": "我提交申请，询问获得批准需要满足什么条件。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C078\n标题 提交申请等回复\n场景 主角提交申请，窗口给出批准与条件，再呈现可能和不确定的结果。\n目标词 approval, condition, possible, probable, doubt, seem, may, will, certain\n原创主配文草案 Approval is possible, but it may take time.\n中文草案 获批有可能，但可能需要时间。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Calm cool modern service window, adult woman handing one plain paper form to seated adult female clerk. Two visible paper sheets and simple plain tray, normal hand exchange, respectful expressions, no readable official text, stamp words or false approval symbols. Soft pearl/slate styling, edges for nine story labels.",
+  "status": "approved",
+  "image_path": "images/C078.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 9,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C078 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:44:04 UTC",
+    "prompt_path": "prompts/C078_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C078.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "提交纸张动作与服务窗口清楚，本卡九个抽象/功能词全部只用句子；不把递交行为当批准成功。"
+  }
+}

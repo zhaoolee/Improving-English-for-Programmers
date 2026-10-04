@@ -1,0 +1,301 @@
+C081  修理一把木椅
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C081.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C081.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:00:55 UTC
+  提示词文件: prompts/C081_image_final.txt
+
+场景: 工作台上修木椅，锤、钉、螺丝、钢件铁件清晰，零件拆开放。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 锤钉螺丝铰链两金属件独立，椅面裂纹清楚，擦木动作可信。
+
+主配文:
+  英文: I mend a wooden chair, choose the right part, and polish the smooth wood.
+  中文: 我修理一把木椅，选好合适的零件，并擦亮平滑的木头。
+  类型: original | 来源: None | 状态: final
+
+目标词 (10): wood, hammer, nail, screw, metal, iron, steel, part, crack, polish
+
+------------------------------------------------------------------------
+[1/10] wood  (W837)
+  词义: 木材
+  词性: noun
+  音标: UK /wʊd/ | US /wʊd/
+  搭配: smooth wood; a piece of wood
+  例句: The chair is made of wood.
+  例句高亮: The chair is made of **wood**.
+  例句中文: 这把椅子用木材制成。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（木材），待最终图确认。
+  坐标(normalized): [0.491, 0.544, 0.997, 0.68]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "木椅座面的木纹。"
+    sentence: "The chair is made of wood."
+    matched_form: "wood"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 木头
+
+------------------------------------------------------------------------
+[2/10] hammer  (W320)
+  词义: 锤子
+  词性: noun
+  音标: UK /ˈhæmə/ | US /ˈhæmɚ/
+  搭配: a wooden-handled hammer; use a hammer
+  例句: The hammer rests beside the chair.
+  例句高亮: The **hammer** rests beside the chair.
+  例句中文: 锤子放在椅子旁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（锤子），待最终图确认。
+  坐标(normalized): [0.005, 0.735, 0.383, 0.857]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景独立木柄锤子。"
+    sentence: "The hammer rests beside the chair."
+    matched_form: "hammer"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 锤子
+
+------------------------------------------------------------------------
+[3/10] nail  (W461)
+  词义: 钉子
+  词性: noun
+  音标: UK /neɪl/ | US /neɪl/
+  搭配: a long nail; a metal nail
+  例句: A nail lies beside the screw.
+  例句高亮: A **nail** lies beside the screw.
+  例句中文: 钉子放在螺丝旁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（钉子），待最终图确认。
+  坐标(normalized): [0.293, 0.868, 0.437, 0.92]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "一根直钉，非旁边螺丝。"
+    sentence: "A nail lies beside the screw."
+    matched_form: "nail"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 钉子
+
+------------------------------------------------------------------------
+[4/10] screw  (W623)
+  词义: 螺丝
+  词性: noun
+  音标: UK /skruː/ | US /skruː/
+  搭配: a threaded screw; tighten a screw
+  例句: The screw has a visible thread.
+  例句高亮: The **screw** has a visible thread.
+  例句中文: 这颗螺丝有可见的螺纹。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（螺丝），待最终图确认。
+  坐标(normalized): [0.396, 0.864, 0.472, 0.899]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立带螺纹螺丝。"
+    sentence: "The screw has a visible thread."
+    matched_form: "screw"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 螺丝钉
+
+------------------------------------------------------------------------
+[5/10] metal  (W439)
+  词义: 金属
+  词性: noun
+  音标: UK /ˈmetəl/ | US /ˈmetəl/
+  搭配: a metal hinge; made of metal
+  例句: The hinge is made of metal.
+  例句高亮: The hinge is made of **metal**.
+  例句中文: 这个铰链由金属制成。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（金属），待最终图确认。
+  坐标(normalized): [0.519, 0.943, 0.652, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "底部金属铰链，反光及形态清楚。"
+    sentence: "The hinge is made of metal."
+    matched_form: "metal"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 金属
+
+------------------------------------------------------------------------
+[6/10] iron  (W367)
+  词义: 铁
+  词性: noun
+  音标: UK /ˈaɪən/ | US /ˈaɪɚn/
+  搭配: an iron bracket; a piece of iron
+  例句: In this lesson, the dark bracket is made of iron.
+  例句高亮: In this lesson, the dark bracket is made of **iron**.
+  例句中文: 本课设定中，深色支架由铁制成。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（铁），待最终图确认。
+  坐标(normalized): [0.102, 0.817, 0.266, 0.947]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "深色折角支架，铁成分由教学故事指定。"
+    sentence: "In this lesson, the dark bracket is made of iron."
+    matched_form: "iron"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 铁
+
+------------------------------------------------------------------------
+[7/10] steel  (W702)
+  词义: 钢
+  词性: noun
+  音标: UK /stiːl/ | US /stiːl/
+  搭配: a steel plate; stainless steel
+  例句: The shiny plate is the steel sample in our lesson.
+  例句高亮: The shiny plate is the **steel** sample in our lesson.
+  例句中文: 亮亮的板是本课中的钢样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（钢），待最终图确认。
+  坐标(normalized): [0.635, 0.875, 0.835, 0.946]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "亮色折角钢板样品，钢成分由故事指定。"
+    sentence: "The shiny plate is the steel sample in our lesson."
+    matched_form: "steel"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 钢铁
+
+------------------------------------------------------------------------
+[8/10] part  (W515)
+  词义: 零件
+  词性: noun
+  音标: UK /pɑːt/ | US /pɑːrt/
+  搭配: a spare part; a small part
+  例句: The hinge is one small part of the chair.
+  例句高亮: The hinge is one small **part** of the chair.
+  例句中文: 这个铰链是椅子的一个小零件。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（零件），待最终图确认。
+  坐标(normalized): [0.519, 0.943, 0.652, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "铰链是椅子零件，身份由例句明示。"
+    sentence: "The hinge is one small part of the chair."
+    matched_form: "part"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 部分；零件
+
+------------------------------------------------------------------------
+[9/10] crack  (W167)
+  词义: 裂纹
+  词性: noun
+  音标: UK /kræk/ | US /kræk/
+  搭配: a small crack; a crack in
+  例句: I notice a small crack in the seat.
+  例句高亮: I notice a small **crack** in the seat.
+  例句中文: 我注意到椅面上有一条小裂纹。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（裂纹），待最终图确认。
+  坐标(normalized): [0.692, 0.602, 0.88, 0.65]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "木座面可见短裂纹。"
+    sentence: "I notice a small crack in the seat."
+    matched_form: "crack"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 裂缝；破裂声
+
+------------------------------------------------------------------------
+[10/10] polish  (W539)
+  词义: 擦亮
+  词性: verb
+  音标: UK /ˈpɒlɪʃ/ | US /ˈpɑːlɪʃ/
+  搭配: polish wood; polish with a cloth
+  例句: I polish the wood with a cloth.
+  例句高亮: I **polish** the wood with a cloth.
+  例句中文: 我用布擦亮木头。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（擦亮），待最终图确认。
+  坐标(normalized): [0.207, 0.468, 0.578, 0.687]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手握布擦拭木座面动作。"
+    sentence: "I polish the wood with a cloth."
+    matched_form: "polish"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 擦亮；抛光
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 10
+  content_entries_complete: 10
+  sentence_evidence_complete: 10
+  verified_targets: 10
+  image_review: "pass"
+  object_or_region_boxes: 10
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C081 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at tidy workshop restoring small wooden chair. Clear wooden seat with one short hairline crack, separate hammer with wooden handle, one long plain nail and one threaded screw close foreground, dark plain iron bracket left and shiny stainless-steel plate right clearly separate; small metal hinge, cloth rubbing wood. Modest cool Korean editorial work portrait, natural hands, no text brands or hazardous powered tools.

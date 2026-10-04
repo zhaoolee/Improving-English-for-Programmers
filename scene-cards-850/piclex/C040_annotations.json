@@ -1,0 +1,327 @@
+{
+  "filename": "C040-日历上的旅行.png",
+  "labels": [
+    {
+      "x": 697,
+      "y": 510,
+      "english": "time",
+      "chinese": "时间",
+      "phoneticUS": "/taɪm/",
+      "phoneticUK": "/taɪm/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 455
+      },
+      "anchorPosition": {
+        "x": 697,
+        "y": 510
+      },
+      "boundingBox": {
+        "left": 650,
+        "top": 488,
+        "right": 743,
+        "bottom": 537
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "表盘作为本句时间的显示载体，不声称读出准确时刻。",
+        "association": "表盘作为本句时间的显示载体，不声称读出准确时刻。",
+        "collocation": "check the time",
+        "example": "I check the time on my watch.",
+        "exampleChinese": "我看手表确认时间。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 95,
+      "english": "hour",
+      "chinese": "小时",
+      "phoneticUS": "/ˈaʊər/",
+      "phoneticUK": "/ˈaʊə/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "持续时长由句子提供，空白表盘不证明一小时。",
+        "association": "持续时长由句子提供，空白表盘不证明一小时。",
+        "collocation": "one hour",
+        "example": "The journey takes one hour.",
+        "exampleChinese": "旅程需要一小时。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 205,
+      "english": "minute",
+      "chinese": "分钟",
+      "phoneticUS": "/ˈmɪnɪt/",
+      "phoneticUK": "/ˈmɪnɪt/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 205
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "持续时间由句子说明，无物体框。",
+        "association": "持续时间由句子说明，无物体框。",
+        "collocation": "one minute",
+        "example": "I wait one minute before leaving.",
+        "exampleChinese": "出发前我等一分钟。"
+      }
+    },
+    {
+      "x": 697,
+      "y": 510,
+      "english": "watch",
+      "chinese": "手表",
+      "phoneticUS": "/wɑːtʃ/",
+      "phoneticUK": "/wɒtʃ/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 660
+      },
+      "anchorPosition": {
+        "x": 697,
+        "y": 510
+      },
+      "boundingBox": {
+        "left": 650,
+        "top": 488,
+        "right": 743,
+        "bottom": 537
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "腕上的实际手表整体。",
+        "association": "腕上的实际手表整体。",
+        "collocation": "a wrist watch",
+        "example": "My watch is on my wrist.",
+        "exampleChinese": "手表在我的手腕上。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 315,
+      "english": "week",
+      "chinese": "星期",
+      "phoneticUS": "/wiːk/",
+      "phoneticUK": "/wiːk/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 315
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "空白七列只提示日历结构，不假读具体周次。",
+        "association": "空白七列只提示日历结构，不假读具体周次。",
+        "collocation": "next week",
+        "example": "We travel next week.",
+        "exampleChinese": "我们下周旅行。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 425,
+      "english": "month",
+      "chinese": "月份",
+      "phoneticUS": "/mʌnθ/",
+      "phoneticUK": "/mʌnθ/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 425
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "月份来自原创句子，不读取空白日历。",
+        "association": "月份来自原创句子，不读取空白日历。",
+        "collocation": "next month",
+        "example": "We plan another trip next month.",
+        "exampleChinese": "我们计划下个月再旅行。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 540,
+      "english": "year",
+      "chinese": "年",
+      "phoneticUS": "/jɪr/",
+      "phoneticUK": "/jɪə/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 540
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "年份由句子给出，图中无可读年份。",
+        "association": "年份由句子给出，图中无可读年份。",
+        "collocation": "this year",
+        "example": "I visit the island this year.",
+        "exampleChinese": "我今年去那座岛。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 690,
+      "english": "tomorrow",
+      "chinese": "明天",
+      "phoneticUS": "/təˈmɑːroʊ/",
+      "phoneticUK": "/təˈmɒrəʊ/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 690
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "相对日期由故事说明，蓝点不自动等于明天。",
+        "association": "相对日期由故事说明，蓝点不自动等于明天。",
+        "collocation": "leave tomorrow",
+        "example": "We leave tomorrow morning.",
+        "exampleChinese": "我们明天早晨出发。"
+      }
+    },
+    {
+      "x": 200,
+      "y": 850,
+      "english": "when",
+      "chinese": "什么时候",
+      "phoneticUS": "/wen/",
+      "phoneticUK": "/wen/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 850
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "问时间的疑问词以完整句解释。",
+        "association": "问时间的疑问词以完整句解释。",
+        "collocation": "when do",
+        "example": "When do we leave?",
+        "exampleChinese": "我们什么时候出发？"
+      }
+    },
+    {
+      "x": 455,
+      "y": 925,
+      "english": "till",
+      "chinese": "直到",
+      "phoneticUS": "/tɪl/",
+      "phoneticUK": "/tɪl/",
+      "bubblePosition": {
+        "x": 455,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "时间终点介词由句子解释。",
+        "association": "时间终点介词由句子解释。",
+        "collocation": "till noon",
+        "example": "We stay here till noon.",
+        "exampleChinese": "我们在这里待到中午。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 930,
+      "english": "late",
+      "chinese": "迟到的",
+      "phoneticUS": "/leɪt/",
+      "phoneticUK": "/leɪt/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "迟到状态不由静态图推断。",
+        "association": "迟到状态不由静态图推断。",
+        "collocation": "be late",
+        "example": "I do not want to be late.",
+        "exampleChinese": "我不想迟到。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "My watch is ready, and tomorrow has a place on the calendar.",
+    "chinese": "手表已备好，明天也在日历上留有一个位置。",
+    "source": "原创配文 · C040 日历上的旅行",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

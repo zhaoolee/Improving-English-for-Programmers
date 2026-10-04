@@ -1,0 +1,280 @@
+C071  办公室开会
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C071.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C071.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:35:50 UTC
+  提示词文件: prompts/C071_image_final.txt
+
+场景: 经理、秘书与同事在办公室围桌讨论，组织结构以简单墙图呈现。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 三人围桌会议与右侧记笔记女子清楚；经理明确指中心桌首女子，职业由句子设定，非外貌识别。办公室框只取桌面及办公物件。
+
+主配文:
+  英文: Our group meets in the office, and I join the discussion about our work.
+  中文: 我们的小组在办公室开会，我加入了关于工作的讨论。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): office, work, company, manager, secretary, meeting, organization, group, join
+
+------------------------------------------------------------------------
+[1/9] office  (W490)
+  词义: 办公室
+  词性: noun
+  音标: UK /ˈɒfɪs/ | US /ˈɔːfɪs/
+  搭配: in the office; an office meeting
+  例句: We meet in the office.
+  例句高亮: We meet in the **office**.
+  例句中文: 我们在办公室见面。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（办公室），待最终图确认。
+  坐标(normalized): [0.005, 0.568, 0.998, 0.991]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "桌面、笔记本和笔记电脑构成故事指定的办公环境。"
+    sentence: "We meet in the office."
+    matched_form: "office"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 办公室
+
+------------------------------------------------------------------------
+[2/9] work  (W840)
+  词义: 工作
+  词性: noun
+  音标: UK /wɜːk/ | US /wɝːk/
+  搭配: at work; discuss work
+  例句: We discuss our work at the table.
+  例句高亮: We discuss our **work** at the table.
+  例句中文: 我们围坐桌旁讨论工作。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We discuss our work at the table.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We discuss our work at the table."
+    matched_form: "work"
+    context: "由原创例句给出的语境：We discuss our work at the table.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 工作
+
+------------------------------------------------------------------------
+[3/9] company  (W148)
+  词义: 公司
+  词性: noun
+  音标: UK /ˈkʌmpəni/ | US /ˈkʌmpəni/
+  搭配: a small company; work for a company
+  例句: We work for the same company.
+  例句高亮: We work for the same **company**.
+  例句中文: 我们为同一家公司工作。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We work for the same company.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We work for the same company."
+    matched_form: "company"
+    context: "由原创例句给出的语境：We work for the same company.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 公司
+
+------------------------------------------------------------------------
+[4/9] manager  (W424)
+  词义: 经理
+  词性: noun
+  音标: UK /ˈmænɪdʒə/ | US /ˈmænɪdʒɚ/
+  搭配: our manager; a team manager
+  例句: The woman at the head of the table is our manager.
+  例句高亮: The woman at the head of the table is our **manager**.
+  例句中文: 坐在桌首的女子是我们的经理。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（经理），待最终图确认。
+  坐标(normalized): [0.352, 0.203, 0.743, 0.702]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中心桌首女子，句子明确指定她是经理。"
+    sentence: "The woman at the head of the table is our manager."
+    matched_form: "manager"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 经理；管理人
+
+------------------------------------------------------------------------
+[5/9] secretary  (W628)
+  词义: 秘书
+  词性: noun
+  音标: UK /ˈsekrətri/ | US /ˈsekrəteri/
+  搭配: a secretary; the meeting secretary
+  例句: Our secretary takes notes during the meeting.
+  例句高亮: Our **secretary** takes notes during the meeting.
+  例句中文: 我们的秘书在会议中做笔记。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（秘书），待最终图确认。
+  坐标(normalized): [0.759, 0.26, 0.998, 0.662]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧持笔在本子上记笔记的女子，故事指定秘书角色。"
+    sentence: "Our secretary takes notes during the meeting."
+    matched_form: "secretary"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 秘书
+
+------------------------------------------------------------------------
+[6/9] meeting  (W437)
+  词义: 会议
+  词性: noun
+  音标: UK /ˈmiːtɪŋ/ | US /ˈmiːtɪŋ/
+  搭配: hold a meeting; a team meeting
+  例句: Three colleagues sit together for a meeting.
+  例句高亮: Three colleagues sit together for a **meeting**.
+  例句中文: 三位同事坐在一起开会。
+  标注模式: relation
+  标注说明: 场景中体现的关系（会议），待最终图确认。
+  坐标(normalized): [0.002, 0.198, 0.998, 0.839]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "三位同事围桌交流的关系，会议由句子明确。"
+    sentence: "Three colleagues sit together for a meeting."
+    matched_form: "meeting"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 会议
+
+------------------------------------------------------------------------
+[7/9] organization  (W502)
+  词义: 组织
+  词性: noun
+  音标: UK /ˌɔːɡənaɪˈzeɪʃən/ | US /ˌɔːrɡənəˈzeɪʃən/
+  搭配: a small organization; the organization of
+  例句: Our organization has two teams.
+  例句高亮: Our **organization** has two teams.
+  例句中文: 我们的组织有两个团队。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Our organization has two teams.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Our organization has two teams."
+    matched_form: "organization"
+    context: "由原创例句给出的语境：Our organization has two teams.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 组织；机构
+
+------------------------------------------------------------------------
+[8/9] group  (W315)
+  词义: 小组
+  词性: noun
+  音标: UK /ɡruːp/ | US /ɡruːp/
+  搭配: a small group; work in a group
+  例句: Our group has three people.
+  例句高亮: Our **group** has three people.
+  例句中文: 我们的小组有三个人。
+  标注模式: relation
+  标注说明: 场景中体现的关系（小组），待最终图确认。
+  坐标(normalized): [0.002, 0.198, 0.998, 0.839]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "三人共同围桌，句子指定同一个小组。"
+    sentence: "Our group has three people."
+    matched_form: "group"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 组；群
+
+------------------------------------------------------------------------
+[9/9] join  (W371)
+  词义: 参加
+  词性: verb
+  音标: UK /dʒɔɪn/ | US /dʒɔɪn/
+  搭配: join a meeting; join the group
+  例句: I join the meeting after lunch.
+  例句高亮: I **join** the meeting after lunch.
+  例句中文: 午饭后我参加会议。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I join the meeting after lunch.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I join the meeting after lunch."
+    matched_form: "join"
+    context: "由原创例句给出的语境：I join the meeting after lunch.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 加入；参加
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 5
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C071 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Refined cool Korean adult women office meeting, main 25-year-old woman seated near center, one colleague at head of table and one taking notes to side. Three people, clear table, notebooks, wall with simple blank organization blocks and no text. Friendly natural gestures, understated professional clothing, cool daylight, uncluttered edges.

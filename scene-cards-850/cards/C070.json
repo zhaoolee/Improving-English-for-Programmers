@@ -1,0 +1,418 @@
+{
+  "id": "C070",
+  "chapter": "学习与艺术",
+  "title": "安排学习进度",
+  "scene": "主角指着学习清单，完成的第一、第二项和下一步以三小幅呈现。",
+  "target_count": 9,
+  "primary_words": [
+    "list",
+    "order",
+    "first",
+    "second",
+    "step",
+    "complete",
+    "regular",
+    "frequent",
+    "sort"
+  ],
+  "targets": [
+    {
+      "word_id": "W409",
+      "word": "list",
+      "aliases": [],
+      "source_zh_unreviewed": "列表",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "清单",
+      "pos": "noun",
+      "ipa_us": "/lɪst/",
+      "ipa_uk": "/lɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅手持三项清单。",
+        "sentence": "My list has three tasks.",
+        "matched_form": "list",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My list has three tasks.",
+      "example_zh": "我的清单有三项任务。",
+      "bbox_normalized": [
+        0.195,
+        0.309,
+        0.415,
+        0.517
+      ],
+      "collocations": [
+        "a short list",
+        "make a list"
+      ],
+      "example_en_highlighted": "My **list** has three tasks.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（清单），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W501",
+      "word": "order",
+      "aliases": [],
+      "source_zh_unreviewed": "订单；秩序",
+      "planned_mode": "context",
+      "sense_zh": "次序",
+      "pos": "noun",
+      "ipa_us": "/ˈɔːrdɚ/",
+      "ipa_uk": "/ˈɔːdə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅整齐叠放的两本书，次序由故事指定。",
+        "sentence": "I put the books in order.",
+        "matched_form": "order",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I put the books in order.",
+      "example_zh": "我把书按次序摆好。",
+      "bbox_normalized": [
+        0.458,
+        0.439,
+        0.803,
+        0.565
+      ],
+      "collocations": [
+        "in order",
+        "put in order"
+      ],
+      "example_en_highlighted": "I put the books in **order**.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（次序），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W268",
+      "word": "first",
+      "aliases": [],
+      "source_zh_unreviewed": "第一；首先",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "第一的",
+      "pos": "adjective",
+      "ipa_us": "/fɝːst/",
+      "ipa_uk": "/fɜːst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅清单从上到下第一项勾选框。",
+        "sentence": "The first box has a check mark.",
+        "matched_form": "first",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The first box has a check mark.",
+      "example_zh": "第一个方框里有一个勾。",
+      "bbox_normalized": [
+        0.124,
+        0.716,
+        0.17,
+        0.75
+      ],
+      "collocations": [
+        "the first task",
+        "the first step"
+      ],
+      "example_en_highlighted": "The **first** box has a check mark.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（第一的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W626",
+      "word": "second",
+      "aliases": [],
+      "source_zh_unreviewed": "第二",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "第二的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsekənd/",
+      "ipa_uk": "/ˈsekənd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅第二个空框。",
+        "sentence": "The second box is still empty.",
+        "matched_form": "second",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The second box is still empty.",
+      "example_zh": "第二个方框还是空的。",
+      "bbox_normalized": [
+        0.122,
+        0.769,
+        0.162,
+        0.8
+      ],
+      "collocations": [
+        "the second task",
+        "the second step"
+      ],
+      "example_en_highlighted": "The **second** box is still empty.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（第二的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W704",
+      "word": "step",
+      "aliases": [],
+      "source_zh_unreviewed": "步骤",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "步骤",
+      "pos": "noun",
+      "ipa_us": "/step/",
+      "ipa_uk": "/step/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The next step is to sort the pencils.",
+        "matched_form": "step",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The next step is to sort the pencils.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The next step is to sort the pencils.",
+      "example_zh": "下一步是给铅笔分类。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the next step",
+        "a first step"
+      ],
+      "example_en_highlighted": "The next **step** is to sort the pencils.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The next step is to sort the pencils.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W151",
+      "word": "complete",
+      "aliases": [],
+      "source_zh_unreviewed": "完整的",
+      "planned_mode": "context",
+      "sense_zh": "完成的",
+      "pos": "adjective",
+      "ipa_us": "/kəmˈpliːt/",
+      "ipa_uk": "/kəmˈpliːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The first task is complete.",
+        "matched_form": "complete",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The first task is complete.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The first task is complete.",
+      "example_zh": "第一项任务已经完成。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be complete",
+        "a complete task"
+      ],
+      "example_en_highlighted": "The first task is **complete**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The first task is complete.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W587",
+      "word": "regular",
+      "aliases": [],
+      "source_zh_unreviewed": "规则的；定期的",
+      "planned_mode": "context",
+      "sense_zh": "定期的",
+      "pos": "adjective",
+      "ipa_us": "/ˈreɡjələr/",
+      "ipa_uk": "/ˈreɡjələ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Regular practice is part of my plan.",
+        "matched_form": "regular",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Regular practice is part of my plan.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Regular practice is part of my plan.",
+      "example_zh": "定期练习是我计划的一部分。",
+      "bbox_normalized": null,
+      "collocations": [
+        "regular practice",
+        "a regular routine"
+      ],
+      "example_en_highlighted": "**Regular** practice is part of my plan.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Regular practice is part of my plan.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W290",
+      "word": "frequent",
+      "aliases": [],
+      "source_zh_unreviewed": "频繁的；经常的",
+      "planned_mode": "context",
+      "sense_zh": "频繁的",
+      "pos": "adjective",
+      "ipa_us": "/ˈfriːkwənt/",
+      "ipa_uk": "/ˈfriːkwənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I take frequent breaks while studying.",
+        "matched_form": "frequent",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I take frequent breaks while studying.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I take frequent breaks while studying.",
+      "example_zh": "学习时，我经常休息一下。",
+      "bbox_normalized": null,
+      "collocations": [
+        "frequent breaks",
+        "frequent practice"
+      ],
+      "example_en_highlighted": "I take **frequent** breaks while studying.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I take frequent breaks while studying.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W684",
+      "word": "sort",
+      "aliases": [],
+      "source_zh_unreviewed": "种类",
+      "planned_mode": "context",
+      "sense_zh": "分类整理",
+      "pos": "verb",
+      "ipa_us": "/sɔːrt/",
+      "ipa_uk": "/sɔːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "两个托盘中不同文具分组结果；动作语境由句子指定。",
+        "sentence": "I sort the stationery into two trays.",
+        "matched_form": "sort",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I sort the stationery into two trays.",
+      "example_zh": "我把文具分类放入两个小托盘。",
+      "bbox_normalized": [
+        0.683,
+        0.666,
+        0.923,
+        0.938
+      ],
+      "collocations": [
+        "sort into groups",
+        "sort the pencils"
+      ],
+      "example_en_highlighted": "I **sort** the stationery into two trays.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（分类整理），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I put my books in order; the first step is complete, and the second comes next.",
+    "zh": "我把书整理好；第一步已经完成，接下来是第二步。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C070\n标题 安排学习进度\n场景 主角指着学习清单，完成的第一、第二项和下一步以三小幅呈现。\n目标词 list, order, first, second, step, complete, regular, frequent, sort\n原创主配文草案 The first step is complete; now do the second.\n中文草案 第一步完成了，现在做第二步。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two-panel cool editorial study-planning portrait. Upper 55% adult woman arranging two plain books neatly and pointing to simple checklist paper with three separated empty squares, first square ticked, other two empty, no letters or numbers. Lower45% overhead tabletop close with checklist left, two neat plain books center, differently coloured stationery sorted into two small trays right. Strong object continuity, neat real paper and hands, no pseudo text.",
+  "status": "approved",
+  "image_path": "images/C070.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 5,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C070 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:22:21 UTC",
+    "prompt_path": "prompts/C070_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C070.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三框清单第一项勾选、第二项空白，书与文具分组清楚；笔是钢笔圆珠笔而非铅笔，sort例句改为文具；整理动作的结果由已分组托盘和故事说明。"
+  }
+}

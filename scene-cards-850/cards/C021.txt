@@ -1,0 +1,235 @@
+C021  出门穿衣
+========================================================================
+章节: 穿衣与购物
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C021.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C021.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T23:19:39Z → 2026-10-02T23:20:16Z
+  提示词文件: prompts/C021_image_final.txt
+
+场景: 床边摆好衬衫、外套、裤子、裙子和连衣裙，主角整理口袋。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 衬衫、外套、床上长裤与半身裙、架上连衣裙独立清晰；外套贴袋和衬衫翻领/纽扣可定位。人物面部与双手自然。床上长裤裤脚部分出画，标记可见裤腿范围；不声称完整裤脚可见。
+
+主配文:
+  英文: A shirt, a coat, and a quiet moment before going out.
+  中文: 一件衬衫，一件外套，还有出门前安静的片刻。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): shirt, coat, trousers, skirt, dress, pocket, collar, button
+
+------------------------------------------------------------------------
+[1/8] shirt  (W647)
+  词义: 衬衫
+  词性: noun
+  音标: UK /ʃɜːt/ | US /ʃɜːrt/
+  搭配: a white shirt
+  例句: I wear a white shirt.
+  例句高亮: I wear a white **shirt**.
+  例句中文: 我穿着白衬衫。
+  标注模式: object
+  标注说明: 主人公身上有前襟纽扣与翻领的衬衫
+  坐标(normalized): [0.34, 0.174, 0.726, 0.453]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "主人公身上有前襟纽扣与翻领的衬衫"
+    sentence: "I wear a white shirt."
+    matched_form: "shirt"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 衬衫
+------------------------------------------------------------------------
+[2/8] coat  (W139)
+  词义: 外套
+  词性: noun
+  音标: UK /kəʊt/ | US /koʊt/
+  搭配: a grey coat
+  例句: The coat has a pocket.
+  例句高亮: The **coat** has a pocket.
+  例句中文: 这件外套有一个口袋。
+  标注模式: object
+  标注说明: 手中灰色外套整体
+  坐标(normalized): [0.638, 0.15, 0.971, 0.689]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "手中灰色外套整体"
+    sentence: "The coat has a pocket."
+    matched_form: "coat"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 外套
+------------------------------------------------------------------------
+[3/8] trousers  (W783)
+  词义: 长裤
+  词性: noun
+  音标: UK /ˈtraʊzəz/ | US /ˈtraʊzərz/
+  搭配: a pair of trousers
+  例句: The trousers have two long legs.
+  例句高亮: The **trousers** have two long legs.
+  例句中文: 这条长裤有两条长裤腿。
+  标注模式: object
+  标注说明: 床边平铺长裤，复数名词
+  坐标(normalized): [0.0, 0.618, 0.503, 1.0]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "床边平铺长裤，复数名词"
+    sentence: "The trousers have two long legs."
+    matched_form: "trousers"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 裤子
+------------------------------------------------------------------------
+[4/8] skirt  (W660)
+  词义: 半身裙
+  词性: noun
+  音标: UK /skɜːt/ | US /skɜːrt/
+  搭配: a knee-length skirt
+  例句: The skirt is on the bed.
+  例句高亮: The **skirt** is on the bed.
+  例句中文: 半身裙在床上。
+  标注模式: object
+  标注说明: 独立半身裙，不含连衣裙上半身
+  坐标(normalized): [0.428, 0.669, 0.936, 0.969]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "独立半身裙，不含连衣裙上半身"
+    sentence: "The skirt is on the bed."
+    matched_form: "skirt"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 裙子
+------------------------------------------------------------------------
+[5/8] dress  (W216)
+  词义: 连衣裙
+  词性: noun
+  音标: UK /dres/ | US /dres/
+  搭配: a blue dress
+  例句: The dress hangs on the rack.
+  例句高亮: The **dress** hangs on the rack.
+  例句中文: 连衣裙挂在衣架上。
+  标注模式: object
+  标注说明: 衣架上的一体式连衣裙
+  坐标(normalized): [0.035, 0.165, 0.261, 0.581]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "衣架上的一体式连衣裙"
+    sentence: "The dress hangs on the rack."
+    matched_form: "dress"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 连衣裙；穿着
+------------------------------------------------------------------------
+[6/8] pocket  (W536)
+  词义: 口袋
+  词性: noun
+  音标: UK /ˈpɒkɪt/ | US /ˈpɑːkɪt/
+  搭配: a coat pocket
+  例句: The pocket is on the coat.
+  例句高亮: The **pocket** is on the coat.
+  例句中文: 口袋在外套上。
+  标注模式: object
+  标注说明: 外套前方贴袋
+  坐标(normalized): [0.695, 0.462, 0.83, 0.607]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "外套前方贴袋"
+    sentence: "The pocket is on the coat."
+    matched_form: "pocket"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 口袋；袖珍的
+------------------------------------------------------------------------
+[7/8] collar  (W141)
+  词义: 衣领
+  词性: noun
+  音标: UK /ˈkɒlə/ | US /ˈkɑːlər/
+  搭配: a shirt collar
+  例句: The collar is part of the shirt.
+  例句高亮: The **collar** is part of the shirt.
+  例句中文: 衣领是衬衫的一部分。
+  标注模式: object
+  标注说明: 主人公衬衫翻领
+  坐标(normalized): [0.409, 0.169, 0.571, 0.258]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "主人公衬衫翻领"
+    sentence: "The collar is part of the shirt."
+    matched_form: "collar"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 衣领
+------------------------------------------------------------------------
+[8/8] button  (W109)
+  词义: 纽扣
+  词性: noun
+  音标: UK /ˈbʌtən/ | US /ˈbʌtən/
+  搭配: a shirt button
+  例句: A button closes the shirt.
+  例句高亮: A **button** closes the shirt.
+  例句中文: 一颗纽扣扣住衬衫。
+  标注模式: object
+  标注说明: 衬衫前襟一颗纽扣；不是按钮
+  坐标(normalized): [0.538, 0.359, 0.555, 0.38]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "衬衫前襟一颗纽扣；不是按钮"
+    sentence: "A button closes the shirt."
+    matched_form: "button"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 按钮
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 8
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C021 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=25 | meta.approved_cards=25
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Elegant bedroom dressing scene, woman center wearing an ivory BUTTON-FRONT SHIRT with pointed COLLAR and clear front buttons, not a cardigan. She holds a slate grey COAT on her left side at image right, coat front and one rectangular PATCH POCKET plainly visible, gently straightening pocket edge. Bed foreground displays a separate pair of full-length blue-grey TROUSERS flat at left with both legs visible, a beige knee-length SKIRT flat at right with waistband and hem visible. A simple pale blue sleeveless full DRESS hangs on rack at rear left, bodice and skirt attached, clearly not a separate skirt. Medium-wide portrait with five garments distinct; do not duplicate clothes or hide hem.

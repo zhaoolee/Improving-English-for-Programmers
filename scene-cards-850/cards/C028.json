@@ -1,0 +1,358 @@
+{
+  "id": "C028",
+  "chapter": "穿衣与购物",
+  "title": "收银台算账",
+  "scene": "顾客付款收到收据，店主核对账目，展示一次小生意。",
+  "target_count": 8,
+  "primary_words": [
+    "payment",
+    "receipt",
+    "account",
+    "credit",
+    "debt",
+    "business",
+    "profit",
+    "owner"
+  ],
+  "targets": [
+    {
+      "word_id": "W518",
+      "word": "payment",
+      "aliases": [],
+      "source_zh_unreviewed": "付款；支付",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "付款",
+      "pos": "noun",
+      "ipa_us": "/ˈpeɪmənt/",
+      "ipa_uk": "/ˈpeɪmənt/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I make a payment for the cup.",
+        "matched_form": "payment",
+        "context": "付款是原创交易设定，不声称照片证实支付成功",
+        "image_verified": null
+      },
+      "example_en": "I make a payment for the cup.",
+      "example_zh": "我付款买这只杯子。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make a payment"
+      ],
+      "example_en_highlighted": "I make a **payment** for the cup.",
+      "annotation_mode": "context",
+      "annotation_note": "付款是原创交易设定，不声称照片证实支付成功",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W583",
+      "word": "receipt",
+      "aliases": [],
+      "source_zh_unreviewed": "收据；收条",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "收据",
+      "pos": "noun",
+      "ipa_us": "/rɪˈsiːt/",
+      "ipa_uk": "/rɪˈsiːt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "两人之间独立纸条，收据身份由原创交易设定明确；不声称纸上金额可读",
+        "sentence": "I keep the receipt.",
+        "matched_form": "receipt",
+        "image_verified": true
+      },
+      "example_en": "I keep the receipt.",
+      "example_zh": "我保留收据。",
+      "bbox_normalized": [
+        0.515,
+        0.452,
+        0.581,
+        0.495
+      ],
+      "collocations": [
+        "keep a receipt"
+      ],
+      "example_en_highlighted": "I keep the **receipt**.",
+      "annotation_mode": "object",
+      "annotation_note": "两人之间独立纸条，收据身份由原创交易设定明确；不声称纸上金额可读",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W004",
+      "word": "account",
+      "aliases": [],
+      "source_zh_unreviewed": "账户；账目；解释",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "账目",
+      "pos": "noun",
+      "ipa_us": "/əˈkaʊnt/",
+      "ipa_uk": "/əˈkaʊnt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。",
+        "sentence": "The owner keeps an account of each sale.",
+        "matched_form": "account",
+        "context": "采用账目义，不是登录账号；账本作线索，记录由故事说明",
+        "image_verified": null
+      },
+      "example_en": "The owner keeps an account of each sale.",
+      "example_zh": "店主记录每笔销售的账目。",
+      "bbox_normalized": [
+        0.668,
+        0.664,
+        0.989,
+        0.756
+      ],
+      "collocations": [
+        "keep an account"
+      ],
+      "example_en_highlighted": "The owner keeps an **account** of each sale.",
+      "annotation_mode": "object",
+      "annotation_note": "柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W168",
+      "word": "credit",
+      "aliases": [],
+      "source_zh_unreviewed": "信用",
+      "planned_mode": "context",
+      "sense_zh": "赊购",
+      "pos": "noun",
+      "ipa_us": "/ˈkredɪt/",
+      "ipa_uk": "/ˈkredɪt/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "In this story, the shop lets me buy on credit.",
+        "matched_form": "credit",
+        "context": "补充虚构交易例句，不把当场付款和赊购混为同一事实",
+        "image_verified": null
+      },
+      "example_en": "In this story, the shop lets me buy on credit.",
+      "example_zh": "在这个故事里，商店允许我赊购。",
+      "bbox_normalized": null,
+      "collocations": [
+        "buy on credit"
+      ],
+      "example_en_highlighted": "In this story, the shop lets me buy on **credit**.",
+      "annotation_mode": "context",
+      "annotation_note": "补充虚构交易例句，不把当场付款和赊购混为同一事实",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W187",
+      "word": "debt",
+      "aliases": [],
+      "source_zh_unreviewed": "债务",
+      "planned_mode": "context",
+      "sense_zh": "债务",
+      "pos": "noun",
+      "ipa_us": "/det/",
+      "ipa_uk": "/det/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I pay the debt I owe to the shop.",
+        "matched_form": "debt",
+        "context": "债务由原创句子说明，不从钱币或表情认定",
+        "image_verified": null
+      },
+      "example_en": "I pay the debt I owe to the shop.",
+      "example_zh": "我偿还欠商店的债务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "pay a debt"
+      ],
+      "example_en_highlighted": "I pay the **debt** I owe to the shop.",
+      "annotation_mode": "context",
+      "annotation_note": "债务由原创句子说明，不从钱币或表情认定",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W106",
+      "word": "business",
+      "aliases": [],
+      "source_zh_unreviewed": "生意；商业",
+      "planned_mode": "context",
+      "sense_zh": "生意",
+      "pos": "noun",
+      "ipa_us": "/ˈbɪznəs/",
+      "ipa_uk": "/ˈbɪznəs/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The owner runs a small business.",
+        "matched_form": "business",
+        "context": "经营关系由原创设定说明",
+        "image_verified": null
+      },
+      "example_en": "The owner runs a small business.",
+      "example_zh": "店主经营一门小生意。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a small business"
+      ],
+      "example_en_highlighted": "The owner runs a small **business**.",
+      "annotation_mode": "context",
+      "annotation_note": "经营关系由原创设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W557",
+      "word": "profit",
+      "aliases": [],
+      "source_zh_unreviewed": "利润；盈利",
+      "planned_mode": "context",
+      "sense_zh": "利润",
+      "pos": "noun",
+      "ipa_us": "/ˈprɑːfɪt/",
+      "ipa_uk": "/ˈprɒfɪt/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The shop makes a profit when sales exceed costs.",
+        "matched_form": "profit",
+        "context": "利润概念以条件句说明，不虚构照片中的金额或收益",
+        "image_verified": null
+      },
+      "example_en": "The shop makes a profit when sales exceed costs.",
+      "example_zh": "销售收入超过成本时，商店就有利润。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make a profit"
+      ],
+      "example_en_highlighted": "The shop makes a **profit** when sales exceed costs.",
+      "annotation_mode": "context",
+      "annotation_note": "利润概念以条件句说明，不虚构照片中的金额或收益",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W508",
+      "word": "owner",
+      "aliases": [],
+      "source_zh_unreviewed": "拥有者",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "店主",
+      "pos": "noun",
+      "ipa_us": "/ˈoʊnər/",
+      "ipa_uk": "/ˈəʊnə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。",
+        "sentence": "The owner gives me a receipt.",
+        "matched_form": "owner",
+        "context": "右侧女性店主为原创故事角色，不凭服装认定所有权",
+        "image_verified": null
+      },
+      "example_en": "The owner gives me a receipt.",
+      "example_zh": "店主给我一张收据。",
+      "bbox_normalized": [
+        0.637,
+        0.144,
+        0.989,
+        0.678
+      ],
+      "collocations": [
+        "a shop owner"
+      ],
+      "example_en_highlighted": "The **owner** gives me a receipt.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I keep the receipt as a record of my payment.",
+    "zh": "我留好收据，作为这次付款的记录。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C028\n标题 收银台算账\n场景 顾客付款收到收据，店主核对账目，展示一次小生意。\n目标词 payment, receipt, account, credit, debt, business, profit, owner\n原创主配文草案 Keep the receipt as a record of the payment.\n中文草案 保留收据，作为付款记录。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated ivory and slate clothes, loose dark low bun, natural pores with subtle magazine retouch, real hands and materials. Cool soft daylight, coherent single scene, important teaching props clearly readable, calm blank space near image borders for later annotations. No text, letters, digits, logos, brand names, watermark or UI. Refined small independent homewares shop checkout. Young adult female customer at left in ivory blouse receiving ONE narrow blank receipt strip from another adult woman shop owner at right in slate blouse. Both faces visible, natural coherent hands. Counter shows compact unbranded register, open ledger with faint unrecognizable ruled lines but no readable marks, small tray with a few metal coins. Neutral ceramic wares shelf behind establishes small shop. Receipt clearly separate from ledger, no card terminal logos or numbers, cool window daylight, calm wall top and clear counter bottom.",
+  "status": "approved",
+  "image_path": "images/C028.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C028 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T02:53:32Z",
+    "ended_at": "2026-10-03T02:54:10Z",
+    "prompt_path": "prompts/C028_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C028.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "顾客接收独立收据纸条、收银机、账簿与硬币可辨；未把模糊纸上印痕当可读金额。店主/赊购/债务/利润由原创或条件句说明，赊购为另一个示例情境。"
+  }
+}

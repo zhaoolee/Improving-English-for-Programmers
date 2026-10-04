@@ -1,0 +1,22 @@
+{
+  "cardID": "C040",
+  "imagePath": "../images/C040.png",
+  "imageSHA256": "5d4c82a9909fde40c7394f12fc7450b7037f92595ec66f42a09b995f80f7dc42",
+  "imageReviewed": true,
+  "annotationsPath": "C040_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "time",
+    "hour",
+    "minute",
+    "watch",
+    "week",
+    "month",
+    "year",
+    "tomorrow",
+    "when",
+    "till",
+    "late"
+  ],
+  "receiptPath": "C040_import_receipt.json"
+}

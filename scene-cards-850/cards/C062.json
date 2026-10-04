@@ -1,0 +1,384 @@
+{
+  "id": "C062",
+  "chapter": "学习与艺术",
+  "title": "书桌上的文具",
+  "scene": "整齐书桌上放纸、钢笔、铅笔、墨水、便笺和一本翻开的书。",
+  "target_count": 8,
+  "primary_words": [
+    "paper",
+    "pen",
+    "pencil",
+    "ink",
+    "note",
+    "page",
+    "writing",
+    "word"
+  ],
+  "targets": [
+    {
+      "word_id": "W512",
+      "word": "paper",
+      "aliases": [],
+      "source_zh_unreviewed": "纸；报纸",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "纸",
+      "pos": "noun",
+      "ipa_us": "/ˈpeɪpɚ/",
+      "ipa_uk": "/ˈpeɪpə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "写字的独立白纸，不取笔记便笺。",
+        "sentence": "A sheet of paper lies on the desk.",
+        "matched_form": "paper",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A sheet of paper lies on the desk.",
+      "example_zh": "一张纸放在书桌上。",
+      "bbox_normalized": [
+        0.148,
+        0.628,
+        0.69,
+        0.798
+      ],
+      "collocations": [
+        "a sheet of paper",
+        "on paper"
+      ],
+      "example_en_highlighted": "A sheet of **paper** lies on the desk.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（纸），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W520",
+      "word": "pen",
+      "aliases": [],
+      "source_zh_unreviewed": "钢笔；圈禁",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "钢笔",
+      "pos": "noun",
+      "ipa_us": "/pen/",
+      "ipa_uk": "/pen/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "手持黑色钢笔与金属笔尖。",
+        "sentence": "I hold a pen above the paper.",
+        "matched_form": "pen",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I hold a pen above the paper.",
+      "example_zh": "我拿着钢笔，笔在纸上方。",
+      "bbox_normalized": [
+        0.229,
+        0.548,
+        0.383,
+        0.735
+      ],
+      "collocations": [
+        "a fountain pen",
+        "write with a pen"
+      ],
+      "example_en_highlighted": "I hold a **pen** above the paper.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（钢笔），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W521",
+      "word": "pencil",
+      "aliases": [],
+      "source_zh_unreviewed": "铅笔",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "铅笔",
+      "pos": "noun",
+      "ipa_us": "/ˈpensəl/",
+      "ipa_uk": "/ˈpensəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌底部木制铅笔。",
+        "sentence": "The pencil has a sharp point.",
+        "matched_form": "pencil",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The pencil has a sharp point.",
+      "example_zh": "这支铅笔有尖尖的笔尖。",
+      "bbox_normalized": [
+        0.398,
+        0.833,
+        0.601,
+        0.931
+      ],
+      "collocations": [
+        "a sharp pencil",
+        "draw with a pencil"
+      ],
+      "example_en_highlighted": "The **pencil** has a sharp point.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（铅笔），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W361",
+      "word": "ink",
+      "aliases": [],
+      "source_zh_unreviewed": "墨水",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "墨水",
+      "pos": "noun",
+      "ipa_us": "/ɪŋk/",
+      "ipa_uk": "/ɪŋk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "开口深色墨水瓶；内容由句子指定墨水。",
+        "sentence": "The bottle contains dark ink.",
+        "matched_form": "ink",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The bottle contains dark ink.",
+      "example_zh": "瓶子里装着深色墨水。",
+      "bbox_normalized": [
+        0.238,
+        0.757,
+        0.378,
+        0.878
+      ],
+      "collocations": [
+        "black ink",
+        "an ink bottle"
+      ],
+      "example_en_highlighted": "The bottle contains dark **ink**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（墨水），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W482",
+      "word": "note",
+      "aliases": [],
+      "source_zh_unreviewed": "笔记",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "便条",
+      "pos": "noun",
+      "ipa_us": "/noʊt/",
+      "ipa_uk": "/nəʊt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I plan to write a short note.",
+        "matched_form": "note",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I plan to write a short note.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I plan to write a short note.",
+      "example_zh": "我打算写一张简短的便条。",
+      "bbox_normalized": null,
+      "collocations": [
+        "write a note",
+        "leave a note"
+      ],
+      "example_en_highlighted": "I plan to write a short **note**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I plan to write a short note.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W509",
+      "word": "page",
+      "aliases": [],
+      "source_zh_unreviewed": "页；页面",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "书页",
+      "pos": "noun",
+      "ipa_us": "/peɪdʒ/",
+      "ipa_uk": "/peɪdʒ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧打开书的一页。",
+        "sentence": "This page belongs to the open book.",
+        "matched_form": "page",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This page belongs to the open book.",
+      "example_zh": "这页属于打开的书。",
+      "bbox_normalized": [
+        0.721,
+        0.604,
+        0.998,
+        0.716
+      ],
+      "collocations": [
+        "turn a page",
+        "an open page"
+      ],
+      "example_en_highlighted": "This **page** belongs to the open book.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（书页），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W843",
+      "word": "writing",
+      "aliases": [],
+      "source_zh_unreviewed": "写作",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "写字",
+      "pos": "noun",
+      "ipa_us": "/ˈraɪtɪŋ/",
+      "ipa_uk": "/ˈraɪtɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "手持钢笔在纸上留下笔迹的动作。",
+        "sentence": "I practice writing with my pen.",
+        "matched_form": "writing",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I practice writing with my pen.",
+      "example_zh": "我用钢笔练习写字。",
+      "bbox_normalized": [
+        0.088,
+        0.549,
+        0.384,
+        0.739
+      ],
+      "collocations": [
+        "practice writing",
+        "clear writing"
+      ],
+      "example_en_highlighted": "I practice **writing** with my pen.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（写字），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W839",
+      "word": "word",
+      "aliases": [],
+      "source_zh_unreviewed": "单词",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "单词",
+      "pos": "noun",
+      "ipa_us": "/wɝːd/",
+      "ipa_uk": "/wɜːd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I learn one new word each day.",
+        "matched_form": "word",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I learn one new word each day.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I learn one new word each day.",
+      "example_zh": "我每天学习一个新单词。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a new word",
+        "learn a word"
+      ],
+      "example_en_highlighted": "I learn one new **word** each day.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I learn one new word each day.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Paper, a pen, and a pencil are ready on my desk for writing.",
+    "zh": "纸、钢笔和铅笔已放在书桌上，准备写字。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C062\n标题 书桌上的文具\n场景 整齐书桌上放纸、钢笔、铅笔、墨水、便笺和一本翻开的书。\n目标词 paper, pen, pencil, ink, note, page, writing, word\n原创主配文草案 I put a word on the page with my pen.\n中文草案 我用钢笔在纸页上写下一个词。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at cool stylish study desk. Foreground clearly separated white paper sheet, uncapped black fountain pen with visible metal nib, simple wooden sharpened graphite pencil, open small glass ink bottle with dark liquid, small blank note pad and open plain book showing distinct page. Her hand makes small unreadable handwritten strokes on paper. Lower half tabletop close and crisp, face upper left unobstructed; no readable text, brands or random pseudo letters.",
+  "status": "approved",
+  "image_path": "images/C062.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 6,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C062 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:16:46 UTC",
+    "prompt_path": "prompts/C062_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C062.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "钢笔尖、木铅笔、墨水瓶、纸与书页清晰，书页自带细小不可读纹理；便条内容与单词只用句子。书页例句改为指向已打开书页，避免声称翻页动作。"
+  }
+}

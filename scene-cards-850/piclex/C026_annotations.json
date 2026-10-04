@@ -1,0 +1,294 @@
+{
+  "filename": "C026-雨天走进商店.png",
+  "labels": [
+    {
+      "x": 235,
+      "y": 180,
+      "english": "umbrella",
+      "chinese": "雨伞",
+      "phoneticUS": "/ʌmˈbrelə/",
+      "phoneticUK": "/ʌmˈbrelə/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 386
+      },
+      "anchorPosition": {
+        "x": 235,
+        "y": 180
+      },
+      "boundingBox": {
+        "left": 136,
+        "top": 103,
+        "right": 579,
+        "bottom": 425
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "透明雨伞整体，不含主人公",
+        "association": "透明雨伞整体，不含主人公",
+        "collocation": "a clear umbrella",
+        "example": "I hold an umbrella by the door.",
+        "exampleChinese": "我在门边拿着一把雨伞。"
+      }
+    },
+    {
+      "x": 78,
+      "y": 362,
+      "english": "rain",
+      "chinese": "雨",
+      "phoneticUS": "/reɪn/",
+      "phoneticUK": "/reɪn/",
+      "bubblePosition": {
+        "x": 111,
+        "y": 67
+      },
+      "anchorPosition": {
+        "x": 78,
+        "y": 362
+      },
+      "boundingBox": {
+        "left": 8,
+        "top": 27,
+        "right": 133,
+        "bottom": 954
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧玻璃门外的雨滴与湿地面区域，rain指向可见降雨线索；天气由原创场景确认。",
+        "association": "左侧玻璃门外的雨滴与湿地面区域，rain指向可见降雨线索；天气由原创场景确认。",
+        "collocation": "rain outside",
+        "example": "The rain falls outside the store.",
+        "exampleChinese": "雨落在商店外。"
+      }
+    },
+    {
+      "x": 820,
+      "y": 430,
+      "english": "store",
+      "chinese": "商店",
+      "phoneticUS": "/stɔːr/",
+      "phoneticUK": "/stɔː/",
+      "bubblePosition": {
+        "x": 695,
+        "y": 66
+      },
+      "anchorPosition": {
+        "x": 820,
+        "y": 430
+      },
+      "boundingBox": {
+        "left": 581,
+        "top": 162,
+        "right": 993,
+        "bottom": 748
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧衣架与雨具货品的商店局部区域，store由原创购物设定说明；未框整栋建筑。",
+        "association": "右侧衣架与雨具货品的商店局部区域，store由原创购物设定说明；未框整栋建筑。",
+        "collocation": "a clothing store",
+        "example": "I enter the store.",
+        "exampleChinese": "我走进商店。"
+      }
+    },
+    {
+      "x": 657,
+      "y": 439,
+      "english": "black",
+      "chinese": "黑色的",
+      "phoneticUS": "/blæk/",
+      "phoneticUK": "/blæk/",
+      "bubblePosition": {
+        "x": 661,
+        "y": 783
+      },
+      "anchorPosition": {
+        "x": 657,
+        "y": 439
+      },
+      "boundingBox": {
+        "left": 576,
+        "top": 248,
+        "right": 742,
+        "bottom": 551
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可见雨具中与例句对应的黑色雨衣，颜色词定位这件物品的实际区域。",
+        "association": "可见雨具中与例句对应的黑色雨衣，颜色词定位这件物品的实际区域。",
+        "collocation": "a black raincoat",
+        "example": "The raincoat on the rack is black.",
+        "exampleChinese": "架上有一件黑色雨衣。"
+      }
+    },
+    {
+      "x": 781,
+      "y": 416,
+      "english": "white",
+      "chinese": "白色的",
+      "phoneticUS": "/waɪt/",
+      "phoneticUK": "/waɪt/",
+      "bubblePosition": {
+        "x": 751,
+        "y": 176
+      },
+      "anchorPosition": {
+        "x": 781,
+        "y": 416
+      },
+      "boundingBox": {
+        "left": 734,
+        "top": 241,
+        "right": 824,
+        "bottom": 550
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可见雨具中与例句对应的白色雨衣，颜色词定位这件物品的实际区域。",
+        "association": "可见雨具中与例句对应的白色雨衣，颜色词定位这件物品的实际区域。",
+        "collocation": "a white raincoat",
+        "example": "One raincoat is white.",
+        "exampleChinese": "有一件雨衣是白色的。"
+      }
+    },
+    {
+      "x": 866,
+      "y": 395,
+      "english": "grey",
+      "chinese": "灰色的",
+      "phoneticUS": "/ɡreɪ/",
+      "phoneticUK": "/ɡreɪ/",
+      "bubblePosition": {
+        "x": 906,
+        "y": 176
+      },
+      "anchorPosition": {
+        "x": 866,
+        "y": 395
+      },
+      "boundingBox": {
+        "left": 822,
+        "top": 238,
+        "right": 909,
+        "bottom": 553
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可见雨具中与例句对应的灰色雨衣，颜色词定位这件物品的实际区域。",
+        "association": "可见雨具中与例句对应的灰色雨衣，颜色词定位这件物品的实际区域。",
+        "collocation": "a grey raincoat",
+        "example": "The grey raincoat is beside the white one.",
+        "exampleChinese": "灰色雨衣在白色雨衣旁边。"
+      }
+    },
+    {
+      "x": 807,
+      "y": 653,
+      "english": "brown",
+      "chinese": "棕色的",
+      "phoneticUS": "/braʊn/",
+      "phoneticUK": "/braʊn/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 781
+      },
+      "anchorPosition": {
+        "x": 807,
+        "y": 653
+      },
+      "boundingBox": {
+        "left": 752,
+        "top": 574,
+        "right": 872,
+        "bottom": 712
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可见雨具中与例句对应的棕色靴子，颜色词定位这件物品的实际区域。",
+        "association": "可见雨具中与例句对应的棕色靴子，颜色词定位这件物品的实际区域。",
+        "collocation": "brown boots",
+        "example": "The boots are brown.",
+        "exampleChinese": "靴子是棕色的。"
+      }
+    },
+    {
+      "x": 955,
+      "y": 371,
+      "english": "blue",
+      "chinese": "蓝色的",
+      "phoneticUS": "/bluː/",
+      "phoneticUK": "/bluː/",
+      "bubblePosition": {
+        "x": 930,
+        "y": 571
+      },
+      "anchorPosition": {
+        "x": 955,
+        "y": 371
+      },
+      "boundingBox": {
+        "left": 897,
+        "top": 238,
+        "right": 998,
+        "bottom": 536
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可见雨具中与例句对应的蓝色夹克，颜色词定位这件物品的实际区域。",
+        "association": "可见雨具中与例句对应的蓝色夹克，颜色词定位这件物品的实际区域。",
+        "collocation": "a blue jacket",
+        "example": "The jacket is blue.",
+        "exampleChinese": "夹克是蓝色的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Rain outside, a quiet store, and my umbrella by the door.",
+    "chinese": "门外下着雨，店里很安静，我的雨伞就在门边。",
+    "source": "原创配文 · C026 雨天走进商店",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

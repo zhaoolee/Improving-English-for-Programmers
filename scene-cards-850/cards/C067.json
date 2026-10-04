@@ -1,0 +1,410 @@
+{
+  "id": "C067",
+  "chapter": "学习与艺术",
+  "title": "舞台音乐排练",
+  "scene": "乐队在舞台排练，乐器、节奏和歌声通过动作与旁白共同呈现。",
+  "target_count": 9,
+  "primary_words": [
+    "music",
+    "instrument",
+    "band",
+    "song",
+    "rhythm",
+    "harmony",
+    "stage",
+    "voice",
+    "hearing"
+  ],
+  "targets": [
+    {
+      "word_id": "W460",
+      "word": "music",
+      "aliases": [],
+      "source_zh_unreviewed": "音乐",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "音乐",
+      "pos": "noun",
+      "ipa_us": "/ˈmjuːzɪk/",
+      "ipa_uk": "/ˈmjuːzɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We make music during rehearsal.",
+        "matched_form": "music",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We make music during rehearsal.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We make music during rehearsal.",
+      "example_zh": "我们在排练时演奏音乐。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make music",
+        "listen to music"
+      ],
+      "example_en_highlighted": "We make **music** during rehearsal.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We make music during rehearsal.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W363",
+      "word": "instrument",
+      "aliases": [],
+      "source_zh_unreviewed": "乐器",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "乐器",
+      "pos": "noun",
+      "ipa_us": "/ˈɪnstrəmənt/",
+      "ipa_uk": "/ˈɪnstrəmənt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧吉他，乐器义。",
+        "sentence": "The guitar is a musical instrument.",
+        "matched_form": "instrument",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The guitar is a musical instrument.",
+      "example_zh": "吉他是一种乐器。",
+      "bbox_normalized": [
+        0.001,
+        0.426,
+        0.364,
+        0.581
+      ],
+      "collocations": [
+        "play an instrument",
+        "a musical instrument"
+      ],
+      "example_en_highlighted": "The guitar is a musical **instrument**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（乐器），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W051",
+      "word": "band",
+      "aliases": [],
+      "source_zh_unreviewed": "带子；乐队",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "乐队",
+      "pos": "noun",
+      "ipa_us": "/bænd/",
+      "ipa_uk": "/bænd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "三人一起排练的关系，故事指定同一乐队。",
+        "sentence": "Our band has three members.",
+        "matched_form": "band",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Our band has three members.",
+      "example_zh": "我们的乐队有三名成员。",
+      "bbox_normalized": [
+        0.002,
+        0.176,
+        0.998,
+        0.979
+      ],
+      "collocations": [
+        "a small band",
+        "play in a band"
+      ],
+      "example_en_highlighted": "Our **band** has three members.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（乐队），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W683",
+      "word": "song",
+      "aliases": [],
+      "source_zh_unreviewed": "歌曲",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "歌曲",
+      "pos": "noun",
+      "ipa_us": "/sɔːŋ/",
+      "ipa_uk": "/sɒŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I sing a song with the band.",
+        "matched_form": "song",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I sing a song with the band.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I sing a song with the band.",
+      "example_zh": "我和乐队一起唱一首歌。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sing a song",
+        "a new song"
+      ],
+      "example_en_highlighted": "I sing a **song** with the band.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I sing a song with the band.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W596",
+      "word": "rhythm",
+      "aliases": [],
+      "source_zh_unreviewed": "节奏；韵律",
+      "planned_mode": "context",
+      "sense_zh": "节奏",
+      "pos": "noun",
+      "ipa_us": "/ˈrɪðəm/",
+      "ipa_uk": "/ˈrɪðəm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The drums keep a steady rhythm.",
+        "matched_form": "rhythm",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The drums keep a steady rhythm.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The drums keep a steady rhythm.",
+      "example_zh": "鼓保持着稳定的节奏。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a steady rhythm",
+        "follow the rhythm"
+      ],
+      "example_en_highlighted": "The drums keep a steady **rhythm**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The drums keep a steady rhythm.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W326",
+      "word": "harmony",
+      "aliases": [],
+      "source_zh_unreviewed": "和谐",
+      "planned_mode": "context",
+      "sense_zh": "和声",
+      "pos": "noun",
+      "ipa_us": "/ˈhɑːrməni/",
+      "ipa_uk": "/ˈhɑːməni/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Two voices sing in harmony.",
+        "matched_form": "harmony",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Two voices sing in harmony.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Two voices sing in harmony.",
+      "example_zh": "两个声音唱出和声。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sing in harmony",
+        "vocal harmony"
+      ],
+      "example_en_highlighted": "Two voices sing in **harmony**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Two voices sing in harmony.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W695",
+      "word": "stage",
+      "aliases": [],
+      "source_zh_unreviewed": "舞台",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "舞台",
+      "pos": "noun",
+      "ipa_us": "/steɪdʒ/",
+      "ipa_uk": "/steɪdʒ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "人物脚下舞台地板。",
+        "sentence": "We stand on the wooden stage.",
+        "matched_form": "stage",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We stand on the wooden stage.",
+      "example_zh": "我们站在木舞台上。",
+      "bbox_normalized": [
+        0.096,
+        0.887,
+        0.998,
+        0.992
+      ],
+      "collocations": [
+        "on the stage",
+        "a small stage"
+      ],
+      "example_en_highlighted": "We stand on the wooden **stage**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（舞台），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W798",
+      "word": "voice",
+      "aliases": [],
+      "source_zh_unreviewed": "声音",
+      "planned_mode": "context",
+      "sense_zh": "嗓音",
+      "pos": "noun",
+      "ipa_us": "/vɔɪs/",
+      "ipa_uk": "/vɔɪs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My voice joins the sound of the guitar.",
+        "matched_form": "voice",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My voice joins the sound of the guitar.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My voice joins the sound of the guitar.",
+      "example_zh": "我的嗓音和吉他声交织在一起。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a clear voice",
+        "singing voice"
+      ],
+      "example_en_highlighted": "My **voice** joins the sound of the guitar.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My voice joins the sound of the guitar.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W333",
+      "word": "hearing",
+      "aliases": [],
+      "source_zh_unreviewed": "听力",
+      "planned_mode": "context",
+      "sense_zh": "听觉",
+      "pos": "noun",
+      "ipa_us": "/ˈhɪrɪŋ/",
+      "ipa_uk": "/ˈhɪərɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My hearing helps me follow the music.",
+        "matched_form": "hearing",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My hearing helps me follow the music.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My hearing helps me follow the music.",
+      "example_zh": "我的听觉帮助我跟上音乐。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sense of hearing",
+        "good hearing"
+      ],
+      "example_en_highlighted": "My **hearing** helps me follow the music.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My hearing helps me follow the music.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Our band makes music on the stage, and I sing with the rhythm.",
+    "zh": "我们的乐队在舞台上演奏音乐，我跟着节奏唱歌。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "instrument 本卡按乐器义；sound/voice/hearing等需有语境，不声称声音本身可见。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C067\n标题 舞台音乐排练\n场景 乐队在舞台排练，乐器、节奏和歌声通过动作与旁白共同呈现。\n目标词 music, instrument, band, song, rhythm, harmony, stage, voice, hearing\n原创主配文草案 The band makes music with a strong rhythm.\n中文草案 乐队演奏着节奏鲜明的音乐。\n编辑注意 instrument 本卡按乐器义；sound/voice/hearing等需有语境，不声称声音本身可见。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Refined small rehearsal stage, adult East Asian woman singer at microphone, adult female guitarist at left and drummer at right, three-person band. Guitar distinct with normal hands, drum kit separated, wooden stage floor visible, cool soft stage lighting not neon. No text logos. Sound itself not visualised, singing pose and coordinated rehearsal only. Leave edges quiet for labels.",
+  "status": "approved",
+  "image_path": "images/C067.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 6,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C067 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:20:20 UTC",
+    "prompt_path": "prompts/C067_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C067.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三人乐队排练，吉他与舞台地板可见；声音、和声、节奏与听觉均非照片可证明。"
+  }
+}

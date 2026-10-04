@@ -1,0 +1,380 @@
+{
+  "id": "C002",
+  "chapter": "家里的一天",
+  "title": "窗前的昼夜",
+  "scene": "同一扇窗的昼夜双幅对照，白天明亮，晚上黑暗。",
+  "target_count": 8,
+  "primary_words": [
+    "window",
+    "day",
+    "night",
+    "bright",
+    "dark",
+    "sun",
+    "moon",
+    "star"
+  ],
+  "targets": [
+    {
+      "word_id": "W829",
+      "word": "window",
+      "aliases": [],
+      "source_zh_unreviewed": "窗户",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "窗户",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈwɪndoʊ/",
+      "ipa_uk": "/ˈwɪndəʊ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框可辨窗框和玻璃，不框整间屋子。",
+        "sentence": "She sits by the window.",
+        "matched_form": "window",
+        "image_verified": true
+      },
+      "example_en": "She sits by the window.",
+      "example_zh": "她坐在窗边。",
+      "bbox_normalized": [
+        0.105,
+        0.0,
+        0.498,
+        0.716
+      ],
+      "collocations": [
+        "by the window",
+        "open a window"
+      ],
+      "example_en_highlighted": "She sits by the **window**.",
+      "annotation_mode": "object",
+      "annotation_note": "框可辨窗框和玻璃，不框整间屋子。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/window",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W183",
+      "word": "day",
+      "aliases": [],
+      "source_zh_unreviewed": "白天；一天",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "白天",
+      "pos": "noun",
+      "ipa_us": "/deɪ/",
+      "ipa_uk": "/deɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+        "sentence": "The room is bright during the day.",
+        "matched_form": "day",
+        "context": "左幅日景与句中 day 对应；不把太阳框成白天。",
+        "image_verified": null
+      },
+      "example_en": "The room is bright during the day.",
+      "example_zh": "白天房间很明亮。",
+      "bbox_normalized": [
+        0.018,
+        0.02,
+        0.487,
+        0.96
+      ],
+      "collocations": [
+        "during the day",
+        "day and night"
+      ],
+      "example_en_highlighted": "The room is bright during the **day**.",
+      "annotation_mode": "object",
+      "annotation_note": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/day",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W475",
+      "word": "night",
+      "aliases": [],
+      "source_zh_unreviewed": "夜晚",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "夜晚",
+      "pos": "noun",
+      "ipa_us": "/naɪt/",
+      "ipa_uk": "/naɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+        "sentence": "The sky is dark at night.",
+        "matched_form": "night",
+        "context": "右幅夜空支持 at night 的语境；夜晚不是物体。",
+        "image_verified": null
+      },
+      "example_en": "The sky is dark at night.",
+      "example_zh": "夜晚天空很暗。",
+      "bbox_normalized": [
+        0.515,
+        0.02,
+        0.994,
+        0.96
+      ],
+      "collocations": [
+        "at night",
+        "a clear night"
+      ],
+      "example_en_highlighted": "The sky is dark at **night**.",
+      "annotation_mode": "object",
+      "annotation_note": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/night_2",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W096",
+      "word": "bright",
+      "aliases": [],
+      "source_zh_unreviewed": "明亮的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "明亮的",
+      "pos": "adjective",
+      "ipa_us": "/braɪt/",
+      "ipa_uk": "/braɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+        "sentence": "The room is bright in the left picture.",
+        "matched_form": "bright",
+        "context": "昼夜对照与句中 bright 明确亮度，不设物体框。",
+        "image_verified": null
+      },
+      "example_en": "The room is bright in the left picture.",
+      "example_zh": "左图里的房间很明亮。",
+      "bbox_normalized": [
+        0.018,
+        0.02,
+        0.487,
+        0.96
+      ],
+      "collocations": [
+        "bright daylight",
+        "a bright room"
+      ],
+      "example_en_highlighted": "The room is **bright** in the left picture.",
+      "annotation_mode": "object",
+      "annotation_note": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bright_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W181",
+      "word": "dark",
+      "aliases": [],
+      "source_zh_unreviewed": "黑暗的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "昏暗的",
+      "pos": "adjective",
+      "ipa_us": "/dɑːrk/",
+      "ipa_uk": "/dɑːk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+        "sentence": "The room is dark in the right picture.",
+        "matched_form": "dark",
+        "context": "右幅室内低照度与 dark 例句对应，不把窗帘当 dark。",
+        "image_verified": null
+      },
+      "example_en": "The room is dark in the right picture.",
+      "example_zh": "右图里的房间很昏暗。",
+      "bbox_normalized": [
+        0.515,
+        0.02,
+        0.994,
+        0.96
+      ],
+      "collocations": [
+        "a dark sky",
+        "a dark room"
+      ],
+      "example_en_highlighted": "The room is **dark** in the right picture.",
+      "annotation_mode": "object",
+      "annotation_note": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/dark_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W728",
+      "word": "sun",
+      "aliases": [],
+      "source_zh_unreviewed": "太阳",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "太阳",
+      "pos": "noun",
+      "ipa_us": "/sʌn/",
+      "ipa_uk": "/sʌn/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "只框左幅窗外可见的太阳圆盘；不拿光斑代替太阳。",
+        "sentence": "The sun is in the blue sky.",
+        "matched_form": "sun",
+        "image_verified": true
+      },
+      "example_en": "The sun is in the blue sky.",
+      "example_zh": "太阳在蓝天中。",
+      "bbox_normalized": [
+        0.405,
+        0.105,
+        0.44,
+        0.138
+      ],
+      "collocations": [
+        "the sun",
+        "in the sun"
+      ],
+      "example_en_highlighted": "The **sun** is in the blue sky.",
+      "annotation_mode": "object",
+      "annotation_note": "只框左幅窗外可见的太阳圆盘；不拿光斑代替太阳。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sun_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W451",
+      "word": "moon",
+      "aliases": [],
+      "source_zh_unreviewed": "月亮",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "月亮",
+      "pos": "noun",
+      "ipa_us": "/muːn/",
+      "ipa_uk": "/muːn/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "只框右幅窗外的新月。",
+        "sentence": "The moon is in the night sky.",
+        "matched_form": "moon",
+        "image_verified": true
+      },
+      "example_en": "The moon is in the night sky.",
+      "example_zh": "月亮在夜空中。",
+      "bbox_normalized": [
+        0.908,
+        0.12,
+        0.937,
+        0.15
+      ],
+      "collocations": [
+        "the moon",
+        "a crescent moon"
+      ],
+      "example_en_highlighted": "The **moon** is in the night sky.",
+      "annotation_mode": "object",
+      "annotation_note": "只框右幅窗外的新月。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/moon_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W697",
+      "word": "star",
+      "aliases": [],
+      "source_zh_unreviewed": "星星",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "星星",
+      "pos": "noun (countable)",
+      "ipa_us": "/stɑːr/",
+      "ipa_uk": "/stɑː/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框右幅一颗独立可辨的星，不框整片天空或灯光。",
+        "sentence": "I can see a star in the sky.",
+        "matched_form": "star",
+        "image_verified": true
+      },
+      "example_en": "I can see a star in the sky.",
+      "example_zh": "我能看见天空中一颗星星。",
+      "bbox_normalized": [
+        0.722,
+        0.126,
+        0.731,
+        0.132
+      ],
+      "collocations": [
+        "a bright star",
+        "look at the stars"
+      ],
+      "example_en_highlighted": "I can see a **star** in the sky.",
+      "annotation_mode": "object",
+      "annotation_note": "框右幅一颗独立可辨的星，不框整片天空或灯光。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/star_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "By the same window, the day is bright and the night is dark.",
+    "zh": "同一扇窗前，白天明亮，夜晚昏暗。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C002\n标题 窗前的昼夜\n场景 同一扇窗的昼夜双幅对照，白天明亮，晚上黑暗。\n目标词 window, day, night, bright, dark, sun, moon, star\n原创主配文草案 The sun is bright in the day; the moon is bright at night.\n中文草案 白天太阳明亮，夜晚月亮明亮。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Generate a refined editorial photograph, portrait 4:5, two equal vertical panels with a very thin clean divider. A photographic day/night diptych showing exactly the same large tall window in a quiet minimalist Korean boutique apartment, same camera position and same adult East Asian woman about 25, pearl ivory cardigan and pale grey skirt, loose low hair bun, understated cool makeup and real skin texture. LEFT PANEL DAY: crisp cool white daylight, bright interior, clear blue sky with a small realistically sized visible sun high through the window, landscape below. RIGHT PANEL NIGHT: the identical window and room, dark navy night sky, a clearly recognizable slender crescent moon and a few small discrete natural stars visible through the glass, softly dim interior; moon and stars not reflections or stickers. The woman is seated quietly beside the lower part of the window in both panels, beautifully composed environmental fashion portrait, window frame is clearly identifiable, sky occupies generous upper window area for later precise annotation. High end Instagram Korean cool editorial photography, restrained pearl white mist grey muted blue palette, natural complexion, subtle editorial retouch preserving skin pores hair and fabric, no plastic skin, no CGI, believable anatomy and perspective. Keep all sun/moon/stars completely inside their respective visible sky panels and make them easy to find. No text, letters, numbers, labels, speech bubbles, brands, watermarks or UI. This is a photographic comparison, not a fantasy composite. Both panels are separate moments; no sun in the night panel and no moon in the day panel.",
+  "status": "approved",
+  "image_path": "images/C002.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C002 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T09:29:47Z",
+    "ended_at": "2026-10-02T09:30:14Z",
+    "prompt_path": "prompts/C002_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C002.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "同窗同人物昼夜双幅；左幅太阳圆盘、右幅新月与独立星点可辨；室内亮度有明确差异。成年年轻女性、冷调精修，人物结构自然。无可读标注和水印。"
+  }
+}

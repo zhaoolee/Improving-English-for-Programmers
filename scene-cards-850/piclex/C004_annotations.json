@@ -1,0 +1,305 @@
+{
+  "filename": "C004-开门迎客.png",
+  "labels": [
+    {
+      "x": 415,
+      "y": 675,
+      "english": "door",
+      "chinese": "门",
+      "phoneticUS": "/dɔːr/",
+      "phoneticUK": "/dɔː/",
+      "bubblePosition": {
+        "x": 395,
+        "y": 750
+      },
+      "anchorPosition": {
+        "x": 415,
+        "y": 675
+      },
+      "boundingBox": {
+        "left": 242,
+        "top": 35,
+        "right": 466,
+        "bottom": 825
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框左幅木门门扇，不把整面墙当门。",
+        "association": "只框左幅木门门扇，不把整面墙当门。",
+        "collocation": "open the door; a wooden door",
+        "example": "The door is made of wood.",
+        "exampleChinese": "门是木制的。"
+      }
+    },
+    {
+      "x": 433,
+      "y": 429,
+      "english": "key",
+      "chinese": "钥匙",
+      "phoneticUS": "/kiː/",
+      "phoneticUK": "/kiː/",
+      "bubblePosition": {
+        "x": 325,
+        "y": 485
+      },
+      "anchorPosition": {
+        "x": 433,
+        "y": 429
+      },
+      "boundingBox": {
+        "left": 419,
+        "top": 417,
+        "right": 446,
+        "bottom": 451
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只定位人物手中可辨的金属钥匙，不框整只手。",
+        "association": "只定位人物手中可辨的金属钥匙，不框整只手。",
+        "collocation": "a door key; turn the key",
+        "example": "I turn the key.",
+        "exampleChinese": "我转动钥匙。"
+      }
+    },
+    {
+      "x": 450,
+      "y": 424,
+      "english": "lock",
+      "chinese": "锁",
+      "phoneticUS": "/lɑːk/",
+      "phoneticUK": "/lɒk/",
+      "bubblePosition": {
+        "x": 476.3333333333333,
+        "y": 544.9998332721998
+      },
+      "anchorPosition": {
+        "x": 450,
+        "y": 424
+      },
+      "boundingBox": {
+        "left": 435,
+        "top": 402,
+        "right": 462,
+        "bottom": 446
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框机械锁与钥匙孔，不把整个门把手当锁。",
+        "association": "框机械锁与钥匙孔，不把整个门把手当锁。",
+        "collocation": "a door lock; a key in the lock",
+        "example": "The key is in the lock.",
+        "exampleChinese": "钥匙插在锁里。"
+      }
+    },
+    {
+      "x": 824,
+      "y": 444,
+      "english": "open",
+      "chinese": "开着的",
+      "phoneticUS": "/ˈoʊpən/",
+      "phoneticUK": "/ˈəʊpən/",
+      "bubblePosition": {
+        "x": 925,
+        "y": 365
+      },
+      "anchorPosition": {
+        "x": 824,
+        "y": 444
+      },
+      "boundingBox": {
+        "left": 684,
+        "top": 32,
+        "right": 993,
+        "bottom": 888
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右幅打开的门与敞开的门口，形容词open指向这扇门的可见开合状态。",
+        "association": "右幅打开的门与敞开的门口，形容词open指向这扇门的可见开合状态。",
+        "collocation": "be open; an open door",
+        "example": "The door is open in the right picture.",
+        "exampleChinese": "右图里的门开着。"
+      }
+    },
+    {
+      "x": 376,
+      "y": 421,
+      "english": "shut",
+      "chinese": "关着的",
+      "phoneticUS": "/ʃʌt/",
+      "phoneticUK": "/ʃʌt/",
+      "bubblePosition": {
+        "x": 430,
+        "y": 315
+      },
+      "anchorPosition": {
+        "x": 376,
+        "y": 421
+      },
+      "boundingBox": {
+        "left": 194,
+        "top": 32,
+        "right": 491,
+        "bottom": 815
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左幅关闭的木门，形容词shut指向可见的关门状态。",
+        "association": "左幅关闭的木门，形容词shut指向可见的关门状态。",
+        "collocation": "be shut; keep the door shut",
+        "example": "The door is shut in the left picture.",
+        "exampleChinese": "左图里的门关着。"
+      }
+    },
+    {
+      "x": 675,
+      "y": 75,
+      "english": "house",
+      "chinese": "房子",
+      "phoneticUS": "/haʊs/",
+      "phoneticUK": "/haʊs/",
+      "bubblePosition": {
+        "x": 675,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "住宅入口与原创叙述提供语境；只显示入口，不声称框出了整栋房子。",
+        "association": "住宅入口与原创叙述提供语境；只显示入口，不声称框出了整栋房子。",
+        "collocation": "my house; a house entrance",
+        "example": "My house has a wooden door.",
+        "exampleChinese": "我的房子有一扇木门。"
+      }
+    },
+    {
+      "x": 915,
+      "y": 760,
+      "english": "come",
+      "chinese": "来",
+      "phoneticUS": "/kʌm/",
+      "phoneticUK": "/kʌm/",
+      "bubblePosition": {
+        "x": 915,
+        "y": 760
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (intransitive)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "主人邀请客人进入的场景与例句来说明 come；不把客人静态外貌框成动作。",
+        "association": "主人邀请客人进入的场景与例句来说明 come；不把客人静态外貌框成动作。",
+        "collocation": "come in; come to my house",
+        "example": "Please come in.",
+        "exampleChinese": "请进。"
+      }
+    },
+    {
+      "x": 325,
+      "y": 620,
+      "english": "in",
+      "chinese": "在……里",
+      "phoneticUS": "/ɪn/",
+      "phoneticUK": "/ɪn/",
+      "bubblePosition": {
+        "x": 325,
+        "y": 620
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "高亮 in；钥匙与锁的真实插入关系由例句说明，不给介词物体框。",
+        "association": "高亮 in；钥匙与锁的真实插入关系由例句说明，不给介词物体框。",
+        "collocation": "in the lock; in the house",
+        "example": "The key is in the lock.",
+        "exampleChinese": "钥匙插在锁里。"
+      }
+    },
+    {
+      "x": 443,
+      "y": 140,
+      "english": "bell",
+      "chinese": "铃",
+      "phoneticUS": "/bel/",
+      "phoneticUK": "/bel/",
+      "bubblePosition": {
+        "x": 390,
+        "y": 210
+      },
+      "anchorPosition": {
+        "x": 443,
+        "y": 140
+      },
+      "boundingBox": {
+        "left": 409,
+        "top": 82,
+        "right": 479,
+        "bottom": 164
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框门旁实体铜铃，区别于电子门铃按钮。",
+        "association": "框门旁实体铜铃，区别于电子门铃按钮。",
+        "collocation": "ring the bell; a brass bell",
+        "example": "The bell hangs by the door.",
+        "exampleChinese": "铃挂在门旁。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I turn the key and open the door. Please come in!",
+    "chinese": "我转动钥匙，打开门。请进！",
+    "source": "原创配文 · C004 开门迎客",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

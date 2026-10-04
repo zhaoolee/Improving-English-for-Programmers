@@ -1,0 +1,243 @@
+{
+  "filename": "C054-牙科小检查.png",
+  "labels": [
+    {
+      "x": 338,
+      "y": 734,
+      "english": "tooth",
+      "chinese": "牙齿",
+      "phoneticUS": "/tuːθ/",
+      "phoneticUK": "/tuːθ/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 560
+      },
+      "anchorPosition": {
+        "x": 338,
+        "y": 734
+      },
+      "boundingBox": {
+        "left": 188,
+        "top": 541,
+        "right": 489,
+        "bottom": 928
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整牙齿教学模型。",
+        "association": "完整牙齿教学模型。",
+        "collocation": "a tooth model",
+        "example": "The dentist shows me a tooth model.",
+        "exampleChinese": "牙医给我看一个牙齿模型。"
+      }
+    },
+    {
+      "x": 698,
+      "y": 693,
+      "english": "tongue",
+      "chinese": "舌头",
+      "phoneticUS": "/tʌŋ/",
+      "phoneticUK": "/tʌŋ/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 670
+      },
+      "anchorPosition": {
+        "x": 698,
+        "y": 693
+      },
+      "boundingBox": {
+        "left": 605,
+        "top": 647,
+        "right": 792,
+        "bottom": 739
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "口腔模型中实际可辨粉色舌部。",
+        "association": "口腔模型中实际可辨粉色舌部。",
+        "collocation": "the tongue",
+        "example": "The pink part of the model represents the tongue.",
+        "exampleChinese": "模型的粉色部分表示舌头。"
+      }
+    },
+    {
+      "x": 836,
+      "y": 675,
+      "english": "throat",
+      "chinese": "咽喉",
+      "phoneticUS": "/θroʊt/",
+      "phoneticUK": "/θrəʊt/",
+      "bubblePosition": {
+        "x": 915,
+        "y": 805
+      },
+      "anchorPosition": {
+        "x": 836,
+        "y": 675
+      },
+      "boundingBox": {
+        "left": 810,
+        "top": 600,
+        "right": 863,
+        "bottom": 750
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "模型中口腔后方通道，不把普通人像当内部可见。",
+        "association": "模型中口腔后方通道，不把普通人像当内部可见。",
+        "collocation": "the throat",
+        "example": "The passage behind the mouth represents the throat.",
+        "exampleChinese": "口腔后方的通道表示咽喉。"
+      }
+    },
+    {
+      "x": 266,
+      "y": 440,
+      "english": "skin",
+      "chinese": "皮肤",
+      "phoneticUS": "/skɪn/",
+      "phoneticUK": "/skɪn/",
+      "bubblePosition": {
+        "x": 270,
+        "y": 480
+      },
+      "anchorPosition": {
+        "x": 266,
+        "y": 440
+      },
+      "boundingBox": {
+        "left": 194,
+        "top": 417,
+        "right": 339,
+        "bottom": 463
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅真实前臂皮肤。",
+        "association": "上幅真实前臂皮肤。",
+        "collocation": "the skin on my arm",
+        "example": "The skin on my arm is visible.",
+        "exampleChinese": "我的手臂皮肤露在外面。"
+      }
+    },
+    {
+      "x": 321,
+      "y": 759,
+      "english": "nerve",
+      "chinese": "神经",
+      "phoneticUS": "/nɜːrv/",
+      "phoneticUK": "/nɜːv/",
+      "bubblePosition": {
+        "x": 370,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 321,
+        "y": 759
+      },
+      "boundingBox": {
+        "left": 298,
+        "top": 623,
+        "right": 345,
+        "bottom": 896
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "仅定位牙模型黄色神经示意。",
+        "association": "仅定位牙模型黄色神经示意。",
+        "collocation": "a nerve in a tooth",
+        "example": "The yellow line represents a nerve in the tooth.",
+        "exampleChinese": "黄色线条表示牙齿中的一条神经。"
+      }
+    },
+    {
+      "x": 95,
+      "y": 45,
+      "english": "medical",
+      "chinese": "医疗的",
+      "phoneticUS": "/ˈmedɪkəl/",
+      "phoneticUK": "/ˈmedɪkəl/",
+      "bubblePosition": {
+        "x": 95,
+        "y": 45
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "医疗功能由故事说明，不从白衣鉴定资质。",
+        "association": "医疗功能由故事说明，不从白衣鉴定资质。",
+        "collocation": "medical help",
+        "example": "I ask for medical help with my tooth.",
+        "exampleChinese": "我为牙齿问题寻求医疗帮助。"
+      }
+    },
+    {
+      "x": 915,
+      "y": 445,
+      "english": "pain",
+      "chinese": "疼痛",
+      "phoneticUS": "/peɪn/",
+      "phoneticUK": "/peɪn/",
+      "bubblePosition": {
+        "x": 915,
+        "y": 445
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "主观疼痛由句子说明，不从表情诊断。",
+        "association": "主观疼痛由句子说明，不从表情诊断。",
+        "collocation": "tooth pain",
+        "example": "I tell the dentist about my tooth pain.",
+        "exampleChinese": "我告诉牙医我的牙痛情况。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "The dentist uses models to explain my tooth and the inside of my mouth.",
+    "chinese": "牙医用模型向我说明牙齿和口腔内部。",
+    "source": "原创配文 · C054 牙科小检查",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

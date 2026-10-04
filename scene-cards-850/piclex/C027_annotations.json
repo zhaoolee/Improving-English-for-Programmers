@@ -1,0 +1,235 @@
+{
+  "filename": "C027-买菜装篮子.png",
+  "labels": [
+    {
+      "x": 184,
+      "y": 586,
+      "english": "market",
+      "chinese": "市场",
+      "phoneticUS": "/ˈmɑːrkɪt/",
+      "phoneticUK": "/ˈmɑːkɪt/",
+      "bubblePosition": {
+        "x": 116,
+        "y": 71
+      },
+      "anchorPosition": {
+        "x": 184,
+        "y": 586
+      },
+      "boundingBox": {
+        "left": 5,
+        "top": 407,
+        "right": 363,
+        "bottom": 766
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧陈列蔬菜的市场摊位区域，market的经营场景由原创设定说明；不框整张照片。",
+        "association": "左侧陈列蔬菜的市场摊位区域，market的经营场景由原创设定说明；不框整张照片。",
+        "collocation": "a vegetable market",
+        "example": "I buy vegetables at the market.",
+        "exampleChinese": "我在市场买蔬菜。"
+      }
+    },
+    {
+      "x": 408,
+      "y": 710,
+      "english": "basket",
+      "chinese": "篮子",
+      "phoneticUS": "/ˈbæskɪt/",
+      "phoneticUK": "/ˈbɑːskɪt/",
+      "bubblePosition": {
+        "x": 166,
+        "y": 862
+      },
+      "anchorPosition": {
+        "x": 408,
+        "y": 710
+      },
+      "boundingBox": {
+        "left": 234,
+        "top": 516,
+        "right": 551,
+        "bottom": 785
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "装蔬菜的独立藤编购物篮",
+        "association": "装蔬菜的独立藤编购物篮",
+        "collocation": "a shopping basket",
+        "example": "The basket holds vegetables.",
+        "exampleChinese": "篮子里装着蔬菜。"
+      }
+    },
+    {
+      "x": 842,
+      "y": 775,
+      "english": "cart",
+      "chinese": "手推车",
+      "phoneticUS": "/kɑːrt/",
+      "phoneticUK": "/kɑːt/",
+      "bubblePosition": {
+        "x": 914,
+        "y": 435
+      },
+      "anchorPosition": {
+        "x": 842,
+        "y": 775
+      },
+      "boundingBox": {
+        "left": 702,
+        "top": 524,
+        "right": 958,
+        "bottom": 999
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧金属购物手推车，区别藤篮",
+        "association": "右侧金属购物手推车，区别藤篮",
+        "collocation": "a shopping cart",
+        "example": "The cart has wheels.",
+        "exampleChinese": "这辆手推车有轮子。"
+      }
+    },
+    {
+      "x": 877,
+      "y": 75,
+      "english": "price",
+      "chinese": "价格",
+      "phoneticUS": "/praɪs/",
+      "phoneticUK": "/praɪs/",
+      "bubblePosition": {
+        "x": 877,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "价格由原创例句说明，空白价牌不能当已读价格",
+        "association": "价格由原创例句说明，空白价牌不能当已读价格",
+        "collocation": "a low price",
+        "example": "The price of the vegetables is low.",
+        "exampleChinese": "这些蔬菜的价格低。"
+      }
+    },
+    {
+      "x": 868,
+      "y": 270,
+      "english": "cheap",
+      "chinese": "便宜的",
+      "phoneticUS": "/tʃiːp/",
+      "phoneticUK": "/tʃiːp/",
+      "bubblePosition": {
+        "x": 868,
+        "y": 270
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "便宜是原创情境中的价格评价，不由外观推断",
+        "association": "便宜是原创情境中的价格评价，不由外观推断",
+        "collocation": "cheap vegetables",
+        "example": "These vegetables are cheap today.",
+        "exampleChinese": "这些蔬菜今天很便宜。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 800,
+      "english": "money",
+      "chinese": "钱",
+      "phoneticUS": "/ˈmʌni/",
+      "phoneticUK": "/ˈmʌni/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 906
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 800
+      },
+      "boundingBox": {
+        "left": 457,
+        "top": 787,
+        "right": 542,
+        "bottom": 810
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "浅托盘中的金属硬币，钱的用途由交易故事明确",
+        "association": "浅托盘中的金属硬币，钱的用途由交易故事明确",
+        "collocation": "pay money",
+        "example": "I pay money for the vegetables.",
+        "exampleChinese": "我付钱买蔬菜。"
+      }
+    },
+    {
+      "x": 164,
+      "y": 430,
+      "english": "get",
+      "chinese": "买到",
+      "phoneticUS": "/ɡet/",
+      "phoneticUK": "/ɡet/",
+      "bubblePosition": {
+        "x": 164,
+        "y": 430
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "get采用获得/买到义，由购物句子明确",
+        "association": "get采用获得/买到义，由购物句子明确",
+        "collocation": "get vegetables",
+        "example": "I get fresh vegetables at the market.",
+        "exampleChinese": "我在市场买到新鲜蔬菜。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I get fresh vegetables at the market and carry them home.",
+    "chinese": "我在市场买新鲜蔬菜，再把它们带回家。",
+    "source": "原创配文 · C027 买菜装篮子",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

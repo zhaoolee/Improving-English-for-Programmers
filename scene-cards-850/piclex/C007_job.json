@@ -1,0 +1,19 @@
+{
+  "cardID": "C007",
+  "imagePath": "../images/C007.png",
+  "imageSHA256": "5c3aac47b0aee003ba95a5cedb0f8ae9cf2b0932ab3c5ddec6d329e05c81ab3b",
+  "imageReviewed": true,
+  "annotationsPath": "C007_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "basin",
+    "bath",
+    "soap",
+    "brush",
+    "wash",
+    "clean",
+    "water",
+    "drain"
+  ],
+  "receiptPath": "C007_import_receipt.json"
+}

@@ -1,0 +1,21 @@
+{
+  "cardID": "C050",
+  "imagePath": "../images/C050.png",
+  "imageSHA256": "167a98847afb19d96e93bd11639277f678f1d308b90116520a26baa1248fbe11",
+  "imageReviewed": true,
+  "annotationsPath": "C050_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "north",
+    "south",
+    "east",
+    "west",
+    "earth",
+    "country",
+    "nation",
+    "flag"
+  ],
+  "receiptPath": "C050_import_receipt.json",
+  "photoID": "4170ffdf-954c-43bf-80ec-7a34dc7d1194",
+  "expectedAssetID": "92bdd2f0d9cf7d437e5092f7770726002feb5bec1d3dcb32c97f887101978911"
+}

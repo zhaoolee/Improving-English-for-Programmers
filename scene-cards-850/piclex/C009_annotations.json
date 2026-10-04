@@ -1,0 +1,278 @@
+{
+  "filename": "C009-沙发边的小宠物.png",
+  "labels": [
+    {
+      "x": 254,
+      "y": 650,
+      "english": "dog",
+      "chinese": "狗",
+      "phoneticUS": "/dɑːɡ/",
+      "phoneticUK": "/dɒɡ/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 254,
+        "y": 650
+      },
+      "boundingBox": {
+        "left": 43,
+        "top": 491,
+        "right": 413,
+        "bottom": 777
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框白色小狗可见完整身体。",
+        "association": "框白色小狗可见完整身体。",
+        "collocation": "a small dog; a pet dog",
+        "example": "The dog sits beside the sofa.",
+        "exampleChinese": "狗坐在沙发旁边。"
+      }
+    },
+    {
+      "x": 725,
+      "y": 730,
+      "english": "cat",
+      "chinese": "猫",
+      "phoneticUS": "/kæt/",
+      "phoneticUK": "/kæt/",
+      "bubblePosition": {
+        "x": 910,
+        "y": 490
+      },
+      "anchorPosition": {
+        "x": 725,
+        "y": 730
+      },
+      "boundingBox": {
+        "left": 508,
+        "top": 594,
+        "right": 1000,
+        "bottom": 870
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框灰猫身体，不含主人或小狗。",
+        "association": "框灰猫身体，不含主人或小狗。",
+        "collocation": "a pet cat; a grey cat",
+        "example": "The cat lies on the rug.",
+        "exampleChinese": "猫躺在地毯上。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 850,
+      "english": "tail",
+      "chinese": "尾巴",
+      "phoneticUS": "/teɪl/",
+      "phoneticUK": "/teɪl/",
+      "bubblePosition": {
+        "x": 830,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 740,
+        "y": 850
+      },
+      "boundingBox": {
+        "left": 546,
+        "top": 785,
+        "right": 810,
+        "bottom": 871
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只定位灰猫伸出的尾巴。",
+        "association": "只定位灰猫伸出的尾巴。",
+        "collocation": "a long tail; the cat's tail",
+        "example": "The cat has a long tail.",
+        "exampleChinese": "猫有一条长尾巴。"
+      }
+    },
+    {
+      "x": 228,
+      "y": 634,
+      "english": "animal",
+      "chinese": "动物",
+      "phoneticUS": "/ˈænɪməl/",
+      "phoneticUK": "/ˈænɪməl/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 250
+      },
+      "anchorPosition": {
+        "x": 228,
+        "y": 634
+      },
+      "boundingBox": {
+        "left": 43,
+        "top": 491,
+        "right": 413,
+        "bottom": 777
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。",
+        "association": "狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。",
+        "collocation": "a small animal; a pet animal",
+        "example": "A dog is an animal.",
+        "exampleChinese": "狗是一种动物。"
+      }
+    },
+    {
+      "x": 180,
+      "y": 450,
+      "english": "soft",
+      "chinese": "柔软的",
+      "phoneticUS": "/sɑːft/",
+      "phoneticUK": "/sɒft/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 450
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "毛发外观与原创触感叙述对应，不声称照片可测量触感。",
+        "association": "毛发外观与原创触感叙述对应，不声称照片可测量触感。",
+        "collocation": "soft fur; soft to the touch",
+        "example": "The dog has soft fur.",
+        "exampleChinese": "狗的毛很柔软。"
+      }
+    },
+    {
+      "x": 224,
+      "y": 530,
+      "english": "touch",
+      "chinese": "触摸",
+      "phoneticUS": "/tʌtʃ/",
+      "phoneticUK": "/tʌtʃ/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 560
+      },
+      "anchorPosition": {
+        "x": 224,
+        "y": 530
+      },
+      "boundingBox": {
+        "left": 185,
+        "top": 490,
+        "right": 280,
+        "bottom": 567
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主人手与狗毛接触的真实局部。",
+        "association": "主人手与狗毛接触的真实局部。",
+        "collocation": "touch gently; touch the fur",
+        "example": "I touch the dog gently.",
+        "exampleChinese": "我轻轻摸着狗。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 80,
+      "english": "comfort",
+      "chinese": "慰藉",
+      "phoneticUS": "/ˈkʌmfərt/",
+      "phoneticUK": "/ˈkʌmfət/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "情感名词由原创叙述与例句覆盖，不设框。",
+        "association": "情感名词由原创叙述与例句覆盖，不设框。",
+        "collocation": "bring comfort; find comfort",
+        "example": "My pets bring me comfort.",
+        "exampleChinese": "我的宠物给我带来慰藉。"
+      }
+    },
+    {
+      "x": 754,
+      "y": 732,
+      "english": "rest",
+      "chinese": "休息",
+      "phoneticUS": "/rest/",
+      "phoneticUK": "/rest/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 754,
+        "y": 732
+      },
+      "boundingBox": {
+        "left": 508,
+        "top": 594,
+        "right": 1000,
+        "bottom": 870
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (intransitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。",
+        "association": "猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。",
+        "collocation": "rest quietly; rest beside me",
+        "example": "The cat likes to rest beside me.",
+        "exampleChinese": "猫喜欢在我旁边休息。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I touch the soft dog while the cat rests beside us.",
+    "chinese": "猫在我们旁边休息时，我轻轻摸着柔软的小狗。",
+    "source": "原创配文 · C009 沙发边的小宠物",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

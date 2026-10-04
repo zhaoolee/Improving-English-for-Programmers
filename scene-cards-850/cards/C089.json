@@ -1,0 +1,414 @@
+{
+  "id": "C089",
+  "chapter": "工具与科学",
+  "title": "理解原因与结果",
+  "scene": "双幅展示风吹纸模型后倒下，通过箭头解释因果、力和作用。",
+  "target_count": 9,
+  "primary_words": [
+    "cause",
+    "effect",
+    "reason",
+    "force",
+    "blow",
+    "burst",
+    "crush",
+    "damage",
+    "smash"
+  ],
+  "targets": [
+    {
+      "word_id": "W119",
+      "word": "cause",
+      "aliases": [],
+      "source_zh_unreviewed": "原因；导致",
+      "planned_mode": "context",
+      "sense_zh": "原因",
+      "pos": "noun",
+      "ipa_us": "/kɔːz/",
+      "ipa_uk": "/kɔːz/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅风扇与纸屋关系，故事明示风为倒塌原因。",
+        "sentence": "The wind is the cause of the model falling in our story.",
+        "matched_form": "cause",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The wind is the cause of the model falling in our story.",
+      "example_zh": "故事中，风是模型倒下的原因。",
+      "bbox_normalized": [
+        0.453,
+        0.224,
+        0.956,
+        0.466
+      ],
+      "collocations": [
+        "the cause of",
+        "a direct cause"
+      ],
+      "example_en_highlighted": "The wind is the **cause** of the model falling in our story.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（原因），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W228",
+      "word": "effect",
+      "aliases": [],
+      "source_zh_unreviewed": "影响；效果",
+      "planned_mode": "context",
+      "sense_zh": "结果",
+      "pos": "noun",
+      "ipa_us": "/ɪˈfekt/",
+      "ipa_uk": "/ɪˈfekt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅倒塌纸模型，故事明示风造成的结果。",
+        "sentence": "The fallen model shows the effect of the wind in the story.",
+        "matched_form": "effect",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The fallen model shows the effect of the wind in the story.",
+      "example_zh": "倒下的模型展示了故事中风造成的结果。",
+      "bbox_normalized": [
+        0.706,
+        0.852,
+        0.952,
+        0.957
+      ],
+      "collocations": [
+        "the effect of",
+        "cause and effect"
+      ],
+      "example_en_highlighted": "The fallen model shows the **effect** of the wind in the story.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（结果），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W582",
+      "word": "reason",
+      "aliases": [],
+      "source_zh_unreviewed": "理由；原因",
+      "planned_mode": "context",
+      "sense_zh": "理由",
+      "pos": "noun",
+      "ipa_us": "/ˈriːzən/",
+      "ipa_uk": "/ˈriːzən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We explain the reason for using a light paper model.",
+        "matched_form": "reason",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We explain the reason for using a light paper model.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We explain the reason for using a light paper model.",
+      "example_zh": "我们解释使用轻纸模型的理由。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a clear reason",
+        "the reason for"
+      ],
+      "example_en_highlighted": "We explain the **reason** for using a light paper model.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We explain the reason for using a light paper model.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W283",
+      "word": "force",
+      "aliases": [],
+      "source_zh_unreviewed": "力量；力",
+      "planned_mode": "context",
+      "sense_zh": "力",
+      "pos": "noun",
+      "ipa_us": "/fɔːrs/",
+      "ipa_uk": "/fɔːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The moving air exerts force on the paper.",
+        "matched_form": "force",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The moving air exerts force on the paper.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The moving air exerts force on the paper.",
+      "example_zh": "流动的空气对纸施加力。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the force of",
+        "a gentle force"
+      ],
+      "example_en_highlighted": "The moving air exerts **force** on the paper.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The moving air exerts force on the paper.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W076",
+      "word": "blow",
+      "aliases": [],
+      "source_zh_unreviewed": "吹",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "吹",
+      "pos": "verb",
+      "ipa_us": "/bloʊ/",
+      "ipa_uk": "/bləʊ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "风扇指向纸屋，飘动纸条和故事表达吹风。",
+        "sentence": "The fan makes air blow toward the paper house.",
+        "matched_form": "blow",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The fan makes air blow toward the paper house.",
+      "example_zh": "风扇让空气朝纸房子吹去。",
+      "bbox_normalized": [
+        0.462,
+        0.226,
+        0.953,
+        0.466
+      ],
+      "collocations": [
+        "blow toward",
+        "blow gently"
+      ],
+      "example_en_highlighted": "The fan makes air **blow** toward the paper house.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（吹），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W105",
+      "word": "burst",
+      "aliases": [],
+      "source_zh_unreviewed": "爆炸",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "爆裂",
+      "pos": "verb",
+      "ipa_us": "/bɝːst/",
+      "ipa_uk": "/bɜːst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "An overfilled balloon can burst; this model is made of paper.",
+        "matched_form": "burst",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：An overfilled balloon can burst; this model is made of paper.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "An overfilled balloon can burst; this model is made of paper.",
+      "example_zh": "充气过多的气球可能爆裂；这个模型是纸做的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "burst suddenly",
+        "a balloon can burst"
+      ],
+      "example_en_highlighted": "An overfilled balloon can **burst**; this model is made of paper.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：An overfilled balloon can burst; this model is made of paper.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W171",
+      "word": "crush",
+      "aliases": [],
+      "source_zh_unreviewed": "压碎",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "压坏",
+      "pos": "verb",
+      "ipa_us": "/krʌʃ/",
+      "ipa_uk": "/krʌʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Too much pressure can crush a paper model.",
+        "matched_form": "crush",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Too much pressure can crush a paper model.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Too much pressure can crush a paper model.",
+      "example_zh": "过大的压力会压坏纸模型。",
+      "bbox_normalized": null,
+      "collocations": [
+        "crush a model",
+        "crush under pressure"
+      ],
+      "example_en_highlighted": "Too much pressure can **crush** a paper model.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Too much pressure can crush a paper model.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W179",
+      "word": "damage",
+      "aliases": [],
+      "source_zh_unreviewed": "损害；破坏",
+      "planned_mode": "context",
+      "sense_zh": "损坏",
+      "pos": "noun",
+      "ipa_us": "/ˈdæmɪdʒ/",
+      "ipa_uk": "/ˈdæmɪdʒ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅纸房子变形破坏的可见结果。",
+        "sentence": "The lower panel shows damage to the paper house.",
+        "matched_form": "damage",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The lower panel shows damage to the paper house.",
+      "example_zh": "下方画面展示纸房子受到的损坏。",
+      "bbox_normalized": [
+        0.706,
+        0.852,
+        0.952,
+        0.957
+      ],
+      "collocations": [
+        "visible damage",
+        "damage to"
+      ],
+      "example_en_highlighted": "The lower panel shows **damage** to the paper house.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（损坏），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W667",
+      "word": "smash",
+      "aliases": [],
+      "source_zh_unreviewed": "猛击",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "砸碎",
+      "pos": "verb",
+      "ipa_us": "/smæʃ/",
+      "ipa_uk": "/smæʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A hard impact can smash a cup; we use paper for this demonstration.",
+        "matched_form": "smash",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A hard impact can smash a cup; we use paper for this demonstration.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A hard impact can smash a cup; we use paper for this demonstration.",
+      "example_zh": "猛烈撞击可能砸碎杯子；我们用纸做这次演示。",
+      "bbox_normalized": null,
+      "collocations": [
+        "smash a cup",
+        "smash into pieces"
+      ],
+      "example_en_highlighted": "A hard impact can **smash** a cup; we use paper for this demonstration.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A hard impact can smash a cup; we use paper for this demonstration.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A small fan blows toward a paper house; the second scene shows the damage.",
+    "zh": "小风扇向纸房子吹风；第二个场景展示它受到的损坏。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C089\n标题 理解原因与结果\n场景 双幅展示风吹纸模型后倒下，通过箭头解释因果、力和作用。\n目标词 cause, effect, reason, force, blow, burst, crush, damage, smash\n原创主配文草案 A strong force can cause damage.\n中文草案 强大的力可能造成损坏。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Exactly two vertically stacked photographic panels, same adult woman and safe tabletop wind demonstration. Upper panel small desktop fan facing an intact lightweight paper house, paper edges visibly leaning with airflow, adult woman observing left. Lower panel same fan switched off, same paper house crumpled and partly flattened on table, woman observing rather than touching blades. No actual disaster, no text, clear before and after, cool Korean editorial portrait, realistic paper and hands.",
+  "status": "approved",
+  "image_path": "images/C089.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C089 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:04:32 UTC",
+    "prompt_path": "prompts/C089_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C089.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅风扇吹向纸房子，纸条飘动；下幅房子塌成纸团。因果由成对画面和教学故事说明，burst/crush/smash不冒充看见动作。"
+  }
+}

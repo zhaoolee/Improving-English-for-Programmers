@@ -1,0 +1,285 @@
+C078  提交申请等回复
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C078.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C078.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:44:04 UTC
+  提示词文件: prompts/C078_image_final.txt
+
+场景: 主角提交申请，窗口给出批准与条件，再呈现可能和不确定的结果。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 提交纸张动作与服务窗口清楚，本卡九个抽象/功能词全部只用句子；不把递交行为当批准成功。
+
+主配文:
+  英文: I hand in my application and ask what condition must be met for approval.
+  中文: 我提交申请，询问获得批准需要满足什么条件。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): approval, condition, possible, probable, doubt, seem, may, will, certain
+
+------------------------------------------------------------------------
+[1/9] approval  (W030)
+  词义: 批准
+  词性: noun
+  音标: UK /əˈpruːvəl/ | US /əˈpruːvəl/
+  搭配: ask for approval; receive approval
+  例句: I wait for approval of my application.
+  例句高亮: I wait for **approval** of my application.
+  例句中文: 我等待申请获批。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I wait for approval of my application.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I wait for approval of my application."
+    matched_form: "approval"
+    context: "由原创例句给出的语境：I wait for approval of my application.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 批准；认可
+
+------------------------------------------------------------------------
+[2/9] condition  (W153)
+  词义: 条件
+  词性: noun
+  音标: UK /kənˈdɪʃən/ | US /kənˈdɪʃən/
+  搭配: meet a condition; a condition for
+  例句: One condition is that I provide the missing document.
+  例句高亮: One **condition** is that I provide the missing document.
+  例句中文: 一个条件是我补交缺少的文件。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：One condition is that I provide the missing document.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "One condition is that I provide the missing document."
+    matched_form: "condition"
+    context: "由原创例句给出的语境：One condition is that I provide the missing document.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 条件
+
+------------------------------------------------------------------------
+[3/9] possible  (W544)
+  词义: 可能的
+  词性: adjective
+  音标: UK /ˈpɒsəbəl/ | US /ˈpɑːsəbəl/
+  搭配: be possible; a possible result
+  例句: An answer today is possible.
+  例句高亮: An answer today is **possible**.
+  例句中文: 今天得到答复是可能的。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：An answer today is possible.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "An answer today is possible."
+    matched_form: "possible"
+    context: "由原创例句给出的语境：An answer today is possible.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 可能的；可能性
+
+------------------------------------------------------------------------
+[4/9] probable  (W554)
+  词义: 很可能的
+  词性: adjective
+  音标: UK /ˈprɒbəbəl/ | US /ˈprɑːbəbəl/
+  搭配: a probable result; seem probable
+  例句: A reply tomorrow is more probable.
+  例句高亮: A reply tomorrow is more **probable**.
+  例句中文: 更可能的是明天得到答复。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A reply tomorrow is more probable.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A reply tomorrow is more probable."
+    matched_form: "probable"
+    context: "由原创例句给出的语境：A reply tomorrow is more probable.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 可能的；很可能发生的
+
+------------------------------------------------------------------------
+[5/9] doubt  (W212)
+  词义: 疑虑
+  词性: noun
+  音标: UK /daʊt/ | US /daʊt/
+  搭配: have a doubt; in doubt
+  例句: I have a doubt about one detail.
+  例句高亮: I have a **doubt** about one detail.
+  例句中文: 我对一个细节有疑虑。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I have a doubt about one detail.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I have a doubt about one detail."
+    matched_form: "doubt"
+    context: "由原创例句给出的语境：I have a doubt about one detail.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 怀疑
+
+------------------------------------------------------------------------
+[6/9] seem  (W631)
+  词义: 似乎
+  词性: verb
+  音标: UK /siːm/ | US /siːm/
+  搭配: seem clear; seem possible
+  例句: The condition seems clear after the explanation.
+  例句高亮: The condition **seems** clear after the explanation.
+  例句中文: 解释之后，这个条件似乎清楚了。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The condition seems clear after the explanation.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The condition seems clear after the explanation."
+    matched_form: "seems"
+    context: "由原创例句给出的语境：The condition seems clear after the explanation.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 似乎
+
+------------------------------------------------------------------------
+[7/9] may  (W432)
+  词义: 可能
+  词性: modal verb
+  音标: UK /meɪ/ | US /meɪ/
+  搭配: may arrive; may be
+  例句: The reply may arrive tomorrow.
+  例句高亮: The reply **may** arrive tomorrow.
+  例句中文: 答复可能明天到。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The reply may arrive tomorrow.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The reply may arrive tomorrow."
+    matched_form: "may"
+    context: "由原创例句给出的语境：The reply may arrive tomorrow.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 可能；也许
+
+------------------------------------------------------------------------
+[8/9] will  (W827)
+  词义: 将会
+  词性: modal verb
+  音标: UK /wɪl/ | US /wɪl/
+  搭配: will reply; will check
+  例句: I will check for a reply tomorrow.
+  例句高亮: I **will** check for a reply tomorrow.
+  例句中文: 我明天会查看有没有答复。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I will check for a reply tomorrow.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I will check for a reply tomorrow."
+    matched_form: "will"
+    context: "由原创例句给出的语境：I will check for a reply tomorrow.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 将会
+
+------------------------------------------------------------------------
+[9/9] certain  (W120)
+  词义: 确定的
+  词性: adjective
+  音标: UK /ˈsɜːtən/ | US /ˈsɝːtən/
+  搭配: be certain; a certain result
+  例句: The date is not certain yet.
+  例句高亮: The date is not **certain** yet.
+  例句中文: 日期还不确定。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The date is not certain yet.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The date is not certain yet."
+    matched_form: "certain"
+    context: "由原创例句给出的语境：The date is not certain yet.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 确定的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 9
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C078 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Calm cool modern service window, adult woman handing one plain paper form to seated adult female clerk. Two visible paper sheets and simple plain tray, normal hand exchange, respectful expressions, no readable official text, stamp words or false approval symbols. Soft pearl/slate styling, edges for nine story labels.

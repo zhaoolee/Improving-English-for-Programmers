@@ -1,0 +1,20 @@
+{
+  "cardID": "C018",
+  "imagePath": "../images/C018.png",
+  "imageSHA256": "2c65cceff76d4ec6c110a7bf8bae43cd723e02493617ccb06f286d29f84d8956",
+  "imageReviewed": true,
+  "annotationsPath": "C018_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "bottle",
+    "cork",
+    "wine",
+    "glass",
+    "liquid",
+    "full",
+    "little",
+    "much",
+    "of"
+  ],
+  "receiptPath": "C018_import_receipt.json"
+}

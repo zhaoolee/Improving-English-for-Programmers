@@ -1,0 +1,297 @@
+{
+  "filename": "C070-安排学习进度.png",
+  "labels": [
+    {
+      "x": 305,
+      "y": 413,
+      "english": "list",
+      "chinese": "清单",
+      "phoneticUS": "/lɪst/",
+      "phoneticUK": "/lɪst/",
+      "bubblePosition": {
+        "x": 115,
+        "y": 430
+      },
+      "anchorPosition": {
+        "x": 305,
+        "y": 413
+      },
+      "boundingBox": {
+        "left": 195,
+        "top": 309,
+        "right": 415,
+        "bottom": 517
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（清单），待最终图确认。",
+        "association": "场景中体现的具体对象（清单），待最终图确认。",
+        "collocation": "a short list; make a list",
+        "example": "My list has three tasks.",
+        "exampleChinese": "我的清单有三项任务。"
+      }
+    },
+    {
+      "x": 630,
+      "y": 502,
+      "english": "order",
+      "chinese": "次序",
+      "phoneticUS": "/ˈɔːrdɚ/",
+      "phoneticUK": "/ˈɔːdə/",
+      "bubblePosition": {
+        "x": 890,
+        "y": 530
+      },
+      "anchorPosition": {
+        "x": 630,
+        "y": 502
+      },
+      "boundingBox": {
+        "left": 458,
+        "top": 439,
+        "right": 803,
+        "bottom": 565
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（次序），待最终图确认。",
+        "association": "场景中体现的关系（次序），待最终图确认。",
+        "collocation": "in order; put in order",
+        "example": "I put the books in order.",
+        "exampleChinese": "我把书按次序摆好。"
+      }
+    },
+    {
+      "x": 147,
+      "y": 733,
+      "english": "first",
+      "chinese": "第一的",
+      "phoneticUS": "/fɝːst/",
+      "phoneticUK": "/fɜːst/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 710
+      },
+      "anchorPosition": {
+        "x": 147,
+        "y": 733
+      },
+      "boundingBox": {
+        "left": 124,
+        "top": 716,
+        "right": 170,
+        "bottom": 750
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（第一的），待最终图确认。",
+        "association": "场景中体现的关系（第一的），待最终图确认。",
+        "collocation": "the first task; the first step",
+        "example": "The first box has a check mark.",
+        "exampleChinese": "第一个方框里有一个勾。"
+      }
+    },
+    {
+      "x": 142,
+      "y": 784,
+      "english": "second",
+      "chinese": "第二的",
+      "phoneticUS": "/ˈsekənd/",
+      "phoneticUK": "/ˈsekənd/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 835
+      },
+      "anchorPosition": {
+        "x": 142,
+        "y": 784
+      },
+      "boundingBox": {
+        "left": 122,
+        "top": 769,
+        "right": 162,
+        "bottom": 800
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（第二的），待最终图确认。",
+        "association": "场景中体现的关系（第二的），待最终图确认。",
+        "collocation": "the second task; the second step",
+        "example": "The second box is still empty.",
+        "exampleChinese": "第二个方框还是空的。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 75,
+      "english": "step",
+      "chinese": "步骤",
+      "phoneticUS": "/step/",
+      "phoneticUK": "/step/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The next step is to sort the pencils.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The next step is to sort the pencils.；不声称该状态/含义本身在画面可见。",
+        "collocation": "the next step; a first step",
+        "example": "The next step is to sort the pencils.",
+        "exampleChinese": "下一步是给铅笔分类。"
+      }
+    },
+    {
+      "x": 125,
+      "y": 75,
+      "english": "complete",
+      "chinese": "完成的",
+      "phoneticUS": "/kəmˈpliːt/",
+      "phoneticUK": "/kəmˈpliːt/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The first task is complete.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The first task is complete.；不声称该状态/含义本身在画面可见。",
+        "collocation": "be complete; a complete task",
+        "example": "The first task is complete.",
+        "exampleChinese": "第一项任务已经完成。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 225,
+      "english": "regular",
+      "chinese": "定期的",
+      "phoneticUS": "/ˈreɡjələr/",
+      "phoneticUK": "/ˈreɡjələ/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 225
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Regular practice is part of my plan.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Regular practice is part of my plan.；不声称该状态/含义本身在画面可见。",
+        "collocation": "regular practice; a regular routine",
+        "example": "Regular practice is part of my plan.",
+        "exampleChinese": "定期练习是我计划的一部分。"
+      }
+    },
+    {
+      "x": 845,
+      "y": 950,
+      "english": "frequent",
+      "chinese": "频繁的",
+      "phoneticUS": "/ˈfriːkwənt/",
+      "phoneticUK": "/ˈfriːkwənt/",
+      "bubblePosition": {
+        "x": 845,
+        "y": 950
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I take frequent breaks while studying.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I take frequent breaks while studying.；不声称该状态/含义本身在画面可见。",
+        "collocation": "frequent breaks; frequent practice",
+        "example": "I take frequent breaks while studying.",
+        "exampleChinese": "学习时，我经常休息一下。"
+      }
+    },
+    {
+      "x": 803,
+      "y": 802,
+      "english": "sort",
+      "chinese": "分类整理",
+      "phoneticUS": "/sɔːrt/",
+      "phoneticUK": "/sɔːt/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 785
+      },
+      "anchorPosition": {
+        "x": 803,
+        "y": 802
+      },
+      "boundingBox": {
+        "left": 683,
+        "top": 666,
+        "right": 923,
+        "bottom": 938
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（分类整理），待最终图确认。",
+        "association": "场景中体现的具体动作（分类整理），待最终图确认。",
+        "collocation": "sort into groups; sort the pencils",
+        "example": "I sort the stationery into two trays.",
+        "exampleChinese": "我把文具分类放入两个小托盘。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I put my books in order; the first step is complete, and the second comes next.",
+    "chinese": "我把书整理好；第一步已经完成，接下来是第二步。",
+    "source": "原创配文 · C070 安排学习进度",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

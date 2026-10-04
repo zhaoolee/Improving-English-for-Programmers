@@ -1,0 +1,476 @@
+{
+  "id": "C081",
+  "chapter": "工具与科学",
+  "title": "修理一把木椅",
+  "scene": "工作台上修木椅，锤、钉、螺丝、钢件铁件清晰，零件拆开放。",
+  "target_count": 10,
+  "primary_words": [
+    "wood",
+    "hammer",
+    "nail",
+    "screw",
+    "metal",
+    "iron",
+    "steel",
+    "part",
+    "crack",
+    "polish"
+  ],
+  "targets": [
+    {
+      "word_id": "W837",
+      "word": "wood",
+      "aliases": [],
+      "source_zh_unreviewed": "木头",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "木材",
+      "pos": "noun",
+      "ipa_us": "/wʊd/",
+      "ipa_uk": "/wʊd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "木椅座面的木纹。",
+        "sentence": "The chair is made of wood.",
+        "matched_form": "wood",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The chair is made of wood.",
+      "example_zh": "这把椅子用木材制成。",
+      "bbox_normalized": [
+        0.491,
+        0.544,
+        0.997,
+        0.68
+      ],
+      "collocations": [
+        "smooth wood",
+        "a piece of wood"
+      ],
+      "example_en_highlighted": "The chair is made of **wood**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（木材），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W320",
+      "word": "hammer",
+      "aliases": [],
+      "source_zh_unreviewed": "锤子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "锤子",
+      "pos": "noun",
+      "ipa_us": "/ˈhæmɚ/",
+      "ipa_uk": "/ˈhæmə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景独立木柄锤子。",
+        "sentence": "The hammer rests beside the chair.",
+        "matched_form": "hammer",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The hammer rests beside the chair.",
+      "example_zh": "锤子放在椅子旁。",
+      "bbox_normalized": [
+        0.005,
+        0.735,
+        0.383,
+        0.857
+      ],
+      "collocations": [
+        "a wooden-handled hammer",
+        "use a hammer"
+      ],
+      "example_en_highlighted": "The **hammer** rests beside the chair.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（锤子），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W461",
+      "word": "nail",
+      "aliases": [],
+      "source_zh_unreviewed": "钉子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "钉子",
+      "pos": "noun",
+      "ipa_us": "/neɪl/",
+      "ipa_uk": "/neɪl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "一根直钉，非旁边螺丝。",
+        "sentence": "A nail lies beside the screw.",
+        "matched_form": "nail",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A nail lies beside the screw.",
+      "example_zh": "钉子放在螺丝旁。",
+      "bbox_normalized": [
+        0.293,
+        0.868,
+        0.437,
+        0.92
+      ],
+      "collocations": [
+        "a long nail",
+        "a metal nail"
+      ],
+      "example_en_highlighted": "A **nail** lies beside the screw.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（钉子），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W623",
+      "word": "screw",
+      "aliases": [],
+      "source_zh_unreviewed": "螺丝钉",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "螺丝",
+      "pos": "noun",
+      "ipa_us": "/skruː/",
+      "ipa_uk": "/skruː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "独立带螺纹螺丝。",
+        "sentence": "The screw has a visible thread.",
+        "matched_form": "screw",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The screw has a visible thread.",
+      "example_zh": "这颗螺丝有可见的螺纹。",
+      "bbox_normalized": [
+        0.396,
+        0.864,
+        0.472,
+        0.899
+      ],
+      "collocations": [
+        "a threaded screw",
+        "tighten a screw"
+      ],
+      "example_en_highlighted": "The **screw** has a visible thread.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（螺丝），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W439",
+      "word": "metal",
+      "aliases": [],
+      "source_zh_unreviewed": "金属",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "金属",
+      "pos": "noun",
+      "ipa_us": "/ˈmetəl/",
+      "ipa_uk": "/ˈmetəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "底部金属铰链，反光及形态清楚。",
+        "sentence": "The hinge is made of metal.",
+        "matched_form": "metal",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The hinge is made of metal.",
+      "example_zh": "这个铰链由金属制成。",
+      "bbox_normalized": [
+        0.519,
+        0.943,
+        0.652,
+        0.998
+      ],
+      "collocations": [
+        "a metal hinge",
+        "made of metal"
+      ],
+      "example_en_highlighted": "The hinge is made of **metal**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（金属），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W367",
+      "word": "iron",
+      "aliases": [],
+      "source_zh_unreviewed": "铁",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "铁",
+      "pos": "noun",
+      "ipa_us": "/ˈaɪɚn/",
+      "ipa_uk": "/ˈaɪən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "深色折角支架，铁成分由教学故事指定。",
+        "sentence": "In this lesson, the dark bracket is made of iron.",
+        "matched_form": "iron",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "In this lesson, the dark bracket is made of iron.",
+      "example_zh": "本课设定中，深色支架由铁制成。",
+      "bbox_normalized": [
+        0.102,
+        0.817,
+        0.266,
+        0.947
+      ],
+      "collocations": [
+        "an iron bracket",
+        "a piece of iron"
+      ],
+      "example_en_highlighted": "In this lesson, the dark bracket is made of **iron**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（铁），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W702",
+      "word": "steel",
+      "aliases": [],
+      "source_zh_unreviewed": "钢铁",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "钢",
+      "pos": "noun",
+      "ipa_us": "/stiːl/",
+      "ipa_uk": "/stiːl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "亮色折角钢板样品，钢成分由故事指定。",
+        "sentence": "The shiny plate is the steel sample in our lesson.",
+        "matched_form": "steel",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The shiny plate is the steel sample in our lesson.",
+      "example_zh": "亮亮的板是本课中的钢样品。",
+      "bbox_normalized": [
+        0.635,
+        0.875,
+        0.835,
+        0.946
+      ],
+      "collocations": [
+        "a steel plate",
+        "stainless steel"
+      ],
+      "example_en_highlighted": "The shiny plate is the **steel** sample in our lesson.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（钢），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W515",
+      "word": "part",
+      "aliases": [],
+      "source_zh_unreviewed": "部分；零件",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "零件",
+      "pos": "noun",
+      "ipa_us": "/pɑːrt/",
+      "ipa_uk": "/pɑːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "铰链是椅子零件，身份由例句明示。",
+        "sentence": "The hinge is one small part of the chair.",
+        "matched_form": "part",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The hinge is one small part of the chair.",
+      "example_zh": "这个铰链是椅子的一个小零件。",
+      "bbox_normalized": [
+        0.519,
+        0.943,
+        0.652,
+        0.998
+      ],
+      "collocations": [
+        "a spare part",
+        "a small part"
+      ],
+      "example_en_highlighted": "The hinge is one small **part** of the chair.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（零件），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W167",
+      "word": "crack",
+      "aliases": [],
+      "source_zh_unreviewed": "裂缝；破裂声",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "裂纹",
+      "pos": "noun",
+      "ipa_us": "/kræk/",
+      "ipa_uk": "/kræk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "木座面可见短裂纹。",
+        "sentence": "I notice a small crack in the seat.",
+        "matched_form": "crack",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I notice a small crack in the seat.",
+      "example_zh": "我注意到椅面上有一条小裂纹。",
+      "bbox_normalized": [
+        0.692,
+        0.602,
+        0.88,
+        0.65
+      ],
+      "collocations": [
+        "a small crack",
+        "a crack in"
+      ],
+      "example_en_highlighted": "I notice a small **crack** in the seat.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（裂纹），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W539",
+      "word": "polish",
+      "aliases": [],
+      "source_zh_unreviewed": "擦亮；抛光",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "擦亮",
+      "pos": "verb",
+      "ipa_us": "/ˈpɑːlɪʃ/",
+      "ipa_uk": "/ˈpɒlɪʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "手握布擦拭木座面动作。",
+        "sentence": "I polish the wood with a cloth.",
+        "matched_form": "polish",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I polish the wood with a cloth.",
+      "example_zh": "我用布擦亮木头。",
+      "bbox_normalized": [
+        0.207,
+        0.468,
+        0.578,
+        0.687
+      ],
+      "collocations": [
+        "polish wood",
+        "polish with a cloth"
+      ],
+      "example_en_highlighted": "I **polish** the wood with a cloth.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（擦亮），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I mend a wooden chair, choose the right part, and polish the smooth wood.",
+    "zh": "我修理一把木椅，选好合适的零件，并擦亮平滑的木头。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C081\n标题 修理一把木椅\n场景 工作台上修木椅，锤、钉、螺丝、钢件铁件清晰，零件拆开放。\n目标词 wood, hammer, nail, screw, metal, iron, steel, part, crack, polish\n原创主配文草案 I use a hammer and a nail to fix the wood.\n中文草案 我用锤子和钉子把木头固定好。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at tidy workshop restoring small wooden chair. Clear wooden seat with one short hairline crack, separate hammer with wooden handle, one long plain nail and one threaded screw close foreground, dark plain iron bracket left and shiny stainless-steel plate right clearly separate; small metal hinge, cloth rubbing wood. Modest cool Korean editorial work portrait, natural hands, no text brands or hazardous powered tools.",
+  "status": "approved",
+  "image_path": "images/C081.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 10,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C081 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:00:55 UTC",
+    "prompt_path": "prompts/C081_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C081.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "锤钉螺丝铰链两金属件独立，椅面裂纹清楚，擦木动作可信。"
+  }
+}

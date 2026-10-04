@@ -1,0 +1,306 @@
+C019  老式茶室礼貌点单
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C019.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C019.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T22:54:39Z → 2026-10-02T22:57:56Z
+  提示词文件: prompts/C019_image_final.txt
+
+场景: 原创历史茶室中服务人员按旧式称呼解释 servant；客人与服务人员对话点单，明确 yes 与 no 的答复。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 两位成年女性的庄园茶室历史服装、递茶托盘、面包与汤清晰；历史仆人身份仅由虚构1890庄园设定说明。礼貌、需求、选择及yes/no均以明确原创对话支持，不从外貌/表情认定。11词均为无框语境标签。
+
+主配文:
+  英文: “Soup, please.” “Tea?” “Yes, please, but no sugar.”
+  中文: “请给我汤。”“要茶吗？”“好的，请来一杯，但不要糖。”
+  类型: original | 来源: None | 状态: final
+
+目标词 (11): please, request, offer, need, desire, selection, or, some, no, yes, servant
+
+------------------------------------------------------------------------
+[1/11] please  (W533)
+  词义: 请
+  词性: adverb
+  音标: UK /pliːz/ | US /pliːz/
+  搭配: yes, please
+  例句: Soup, please.
+  例句高亮: Soup, **please**.
+  例句中文: 请给我汤。
+  标注模式: context
+  标注说明: 点单对话中礼貌表达
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Soup, please."
+    matched_form: "please"
+    context: "点单对话中礼貌表达"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 请；使高兴
+------------------------------------------------------------------------
+[2/11] request  (W591)
+  词义: 请求
+  词性: noun
+  音标: UK /rɪˈkwest/ | US /rɪˈkwest/
+  搭配: a polite request
+  例句: My request is for a bowl of soup.
+  例句高亮: My **request** is for a bowl of soup.
+  例句中文: 我请求来一碗汤。
+  标注模式: context
+  标注说明: 名词请求，原创对话明确内容
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "My request is for a bowl of soup."
+    matched_form: "request"
+    context: "名词请求，原创对话明确内容"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 请求；要求
+------------------------------------------------------------------------
+[3/11] offer  (W489)
+  词义: 主动提供
+  词性: verb
+  音标: UK /ˈɒfə/ | US /ˈɔːfər/
+  搭配: offer tea
+  例句: I offer the guest a cup of tea.
+  例句高亮: I **offer** the guest a cup of tea.
+  例句中文: 我主动给客人提供一杯茶。
+  标注模式: action
+  标注说明: 服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。
+  坐标(normalized): [0.462, 0.436, 0.782, 0.562]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。"
+    sentence: "I offer the guest a cup of tea."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 提供；提议
+------------------------------------------------------------------------
+[4/11] need  (W469)
+  词义: 需要
+  词性: verb
+  音标: UK /niːd/ | US /niːd/
+  搭配: need a spoon
+  例句: I need a spoon for the soup.
+  例句高亮: I **need** a spoon for the soup.
+  例句中文: 我需要一把勺子喝汤。
+  标注模式: context
+  标注说明: 需要由话语说明
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I need a spoon for the soup."
+    matched_form: "need"
+    context: "需要由话语说明"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 需要
+------------------------------------------------------------------------
+[5/11] desire  (W194)
+  词义: 渴望
+  词性: noun
+  音标: UK /dɪˈzaɪə/ | US /dɪˈzaɪər/
+  搭配: a desire for tea
+  例句: I have a desire for a quiet cup of tea.
+  例句高亮: I have a **desire** for a quiet cup of tea.
+  例句中文: 我想安静地喝杯茶。
+  标注模式: context
+  标注说明: 采用名词愿望，不由表情推断
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I have a desire for a quiet cup of tea."
+    matched_form: "desire"
+    context: "采用名词愿望，不由表情推断"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 欲望
+------------------------------------------------------------------------
+[6/11] selection  (W632)
+  词义: 选择范围
+  词性: noun
+  音标: UK /səˈlekʃən/ | US /səˈlekʃən/
+  搭配: a selection of food
+  例句: The selection includes bread and soup.
+  例句高亮: The **selection** includes bread and soup.
+  例句中文: 可选食物包括面包和汤。
+  标注模式: object
+  标注说明: 桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。
+  坐标(normalized): [0.006, 0.69, 0.829, 0.85]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。"
+    sentence: "The selection includes bread and soup."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 选择
+------------------------------------------------------------------------
+[7/11] or  (W499)
+  词义: 或者
+  词性: conjunction
+  音标: UK /ɔː/ | US /ɔːr/
+  搭配: bread or soup
+  例句: Would you like bread or soup?
+  例句高亮: Would you like bread **or** soup?
+  例句中文: 你想要面包还是汤？
+  标注模式: context
+  标注说明: 并列连词说明两种选择
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Would you like bread or soup?"
+    matched_form: "or"
+    context: "并列连词说明两种选择"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 或者
+------------------------------------------------------------------------
+[8/11] some  (W681)
+  词义: 一些
+  词性: determiner
+  音标: UK /sʌm/ | US /sʌm/
+  搭配: some bread
+  例句: I would like some bread.
+  例句高亮: I would like **some** bread.
+  例句中文: 我想要一些面包。
+  标注模式: context
+  标注说明: 限定词修饰不可数bread
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I would like some bread."
+    matched_form: "some"
+    context: "限定词修饰不可数bread"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 一些
+------------------------------------------------------------------------
+[9/11] no  (W476)
+  词义: 不；不要
+  词性: interjection
+  音标: UK /nəʊ/ | US /noʊ/
+  搭配: no, thank you
+  例句: No, thank you. I do not want sugar.
+  例句高亮: **No**, thank you. I do not want sugar.
+  例句中文: 不用了，谢谢。我不想加糖。
+  标注模式: context
+  标注说明: 明确否定答复，不能由表情判断
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "No, thank you. I do not want sugar."
+    matched_form: "no"
+    context: "明确否定答复，不能由表情判断"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 不
+------------------------------------------------------------------------
+[10/11] yes  (W847)
+  词义: 是；好的
+  词性: interjection
+  音标: UK /jes/ | US /jes/
+  搭配: yes, please
+  例句: Yes, please. I would like tea.
+  例句高亮: **Yes**, please. I would like tea.
+  例句中文: 好的，请给我茶。
+  标注模式: context
+  标注说明: 明确肯定答复，不能由表情判断
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Yes, please. I would like tea."
+    matched_form: "yes"
+    context: "明确肯定答复，不能由表情判断"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 是的
+------------------------------------------------------------------------
+[11/11] servant  (W638)
+  词义: 仆人（历史称呼）
+  词性: noun
+  音标: UK /ˈsɜːvənt/ | US /ˈsɜːrvənt/
+  搭配: a household servant
+  例句: In this fictional old manor, a servant brings tea.
+  例句高亮: In this fictional old manor, a **servant** brings tea.
+  例句中文: 在这座虚构的旧式庄园里，一位仆人端来茶。
+  标注模式: object
+  标注说明: 右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。
+  坐标(normalized): [0.569, 0.052, 0.978, 0.7]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。"
+    sentence: "In this fictional old manor, a servant brings tea."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 仆人
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 11
+  content_entries_complete: 11
+  sentence_evidence_complete: 11
+  verified_targets: 11
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 11
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C019 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=20 | meta.approved_cards=20
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Fictional 1890 manor-house tea room, original historical scene, no real venue. Two adult East Asian women: young female guest at left in understated pearl-grey period dress seated at table; HOUSEHOLD SERVANT at right in modest historical slate dress and simple white apron, offering small tray with one white teacup, dignified everyday interaction. Table foreground includes bread plate at left and soup bowl center-right. Cool soft window light, pale elegant wooden interior, period costumes subtly tailored and realistic; NOT a modern café waitress. Faces and hands readable, calm negative space at top and bottom for 11 annotations.

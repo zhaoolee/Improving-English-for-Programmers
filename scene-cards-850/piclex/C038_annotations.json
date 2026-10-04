@@ -1,0 +1,286 @@
+{
+  "filename": "C038-酒店入住与位置.png",
+  "labels": [
+    {
+      "x": 150,
+      "y": 710,
+      "english": "place",
+      "chinese": "地方",
+      "phoneticUS": "/pleɪs/",
+      "phoneticUK": "/pleɪs/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 905
+      },
+      "anchorPosition": {
+        "x": 150,
+        "y": 710
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 488,
+        "right": 998,
+        "bottom": 776
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "酒店休息座椅区定位本句指代的地方。",
+        "association": "酒店休息座椅区定位本句指代的地方。",
+        "collocation": "a quiet place",
+        "example": "This is a quiet place to rest.",
+        "exampleChinese": "这是一个安静的休息地方。"
+      }
+    },
+    {
+      "x": 482,
+      "y": 600,
+      "english": "position",
+      "chinese": "位置",
+      "phoneticUS": "/pəˈzɪʃn/",
+      "phoneticUK": "/pəˈzɪʃn/",
+      "bubblePosition": {
+        "x": 470,
+        "y": 455
+      },
+      "anchorPosition": {
+        "x": 482,
+        "y": 600
+      },
+      "boundingBox": {
+        "left": 328,
+        "top": 486,
+        "right": 663,
+        "bottom": 774
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中间椅子相对两侧椅子的实际位置。",
+        "association": "中间椅子相对两侧椅子的实际位置。",
+        "collocation": "the position of",
+        "example": "The position of the chair is easy to see.",
+        "exampleChinese": "椅子的位置很容易看出来。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 390,
+      "english": "front",
+      "chinese": "正面",
+      "phoneticUS": "/frʌnt/",
+      "phoneticUK": "/frʌnt/",
+      "bubblePosition": {
+        "x": 480,
+        "y": 245
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 390
+      },
+      "boundingBox": {
+        "left": 234,
+        "top": 340,
+        "right": 833,
+        "bottom": 440
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前台面向椅子的正面板。",
+        "association": "前台面向椅子的正面板。",
+        "collocation": "the front of",
+        "example": "The front of the desk faces the chairs.",
+        "exampleChinese": "前台的正面对着椅子。"
+      }
+    },
+    {
+      "x": 638,
+      "y": 660,
+      "english": "side",
+      "chinese": "侧面",
+      "phoneticUS": "/saɪd/",
+      "phoneticUK": "/saɪd/",
+      "bubblePosition": {
+        "x": 770,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 638,
+        "y": 660
+      },
+      "boundingBox": {
+        "left": 608,
+        "top": 550,
+        "right": 666,
+        "bottom": 728
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中间椅子实际可见侧部。",
+        "association": "中间椅子实际可见侧部。",
+        "collocation": "the side of",
+        "example": "I can see the side of the chair.",
+        "exampleChinese": "我能看见椅子的侧面。"
+      }
+    },
+    {
+      "x": 485,
+      "y": 738,
+      "english": "middle",
+      "chinese": "中间",
+      "phoneticUS": "/ˈmɪdl/",
+      "phoneticUK": "/ˈmɪdl/",
+      "bubblePosition": {
+        "x": 450,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 485,
+        "y": 738
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 488,
+        "right": 998,
+        "bottom": 776
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "三椅组与中间白椅的相对位置。",
+        "association": "三椅组与中间白椅的相对位置。",
+        "collocation": "in the middle",
+        "example": "The white chair is in the middle.",
+        "exampleChinese": "白色椅子在中间。"
+      }
+    },
+    {
+      "x": 285,
+      "y": 605,
+      "english": "between",
+      "chinese": "在之间",
+      "phoneticUS": "/bɪˈtwiːn/",
+      "phoneticUK": "/bɪˈtwiːn/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 435
+      },
+      "anchorPosition": {
+        "x": 285,
+        "y": 605
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 488,
+        "right": 998,
+        "bottom": 776
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框含三把椅子的左右之间关系，不只框白椅。",
+        "association": "框含三把椅子的左右之间关系，不只框白椅。",
+        "collocation": "between two chairs",
+        "example": "The white chair is between two blue chairs.",
+        "exampleChinese": "白色椅子在两把蓝色椅子之间。"
+      }
+    },
+    {
+      "x": 750,
+      "y": 475,
+      "english": "opposite",
+      "chinese": "在对面",
+      "phoneticUS": "/ˈɑːpəzɪt/",
+      "phoneticUK": "/ˈɒpəzɪt/",
+      "bubblePosition": {
+        "x": 820,
+        "y": 470
+      },
+      "anchorPosition": {
+        "x": 750,
+        "y": 475
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 338,
+        "right": 997,
+        "bottom": 775
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "座椅与前台相隔地面且面对的空间关系。",
+        "association": "座椅与前台相隔地面且面对的空间关系。",
+        "collocation": "opposite the desk",
+        "example": "The chairs are opposite the desk.",
+        "exampleChinese": "椅子在前台对面。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 75,
+      "english": "at",
+      "chinese": "在",
+      "phoneticUS": "/æt/",
+      "phoneticUK": "/æt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "介词在完整句中解释，不把at独立等同于前台。",
+        "association": "介词在完整句中解释，不把at独立等同于前台。",
+        "collocation": "at the desk",
+        "example": "I wait at the hotel desk.",
+        "exampleChinese": "我在酒店前台等候。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A place to pause, between two chairs and opposite the hotel desk.",
+    "chinese": "在两把椅子之间、酒店前台对面，找一处停歇的位置。",
+    "source": "原创配文 · C038 酒店入住与位置",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

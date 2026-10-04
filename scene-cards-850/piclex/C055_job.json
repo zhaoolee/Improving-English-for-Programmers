@@ -1,0 +1,19 @@
+{
+  "cardID": "C055",
+  "imagePath": "../images/C055.png",
+  "imageSHA256": "7f13760d6094fbd79178fe6d2cbd4f861cd7200ba68d934c30669de69699a9b9",
+  "imageReviewed": true,
+  "annotationsPath": "C055_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "hospital",
+    "disease",
+    "ill",
+    "healthy",
+    "cough",
+    "sneeze",
+    "feeble",
+    "normal"
+  ],
+  "receiptPath": "C055_import_receipt.json"
+}

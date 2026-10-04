@@ -1,0 +1,283 @@
+C077  项目分工板
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C077.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C077.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:44:04 UTC
+  提示词文件: prompts/C077_image_final.txt
+
+场景: 团队用工作板分配任务、划分部门，委员会派代表说明职责。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 女子指工作板，右侧同事听讲，左侧同事记笔记；角色通过明确故事，不能把有色卡片解释成实际部门名。
+
+主配文:
+  英文: Our representative explains the system, and the chief helps us divide the work.
+  中文: 我们的代表说明这套制度，负责人帮助我们划分工作。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): distribution, division, committee, representative, chief, authority, general, system, lead
+
+------------------------------------------------------------------------
+[1/9] distribution  (W207)
+  词义: 分配
+  词性: noun
+  音标: UK /ˌdɪstrɪˈbjuːʃən/ | US /ˌdɪstrəˈbjuːʃən/
+  搭配: distribution of work; task distribution
+  例句: The distribution of work is fair.
+  例句高亮: The **distribution** of work is fair.
+  例句中文: 工作的分配是公平的。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The distribution of work is fair.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The distribution of work is fair."
+    matched_form: "distribution"
+    context: "由原创例句给出的语境：The distribution of work is fair.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 分配；分布
+
+------------------------------------------------------------------------
+[2/9] division  (W208)
+  词义: 划分
+  词性: noun
+  音标: UK /dɪˈvɪʒən/ | US /dɪˈvɪʒən/
+  搭配: division of work; a clear division
+  例句: A clear division of work helps the team.
+  例句高亮: A clear **division** of work helps the team.
+  例句中文: 明确的分工有助于团队。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A clear division of work helps the team.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A clear division of work helps the team."
+    matched_form: "division"
+    context: "由原创例句给出的语境：A clear division of work helps the team.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 分割；部门
+
+------------------------------------------------------------------------
+[3/9] committee  (W146)
+  词义: 委员会
+  词性: noun
+  音标: UK /kəˈmɪti/ | US /kəˈmɪti/
+  搭配: a small committee; join a committee
+  例句: Our committee reviews the plan together.
+  例句高亮: Our **committee** reviews the plan together.
+  例句中文: 我们的委员会一起审查计划。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Our committee reviews the plan together.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Our committee reviews the plan together."
+    matched_form: "committee"
+    context: "由原创例句给出的语境：Our committee reviews the plan together.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 委员会
+
+------------------------------------------------------------------------
+[4/9] representative  (W590)
+  词义: 代表
+  词性: noun
+  音标: UK /ˌreprɪˈzentətɪv/ | US /ˌreprɪˈzentətɪv/
+  搭配: a team representative; our representative
+  例句: The woman pointing to the board is our representative.
+  例句高亮: The woman pointing to the board is our **representative**.
+  例句中文: 指着工作板的女子是我们的代表。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（代表），待最终图确认。
+  坐标(normalized): [0.214, 0.138, 0.835, 0.769]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中央指工作板的女子，句子明确她是代表。"
+    sentence: "The woman pointing to the board is our representative."
+    matched_form: "representative"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 代表；代理人
+
+------------------------------------------------------------------------
+[5/9] chief  (W129)
+  词义: 负责人
+  词性: noun
+  音标: UK /tʃiːf/ | US /tʃiːf/
+  搭配: the team chief; our chief
+  例句: The colleague seated on the right is our chief.
+  例句高亮: The colleague seated on the right is our **chief**.
+  例句中文: 坐在右侧的同事是我们的负责人。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（负责人），待最终图确认。
+  坐标(normalized): [0.712, 0.43, 0.998, 0.983]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧坐着的同事，句子明确负责人角色。"
+    sentence: "The colleague seated on the right is our chief."
+    matched_form: "chief"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 首领；主要的
+
+------------------------------------------------------------------------
+[6/9] authority  (W042)
+  词义: 权限
+  词性: noun
+  音标: UK /ɔːˈθɒrəti/ | US /əˈθɔːrəti/
+  搭配: have authority; authority to decide
+  例句: The chief has authority to approve the plan.
+  例句高亮: The chief has **authority** to approve the plan.
+  例句中文: 负责人有权批准这个计划。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The chief has authority to approve the plan.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The chief has authority to approve the plan."
+    matched_form: "authority"
+    context: "由原创例句给出的语境：The chief has authority to approve the plan.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 权威；当局
+
+------------------------------------------------------------------------
+[7/9] general  (W298)
+  词义: 总体的
+  词性: adjective
+  音标: UK /ˈdʒenərəl/ | US /ˈdʒenərəl/
+  搭配: a general plan; general guidance
+  例句: We discuss the general plan before the details.
+  例句高亮: We discuss the **general** plan before the details.
+  例句中文: 我们先讨论总体计划，再讨论细节。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We discuss the general plan before the details.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We discuss the general plan before the details."
+    matched_form: "general"
+    context: "由原创例句给出的语境：We discuss the general plan before the details.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 将军；一般的
+
+------------------------------------------------------------------------
+[8/9] system  (W733)
+  词义: 制度
+  词性: noun
+  音标: UK /ˈsɪstəm/ | US /ˈsɪstəm/
+  搭配: a clear system; a working system
+  例句: The system explains how tasks are assigned.
+  例句高亮: The **system** explains how tasks are assigned.
+  例句中文: 这套制度说明如何分配任务。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The system explains how tasks are assigned.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The system explains how tasks are assigned."
+    matched_form: "system"
+    context: "由原创例句给出的语境：The system explains how tasks are assigned.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 系统
+
+------------------------------------------------------------------------
+[9/9] lead  (W391)
+  词义: 带领
+  词性: verb
+  音标: UK /liːd/ | US /liːd/
+  搭配: lead a team; lead a discussion
+  例句: Our chief will lead the next discussion.
+  例句高亮: Our chief will **lead** the next discussion.
+  例句中文: 我们的负责人将带领下一次讨论。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Our chief will lead the next discussion.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Our chief will lead the next discussion."
+    matched_form: "lead"
+    context: "由原创例句给出的语境：Our chief will lead the next discussion.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 领导；引导
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C077 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Three adult colleagues at office task board with unlabelled coloured cards arranged into two columns. Main woman left pointing to board while colleague right at table listening as team chief, third person beside center. Clear paper cards and columns, plain no words, normal hands, polished cool-daylight professional editorial. Story assigns roles, not uniforms.

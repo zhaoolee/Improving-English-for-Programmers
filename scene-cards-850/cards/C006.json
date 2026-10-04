@@ -1,0 +1,414 @@
+{
+  "id": "C006",
+  "chapter": "家里的一天",
+  "title": "照顾小宝宝",
+  "scene": "父母照顾襁褓中的宝宝，旁边有儿子和女儿；表达关心和亲吻。",
+  "target_count": 9,
+  "primary_words": [
+    "baby",
+    "son",
+    "daughter",
+    "birth",
+    "care",
+    "kiss",
+    "dear",
+    "love",
+    "dependent"
+  ],
+  "targets": [
+    {
+      "word_id": "W045",
+      "word": "baby",
+      "aliases": [],
+      "source_zh_unreviewed": "婴儿；宝宝",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "宝宝",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈbeɪbi/",
+      "ipa_uk": "/ˈbeɪbi/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "母亲怀中襁褓里的婴儿，按最终画面框选。",
+        "sentence": "The baby is in my arms.",
+        "matched_form": "baby",
+        "image_verified": true
+      },
+      "example_en": "The baby is in my arms.",
+      "example_zh": "宝宝在我怀里。",
+      "bbox_normalized": [
+        0.313,
+        0.323,
+        0.592,
+        0.567
+      ],
+      "collocations": [
+        "a baby",
+        "hold the baby"
+      ],
+      "example_en_highlighted": "The **baby** is in my arms.",
+      "annotation_mode": "object",
+      "annotation_note": "母亲怀中襁褓里的婴儿，按最终画面框选。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W682",
+      "word": "son",
+      "aliases": [],
+      "source_zh_unreviewed": "儿子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "儿子",
+      "pos": "noun (countable)",
+      "ipa_us": "/sʌn/",
+      "ipa_uk": "/sʌn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。",
+        "sentence": "Our son sits beside us.",
+        "matched_form": "son",
+        "context": "原创设定：左侧浅蓝衣服的男孩是儿子，实际坐在沙发边；关系由设定和例句确认。",
+        "image_verified": null
+      },
+      "example_en": "Our son sits beside us.",
+      "example_zh": "我们的儿子坐在我们旁边。",
+      "bbox_normalized": [
+        0.025,
+        0.25,
+        0.31,
+        0.749
+      ],
+      "collocations": [
+        "my son",
+        "a young son"
+      ],
+      "example_en_highlighted": "Our **son** sits beside us.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W182",
+      "word": "daughter",
+      "aliases": [],
+      "source_zh_unreviewed": "女儿",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "女儿",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈdɔːtər/",
+      "ipa_uk": "/ˈdɔːtə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。",
+        "sentence": "Our daughter sits beside us.",
+        "matched_form": "daughter",
+        "context": "原创设定：淡紫衣服的女孩是女儿；关系由设定和例句确认。",
+        "image_verified": null
+      },
+      "example_en": "Our daughter sits beside us.",
+      "example_zh": "我们的女儿坐在我们旁边。",
+      "bbox_normalized": [
+        0.722,
+        0.275,
+        0.991,
+        0.797
+      ],
+      "collocations": [
+        "my daughter",
+        "a young daughter"
+      ],
+      "example_en_highlighted": "Our **daughter** sits beside us.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W069",
+      "word": "birth",
+      "aliases": [],
+      "source_zh_unreviewed": "出生；诞生",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "出生",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/bɝːθ/",
+      "ipa_uk": "/bɜːθ/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "We were happy at the birth of our baby.",
+        "matched_form": "birth",
+        "context": "叙述宝宝出生这一过去事件，照片不直接证明出生过程。",
+        "image_verified": null
+      },
+      "example_en": "We were happy at the birth of our baby.",
+      "example_zh": "宝宝出生时，我们很开心。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the birth of a baby",
+        "after birth"
+      ],
+      "example_en_highlighted": "We were happy at the **birth** of our baby.",
+      "annotation_mode": "context",
+      "annotation_note": "叙述宝宝出生这一过去事件，照片不直接证明出生过程。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W115",
+      "word": "care",
+      "aliases": [],
+      "source_zh_unreviewed": "关心；照料",
+      "planned_mode": "context",
+      "sense_zh": "照料",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ker/",
+      "ipa_uk": "/keə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。",
+        "sentence": "Our baby needs love and care.",
+        "matched_form": "care",
+        "context": "抱持宝宝是照料语境，名词care靠自然句子覆盖。",
+        "image_verified": null
+      },
+      "example_en": "Our baby needs love and care.",
+      "example_zh": "我们的宝宝需要爱与照料。",
+      "bbox_normalized": [
+        0.283,
+        0.328,
+        0.638,
+        0.652
+      ],
+      "collocations": [
+        "give care",
+        "love and care"
+      ],
+      "example_en_highlighted": "Our baby needs love and **care**.",
+      "annotation_mode": "action",
+      "annotation_note": "双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W380",
+      "word": "kiss",
+      "aliases": [],
+      "source_zh_unreviewed": "吻；亲吻",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "亲吻",
+      "pos": "verb (transitive)",
+      "ipa_us": "/kɪs/",
+      "ipa_uk": "/kɪs/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "母亲嘴唇与宝宝额头接触的动作区域。",
+        "sentence": "I kiss the baby on the forehead.",
+        "matched_form": "kiss",
+        "image_verified": true
+      },
+      "example_en": "I kiss the baby on the forehead.",
+      "example_zh": "我亲吻宝宝的额头。",
+      "bbox_normalized": [
+        0.447,
+        0.315,
+        0.492,
+        0.353
+      ],
+      "collocations": [
+        "kiss the baby",
+        "kiss gently"
+      ],
+      "example_en_highlighted": "I **kiss** the baby on the forehead.",
+      "annotation_mode": "action",
+      "annotation_note": "母亲嘴唇与宝宝额头接触的动作区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W185",
+      "word": "dear",
+      "aliases": [],
+      "source_zh_unreviewed": "亲爱的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "亲爱的",
+      "pos": "adjective",
+      "ipa_us": "/dɪr/",
+      "ipa_uk": "/dɪə/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "You are my dear baby.",
+        "matched_form": "dear",
+        "context": "亲爱的称呼由例句表达，不能把宝宝框成dear。",
+        "image_verified": null
+      },
+      "example_en": "You are my dear baby.",
+      "example_zh": "你是我亲爱的宝宝。",
+      "bbox_normalized": null,
+      "collocations": [
+        "my dear baby",
+        "a dear friend"
+      ],
+      "example_en_highlighted": "You are my **dear** baby.",
+      "annotation_mode": "context",
+      "annotation_note": "亲爱的称呼由例句表达，不能把宝宝框成dear。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W418",
+      "word": "love",
+      "aliases": [],
+      "source_zh_unreviewed": "爱",
+      "planned_mode": "context",
+      "sense_zh": "爱",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/lʌv/",
+      "ipa_uk": "/lʌv/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "We give our baby love.",
+        "matched_form": "love",
+        "context": "亲密照料与名词love例句，情感不设物体框。",
+        "image_verified": null
+      },
+      "example_en": "We give our baby love.",
+      "example_zh": "我们给予宝宝爱。",
+      "bbox_normalized": null,
+      "collocations": [
+        "give love",
+        "love and care"
+      ],
+      "example_en_highlighted": "We give our baby **love**.",
+      "annotation_mode": "context",
+      "annotation_note": "亲密照料与名词love例句，情感不设物体框。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W192",
+      "word": "dependent",
+      "aliases": [],
+      "source_zh_unreviewed": "依赖的；依靠的",
+      "planned_mode": "context",
+      "sense_zh": "依赖的",
+      "pos": "adjective",
+      "ipa_us": "/dɪˈpendənt/",
+      "ipa_uk": "/dɪˈpendənt/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The baby is dependent on us.",
+        "matched_form": "dependent",
+        "context": "dependent on结构明确依赖关系，不从静态姿态推出抽象属性。",
+        "image_verified": null
+      },
+      "example_en": "The baby is dependent on us.",
+      "example_zh": "宝宝依赖我们。",
+      "bbox_normalized": null,
+      "collocations": [
+        "dependent on parents",
+        "fully dependent"
+      ],
+      "example_en_highlighted": "The baby is **dependent** on us.",
+      "annotation_mode": "context",
+      "annotation_note": "dependent on结构明确依赖关系，不从静态姿态推出抽象属性。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。",
+        "reference_url": "https://dictionary.cambridge.org/pronunciation/english/dependent",
+        "reference_scope": "dictionary search excerpt; full page unavailable"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "We give our dear baby love and care every day.",
+    "zh": "我们每天给予亲爱的宝宝爱与照料。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C006\n标题 照顾小宝宝\n场景 父母照顾襁褓中的宝宝，旁边有儿子和女儿；表达关心和亲吻。\n目标词 baby, son, daughter, birth, care, kiss, dear, love, dependent\n原创主配文草案 We give the baby love and care.\n中文草案 我们给予宝宝爱与照料。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. One candid family scene in a bright elegant living room. Exactly two adults, two school-age children and one swaddled infant. Mother seated at center-left holding the newborn safely with head and body supported and gently KISSING its forehead, clear face-to-forehead contact. Adult father in muted blue sweater sits nearby right; their little son in pale blue stands left, daughter in pale lavender sits right. Infant wrapped in a cream blanket at center, face visible. All clothed, distinct separated faces, coherent hands and natural family intimacy, no medical setting. Full sofa and all five people comfortably fit, no face crop.",
+  "status": "approved",
+  "image_path": "images/C006.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C006 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T11:56:26Z",
+    "ended_at": "2026-10-02T11:57:08Z",
+    "prompt_path": "prompts/C006_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C006.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "五位人物分离清晰：两位成年人、左右两位孩子与中央襁褓宝宝。母亲安全抱持宝宝，嘴唇接近并触及额头的亲吻动作可辨；儿子实际坐着，例句据此修正。亲属身份来自原创设定而非外貌推断；birth为出生回忆，情感与依赖靠句子。无文字、重复肢体或明显结构错误。"
+  }
+}

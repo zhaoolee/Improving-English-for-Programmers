@@ -1,0 +1,302 @@
+C082  搭建小砖屋
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C082.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C082.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:03:02 UTC
+  提示词文件: prompts/C082_image_final.txt
+
+场景: 模型建造过程，砖、石、屋顶、底座、结构和水平线明确。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 微型砖屋敞开半侧墙体，另一侧斜屋顶，前景底板和气泡水平仪、右侧粗石清楚。
+
+主配文:
+  英文: I build a small brick house on a flat base and check its roof.
+  中文: 我在平坦的底座上搭建一个小砖屋，并检查屋顶。
+  类型: original | 来源: None | 状态: final
+
+目标词 (10): brick, stone, roof, base, structure, level, fixed, board, rough, top
+
+------------------------------------------------------------------------
+[1/10] brick  (W094)
+  词义: 砖
+  词性: noun
+  音标: UK /brɪk/ | US /brɪk/
+  搭配: a red brick; a brick wall
+  例句: A red brick lies beside the model.
+  例句高亮: A red **brick** lies beside the model.
+  例句中文: 一块红砖放在模型旁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（砖），待最终图确认。
+  坐标(normalized): [0.244, 0.743, 0.411, 0.798]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "底板上独立小红砖。"
+    sentence: "A red brick lies beside the model."
+    matched_form: "brick"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 砖
+
+------------------------------------------------------------------------
+[2/10] stone  (W712)
+  词义: 石头
+  词性: noun
+  音标: UK /stəʊn/ | US /stoʊn/
+  搭配: a rough stone; a stone sample
+  例句: The stone has a rough surface.
+  例句高亮: The **stone** has a rough surface.
+  例句中文: 这块石头有粗糙的表面。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（石头），待最终图确认。
+  坐标(normalized): [0.882, 0.706, 0.998, 0.784]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧独立灰石。"
+    sentence: "The stone has a rough surface."
+    matched_form: "stone"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 石头
+
+------------------------------------------------------------------------
+[3/10] roof  (W604)
+  词义: 屋顶
+  词性: noun
+  音标: UK /ruːf/ | US /ruːf/
+  搭配: a sloping roof; the roof of
+  例句: The small house has a sloping roof.
+  例句高亮: The small house has a sloping **roof**.
+  例句中文: 这个小房子有倾斜的屋顶。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（屋顶），待最终图确认。
+  坐标(normalized): [0.579, 0.561, 0.831, 0.682]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "小屋右半侧坡屋顶。"
+    sentence: "The small house has a sloping roof."
+    matched_form: "roof"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 屋顶
+
+------------------------------------------------------------------------
+[4/10] base  (W052)
+  词义: 底座
+  词性: noun
+  音标: UK /beɪs/ | US /beɪs/
+  搭配: a flat base; on a base
+  例句: The model stands on a flat base.
+  例句高亮: The model stands on a flat **base**.
+  例句中文: 模型立在平坦的底座上。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（底座），待最终图确认。
+  坐标(normalized): [0.162, 0.731, 0.998, 0.876]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "承托模型的木底座，取前沿可见面。"
+    sentence: "The model stands on a flat base."
+    matched_form: "base"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 基础；底部
+
+------------------------------------------------------------------------
+[5/10] structure  (W721)
+  词义: 结构
+  词性: noun
+  音标: UK /ˈstrʌktʃə/ | US /ˈstrʌktʃɚ/
+  搭配: a simple structure; the wall structure
+  例句: The open side shows the wall structure.
+  例句高亮: The open side shows the wall **structure**.
+  例句中文: 敞开的一侧展示了墙体结构。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（结构），待最终图确认。
+  坐标(normalized): [0.367, 0.573, 0.647, 0.788]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "敞开红砖墙及门洞的墙体结构。"
+    sentence: "The open side shows the wall structure."
+    matched_form: "structure"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 结构
+
+------------------------------------------------------------------------
+[6/10] level  (W399)
+  词义: 水平的
+  词性: adjective
+  音标: UK /ˈlevəl/ | US /ˈlevəl/
+  搭配: a level surface; keep level
+  例句: The board is level on the table.
+  例句高亮: The board is **level** on the table.
+  例句中文: 板子水平放在桌上。
+  标注模式: relation
+  标注说明: 场景中体现的关系（水平的），待最终图确认。
+  坐标(normalized): [0.695, 0.763, 0.86, 0.807]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "水平仪气泡和底板，水平属性由示范故事指定。"
+    sentence: "The board is level on the table."
+    matched_form: "level"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 水平；水平的
+
+------------------------------------------------------------------------
+[7/10] fixed  (W270)
+  词义: 固定的
+  词性: adjective
+  音标: UK /fɪkst/ | US /fɪkst/
+  搭配: fixed in place; a fixed part
+  例句: The roof is fixed in place in the story.
+  例句高亮: The roof is **fixed** in place in the story.
+  例句中文: 故事中的屋顶已经固定好。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The roof is fixed in place in the story."
+    matched_form: "fixed"
+    context: "由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 固定的；不变的
+
+------------------------------------------------------------------------
+[8/10] board  (W078)
+  词义: 木板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: a wooden board; a flat board
+  例句: A wooden board supports the house.
+  例句高亮: A wooden **board** supports the house.
+  例句中文: 一块木板托着房子。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（木板），待最终图确认。
+  坐标(normalized): [0.162, 0.731, 0.998, 0.876]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "承托房屋的独立木板。"
+    sentence: "A wooden board supports the house."
+    matched_form: "board"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 板；董事会
+
+------------------------------------------------------------------------
+[9/10] rough  (W607)
+  词义: 粗糙的
+  词性: adjective
+  音标: UK /rʌf/ | US /rʌf/
+  搭配: a rough surface; a rough stone
+  例句: The grey stone looks rough.
+  例句高亮: The grey stone looks **rough**.
+  例句中文: 这块灰色石头看起来粗糙。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（粗糙的），待最终图确认。
+  坐标(normalized): [0.882, 0.706, 0.998, 0.784]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "石头有清楚粗糙不规则表面。"
+    sentence: "The grey stone looks rough."
+    matched_form: "rough"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 粗糙的；艰难的
+
+------------------------------------------------------------------------
+[10/10] top  (W773)
+  词义: 顶部
+  词性: noun
+  音标: UK /tɒp/ | US /tɑːp/
+  搭配: at the top; the top of
+  例句: The roof is at the top of the model.
+  例句高亮: The roof is at the **top** of the model.
+  例句中文: 屋顶位于模型顶部。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（顶部），待最终图确认。
+  坐标(normalized): [0.572, 0.554, 0.76, 0.592]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "模型屋顶顶部边缘。"
+    sentence: "The roof is at the top of the model."
+    matched_form: "top"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 顶部
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 10
+  content_entries_complete: 10
+  sentence_evidence_complete: 10
+  verified_targets: 10
+  image_review: "pass"
+  object_or_region_boxes: 9
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C082 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool Korean craft editorial adult woman making tabletop miniature brick house. Simple tiny red bricks, a grey rough stone sample beside it, flat wooden board base, gabled slate-grey roof fixed on one half revealing wall structure on other half, small plain bubble spirit level on board (no numbers), clearly horizontal straight surface. Crisp miniature details, realistic hands, no text or logos.

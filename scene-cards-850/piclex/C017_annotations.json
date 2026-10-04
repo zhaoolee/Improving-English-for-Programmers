@@ -1,0 +1,297 @@
+{
+  "filename": "C017-切肉与备菜.png",
+  "labels": [
+    {
+      "x": 224,
+      "y": 819,
+      "english": "meat",
+      "chinese": "肉",
+      "phoneticUS": "/miːt/",
+      "phoneticUK": "/miːt/",
+      "bubblePosition": {
+        "x": 245,
+        "y": 952
+      },
+      "anchorPosition": {
+        "x": 224,
+        "y": 819
+      },
+      "boundingBox": {
+        "left": 47,
+        "top": 729,
+        "right": 451,
+        "bottom": 901
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景牛肉块；不含砧板",
+        "association": "前景牛肉块；不含砧板",
+        "collocation": "fresh meat",
+        "example": "The meat is on the board.",
+        "exampleChinese": "肉放在木板上。"
+      }
+    },
+    {
+      "x": 355,
+      "y": 813,
+      "english": "fat",
+      "chinese": "脂肪",
+      "phoneticUS": "/fæt/",
+      "phoneticUK": "/fæt/",
+      "bubblePosition": {
+        "x": 430,
+        "y": 770
+      },
+      "anchorPosition": {
+        "x": 355,
+        "y": 813
+      },
+      "boundingBox": {
+        "left": 303,
+        "top": 778,
+        "right": 415,
+        "bottom": 849
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "牛肉中可见的白色脂肪边缘",
+        "association": "牛肉中可见的白色脂肪边缘",
+        "collocation": "white fat",
+        "example": "The meat has a little white fat.",
+        "exampleChinese": "这块肉带有少许白色脂肪。"
+      }
+    },
+    {
+      "x": 826,
+      "y": 860,
+      "english": "oil",
+      "chinese": "油",
+      "phoneticUS": "/ɔɪl/",
+      "phoneticUK": "/ɔɪl/",
+      "bubblePosition": {
+        "x": 864,
+        "y": 956
+      },
+      "anchorPosition": {
+        "x": 826,
+        "y": 860
+      },
+      "boundingBox": {
+        "left": 760,
+        "top": 798,
+        "right": 893,
+        "bottom": 914
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "玻璃小壶里的金黄色食用油",
+        "association": "玻璃小壶里的金黄色食用油",
+        "collocation": "cooking oil",
+        "example": "The oil is in a glass carafe.",
+        "exampleChinese": "油装在玻璃小壶里。"
+      }
+    },
+    {
+      "x": 589,
+      "y": 886,
+      "english": "salt",
+      "chinese": "盐",
+      "phoneticUS": "/sɔːlt/",
+      "phoneticUK": "/sɒlt/",
+      "bubblePosition": {
+        "x": 596,
+        "y": 957
+      },
+      "anchorPosition": {
+        "x": 589,
+        "y": 886
+      },
+      "boundingBox": {
+        "left": 512,
+        "top": 860,
+        "right": 672,
+        "bottom": 907
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "小碟中的白色颗粒，盐的身份由设定说明",
+        "association": "小碟中的白色颗粒，盐的身份由设定说明",
+        "collocation": "a little salt",
+        "example": "The salt is in a small dish.",
+        "exampleChinese": "盐在小碟里。"
+      }
+    },
+    {
+      "x": 570,
+      "y": 628,
+      "english": "mixed",
+      "chinese": "混合好的",
+      "phoneticUS": "/mɪkst/",
+      "phoneticUK": "/mɪkst/",
+      "bubblePosition": {
+        "x": 106,
+        "y": 411
+      },
+      "anchorPosition": {
+        "x": 570,
+        "y": 628
+      },
+      "boundingBox": {
+        "left": 450,
+        "top": 573,
+        "right": 691,
+        "bottom": 682
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中碗里的混合食材区域，mixed描述已在碗中组合的食材；不框整个厨房。",
+        "association": "手中碗里的混合食材区域，mixed描述已在碗中组合的食材；不框整个厨房。",
+        "collocation": "mixed ingredients",
+        "example": "The ingredients are mixed together.",
+        "exampleChinese": "这些配料混合好了。"
+      }
+    },
+    {
+      "x": 105,
+      "y": 72,
+      "english": "amount",
+      "chinese": "数量",
+      "phoneticUS": "/əˈmaʊnt/",
+      "phoneticUK": "/əˈmaʊnt/",
+      "bubblePosition": {
+        "x": 105,
+        "y": 72
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "数量由例句表达，不从照片推算容量",
+        "association": "数量由例句表达，不从照片推算容量",
+        "collocation": "a small amount",
+        "example": "I use a small amount of oil.",
+        "exampleChinese": "我用少量油。"
+      }
+    },
+    {
+      "x": 855,
+      "y": 61,
+      "english": "addition",
+      "chinese": "添加",
+      "phoneticUS": "/əˈdɪʃən/",
+      "phoneticUK": "/əˈdɪʃən/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 61
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "名词添加这一过程，由例句说明",
+        "association": "名词添加这一过程，由例句说明",
+        "collocation": "the addition of salt",
+        "example": "The addition of salt gives the meat more flavor.",
+        "exampleChinese": "加盐让肉更有味道。"
+      }
+    },
+    {
+      "x": 886,
+      "y": 318,
+      "english": "enough",
+      "chinese": "足够的",
+      "phoneticUS": "/ɪˈnʌf/",
+      "phoneticUK": "/ɪˈnʌf/",
+      "bubblePosition": {
+        "x": 886,
+        "y": 318
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "限定词修饰salt，足量依菜谱语境判断",
+        "association": "限定词修饰salt，足量依菜谱语境判断",
+        "collocation": "enough salt",
+        "example": "We have enough salt for the meat.",
+        "exampleChinese": "我们有足够的盐给肉调味。"
+      }
+    },
+    {
+      "x": 110,
+      "y": 587,
+      "english": "sticky",
+      "chinese": "黏的",
+      "phoneticUS": "/ˈstɪki/",
+      "phoneticUK": "/ˈstɪki/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 587
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "过程性例句，不从静态图推断触感",
+        "association": "过程性例句，不从静态图推断触感",
+        "collocation": "a sticky sauce",
+        "example": "The sauce becomes sticky as it cooks.",
+        "exampleChinese": "酱汁在烹煮时变黏。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A little salt, a small amount of oil, and enough time to cook.",
+    "chinese": "少许盐，少量油，再留足烹饪的时间。",
+    "source": "原创配文 · C017 切肉与备菜",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

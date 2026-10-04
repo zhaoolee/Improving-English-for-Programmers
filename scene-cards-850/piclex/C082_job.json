@@ -1,0 +1,21 @@
+{
+  "cardID": "C082",
+  "imagePath": "../images/C082.png",
+  "imageSHA256": "6667652618b7d4f3d3be9504a075c0995b8a19b8f72b25522280393f6c00df75",
+  "imageReviewed": true,
+  "annotationsPath": "C082_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "brick",
+    "stone",
+    "roof",
+    "base",
+    "structure",
+    "level",
+    "fixed",
+    "board",
+    "rough",
+    "top"
+  ],
+  "receiptPath": "C082_import_receipt.json"
+}

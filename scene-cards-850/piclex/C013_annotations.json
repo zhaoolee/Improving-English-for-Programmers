@@ -1,0 +1,321 @@
+{
+  "filename": "C013-摆好餐具.png",
+  "labels": [
+    {
+      "x": 360,
+      "y": 815,
+      "english": "plate",
+      "chinese": "盘子",
+      "phoneticUS": "/pleɪt/",
+      "phoneticUK": "/pleɪt/",
+      "bubblePosition": {
+        "x": 400,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 360,
+        "y": 815
+      },
+      "boundingBox": {
+        "left": 154,
+        "top": 731,
+        "right": 598,
+        "bottom": 903
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白色餐盘整体",
+        "association": "白色餐盘整体",
+        "collocation": "a dinner plate",
+        "example": "The plate is white.",
+        "exampleChinese": "盘子是白色的。"
+      }
+    },
+    {
+      "x": 102,
+      "y": 802,
+      "english": "fork",
+      "chinese": "叉子",
+      "phoneticUS": "/fɔːrk/",
+      "phoneticUK": "/fɔːk/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 680
+      },
+      "anchorPosition": {
+        "x": 102,
+        "y": 802
+      },
+      "boundingBox": {
+        "left": 68,
+        "top": 740,
+        "right": 132,
+        "bottom": 913
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立金属叉子",
+        "association": "独立金属叉子",
+        "collocation": "a dinner fork",
+        "example": "The fork has four points.",
+        "exampleChinese": "叉子有四个尖齿。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 587,
+      "english": "knife",
+      "chinese": "刀",
+      "phoneticUS": "/naɪf/",
+      "phoneticUK": "/naɪf/",
+      "bubblePosition": {
+        "x": 385,
+        "y": 610
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 587
+      },
+      "boundingBox": {
+        "left": 395,
+        "top": 529,
+        "right": 685,
+        "bottom": 684
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "切黄瓜的厨刀整体",
+        "association": "切黄瓜的厨刀整体",
+        "collocation": "a kitchen knife",
+        "example": "I hold the knife by its handle.",
+        "exampleChinese": "我握着刀柄拿刀。"
+      }
+    },
+    {
+      "x": 663,
+      "y": 850,
+      "english": "spoon",
+      "chinese": "勺子",
+      "phoneticUS": "/spuːn/",
+      "phoneticUK": "/spuːn/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 935
+      },
+      "anchorPosition": {
+        "x": 663,
+        "y": 850
+      },
+      "boundingBox": {
+        "left": 632,
+        "top": 785,
+        "right": 698,
+        "bottom": 941
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "椭圆勺头与勺柄",
+        "association": "椭圆勺头与勺柄",
+        "collocation": "a metal spoon",
+        "example": "The spoon is beside the plate.",
+        "exampleChinese": "勺子在盘子旁边。"
+      }
+    },
+    {
+      "x": 898,
+      "y": 810,
+      "english": "tray",
+      "chinese": "托盘",
+      "phoneticUS": "/treɪ/",
+      "phoneticUK": "/treɪ/",
+      "bubblePosition": {
+        "x": 905,
+        "y": 630
+      },
+      "anchorPosition": {
+        "x": 898,
+        "y": 810
+      },
+      "boundingBox": {
+        "left": 819,
+        "top": 655,
+        "right": 1000,
+        "bottom": 938
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧有边沿的木托盘，不混同砧板",
+        "association": "右侧有边沿的木托盘，不混同砧板",
+        "collocation": "a wooden tray",
+        "example": "The tray is on the table.",
+        "exampleChinese": "托盘在桌上。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 445,
+      "english": "sharp",
+      "chinese": "锋利的",
+      "phoneticUS": "/ʃɑːrp/",
+      "phoneticUK": "/ʃɑːp/",
+      "bubblePosition": {
+        "x": 840.2905699730926,
+        "y": 438.46297251088976
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "切菜用途与句子说明锋利，静态图不测试锋利度",
+        "association": "切菜用途与句子说明锋利，静态图不测试锋利度",
+        "collocation": "a sharp knife",
+        "example": "The knife is sharp.",
+        "exampleChinese": "刀很锋利。"
+      }
+    },
+    {
+      "x": 649,
+      "y": 658,
+      "english": "edge",
+      "chinese": "刃口",
+      "phoneticUS": "/edʒ/",
+      "phoneticUK": "/edʒ/",
+      "bubblePosition": {
+        "x": 680,
+        "y": 725
+      },
+      "anchorPosition": {
+        "x": 649,
+        "y": 658
+      },
+      "boundingBox": {
+        "left": 613,
+        "top": 634,
+        "right": 681,
+        "bottom": 680
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "刀片与黄瓜接触的切削边缘",
+        "association": "刀片与黄瓜接触的切削边缘",
+        "collocation": "a cutting edge",
+        "example": "The edge of the knife cuts food.",
+        "exampleChinese": "刀的刃口切开食物。"
+      }
+    },
+    {
+      "x": 625,
+      "y": 640,
+      "english": "cut",
+      "chinese": "切",
+      "phoneticUS": "/kʌt/",
+      "phoneticUK": "/kʌt/",
+      "bubblePosition": {
+        "x": 550,
+        "y": 445
+      },
+      "anchorPosition": {
+        "x": 625,
+        "y": 640
+      },
+      "boundingBox": {
+        "left": 386,
+        "top": 494,
+        "right": 775,
+        "bottom": 689
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手、刀与黄瓜接触的切割动作区域",
+        "association": "手、刀与黄瓜接触的切割动作区域",
+        "collocation": "cut a cucumber",
+        "example": "I cut the cucumber.",
+        "exampleChinese": "我切黄瓜。"
+      }
+    },
+    {
+      "x": 590,
+      "y": 622,
+      "english": "blade",
+      "chinese": "刀片",
+      "phoneticUS": "/bleɪd/",
+      "phoneticUK": "/bleɪd/",
+      "bubblePosition": {
+        "x": 765,
+        "y": 525
+      },
+      "anchorPosition": {
+        "x": 590,
+        "y": 622
+      },
+      "boundingBox": {
+        "left": 515,
+        "top": 572,
+        "right": 683,
+        "bottom": 682
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只定位金属刀片，不含刀柄",
+        "association": "只定位金属刀片，不含刀柄",
+        "collocation": "a steel blade",
+        "example": "The blade is made of steel.",
+        "exampleChinese": "刀片是钢制的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I set out the plate, fork, and spoon, then cut a cucumber.",
+    "chinese": "我摆好盘子、叉子和勺子，然后切黄瓜。",
+    "source": "原创配文 · C013 摆好餐具",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

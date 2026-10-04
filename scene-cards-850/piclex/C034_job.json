@@ -1,0 +1,20 @@
+{
+  "cardID": "C034",
+  "imagePath": "../images/C034.png",
+  "imageSHA256": "cd8689da3c7b60538a9e516cb504133f35254ef88aa542167cd0b6e2ffcade19",
+  "imageReviewed": true,
+  "annotationsPath": "C034_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "driving",
+    "engine",
+    "wheel",
+    "brake",
+    "control",
+    "stop",
+    "slow",
+    "quick",
+    "adjustment"
+  ],
+  "receiptPath": "C034_import_receipt.json"
+}

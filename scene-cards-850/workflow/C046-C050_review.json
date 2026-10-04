@@ -1,0 +1,551 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "regionPolicy": "Codex整卡视觉定位，保留固定词表；每词明确真实指代区域或句子语境理由。",
+  "recognitionProvider": "Codex conversation vision",
+  "cards": {
+    "C046": {
+      "sourcePath": "scene-cards-850/images/C046.png",
+      "generationStartedAt": "2026-10-03T13:35:22Z",
+      "generationEndedAt": "2026-10-03T13:36:05Z",
+      "geometry": {
+        "river": {
+          "bubble": [
+            820,
+            190
+          ],
+          "box": [
+            390,
+            201,
+            999,
+            680
+          ],
+          "anchor": [
+            833,
+            368
+          ]
+        },
+        "fish": {
+          "bubble": [
+            805,
+            950
+          ],
+          "box": [
+            543,
+            804,
+            937,
+            900
+          ],
+          "anchor": [
+            767,
+            859
+          ]
+        },
+        "rod": {
+          "bubble": [
+            740,
+            90
+          ],
+          "box": [
+            451,
+            336,
+            655,
+            513
+          ],
+          "anchor": [
+            552,
+            403
+          ]
+        },
+        "hook": {
+          "bubble": [
+            135,
+            915
+          ],
+          "box": [
+            117,
+            822,
+            175,
+            847
+          ],
+          "anchor": [
+            146,
+            835
+          ]
+        },
+        "net": {
+          "bubble": [
+            905,
+            725
+          ],
+          "box": [
+            485,
+            703,
+            998,
+            969
+          ],
+          "anchor": [
+            904,
+            900
+          ]
+        },
+        "sand": {
+          "bubble": [
+            380,
+            955
+          ],
+          "box": [
+            249,
+            896,
+            486,
+            995
+          ],
+          "anchor": [
+            404,
+            960
+          ]
+        },
+        "deep": {
+          "bubble": [
+            875,
+            420
+          ],
+          "box": [
+            570,
+            232,
+            996,
+            576
+          ],
+          "anchor": [
+            838,
+            464
+          ]
+        },
+        "land": {
+          "bubble": [
+            105,
+            425
+          ],
+          "box": [
+            0,
+            322,
+            150,
+            510
+          ],
+          "anchor": [
+            73,
+            411
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          218,
+          144,
+          377,
+          309
+        ]
+      ],
+      "imageReview": "钓竿、托盘钩、网中鱼和细沙可辨。deep只定位故事所指河水，不按颜色鉴定水深；land用干岸区。",
+      "originalSourcePathRedacted": true
+    },
+    "C047": {
+      "sourcePath": "scene-cards-850/images/C047.png",
+      "generationStartedAt": "2026-10-03T13:35:22Z",
+      "generationEndedAt": "2026-10-03T13:38:22Z",
+      "geometry": {
+        "sky": {
+          "bubble": [
+            785,
+            65
+          ],
+          "box": [
+            400,
+            0,
+            995,
+            133
+          ],
+          "anchor": [
+            831,
+            78
+          ]
+        },
+        "cloud": {
+          "bubble": [
+            670,
+            175
+          ],
+          "box": [
+            549,
+            77,
+            822,
+            128
+          ],
+          "anchor": [
+            736,
+            106
+          ]
+        },
+        "mist": {
+          "bubble": [
+            830,
+            675
+          ],
+          "box": [
+            396,
+            630,
+            996,
+            793
+          ],
+          "anchor": [
+            735,
+            733
+          ]
+        },
+        "weather": {
+          "bubble": [
+            790,
+            420
+          ]
+        },
+        "thunder": {
+          "bubble": [
+            825,
+            565
+          ]
+        },
+        "sudden": {
+          "bubble": [
+            135,
+            55
+          ]
+        },
+        "air": {
+          "bubble": [
+            150,
+            925
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          276,
+          92,
+          380,
+          189
+        ],
+        [
+          264,
+          559,
+          390,
+          698
+        ]
+      ],
+      "imageReview": "同景晴雨双幅，白云与山腰雾层分开；雷声、变化速度、天气概念与空气用句子，不给虚假框。",
+      "originalSourcePathRedacted": true
+    },
+    "C048": {
+      "sourcePath": "scene-cards-850/images/C048.png",
+      "generationStartedAt": "2026-10-03T13:35:22Z",
+      "generationEndedAt": "2026-10-03T13:36:55Z",
+      "geometry": {
+        "spring": {
+          "bubble": [
+            810,
+            65
+          ],
+          "box": [
+            0,
+            0,
+            1000,
+            320
+          ],
+          "anchor": [
+            770,
+            120
+          ]
+        },
+        "summer": {
+          "bubble": [
+            810,
+            405
+          ],
+          "box": [
+            0,
+            323,
+            1000,
+            663
+          ],
+          "anchor": [
+            815,
+            485
+          ]
+        },
+        "winter": {
+          "bubble": [
+            805,
+            705
+          ],
+          "box": [
+            0,
+            669,
+            1000,
+            1000
+          ],
+          "anchor": [
+            850,
+            770
+          ]
+        },
+        "snow": {
+          "bubble": [
+            670,
+            845
+          ],
+          "box": [
+            512,
+            872,
+            690,
+            993
+          ],
+          "anchor": [
+            596,
+            934
+          ]
+        },
+        "ice": {
+          "bubble": [
+            875,
+            945
+          ],
+          "box": [
+            702,
+            826,
+            999,
+            996
+          ],
+          "anchor": [
+            881,
+            904
+          ]
+        },
+        "cold": {
+          "bubble": [
+            140,
+            940
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          367,
+          32,
+          504,
+          148
+        ],
+        [
+          360,
+          367,
+          511,
+          491
+        ],
+        [
+          373,
+          718,
+          518,
+          851
+        ]
+      ],
+      "imageReview": "春夏冬三幅真实摄影对照，冬幅雪岸与平滑结冰池面分开。季节由故事设定，框定位对应小幅；cold保留句子证据。",
+      "originalSourcePathRedacted": true
+    },
+    "C049": {
+      "sourcePath": "scene-cards-850/images/C049.png",
+      "generationStartedAt": "2026-10-03T13:35:22Z",
+      "generationEndedAt": "2026-10-03T13:38:52Z",
+      "geometry": {
+        "ray": {
+          "bubble": [
+            835,
+            75
+          ],
+          "box": [
+            622,
+            44,
+            922,
+            239
+          ],
+          "anchor": [
+            814,
+            135
+          ]
+        },
+        "shade": {
+          "bubble": [
+            135,
+            840
+          ],
+          "box": [
+            0,
+            824,
+            144,
+            998
+          ],
+          "anchor": [
+            80,
+            945
+          ]
+        },
+        "view": {
+          "bubble": [
+            825,
+            445
+          ],
+          "box": [
+            435,
+            265,
+            995,
+            674
+          ],
+          "anchor": [
+            805,
+            541
+          ]
+        },
+        "beautiful": {
+          "bubble": [
+            840,
+            730
+          ]
+        },
+        "clear": {
+          "bubble": [
+            600,
+            285
+          ],
+          "box": [
+            435,
+            265,
+            995,
+            674
+          ],
+          "anchor": [
+            805,
+            386
+          ]
+        },
+        "great": {
+          "bubble": [
+            185,
+            75
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          234,
+          289,
+          358,
+          391
+        ]
+      ],
+      "imageReview": "树荫人像及山湖景可辨，斜入光线对应ray；评价词只用主观句子。shade定位树下阴影地面。",
+      "originalSourcePathRedacted": true
+    },
+    "C050": {
+      "sourcePath": "scene-cards-850/images/C050.png",
+      "generationStartedAt": "2026-10-03T13:35:22Z",
+      "generationEndedAt": "2026-10-03T13:37:39Z",
+      "geometry": {
+        "north": {
+          "bubble": [
+            825,
+            60
+          ]
+        },
+        "south": {
+          "bubble": [
+            150,
+            555
+          ]
+        },
+        "east": {
+          "bubble": [
+            805,
+            355
+          ]
+        },
+        "west": {
+          "bubble": [
+            180,
+            925
+          ]
+        },
+        "earth": {
+          "bubble": [
+            765,
+            485
+          ],
+          "box": [
+            658,
+            351,
+            993,
+            667
+          ],
+          "anchor": [
+            823,
+            458
+          ]
+        },
+        "country": {
+          "bubble": [
+            525,
+            780
+          ],
+          "box": [
+            432,
+            676,
+            559,
+            727
+          ],
+          "anchor": [
+            492,
+            700
+          ]
+        },
+        "nation": {
+          "bubble": [
+            175,
+            65
+          ]
+        },
+        "flag": {
+          "bubble": [
+            855,
+            815
+          ],
+          "box": [
+            902,
+            538,
+            999,
+            819
+          ],
+          "anchor": [
+            943,
+            658
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          290,
+          75,
+          443,
+          230
+        ]
+      ],
+      "imageReview": "地球仪、地图蓝色高亮区域及纯蓝旗可辨；模型与地球本体分开说明，国家身份与方位由故事句子支持，不读无字指南针。",
+      "originalSourcePathRedacted": true
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "id": "C055",
+  "chapter": "身体与健康",
+  "title": "感冒来就诊",
+  "scene": "医院诊室，病人咳嗽、喷嚏、疲弱；健康与生病用双幅比较。",
+  "target_count": 8,
+  "primary_words": [
+    "hospital",
+    "disease",
+    "ill",
+    "healthy",
+    "cough",
+    "sneeze",
+    "feeble",
+    "normal"
+  ],
+  "targets": [
+    {
+      "word_id": "W346",
+      "word": "hospital",
+      "aliases": [],
+      "source_zh_unreviewed": "医院",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "医院",
+      "pos": "noun",
+      "ipa_us": "/ˈhɑːspɪtəl/",
+      "ipa_uk": "/ˈhɒspɪtəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "故事设定在医院候诊；画面接待区提供地点提示，静态装修不能独立证明医院资质。",
+        "sentence": "I wait at the hospital.",
+        "matched_form": "hospital",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I wait at the hospital.",
+      "example_zh": "我在医院等候。",
+      "bbox_normalized": [
+        0.672,
+        0.69,
+        0.999,
+        0.88
+      ],
+      "collocations": [
+        "at the hospital"
+      ],
+      "example_en_highlighted": "I wait at the **hospital**.",
+      "annotation_mode": "object",
+      "annotation_note": "故事设定在医院候诊；画面接待区提供地点提示，静态装修不能独立证明医院资质。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W204",
+      "word": "disease",
+      "aliases": [],
+      "source_zh_unreviewed": "疾病",
+      "planned_mode": "context",
+      "sense_zh": "疾病",
+      "pos": "noun",
+      "ipa_us": "/dɪˈziːz/",
+      "ipa_uk": "/dɪˈziːz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The doctor explains the disease.",
+        "matched_form": "disease",
+        "referent_region_verified": false,
+        "context": "不从照片诊断疾病。",
+        "image_verified": null
+      },
+      "example_en": "The doctor explains the disease.",
+      "example_zh": "医生解释这种疾病。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an infectious disease"
+      ],
+      "example_en_highlighted": "The doctor explains the **disease**.",
+      "annotation_mode": "context",
+      "annotation_note": "不从照片诊断疾病。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W355",
+      "word": "ill",
+      "aliases": [],
+      "source_zh_unreviewed": "生病的",
+      "planned_mode": "context",
+      "sense_zh": "生病的",
+      "pos": "adjective",
+      "ipa_us": "/ɪl/",
+      "ipa_uk": "/ɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel ill and need a rest.",
+        "matched_form": "ill",
+        "referent_region_verified": false,
+        "context": "状态由本人句子说明。",
+        "image_verified": null
+      },
+      "example_en": "I feel ill and need a rest.",
+      "example_zh": "我感觉不舒服，需要休息。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel ill"
+      ],
+      "example_en_highlighted": "I feel **ill** and need a rest.",
+      "annotation_mode": "context",
+      "annotation_note": "状态由本人句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W332",
+      "word": "healthy",
+      "aliases": [],
+      "source_zh_unreviewed": "健康的",
+      "planned_mode": "context",
+      "sense_zh": "健康的",
+      "pos": "adjective",
+      "ipa_us": "/ˈhelθi/",
+      "ipa_uk": "/ˈhelθi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Later, I feel healthy again.",
+        "matched_form": "healthy",
+        "referent_region_verified": false,
+        "context": "静态外表不能证明健康。",
+        "image_verified": null
+      },
+      "example_en": "Later, I feel healthy again.",
+      "example_zh": "后来，我又觉得身体健康了。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel healthy"
+      ],
+      "example_en_highlighted": "Later, I feel **healthy** again.",
+      "annotation_mode": "context",
+      "annotation_note": "静态外表不能证明健康。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W163",
+      "word": "cough",
+      "aliases": [],
+      "source_zh_unreviewed": "咳嗽",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "咳嗽",
+      "pos": "verb",
+      "ipa_us": "/kɔːf/",
+      "ipa_uk": "/kɒf/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅肘弯遮口动作与句子对应，不由姿势判断病因。",
+        "sentence": "I cough into my elbow.",
+        "matched_form": "cough",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I cough into my elbow.",
+      "example_zh": "我对着肘弯咳嗽。",
+      "bbox_normalized": [
+        0.298,
+        0.006,
+        0.603,
+        0.328
+      ],
+      "collocations": [
+        "cough into my elbow"
+      ],
+      "example_en_highlighted": "I **cough** into my elbow.",
+      "annotation_mode": "action",
+      "annotation_note": "上幅肘弯遮口动作与句子对应，不由姿势判断病因。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W673",
+      "word": "sneeze",
+      "aliases": [],
+      "source_zh_unreviewed": "打喷嚏",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "打喷嚏",
+      "pos": "verb",
+      "ipa_us": "/sniːz/",
+      "ipa_uk": "/sniːz/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中幅纸巾护鼻动作与句子对应。",
+        "sentence": "I sneeze into a tissue.",
+        "matched_form": "sneeze",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I sneeze into a tissue.",
+      "example_zh": "我对着纸巾打喷嚏。",
+      "bbox_normalized": [
+        0.285,
+        0.342,
+        0.594,
+        0.649
+      ],
+      "collocations": [
+        "sneeze into a tissue"
+      ],
+      "example_en_highlighted": "I **sneeze** into a tissue.",
+      "annotation_mode": "action",
+      "annotation_note": "中幅纸巾护鼻动作与句子对应。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W259",
+      "word": "feeble",
+      "aliases": [],
+      "source_zh_unreviewed": "虚弱的；无力的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "虚弱的",
+      "pos": "adjective",
+      "ipa_us": "/ˈfiːbəl/",
+      "ipa_uk": "/ˈfiːbəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel feeble after being ill.",
+        "matched_form": "feeble",
+        "referent_region_verified": false,
+        "context": "体力是故事说明，不按外貌鉴定。",
+        "image_verified": null
+      },
+      "example_en": "I feel feeble after being ill.",
+      "example_zh": "生病后我感觉虚弱。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel feeble"
+      ],
+      "example_en_highlighted": "I feel **feeble** after being ill.",
+      "annotation_mode": "context",
+      "annotation_note": "体力是故事说明，不按外貌鉴定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W478",
+      "word": "normal",
+      "aliases": [],
+      "source_zh_unreviewed": "正常的",
+      "planned_mode": "context",
+      "sense_zh": "正常的",
+      "pos": "adjective",
+      "ipa_us": "/ˈnɔːrməl/",
+      "ipa_uk": "/ˈnɔːməl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I return to my normal routine.",
+        "matched_form": "normal",
+        "referent_region_verified": false,
+        "context": "normal选日常状态义，不虚构检测值。",
+        "image_verified": null
+      },
+      "example_en": "I return to my normal routine.",
+      "example_zh": "我回到正常的日常生活。",
+      "bbox_normalized": null,
+      "collocations": [
+        "my normal routine"
+      ],
+      "example_en_highlighted": "I return to my **normal** routine.",
+      "annotation_mode": "context",
+      "annotation_note": "normal选日常状态义，不虚构检测值。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I visit the hospital with a cough; later, I feel well again.",
+    "zh": "我因为咳嗽来到医院；后来，我又感觉好了。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C055\n标题 感冒来就诊\n场景 医院诊室，病人咳嗽、喷嚏、疲弱；健康与生病用双幅比较。\n目标词 hospital, disease, ill, healthy, cough, sneeze, feeble, normal\n原创主配文草案 I am ill and have a cough.\n中文草案 我生病了，还咳嗽。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Three stacked documentary editorial panels in same quiet clinic waiting room with same dressed woman. Top woman covers mouth with bent elbow in gentle coughing pose. Middle woman holds clean tissue close to nose in sneezing pose. Bottom later seated calm upright after story recovery, tissue box on table, airy clinic environment. No generated health readings or signage, no exaggerated sick makeup, no bodily fluids; state and passage of time supplied by captions.",
+  "status": "approved",
+  "image_path": "images/C055.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C055 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T14:58:58Z",
+    "prompt_path": "prompts/C055_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C055.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三幅分别为肘部咳嗽、纸巾掩鼻喷嚏与休息；医院是明确故事地点，框取接待区而非以装修证明资质；健康与疾病均只用故事语境。"
+  }
+}

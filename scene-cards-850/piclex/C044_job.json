@@ -1,0 +1,20 @@
+{
+  "cardID": "C044",
+  "imagePath": "../images/C044.png",
+  "imageSHA256": "9126d5af9fad99c378b62828386086e5090acd8bab6004cca3b18ed0db60f9ab",
+  "imageReviewed": true,
+  "annotationsPath": "C044_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "cow",
+    "goat",
+    "sheep",
+    "pig",
+    "horse",
+    "fowl",
+    "feather",
+    "horn",
+    "whip"
+  ],
+  "receiptPath": "C044_import_receipt.json"
+}

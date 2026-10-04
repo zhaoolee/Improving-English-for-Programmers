@@ -1,0 +1,417 @@
+{
+  "id": "C032",
+  "chapter": "城市与出行",
+  "title": "穿过一座桥",
+  "scene": "河上桥梁，人物从近处走向远处，双幅突出跨越和距离。",
+  "target_count": 9,
+  "primary_words": [
+    "bridge",
+    "across",
+    "near",
+    "far",
+    "distance",
+    "from",
+    "to",
+    "walk",
+    "whistle"
+  ],
+  "targets": [
+    {
+      "word_id": "W095",
+      "word": "bridge",
+      "aliases": [],
+      "source_zh_unreviewed": "桥",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "桥",
+      "pos": "noun",
+      "ipa_us": "/brɪdʒ/",
+      "ipa_uk": "/brɪdʒ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桥面与护栏的实际区域。",
+        "sentence": "The bridge crosses the river.",
+        "matched_form": "bridge",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The bridge crosses the river.",
+      "example_zh": "这座桥横跨河流。",
+      "bbox_normalized": [
+        0.533,
+        0.416,
+        0.996,
+        0.992
+      ],
+      "collocations": [
+        "cross the bridge"
+      ],
+      "example_en_highlighted": "The **bridge** crosses the river.",
+      "annotation_mode": "object",
+      "annotation_note": "桥面与护栏的实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W006",
+      "word": "across",
+      "aliases": [],
+      "source_zh_unreviewed": "横穿；穿过",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "横穿",
+      "pos": "preposition",
+      "ipa_us": "/əˈkrɔːs/",
+      "ipa_uk": "/əˈkrɒs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "人物和桥面跨河路线共同定位across，句子说明跨越。",
+        "sentence": "We walk across the bridge.",
+        "matched_form": "across",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We walk across the bridge.",
+      "example_zh": "我们步行穿过这座桥。",
+      "bbox_normalized": [
+        0.53,
+        0.414,
+        0.996,
+        0.992
+      ],
+      "collocations": [
+        "across the bridge"
+      ],
+      "example_en_highlighted": "We walk **across** the bridge.",
+      "annotation_mode": "relation",
+      "annotation_note": "人物和桥面跨河路线共同定位across，句子说明跨越。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W466",
+      "word": "near",
+      "aliases": [],
+      "source_zh_unreviewed": "靠近",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "近的",
+      "pos": "adjective",
+      "ipa_us": "/nɪr/",
+      "ipa_uk": "/nɪə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。",
+        "sentence": "The near part of the bridge is beside me.",
+        "matched_form": "near",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The near part of the bridge is beside me.",
+      "example_zh": "桥的近处部分就在我身旁。",
+      "bbox_normalized": [
+        0.0,
+        0.527,
+        0.225,
+        0.957
+      ],
+      "collocations": [
+        "the near part"
+      ],
+      "example_en_highlighted": "The **near** part of the bridge is beside me.",
+      "annotation_mode": "relation",
+      "annotation_note": "左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W253",
+      "word": "far",
+      "aliases": [],
+      "source_zh_unreviewed": "远的；遥远的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "在远处",
+      "pos": "adverb",
+      "ipa_us": "/fɑːr/",
+      "ipa_uk": "/fɑː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。",
+        "sentence": "The other traveller is far away.",
+        "matched_form": "far",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The other traveller is far away.",
+      "example_zh": "另一位旅人在远处。",
+      "bbox_normalized": [
+        0.849,
+        0.289,
+        0.977,
+        0.574
+      ],
+      "collocations": [
+        "far away"
+      ],
+      "example_en_highlighted": "The other traveller is **far** away.",
+      "annotation_mode": "relation",
+      "annotation_note": "桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W206",
+      "word": "distance",
+      "aliases": [],
+      "source_zh_unreviewed": "距离",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "距离",
+      "pos": "noun",
+      "ipa_us": "/ˈdɪstəns/",
+      "ipa_uk": "/ˈdɪstəns/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。",
+        "sentence": "There is some distance between the two travellers.",
+        "matched_form": "distance",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "There is some distance between the two travellers.",
+      "example_zh": "两位旅人之间有一段距离。",
+      "bbox_normalized": [
+        0.538,
+        0.467,
+        0.91,
+        0.847
+      ],
+      "collocations": [
+        "the distance between"
+      ],
+      "example_en_highlighted": "There is some **distance** between the two travellers.",
+      "annotation_mode": "relation",
+      "annotation_note": "前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W292",
+      "word": "from",
+      "aliases": [],
+      "source_zh_unreviewed": "来自；从",
+      "planned_mode": "context",
+      "sense_zh": "从",
+      "pos": "preposition",
+      "ipa_us": "/frʌm/",
+      "ipa_uk": "/frɒm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We walk from here to the other bank.",
+        "matched_form": "from",
+        "referent_region_verified": false,
+        "context": "起点介词在完整句中解释，不独立框桥端。",
+        "image_verified": null
+      },
+      "example_en": "We walk from here to the other bank.",
+      "example_zh": "我们从这里走到另一岸。",
+      "bbox_normalized": null,
+      "collocations": [
+        "from here"
+      ],
+      "example_en_highlighted": "We walk **from** here to the other bank.",
+      "annotation_mode": "context",
+      "annotation_note": "起点介词在完整句中解释，不独立框桥端。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W767",
+      "word": "to",
+      "aliases": [],
+      "source_zh_unreviewed": "到",
+      "planned_mode": "context",
+      "sense_zh": "到",
+      "pos": "preposition",
+      "ipa_us": "/tuː/",
+      "ipa_uk": "/tuː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We walk to the other bank.",
+        "matched_form": "to",
+        "referent_region_verified": false,
+        "context": "终点介词在完整句中解释，不等同于某物体。",
+        "image_verified": null
+      },
+      "example_en": "We walk to the other bank.",
+      "example_zh": "我们走到另一岸。",
+      "bbox_normalized": null,
+      "collocations": [
+        "to the other bank"
+      ],
+      "example_en_highlighted": "We walk **to** the other bank.",
+      "annotation_mode": "context",
+      "annotation_note": "终点介词在完整句中解释，不等同于某物体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W800",
+      "word": "walk",
+      "aliases": [],
+      "source_zh_unreviewed": "步行",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "步行",
+      "pos": "verb",
+      "ipa_us": "/wɔːk/",
+      "ipa_uk": "/wɔːk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "主人公完整步态和桥面接触位置。",
+        "sentence": "I walk across the bridge.",
+        "matched_form": "walk",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I walk across the bridge.",
+      "example_zh": "我步行过桥。",
+      "bbox_normalized": [
+        0.217,
+        0.164,
+        0.538,
+        0.955
+      ],
+      "collocations": [
+        "walk across"
+      ],
+      "example_en_highlighted": "I **walk** across the bridge.",
+      "annotation_mode": "action",
+      "annotation_note": "主人公完整步态和桥面接触位置。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W822",
+      "word": "whistle",
+      "aliases": [],
+      "source_zh_unreviewed": "哨子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "哨子",
+      "pos": "noun",
+      "ipa_us": "/ˈwɪsl/",
+      "ipa_uk": "/ˈwɪsl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "手中/腕绳上的实体金属哨子，选名词义而非声音。",
+        "sentence": "I carry a small whistle.",
+        "matched_form": "whistle",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I carry a small whistle.",
+      "example_zh": "我带着一个小哨子。",
+      "bbox_normalized": [
+        0.516,
+        0.611,
+        0.543,
+        0.649
+      ],
+      "collocations": [
+        "a metal whistle"
+      ],
+      "example_en_highlighted": "I carry a small **whistle**.",
+      "annotation_mode": "object",
+      "annotation_note": "手中/腕绳上的实体金属哨子，选名词义而非声音。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A bridge, two travellers, and a little distance between us.",
+    "zh": "一座桥，两位旅人，彼此之间隔着一小段距离。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C032\n标题 穿过一座桥\n场景 河上桥梁，人物从近处走向远处，双幅突出跨越和距离。\n目标词 bridge, across, near, far, distance, from, to, walk, whistle\n原创主配文草案 I walk across the bridge from here to there.\n中文草案 我从这里走到那里，穿过这座桥。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. One single travel editorial photograph, not a collage. Elegant pedestrian bridge crossing a river, viewed obliquely from the near bank with railings and stone walkway receding toward the far bank. Main woman mid-stride in the left foreground, full body and feet visible, clearly walking along bridge. A small silver metal whistle hangs from a dark wrist cord, large enough to identify, held lightly in her lowered hand and not near mouth. A second adult traveller farther along the bridge provides near/far contrast. River and distant bank clear with enough focus for distance, pale open sky and water edges reserved for labels. Whistle visibly has rounded mouthpiece and side opening, not jewellery.",
+  "status": "approved",
+  "image_path": "images/C032.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C032 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T08:06:49Z",
+    "ended_at": "2026-10-03T08:10:01Z",
+    "prompt_path": "prompts/C032_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C032.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "前景旅人朝镜头方向行走，远处旅人背向镜头；按成图调整配文，不声称两人同向。实体金属哨子可辨，前景桥栏、远端与桥面空间间隔可定位。近岸未出画不虚构，near改为近处桥栏。 裁剪核对后far定位远处旅人，采用far away副词义；指向线绕开远处人物头部。"
+  }
+}

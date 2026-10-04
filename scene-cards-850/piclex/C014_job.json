@@ -1,0 +1,21 @@
+{
+  "cardID": "C014",
+  "imagePath": "../images/C014.png",
+  "imageSHA256": "7465f1a0a7123f1bfa7154df42e5f4d7f975a424e2c77dd83d68b950d5526ff2",
+  "imageReviewed": true,
+  "annotationsPath": "C014_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "cup",
+    "kettle",
+    "sugar",
+    "sweet",
+    "warm",
+    "drink",
+    "give",
+    "take",
+    "for",
+    "with"
+  ],
+  "receiptPath": "C014_import_receipt.json"
+}

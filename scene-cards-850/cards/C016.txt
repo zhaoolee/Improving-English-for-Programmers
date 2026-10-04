@@ -1,0 +1,261 @@
+C016  面包店的烤箱
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C016.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C016.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T22:54:39Z → 2026-10-02T22:55:46Z
+  提示词文件: prompts/C016_image_final.txt
+
+场景: 烤箱外刚取出的蛋糕，抹有果酱，展示糕点气味、苦甜与咬下一口。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 烤箱、蛋糕、平滑红色果酱层和咖啡可辨；年轻成年女性、真实材质与单张场景符合风格。叉上小块蛋糕仅作一口的线索，味觉/嗅觉/好坏评价均由句子支持。没有从静态图认定咬合或味觉。
+
+主配文:
+  英文: A bite of cake, a little fruit jelly, and the smell of baking.
+  中文: 一口蛋糕，少许果冻状果酱，还有烘焙的香气。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): oven, cake, jelly, taste, smell, bitter, good, bad, bite
+
+------------------------------------------------------------------------
+[1/9] oven  (W506)
+  词义: 烤箱
+  词性: noun
+  音标: UK /ˈʌvən/ | US /ˈʌvən/
+  搭配: a hot oven
+  例句: The cake comes out of the oven.
+  例句高亮: The cake comes out of the **oven**.
+  例句中文: 蛋糕从烤箱里取出来。
+  标注模式: object
+  标注说明: 后方打开的烤箱
+  坐标(normalized): [0.0, 0.0, 0.224, 0.431]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "后方打开的烤箱"
+    sentence: "The cake comes out of the oven."
+    matched_form: "oven"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 烤箱
+------------------------------------------------------------------------
+[2/9] cake  (W111)
+  词义: 蛋糕
+  词性: noun
+  音标: UK /keɪk/ | US /keɪk/
+  搭配: a slice of cake
+  例句: The cake is on a stand.
+  例句高亮: The **cake** is on a stand.
+  例句中文: 蛋糕放在蛋糕架上。
+  标注模式: object
+  标注说明: 前景圆形海绵蛋糕
+  坐标(normalized): [0.335, 0.585, 0.79, 0.77]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "前景圆形海绵蛋糕"
+    sentence: "The cake is on a stand."
+    matched_form: "cake"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 蛋糕
+------------------------------------------------------------------------
+[3/9] jelly  (W369)
+  词义: 果冻状果酱
+  词性: noun
+  音标: UK /ˈdʒeli/ | US /ˈdʒeli/
+  搭配: fruit jelly
+  例句: I spread fruit jelly on the cake.
+  例句高亮: I spread fruit **jelly** on the cake.
+  例句中文: 我在蛋糕上涂果冻状果酱。
+  标注模式: object
+  标注说明: 蛋糕上平滑无籽的红色果酱层；采用美式果冻状果酱义，身份由设定说明
+  坐标(normalized): [0.353, 0.591, 0.775, 0.685]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "蛋糕上平滑无籽的红色果酱层；采用美式果冻状果酱义，身份由设定说明"
+    sentence: "I spread fruit jelly on the cake."
+    matched_form: "jelly"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 果冻；果酱
+------------------------------------------------------------------------
+[4/9] taste  (W739)
+  词义: 味道
+  词性: noun
+  音标: UK /teɪst/ | US /teɪst/
+  搭配: a sweet taste
+  例句: The cake has a sweet taste.
+  例句高亮: The cake has a sweet **taste**.
+  例句中文: 蛋糕有甜甜的味道。
+  标注模式: context
+  标注说明: 味觉由例句说明，不能从照片测量
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The cake has a sweet taste."
+    matched_form: "taste"
+    context: "味觉由例句说明，不能从照片测量"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 味道；品尝
+------------------------------------------------------------------------
+[5/9] smell  (W668)
+  词义: 气味
+  词性: noun
+  音标: UK /smel/ | US /smel/
+  搭配: the smell of cake
+  例句: I love the smell of fresh cake.
+  例句高亮: I love the **smell** of fresh cake.
+  例句中文: 我喜欢新鲜蛋糕的香气。
+  标注模式: context
+  标注说明: 嗅觉由原创场景叙述说明
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I love the smell of fresh cake."
+    matched_form: "smell"
+    context: "嗅觉由原创场景叙述说明"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 气味
+------------------------------------------------------------------------
+[6/9] bitter  (W072)
+  词义: 苦的
+  词性: adjective
+  音标: UK /ˈbɪtə/ | US /ˈbɪtər/
+  搭配: bitter coffee
+  例句: The coffee tastes bitter.
+  例句高亮: The coffee tastes **bitter**.
+  例句中文: 咖啡喝起来是苦的。
+  标注模式: context
+  标注说明: 咖啡味道由例句说明，不把蛋糕说成苦的
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The coffee tastes bitter."
+    matched_form: "bitter"
+    context: "咖啡味道由例句说明，不把蛋糕说成苦的"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 苦的
+------------------------------------------------------------------------
+[7/9] good  (W307)
+  词义: 好的
+  词性: adjective
+  音标: UK /ɡʊd/ | US /ɡʊd/
+  搭配: a good cake
+  例句: This is a good cake.
+  例句高亮: This is a **good** cake.
+  例句中文: 这是个不错的蛋糕。
+  标注模式: context
+  标注说明: 评价由叙述者表达
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "This is a good cake."
+    matched_form: "good"
+    context: "评价由叙述者表达"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 好的
+------------------------------------------------------------------------
+[8/9] bad  (W047)
+  词义: 不好的
+  词性: adjective
+  音标: UK /bæd/ | US /bæd/
+  搭配: a bad taste
+  例句: Burned cake has a bad taste.
+  例句高亮: Burned cake has a **bad** taste.
+  例句中文: 烤焦的蛋糕味道不好。
+  标注模式: context
+  标注说明: 条件性例句；不声称图中蛋糕烤焦
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Burned cake has a bad taste."
+    matched_form: "bad"
+    context: "条件性例句；不声称图中蛋糕烤焦"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 坏的；糟糕的
+------------------------------------------------------------------------
+[9/9] bite  (W071)
+  词义: 一口
+  词性: noun
+  音标: UK /baɪt/ | US /baɪt/
+  搭配: a bite of cake
+  例句: I take a bite of cake.
+  例句高亮: I take a **bite** of cake.
+  例句中文: 我吃一口蛋糕。
+  标注模式: object
+  标注说明: 叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。
+  坐标(normalized): [0.35, 0.229, 0.441, 0.283]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。"
+    sentence: "I take a bite of cake."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 咬；叮
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 6
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C016 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=20 | meta.approved_cards=20
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Elegant small bakery kitchen. Open built-in oven clearly visible at rear left. Woman seated at counter with a small fork holding one bite of cake near her mouth, no need to show teeth. Foreground: one round golden sponge cake on white stand, topped with a thin glossy translucent smooth seedless red FRUIT JELLY preserve; one slice removed. Separate small white cup of dark coffee beside cake. Cake, oven and jelly clearly visible, calm upscale composition.

@@ -1,0 +1,19 @@
+{
+  "cardID": "C064",
+  "imagePath": "../images/C064.png",
+  "imageSHA256": "f3a8cc7e1db14b698a61413f0a932ae9daf2c65eacbd267d3c908cbfd1409307",
+  "imageReviewed": true,
+  "annotationsPath": "C064_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "question",
+    "answer",
+    "example",
+    "test",
+    "error",
+    "wrong",
+    "true",
+    "false"
+  ],
+  "receiptPath": "C064_import_receipt.json"
+}

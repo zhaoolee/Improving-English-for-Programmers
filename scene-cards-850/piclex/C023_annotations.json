@@ -1,0 +1,313 @@
+{
+  "filename": "C023-布料店选材.png",
+  "labels": [
+    {
+      "x": 85,
+      "y": 700,
+      "english": "cotton",
+      "chinese": "棉布",
+      "phoneticUS": "/ˈkɑːtən/",
+      "phoneticUK": "/ˈkɒtən/",
+      "bubblePosition": {
+        "x": 102,
+        "y": 956
+      },
+      "anchorPosition": {
+        "x": 85,
+        "y": 700
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 572,
+        "right": 201,
+        "bottom": 884
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白色平纹样布；纤维身份由本卡原创布料设定说明",
+        "association": "白色平纹样布；纤维身份由本卡原创布料设定说明",
+        "collocation": "cotton fabric",
+        "example": "This white fabric is cotton.",
+        "exampleChinese": "这块白布是棉布。"
+      }
+    },
+    {
+      "x": 256,
+      "y": 770,
+      "english": "wool",
+      "chinese": "羊毛织物",
+      "phoneticUS": "/wʊl/",
+      "phoneticUK": "/wʊl/",
+      "bubblePosition": {
+        "x": 306,
+        "y": 957
+      },
+      "anchorPosition": {
+        "x": 256,
+        "y": 770
+      },
+      "boundingBox": {
+        "left": 53,
+        "top": 589,
+        "right": 394,
+        "bottom": 928
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "灰色粗针织样布；材质身份由设定说明",
+        "association": "灰色粗针织样布；材质身份由设定说明",
+        "collocation": "knitted wool",
+        "example": "The grey sample is wool.",
+        "exampleChinese": "灰色样布是羊毛织物。"
+      }
+    },
+    {
+      "x": 480,
+      "y": 770,
+      "english": "silk",
+      "chinese": "丝绸",
+      "phoneticUS": "/sɪlk/",
+      "phoneticUK": "/sɪlk/",
+      "bubblePosition": {
+        "x": 516,
+        "y": 956
+      },
+      "anchorPosition": {
+        "x": 480,
+        "y": 770
+      },
+      "boundingBox": {
+        "left": 334,
+        "top": 579,
+        "right": 613,
+        "bottom": 930
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "粉色有光泽垂褶样布；材质身份由设定说明",
+        "association": "粉色有光泽垂褶样布；材质身份由设定说明",
+        "collocation": "pink silk",
+        "example": "The pink fabric is silk.",
+        "exampleChinese": "粉色布料是丝绸。"
+      }
+    },
+    {
+      "x": 736,
+      "y": 761,
+      "english": "linen",
+      "chinese": "亚麻布",
+      "phoneticUS": "/ˈlɪnən/",
+      "phoneticUK": "/ˈlɪnən/",
+      "bubblePosition": {
+        "x": 733,
+        "y": 957
+      },
+      "anchorPosition": {
+        "x": 736,
+        "y": 761
+      },
+      "boundingBox": {
+        "left": 594,
+        "top": 592,
+        "right": 882,
+        "bottom": 925
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "米色疏松织纹样布；材质身份由设定说明",
+        "association": "米色疏松织纹样布；材质身份由设定说明",
+        "collocation": "linen cloth",
+        "example": "The beige sample is linen.",
+        "exampleChinese": "米色样布是亚麻布。"
+      }
+    },
+    {
+      "x": 906,
+      "y": 761,
+      "english": "canvas",
+      "chinese": "帆布",
+      "phoneticUS": "/ˈkænvəs/",
+      "phoneticUK": "/ˈkænvəs/",
+      "bubblePosition": {
+        "x": 913,
+        "y": 956
+      },
+      "anchorPosition": {
+        "x": 906,
+        "y": 761
+      },
+      "boundingBox": {
+        "left": 787,
+        "top": 575,
+        "right": 1000,
+        "bottom": 925
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "蓝灰色粗织样布；材质身份由设定说明",
+        "association": "蓝灰色粗织样布；材质身份由设定说明",
+        "collocation": "strong canvas",
+        "example": "The blue-grey fabric is canvas.",
+        "exampleChinese": "蓝灰色布料是帆布。"
+      }
+    },
+    {
+      "x": 474,
+      "y": 754,
+      "english": "material",
+      "chinese": "材料；布料",
+      "phoneticUS": "/məˈtɪriəl/",
+      "phoneticUK": "/məˈtɪəriəl/",
+      "bubblePosition": {
+        "x": 117,
+        "y": 70
+      },
+      "anchorPosition": {
+        "x": 474,
+        "y": 754
+      },
+      "boundingBox": {
+        "left": 334,
+        "top": 579,
+        "right": 613,
+        "bottom": 930
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "丝绸布是material的具体可见实例，定位粉色布，不把类别当成无边界整图。",
+        "association": "丝绸布是material的具体可见实例，定位粉色布，不把类别当成无边界整图。",
+        "collocation": "a clothing material",
+        "example": "Silk is a material for clothes.",
+        "exampleChinese": "丝绸是一种制衣材料。"
+      }
+    },
+    {
+      "x": 474,
+      "y": 754,
+      "english": "color",
+      "chinese": "颜色",
+      "phoneticUS": "/ˈkʌlər/",
+      "phoneticUK": "/ˈkʌlə/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 77
+      },
+      "anchorPosition": {
+        "x": 474,
+        "y": 754
+      },
+      "boundingBox": {
+        "left": 334,
+        "top": 579,
+        "right": 613,
+        "bottom": 930
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "粉色布的实际区域，color指向这块布的可见颜色。",
+        "association": "粉色布的实际区域，color指向这块布的可见颜色。",
+        "collocation": "the color of silk",
+        "example": "I like the color of this silk.",
+        "exampleChinese": "我喜欢这块丝绸的颜色。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 422,
+      "english": "smooth",
+      "chinese": "光滑的",
+      "phoneticUS": "/smuːð/",
+      "phoneticUK": "/smuːð/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 422
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "触感由原创叙述说明，不从光泽推定触感",
+        "association": "触感由原创叙述说明，不从光泽推定触感",
+        "collocation": "smooth silk",
+        "example": "The silk feels smooth.",
+        "exampleChinese": "这块丝绸摸起来光滑。"
+      }
+    },
+    {
+      "x": 125,
+      "y": 503,
+      "english": "like",
+      "chinese": "喜欢",
+      "phoneticUS": "/laɪk/",
+      "phoneticUK": "/laɪk/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 503
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "采用动词喜欢义，不是介词像",
+        "association": "采用动词喜欢义，不是介词像",
+        "collocation": "like silk",
+        "example": "I like the pink silk.",
+        "exampleChinese": "我喜欢粉色丝绸。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I like the silk, but every material has its own beauty.",
+    "chinese": "我喜欢丝绸，不过每种布料都有自己的美。",
+    "source": "原创配文 · C023 布料店选材",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

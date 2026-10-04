@@ -1,0 +1,258 @@
+C079  保护私人资料
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C079.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C079.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:44:04 UTC
+  提示词文件: prompts/C079_image_final.txt
+
+场景: 工作台上公开文件与封存的私人档案对照，人物主动保护秘密。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 黑文件夹正放进带锁盒子，夹口并非完全闭合；去除原先closed描述，改为folder inside a lockable box。私密与保险财产内容由故事设定，不读取空白文件。
+
+主配文:
+  英文: I keep private papers in a folder inside a lockable box and limit access to important information.
+  中文: 我把私人文件放进可上锁盒子里的文件夹，限制对重要信息的访问。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): private, secret, property, insurance, loss, limit, necessary, important
+
+------------------------------------------------------------------------
+[1/8] private  (W553)
+  词义: 私人的
+  词性: adjective
+  音标: UK /ˈpraɪvət/ | US /ˈpraɪvət/
+  搭配: private papers; keep private
+  例句: I keep private papers in the folder inside the lockable box.
+  例句高亮: I keep **private** papers in the folder inside the lockable box.
+  例句中文: 我把私人文件放在可上锁盒子里的文件夹中。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（私人的），待最终图确认。
+  坐标(normalized): [0.449, 0.513, 0.829, 0.692]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "放进锁盒的深色文件夹，内容私密由本人故事指定；不能从颜色判断隐私。"
+    sentence: "I keep private papers in the folder inside the lockable box."
+    matched_form: "private"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 私人的；私立的
+
+------------------------------------------------------------------------
+[2/8] secret  (W627)
+  词义: 秘密
+  词性: noun
+  音标: UK /ˈsiːkrət/ | US /ˈsiːkrət/
+  搭配: keep a secret; a personal secret
+  例句: I do not share a personal secret without permission.
+  例句高亮: I do not share a personal **secret** without permission.
+  例句中文: 未经允许，我不分享个人秘密。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I do not share a personal secret without permission.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I do not share a personal secret without permission."
+    matched_form: "secret"
+    context: "由原创例句给出的语境：I do not share a personal secret without permission.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 秘密
+
+------------------------------------------------------------------------
+[3/8] property  (W558)
+  词义: 财产
+  词性: noun
+  音标: UK /ˈprɒpəti/ | US /ˈprɑːpɚti/
+  搭配: personal property; protect property
+  例句: These documents concern my personal property.
+  例句高亮: These documents concern my personal **property**.
+  例句中文: 这些文件涉及我的个人财产。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：These documents concern my personal property.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "These documents concern my personal property."
+    matched_form: "property"
+    context: "由原创例句给出的语境：These documents concern my personal property.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 财产；性质
+
+------------------------------------------------------------------------
+[4/8] insurance  (W364)
+  词义: 保险
+  词性: noun
+  音标: UK /ɪnˈʃʊərəns/ | US /ɪnˈʃʊrəns/
+  搭配: insurance papers; an insurance policy
+  例句: My insurance papers stay in the folder.
+  例句高亮: My **insurance** papers stay in the folder.
+  例句中文: 我的保险文件放在文件夹里。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：My insurance papers stay in the folder.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "My insurance papers stay in the folder."
+    matched_form: "insurance"
+    context: "由原创例句给出的语境：My insurance papers stay in the folder.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 保险
+
+------------------------------------------------------------------------
+[5/8] loss  (W416)
+  词义: 损失
+  词性: noun
+  音标: UK /lɒs/ | US /lɔːs/
+  搭配: prevent loss; a possible loss
+  例句: I keep copies to reduce the risk of loss.
+  例句高亮: I keep copies to reduce the risk of **loss**.
+  例句中文: 我保留副本以降低损失的风险。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I keep copies to reduce the risk of loss.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I keep copies to reduce the risk of loss."
+    matched_form: "loss"
+    context: "由原创例句给出的语境：I keep copies to reduce the risk of loss.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 损失
+
+------------------------------------------------------------------------
+[6/8] limit  (W404)
+  词义: 限制
+  词性: verb
+  音标: UK /ˈlɪmɪt/ | US /ˈlɪmɪt/
+  搭配: limit access; limit sharing
+  例句: I limit access to the private documents.
+  例句高亮: I **limit** access to the private documents.
+  例句中文: 我限制对私人文件的访问。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I limit access to the private documents.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I limit access to the private documents."
+    matched_form: "limit"
+    context: "由原创例句给出的语境：I limit access to the private documents.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 限制；限度
+
+------------------------------------------------------------------------
+[7/8] necessary  (W467)
+  词义: 必要的
+  词性: adjective
+  音标: UK /ˈnesəsəri/ | US /ˈnesəseri/
+  搭配: be necessary; necessary information
+  例句: A safe place for these papers is necessary.
+  例句高亮: A safe place for these papers is **necessary**.
+  例句中文: 为这些文件找一个安全的地方是必要的。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A safe place for these papers is necessary.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A safe place for these papers is necessary."
+    matched_form: "necessary"
+    context: "由原创例句给出的语境：A safe place for these papers is necessary.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 必要的
+
+------------------------------------------------------------------------
+[8/8] important  (W356)
+  词义: 重要的
+  词性: adjective
+  音标: UK /ɪmˈpɔːtənt/ | US /ɪmˈpɔːrtənt/
+  搭配: important information; an important document
+  例句: Protecting important information is part of my routine.
+  例句高亮: Protecting **important** information is part of my routine.
+  例句中文: 保护重要信息是我日常工作的一部分。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Protecting important information is part of my routine.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Protecting important information is part of my routine."
+    matched_form: "important"
+    context: "由原创例句给出的语境：Protecting important information is part of my routine.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 重要的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 1
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C079 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at tidy desk placing plain documents into closed dark folder inside lockable desk box; another open pale folder with blank papers separate on desk. Lock and folder clear, no readable personal data or writing, no passwords or digital screens. Cool refined editorial, hands normal, main face clear, safe ordinary paperwork context.

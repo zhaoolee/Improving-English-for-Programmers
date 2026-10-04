@@ -1,0 +1,12 @@
+{
+  "cardID": "C001",
+  "imagePath": "../workflow/references/instagram-warm.png",
+  "imageSHA256": "7da840386ec7a361c58913ca2177eca5bcf2687c009d78930101ae262c6869d5",
+  "imageReviewed": true,
+  "annotationsPath": "C001_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": ["bed", "sleep", "awake", "morning", "clock", "curtain", "light", "early", "be"],
+  "receiptPath": "C001_fast_import_receipt.json",
+  "photoID": "d779515d-c223-4139-87b6-f97d8d3bcde8",
+  "expectedAssetID": "453a793385a8cc6fb46fb28229b189ad184792ee5330bb8c78bde55fb4c39fb4"
+}

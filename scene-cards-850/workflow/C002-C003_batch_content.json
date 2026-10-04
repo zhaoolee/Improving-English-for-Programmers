@@ -1,0 +1,309 @@
+{
+  "startedAt": "2026-10-02T09:26:11Z",
+  "status": "content_draft",
+  "cards": [
+    {
+      "id": "C002",
+      "caption_en": "By the same window, the day is bright and the night is dark.",
+      "caption_zh": "同一扇窗前，白天明亮，夜晚昏暗。",
+      "image_prompt": "Generate a refined editorial photograph, portrait 4:5, two equal vertical panels with a very thin clean divider. A photographic day/night diptych showing exactly the same large tall window in a quiet minimalist Korean boutique apartment, same camera position and same adult East Asian woman about 25, pearl ivory cardigan and pale grey skirt, loose low hair bun, understated cool makeup and real skin texture. LEFT PANEL DAY: crisp cool white daylight, bright interior, clear blue sky with a small realistically sized visible sun high through the window, landscape below. RIGHT PANEL NIGHT: the identical window and room, dark navy night sky, a clearly recognizable slender crescent moon and a few small discrete natural stars visible through the glass, softly dim interior; moon and stars not reflections or stickers. The woman is seated quietly beside the lower part of the window in both panels, beautifully composed environmental fashion portrait, window frame is clearly identifiable, sky occupies generous upper window area for later precise annotation. High end Instagram Korean cool editorial photography, restrained pearl white mist grey muted blue palette, natural complexion, subtle editorial retouch preserving skin pores hair and fabric, no plastic skin, no CGI, believable anatomy and perspective. Keep all sun/moon/stars completely inside their respective visible sky panels and make them easy to find. No text, letters, numbers, labels, speech bubbles, brands, watermarks or UI. This is a photographic comparison, not a fantasy composite. Both panels are separate moments; no sun in the night panel and no moon in the day panel.",
+      "words": [
+        {
+          "word": "window",
+          "zh": "窗户",
+          "pos": "noun (countable)",
+          "us": "/ˈwɪn.doʊ/",
+          "uk": "/ˈwɪn.dəʊ/",
+          "collocations": [
+            "by the window",
+            "open a window"
+          ],
+          "example": "She sits by the window.",
+          "translation": "她坐在窗边。",
+          "mode": "object",
+          "evidence": "框可辨窗框和玻璃，不框整间屋子。"
+        },
+        {
+          "word": "day",
+          "zh": "白天",
+          "pos": "noun",
+          "us": "/deɪ/",
+          "uk": "/deɪ/",
+          "collocations": [
+            "during the day",
+            "day and night"
+          ],
+          "example": "The room is bright during the day.",
+          "translation": "白天房间很明亮。",
+          "mode": "object",
+          "evidence": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。"
+        },
+        {
+          "word": "night",
+          "zh": "夜晚",
+          "pos": "noun",
+          "us": "/naɪt/",
+          "uk": "/naɪt/",
+          "collocations": [
+            "at night",
+            "a clear night"
+          ],
+          "example": "The sky is dark at night.",
+          "translation": "夜晚天空很暗。",
+          "mode": "object",
+          "evidence": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。"
+        },
+        {
+          "word": "bright",
+          "zh": "明亮的",
+          "pos": "adjective",
+          "us": "/braɪt/",
+          "uk": "/braɪt/",
+          "collocations": [
+            "bright daylight",
+            "a bright room"
+          ],
+          "example": "The room is bright in the left picture.",
+          "translation": "左图里的房间很明亮。",
+          "mode": "object",
+          "evidence": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。"
+        },
+        {
+          "word": "dark",
+          "zh": "昏暗的",
+          "pos": "adjective",
+          "us": "/dɑːrk/",
+          "uk": "/dɑːk/",
+          "collocations": [
+            "a dark sky",
+            "a dark room"
+          ],
+          "example": "The room is dark in the right picture.",
+          "translation": "右图里的房间很昏暗。",
+          "mode": "object",
+          "evidence": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。"
+        },
+        {
+          "word": "sun",
+          "zh": "太阳",
+          "pos": "noun",
+          "us": "/sʌn/",
+          "uk": "/sʌn/",
+          "collocations": [
+            "the sun",
+            "in the sun"
+          ],
+          "example": "The sun is in the blue sky.",
+          "translation": "太阳在蓝天中。",
+          "mode": "object",
+          "evidence": "只框左幅窗外可见的太阳圆盘；不拿光斑代替太阳。"
+        },
+        {
+          "word": "moon",
+          "zh": "月亮",
+          "pos": "noun",
+          "us": "/muːn/",
+          "uk": "/muːn/",
+          "collocations": [
+            "the moon",
+            "a crescent moon"
+          ],
+          "example": "The moon is in the night sky.",
+          "translation": "月亮在夜空中。",
+          "mode": "object",
+          "evidence": "只框右幅窗外的新月。"
+        },
+        {
+          "word": "star",
+          "zh": "星星",
+          "pos": "noun (countable)",
+          "us": "/stɑːr/",
+          "uk": "/stɑː/",
+          "collocations": [
+            "a bright star",
+            "look at the stars"
+          ],
+          "example": "I can see a star near the moon.",
+          "translation": "我能看见月亮附近的一颗星星。",
+          "mode": "object",
+          "evidence": "框右幅一颗独立可辨的星，不框整片天空或灯光。"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "caption_en": "I put a box in the drawer to make more space in my room.",
+      "caption_zh": "我把一个盒子放进抽屉，让房间腾出更多空间。",
+      "image_prompt": "Generate a single refined photorealistic Korean cool editorial lifestyle fashion photograph, vertical 4:5. Wide enough environmental portrait to clearly show a quiet minimalist apartment room. An adult East Asian woman about 25 with loose low bun and a few flyaway hairs, pearl ivory fine knit cardigan and pale grey long skirt, kneels naturally beside a low light oak chest of drawers. One drawer is pulled fully open toward the camera, its rectangular sides and empty interior clearly visible. She is gently placing one small plain rigid cream cardboard BOX into the open drawer, both anatomically correct hands lightly supporting the sides; box remains mostly visible just above/inside the opening so the act of placing is intelligible. Camera front three-quarter view, not top down. Required separate visible teaching elements: left background open oak bookshelf with an individual horizontal SHELF board and a few blank-spined books, large unadorned pale grey WALL in upper/right background, cool light wood FLOOR prominently visible across lower foreground, pale grey sofa at right with one clearly separate muted blue fabric CUSHION. Chest of drawers center left, sofa right, substantial clear walking SPACE in foreground, physically coherent perspective and room boundaries. Quiet high end Instagram aesthetic, cool white window daylight from off camera, pearl white mist grey muted slate blue palette, natural skin color, elegant realistic textile grain and wood grain, carefully retouched yet preserved skin texture and individual hair, no waxy skin, no CGI, no excessive bokeh; keep box, drawer, cushion, shelf, wall and floor sharply identifiable. Balanced airy composition and modest blank wall area for later bubbles. No text, letters, numbers, labels, speech bubbles, brands, watermarks or app UI. No duplicate box, no extra arms or fingers, no impossible drawer geometry.",
+      "words": [
+        {
+          "word": "room",
+          "zh": "房间",
+          "pos": "noun (countable)",
+          "us": "/ruːm/",
+          "uk": "/ruːm/",
+          "collocations": [
+            "a tidy room",
+            "in my room"
+          ],
+          "example": "This is my room.",
+          "translation": "这是我的房间。",
+          "mode": "context",
+          "evidence": "整个室内空间与 room 例句对应；不把单件家具当房间。"
+        },
+        {
+          "word": "floor",
+          "zh": "地板",
+          "pos": "noun (countable)",
+          "us": "/flɔːr/",
+          "uk": "/flɔː/",
+          "collocations": [
+            "on the floor",
+            "a wooden floor"
+          ],
+          "example": "The floor is made of wood.",
+          "translation": "地板是木制的。",
+          "mode": "object",
+          "evidence": "框前景一块独立可辨的木地板区域，避开家具和人物。"
+        },
+        {
+          "word": "wall",
+          "zh": "墙",
+          "pos": "noun (countable)",
+          "us": "/wɔːl/",
+          "uk": "/wɔːl/",
+          "collocations": [
+            "a grey wall",
+            "against the wall"
+          ],
+          "example": "The wall is pale grey.",
+          "translation": "墙是浅灰色的。",
+          "mode": "object",
+          "evidence": "框不被家具挡住的一片墙面。"
+        },
+        {
+          "word": "shelf",
+          "zh": "搁板",
+          "pos": "noun (countable)",
+          "us": "/ʃelf/",
+          "uk": "/ʃelf/",
+          "collocations": [
+            "on the shelf",
+            "a wooden shelf"
+          ],
+          "example": "The books are on the shelf.",
+          "translation": "书放在搁板上。",
+          "mode": "object",
+          "evidence": "只框书下的水平搁板，不把整座书架框成单数 shelf。"
+        },
+        {
+          "word": "drawer",
+          "zh": "抽屉",
+          "pos": "noun (countable)",
+          "us": "/drɔːr/",
+          "uk": "/drɔː/",
+          "collocations": [
+            "open a drawer",
+            "in the drawer"
+          ],
+          "example": "The drawer is open.",
+          "translation": "抽屉开着。",
+          "mode": "object",
+          "evidence": "框拉开的抽屉，不把柜体整体当抽屉。"
+        },
+        {
+          "word": "box",
+          "zh": "盒子",
+          "pos": "noun (countable)",
+          "us": "/bɑːks/",
+          "uk": "/bɒks/",
+          "collocations": [
+            "a small box",
+            "put a box away"
+          ],
+          "example": "The box fits in the drawer.",
+          "translation": "这个盒子能放进抽屉。",
+          "mode": "object",
+          "evidence": "框人物手中的单个纸盒。"
+        },
+        {
+          "word": "cushion",
+          "zh": "靠垫",
+          "pos": "noun (countable)",
+          "us": "/ˈkʊʃ.ən/",
+          "uk": "/ˈkʊʃ.ən/",
+          "collocations": [
+            "a soft cushion",
+            "a sofa cushion"
+          ],
+          "example": "A cushion is on the sofa.",
+          "translation": "沙发上有一个靠垫。",
+          "mode": "object",
+          "evidence": "只框沙发上独立的靠垫，不框沙发座垫。"
+        },
+        {
+          "word": "put",
+          "zh": "放置",
+          "pos": "verb (transitive)",
+          "us": "/pʊt/",
+          "uk": "/pʊt/",
+          "collocations": [
+            "put a box in a drawer",
+            "put things away"
+          ],
+          "example": "I put the box in the drawer.",
+          "translation": "我把盒子放进抽屉。",
+          "mode": "action",
+          "evidence": "定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。"
+        },
+        {
+          "word": "a",
+          "zh": "一个（初次提及）",
+          "bubble_zh": "一个",
+          "pos": "indefinite article",
+          "us": "/ə/ (weak), /eɪ/ (strong)",
+          "uk": "/ə/ (weak), /eɪ/ (strong)",
+          "collocations": [
+            "a box",
+            "a cushion"
+          ],
+          "example": "I have a box.",
+          "translation": "我有一个盒子。",
+          "mode": "context",
+          "evidence": "句中高亮 a，首次引入一个盒子；不设置冠词物体框。"
+        },
+        {
+          "word": "the",
+          "zh": "这个（已知的）",
+          "bubble_zh": "这个（特指）",
+          "pos": "definite article",
+          "us": "/ðə/ (weak before consonant), /ðiː/ (strong)",
+          "uk": "/ðə/ (weak before consonant), /ðiː/ (strong)",
+          "collocations": [
+            "the box",
+            "the drawer"
+          ],
+          "example": "I put the box in the drawer.",
+          "translation": "我把那个盒子放进那个抽屉。",
+          "mode": "context",
+          "evidence": "接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。"
+        },
+        {
+          "word": "space",
+          "zh": "可用空间",
+          "pos": "noun (uncountable)",
+          "us": "/speɪs/",
+          "uk": "/speɪs/",
+          "collocations": [
+            "make space",
+            "more space"
+          ],
+          "example": "There is space on the floor.",
+          "translation": "地板上有空地方。",
+          "mode": "object",
+          "evidence": "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "filename": "C079-保护私人资料.png",
+  "labels": [
+    {
+      "x": 639,
+      "y": 602,
+      "english": "private",
+      "chinese": "私人的",
+      "phoneticUS": "/ˈpraɪvət/",
+      "phoneticUK": "/ˈpraɪvət/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 640
+      },
+      "anchorPosition": {
+        "x": 639,
+        "y": 602
+      },
+      "boundingBox": {
+        "left": 449,
+        "top": 513,
+        "right": 829,
+        "bottom": 692
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（私人的），待最终图确认。",
+        "association": "场景中体现的具体对象（私人的），待最终图确认。",
+        "collocation": "private papers; keep private",
+        "example": "I keep private papers in the folder inside the lockable box.",
+        "exampleChinese": "我把私人文件放在可上锁盒子里的文件夹中。"
+      }
+    },
+    {
+      "x": 160,
+      "y": 100,
+      "english": "secret",
+      "chinese": "秘密",
+      "phoneticUS": "/ˈsiːkrət/",
+      "phoneticUK": "/ˈsiːkrət/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I do not share a personal secret without permission.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I do not share a personal secret without permission.；不声称该状态/含义本身在画面可见。",
+        "collocation": "keep a secret; a personal secret",
+        "example": "I do not share a personal secret without permission.",
+        "exampleChinese": "未经允许，我不分享个人秘密。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 120,
+      "english": "property",
+      "chinese": "财产",
+      "phoneticUS": "/ˈprɑːpɚti/",
+      "phoneticUK": "/ˈprɒpəti/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 120
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：These documents concern my personal property.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：These documents concern my personal property.；不声称该状态/含义本身在画面可见。",
+        "collocation": "personal property; protect property",
+        "example": "These documents concern my personal property.",
+        "exampleChinese": "这些文件涉及我的个人财产。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 320,
+      "english": "insurance",
+      "chinese": "保险",
+      "phoneticUS": "/ɪnˈʃʊrəns/",
+      "phoneticUK": "/ɪnˈʃʊərəns/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 320
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My insurance papers stay in the folder.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My insurance papers stay in the folder.；不声称该状态/含义本身在画面可见。",
+        "collocation": "insurance papers; an insurance policy",
+        "example": "My insurance papers stay in the folder.",
+        "exampleChinese": "我的保险文件放在文件夹里。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 560,
+      "english": "loss",
+      "chinese": "损失",
+      "phoneticUS": "/lɔːs/",
+      "phoneticUK": "/lɒs/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 560
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I keep copies to reduce the risk of loss.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I keep copies to reduce the risk of loss.；不声称该状态/含义本身在画面可见。",
+        "collocation": "prevent loss; a possible loss",
+        "example": "I keep copies to reduce the risk of loss.",
+        "exampleChinese": "我保留副本以降低损失的风险。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 720,
+      "english": "limit",
+      "chinese": "限制",
+      "phoneticUS": "/ˈlɪmɪt/",
+      "phoneticUK": "/ˈlɪmɪt/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 720
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I limit access to the private documents.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I limit access to the private documents.；不声称该状态/含义本身在画面可见。",
+        "collocation": "limit access; limit sharing",
+        "example": "I limit access to the private documents.",
+        "exampleChinese": "我限制对私人文件的访问。"
+      }
+    },
+    {
+      "x": 170,
+      "y": 935,
+      "english": "necessary",
+      "chinese": "必要的",
+      "phoneticUS": "/ˈnesəseri/",
+      "phoneticUK": "/ˈnesəsəri/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A safe place for these papers is necessary.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A safe place for these papers is necessary.；不声称该状态/含义本身在画面可见。",
+        "collocation": "be necessary; necessary information",
+        "example": "A safe place for these papers is necessary.",
+        "exampleChinese": "为这些文件找一个安全的地方是必要的。"
+      }
+    },
+    {
+      "x": 845,
+      "y": 930,
+      "english": "important",
+      "chinese": "重要的",
+      "phoneticUS": "/ɪmˈpɔːrtənt/",
+      "phoneticUK": "/ɪmˈpɔːtənt/",
+      "bubblePosition": {
+        "x": 845,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Protecting important information is part of my routine.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Protecting important information is part of my routine.；不声称该状态/含义本身在画面可见。",
+        "collocation": "important information; an important document",
+        "example": "Protecting important information is part of my routine.",
+        "exampleChinese": "保护重要信息是我日常工作的一部分。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I keep private papers in a folder inside a lockable box and limit access to important information.",
+    "chinese": "我把私人文件放进可上锁盒子里的文件夹，限制对重要信息的访问。",
+    "source": "原创配文 · C079 保护私人资料",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

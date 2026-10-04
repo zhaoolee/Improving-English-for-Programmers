@@ -1,0 +1,342 @@
+{
+  "id": "C005",
+  "chapter": "家里的一天",
+  "title": "一家人围桌",
+  "scene": "一桌家庭聚餐，父母、兄弟姐妹各有清晰座位。",
+  "target_count": 7,
+  "primary_words": [
+    "family",
+    "father",
+    "mother",
+    "brother",
+    "sister",
+    "table",
+    "together"
+  ],
+  "targets": [
+    {
+      "word_id": "W252",
+      "word": "family",
+      "aliases": [],
+      "source_zh_unreviewed": "家庭；家族",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "家人",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈfæməli/",
+      "ipa_uk": "/ˈfæməli/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+        "sentence": "We are a family.",
+        "matched_form": "family",
+        "context": "五人用餐画面与原创家庭设定、句中 family 共同说明；照片外貌不能证明亲属关系。",
+        "image_verified": null
+      },
+      "example_en": "We are a family.",
+      "example_zh": "我们是一家人。",
+      "bbox_normalized": [
+        0.005,
+        0.344,
+        0.995,
+        0.795
+      ],
+      "collocations": [
+        "my family",
+        "a family dinner"
+      ],
+      "example_en_highlighted": "We are a **family**.",
+      "annotation_mode": "object",
+      "annotation_note": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/family_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W256",
+      "word": "father",
+      "aliases": [],
+      "source_zh_unreviewed": "父亲；爸爸",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "父亲",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈfɑːðər/",
+      "ipa_uk": "/ˈfɑːðə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧蓝灰针织衫男性为原创故事设定中的父亲；框只定位所指人物，亲属关系来自故事与例句，不从外貌认定。",
+        "sentence": "My father sits on the left.",
+        "matched_form": "father",
+        "context": "原创设定：左侧蓝灰针织衫中年男性为父亲；关系由设定与例句明确，不由年龄外貌推断，不设物体框。",
+        "image_verified": null
+      },
+      "example_en": "My father sits on the left.",
+      "example_zh": "我的父亲坐在左边。",
+      "bbox_normalized": [
+        0.005,
+        0.348,
+        0.269,
+        0.74
+      ],
+      "collocations": [
+        "my father",
+        "a father and mother"
+      ],
+      "example_en_highlighted": "My **father** sits on the left.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧蓝灰针织衫男性为原创故事设定中的父亲；框只定位所指人物，亲属关系来自故事与例句，不从外貌认定。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/father_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W453",
+      "word": "mother",
+      "aliases": [],
+      "source_zh_unreviewed": "母亲",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "母亲",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈmʌðər/",
+      "ipa_uk": "/ˈmʌðə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左中奶白上衣女性为原创故事设定中的母亲；区域只定位所指人物，亲属身份来自故事与例句。",
+        "sentence": "My mother sits beside my father.",
+        "matched_form": "mother",
+        "context": "原创设定：左中奶白上衣中年女性为母亲；人物亲属关系仅由故事设定与句子确认，不设物体框。",
+        "image_verified": null
+      },
+      "example_en": "My mother sits beside my father.",
+      "example_zh": "我的母亲坐在父亲旁边。",
+      "bbox_normalized": [
+        0.185,
+        0.381,
+        0.411,
+        0.685
+      ],
+      "collocations": [
+        "my mother",
+        "my father and mother"
+      ],
+      "example_en_highlighted": "My **mother** sits beside my father.",
+      "annotation_mode": "object",
+      "annotation_note": "左中奶白上衣女性为原创故事设定中的母亲；区域只定位所指人物，亲属身份来自故事与例句。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mother_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W098",
+      "word": "brother",
+      "aliases": [],
+      "source_zh_unreviewed": "兄弟",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "兄弟",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈbrʌðər/",
+      "ipa_uk": "/ˈbrʌðə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右中蓝衬衫男性为原创故事设定中的兄弟；区域只定位所指人物，不由性别或年龄推断亲属身份。",
+        "sentence": "My brother wears a blue shirt.",
+        "matched_form": "brother",
+        "context": "原创设定：右中蓝色衬衫成年男性为主人公的兄弟；不把所有年轻男性推断成兄弟。",
+        "image_verified": null
+      },
+      "example_en": "My brother wears a blue shirt.",
+      "example_zh": "我的兄弟穿着蓝色衬衫。",
+      "bbox_normalized": [
+        0.609,
+        0.34,
+        0.846,
+        0.73
+      ],
+      "collocations": [
+        "my brother",
+        "an older brother"
+      ],
+      "example_en_highlighted": "My **brother** wears a blue shirt.",
+      "annotation_mode": "object",
+      "annotation_note": "右中蓝衬衫男性为原创故事设定中的兄弟；区域只定位所指人物，不由性别或年龄推断亲属身份。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/brother_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W657",
+      "word": "sister",
+      "aliases": [],
+      "source_zh_unreviewed": "姐妹",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "姐妹",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈsɪstər/",
+      "ipa_uk": "/ˈsɪstə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "最右侧浅灰开衫女性为原创故事设定中的姐妹；区域只定位所指人物，亲属关系由故事确定。",
+        "sentence": "My sister wears a grey cardigan.",
+        "matched_form": "sister",
+        "context": "原创设定：右侧浅灰开衫成年女性为主人公的姐妹；关系靠原创故事和例句，不设物体框。",
+        "image_verified": null
+      },
+      "example_en": "My sister wears a grey cardigan.",
+      "example_zh": "我的姐妹穿着灰色开衫。",
+      "bbox_normalized": [
+        0.793,
+        0.394,
+        0.995,
+        0.797
+      ],
+      "collocations": [
+        "my sister",
+        "a younger sister"
+      ],
+      "example_en_highlighted": "My **sister** wears a grey cardigan.",
+      "annotation_mode": "object",
+      "annotation_note": "最右侧浅灰开衫女性为原创故事设定中的姐妹；区域只定位所指人物，亲属关系由故事确定。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sister",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W734",
+      "word": "table",
+      "aliases": [],
+      "source_zh_unreviewed": "桌子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "桌子",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈteɪbl/",
+      "ipa_uk": "/ˈteɪbl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框餐桌可见桌面，不把所有家人或椅子算作桌子。",
+        "sentence": "The plates are on the table.",
+        "matched_form": "table",
+        "image_verified": true
+      },
+      "example_en": "The plates are on the table.",
+      "example_zh": "盘子放在桌上。",
+      "bbox_normalized": [
+        0.072,
+        0.596,
+        0.995,
+        0.775
+      ],
+      "collocations": [
+        "at the table",
+        "a dining table"
+      ],
+      "example_en_highlighted": "The plates are on the **table**.",
+      "annotation_mode": "object",
+      "annotation_note": "框餐桌可见桌面，不把所有家人或椅子算作桌子。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/table_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W769",
+      "word": "together",
+      "aliases": [],
+      "source_zh_unreviewed": "一起",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "一起",
+      "pos": "adverb",
+      "ipa_us": "/təˈɡeðər/",
+      "ipa_uk": "/təˈɡeðə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+        "sentence": "We sit together at the table.",
+        "matched_form": "together",
+        "context": "同桌聚餐关系与 together 句子对应；一起不是独立物体，不设框。",
+        "image_verified": null
+      },
+      "example_en": "We sit together at the table.",
+      "example_zh": "我们一起坐在桌旁。",
+      "bbox_normalized": [
+        0.005,
+        0.344,
+        0.995,
+        0.795
+      ],
+      "collocations": [
+        "sit together",
+        "eat together"
+      ],
+      "example_en_highlighted": "We sit **together** at the table.",
+      "annotation_mode": "object",
+      "annotation_note": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/together_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "My family sits together at the table for dinner.",
+    "zh": "我的家人一起坐在桌旁吃晚饭。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C005\n标题 一家人围桌\n场景 一桌家庭聚餐，父母、兄弟姐妹各有清晰座位。\n目标词 family, father, mother, brother, sister, table, together\n原创主配文草案 The family is together at the table.\n中文草案 一家人一起坐在桌旁。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Single refined photorealistic Korean cool editorial family lifestyle photograph, vertical 4:5. An elegant airy apartment dining room in soft cool white late afternoon natural light. Exactly FIVE distinct East Asian ADULT family members sit naturally around ONE light oak dining TABLE with simple bowls, plates and a modest shared dinner, no clutter, no text or brands. All faces visible and separated, physically coherent five chairs and five place settings, candid small smiles and natural gazes. Seat arrangement across the frame: father around 55 in a muted blue-grey knit sweater at far LEFT; mother around 53 in a cream blouse just beside him at left-middle; our protagonist an adult woman around 25 with ivory fine knit cardigan and loose low bun at CENTER behind the table; her adult brother around 28 in a slate blue collared shirt at right-middle; her adult sister around 22 in a pale grey cardigan at far RIGHT. These are fictional cast roles for a learning story; do not put labels on them. Three women and two men, no duplicate faces, no extra person. Show the table surface clearly over the lower third, everyone from waist up, both table edges and connected room space visible, keep people appropriately smaller so group fits comfortably in a vertical environmental portrait. Refined Instagram Korean cool aesthetic, pearl white mist grey muted blue palette, quiet polished composition, sophisticated skin retouch retaining pores and individual hair, authentic fabric and wood, realistic facial anatomy, natural hands resting on table or lightly holding chopsticks, no CGI, waxy skin or exaggerated expressions. Leave modest plain wall above the group and table foreground for later annotation bubbles. No words, lettering, numbers, labels, speech bubbles, logos, watermark or app UI.",
+  "status": "approved",
+  "image_path": "images/C005.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 7,
+    "content_entries_complete": 7,
+    "sentence_evidence_complete": 7,
+    "verified_targets": 7,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 6,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C005 的逐词编辑及底图视觉复核完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T11:02:16Z",
+    "ended_at": "2026-10-02T11:04:44Z",
+    "prompt_path": "prompts/C005_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C005.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "五位成年人物各有清晰座位，中央成年年轻女性为叙述者；按原创故事，左侧蓝灰针织衫男性为父亲，左中奶白衬衫女性为母亲，右中蓝衬衫男性为兄弟，右侧灰开衫女性为姐妹。图像支持衣着/位置但不证明亲属身份，亲属词均以故事和例句覆盖，无人物物体框。餐桌和盘碗可辨。五人脸和手自然，无重复人物或可读文字标注。"
+  }
+}

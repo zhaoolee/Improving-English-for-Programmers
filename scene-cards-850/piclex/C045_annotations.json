@@ -1,0 +1,305 @@
+{
+  "filename": "C045-自然观察小径.png",
+  "labels": [
+    {
+      "x": 891,
+      "y": 173,
+      "english": "bird",
+      "chinese": "鸟",
+      "phoneticUS": "/bɜːrd/",
+      "phoneticUK": "/bɜːd/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 891,
+        "y": 173
+      },
+      "boundingBox": {
+        "left": 836,
+        "top": 120,
+        "right": 941,
+        "bottom": 214
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅独立鸟体。",
+        "association": "上幅独立鸟体。",
+        "collocation": "a small bird",
+        "example": "A bird rests on the branch.",
+        "exampleChinese": "一只鸟停在树枝上。"
+      }
+    },
+    {
+      "x": 141,
+      "y": 829,
+      "english": "monkey",
+      "chinese": "猴子",
+      "phoneticUS": "/ˈmʌŋki/",
+      "phoneticUK": "/ˈmʌŋki/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 141,
+        "y": 829
+      },
+      "boundingBox": {
+        "left": 49,
+        "top": 636,
+        "right": 276,
+        "bottom": 934
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下左小幅独立猴子。",
+        "association": "下左小幅独立猴子。",
+        "collocation": "a small monkey",
+        "example": "The monkey sits on a branch.",
+        "exampleChinese": "猴子坐在树枝上。"
+      }
+    },
+    {
+      "x": 529,
+      "y": 828,
+      "english": "snake",
+      "chinese": "蛇",
+      "phoneticUS": "/sneɪk/",
+      "phoneticUK": "/sneɪk/",
+      "bubblePosition": {
+        "x": 515,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 529,
+        "y": 828
+      },
+      "boundingBox": {
+        "left": 365,
+        "top": 741,
+        "right": 654,
+        "bottom": 882
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下中小幅蛇体，不从外貌鉴定毒性。",
+        "association": "下中小幅蛇体，不从外貌鉴定毒性。",
+        "collocation": "a coiled snake",
+        "example": "The snake lies on the forest floor.",
+        "exampleChinese": "蛇在林地上。"
+      }
+    },
+    {
+      "x": 852,
+      "y": 839,
+      "english": "rat",
+      "chinese": "鼠",
+      "phoneticUS": "/ræt/",
+      "phoneticUK": "/ræt/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 852,
+        "y": 839
+      },
+      "boundingBox": {
+        "left": 691,
+        "top": 723,
+        "right": 958,
+        "bottom": 936
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下右小幅灰褐鼠体与裸尾。",
+        "association": "下右小幅灰褐鼠体与裸尾。",
+        "collocation": "a grey rat",
+        "example": "The rat has a long tail.",
+        "exampleChinese": "这只鼠有长尾巴。"
+      }
+    },
+    {
+      "x": 389,
+      "y": 310,
+      "english": "observation",
+      "chinese": "观察",
+      "phoneticUS": "/ˌɑːbzərˈveɪʃn/",
+      "phoneticUK": "/ˌɒbzəˈveɪʃn/",
+      "bubblePosition": {
+        "x": 600,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 389,
+        "y": 310
+      },
+      "boundingBox": {
+        "left": 106,
+        "top": 164,
+        "right": 468,
+        "bottom": 489
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "持望远镜的实际观察姿势，不声称观察结果已验证。",
+        "association": "持望远镜的实际观察姿势，不声称观察结果已验证。",
+        "collocation": "careful observation",
+        "example": "Careful observation helps us notice animals.",
+        "exampleChinese": "仔细观察帮助我们留意动物。"
+      }
+    },
+    {
+      "x": 428,
+      "y": 205,
+      "english": "look",
+      "chinese": "看",
+      "phoneticUS": "/lʊk/",
+      "phoneticUK": "/lʊk/",
+      "bubblePosition": {
+        "x": 590,
+        "y": 160
+      },
+      "anchorPosition": {
+        "x": 428,
+        "y": 205
+      },
+      "boundingBox": {
+        "left": 280,
+        "top": 160,
+        "right": 441,
+        "bottom": 231
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "人物望远镜与视线方向，句子明确观察对象。",
+        "association": "人物望远镜与视线方向，句子明确观察对象。",
+        "collocation": "look at",
+        "example": "I look at the bird through binoculars.",
+        "exampleChinese": "我透过望远镜看鸟。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 360,
+      "english": "see",
+      "chinese": "看见",
+      "phoneticUS": "/siː/",
+      "phoneticUK": "/siː/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 360
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "视觉感知结果由句子说明，不从姿势推断。",
+        "association": "视觉感知结果由句子说明，不从姿势推断。",
+        "collocation": "see a bird",
+        "example": "I can see a bird on the branch.",
+        "exampleChinese": "我能看见枝上的鸟。"
+      }
+    },
+    {
+      "x": 710,
+      "y": 515,
+      "english": "attention",
+      "chinese": "注意力",
+      "phoneticUS": "/əˈtenʃn/",
+      "phoneticUK": "/əˈtenʃn/",
+      "bubblePosition": {
+        "x": 710,
+        "y": 515
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "心理注意状态不可独立框选。",
+        "association": "心理注意状态不可独立框选。",
+        "collocation": "pay attention",
+        "example": "I pay attention to the animals around me.",
+        "exampleChinese": "我注意周围的动物。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 70,
+      "english": "strange",
+      "chinese": "陌生的",
+      "phoneticUS": "/streɪndʒ/",
+      "phoneticUK": "/streɪndʒ/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 70
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "陌生声响是原创语境，静态图不能提供声音证据。",
+        "association": "陌生声响是原创语境，静态图不能提供声音证据。",
+        "collocation": "a strange sound",
+        "example": "A strange sound comes from the trees.",
+        "exampleChinese": "树间传来陌生的声响。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I look, listen, and leave space for the animals along the path.",
+    "chinese": "沿着小径，我观看、倾听，也给动物留下空间。",
+    "source": "原创配文 · C045 自然观察小径",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,330 @@
+{
+  "id": "C074",
+  "chapter": "工作与信息",
+  "title": "报刊摊与广告",
+  "scene": "报刊摊前读新闻，广告和正式声明相邻；旁白区分新闻与事实，以 as 与 by 说明身份与方式。",
+  "target_count": 7,
+  "primary_words": [
+    "news",
+    "advertisement",
+    "statement",
+    "public",
+    "fact",
+    "as",
+    "by"
+  ],
+  "targets": [
+    {
+      "word_id": "W474",
+      "word": "news",
+      "aliases": [],
+      "source_zh_unreviewed": "新闻",
+      "planned_mode": "context",
+      "sense_zh": "新闻",
+      "pos": "noun",
+      "ipa_us": "/nuːz/",
+      "ipa_uk": "/njuːz/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "女子持有的报纸，故事明确在读新闻。",
+        "sentence": "I read the news in a newspaper.",
+        "matched_form": "news",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I read the news in a newspaper.",
+      "example_zh": "我从报纸上读新闻。",
+      "bbox_normalized": [
+        0.338,
+        0.377,
+        0.773,
+        0.631
+      ],
+      "collocations": [
+        "read the news",
+        "local news"
+      ],
+      "example_en_highlighted": "I read the **news** in a newspaper.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（新闻），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W010",
+      "word": "advertisement",
+      "aliases": [],
+      "source_zh_unreviewed": "广告",
+      "planned_mode": "context",
+      "sense_zh": "广告",
+      "pos": "noun",
+      "ipa_us": "/ˌædvɚˈtaɪzmənt/",
+      "ipa_uk": "/ədˈvɜːtɪsmənt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右上茶杯海报，故事指定茶广告。",
+        "sentence": "The poster is an advertisement for tea.",
+        "matched_form": "advertisement",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The poster is an advertisement for tea.",
+      "example_zh": "这张海报是一则茶的广告。",
+      "bbox_normalized": [
+        0.785,
+        0.043,
+        0.991,
+        0.396
+      ],
+      "collocations": [
+        "an advertisement for",
+        "a printed advertisement"
+      ],
+      "example_en_highlighted": "The poster is an **advertisement** for tea.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（广告），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W699",
+      "word": "statement",
+      "aliases": [],
+      "source_zh_unreviewed": "声明",
+      "planned_mode": "context",
+      "sense_zh": "声明",
+      "pos": "noun",
+      "ipa_us": "/ˈsteɪtmənt/",
+      "ipa_uk": "/ˈsteɪtmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The article includes an official statement.",
+        "matched_form": "statement",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The article includes an official statement.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The article includes an official statement.",
+      "example_zh": "这篇文章包含一份官方声明。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an official statement",
+        "make a statement"
+      ],
+      "example_en_highlighted": "The article includes an official **statement**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The article includes an official statement.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W561",
+      "word": "public",
+      "aliases": [],
+      "source_zh_unreviewed": "公共的；公众的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "公共的",
+      "pos": "adjective",
+      "ipa_us": "/ˈpʌblɪk/",
+      "ipa_uk": "/ˈpʌblɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The stand is in a public place.",
+        "matched_form": "public",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The stand is in a public place.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The stand is in a public place.",
+      "example_zh": "这个报刊摊位于公共场所。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a public place",
+        "public access"
+      ],
+      "example_en_highlighted": "The stand is in a **public** place.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The stand is in a public place.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W249",
+      "word": "fact",
+      "aliases": [],
+      "source_zh_unreviewed": "事实；实际",
+      "planned_mode": "context",
+      "sense_zh": "事实",
+      "pos": "noun",
+      "ipa_us": "/fækt/",
+      "ipa_uk": "/fækt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I check each fact before sharing the news.",
+        "matched_form": "fact",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I check each fact before sharing the news.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I check each fact before sharing the news.",
+      "example_zh": "分享新闻前，我核对每一个事实。",
+      "bbox_normalized": null,
+      "collocations": [
+        "check a fact",
+        "a known fact"
+      ],
+      "example_en_highlighted": "I check each **fact** before sharing the news.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I check each fact before sharing the news.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W036",
+      "word": "as",
+      "aliases": [],
+      "source_zh_unreviewed": "如同；当作",
+      "planned_mode": "context",
+      "sense_zh": "作为",
+      "pos": "preposition",
+      "ipa_us": "/æz/",
+      "ipa_uk": "/æz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "As a reader, I ask careful questions.",
+        "matched_form": "as",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：As a reader, I ask careful questions.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "As a reader, I ask careful questions.",
+      "example_zh": "作为读者，我审慎地提出问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "as a reader",
+        "work as"
+      ],
+      "example_en_highlighted": "**As** a reader, I ask careful questions.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：As a reader, I ask careful questions.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W110",
+      "word": "by",
+      "aliases": [],
+      "source_zh_unreviewed": "通过；靠近",
+      "planned_mode": "context",
+      "sense_zh": "通过",
+      "pos": "preposition",
+      "ipa_us": "/baɪ/",
+      "ipa_uk": "/baɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I learn by reading and checking sources.",
+        "matched_form": "by",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I learn by reading and checking sources.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I learn by reading and checking sources.",
+      "example_zh": "我通过阅读和核对来源学习。",
+      "bbox_normalized": null,
+      "collocations": [
+        "by reading",
+        "by checking"
+      ],
+      "example_en_highlighted": "I learn **by** reading and checking sources.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I learn by reading and checking sources.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I read the news at a public stand and check each fact carefully.",
+    "zh": "我在公共报刊摊阅读新闻，认真核对每一个事实。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C074\n标题 报刊摊与广告\n场景 报刊摊前读新闻，广告和正式声明相邻；旁白区分新闻与事实，以 as 与 by 说明身份与方式。\n目标词 news, advertisement, statement, public, fact, as, by\n原创主配文草案 The news is public, but is it a fact?\n中文草案 新闻公开了，但它是事实吗？\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman reading a folded newspaper at elegant street kiosk cool morning. Distinct newspaper columns as unreadable thin lines, picture-led plain advertisement poster on side showing generic teacup only, public pavement, magazines neatly displayed. No readable text or logos. Natural Korean travel editorial portrait, newspaper and poster clear and separate, room edges.",
+  "status": "approved",
+  "image_path": "images/C074.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 7,
+    "content_entries_complete": 7,
+    "sentence_evidence_complete": 7,
+    "verified_targets": 7,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C074 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:36:31 UTC",
+    "prompt_path": "prompts/C074_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C074.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "读报和独立茶杯海报清楚。报纸细字不作信息来源，广告性质及新闻内容由原创教学故事指定。"
+  }
+}

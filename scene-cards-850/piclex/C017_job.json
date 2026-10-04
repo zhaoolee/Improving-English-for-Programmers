@@ -1,0 +1,20 @@
+{
+  "cardID": "C017",
+  "imagePath": "../images/C017.png",
+  "imageSHA256": "689b8525090b00fcbdaa288f689ce2fbaf1ae8f94f6a80b561bb8c58cd2bbb51",
+  "imageReviewed": true,
+  "annotationsPath": "C017_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "meat",
+    "fat",
+    "oil",
+    "salt",
+    "mixed",
+    "amount",
+    "addition",
+    "enough",
+    "sticky"
+  ],
+  "receiptPath": "C017_import_receipt.json"
+}

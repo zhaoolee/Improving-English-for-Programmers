@@ -1,0 +1,20 @@
+{
+  "cardID": "C004",
+  "imagePath": "../images/C004.png",
+  "imageSHA256": "4053b58ece1eba47e2072b670aaa6d2749030ca5341901828a1c61767a1d354c",
+  "imageReviewed": true,
+  "annotationsPath": "C004_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "door",
+    "key",
+    "lock",
+    "open",
+    "shut",
+    "house",
+    "come",
+    "in",
+    "bell"
+  ],
+  "receiptPath": "C004_import_receipt.json"
+}

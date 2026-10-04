@@ -1,0 +1,203 @@
+C068  摄影与胶片记录
+========================================================================
+章节: 学习与艺术
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C068.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C068.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:16:08 UTC → 2026-10-03 17:21:00 UTC
+  提示词文件: prompts/C068_image_final.txt
+
+场景: 主角用相机拍摄，重复拍摄、照片印出、复制、标记和留档的过程清楚。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 手中相机、两张相似景观照片、打印机出纸照片和左照片黑点均清楚。记录与再次发生用句子。
+
+主配文:
+  英文: I use my camera again, then make a print and a copy to keep.
+  中文: 我再次使用相机，然后印出一张照片，再留一份副本。
+  类型: original | 来源: None | 状态: final
+
+目标词 (6): camera, record, copy, print, mark, again
+
+------------------------------------------------------------------------
+[1/6] camera  (W112)
+  词义: 相机
+  词性: noun
+  音标: UK /ˈkæmərə/ | US /ˈkæmərə/
+  搭配: use a camera; a digital camera
+  例句: I hold the camera with both hands.
+  例句高亮: I hold the **camera** with both hands.
+  例句中文: 我用双手拿着相机。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（相机），待最终图确认。
+  坐标(normalized): [0.384, 0.367, 0.629, 0.552]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双手间的无标相机镜头及机身。"
+    sentence: "I hold the camera with both hands."
+    matched_form: "camera"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 照相机
+
+------------------------------------------------------------------------
+[2/6] record  (W584)
+  词义: 记录
+  词性: noun
+  音标: UK /ˈrekɔːd/ | US /ˈrekɚd/
+  搭配: a record of; keep a record
+  例句: The photo is a record of our trip.
+  例句高亮: The photo is a **record** of our trip.
+  例句中文: 这张照片是我们旅行的记录。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The photo is a record of our trip.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The photo is a record of our trip."
+    matched_form: "record"
+    context: "由原创例句给出的语境：The photo is a record of our trip.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 记录；唱片
+
+------------------------------------------------------------------------
+[3/6] copy  (W159)
+  词义: 副本
+  词性: noun
+  音标: UK /ˈkɒpi/ | US /ˈkɑːpi/
+  搭配: a second copy; make a copy
+  例句: The second photo is a copy of the first.
+  例句高亮: The second photo is a **copy** of the first.
+  例句中文: 第二张照片是第一张的副本。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（副本），待最终图确认。
+  坐标(normalized): [0.41, 0.808, 0.695, 0.926]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中间的同景观照片作为左照片副本，由故事指定。"
+    sentence: "The second photo is a copy of the first."
+    matched_form: "copy"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 复制
+
+------------------------------------------------------------------------
+[4/6] print  (W551)
+  词义: 冲印照片
+  词性: noun
+  音标: UK /prɪnt/ | US /prɪnt/
+  搭配: a photo print; make a print
+  例句: A photo print comes out of the printer.
+  例句高亮: A photo **print** comes out of the printer.
+  例句中文: 一张冲印照片从打印机里出来。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（冲印照片），待最终图确认。
+  坐标(normalized): [0.72, 0.793, 0.996, 0.914]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "从右侧打印机伸出的照片。"
+    sentence: "A photo print comes out of the printer."
+    matched_form: "print"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 印刷；打印
+
+------------------------------------------------------------------------
+[5/6] mark  (W426)
+  词义: 印记
+  词性: noun
+  音标: UK /mɑːk/ | US /mɑːrk/
+  搭配: a small mark; leave a mark
+  例句: A small dark mark is on the white border.
+  例句高亮: A small dark **mark** is on the white border.
+  例句中文: 白色边框上有一个深色的小印记。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（印记），待最终图确认。
+  坐标(normalized): [0.376, 0.912, 0.401, 0.924]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左照片白边上的独立黑圆点。"
+    sentence: "A small dark mark is on the white border."
+    matched_form: "mark"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 标记；记号
+
+------------------------------------------------------------------------
+[6/6] again  (W012)
+  词义: 再一次
+  词性: adverb
+  音标: UK /əˈɡen/ | US /əˈɡen/
+  搭配: try again; once again
+  例句: I use the camera again after lunch.
+  例句高亮: I use the camera **again** after lunch.
+  例句中文: 午饭后，我再次使用相机。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I use the camera again after lunch.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I use the camera again after lunch."
+    matched_form: "again"
+    context: "由原创例句给出的语境：I use the camera again after lunch.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 再次；又；重新
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 6
+  content_entries_complete: 6
+  sentence_evidence_complete: 6
+  verified_targets: 6
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C068 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=69 | meta.approved_cards=70
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. One cool editorial travel photography workspace scene. Adult woman holds recognizable mirrorless camera with round lens upper half. Lower tabletop close: two identical physical small photo prints of a seaside landscape beside each other, plain photo printer at far right with one landscape print emerging, dark small round ink mark on white border of left print, no letters or numbers. Prints convincingly identical copies, printer no logos; camera and normal fingers clear.

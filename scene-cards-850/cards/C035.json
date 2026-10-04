@@ -1,0 +1,458 @@
+{
+  "id": "C035",
+  "chapter": "城市与出行",
+  "title": "进出与上下",
+  "scene": "建筑入口与电梯双幅场景，箭头呈现进入出去、上行下行。",
+  "target_count": 10,
+  "primary_words": [
+    "building",
+    "lift",
+    "up",
+    "down",
+    "out",
+    "off",
+    "on",
+    "go",
+    "under",
+    "over"
+  ],
+  "targets": [
+    {
+      "word_id": "W102",
+      "word": "building",
+      "aliases": [],
+      "source_zh_unreviewed": "建筑物",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "建筑",
+      "pos": "noun",
+      "ipa_us": "/ˈbɪldɪŋ/",
+      "ipa_uk": "/ˈbɪldɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅建筑立面与玻璃入口。",
+        "sentence": "The building has a glass entrance.",
+        "matched_form": "building",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The building has a glass entrance.",
+      "example_zh": "这栋建筑有一个玻璃入口。",
+      "bbox_normalized": [
+        0.213,
+        0.0,
+        0.998,
+        0.43
+      ],
+      "collocations": [
+        "a modern building"
+      ],
+      "example_en_highlighted": "The **building** has a glass entrance.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅建筑立面与玻璃入口。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W401",
+      "word": "lift",
+      "aliases": [],
+      "source_zh_unreviewed": "举起；电梯",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "电梯",
+      "pos": "noun",
+      "ipa_us": "/lɪft/",
+      "ipa_uk": "/lɪft/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅玻璃电梯厢与门框，不是扶梯。",
+        "sentence": "I take the lift to the next floor.",
+        "matched_form": "lift",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I take the lift to the next floor.",
+      "example_zh": "我乘电梯到上一层。",
+      "bbox_normalized": [
+        0.011,
+        0.502,
+        0.991,
+        0.997
+      ],
+      "collocations": [
+        "take the lift"
+      ],
+      "example_en_highlighted": "I take the **lift** to the next floor.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅玻璃电梯厢与门框，不是扶梯。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W790",
+      "word": "up",
+      "aliases": [],
+      "source_zh_unreviewed": "向上",
+      "planned_mode": "context",
+      "sense_zh": "向上",
+      "pos": "adverb",
+      "ipa_us": "/ʌp/",
+      "ipa_uk": "/ʌp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "电梯面板上方按钮实际向上箭头，方向清楚，不宣称电梯正在上行。",
+        "sentence": "The arrow points up.",
+        "matched_form": "up",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The arrow points up.",
+      "example_zh": "箭头指向上方。",
+      "bbox_normalized": [
+        0.85,
+        0.744,
+        0.891,
+        0.774
+      ],
+      "collocations": [
+        "go up"
+      ],
+      "example_en_highlighted": "The arrow points **up**.",
+      "annotation_mode": "relation",
+      "annotation_note": "电梯面板上方按钮实际向上箭头，方向清楚，不宣称电梯正在上行。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W213",
+      "word": "down",
+      "aliases": [],
+      "source_zh_unreviewed": "向下",
+      "planned_mode": "context",
+      "sense_zh": "向下",
+      "pos": "adverb",
+      "ipa_us": "/daʊn/",
+      "ipa_uk": "/daʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "电梯面板下方按钮实际向下箭头，方向清楚，不宣称电梯正在下行。",
+        "sentence": "The arrow points down.",
+        "matched_form": "down",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The arrow points down.",
+      "example_zh": "箭头指向下方。",
+      "bbox_normalized": [
+        0.85,
+        0.798,
+        0.891,
+        0.83
+      ],
+      "collocations": [
+        "go down"
+      ],
+      "example_en_highlighted": "The arrow points **down**.",
+      "annotation_mode": "relation",
+      "annotation_note": "电梯面板下方按钮实际向下箭头，方向清楚，不宣称电梯正在下行。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W505",
+      "word": "out",
+      "aliases": [],
+      "source_zh_unreviewed": "出去",
+      "planned_mode": "context",
+      "sense_zh": "到外面",
+      "pos": "adverb",
+      "ipa_us": "/aʊt/",
+      "ipa_uk": "/aʊt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅跨越门槛的主人公与门口，句子给出外出方向。",
+        "sentence": "I step out through the entrance.",
+        "matched_form": "out",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I step out through the entrance.",
+      "example_zh": "我穿过入口走到外面。",
+      "bbox_normalized": [
+        0.456,
+        0.172,
+        0.708,
+        0.471
+      ],
+      "collocations": [
+        "go out"
+      ],
+      "example_en_highlighted": "I step **out** through the entrance.",
+      "annotation_mode": "relation",
+      "annotation_note": "上幅跨越门槛的主人公与门口，句子给出外出方向。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W488",
+      "word": "off",
+      "aliases": [],
+      "source_zh_unreviewed": "离开；关闭",
+      "planned_mode": "context",
+      "sense_zh": "关着",
+      "pos": "adverb",
+      "ipa_us": "/ɔːf/",
+      "ipa_uk": "/ɒf/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I turn off the light before leaving home.",
+        "matched_form": "off",
+        "referent_region_verified": false,
+        "context": "独立原创离家例句，不将电梯照片当成关灯证据。",
+        "image_verified": null
+      },
+      "example_en": "I turn off the light before leaving home.",
+      "example_zh": "离家前我把灯关掉。",
+      "bbox_normalized": null,
+      "collocations": [
+        "turn off"
+      ],
+      "example_en_highlighted": "I turn **off** the light before leaving home.",
+      "annotation_mode": "context",
+      "annotation_note": "独立原创离家例句，不将电梯照片当成关灯证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W493",
+      "word": "on",
+      "aliases": [],
+      "source_zh_unreviewed": "在...上",
+      "planned_mode": "context",
+      "sense_zh": "开着",
+      "pos": "adverb",
+      "ipa_us": "/ɑːn/",
+      "ipa_uk": "/ɒn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The light is on inside the lift.",
+        "matched_form": "on",
+        "referent_region_verified": false,
+        "context": "光亮本身不足以验证开关状态，状态由故事句子明确。",
+        "image_verified": null
+      },
+      "example_en": "The light is on inside the lift.",
+      "example_zh": "电梯里的灯开着。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the light is on"
+      ],
+      "example_en_highlighted": "The light is **on** inside the lift.",
+      "annotation_mode": "context",
+      "annotation_note": "光亮本身不足以验证开关状态，状态由故事句子明确。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W304",
+      "word": "go",
+      "aliases": [],
+      "source_zh_unreviewed": "去",
+      "planned_mode": "context",
+      "sense_zh": "去",
+      "pos": "verb",
+      "ipa_us": "/ɡoʊ/",
+      "ipa_uk": "/ɡəʊ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅人物跨门槛的步行动作，句子说明动作方向。",
+        "sentence": "I go outside through the door.",
+        "matched_form": "go",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I go outside through the door.",
+      "example_zh": "我穿过门走到外面。",
+      "bbox_normalized": [
+        0.456,
+        0.172,
+        0.708,
+        0.471
+      ],
+      "collocations": [
+        "go outside"
+      ],
+      "example_en_highlighted": "I **go** outside through the door.",
+      "annotation_mode": "action",
+      "annotation_note": "上幅人物跨门槛的步行动作，句子说明动作方向。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W788",
+      "word": "under",
+      "aliases": [],
+      "source_zh_unreviewed": "在...下面",
+      "planned_mode": "context",
+      "sense_zh": "在下面",
+      "pos": "preposition",
+      "ipa_us": "/ˈʌndər/",
+      "ipa_uk": "/ˈʌndə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅雨棚与其下人物的实际上下空间关系。",
+        "sentence": "I stand under the canopy.",
+        "matched_form": "under",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I stand under the canopy.",
+      "example_zh": "我站在雨棚下面。",
+      "bbox_normalized": [
+        0.42,
+        0.024,
+        0.69,
+        0.472
+      ],
+      "collocations": [
+        "under the canopy"
+      ],
+      "example_en_highlighted": "I stand **under** the canopy.",
+      "annotation_mode": "relation",
+      "annotation_note": "上幅雨棚与其下人物的实际上下空间关系。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W507",
+      "word": "over",
+      "aliases": [],
+      "source_zh_unreviewed": "结束；在...之上",
+      "planned_mode": "context",
+      "sense_zh": "在上方",
+      "pos": "preposition",
+      "ipa_us": "/ˈoʊvər/",
+      "ipa_uk": "/ˈəʊvə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅雨棚与入口共同构成上方关系。",
+        "sentence": "The canopy is over the entrance.",
+        "matched_form": "over",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The canopy is over the entrance.",
+      "example_zh": "雨棚在入口上方。",
+      "bbox_normalized": [
+        0.323,
+        0.024,
+        0.872,
+        0.428
+      ],
+      "collocations": [
+        "over the entrance"
+      ],
+      "example_en_highlighted": "The canopy is **over** the entrance.",
+      "annotation_mode": "relation",
+      "annotation_note": "上幅雨棚与入口共同构成上方关系。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Out through the entrance, under the canopy, then up in the lift.",
+    "zh": "穿过入口来到外面，走到雨棚下，再乘电梯上楼。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C035\n标题 进出与上下\n场景 建筑入口与电梯双幅场景，箭头呈现进入出去、上行下行。\n目标词 building, lift, up, down, out, off, on, go, under, over\n原创主配文草案 Go up in the lift, then come down.\n中文草案 乘电梯上去，再下来。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. Two clean photographic panels stacked within one portrait frame, same adult woman and coherent cool modern building, no drawn arrows or infographic. Upper half: environmental view of pearl-grey building entrance with broad horizontal canopy overhead, woman full body taking a natural step out through an open glass door underneath canopy. Building facade, canopy, woman and door unobstructed; sky and side wall negative space. Lower half: woman standing inside a glass lift in the same building, side three-quarter view, realistic slim metal control panel at right with two separate real physical arrow-shaped up and down pushbuttons (chevron symbols only, NO letters or digits), cabin subtly lit. Actual transparent lift structure and door visible, not an escalator. Pose natural; do not depict instantaneous movement as proof. Calm space around both panels for later annotations.",
+  "status": "approved",
+  "image_path": "images/C035.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 8,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C035 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T08:06:49Z",
+    "ended_at": "2026-10-03T08:10:01Z",
+    "prompt_path": "prompts/C035_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C035.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅人物在玻璃门口雨棚下，下幅为实际玻璃电梯；面板向上与向下箭头分开清楚。up/down绑定实际箭头，不把静态图当电梯运动证据。under/over框含雨棚和相关人物/入口。off示例为离家另一语境，不虚构图中关灯。"
+  }
+}

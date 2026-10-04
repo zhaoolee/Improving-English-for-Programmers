@@ -1,0 +1,19 @@
+{
+  "cardID": "C021",
+  "imagePath": "../images/C021.png",
+  "imageSHA256": "10dbd3cd6d92b15c5057590763e87a52ec5a5d740b62ba16166947c879d54107",
+  "imageReviewed": true,
+  "annotationsPath": "C021_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "shirt",
+    "coat",
+    "trousers",
+    "skirt",
+    "dress",
+    "pocket",
+    "collar",
+    "button"
+  ],
+  "receiptPath": "C021_import_receipt.json"
+}

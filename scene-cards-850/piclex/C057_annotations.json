@@ -1,0 +1,184 @@
+{
+  "filename": "C057-呼吸与消化.png",
+  "labels": [
+    {
+      "x": 135,
+      "y": 95,
+      "english": "breath",
+      "chinese": "一次呼吸",
+      "phoneticUS": "/breθ/",
+      "phoneticUK": "/breθ/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "呼吸气流不可见，由动作故事句子说明。",
+        "association": "呼吸气流不可见，由动作故事句子说明。",
+        "collocation": "a slow breath",
+        "example": "I take a slow breath after the walk.",
+        "exampleChinese": "散步后，我缓缓吸一口气。"
+      }
+    },
+    {
+      "x": 545,
+      "y": 731,
+      "english": "stomach",
+      "chinese": "胃",
+      "phoneticUS": "/ˈstʌmək/",
+      "phoneticUK": "/ˈstʌmək/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 800
+      },
+      "anchorPosition": {
+        "x": 545,
+        "y": 731
+      },
+      "boundingBox": {
+        "left": 382,
+        "top": 599,
+        "right": 709,
+        "bottom": 864
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际胃教学模型，不把腹部表面当胃本体。",
+        "association": "实际胃教学模型，不把腹部表面当胃本体。",
+        "collocation": "a stomach model",
+        "example": "This model represents the stomach.",
+        "exampleChinese": "这个模型表示胃。"
+      }
+    },
+    {
+      "x": 160,
+      "y": 825,
+      "english": "digestion",
+      "chinese": "消化",
+      "phoneticUS": "/daɪˈdʒestʃən/",
+      "phoneticUK": "/daɪˈdʒestʃən/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 825
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "过程不可由静态模型直接看见。",
+        "association": "过程不可由静态模型直接看见。",
+        "collocation": "learn about digestion",
+        "example": "I learn about digestion with the model.",
+        "exampleChinese": "我借助模型了解消化。"
+      }
+    },
+    {
+      "x": 875,
+      "y": 400,
+      "english": "sense",
+      "chinese": "感官",
+      "phoneticUS": "/sens/",
+      "phoneticUK": "/sens/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 400
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "感官功能由自然例句说明，不框植物代替感官。",
+        "association": "感官功能由自然例句说明，不框植物代替感官。",
+        "collocation": "the sense of smell",
+        "example": "My sense of smell helps me notice the herb.",
+        "exampleChinese": "嗅觉帮助我闻到香草。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 470,
+      "english": "feeling",
+      "chinese": "感受",
+      "phoneticUS": "/ˈfiːlɪŋ/",
+      "phoneticUK": "/ˈfiːlɪŋ/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 470
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "主观感受不从静态表情断定。",
+        "association": "主观感受不从静态表情断定。",
+        "collocation": "a feeling of calm",
+        "example": "I have a feeling of calm after resting.",
+        "exampleChinese": "休息后我感到平静。"
+      }
+    },
+    {
+      "x": 885,
+      "y": 115,
+      "english": "well",
+      "chinese": "身体好的",
+      "phoneticUS": "/wel/",
+      "phoneticUK": "/wel/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 115
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "well选健康状态形容词义，故事自述。",
+        "association": "well选健康状态形容词义，故事自述。",
+        "collocation": "feel well",
+        "example": "I feel well after a rest.",
+        "exampleChinese": "休息后我感觉身体很好。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I take a slow breath, notice a gentle feeling, and learn about digestion.",
+    "chinese": "我缓缓吸一口气，留意舒缓的感受，也了解消化。",
+    "source": "原创配文 · C057 呼吸与消化",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

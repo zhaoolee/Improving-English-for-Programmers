@@ -1,0 +1,354 @@
+{
+  "id": "C010",
+  "chapter": "家里的一天",
+  "title": "睡前安静下来",
+  "scene": "主角困倦坐在床边，走廊噪声与安静卧室以双幅对照。",
+  "target_count": 8,
+  "primary_words": [
+    "tired",
+    "quiet",
+    "noise",
+    "loud",
+    "sound",
+    "still",
+    "back",
+    "keep"
+  ],
+  "targets": [
+    {
+      "word_id": "W766",
+      "word": "tired",
+      "aliases": [],
+      "source_zh_unreviewed": "疲倦的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "疲倦的",
+      "pos": "adjective",
+      "ipa_us": "/taɪrd/",
+      "ipa_uk": "/taɪəd/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I am tired after a long day.",
+        "matched_form": "tired",
+        "context": "倦态与原创自述共同说明tired，不把疲倦当物体。",
+        "image_verified": null
+      },
+      "example_en": "I am tired after a long day.",
+      "example_zh": "忙了一整天后，我很累。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel tired",
+        "be tired"
+      ],
+      "example_en_highlighted": "I am **tired** after a long day.",
+      "annotation_mode": "context",
+      "annotation_note": "倦态与原创自述共同说明tired，不把疲倦当物体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W571",
+      "word": "quiet",
+      "aliases": [],
+      "source_zh_unreviewed": "安静的；寂静的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "安静的",
+      "pos": "adjective",
+      "ipa_us": "/ˈkwaɪət/",
+      "ipa_uk": "/ˈkwaɪət/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The room is quiet with the door shut.",
+        "matched_form": "quiet",
+        "context": "右幅关门卧室作为故事语境，声音属性由句子说明。",
+        "image_verified": null
+      },
+      "example_en": "The room is quiet with the door shut.",
+      "example_zh": "门关上后，房间很安静。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a quiet room",
+        "keep quiet"
+      ],
+      "example_en_highlighted": "The room is **quiet** with the door shut.",
+      "annotation_mode": "context",
+      "annotation_note": "右幅关门卧室作为故事语境，声音属性由句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W477",
+      "word": "noise",
+      "aliases": [],
+      "source_zh_unreviewed": "噪音",
+      "planned_mode": "context",
+      "sense_zh": "噪声",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/nɔɪz/",
+      "ipa_uk": "/nɔɪz/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I hear noise in the hall.",
+        "matched_form": "noise",
+        "context": "左幅交谈仅为语境，听觉证据来自原创例句。",
+        "image_verified": null
+      },
+      "example_en": "I hear noise in the hall.",
+      "example_zh": "我听见走廊里的噪声。",
+      "bbox_normalized": null,
+      "collocations": [
+        "hear noise",
+        "noise in the hall"
+      ],
+      "example_en_highlighted": "I hear **noise** in the hall.",
+      "annotation_mode": "context",
+      "annotation_note": "左幅交谈仅为语境，听觉证据来自原创例句。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W417",
+      "word": "loud",
+      "aliases": [],
+      "source_zh_unreviewed": "大声的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "响亮的",
+      "pos": "adjective",
+      "ipa_us": "/laʊd/",
+      "ipa_uk": "/laʊd/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "Their voices are loud.",
+        "matched_form": "loud",
+        "context": "音量不能从嘴部动作测量，例句明确故事音量。",
+        "image_verified": null
+      },
+      "example_en": "Their voices are loud.",
+      "example_zh": "他们说话的声音很响。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a loud voice",
+        "be loud"
+      ],
+      "example_en_highlighted": "Their voices are **loud**.",
+      "annotation_mode": "context",
+      "annotation_note": "音量不能从嘴部动作测量，例句明确故事音量。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W685",
+      "word": "sound",
+      "aliases": [],
+      "source_zh_unreviewed": "声音",
+      "planned_mode": "context",
+      "sense_zh": "声音",
+      "pos": "noun (countable)",
+      "ipa_us": "/saʊnd/",
+      "ipa_uk": "/saʊnd/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The sound of voices comes from the hall.",
+        "matched_form": "sound",
+        "context": "声音不可见，用句子说明来源，区别于noise的不悦噪声含义。",
+        "image_verified": null
+      },
+      "example_en": "The sound of voices comes from the hall.",
+      "example_zh": "说话声从走廊传来。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the sound of voices",
+        "a soft sound"
+      ],
+      "example_en_highlighted": "The **sound** of voices comes from the hall.",
+      "annotation_mode": "context",
+      "annotation_note": "声音不可见，用句子说明来源，区别于noise的不悦噪声含义。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W708",
+      "word": "still",
+      "aliases": [],
+      "source_zh_unreviewed": "仍然",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "不动的",
+      "pos": "adjective",
+      "ipa_us": "/stɪl/",
+      "ipa_uk": "/stɪl/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I sit still on the bed.",
+        "matched_form": "still",
+        "context": "本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。",
+        "image_verified": null
+      },
+      "example_en": "I sit still on the bed.",
+      "example_zh": "我在床上坐着不动。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sit still",
+        "keep still"
+      ],
+      "example_en_highlighted": "I sit **still** on the bed.",
+      "annotation_mode": "context",
+      "annotation_note": "本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。",
+        "reference_url": "https://dictionary.cambridge.org/dictionary/english/still",
+        "reference_scope": "dictionary search excerpt; full page unavailable"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W046",
+      "word": "back",
+      "aliases": [],
+      "source_zh_unreviewed": "背部；后面",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "回到原处",
+      "pos": "adverb",
+      "ipa_us": "/bæk/",
+      "ipa_uk": "/bæk/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I go back to my room.",
+        "matched_form": "back",
+        "context": "双幅故事与go back例句表达返回，不作人体背部解释。",
+        "image_verified": null
+      },
+      "example_en": "I go back to my room.",
+      "example_zh": "我回到自己的房间。",
+      "bbox_normalized": null,
+      "collocations": [
+        "go back",
+        "back to my room"
+      ],
+      "example_en_highlighted": "I go **back** to my room.",
+      "annotation_mode": "context",
+      "annotation_note": "双幅故事与go back例句表达返回，不作人体背部解释。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W375",
+      "word": "keep",
+      "aliases": [],
+      "source_zh_unreviewed": "保持；继续",
+      "planned_mode": "context",
+      "sense_zh": "使保持",
+      "pos": "verb (transitive)",
+      "ipa_us": "/kiːp/",
+      "ipa_uk": "/kiːp/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "Please keep the room quiet.",
+        "matched_form": "keep",
+        "context": "keep+宾语+形容词的自然结构，高亮keep，不设虚假框。",
+        "image_verified": null
+      },
+      "example_en": "Please keep the room quiet.",
+      "example_zh": "请让房间保持安静。",
+      "bbox_normalized": null,
+      "collocations": [
+        "keep the room quiet",
+        "keep still"
+      ],
+      "example_en_highlighted": "Please **keep** the room quiet.",
+      "annotation_mode": "context",
+      "annotation_note": "keep+宾语+形容词的自然结构，高亮keep，不设虚假框。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Please keep the room quiet; I am tired and need to rest.",
+    "zh": "请让房间保持安静；我累了，需要休息。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C010\n标题 睡前安静下来\n场景 主角困倦坐在床边，走廊噪声与安静卧室以双幅对照。\n目标词 tired, quiet, noise, loud, sound, still, back, keep\n原创主配文草案 Keep the room quiet; I am tired.\n中文草案 让房间保持安静吧，我累了。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. Exactly TWO side-by-side photographic panels in a vertical 4:5 diptych. LEFT: a cool-lit apartment hallway with two fully clothed adult visitors chatting animatedly, open mouths mid-conversation and conversational hand gestures; young protagonist at bedroom doorway turns slightly away looking weary. RIGHT: same young adult woman now seated on edge of neatly made bed in a quiet cool blue evening bedroom, bedroom door behind her CLOSED, relaxed shoulders, one small yawn with hand politely near mouth, coherent body. Soft simple bedside light, clean pale walls and modest negative space above. No visual sound symbols, no floating musical notes, no text. Static photographs cannot depict sound itself; actions only provide story context. Subtle fashion editorial mood, believable same woman and architecture, understated expressions.",
+  "status": "approved",
+  "image_path": "images/C010.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 8,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C010 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T11:56:26Z",
+    "ended_at": "2026-10-02T11:59:55Z",
+    "prompt_path": "prompts/C010_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C010.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "左右双幅有走廊交谈和关门后卧室：左边两名成年访客交谈，主人在门口；右边同一女性坐在床沿打哈欠，门关着。声音/音量不可由静态图验证，noise/loud/sound/quiet均以原创故事例句说明；still采用不动的含义，back为返回房间，keep为使保持。全部使用语境标签，无虚假声音框。"
+  }
+}

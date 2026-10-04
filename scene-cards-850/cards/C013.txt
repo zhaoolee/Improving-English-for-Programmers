@@ -1,0 +1,259 @@
+C013  摆好餐具
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C013.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C013.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T14:44:39Z → 2026-10-02T14:45:52Z
+  提示词文件: prompts/C013_image_final.txt
+
+场景: 餐桌上分开放置盘子、叉子、刀、勺子和托盘，明确对比边缘。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 白盘、四齿叉、椭圆勺头、右侧有边沿木托盘、厨刀和黄瓜各可辨；刀片与刀柄区别清楚，edge定位下缘切削局部，cut定位手刀黄瓜的真实动作。sharp为使用设定，未声称图像测试锋利度。手指结构自然、无多余刀具。
+
+主配文:
+  英文: I set out the plate, fork, and spoon, then cut a cucumber.
+  中文: 我摆好盘子、叉子和勺子，然后切黄瓜。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): plate, fork, knife, spoon, tray, sharp, edge, cut, blade
+
+------------------------------------------------------------------------
+[1/9] plate  (W531)
+  词义: 盘子
+  词性: noun
+  音标: UK /pleɪt/ | US /pleɪt/
+  搭配: a dinner plate
+  例句: The plate is white.
+  例句高亮: The **plate** is white.
+  例句中文: 盘子是白色的。
+  标注模式: object
+  标注说明: 白色餐盘整体
+  坐标(normalized): [0.154, 0.731, 0.598, 0.903]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "白色餐盘整体"
+    sentence: "The plate is white."
+    matched_form: "plate"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 盘子；板块
+------------------------------------------------------------------------
+[2/9] fork  (W284)
+  词义: 叉子
+  词性: noun
+  音标: UK /fɔːk/ | US /fɔːrk/
+  搭配: a dinner fork
+  例句: The fork has four points.
+  例句高亮: The **fork** has four points.
+  例句中文: 叉子有四个尖齿。
+  标注模式: object
+  标注说明: 独立金属叉子
+  坐标(normalized): [0.068, 0.74, 0.132, 0.913]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "独立金属叉子"
+    sentence: "The fork has four points."
+    matched_form: "fork"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 叉子；分叉
+------------------------------------------------------------------------
+[3/9] knife  (W382)
+  词义: 刀
+  词性: noun
+  音标: UK /naɪf/ | US /naɪf/
+  搭配: a kitchen knife
+  例句: I hold the knife by its handle.
+  例句高亮: I hold the **knife** by its handle.
+  例句中文: 我握着刀柄拿刀。
+  标注模式: object
+  标注说明: 切黄瓜的厨刀整体
+  坐标(normalized): [0.395, 0.529, 0.685, 0.684]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "切黄瓜的厨刀整体"
+    sentence: "I hold the knife by its handle."
+    matched_form: "knife"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 刀
+------------------------------------------------------------------------
+[4/9] spoon  (W692)
+  词义: 勺子
+  词性: noun
+  音标: UK /spuːn/ | US /spuːn/
+  搭配: a metal spoon
+  例句: The spoon is beside the plate.
+  例句高亮: The **spoon** is beside the plate.
+  例句中文: 勺子在盘子旁边。
+  标注模式: object
+  标注说明: 椭圆勺头与勺柄
+  坐标(normalized): [0.632, 0.785, 0.698, 0.941]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "椭圆勺头与勺柄"
+    sentence: "The spoon is beside the plate."
+    matched_form: "spoon"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 勺子
+------------------------------------------------------------------------
+[5/9] tray  (W779)
+  词义: 托盘
+  词性: noun
+  音标: UK /treɪ/ | US /treɪ/
+  搭配: a wooden tray
+  例句: The tray is on the table.
+  例句高亮: The **tray** is on the table.
+  例句中文: 托盘在桌上。
+  标注模式: object
+  标注说明: 右侧有边沿的木托盘，不混同砧板
+  坐标(normalized): [0.819, 0.655, 1.0, 0.938]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "右侧有边沿的木托盘，不混同砧板"
+    sentence: "The tray is on the table."
+    matched_form: "tray"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 托盘
+------------------------------------------------------------------------
+[6/9] sharp  (W643)
+  词义: 锋利的
+  词性: adjective
+  音标: UK /ʃɑːp/ | US /ʃɑːrp/
+  搭配: a sharp knife
+  例句: The knife is sharp.
+  例句高亮: The knife is **sharp**.
+  例句中文: 刀很锋利。
+  标注模式: context
+  标注说明: 切菜用途与句子说明锋利，静态图不测试锋利度
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The knife is sharp."
+    matched_form: "sharp"
+    context: "切菜用途与句子说明锋利，静态图不测试锋利度"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 锋利的
+------------------------------------------------------------------------
+[7/9] edge  (W226)
+  词义: 刃口
+  词性: noun
+  音标: UK /edʒ/ | US /edʒ/
+  搭配: a cutting edge
+  例句: The edge of the knife cuts food.
+  例句高亮: The **edge** of the knife cuts food.
+  例句中文: 刀的刃口切开食物。
+  标注模式: object
+  标注说明: 刀片与黄瓜接触的切削边缘
+  坐标(normalized): [0.613, 0.634, 0.681, 0.68]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "刀片与黄瓜接触的切削边缘"
+    sentence: "The edge of the knife cuts food."
+    matched_form: "edge"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 边缘；锋利的部分
+------------------------------------------------------------------------
+[8/9] cut  (W178)
+  词义: 切
+  词性: verb
+  音标: UK /kʌt/ | US /kʌt/
+  搭配: cut a cucumber
+  例句: I cut the cucumber.
+  例句高亮: I **cut** the cucumber.
+  例句中文: 我切黄瓜。
+  标注模式: action
+  标注说明: 手、刀与黄瓜接触的切割动作区域
+  坐标(normalized): [0.386, 0.494, 0.775, 0.689]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "手、刀与黄瓜接触的切割动作区域"
+    sentence: "I cut the cucumber."
+    matched_form: "cut"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 切割
+------------------------------------------------------------------------
+[9/9] blade  (W074)
+  词义: 刀片
+  词性: noun
+  音标: UK /bleɪd/ | US /bleɪd/
+  搭配: a steel blade
+  例句: The blade is made of steel.
+  例句高亮: The **blade** is made of steel.
+  例句中文: 刀片是钢制的。
+  标注模式: object
+  标注说明: 只定位金属刀片，不含刀柄
+  坐标(normalized): [0.515, 0.572, 0.683, 0.682]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只定位金属刀片，不含刀柄"
+    sentence: "The blade is made of steel."
+    matched_form: "blade"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 刀片；刀刃
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 8
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C013 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=15 | meta.approved_cards=15
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elevated dining-table editorial. Woman behind table cutting one cucumber on small wood board at center-right using a real pointed steel CHEF KNIFE, blade and cutting edge clear, left fingertips safely curled away, no unsafe gesture. One white dinner PLATE left foreground, separate four-tined FORK to its left, separate oval-bowled SPOON below-right of plate; rectangular wooden serving TRAY at far right with raised rim visible, no extra knives. Knife is a kitchen blade, not a blunt butter knife. All objects spaced apart and in focus, high quality uncluttered composition.

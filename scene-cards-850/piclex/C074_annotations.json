@@ -1,0 +1,219 @@
+{
+  "filename": "C074-报刊摊与广告.png",
+  "labels": [
+    {
+      "x": 555,
+      "y": 504,
+      "english": "news",
+      "chinese": "新闻",
+      "phoneticUS": "/nuːz/",
+      "phoneticUK": "/njuːz/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 690
+      },
+      "anchorPosition": {
+        "x": 555,
+        "y": 504
+      },
+      "boundingBox": {
+        "left": 338,
+        "top": 377,
+        "right": 773,
+        "bottom": 631
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（新闻），待最终图确认。",
+        "association": "场景中体现的具体对象（新闻），待最终图确认。",
+        "collocation": "read the news; local news",
+        "example": "I read the news in a newspaper.",
+        "exampleChinese": "我从报纸上读新闻。"
+      }
+    },
+    {
+      "x": 888,
+      "y": 219,
+      "english": "advertisement",
+      "chinese": "广告",
+      "phoneticUS": "/ˌædvɚˈtaɪzmənt/",
+      "phoneticUK": "/ədˈvɜːtɪsmənt/",
+      "bubblePosition": {
+        "x": 825,
+        "y": 510
+      },
+      "anchorPosition": {
+        "x": 888,
+        "y": 219
+      },
+      "boundingBox": {
+        "left": 785,
+        "top": 43,
+        "right": 991,
+        "bottom": 396
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（广告），待最终图确认。",
+        "association": "场景中体现的具体对象（广告），待最终图确认。",
+        "collocation": "an advertisement for; a printed advertisement",
+        "example": "The poster is an advertisement for tea.",
+        "exampleChinese": "这张海报是一则茶的广告。"
+      }
+    },
+    {
+      "x": 855,
+      "y": 730,
+      "english": "statement",
+      "chinese": "声明",
+      "phoneticUS": "/ˈsteɪtmənt/",
+      "phoneticUK": "/ˈsteɪtmənt/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 730
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The article includes an official statement.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The article includes an official statement.；不声称该状态/含义本身在画面可见。",
+        "collocation": "an official statement; make a statement",
+        "example": "The article includes an official statement.",
+        "exampleChinese": "这篇文章包含一份官方声明。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 95,
+      "english": "public",
+      "chinese": "公共的",
+      "phoneticUS": "/ˈpʌblɪk/",
+      "phoneticUK": "/ˈpʌblɪk/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The stand is in a public place.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The stand is in a public place.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a public place; public access",
+        "example": "The stand is in a public place.",
+        "exampleChinese": "这个报刊摊位于公共场所。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 910,
+      "english": "fact",
+      "chinese": "事实",
+      "phoneticUS": "/fækt/",
+      "phoneticUK": "/fækt/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 910
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I check each fact before sharing the news.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I check each fact before sharing the news.；不声称该状态/含义本身在画面可见。",
+        "collocation": "check a fact; a known fact",
+        "example": "I check each fact before sharing the news.",
+        "exampleChinese": "分享新闻前，我核对每一个事实。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 915,
+      "english": "as",
+      "chinese": "作为",
+      "phoneticUS": "/æz/",
+      "phoneticUK": "/æz/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 915
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：As a reader, I ask careful questions.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：As a reader, I ask careful questions.；不声称该状态/含义本身在画面可见。",
+        "collocation": "as a reader; work as",
+        "example": "As a reader, I ask careful questions.",
+        "exampleChinese": "作为读者，我审慎地提出问题。"
+      }
+    },
+    {
+      "x": 530,
+      "y": 945,
+      "english": "by",
+      "chinese": "通过",
+      "phoneticUS": "/baɪ/",
+      "phoneticUK": "/baɪ/",
+      "bubblePosition": {
+        "x": 530,
+        "y": 945
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I learn by reading and checking sources.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I learn by reading and checking sources.；不声称该状态/含义本身在画面可见。",
+        "collocation": "by reading; by checking",
+        "example": "I learn by reading and checking sources.",
+        "exampleChinese": "我通过阅读和核对来源学习。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I read the news at a public stand and check each fact carefully.",
+    "chinese": "我在公共报刊摊阅读新闻，认真核对每一个事实。",
+    "source": "原创配文 · C074 报刊摊与广告",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

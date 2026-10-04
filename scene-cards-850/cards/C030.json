@@ -1,0 +1,400 @@
+{
+  "id": "C030",
+  "chapter": "穿衣与购物",
+  "title": "退换货的选择",
+  "scene": "同一商品新旧和完好破损对照，顾客退换货，店员核对质量。",
+  "target_count": 9,
+  "primary_words": [
+    "new",
+    "old",
+    "broken",
+    "quality",
+    "value",
+    "comparison",
+    "exchange",
+    "change",
+    "other"
+  ],
+  "targets": [
+    {
+      "word_id": "W473",
+      "word": "new",
+      "aliases": [],
+      "source_zh_unreviewed": "新的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "新的",
+      "pos": "adjective",
+      "ipa_us": "/nuː/",
+      "ipa_uk": "/njuː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧完整杯子的实际区域；new身份由原创退换货故事明确，框只定位新杯，不以清洁程度推断新旧。",
+        "sentence": "The cup on the left is new.",
+        "matched_form": "new",
+        "context": "完整杯外观与原创新品设定，不仅凭清洁程度认定新旧",
+        "image_verified": null
+      },
+      "example_en": "The cup on the left is new.",
+      "example_zh": "左边的杯子是新的。",
+      "bbox_normalized": [
+        0.212,
+        0.705,
+        0.452,
+        0.852
+      ],
+      "collocations": [
+        "a new cup"
+      ],
+      "example_en_highlighted": "The cup on the left is **new**.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧完整杯子的实际区域；new身份由原创退换货故事明确，框只定位新杯，不以清洁程度推断新旧。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W492",
+      "word": "old",
+      "aliases": [],
+      "source_zh_unreviewed": "老的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "旧的",
+      "pos": "adjective",
+      "ipa_us": "/oʊld/",
+      "ipa_uk": "/əʊld/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧破损旧杯和断柄碎片区域；old身份由原创故事明确，不由破损程度推断使用年限。",
+        "sentence": "The cup on the right is old.",
+        "matched_form": "old",
+        "context": "旧杯身份由原创退换货故事明确",
+        "image_verified": null
+      },
+      "example_en": "The cup on the right is old.",
+      "example_zh": "右边的杯子是旧的。",
+      "bbox_normalized": [
+        0.528,
+        0.708,
+        0.805,
+        0.871
+      ],
+      "collocations": [
+        "an old cup"
+      ],
+      "example_en_highlighted": "The cup on the right is **old**.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧破损旧杯和断柄碎片区域；old身份由原创故事明确，不由破损程度推断使用年限。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W097",
+      "word": "broken",
+      "aliases": [],
+      "source_zh_unreviewed": "破碎的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "破损的",
+      "pos": "adjective",
+      "ipa_us": "/ˈbroʊkən/",
+      "ipa_uk": "/ˈbrəʊkən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右杯缺损的口沿、断柄及桌上断柄碎片区域，broken对应这些直接可见破损。",
+        "sentence": "The old cup has a broken handle.",
+        "matched_form": "broken",
+        "context": "实际断柄和碎片与句子支持，不为形容词制造独立物体框",
+        "image_verified": null
+      },
+      "example_en": "The old cup has a broken handle.",
+      "example_zh": "旧杯子的把手断了。",
+      "bbox_normalized": [
+        0.666,
+        0.721,
+        0.805,
+        0.87
+      ],
+      "collocations": [
+        "a broken handle"
+      ],
+      "example_en_highlighted": "The old cup has a **broken** handle.",
+      "annotation_mode": "object",
+      "annotation_note": "右杯缺损的口沿、断柄及桌上断柄碎片区域，broken对应这些直接可见破损。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W568",
+      "word": "quality",
+      "aliases": [],
+      "source_zh_unreviewed": "质量；品质",
+      "planned_mode": "context",
+      "sense_zh": "质量",
+      "pos": "noun",
+      "ipa_us": "/ˈkwɑːləti/",
+      "ipa_uk": "/ˈkwɒləti/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I check the quality of the new cup.",
+        "matched_form": "quality",
+        "context": "质量是检查与判断，由叙述说明",
+        "image_verified": null
+      },
+      "example_en": "I check the quality of the new cup.",
+      "example_zh": "我检查新杯子的质量。",
+      "bbox_normalized": null,
+      "collocations": [
+        "check the quality"
+      ],
+      "example_en_highlighted": "I check the **quality** of the new cup.",
+      "annotation_mode": "context",
+      "annotation_note": "质量是检查与判断，由叙述说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W792",
+      "word": "value",
+      "aliases": [],
+      "source_zh_unreviewed": "价值",
+      "planned_mode": "context",
+      "sense_zh": "性价比",
+      "pos": "noun",
+      "ipa_us": "/ˈvæljuː/",
+      "ipa_uk": "/ˈvæljuː/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The new cup is good value for the money.",
+        "matched_form": "value",
+        "context": "采用物有所值搭配，主观评价由例句明确，不推算真实价格",
+        "image_verified": null
+      },
+      "example_en": "The new cup is good value for the money.",
+      "example_zh": "新杯子物有所值。",
+      "bbox_normalized": null,
+      "collocations": [
+        "good value"
+      ],
+      "example_en_highlighted": "The new cup is good **value** for the money.",
+      "annotation_mode": "context",
+      "annotation_note": "采用物有所值搭配，主观评价由例句明确，不推算真实价格",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W149",
+      "word": "comparison",
+      "aliases": [],
+      "source_zh_unreviewed": "比较",
+      "planned_mode": "context",
+      "sense_zh": "比较",
+      "pos": "noun",
+      "ipa_us": "/kəmˈpærɪsən/",
+      "ipa_uk": "/kəmˈpærɪsən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景两只同类杯子的对照区域，comparison指向实际比较对象，不包含全幅人物背景。",
+        "sentence": "I make a comparison of the two cups.",
+        "matched_form": "comparison",
+        "context": "同类物品比较情境与句子支持",
+        "image_verified": null
+      },
+      "example_en": "I make a comparison of the two cups.",
+      "example_zh": "我把两只杯子作比较。",
+      "bbox_normalized": [
+        0.211,
+        0.705,
+        0.805,
+        0.871
+      ],
+      "collocations": [
+        "a comparison of cups"
+      ],
+      "example_en_highlighted": "I make a **comparison** of the two cups.",
+      "annotation_mode": "object",
+      "annotation_note": "前景两只同类杯子的对照区域，comparison指向实际比较对象，不包含全幅人物背景。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W242",
+      "word": "exchange",
+      "aliases": [],
+      "source_zh_unreviewed": "交流；交换",
+      "planned_mode": "context",
+      "sense_zh": "换货",
+      "pos": "verb",
+      "ipa_us": "/ɪksˈtʃeɪndʒ/",
+      "ipa_uk": "/ɪksˈtʃeɪndʒ/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I exchange the broken cup for a new one.",
+        "matched_form": "exchange",
+        "context": "采用动词换货，由原创对话叙述明确，不从递物动作认定已完成业务",
+        "image_verified": null
+      },
+      "example_en": "I exchange the broken cup for a new one.",
+      "example_zh": "我把坏掉的杯子换成一只新的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "exchange a cup"
+      ],
+      "example_en_highlighted": "I **exchange** the broken cup for a new one.",
+      "annotation_mode": "context",
+      "annotation_note": "采用动词换货，由原创对话叙述明确，不从递物动作认定已完成业务",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W124",
+      "word": "change",
+      "aliases": [],
+      "source_zh_unreviewed": "改变",
+      "planned_mode": "context",
+      "sense_zh": "改变",
+      "pos": "verb",
+      "ipa_us": "/tʃeɪndʒ/",
+      "ipa_uk": "/tʃeɪndʒ/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I change my choice after checking the cups.",
+        "matched_form": "change",
+        "context": "改变采用决定变化义，与exchange换货区分",
+        "image_verified": null
+      },
+      "example_en": "I change my choice after checking the cups.",
+      "example_zh": "检查杯子后，我改变了选择。",
+      "bbox_normalized": null,
+      "collocations": [
+        "change my choice"
+      ],
+      "example_en_highlighted": "I **change** my choice after checking the cups.",
+      "annotation_mode": "context",
+      "annotation_note": "改变采用决定变化义，与exchange换货区分",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W504",
+      "word": "other",
+      "aliases": [],
+      "source_zh_unreviewed": "其他的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "另一个的",
+      "pos": "determiner",
+      "ipa_us": "/ˈʌðər/",
+      "ipa_uk": "/ˈʌðə/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "One cup is new; the other cup is old.",
+        "matched_form": "other",
+        "context": "限定词other修饰cup，两件物品与句子支持",
+        "image_verified": null
+      },
+      "example_en": "One cup is new; the other cup is old.",
+      "example_zh": "一只杯子是新的，另一只杯子是旧的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the other cup"
+      ],
+      "example_en_highlighted": "One cup is new; the **other** cup is old.",
+      "annotation_mode": "context",
+      "annotation_note": "限定词other修饰cup，两件物品与句子支持",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I exchange the broken cup for a new one.",
+    "zh": "我把坏掉的杯子换成一只新的。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C030\n标题 退换货的选择\n场景 同一商品新旧和完好破损对照，顾客退换货，店员核对质量。\n目标词 new, old, broken, quality, value, comparison, exchange, change, other\n原创主配文草案 This one is new; the other one is broken.\n中文草案 这个是新的，另一个坏了。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated ivory and slate clothes, loose dark low bun, natural pores with subtle magazine retouch, real hands and materials. Cool soft daylight, coherent single scene, important teaching props clearly readable, calm blank space near image borders for later annotations. No text, letters, digits, logos, brand names, watermark or UI. Refined homewares shop returns counter. Adult young female customer at left wearing ivory blouse, another adult female shop assistant at right in slate blouse comparing TWO matching white ceramic cups only. LEFT cup new and pristine, complete curved handle, clean glossy surface. RIGHT cup older with one clear chipped rim and broken handle; a separate small handle fragment lies beside it on counter, realistic break not melting. Cups large in clear foreground, hands lightly gesturing behind cups, no fingers inside shards, two faces visible. Original calm exchange interaction, neutral shop shelf background, generous quiet top wall and bottom counter, no printed tags.",
+  "status": "approved",
+  "image_path": "images/C030.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 9,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C030 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T02:53:32Z",
+    "ended_at": "2026-10-03T02:56:46Z",
+    "prompt_path": "prompts/C030_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C030.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "左杯完整、右杯断柄及缺口和桌面柄碎片清楚，两位成年女性比较杯子，手不触碰碎片。新旧身份与换货故事明确；质量/价值/改变选择等由句子说明。"
+  }
+}

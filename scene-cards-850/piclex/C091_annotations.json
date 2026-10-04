@@ -1,0 +1,359 @@
+{
+  "filename": "C091-认识彼此.png",
+  "labels": [
+    {
+      "x": 521,
+      "y": 589,
+      "english": "person",
+      "chinese": "人",
+      "phoneticUS": "/ˈpɝːsən/",
+      "phoneticUK": "/ˈpɜːsən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 80
+      },
+      "anchorPosition": {
+        "x": 521,
+        "y": 589
+      },
+      "boundingBox": {
+        "left": 330,
+        "top": 182,
+        "right": 712,
+        "bottom": 996
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（人），待最终图确认。",
+        "association": "场景中体现的具体对象（人），待最终图确认。",
+        "collocation": "each person; a friendly person",
+        "example": "Each person introduces themselves.",
+        "exampleChinese": "每个人自我介绍。"
+      }
+    },
+    {
+      "x": 168,
+      "y": 424,
+      "english": "man",
+      "chinese": "成年男子",
+      "phoneticUS": "/mæn/",
+      "phoneticUK": "/mæn/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 355
+      },
+      "anchorPosition": {
+        "x": 168,
+        "y": 424
+      },
+      "boundingBox": {
+        "left": 3,
+        "top": 66,
+        "right": 333,
+        "bottom": 783
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（成年男子），待最终图确认。",
+        "association": "场景中体现的具体对象（成年男子），待最终图确认。",
+        "collocation": "a young man; the man on the left",
+        "example": "The man on the left introduces himself as Jun.",
+        "exampleChinese": "左边的成年男子介绍自己叫Jun。"
+      }
+    },
+    {
+      "x": 521,
+      "y": 589,
+      "english": "woman",
+      "chinese": "成年女子",
+      "phoneticUS": "/ˈwʊmən/",
+      "phoneticUK": "/ˈwʊmən/",
+      "bubblePosition": {
+        "x": 700,
+        "y": 160
+      },
+      "anchorPosition": {
+        "x": 521,
+        "y": 589
+      },
+      "boundingBox": {
+        "left": 330,
+        "top": 182,
+        "right": 712,
+        "bottom": 996
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（成年女子），待最终图确认。",
+        "association": "场景中体现的具体对象（成年女子），待最终图确认。",
+        "collocation": "a young woman; the woman in the middle",
+        "example": "The woman in the middle introduces herself as Mina.",
+        "exampleChinese": "中间的成年女子介绍自己叫Mina。"
+      }
+    },
+    {
+      "x": 169,
+      "y": 693,
+      "english": "boy",
+      "chinese": "男孩",
+      "phoneticUS": "/bɔɪ/",
+      "phoneticUK": "/bɔɪ/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 169,
+        "y": 693
+      },
+      "boundingBox": {
+        "left": 1,
+        "top": 389,
+        "right": 338,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（男孩），待最终图确认。",
+        "association": "场景中体现的具体对象（男孩），待最终图确认。",
+        "collocation": "a young boy; the boy in blue",
+        "example": "The boy in blue is ten in our story.",
+        "exampleChinese": "故事中，穿蓝衣的男孩十岁。"
+      }
+    },
+    {
+      "x": 733,
+      "y": 713,
+      "english": "girl",
+      "chinese": "女孩",
+      "phoneticUS": "/ɡɝːl/",
+      "phoneticUK": "/ɡɜːl/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 935
+      },
+      "anchorPosition": {
+        "x": 733,
+        "y": 713
+      },
+      "boundingBox": {
+        "left": 579,
+        "top": 428,
+        "right": 887,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（女孩），待最终图确认。",
+        "association": "场景中体现的具体对象（女孩），待最终图确认。",
+        "collocation": "a young girl; the girl in cream",
+        "example": "The girl in cream is ten in our story.",
+        "exampleChinese": "故事中，穿米白衣的女孩十岁。"
+      }
+    },
+    {
+      "x": 460,
+      "y": 450,
+      "english": "young",
+      "chinese": "年轻的",
+      "phoneticUS": "/jʌŋ/",
+      "phoneticUK": "/jʌŋ/",
+      "bubblePosition": {
+        "x": 460,
+        "y": 450
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a young person; still young",
+        "example": "The two children are young in this story.",
+        "exampleChinese": "故事中的两个孩子年龄小。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 75,
+      "english": "male",
+      "chinese": "男性的",
+      "phoneticUS": "/meɪl/",
+      "phoneticUK": "/meɪl/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a male participant; male or female",
+        "example": "Jun is a male participant in our fictional group.",
+        "exampleChinese": "Jun是我们虚构小组中的男性参与者。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 75,
+      "english": "female",
+      "chinese": "女性的",
+      "phoneticUS": "/ˈfiːmeɪl/",
+      "phoneticUK": "/ˈfiːmeɪl/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a female participant; female or male",
+        "example": "Mina is a female participant in our fictional group.",
+        "exampleChinese": "Mina是我们虚构小组中的女性参与者。"
+      }
+    },
+    {
+      "x": 499,
+      "y": 531,
+      "english": "among",
+      "chinese": "在……之中",
+      "phoneticUS": "/əˈmʌŋ/",
+      "phoneticUK": "/əˈmʌŋ/",
+      "bubblePosition": {
+        "x": 485,
+        "y": 935
+      },
+      "anchorPosition": {
+        "x": 499,
+        "y": 531
+      },
+      "boundingBox": {
+        "left": 1,
+        "top": 66,
+        "right": 998,
+        "bottom": 996
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（在……之中），待最终图确认。",
+        "association": "场景中体现的关系（在……之中），待最终图确认。",
+        "collocation": "among friends; among the group",
+        "example": "I stand among the other people.",
+        "exampleChinese": "我站在其他人之中。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 540,
+      "english": "sex",
+      "chinese": "性别",
+      "phoneticUS": "/seks/",
+      "phoneticUK": "/seks/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 540
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。",
+        "collocation": "sex category; sex and age",
+        "example": "In this vocabulary lesson, sex means a male or female category.",
+        "exampleChinese": "在这节词汇课里，sex指男性或女性的性别类别。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 745,
+      "english": "who",
+      "chinese": "谁",
+      "phoneticUS": "/huː/",
+      "phoneticUK": "/huː/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 745
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "pronoun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。",
+        "collocation": "who is here; ask who",
+        "example": "Who is standing beside Mina?",
+        "exampleChinese": "谁站在Mina旁边？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Each person introduces themselves; we learn who is here and get to know one another.",
+    "chinese": "每个人自我介绍；我们认识在场的人，彼此熟悉起来。",
+    "source": "原创配文 · C091 认识彼此",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

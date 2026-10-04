@@ -1,0 +1,294 @@
+{
+  "filename": "C039-山路转弯.png",
+  "labels": [
+    {
+      "x": 760,
+      "y": 330,
+      "english": "mountain",
+      "chinese": "山",
+      "phoneticUS": "/ˈmaʊntən/",
+      "phoneticUK": "/ˈmaʊntən/",
+      "bubblePosition": {
+        "x": 820,
+        "y": 160
+      },
+      "anchorPosition": {
+        "x": 760,
+        "y": 330
+      },
+      "boundingBox": {
+        "left": 470,
+        "top": 226,
+        "right": 997,
+        "bottom": 507
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "远处完整可见山体局部。",
+        "association": "远处完整可见山体局部。",
+        "collocation": "a green mountain",
+        "example": "A mountain rises behind the village.",
+        "exampleChinese": "村庄后面耸立着一座山。"
+      }
+    },
+    {
+      "x": 730,
+      "y": 565,
+      "english": "slope",
+      "chinese": "斜坡",
+      "phoneticUS": "/sloʊp/",
+      "phoneticUK": "/sləʊp/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 550
+      },
+      "anchorPosition": {
+        "x": 730,
+        "y": 565
+      },
+      "boundingBox": {
+        "left": 550,
+        "top": 411,
+        "right": 965,
+        "bottom": 710
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "山坡的倾斜地表区域。",
+        "association": "山坡的倾斜地表区域。",
+        "collocation": "a gentle slope",
+        "example": "The path climbs a gentle slope.",
+        "exampleChinese": "小径沿着缓坡向上。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 744,
+      "english": "narrow",
+      "chinese": "狭窄的",
+      "phoneticUS": "/ˈnæroʊ/",
+      "phoneticUK": "/ˈnærəʊ/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 655
+      },
+      "anchorPosition": {
+        "x": 130,
+        "y": 744
+      },
+      "boundingBox": {
+        "left": 91,
+        "top": 446,
+        "right": 410,
+        "bottom": 991
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "拱门下狭窄小径与实际边界。",
+        "association": "拱门下狭窄小径与实际边界。",
+        "collocation": "a narrow path",
+        "example": "The path under the arch is narrow.",
+        "exampleChinese": "拱门下的小径很窄。"
+      }
+    },
+    {
+      "x": 934,
+      "y": 770,
+      "english": "wide",
+      "chinese": "宽的",
+      "phoneticUS": "/waɪd/",
+      "phoneticUK": "/waɪd/",
+      "bubblePosition": {
+        "x": 925,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 934,
+        "y": 770
+      },
+      "boundingBox": {
+        "left": 591,
+        "top": 755,
+        "right": 999,
+        "bottom": 992
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景宽道路，和小径形成可见宽度对照。",
+        "association": "前景宽道路，和小径形成可见宽度对照。",
+        "collocation": "a wide road",
+        "example": "The road beside the path is wide.",
+        "exampleChinese": "小径旁边的道路很宽。"
+      }
+    },
+    {
+      "x": 682,
+      "y": 800,
+      "english": "turn",
+      "chinese": "转弯",
+      "phoneticUS": "/tɜːrn/",
+      "phoneticUK": "/tɜːn/",
+      "bubblePosition": {
+        "x": 790,
+        "y": 905
+      },
+      "anchorPosition": {
+        "x": 682,
+        "y": 800
+      },
+      "boundingBox": {
+        "left": 591,
+        "top": 755,
+        "right": 999,
+        "bottom": 992
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右下宽道路的实际弯曲处，选名词弯道义，不虚构人物正在转弯。",
+        "association": "右下宽道路的实际弯曲处，选名词弯道义，不虚构人物正在转弯。",
+        "collocation": "a gentle turn",
+        "example": "The wide road has a gentle turn.",
+        "exampleChinese": "宽路有一个缓弯。"
+      }
+    },
+    {
+      "x": 177,
+      "y": 370,
+      "english": "through",
+      "chinese": "穿过",
+      "phoneticUS": "/θruː/",
+      "phoneticUK": "/θruː/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 270
+      },
+      "anchorPosition": {
+        "x": 177,
+        "y": 370
+      },
+      "boundingBox": {
+        "left": 94,
+        "top": 232,
+        "right": 355,
+        "bottom": 489
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "小径连续穿过拱门开口的空间关系。",
+        "association": "小径连续穿过拱门开口的空间关系。",
+        "collocation": "through the arch",
+        "example": "The path goes through the arch.",
+        "exampleChinese": "小径穿过拱门。"
+      }
+    },
+    {
+      "x": 400,
+      "y": 290,
+      "english": "arch",
+      "chinese": "拱门",
+      "phoneticUS": "/ɑːrtʃ/",
+      "phoneticUK": "/ɑːtʃ/",
+      "bubblePosition": {
+        "x": 415,
+        "y": 190
+      },
+      "anchorPosition": {
+        "x": 400,
+        "y": 290
+      },
+      "boundingBox": {
+        "left": 84,
+        "top": 178,
+        "right": 454,
+        "bottom": 526
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整弧顶与两侧支柱的拱门。",
+        "association": "完整弧顶与两侧支柱的拱门。",
+        "collocation": "a stone arch",
+        "example": "The stone arch stands over the path.",
+        "exampleChinese": "石拱门横跨小径。"
+      }
+    },
+    {
+      "x": 191,
+      "y": 866,
+      "english": "direction",
+      "chinese": "方向",
+      "phoneticUS": "/dəˈrekʃn/",
+      "phoneticUK": "/dəˈrekʃn/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 191,
+        "y": 866
+      },
+      "boundingBox": {
+        "left": 91,
+        "top": 446,
+        "right": 410,
+        "bottom": 991
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "弯路通向拱门村落的路径方向，不虚构箭头。",
+        "association": "弯路通向拱门村落的路径方向，不虚构箭头。",
+        "collocation": "the right direction",
+        "example": "The path shows the direction through the arch.",
+        "exampleChinese": "小径指明了穿过拱门的方向。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "The narrow path goes through an arch beside a wide mountain road.",
+    "chinese": "狭窄的小径穿过拱门，旁边是一条宽阔的山路。",
+    "source": "原创配文 · C039 山路转弯",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

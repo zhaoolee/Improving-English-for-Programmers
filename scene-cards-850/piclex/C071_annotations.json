@@ -1,0 +1,297 @@
+{
+  "filename": "C071-办公室开会.png",
+  "labels": [
+    {
+      "x": 501,
+      "y": 779,
+      "english": "office",
+      "chinese": "办公室",
+      "phoneticUS": "/ˈɔːfɪs/",
+      "phoneticUK": "/ˈɒfɪs/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 501,
+        "y": 779
+      },
+      "boundingBox": {
+        "left": 5,
+        "top": 568,
+        "right": 998,
+        "bottom": 991
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（办公室），待最终图确认。",
+        "association": "场景中体现的具体对象（办公室），待最终图确认。",
+        "collocation": "in the office; an office meeting",
+        "example": "We meet in the office.",
+        "exampleChinese": "我们在办公室见面。"
+      }
+    },
+    {
+      "x": 135,
+      "y": 75,
+      "english": "work",
+      "chinese": "工作",
+      "phoneticUS": "/wɝːk/",
+      "phoneticUK": "/wɜːk/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We discuss our work at the table.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We discuss our work at the table.；不声称该状态/含义本身在画面可见。",
+        "collocation": "at work; discuss work",
+        "example": "We discuss our work at the table.",
+        "exampleChinese": "我们围坐桌旁讨论工作。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 75,
+      "english": "company",
+      "chinese": "公司",
+      "phoneticUS": "/ˈkʌmpəni/",
+      "phoneticUK": "/ˈkʌmpəni/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We work for the same company.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We work for the same company.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a small company; work for a company",
+        "example": "We work for the same company.",
+        "exampleChinese": "我们为同一家公司工作。"
+      }
+    },
+    {
+      "x": 547,
+      "y": 452,
+      "english": "manager",
+      "chinese": "经理",
+      "phoneticUS": "/ˈmænɪdʒɚ/",
+      "phoneticUK": "/ˈmænɪdʒə/",
+      "bubblePosition": {
+        "x": 480,
+        "y": 180
+      },
+      "anchorPosition": {
+        "x": 547,
+        "y": 452
+      },
+      "boundingBox": {
+        "left": 352,
+        "top": 203,
+        "right": 743,
+        "bottom": 702
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（经理），待最终图确认。",
+        "association": "场景中体现的具体对象（经理），待最终图确认。",
+        "collocation": "our manager; a team manager",
+        "example": "The woman at the head of the table is our manager.",
+        "exampleChinese": "坐在桌首的女子是我们的经理。"
+      }
+    },
+    {
+      "x": 878,
+      "y": 461,
+      "english": "secretary",
+      "chinese": "秘书",
+      "phoneticUS": "/ˈsekrəteri/",
+      "phoneticUK": "/ˈsekrətri/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 590
+      },
+      "anchorPosition": {
+        "x": 878,
+        "y": 461
+      },
+      "boundingBox": {
+        "left": 759,
+        "top": 260,
+        "right": 998,
+        "bottom": 662
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（秘书），待最终图确认。",
+        "association": "场景中体现的具体对象（秘书），待最终图确认。",
+        "collocation": "a secretary; the meeting secretary",
+        "example": "Our secretary takes notes during the meeting.",
+        "exampleChinese": "我们的秘书在会议中做笔记。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 518,
+      "english": "meeting",
+      "chinese": "会议",
+      "phoneticUS": "/ˈmiːtɪŋ/",
+      "phoneticUK": "/ˈmiːtɪŋ/",
+      "bubblePosition": {
+        "x": 470,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 518
+      },
+      "boundingBox": {
+        "left": 2,
+        "top": 198,
+        "right": 998,
+        "bottom": 839
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（会议），待最终图确认。",
+        "association": "场景中体现的关系（会议），待最终图确认。",
+        "collocation": "hold a meeting; a team meeting",
+        "example": "Three colleagues sit together for a meeting.",
+        "exampleChinese": "三位同事坐在一起开会。"
+      }
+    },
+    {
+      "x": 175,
+      "y": 930,
+      "english": "organization",
+      "chinese": "组织",
+      "phoneticUS": "/ˌɔːrɡənəˈzeɪʃən/",
+      "phoneticUK": "/ˌɔːɡənaɪˈzeɪʃən/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our organization has two teams.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our organization has two teams.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a small organization; the organization of",
+        "example": "Our organization has two teams.",
+        "exampleChinese": "我们的组织有两个团队。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 518,
+      "english": "group",
+      "chinese": "小组",
+      "phoneticUS": "/ɡruːp/",
+      "phoneticUK": "/ɡruːp/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 555
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 518
+      },
+      "boundingBox": {
+        "left": 2,
+        "top": 198,
+        "right": 998,
+        "bottom": 839
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（小组），待最终图确认。",
+        "association": "场景中体现的关系（小组），待最终图确认。",
+        "collocation": "a small group; work in a group",
+        "example": "Our group has three people.",
+        "exampleChinese": "我们的小组有三个人。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 185,
+      "english": "join",
+      "chinese": "参加",
+      "phoneticUS": "/dʒɔɪn/",
+      "phoneticUK": "/dʒɔɪn/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 185
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I join the meeting after lunch.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I join the meeting after lunch.；不声称该状态/含义本身在画面可见。",
+        "collocation": "join a meeting; join the group",
+        "example": "I join the meeting after lunch.",
+        "exampleChinese": "午饭后我参加会议。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Our group meets in the office, and I join the discussion about our work.",
+    "chinese": "我们的小组在办公室开会，我加入了关于工作的讨论。",
+    "source": "原创配文 · C071 办公室开会",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

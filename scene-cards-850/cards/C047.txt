@@ -1,0 +1,230 @@
+C047  天气突然变化
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C047.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C047.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T13:35:22Z → 2026-10-03T13:38:22Z
+  提示词文件: prompts/C047_image_final.txt
+
+场景: 同一片天空的晴雨对照，云、雾、雷雨和天气变化清楚呈现。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 同景晴雨双幅，白云与山腰雾层分开；雷声、变化速度、天气概念与空气用句子，不给虚假框。
+
+主配文:
+  英文: The sky changes; mist covers the hills, and I hear thunder.
+  中文: 天空变了；薄雾笼罩山丘，我听见了雷声。
+  类型: original | 来源: None | 状态: final
+
+目标词 (7): sky, cloud, mist, weather, thunder, sudden, air
+
+------------------------------------------------------------------------
+[1/7] sky  (W661)
+  词义: 天空
+  词性: noun
+  音标: UK /skaɪ/ | US /skaɪ/
+  搭配: a blue sky
+  例句: The sky is blue before the rain.
+  例句高亮: The **sky** is blue before the rain.
+  例句中文: 下雨前天空是蓝色的。
+  标注模式: object
+  标注说明: 上幅天空实际区域。
+  坐标(normalized): [0.4, 0.0, 0.995, 0.133]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅天空实际区域。"
+    sentence: "The sky is blue before the rain."
+    matched_form: "sky"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 天空
+
+------------------------------------------------------------------------
+[2/7] cloud  (W137)
+  词义: 云
+  词性: noun
+  音标: UK /klaʊd/ | US /klaʊd/
+  搭配: a white cloud
+  例句: A white cloud crosses the sky.
+  例句高亮: A white **cloud** crosses the sky.
+  例句中文: 一朵白云飘过天空。
+  标注模式: object
+  标注说明: 上幅独立白云。
+  坐标(normalized): [0.549, 0.077, 0.822, 0.128]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅独立白云。"
+    sentence: "A white cloud crosses the sky."
+    matched_form: "cloud"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 云
+
+------------------------------------------------------------------------
+[3/7] mist  (W446)
+  词义: 薄雾
+  词性: noun
+  音标: UK /mɪst/ | US /mɪst/
+  搭配: morning mist
+  例句: Mist covers the distant hills.
+  例句高亮: **Mist** covers the distant hills.
+  例句中文: 薄雾笼罩远处的山丘。
+  标注模式: object
+  标注说明: 下幅贴近山丘的真实雾层。
+  坐标(normalized): [0.396, 0.63, 0.996, 0.793]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "下幅贴近山丘的真实雾层。"
+    sentence: "Mist covers the distant hills."
+    matched_form: "mist"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 薄雾
+
+------------------------------------------------------------------------
+[4/7] weather  (W811)
+  词义: 天气
+  词性: noun
+  音标: UK /ˈweðə/ | US /ˈweðər/
+  搭配: a change in the weather
+  例句: The weather changes while I wait.
+  例句高亮: The **weather** changes while I wait.
+  例句中文: 我等待时天气变了。
+  标注模式: context
+  标注说明: 晴雨两幅提供线索，天气变化由完整句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The weather changes while I wait."
+    matched_form: "weather"
+    context: "晴雨两幅提供线索，天气变化由完整句子说明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 天气
+
+------------------------------------------------------------------------
+[5/7] thunder  (W760)
+  词义: 雷声
+  词性: noun
+  音标: UK /ˈθʌndə/ | US /ˈθʌndər/
+  搭配: hear thunder
+  例句: I hear thunder beyond the hills.
+  例句高亮: I hear **thunder** beyond the hills.
+  例句中文: 我听见山丘那边传来雷声。
+  标注模式: context
+  标注说明: 声音不能静态定位，不把云或闪电当雷声。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I hear thunder beyond the hills."
+    matched_form: "thunder"
+    context: "声音不能静态定位，不把云或闪电当雷声。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 雷声
+
+------------------------------------------------------------------------
+[6/7] sudden  (W724)
+  词义: 突然的
+  词性: adjective
+  音标: UK /ˈsʌdən/ | US /ˈsʌdən/
+  搭配: a sudden change
+  例句: A sudden change in the weather surprises me.
+  例句高亮: A **sudden** change in the weather surprises me.
+  例句中文: 天气突然变化让我吃了一惊。
+  标注模式: context
+  标注说明: 变化速度来自故事，静态对比不能证明突然。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A sudden change in the weather surprises me."
+    matched_form: "sudden"
+    context: "变化速度来自故事，静态对比不能证明突然。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 突然的
+
+------------------------------------------------------------------------
+[7/7] air  (W015)
+  词义: 空气
+  词性: noun
+  音标: UK /eə/ | US /er/
+  搭配: fresh air
+  例句: I breathe the fresh air.
+  例句高亮: I breathe the fresh **air**.
+  例句中文: 我呼吸着新鲜空气。
+  标注模式: context
+  标注说明: 空气不可见，雾不当空气本体。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I breathe the fresh air."
+    matched_form: "air"
+    context: "空气不可见，雾不当空气本体。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 空气；气氛
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 7
+  content_entries_complete: 7
+  sentence_evidence_complete: 7
+  verified_targets: 7
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C047 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=49 | meta.approved_cards=50
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Two equal vertically stacked photos at the same hill viewpoint, same adult woman. Upper: pale blue sky, a few white clouds, distant crisp green hills, woman calmly looking out. Lower: the same viewpoint now under grey storm clouds, visible low mist on distant hills and fine rain; woman under a plain umbrella at side, looking toward clouds. Clearly distinguish clouds overhead from mist close to hills. Lightning or sound symbols are not needed. No captions.

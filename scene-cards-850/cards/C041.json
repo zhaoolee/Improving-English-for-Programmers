@@ -1,0 +1,425 @@
+{
+  "id": "C041",
+  "chapter": "自然与农场",
+  "title": "公园里种树",
+  "scene": "主角在花园种小树，根部、茎、叶、枝条和花朵用清晰小窗呈现。",
+  "target_count": 9,
+  "primary_words": [
+    "garden",
+    "tree",
+    "branch",
+    "leaf",
+    "root",
+    "stem",
+    "flower",
+    "plant",
+    "tall"
+  ],
+  "targets": [
+    {
+      "word_id": "W297",
+      "word": "garden",
+      "aliases": [],
+      "source_zh_unreviewed": "花园",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "花园",
+      "pos": "noun",
+      "ipa_us": "/ˈɡɑːrdn/",
+      "ipa_uk": "/ˈɡɑːdn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "土床与植物构成的花园区域。",
+        "sentence": "We plant a tree in the garden.",
+        "matched_form": "garden",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We plant a tree in the garden.",
+      "example_zh": "我们在花园里种一棵树。",
+      "bbox_normalized": [
+        0.0,
+        0.392,
+        0.998,
+        0.609
+      ],
+      "collocations": [
+        "a small garden"
+      ],
+      "example_en_highlighted": "We plant a tree in the **garden**.",
+      "annotation_mode": "object",
+      "annotation_note": "土床与植物构成的花园区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W780",
+      "word": "tree",
+      "aliases": [],
+      "source_zh_unreviewed": "树",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "树",
+      "pos": "noun",
+      "ipa_us": "/triː/",
+      "ipa_uk": "/triː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅完整树苗。",
+        "sentence": "The young tree has many leaves.",
+        "matched_form": "tree",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The young tree has many leaves.",
+      "example_zh": "这棵小树有许多叶子。",
+      "bbox_normalized": [
+        0.113,
+        0.16,
+        0.426,
+        0.496
+      ],
+      "collocations": [
+        "a young tree"
+      ],
+      "example_en_highlighted": "The young **tree** has many leaves.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅完整树苗。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W090",
+      "word": "branch",
+      "aliases": [],
+      "source_zh_unreviewed": "分支；树枝",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "树枝",
+      "pos": "noun",
+      "ipa_us": "/bræntʃ/",
+      "ipa_uk": "/brɑːntʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "树苗独立木质分枝。",
+        "sentence": "A branch grows from the trunk.",
+        "matched_form": "branch",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A branch grows from the trunk.",
+      "example_zh": "一根树枝从树干上长出。",
+      "bbox_normalized": [
+        0.254,
+        0.309,
+        0.31,
+        0.432
+      ],
+      "collocations": [
+        "a tree branch"
+      ],
+      "example_en_highlighted": "A **branch** grows from the trunk.",
+      "annotation_mode": "object",
+      "annotation_note": "树苗独立木质分枝。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W392",
+      "word": "leaf",
+      "aliases": [],
+      "source_zh_unreviewed": "叶子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "叶子",
+      "pos": "noun",
+      "ipa_us": "/liːf/",
+      "ipa_uk": "/liːf/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际独立叶片。",
+        "sentence": "A green leaf catches the light.",
+        "matched_form": "leaf",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A green leaf catches the light.",
+      "example_zh": "一片绿叶迎着光。",
+      "bbox_normalized": [
+        0.24,
+        0.725,
+        0.383,
+        0.77
+      ],
+      "collocations": [
+        "a green leaf"
+      ],
+      "example_en_highlighted": "A green **leaf** catches the light.",
+      "annotation_mode": "object",
+      "annotation_note": "实际独立叶片。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W606",
+      "word": "root",
+      "aliases": [],
+      "source_zh_unreviewed": "根；根源",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "根",
+      "pos": "noun",
+      "ipa_us": "/ruːt/",
+      "ipa_uk": "/ruːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "露出根团上的细根，不用土团冒充根。",
+        "sentence": "A root reaches into the soil.",
+        "matched_form": "root",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A root reaches into the soil.",
+      "example_zh": "一条根伸进土里。",
+      "bbox_normalized": [
+        0.218,
+        0.486,
+        0.351,
+        0.599
+      ],
+      "collocations": [
+        "a plant root"
+      ],
+      "example_en_highlighted": "A **root** reaches into the soil.",
+      "annotation_mode": "object",
+      "annotation_note": "露出根团上的细根，不用土团冒充根。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W703",
+      "word": "stem",
+      "aliases": [],
+      "source_zh_unreviewed": "茎",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "茎",
+      "pos": "noun",
+      "ipa_us": "/stem/",
+      "ipa_uk": "/stem/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅植物真实绿色茎。",
+        "sentence": "The flower grows on a green stem.",
+        "matched_form": "stem",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The flower grows on a green stem.",
+      "example_zh": "花长在绿色的茎上。",
+      "bbox_normalized": [
+        0.423,
+        0.734,
+        0.454,
+        0.962
+      ],
+      "collocations": [
+        "a green stem"
+      ],
+      "example_en_highlighted": "The flower grows on a green **stem**.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅植物真实绿色茎。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W276",
+      "word": "flower",
+      "aliases": [],
+      "source_zh_unreviewed": "花；开花",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "花",
+      "pos": "noun",
+      "ipa_us": "/ˈflaʊər/",
+      "ipa_uk": "/ˈflaʊə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅实际白色花朵。",
+        "sentence": "The plant has a white flower.",
+        "matched_form": "flower",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The plant has a white flower.",
+      "example_zh": "这株植物开着一朵白花。",
+      "bbox_normalized": [
+        0.413,
+        0.64,
+        0.566,
+        0.771
+      ],
+      "collocations": [
+        "a white flower"
+      ],
+      "example_en_highlighted": "The plant has a white **flower**.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅实际白色花朵。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W530",
+      "word": "plant",
+      "aliases": [],
+      "source_zh_unreviewed": "植物；工厂",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "植物",
+      "pos": "noun",
+      "ipa_us": "/plænt/",
+      "ipa_uk": "/plɑːnt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅开花植物整体，浇水为另句示例不虚构图中动作。",
+        "sentence": "I water the plant beside the tree.",
+        "matched_form": "plant",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I water the plant beside the tree.",
+      "example_zh": "我给树旁的植物浇水。",
+      "bbox_normalized": [
+        0.234,
+        0.64,
+        0.616,
+        0.975
+      ],
+      "collocations": [
+        "a flowering plant"
+      ],
+      "example_en_highlighted": "I water the **plant** beside the tree.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅开花植物整体，浇水为另句示例不虚构图中动作。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W738",
+      "word": "tall",
+      "aliases": [],
+      "source_zh_unreviewed": "高的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "高的",
+      "pos": "adjective",
+      "ipa_us": "/tɔːl/",
+      "ipa_uk": "/tɔːl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "背景高树的实际指代区域，相对人物/树苗比较。",
+        "sentence": "A tall tree stands behind us.",
+        "matched_form": "tall",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A tall tree stands behind us.",
+      "example_zh": "一棵高树在我们身后。",
+      "bbox_normalized": [
+        0.406,
+        0.0,
+        0.998,
+        0.451
+      ],
+      "collocations": [
+        "a tall tree"
+      ],
+      "example_en_highlighted": "A **tall** tree stands behind us.",
+      "annotation_mode": "object",
+      "annotation_note": "背景高树的实际指代区域，相对人物/树苗比较。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A young tree, one leaf, and a flower make the garden feel alive.",
+    "zh": "一棵小树、一片叶子和一朵花，让花园充满生机。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C041\n标题 公园里种树\n场景 主角在花园种小树，根部、茎、叶、枝条和花朵用清晰小窗呈现。\n目标词 garden, tree, branch, leaf, root, stem, flower, plant, tall\n原创主配文草案 The tree has new leaves, and the plant has a flower.\n中文草案 树长出新叶，植物开了一朵花。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic two-panel garden editorial: upper two-thirds woman kneeling naturally beside a young sapling in a garden bed, root ball removed from nursery pot resting visibly on soil with exposed fine pale roots, distinct woody branches and clear leaves. Behind her a much taller tree fully visible to establish tall. Lower third close-up of one flowering garden plant, whole green stem from soil to white flower and one separate leaf sharp, no text. Real scale, anatomically plausible plant and hands, no floating root ball. Clear ground and sky margins.",
+  "status": "approved",
+  "image_path": "images/C041.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 9,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C041 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:13:23Z",
+    "prompt_path": "prompts/C041_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C041.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "树苗、枝叶、根团细根、背景高树、下幅茎与花清楚。根框覆盖细根而非单纯土团；高树树冠部分出画但相对人物高度明显，不编造完整高度。"
+  }
+}

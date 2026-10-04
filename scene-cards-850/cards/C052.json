@@ -1,0 +1,384 @@
+{
+  "id": "C052",
+  "chapter": "身体与健康",
+  "title": "伸展身体",
+  "scene": "主角安全站立做舒展动作，手臂、手、手指、拇指、腿、脚和脚趾清楚。",
+  "target_count": 8,
+  "primary_words": [
+    "body",
+    "arm",
+    "hand",
+    "finger",
+    "thumb",
+    "leg",
+    "foot",
+    "toe"
+  ],
+  "targets": [
+    {
+      "word_id": "W080",
+      "word": "body",
+      "aliases": [],
+      "source_zh_unreviewed": "身体",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "身体",
+      "pos": "noun",
+      "ipa_us": "/ˈbɑːdi/",
+      "ipa_uk": "/ˈbɒdi/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅人体整体。",
+        "sentence": "I stretch my body on the mat.",
+        "matched_form": "body",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I stretch my body on the mat.",
+      "example_zh": "我在垫子上舒展身体。",
+      "bbox_normalized": [
+        0.368,
+        0.005,
+        0.813,
+        0.597
+      ],
+      "collocations": [
+        "my body"
+      ],
+      "example_en_highlighted": "I stretch my **body** on the mat.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅人体整体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W033",
+      "word": "arm",
+      "aliases": [],
+      "source_zh_unreviewed": "手臂；武器",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "手臂",
+      "pos": "noun",
+      "ipa_us": "/ɑːrm/",
+      "ipa_uk": "/ɑːm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际伸出的手臂。",
+        "sentence": "I stretch one arm to the side.",
+        "matched_form": "arm",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I stretch one arm to the side.",
+      "example_zh": "我把一只手臂向侧面伸展。",
+      "bbox_normalized": [
+        0.572,
+        0.141,
+        0.795,
+        0.222
+      ],
+      "collocations": [
+        "my left arm"
+      ],
+      "example_en_highlighted": "I stretch one **arm** to the side.",
+      "annotation_mode": "object",
+      "annotation_note": "实际伸出的手臂。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W321",
+      "word": "hand",
+      "aliases": [],
+      "source_zh_unreviewed": "手",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "手",
+      "pos": "noun",
+      "ipa_us": "/hænd/",
+      "ipa_uk": "/hænd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅完整手掌与手指。",
+        "sentence": "My hand is open.",
+        "matched_form": "hand",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My hand is open.",
+      "example_zh": "我的手张开着。",
+      "bbox_normalized": [
+        0.096,
+        0.617,
+        0.486,
+        0.953
+      ],
+      "collocations": [
+        "an open hand"
+      ],
+      "example_en_highlighted": "My **hand** is open.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅完整手掌与手指。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W266",
+      "word": "finger",
+      "aliases": [],
+      "source_zh_unreviewed": "手指；指头",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "手指",
+      "pos": "noun",
+      "ipa_us": "/ˈfɪŋɡər/",
+      "ipa_uk": "/ˈfɪŋɡə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅实际食指。",
+        "sentence": "My index finger is beside my thumb.",
+        "matched_form": "finger",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My index finger is beside my thumb.",
+      "example_zh": "我的食指在拇指旁边。",
+      "bbox_normalized": [
+        0.332,
+        0.714,
+        0.486,
+        0.828
+      ],
+      "collocations": [
+        "my index finger"
+      ],
+      "example_en_highlighted": "My index **finger** is beside my thumb.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅实际食指。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W759",
+      "word": "thumb",
+      "aliases": [],
+      "source_zh_unreviewed": "拇指",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "拇指",
+      "pos": "noun",
+      "ipa_us": "/θʌm/",
+      "ipa_uk": "/θʌm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际独立拇指。",
+        "sentence": "My thumb points away from my fingers.",
+        "matched_form": "thumb",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My thumb points away from my fingers.",
+      "example_zh": "我的拇指向外展开，与其他手指分开。",
+      "bbox_normalized": [
+        0.115,
+        0.7,
+        0.176,
+        0.882
+      ],
+      "collocations": [
+        "my thumb"
+      ],
+      "example_en_highlighted": "My **thumb** points away from my fingers.",
+      "annotation_mode": "object",
+      "annotation_note": "实际独立拇指。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W396",
+      "word": "leg",
+      "aliases": [],
+      "source_zh_unreviewed": "腿",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "腿",
+      "pos": "noun",
+      "ipa_us": "/leɡ/",
+      "ipa_uk": "/leɡ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅实际左腿。",
+        "sentence": "One leg is straight.",
+        "matched_form": "leg",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "One leg is straight.",
+      "example_zh": "一条腿伸直着。",
+      "bbox_normalized": [
+        0.51,
+        0.373,
+        0.574,
+        0.572
+      ],
+      "collocations": [
+        "my left leg"
+      ],
+      "example_en_highlighted": "One **leg** is straight.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅实际左腿。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W281",
+      "word": "foot",
+      "aliases": [],
+      "source_zh_unreviewed": "脚；足",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "脚",
+      "pos": "noun",
+      "ipa_us": "/fʊt/",
+      "ipa_uk": "/fʊt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅脚部整体。",
+        "sentence": "My foot rests on the mat.",
+        "matched_form": "foot",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My foot rests on the mat.",
+      "example_zh": "我的脚放在垫子上。",
+      "bbox_normalized": [
+        0.669,
+        0.619,
+        0.912,
+        0.937
+      ],
+      "collocations": [
+        "my left foot"
+      ],
+      "example_en_highlighted": "My **foot** rests on the mat.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅脚部整体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W768",
+      "word": "toe",
+      "aliases": [],
+      "source_zh_unreviewed": "脚趾",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "脚趾",
+      "pos": "noun",
+      "ipa_us": "/toʊ/",
+      "ipa_uk": "/təʊ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际大脚趾。",
+        "sentence": "My big toe is beside the other toes.",
+        "matched_form": "toe",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My big toe is beside the other toes.",
+      "example_zh": "我的大脚趾在其他脚趾旁边。",
+      "bbox_normalized": [
+        0.676,
+        0.857,
+        0.763,
+        0.934
+      ],
+      "collocations": [
+        "my big toe"
+      ],
+      "example_en_highlighted": "My big **toe** is beside the other toes.",
+      "annotation_mode": "object",
+      "annotation_note": "实际大脚趾。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I stretch my body, open my hand, and stand with both feet on the mat.",
+    "zh": "我舒展身体，张开手掌，双脚站在垫子上。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C052\n标题 伸展身体\n场景 主角安全站立做舒展动作，手臂、手、手指、拇指、腿、脚和脚趾清楚。\n目标词 body, arm, hand, finger, thumb, leg, foot, toe\n原创主配文草案 I stretch my arms and move my fingers.\n中文草案 我伸展手臂，活动手指。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Two vertically stacked editorial photographs in a bright minimalist exercise room. Upper about 65 percent height: FULL standing woman head to bare feet on matte yoga mat, modest ivory short-sleeve tee and loose knee-length athletic shorts, one arm stretched gently outward with open hand. Both legs feet visible, no contortion. Lower close-up about35percent: same open relaxed left hand, five anatomically correct digits, distinct thumb and index finger, alongside one bare foot with five credible toes on mat, sufficient close-up detail. Safe grounded pose; limbs distinguishable.",
+  "status": "approved",
+  "image_path": "images/C052.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 8,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C052 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T14:57:00Z",
+    "prompt_path": "prompts/C052_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C052.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "全身与手足特写分区；下方手有五指、脚有五趾。食指选右上方伸出的指头，拇指在左侧，足趾对应大脚趾。"
+  }
+}

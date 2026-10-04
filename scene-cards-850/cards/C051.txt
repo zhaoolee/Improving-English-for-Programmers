@@ -1,0 +1,276 @@
+C051  镜前认识面部
+========================================================================
+章节: 身体与健康
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C051.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C051.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T14:55:34Z → 2026-10-03T14:56:21Z
+  提示词文件: prompts/C051_image_final.txt
+
+场景: 主角在镜前用梳子梳头，脸、眼、耳、鼻、嘴、唇、下巴和头发清楚。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 面部五官、近侧耳和梳子清晰；保留肤纹，梳子与头发有真实指代。
+
+主配文:
+  英文: I comb my hair and look at my face in the mirror.
+  中文: 我梳着头发，看着镜子里的脸。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): face, eye, ear, nose, mouth, lip, chin, hair, comb
+
+------------------------------------------------------------------------
+[1/9] face  (W248)
+  词义: 脸
+  词性: noun
+  音标: UK /feɪs/ | US /feɪs/
+  搭配: my face
+  例句: I look at my face in the mirror.
+  例句高亮: I look at my **face** in the mirror.
+  例句中文: 我看着镜子里的脸。
+  标注模式: object
+  标注说明: 实际面部整体。
+  坐标(normalized): [0.282, 0.138, 0.661, 0.44]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际面部整体。"
+    sentence: "I look at my face in the mirror."
+    matched_form: "face"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 脸；面孔
+
+------------------------------------------------------------------------
+[2/9] eye  (W247)
+  词义: 眼睛
+  词性: noun
+  音标: UK /aɪ/ | US /aɪ/
+  搭配: my left eye
+  例句: One eye is visible beside my nose.
+  例句高亮: One **eye** is visible beside my nose.
+  例句中文: 一只眼睛在鼻子旁清晰可见。
+  标注模式: object
+  标注说明: 实际可辨的一只眼。
+  坐标(normalized): [0.426, 0.233, 0.509, 0.262]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际可辨的一只眼。"
+    sentence: "One eye is visible beside my nose."
+    matched_form: "eye"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 眼睛
+
+------------------------------------------------------------------------
+[3/9] ear  (W222)
+  词义: 耳朵
+  词性: noun
+  音标: UK /ɪə/ | US /ɪr/
+  搭配: my ear
+  例句: My hair is behind my ear.
+  例句高亮: My hair is behind my **ear**.
+  例句中文: 我的头发别在耳后。
+  标注模式: object
+  标注说明: 实际露出的耳朵。
+  坐标(normalized): [0.602, 0.28, 0.69, 0.369]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际露出的耳朵。"
+    sentence: "My hair is behind my ear."
+    matched_form: "ear"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 耳朵
+
+------------------------------------------------------------------------
+[4/9] nose  (W480)
+  词义: 鼻子
+  词性: noun
+  音标: UK /nəʊz/ | US /noʊz/
+  搭配: my nose
+  例句: My nose is above my mouth.
+  例句高亮: My **nose** is above my mouth.
+  例句中文: 我的鼻子在嘴巴上方。
+  标注模式: object
+  标注说明: 面部实际鼻子。
+  坐标(normalized): [0.34, 0.26, 0.424, 0.328]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "面部实际鼻子。"
+    sentence: "My nose is above my mouth."
+    matched_form: "nose"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 鼻子
+
+------------------------------------------------------------------------
+[5/9] mouth  (W456)
+  词义: 嘴巴
+  词性: noun
+  音标: UK /maʊθ/ | US /maʊθ/
+  搭配: a closed mouth
+  例句: My mouth is closed.
+  例句高亮: My **mouth** is closed.
+  例句中文: 我的嘴巴闭着。
+  标注模式: object
+  标注说明: 实际口部整体。
+  坐标(normalized): [0.319, 0.329, 0.43, 0.375]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际口部整体。"
+    sentence: "My mouth is closed."
+    matched_form: "mouth"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 嘴
+
+------------------------------------------------------------------------
+[6/9] lip  (W407)
+  词义: 嘴唇
+  词性: noun
+  音标: UK /lɪp/ | US /lɪp/
+  搭配: my lower lip
+  例句: My lower lip is below my upper lip.
+  例句高亮: My lower **lip** is below my upper lip.
+  例句中文: 我的下唇在上唇下方。
+  标注模式: object
+  标注说明: 定位实际下唇。
+  坐标(normalized): [0.341, 0.357, 0.411, 0.373]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "定位实际下唇。"
+    sentence: "My lower lip is below my upper lip."
+    matched_form: "lip"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 嘴唇
+
+------------------------------------------------------------------------
+[7/9] chin  (W130)
+  词义: 下巴
+  词性: noun
+  音标: UK /tʃɪn/ | US /tʃɪn/
+  搭配: my chin
+  例句: My chin is below my mouth.
+  例句高亮: My **chin** is below my mouth.
+  例句中文: 我的下巴在嘴巴下方。
+  标注模式: object
+  标注说明: 实际下巴区域。
+  坐标(normalized): [0.332, 0.378, 0.452, 0.435]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际下巴区域。"
+    sentence: "My chin is below my mouth."
+    matched_form: "chin"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 下巴
+
+------------------------------------------------------------------------
+[8/9] hair  (W319)
+  词义: 头发
+  词性: noun
+  音标: UK /heə/ | US /her/
+  搭配: loose hair
+  例句: My hair falls beside my face.
+  例句高亮: My **hair** falls beside my face.
+  例句中文: 我的头发垂在脸旁。
+  标注模式: object
+  标注说明: 实际头发。
+  坐标(normalized): [0.7, 0.735, 0.915, 0.89]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际头发。"
+    sentence: "My hair falls beside my face."
+    matched_form: "hair"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 头发
+
+------------------------------------------------------------------------
+[9/9] comb  (W143)
+  词义: 梳子
+  词性: noun
+  音标: UK /kəʊm/ | US /koʊm/
+  搭配: a wide-tooth comb
+  例句: I hold a comb beside my hair.
+  例句高亮: I hold a **comb** beside my hair.
+  例句中文: 我在头发旁拿着一把梳子。
+  标注模式: object
+  标注说明: 实际梳齿与梳身。
+  坐标(normalized): [0.74, 0.559, 0.942, 0.736]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际梳齿与梳身。"
+    sentence: "I hold a comb beside my hair."
+    matched_form: "comb"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 梳子
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 9
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C051 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=59 | meta.approved_cards=60
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Close beauty editorial beside a mirror at a dressing table: woman centered, face unobscured in a gentle three-quarter angle, near ear visible with hair tucked behind it, eye nose closed relaxed mouth lips chin distinct. She gently holds one simple wide-tooth ivory comb beside her loose hair, comb fully visible at lower right, mirror at side reflects only enough environment to suggest scene without a second distracting face. Tasteful real facial detail, room around head for annotations.

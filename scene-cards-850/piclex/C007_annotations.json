@@ -1,0 +1,286 @@
+{
+  "filename": "C007-洗漱台前.png",
+  "labels": [
+    {
+      "x": 245,
+      "y": 872,
+      "english": "basin",
+      "chinese": "洗手盆",
+      "phoneticUS": "/ˈbeɪsən/",
+      "phoneticUK": "/ˈbeɪsən/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 740
+      },
+      "anchorPosition": {
+        "x": 245,
+        "y": 872
+      },
+      "boundingBox": {
+        "left": 37,
+        "top": 605,
+        "right": 592,
+        "bottom": 997
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框白色洗手盆盆体，不包含整张台面。",
+        "association": "框白色洗手盆盆体，不包含整张台面。",
+        "collocation": "a wash basin; at the basin",
+        "example": "I wash my hands in the basin.",
+        "exampleChinese": "我在洗手盆里洗手。"
+      }
+    },
+    {
+      "x": 880,
+      "y": 305,
+      "english": "bath",
+      "chinese": "浴缸（英式）",
+      "phoneticUS": "/bæθ/",
+      "phoneticUK": "/bɑːθ/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 150
+      },
+      "anchorPosition": {
+        "x": 880,
+        "y": 305
+      },
+      "boundingBox": {
+        "left": 715,
+        "top": 205,
+        "right": 1000,
+        "bottom": 440
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable, British English)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "本卡采用英式bath指浴缸，美式通常说bathtub。",
+        "association": "本卡采用英式bath指浴缸，美式通常说bathtub。",
+        "collocation": "a white bath; a bath in the bathroom",
+        "example": "There is a white bath behind me.",
+        "exampleChinese": "我身后有一个白色浴缸。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 535,
+      "english": "soap",
+      "chinese": "肥皂",
+      "phoneticUS": "/soʊp/",
+      "phoneticUK": "/səʊp/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 460
+      },
+      "anchorPosition": {
+        "x": 130,
+        "y": 535
+      },
+      "boundingBox": {
+        "left": 83,
+        "top": 505,
+        "right": 176,
+        "bottom": 553
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位皂碟中的固体肥皂，不把皂碟当肥皂。",
+        "association": "定位皂碟中的固体肥皂，不把皂碟当肥皂。",
+        "collocation": "a bar of soap; water and soap",
+        "example": "The soap is on a small dish.",
+        "exampleChinese": "肥皂放在一个小碟子上。"
+      }
+    },
+    {
+      "x": 680,
+      "y": 925,
+      "english": "brush",
+      "chinese": "刷子",
+      "phoneticUS": "/brʌʃ/",
+      "phoneticUK": "/brʌʃ/",
+      "bubblePosition": {
+        "x": 790,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 680,
+        "y": 925
+      },
+      "boundingBox": {
+        "left": 610,
+        "top": 880,
+        "right": 747,
+        "bottom": 979
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位台面的木柄鬃毛刷。",
+        "association": "定位台面的木柄鬃毛刷。",
+        "collocation": "a hand brush; a wooden brush",
+        "example": "The brush is beside the basin.",
+        "exampleChinese": "刷子在洗手盆旁边。"
+      }
+    },
+    {
+      "x": 328,
+      "y": 758,
+      "english": "wash",
+      "chinese": "洗",
+      "phoneticUS": "/wɑːʃ/",
+      "phoneticUK": "/wɒʃ/",
+      "bubblePosition": {
+        "x": 470,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 328,
+        "y": 758
+      },
+      "boundingBox": {
+        "left": 234,
+        "top": 675,
+        "right": 417,
+        "bottom": 817
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "双手在流水下搓洗的区域。",
+        "association": "双手在流水下搓洗的区域。",
+        "collocation": "wash my hands; wash with soap",
+        "example": "I wash my hands with soap.",
+        "exampleChinese": "我用肥皂洗手。"
+      }
+    },
+    {
+      "x": 880,
+      "y": 680,
+      "english": "clean",
+      "chinese": "干净的",
+      "phoneticUS": "/kliːn/",
+      "phoneticUK": "/kliːn/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 680
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "洗后结果由例句说明，静态图不证明洁净程度。",
+        "association": "洗后结果由例句说明，静态图不证明洁净程度。",
+        "collocation": "clean hands; be clean",
+        "example": "My hands are clean after washing.",
+        "exampleChinese": "洗完后，我的双手很干净。"
+      }
+    },
+    {
+      "x": 235,
+      "y": 700,
+      "english": "water",
+      "chinese": "水",
+      "phoneticUS": "/ˈwɑːtər/",
+      "phoneticUK": "/ˈwɔːtə/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 620
+      },
+      "anchorPosition": {
+        "x": 235,
+        "y": 700
+      },
+      "boundingBox": {
+        "left": 213,
+        "top": 651,
+        "right": 255,
+        "bottom": 763
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框可见流水，不把整个龙头或盆作为水。",
+        "association": "只框可见流水，不把整个龙头或盆作为水。",
+        "collocation": "running water; water and soap",
+        "example": "Water flows from the tap.",
+        "exampleChinese": "水从水龙头流出。"
+      }
+    },
+    {
+      "x": 320,
+      "y": 865,
+      "english": "drain",
+      "chinese": "排水口",
+      "phoneticUS": "/dreɪn/",
+      "phoneticUK": "/dreɪn/",
+      "bubblePosition": {
+        "x": 310,
+        "y": 958.4180866317649
+      },
+      "anchorPosition": {
+        "x": 320,
+        "y": 865
+      },
+      "boundingBox": {
+        "left": 283,
+        "top": 833,
+        "right": 355,
+        "bottom": 889
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框盆底可见的金属排水口，避免声称看到隐藏管道。",
+        "association": "框盆底可见的金属排水口，避免声称看到隐藏管道。",
+        "collocation": "a basin drain; down the drain",
+        "example": "Water goes down the drain.",
+        "exampleChinese": "水从排水口流下去。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I wash my hands with water and soap at the basin.",
+    "chinese": "我在洗手盆前用水和肥皂洗手。",
+    "source": "原创配文 · C007 洗漱台前",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

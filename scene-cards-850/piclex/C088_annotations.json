@@ -1,0 +1,246 @@
+{
+  "filename": "C088-发现与发明.png",
+  "labels": [
+    {
+      "x": 160,
+      "y": 90,
+      "english": "discovery",
+      "chinese": "发现",
+      "phoneticUS": "/dɪˈskʌvəri/",
+      "phoneticUK": "/dɪˈskʌvəri/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a new discovery; make a discovery",
+        "example": "A discovery reveals something that was already there.",
+        "exampleChinese": "发现揭示原本就存在的事物。"
+      }
+    },
+    {
+      "x": 684,
+      "y": 738,
+      "english": "invention",
+      "chinese": "发明",
+      "phoneticUS": "/ɪnˈvenʃən/",
+      "phoneticUK": "/ɪnˈvenʃən/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 915
+      },
+      "anchorPosition": {
+        "x": 684,
+        "y": 738
+      },
+      "boundingBox": {
+        "left": 524,
+        "top": 667,
+        "right": 845,
+        "bottom": 809
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（发明），待最终图确认。",
+        "association": "场景中体现的具体对象（发明），待最终图确认。",
+        "collocation": "a useful invention; a new invention",
+        "example": "The small prototype represents an invention in this exhibit.",
+        "exampleChinese": "这个小原型在展览中代表一项发明。"
+      }
+    },
+    {
+      "x": 835,
+      "y": 90,
+      "english": "development",
+      "chinese": "发展",
+      "phoneticUS": "/dɪˈveləpmənt/",
+      "phoneticUK": "/dɪˈveləpmənt/",
+      "bubblePosition": {
+        "x": 835,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。",
+        "collocation": "technical development; the development of",
+        "example": "The exhibit tells a story of technical development.",
+        "exampleChinese": "这个展览讲述技术发展的故事。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 300,
+      "english": "automatic",
+      "chinese": "自动的",
+      "phoneticUS": "/ˌɔːtəˈmætɪk/",
+      "phoneticUK": "/ˌɔːtəˈmætɪk/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 300
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。",
+        "collocation": "an automatic machine; automatic control",
+        "example": "The story describes an automatic machine that follows a program.",
+        "exampleChinese": "故事描述一台按照程序运行的自动机器。"
+      }
+    },
+    {
+      "x": 896,
+      "y": 503,
+      "english": "machine",
+      "chinese": "机器",
+      "phoneticUS": "/məˈʃiːn/",
+      "phoneticUK": "/məˈʃiːn/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 530
+      },
+      "anchorPosition": {
+        "x": 896,
+        "y": 503
+      },
+      "boundingBox": {
+        "left": 794,
+        "top": 384,
+        "right": 998,
+        "bottom": 623
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（机器），待最终图确认。",
+        "association": "场景中体现的具体对象（机器），待最终图确认。",
+        "collocation": "a modern machine; a small machine",
+        "example": "The machine is protected by glass.",
+        "exampleChinese": "机器由玻璃罩保护着。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 490,
+      "english": "process",
+      "chinese": "过程",
+      "phoneticUS": "/ˈprɑːses/",
+      "phoneticUK": "/ˈprəʊses/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 490
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a design process; the process of",
+        "example": "We discuss the process of improving the prototype.",
+        "exampleChinese": "我们讨论改进原型的过程。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 860,
+      "english": "purpose",
+      "chinese": "目的",
+      "phoneticUS": "/ˈpɝːpəs/",
+      "phoneticUK": "/ˈpɜːpəs/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 860
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。",
+        "collocation": "the purpose of; a clear purpose",
+        "example": "The purpose of the display is to explain engineering.",
+        "exampleChinese": "这个展示的目的是解释工程技术。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 620,
+      "english": "attempt",
+      "chinese": "尝试",
+      "phoneticUS": "/əˈtempt/",
+      "phoneticUK": "/əˈtempt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 620
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a first attempt; make an attempt",
+        "example": "The prototype began as a first attempt at a new design.",
+        "exampleChinese": "这个原型起初是对新设计的第一次尝试。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "An old hand tool and a modern machine show how an invention can develop.",
+    "chinese": "一件旧手工具和一台现代机器展示了发明如何发展。",
+    "source": "原创配文 · C088 发现与发明",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

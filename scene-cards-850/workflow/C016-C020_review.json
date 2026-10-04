@@ -1,0 +1,589 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "cards": {
+    "C016": {
+      "imageReview": "烤箱、蛋糕、平滑红色果酱层和咖啡可辨；年轻成年女性、真实材质与单张场景符合风格。叉上小块蛋糕仅作一口的线索，味觉/嗅觉/好坏评价均由句子支持。没有从静态图认定咬合或味觉。",
+      "geometry": {
+        "oven": {
+          "bubble": [
+            110,
+            490
+          ],
+          "box": [
+            0,
+            0,
+            224,
+            431
+          ],
+          "anchor": [
+            90,
+            300
+          ]
+        },
+        "cake": {
+          "bubble": [
+            570,
+            852
+          ],
+          "box": [
+            335,
+            585,
+            790,
+            770
+          ],
+          "anchor": [
+            535,
+            710
+          ]
+        },
+        "jelly": {
+          "bubble": [
+            790,
+            566
+          ],
+          "box": [
+            353,
+            591,
+            775,
+            685
+          ],
+          "anchor": [
+            550,
+            632
+          ]
+        },
+        "taste": {
+          "bubble": [
+            115,
+            854
+          ]
+        },
+        "smell": {
+          "bubble": [
+            340,
+            50
+          ]
+        },
+        "bitter": {
+          "bubble": [
+            907,
+            852
+          ]
+        },
+        "good": {
+          "bubble": [
+            130,
+            945
+          ]
+        },
+        "bad": {
+          "bubble": [
+            450,
+            945
+          ]
+        },
+        "bite": {
+          "bubble": [
+            800,
+            945
+          ],
+          "box": [
+            350,
+            229,
+            441,
+            283
+          ],
+          "anchor": [
+            397,
+            255
+          ],
+          "evidence": "叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。"
+        }
+      },
+      "sourcePath": "scene-cards-850/images/C016.png",
+      "generationStartedAt": "2026-10-02T22:54:39Z",
+      "generationEndedAt": "2026-10-02T22:55:46Z",
+      "originalSourcePathRedacted": true
+    },
+    "C017": {
+      "imageReview": "肉、白色脂肪、盐碟、油壶均可辨；手在搅拌碗内酱汁。黏度与混合/足量等语义由例句明确，不从照片推算触感或容量。",
+      "geometry": {
+        "meat": {
+          "bubble": [
+            245,
+            952
+          ],
+          "box": [
+            47,
+            729,
+            451,
+            901
+          ],
+          "anchor": [
+            224,
+            819
+          ]
+        },
+        "fat": {
+          "bubble": [
+            430,
+            770
+          ],
+          "box": [
+            303,
+            778,
+            415,
+            849
+          ],
+          "anchor": [
+            355,
+            813
+          ]
+        },
+        "oil": {
+          "bubble": [
+            864,
+            956
+          ],
+          "box": [
+            760,
+            798,
+            893,
+            914
+          ],
+          "anchor": [
+            826,
+            860
+          ]
+        },
+        "salt": {
+          "bubble": [
+            596,
+            957
+          ],
+          "box": [
+            512,
+            860,
+            672,
+            907
+          ],
+          "anchor": [
+            589,
+            886
+          ]
+        },
+        "mixed": {
+          "bubble": [
+            106,
+            411
+          ],
+          "box": [
+            450,
+            573,
+            691,
+            682
+          ],
+          "anchor": [
+            570,
+            628
+          ],
+          "evidence": "手中碗里的混合食材区域，mixed描述已在碗中组合的食材；不框整个厨房。"
+        },
+        "amount": {
+          "bubble": [
+            105,
+            72
+          ]
+        },
+        "addition": {
+          "bubble": [
+            855,
+            61
+          ]
+        },
+        "enough": {
+          "bubble": [
+            886,
+            318
+          ]
+        },
+        "sticky": {
+          "bubble": [
+            110,
+            587
+          ]
+        }
+      },
+      "sourcePath": "scene-cards-850/images/C017.png",
+      "generationStartedAt": "2026-10-02T22:54:39Z",
+      "generationEndedAt": "2026-10-02T22:55:17Z",
+      "originalSourcePathRedacted": true
+    },
+    "C018": {
+      "imageReview": "酒瓶、软木塞、玻璃杯和红葡萄酒独立清晰；杯液面接近杯口，瓶内仅少量酒。full例句采用nearly full符合实际液面，抽象量词/类别及of使用无框语境标签。",
+      "geometry": {
+        "bottle": {
+          "bubble": [
+            112,
+            470
+          ],
+          "box": [
+            114,
+            218,
+            328,
+            879
+          ],
+          "anchor": [
+            215,
+            603
+          ]
+        },
+        "cork": {
+          "bubble": [
+            412,
+            930
+          ],
+          "box": [
+            341,
+            806,
+            477,
+            893
+          ],
+          "anchor": [
+            410,
+            850
+          ]
+        },
+        "wine": {
+          "bubble": [
+            929,
+            644
+          ],
+          "box": [
+            613,
+            390,
+            884,
+            624
+          ],
+          "anchor": [
+            745,
+            506
+          ]
+        },
+        "glass": {
+          "bubble": [
+            850,
+            935
+          ],
+          "box": [
+            602,
+            366,
+            891,
+            895
+          ],
+          "anchor": [
+            741,
+            738
+          ]
+        },
+        "liquid": {
+          "bubble": [
+            753,
+            54
+          ],
+          "box": [
+            613,
+            390,
+            884,
+            624
+          ],
+          "anchor": [
+            748,
+            507
+          ],
+          "evidence": "wine是liquid的可见实例，区域定位玻璃杯中实际液体。"
+        },
+        "full": {
+          "bubble": [
+            922,
+            333
+          ],
+          "box": [
+            602,
+            366,
+            891,
+            895
+          ],
+          "anchor": [
+            746,
+            630
+          ],
+          "evidence": "盛至近杯口的玻璃杯区域，full指杯子的可见装满状态；例句nearly full保留程度限定。"
+        },
+        "little": {
+          "bubble": [
+            123,
+            935
+          ],
+          "box": [
+            136,
+            733,
+            315,
+            873
+          ],
+          "anchor": [
+            226,
+            803
+          ],
+          "evidence": "瓶底少量葡萄酒的液面和内容区域，little定位瓶内少量的wine，不框整瓶或全图。"
+        },
+        "much": {
+          "bubble": [
+            647,
+            930
+          ],
+          "box": [
+            613,
+            390,
+            884,
+            624
+          ],
+          "anchor": [
+            748,
+            507
+          ],
+          "evidence": "杯中较多葡萄酒的区域，much修饰wine；too much的评价仍来自原创句子，不推算容量。"
+        },
+        "of": {
+          "bubble": [
+            124,
+            97
+          ]
+        }
+      },
+      "sourcePath": "scene-cards-850/images/C018.png",
+      "generationStartedAt": "2026-10-02T22:54:39Z",
+      "generationEndedAt": "2026-10-02T22:56:14Z",
+      "originalSourcePathRedacted": true
+    },
+    "C019": {
+      "imageReview": "两位成年女性的庄园茶室历史服装、递茶托盘、面包与汤清晰；历史仆人身份仅由虚构1890庄园设定说明。礼貌、需求、选择及yes/no均以明确原创对话支持，不从外貌/表情认定。11词均为无框语境标签。",
+      "geometry": {
+        "please": {
+          "bubble": [
+            110,
+            65
+          ]
+        },
+        "request": {
+          "bubble": [
+            410,
+            65
+          ]
+        },
+        "offer": {
+          "bubble": [
+            110,
+            275
+          ],
+          "box": [
+            462,
+            436,
+            782,
+            562
+          ],
+          "anchor": [
+            650,
+            505
+          ],
+          "evidence": "服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。"
+        },
+        "need": {
+          "bubble": [
+            555,
+            165
+          ]
+        },
+        "desire": {
+          "bubble": [
+            545,
+            310
+          ]
+        },
+        "selection": {
+          "bubble": [
+            140,
+            941
+          ],
+          "box": [
+            6,
+            690,
+            829,
+            850
+          ],
+          "anchor": [
+            500,
+            760
+          ],
+          "evidence": "桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。"
+        },
+        "or": {
+          "bubble": [
+            415,
+            941
+          ]
+        },
+        "some": {
+          "bubble": [
+            650,
+            941
+          ]
+        },
+        "no": {
+          "bubble": [
+            878,
+            941
+          ]
+        },
+        "yes": {
+          "bubble": [
+            887,
+            852
+          ]
+        },
+        "servant": {
+          "bubble": [
+            820,
+            50
+          ],
+          "box": [
+            569,
+            52,
+            978,
+            700
+          ],
+          "anchor": [
+            774,
+            85
+          ],
+          "evidence": "右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。"
+        }
+      },
+      "sourcePath": "scene-cards-850/images/C019.png",
+      "generationStartedAt": "2026-10-02T22:54:39Z",
+      "generationEndedAt": "2026-10-02T22:57:56Z",
+      "originalSourcePathRedacted": true
+    },
+    "C020": {
+      "imageReview": "独立圆盖、盛汤容器、小块面包及托碟上一滴汤均清楚；双手自然，盖子尚未盖合，动作与保存剩食主题一致。last/end/because等依原创叙述，均无虚假框。",
+      "geometry": {
+        "waste": {
+          "bubble": [
+            115,
+            60
+          ]
+        },
+        "cover": {
+          "bubble": [
+            170,
+            572
+          ],
+          "box": [
+            338,
+            548,
+            594,
+            665
+          ],
+          "anchor": [
+            473,
+            607
+          ]
+        },
+        "vessel": {
+          "bubble": [
+            520,
+            906
+          ],
+          "box": [
+            377,
+            669,
+            655,
+            837
+          ],
+          "anchor": [
+            516,
+            760
+          ]
+        },
+        "drop": {
+          "bubble": [
+            861,
+            901
+          ],
+          "box": [
+            827,
+            822,
+            857,
+            835
+          ],
+          "anchor": [
+            842,
+            829
+          ]
+        },
+        "bit": {
+          "bubble": [
+            135,
+            950
+          ],
+          "box": [
+            164,
+            758,
+            266,
+            803
+          ],
+          "anchor": [
+            215,
+            780
+          ],
+          "evidence": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。"
+        },
+        "last": {
+          "bubble": [
+            150,
+            694
+          ],
+          "box": [
+            164,
+            758,
+            266,
+            803
+          ],
+          "anchor": [
+            215,
+            780
+          ],
+          "evidence": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。"
+        },
+        "end": {
+          "bubble": [
+            411,
+            52
+          ]
+        },
+        "because": {
+          "bubble": [
+            867,
+            64
+          ]
+        }
+      },
+      "sourcePath": "scene-cards-850/images/C020.png",
+      "generationStartedAt": "2026-10-02T22:54:39Z",
+      "generationEndedAt": "2026-10-02T22:58:34Z",
+      "originalSourcePathRedacted": true
+    }
+  },
+  "wordOverrides": {}
+}

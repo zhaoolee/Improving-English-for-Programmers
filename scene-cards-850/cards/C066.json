@@ -1,0 +1,430 @@
+{
+  "id": "C066",
+  "chapter": "学习与艺术",
+  "title": "画室的小作品",
+  "scene": "主角在画室画静物，图画、画框、颜料和设计草图清楚。",
+  "target_count": 9,
+  "primary_words": [
+    "art",
+    "picture",
+    "frame",
+    "paint",
+    "design",
+    "form",
+    "detail",
+    "delicate",
+    "paste"
+  ],
+  "targets": [
+    {
+      "word_id": "W035",
+      "word": "art",
+      "aliases": [],
+      "source_zh_unreviewed": "艺术",
+      "planned_mode": "context",
+      "sense_zh": "艺术",
+      "pos": "noun",
+      "ipa_us": "/ɑːrt/",
+      "ipa_uk": "/ɑːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Making art helps me notice small things.",
+        "matched_form": "art",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Making art helps me notice small things.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Making art helps me notice small things.",
+      "example_zh": "艺术创作帮助我留意细小的事物。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make art",
+        "a work of art"
+      ],
+      "example_en_highlighted": "Making **art** helps me notice small things.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Making art helps me notice small things.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W524",
+      "word": "picture",
+      "aliases": [],
+      "source_zh_unreviewed": "图片；画面",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "图画",
+      "pos": "noun",
+      "ipa_us": "/ˈpɪktʃɚ/",
+      "ipa_uk": "/ˈpɪktʃə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "画架上的花瓶静物画。",
+        "sentence": "I paint a picture of a vase.",
+        "matched_form": "picture",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I paint a picture of a vase.",
+      "example_zh": "我画一幅花瓶的画。",
+      "bbox_normalized": [
+        0.682,
+        0.069,
+        0.998,
+        0.704
+      ],
+      "collocations": [
+        "paint a picture",
+        "a small picture"
+      ],
+      "example_en_highlighted": "I paint a **picture** of a vase.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（图画），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W288",
+      "word": "frame",
+      "aliases": [],
+      "source_zh_unreviewed": "框架；结构",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "画框",
+      "pos": "noun",
+      "ipa_us": "/freɪm/",
+      "ipa_uk": "/freɪm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧独立木空画框。",
+        "sentence": "The wooden frame waits beside the picture.",
+        "matched_form": "frame",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The wooden frame waits beside the picture.",
+      "example_zh": "木画框放在画旁，等着装画。",
+      "bbox_normalized": [
+        0.001,
+        0.078,
+        0.156,
+        0.628
+      ],
+      "collocations": [
+        "a wooden frame",
+        "put in a frame"
+      ],
+      "example_en_highlighted": "The wooden **frame** waits beside the picture.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（画框），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W511",
+      "word": "paint",
+      "aliases": [],
+      "source_zh_unreviewed": "油漆；绘画",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "颜料",
+      "pos": "noun",
+      "ipa_us": "/peɪnt/",
+      "ipa_uk": "/peɪnt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右下调色盘上的颜料。",
+        "sentence": "Small blobs of paint sit on the palette.",
+        "matched_form": "paint",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Small blobs of paint sit on the palette.",
+      "example_zh": "调色板上有小团颜料。",
+      "bbox_normalized": [
+        0.624,
+        0.759,
+        0.998,
+        0.902
+      ],
+      "collocations": [
+        "wet paint",
+        "mix paint"
+      ],
+      "example_en_highlighted": "Small blobs of **paint** sit on the palette.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（颜料），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W193",
+      "word": "design",
+      "aliases": [],
+      "source_zh_unreviewed": "设计",
+      "planned_mode": "context",
+      "sense_zh": "设计图",
+      "pos": "noun",
+      "ipa_us": "/dɪˈzaɪn/",
+      "ipa_uk": "/dɪˈzaɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上纸张的花瓶轮廓草图。",
+        "sentence": "My design shows the shape of the vase.",
+        "matched_form": "design",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My design shows the shape of the vase.",
+      "example_zh": "我的设计图展示了花瓶的形状。",
+      "bbox_normalized": [
+        0.164,
+        0.763,
+        0.45,
+        0.862
+      ],
+      "collocations": [
+        "a simple design",
+        "make a design"
+      ],
+      "example_en_highlighted": "My **design** shows the shape of the vase.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（设计图），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W285",
+      "word": "form",
+      "aliases": [],
+      "source_zh_unreviewed": "形式；形态",
+      "planned_mode": "context",
+      "sense_zh": "形状",
+      "pos": "noun",
+      "ipa_us": "/fɔːrm/",
+      "ipa_uk": "/fɔːm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "画中花瓶轮廓及形状。",
+        "sentence": "The painted vase has a curved form.",
+        "matched_form": "form",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The painted vase has a curved form.",
+      "example_zh": "画里的花瓶有弯曲的形状。",
+      "bbox_normalized": [
+        0.77,
+        0.347,
+        0.911,
+        0.567
+      ],
+      "collocations": [
+        "a curved form",
+        "the form of"
+      ],
+      "example_en_highlighted": "The painted vase has a curved **form**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（形状），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W196",
+      "word": "detail",
+      "aliases": [],
+      "source_zh_unreviewed": "细节",
+      "planned_mode": "context",
+      "sense_zh": "细节",
+      "pos": "noun",
+      "ipa_us": "/ˈdiːteɪl/",
+      "ipa_uk": "/ˈdiːteɪl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "画中白花的一片花瓣。",
+        "sentence": "One painted petal is a small detail.",
+        "matched_form": "detail",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "One painted petal is a small detail.",
+      "example_zh": "画出的一片花瓣是一个小细节。",
+      "bbox_normalized": [
+        0.814,
+        0.279,
+        0.87,
+        0.351
+      ],
+      "collocations": [
+        "a small detail",
+        "add detail"
+      ],
+      "example_en_highlighted": "One painted petal is a small **detail**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（细节），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W191",
+      "word": "delicate",
+      "aliases": [],
+      "source_zh_unreviewed": "精细的；易碎的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "纤细的",
+      "pos": "adjective",
+      "ipa_us": "/ˈdelɪkət/",
+      "ipa_uk": "/ˈdelɪkət/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧真实花朵的纤细茎。",
+        "sentence": "The flower has a delicate stem.",
+        "matched_form": "delicate",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The flower has a delicate stem.",
+      "example_zh": "这朵花有纤细的茎。",
+      "bbox_normalized": [
+        0.044,
+        0.534,
+        0.086,
+        0.725
+      ],
+      "collocations": [
+        "a delicate stem",
+        "delicate work"
+      ],
+      "example_en_highlighted": "The flower has a **delicate** stem.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（纤细的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W517",
+      "word": "paste",
+      "aliases": [],
+      "source_zh_unreviewed": "糊状物；粘贴",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "浆糊",
+      "pos": "noun",
+      "ipa_us": "/peɪst/",
+      "ipa_uk": "/peɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中央白膏罐；例句明确它是纸片拼贴用浆糊，不按瓶中文字判断。",
+        "sentence": "This jar holds paste for the paper pieces.",
+        "matched_form": "paste",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This jar holds paste for the paper pieces.",
+      "example_zh": "这罐装着粘纸片用的浆糊。",
+      "bbox_normalized": [
+        0.475,
+        0.758,
+        0.587,
+        0.874
+      ],
+      "collocations": [
+        "a little paste",
+        "paper paste"
+      ],
+      "example_en_highlighted": "This jar holds **paste** for the paper pieces.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（浆糊），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I paint a small picture and choose a frame that suits its quiet colours.",
+    "zh": "我画一幅小画，为它挑选一个适合柔和色彩的画框。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C066\n标题 画室的小作品\n场景 主角在画室画静物，图画、画框、颜料和设计草图清楚。\n目标词 art, picture, frame, paint, design, form, detail, delicate, paste\n原创主配文草案 A small detail can change the whole picture.\n中文草案 一个小细节能改变整幅画。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman in tasteful cool-daylight art studio painting one small still life of a pale flower vase on canvas. Painting large and clear at center, empty wooden rectangular frame leaning left, paint palette with three separated colour blobs right foreground, tiny detail of painted petal visible, closed plain paste/glue jar and paper-collage pieces foreground with small visible smear of adhesive. Plain design sketch of vase outline without letters. Delicate flower stem real and clearly separate, brush hand normal, balanced room at edges.",
+  "status": "approved",
+  "image_path": "images/C066.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 8,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C066 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:19:53 UTC",
+    "prompt_path": "prompts/C066_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C066.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "静物画、左侧空框、右下颜料与左下设计草图清楚；白膏罐的用途由故事指定为浆糊，花茎可定位。画上细小花瓣可见。"
+  }
+}

@@ -1,0 +1,256 @@
+C050  辨认东南西北
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C050.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C050.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T13:35:22Z → 2026-10-03T13:37:39Z
+  提示词文件: prompts/C050_image_final.txt
+
+场景: 观景台上的地图、地球仪和指南针，四个方位各有对应景物。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 地球仪、地图蓝色高亮区域及纯蓝旗可辨；模型与地球本体分开说明，国家身份与方位由故事句子支持，不读无字指南针。
+
+主配文:
+  英文: A globe, a map, and a flag help me talk about the world.
+  中文: 一个地球仪、一张地图和一面旗帜，帮我聊起这个世界。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): north, south, east, west, earth, country, nation, flag
+
+------------------------------------------------------------------------
+[1/8] north  (W479)
+  词义: 北方
+  词性: noun
+  音标: UK /nɔːθ/ | US /nɔːrθ/
+  搭配: to the north
+  例句: The hills are to the north of this table.
+  例句高亮: The hills are to the **north** of this table.
+  例句中文: 山丘在这张桌子的北方。
+  标注模式: context
+  标注说明: 方位由故事设定，不能从无字指南针或画面上下推断真实北方。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The hills are to the north of this table."
+    matched_form: "north"
+    context: "方位由故事设定，不能从无字指南针或画面上下推断真实北方。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 北方的
+
+------------------------------------------------------------------------
+[2/8] south  (W687)
+  词义: 南方
+  词性: noun
+  音标: UK /saʊθ/ | US /saʊθ/
+  搭配: to the south
+  例句: The village is to the south.
+  例句高亮: The village is to the **south**.
+  例句中文: 村庄在南方。
+  标注模式: context
+  标注说明: 故事给出地理方位，静态图不证明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The village is to the south."
+    matched_form: "south"
+    context: "故事给出地理方位，静态图不证明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 南方
+
+------------------------------------------------------------------------
+[3/8] east  (W225)
+  词义: 东方
+  词性: noun
+  音标: UK /iːst/ | US /iːst/
+  搭配: in the east
+  例句: The sun rises in the east.
+  例句高亮: The sun rises in the **east**.
+  例句中文: 太阳从东方升起。
+  标注模式: context
+  标注说明: 自然例句说明方位，不将照片太阳位置当指南针读数。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The sun rises in the east."
+    matched_form: "east"
+    context: "自然例句说明方位，不将照片太阳位置当指南针读数。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 东方；东部
+
+------------------------------------------------------------------------
+[4/8] west  (W815)
+  词义: 西方
+  词性: noun
+  音标: UK /west/ | US /west/
+  搭配: in the west
+  例句: The sun sets in the west.
+  例句高亮: The sun sets in the **west**.
+  例句中文: 太阳在西方落下。
+  标注模式: context
+  标注说明: 例句给出方位知识，不框虚假西方区域。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The sun sets in the west."
+    matched_form: "west"
+    context: "例句给出方位知识，不框虚假西方区域。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 西方
+
+------------------------------------------------------------------------
+[5/8] earth  (W224)
+  词义: 地球
+  词性: noun
+  音标: UK /ɜːθ/ | US /ɜːrθ/
+  搭配: the earth
+  例句: The globe is a model of the earth.
+  例句高亮: The globe is a model of the **earth**.
+  例句中文: 地球仪是地球的模型。
+  标注模式: object
+  标注说明: 定位地球仪这个地球模型，区别本体与模型。
+  坐标(normalized): [0.658, 0.351, 0.993, 0.667]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "定位地球仪这个地球模型，区别本体与模型。"
+    sentence: "The globe is a model of the earth."
+    matched_form: "earth"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 地球；土壤
+
+------------------------------------------------------------------------
+[6/8] country  (W164)
+  词义: 国家
+  词性: noun
+  音标: UK /ˈkʌntri/ | US /ˈkʌntri/
+  搭配: my country
+  例句: This blue area on the map represents my country.
+  例句高亮: This blue area on the map represents my **country**.
+  例句中文: 地图上的这块蓝色区域代表我的国家。
+  标注模式: object
+  标注说明: 定位明确高亮的地图指代区域，国家身份由故事说明。
+  坐标(normalized): [0.432, 0.676, 0.559, 0.727]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "定位明确高亮的地图指代区域，国家身份由故事说明。"
+    sentence: "This blue area on the map represents my country."
+    matched_form: "country"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 国家
+
+------------------------------------------------------------------------
+[7/8] nation  (W464)
+  词义: 民族
+  词性: noun
+  音标: UK /ˈneɪʃən/ | US /ˈneɪʃən/
+  搭配: one nation
+  例句: The people of this nation share a history.
+  例句高亮: The people of this **nation** share a history.
+  例句中文: 这个民族的人们有着共同的历史。
+  标注模式: context
+  标注说明: 共同历史的群体由句子说明，不用旗帜或单个人替代民族。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The people of this nation share a history."
+    matched_form: "nation"
+    context: "共同历史的群体由句子说明，不用旗帜或单个人替代民族。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 国家
+
+------------------------------------------------------------------------
+[8/8] flag  (W271)
+  词义: 旗帜
+  词性: noun
+  音标: UK /flæɡ/ | US /flæɡ/
+  搭配: a blue flag
+  例句: A blue flag stands beside the globe.
+  例句高亮: A blue **flag** stands beside the globe.
+  例句中文: 一面蓝色旗帜立在地球仪旁。
+  标注模式: object
+  标注说明: 实际纯蓝布旗，不当任何国家身份鉴定。
+  坐标(normalized): [0.902, 0.538, 0.999, 0.819]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际纯蓝布旗，不当任何国家身份鉴定。"
+    sentence: "A blue flag stands beside the globe."
+    matched_form: "flag"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 旗帜；国旗
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C050 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=49 | meta.approved_cards=50
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Travel editorial at quiet scenic outdoor lookout table: woman at side studying a large blank-paper simplified world map with clear coastlines and ONE highlighted blue country-sized land region, realistic globe with blue oceans and green continents on desk, simple compass without any letters or digits, small plain blue fabric flag on stand. All three globe map and flag sufficiently large and distinct, readable objects not blurred. Direction identity will be explained by sentences, no arrows, cardinal letters, country names, political slogans or fake writing. Neutral globe continents, no emphasis on disputed boundaries.

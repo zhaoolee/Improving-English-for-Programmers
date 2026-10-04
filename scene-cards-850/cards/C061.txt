@@ -1,0 +1,255 @@
+C061  课堂里的学习
+========================================================================
+章节: 学习与艺术
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C061.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C061.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:16:08 UTC → 2026-10-03 17:17:24 UTC
+  提示词文件: prompts/C061_image_final.txt
+
+场景: 教室中学生听课，老师用书和粉笔说明知识与语言。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 教师持打开书与粉笔授课，两个成年学习者，手部可信；学校是故事设定，框只取课堂场所。声音与知识仅句子证据。
+
+主配文:
+  英文: The teacher opens a book and uses chalk to help us learn a language.
+  中文: 老师打开一本书，用粉笔帮助我们学习一门语言。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): school, teaching, learning, education, knowledge, language, book, chalk
+
+------------------------------------------------------------------------
+[1/8] school  (W620)
+  词义: 学校
+  词性: noun
+  音标: UK /skuːl/ | US /skuːl/
+  搭配: at school; go to school
+  例句: We study at a school in the evening.
+  例句高亮: We study at a **school** in the evening.
+  例句中文: 我们晚上在一所学校学习。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（学校），待最终图确认。
+  坐标(normalized): [0.015, 0.336, 0.998, 0.981]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "教室中的黑板桌椅与学习者，句子明确设定为学校课堂，不以装修独立证明学校资质。"
+    sentence: "We study at a school in the evening."
+    matched_form: "school"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 学校
+
+------------------------------------------------------------------------
+[2/8] teaching  (W741)
+  词义: 教学
+  词性: noun
+  音标: UK /ˈtiːtʃɪŋ/ | US /ˈtiːtʃɪŋ/
+  搭配: language teaching; teaching method
+  例句: Her teaching helps us understand the lesson.
+  例句高亮: Her **teaching** helps us understand the lesson.
+  例句中文: 她的教学帮助我们理解这节课。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（教学），待最终图确认。
+  坐标(normalized): [0.221, 0.109, 0.756, 0.448]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "持书指向黑板的授课姿势；故事指定教学活动。"
+    sentence: "Her teaching helps us understand the lesson."
+    matched_form: "teaching"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 教学
+
+------------------------------------------------------------------------
+[3/8] learning  (W393)
+  词义: 学习
+  词性: noun
+  音标: UK /ˈlɜːnɪŋ/ | US /ˈlɝːnɪŋ/
+  搭配: language learning; keep learning
+  例句: Learning a language takes practice.
+  例句高亮: **Learning** a language takes practice.
+  例句中文: 学习一门语言需要练习。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Learning a language takes practice.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Learning a language takes practice."
+    matched_form: "learning"
+    context: "由原创例句给出的语境：Learning a language takes practice.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 学习
+
+------------------------------------------------------------------------
+[4/8] education  (W227)
+  词义: 教育
+  词性: noun
+  音标: UK /ˌedʒʊˈkeɪʃən/ | US /ˌedʒəˈkeɪʃən/
+  搭配: adult education; school education
+  例句: Adult education gives us another chance to learn.
+  例句高亮: Adult **education** gives us another chance to learn.
+  例句中文: 成人教育给我们再次学习的机会。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Adult education gives us another chance to learn.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Adult education gives us another chance to learn."
+    matched_form: "education"
+    context: "由原创例句给出的语境：Adult education gives us another chance to learn.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 教育
+
+------------------------------------------------------------------------
+[5/8] knowledge  (W384)
+  词义: 知识
+  词性: noun
+  音标: UK /ˈnɒlɪdʒ/ | US /ˈnɑːlɪdʒ/
+  搭配: gain knowledge; share knowledge
+  例句: We gain knowledge from books and lessons.
+  例句高亮: We gain **knowledge** from books and lessons.
+  例句中文: 我们从书本和课堂中获得知识。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We gain knowledge from books and lessons.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We gain knowledge from books and lessons."
+    matched_form: "knowledge"
+    context: "由原创例句给出的语境：We gain knowledge from books and lessons.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 知识
+
+------------------------------------------------------------------------
+[6/8] language  (W386)
+  词义: 语言
+  词性: noun
+  音标: UK /ˈlæŋɡwɪdʒ/ | US /ˈlæŋɡwɪdʒ/
+  搭配: learn a language; spoken language
+  例句: I practice a new language with my class.
+  例句高亮: I practice a new **language** with my class.
+  例句中文: 我和班上的同学练习一门新语言。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I practice a new language with my class.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I practice a new language with my class."
+    matched_form: "language"
+    context: "由原创例句给出的语境：I practice a new language with my class.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 语言
+
+------------------------------------------------------------------------
+[7/8] book  (W083)
+  词义: 书
+  词性: noun
+  音标: UK /bʊk/ | US /bʊk/
+  搭配: open a book; read a book
+  例句: The teacher holds an open book.
+  例句高亮: The teacher holds an open **book**.
+  例句中文: 老师拿着一本打开的书。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（书），待最终图确认。
+  坐标(normalized): [0.331, 0.317, 0.56, 0.406]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "教师手中的打开书。"
+    sentence: "The teacher holds an open book."
+    matched_form: "book"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 书
+
+------------------------------------------------------------------------
+[8/8] chalk  (W122)
+  词义: 粉笔
+  词性: noun
+  音标: UK /tʃɔːk/ | US /tʃɔːk/
+  搭配: a piece of chalk; write in chalk
+  例句: White chalk rests on the ledge.
+  例句高亮: White **chalk** rests on the ledge.
+  例句中文: 白色粉笔放在托架上。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（粉笔），待最终图确认。
+  坐标(normalized): [0.705, 0.538, 0.792, 0.558]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "黑板托架上两支白粉笔，框不套整面黑板。"
+    sentence: "White chalk rests on the ledge."
+    matched_form: "chalk"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 粉笔
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C061 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=69 | meta.approved_cards=70
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman teaches an adult evening class in a tasteful school classroom, two adult learners seated. She holds an open book in one hand, points toward a slate chalkboard with simple chalk lines; three short white chalk sticks clearly separated on a ledge. No letters on board or book. Medium-wide environmental portrait, chalk and book large enough to identify, hands normal.

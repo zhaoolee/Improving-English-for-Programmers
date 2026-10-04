@@ -1,0 +1,254 @@
+C024  缝补一处破洞
+========================================================================
+章节: 穿衣与购物
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C024.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C024.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T23:19:39Z → 2026-10-02T23:20:53Z
+  提示词文件: prompts/C024_image_final.txt
+
+场景: 手作台用针线缝补衣服，针、别针、剪刀和线结可见。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 手中缝衣针、蓝线、蓝色针脚与小线结、独立珠头大头针、破洞和剪刀清晰；右侧剪刀部分柄出画，只框可见范围。针眼位置被手指部分遮挡，不声称可见针眼完整细节。工具分置、真实手部及布料纹理满足要求。
+
+主配文:
+  英文: A needle, a little thread, and time to mend a hole.
+  中文: 一根针，少许线，再花点时间把破洞补好。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): needle, thread, stitch, pin, scissors, knot, hole, loose, separate
+
+------------------------------------------------------------------------
+[1/9] needle  (W470)
+  词义: 缝衣针
+  词性: noun
+  音标: UK /ˈniːdəl/ | US /ˈniːdəl/
+  搭配: a sewing needle
+  例句: I hold the needle above the cloth.
+  例句高亮: I hold the **needle** above the cloth.
+  例句中文: 我把缝衣针拿在布上方。
+  标注模式: object
+  标注说明: 手中金属缝衣针，不含手指
+  坐标(normalized): [0.354, 0.602, 0.414, 0.656]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "手中金属缝衣针，不含手指"
+    sentence: "I hold the needle above the cloth."
+    matched_form: "needle"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 针
+------------------------------------------------------------------------
+[2/9] thread  (W756)
+  词义: 线
+  词性: noun
+  音标: UK /θred/ | US /θred/
+  搭配: blue thread
+  例句: The thread passes through the needle.
+  例句高亮: The **thread** passes through the needle.
+  例句中文: 线穿过针眼。
+  标注模式: object
+  标注说明: 缝补用蓝色线，非剪刀或布的边缘
+  坐标(normalized): [0.316, 0.608, 0.411, 0.779]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "缝补用蓝色线，非剪刀或布的边缘"
+    sentence: "The thread passes through the needle."
+    matched_form: "thread"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 线
+------------------------------------------------------------------------
+[3/9] stitch  (W709)
+  词义: 针脚
+  词性: noun
+  音标: UK /stɪtʃ/ | US /stɪtʃ/
+  搭配: a small stitch
+  例句: A stitch joins the cloth.
+  例句高亮: A **stitch** joins the cloth.
+  例句中文: 一个针脚把布缝在一起。
+  标注模式: object
+  标注说明: 破洞旁蓝色缝线的一段针脚，名词义
+  坐标(normalized): [0.432, 0.772, 0.449, 0.779]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "破洞旁蓝色缝线的一段针脚，名词义"
+    sentence: "A stitch joins the cloth."
+    matched_form: "stitch"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 缝合
+------------------------------------------------------------------------
+[4/9] pin  (W526)
+  词义: 大头针
+  词性: noun
+  音标: UK /pɪn/ | US /pɪn/
+  搭配: a straight pin
+  例句: The pin lies on the table.
+  例句高亮: The **pin** lies on the table.
+  例句中文: 大头针放在桌上。
+  标注模式: object
+  标注说明: 桌上独立带珠头的直大头针，非缝衣针
+  坐标(normalized): [0.034, 0.828, 0.123, 0.855]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "桌上独立带珠头的直大头针，非缝衣针"
+    sentence: "The pin lies on the table."
+    matched_form: "pin"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 针；别住
+------------------------------------------------------------------------
+[5/9] scissors  (W622)
+  词义: 剪刀
+  词性: noun
+  音标: UK /ˈsɪzəz/ | US /ˈsɪzərz/
+  搭配: a pair of scissors
+  例句: The scissors are beside the cloth.
+  例句高亮: The **scissors** are beside the cloth.
+  例句中文: 剪刀在布旁边。
+  标注模式: object
+  标注说明: 独立双刃双环剪刀整体，复数名词
+  坐标(normalized): [0.697, 0.739, 1.0, 0.954]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "独立双刃双环剪刀整体，复数名词"
+    sentence: "The scissors are beside the cloth."
+    matched_form: "scissors"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 剪刀
+------------------------------------------------------------------------
+[6/9] knot  (W383)
+  词义: 结
+  词性: noun
+  音标: UK /nɒt/ | US /nɑːt/
+  搭配: a thread knot
+  例句: The knot keeps the thread in place.
+  例句高亮: The **knot** keeps the thread in place.
+  例句中文: 这个结固定住线。
+  标注模式: object
+  标注说明: 缝线起点的小蓝色线结
+  坐标(normalized): [0.4, 0.769, 0.419, 0.778]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "缝线起点的小蓝色线结"
+    sentence: "The knot keeps the thread in place."
+    matched_form: "knot"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 结；打结
+------------------------------------------------------------------------
+[7/9] hole  (W340)
+  词义: 洞
+  词性: noun
+  音标: UK /həʊl/ | US /hoʊl/
+  搭配: a small hole
+  例句: The cloth has a hole.
+  例句高亮: The cloth has a **hole**.
+  例句中文: 这块布有一个洞。
+  标注模式: object
+  标注说明: 布中露出暗色桌面的破洞
+  坐标(normalized): [0.471, 0.783, 0.508, 0.805]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "布中露出暗色桌面的破洞"
+    sentence: "The cloth has a hole."
+    matched_form: "hole"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 洞
+------------------------------------------------------------------------
+[8/9] loose  (W415)
+  词义: 松的
+  词性: adjective
+  音标: UK /luːs/ | US /luːs/
+  搭配: a loose thread
+  例句: I pull the loose thread gently.
+  例句高亮: I pull the **loose** thread gently.
+  例句中文: 我轻轻拉那根松线。
+  标注模式: object
+  标注说明: 悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。
+  坐标(normalized): [0.316, 0.608, 0.411, 0.779]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。"
+    sentence: "I pull the loose thread gently."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 松的
+------------------------------------------------------------------------
+[9/9] separate  (W636)
+  词义: 分开的
+  词性: adjective
+  音标: UK /ˈsepərət/ | US /ˈsepərət/
+  搭配: separate tools
+  例句: I keep the tools separate.
+  例句高亮: I keep the tools **separate**.
+  例句中文: 我把工具分开放。
+  标注模式: object
+  标注说明: 左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。
+  坐标(normalized): [0.027, 0.715, 0.998, 0.954]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。"
+    sentence: "I keep the tools separate."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 分离
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C024 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=25 | meta.approved_cards=25
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Close environmental portrait at a sewing table, woman face in upper third, hands and repair patch large and sharp in lower half. Repairing a small round HOLE in pale linen garment laid FLAT on table, hole reveals darker table beneath. One real metal sewing NEEDLE threaded with muted BLUE THREAD held in right hand just above cloth, needle eye and length readable, no duplicate needles. A short row of three distinct BLUE STITCHES beside hole, one SMALL visible blue thread KNOT at beginning of stitches. Separate large open metal SCISSORS on table right with two blades and two finger loops. One separate pearl-headed straight PIN on table left away from cloth. Realistic coherent fingers, no sewing machine, no lettering. Make small teaching details unusually clear but physically plausible.

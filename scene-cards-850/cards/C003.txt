@@ -1,0 +1,305 @@
+C003  整理房间
+========================================================================
+章节: 家里的一天
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C003.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C003.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T09:29:47Z → 2026-10-02T09:30:50Z
+  提示词文件: prompts/C003_image_final.txt
+
+场景: 主角把盒子放进抽屉，书架、墙、地板和靠垫清楚可见。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 成年女性双手持一个纸盒放向打开的抽屉；手、盒、抽屉口可辨。左后方书下水平搁板、浅灰墙、前景木地板、右侧蓝色独立靠垫均可辨。空间关系可信，物体未过度虚化；无可读标注和水印。
+
+主配文:
+  英文: I put a box in the drawer to make more space in my room.
+  中文: 我把一个盒子放进抽屉，让房间腾出更多空间。
+  类型: original | 来源: None | 状态: final
+
+目标词 (11): room, floor, wall, shelf, drawer, box, cushion, put, a, the, space
+
+------------------------------------------------------------------------
+[1/11] room  (W605)
+  词义: 房间
+  词性: noun (countable)
+  音标: UK /ruːm/ | US /ruːm/
+  搭配: a tidy room; in my room
+  例句: This is my room.
+  例句高亮: This is my **room**.
+  例句中文: 这是我的房间。
+  标注模式: context
+  标注说明: 整个室内空间与 room 例句对应；不把单件家具当房间。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "This is my room."
+    matched_form: "room"
+    context: "整个室内空间与 room 例句对应；不把单件家具当房间。"
+    image_verified: null
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/room_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 房间
+------------------------------------------------------------------------
+[2/11] floor  (W275)
+  词义: 地板
+  词性: noun (countable)
+  音标: UK /flɔː/ | US /flɔːr/
+  搭配: on the floor; a wooden floor
+  例句: The floor is made of wood.
+  例句高亮: The **floor** is made of wood.
+  例句中文: 地板是木制的。
+  标注模式: object
+  标注说明: 框前景一块独立可辨的木地板区域，避开家具和人物。
+  坐标(normalized): [0.42, 0.797, 0.84, 0.975]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框前景一块独立可辨的木地板区域，避开家具和人物。"
+    sentence: "The floor is made of wood."
+    matched_form: "floor"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/floor_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 地板；楼层
+------------------------------------------------------------------------
+[3/11] wall  (W801)
+  词义: 墙
+  词性: noun (countable)
+  音标: UK /wɔːl/ | US /wɔːl/
+  搭配: a grey wall; against the wall
+  例句: The wall is pale grey.
+  例句高亮: The **wall** is pale grey.
+  例句中文: 墙是浅灰色的。
+  标注模式: object
+  标注说明: 框不被家具挡住的一片墙面。
+  坐标(normalized): [0.62, 0.0, 0.998, 0.292]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框不被家具挡住的一片墙面。"
+    sentence: "The wall is pale grey."
+    matched_form: "wall"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/wall_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 墙
+------------------------------------------------------------------------
+[4/11] shelf  (W645)
+  词义: 搁板
+  词性: noun (countable)
+  音标: UK /ʃelf/ | US /ʃelf/
+  搭配: on the shelf; a wooden shelf
+  例句: The books are on the shelf.
+  例句高亮: The books are on the **shelf**.
+  例句中文: 书放在搁板上。
+  标注模式: object
+  标注说明: 只框书下的水平搁板，不把整座书架框成单数 shelf。
+  坐标(normalized): [0.112, 0.256, 0.332, 0.27]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只框书下的水平搁板，不把整座书架框成单数 shelf。"
+    sentence: "The books are on the shelf."
+    matched_form: "shelf"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/shelf  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 架子
+------------------------------------------------------------------------
+[5/11] drawer  (W215)
+  词义: 抽屉
+  词性: noun (countable)
+  音标: UK /drɔː/ | US /drɔːr/
+  搭配: open a drawer; in the drawer
+  例句: The drawer is open.
+  例句高亮: The **drawer** is open.
+  例句中文: 抽屉开着。
+  标注模式: object
+  标注说明: 框拉开的抽屉，不把柜体整体当抽屉。
+  坐标(normalized): [0.026, 0.56, 0.4, 0.796]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框拉开的抽屉，不把柜体整体当抽屉。"
+    sentence: "The drawer is open."
+    matched_form: "drawer"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/drawer  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 抽屉
+------------------------------------------------------------------------
+[6/11] box  (W086)
+  词义: 盒子
+  词性: noun (countable)
+  音标: UK /bɒks/ | US /bɑːks/
+  搭配: a small box; put a box away
+  例句: The box fits in the drawer.
+  例句高亮: The **box** fits in the drawer.
+  例句中文: 这个盒子能放进抽屉。
+  标注模式: object
+  标注说明: 框人物手中的单个纸盒。
+  坐标(normalized): [0.168, 0.515, 0.365, 0.615]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框人物手中的单个纸盒。"
+    sentence: "The box fits in the drawer."
+    matched_form: "box"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/box_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 盒子
+------------------------------------------------------------------------
+[7/11] cushion  (W177)
+  词义: 靠垫
+  词性: noun (countable)
+  音标: UK /ˈkʊʃn/ | US /ˈkʊʃn/
+  搭配: a soft cushion; a sofa cushion
+  例句: A cushion is on the sofa.
+  例句高亮: A **cushion** is on the sofa.
+  例句中文: 沙发上有一个靠垫。
+  标注模式: object
+  标注说明: 只框沙发上独立的靠垫，不框沙发座垫。
+  坐标(normalized): [0.81, 0.313, 0.995, 0.431]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只框沙发上独立的靠垫，不框沙发座垫。"
+    sentence: "A cushion is on the sofa."
+    matched_form: "cushion"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/cushion_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 垫子
+------------------------------------------------------------------------
+[8/11] put  (W567)
+  词义: 放置
+  词性: verb (transitive)
+  音标: UK /pʊt/ | US /pʊt/
+  搭配: put a box in a drawer; put things away
+  例句: I put the box in the drawer.
+  例句高亮: I **put** the box in the drawer.
+  例句中文: 我把盒子放进抽屉。
+  标注模式: action
+  标注说明: 定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。
+  坐标(normalized): [0.18, 0.47, 0.495, 0.618]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。"
+    sentence: "I put the box in the drawer."
+    matched_form: "put"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/put  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 放；放置
+------------------------------------------------------------------------
+[9/11] a  (W001)
+  词义: 一个（初次提及）
+  词性: indefinite article
+  音标: UK /ə/ (weak), /eɪ/ (strong) | US /ə/ (weak), /eɪ/ (strong)
+  搭配: a box; a cushion
+  例句: I have a box.
+  例句高亮: I have **a** box.
+  例句中文: 我有一个盒子。
+  标注模式: context
+  标注说明: 句中高亮 a，首次引入一个盒子；不设置冠词物体框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I have a box."
+    matched_form: "a"
+    context: "句中高亮 a，首次引入一个盒子；不设置冠词物体框。"
+    image_verified: null
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/a_1  (核对日期: 2026-10-02)
+  计划模式: context | 源释义(未复核): 一个；一种
+------------------------------------------------------------------------
+[10/11] the  (W746)
+  词义: 这个（已知的）
+  词性: definite article
+  音标: UK /ðə/ (weak before consonant), /ðiː/ (strong) | US /ðə/ (weak before consonant), /ðiː/ (strong)
+  搭配: the box; the drawer
+  例句: I put the box in the drawer.
+  例句高亮: I put **the** box in **the** drawer.
+  例句中文: 我把那个盒子放进那个抽屉。
+  标注模式: context
+  标注说明: 接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I put the box in the drawer."
+    matched_form: "the"
+    context: "接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。"
+    image_verified: null
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/the  (核对日期: 2026-10-02)
+  计划模式: context | 源释义(未复核): 定冠词
+------------------------------------------------------------------------
+[11/11] space  (W688)
+  词义: 可用空间
+  词性: noun (uncountable)
+  音标: UK /speɪs/ | US /speɪs/
+  搭配: make space; more space
+  例句: There is space on the floor.
+  例句高亮: There is **space** on the floor.
+  例句中文: 地板上有空地方。
+  标注模式: object
+  标注说明: 前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。
+  坐标(normalized): [0.03, 0.815, 0.915, 0.989]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。"
+    sentence: "There is space on the floor."
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/space_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 空间
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 11
+  content_entries_complete: 11
+  sentence_evidence_complete: 11
+  verified_targets: 11
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C003 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=3 | meta.approved_cards=3
+
+底图提示词 (image_prompt 原文):
+
+Generate a single refined photorealistic Korean cool editorial lifestyle fashion photograph, vertical 4:5. Wide enough environmental portrait to clearly show a quiet minimalist apartment room. An adult East Asian woman about 25 with loose low bun and a few flyaway hairs, pearl ivory fine knit cardigan and pale grey long skirt, kneels naturally beside a low light oak chest of drawers. One drawer is pulled fully open toward the camera, its rectangular sides and empty interior clearly visible. She is gently placing one small plain rigid cream cardboard BOX into the open drawer, both anatomically correct hands lightly supporting the sides; box remains mostly visible just above/inside the opening so the act of placing is intelligible. Camera front three-quarter view, not top down. Required separate visible teaching elements: left background open oak bookshelf with an individual horizontal SHELF board and a few blank-spined books, large unadorned pale grey WALL in upper/right background, cool light wood FLOOR prominently visible across lower foreground, pale grey sofa at right with one clearly separate muted blue fabric CUSHION. Chest of drawers center left, sofa right, substantial clear walking SPACE in foreground, physically coherent perspective and room boundaries. Quiet high end Instagram aesthetic, cool white window daylight from off camera, pearl white mist grey muted slate blue palette, natural skin color, elegant realistic textile grain and wood grain, carefully retouched yet preserved skin texture and individual hair, no waxy skin, no CGI, no excessive bokeh; keep box, drawer, cushion, shelf, wall and floor sharply identifiable. Balanced airy composition and modest blank wall area for later bubbles. No text, letters, numbers, labels, speech bubbles, brands, watermarks or app UI. No duplicate box, no extra arms or fingers, no impossible drawer geometry.

@@ -1,0 +1,58 @@
+# --- 本地私有 / 不应公开 ---
+.local-backup/
+MEMORY/
+.DS_Store
+**/.DS_Store
+__pycache__/
+**/__pycache__/
+.env
+.env.*
+*.env
+**/credentials*
+**/*secret*
+**/*.pem
+**/*.key
+
+# --- scene-cards-850：默认忽略，仅白名单可提交 ---
+scene-cards-850/*
+!scene-cards-850/cards/
+!scene-cards-850/prompts/
+!scene-cards-850/images/
+!scene-cards-850/piclex/
+!scene-cards-850/scripts/
+!scene-cards-850/workflow/
+!scene-cards-850/START_HERE.txt
+!scene-cards-850/cards_plan.json
+!scene-cards-850/words_850.json
+!scene-cards-850/words_850.txt
+!scene-cards-850/validate_coverage.py
+!scene-cards-850/coverage_report.json
+
+# 卡片：100 json + 100 txt
+scene-cards-850/cards/*
+!scene-cards-850/cards/*.json
+!scene-cards-850/cards/*.txt
+
+# 图片：仅 100 张 Cxxx.png（忽略 compressed/、archive/ 等）
+scene-cards-850/images/*
+!scene-cards-850/images/C*.png
+
+# PicLex：仅 annotations 与 job（忽略 receipt/其它本地回执）
+scene-cards-850/piclex/*
+!scene-cards-850/piclex/*_annotations.json
+!scene-cards-850/piclex/*_job.json
+
+# 脚本：全部可提交，除本机部署辅助 publish-reviewed-release.mjs 与 __pycache__
+scene-cards-850/scripts/__pycache__/
+scene-cards-850/scripts/publish-reviewed-release.mjs
+
+# workflow：README、调色板、styles/、暖图参考、批次内容与审图
+scene-cards-850/workflow/*
+!scene-cards-850/workflow/README.md
+!scene-cards-850/workflow/label-palette.json
+!scene-cards-850/workflow/*_batch_content.json
+!scene-cards-850/workflow/*_review.json
+!scene-cards-850/workflow/styles/
+!scene-cards-850/workflow/references/
+scene-cards-850/workflow/references/*
+!scene-cards-850/workflow/references/instagram-warm.png

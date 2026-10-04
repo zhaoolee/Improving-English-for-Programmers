@@ -1,0 +1,384 @@
+{
+  "id": "C046",
+  "chapter": "自然与农场",
+  "title": "溪边垂钓",
+  "scene": "河边用钓竿、钩和网捕鱼，深水与沙岸界线明确。",
+  "target_count": 8,
+  "primary_words": [
+    "river",
+    "fish",
+    "rod",
+    "hook",
+    "net",
+    "sand",
+    "deep",
+    "land"
+  ],
+  "targets": [
+    {
+      "word_id": "W600",
+      "word": "river",
+      "aliases": [],
+      "source_zh_unreviewed": "河流",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "河流",
+      "pos": "noun",
+      "ipa_us": "/ˈrɪvər/",
+      "ipa_uk": "/ˈrɪvə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际河道水面。",
+        "sentence": "I sit by the river.",
+        "matched_form": "river",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I sit by the river.",
+      "example_zh": "我坐在河边。",
+      "bbox_normalized": [
+        0.39,
+        0.201,
+        0.999,
+        0.68
+      ],
+      "collocations": [
+        "by the river"
+      ],
+      "example_en_highlighted": "I sit by the **river**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际河道水面。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W269",
+      "word": "fish",
+      "aliases": [],
+      "source_zh_unreviewed": "鱼；钓鱼",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "鱼",
+      "pos": "noun",
+      "ipa_us": "/fɪʃ/",
+      "ipa_uk": "/fɪʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "网中实际可辨鱼体。",
+        "sentence": "A fish rests in the net.",
+        "matched_form": "fish",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A fish rests in the net.",
+      "example_zh": "一条鱼在网里。",
+      "bbox_normalized": [
+        0.543,
+        0.804,
+        0.937,
+        0.9
+      ],
+      "collocations": [
+        "a river fish"
+      ],
+      "example_en_highlighted": "A **fish** rests in the net.",
+      "annotation_mode": "object",
+      "annotation_note": "网中实际可辨鱼体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W602",
+      "word": "rod",
+      "aliases": [],
+      "source_zh_unreviewed": "杆；棒",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "钓竿",
+      "pos": "noun",
+      "ipa_us": "/rɑːd/",
+      "ipa_uk": "/rɒd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整细长钓竿。",
+        "sentence": "I hold a fishing rod.",
+        "matched_form": "rod",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I hold a fishing rod.",
+      "example_zh": "我拿着一根钓竿。",
+      "bbox_normalized": [
+        0.451,
+        0.336,
+        0.655,
+        0.513
+      ],
+      "collocations": [
+        "a fishing rod"
+      ],
+      "example_en_highlighted": "I hold a fishing **rod**.",
+      "annotation_mode": "object",
+      "annotation_note": "完整细长钓竿。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W342",
+      "word": "hook",
+      "aliases": [],
+      "source_zh_unreviewed": "钩子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "鱼钩",
+      "pos": "noun",
+      "ipa_us": "/hʊk/",
+      "ipa_uk": "/hʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "托盘中实际弯曲金属钩。",
+        "sentence": "The hook is on the tray.",
+        "matched_form": "hook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The hook is on the tray.",
+      "example_zh": "鱼钩在托盘上。",
+      "bbox_normalized": [
+        0.117,
+        0.822,
+        0.175,
+        0.847
+      ],
+      "collocations": [
+        "a fishing hook"
+      ],
+      "example_en_highlighted": "The **hook** is on the tray.",
+      "annotation_mode": "object",
+      "annotation_note": "托盘中实际弯曲金属钩。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W472",
+      "word": "net",
+      "aliases": [],
+      "source_zh_unreviewed": "网",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "渔网",
+      "pos": "noun",
+      "ipa_us": "/net/",
+      "ipa_uk": "/net/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "网圈与网袋实际区域。",
+        "sentence": "The net holds a fish.",
+        "matched_form": "net",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The net holds a fish.",
+      "example_zh": "网里装着一条鱼。",
+      "bbox_normalized": [
+        0.485,
+        0.703,
+        0.998,
+        0.969
+      ],
+      "collocations": [
+        "a landing net"
+      ],
+      "example_en_highlighted": "The **net** holds a fish.",
+      "annotation_mode": "object",
+      "annotation_note": "网圈与网袋实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W617",
+      "word": "sand",
+      "aliases": [],
+      "source_zh_unreviewed": "沙子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "沙",
+      "pos": "noun",
+      "ipa_us": "/sænd/",
+      "ipa_uk": "/sænd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "河岸细沙区域。",
+        "sentence": "The net lies on wet sand.",
+        "matched_form": "sand",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The net lies on wet sand.",
+      "example_zh": "网放在湿沙上。",
+      "bbox_normalized": [
+        0.249,
+        0.896,
+        0.486,
+        0.995
+      ],
+      "collocations": [
+        "wet sand"
+      ],
+      "example_en_highlighted": "The net lies on wet **sand**.",
+      "annotation_mode": "object",
+      "annotation_note": "河岸细沙区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W189",
+      "word": "deep",
+      "aliases": [],
+      "source_zh_unreviewed": "深的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "深的",
+      "pos": "adjective",
+      "ipa_us": "/diːp/",
+      "ipa_uk": "/diːp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "定位句子所指河水区域，实际水深由故事说明，不用颜色测深。",
+        "sentence": "The river is deep beyond the sandy bank.",
+        "matched_form": "deep",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The river is deep beyond the sandy bank.",
+      "example_zh": "沙岸外的河水很深。",
+      "bbox_normalized": [
+        0.57,
+        0.232,
+        0.996,
+        0.576
+      ],
+      "collocations": [
+        "deep water"
+      ],
+      "example_en_highlighted": "The river is **deep** beyond the sandy bank.",
+      "annotation_mode": "relation",
+      "annotation_note": "定位句子所指河水区域，实际水深由故事说明，不用颜色测深。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W385",
+      "word": "land",
+      "aliases": [],
+      "source_zh_unreviewed": "土地；陆地",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "陆地",
+      "pos": "noun",
+      "ipa_us": "/lænd/",
+      "ipa_uk": "/lænd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "与河水分开的实际岸地。",
+        "sentence": "My feet stay on dry land.",
+        "matched_form": "land",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My feet stay on dry land.",
+      "example_zh": "我的双脚留在干燥的陆地上。",
+      "bbox_normalized": [
+        0.0,
+        0.322,
+        0.15,
+        0.51
+      ],
+      "collocations": [
+        "dry land"
+      ],
+      "example_en_highlighted": "My feet stay on dry **land**.",
+      "annotation_mode": "object",
+      "annotation_note": "与河水分开的实际岸地。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A rod beside the river, a fish in the net, and sand beneath my feet.",
+    "zh": "河边一根钓竿，网中一条鱼，脚下是一片沙地。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C046\n标题 溪边垂钓\n场景 河边用钓竿、钩和网捕鱼，深水与沙岸界线明确。\n目标词 river, fish, rod, hook, net, sand, deep, land\n原创主配文草案 The fish is in the deep river.\n中文草案 鱼在深深的河水里。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Woman sitting safely on sandy riverbank, holding a simple fishing rod diagonally upward. River on right with dark deeper-looking channel and visible near sandy land. Large landing net rests on damp sand at lower right containing one clearly visible silvery fish, realistic head fins and tail. An unused curved metal fishing hook is clearly visible resting on a small pale tackle tray at lower left near rod handle: close enough to discern hook, no attached fish. No gore or handling injury. Rod fully discernible. Wide river beyond, distant green bank.",
+  "status": "approved",
+  "image_path": "images/C046.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 8,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C046 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T13:35:22Z",
+    "ended_at": "2026-10-03T13:36:05Z",
+    "prompt_path": "prompts/C046_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C046.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "钓竿、托盘钩、网中鱼和细沙可辨。deep只定位故事所指河水，不按颜色鉴定水深；land用干岸区。"
+  }
+}

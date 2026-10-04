@@ -1,0 +1,332 @@
+{
+  "filename": "C014-温热的甜饮.png",
+  "labels": [
+    {
+      "x": 539,
+      "y": 509,
+      "english": "cup",
+      "chinese": "杯子",
+      "phoneticUS": "/kʌp/",
+      "phoneticUK": "/kʌp/",
+      "bubblePosition": {
+        "x": 635,
+        "y": 435
+      },
+      "anchorPosition": {
+        "x": 539,
+        "y": 509
+      },
+      "boundingBox": {
+        "left": 483,
+        "top": 468,
+        "right": 601,
+        "bottom": 542
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "两人之间的白色杯子",
+        "association": "两人之间的白色杯子",
+        "collocation": "a cup of tea",
+        "example": "The cup is white.",
+        "exampleChinese": "杯子是白色的。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 833,
+      "english": "kettle",
+      "chinese": "水壶",
+      "phoneticUS": "/ˈketəl/",
+      "phoneticUK": "/ˈketəl/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 958.4180866317649
+      },
+      "anchorPosition": {
+        "x": 155,
+        "y": 833
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 660,
+        "right": 337,
+        "bottom": 932
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "有壶嘴和提手的金属烧水壶",
+        "association": "有壶嘴和提手的金属烧水壶",
+        "collocation": "a metal kettle",
+        "example": "The kettle is on the counter.",
+        "exampleChinese": "水壶在台面上。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 880,
+      "english": "sugar",
+      "chinese": "糖",
+      "phoneticUS": "/ˈʃʊɡər/",
+      "phoneticUK": "/ˈʃʊɡə/",
+      "bubblePosition": {
+        "x": 835,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 800,
+        "y": 880
+      },
+      "boundingBox": {
+        "left": 731,
+        "top": 846,
+        "right": 862,
+        "bottom": 903
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "开放玻璃碗中的白色颗粒，糖的身份由原创设定说明",
+        "association": "开放玻璃碗中的白色颗粒，糖的身份由原创设定说明",
+        "collocation": "a little sugar",
+        "example": "The sugar is in the bowl.",
+        "exampleChinese": "糖在碗里。"
+      }
+    },
+    {
+      "x": 750,
+      "y": 580,
+      "english": "sweet",
+      "chinese": "甜的",
+      "phoneticUS": "/swiːt/",
+      "phoneticUK": "/swiːt/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 580
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "味觉由句子说明，不声称照片测得甜度",
+        "association": "味觉由句子说明，不声称照片测得甜度",
+        "collocation": "a sweet drink",
+        "example": "The tea is sweet with sugar.",
+        "exampleChinese": "加糖的茶是甜的。"
+      }
+    },
+    {
+      "x": 340,
+      "y": 405,
+      "english": "warm",
+      "chinese": "温热的",
+      "phoneticUS": "/wɔːrm/",
+      "phoneticUK": "/wɔːm/",
+      "bubblePosition": {
+        "x": 340,
+        "y": 405
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "温度由设定说明，少量水汽不证明具体温度",
+        "association": "温度由设定说明，少量水汽不证明具体温度",
+        "collocation": "a warm drink",
+        "example": "The tea is warm.",
+        "exampleChinese": "茶是温热的。"
+      }
+    },
+    {
+      "x": 542,
+      "y": 505,
+      "english": "drink",
+      "chinese": "饮品",
+      "phoneticUS": "/drɪŋk/",
+      "phoneticUK": "/drɪŋk/",
+      "bubblePosition": {
+        "x": 900,
+        "y": 695
+      },
+      "anchorPosition": {
+        "x": 542,
+        "y": 505
+      },
+      "boundingBox": {
+        "left": 483,
+        "top": 468,
+        "right": 601,
+        "bottom": 542
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。",
+        "association": "drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。",
+        "collocation": "a warm drink",
+        "example": "Tea is a drink.",
+        "exampleChinese": "茶是一种饮品。"
+      }
+    },
+    {
+      "x": 491,
+      "y": 529,
+      "english": "give",
+      "chinese": "给；递给",
+      "phoneticUS": "/ɡɪv/",
+      "phoneticUK": "/ɡɪv/",
+      "bubblePosition": {
+        "x": 290,
+        "y": 610
+      },
+      "anchorPosition": {
+        "x": 491,
+        "y": 529
+      },
+      "boundingBox": {
+        "left": 286,
+        "top": 456,
+        "right": 696,
+        "bottom": 602
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+        "association": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+        "collocation": "give you a cup",
+        "example": "I give you a cup of tea.",
+        "exampleChinese": "我递给你一杯茶。"
+      }
+    },
+    {
+      "x": 491,
+      "y": 529,
+      "english": "take",
+      "chinese": "接过",
+      "phoneticUS": "/teɪk/",
+      "phoneticUK": "/teɪk/",
+      "bubblePosition": {
+        "x": 595,
+        "y": 635
+      },
+      "anchorPosition": {
+        "x": 491,
+        "y": 529
+      },
+      "boundingBox": {
+        "left": 286,
+        "top": 456,
+        "right": 696,
+        "bottom": 602
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+        "association": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+        "collocation": "take the cup",
+        "example": "Please take the cup.",
+        "exampleChinese": "请接过杯子。"
+      }
+    },
+    {
+      "x": 650,
+      "y": 80,
+      "english": "for",
+      "chinese": "给；为了",
+      "phoneticUS": "/fɔːr/",
+      "phoneticUK": "/fɔː/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "高亮for，说明接受者，不设框",
+        "association": "高亮for，说明接受者，不设框",
+        "collocation": "for you",
+        "example": "This cup is for you.",
+        "exampleChinese": "这杯是给你的。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 150,
+      "english": "with",
+      "chinese": "带有",
+      "phoneticUS": "/wɪð/",
+      "phoneticUK": "/wɪð/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 150
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "高亮with，说明饮品配料，不设框",
+        "association": "高亮with，说明饮品配料，不设框",
+        "collocation": "tea with sugar",
+        "example": "I like tea with sugar.",
+        "exampleChinese": "我喜欢加糖的茶。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I give you a cup of warm tea with sugar.",
+    "chinese": "我递给你一杯加糖的温茶。",
+    "source": "原创配文 · C014 温热的甜饮",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

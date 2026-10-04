@@ -1,0 +1,286 @@
+{
+  "filename": "C029-礼物与首饰.png",
+  "labels": [
+    {
+      "x": 270,
+      "y": 769,
+      "english": "ring",
+      "chinese": "戒指",
+      "phoneticUS": "/rɪŋ/",
+      "phoneticUK": "/rɪŋ/",
+      "bubblePosition": {
+        "x": 215,
+        "y": 917
+      },
+      "anchorPosition": {
+        "x": 270,
+        "y": 769
+      },
+      "boundingBox": {
+        "left": 236,
+        "top": 739,
+        "right": 307,
+        "bottom": 789
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左前方盒中的独立戒指",
+        "association": "左前方盒中的独立戒指",
+        "collocation": "a silver ring",
+        "example": "The ring is in the box.",
+        "exampleChinese": "戒指放在盒子里。"
+      }
+    },
+    {
+      "x": 497,
+      "y": 800,
+      "english": "jewel",
+      "chinese": "宝石",
+      "phoneticUS": "/ˈdʒuːəl/",
+      "phoneticUK": "/ˈdʒuːəl/",
+      "bubblePosition": {
+        "x": 486,
+        "y": 919
+      },
+      "anchorPosition": {
+        "x": 497,
+        "y": 800
+      },
+      "boundingBox": {
+        "left": 455,
+        "top": 767,
+        "right": 539,
+        "bottom": 830
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立有切面的蓝色宝石，身份由原创设定说明，不声称已鉴定天然产地",
+        "association": "独立有切面的蓝色宝石，身份由原创设定说明，不声称已鉴定天然产地",
+        "collocation": "a blue jewel",
+        "example": "The blue jewel is on the velvet.",
+        "exampleChinese": "蓝色宝石放在绒布上。"
+      }
+    },
+    {
+      "x": 828,
+      "y": 792,
+      "english": "gold",
+      "chinese": "金",
+      "phoneticUS": "/ɡoʊld/",
+      "phoneticUK": "/ɡəʊld/",
+      "bubblePosition": {
+        "x": 903,
+        "y": 68
+      },
+      "anchorPosition": {
+        "x": 828,
+        "y": 792
+      },
+      "boundingBox": {
+        "left": 702,
+        "top": 744,
+        "right": 955,
+        "bottom": 839
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景右侧金色手镯的实际区域；金材质由原创故事明确，框定位所指手镯，不从反光鉴定黄金。",
+        "association": "前景右侧金色手镯的实际区域；金材质由原创故事明确，框定位所指手镯，不从反光鉴定黄金。",
+        "collocation": "made of gold",
+        "example": "In this story, the bracelet is made of gold.",
+        "exampleChinese": "在这个故事里，手镯是金制的。"
+      }
+    },
+    {
+      "x": 272,
+      "y": 764,
+      "english": "silver",
+      "chinese": "银",
+      "phoneticUS": "/ˈsɪlvər/",
+      "phoneticUK": "/ˈsɪlvə/",
+      "bubblePosition": {
+        "x": 117,
+        "y": 67
+      },
+      "anchorPosition": {
+        "x": 272,
+        "y": 764
+      },
+      "boundingBox": {
+        "left": 236,
+        "top": 739,
+        "right": 307,
+        "bottom": 789
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景戒指的实际区域；银材质来自原创故事，框定位所指戒指，不从颜色鉴定银。",
+        "association": "前景戒指的实际区域；银材质来自原创故事，框定位所指戒指，不从颜色鉴定银。",
+        "collocation": "made of silver",
+        "example": "In this story, the ring is made of silver.",
+        "exampleChinese": "在这个故事里，戒指是银制的。"
+      }
+    },
+    {
+      "x": 77,
+      "y": 650,
+      "english": "ornament",
+      "chinese": "装饰品",
+      "phoneticUS": "/ˈɔːrnəmənt/",
+      "phoneticUK": "/ˈɔːnəmənt/",
+      "bubblePosition": {
+        "x": 111,
+        "y": 524
+      },
+      "anchorPosition": {
+        "x": 77,
+        "y": 650
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 577,
+        "right": 157,
+        "bottom": 696
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上独立陶瓷星形装饰品",
+        "association": "桌上独立陶瓷星形装饰品",
+        "collocation": "a star ornament",
+        "example": "The star is an ornament.",
+        "exampleChinese": "这颗星星是装饰品。"
+      }
+    },
+    {
+      "x": 765,
+      "y": 665,
+      "english": "card",
+      "chinese": "贺卡",
+      "phoneticUS": "/kɑːrd/",
+      "phoneticUK": "/kɑːd/",
+      "bubblePosition": {
+        "x": 799,
+        "y": 920
+      },
+      "anchorPosition": {
+        "x": 765,
+        "y": 665
+      },
+      "boundingBox": {
+        "left": 631,
+        "top": 580,
+        "right": 892,
+        "bottom": 733
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧独立折叠贺卡，不是收据；用途由原创设定说明",
+        "association": "右侧独立折叠贺卡，不是收据；用途由原创设定说明",
+        "collocation": "a greeting card",
+        "example": "The card stands beside the gift.",
+        "exampleChinese": "贺卡立在礼物旁边。"
+      }
+    },
+    {
+      "x": 123,
+      "y": 399,
+      "english": "special",
+      "chinese": "特别的",
+      "phoneticUS": "/ˈspeʃəl/",
+      "phoneticUK": "/ˈspeʃəl/",
+      "bubblePosition": {
+        "x": 123,
+        "y": 399
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "特别这一情感评价由原创叙述说明",
+        "association": "特别这一情感评价由原创叙述说明",
+        "collocation": "a special gift",
+        "example": "The ring is a special gift for me.",
+        "exampleChinese": "这枚戒指是给我的特别礼物。"
+      }
+    },
+    {
+      "x": 944,
+      "y": 613,
+      "english": "wax",
+      "chinese": "蜡",
+      "phoneticUS": "/wæks/",
+      "phoneticUK": "/wæks/",
+      "bubblePosition": {
+        "x": 922,
+        "y": 464
+      },
+      "anchorPosition": {
+        "x": 944,
+        "y": 613
+      },
+      "boundingBox": {
+        "left": 891,
+        "top": 551,
+        "right": 999,
+        "bottom": 683
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧蜡烛蜡质柱体区域；蜡材质由原创设定说明，不把烛台玻璃等同于蜡。",
+        "association": "右侧蜡烛蜡质柱体区域；蜡材质由原创设定说明，不把烛台玻璃等同于蜡。",
+        "collocation": "candle wax",
+        "example": "The candle is made of wax.",
+        "exampleChinese": "这支蜡烛是蜡制的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A silver ring makes this quiet moment feel special.",
+    "chinese": "一枚银戒指，让这个安静的时刻变得特别。",
+    "source": "原创配文 · C029 礼物与首饰",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

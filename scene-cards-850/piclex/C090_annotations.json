@@ -1,0 +1,270 @@
+{
+  "filename": "C090-消防安全演练.png",
+  "labels": [
+    {
+      "x": 707,
+      "y": 672,
+      "english": "fire",
+      "chinese": "火",
+      "phoneticUS": "/faɪr/",
+      "phoneticUK": "/faɪə/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 320
+      },
+      "anchorPosition": {
+        "x": 707,
+        "y": 672
+      },
+      "boundingBox": {
+        "left": 591,
+        "top": 567,
+        "right": 824,
+        "bottom": 778
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（火），待最终图确认。",
+        "association": "场景中体现的具体对象（火），待最终图确认。",
+        "collocation": "a model of fire; fire safety",
+        "example": "The model represents fire in a small hearth.",
+        "exampleChinese": "模型展示小炉膛里的火。"
+      }
+    },
+    {
+      "x": 702,
+      "y": 657,
+      "english": "flame",
+      "chinese": "火焰",
+      "phoneticUS": "/fleɪm/",
+      "phoneticUK": "/fleɪm/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 670
+      },
+      "anchorPosition": {
+        "x": 702,
+        "y": 657
+      },
+      "boundingBox": {
+        "left": 622,
+        "top": 573,
+        "right": 782,
+        "bottom": 741
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（火焰），待最终图确认。",
+        "association": "场景中体现的具体对象（火焰），待最终图确认。",
+        "collocation": "an orange flame; a model flame",
+        "example": "The orange flame is part of the teaching model.",
+        "exampleChinese": "橙色火焰是教学模型的一部分。"
+      }
+    },
+    {
+      "x": 732,
+      "y": 524,
+      "english": "smoke",
+      "chinese": "烟",
+      "phoneticUS": "/smoʊk/",
+      "phoneticUK": "/sməʊk/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 85
+      },
+      "anchorPosition": {
+        "x": 732,
+        "y": 524
+      },
+      "boundingBox": {
+        "left": 600,
+        "top": 427,
+        "right": 865,
+        "bottom": 621
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（烟），待最终图确认。",
+        "association": "场景中体现的具体对象（烟），待最终图确认。",
+        "collocation": "grey smoke; a smoke plume",
+        "example": "The grey shape represents smoke in the model.",
+        "exampleChinese": "灰色形状在模型中代表烟。"
+      }
+    },
+    {
+      "x": 405,
+      "y": 785,
+      "english": "coal",
+      "chinese": "煤",
+      "phoneticUS": "/koʊl/",
+      "phoneticUK": "/kəʊl/",
+      "bubblePosition": {
+        "x": 420,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 405,
+        "y": 785
+      },
+      "boundingBox": {
+        "left": 343,
+        "top": 759,
+        "right": 468,
+        "bottom": 812
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（煤），待最终图确认。",
+        "association": "场景中体现的具体对象（煤），待最终图确认。",
+        "collocation": "a coal sample; a piece of coal",
+        "example": "A coal sample rests in the separate dish.",
+        "exampleChinese": "煤样品放在单独的碟子里。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 80,
+      "english": "burn",
+      "chinese": "燃烧",
+      "phoneticUS": "/bɝːn/",
+      "phoneticUK": "/bɜːn/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。",
+        "collocation": "burn slowly; coal can burn",
+        "example": "Coal can burn, but nothing is burning in this model.",
+        "exampleChinese": "煤可以燃烧，但这个模型里没有东西正在燃烧。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 470,
+      "english": "danger",
+      "chinese": "危险",
+      "phoneticUS": "/ˈdeɪndʒɚ/",
+      "phoneticUK": "/ˈdeɪndʒə/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 470
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a fire danger; warn of danger",
+        "example": "The lesson explains the danger of an uncontrolled fire.",
+        "exampleChinese": "这节课解释失控火灾的危险。"
+      }
+    },
+    {
+      "x": 170,
+      "y": 760,
+      "english": "destruction",
+      "chinese": "毁坏",
+      "phoneticUS": "/dɪˈstrʌkʃən/",
+      "phoneticUK": "/dɪˈstrʌkʃən/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 760
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。",
+        "collocation": "cause destruction; destruction by fire",
+        "example": "An uncontrolled fire can cause destruction.",
+        "exampleChinese": "失控的火灾可能造成毁坏。"
+      }
+    },
+    {
+      "x": 923,
+      "y": 794,
+      "english": "sign",
+      "chinese": "标志",
+      "phoneticUS": "/saɪn/",
+      "phoneticUK": "/saɪn/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 923,
+        "y": 794
+      },
+      "boundingBox": {
+        "left": 849,
+        "top": 707,
+        "right": 998,
+        "bottom": 881
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（标志），待最终图确认。",
+        "association": "场景中体现的具体对象（标志），待最终图确认。",
+        "collocation": "a warning sign; a safety sign",
+        "example": "The warning sign stands beside the model.",
+        "exampleChinese": "警示标志立在模型旁。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A teaching model shows fire, flame, and smoke beside a clear warning sign.",
+    "chinese": "教学模型展示了火、火焰和烟，旁边摆着清楚的警示标志。",
+    "source": "原创配文 · C090 消防安全演练",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

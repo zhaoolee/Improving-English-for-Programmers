@@ -1,0 +1,281 @@
+{
+  "filename": "C069-游园会小表演.png",
+  "labels": [
+    {
+      "x": 150,
+      "y": 100,
+      "english": "play",
+      "chinese": "玩耍",
+      "phoneticUS": "/pleɪ/",
+      "phoneticUK": "/pleɪ/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We play a simple game before the show.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We play a simple game before the show.；不声称该状态/含义本身在画面可见。",
+        "collocation": "play a game; play together",
+        "example": "We play a simple game before the show.",
+        "exampleChinese": "演出前，我们玩一个简单的游戏。"
+      }
+    },
+    {
+      "x": 855,
+      "y": 75,
+      "english": "amusement",
+      "chinese": "娱乐",
+      "phoneticUS": "/əˈmjuːzmənt/",
+      "phoneticUK": "/əˈmjuːzmənt/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The show is a source of amusement.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The show is a source of amusement.；不声称该状态/含义本身在画面可见。",
+        "collocation": "for amusement; a source of amusement",
+        "example": "The show is a source of amusement.",
+        "exampleChinese": "这个节目给人带来娱乐。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 205,
+      "english": "pleasure",
+      "chinese": "愉快",
+      "phoneticUS": "/ˈpleʒɚ/",
+      "phoneticUK": "/ˈpleʒə/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 205
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Watching the act gives me pleasure.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Watching the act gives me pleasure.；不声称该状态/含义本身在画面可见。",
+        "collocation": "great pleasure; take pleasure in",
+        "example": "Watching the act gives me pleasure.",
+        "exampleChinese": "观看这个节目让我愉快。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 370,
+      "english": "humor",
+      "chinese": "幽默",
+      "phoneticUS": "/ˈhjuːmɚ/",
+      "phoneticUK": "/ˈhjuːmə/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 370
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Her gentle humor makes us laugh.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Her gentle humor makes us laugh.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a sense of humor; gentle humor",
+        "example": "Her gentle humor makes us laugh.",
+        "exampleChinese": "她温和的幽默让我们发笑。"
+      }
+    },
+    {
+      "x": 618,
+      "y": 356,
+      "english": "trick",
+      "chinese": "魔术戏法",
+      "phoneticUS": "/trɪk/",
+      "phoneticUK": "/trɪk/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 410
+      },
+      "anchorPosition": {
+        "x": 618,
+        "y": 356
+      },
+      "boundingBox": {
+        "left": 499,
+        "top": 171,
+        "right": 738,
+        "bottom": 542
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（魔术戏法），待最终图确认。",
+        "association": "场景中体现的具体动作（魔术戏法），待最终图确认。",
+        "collocation": "a magic trick; perform a trick",
+        "example": "She performs a trick with a scarf and a hat.",
+        "exampleChinese": "她用丝巾和帽子表演一个戏法。"
+      }
+    },
+    {
+      "x": 543,
+      "y": 549,
+      "english": "act",
+      "chinese": "表演节目",
+      "phoneticUS": "/ækt/",
+      "phoneticUK": "/ækt/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 510
+      },
+      "anchorPosition": {
+        "x": 543,
+        "y": 549
+      },
+      "boundingBox": {
+        "left": 328,
+        "top": 117,
+        "right": 759,
+        "bottom": 982
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（表演节目），待最终图确认。",
+        "association": "场景中体现的具体动作（表演节目），待最终图确认。",
+        "collocation": "a magic act; a short act",
+        "example": "The magic act is part of the event.",
+        "exampleChinese": "这个魔术节目是活动的一部分。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 930,
+      "english": "attraction",
+      "chinese": "吸引人的节目",
+      "phoneticUS": "/əˈtrækʃən/",
+      "phoneticUK": "/əˈtrækʃən/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The magic show is the main attraction.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The magic show is the main attraction.；不声称该状态/含义本身在画面可见。",
+        "collocation": "the main attraction; a popular attraction",
+        "example": "The magic show is the main attraction.",
+        "exampleChinese": "魔术表演是最吸引人的节目。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 935,
+      "english": "happy",
+      "chinese": "开心的",
+      "phoneticUS": "/ˈhæpi/",
+      "phoneticUK": "/ˈhæpi/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I feel happy while watching with my friends.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I feel happy while watching with my friends.；不声称该状态/含义本身在画面可见。",
+        "collocation": "feel happy; a happy moment",
+        "example": "I feel happy while watching with my friends.",
+        "exampleChinese": "和朋友一起观看时，我感到开心。"
+      }
+    },
+    {
+      "x": 507,
+      "y": 742,
+      "english": "event",
+      "chinese": "活动",
+      "phoneticUS": "/ɪˈvent/",
+      "phoneticUK": "/ɪˈvent/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 507,
+        "y": 742
+      },
+      "boundingBox": {
+        "left": 17,
+        "top": 502,
+        "right": 998,
+        "bottom": 982
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（活动），待最终图确认。",
+        "association": "场景中体现的关系（活动），待最终图确认。",
+        "collocation": "a park event; attend an event",
+        "example": "We attend a small event in the park.",
+        "exampleChinese": "我们在公园参加一个小活动。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A little humor makes the event fun, and we enjoy the small magic act.",
+    "chinese": "一点幽默让活动充满趣味，我们欣赏这个小魔术节目。",
+    "source": "原创配文 · C069 游园会小表演",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

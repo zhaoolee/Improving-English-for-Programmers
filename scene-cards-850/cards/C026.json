@@ -1,0 +1,385 @@
+{
+  "id": "C026",
+  "chapter": "穿衣与购物",
+  "title": "雨天走进商店",
+  "scene": "主角拿透明伞进入商店，黑白灰棕色雨具陈列，窗外下雨。",
+  "target_count": 8,
+  "primary_words": [
+    "umbrella",
+    "rain",
+    "store",
+    "black",
+    "white",
+    "grey",
+    "brown",
+    "blue"
+  ],
+  "targets": [
+    {
+      "word_id": "W787",
+      "word": "umbrella",
+      "aliases": [],
+      "source_zh_unreviewed": "雨伞",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "雨伞",
+      "pos": "noun",
+      "ipa_us": "/ʌmˈbrelə/",
+      "ipa_uk": "/ʌmˈbrelə/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "透明雨伞整体，不含主人公",
+        "sentence": "I hold an umbrella by the door.",
+        "matched_form": "umbrella",
+        "image_verified": true
+      },
+      "example_en": "I hold an umbrella by the door.",
+      "example_zh": "我在门边拿着一把雨伞。",
+      "bbox_normalized": [
+        0.136,
+        0.103,
+        0.579,
+        0.425
+      ],
+      "collocations": [
+        "a clear umbrella"
+      ],
+      "example_en_highlighted": "I hold an **umbrella** by the door.",
+      "annotation_mode": "object",
+      "annotation_note": "透明雨伞整体，不含主人公",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W574",
+      "word": "rain",
+      "aliases": [],
+      "source_zh_unreviewed": "雨；下雨",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "雨",
+      "pos": "noun",
+      "ipa_us": "/reɪn/",
+      "ipa_uk": "/reɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧玻璃门外的雨滴与湿地面区域，rain指向可见降雨线索；天气由原创场景确认。",
+        "sentence": "The rain falls outside the store.",
+        "matched_form": "rain",
+        "context": "窗外雨丝与湿地面作线索，天气由原创设定说明",
+        "image_verified": null
+      },
+      "example_en": "The rain falls outside the store.",
+      "example_zh": "雨落在商店外。",
+      "bbox_normalized": [
+        0.008,
+        0.027,
+        0.133,
+        0.954
+      ],
+      "collocations": [
+        "rain outside"
+      ],
+      "example_en_highlighted": "The **rain** falls outside the store.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧玻璃门外的雨滴与湿地面区域，rain指向可见降雨线索；天气由原创场景确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W714",
+      "word": "store",
+      "aliases": [],
+      "source_zh_unreviewed": "商店",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "商店",
+      "pos": "noun",
+      "ipa_us": "/stɔːr/",
+      "ipa_uk": "/stɔː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧衣架与雨具货品的商店局部区域，store由原创购物设定说明；未框整栋建筑。",
+        "sentence": "I enter the store.",
+        "matched_form": "store",
+        "context": "雨具陈列和原创购物设定明确商店场景，不框整张图",
+        "image_verified": null
+      },
+      "example_en": "I enter the store.",
+      "example_zh": "我走进商店。",
+      "bbox_normalized": [
+        0.581,
+        0.162,
+        0.993,
+        0.748
+      ],
+      "collocations": [
+        "a clothing store"
+      ],
+      "example_en_highlighted": "I enter the **store**.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧衣架与雨具货品的商店局部区域，store由原创购物设定说明；未框整栋建筑。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W073",
+      "word": "black",
+      "aliases": [],
+      "source_zh_unreviewed": "黑色的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "黑色的",
+      "pos": "adjective",
+      "ipa_us": "/blæk/",
+      "ipa_uk": "/blæk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可见雨具中与例句对应的黑色雨衣，颜色词定位这件物品的实际区域。",
+        "sentence": "The raincoat on the rack is black.",
+        "matched_form": "black",
+        "context": "实际黑色雨衣与例句对应，不另造颜色物体框",
+        "image_verified": null
+      },
+      "example_en": "The raincoat on the rack is black.",
+      "example_zh": "架上有一件黑色雨衣。",
+      "bbox_normalized": [
+        0.576,
+        0.248,
+        0.742,
+        0.551
+      ],
+      "collocations": [
+        "a black raincoat"
+      ],
+      "example_en_highlighted": "The raincoat on the rack is **black**.",
+      "annotation_mode": "object",
+      "annotation_note": "可见雨具中与例句对应的黑色雨衣，颜色词定位这件物品的实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W823",
+      "word": "white",
+      "aliases": [],
+      "source_zh_unreviewed": "白色",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "白色的",
+      "pos": "adjective",
+      "ipa_us": "/waɪt/",
+      "ipa_uk": "/waɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可见雨具中与例句对应的白色雨衣，颜色词定位这件物品的实际区域。",
+        "sentence": "One raincoat is white.",
+        "matched_form": "white",
+        "context": "实际白色雨衣与例句对应",
+        "image_verified": null
+      },
+      "example_en": "One raincoat is white.",
+      "example_zh": "有一件雨衣是白色的。",
+      "bbox_normalized": [
+        0.734,
+        0.241,
+        0.824,
+        0.55
+      ],
+      "collocations": [
+        "a white raincoat"
+      ],
+      "example_en_highlighted": "One raincoat is **white**.",
+      "annotation_mode": "object",
+      "annotation_note": "可见雨具中与例句对应的白色雨衣，颜色词定位这件物品的实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W313",
+      "word": "grey",
+      "aliases": [
+        "gray"
+      ],
+      "source_zh_unreviewed": "灰色",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "灰色的",
+      "pos": "adjective",
+      "ipa_us": "/ɡreɪ/",
+      "ipa_uk": "/ɡreɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可见雨具中与例句对应的灰色雨衣，颜色词定位这件物品的实际区域。",
+        "sentence": "The grey raincoat is beside the white one.",
+        "matched_form": "grey",
+        "context": "采用英式拼写grey，颜色与例句支持",
+        "image_verified": null
+      },
+      "example_en": "The grey raincoat is beside the white one.",
+      "example_zh": "灰色雨衣在白色雨衣旁边。",
+      "bbox_normalized": [
+        0.822,
+        0.238,
+        0.909,
+        0.553
+      ],
+      "collocations": [
+        "a grey raincoat"
+      ],
+      "example_en_highlighted": "The **grey** raincoat is beside the white one.",
+      "annotation_mode": "object",
+      "annotation_note": "可见雨具中与例句对应的灰色雨衣，颜色词定位这件物品的实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W099",
+      "word": "brown",
+      "aliases": [],
+      "source_zh_unreviewed": "棕色的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "棕色的",
+      "pos": "adjective",
+      "ipa_us": "/braʊn/",
+      "ipa_uk": "/braʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可见雨具中与例句对应的棕色靴子，颜色词定位这件物品的实际区域。",
+        "sentence": "The boots are brown.",
+        "matched_form": "brown",
+        "context": "实际棕色靴子与例句对应",
+        "image_verified": null
+      },
+      "example_en": "The boots are brown.",
+      "example_zh": "靴子是棕色的。",
+      "bbox_normalized": [
+        0.752,
+        0.574,
+        0.872,
+        0.712
+      ],
+      "collocations": [
+        "brown boots"
+      ],
+      "example_en_highlighted": "The boots are **brown**.",
+      "annotation_mode": "object",
+      "annotation_note": "可见雨具中与例句对应的棕色靴子，颜色词定位这件物品的实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W077",
+      "word": "blue",
+      "aliases": [],
+      "source_zh_unreviewed": "蓝色的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蓝色的",
+      "pos": "adjective",
+      "ipa_us": "/bluː/",
+      "ipa_uk": "/bluː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可见雨具中与例句对应的蓝色夹克，颜色词定位这件物品的实际区域。",
+        "sentence": "The jacket is blue.",
+        "matched_form": "blue",
+        "context": "实际蓝色夹克与例句对应",
+        "image_verified": null
+      },
+      "example_en": "The jacket is blue.",
+      "example_zh": "夹克是蓝色的。",
+      "bbox_normalized": [
+        0.897,
+        0.238,
+        0.998,
+        0.536
+      ],
+      "collocations": [
+        "a blue jacket"
+      ],
+      "example_en_highlighted": "The jacket is **blue**.",
+      "annotation_mode": "object",
+      "annotation_note": "可见雨具中与例句对应的蓝色夹克，颜色词定位这件物品的实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Rain outside, a quiet store, and my umbrella by the door.",
+    "zh": "门外下着雨，店里很安静，我的雨伞就在门边。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C026\n标题 雨天走进商店\n场景 主角拿透明伞进入商店，黑白灰棕色雨具陈列，窗外下雨。\n目标词 umbrella, rain, store, black, white, grey, brown, blue\n原创主配文草案 I come into the store with an umbrella.\n中文草案 我拿着一把雨伞走进商店。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated ivory and slate clothes, loose dark low bun, natural pores with subtle magazine retouch, real hands and materials. Cool soft daylight, coherent single scene, important teaching props clearly readable, calm blank space near image borders for later annotations. No text, letters, digits, logos, brand names, watermark or UI. Fashion rainwear boutique, medium-wide environmental portrait. Woman just inside open glass door at left holding ONE clear transparent umbrella tilted beside her, face visible. Rain visible outside door as fine streaks and wet pavement, cool overcast light. Interior rainwear display at right: neatly spaced black raincoat, white raincoat, grey raincoat, brown rain boots, and one distinctly BLUE rain jacket. All five colors readable, no hybrid colors. Boutique shelving and simple clothing rail establish store, no signage or written prices. Clear umbrella handle, authentic water drops and fabric, generous calm top wall.",
+  "status": "approved",
+  "image_path": "images/C026.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C026 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T02:53:32Z",
+    "ended_at": "2026-10-03T02:56:05Z",
+    "prompt_path": "prompts/C026_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C026.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "透明伞、窗外湿地面与雨滴、黑白灰雨衣、蓝夹克、棕靴清楚；颜色独立可辨。伞在门边手中，不认定已收伞。天气/商店身份由原创场景说明。"
+  }
+}

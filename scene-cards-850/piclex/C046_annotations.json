@@ -1,0 +1,294 @@
+{
+  "filename": "C046-溪边垂钓.png",
+  "labels": [
+    {
+      "x": 833,
+      "y": 368,
+      "english": "river",
+      "chinese": "河流",
+      "phoneticUS": "/ˈrɪvər/",
+      "phoneticUK": "/ˈrɪvə/",
+      "bubblePosition": {
+        "x": 820,
+        "y": 190
+      },
+      "anchorPosition": {
+        "x": 833,
+        "y": 368
+      },
+      "boundingBox": {
+        "left": 390,
+        "top": 201,
+        "right": 999,
+        "bottom": 680
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际河道水面。",
+        "association": "实际河道水面。",
+        "collocation": "by the river",
+        "example": "I sit by the river.",
+        "exampleChinese": "我坐在河边。"
+      }
+    },
+    {
+      "x": 767,
+      "y": 859,
+      "english": "fish",
+      "chinese": "鱼",
+      "phoneticUS": "/fɪʃ/",
+      "phoneticUK": "/fɪʃ/",
+      "bubblePosition": {
+        "x": 805,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 767,
+        "y": 859
+      },
+      "boundingBox": {
+        "left": 543,
+        "top": 804,
+        "right": 937,
+        "bottom": 900
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "网中实际可辨鱼体。",
+        "association": "网中实际可辨鱼体。",
+        "collocation": "a river fish",
+        "example": "A fish rests in the net.",
+        "exampleChinese": "一条鱼在网里。"
+      }
+    },
+    {
+      "x": 552,
+      "y": 403,
+      "english": "rod",
+      "chinese": "钓竿",
+      "phoneticUS": "/rɑːd/",
+      "phoneticUK": "/rɒd/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 90
+      },
+      "anchorPosition": {
+        "x": 552,
+        "y": 403
+      },
+      "boundingBox": {
+        "left": 451,
+        "top": 336,
+        "right": 655,
+        "bottom": 513
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整细长钓竿。",
+        "association": "完整细长钓竿。",
+        "collocation": "a fishing rod",
+        "example": "I hold a fishing rod.",
+        "exampleChinese": "我拿着一根钓竿。"
+      }
+    },
+    {
+      "x": 146,
+      "y": 835,
+      "english": "hook",
+      "chinese": "鱼钩",
+      "phoneticUS": "/hʊk/",
+      "phoneticUK": "/hʊk/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 915
+      },
+      "anchorPosition": {
+        "x": 146,
+        "y": 835
+      },
+      "boundingBox": {
+        "left": 117,
+        "top": 822,
+        "right": 175,
+        "bottom": 847
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "托盘中实际弯曲金属钩。",
+        "association": "托盘中实际弯曲金属钩。",
+        "collocation": "a fishing hook",
+        "example": "The hook is on the tray.",
+        "exampleChinese": "鱼钩在托盘上。"
+      }
+    },
+    {
+      "x": 904,
+      "y": 900,
+      "english": "net",
+      "chinese": "渔网",
+      "phoneticUS": "/net/",
+      "phoneticUK": "/net/",
+      "bubblePosition": {
+        "x": 905,
+        "y": 725
+      },
+      "anchorPosition": {
+        "x": 904,
+        "y": 900
+      },
+      "boundingBox": {
+        "left": 485,
+        "top": 703,
+        "right": 998,
+        "bottom": 969
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "网圈与网袋实际区域。",
+        "association": "网圈与网袋实际区域。",
+        "collocation": "a landing net",
+        "example": "The net holds a fish.",
+        "exampleChinese": "网里装着一条鱼。"
+      }
+    },
+    {
+      "x": 404,
+      "y": 960,
+      "english": "sand",
+      "chinese": "沙",
+      "phoneticUS": "/sænd/",
+      "phoneticUK": "/sænd/",
+      "bubblePosition": {
+        "x": 380,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 404,
+        "y": 960
+      },
+      "boundingBox": {
+        "left": 249,
+        "top": 896,
+        "right": 486,
+        "bottom": 995
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "河岸细沙区域。",
+        "association": "河岸细沙区域。",
+        "collocation": "wet sand",
+        "example": "The net lies on wet sand.",
+        "exampleChinese": "网放在湿沙上。"
+      }
+    },
+    {
+      "x": 838,
+      "y": 464,
+      "english": "deep",
+      "chinese": "深的",
+      "phoneticUS": "/diːp/",
+      "phoneticUK": "/diːp/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 838,
+        "y": 464
+      },
+      "boundingBox": {
+        "left": 570,
+        "top": 232,
+        "right": 996,
+        "bottom": 576
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位句子所指河水区域，实际水深由故事说明，不用颜色测深。",
+        "association": "定位句子所指河水区域，实际水深由故事说明，不用颜色测深。",
+        "collocation": "deep water",
+        "example": "The river is deep beyond the sandy bank.",
+        "exampleChinese": "沙岸外的河水很深。"
+      }
+    },
+    {
+      "x": 73,
+      "y": 411,
+      "english": "land",
+      "chinese": "陆地",
+      "phoneticUS": "/lænd/",
+      "phoneticUK": "/lænd/",
+      "bubblePosition": {
+        "x": 105,
+        "y": 425
+      },
+      "anchorPosition": {
+        "x": 73,
+        "y": 411
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 322,
+        "right": 150,
+        "bottom": 510
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "与河水分开的实际岸地。",
+        "association": "与河水分开的实际岸地。",
+        "collocation": "dry land",
+        "example": "My feet stay on dry land.",
+        "exampleChinese": "我的双脚留在干燥的陆地上。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A rod beside the river, a fish in the net, and sand beneath my feet.",
+    "chinese": "河边一根钓竿，网中一条鱼，脚下是一片沙地。",
+    "source": "原创配文 · C046 溪边垂钓",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

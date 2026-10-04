@@ -1,0 +1,410 @@
+{
+  "id": "C069",
+  "chapter": "学习与艺术",
+  "title": "游园会小表演",
+  "scene": "公园小舞台举行魔术与趣味表演，游戏和幽默通过观众反应表达。",
+  "target_count": 9,
+  "primary_words": [
+    "play",
+    "amusement",
+    "pleasure",
+    "humor",
+    "trick",
+    "act",
+    "attraction",
+    "happy",
+    "event"
+  ],
+  "targets": [
+    {
+      "word_id": "W532",
+      "word": "play",
+      "aliases": [],
+      "source_zh_unreviewed": "玩耍；剧本",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "玩耍",
+      "pos": "verb",
+      "ipa_us": "/pleɪ/",
+      "ipa_uk": "/pleɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We play a simple game before the show.",
+        "matched_form": "play",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We play a simple game before the show.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We play a simple game before the show.",
+      "example_zh": "演出前，我们玩一个简单的游戏。",
+      "bbox_normalized": null,
+      "collocations": [
+        "play a game",
+        "play together"
+      ],
+      "example_en_highlighted": "We **play** a simple game before the show.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We play a simple game before the show.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W020",
+      "word": "amusement",
+      "aliases": [],
+      "source_zh_unreviewed": "娱乐；消遣",
+      "planned_mode": "context",
+      "sense_zh": "娱乐",
+      "pos": "noun",
+      "ipa_us": "/əˈmjuːzmənt/",
+      "ipa_uk": "/əˈmjuːzmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The show is a source of amusement.",
+        "matched_form": "amusement",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The show is a source of amusement.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The show is a source of amusement.",
+      "example_zh": "这个节目给人带来娱乐。",
+      "bbox_normalized": null,
+      "collocations": [
+        "for amusement",
+        "a source of amusement"
+      ],
+      "example_en_highlighted": "The show is a source of **amusement**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The show is a source of amusement.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W534",
+      "word": "pleasure",
+      "aliases": [],
+      "source_zh_unreviewed": "快乐；愉悦",
+      "planned_mode": "context",
+      "sense_zh": "愉快",
+      "pos": "noun",
+      "ipa_us": "/ˈpleʒɚ/",
+      "ipa_uk": "/ˈpleʒə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Watching the act gives me pleasure.",
+        "matched_form": "pleasure",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Watching the act gives me pleasure.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Watching the act gives me pleasure.",
+      "example_zh": "观看这个节目让我愉快。",
+      "bbox_normalized": null,
+      "collocations": [
+        "great pleasure",
+        "take pleasure in"
+      ],
+      "example_en_highlighted": "Watching the act gives me **pleasure**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Watching the act gives me pleasure.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W350",
+      "word": "humor",
+      "aliases": [],
+      "source_zh_unreviewed": "幽默感",
+      "planned_mode": "context",
+      "sense_zh": "幽默",
+      "pos": "noun",
+      "ipa_us": "/ˈhjuːmɚ/",
+      "ipa_uk": "/ˈhjuːmə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Her gentle humor makes us laugh.",
+        "matched_form": "humor",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Her gentle humor makes us laugh.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Her gentle humor makes us laugh.",
+      "example_zh": "她温和的幽默让我们发笑。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a sense of humor",
+        "gentle humor"
+      ],
+      "example_en_highlighted": "Her gentle **humor** makes us laugh.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Her gentle humor makes us laugh.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W781",
+      "word": "trick",
+      "aliases": [],
+      "source_zh_unreviewed": "技巧",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "魔术戏法",
+      "pos": "noun",
+      "ipa_us": "/trɪk/",
+      "ipa_uk": "/trɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "拿帽子和丝巾示意魔术动作，戏法由故事明示。",
+        "sentence": "She performs a trick with a scarf and a hat.",
+        "matched_form": "trick",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "She performs a trick with a scarf and a hat.",
+      "example_zh": "她用丝巾和帽子表演一个戏法。",
+      "bbox_normalized": [
+        0.499,
+        0.171,
+        0.738,
+        0.542
+      ],
+      "collocations": [
+        "a magic trick",
+        "perform a trick"
+      ],
+      "example_en_highlighted": "She performs a **trick** with a scarf and a hat.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（魔术戏法），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W007",
+      "word": "act",
+      "aliases": [],
+      "source_zh_unreviewed": "行动；表演",
+      "planned_mode": "context",
+      "sense_zh": "表演节目",
+      "pos": "noun",
+      "ipa_us": "/ækt/",
+      "ipa_uk": "/ækt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "正在表演的主角，故事指定魔术节目。",
+        "sentence": "The magic act is part of the event.",
+        "matched_form": "act",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The magic act is part of the event.",
+      "example_zh": "这个魔术节目是活动的一部分。",
+      "bbox_normalized": [
+        0.328,
+        0.117,
+        0.759,
+        0.982
+      ],
+      "collocations": [
+        "a magic act",
+        "a short act"
+      ],
+      "example_en_highlighted": "The magic **act** is part of the event.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（表演节目），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W041",
+      "word": "attraction",
+      "aliases": [],
+      "source_zh_unreviewed": "吸引；吸引力",
+      "planned_mode": "context",
+      "sense_zh": "吸引人的节目",
+      "pos": "noun",
+      "ipa_us": "/əˈtrækʃən/",
+      "ipa_uk": "/əˈtrækʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The magic show is the main attraction.",
+        "matched_form": "attraction",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The magic show is the main attraction.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The magic show is the main attraction.",
+      "example_zh": "魔术表演是最吸引人的节目。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the main attraction",
+        "a popular attraction"
+      ],
+      "example_en_highlighted": "The magic show is the main **attraction**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The magic show is the main attraction.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W323",
+      "word": "happy",
+      "aliases": [],
+      "source_zh_unreviewed": "快乐的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "开心的",
+      "pos": "adjective",
+      "ipa_us": "/ˈhæpi/",
+      "ipa_uk": "/ˈhæpi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel happy while watching with my friends.",
+        "matched_form": "happy",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I feel happy while watching with my friends.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I feel happy while watching with my friends.",
+      "example_zh": "和朋友一起观看时，我感到开心。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel happy",
+        "a happy moment"
+      ],
+      "example_en_highlighted": "I feel **happy** while watching with my friends.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I feel happy while watching with my friends.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W238",
+      "word": "event",
+      "aliases": [],
+      "source_zh_unreviewed": "事件",
+      "planned_mode": "context",
+      "sense_zh": "活动",
+      "pos": "noun",
+      "ipa_us": "/ɪˈvent/",
+      "ipa_uk": "/ɪˈvent/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "平台与观众关系，故事指定公园活动。",
+        "sentence": "We attend a small event in the park.",
+        "matched_form": "event",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We attend a small event in the park.",
+      "example_zh": "我们在公园参加一个小活动。",
+      "bbox_normalized": [
+        0.017,
+        0.502,
+        0.998,
+        0.982
+      ],
+      "collocations": [
+        "a park event",
+        "attend an event"
+      ],
+      "example_en_highlighted": "We attend a small **event** in the park.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（活动），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A little humor makes the event fun, and we enjoy the small magic act.",
+    "zh": "一点幽默让活动充满趣味，我们欣赏这个小魔术节目。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C069\n标题 游园会小表演\n场景 公园小舞台举行魔术与趣味表演，游戏和幽默通过观众反应表达。\n目标词 play, amusement, pleasure, humor, trick, act, attraction, happy, event\n原创主配文草案 A little humor gives us great pleasure.\n中文草案 一点幽默带给我们很大的快乐。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Polished cool outdoor park fair small wooden performance platform, adult East Asian woman magician showing simple coloured silk scarf above plain black top hat, two adult friends in foreground reacting with natural smiles. Clear hat scarf hands; no floating impossible limbs or text, no playing card letters. Show event context and friendly theatrical performance, refined Instagram candid editorial.",
+  "status": "approved",
+  "image_path": "images/C069.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 6,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C069 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:21:43 UTC",
+    "prompt_path": "prompts/C069_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C069.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "主角在小平台表演帽子丝巾戏法，朋友作为观众；愉快幽默不按笑脸推断，由句子明示。"
+  }
+}

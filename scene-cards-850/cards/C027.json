@@ -1,0 +1,325 @@
+{
+  "id": "C027",
+  "chapter": "穿衣与购物",
+  "title": "买菜装篮子",
+  "scene": "市场摊位前把商品装进篮子，手推车和价牌清楚。",
+  "target_count": 7,
+  "primary_words": [
+    "market",
+    "basket",
+    "cart",
+    "price",
+    "cheap",
+    "money",
+    "get"
+  ],
+  "targets": [
+    {
+      "word_id": "W427",
+      "word": "market",
+      "aliases": [],
+      "source_zh_unreviewed": "市场",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "市场",
+      "pos": "noun",
+      "ipa_us": "/ˈmɑːrkɪt/",
+      "ipa_uk": "/ˈmɑːkɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧陈列蔬菜的市场摊位区域，market的经营场景由原创设定说明；不框整张照片。",
+        "sentence": "I buy vegetables at the market.",
+        "matched_form": "market",
+        "context": "摊位与原创买菜设定明确市场，不用建筑外观证明经营身份",
+        "image_verified": null
+      },
+      "example_en": "I buy vegetables at the market.",
+      "example_zh": "我在市场买蔬菜。",
+      "bbox_normalized": [
+        0.005,
+        0.407,
+        0.363,
+        0.766
+      ],
+      "collocations": [
+        "a vegetable market"
+      ],
+      "example_en_highlighted": "I buy vegetables at the **market**.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧陈列蔬菜的市场摊位区域，market的经营场景由原创设定说明；不框整张照片。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W054",
+      "word": "basket",
+      "aliases": [],
+      "source_zh_unreviewed": "篮子；筐",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "篮子",
+      "pos": "noun",
+      "ipa_us": "/ˈbæskɪt/",
+      "ipa_uk": "/ˈbɑːskɪt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "装蔬菜的独立藤编购物篮",
+        "sentence": "The basket holds vegetables.",
+        "matched_form": "basket",
+        "image_verified": true
+      },
+      "example_en": "The basket holds vegetables.",
+      "example_zh": "篮子里装着蔬菜。",
+      "bbox_normalized": [
+        0.234,
+        0.516,
+        0.551,
+        0.785
+      ],
+      "collocations": [
+        "a shopping basket"
+      ],
+      "example_en_highlighted": "The **basket** holds vegetables.",
+      "annotation_mode": "object",
+      "annotation_note": "装蔬菜的独立藤编购物篮",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W117",
+      "word": "cart",
+      "aliases": [],
+      "source_zh_unreviewed": "手推车",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "手推车",
+      "pos": "noun",
+      "ipa_us": "/kɑːrt/",
+      "ipa_uk": "/kɑːt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "右侧金属购物手推车，区别藤篮",
+        "sentence": "The cart has wheels.",
+        "matched_form": "cart",
+        "image_verified": true
+      },
+      "example_en": "The cart has wheels.",
+      "example_zh": "这辆手推车有轮子。",
+      "bbox_normalized": [
+        0.702,
+        0.524,
+        0.958,
+        0.999
+      ],
+      "collocations": [
+        "a shopping cart"
+      ],
+      "example_en_highlighted": "The **cart** has wheels.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧金属购物手推车，区别藤篮",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W550",
+      "word": "price",
+      "aliases": [],
+      "source_zh_unreviewed": "价格；价钱",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "价格",
+      "pos": "noun",
+      "ipa_us": "/praɪs/",
+      "ipa_uk": "/praɪs/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The price of the vegetables is low.",
+        "matched_form": "price",
+        "context": "价格由原创例句说明，空白价牌不能当已读价格",
+        "image_verified": null
+      },
+      "example_en": "The price of the vegetables is low.",
+      "example_zh": "这些蔬菜的价格低。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a low price"
+      ],
+      "example_en_highlighted": "The **price** of the vegetables is low.",
+      "annotation_mode": "context",
+      "annotation_note": "价格由原创例句说明，空白价牌不能当已读价格",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W125",
+      "word": "cheap",
+      "aliases": [],
+      "source_zh_unreviewed": "便宜的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "便宜的",
+      "pos": "adjective",
+      "ipa_us": "/tʃiːp/",
+      "ipa_uk": "/tʃiːp/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "These vegetables are cheap today.",
+        "matched_form": "cheap",
+        "context": "便宜是原创情境中的价格评价，不由外观推断",
+        "image_verified": null
+      },
+      "example_en": "These vegetables are cheap today.",
+      "example_zh": "这些蔬菜今天很便宜。",
+      "bbox_normalized": null,
+      "collocations": [
+        "cheap vegetables"
+      ],
+      "example_en_highlighted": "These vegetables are **cheap** today.",
+      "annotation_mode": "context",
+      "annotation_note": "便宜是原创情境中的价格评价，不由外观推断",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W448",
+      "word": "money",
+      "aliases": [],
+      "source_zh_unreviewed": "钱",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "钱",
+      "pos": "noun",
+      "ipa_us": "/ˈmʌni/",
+      "ipa_uk": "/ˈmʌni/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "浅托盘中的金属硬币，钱的用途由交易故事明确",
+        "sentence": "I pay money for the vegetables.",
+        "matched_form": "money",
+        "image_verified": true
+      },
+      "example_en": "I pay money for the vegetables.",
+      "example_zh": "我付钱买蔬菜。",
+      "bbox_normalized": [
+        0.457,
+        0.787,
+        0.542,
+        0.81
+      ],
+      "collocations": [
+        "pay money"
+      ],
+      "example_en_highlighted": "I pay **money** for the vegetables.",
+      "annotation_mode": "object",
+      "annotation_note": "浅托盘中的金属硬币，钱的用途由交易故事明确",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W299",
+      "word": "get",
+      "aliases": [],
+      "source_zh_unreviewed": "得到；获得",
+      "planned_mode": "context",
+      "sense_zh": "买到",
+      "pos": "verb",
+      "ipa_us": "/ɡet/",
+      "ipa_uk": "/ɡet/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I get fresh vegetables at the market.",
+        "matched_form": "get",
+        "context": "get采用获得/买到义，由购物句子明确",
+        "image_verified": null
+      },
+      "example_en": "I get fresh vegetables at the market.",
+      "example_zh": "我在市场买到新鲜蔬菜。",
+      "bbox_normalized": null,
+      "collocations": [
+        "get vegetables"
+      ],
+      "example_en_highlighted": "I **get** fresh vegetables at the market.",
+      "annotation_mode": "context",
+      "annotation_note": "get采用获得/买到义，由购物句子明确",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I get fresh vegetables at the market and carry them home.",
+    "zh": "我在市场买新鲜蔬菜，再把它们带回家。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C027\n标题 买菜装篮子\n场景 市场摊位前把商品装进篮子，手推车和价牌清楚。\n目标词 market, basket, cart, price, cheap, money, get\n原创主配文草案 The basket is full, and the price is low.\n中文草案 篮子装满了，价格也低。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated ivory and slate clothes, loose dark low bun, natural pores with subtle magazine retouch, real hands and materials. Cool soft daylight, coherent single scene, important teaching props clearly readable, calm blank space near image borders for later annotations. No text, letters, digits, logos, brand names, watermark or UI. Elegant covered outdoor vegetable market, adult woman arranging green vegetables in one wicker shopping BASKET on wooden stall front-left. A distinct small wire shopping CART with two wheels and handle stands at front-right, not a second basket. Small shallow tray with a few metal COINS on counter center-front, distinct from vegetables. One blank upright price card beside vegetables, absolutely no letters or numbers. Produce stalls behind establish market, no crowd, realistic cool daylight, crisp basket weave, coherent hands, calm negative space top and bottom.",
+  "status": "approved",
+  "image_path": "images/C027.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 7,
+    "content_entries_complete": 7,
+    "sentence_evidence_complete": 7,
+    "verified_targets": 7,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C027 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T02:53:32Z",
+    "ended_at": "2026-10-03T02:54:50Z",
+    "prompt_path": "prompts/C027_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C027.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "藤篮、带轮金属手推车与硬币托盘清楚，价牌空白不当成已读金额。市场/低价/便宜/买到用故事与句子证据；手部自然。"
+  }
+}

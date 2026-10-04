@@ -1,0 +1,321 @@
+{
+  "filename": "C018-瓶塞与玻璃杯.png",
+  "labels": [
+    {
+      "x": 215,
+      "y": 603,
+      "english": "bottle",
+      "chinese": "瓶子",
+      "phoneticUS": "/ˈbɑːtəl/",
+      "phoneticUK": "/ˈbɒtəl/",
+      "bubblePosition": {
+        "x": 112,
+        "y": 470
+      },
+      "anchorPosition": {
+        "x": 215,
+        "y": 603
+      },
+      "boundingBox": {
+        "left": 114,
+        "top": 218,
+        "right": 328,
+        "bottom": 879
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧葡萄酒瓶整体",
+        "association": "左侧葡萄酒瓶整体",
+        "collocation": "a wine bottle",
+        "example": "The bottle is on the table.",
+        "exampleChinese": "瓶子在桌上。"
+      }
+    },
+    {
+      "x": 410,
+      "y": 850,
+      "english": "cork",
+      "chinese": "软木塞",
+      "phoneticUS": "/kɔːrk/",
+      "phoneticUK": "/kɔːk/",
+      "bubblePosition": {
+        "x": 412,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 410,
+        "y": 850
+      },
+      "boundingBox": {
+        "left": 341,
+        "top": 806,
+        "right": 477,
+        "bottom": 893
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "瓶子前方独立软木塞",
+        "association": "瓶子前方独立软木塞",
+        "collocation": "a bottle cork",
+        "example": "The cork lies beside the bottle.",
+        "exampleChinese": "软木塞放在瓶子旁边。"
+      }
+    },
+    {
+      "x": 745,
+      "y": 506,
+      "english": "wine",
+      "chinese": "葡萄酒",
+      "phoneticUS": "/waɪn/",
+      "phoneticUK": "/waɪn/",
+      "bubblePosition": {
+        "x": 929,
+        "y": 644
+      },
+      "anchorPosition": {
+        "x": 745,
+        "y": 506
+      },
+      "boundingBox": {
+        "left": 613,
+        "top": 390,
+        "right": 884,
+        "bottom": 624
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "杯中红色葡萄酒，身份由设定明确",
+        "association": "杯中红色葡萄酒，身份由设定明确",
+        "collocation": "red wine",
+        "example": "The glass holds red wine.",
+        "exampleChinese": "杯里装着红葡萄酒。"
+      }
+    },
+    {
+      "x": 741,
+      "y": 738,
+      "english": "glass",
+      "chinese": "玻璃杯",
+      "phoneticUS": "/ɡlæs/",
+      "phoneticUK": "/ɡlɑːs/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 935
+      },
+      "anchorPosition": {
+        "x": 741,
+        "y": 738
+      },
+      "boundingBox": {
+        "left": 602,
+        "top": 366,
+        "right": 891,
+        "bottom": 895
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧高脚玻璃杯整体",
+        "association": "右侧高脚玻璃杯整体",
+        "collocation": "a wine glass",
+        "example": "The glass has a long stem.",
+        "exampleChinese": "这只玻璃杯有细长的杯柄。"
+      }
+    },
+    {
+      "x": 748,
+      "y": 507,
+      "english": "liquid",
+      "chinese": "液体",
+      "phoneticUS": "/ˈlɪkwɪd/",
+      "phoneticUK": "/ˈlɪkwɪd/",
+      "bubblePosition": {
+        "x": 753,
+        "y": 54
+      },
+      "anchorPosition": {
+        "x": 748,
+        "y": 507
+      },
+      "boundingBox": {
+        "left": 613,
+        "top": 390,
+        "right": 884,
+        "bottom": 624
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "wine是liquid的可见实例，区域定位玻璃杯中实际液体。",
+        "association": "wine是liquid的可见实例，区域定位玻璃杯中实际液体。",
+        "collocation": "a red liquid",
+        "example": "Wine is a liquid.",
+        "exampleChinese": "葡萄酒是一种液体。"
+      }
+    },
+    {
+      "x": 746,
+      "y": 630,
+      "english": "full",
+      "chinese": "满的",
+      "phoneticUS": "/fʊl/",
+      "phoneticUK": "/fʊl/",
+      "bubblePosition": {
+        "x": 922,
+        "y": 333
+      },
+      "anchorPosition": {
+        "x": 746,
+        "y": 630
+      },
+      "boundingBox": {
+        "left": 602,
+        "top": 366,
+        "right": 891,
+        "bottom": 895
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "盛至近杯口的玻璃杯区域，full指杯子的可见装满状态；例句nearly full保留程度限定。",
+        "association": "盛至近杯口的玻璃杯区域，full指杯子的可见装满状态；例句nearly full保留程度限定。",
+        "collocation": "a full glass",
+        "example": "The glass is nearly full.",
+        "exampleChinese": "杯子快满了。"
+      }
+    },
+    {
+      "x": 226,
+      "y": 803,
+      "english": "little",
+      "chinese": "少量",
+      "phoneticUS": "/ˈlɪtəl/",
+      "phoneticUK": "/ˈlɪtəl/",
+      "bubblePosition": {
+        "x": 123,
+        "y": 935
+      },
+      "anchorPosition": {
+        "x": 226,
+        "y": 803
+      },
+      "boundingBox": {
+        "left": 136,
+        "top": 733,
+        "right": 315,
+        "bottom": 873
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "瓶底少量葡萄酒的液面和内容区域，little定位瓶内少量的wine，不框整瓶或全图。",
+        "association": "瓶底少量葡萄酒的液面和内容区域，little定位瓶内少量的wine，不框整瓶或全图。",
+        "collocation": "a little wine",
+        "example": "There is only a little wine in the bottle.",
+        "exampleChinese": "瓶里只剩少许葡萄酒。"
+      }
+    },
+    {
+      "x": 748,
+      "y": 507,
+      "english": "much",
+      "chinese": "很多",
+      "phoneticUS": "/mʌtʃ/",
+      "phoneticUK": "/mʌtʃ/",
+      "bubblePosition": {
+        "x": 647,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 748,
+        "y": 507
+      },
+      "boundingBox": {
+        "left": 613,
+        "top": 390,
+        "right": 884,
+        "bottom": 624
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "杯中较多葡萄酒的区域，much修饰wine；too much的评价仍来自原创句子，不推算容量。",
+        "association": "杯中较多葡萄酒的区域，much修饰wine；too much的评价仍来自原创句子，不推算容量。",
+        "collocation": "too much wine",
+        "example": "There is too much wine in this glass.",
+        "exampleChinese": "这只杯子里葡萄酒太多了。"
+      }
+    },
+    {
+      "x": 124,
+      "y": 97,
+      "english": "of",
+      "chinese": "……的",
+      "phoneticUS": "/əv/",
+      "phoneticUK": "/əv/",
+      "bubblePosition": {
+        "x": 124,
+        "y": 97
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "介词of连接容器量词与内容物，不设物体框",
+        "association": "介词of连接容器量词与内容物，不设物体框",
+        "collocation": "a glass of wine",
+        "example": "A glass of wine is on the table.",
+        "exampleChinese": "桌上有一杯葡萄酒。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A glass of wine, a quiet table, and an unhurried evening.",
+    "chinese": "一杯葡萄酒，一张安静的餐桌，一个不赶时间的夜晚。",
+    "source": "原创配文 · C018 瓶塞与玻璃杯",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

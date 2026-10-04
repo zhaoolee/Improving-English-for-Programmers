@@ -1,0 +1,725 @@
+{
+  "startedAt": "2026-10-02T14:39:50Z",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C011",
+      "caption_en": "Breakfast is ready: bread, butter, cheese, an egg, and milk.",
+      "caption_zh": "早餐准备好了：面包、黄油、奶酪、鸡蛋和牛奶。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elegant kitchen, elevated three-quarter view. Woman preparing breakfast behind pale stone counter. Five DISTINCT separated items in foreground: sliced bread on wood board at left, rectangular pale yellow butter on tiny white dish center-left, triangular cheese wedge with holes on separate dish center-right, ONE whole brown egg in ceramic egg cup at right, glass of white milk at rear-right. Large readable objects, no packages, no clutter, food texture crisp. Woman gently arranging bread, all items visible.",
+      "words": [
+        {
+          "word": "bread",
+          "zh": "面包",
+          "pos": "noun",
+          "us": "/bred/",
+          "uk": "/bred/",
+          "collocations": [
+            "a slice of bread"
+          ],
+          "example": "The bread is on the board.",
+          "translation": "面包在木板上。",
+          "mode": "object",
+          "evidence": "左侧切片面包",
+          "color": "amber"
+        },
+        {
+          "word": "butter",
+          "zh": "黄油",
+          "pos": "noun",
+          "us": "/ˈbʌtər/",
+          "uk": "/ˈbʌtə/",
+          "collocations": [
+            "a little butter"
+          ],
+          "example": "I spread butter on bread.",
+          "translation": "我在面包上涂黄油。",
+          "mode": "object",
+          "evidence": "小碟上矩形黄油",
+          "color": "amber"
+        },
+        {
+          "word": "cheese",
+          "zh": "奶酪",
+          "pos": "noun",
+          "us": "/tʃiːz/",
+          "uk": "/tʃiːz/",
+          "collocations": [
+            "a piece of cheese"
+          ],
+          "example": "The cheese is on a plate.",
+          "translation": "奶酪在盘子上。",
+          "mode": "object",
+          "evidence": "有孔三角奶酪",
+          "color": "amber"
+        },
+        {
+          "word": "egg",
+          "zh": "鸡蛋",
+          "pos": "noun",
+          "us": "/eɡ/",
+          "uk": "/eɡ/",
+          "collocations": [
+            "a boiled egg"
+          ],
+          "example": "The egg is in an egg cup.",
+          "translation": "鸡蛋在蛋杯里。",
+          "mode": "object",
+          "evidence": "棕色整蛋，不含蛋杯",
+          "color": "rose"
+        },
+        {
+          "word": "milk",
+          "zh": "牛奶",
+          "pos": "noun",
+          "us": "/mɪlk/",
+          "uk": "/mɪlk/",
+          "collocations": [
+            "a glass of milk"
+          ],
+          "example": "I have a glass of milk.",
+          "translation": "我喝一杯牛奶。",
+          "mode": "object",
+          "evidence": "杯中白色牛奶，饮品身份由早餐设定说明",
+          "color": "blue"
+        },
+        {
+          "word": "food",
+          "zh": "食物",
+          "pos": "noun",
+          "us": "/fuːd/",
+          "uk": "/fuːd/",
+          "collocations": [
+            "fresh food"
+          ],
+          "example": "Bread is food.",
+          "translation": "面包是食物。",
+          "mode": "object",
+          "evidence": "bread是food的具体可见实例；框对应的面包区域。",
+          "color": "teal"
+        },
+        {
+          "word": "meal",
+          "zh": "一餐",
+          "pos": "noun",
+          "us": "/miːl/",
+          "uk": "/miːl/",
+          "collocations": [
+            "a morning meal"
+          ],
+          "example": "Breakfast is my first meal.",
+          "translation": "早餐是我的第一餐。",
+          "mode": "object",
+          "evidence": "桌上已摆放的早餐食物组合区域；meal指这组早餐，ready由原创叙述说明准备完成，不把单件餐具当作一餐。",
+          "color": "teal"
+        },
+        {
+          "word": "ready",
+          "zh": "准备好的",
+          "pos": "adjective",
+          "us": "/ˈredi/",
+          "uk": "/ˈredi/",
+          "collocations": [
+            "be ready"
+          ],
+          "example": "Breakfast is ready.",
+          "translation": "早餐准备好了。",
+          "mode": "object",
+          "evidence": "桌上已摆放的早餐食物组合区域；meal指这组早餐，ready由原创叙述说明准备完成，不把单件餐具当作一餐。",
+          "color": "lavender"
+        },
+        {
+          "word": "have",
+          "zh": "吃；喝",
+          "pos": "verb",
+          "us": "/hæv/",
+          "uk": "/hæv/",
+          "collocations": [
+            "have breakfast"
+          ],
+          "example": "I have breakfast at home.",
+          "translation": "我在家吃早餐。",
+          "mode": "context",
+          "evidence": "have breakfast用餐含义，不解释为拥有",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "caption_en": "I cook soup in the pot, with rice and potatoes beside me.",
+      "caption_zh": "我用锅煮汤，米饭和土豆放在旁边。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elegant kitchen stove, camera elevated enough to see inside ONE open steel pot. Woman stirring pale vegetable soup with wooden ladle, no lid obstructing. Visible small bubbles on soup surface and faint realistic rising white steam, not smoke. Two whole brown potatoes on separate board at right foreground; bowl of cooked white rice left foreground. Pot handles distinct, coherent cooking action, kitchen and upper body visible.",
+      "words": [
+        {
+          "word": "cook",
+          "zh": "烹饪",
+          "pos": "verb",
+          "us": "/kʊk/",
+          "uk": "/kʊk/",
+          "collocations": [
+            "cook soup"
+          ],
+          "example": "I cook soup for lunch.",
+          "translation": "我为午餐煮汤。",
+          "mode": "action",
+          "evidence": "手持勺子在锅内搅拌的烹饪动作",
+          "color": "rose"
+        },
+        {
+          "word": "pot",
+          "zh": "锅",
+          "pos": "noun",
+          "us": "/pɑːt/",
+          "uk": "/pɒt/",
+          "collocations": [
+            "a cooking pot"
+          ],
+          "example": "The pot is on the stove.",
+          "translation": "锅放在炉子上。",
+          "mode": "object",
+          "evidence": "锅身与把手，不含整座炉台",
+          "color": "blue"
+        },
+        {
+          "word": "soup",
+          "zh": "汤",
+          "pos": "noun",
+          "us": "/suːp/",
+          "uk": "/suːp/",
+          "collocations": [
+            "vegetable soup"
+          ],
+          "example": "The soup is in the pot.",
+          "translation": "汤在锅里。",
+          "mode": "object",
+          "evidence": "锅中可见液体汤面",
+          "color": "amber"
+        },
+        {
+          "word": "potato",
+          "zh": "土豆",
+          "pos": "noun",
+          "us": "/pəˈteɪtoʊ/",
+          "uk": "/pəˈteɪtəʊ/",
+          "collocations": [
+            "a whole potato"
+          ],
+          "example": "A potato is on the board.",
+          "translation": "木板上有一个土豆。",
+          "mode": "object",
+          "evidence": "旁边一颗完整棕色土豆",
+          "color": "amber"
+        },
+        {
+          "word": "rice",
+          "zh": "米饭",
+          "pos": "noun",
+          "us": "/raɪs/",
+          "uk": "/raɪs/",
+          "collocations": [
+            "a bowl of rice"
+          ],
+          "example": "The rice is in a bowl.",
+          "translation": "米饭在碗里。",
+          "mode": "object",
+          "evidence": "碗中白色熟米饭，不含整只碗",
+          "color": "teal"
+        },
+        {
+          "word": "boiling",
+          "zh": "正在沸腾",
+          "pos": "verb (present participle of boil)",
+          "us": "/ˈbɔɪlɪŋ/",
+          "uk": "/ˈbɔɪlɪŋ/",
+          "collocations": [
+            "boiling soup"
+          ],
+          "example": "The soup is boiling.",
+          "translation": "汤正在沸腾。",
+          "mode": "object",
+          "evidence": "锅内汤面及气泡的区域；boiling采用原创烹饪设定与例句，区域定位所指汤面，不从照片测量温度。",
+          "color": "rose"
+        },
+        {
+          "word": "steam",
+          "zh": "蒸汽",
+          "pos": "noun",
+          "us": "/stiːm/",
+          "uk": "/stiːm/",
+          "collocations": [
+            "rising steam"
+          ],
+          "example": "Steam rises from the pot.",
+          "translation": "蒸汽从锅里升起。",
+          "mode": "object",
+          "evidence": "锅上方可见白色水汽区域，不当烟雾",
+          "color": "blue"
+        },
+        {
+          "word": "heat",
+          "zh": "热",
+          "pos": "noun",
+          "us": "/hiːt/",
+          "uk": "/hiːt/",
+          "collocations": [
+            "heat from the stove"
+          ],
+          "example": "The stove gives off heat.",
+          "translation": "炉子散发热量。",
+          "mode": "context",
+          "evidence": "热量不可见，由烹饪设定和句子说明",
+          "color": "rose"
+        },
+        {
+          "word": "make",
+          "zh": "制作",
+          "pos": "verb",
+          "us": "/meɪk/",
+          "uk": "/meɪk/",
+          "collocations": [
+            "make soup"
+          ],
+          "example": "I make soup at home.",
+          "translation": "我在家做汤。",
+          "mode": "action",
+          "evidence": "手持木勺在锅中搅拌制作汤的动作区域，make soup指向这个制作活动。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "caption_en": "I set out the plate, fork, and spoon, then cut a cucumber.",
+      "caption_zh": "我摆好盘子、叉子和勺子，然后切黄瓜。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elevated dining-table editorial. Woman behind table cutting one cucumber on small wood board at center-right using a real pointed steel CHEF KNIFE, blade and cutting edge clear, left fingertips safely curled away, no unsafe gesture. One white dinner PLATE left foreground, separate four-tined FORK to its left, separate oval-bowled SPOON below-right of plate; rectangular wooden serving TRAY at far right with raised rim visible, no extra knives. Knife is a kitchen blade, not a blunt butter knife. All objects spaced apart and in focus, high quality uncluttered composition.",
+      "words": [
+        {
+          "word": "plate",
+          "zh": "盘子",
+          "pos": "noun",
+          "us": "/pleɪt/",
+          "uk": "/pleɪt/",
+          "collocations": [
+            "a dinner plate"
+          ],
+          "example": "The plate is white.",
+          "translation": "盘子是白色的。",
+          "mode": "object",
+          "evidence": "白色餐盘整体",
+          "color": "teal"
+        },
+        {
+          "word": "fork",
+          "zh": "叉子",
+          "pos": "noun",
+          "us": "/fɔːrk/",
+          "uk": "/fɔːk/",
+          "collocations": [
+            "a dinner fork"
+          ],
+          "example": "The fork has four points.",
+          "translation": "叉子有四个尖齿。",
+          "mode": "object",
+          "evidence": "独立金属叉子",
+          "color": "blue"
+        },
+        {
+          "word": "knife",
+          "zh": "刀",
+          "pos": "noun",
+          "us": "/naɪf/",
+          "uk": "/naɪf/",
+          "collocations": [
+            "a kitchen knife"
+          ],
+          "example": "I hold the knife by its handle.",
+          "translation": "我握着刀柄拿刀。",
+          "mode": "object",
+          "evidence": "切黄瓜的厨刀整体",
+          "color": "blue"
+        },
+        {
+          "word": "spoon",
+          "zh": "勺子",
+          "pos": "noun",
+          "us": "/spuːn/",
+          "uk": "/spuːn/",
+          "collocations": [
+            "a metal spoon"
+          ],
+          "example": "The spoon is beside the plate.",
+          "translation": "勺子在盘子旁边。",
+          "mode": "object",
+          "evidence": "椭圆勺头与勺柄",
+          "color": "blue"
+        },
+        {
+          "word": "tray",
+          "zh": "托盘",
+          "pos": "noun",
+          "us": "/treɪ/",
+          "uk": "/treɪ/",
+          "collocations": [
+            "a wooden tray"
+          ],
+          "example": "The tray is on the table.",
+          "translation": "托盘在桌上。",
+          "mode": "object",
+          "evidence": "右侧有边沿的木托盘，不混同砧板",
+          "color": "amber"
+        },
+        {
+          "word": "sharp",
+          "zh": "锋利的",
+          "pos": "adjective",
+          "us": "/ʃɑːrp/",
+          "uk": "/ʃɑːp/",
+          "collocations": [
+            "a sharp knife"
+          ],
+          "example": "The knife is sharp.",
+          "translation": "刀很锋利。",
+          "mode": "context",
+          "evidence": "切菜用途与句子说明锋利，静态图不测试锋利度",
+          "color": "rose"
+        },
+        {
+          "word": "edge",
+          "zh": "刃口",
+          "pos": "noun",
+          "us": "/edʒ/",
+          "uk": "/edʒ/",
+          "collocations": [
+            "a cutting edge"
+          ],
+          "example": "The edge of the knife cuts food.",
+          "translation": "刀的刃口切开食物。",
+          "mode": "object",
+          "evidence": "刀片与黄瓜接触的切削边缘",
+          "color": "rose"
+        },
+        {
+          "word": "cut",
+          "zh": "切",
+          "pos": "verb",
+          "us": "/kʌt/",
+          "uk": "/kʌt/",
+          "collocations": [
+            "cut a cucumber"
+          ],
+          "example": "I cut the cucumber.",
+          "translation": "我切黄瓜。",
+          "mode": "action",
+          "evidence": "手、刀与黄瓜接触的切割动作区域",
+          "color": "rose"
+        },
+        {
+          "word": "blade",
+          "zh": "刀片",
+          "pos": "noun",
+          "us": "/bleɪd/",
+          "uk": "/bleɪd/",
+          "collocations": [
+            "a steel blade"
+          ],
+          "example": "The blade is made of steel.",
+          "translation": "刀片是钢制的。",
+          "mode": "object",
+          "evidence": "只定位金属刀片，不含刀柄",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "caption_en": "I give you a cup of warm tea with sugar.",
+      "caption_zh": "我递给你一杯加糖的温茶。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elegant apartment kitchen, TWO distinct East Asian adults. Main woman at left offers ONE small white ceramic CUP of tea by its handle, recipient adult woman at right in pale slate shirt accepts supporting cup underneath. Cup fully visible between coherent hands, no duplicated cup or fingers. Counter foreground has one unbranded steel stovetop KETTLE with spout and handle left, an OPEN clear glass sugar bowl with visible white sugar granules at right. Subtle faint steam above tea, no strong boiling. Two people modestly smaller, clean wall above and counter below for labels.",
+      "words": [
+        {
+          "word": "cup",
+          "zh": "杯子",
+          "pos": "noun",
+          "us": "/kʌp/",
+          "uk": "/kʌp/",
+          "collocations": [
+            "a cup of tea"
+          ],
+          "example": "The cup is white.",
+          "translation": "杯子是白色的。",
+          "mode": "object",
+          "evidence": "两人之间的白色杯子",
+          "color": "teal"
+        },
+        {
+          "word": "kettle",
+          "zh": "水壶",
+          "pos": "noun",
+          "us": "/ˈketəl/",
+          "uk": "/ˈketəl/",
+          "collocations": [
+            "a metal kettle"
+          ],
+          "example": "The kettle is on the counter.",
+          "translation": "水壶在台面上。",
+          "mode": "object",
+          "evidence": "有壶嘴和提手的金属烧水壶",
+          "color": "blue"
+        },
+        {
+          "word": "sugar",
+          "zh": "糖",
+          "pos": "noun",
+          "us": "/ˈʃʊɡər/",
+          "uk": "/ˈʃʊɡə/",
+          "collocations": [
+            "a little sugar"
+          ],
+          "example": "The sugar is in the bowl.",
+          "translation": "糖在碗里。",
+          "mode": "object",
+          "evidence": "开放玻璃碗中的白色颗粒，糖的身份由原创设定说明",
+          "color": "amber"
+        },
+        {
+          "word": "sweet",
+          "zh": "甜的",
+          "pos": "adjective",
+          "us": "/swiːt/",
+          "uk": "/swiːt/",
+          "collocations": [
+            "a sweet drink"
+          ],
+          "example": "The tea is sweet with sugar.",
+          "translation": "加糖的茶是甜的。",
+          "mode": "context",
+          "evidence": "味觉由句子说明，不声称照片测得甜度",
+          "color": "rose"
+        },
+        {
+          "word": "warm",
+          "zh": "温热的",
+          "pos": "adjective",
+          "us": "/wɔːrm/",
+          "uk": "/wɔːm/",
+          "collocations": [
+            "a warm drink"
+          ],
+          "example": "The tea is warm.",
+          "translation": "茶是温热的。",
+          "mode": "context",
+          "evidence": "温度由设定说明，少量水汽不证明具体温度",
+          "color": "rose"
+        },
+        {
+          "word": "drink",
+          "zh": "饮品",
+          "pos": "noun",
+          "us": "/drɪŋk/",
+          "uk": "/drɪŋk/",
+          "collocations": [
+            "a warm drink"
+          ],
+          "example": "Tea is a drink.",
+          "translation": "茶是一种饮品。",
+          "mode": "object",
+          "evidence": "drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。",
+          "color": "teal"
+        },
+        {
+          "word": "give",
+          "zh": "给；递给",
+          "pos": "verb",
+          "us": "/ɡɪv/",
+          "uk": "/ɡɪv/",
+          "collocations": [
+            "give you a cup"
+          ],
+          "example": "I give you a cup of tea.",
+          "translation": "我递给你一杯茶。",
+          "mode": "action",
+          "evidence": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+          "color": "rose"
+        },
+        {
+          "word": "take",
+          "zh": "接过",
+          "pos": "verb",
+          "us": "/teɪk/",
+          "uk": "/teɪk/",
+          "collocations": [
+            "take the cup"
+          ],
+          "example": "Please take the cup.",
+          "translation": "请接过杯子。",
+          "mode": "action",
+          "evidence": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+          "color": "blue"
+        },
+        {
+          "word": "for",
+          "zh": "给；为了",
+          "pos": "preposition",
+          "us": "/fɔːr/",
+          "uk": "/fɔː/",
+          "collocations": [
+            "for you"
+          ],
+          "example": "This cup is for you.",
+          "translation": "这杯是给你的。",
+          "mode": "context",
+          "evidence": "高亮for，说明接受者，不设框",
+          "color": "lavender"
+        },
+        {
+          "word": "with",
+          "zh": "带有",
+          "pos": "preposition",
+          "us": "/wɪð/",
+          "uk": "/wɪð/",
+          "collocations": [
+            "tea with sugar"
+          ],
+          "example": "I like tea with sugar.",
+          "translation": "我喜欢加糖的茶。",
+          "mode": "context",
+          "evidence": "高亮with，说明饮品配料，不设框",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "caption_en": "I choose red, yellow, and green apples at the fruit stall.",
+      "caption_zh": "我在水果摊挑选红色、黄色和绿色的苹果。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Refined cool outdoor produce stall environmental fashion portrait. Woman behind counter holding ONE red apple, her face clear. Distinct separated baskets across foreground: red apples left, golden YELLOW apples center-left, GREEN apples center-right, ORANGES right. Small open punnet of BLUEBERRIES at front center and a few whole WALNUTS in their shells on small tray at front right, no packages or signs. Whole baskets and fruit surfaces clearly readable, natural saturated fruit colors against muted wardrobe and cool neutral background. Single scene, no crowds, no mixed or hybrid fruits.",
+      "words": [
+        {
+          "word": "apple",
+          "zh": "苹果",
+          "pos": "noun",
+          "us": "/ˈæpəl/",
+          "uk": "/ˈæpəl/",
+          "collocations": [
+            "a red apple"
+          ],
+          "example": "I hold an apple.",
+          "translation": "我拿着一个苹果。",
+          "mode": "object",
+          "evidence": "主人公手里红苹果",
+          "color": "rose"
+        },
+        {
+          "word": "orange",
+          "zh": "橙子",
+          "pos": "noun",
+          "us": "/ˈɔːrɪndʒ/",
+          "uk": "/ˈɒrɪndʒ/",
+          "collocations": [
+            "a ripe orange"
+          ],
+          "example": "The orange is round.",
+          "translation": "橙子是圆的。",
+          "mode": "object",
+          "evidence": "右侧篮子里一颗橙子，采用水果义",
+          "color": "amber"
+        },
+        {
+          "word": "berry",
+          "zh": "浆果",
+          "pos": "noun",
+          "us": "/ˈberi/",
+          "uk": "/ˈberi/",
+          "collocations": [
+            "a blue berry"
+          ],
+          "example": "A blueberry is a small berry.",
+          "translation": "蓝莓是一种小浆果。",
+          "mode": "object",
+          "evidence": "前景蓝莓中的一颗，泛称berry由例句明确",
+          "color": "lavender"
+        },
+        {
+          "word": "fruit",
+          "zh": "水果",
+          "pos": "noun",
+          "us": "/fruːt/",
+          "uk": "/fruːt/",
+          "collocations": [
+            "fresh fruit"
+          ],
+          "example": "Apples are fruit.",
+          "translation": "苹果是水果。",
+          "mode": "object",
+          "evidence": "fruit的可见实例为手中的苹果，采用同一实际苹果区域，不框整个摊位。",
+          "color": "teal"
+        },
+        {
+          "word": "nut",
+          "zh": "坚果",
+          "pos": "noun",
+          "us": "/nʌt/",
+          "uk": "/nʌt/",
+          "collocations": [
+            "a whole nut"
+          ],
+          "example": "A walnut is a nut.",
+          "translation": "核桃是一种坚果。",
+          "mode": "object",
+          "evidence": "前景托盘上一颗带壳核桃",
+          "color": "amber"
+        },
+        {
+          "word": "red",
+          "zh": "红色的",
+          "pos": "adjective",
+          "us": "/red/",
+          "uk": "/red/",
+          "collocations": [
+            "a red apple"
+          ],
+          "example": "The apple in my hand is red.",
+          "translation": "我手里的苹果是红色的。",
+          "mode": "object",
+          "evidence": "手中实际红苹果的区域，red描述这只苹果的颜色。",
+          "color": "rose"
+        },
+        {
+          "word": "yellow",
+          "zh": "黄色的",
+          "pos": "adjective",
+          "us": "/ˈjeloʊ/",
+          "uk": "/ˈjeləʊ/",
+          "collocations": [
+            "a yellow apple"
+          ],
+          "example": "The apples in the middle are yellow.",
+          "translation": "中间的苹果是黄色的。",
+          "mode": "object",
+          "evidence": "前景中间篮子中黄色苹果的区域，yellow描述这些苹果的可见颜色。",
+          "color": "amber"
+        },
+        {
+          "word": "green",
+          "zh": "绿色的",
+          "pos": "adjective",
+          "us": "/ɡriːn/",
+          "uk": "/ɡriːn/",
+          "collocations": [
+            "a green apple"
+          ],
+          "example": "Some apples are green.",
+          "translation": "有些苹果是绿色的。",
+          "mode": "object",
+          "evidence": "前景右中篮子中绿色苹果的区域，green描述这些苹果的可见颜色。",
+          "color": "teal"
+        }
+      ]
+    }
+  ],
+  "lexical_review": {
+    "method": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。",
+    "references": {}
+  }
+}

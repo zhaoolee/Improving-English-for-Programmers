@@ -1,0 +1,327 @@
+{
+  "filename": "C072-白板上的讨论.png",
+  "labels": [
+    {
+      "x": 554,
+      "y": 489,
+      "english": "discussion",
+      "chinese": "讨论",
+      "phoneticUS": "/dɪˈskʌʃən/",
+      "phoneticUK": "/dɪˈskʌʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": {
+        "x": 554,
+        "y": 489
+      },
+      "boundingBox": {
+        "left": 112,
+        "top": 256,
+        "right": 996,
+        "bottom": 722
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（讨论），待最终图确认。",
+        "association": "场景中体现的具体动作（讨论），待最终图确认。",
+        "collocation": "a useful discussion; have a discussion",
+        "example": "We have a discussion about the problem.",
+        "exampleChinese": "我们讨论这个问题。"
+      }
+    },
+    {
+      "x": 170,
+      "y": 130,
+      "english": "opinion",
+      "chinese": "看法",
+      "phoneticUS": "/əˈpɪnjən/",
+      "phoneticUK": "/əˈpɪnjən/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 130
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I share my opinion with my colleague.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I share my opinion with my colleague.；不声称该状态/含义本身在画面可见。",
+        "collocation": "share an opinion; in my opinion",
+        "example": "I share my opinion with my colleague.",
+        "exampleChinese": "我和同事分享我的看法。"
+      }
+    },
+    {
+      "x": 840,
+      "y": 140,
+      "english": "argument",
+      "chinese": "争论",
+      "phoneticUS": "/ˈɑːrɡjəmənt/",
+      "phoneticUK": "/ˈɑːɡjəmənt/",
+      "bubblePosition": {
+        "x": 840,
+        "y": 140
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We avoid an argument and listen carefully.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We avoid an argument and listen carefully.；不声称该状态/含义本身在画面可见。",
+        "collocation": "an argument about; avoid an argument",
+        "example": "We avoid an argument and listen carefully.",
+        "exampleChinese": "我们避免争论，认真倾听。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 235,
+      "english": "suggestion",
+      "chinese": "建议",
+      "phoneticUS": "/səˈdʒestʃən/",
+      "phoneticUK": "/səˈdʒestʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 235
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Her suggestion is to try a smaller step.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Her suggestion is to try a smaller step.；不声称该状态/含义本身在画面可见。",
+        "collocation": "make a suggestion; a helpful suggestion",
+        "example": "Her suggestion is to try a smaller step.",
+        "exampleChinese": "她的建议是先尝试一个较小的步骤。"
+      }
+    },
+    {
+      "x": 585,
+      "y": 390,
+      "english": "decision",
+      "chinese": "决定",
+      "phoneticUS": "/dɪˈsɪʒən/",
+      "phoneticUK": "/dɪˈsɪʒən/",
+      "bubblePosition": {
+        "x": 585,
+        "y": 390
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We make a decision together.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We make a decision together.；不声称该状态/含义本身在画面可见。",
+        "collocation": "make a decision; a shared decision",
+        "example": "We make a decision together.",
+        "exampleChinese": "我们一起作出决定。"
+      }
+    },
+    {
+      "x": 590,
+      "y": 550,
+      "english": "agreement",
+      "chinese": "一致意见",
+      "phoneticUS": "/əˈɡriːmənt/",
+      "phoneticUK": "/əˈɡriːmənt/",
+      "bubblePosition": {
+        "x": 590,
+        "y": 550
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We reach agreement on the next step.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We reach agreement on the next step.；不声称该状态/含义本身在画面可见。",
+        "collocation": "reach agreement; in agreement",
+        "example": "We reach agreement on the next step.",
+        "exampleChinese": "我们就下一步达成一致。"
+      }
+    },
+    {
+      "x": 377,
+      "y": 567,
+      "english": "talk",
+      "chinese": "交谈",
+      "phoneticUS": "/tɔːk/",
+      "phoneticUK": "/tɔːk/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 377,
+        "y": 567
+      },
+      "boundingBox": {
+        "left": 145,
+        "top": 471,
+        "right": 609,
+        "bottom": 663
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（交谈），待最终图确认。",
+        "association": "场景中体现的具体动作（交谈），待最终图确认。",
+        "collocation": "talk about; talk with",
+        "example": "We talk beside the whiteboard.",
+        "exampleChinese": "我们在白板旁交谈。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 900,
+      "english": "say",
+      "chinese": "说",
+      "phoneticUS": "/seɪ/",
+      "phoneticUK": "/seɪ/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I say why I prefer this plan.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I say why I prefer this plan.；不声称该状态/含义本身在画面可见。",
+        "collocation": "say something; say why",
+        "example": "I say why I prefer this plan.",
+        "exampleChinese": "我说出偏好这个计划的原因。"
+      }
+    },
+    {
+      "x": 840,
+      "y": 695,
+      "english": "about",
+      "chinese": "关于",
+      "phoneticUS": "/əˈbaʊt/",
+      "phoneticUK": "/əˈbaʊt/",
+      "bubblePosition": {
+        "x": 840,
+        "y": 695
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We talk about the new plan.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We talk about the new plan.；不声称该状态/含义本身在画面可见。",
+        "collocation": "talk about; think about",
+        "example": "We talk about the new plan.",
+        "exampleChinese": "我们谈论这个新计划。"
+      }
+    },
+    {
+      "x": 495,
+      "y": 940,
+      "english": "why",
+      "chinese": "为什么",
+      "phoneticUS": "/waɪ/",
+      "phoneticUK": "/waɪ/",
+      "bubblePosition": {
+        "x": 495,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Why should we try this plan?；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Why should we try this plan?；不声称该状态/含义本身在画面可见。",
+        "collocation": "ask why; explain why",
+        "example": "Why should we try this plan?",
+        "exampleChinese": "我们为什么要尝试这个计划？"
+      }
+    },
+    {
+      "x": 845,
+      "y": 925,
+      "english": "how",
+      "chinese": "怎样",
+      "phoneticUS": "/haʊ/",
+      "phoneticUK": "/haʊ/",
+      "bubblePosition": {
+        "x": 845,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：How can we make the plan simpler?；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：How can we make the plan simpler?；不声称该状态/含义本身在画面可见。",
+        "collocation": "ask how; explain how",
+        "example": "How can we make the plan simpler?",
+        "exampleChinese": "我们怎样能让这个计划更简单？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "We talk about the problem, share an opinion, and agree on the next step.",
+    "chinese": "我们谈论这个问题，分享看法，并商定下一步。",
+    "source": "原创配文 · C072 白板上的讨论",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,329 @@
+{
+  "filename": "C044-农场动物围栏.png",
+  "labels": [
+    {
+      "x": 133,
+      "y": 562,
+      "english": "cow",
+      "chinese": "奶牛",
+      "phoneticUS": "/kaʊ/",
+      "phoneticUK": "/kaʊ/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 720
+      },
+      "anchorPosition": {
+        "x": 133,
+        "y": 562
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 423,
+        "right": 264,
+        "bottom": 704
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际黑白牛体。",
+        "association": "实际黑白牛体。",
+        "collocation": "a dairy cow",
+        "example": "The cow rests beside the fence.",
+        "exampleChinese": "奶牛在围栏旁休息。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 562,
+      "english": "goat",
+      "chinese": "山羊",
+      "phoneticUS": "/ɡoʊt/",
+      "phoneticUK": "/ɡəʊt/",
+      "bubblePosition": {
+        "x": 720,
+        "y": 405
+      },
+      "anchorPosition": {
+        "x": 740,
+        "y": 562
+      },
+      "boundingBox": {
+        "left": 697,
+        "top": 452,
+        "right": 998,
+        "bottom": 637
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立山羊整体，区别绵羊。",
+        "association": "独立山羊整体，区别绵羊。",
+        "collocation": "a brown goat",
+        "example": "The goat has curved horns.",
+        "exampleChinese": "山羊有弯曲的角。"
+      }
+    },
+    {
+      "x": 927,
+      "y": 610,
+      "english": "sheep",
+      "chinese": "绵羊",
+      "phoneticUS": "/ʃiːp/",
+      "phoneticUK": "/ʃiːp/",
+      "bubblePosition": {
+        "x": 900,
+        "y": 715
+      },
+      "anchorPosition": {
+        "x": 927,
+        "y": 610
+      },
+      "boundingBox": {
+        "left": 845,
+        "top": 525,
+        "right": 998,
+        "bottom": 711
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立羊毛绵羊整体。",
+        "association": "独立羊毛绵羊整体。",
+        "collocation": "a white sheep",
+        "example": "The sheep has thick wool.",
+        "exampleChinese": "绵羊长着厚羊毛。"
+      }
+    },
+    {
+      "x": 254,
+      "y": 393,
+      "english": "pig",
+      "chinese": "猪",
+      "phoneticUS": "/pɪɡ/",
+      "phoneticUK": "/pɪɡ/",
+      "bubblePosition": {
+        "x": 210,
+        "y": 300
+      },
+      "anchorPosition": {
+        "x": 254,
+        "y": 393
+      },
+      "boundingBox": {
+        "left": 155,
+        "top": 357,
+        "right": 329,
+        "bottom": 434
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立粉色猪体。",
+        "association": "独立粉色猪体。",
+        "collocation": "a pink pig",
+        "example": "The pig stands in its pen.",
+        "exampleChinese": "猪站在自己的围栏里。"
+      }
+    },
+    {
+      "x": 812,
+      "y": 280,
+      "english": "horse",
+      "chinese": "马",
+      "phoneticUS": "/hɔːrs/",
+      "phoneticUK": "/hɔːs/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 140
+      },
+      "anchorPosition": {
+        "x": 812,
+        "y": 280
+      },
+      "boundingBox": {
+        "left": 669,
+        "top": 216,
+        "right": 925,
+        "bottom": 453
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立马体，等待情境由故事句说明。",
+        "association": "独立马体，等待情境由故事句说明。",
+        "collocation": "a brown horse",
+        "example": "The horse waits beside the stable.",
+        "exampleChinese": "马在马厩旁等着。"
+      }
+    },
+    {
+      "x": 608,
+      "y": 817,
+      "english": "fowl",
+      "chinese": "家禽",
+      "phoneticUS": "/faʊl/",
+      "phoneticUK": "/faʊl/",
+      "bubblePosition": {
+        "x": 560,
+        "y": 910
+      },
+      "anchorPosition": {
+        "x": 608,
+        "y": 817
+      },
+      "boundingBox": {
+        "left": 577,
+        "top": 713,
+        "right": 763,
+        "bottom": 950
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际家鸡定位家禽类别。",
+        "association": "实际家鸡定位家禽类别。",
+        "collocation": "domestic fowl",
+        "example": "The fowl walks along the path.",
+        "exampleChinese": "家禽沿着小径走。"
+      }
+    },
+    {
+      "x": 752,
+      "y": 799,
+      "english": "feather",
+      "chinese": "羽毛",
+      "phoneticUS": "/ˈfeðər/",
+      "phoneticUK": "/ˈfeðə/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 895
+      },
+      "anchorPosition": {
+        "x": 752,
+        "y": 799
+      },
+      "boundingBox": {
+        "left": 696,
+        "top": 754,
+        "right": 768,
+        "bottom": 873
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "家鸡实际尾羽，不把整只鸡当单根羽毛。",
+        "association": "家鸡实际尾羽，不把整只鸡当单根羽毛。",
+        "collocation": "a tail feather",
+        "example": "A long feather is part of the chicken’s tail.",
+        "exampleChinese": "一根长羽毛是鸡尾巴的一部分。"
+      }
+    },
+    {
+      "x": 851,
+      "y": 473,
+      "english": "horn",
+      "chinese": "角",
+      "phoneticUS": "/hɔːrn/",
+      "phoneticUK": "/hɔːn/",
+      "bubblePosition": {
+        "x": 925,
+        "y": 400
+      },
+      "anchorPosition": {
+        "x": 851,
+        "y": 473
+      },
+      "boundingBox": {
+        "left": 789,
+        "top": 456,
+        "right": 911,
+        "bottom": 498
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "山羊单侧角的真实区域。",
+        "association": "山羊单侧角的真实区域。",
+        "collocation": "a curved horn",
+        "example": "A curved horn grows on the goat’s head.",
+        "exampleChinese": "弯角长在山羊头上。"
+      }
+    },
+    {
+      "x": 73,
+      "y": 70,
+      "english": "whip",
+      "chinese": "马鞭",
+      "phoneticUS": "/wɪp/",
+      "phoneticUK": "/wɪp/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 135
+      },
+      "anchorPosition": {
+        "x": 73,
+        "y": 70
+      },
+      "boundingBox": {
+        "left": 48,
+        "top": 32,
+        "right": 107,
+        "bottom": 383
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "墙上完整鞭柄与柔性鞭梢，不展示伤害。",
+        "association": "墙上完整鞭柄与柔性鞭梢，不展示伤害。",
+        "collocation": "a leather whip",
+        "example": "The unused whip hangs on the wall.",
+        "exampleChinese": "未使用的马鞭挂在墙上。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A quiet farm morning, with animals resting in their separate spaces.",
+    "chinese": "安静的农场清晨，动物们在各自的区域里休息。",
+    "source": "原创配文 · C044 农场动物围栏",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

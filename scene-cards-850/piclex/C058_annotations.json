@@ -1,0 +1,367 @@
+{
+  "filename": "C058-球场上的运动.png",
+  "labels": [
+    {
+      "x": 713,
+      "y": 888,
+      "english": "ball",
+      "chinese": "球",
+      "phoneticUS": "/bɔːl/",
+      "phoneticUK": "/bɔːl/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 713,
+        "y": 888
+      },
+      "boundingBox": {
+        "left": 682,
+        "top": 861,
+        "right": 745,
+        "bottom": 915
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅独立足球。",
+        "association": "下幅独立足球。",
+        "collocation": "a football",
+        "example": "The ball is beside my foot.",
+        "exampleChinese": "球在我的脚旁。"
+      }
+    },
+    {
+      "x": 552,
+      "y": 853,
+      "english": "kick",
+      "chinese": "踢",
+      "phoneticUS": "/kɪk/",
+      "phoneticUK": "/kɪk/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 760
+      },
+      "anchorPosition": {
+        "x": 552,
+        "y": 853
+      },
+      "boundingBox": {
+        "left": 359,
+        "top": 785,
+        "right": 745,
+        "bottom": 922
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅踢球动作姿势和球的关系。",
+        "association": "下幅踢球动作姿势和球的关系。",
+        "collocation": "kick the ball",
+        "example": "I kick the ball toward my friend.",
+        "exampleChinese": "我把球踢向朋友。"
+      }
+    },
+    {
+      "x": 497,
+      "y": 486,
+      "english": "jump",
+      "chinese": "跳",
+      "phoneticUS": "/dʒʌmp/",
+      "phoneticUK": "/dʒʌmp/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 460
+      },
+      "anchorPosition": {
+        "x": 497,
+        "y": 486
+      },
+      "boundingBox": {
+        "left": 370,
+        "top": 335,
+        "right": 625,
+        "bottom": 637
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中幅双脚离地的实际姿势。",
+        "association": "中幅双脚离地的实际姿势。",
+        "collocation": "jump above the grass",
+        "example": "I jump above the grass.",
+        "exampleChinese": "我从草地上跳起。"
+      }
+    },
+    {
+      "x": 499,
+      "y": 162,
+      "english": "run",
+      "chinese": "跑",
+      "phoneticUS": "/rʌn/",
+      "phoneticUK": "/rʌn/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 120
+      },
+      "anchorPosition": {
+        "x": 499,
+        "y": 162
+      },
+      "boundingBox": {
+        "left": 415,
+        "top": 5,
+        "right": 583,
+        "bottom": 320
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅跑步步态与句子对应。",
+        "association": "上幅跑步步态与句子对应。",
+        "collocation": "run across the field",
+        "example": "I run across the field.",
+        "exampleChinese": "我跑过球场。"
+      }
+    },
+    {
+      "x": 482,
+      "y": 236,
+      "english": "motion",
+      "chinese": "运动",
+      "phoneticUS": "/ˈmoʊʃən/",
+      "phoneticUK": "/ˈməʊʃən/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 240
+      },
+      "anchorPosition": {
+        "x": 482,
+        "y": 236
+      },
+      "boundingBox": {
+        "left": 422,
+        "top": 154,
+        "right": 543,
+        "bottom": 319
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "跑动中的腿部区域，连续过程由句子支持。",
+        "association": "跑动中的腿部区域，连续过程由句子支持。",
+        "collocation": "in motion",
+        "example": "My legs are in motion as I run.",
+        "exampleChinese": "我跑步时双腿在运动。"
+      }
+    },
+    {
+      "x": 437,
+      "y": 824,
+      "english": "move",
+      "chinese": "移动",
+      "phoneticUS": "/muːv/",
+      "phoneticUK": "/muːv/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 580
+      },
+      "anchorPosition": {
+        "x": 437,
+        "y": 824
+      },
+      "boundingBox": {
+        "left": 236,
+        "top": 662,
+        "right": 638,
+        "bottom": 986
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅运动身体指代，方向由句子解释。",
+        "association": "上幅运动身体指代，方向由句子解释。",
+        "collocation": "move toward the ball",
+        "example": "I move toward the ball.",
+        "exampleChinese": "我向球移动。"
+      }
+    },
+    {
+      "x": 520,
+      "y": 866,
+      "english": "stretch",
+      "chinese": "伸展",
+      "phoneticUS": "/stretʃ/",
+      "phoneticUK": "/stretʃ/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 520,
+        "y": 866
+      },
+      "boundingBox": {
+        "left": 402,
+        "top": 810,
+        "right": 638,
+        "bottom": 923
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅实际伸出的腿。",
+        "association": "下幅实际伸出的腿。",
+        "collocation": "stretch my leg",
+        "example": "I stretch my leg to kick the ball.",
+        "exampleChinese": "我伸展腿部去踢球。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 95,
+      "english": "strong",
+      "chinese": "强壮的",
+      "phoneticUS": "/strɔːŋ/",
+      "phoneticUK": "/strɒŋ/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "体力不能从姿势直接测定。",
+        "association": "体力不能从姿势直接测定。",
+        "collocation": "feel strong",
+        "example": "My legs feel strong after practice.",
+        "exampleChinese": "练习后，我感觉双腿很有力量。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 590,
+      "english": "let",
+      "chinese": "让",
+      "phoneticUS": "/let/",
+      "phoneticUK": "/let/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 590
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "允许关系由明确句子支持。",
+        "association": "允许关系由明确句子支持。",
+        "collocation": "let my friend join",
+        "example": "Let my friend join the match.",
+        "exampleChinese": "让我的朋友加入比赛。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 350,
+      "english": "competition",
+      "chinese": "竞赛",
+      "phoneticUS": "/ˌkɑːmpəˈtɪʃən/",
+      "phoneticUK": "/ˌkɒmpəˈtɪʃən/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 350
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "竞赛规则由故事说明，不按多人画面认定正式赛事。",
+        "association": "竞赛规则由故事说明，不按多人画面认定正式赛事。",
+        "collocation": "a friendly competition",
+        "example": "We enjoy a friendly competition.",
+        "exampleChinese": "我们享受一场友好的竞赛。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 945,
+      "english": "match",
+      "chinese": "比赛",
+      "phoneticUS": "/mætʃ/",
+      "phoneticUK": "/mætʃ/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 945
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "比赛身份由句子说明。",
+        "association": "比赛身份由句子说明。",
+        "collocation": "a football match",
+        "example": "My friend joins the football match.",
+        "exampleChinese": "我的朋友加入这场足球比赛。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I run, jump, and kick the ball; my friend joins the match.",
+    "chinese": "我跑动、跳起、踢球；朋友也加入了比赛。",
+    "source": "原创配文 · C058 球场上的运动",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

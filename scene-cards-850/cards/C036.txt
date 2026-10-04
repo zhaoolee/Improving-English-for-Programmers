@@ -1,0 +1,253 @@
+C036  飞机飞过海岛
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C036.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C036.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:16:08Z
+  提示词文件: prompts/C036_image_final.txt
+
+场景: 飞机飞过海岛，翼部、航线与高度清楚展示。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 飞机外景与机舱窗景双幅，机翼和独立海岛可辨；high/low为画面与句子支持的相对位置，不读高度和航线。
+
+主配文:
+  英文: The plane flies over an island, with the sea far below.
+  中文: 飞机飞过一座海岛，海面远在下方。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): plane, flight, wing, island, high, low, transport, forward
+
+------------------------------------------------------------------------
+[1/8] plane  (W529)
+  词义: 飞机
+  词性: noun
+  音标: UK /pleɪn/ | US /pleɪn/
+  搭配: a passenger plane
+  例句: The plane flies over an island.
+  例句高亮: The **plane** flies over an island.
+  例句中文: 飞机飞过一座海岛。
+  标注模式: object
+  标注说明: 上幅完整客机，身份和场景来自故事。
+  坐标(normalized): [0.296, 0.03, 0.728, 0.124]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅完整客机，身份和场景来自故事。"
+    sentence: "The plane flies over an island."
+    matched_form: "plane"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 飞机；平面
+
+------------------------------------------------------------------------
+[2/8] flight  (W274)
+  词义: 飞行
+  词性: noun
+  音标: UK /flaɪt/ | US /flaɪt/
+  搭配: a long flight
+  例句: The flight takes us over the sea.
+  例句高亮: The **flight** takes us over the sea.
+  例句中文: 这次飞行带我们越过海面。
+  标注模式: context
+  标注说明: 飞行过程与旅程由完整句子说明，不把飞机框等同于过程。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The flight takes us over the sea."
+    matched_form: "flight"
+    context: "飞行过程与旅程由完整句子说明，不把飞机框等同于过程。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 飞行；航班
+
+------------------------------------------------------------------------
+[3/8] wing  (W831)
+  词义: 机翼
+  词性: noun
+  音标: UK /wɪŋ/ | US /wɪŋ/
+  搭配: the plane wing
+  例句: I see the wing through the window.
+  例句高亮: I see the **wing** through the window.
+  例句中文: 我透过窗户看见机翼。
+  标注模式: object
+  标注说明: 窗外实际机翼或上幅同一飞机机翼。
+  坐标(normalized): [0.622, 0.579, 0.947, 0.722]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "窗外实际机翼或上幅同一飞机机翼。"
+    sentence: "I see the wing through the window."
+    matched_form: "wing"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 翅膀
+
+------------------------------------------------------------------------
+[4/8] island  (W368)
+  词义: 岛屿
+  词性: noun
+  音标: UK /ˈaɪlənd/ | US /ˈaɪlənd/
+  搭配: a green island
+  例句: The island is surrounded by sea.
+  例句高亮: The **island** is surrounded by sea.
+  例句中文: 海水环绕着这座岛。
+  标注模式: object
+  标注说明: 海中独立岛屿的陆地范围。
+  坐标(normalized): [0.127, 0.231, 0.938, 0.405]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "海中独立岛屿的陆地范围。"
+    sentence: "The island is surrounded by sea."
+    matched_form: "island"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 岛屿
+
+------------------------------------------------------------------------
+[5/8] high  (W338)
+  词义: 在高处
+  词性: adverb
+  音标: UK /haɪ/ | US /haɪ/
+  搭配: fly high
+  例句: The plane flies high above the island.
+  例句高亮: The plane flies **high** above the island.
+  例句中文: 飞机在岛屿上方高处飞行。
+  标注模式: relation
+  标注说明: 上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。
+  坐标(normalized): [0.125, 0.03, 0.938, 0.405]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。"
+    sentence: "The plane flies high above the island."
+    matched_form: "high"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 高
+
+------------------------------------------------------------------------
+[6/8] low  (W419)
+  词义: 在低处
+  词性: adverb
+  音标: UK /ləʊ/ | US /loʊ/
+  搭配: low below
+  例句: The island lies low below the plane.
+  例句高亮: The island lies **low** below the plane.
+  例句中文: 岛屿位于飞机下方低处。
+  标注模式: relation
+  标注说明: 上幅飞机下方岛屿的相对低位置。
+  坐标(normalized): [0.127, 0.231, 0.938, 0.405]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅飞机下方岛屿的相对低位置。"
+    sentence: "The island lies low below the plane."
+    matched_form: "low"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 低的
+
+------------------------------------------------------------------------
+[7/8] transport  (W778)
+  词义: 运输工具
+  词性: noun
+  音标: UK /ˈtrænspɔːt/ | US /ˈtrænspɔːrt/
+  搭配: our transport
+  例句: The plane is our transport to the island.
+  例句高亮: The plane is our **transport** to the island.
+  例句中文: 飞机是我们去岛上的交通工具。
+  标注模式: object
+  标注说明: 上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。
+  坐标(normalized): [0.296, 0.03, 0.728, 0.124]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。"
+    sentence: "The plane is our transport to the island."
+    matched_form: "transport"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 运输
+
+------------------------------------------------------------------------
+[8/8] forward  (W286)
+  词义: 向前
+  词性: adverb
+  音标: UK /ˈfɔːwəd/ | US /ˈfɔːrwərd/
+  搭配: move forward
+  例句: The plane moves forward through the sky.
+  例句高亮: The plane moves **forward** through the sky.
+  例句中文: 飞机在空中向前飞行。
+  标注模式: context
+  标注说明: 静态照片不能证明运动方向，句子说明向前。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The plane moves forward through the sky."
+    matched_form: "forward"
+    context: "静态照片不能证明运动方向，句子说明向前。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 向前；前进
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C036 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic travel diptych stacked vertically: upper half exterior side view of one passenger airplane in flight above a clearly distinct green island and blue sea, plane high in frame and island low in frame; whole plane and both wings visible. Lower half woman seated beside an aircraft window looking out; clear wing and island viewed through window. Real aircraft proportions, no airline logos. No drawn routes. Use altitude relationship and exterior nose orientation as cues, not a diagram.

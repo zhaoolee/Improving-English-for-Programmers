@@ -1,0 +1,20 @@
+{
+  "cardID": "C030",
+  "imagePath": "../images/C030.png",
+  "imageSHA256": "01286e017b7921714fe129707e297e9f42d52d08f2b05dca483ce8c151c5c329",
+  "imageReviewed": true,
+  "annotationsPath": "C030_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "new",
+    "old",
+    "broken",
+    "quality",
+    "value",
+    "comparison",
+    "exchange",
+    "change",
+    "other"
+  ],
+  "receiptPath": "C030_import_receipt.json"
+}

@@ -1,0 +1,410 @@
+{
+  "id": "C023",
+  "chapter": "穿衣与购物",
+  "title": "布料店选材",
+  "scene": "并排展示棉、羊毛、丝绸、亚麻、帆布；看得见质地与颜色。",
+  "target_count": 9,
+  "primary_words": [
+    "cotton",
+    "wool",
+    "silk",
+    "linen",
+    "canvas",
+    "material",
+    "color",
+    "smooth",
+    "like"
+  ],
+  "targets": [
+    {
+      "word_id": "W162",
+      "word": "cotton",
+      "aliases": [],
+      "source_zh_unreviewed": "棉花",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "棉布",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːtən/",
+      "ipa_uk": "/ˈkɒtən/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "白色平纹样布；纤维身份由本卡原创布料设定说明",
+        "sentence": "This white fabric is cotton.",
+        "matched_form": "cotton",
+        "image_verified": true
+      },
+      "example_en": "This white fabric is cotton.",
+      "example_zh": "这块白布是棉布。",
+      "bbox_normalized": [
+        0.0,
+        0.572,
+        0.201,
+        0.884
+      ],
+      "collocations": [
+        "cotton fabric"
+      ],
+      "example_en_highlighted": "This white fabric is **cotton**.",
+      "annotation_mode": "object",
+      "annotation_note": "白色平纹样布；纤维身份由本卡原创布料设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W838",
+      "word": "wool",
+      "aliases": [],
+      "source_zh_unreviewed": "羊毛",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "羊毛织物",
+      "pos": "noun",
+      "ipa_us": "/wʊl/",
+      "ipa_uk": "/wʊl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "灰色粗针织样布；材质身份由设定说明",
+        "sentence": "The grey sample is wool.",
+        "matched_form": "wool",
+        "image_verified": true
+      },
+      "example_en": "The grey sample is wool.",
+      "example_zh": "灰色样布是羊毛织物。",
+      "bbox_normalized": [
+        0.053,
+        0.589,
+        0.394,
+        0.928
+      ],
+      "collocations": [
+        "knitted wool"
+      ],
+      "example_en_highlighted": "The grey sample is **wool**.",
+      "annotation_mode": "object",
+      "annotation_note": "灰色粗针织样布；材质身份由设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W654",
+      "word": "silk",
+      "aliases": [],
+      "source_zh_unreviewed": "丝绸",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "丝绸",
+      "pos": "noun",
+      "ipa_us": "/sɪlk/",
+      "ipa_uk": "/sɪlk/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "粉色有光泽垂褶样布；材质身份由设定说明",
+        "sentence": "The pink fabric is silk.",
+        "matched_form": "silk",
+        "image_verified": true
+      },
+      "example_en": "The pink fabric is silk.",
+      "example_zh": "粉色布料是丝绸。",
+      "bbox_normalized": [
+        0.334,
+        0.579,
+        0.613,
+        0.93
+      ],
+      "collocations": [
+        "pink silk"
+      ],
+      "example_en_highlighted": "The pink fabric is **silk**.",
+      "annotation_mode": "object",
+      "annotation_note": "粉色有光泽垂褶样布；材质身份由设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W406",
+      "word": "linen",
+      "aliases": [],
+      "source_zh_unreviewed": "亚麻布",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "亚麻布",
+      "pos": "noun",
+      "ipa_us": "/ˈlɪnən/",
+      "ipa_uk": "/ˈlɪnən/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "米色疏松织纹样布；材质身份由设定说明",
+        "sentence": "The beige sample is linen.",
+        "matched_form": "linen",
+        "image_verified": true
+      },
+      "example_en": "The beige sample is linen.",
+      "example_zh": "米色样布是亚麻布。",
+      "bbox_normalized": [
+        0.594,
+        0.592,
+        0.882,
+        0.925
+      ],
+      "collocations": [
+        "linen cloth"
+      ],
+      "example_en_highlighted": "The beige sample is **linen**.",
+      "annotation_mode": "object",
+      "annotation_note": "米色疏松织纹样布；材质身份由设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W113",
+      "word": "canvas",
+      "aliases": [],
+      "source_zh_unreviewed": "帆布",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "帆布",
+      "pos": "noun",
+      "ipa_us": "/ˈkænvəs/",
+      "ipa_uk": "/ˈkænvəs/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "蓝灰色粗织样布；材质身份由设定说明",
+        "sentence": "The blue-grey fabric is canvas.",
+        "matched_form": "canvas",
+        "image_verified": true
+      },
+      "example_en": "The blue-grey fabric is canvas.",
+      "example_zh": "蓝灰色布料是帆布。",
+      "bbox_normalized": [
+        0.787,
+        0.575,
+        1.0,
+        0.925
+      ],
+      "collocations": [
+        "strong canvas"
+      ],
+      "example_en_highlighted": "The blue-grey fabric is **canvas**.",
+      "annotation_mode": "object",
+      "annotation_note": "蓝灰色粗织样布；材质身份由设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W431",
+      "word": "material",
+      "aliases": [],
+      "source_zh_unreviewed": "材料",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "材料；布料",
+      "pos": "noun",
+      "ipa_us": "/məˈtɪriəl/",
+      "ipa_uk": "/məˈtɪəriəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "丝绸布是material的具体可见实例，定位粉色布，不把类别当成无边界整图。",
+        "sentence": "Silk is a material for clothes.",
+        "matched_form": "material",
+        "context": "材料类别由例句说明，不把类别合框为独立物体",
+        "image_verified": null
+      },
+      "example_en": "Silk is a material for clothes.",
+      "example_zh": "丝绸是一种制衣材料。",
+      "bbox_normalized": [
+        0.334,
+        0.579,
+        0.613,
+        0.93
+      ],
+      "collocations": [
+        "a clothing material"
+      ],
+      "example_en_highlighted": "Silk is a **material** for clothes.",
+      "annotation_mode": "object",
+      "annotation_note": "丝绸布是material的具体可见实例，定位粉色布，不把类别当成无边界整图。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W142",
+      "word": "color",
+      "aliases": [],
+      "source_zh_unreviewed": "颜色",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "颜色",
+      "pos": "noun",
+      "ipa_us": "/ˈkʌlər/",
+      "ipa_uk": "/ˈkʌlə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "粉色布的实际区域，color指向这块布的可见颜色。",
+        "sentence": "I like the color of this silk.",
+        "matched_form": "color",
+        "context": "采用美式拼写color，粉色样布与例句支持",
+        "image_verified": null
+      },
+      "example_en": "I like the color of this silk.",
+      "example_zh": "我喜欢这块丝绸的颜色。",
+      "bbox_normalized": [
+        0.334,
+        0.579,
+        0.613,
+        0.93
+      ],
+      "collocations": [
+        "the color of silk"
+      ],
+      "example_en_highlighted": "I like the **color** of this silk.",
+      "annotation_mode": "object",
+      "annotation_note": "粉色布的实际区域，color指向这块布的可见颜色。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W671",
+      "word": "smooth",
+      "aliases": [],
+      "source_zh_unreviewed": "光滑的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "光滑的",
+      "pos": "adjective",
+      "ipa_us": "/smuːð/",
+      "ipa_uk": "/smuːð/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The silk feels smooth.",
+        "matched_form": "smooth",
+        "context": "触感由原创叙述说明，不从光泽推定触感",
+        "image_verified": null
+      },
+      "example_en": "The silk feels smooth.",
+      "example_zh": "这块丝绸摸起来光滑。",
+      "bbox_normalized": null,
+      "collocations": [
+        "smooth silk"
+      ],
+      "example_en_highlighted": "The silk feels **smooth**.",
+      "annotation_mode": "context",
+      "annotation_note": "触感由原创叙述说明，不从光泽推定触感",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W403",
+      "word": "like",
+      "aliases": [],
+      "source_zh_unreviewed": "喜欢；像",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "喜欢",
+      "pos": "verb",
+      "ipa_us": "/laɪk/",
+      "ipa_uk": "/laɪk/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I like the pink silk.",
+        "matched_form": "like",
+        "context": "采用动词喜欢义，不是介词像",
+        "image_verified": null
+      },
+      "example_en": "I like the pink silk.",
+      "example_zh": "我喜欢粉色丝绸。",
+      "bbox_normalized": null,
+      "collocations": [
+        "like silk"
+      ],
+      "example_en_highlighted": "I **like** the pink silk.",
+      "annotation_mode": "context",
+      "annotation_note": "采用动词喜欢义，不是介词像",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I like the silk, but every material has its own beauty.",
+    "zh": "我喜欢丝绸，不过每种布料都有自己的美。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C023\n标题 布料店选材\n场景 并排展示棉、羊毛、丝绸、亚麻、帆布；看得见质地与颜色。\n目标词 cotton, wool, silk, linen, canvas, material, color, smooth, like\n原创主配文草案 The silk is smooth, and the wool is soft.\n中文草案 丝绸光滑，羊毛柔软。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Elegant fabric atelier. Woman behind large pale table gently touching edge of fabric without covering samples. Five broad distinctly separated folded fabric samples in foreground LEFT TO RIGHT: white plain woven COTTON, slate grey chunky knitted WOOL, dusty rose glossy draped SILK, natural beige open-weave LINEN, blue grey stiff coarse woven CANVAS. Each sample large with readable weave and folds, not five identical flat cloths. Hands above center, face upper third, single row of samples across lower half. No tags, labels or rolls obscuring samples, refined uncluttered textile fashion photo.",
+  "status": "approved",
+  "image_path": "images/C023.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 5,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C023 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T23:19:39Z",
+    "ended_at": "2026-10-02T23:21:31Z",
+    "prompt_path": "prompts/C023_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C023.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "五种样布依次白色平纹、灰色粗针织、粉色光泽垂褶、米色疏织、蓝灰粗织，可独立定位；纤维名称由原创场景明确，不声称仅看图鉴定成分。材质/颜色/触感与喜欢均有自然句子，人物及手自然。"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "id": "C059",
+  "chapter": "身体与健康",
+  "title": "泳池里的平衡",
+  "scene": "游泳者与岸上扶手练习，用安全画面呈现平衡和握力。",
+  "target_count": 8,
+  "primary_words": [
+    "swim",
+    "balance",
+    "grip",
+    "support",
+    "fall",
+    "slip",
+    "pull",
+    "push"
+  ],
+  "targets": [
+    {
+      "word_id": "W732",
+      "word": "swim",
+      "aliases": [],
+      "source_zh_unreviewed": "游泳",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "游泳",
+      "pos": "verb",
+      "ipa_us": "/swɪm/",
+      "ipa_uk": "/swɪm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅水中游泳姿态，运动由句子支持。",
+        "sentence": "I swim toward the edge of the pool.",
+        "matched_form": "swim",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I swim toward the edge of the pool.",
+      "example_zh": "我游向泳池边缘。",
+      "bbox_normalized": [
+        0.286,
+        0.02,
+        0.791,
+        0.405
+      ],
+      "collocations": [
+        "swim toward the edge"
+      ],
+      "example_en_highlighted": "I **swim** toward the edge of the pool.",
+      "annotation_mode": "action",
+      "annotation_note": "上幅水中游泳姿态，运动由句子支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W049",
+      "word": "balance",
+      "aliases": [],
+      "source_zh_unreviewed": "平衡；均衡",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "平衡",
+      "pos": "noun",
+      "ipa_us": "/ˈbæləns/",
+      "ipa_uk": "/ˈbæləns/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅扶栏落脚的平衡姿态，不声称测得稳定性。",
+        "sentence": "I keep my balance as I step out.",
+        "matched_form": "balance",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I keep my balance as I step out.",
+      "example_zh": "走出泳池时，我保持平衡。",
+      "bbox_normalized": [
+        0.493,
+        0.733,
+        0.606,
+        0.959
+      ],
+      "collocations": [
+        "keep my balance"
+      ],
+      "example_en_highlighted": "I keep my **balance** as I step out.",
+      "annotation_mode": "action",
+      "annotation_note": "下幅扶栏落脚的平衡姿态，不声称测得稳定性。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W314",
+      "word": "grip",
+      "aliases": [],
+      "source_zh_unreviewed": "紧握",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "握持",
+      "pos": "noun",
+      "ipa_us": "/ɡrɪp/",
+      "ipa_uk": "/ɡrɪp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际环握栏杆的手部。",
+        "sentence": "I keep a firm grip on the rail.",
+        "matched_form": "grip",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I keep a firm grip on the rail.",
+      "example_zh": "我牢牢握住扶手。",
+      "bbox_normalized": [
+        0.312,
+        0.649,
+        0.374,
+        0.694
+      ],
+      "collocations": [
+        "a firm grip"
+      ],
+      "example_en_highlighted": "I keep a firm **grip** on the rail.",
+      "annotation_mode": "object",
+      "annotation_note": "实际环握栏杆的手部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W729",
+      "word": "support",
+      "aliases": [],
+      "source_zh_unreviewed": "支持",
+      "planned_mode": "context",
+      "sense_zh": "支撑物",
+      "pos": "noun",
+      "ipa_us": "/səˈpɔːrt/",
+      "ipa_uk": "/səˈpɔːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际栏杆支撑部件。",
+        "sentence": "The metal support steadies the rail.",
+        "matched_form": "support",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The metal support steadies the rail.",
+      "example_zh": "金属支撑固定着扶手。",
+      "bbox_normalized": [
+        0.172,
+        0.689,
+        0.223,
+        0.956
+      ],
+      "collocations": [
+        "a metal support"
+      ],
+      "example_en_highlighted": "The metal **support** steadies the rail.",
+      "annotation_mode": "object",
+      "annotation_note": "实际栏杆支撑部件。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W250",
+      "word": "fall",
+      "aliases": [],
+      "source_zh_unreviewed": "落下；跌倒",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "跌倒",
+      "pos": "verb",
+      "ipa_us": "/fɔːl/",
+      "ipa_uk": "/fɔːl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I hold the rail so I do not fall.",
+        "matched_form": "fall",
+        "referent_region_verified": false,
+        "context": "否定预防句，画面没有跌倒，不编造动作框。",
+        "image_verified": null
+      },
+      "example_en": "I hold the rail so I do not fall.",
+      "example_zh": "我扶着栏杆，以免跌倒。",
+      "bbox_normalized": null,
+      "collocations": [
+        "do not fall"
+      ],
+      "example_en_highlighted": "I hold the rail so I do not **fall**.",
+      "annotation_mode": "context",
+      "annotation_note": "否定预防句，画面没有跌倒，不编造动作框。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W663",
+      "word": "slip",
+      "aliases": [],
+      "source_zh_unreviewed": "滑倒",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "滑倒",
+      "pos": "verb",
+      "ipa_us": "/slɪp/",
+      "ipa_uk": "/slɪp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I step carefully so I do not slip.",
+        "matched_form": "slip",
+        "referent_region_verified": false,
+        "context": "画面没有滑倒，使用完整否定语境。",
+        "image_verified": null
+      },
+      "example_en": "I step carefully so I do not slip.",
+      "example_zh": "我小心迈步，以免滑倒。",
+      "bbox_normalized": null,
+      "collocations": [
+        "do not slip"
+      ],
+      "example_en_highlighted": "I step carefully so I do not **slip**.",
+      "annotation_mode": "context",
+      "annotation_note": "画面没有滑倒，使用完整否定语境。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W562",
+      "word": "pull",
+      "aliases": [],
+      "source_zh_unreviewed": "拉；拖",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "拉",
+      "pos": "verb",
+      "ipa_us": "/pʊl/",
+      "ipa_uk": "/pʊl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "握持与拉近的句子指代手臂，不声称从静态图测得力向。",
+        "sentence": "I pull myself closer to the rail.",
+        "matched_form": "pull",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I pull myself closer to the rail.",
+      "example_zh": "我把自己拉向扶手。",
+      "bbox_normalized": [
+        0.303,
+        0.582,
+        0.438,
+        0.718
+      ],
+      "collocations": [
+        "pull myself closer"
+      ],
+      "example_en_highlighted": "I **pull** myself closer to the rail.",
+      "annotation_mode": "action",
+      "annotation_note": "握持与拉近的句子指代手臂，不声称从静态图测得力向。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W566",
+      "word": "push",
+      "aliases": [],
+      "source_zh_unreviewed": "推；按",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "推",
+      "pos": "verb",
+      "ipa_us": "/pʊʃ/",
+      "ipa_uk": "/pʊʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际撑扶手姿态，力向由句子说明。",
+        "sentence": "I push against the rail as I stand.",
+        "matched_form": "push",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I push against the rail as I stand.",
+      "example_zh": "我站起时撑推着扶手。",
+      "bbox_normalized": [
+        0.601,
+        0.65,
+        0.806,
+        0.783
+      ],
+      "collocations": [
+        "push against the rail"
+      ],
+      "example_en_highlighted": "I **push** against the rail as I stand.",
+      "annotation_mode": "action",
+      "annotation_note": "实际撑扶手姿态，力向由句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I swim toward the rail, then hold it as I step out.",
+    "zh": "我游向扶手，然后扶着它走出泳池。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C059\n标题 泳池里的平衡\n场景 游泳者与岸上扶手练习，用安全画面呈现平衡和握力。\n目标词 swim, balance, grip, support, fall, slip, pull, push\n原创主配文草案 Keep a strong grip so you do not slip.\n中文草案 抓牢，这样就不会滑倒。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Two stacked editorial photographs at a calm shallow pool. Upper woman in modest dark sporty one-piece swimsuit swimming gently toward pool edge, body supported by water, face above water, clear forward swim arm posture, no struggle. Lower same woman carefully stepping out on non-slip deck using a sturdy stainless steel pool handrail, one clearly formed hand wraps rail and other palm braces flat rail support, safe grounded balance. Whole hands/feet and rail identifiable. No slipping/falling incident, no dangerous stunts, no text.",
+  "status": "approved",
+  "image_path": "images/C059.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 6,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C059 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T15:01:45Z",
+    "prompt_path": "prompts/C059_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C059.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅泳姿下幅扶扶手出水；握持、金属支撑与脚步可见。拉与推依据例句说明施力；没有摔倒或滑倒，两词用预防语境。"
+  }
+}

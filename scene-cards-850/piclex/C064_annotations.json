@@ -1,0 +1,238 @@
+{
+  "filename": "C064-做题与纠错.png",
+  "labels": [
+    {
+      "x": 140,
+      "y": 85,
+      "english": "question",
+      "chinese": "问题",
+      "phoneticUS": "/ˈkwestʃən/",
+      "phoneticUK": "/ˈkwestʃən/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I ask my friend a question.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I ask my friend a question.；不声称该状态/含义本身在画面可见。",
+        "collocation": "ask a question; a simple question",
+        "example": "I ask my friend a question.",
+        "exampleChinese": "我向朋友提出一个问题。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 105,
+      "english": "answer",
+      "chinese": "答案",
+      "phoneticUS": "/ˈænsɚ/",
+      "phoneticUK": "/ˈɑːnsə/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 105
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We compare my answer with hers.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We compare my answer with hers.；不声称该状态/含义本身在画面可见。",
+        "collocation": "give an answer; check an answer",
+        "example": "We compare my answer with hers.",
+        "exampleChinese": "我们比较我的答案和她的答案。"
+      }
+    },
+    {
+      "x": 135,
+      "y": 445,
+      "english": "example",
+      "chinese": "例子",
+      "phoneticUS": "/ɪɡˈzæmpəl/",
+      "phoneticUK": "/ɪɡˈzɑːmpəl/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 445
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Her example helps me understand the rule.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Her example helps me understand the rule.；不声称该状态/含义本身在画面可见。",
+        "collocation": "for example; a clear example",
+        "example": "Her example helps me understand the rule.",
+        "exampleChinese": "她的例子帮助我理解这个规则。"
+      }
+    },
+    {
+      "x": 212,
+      "y": 749,
+      "english": "test",
+      "chinese": "测验",
+      "phoneticUS": "/test/",
+      "phoneticUK": "/test/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 212,
+        "y": 749
+      },
+      "boundingBox": {
+        "left": 36,
+        "top": 688,
+        "right": 389,
+        "bottom": 811
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（测验），待最终图确认。",
+        "association": "场景中体现的具体对象（测验），待最终图确认。",
+        "collocation": "take a test; a practice test",
+        "example": "This sheet is a practice test.",
+        "exampleChinese": "这张纸是一份练习测验。"
+      }
+    },
+    {
+      "x": 875,
+      "y": 615,
+      "english": "error",
+      "chinese": "错误",
+      "phoneticUS": "/ˈerɚ/",
+      "phoneticUK": "/ˈerə/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 615
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I find an error in my answer.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I find an error in my answer.；不声称该状态/含义本身在画面可见。",
+        "collocation": "make an error; correct an error",
+        "example": "I find an error in my answer.",
+        "exampleChinese": "我在自己的答案里发现一个错误。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 585,
+      "english": "wrong",
+      "chinese": "错误的",
+      "phoneticUS": "/rɔːŋ/",
+      "phoneticUK": "/rɒŋ/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 585
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My first answer is wrong.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My first answer is wrong.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a wrong answer; be wrong",
+        "example": "My first answer is wrong.",
+        "exampleChinese": "我的第一个答案是错的。"
+      }
+    },
+    {
+      "x": 550,
+      "y": 930,
+      "english": "true",
+      "chinese": "真实的",
+      "phoneticUS": "/truː/",
+      "phoneticUK": "/truː/",
+      "bubblePosition": {
+        "x": 550,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The statement is true: water freezes when it is cold enough.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The statement is true: water freezes when it is cold enough.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a true statement; be true",
+        "example": "The statement is true: water freezes when it is cold enough.",
+        "exampleChinese": "这个陈述是真的：水冷到一定程度会结冰。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 915,
+      "english": "false",
+      "chinese": "不真实的",
+      "phoneticUS": "/fɔːls/",
+      "phoneticUK": "/fɔːls/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 915
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The statement that all birds can fly is false.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The statement that all birds can fly is false.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a false statement; be false",
+        "example": "The statement that all birds can fly is false.",
+        "exampleChinese": "“所有鸟都会飞”这个陈述不是真的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "We ask a question, compare an answer, and learn from an error together.",
+    "chinese": "我们提出问题、比较答案，一起从错误中学习。",
+    "source": "原创配文 · C064 做题与纠错",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,19 @@
+{
+  "cardID": "C031",
+  "imagePath": "../images/C031.png",
+  "imageSHA256": "c32c1a67c44059f9865b8a743c07f943d612bb47ad4ee74e796c51b1df7d2cf1",
+  "imageReviewed": true,
+  "annotationsPath": "C031_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "street",
+    "road",
+    "town",
+    "map",
+    "left",
+    "right",
+    "way",
+    "where"
+  ],
+  "receiptPath": "C031_import_receipt.json"
+}

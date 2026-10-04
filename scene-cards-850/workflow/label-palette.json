@@ -1,0 +1,1122 @@
+{
+  "note": "场景卡片标注调色板。backgroundColor 为写入工作台的给定背景色；textColor 统一 #FFFFFF。renderedTint 由 PicLex deck-workbench/src/palette.mjs 的 labelStyle 计算，仅供展示审查，不是写入值。",
+  "textColor": "#FFFFFF",
+  "colors": {
+    "blue": {
+      "name": "blue",
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#224C73",
+      "renderedText": "#FFFFFF"
+    },
+    "teal": {
+      "name": "teal",
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#18524B",
+      "renderedText": "#FFFFFF"
+    },
+    "sage": {
+      "name": "sage",
+      "backgroundColor": "#79986E",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#295419",
+      "renderedText": "#FFFFFF"
+    },
+    "rose": {
+      "name": "rose",
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#802641",
+      "renderedText": "#FFFFFF"
+    },
+    "lavender": {
+      "name": "lavender",
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#452680",
+      "renderedText": "#FFFFFF"
+    },
+    "violet": {
+      "name": "violet",
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#442680",
+      "renderedText": "#FFFFFF"
+    },
+    "amber": {
+      "name": "amber",
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#5E451C",
+      "renderedText": "#FFFFFF"
+    },
+    "ochre": {
+      "name": "ochre",
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#694216",
+      "renderedText": "#FFFFFF"
+    },
+    "indigo": {
+      "name": "indigo",
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#263F80",
+      "renderedText": "#FFFFFF"
+    }
+  },
+  "mapping": {
+    "C001": {
+      "bed": "sage",
+      "sleep": "indigo",
+      "awake": "rose",
+      "morning": "amber",
+      "clock": "indigo",
+      "curtain": "sage",
+      "light": "amber",
+      "early": "teal",
+      "be": "teal"
+    },
+    "C002": {
+      "window": "blue",
+      "day": "blue",
+      "night": "indigo",
+      "bright": "amber",
+      "dark": "indigo",
+      "sun": "amber",
+      "moon": "lavender",
+      "star": "amber"
+    },
+    "C003": {
+      "room": "teal",
+      "floor": "amber",
+      "wall": "teal",
+      "shelf": "amber",
+      "drawer": "amber",
+      "box": "rose",
+      "cushion": "blue",
+      "put": "rose",
+      "a": "lavender",
+      "the": "lavender",
+      "space": "teal"
+    },
+    "C004": {
+      "door": "amber",
+      "key": "amber",
+      "lock": "blue",
+      "open": "teal",
+      "shut": "rose",
+      "house": "amber",
+      "come": "teal",
+      "in": "teal",
+      "bell": "lavender"
+    },
+    "C005": {
+      "family": "teal",
+      "father": "blue",
+      "mother": "rose",
+      "brother": "blue",
+      "sister": "lavender",
+      "table": "amber",
+      "together": "teal"
+    },
+    "C006": {
+      "baby": "teal",
+      "son": "blue",
+      "daughter": "lavender",
+      "birth": "rose",
+      "care": "teal",
+      "kiss": "rose",
+      "dear": "rose",
+      "love": "rose",
+      "dependent": "lavender"
+    },
+    "C007": {
+      "basin": "teal",
+      "bath": "lavender",
+      "soap": "rose",
+      "brush": "amber",
+      "wash": "teal",
+      "clean": "lavender",
+      "water": "blue",
+      "drain": "blue"
+    },
+    "C008": {
+      "dirty": "amber",
+      "dust": "amber",
+      "sponge": "amber",
+      "bucket": "blue",
+      "wet": "blue",
+      "dry": "teal",
+      "rub": "rose",
+      "cloth": "blue",
+      "do": "lavender"
+    },
+    "C009": {
+      "dog": "teal",
+      "cat": "lavender",
+      "tail": "lavender",
+      "animal": "teal",
+      "soft": "rose",
+      "touch": "rose",
+      "comfort": "amber",
+      "rest": "lavender"
+    },
+    "C010": {
+      "tired": "rose",
+      "quiet": "teal",
+      "noise": "amber",
+      "loud": "amber",
+      "sound": "blue",
+      "still": "lavender",
+      "back": "blue",
+      "keep": "teal"
+    },
+    "C011": {
+      "bread": "amber",
+      "butter": "amber",
+      "cheese": "amber",
+      "egg": "rose",
+      "milk": "blue",
+      "food": "teal",
+      "meal": "teal",
+      "ready": "lavender",
+      "have": "lavender"
+    },
+    "C012": {
+      "cook": "rose",
+      "pot": "blue",
+      "soup": "amber",
+      "potato": "amber",
+      "rice": "teal",
+      "boiling": "rose",
+      "steam": "blue",
+      "heat": "rose",
+      "make": "lavender"
+    },
+    "C013": {
+      "plate": "teal",
+      "fork": "blue",
+      "knife": "blue",
+      "spoon": "blue",
+      "tray": "amber",
+      "sharp": "rose",
+      "edge": "rose",
+      "cut": "rose",
+      "blade": "lavender"
+    },
+    "C014": {
+      "cup": "teal",
+      "kettle": "blue",
+      "sugar": "amber",
+      "sweet": "rose",
+      "warm": "rose",
+      "drink": "teal",
+      "give": "rose",
+      "take": "blue",
+      "for": "lavender",
+      "with": "lavender"
+    },
+    "C015": {
+      "apple": "rose",
+      "orange": "amber",
+      "berry": "lavender",
+      "fruit": "teal",
+      "nut": "amber",
+      "red": "rose",
+      "yellow": "amber",
+      "green": "teal"
+    },
+    "C016": {
+      "oven": "blue",
+      "cake": "amber",
+      "jelly": "rose",
+      "taste": "rose",
+      "smell": "teal",
+      "bitter": "lavender",
+      "good": "teal",
+      "bad": "lavender",
+      "bite": "amber"
+    },
+    "C017": {
+      "meat": "rose",
+      "fat": "amber",
+      "oil": "amber",
+      "salt": "blue",
+      "mixed": "teal",
+      "amount": "blue",
+      "addition": "lavender",
+      "enough": "teal",
+      "sticky": "lavender"
+    },
+    "C018": {
+      "bottle": "teal",
+      "cork": "amber",
+      "wine": "rose",
+      "glass": "blue",
+      "liquid": "rose",
+      "full": "teal",
+      "little": "amber",
+      "much": "lavender",
+      "of": "lavender"
+    },
+    "C019": {
+      "please": "rose",
+      "request": "blue",
+      "offer": "teal",
+      "need": "blue",
+      "desire": "lavender",
+      "selection": "amber",
+      "or": "lavender",
+      "some": "amber",
+      "no": "rose",
+      "yes": "teal",
+      "servant": "blue"
+    },
+    "C020": {
+      "waste": "teal",
+      "cover": "blue",
+      "vessel": "teal",
+      "drop": "amber",
+      "bit": "amber",
+      "last": "rose",
+      "end": "lavender",
+      "because": "lavender"
+    },
+    "C021": {
+      "shirt": "blue",
+      "coat": "teal",
+      "trousers": "blue",
+      "skirt": "rose",
+      "dress": "lavender",
+      "pocket": "teal",
+      "collar": "lavender",
+      "button": "amber"
+    },
+    "C022": {
+      "shoe": "blue",
+      "boot": "amber",
+      "sock": "teal",
+      "stocking": "lavender",
+      "hat": "amber",
+      "glove": "blue",
+      "bag": "rose",
+      "leather": "amber"
+    },
+    "C023": {
+      "cotton": "blue",
+      "wool": "teal",
+      "silk": "rose",
+      "linen": "amber",
+      "canvas": "blue",
+      "material": "teal",
+      "color": "rose",
+      "smooth": "lavender",
+      "like": "lavender"
+    },
+    "C024": {
+      "needle": "blue",
+      "thread": "teal",
+      "stitch": "rose",
+      "pin": "amber",
+      "scissors": "blue",
+      "knot": "lavender",
+      "hole": "rose",
+      "loose": "teal",
+      "separate": "lavender"
+    },
+    "C025": {
+      "size": "blue",
+      "long": "teal",
+      "short": "rose",
+      "thick": "blue",
+      "thin": "rose",
+      "tight": "lavender",
+      "different": "teal",
+      "same": "amber",
+      "than": "lavender"
+    },
+    "C026": {
+      "umbrella": "blue",
+      "rain": "blue",
+      "store": "teal",
+      "black": "lavender",
+      "white": "teal",
+      "grey": "lavender",
+      "brown": "amber",
+      "blue": "blue"
+    },
+    "C027": {
+      "market": "teal",
+      "basket": "amber",
+      "cart": "blue",
+      "price": "rose",
+      "cheap": "rose",
+      "money": "amber",
+      "get": "lavender"
+    },
+    "C028": {
+      "payment": "rose",
+      "receipt": "blue",
+      "account": "teal",
+      "credit": "lavender",
+      "debt": "lavender",
+      "business": "teal",
+      "profit": "amber",
+      "owner": "rose"
+    },
+    "C029": {
+      "ring": "blue",
+      "jewel": "lavender",
+      "gold": "amber",
+      "silver": "blue",
+      "ornament": "teal",
+      "card": "rose",
+      "special": "rose",
+      "wax": "amber"
+    },
+    "C030": {
+      "new": "teal",
+      "old": "amber",
+      "broken": "rose",
+      "quality": "blue",
+      "value": "amber",
+      "comparison": "blue",
+      "exchange": "teal",
+      "change": "lavender",
+      "other": "lavender"
+    },
+    "C031": {
+      "street": "blue",
+      "road": "teal",
+      "town": "lavender",
+      "map": "amber",
+      "left": "rose",
+      "right": "teal",
+      "way": "amber",
+      "where": "rose"
+    },
+    "C032": {
+      "bridge": "blue",
+      "across": "teal",
+      "near": "amber",
+      "far": "lavender",
+      "distance": "blue",
+      "from": "rose",
+      "to": "rose",
+      "walk": "teal",
+      "whistle": "amber"
+    },
+    "C033": {
+      "station": "blue",
+      "train": "teal",
+      "ticket": "amber",
+      "rail": "blue",
+      "carriage": "lavender",
+      "porter": "rose",
+      "waiting": "rose",
+      "journey": "lavender",
+      "seat": "amber"
+    },
+    "C034": {
+      "driving": "blue",
+      "engine": "teal",
+      "wheel": "amber",
+      "brake": "rose",
+      "control": "blue",
+      "stop": "rose",
+      "slow": "teal",
+      "quick": "lavender",
+      "adjustment": "amber"
+    },
+    "C035": {
+      "building": "blue",
+      "lift": "teal",
+      "up": "amber",
+      "down": "lavender",
+      "out": "rose",
+      "off": "rose",
+      "on": "amber",
+      "go": "teal",
+      "under": "blue",
+      "over": "lavender"
+    },
+    "C036": {
+      "plane": "blue",
+      "flight": "teal",
+      "wing": "amber",
+      "island": "lavender",
+      "high": "rose",
+      "low": "blue",
+      "transport": "teal",
+      "forward": "amber"
+    },
+    "C037": {
+      "harbor": "blue",
+      "ship": "teal",
+      "boat": "amber",
+      "sail": "lavender",
+      "sea": "rose",
+      "wave": "blue",
+      "wind": "teal",
+      "guide": "amber"
+    },
+    "C038": {
+      "place": "blue",
+      "position": "teal",
+      "front": "amber",
+      "side": "lavender",
+      "middle": "rose",
+      "between": "blue",
+      "opposite": "teal",
+      "at": "amber"
+    },
+    "C039": {
+      "mountain": "blue",
+      "slope": "teal",
+      "narrow": "amber",
+      "wide": "lavender",
+      "turn": "rose",
+      "through": "blue",
+      "arch": "teal",
+      "direction": "amber"
+    },
+    "C040": {
+      "time": "blue",
+      "hour": "teal",
+      "minute": "amber",
+      "watch": "lavender",
+      "week": "rose",
+      "month": "blue",
+      "year": "teal",
+      "tomorrow": "amber",
+      "when": "lavender",
+      "till": "rose",
+      "late": "blue"
+    },
+    "C041": {
+      "garden": "blue",
+      "tree": "teal",
+      "branch": "amber",
+      "leaf": "lavender",
+      "root": "rose",
+      "stem": "blue",
+      "flower": "teal",
+      "plant": "amber",
+      "tall": "lavender"
+    },
+    "C042": {
+      "farm": "blue",
+      "field": "teal",
+      "seed": "amber",
+      "grain": "lavender",
+      "spade": "rose",
+      "plough": "blue",
+      "fertile": "teal",
+      "growth": "amber"
+    },
+    "C043": {
+      "grass": "blue",
+      "bee": "teal",
+      "ant": "amber",
+      "worm": "lavender",
+      "fly": "rose",
+      "insect": "blue",
+      "small": "teal",
+      "natural": "amber"
+    },
+    "C044": {
+      "cow": "blue",
+      "goat": "teal",
+      "sheep": "amber",
+      "pig": "lavender",
+      "horse": "rose",
+      "fowl": "blue",
+      "feather": "teal",
+      "horn": "amber",
+      "whip": "lavender"
+    },
+    "C045": {
+      "bird": "blue",
+      "monkey": "teal",
+      "snake": "amber",
+      "rat": "lavender",
+      "observation": "rose",
+      "look": "blue",
+      "see": "teal",
+      "attention": "amber",
+      "strange": "lavender"
+    },
+    "C046": {
+      "river": "blue",
+      "fish": "teal",
+      "rod": "violet",
+      "hook": "rose",
+      "net": "ochre",
+      "sand": "blue",
+      "deep": "teal",
+      "land": "violet"
+    },
+    "C047": {
+      "sky": "blue",
+      "cloud": "teal",
+      "mist": "violet",
+      "weather": "rose",
+      "thunder": "ochre",
+      "sudden": "blue",
+      "air": "teal"
+    },
+    "C048": {
+      "spring": "blue",
+      "summer": "teal",
+      "winter": "violet",
+      "snow": "rose",
+      "ice": "ochre",
+      "cold": "blue"
+    },
+    "C049": {
+      "ray": "blue",
+      "shade": "teal",
+      "view": "violet",
+      "beautiful": "rose",
+      "clear": "ochre",
+      "great": "blue"
+    },
+    "C050": {
+      "north": "blue",
+      "south": "teal",
+      "east": "violet",
+      "west": "rose",
+      "earth": "ochre",
+      "country": "blue",
+      "nation": "teal",
+      "flag": "violet"
+    },
+    "C051": {
+      "face": "blue",
+      "eye": "teal",
+      "ear": "lavender",
+      "nose": "rose",
+      "mouth": "amber",
+      "lip": "blue",
+      "chin": "teal",
+      "hair": "lavender",
+      "comb": "rose"
+    },
+    "C052": {
+      "body": "blue",
+      "arm": "teal",
+      "hand": "lavender",
+      "finger": "rose",
+      "thumb": "amber",
+      "leg": "blue",
+      "foot": "teal",
+      "toe": "lavender"
+    },
+    "C053": {
+      "head": "blue",
+      "neck": "teal",
+      "chest": "lavender",
+      "knee": "rose",
+      "heart": "amber",
+      "brain": "blue",
+      "bone": "teal",
+      "muscle": "lavender"
+    },
+    "C054": {
+      "tooth": "blue",
+      "tongue": "teal",
+      "throat": "lavender",
+      "skin": "rose",
+      "nerve": "amber",
+      "medical": "blue",
+      "pain": "teal"
+    },
+    "C055": {
+      "hospital": "blue",
+      "disease": "teal",
+      "ill": "lavender",
+      "healthy": "rose",
+      "cough": "amber",
+      "sneeze": "blue",
+      "feeble": "teal",
+      "normal": "lavender"
+    },
+    "C056": {
+      "wound": "blue",
+      "blood": "teal",
+      "operation": "lavender",
+      "conscious": "rose",
+      "physical": "amber",
+      "serious": "blue",
+      "help": "teal",
+      "safe": "lavender"
+    },
+    "C057": {
+      "breath": "blue",
+      "stomach": "teal",
+      "digestion": "lavender",
+      "sense": "rose",
+      "feeling": "amber",
+      "well": "blue"
+    },
+    "C058": {
+      "ball": "blue",
+      "kick": "teal",
+      "jump": "lavender",
+      "run": "rose",
+      "motion": "amber",
+      "move": "blue",
+      "stretch": "teal",
+      "strong": "lavender",
+      "let": "rose",
+      "competition": "amber",
+      "match": "blue"
+    },
+    "C059": {
+      "swim": "blue",
+      "balance": "teal",
+      "grip": "lavender",
+      "support": "rose",
+      "fall": "amber",
+      "slip": "blue",
+      "pull": "teal",
+      "push": "lavender"
+    },
+    "C060": {
+      "smile": "blue",
+      "laugh": "teal",
+      "cry": "lavender",
+      "sad": "rose",
+      "angry": "amber",
+      "fear": "blue",
+      "shock": "teal",
+      "surprise": "lavender"
+    },
+    "C061": {
+      "school": "blue",
+      "teaching": "teal",
+      "learning": "lavender",
+      "education": "rose",
+      "knowledge": "amber",
+      "language": "blue",
+      "book": "teal",
+      "chalk": "lavender"
+    },
+    "C062": {
+      "paper": "blue",
+      "pen": "teal",
+      "pencil": "lavender",
+      "ink": "rose",
+      "note": "amber",
+      "page": "blue",
+      "writing": "teal",
+      "word": "lavender"
+    },
+    "C063": {
+      "library": "blue",
+      "reading": "teal",
+      "fiction": "lavender",
+      "story": "rose",
+      "prose": "amber",
+      "verse": "blue",
+      "interest": "teal",
+      "memory": "lavender",
+      "ever": "rose"
+    },
+    "C064": {
+      "question": "blue",
+      "answer": "teal",
+      "example": "lavender",
+      "test": "rose",
+      "error": "amber",
+      "wrong": "blue",
+      "true": "teal",
+      "false": "lavender"
+    },
+    "C065": {
+      "circle": "blue",
+      "square": "teal",
+      "line": "lavender",
+      "angle": "rose",
+      "curve": "amber",
+      "parallel": "blue",
+      "round": "teal",
+      "straight": "lavender",
+      "flat": "rose",
+      "point": "amber"
+    },
+    "C066": {
+      "art": "blue",
+      "picture": "teal",
+      "frame": "lavender",
+      "paint": "rose",
+      "design": "amber",
+      "form": "blue",
+      "detail": "teal",
+      "delicate": "lavender",
+      "paste": "rose"
+    },
+    "C067": {
+      "music": "blue",
+      "instrument": "teal",
+      "band": "lavender",
+      "song": "rose",
+      "rhythm": "amber",
+      "harmony": "blue",
+      "stage": "teal",
+      "voice": "lavender",
+      "hearing": "rose"
+    },
+    "C068": {
+      "camera": "blue",
+      "record": "teal",
+      "copy": "lavender",
+      "print": "rose",
+      "mark": "amber",
+      "again": "blue"
+    },
+    "C069": {
+      "play": "blue",
+      "amusement": "teal",
+      "pleasure": "lavender",
+      "humor": "rose",
+      "trick": "amber",
+      "act": "blue",
+      "attraction": "teal",
+      "happy": "lavender",
+      "event": "rose"
+    },
+    "C070": {
+      "list": "blue",
+      "order": "teal",
+      "first": "lavender",
+      "second": "rose",
+      "step": "amber",
+      "complete": "blue",
+      "regular": "teal",
+      "frequent": "lavender",
+      "sort": "rose"
+    },
+    "C071": {
+      "office": "blue",
+      "work": "teal",
+      "company": "lavender",
+      "manager": "rose",
+      "secretary": "amber",
+      "meeting": "blue",
+      "organization": "teal",
+      "group": "lavender",
+      "join": "rose"
+    },
+    "C072": {
+      "discussion": "blue",
+      "opinion": "teal",
+      "argument": "lavender",
+      "suggestion": "rose",
+      "decision": "amber",
+      "agreement": "blue",
+      "talk": "teal",
+      "say": "lavender",
+      "about": "rose",
+      "why": "amber",
+      "how": "blue"
+    },
+    "C073": {
+      "letter": "blue",
+      "stamp": "teal",
+      "parcel": "lavender",
+      "send": "rose",
+      "connection": "amber"
+    },
+    "C074": {
+      "news": "blue",
+      "advertisement": "teal",
+      "statement": "lavender",
+      "public": "rose",
+      "fact": "amber",
+      "as": "blue",
+      "by": "teal"
+    },
+    "C075": {
+      "expert": "blue",
+      "experience": "teal",
+      "able": "lavender",
+      "hard": "rose",
+      "simple": "amber",
+      "complex": "blue",
+      "responsible": "teal",
+      "use": "lavender"
+    },
+    "C076": {
+      "trade": "blue",
+      "tax": "teal",
+      "rate": "lavender",
+      "increase": "rose",
+      "produce": "amber",
+      "industry": "blue",
+      "number": "teal",
+      "unit": "lavender",
+      "poor": "rose"
+    },
+    "C077": {
+      "distribution": "blue",
+      "division": "teal",
+      "committee": "lavender",
+      "representative": "rose",
+      "chief": "amber",
+      "authority": "blue",
+      "general": "teal",
+      "system": "lavender",
+      "lead": "rose"
+    },
+    "C078": {
+      "approval": "blue",
+      "condition": "teal",
+      "possible": "lavender",
+      "probable": "rose",
+      "doubt": "amber",
+      "seem": "blue",
+      "may": "teal",
+      "will": "lavender",
+      "certain": "rose"
+    },
+    "C079": {
+      "private": "blue",
+      "secret": "teal",
+      "property": "lavender",
+      "insurance": "rose",
+      "loss": "amber",
+      "limit": "blue",
+      "necessary": "teal",
+      "important": "lavender"
+    },
+    "C080": {
+      "yesterday": "blue",
+      "now": "teal",
+      "past": "lavender",
+      "present": "rose",
+      "future": "amber",
+      "before": "blue",
+      "after": "teal",
+      "then": "lavender",
+      "start": "rose"
+    },
+    "C081": {
+      "wood": "blue",
+      "hammer": "teal",
+      "nail": "lavender",
+      "screw": "rose",
+      "metal": "amber",
+      "iron": "blue",
+      "steel": "teal",
+      "part": "lavender",
+      "crack": "rose",
+      "polish": "amber"
+    },
+    "C082": {
+      "brick": "blue",
+      "stone": "teal",
+      "roof": "lavender",
+      "base": "rose",
+      "structure": "amber",
+      "level": "blue",
+      "fixed": "teal",
+      "board": "lavender",
+      "rough": "rose",
+      "top": "amber"
+    },
+    "C083": {
+      "pipe": "blue",
+      "pump": "teal",
+      "elastic": "lavender",
+      "solid": "rose",
+      "hollow": "amber",
+      "stiff": "blue",
+      "bent": "teal",
+      "apparatus": "lavender"
+    },
+    "C084": {
+      "wire": "blue",
+      "bulb": "teal",
+      "electric": "lavender",
+      "copper": "rose",
+      "brass": "amber",
+      "tin": "blue",
+      "power": "teal",
+      "current": "lavender"
+    },
+    "C085": {
+      "chain": "blue",
+      "cord": "teal",
+      "stick": "lavender",
+      "hanging": "rose",
+      "twist": "amber",
+      "fold": "blue",
+      "roll": "teal"
+    },
+    "C086": {
+      "acid": "blue",
+      "chemical": "teal",
+      "powder": "lavender",
+      "substance": "rose",
+      "expansion": "amber",
+      "reaction": "blue",
+      "science": "teal",
+      "theory": "lavender",
+      "poison": "rose"
+    },
+    "C087": {
+      "measure": "blue",
+      "scale": "teal",
+      "weight": "lavender",
+      "mass": "rose",
+      "degree": "amber",
+      "equal": "blue",
+      "even": "teal",
+      "range": "lavender"
+    },
+    "C088": {
+      "discovery": "blue",
+      "invention": "teal",
+      "development": "lavender",
+      "automatic": "rose",
+      "machine": "amber",
+      "process": "blue",
+      "purpose": "teal",
+      "attempt": "lavender"
+    },
+    "C089": {
+      "cause": "blue",
+      "effect": "teal",
+      "reason": "lavender",
+      "force": "rose",
+      "blow": "amber",
+      "burst": "blue",
+      "crush": "teal",
+      "damage": "lavender",
+      "smash": "rose"
+    },
+    "C090": {
+      "fire": "blue",
+      "flame": "teal",
+      "smoke": "lavender",
+      "coal": "rose",
+      "burn": "amber",
+      "danger": "blue",
+      "destruction": "teal",
+      "sign": "lavender"
+    },
+    "C091": {
+      "person": "blue",
+      "man": "teal",
+      "woman": "lavender",
+      "boy": "rose",
+      "girl": "amber",
+      "young": "blue",
+      "male": "teal",
+      "female": "lavender",
+      "among": "rose",
+      "sex": "amber",
+      "who": "blue"
+    },
+    "C092": {
+      "friend": "blue",
+      "married": "teal",
+      "relation": "lavender",
+      "kind": "rose",
+      "respect": "amber",
+      "society": "blue",
+      "common": "teal",
+      "behavior": "lavender",
+      "shake": "rose"
+    },
+    "C093": {
+      "government": "blue",
+      "political": "teal",
+      "law": "lavender",
+      "rule": "rose",
+      "peace": "amber",
+      "protest": "blue",
+      "religion": "teal",
+      "church": "lavender",
+      "free": "rose"
+    },
+    "C094": {
+      "history": "blue",
+      "war": "teal",
+      "army": "lavender",
+      "military": "rose",
+      "gun": "amber",
+      "attack": "blue",
+      "fight": "teal",
+      "violent": "lavender",
+      "against": "rose",
+      "dead": "amber",
+      "death": "blue"
+    },
+    "C095": {
+      "judge": "blue",
+      "crime": "teal",
+      "prison": "lavender",
+      "punishment": "rose",
+      "cruel": "amber",
+      "hate": "blue",
+      "disgust": "teal",
+      "shame": "lavender"
+    },
+    "C096": {
+      "hope": "blue",
+      "regret": "teal",
+      "reward": "lavender",
+      "chance": "rose",
+      "trouble": "amber",
+      "foolish": "blue",
+      "wise": "teal",
+      "tendency": "lavender"
+    },
+    "C097": {
+      "self": "blue",
+      "mind": "teal",
+      "thought": "lavender",
+      "idea": "rose",
+      "belief": "amber",
+      "existence": "blue",
+      "impulse": "teal",
+      "living": "lavender"
+    },
+    "C098": {
+      "I": "blue",
+      "you": "teal",
+      "he": "lavender",
+      "this": "rose",
+      "that": "amber",
+      "here": "blue",
+      "there": "teal",
+      "mine": "lavender",
+      "name": "rose",
+      "thing": "amber"
+    },
+    "C099": {
+      "all": "blue",
+      "every": "teal",
+      "only": "lavender",
+      "almost": "rose",
+      "quite": "amber",
+      "very": "blue",
+      "so": "teal",
+      "such": "lavender",
+      "any": "rose",
+      "not": "amber"
+    },
+    "C100": {
+      "and": "blue",
+      "but": "teal",
+      "if": "lavender",
+      "though": "rose",
+      "while": "amber"
+    }
+  },
+  "wordsTotal": 850
+}

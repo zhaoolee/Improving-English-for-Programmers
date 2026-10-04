@@ -1,0 +1,181 @@
+C100  一句话里的转折与条件
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C100.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C100.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:19:16 UTC
+  提示词文件: prompts/C100_image_final.txt
+
+场景: 同一主角在晴天与雨天选择活动，用两到三幅连续场景及短对话表达 and、but、if、though、while。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 上幅雨窗室内阅读，下幅雨后庭院步行，保持同一故事角色；五连词全部句子，不把天气当连词框。
+
+主配文:
+  英文: If it rains, I read indoors; but when it clears, I go outside and walk.
+  中文: 如果下雨，我就在室内读书；天气放晴时，我就出门散步。
+  类型: original | 来源: None | 状态: final
+
+目标词 (5): and, but, if, though, while
+
+------------------------------------------------------------------------
+[1/5] and  (W021)
+  词义: 并且
+  词性: conjunction
+  音标: UK /ænd/ | US /ænd/
+  搭配: read and rest; walk and talk
+  例句: I go outside and walk when it is clear.
+  例句高亮: I go outside **and** walk when it is clear.
+  例句中文: 天气晴朗时，我出门并散步。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I go outside and walk when it is clear."
+    matched_form: "and"
+    context: "由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 和；与
+
+------------------------------------------------------------------------
+[2/5] but  (W107)
+  词义: 但是
+  词性: conjunction
+  音标: UK /bʌt/ | US /bʌt/
+  搭配: but now; but it rains
+  例句: I want to walk, but it is raining in the first scene.
+  例句高亮: I want to walk, **but** it is raining in the first scene.
+  例句中文: 我想散步，但是第一个场景中正在下雨。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I want to walk, but it is raining in the first scene."
+    matched_form: "but"
+    context: "由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 但是
+
+------------------------------------------------------------------------
+[3/5] if  (W354)
+  词义: 如果
+  词性: conjunction
+  音标: UK /ɪf/ | US /ɪf/
+  搭配: if it rains; if possible
+  例句: If it rains, I read indoors.
+  例句高亮: **If** it rains, I read indoors.
+  例句中文: 如果下雨，我就在室内读书。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "If it rains, I read indoors."
+    matched_form: "if"
+    context: "由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 如果
+
+------------------------------------------------------------------------
+[4/5] though  (W754)
+  词义: 虽然
+  词性: conjunction
+  音标: UK /ðəʊ/ | US /ðoʊ/
+  搭配: though it rains; though small
+  例句: Though it is raining, I enjoy my book.
+  例句高亮: **Though** it is raining, I enjoy my book.
+  例句中文: 虽然正在下雨，我仍享受读书。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Though it is raining, I enjoy my book."
+    matched_form: "though"
+    context: "由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 虽然
+
+------------------------------------------------------------------------
+[5/5] while  (W820)
+  词义: 当……时
+  词性: conjunction
+  音标: UK /waɪl/ | US /waɪl/
+  搭配: while I read; while it rains
+  例句: I stay indoors while the rain falls.
+  例句高亮: I stay indoors **while** the rain falls.
+  例句中文: 下雨时，我待在室内。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I stay indoors while the rain falls."
+    matched_form: "while"
+    context: "由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 当...的时候
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 5
+  content_entries_complete: 5
+  sentence_evidence_complete: 5
+  verified_targets: 5
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C100 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Exactly two vertically stacked photographic panels, same adult woman. Upper sitting indoors with open book beside rain-speckled window, lower walking on sunlit garden path after rain with matching modest cardigan. Cool Korean refined travel/lifestyle portrait, real skin and hands, no text, labels or symbolic words. Clearly different activities and weather; conditional and contrast meaning only in later original sentences.

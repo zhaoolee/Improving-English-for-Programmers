@@ -1,0 +1,443 @@
+{
+  "id": "C014",
+  "chapter": "食物与用餐",
+  "title": "温热的甜饮",
+  "scene": "杯中温热饮品，糖罐与水壶在旁；递杯动作突出。",
+  "target_count": 10,
+  "primary_words": [
+    "cup",
+    "kettle",
+    "sugar",
+    "sweet",
+    "warm",
+    "drink",
+    "give",
+    "take",
+    "for",
+    "with"
+  ],
+  "targets": [
+    {
+      "word_id": "W173",
+      "word": "cup",
+      "aliases": [],
+      "source_zh_unreviewed": "杯子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "杯子",
+      "pos": "noun",
+      "ipa_us": "/kʌp/",
+      "ipa_uk": "/kʌp/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "两人之间的白色杯子",
+        "sentence": "The cup is white.",
+        "matched_form": "cup",
+        "image_verified": true
+      },
+      "example_en": "The cup is white.",
+      "example_zh": "杯子是白色的。",
+      "bbox_normalized": [
+        0.483,
+        0.468,
+        0.601,
+        0.542
+      ],
+      "collocations": [
+        "a cup of tea"
+      ],
+      "example_en_highlighted": "The **cup** is white.",
+      "annotation_mode": "object",
+      "annotation_note": "两人之间的白色杯子",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W376",
+      "word": "kettle",
+      "aliases": [],
+      "source_zh_unreviewed": "水壶；茶壶",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "水壶",
+      "pos": "noun",
+      "ipa_us": "/ˈketəl/",
+      "ipa_uk": "/ˈketəl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "有壶嘴和提手的金属烧水壶",
+        "sentence": "The kettle is on the counter.",
+        "matched_form": "kettle",
+        "image_verified": true
+      },
+      "example_en": "The kettle is on the counter.",
+      "example_zh": "水壶在台面上。",
+      "bbox_normalized": [
+        0.0,
+        0.66,
+        0.337,
+        0.932
+      ],
+      "collocations": [
+        "a metal kettle"
+      ],
+      "example_en_highlighted": "The **kettle** is on the counter.",
+      "annotation_mode": "object",
+      "annotation_note": "有壶嘴和提手的金属烧水壶",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W725",
+      "word": "sugar",
+      "aliases": [],
+      "source_zh_unreviewed": "糖",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "糖",
+      "pos": "noun",
+      "ipa_us": "/ˈʃʊɡər/",
+      "ipa_uk": "/ˈʃʊɡə/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "开放玻璃碗中的白色颗粒，糖的身份由原创设定说明",
+        "sentence": "The sugar is in the bowl.",
+        "matched_form": "sugar",
+        "image_verified": true
+      },
+      "example_en": "The sugar is in the bowl.",
+      "example_zh": "糖在碗里。",
+      "bbox_normalized": [
+        0.731,
+        0.846,
+        0.862,
+        0.903
+      ],
+      "collocations": [
+        "a little sugar"
+      ],
+      "example_en_highlighted": "The **sugar** is in the bowl.",
+      "annotation_mode": "object",
+      "annotation_note": "开放玻璃碗中的白色颗粒，糖的身份由原创设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W731",
+      "word": "sweet",
+      "aliases": [],
+      "source_zh_unreviewed": "甜的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "甜的",
+      "pos": "adjective",
+      "ipa_us": "/swiːt/",
+      "ipa_uk": "/swiːt/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The tea is sweet with sugar.",
+        "matched_form": "sweet",
+        "context": "味觉由句子说明，不声称照片测得甜度",
+        "image_verified": null
+      },
+      "example_en": "The tea is sweet with sugar.",
+      "example_zh": "加糖的茶是甜的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a sweet drink"
+      ],
+      "example_en_highlighted": "The tea is **sweet** with sugar.",
+      "annotation_mode": "context",
+      "annotation_note": "味觉由句子说明，不声称照片测得甜度",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W803",
+      "word": "warm",
+      "aliases": [],
+      "source_zh_unreviewed": "温暖的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "温热的",
+      "pos": "adjective",
+      "ipa_us": "/wɔːrm/",
+      "ipa_uk": "/wɔːm/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The tea is warm.",
+        "matched_form": "warm",
+        "context": "温度由设定说明，少量水汽不证明具体温度",
+        "image_verified": null
+      },
+      "example_en": "The tea is warm.",
+      "example_zh": "茶是温热的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a warm drink"
+      ],
+      "example_en_highlighted": "The tea is **warm**.",
+      "annotation_mode": "context",
+      "annotation_note": "温度由设定说明，少量水汽不证明具体温度",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W217",
+      "word": "drink",
+      "aliases": [],
+      "source_zh_unreviewed": "喝",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "饮品",
+      "pos": "noun",
+      "ipa_us": "/drɪŋk/",
+      "ipa_uk": "/drɪŋk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。",
+        "sentence": "Tea is a drink.",
+        "matched_form": "drink",
+        "context": "采用名词饮品，与动词喝区分",
+        "image_verified": null
+      },
+      "example_en": "Tea is a drink.",
+      "example_zh": "茶是一种饮品。",
+      "bbox_normalized": [
+        0.483,
+        0.468,
+        0.601,
+        0.542
+      ],
+      "collocations": [
+        "a warm drink"
+      ],
+      "example_en_highlighted": "Tea is a **drink**.",
+      "annotation_mode": "object",
+      "annotation_note": "drink为名词饮品，定位双方手中盛茶的杯子；茶的内容由原创设定说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W301",
+      "word": "give",
+      "aliases": [],
+      "source_zh_unreviewed": "给予；给",
+      "planned_mode": "context",
+      "sense_zh": "给；递给",
+      "pos": "verb",
+      "ipa_us": "/ɡɪv/",
+      "ipa_uk": "/ɡɪv/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+        "sentence": "I give you a cup of tea.",
+        "matched_form": "give",
+        "context": "递杯场景与give双宾语例句，不作独立物体框",
+        "image_verified": null
+      },
+      "example_en": "I give you a cup of tea.",
+      "example_zh": "我递给你一杯茶。",
+      "bbox_normalized": [
+        0.286,
+        0.456,
+        0.696,
+        0.602
+      ],
+      "collocations": [
+        "give you a cup"
+      ],
+      "example_en_highlighted": "I **give** you a cup of tea.",
+      "annotation_mode": "action",
+      "annotation_note": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W736",
+      "word": "take",
+      "aliases": [],
+      "source_zh_unreviewed": "拿；取",
+      "planned_mode": "context",
+      "sense_zh": "接过",
+      "pos": "verb",
+      "ipa_us": "/teɪk/",
+      "ipa_uk": "/teɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+        "sentence": "Please take the cup.",
+        "matched_form": "take",
+        "context": "接杯动作语境与例句对应",
+        "image_verified": null
+      },
+      "example_en": "Please take the cup.",
+      "example_zh": "请接过杯子。",
+      "bbox_normalized": [
+        0.286,
+        0.456,
+        0.696,
+        0.602
+      ],
+      "collocations": [
+        "take the cup"
+      ],
+      "example_en_highlighted": "Please **take** the cup.",
+      "annotation_mode": "action",
+      "annotation_note": "两人手部与同一杯茶的递交接取区域；give与take由原创句子分别说明递出者与接收者，不框人物全身。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W282",
+      "word": "for",
+      "aliases": [],
+      "source_zh_unreviewed": "对于；为了",
+      "planned_mode": "context",
+      "sense_zh": "给；为了",
+      "pos": "preposition",
+      "ipa_us": "/fɔːr/",
+      "ipa_uk": "/fɔː/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "This cup is for you.",
+        "matched_form": "for",
+        "context": "高亮for，说明接受者，不设框",
+        "image_verified": null
+      },
+      "example_en": "This cup is for you.",
+      "example_zh": "这杯是给你的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "for you"
+      ],
+      "example_en_highlighted": "This cup is **for** you.",
+      "annotation_mode": "context",
+      "annotation_note": "高亮for，说明接受者，不设框",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W835",
+      "word": "with",
+      "aliases": [],
+      "source_zh_unreviewed": "和",
+      "planned_mode": "context",
+      "sense_zh": "带有",
+      "pos": "preposition",
+      "ipa_us": "/wɪð/",
+      "ipa_uk": "/wɪð/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I like tea with sugar.",
+        "matched_form": "with",
+        "context": "高亮with，说明饮品配料，不设框",
+        "image_verified": null
+      },
+      "example_en": "I like tea with sugar.",
+      "example_zh": "我喜欢加糖的茶。",
+      "bbox_normalized": null,
+      "collocations": [
+        "tea with sugar"
+      ],
+      "example_en_highlighted": "I like tea **with** sugar.",
+      "annotation_mode": "context",
+      "annotation_note": "高亮with，说明饮品配料，不设框",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I give you a cup of warm tea with sugar.",
+    "zh": "我递给你一杯加糖的温茶。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C014\n标题 温热的甜饮\n场景 杯中温热饮品，糖罐与水壶在旁；递杯动作突出。\n目标词 cup, kettle, sugar, sweet, warm, drink, give, take, for, with\n原创主配文草案 Please take a cup of this warm, sweet drink.\n中文草案 请喝一杯这温热的甜饮。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elegant apartment kitchen, TWO distinct East Asian adults. Main woman at left offers ONE small white ceramic CUP of tea by its handle, recipient adult woman at right in pale slate shirt accepts supporting cup underneath. Cup fully visible between coherent hands, no duplicated cup or fingers. Counter foreground has one unbranded steel stovetop KETTLE with spout and handle left, an OPEN clear glass sugar bowl with visible white sugar granules at right. Subtle faint steam above tea, no strong boiling. Two people modestly smaller, clean wall above and counter below for labels.",
+  "status": "approved",
+  "image_path": "images/C014.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C014 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T14:44:39Z",
+    "ended_at": "2026-10-02T14:46:33Z",
+    "prompt_path": "prompts/C014_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C014.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "两名成年女性递接同一杯茶，杯子与手部结构清晰；左下金属水壶，右下开放玻璃碗中的糖颗粒可辨。甜度、温度、饮品身份由原创设定与例句说明，give/take/for/with不设置虚假物体框。"
+  }
+}

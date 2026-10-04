@@ -1,0 +1,402 @@
+{
+  "id": "C080",
+  "chapter": "工作与信息",
+  "title": "日程先后顺序",
+  "scene": "同一主角三小幅表现昨天完成、现在进行、以后计划，时刻明确。",
+  "target_count": 9,
+  "primary_words": [
+    "yesterday",
+    "now",
+    "past",
+    "present",
+    "future",
+    "before",
+    "after",
+    "then",
+    "start"
+  ],
+  "targets": [
+    {
+      "word_id": "W848",
+      "word": "yesterday",
+      "aliases": [],
+      "source_zh_unreviewed": "昨天",
+      "planned_mode": "context",
+      "sense_zh": "昨天",
+      "pos": "adverb",
+      "ipa_us": "/ˈjestɚdeɪ/",
+      "ipa_uk": "/ˈjestədeɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I finished the first task yesterday.",
+        "matched_form": "yesterday",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I finished the first task yesterday.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I finished the first task yesterday.",
+      "example_zh": "我昨天完成了第一项任务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "yesterday evening",
+        "finished yesterday"
+      ],
+      "example_en_highlighted": "I finished the first task **yesterday**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I finished the first task yesterday.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W483",
+      "word": "now",
+      "aliases": [],
+      "source_zh_unreviewed": "现在",
+      "planned_mode": "context",
+      "sense_zh": "现在",
+      "pos": "adverb",
+      "ipa_us": "/naʊ/",
+      "ipa_uk": "/naʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Now I open another notebook.",
+        "matched_form": "now",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Now I open another notebook.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Now I open another notebook.",
+      "example_zh": "现在我打开另一本笔记本。",
+      "bbox_normalized": null,
+      "collocations": [
+        "right now",
+        "start now"
+      ],
+      "example_en_highlighted": "**Now** I open another notebook.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Now I open another notebook.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W516",
+      "word": "past",
+      "aliases": [],
+      "source_zh_unreviewed": "过去；过去的",
+      "planned_mode": "context",
+      "sense_zh": "过去",
+      "pos": "noun",
+      "ipa_us": "/pæst/",
+      "ipa_uk": "/pɑːst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "That finished task belongs to the past.",
+        "matched_form": "past",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：That finished task belongs to the past.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "That finished task belongs to the past.",
+      "example_zh": "那项已完成的任务属于过去。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in the past",
+        "the recent past"
+      ],
+      "example_en_highlighted": "That finished task belongs to the **past**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：That finished task belongs to the past.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W549",
+      "word": "present",
+      "aliases": [],
+      "source_zh_unreviewed": "礼物；现在的",
+      "planned_mode": "context",
+      "sense_zh": "现在",
+      "pos": "noun",
+      "ipa_us": "/ˈprezənt/",
+      "ipa_uk": "/ˈprezənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "At present, I am working on the next task.",
+        "matched_form": "present",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：At present, I am working on the next task.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "At present, I am working on the next task.",
+      "example_zh": "目前，我正在做下一项任务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "at present",
+        "the present moment"
+      ],
+      "example_en_highlighted": "At **present**, I am working on the next task.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：At present, I am working on the next task.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W296",
+      "word": "future",
+      "aliases": [],
+      "source_zh_unreviewed": "未来；将来",
+      "planned_mode": "context",
+      "sense_zh": "未来",
+      "pos": "noun",
+      "ipa_us": "/ˈfjuːtʃɚ/",
+      "ipa_uk": "/ˈfjuːtʃə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I plan to study more in the future.",
+        "matched_form": "future",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I plan to study more in the future.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I plan to study more in the future.",
+      "example_zh": "我计划未来学习更多。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in the future",
+        "a future plan"
+      ],
+      "example_en_highlighted": "I plan to study more in the **future**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I plan to study more in the future.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W061",
+      "word": "before",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之前",
+      "planned_mode": "context",
+      "sense_zh": "在……之前",
+      "pos": "preposition",
+      "ipa_us": "/bɪˈfɔːr/",
+      "ipa_uk": "/bɪˈfɔː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I close one notebook before opening another.",
+        "matched_form": "before",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I close one notebook before opening another.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I close one notebook before opening another.",
+      "example_zh": "打开另一本笔记本之前，我先合上这一本。",
+      "bbox_normalized": null,
+      "collocations": [
+        "before work",
+        "before the next task"
+      ],
+      "example_en_highlighted": "I close one notebook **before** opening another.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I close one notebook before opening another.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W011",
+      "word": "after",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之后；后来",
+      "planned_mode": "context",
+      "sense_zh": "在……之后",
+      "pos": "preposition",
+      "ipa_us": "/ˈæftɚ/",
+      "ipa_uk": "/ˈɑːftə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I begin the next task after a short break.",
+        "matched_form": "after",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I begin the next task after a short break.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I begin the next task after a short break.",
+      "example_zh": "短暂休息之后，我开始下一项任务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "after work",
+        "after the first task"
+      ],
+      "example_en_highlighted": "I begin the next task **after** a short break.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I begin the next task after a short break.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W747",
+      "word": "then",
+      "aliases": [],
+      "source_zh_unreviewed": "然后",
+      "planned_mode": "context",
+      "sense_zh": "然后",
+      "pos": "adverb",
+      "ipa_us": "/ðen/",
+      "ipa_uk": "/ðen/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I open the notebook, then pick up my pen.",
+        "matched_form": "then",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I open the notebook, then pick up my pen.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I open the notebook, then pick up my pen.",
+      "example_zh": "我打开笔记本，然后拿起钢笔。",
+      "bbox_normalized": null,
+      "collocations": [
+        "and then",
+        "then begin"
+      ],
+      "example_en_highlighted": "I open the notebook, **then** pick up my pen.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I open the notebook, then pick up my pen.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W698",
+      "word": "start",
+      "aliases": [],
+      "source_zh_unreviewed": "开始",
+      "planned_mode": "context",
+      "sense_zh": "开始",
+      "pos": "verb",
+      "ipa_us": "/stɑːrt/",
+      "ipa_uk": "/stɑːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中幅双手打开笔记本开始下一任务，故事指定动作意义。",
+        "sentence": "I start the new task by opening my notebook.",
+        "matched_form": "start",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I start the new task by opening my notebook.",
+      "example_zh": "我通过打开笔记本来开始新任务。",
+      "bbox_normalized": [
+        0.331,
+        0.525,
+        0.732,
+        0.652
+      ],
+      "collocations": [
+        "start a task",
+        "start writing"
+      ],
+      "example_en_highlighted": "I **start** the new task by opening my notebook.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（开始），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I finished one task yesterday; now I start another and plan what comes after.",
+    "zh": "我昨天完成了一项任务，现在开始另一项，并计划之后的事。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C080\n标题 日程先后顺序\n场景 同一主角三小幅表现昨天完成、现在进行、以后计划，时刻明确。\n目标词 yesterday, now, past, present, future, before, after, then, start\n原创主配文草案 Yesterday is past; now is the time to start.\n中文草案 昨天已成过去，现在是开始的时候。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Three stacked editorial scenes of same adult woman at consistent tidy desk. Top closes plain notebook after finishing task in soft evening light; middle opens another notebook and picks up pen in cool morning light; bottom arranges a blank planner beside closed notebook for later. No clocks digits, words, dates or labels; sequence tells story but dates exist only in caption. Hands credible, restrained Korean editorial styling.",
+  "status": "approved",
+  "image_path": "images/C080.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 8,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C080 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:44:04 UTC",
+    "prompt_path": "prompts/C080_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C080.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三幅笔记任务顺序清楚，只有中幅打开笔记本开始任务可定位；昨天/现在/未来由配文标定，不按光线断言日期。"
+  }
+}

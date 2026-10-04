@@ -1,0 +1,289 @@
+{
+  "filename": "C001-清晨醒来.png",
+  "labels": [
+    {
+      "x": 360,
+      "y": 720,
+      "english": "bed",
+      "chinese": "床",
+      "phoneticUS": "/bed/",
+      "phoneticUK": "/bed/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 590
+      },
+      "anchorPosition": {
+        "x": 360,
+        "y": 720
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 292,
+        "right": 1000,
+        "bottom": 1000
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#79986E",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "新版床的整体可见范围重新定位；框包含被人物遮挡区域，配文及 bed 例句仍与图一致。",
+        "association": "框床的可见整体；in bed 指人在床上休息，常在被褥里；on the bed 指在床面上。",
+        "collocation": "in bed; on the bed; get out of bed",
+        "example": "I am still in bed.",
+        "exampleChinese": "我还在床上。"
+      }
+    },
+    {
+      "x": 180,
+      "y": 55,
+      "english": "sleep",
+      "chinese": "睡觉",
+      "phoneticUS": "/sliːp/",
+      "phoneticUK": "/sliːp/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 55
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (intransitive)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "年轻女性刚醒来的叙述使用原例句 I slept well last night.，明确覆盖 sleep 的过去式 slept；不把醒着的女性当睡眠动作。",
+        "association": "只高亮 slept；本图人物醒着，不把床或睁眼人物框成 sleep 的动作证据。sleep→slept（过去式）",
+        "collocation": "sleep well; sleep in bed; sleep at night",
+        "example": "I slept well last night.",
+        "exampleChinese": "我昨晚睡得很好。"
+      }
+    },
+    {
+      "x": 590,
+      "y": 255,
+      "english": "awake",
+      "chinese": "醒着的",
+      "phoneticUS": "/əˈweɪk/",
+      "phoneticUK": "/əˈweɪk/",
+      "bubblePosition": {
+        "x": 590,
+        "y": 255
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective (predicative)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "新版女性醒着的状态与原例句 I am awake now. 及配文一致；不设物体框。",
+        "association": "本卡教表语形容词，使用 be awake；高亮 awake，人物状态不当作独立物体。",
+        "collocation": "be awake; stay awake; fully awake",
+        "example": "I am awake now.",
+        "exampleChinese": "我现在醒着。"
+      }
+    },
+    {
+      "x": 405,
+      "y": 55,
+      "english": "morning",
+      "chinese": "早晨",
+      "phoneticUS": "/ˈmɔːrnɪŋ/",
+      "phoneticUK": "/ˈmɔːnɪŋ/",
+      "bubblePosition": {
+        "x": 405,
+        "y": 55
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "原配文 morning light 与 this morning 例句明确早晨；新版晨光与醒来人物支持语境，不把布帘或钟框成 morning。",
+        "association": "高亮 morning，不把太阳、窗户或钟框成早晨。",
+        "collocation": "in the morning; morning light; this morning",
+        "example": "The room is bright this morning.",
+        "exampleChinese": "今天早晨房间很明亮。"
+      }
+    },
+    {
+      "x": 695,
+      "y": 475,
+      "english": "clock",
+      "chinese": "钟",
+      "phoneticUS": "/klɑːk/",
+      "phoneticUK": "/klɒk/",
+      "bubblePosition": {
+        "x": 665,
+        "y": 370
+      },
+      "anchorPosition": {
+        "x": 695,
+        "y": 475
+      },
+      "boundingBox": {
+        "left": 634,
+        "top": 424,
+        "right": 756,
+        "bottom": 525
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "钟面及支脚独立可辨，位于床边；无字母数字，坐标按精致新版重定。",
+        "association": "只框钟，不包含整张床边桌；不依赖生成图的精确读数。",
+        "collocation": "a bedside clock; the clock face; look at the clock",
+        "example": "The clock is beside my bed.",
+        "exampleChinese": "钟在我的床边。"
+      }
+    },
+    {
+      "x": 900,
+      "y": 355,
+      "english": "curtain",
+      "chinese": "窗帘",
+      "phoneticUS": "/ˈkɜːrtn/",
+      "phoneticUK": "/ˈkɜːtn/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 200
+      },
+      "anchorPosition": {
+        "x": 900,
+        "y": 355
+      },
+      "boundingBox": {
+        "left": 670,
+        "top": 0,
+        "right": 969,
+        "bottom": 652
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#79986E",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "改为浅色亚麻窗帘后仍可定位；原例句 Light comes past the curtain. 与光从布帘旁边照入一致。",
+        "association": "框整片可辨的亚麻布帘；不把窗户或布帘旁的透光区域当窗帘。",
+        "collocation": "open the curtain; close the curtain; a gap in the curtains",
+        "example": "Light comes past the curtain.",
+        "exampleChinese": "光从窗帘旁边透进来。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 690,
+      "english": "light",
+      "chinese": "光",
+      "phoneticUS": "/laɪt/",
+      "phoneticUK": "/laɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 845
+      },
+      "anchorPosition": {
+        "x": 800,
+        "y": 690
+      },
+      "boundingBox": {
+        "left": 632,
+        "top": 619,
+        "right": 987,
+        "bottom": 778
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "重新框选新版床面代表性受光区域；Light falls on the bed. 与画面一致，不把灯具当 light。",
+        "association": "object 模式在此定位可见光斑区域，并非把光当实体或把灯具当光；框选受光区域，底图生成后再定坐标。",
+        "collocation": "morning light; natural light; a patch of light",
+        "example": "Light falls on the bed.",
+        "exampleChinese": "光照在床上。"
+      }
+    },
+    {
+      "x": 630,
+      "y": 55,
+      "english": "early",
+      "chinese": "时间还早",
+      "phoneticUS": "/ˈɜːrli/",
+      "phoneticUK": "/ˈɜːli/",
+      "bubblePosition": {
+        "x": 630,
+        "y": 55
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective (predicative)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "原例句 It is still early. 明确时间还早；新版人物醒来、自然光和床边钟提供语境，不设置 early 物体框。",
+        "association": "高亮 early，不给钟、日光或人物虚假的 early 物体框。",
+        "collocation": "early morning; be early; an early start",
+        "example": "It is still early.",
+        "exampleChinese": "时间还早。"
+      }
+    },
+    {
+      "x": 630,
+      "y": 130,
+      "english": "be",
+      "chinese": "系动词",
+      "phoneticUS": "/biː/ (strong), /bi/ (weak)",
+      "phoneticUK": "/biː/ (strong), /bi/ (weak)",
+      "bubblePosition": {
+        "x": 630,
+        "y": 145
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (linking)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "女性替换不改变第一人称配文和例句；am/is 保持高亮，be 词头与主归属不变。",
+        "association": "在例句中高亮 am，在配文中高亮 am/is；无物体框。词头音标不等于句中 am/is 的读音，am 的重读形式 /æm/、常见弱读 /əm/，is 为 /ɪz/。be→am/is（现在式）",
+        "collocation": "be awake; be in bed; be early",
+        "example": "I am awake now.",
+        "exampleChinese": "我现在醒着。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I am awake, and the morning light is on my bed.",
+    "chinese": "我醒了，晨光照在我的床上。",
+    "source": "原创配文 · C001 清晨醒来",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置image_gen生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

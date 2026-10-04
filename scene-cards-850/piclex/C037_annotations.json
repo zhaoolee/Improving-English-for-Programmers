@@ -1,0 +1,286 @@
+{
+  "filename": "C037-港口启航.png",
+  "labels": [
+    {
+      "x": 110,
+      "y": 278,
+      "english": "harbor",
+      "chinese": "港口",
+      "phoneticUS": "/ˈhɑːrbər/",
+      "phoneticUK": "/ˈhɑːbə/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 120
+      },
+      "anchorPosition": {
+        "x": 110,
+        "y": 278
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 233,
+        "right": 742,
+        "bottom": 483
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "码头、停泊船与港湾的可见区域。",
+        "association": "码头、停泊船与港湾的可见区域。",
+        "collocation": "a quiet harbor",
+        "example": "The harbor shelters the boats.",
+        "exampleChinese": "港口为船只提供庇护。"
+      }
+    },
+    {
+      "x": 847,
+      "y": 320,
+      "english": "ship",
+      "chinese": "大船",
+      "phoneticUS": "/ʃɪp/",
+      "phoneticUK": "/ʃɪp/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 195
+      },
+      "anchorPosition": {
+        "x": 847,
+        "y": 320
+      },
+      "boundingBox": {
+        "left": 723,
+        "top": 262,
+        "right": 998,
+        "bottom": 403
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "远处大型船舶，区别近处小艇。",
+        "association": "远处大型船舶，区别近处小艇。",
+        "collocation": "a passenger ship",
+        "example": "A large ship waits beyond the dock.",
+        "exampleChinese": "一艘大船停在码头外。"
+      }
+    },
+    {
+      "x": 910,
+      "y": 531,
+      "english": "boat",
+      "chinese": "小艇",
+      "phoneticUS": "/boʊt/",
+      "phoneticUK": "/bəʊt/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 610
+      },
+      "anchorPosition": {
+        "x": 910,
+        "y": 531
+      },
+      "boundingBox": {
+        "left": 801,
+        "top": 478,
+        "right": 999,
+        "bottom": 560
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "近处独立帆艇船体。",
+        "association": "近处独立帆艇船体。",
+        "collocation": "a sailing boat",
+        "example": "The small boat is beside the dock.",
+        "exampleChinese": "小艇在码头旁。"
+      }
+    },
+    {
+      "x": 908,
+      "y": 327,
+      "english": "sail",
+      "chinese": "船帆",
+      "phoneticUS": "/seɪl/",
+      "phoneticUK": "/seɪl/",
+      "bubblePosition": {
+        "x": 890,
+        "y": 100
+      },
+      "anchorPosition": {
+        "x": 908,
+        "y": 327
+      },
+      "boundingBox": {
+        "left": 868,
+        "top": 167,
+        "right": 995,
+        "bottom": 482
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际白色三角船帆，选名词义。",
+        "association": "实际白色三角船帆，选名词义。",
+        "collocation": "a white sail",
+        "example": "The boat has a white sail.",
+        "exampleChinese": "这条艇有一面白色船帆。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 733,
+      "english": "sea",
+      "chinese": "海",
+      "phoneticUS": "/siː/",
+      "phoneticUK": "/siː/",
+      "bubblePosition": {
+        "x": 700,
+        "y": 775
+      },
+      "anchorPosition": {
+        "x": 810,
+        "y": 733
+      },
+      "boundingBox": {
+        "left": 640,
+        "top": 560,
+        "right": 990,
+        "bottom": 838
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "港口外独立可见海水区域。",
+        "association": "港口外独立可见海水区域。",
+        "collocation": "the open sea",
+        "example": "The sea stretches beyond the harbor.",
+        "exampleChinese": "大海在港口外延伸。"
+      }
+    },
+    {
+      "x": 884,
+      "y": 915,
+      "english": "wave",
+      "chinese": "波浪",
+      "phoneticUS": "/weɪv/",
+      "phoneticUK": "/weɪv/",
+      "bubblePosition": {
+        "x": 900,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 884,
+        "y": 915
+      },
+      "boundingBox": {
+        "left": 658,
+        "top": 832,
+        "right": 995,
+        "bottom": 949
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "码头旁可辨水面波峰。",
+        "association": "码头旁可辨水面波峰。",
+        "collocation": "a small wave",
+        "example": "A small wave reaches the dock.",
+        "exampleChinese": "一阵小波浪来到码头边。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 895,
+      "english": "wind",
+      "chinese": "风",
+      "phoneticUS": "/wɪnd/",
+      "phoneticUK": "/wɪnd/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 895
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。",
+        "association": "围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。",
+        "collocation": "a light wind",
+        "example": "The wind lifts my scarf.",
+        "exampleChinese": "风吹起我的围巾。"
+      }
+    },
+    {
+      "x": 485,
+      "y": 570,
+      "english": "guide",
+      "chinese": "向导",
+      "phoneticUS": "/ɡaɪd/",
+      "phoneticUK": "/ɡaɪd/",
+      "bubblePosition": {
+        "x": 560,
+        "y": 280
+      },
+      "anchorPosition": {
+        "x": 485,
+        "y": 570
+      },
+      "boundingBox": {
+        "left": 310,
+        "top": 306,
+        "right": 798,
+        "bottom": 997
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "故事设定的指船人物，仅定位人物，职业由句子说明。",
+        "association": "故事设定的指船人物，仅定位人物，职业由句子说明。",
+        "collocation": "a local guide",
+        "example": "The guide shows me the boat.",
+        "exampleChinese": "向导指给我看那条艇。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A small boat waits in the harbor, while a sail catches the breeze.",
+    "chinese": "一条小艇停在港口里，一面船帆迎着微风。",
+    "source": "原创配文 · C037 港口启航",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

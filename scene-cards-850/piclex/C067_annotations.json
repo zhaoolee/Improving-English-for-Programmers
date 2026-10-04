@@ -1,0 +1,281 @@
+{
+  "filename": "C067-舞台音乐排练.png",
+  "labels": [
+    {
+      "x": 850,
+      "y": 75,
+      "english": "music",
+      "chinese": "音乐",
+      "phoneticUS": "/ˈmjuːzɪk/",
+      "phoneticUK": "/ˈmjuːzɪk/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We make music during rehearsal.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We make music during rehearsal.；不声称该状态/含义本身在画面可见。",
+        "collocation": "make music; listen to music",
+        "example": "We make music during rehearsal.",
+        "exampleChinese": "我们在排练时演奏音乐。"
+      }
+    },
+    {
+      "x": 182,
+      "y": 503,
+      "english": "instrument",
+      "chinese": "乐器",
+      "phoneticUS": "/ˈɪnstrəmənt/",
+      "phoneticUK": "/ˈɪnstrəmənt/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 182,
+        "y": 503
+      },
+      "boundingBox": {
+        "left": 1,
+        "top": 426,
+        "right": 364,
+        "bottom": 581
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（乐器），待最终图确认。",
+        "association": "场景中体现的具体对象（乐器），待最终图确认。",
+        "collocation": "play an instrument; a musical instrument",
+        "example": "The guitar is a musical instrument.",
+        "exampleChinese": "吉他是一种乐器。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 577,
+      "english": "band",
+      "chinese": "乐队",
+      "phoneticUS": "/bænd/",
+      "phoneticUK": "/bænd/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 577
+      },
+      "boundingBox": {
+        "left": 2,
+        "top": 176,
+        "right": 998,
+        "bottom": 979
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（乐队），待最终图确认。",
+        "association": "场景中体现的关系（乐队），待最终图确认。",
+        "collocation": "a small band; play in a band",
+        "example": "Our band has three members.",
+        "exampleChinese": "我们的乐队有三名成员。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 230,
+      "english": "song",
+      "chinese": "歌曲",
+      "phoneticUS": "/sɔːŋ/",
+      "phoneticUK": "/sɒŋ/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 230
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I sing a song with the band.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I sing a song with the band.；不声称该状态/含义本身在画面可见。",
+        "collocation": "sing a song; a new song",
+        "example": "I sing a song with the band.",
+        "exampleChinese": "我和乐队一起唱一首歌。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 555,
+      "english": "rhythm",
+      "chinese": "节奏",
+      "phoneticUS": "/ˈrɪðəm/",
+      "phoneticUK": "/ˈrɪðəm/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 555
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The drums keep a steady rhythm.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The drums keep a steady rhythm.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a steady rhythm; follow the rhythm",
+        "example": "The drums keep a steady rhythm.",
+        "exampleChinese": "鼓保持着稳定的节奏。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 720,
+      "english": "harmony",
+      "chinese": "和声",
+      "phoneticUS": "/ˈhɑːrməni/",
+      "phoneticUK": "/ˈhɑːməni/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 720
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Two voices sing in harmony.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Two voices sing in harmony.；不声称该状态/含义本身在画面可见。",
+        "collocation": "sing in harmony; vocal harmony",
+        "example": "Two voices sing in harmony.",
+        "exampleChinese": "两个声音唱出和声。"
+      }
+    },
+    {
+      "x": 547,
+      "y": 939,
+      "english": "stage",
+      "chinese": "舞台",
+      "phoneticUS": "/steɪdʒ/",
+      "phoneticUK": "/steɪdʒ/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 547,
+        "y": 939
+      },
+      "boundingBox": {
+        "left": 96,
+        "top": 887,
+        "right": 998,
+        "bottom": 992
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（舞台），待最终图确认。",
+        "association": "场景中体现的具体对象（舞台），待最终图确认。",
+        "collocation": "on the stage; a small stage",
+        "example": "We stand on the wooden stage.",
+        "exampleChinese": "我们站在木舞台上。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 140,
+      "english": "voice",
+      "chinese": "嗓音",
+      "phoneticUS": "/vɔɪs/",
+      "phoneticUK": "/vɔɪs/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 140
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My voice joins the sound of the guitar.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My voice joins the sound of the guitar.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a clear voice; singing voice",
+        "example": "My voice joins the sound of the guitar.",
+        "exampleChinese": "我的嗓音和吉他声交织在一起。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 75,
+      "english": "hearing",
+      "chinese": "听觉",
+      "phoneticUS": "/ˈhɪrɪŋ/",
+      "phoneticUK": "/ˈhɪərɪŋ/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My hearing helps me follow the music.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My hearing helps me follow the music.；不声称该状态/含义本身在画面可见。",
+        "collocation": "sense of hearing; good hearing",
+        "example": "My hearing helps me follow the music.",
+        "exampleChinese": "我的听觉帮助我跟上音乐。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Our band makes music on the stage, and I sing with the rhythm.",
+    "chinese": "我们的乐队在舞台上演奏音乐，我跟着节奏唱歌。",
+    "source": "原创配文 · C067 舞台音乐排练",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

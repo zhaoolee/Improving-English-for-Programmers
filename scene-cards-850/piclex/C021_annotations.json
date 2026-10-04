@@ -1,0 +1,294 @@
+{
+  "filename": "C021-出门穿衣.png",
+  "labels": [
+    {
+      "x": 534,
+      "y": 316,
+      "english": "shirt",
+      "chinese": "衬衫",
+      "phoneticUS": "/ʃɜːrt/",
+      "phoneticUK": "/ʃɜːt/",
+      "bubblePosition": {
+        "x": 326,
+        "y": 344
+      },
+      "anchorPosition": {
+        "x": 534,
+        "y": 316
+      },
+      "boundingBox": {
+        "left": 340,
+        "top": 174,
+        "right": 726,
+        "bottom": 453
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主人公身上有前襟纽扣与翻领的衬衫",
+        "association": "主人公身上有前襟纽扣与翻领的衬衫",
+        "collocation": "a white shirt",
+        "example": "I wear a white shirt.",
+        "exampleChinese": "我穿着白衬衫。"
+      }
+    },
+    {
+      "x": 806,
+      "y": 421,
+      "english": "coat",
+      "chinese": "外套",
+      "phoneticUS": "/koʊt/",
+      "phoneticUK": "/kəʊt/",
+      "bubblePosition": {
+        "x": 929,
+        "y": 552
+      },
+      "anchorPosition": {
+        "x": 806,
+        "y": 421
+      },
+      "boundingBox": {
+        "left": 638,
+        "top": 150,
+        "right": 971,
+        "bottom": 689
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中灰色外套整体",
+        "association": "手中灰色外套整体",
+        "collocation": "a grey coat",
+        "example": "The coat has a pocket.",
+        "exampleChinese": "这件外套有一个口袋。"
+      }
+    },
+    {
+      "x": 333,
+      "y": 804,
+      "english": "trousers",
+      "chinese": "长裤",
+      "phoneticUS": "/ˈtraʊzərz/",
+      "phoneticUK": "/ˈtraʊzəz/",
+      "bubblePosition": {
+        "x": 210,
+        "y": 949
+      },
+      "anchorPosition": {
+        "x": 333,
+        "y": 804
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 618,
+        "right": 503,
+        "bottom": 1000
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "床边平铺长裤，复数名词",
+        "association": "床边平铺长裤，复数名词",
+        "collocation": "a pair of trousers",
+        "example": "The trousers have two long legs.",
+        "exampleChinese": "这条长裤有两条长裤腿。"
+      }
+    },
+    {
+      "x": 691,
+      "y": 809,
+      "english": "skirt",
+      "chinese": "半身裙",
+      "phoneticUS": "/skɜːrt/",
+      "phoneticUK": "/skɜːt/",
+      "bubblePosition": {
+        "x": 834,
+        "y": 952
+      },
+      "anchorPosition": {
+        "x": 691,
+        "y": 809
+      },
+      "boundingBox": {
+        "left": 428,
+        "top": 669,
+        "right": 936,
+        "bottom": 969
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立半身裙，不含连衣裙上半身",
+        "association": "独立半身裙，不含连衣裙上半身",
+        "collocation": "a knee-length skirt",
+        "example": "The skirt is on the bed.",
+        "exampleChinese": "半身裙在床上。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 406,
+      "english": "dress",
+      "chinese": "连衣裙",
+      "phoneticUS": "/dres/",
+      "phoneticUK": "/dres/",
+      "bubblePosition": {
+        "x": 115,
+        "y": 91
+      },
+      "anchorPosition": {
+        "x": 150,
+        "y": 406
+      },
+      "boundingBox": {
+        "left": 35,
+        "top": 165,
+        "right": 261,
+        "bottom": 581
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "衣架上的一体式连衣裙",
+        "association": "衣架上的一体式连衣裙",
+        "collocation": "a blue dress",
+        "example": "The dress hangs on the rack.",
+        "exampleChinese": "连衣裙挂在衣架上。"
+      }
+    },
+    {
+      "x": 773,
+      "y": 537,
+      "english": "pocket",
+      "chinese": "口袋",
+      "phoneticUS": "/ˈpɑːkɪt/",
+      "phoneticUK": "/ˈpɒkɪt/",
+      "bubblePosition": {
+        "x": 551,
+        "y": 620
+      },
+      "anchorPosition": {
+        "x": 773,
+        "y": 537
+      },
+      "boundingBox": {
+        "left": 695,
+        "top": 462,
+        "right": 830,
+        "bottom": 607
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "外套前方贴袋",
+        "association": "外套前方贴袋",
+        "collocation": "a coat pocket",
+        "example": "The pocket is on the coat.",
+        "exampleChinese": "口袋在外套上。"
+      }
+    },
+    {
+      "x": 441,
+      "y": 228,
+      "english": "collar",
+      "chinese": "衣领",
+      "phoneticUS": "/ˈkɑːlər/",
+      "phoneticUK": "/ˈkɒlə/",
+      "bubblePosition": {
+        "x": 733,
+        "y": 158
+      },
+      "anchorPosition": {
+        "x": 441,
+        "y": 228
+      },
+      "boundingBox": {
+        "left": 409,
+        "top": 169,
+        "right": 571,
+        "bottom": 258
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主人公衬衫翻领",
+        "association": "主人公衬衫翻领",
+        "collocation": "a shirt collar",
+        "example": "The collar is part of the shirt.",
+        "exampleChinese": "衣领是衬衫的一部分。"
+      }
+    },
+    {
+      "x": 547,
+      "y": 369,
+      "english": "button",
+      "chinese": "纽扣",
+      "phoneticUS": "/ˈbʌtən/",
+      "phoneticUK": "/ˈbʌtən/",
+      "bubblePosition": {
+        "x": 327,
+        "y": 510
+      },
+      "anchorPosition": {
+        "x": 547,
+        "y": 369
+      },
+      "boundingBox": {
+        "left": 538,
+        "top": 359,
+        "right": 555,
+        "bottom": 380
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "衬衫前襟一颗纽扣；不是按钮",
+        "association": "衬衫前襟一颗纽扣；不是按钮",
+        "collocation": "a shirt button",
+        "example": "A button closes the shirt.",
+        "exampleChinese": "一颗纽扣扣住衬衫。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A shirt, a coat, and a quiet moment before going out.",
+    "chinese": "一件衬衫，一件外套，还有出门前安静的片刻。",
+    "source": "原创配文 · C021 出门穿衣",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

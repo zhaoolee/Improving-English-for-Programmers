@@ -1,0 +1,20 @@
+{
+  "cardID": "C012",
+  "imagePath": "../images/C012.png",
+  "imageSHA256": "5215d2dbed18236c0a4641aab73c4fb6ef10293d5e04c7b5f1b623643856dc0e",
+  "imageReviewed": true,
+  "annotationsPath": "C012_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "cook",
+    "pot",
+    "soup",
+    "potato",
+    "rice",
+    "boiling",
+    "steam",
+    "heat",
+    "make"
+  ],
+  "receiptPath": "C012_import_receipt.json"
+}

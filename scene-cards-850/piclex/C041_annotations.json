@@ -1,0 +1,329 @@
+{
+  "filename": "C041-公园里种树.png",
+  "labels": [
+    {
+      "x": 773,
+      "y": 554,
+      "english": "garden",
+      "chinese": "花园",
+      "phoneticUS": "/ˈɡɑːrdn/",
+      "phoneticUK": "/ˈɡɑːdn/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 460
+      },
+      "anchorPosition": {
+        "x": 773,
+        "y": 554
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 392,
+        "right": 998,
+        "bottom": 609
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "土床与植物构成的花园区域。",
+        "association": "土床与植物构成的花园区域。",
+        "collocation": "a small garden",
+        "example": "We plant a tree in the garden.",
+        "exampleChinese": "我们在花园里种一棵树。"
+      }
+    },
+    {
+      "x": 191,
+      "y": 275,
+      "english": "tree",
+      "chinese": "树",
+      "phoneticUS": "/triː/",
+      "phoneticUK": "/triː/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 110
+      },
+      "anchorPosition": {
+        "x": 191,
+        "y": 275
+      },
+      "boundingBox": {
+        "left": 113,
+        "top": 160,
+        "right": 426,
+        "bottom": 496
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅完整树苗。",
+        "association": "上幅完整树苗。",
+        "collocation": "a young tree",
+        "example": "The young tree has many leaves.",
+        "exampleChinese": "这棵小树有许多叶子。"
+      }
+    },
+    {
+      "x": 278,
+      "y": 370,
+      "english": "branch",
+      "chinese": "树枝",
+      "phoneticUS": "/bræntʃ/",
+      "phoneticUK": "/brɑːntʃ/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 385
+      },
+      "anchorPosition": {
+        "x": 278,
+        "y": 370
+      },
+      "boundingBox": {
+        "left": 254,
+        "top": 309,
+        "right": 310,
+        "bottom": 432
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "树苗独立木质分枝。",
+        "association": "树苗独立木质分枝。",
+        "collocation": "a tree branch",
+        "example": "A branch grows from the trunk.",
+        "exampleChinese": "一根树枝从树干上长出。"
+      }
+    },
+    {
+      "x": 313,
+      "y": 747,
+      "english": "leaf",
+      "chinese": "叶子",
+      "phoneticUS": "/liːf/",
+      "phoneticUK": "/liːf/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 720
+      },
+      "anchorPosition": {
+        "x": 313,
+        "y": 747
+      },
+      "boundingBox": {
+        "left": 240,
+        "top": 725,
+        "right": 383,
+        "bottom": 770
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际独立叶片。",
+        "association": "实际独立叶片。",
+        "collocation": "a green leaf",
+        "example": "A green leaf catches the light.",
+        "exampleChinese": "一片绿叶迎着光。"
+      }
+    },
+    {
+      "x": 287,
+      "y": 555,
+      "english": "root",
+      "chinese": "根",
+      "phoneticUS": "/ruːt/",
+      "phoneticUK": "/ruːt/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 287,
+        "y": 555
+      },
+      "boundingBox": {
+        "left": 218,
+        "top": 486,
+        "right": 351,
+        "bottom": 599
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "露出根团上的细根，不用土团冒充根。",
+        "association": "露出根团上的细根，不用土团冒充根。",
+        "collocation": "a plant root",
+        "example": "A root reaches into the soil.",
+        "exampleChinese": "一条根伸进土里。"
+      }
+    },
+    {
+      "x": 433,
+      "y": 848,
+      "english": "stem",
+      "chinese": "茎",
+      "phoneticUS": "/stem/",
+      "phoneticUK": "/stem/",
+      "bubblePosition": {
+        "x": 600,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 433,
+        "y": 848
+      },
+      "boundingBox": {
+        "left": 423,
+        "top": 734,
+        "right": 454,
+        "bottom": 962
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅植物真实绿色茎。",
+        "association": "下幅植物真实绿色茎。",
+        "collocation": "a green stem",
+        "example": "The flower grows on a green stem.",
+        "exampleChinese": "花长在绿色的茎上。"
+      }
+    },
+    {
+      "x": 489,
+      "y": 690,
+      "english": "flower",
+      "chinese": "花",
+      "phoneticUS": "/ˈflaʊər/",
+      "phoneticUK": "/ˈflaʊə/",
+      "bubblePosition": {
+        "x": 685,
+        "y": 685
+      },
+      "anchorPosition": {
+        "x": 489,
+        "y": 690
+      },
+      "boundingBox": {
+        "left": 413,
+        "top": 640,
+        "right": 566,
+        "bottom": 771
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅实际白色花朵。",
+        "association": "下幅实际白色花朵。",
+        "collocation": "a white flower",
+        "example": "The plant has a white flower.",
+        "exampleChinese": "这株植物开着一朵白花。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 937,
+      "english": "plant",
+      "chinese": "植物",
+      "phoneticUS": "/plænt/",
+      "phoneticUK": "/plɑːnt/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 937
+      },
+      "boundingBox": {
+        "left": 234,
+        "top": 640,
+        "right": 616,
+        "bottom": 975
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅开花植物整体，浇水为另句示例不虚构图中动作。",
+        "association": "下幅开花植物整体，浇水为另句示例不虚构图中动作。",
+        "collocation": "a flowering plant",
+        "example": "I water the plant beside the tree.",
+        "exampleChinese": "我给树旁的植物浇水。"
+      }
+    },
+    {
+      "x": 750,
+      "y": 291,
+      "english": "tall",
+      "chinese": "高的",
+      "phoneticUS": "/tɔːl/",
+      "phoneticUK": "/tɔːl/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 110
+      },
+      "anchorPosition": {
+        "x": 750,
+        "y": 291
+      },
+      "boundingBox": {
+        "left": 406,
+        "top": 0,
+        "right": 998,
+        "bottom": 451
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "背景高树的实际指代区域，相对人物/树苗比较。",
+        "association": "背景高树的实际指代区域，相对人物/树苗比较。",
+        "collocation": "a tall tree",
+        "example": "A tall tree stands behind us.",
+        "exampleChinese": "一棵高树在我们身后。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A young tree, one leaf, and a flower make the garden feel alive.",
+    "chinese": "一棵小树、一片叶子和一朵花，让花园充满生机。",
+    "source": "原创配文 · C041 公园里种树",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

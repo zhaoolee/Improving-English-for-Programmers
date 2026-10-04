@@ -1,0 +1,278 @@
+{
+  "filename": "C036-飞机飞过海岛.png",
+  "labels": [
+    {
+      "x": 427,
+      "y": 94,
+      "english": "plane",
+      "chinese": "飞机",
+      "phoneticUS": "/pleɪn/",
+      "phoneticUK": "/pleɪn/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 75
+      },
+      "anchorPosition": {
+        "x": 427,
+        "y": 94
+      },
+      "boundingBox": {
+        "left": 296,
+        "top": 30,
+        "right": 728,
+        "bottom": 124
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅完整客机，身份和场景来自故事。",
+        "association": "上幅完整客机，身份和场景来自故事。",
+        "collocation": "a passenger plane",
+        "example": "The plane flies over an island.",
+        "exampleChinese": "飞机飞过一座海岛。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 535,
+      "english": "flight",
+      "chinese": "飞行",
+      "phoneticUS": "/flaɪt/",
+      "phoneticUK": "/flaɪt/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 535
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "飞行过程与旅程由完整句子说明，不把飞机框等同于过程。",
+        "association": "飞行过程与旅程由完整句子说明，不把飞机框等同于过程。",
+        "collocation": "a long flight",
+        "example": "The flight takes us over the sea.",
+        "exampleChinese": "这次飞行带我们越过海面。"
+      }
+    },
+    {
+      "x": 805,
+      "y": 649,
+      "english": "wing",
+      "chinese": "机翼",
+      "phoneticUS": "/wɪŋ/",
+      "phoneticUK": "/wɪŋ/",
+      "bubblePosition": {
+        "x": 840,
+        "y": 530
+      },
+      "anchorPosition": {
+        "x": 805,
+        "y": 649
+      },
+      "boundingBox": {
+        "left": 622,
+        "top": 579,
+        "right": 947,
+        "bottom": 722
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "窗外实际机翼或上幅同一飞机机翼。",
+        "association": "窗外实际机翼或上幅同一飞机机翼。",
+        "collocation": "the plane wing",
+        "example": "I see the wing through the window.",
+        "exampleChinese": "我透过窗户看见机翼。"
+      }
+    },
+    {
+      "x": 365,
+      "y": 320,
+      "english": "island",
+      "chinese": "岛屿",
+      "phoneticUS": "/ˈaɪlənd/",
+      "phoneticUK": "/ˈaɪlənd/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 440
+      },
+      "anchorPosition": {
+        "x": 365,
+        "y": 320
+      },
+      "boundingBox": {
+        "left": 127,
+        "top": 231,
+        "right": 938,
+        "bottom": 405
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "海中独立岛屿的陆地范围。",
+        "association": "海中独立岛屿的陆地范围。",
+        "collocation": "a green island",
+        "example": "The island is surrounded by sea.",
+        "exampleChinese": "海水环绕着这座岛。"
+      }
+    },
+    {
+      "x": 697,
+      "y": 99,
+      "english": "high",
+      "chinese": "在高处",
+      "phoneticUS": "/haɪ/",
+      "phoneticUK": "/haɪ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 215
+      },
+      "anchorPosition": {
+        "x": 697,
+        "y": 99
+      },
+      "boundingBox": {
+        "left": 125,
+        "top": 30,
+        "right": 938,
+        "bottom": 405
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。",
+        "association": "上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。",
+        "collocation": "fly high",
+        "example": "The plane flies high above the island.",
+        "exampleChinese": "飞机在岛屿上方高处飞行。"
+      }
+    },
+    {
+      "x": 779,
+      "y": 350,
+      "english": "low",
+      "chinese": "在低处",
+      "phoneticUS": "/loʊ/",
+      "phoneticUK": "/ləʊ/",
+      "bubblePosition": {
+        "x": 820,
+        "y": 435
+      },
+      "anchorPosition": {
+        "x": 779,
+        "y": 350
+      },
+      "boundingBox": {
+        "left": 127,
+        "top": 231,
+        "right": 938,
+        "bottom": 405
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅飞机下方岛屿的相对低位置。",
+        "association": "上幅飞机下方岛屿的相对低位置。",
+        "collocation": "low below",
+        "example": "The island lies low below the plane.",
+        "exampleChinese": "岛屿位于飞机下方低处。"
+      }
+    },
+    {
+      "x": 624,
+      "y": 86,
+      "english": "transport",
+      "chinese": "运输工具",
+      "phoneticUS": "/ˈtrænspɔːrt/",
+      "phoneticUK": "/ˈtrænspɔːt/",
+      "bubblePosition": {
+        "x": 760,
+        "y": 60
+      },
+      "anchorPosition": {
+        "x": 624,
+        "y": 86
+      },
+      "boundingBox": {
+        "left": 296,
+        "top": 30,
+        "right": 728,
+        "bottom": 124
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。",
+        "association": "上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。",
+        "collocation": "our transport",
+        "example": "The plane is our transport to the island.",
+        "exampleChinese": "飞机是我们去岛上的交通工具。"
+      }
+    },
+    {
+      "x": 130,
+      "y": 945,
+      "english": "forward",
+      "chinese": "向前",
+      "phoneticUS": "/ˈfɔːrwərd/",
+      "phoneticUK": "/ˈfɔːwəd/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 945
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "静态照片不能证明运动方向，句子说明向前。",
+        "association": "静态照片不能证明运动方向，句子说明向前。",
+        "collocation": "move forward",
+        "example": "The plane moves forward through the sky.",
+        "exampleChinese": "飞机在空中向前飞行。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "The plane flies over an island, with the sea far below.",
+    "chinese": "飞机飞过一座海岛，海面远在下方。",
+    "source": "原创配文 · C036 飞机飞过海岛",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

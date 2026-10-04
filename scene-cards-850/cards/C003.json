@@ -1,0 +1,485 @@
+{
+  "id": "C003",
+  "chapter": "家里的一天",
+  "title": "整理房间",
+  "scene": "主角把盒子放进抽屉，书架、墙、地板和靠垫清楚可见。",
+  "target_count": 11,
+  "primary_words": [
+    "room",
+    "floor",
+    "wall",
+    "shelf",
+    "drawer",
+    "box",
+    "cushion",
+    "put",
+    "a",
+    "the",
+    "space"
+  ],
+  "targets": [
+    {
+      "word_id": "W605",
+      "word": "room",
+      "aliases": [],
+      "source_zh_unreviewed": "房间",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "房间",
+      "pos": "noun (countable)",
+      "ipa_us": "/ruːm/",
+      "ipa_uk": "/ruːm/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "This is my room.",
+        "matched_form": "room",
+        "context": "整个室内空间与 room 例句对应；不把单件家具当房间。",
+        "image_verified": null
+      },
+      "example_en": "This is my room.",
+      "example_zh": "这是我的房间。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a tidy room",
+        "in my room"
+      ],
+      "example_en_highlighted": "This is my **room**.",
+      "annotation_mode": "context",
+      "annotation_note": "整个室内空间与 room 例句对应；不把单件家具当房间。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/room_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W275",
+      "word": "floor",
+      "aliases": [],
+      "source_zh_unreviewed": "地板；楼层",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "地板",
+      "pos": "noun (countable)",
+      "ipa_us": "/flɔːr/",
+      "ipa_uk": "/flɔː/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框前景一块独立可辨的木地板区域，避开家具和人物。",
+        "sentence": "The floor is made of wood.",
+        "matched_form": "floor",
+        "image_verified": true
+      },
+      "example_en": "The floor is made of wood.",
+      "example_zh": "地板是木制的。",
+      "bbox_normalized": [
+        0.42,
+        0.797,
+        0.84,
+        0.975
+      ],
+      "collocations": [
+        "on the floor",
+        "a wooden floor"
+      ],
+      "example_en_highlighted": "The **floor** is made of wood.",
+      "annotation_mode": "object",
+      "annotation_note": "框前景一块独立可辨的木地板区域，避开家具和人物。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/floor_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W801",
+      "word": "wall",
+      "aliases": [],
+      "source_zh_unreviewed": "墙",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "墙",
+      "pos": "noun (countable)",
+      "ipa_us": "/wɔːl/",
+      "ipa_uk": "/wɔːl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框不被家具挡住的一片墙面。",
+        "sentence": "The wall is pale grey.",
+        "matched_form": "wall",
+        "image_verified": true
+      },
+      "example_en": "The wall is pale grey.",
+      "example_zh": "墙是浅灰色的。",
+      "bbox_normalized": [
+        0.62,
+        0.0,
+        0.998,
+        0.292
+      ],
+      "collocations": [
+        "a grey wall",
+        "against the wall"
+      ],
+      "example_en_highlighted": "The **wall** is pale grey.",
+      "annotation_mode": "object",
+      "annotation_note": "框不被家具挡住的一片墙面。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wall_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W645",
+      "word": "shelf",
+      "aliases": [],
+      "source_zh_unreviewed": "架子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "搁板",
+      "pos": "noun (countable)",
+      "ipa_us": "/ʃelf/",
+      "ipa_uk": "/ʃelf/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "只框书下的水平搁板，不把整座书架框成单数 shelf。",
+        "sentence": "The books are on the shelf.",
+        "matched_form": "shelf",
+        "image_verified": true
+      },
+      "example_en": "The books are on the shelf.",
+      "example_zh": "书放在搁板上。",
+      "bbox_normalized": [
+        0.112,
+        0.256,
+        0.332,
+        0.27
+      ],
+      "collocations": [
+        "on the shelf",
+        "a wooden shelf"
+      ],
+      "example_en_highlighted": "The books are on the **shelf**.",
+      "annotation_mode": "object",
+      "annotation_note": "只框书下的水平搁板，不把整座书架框成单数 shelf。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/shelf",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W215",
+      "word": "drawer",
+      "aliases": [],
+      "source_zh_unreviewed": "抽屉",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "抽屉",
+      "pos": "noun (countable)",
+      "ipa_us": "/drɔːr/",
+      "ipa_uk": "/drɔː/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框拉开的抽屉，不把柜体整体当抽屉。",
+        "sentence": "The drawer is open.",
+        "matched_form": "drawer",
+        "image_verified": true
+      },
+      "example_en": "The drawer is open.",
+      "example_zh": "抽屉开着。",
+      "bbox_normalized": [
+        0.026,
+        0.56,
+        0.4,
+        0.796
+      ],
+      "collocations": [
+        "open a drawer",
+        "in the drawer"
+      ],
+      "example_en_highlighted": "The **drawer** is open.",
+      "annotation_mode": "object",
+      "annotation_note": "框拉开的抽屉，不把柜体整体当抽屉。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/drawer",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W086",
+      "word": "box",
+      "aliases": [],
+      "source_zh_unreviewed": "盒子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "盒子",
+      "pos": "noun (countable)",
+      "ipa_us": "/bɑːks/",
+      "ipa_uk": "/bɒks/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框人物手中的单个纸盒。",
+        "sentence": "The box fits in the drawer.",
+        "matched_form": "box",
+        "image_verified": true
+      },
+      "example_en": "The box fits in the drawer.",
+      "example_zh": "这个盒子能放进抽屉。",
+      "bbox_normalized": [
+        0.168,
+        0.515,
+        0.365,
+        0.615
+      ],
+      "collocations": [
+        "a small box",
+        "put a box away"
+      ],
+      "example_en_highlighted": "The **box** fits in the drawer.",
+      "annotation_mode": "object",
+      "annotation_note": "框人物手中的单个纸盒。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/box_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W177",
+      "word": "cushion",
+      "aliases": [],
+      "source_zh_unreviewed": "垫子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "靠垫",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈkʊʃn/",
+      "ipa_uk": "/ˈkʊʃn/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "只框沙发上独立的靠垫，不框沙发座垫。",
+        "sentence": "A cushion is on the sofa.",
+        "matched_form": "cushion",
+        "image_verified": true
+      },
+      "example_en": "A cushion is on the sofa.",
+      "example_zh": "沙发上有一个靠垫。",
+      "bbox_normalized": [
+        0.81,
+        0.313,
+        0.995,
+        0.431
+      ],
+      "collocations": [
+        "a soft cushion",
+        "a sofa cushion"
+      ],
+      "example_en_highlighted": "A **cushion** is on the sofa.",
+      "annotation_mode": "object",
+      "annotation_note": "只框沙发上独立的靠垫，不框沙发座垫。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cushion_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W567",
+      "word": "put",
+      "aliases": [],
+      "source_zh_unreviewed": "放；放置",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "放置",
+      "pos": "verb (transitive)",
+      "ipa_us": "/pʊt/",
+      "ipa_uk": "/pʊt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。",
+        "sentence": "I put the box in the drawer.",
+        "matched_form": "put",
+        "image_verified": true
+      },
+      "example_en": "I put the box in the drawer.",
+      "example_zh": "我把盒子放进抽屉。",
+      "bbox_normalized": [
+        0.18,
+        0.47,
+        0.495,
+        0.618
+      ],
+      "collocations": [
+        "put a box in a drawer",
+        "put things away"
+      ],
+      "example_en_highlighted": "I **put** the box in the drawer.",
+      "annotation_mode": "action",
+      "annotation_note": "定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/put",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W001",
+      "word": "a",
+      "aliases": [],
+      "source_zh_unreviewed": "一个；一种",
+      "planned_mode": "context",
+      "sense_zh": "一个（初次提及）",
+      "pos": "indefinite article",
+      "ipa_us": "/ə/ (weak), /eɪ/ (strong)",
+      "ipa_uk": "/ə/ (weak), /eɪ/ (strong)",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I have a box.",
+        "matched_form": "a",
+        "context": "句中高亮 a，首次引入一个盒子；不设置冠词物体框。",
+        "image_verified": null
+      },
+      "example_en": "I have a box.",
+      "example_zh": "我有一个盒子。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a box",
+        "a cushion"
+      ],
+      "example_en_highlighted": "I have **a** box.",
+      "annotation_mode": "context",
+      "annotation_note": "句中高亮 a，首次引入一个盒子；不设置冠词物体框。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/a_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W746",
+      "word": "the",
+      "aliases": [],
+      "source_zh_unreviewed": "定冠词",
+      "planned_mode": "context",
+      "sense_zh": "这个（已知的）",
+      "pos": "definite article",
+      "ipa_us": "/ðə/ (weak before consonant), /ðiː/ (strong)",
+      "ipa_uk": "/ðə/ (weak before consonant), /ðiː/ (strong)",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I put the box in the drawer.",
+        "matched_form": "the",
+        "context": "接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。",
+        "image_verified": null
+      },
+      "example_en": "I put the box in the drawer.",
+      "example_zh": "我把那个盒子放进那个抽屉。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the box",
+        "the drawer"
+      ],
+      "example_en_highlighted": "I put **the** box in **the** drawer.",
+      "annotation_mode": "context",
+      "annotation_note": "接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/the",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W688",
+      "word": "space",
+      "aliases": [],
+      "source_zh_unreviewed": "空间",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "可用空间",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/speɪs/",
+      "ipa_uk": "/speɪs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。",
+        "sentence": "There is space on the floor.",
+        "matched_form": "space",
+        "context": "前景空地提供语境，space 指未被占用的空间，与单件物体不同；例句明确覆盖。",
+        "image_verified": null
+      },
+      "example_en": "There is space on the floor.",
+      "example_zh": "地板上有空地方。",
+      "bbox_normalized": [
+        0.03,
+        0.815,
+        0.915,
+        0.989
+      ],
+      "collocations": [
+        "make space",
+        "more space"
+      ],
+      "example_en_highlighted": "There is **space** on the floor.",
+      "annotation_mode": "object",
+      "annotation_note": "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/space_1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I put a box in the drawer to make more space in my room.",
+    "zh": "我把一个盒子放进抽屉，让房间腾出更多空间。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C003\n标题 整理房间\n场景 主角把盒子放进抽屉，书架、墙、地板和靠垫清楚可见。\n目标词 room, floor, wall, shelf, drawer, box, cushion, put, a, the, space\n原创主配文草案 I put the box in the drawer.\n中文草案 我把盒子放进抽屉。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Generate a single refined photorealistic Korean cool editorial lifestyle fashion photograph, vertical 4:5. Wide enough environmental portrait to clearly show a quiet minimalist apartment room. An adult East Asian woman about 25 with loose low bun and a few flyaway hairs, pearl ivory fine knit cardigan and pale grey long skirt, kneels naturally beside a low light oak chest of drawers. One drawer is pulled fully open toward the camera, its rectangular sides and empty interior clearly visible. She is gently placing one small plain rigid cream cardboard BOX into the open drawer, both anatomically correct hands lightly supporting the sides; box remains mostly visible just above/inside the opening so the act of placing is intelligible. Camera front three-quarter view, not top down. Required separate visible teaching elements: left background open oak bookshelf with an individual horizontal SHELF board and a few blank-spined books, large unadorned pale grey WALL in upper/right background, cool light wood FLOOR prominently visible across lower foreground, pale grey sofa at right with one clearly separate muted blue fabric CUSHION. Chest of drawers center left, sofa right, substantial clear walking SPACE in foreground, physically coherent perspective and room boundaries. Quiet high end Instagram aesthetic, cool white window daylight from off camera, pearl white mist grey muted slate blue palette, natural skin color, elegant realistic textile grain and wood grain, carefully retouched yet preserved skin texture and individual hair, no waxy skin, no CGI, no excessive bokeh; keep box, drawer, cushion, shelf, wall and floor sharply identifiable. Balanced airy composition and modest blank wall area for later bubbles. No text, letters, numbers, labels, speech bubbles, brands, watermarks or app UI. No duplicate box, no extra arms or fingers, no impossible drawer geometry.",
+  "status": "approved",
+  "image_path": "images/C003.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C003 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T09:29:47Z",
+    "ended_at": "2026-10-02T09:30:50Z",
+    "prompt_path": "prompts/C003_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C003.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "成年女性双手持一个纸盒放向打开的抽屉；手、盒、抽屉口可辨。左后方书下水平搁板、浅灰墙、前景木地板、右侧蓝色独立靠垫均可辨。空间关系可信，物体未过度虚化；无可读标注和水印。"
+  }
+}

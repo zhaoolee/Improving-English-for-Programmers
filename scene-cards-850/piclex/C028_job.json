@@ -1,0 +1,19 @@
+{
+  "cardID": "C028",
+  "imagePath": "../images/C028.png",
+  "imageSHA256": "1facba4621f162ad0901f81a17eb1bb68482a1dc4bfe30beb7c22885ad48657e",
+  "imageReviewed": true,
+  "annotationsPath": "C028_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "payment",
+    "receipt",
+    "account",
+    "credit",
+    "debt",
+    "business",
+    "profit",
+    "owner"
+  ],
+  "receiptPath": "C028_import_receipt.json"
+}

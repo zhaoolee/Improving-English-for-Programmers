@@ -1,0 +1,380 @@
+{
+  "id": "C090",
+  "chapter": "工具与科学",
+  "title": "消防安全演练",
+  "scene": "温和非真实灾难的消防演练，模型展示煤、火焰、烟、烧灼与危险。",
+  "target_count": 8,
+  "primary_words": [
+    "fire",
+    "flame",
+    "smoke",
+    "coal",
+    "burn",
+    "danger",
+    "destruction",
+    "sign"
+  ],
+  "targets": [
+    {
+      "word_id": "W267",
+      "word": "fire",
+      "aliases": [],
+      "source_zh_unreviewed": "火；火灾",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "火",
+      "pos": "noun",
+      "ipa_us": "/faɪr/",
+      "ipa_uk": "/faɪə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "炉膛模型里的火与煤的整体形象。",
+        "sentence": "The model represents fire in a small hearth.",
+        "matched_form": "fire",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The model represents fire in a small hearth.",
+      "example_zh": "模型展示小炉膛里的火。",
+      "bbox_normalized": [
+        0.591,
+        0.567,
+        0.824,
+        0.778
+      ],
+      "collocations": [
+        "a model of fire",
+        "fire safety"
+      ],
+      "example_en_highlighted": "The model represents **fire** in a small hearth.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（火），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W272",
+      "word": "flame",
+      "aliases": [],
+      "source_zh_unreviewed": "火焰；火舌",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "火焰",
+      "pos": "noun",
+      "ipa_us": "/fleɪm/",
+      "ipa_uk": "/fleɪm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "红橙色塑造的火焰舌。",
+        "sentence": "The orange flame is part of the teaching model.",
+        "matched_form": "flame",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The orange flame is part of the teaching model.",
+      "example_zh": "橙色火焰是教学模型的一部分。",
+      "bbox_normalized": [
+        0.622,
+        0.573,
+        0.782,
+        0.741
+      ],
+      "collocations": [
+        "an orange flame",
+        "a model flame"
+      ],
+      "example_en_highlighted": "The orange **flame** is part of the teaching model.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（火焰），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W670",
+      "word": "smoke",
+      "aliases": [],
+      "source_zh_unreviewed": "抽烟",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "烟",
+      "pos": "noun",
+      "ipa_us": "/smoʊk/",
+      "ipa_uk": "/sməʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "模型上方灰色塑造烟团。",
+        "sentence": "The grey shape represents smoke in the model.",
+        "matched_form": "smoke",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The grey shape represents smoke in the model.",
+      "example_zh": "灰色形状在模型中代表烟。",
+      "bbox_normalized": [
+        0.6,
+        0.427,
+        0.865,
+        0.621
+      ],
+      "collocations": [
+        "grey smoke",
+        "a smoke plume"
+      ],
+      "example_en_highlighted": "The grey shape represents **smoke** in the model.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（烟），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W138",
+      "word": "coal",
+      "aliases": [],
+      "source_zh_unreviewed": "煤",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "煤",
+      "pos": "noun",
+      "ipa_us": "/koʊl/",
+      "ipa_uk": "/kəʊl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左下独立盘内煤样，成分由教学故事指定。",
+        "sentence": "A coal sample rests in the separate dish.",
+        "matched_form": "coal",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A coal sample rests in the separate dish.",
+      "example_zh": "煤样品放在单独的碟子里。",
+      "bbox_normalized": [
+        0.343,
+        0.759,
+        0.468,
+        0.812
+      ],
+      "collocations": [
+        "a coal sample",
+        "a piece of coal"
+      ],
+      "example_en_highlighted": "A **coal** sample rests in the separate dish.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（煤），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W104",
+      "word": "burn",
+      "aliases": [],
+      "source_zh_unreviewed": "燃烧",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "燃烧",
+      "pos": "verb",
+      "ipa_us": "/bɝːn/",
+      "ipa_uk": "/bɜːn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Coal can burn, but nothing is burning in this model.",
+        "matched_form": "burn",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Coal can burn, but nothing is burning in this model.",
+      "example_zh": "煤可以燃烧，但这个模型里没有东西正在燃烧。",
+      "bbox_normalized": null,
+      "collocations": [
+        "burn slowly",
+        "coal can burn"
+      ],
+      "example_en_highlighted": "Coal can **burn**, but nothing is burning in this model.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W180",
+      "word": "danger",
+      "aliases": [],
+      "source_zh_unreviewed": "危险",
+      "planned_mode": "context",
+      "sense_zh": "危险",
+      "pos": "noun",
+      "ipa_us": "/ˈdeɪndʒɚ/",
+      "ipa_uk": "/ˈdeɪndʒə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The lesson explains the danger of an uncontrolled fire.",
+        "matched_form": "danger",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The lesson explains the danger of an uncontrolled fire.",
+      "example_zh": "这节课解释失控火灾的危险。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a fire danger",
+        "warn of danger"
+      ],
+      "example_en_highlighted": "The lesson explains the **danger** of an uncontrolled fire.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W195",
+      "word": "destruction",
+      "aliases": [],
+      "source_zh_unreviewed": "破坏；毁灭",
+      "planned_mode": "context",
+      "sense_zh": "毁坏",
+      "pos": "noun",
+      "ipa_us": "/dɪˈstrʌkʃən/",
+      "ipa_uk": "/dɪˈstrʌkʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "An uncontrolled fire can cause destruction.",
+        "matched_form": "destruction",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "An uncontrolled fire can cause destruction.",
+      "example_zh": "失控的火灾可能造成毁坏。",
+      "bbox_normalized": null,
+      "collocations": [
+        "cause destruction",
+        "destruction by fire"
+      ],
+      "example_en_highlighted": "An uncontrolled fire can cause **destruction**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W653",
+      "word": "sign",
+      "aliases": [],
+      "source_zh_unreviewed": "标志",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "标志",
+      "pos": "noun",
+      "ipa_us": "/saɪn/",
+      "ipa_uk": "/saɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧黄色三角火焰警示牌。",
+        "sentence": "The warning sign stands beside the model.",
+        "matched_form": "sign",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The warning sign stands beside the model.",
+      "example_zh": "警示标志立在模型旁。",
+      "bbox_normalized": [
+        0.849,
+        0.707,
+        0.998,
+        0.881
+      ],
+      "collocations": [
+        "a warning sign",
+        "a safety sign"
+      ],
+      "example_en_highlighted": "The warning **sign** stands beside the model.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（标志），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A teaching model shows fire, flame, and smoke beside a clear warning sign.",
+    "zh": "教学模型展示了火、火焰和烟，旁边摆着清楚的警示标志。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C090\n标题 消防安全演练\n场景 温和非真实灾难的消防演练，模型展示煤、火焰、烟、烧灼与危险。\n目标词 fire, flame, smoke, coal, burn, danger, destruction, sign\n原创主配文草案 Smoke is a sign of danger; get help.\n中文草案 烟是危险的征兆，要寻求帮助。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman in elegant modest lab coat at a museum fire-safety teaching display. Small inert three-dimensional hearth model under clear display cover, distinctly sculpted red-orange flame tongues above dark coal-like pieces, sculpted matte grey curling smoke plume above (recognizable educational model, not a real fire). Separate black coal sample on small dish, triangular plain flame pictogram warning sign beside exhibit, no text, no actual fire. Cool Korean museum editorial photography, realistic model textures, natural hands.",
+  "status": "approved",
+  "image_path": "images/C090.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 5,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C090 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:05:47 UTC",
+    "prompt_path": "prompts/C090_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C090.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "玻璃内模型火焰烟团清楚，左下煤样和右警示牌分开；强调模型非真实起火，煤成分为教学设定。"
+  }
+}

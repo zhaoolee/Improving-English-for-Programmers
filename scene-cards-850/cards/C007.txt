@@ -1,0 +1,237 @@
+C007  洗漱台前
+========================================================================
+章节: 家里的一天
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C007.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C007.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T11:56:26Z → 2026-10-02T11:57:38Z
+  提示词文件: prompts/C007_image_final.txt
+
+场景: 主角在水盆前洗手，肥皂和刷子清楚可见，浴缸在后。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 白色洗手盆、皂碟上的固体肥皂、木柄鬃毛刷、流水、盆底金属排水口和后方浴缸均清楚可辨；双手搓洗有泡沫，框选可见范围。bath采用英式浴缸义。clean为洗后结果例句，不声称图像测得洁净程度。人物和水管结构可信。
+
+主配文:
+  英文: I wash my hands with water and soap at the basin.
+  中文: 我在洗手盆前用水和肥皂洗手。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): basin, bath, soap, brush, wash, clean, water, drain
+
+------------------------------------------------------------------------
+[1/8] basin  (W053)
+  词义: 洗手盆
+  词性: noun (countable)
+  音标: UK /ˈbeɪsən/ | US /ˈbeɪsən/
+  搭配: a wash basin; at the basin
+  例句: I wash my hands in the basin.
+  例句高亮: I wash my hands in the **basin**.
+  例句中文: 我在洗手盆里洗手。
+  标注模式: object
+  标注说明: 框白色洗手盆盆体，不包含整张台面。
+  坐标(normalized): [0.037, 0.605, 0.592, 0.997]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框白色洗手盆盆体，不包含整张台面。"
+    sentence: "I wash my hands in the basin."
+    matched_form: "basin"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 盆地；水盆
+------------------------------------------------------------------------
+[2/8] bath  (W055)
+  词义: 浴缸（英式）
+  词性: noun (countable, British English)
+  音标: UK /bɑːθ/ | US /bæθ/
+  搭配: a white bath; a bath in the bathroom
+  例句: There is a white bath behind me.
+  例句高亮: There is a white **bath** behind me.
+  例句中文: 我身后有一个白色浴缸。
+  标注模式: object
+  标注说明: 本卡采用英式bath指浴缸，美式通常说bathtub。
+  坐标(normalized): [0.715, 0.205, 1.0, 0.44]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "本卡采用英式bath指浴缸，美式通常说bathtub。"
+    sentence: "There is a white bath behind me."
+    matched_form: "bath"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+    参考: https://dictionary.cambridge.org/us/dictionary/english/bath (dictionary search excerpt; full page unavailable)
+  计划模式: object_or_action_to_review | 源释义(未复核): 洗澡；浴缸
+------------------------------------------------------------------------
+[3/8] soap  (W676)
+  词义: 肥皂
+  词性: noun (uncountable)
+  音标: UK /səʊp/ | US /soʊp/
+  搭配: a bar of soap; water and soap
+  例句: The soap is on a small dish.
+  例句高亮: The **soap** is on a small dish.
+  例句中文: 肥皂放在一个小碟子上。
+  标注模式: object
+  标注说明: 定位皂碟中的固体肥皂，不把皂碟当肥皂。
+  坐标(normalized): [0.083, 0.505, 0.176, 0.553]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "定位皂碟中的固体肥皂，不把皂碟当肥皂。"
+    sentence: "The soap is on a small dish."
+    matched_form: "soap"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 肥皂
+------------------------------------------------------------------------
+[4/8] brush  (W100)
+  词义: 刷子
+  词性: noun (countable)
+  音标: UK /brʌʃ/ | US /brʌʃ/
+  搭配: a hand brush; a wooden brush
+  例句: The brush is beside the basin.
+  例句高亮: The **brush** is beside the basin.
+  例句中文: 刷子在洗手盆旁边。
+  标注模式: object
+  标注说明: 定位台面的木柄鬃毛刷。
+  坐标(normalized): [0.61, 0.88, 0.747, 0.979]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "定位台面的木柄鬃毛刷。"
+    sentence: "The brush is beside the basin."
+    matched_form: "brush"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 刷子
+------------------------------------------------------------------------
+[5/8] wash  (W804)
+  词义: 洗
+  词性: verb (transitive)
+  音标: UK /wɒʃ/ | US /wɑːʃ/
+  搭配: wash my hands; wash with soap
+  例句: I wash my hands with soap.
+  例句高亮: I **wash** my hands with soap.
+  例句中文: 我用肥皂洗手。
+  标注模式: action
+  标注说明: 双手在流水下搓洗的区域。
+  坐标(normalized): [0.234, 0.675, 0.417, 0.817]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "双手在流水下搓洗的区域。"
+    sentence: "I wash my hands with soap."
+    matched_form: "wash"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 洗
+------------------------------------------------------------------------
+[6/8] clean  (W133)
+  词义: 干净的
+  词性: adjective
+  音标: UK /kliːn/ | US /kliːn/
+  搭配: clean hands; be clean
+  例句: My hands are clean after washing.
+  例句高亮: My hands are **clean** after washing.
+  例句中文: 洗完后，我的双手很干净。
+  标注模式: context
+  标注说明: 洗后结果由例句说明，静态图不证明洁净程度。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "My hands are clean after washing."
+    matched_form: "clean"
+    context: "洗后结果由例句说明，静态图不证明洁净程度。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 清洁的
+------------------------------------------------------------------------
+[7/8] water  (W807)
+  词义: 水
+  词性: noun (uncountable)
+  音标: UK /ˈwɔːtə/ | US /ˈwɑːtər/
+  搭配: running water; water and soap
+  例句: Water flows from the tap.
+  例句高亮: **Water** flows from the tap.
+  例句中文: 水从水龙头流出。
+  标注模式: object
+  标注说明: 只框可见流水，不把整个龙头或盆作为水。
+  坐标(normalized): [0.213, 0.651, 0.255, 0.763]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只框可见流水，不把整个龙头或盆作为水。"
+    sentence: "Water flows from the tap."
+    matched_form: "water"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 水
+------------------------------------------------------------------------
+[8/8] drain  (W214)
+  词义: 排水口
+  词性: noun (countable)
+  音标: UK /dreɪn/ | US /dreɪn/
+  搭配: a basin drain; down the drain
+  例句: Water goes down the drain.
+  例句高亮: Water goes down the **drain**.
+  例句中文: 水从排水口流下去。
+  标注模式: object
+  标注说明: 框盆底可见的金属排水口，避免声称看到隐藏管道。
+  坐标(normalized): [0.283, 0.833, 0.355, 0.889]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框盆底可见的金属排水口，避免声称看到隐藏管道。"
+    sentence: "Water goes down the drain."
+    matched_form: "drain"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 排水
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C007 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=10 | meta.approved_cards=10
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. A stylish fully clothed adult woman in three-quarter side profile washing her hands at a white oval wash BASIN in an elegant pale stone bathroom. Elevated camera looking down enough to clearly see the bowl interior, thin running WATER stream, soapy hands, and circular metal DRAIN at bottom, not obscured by hands. A cream bar of SOAP on its own small dish on left counter; a small natural-bristle wooden hand BRUSH on right counter, both visually distinct and large enough to identify. One freestanding white BATH tub clearly visible in rear right. Physically plausible plumbing, simple uncluttered surfaces, no mirror duplication, carefully composed environmental portrait.

@@ -1,0 +1,1360 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "recognitionProvider": "Codex conversation vision",
+  "regionPolicy": "每卡整图一次视觉识别；具体词保留局部范围，抽象与功能词明确语境；不调用外部识别。",
+  "cards": {
+    "C081": {
+      "sourcePath": "scene-cards-850/images/C081.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:00:55 UTC",
+      "imageReview": "锤钉螺丝铰链两金属件独立，椅面裂纹清楚，擦木动作可信。",
+      "avoidRegions": [
+        [
+          355,
+          133,
+          592,
+          321
+        ]
+      ],
+      "geometry": {
+        "wood": {
+          "bubble": [
+            870,
+            90
+          ],
+          "evidence": "木椅座面的木纹。",
+          "box": [
+            491,
+            544,
+            997,
+            680
+          ],
+          "anchor": [
+            744,
+            612
+          ]
+        },
+        "hammer": {
+          "bubble": [
+            145,
+            715
+          ],
+          "evidence": "前景独立木柄锤子。",
+          "box": [
+            5,
+            735,
+            383,
+            857
+          ],
+          "anchor": [
+            194,
+            796
+          ]
+        },
+        "nail": {
+          "bubble": [
+            160,
+            955
+          ],
+          "evidence": "一根直钉，非旁边螺丝。",
+          "box": [
+            293,
+            868,
+            437,
+            920
+          ],
+          "anchor": [
+            365,
+            894
+          ]
+        },
+        "screw": {
+          "bubble": [
+            485,
+            795
+          ],
+          "evidence": "独立带螺纹螺丝。",
+          "box": [
+            396,
+            864,
+            472,
+            899
+          ],
+          "anchor": [
+            434,
+            881
+          ]
+        },
+        "metal": {
+          "bubble": [
+            865,
+            940
+          ],
+          "evidence": "底部金属铰链，反光及形态清楚。",
+          "box": [
+            519,
+            943,
+            652,
+            998
+          ],
+          "anchor": [
+            585,
+            970
+          ]
+        },
+        "iron": {
+          "bubble": [
+            155,
+            870
+          ],
+          "evidence": "深色折角支架，铁成分由教学故事指定。",
+          "box": [
+            102,
+            817,
+            266,
+            947
+          ],
+          "anchor": [
+            184,
+            882
+          ]
+        },
+        "steel": {
+          "bubble": [
+            675,
+            820
+          ],
+          "evidence": "亮色折角钢板样品，钢成分由故事指定。",
+          "box": [
+            635,
+            875,
+            835,
+            946
+          ],
+          "anchor": [
+            735,
+            910
+          ]
+        },
+        "part": {
+          "bubble": [
+            490,
+            935
+          ],
+          "evidence": "铰链是椅子零件，身份由例句明示。",
+          "box": [
+            519,
+            943,
+            652,
+            998
+          ],
+          "anchor": [
+            585,
+            970
+          ]
+        },
+        "crack": {
+          "bubble": [
+            880,
+            680
+          ],
+          "evidence": "木座面可见短裂纹。",
+          "box": [
+            692,
+            602,
+            880,
+            650
+          ],
+          "anchor": [
+            786,
+            626
+          ]
+        },
+        "polish": {
+          "bubble": [
+            155,
+            405
+          ],
+          "evidence": "手握布擦拭木座面动作。",
+          "box": [
+            207,
+            468,
+            578,
+            687
+          ],
+          "anchor": [
+            392,
+            577
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C082": {
+      "sourcePath": "scene-cards-850/images/C082.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:03:02 UTC",
+      "imageReview": "微型砖屋敞开半侧墙体，另一侧斜屋顶，前景底板和气泡水平仪、右侧粗石清楚。",
+      "avoidRegions": [
+        [
+          353,
+          147,
+          616,
+          360
+        ]
+      ],
+      "geometry": {
+        "brick": {
+          "bubble": [
+            160,
+            835
+          ],
+          "evidence": "底板上独立小红砖。",
+          "box": [
+            244,
+            743,
+            411,
+            798
+          ],
+          "anchor": [
+            327,
+            770
+          ]
+        },
+        "stone": {
+          "bubble": [
+            865,
+            950
+          ],
+          "evidence": "右侧独立灰石。",
+          "box": [
+            882,
+            706,
+            998,
+            784
+          ],
+          "anchor": [
+            940,
+            745
+          ]
+        },
+        "roof": {
+          "bubble": [
+            870,
+            425
+          ],
+          "evidence": "小屋右半侧坡屋顶。",
+          "box": [
+            579,
+            561,
+            831,
+            682
+          ],
+          "anchor": [
+            705,
+            621
+          ]
+        },
+        "base": {
+          "bubble": [
+            480,
+            945
+          ],
+          "evidence": "承托模型的木底座，取前沿可见面。",
+          "box": [
+            162,
+            731,
+            998,
+            876
+          ],
+          "anchor": [
+            580,
+            803
+          ]
+        },
+        "structure": {
+          "bubble": [
+            175,
+            620
+          ],
+          "evidence": "敞开红砖墙及门洞的墙体结构。",
+          "box": [
+            367,
+            573,
+            647,
+            788
+          ],
+          "anchor": [
+            507,
+            680
+          ]
+        },
+        "level": {
+          "bubble": [
+            870,
+            785
+          ],
+          "evidence": "水平仪气泡和底板，水平属性由示范故事指定。",
+          "box": [
+            695,
+            763,
+            860,
+            807
+          ],
+          "anchor": [
+            777,
+            785
+          ]
+        },
+        "fixed": {
+          "bubble": [
+            160,
+            110
+          ],
+          "evidence": "固定状态由故事明确，静态图不能证明安装牢固。"
+        },
+        "board": {
+          "bubble": [
+            490,
+            810
+          ],
+          "evidence": "承托房屋的独立木板。",
+          "box": [
+            162,
+            731,
+            998,
+            876
+          ],
+          "anchor": [
+            580,
+            803
+          ]
+        },
+        "rough": {
+          "bubble": [
+            870,
+            630
+          ],
+          "evidence": "石头有清楚粗糙不规则表面。",
+          "box": [
+            882,
+            706,
+            998,
+            784
+          ],
+          "anchor": [
+            940,
+            745
+          ]
+        },
+        "top": {
+          "bubble": [
+            865,
+            95
+          ],
+          "evidence": "模型屋顶顶部边缘。",
+          "box": [
+            572,
+            554,
+            760,
+            592
+          ],
+          "anchor": [
+            666,
+            573
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C083": {
+      "sourcePath": "scene-cards-850/images/C083.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:01:31 UTC",
+      "imageReview": "左手操作泵，前景透明空心管和右实心杆端面清楚，蓝管下弯后进入水罐，设备完整。",
+      "avoidRegions": [
+        [
+          411,
+          116,
+          619,
+          354
+        ]
+      ],
+      "geometry": {
+        "pipe": {
+          "bubble": [
+            160,
+            920
+          ],
+          "evidence": "前景独立透明管道。",
+          "box": [
+            327,
+            752,
+            692,
+            855
+          ],
+          "anchor": [
+            509,
+            803
+          ]
+        },
+        "pump": {
+          "bubble": [
+            145,
+            405
+          ],
+          "evidence": "左侧手动泵。",
+          "box": [
+            73,
+            460,
+            211,
+            744
+          ],
+          "anchor": [
+            142,
+            602
+          ]
+        },
+        "elastic": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "弹性需变形测试，本卡由句子指定。"
+        },
+        "solid": {
+          "bubble": [
+            865,
+            940
+          ],
+          "evidence": "右前实心透明杆，端面封实。",
+          "box": [
+            707,
+            811,
+            904,
+            887
+          ],
+          "anchor": [
+            805,
+            849
+          ]
+        },
+        "hollow": {
+          "bubble": [
+            490,
+            930
+          ],
+          "evidence": "前景空心管左端可见贯穿开口。",
+          "box": [
+            329,
+            752,
+            368,
+            805
+          ],
+          "anchor": [
+            348,
+            778
+          ]
+        },
+        "stiff": {
+          "bubble": [
+            150,
+            90
+          ],
+          "evidence": "刚性由教学故事说明，不凭静态形状断言。"
+        },
+        "bent": {
+          "bubble": [
+            490,
+            545
+          ],
+          "evidence": "蓝软管明显下弯再上弯。",
+          "box": [
+            199,
+            538,
+            826,
+            729
+          ],
+          "anchor": [
+            512,
+            633
+          ]
+        },
+        "apparatus": {
+          "bubble": [
+            865,
+            410
+          ],
+          "evidence": "泵、蓝管、水罐组成特定演示装置，框只取装置。",
+          "box": [
+            73,
+            460,
+            952,
+            765
+          ],
+          "anchor": [
+            512,
+            612
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C084": {
+      "sourcePath": "scene-cards-850/images/C084.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:04:04 UTC",
+      "imageReview": "双手持断开的绝缘线，灯泡未亮，电池分离；铜卷黄铜垫圈锡片分开放置，成分由教学设定。",
+      "avoidRegions": [
+        [
+          425,
+          115,
+          693,
+          349
+        ]
+      ],
+      "geometry": {
+        "wire": {
+          "bubble": [
+            160,
+            390
+          ],
+          "evidence": "连接灯座但另一端断开的红黑绝缘导线。",
+          "box": [
+            271,
+            460,
+            703,
+            740
+          ],
+          "anchor": [
+            487,
+            600
+          ]
+        },
+        "bulb": {
+          "bubble": [
+            490,
+            555
+          ],
+          "evidence": "灯座上独立小灯泡。",
+          "box": [
+            375,
+            676,
+            425,
+            717
+          ],
+          "anchor": [
+            400,
+            696
+          ]
+        },
+        "electric": {
+          "bubble": [
+            855,
+            705
+          ],
+          "evidence": "灯座导线及分离电池组成教学电路。",
+          "box": [
+            352,
+            669,
+            909,
+            803
+          ],
+          "anchor": [
+            630,
+            736
+          ]
+        },
+        "copper": {
+          "bubble": [
+            160,
+            840
+          ],
+          "evidence": "前景红色线圈，故事指定为铜。",
+          "box": [
+            72,
+            775,
+            316,
+            862
+          ],
+          "anchor": [
+            194,
+            818
+          ]
+        },
+        "brass": {
+          "bubble": [
+            495,
+            925
+          ],
+          "evidence": "前景金色圆垫圈，故事指定黄铜。",
+          "box": [
+            359,
+            822,
+            495,
+            870
+          ],
+          "anchor": [
+            427,
+            846
+          ]
+        },
+        "tin": {
+          "bubble": [
+            850,
+            945
+          ],
+          "evidence": "右前银色矩形样品，故事指定锡。",
+          "box": [
+            579,
+            837,
+            781,
+            905
+          ],
+          "anchor": [
+            680,
+            871
+          ]
+        },
+        "power": {
+          "bubble": [
+            150,
+            90
+          ],
+          "evidence": "检查前关闭电源由句子说明。"
+        },
+        "current": {
+          "bubble": [
+            850,
+            90
+          ],
+          "evidence": "断开电路无电流由教学句子表达，不凭外观测电流。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C085": {
+      "sourcePath": "scene-cards-850/images/C085.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:02:35 UTC",
+      "imageReview": "双手拧白绳，棍架悬挂纸形，左银链和右纸卷清楚，折叠只标结果并用句子明确动作。",
+      "avoidRegions": [
+        [
+          263,
+          128,
+          513,
+          405
+        ]
+      ],
+      "geometry": {
+        "chain": {
+          "bubble": [
+            150,
+            905
+          ],
+          "evidence": "桌左银色短链。",
+          "box": [
+            68,
+            788,
+            201,
+            822
+          ],
+          "anchor": [
+            134,
+            805
+          ]
+        },
+        "cord": {
+          "bubble": [
+            160,
+            480
+          ],
+          "evidence": "双手中的两股白绳。",
+          "box": [
+            348,
+            474,
+            522,
+            516
+          ],
+          "anchor": [
+            435,
+            495
+          ]
+        },
+        "stick": {
+          "bubble": [
+            850,
+            465
+          ],
+          "evidence": "支架间横放的木棍。",
+          "box": [
+            413,
+            630,
+            940,
+            661
+          ],
+          "anchor": [
+            676,
+            645
+          ]
+        },
+        "hanging": {
+          "bubble": [
+            860,
+            685
+          ],
+          "evidence": "由绳挂在木棍下的白纸形。",
+          "box": [
+            598,
+            642,
+            740,
+            818
+          ],
+          "anchor": [
+            669,
+            730
+          ]
+        },
+        "twist": {
+          "bubble": [
+            650,
+            420
+          ],
+          "evidence": "双手将白绳拧在一起的动作。",
+          "box": [
+            270,
+            435,
+            666,
+            578
+          ],
+          "anchor": [
+            468,
+            506
+          ]
+        },
+        "fold": {
+          "bubble": [
+            160,
+            720
+          ],
+          "evidence": "前景折叠纸的结果；折纸动作由故事说明。",
+          "box": [
+            99,
+            816,
+            483,
+            965
+          ],
+          "anchor": [
+            291,
+            890
+          ]
+        },
+        "roll": {
+          "bubble": [
+            850,
+            930
+          ],
+          "evidence": "右侧圆柱纸卷。",
+          "box": [
+            803,
+            722,
+            998,
+            948
+          ],
+          "anchor": [
+            900,
+            835
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C086": {
+      "sourcePath": "scene-cards-850/images/C086.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:02:09 UTC",
+      "imageReview": "五种封存展示样品清楚，深色瓶有警示图形；物质成分教学设定，不把图生背景细字当来源。",
+      "avoidRegions": [
+        [
+          335,
+          95,
+          589,
+          329
+        ]
+      ],
+      "geometry": {
+        "acid": {
+          "bubble": [
+            145,
+            645
+          ],
+          "evidence": "左边封存透明液体瓶，故事指定酸样品。",
+          "box": [
+            66,
+            688,
+            161,
+            861
+          ],
+          "anchor": [
+            113,
+            774
+          ]
+        },
+        "chemical": {
+          "bubble": [
+            155,
+            825
+          ],
+          "evidence": "左侧棕色样品瓶，故事指定化学物质。",
+          "box": [
+            195,
+            704,
+            285,
+            859
+          ],
+          "anchor": [
+            240,
+            781
+          ]
+        },
+        "powder": {
+          "bubble": [
+            395,
+            940
+          ],
+          "evidence": "前景白粉玻璃罐。",
+          "box": [
+            285,
+            739,
+            446,
+            922
+          ],
+          "anchor": [
+            365,
+            830
+          ]
+        },
+        "substance": {
+          "bubble": [
+            600,
+            795
+          ],
+          "evidence": "中间玻璃罩下固体结晶样品。",
+          "box": [
+            576,
+            716,
+            737,
+            834
+          ],
+          "anchor": [
+            656,
+            775
+          ]
+        },
+        "expansion": {
+          "bubble": [
+            850,
+            95
+          ],
+          "evidence": "气体受热膨胀由句子教学。"
+        },
+        "reaction": {
+          "bubble": [
+            850,
+            400
+          ],
+          "evidence": "讨论化学反应，封存样品未进行混合。"
+        },
+        "science": {
+          "bubble": [
+            150,
+            95
+          ],
+          "evidence": "科学提问由句子说明。"
+        },
+        "theory": {
+          "bubble": [
+            145,
+            470
+          ],
+          "evidence": "理论解释预测由例句教学。"
+        },
+        "poison": {
+          "bubble": [
+            850,
+            940
+          ],
+          "evidence": "右侧有警示的深瓶，故事明确代表毒物。",
+          "box": [
+            830,
+            650,
+            956,
+            885
+          ],
+          "anchor": [
+            893,
+            767
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C087": {
+      "sourcePath": "scene-cards-850/images/C087.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:03:28 UTC",
+      "imageReview": "尺在木板上，天平两端同形木块及水平横梁清楚；不把质量重量数字编造为可读数据。",
+      "avoidRegions": [
+        [
+          315,
+          112,
+          552,
+          350
+        ]
+      ],
+      "geometry": {
+        "measure": {
+          "bubble": [
+            145,
+            470
+          ],
+          "evidence": "双手把尺贴木板测长度。",
+          "box": [
+            173,
+            602,
+            789,
+            726
+          ],
+          "anchor": [
+            481,
+            664
+          ]
+        },
+        "scale": {
+          "bubble": [
+            855,
+            295
+          ],
+          "evidence": "右侧双盘天平。",
+          "box": [
+            639,
+            349,
+            998,
+            669
+          ],
+          "anchor": [
+            818,
+            509
+          ]
+        },
+        "weight": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "比较重量由教学句子说明。"
+        },
+        "mass": {
+          "bubble": [
+            145,
+            85
+          ],
+          "evidence": "同质量由教学设定，不仅凭立方体同形断言。"
+        },
+        "degree": {
+          "bubble": [
+            150,
+            810
+          ],
+          "evidence": "差异程度由例句明示。"
+        },
+        "equal": {
+          "bubble": [
+            860,
+            570
+          ],
+          "evidence": "天平两端木块与平衡横梁，由演示设定重量相等。",
+          "box": [
+            642,
+            491,
+            998,
+            578
+          ],
+          "anchor": [
+            820,
+            534
+          ]
+        },
+        "even": {
+          "bubble": [
+            515,
+            900
+          ],
+          "evidence": "木板平整可见表面。",
+          "box": [
+            252,
+            700,
+            998,
+            853
+          ],
+          "anchor": [
+            625,
+            776
+          ]
+        },
+        "range": {
+          "bubble": [
+            850,
+            930
+          ],
+          "evidence": "尺的测量范围由句子表达，不读图上数字。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C088": {
+      "sourcePath": "scene-cards-850/images/C088.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:05:08 UTC",
+      "imageReview": "左手工具、前景齿轮原型及右侧玻璃内机械臂清楚；发明身份由展览故事指定。",
+      "avoidRegions": [
+        [
+          379,
+          157,
+          534,
+          286
+        ]
+      ],
+      "geometry": {
+        "discovery": {
+          "bubble": [
+            160,
+            90
+          ],
+          "evidence": "发现揭示既有事物，原创定义。"
+        },
+        "invention": {
+          "bubble": [
+            510,
+            915
+          ],
+          "evidence": "前景齿轮原型，故事明确代表发明。",
+          "box": [
+            524,
+            667,
+            845,
+            809
+          ],
+          "anchor": [
+            684,
+            738
+          ]
+        },
+        "development": {
+          "bubble": [
+            835,
+            90
+          ],
+          "evidence": "技术发展由展览故事表达。"
+        },
+        "automatic": {
+          "bubble": [
+            850,
+            300
+          ],
+          "evidence": "按程序运行是故事设定，照片机器未运行。"
+        },
+        "machine": {
+          "bubble": [
+            850,
+            530
+          ],
+          "evidence": "右侧玻璃罩中小机械臂。",
+          "box": [
+            794,
+            384,
+            998,
+            623
+          ],
+          "anchor": [
+            896,
+            503
+          ]
+        },
+        "process": {
+          "bubble": [
+            155,
+            490
+          ],
+          "evidence": "改进原型的过程由句子说明。"
+        },
+        "purpose": {
+          "bubble": [
+            155,
+            860
+          ],
+          "evidence": "展示目的在例句里。"
+        },
+        "attempt": {
+          "bubble": [
+            500,
+            620
+          ],
+          "evidence": "第一次设计尝试由故事指定。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C089": {
+      "sourcePath": "scene-cards-850/images/C089.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:04:32 UTC",
+      "imageReview": "上幅风扇吹向纸房子，纸条飘动；下幅房子塌成纸团。因果由成对画面和教学故事说明，burst/crush/smash不冒充看见动作。",
+      "avoidRegions": [
+        [
+          221,
+          117,
+          401,
+          248
+        ],
+        [
+          241,
+          628,
+          414,
+          764
+        ]
+      ],
+      "geometry": {
+        "cause": {
+          "bubble": [
+            850,
+            80
+          ],
+          "evidence": "上幅风扇与纸屋关系，故事明示风为倒塌原因。",
+          "box": [
+            453,
+            224,
+            956,
+            466
+          ],
+          "anchor": [
+            704,
+            345
+          ]
+        },
+        "effect": {
+          "bubble": [
+            850,
+            550
+          ],
+          "evidence": "下幅倒塌纸模型，故事明示风造成的结果。",
+          "box": [
+            706,
+            852,
+            952,
+            957
+          ],
+          "anchor": [
+            829,
+            904
+          ]
+        },
+        "reason": {
+          "bubble": [
+            150,
+            80
+          ],
+          "evidence": "使用轻纸模型的理由由例句解释。"
+        },
+        "force": {
+          "bubble": [
+            150,
+            375
+          ],
+          "evidence": "流动空气施力是教学说明，不编造力值。"
+        },
+        "blow": {
+          "bubble": [
+            520,
+            420
+          ],
+          "evidence": "风扇指向纸屋，飘动纸条和故事表达吹风。",
+          "box": [
+            462,
+            226,
+            953,
+            466
+          ],
+          "anchor": [
+            707,
+            346
+          ]
+        },
+        "burst": {
+          "bubble": [
+            150,
+            555
+          ],
+          "evidence": "气球可能爆裂的对照例句，画面不含气球。"
+        },
+        "crush": {
+          "bubble": [
+            850,
+            710
+          ],
+          "evidence": "受压压坏纸模型由句子表达，不声称下图是施压动作。"
+        },
+        "damage": {
+          "bubble": [
+            520,
+            940
+          ],
+          "evidence": "下幅纸房子变形破坏的可见结果。",
+          "box": [
+            706,
+            852,
+            952,
+            957
+          ],
+          "anchor": [
+            829,
+            904
+          ]
+        },
+        "smash": {
+          "bubble": [
+            150,
+            935
+          ],
+          "evidence": "杯子受撞可砸碎的对照例句，画面无砸杯动作。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C090": {
+      "sourcePath": "scene-cards-850/images/C090.png",
+      "generationStartedAt": "2026-10-03 18:00:15 UTC",
+      "generationEndedAt": "2026-10-03 18:05:47 UTC",
+      "imageReview": "玻璃内模型火焰烟团清楚，左下煤样和右警示牌分开；强调模型非真实起火，煤成分为教学设定。",
+      "avoidRegions": [
+        [
+          357,
+          176,
+          529,
+          346
+        ]
+      ],
+      "geometry": {
+        "fire": {
+          "bubble": [
+            850,
+            320
+          ],
+          "evidence": "炉膛模型里的火与煤的整体形象。",
+          "box": [
+            591,
+            567,
+            824,
+            778
+          ],
+          "anchor": [
+            707,
+            672
+          ]
+        },
+        "flame": {
+          "bubble": [
+            490,
+            670
+          ],
+          "evidence": "红橙色塑造的火焰舌。",
+          "box": [
+            622,
+            573,
+            782,
+            741
+          ],
+          "anchor": [
+            702,
+            657
+          ]
+        },
+        "smoke": {
+          "bubble": [
+            850,
+            85
+          ],
+          "evidence": "模型上方灰色塑造烟团。",
+          "box": [
+            600,
+            427,
+            865,
+            621
+          ],
+          "anchor": [
+            732,
+            524
+          ]
+        },
+        "coal": {
+          "bubble": [
+            420,
+            940
+          ],
+          "evidence": "左下独立盘内煤样，成分由教学故事指定。",
+          "box": [
+            343,
+            759,
+            468,
+            812
+          ],
+          "anchor": [
+            405,
+            785
+          ]
+        },
+        "burn": {
+          "bubble": [
+            150,
+            80
+          ],
+          "evidence": "煤可燃但模型没燃烧的对比句。"
+        },
+        "danger": {
+          "bubble": [
+            150,
+            470
+          ],
+          "evidence": "失控火灾的危险在句子表达。"
+        },
+        "destruction": {
+          "bubble": [
+            170,
+            760
+          ],
+          "evidence": "毁坏可能性由例句表达，不把背景照片当实际事件。"
+        },
+        "sign": {
+          "bubble": [
+            850,
+            950
+          ],
+          "evidence": "右侧黄色三角火焰警示牌。",
+          "box": [
+            849,
+            707,
+            998,
+            881
+          ],
+          "anchor": [
+            923,
+            794
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "reviewCompletedAt": "2026-10-03T18:13:07.018689+00:00"
+}

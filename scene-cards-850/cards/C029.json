@@ -1,0 +1,375 @@
+{
+  "id": "C029",
+  "chapter": "穿衣与购物",
+  "title": "礼物与首饰",
+  "scene": "礼品柜有戒指、宝石、金银饰物和装饰品，蜡烛与贺卡放在旁。",
+  "target_count": 8,
+  "primary_words": [
+    "ring",
+    "jewel",
+    "gold",
+    "silver",
+    "ornament",
+    "card",
+    "special",
+    "wax"
+  ],
+  "targets": [
+    {
+      "word_id": "W599",
+      "word": "ring",
+      "aliases": [],
+      "source_zh_unreviewed": "环；戒指",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "戒指",
+      "pos": "noun",
+      "ipa_us": "/rɪŋ/",
+      "ipa_uk": "/rɪŋ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "左前方盒中的独立戒指",
+        "sentence": "The ring is in the box.",
+        "matched_form": "ring",
+        "image_verified": true
+      },
+      "example_en": "The ring is in the box.",
+      "example_zh": "戒指放在盒子里。",
+      "bbox_normalized": [
+        0.236,
+        0.739,
+        0.307,
+        0.789
+      ],
+      "collocations": [
+        "a silver ring"
+      ],
+      "example_en_highlighted": "The **ring** is in the box.",
+      "annotation_mode": "object",
+      "annotation_note": "左前方盒中的独立戒指",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W370",
+      "word": "jewel",
+      "aliases": [],
+      "source_zh_unreviewed": "珠宝；宝石",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "宝石",
+      "pos": "noun",
+      "ipa_us": "/ˈdʒuːəl/",
+      "ipa_uk": "/ˈdʒuːəl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "独立有切面的蓝色宝石，身份由原创设定说明，不声称已鉴定天然产地",
+        "sentence": "The blue jewel is on the velvet.",
+        "matched_form": "jewel",
+        "image_verified": true
+      },
+      "example_en": "The blue jewel is on the velvet.",
+      "example_zh": "蓝色宝石放在绒布上。",
+      "bbox_normalized": [
+        0.455,
+        0.767,
+        0.539,
+        0.83
+      ],
+      "collocations": [
+        "a blue jewel"
+      ],
+      "example_en_highlighted": "The blue **jewel** is on the velvet.",
+      "annotation_mode": "object",
+      "annotation_note": "独立有切面的蓝色宝石，身份由原创设定说明，不声称已鉴定天然产地",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W306",
+      "word": "gold",
+      "aliases": [],
+      "source_zh_unreviewed": "黄金",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "金",
+      "pos": "noun",
+      "ipa_us": "/ɡoʊld/",
+      "ipa_uk": "/ɡəʊld/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景右侧金色手镯的实际区域；金材质由原创故事明确，框定位所指手镯，不从反光鉴定黄金。",
+        "sentence": "In this story, the bracelet is made of gold.",
+        "matched_form": "gold",
+        "context": "采用金这一材质义，由故事设定明确，不从黄色反光证明成分",
+        "image_verified": null
+      },
+      "example_en": "In this story, the bracelet is made of gold.",
+      "example_zh": "在这个故事里，手镯是金制的。",
+      "bbox_normalized": [
+        0.702,
+        0.744,
+        0.955,
+        0.839
+      ],
+      "collocations": [
+        "made of gold"
+      ],
+      "example_en_highlighted": "In this story, the bracelet is made of **gold**.",
+      "annotation_mode": "object",
+      "annotation_note": "前景右侧金色手镯的实际区域；金材质由原创故事明确，框定位所指手镯，不从反光鉴定黄金。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W655",
+      "word": "silver",
+      "aliases": [],
+      "source_zh_unreviewed": "银",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "银",
+      "pos": "noun",
+      "ipa_us": "/ˈsɪlvər/",
+      "ipa_uk": "/ˈsɪlvə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景戒指的实际区域；银材质来自原创故事，框定位所指戒指，不从颜色鉴定银。",
+        "sentence": "In this story, the ring is made of silver.",
+        "matched_form": "silver",
+        "context": "采用银这一材质义，由故事设定明确，不从颜色鉴定成分",
+        "image_verified": null
+      },
+      "example_en": "In this story, the ring is made of silver.",
+      "example_zh": "在这个故事里，戒指是银制的。",
+      "bbox_normalized": [
+        0.236,
+        0.739,
+        0.307,
+        0.789
+      ],
+      "collocations": [
+        "made of silver"
+      ],
+      "example_en_highlighted": "In this story, the ring is made of **silver**.",
+      "annotation_mode": "object",
+      "annotation_note": "前景戒指的实际区域；银材质来自原创故事，框定位所指戒指，不从颜色鉴定银。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W503",
+      "word": "ornament",
+      "aliases": [],
+      "source_zh_unreviewed": "装饰品",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "装饰品",
+      "pos": "noun",
+      "ipa_us": "/ˈɔːrnəmənt/",
+      "ipa_uk": "/ˈɔːnəmənt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "桌上独立陶瓷星形装饰品",
+        "sentence": "The star is an ornament.",
+        "matched_form": "ornament",
+        "image_verified": true
+      },
+      "example_en": "The star is an ornament.",
+      "example_zh": "这颗星星是装饰品。",
+      "bbox_normalized": [
+        0.0,
+        0.577,
+        0.157,
+        0.696
+      ],
+      "collocations": [
+        "a star ornament"
+      ],
+      "example_en_highlighted": "The star is an **ornament**.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上独立陶瓷星形装饰品",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W114",
+      "word": "card",
+      "aliases": [],
+      "source_zh_unreviewed": "卡片",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "贺卡",
+      "pos": "noun",
+      "ipa_us": "/kɑːrd/",
+      "ipa_uk": "/kɑːd/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "右侧独立折叠贺卡，不是收据；用途由原创设定说明",
+        "sentence": "The card stands beside the gift.",
+        "matched_form": "card",
+        "image_verified": true
+      },
+      "example_en": "The card stands beside the gift.",
+      "example_zh": "贺卡立在礼物旁边。",
+      "bbox_normalized": [
+        0.631,
+        0.58,
+        0.892,
+        0.733
+      ],
+      "collocations": [
+        "a greeting card"
+      ],
+      "example_en_highlighted": "The **card** stands beside the gift.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧独立折叠贺卡，不是收据；用途由原创设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W690",
+      "word": "special",
+      "aliases": [],
+      "source_zh_unreviewed": "特别的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "特别的",
+      "pos": "adjective",
+      "ipa_us": "/ˈspeʃəl/",
+      "ipa_uk": "/ˈspeʃəl/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The ring is a special gift for me.",
+        "matched_form": "special",
+        "context": "特别这一情感评价由原创叙述说明",
+        "image_verified": null
+      },
+      "example_en": "The ring is a special gift for me.",
+      "example_zh": "这枚戒指是给我的特别礼物。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a special gift"
+      ],
+      "example_en_highlighted": "The ring is a **special** gift for me.",
+      "annotation_mode": "context",
+      "annotation_note": "特别这一情感评价由原创叙述说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W809",
+      "word": "wax",
+      "aliases": [],
+      "source_zh_unreviewed": "蜡",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蜡",
+      "pos": "noun",
+      "ipa_us": "/wæks/",
+      "ipa_uk": "/wæks/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧蜡烛蜡质柱体区域；蜡材质由原创设定说明，不把烛台玻璃等同于蜡。",
+        "sentence": "The candle is made of wax.",
+        "matched_form": "wax",
+        "context": "材质由设定说明，蜡烛为场景线索",
+        "image_verified": null
+      },
+      "example_en": "The candle is made of wax.",
+      "example_zh": "这支蜡烛是蜡制的。",
+      "bbox_normalized": [
+        0.891,
+        0.551,
+        0.999,
+        0.683
+      ],
+      "collocations": [
+        "candle wax"
+      ],
+      "example_en_highlighted": "The candle is made of **wax**.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧蜡烛蜡质柱体区域；蜡材质由原创设定说明，不把烛台玻璃等同于蜡。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A silver ring makes this quiet moment feel special.",
+    "zh": "一枚银戒指，让这个安静的时刻变得特别。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C029\n标题 礼物与首饰\n场景 礼品柜有戒指、宝石、金银饰物和装饰品，蜡烛与贺卡放在旁。\n目标词 ring, jewel, gold, silver, ornament, card, special, wax\n原创主配文草案 This silver ring is a special present.\n中文草案 这枚银戒指是一份特别的礼物。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated ivory and slate clothes, loose dark low bun, natural pores with subtle magazine retouch, real hands and materials. Cool soft daylight, coherent single scene, important teaching props clearly readable, calm blank space near image borders for later annotations. No text, letters, digits, logos, brand names, watermark or UI. Refined jewelry gift table editorial. Adult woman at rear center gently arranging a velvet gift box. Foreground clearly separated teaching props: ONE plain SILVER RING standing in an open slate velvet ring box at left-front; one loose large faceted BLUE GEMSTONE on tiny dark velvet pad center-front; a simple GOLD BRACELET on white dish right-front; small decorative CERAMIC STAR ornament on left-mid table; blank cream folded GREETING CARD standing right-mid table; one short ivory WAX CANDLE unlit in clear holder rear-right. Crisp gemstone facets, authentic metallic reflections and wax surface, restrained luxury, no text on card, no logos, quiet negative space.",
+  "status": "approved",
+  "image_path": "images/C029.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C029 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T02:53:32Z",
+    "ended_at": "2026-10-03T02:55:29Z",
+    "prompt_path": "prompts/C029_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C029.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "盒中银戒指、独立蓝色切面宝石、金色手镯、陶瓷星、折叠贺卡和未点燃蜡烛可辨。金银与蜡的材质身份由故事说明，不声称已鉴定；人物手部自然。"
+  }
+}

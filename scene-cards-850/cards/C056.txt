@@ -1,0 +1,256 @@
+C056  处理小伤口
+========================================================================
+章节: 身体与健康
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C056.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C056.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T14:55:34Z → 2026-10-03T14:59:59Z
+  提示词文件: prompts/C056_image_final.txt
+
+场景: 医护人员包扎小伤，血与伤口采用温和教学图，病人神志清醒。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 前臂可见针尖大小红点与微小伤口，托盘纱布有独立血点；护士贴敷动作清楚，未画手术，operation例句为不需要手术。
+
+主配文:
+  英文: A small wound on my arm needs care, and someone is here to help.
+  中文: 手臂上的小伤口需要照料，有人正在帮我。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): wound, blood, operation, conscious, physical, serious, help, safe
+
+------------------------------------------------------------------------
+[1/8] wound  (W842)
+  词义: 伤口
+  词性: noun
+  音标: UK /wuːnd/ | US /wuːnd/
+  搭配: a small wound
+  例句: There is a small wound on my arm.
+  例句高亮: There is a small **wound** on my arm.
+  例句中文: 我的手臂上有一个小伤口。
+  标注模式: object
+  标注说明: 前臂微小红点伤口，框选这一局部，非整条手臂。
+  坐标(normalized): [0.439, 0.676, 0.472, 0.699]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前臂微小红点伤口，框选这一局部，非整条手臂。"
+    sentence: "There is a small wound on my arm."
+    matched_form: "wound"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 伤口
+
+------------------------------------------------------------------------
+[2/8] blood  (W075)
+  词义: 血
+  词性: noun
+  音标: UK /blʌd/ | US /blʌd/
+  搭配: a drop of blood
+  例句: A drop of blood marks the gauze.
+  例句高亮: A drop of **blood** marks the gauze.
+  例句中文: 一滴血在纱布上留下痕迹。
+  标注模式: object
+  标注说明: 纱布上的小红点由故事说明为血，非材料检测。
+  坐标(normalized): [0.731, 0.855, 0.763, 0.875]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "纱布上的小红点由故事说明为血，非材料检测。"
+    sentence: "A drop of blood marks the gauze."
+    matched_form: "blood"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 血
+
+------------------------------------------------------------------------
+[3/8] operation  (W496)
+  词义: 手术
+  词性: noun
+  音标: UK /ˌɒpəˈreɪʃən/ | US /ˌɑːpəˈreɪʃən/
+  搭配: an operation
+  例句: The doctor says this wound does not need an operation.
+  例句高亮: The doctor says this wound does not need an **operation**.
+  例句中文: 医生说这个伤口不需要手术。
+  标注模式: context
+  标注说明: 包扎不冒充手术，判断仅为虚构故事台词。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The doctor says this wound does not need an operation."
+    matched_form: "operation"
+    context: "包扎不冒充手术，判断仅为虚构故事台词。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 操作；手术
+
+------------------------------------------------------------------------
+[4/8] conscious  (W155)
+  词义: 神志清醒的
+  词性: adjective
+  音标: UK /ˈkɒnʃəs/ | US /ˈkɑːnʃəs/
+  搭配: remain conscious
+  例句: I remain conscious and answer the nurse.
+  例句高亮: I remain **conscious** and answer the nurse.
+  例句中文: 我保持清醒，回答护士的话。
+  标注模式: context
+  标注说明: 清醒状态由故事明确，不仅按睁眼判断。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I remain conscious and answer the nurse."
+    matched_form: "conscious"
+    context: "清醒状态由故事明确，不仅按睁眼判断。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 有意识的
+
+------------------------------------------------------------------------
+[5/8] physical  (W523)
+  词义: 身体的
+  词性: adjective
+  音标: UK /ˈfɪzɪkəl/ | US /ˈfɪzɪkəl/
+  搭配: physical discomfort
+  例句: The wound causes physical discomfort.
+  例句高亮: The wound causes **physical** discomfort.
+  例句中文: 这个伤口带来身体不适。
+  标注模式: context
+  标注说明: physical与不适搭配，由完整句子支持。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The wound causes physical discomfort."
+    matched_form: "physical"
+    context: "physical与不适搭配，由完整句子支持。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 物理的；身体的
+
+------------------------------------------------------------------------
+[6/8] serious  (W637)
+  词义: 严重的
+  词性: adjective
+  音标: UK /ˈsɪəriəs/ | US /ˈsɪriəs/
+  搭配: a serious injury
+  例句: The nurse says the injury is not serious.
+  例句高亮: The nurse says the injury is not **serious**.
+  例句中文: 护士说这次受伤并不严重。
+  标注模式: context
+  标注说明: 不用表面图进行真实伤情分级。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The nurse says the injury is not serious."
+    matched_form: "serious"
+    context: "不用表面图进行真实伤情分级。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 严肃的
+
+------------------------------------------------------------------------
+[7/8] help  (W336)
+  词义: 帮助
+  词性: verb
+  音标: UK /help/ | US /help/
+  搭配: help me
+  例句: The nurse helps me with the dressing.
+  例句高亮: The nurse **helps** me with the dressing.
+  例句中文: 护士帮我处理敷料。
+  标注模式: action
+  标注说明: 实际护理协助动作的手部区域。
+  坐标(normalized): [0.457, 0.583, 0.8, 0.795]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际护理协助动作的手部区域。"
+    sentence: "The nurse helps me with the dressing."
+    matched_form: "helps"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 帮助
+
+------------------------------------------------------------------------
+[8/8] safe  (W613)
+  词义: 安全的
+  词性: adjective
+  音标: UK /seɪf/ | US /seɪf/
+  搭配: feel safe
+  例句: I feel safe while the nurse helps me.
+  例句高亮: I feel **safe** while the nurse helps me.
+  例句中文: 护士帮助我时，我感觉安心。
+  标注模式: context
+  标注说明: 主观安全感由句子说明，不构成医学保证。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I feel safe while the nurse helps me."
+    matched_form: "safe"
+    context: "主观安全感由句子说明，不构成医学保证。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 安全的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C056 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=59 | meta.approved_cards=60
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Non-graphic calm clinic editorial: dressed woman seated at left with forearm gently resting on table while female clinician in pale coat applies a clean small dressing, hands anatomically natural. A tiny superficial scratch with ONE pinhead-sized red dot visible near dressing, no open wound gore. A small clean gauze pad with a tiny red spot lies separately on tray so blood cue is discernible. Caring neutral expression, no surgical scene, no needles; caption will explain hypothetical operation and subjective states separately.

@@ -1,0 +1,324 @@
+{
+  "reviewedAt": "2026-10-02T09:33:10Z",
+  "cards": {
+    "C002": {
+      "sourcePath": "scene-cards-850/images/C002.png",
+      "generationStartedAt": "2026-10-02T09:29:47Z",
+      "generationEndedAt": "2026-10-02T09:30:14Z",
+      "imageReview": "同窗同人物昼夜双幅；左幅太阳圆盘、右幅新月与独立星点可辨；室内亮度有明确差异。成年年轻女性、冷调精修，人物结构自然。无可读标注和水印。",
+      "geometry": {
+        "window": {
+          "box": [
+            105,
+            0,
+            498,
+            716
+          ],
+          "anchor": [
+            485,
+            350
+          ],
+          "bubble": [
+            210,
+            550
+          ]
+        },
+        "day": {
+          "bubble": [
+            225,
+            330
+          ],
+          "box": [
+            18,
+            20,
+            487,
+            960
+          ],
+          "anchor": [
+            300,
+            310
+          ],
+          "evidence": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。"
+        },
+        "night": {
+          "bubble": [
+            740,
+            330
+          ],
+          "box": [
+            515,
+            20,
+            994,
+            960
+          ],
+          "anchor": [
+            775,
+            310
+          ],
+          "evidence": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。"
+        },
+        "bright": {
+          "bubble": [
+            225,
+            430
+          ],
+          "box": [
+            18,
+            20,
+            487,
+            960
+          ],
+          "anchor": [
+            300,
+            310
+          ],
+          "evidence": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。"
+        },
+        "dark": {
+          "bubble": [
+            740,
+            430
+          ],
+          "box": [
+            515,
+            20,
+            994,
+            960
+          ],
+          "anchor": [
+            775,
+            310
+          ],
+          "evidence": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。"
+        },
+        "sun": {
+          "box": [
+            405,
+            105,
+            440,
+            138
+          ],
+          "anchor": [
+            423,
+            121
+          ],
+          "bubble": [
+            375,
+            220
+          ]
+        },
+        "moon": {
+          "box": [
+            908,
+            120,
+            937,
+            150
+          ],
+          "anchor": [
+            925,
+            137
+          ],
+          "bubble": [
+            880,
+            220
+          ]
+        },
+        "star": {
+          "box": [
+            722,
+            126,
+            731,
+            132
+          ],
+          "anchor": [
+            727,
+            129
+          ],
+          "bubble": [
+            690,
+            215
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C003": {
+      "sourcePath": "scene-cards-850/images/C003.png",
+      "generationStartedAt": "2026-10-02T09:29:47Z",
+      "generationEndedAt": "2026-10-02T09:30:50Z",
+      "imageReview": "成年女性双手持一个纸盒放向打开的抽屉；手、盒、抽屉口可辨。左后方书下水平搁板、浅灰墙、前景木地板、右侧蓝色独立靠垫均可辨。空间关系可信，物体未过度虚化；无可读标注和水印。",
+      "geometry": {
+        "room": {
+          "bubble": [
+            530,
+            60
+          ]
+        },
+        "floor": {
+          "box": [
+            420,
+            797,
+            840,
+            975
+          ],
+          "anchor": [
+            615,
+            900
+          ],
+          "bubble": [
+            300,
+            920
+          ]
+        },
+        "wall": {
+          "box": [
+            620,
+            0,
+            998,
+            292
+          ],
+          "anchor": [
+            870,
+            120
+          ],
+          "bubble": [
+            880,
+            200
+          ]
+        },
+        "shelf": {
+          "box": [
+            112,
+            256,
+            332,
+            270
+          ],
+          "anchor": [
+            280,
+            263
+          ],
+          "bubble": [
+            245,
+            140
+          ]
+        },
+        "drawer": {
+          "box": [
+            26,
+            560,
+            400,
+            796
+          ],
+          "anchor": [
+            120,
+            630
+          ],
+          "bubble": [
+            170,
+            675
+          ]
+        },
+        "box": {
+          "box": [
+            168,
+            515,
+            365,
+            615
+          ],
+          "anchor": [
+            260,
+            565
+          ],
+          "bubble": [
+            140,
+            460
+          ]
+        },
+        "cushion": {
+          "box": [
+            810,
+            313,
+            995,
+            431
+          ],
+          "anchor": [
+            900,
+            385
+          ],
+          "bubble": [
+            855,
+            570
+          ]
+        },
+        "put": {
+          "box": [
+            180,
+            470,
+            495,
+            618
+          ],
+          "anchor": [
+            385,
+            560
+          ],
+          "bubble": [
+            540,
+            600
+          ]
+        },
+        "a": {
+          "bubble": [
+            690,
+            60
+          ]
+        },
+        "the": {
+          "bubble": [
+            860,
+            60
+          ]
+        },
+        "space": {
+          "bubble": [
+            720,
+            880
+          ],
+          "box": [
+            30,
+            815,
+            915,
+            989
+          ],
+          "anchor": [
+            472,
+            902
+          ],
+          "evidence": "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "lexicalSourcePaths": {
+    "window": "window",
+    "day": "day",
+    "night": "night_2",
+    "bright": "bright_1",
+    "dark": "dark_1",
+    "sun": "sun_1",
+    "moon": "moon_1",
+    "star": "star_1",
+    "room": "room_1",
+    "floor": "floor_1",
+    "wall": "wall_1",
+    "shelf": "shelf",
+    "drawer": "drawer",
+    "box": "box_1",
+    "cushion": "cushion_1",
+    "put": "put",
+    "a": "a_1",
+    "the": "the",
+    "space": "space_1"
+  },
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f"
+}

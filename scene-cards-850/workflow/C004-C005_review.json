@@ -1,0 +1,283 @@
+{
+  "cards": {
+    "C004": {
+      "sourcePath": "scene-cards-850/images/C004.png",
+      "generationStartedAt": "2026-10-02T11:02:16Z",
+      "generationEndedAt": "2026-10-02T11:02:58Z",
+      "imageReview": "同一住宅入口双幅：左幅门关着，女性手中金属钥匙插在机械锁处；右幅木门打开，主人向室内邀请客人。两幅都有门旁实体铜铃和拉绳。人物结构、门扇与门槛透视可信；钥匙部分被手指遮挡但可辨，框选可见部分。house与come/in等由句子和语境覆盖。",
+      "geometry": {
+        "door": {
+          "box": [
+            242,
+            35,
+            466,
+            825
+          ],
+          "anchor": [
+            415,
+            675
+          ],
+          "bubble": [
+            395,
+            750
+          ]
+        },
+        "key": {
+          "box": [
+            419,
+            417,
+            446,
+            451
+          ],
+          "anchor": [
+            433,
+            429
+          ],
+          "bubble": [
+            325,
+            485
+          ]
+        },
+        "lock": {
+          "box": [
+            435,
+            402,
+            462,
+            446
+          ],
+          "anchor": [
+            450,
+            424
+          ],
+          "bubble": [
+            476.3333333333333,
+            544.9998332721998
+          ]
+        },
+        "open": {
+          "bubble": [
+            925,
+            365
+          ],
+          "box": [
+            684,
+            32,
+            993,
+            888
+          ],
+          "anchor": [
+            824,
+            444
+          ],
+          "evidence": "右幅打开的门与敞开的门口，形容词open指向这扇门的可见开合状态。"
+        },
+        "shut": {
+          "bubble": [
+            430,
+            315
+          ],
+          "box": [
+            194,
+            32,
+            491,
+            815
+          ],
+          "anchor": [
+            376,
+            421
+          ],
+          "evidence": "左幅关闭的木门，形容词shut指向可见的关门状态。"
+        },
+        "house": {
+          "bubble": [
+            675,
+            75
+          ]
+        },
+        "come": {
+          "bubble": [
+            915,
+            760
+          ]
+        },
+        "in": {
+          "bubble": [
+            325,
+            620
+          ]
+        },
+        "bell": {
+          "box": [
+            409,
+            82,
+            479,
+            164
+          ],
+          "anchor": [
+            443,
+            140
+          ],
+          "bubble": [
+            390,
+            210
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C005": {
+      "sourcePath": "scene-cards-850/images/C005.png",
+      "generationStartedAt": "2026-10-02T11:02:16Z",
+      "generationEndedAt": "2026-10-02T11:04:44Z",
+      "imageReview": "五位成年人物各有清晰座位，中央成年年轻女性为叙述者；按原创故事，左侧蓝灰针织衫男性为父亲，左中奶白衬衫女性为母亲，右中蓝衬衫男性为兄弟，右侧灰开衫女性为姐妹。图像支持衣着/位置但不证明亲属身份，亲属词均以故事和例句覆盖，无人物物体框。餐桌和盘碗可辨。五人脸和手自然，无重复人物或可读文字标注。",
+      "geometry": {
+        "family": {
+          "bubble": [
+            500,
+            110
+          ],
+          "box": [
+            5,
+            344,
+            995,
+            795
+          ],
+          "anchor": [
+            132,
+            349
+          ],
+          "evidence": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。"
+        },
+        "father": {
+          "bubble": [
+            140,
+            290
+          ],
+          "box": [
+            5,
+            348,
+            269,
+            740
+          ],
+          "anchor": [
+            137,
+            349
+          ],
+          "evidence": "左侧蓝灰针织衫男性为原创故事设定中的父亲；框只定位所指人物，亲属关系来自故事与例句，不从外貌认定。"
+        },
+        "mother": {
+          "bubble": [
+            310,
+            320
+          ],
+          "box": [
+            185,
+            381,
+            411,
+            685
+          ],
+          "anchor": [
+            298,
+            382
+          ],
+          "evidence": "左中奶白上衣女性为原创故事设定中的母亲；区域只定位所指人物，亲属身份来自故事与例句。"
+        },
+        "brother": {
+          "bubble": [
+            710,
+            280
+          ],
+          "box": [
+            609,
+            340,
+            846,
+            730
+          ],
+          "anchor": [
+            728,
+            348
+          ],
+          "evidence": "右中蓝衬衫男性为原创故事设定中的兄弟；区域只定位所指人物，不由性别或年龄推断亲属身份。"
+        },
+        "sister": {
+          "bubble": [
+            885,
+            325
+          ],
+          "box": [
+            793,
+            394,
+            995,
+            797
+          ],
+          "anchor": [
+            894,
+            395
+          ],
+          "evidence": "最右侧浅灰开衫女性为原创故事设定中的姐妹；区域只定位所指人物，亲属关系由故事确定。"
+        },
+        "table": {
+          "box": [
+            72,
+            596,
+            995,
+            775
+          ],
+          "anchor": [
+            695,
+            735
+          ],
+          "bubble": [
+            800,
+            785
+          ]
+        },
+        "together": {
+          "bubble": [
+            500,
+            245
+          ],
+          "box": [
+            5,
+            344,
+            995,
+            795
+          ],
+          "anchor": [
+            132,
+            349
+          ],
+          "evidence": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "wordOverrides": {
+    "shut": {
+      "collocations": [
+        "be shut",
+        "keep the door shut"
+      ]
+    }
+  },
+  "lexicalSourcePaths": {
+    "door": "door",
+    "key": "key_1",
+    "lock": "lock_2",
+    "open": "open_1",
+    "shut": "shut_2",
+    "house": "house_1",
+    "come": "come_1",
+    "in": "in_1",
+    "bell": "bell",
+    "family": "family_1",
+    "father": "father_1",
+    "mother": "mother_1",
+    "brother": "brother_1",
+    "sister": "sister",
+    "table": "table_1",
+    "together": "together_1"
+  },
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f"
+}

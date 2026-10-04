@@ -1,0 +1,376 @@
+{
+  "id": "C087",
+  "chapter": "工具与科学",
+  "title": "量一量称一称",
+  "scene": "主角用尺、秤测量物体，比较重量、数量、质量与程度。",
+  "target_count": 8,
+  "primary_words": [
+    "measure",
+    "scale",
+    "weight",
+    "mass",
+    "degree",
+    "equal",
+    "even",
+    "range"
+  ],
+  "targets": [
+    {
+      "word_id": "W434",
+      "word": "measure",
+      "aliases": [],
+      "source_zh_unreviewed": "测量；度量",
+      "planned_mode": "context",
+      "sense_zh": "测量",
+      "pos": "verb",
+      "ipa_us": "/ˈmeʒɚ/",
+      "ipa_uk": "/ˈmeʒə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双手把尺贴木板测长度。",
+        "sentence": "I measure the length of the board with a ruler.",
+        "matched_form": "measure",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I measure the length of the board with a ruler.",
+      "example_zh": "我用尺子测量木板的长度。",
+      "bbox_normalized": [
+        0.173,
+        0.602,
+        0.789,
+        0.726
+      ],
+      "collocations": [
+        "measure a board",
+        "measure the length"
+      ],
+      "example_en_highlighted": "I **measure** the length of the board with a ruler.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（测量），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W619",
+      "word": "scale",
+      "aliases": [],
+      "source_zh_unreviewed": "刻度；规模",
+      "planned_mode": "context",
+      "sense_zh": "秤",
+      "pos": "noun",
+      "ipa_us": "/skeɪl/",
+      "ipa_uk": "/skeɪl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧双盘天平。",
+        "sentence": "The scale has a sample on each pan.",
+        "matched_form": "scale",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The scale has a sample on each pan.",
+      "example_zh": "秤的两端托盘各有一个样品。",
+      "bbox_normalized": [
+        0.639,
+        0.349,
+        0.998,
+        0.669
+      ],
+      "collocations": [
+        "a balance scale",
+        "use a scale"
+      ],
+      "example_en_highlighted": "The **scale** has a sample on each pan.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（秤），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W813",
+      "word": "weight",
+      "aliases": [],
+      "source_zh_unreviewed": "重量",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "重量",
+      "pos": "noun",
+      "ipa_us": "/weɪt/",
+      "ipa_uk": "/weɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We compare the weight of the two samples here.",
+        "matched_form": "weight",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We compare the weight of the two samples here.",
+      "example_zh": "我们在这里比较两个样品的重量。",
+      "bbox_normalized": null,
+      "collocations": [
+        "equal weight",
+        "compare weight"
+      ],
+      "example_en_highlighted": "We compare the **weight** of the two samples here.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W429",
+      "word": "mass",
+      "aliases": [],
+      "source_zh_unreviewed": "大量；质量",
+      "planned_mode": "context",
+      "sense_zh": "质量",
+      "pos": "noun",
+      "ipa_us": "/mæs/",
+      "ipa_uk": "/mæs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "In our lesson, each cube has the same mass.",
+        "matched_form": "mass",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "In our lesson, each cube has the same mass.",
+      "example_zh": "本课设定中，每个立方体的质量相同。",
+      "bbox_normalized": null,
+      "collocations": [
+        "equal mass",
+        "measure mass"
+      ],
+      "example_en_highlighted": "In our lesson, each cube has the same **mass**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W190",
+      "word": "degree",
+      "aliases": [],
+      "source_zh_unreviewed": "学位；程度",
+      "planned_mode": "context",
+      "sense_zh": "程度",
+      "pos": "noun",
+      "ipa_us": "/dɪˈɡriː/",
+      "ipa_uk": "/dɪˈɡriː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We look for any degree of difference between the samples.",
+        "matched_form": "degree",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We look for any degree of difference between the samples.",
+      "example_zh": "我们查看样品之间是否存在任何程度的差异。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a small degree",
+        "degree of difference"
+      ],
+      "example_en_highlighted": "We look for any **degree** of difference between the samples.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W235",
+      "word": "equal",
+      "aliases": [],
+      "source_zh_unreviewed": "相等的；平等的",
+      "planned_mode": "context",
+      "sense_zh": "相等的",
+      "pos": "adjective",
+      "ipa_us": "/ˈiːkwəl/",
+      "ipa_uk": "/ˈiːkwəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "天平两端木块与平衡横梁，由演示设定重量相等。",
+        "sentence": "The two samples have equal weight in this demonstration.",
+        "matched_form": "equal",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The two samples have equal weight in this demonstration.",
+      "example_zh": "这次演示中的两个样品重量相等。",
+      "bbox_normalized": [
+        0.642,
+        0.491,
+        0.998,
+        0.578
+      ],
+      "collocations": [
+        "equal weight",
+        "equal amounts"
+      ],
+      "example_en_highlighted": "The two samples have **equal** weight in this demonstration.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（相等的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W237",
+      "word": "even",
+      "aliases": [],
+      "source_zh_unreviewed": "甚至；均匀的",
+      "planned_mode": "context",
+      "sense_zh": "平整的",
+      "pos": "adjective",
+      "ipa_us": "/ˈiːvən/",
+      "ipa_uk": "/ˈiːvən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "木板平整可见表面。",
+        "sentence": "The board has an even surface.",
+        "matched_form": "even",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The board has an even surface.",
+      "example_zh": "木板的表面平整。",
+      "bbox_normalized": [
+        0.252,
+        0.7,
+        0.998,
+        0.853
+      ],
+      "collocations": [
+        "an even surface",
+        "keep even"
+      ],
+      "example_en_highlighted": "The board has an **even** surface.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（平整的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W575",
+      "word": "range",
+      "aliases": [],
+      "source_zh_unreviewed": "范围；山脉",
+      "planned_mode": "context",
+      "sense_zh": "范围",
+      "pos": "noun",
+      "ipa_us": "/reɪndʒ/",
+      "ipa_uk": "/reɪndʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our ruler has a limited measurement range.",
+        "matched_form": "range",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Our ruler has a limited measurement range.",
+      "example_zh": "我们的尺子有有限的测量范围。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a measurement range",
+        "within a range"
+      ],
+      "example_en_highlighted": "Our ruler has a limited measurement **range**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I measure a board and compare two samples on a balance scale.",
+    "zh": "我测量一块木板，并用天平比较两个样品。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C087\n标题 量一量称一称\n场景 主角用尺、秤测量物体，比较重量、数量、质量与程度。\n目标词 measure, scale, weight, mass, degree, equal, even, range\n原创主配文草案 The two things have equal weight.\n中文草案 这两件东西重量相等。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at refined teaching workbench using plain ruler beside flat wood board. A small metal balance scale has two identical wooden cubes, one on each level pan, balanced beam visibly horizontal. Clear close foreground showing ruler and flat even board surface. No readable numbers, no logos, natural hands, cool Korean editorial photography.",
+  "status": "approved",
+  "image_path": "images/C087.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C087 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:03:28 UTC",
+    "prompt_path": "prompts/C087_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C087.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "尺在木板上，天平两端同形木块及水平横梁清楚；不把质量重量数字编造为可读数据。"
+  }
+}

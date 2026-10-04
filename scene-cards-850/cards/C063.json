@@ -1,0 +1,406 @@
+{
+  "id": "C063",
+  "chapter": "学习与艺术",
+  "title": "图书馆选读物",
+  "scene": "读者在图书馆书架前选择小说、故事、散文和诗歌。",
+  "target_count": 9,
+  "primary_words": [
+    "library",
+    "reading",
+    "fiction",
+    "story",
+    "prose",
+    "verse",
+    "interest",
+    "memory",
+    "ever"
+  ],
+  "targets": [
+    {
+      "word_id": "W400",
+      "word": "library",
+      "aliases": [],
+      "source_zh_unreviewed": "图书馆",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "图书馆",
+      "pos": "noun",
+      "ipa_us": "/ˈlaɪbreri/",
+      "ipa_uk": "/ˈlaɪbrəri/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "书架与阅览空间，故事明确为图书馆。",
+        "sentence": "I choose a book at the library.",
+        "matched_form": "library",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I choose a book at the library.",
+      "example_zh": "我在图书馆挑选一本书。",
+      "bbox_normalized": [
+        0.002,
+        0.004,
+        0.605,
+        0.416
+      ],
+      "collocations": [
+        "at the library",
+        "a public library"
+      ],
+      "example_en_highlighted": "I choose a book at the **library**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（图书馆），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W580",
+      "word": "reading",
+      "aliases": [],
+      "source_zh_unreviewed": "阅读；读物",
+      "planned_mode": "context",
+      "sense_zh": "阅读",
+      "pos": "noun",
+      "ipa_us": "/ˈriːdɪŋ/",
+      "ipa_uk": "/ˈriːdɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "握书翻阅的手与打开书，阅读活动由句子说明。",
+        "sentence": "Reading is part of my evening routine.",
+        "matched_form": "reading",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Reading is part of my evening routine.",
+      "example_zh": "阅读是我晚间日常的一部分。",
+      "bbox_normalized": [
+        0.156,
+        0.691,
+        0.901,
+        0.835
+      ],
+      "collocations": [
+        "enjoy reading",
+        "reading time"
+      ],
+      "example_en_highlighted": "**Reading** is part of my evening routine.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（阅读），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W263",
+      "word": "fiction",
+      "aliases": [],
+      "source_zh_unreviewed": "小说；虚构",
+      "planned_mode": "context",
+      "sense_zh": "小说文学",
+      "pos": "noun",
+      "ipa_us": "/ˈfɪkʃən/",
+      "ipa_uk": "/ˈfɪkʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I enjoy fiction about journeys.",
+        "matched_form": "fiction",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I enjoy fiction about journeys.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I enjoy fiction about journeys.",
+      "example_zh": "我喜欢读有关旅途的小说文学。",
+      "bbox_normalized": null,
+      "collocations": [
+        "read fiction",
+        "a work of fiction"
+      ],
+      "example_en_highlighted": "I enjoy **fiction** about journeys.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I enjoy fiction about journeys.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W715",
+      "word": "story",
+      "aliases": [],
+      "source_zh_unreviewed": "故事",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "故事",
+      "pos": "noun",
+      "ipa_us": "/ˈstɔːri/",
+      "ipa_uk": "/ˈstɔːri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The story follows a woman on a journey.",
+        "matched_form": "story",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The story follows a woman on a journey.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The story follows a woman on a journey.",
+      "example_zh": "这个故事讲述一位女子的旅程。",
+      "bbox_normalized": null,
+      "collocations": [
+        "read a story",
+        "tell a story"
+      ],
+      "example_en_highlighted": "The **story** follows a woman on a journey.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The story follows a woman on a journey.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W559",
+      "word": "prose",
+      "aliases": [],
+      "source_zh_unreviewed": "散文；散文体",
+      "planned_mode": "context",
+      "sense_zh": "散文体文字",
+      "pos": "noun",
+      "ipa_us": "/proʊz/",
+      "ipa_uk": "/prəʊz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This story is written in prose.",
+        "matched_form": "prose",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：This story is written in prose.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "This story is written in prose.",
+      "example_zh": "这个故事是用散文体写成的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "written in prose",
+        "clear prose"
+      ],
+      "example_en_highlighted": "This story is written in **prose**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：This story is written in prose.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W793",
+      "word": "verse",
+      "aliases": [],
+      "source_zh_unreviewed": "诗歌",
+      "planned_mode": "context",
+      "sense_zh": "诗歌",
+      "pos": "noun",
+      "ipa_us": "/vɝːs/",
+      "ipa_uk": "/vɜːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Another book contains verse about the sea.",
+        "matched_form": "verse",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Another book contains verse about the sea.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Another book contains verse about the sea.",
+      "example_zh": "另一本书收录了描写大海的诗歌。",
+      "bbox_normalized": null,
+      "collocations": [
+        "read verse",
+        "a line of verse"
+      ],
+      "example_en_highlighted": "Another book contains **verse** about the sea.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Another book contains verse about the sea.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W365",
+      "word": "interest",
+      "aliases": [],
+      "source_zh_unreviewed": "兴趣",
+      "planned_mode": "context",
+      "sense_zh": "兴趣",
+      "pos": "noun",
+      "ipa_us": "/ˈɪntrəst/",
+      "ipa_uk": "/ˈɪntrəst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I have an interest in travel stories.",
+        "matched_form": "interest",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I have an interest in travel stories.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I have an interest in travel stories.",
+      "example_zh": "我对旅行故事感兴趣。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an interest in",
+        "take an interest"
+      ],
+      "example_en_highlighted": "I have an **interest** in travel stories.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I have an interest in travel stories.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W438",
+      "word": "memory",
+      "aliases": [],
+      "source_zh_unreviewed": "记忆；记忆力",
+      "planned_mode": "context",
+      "sense_zh": "记忆",
+      "pos": "noun",
+      "ipa_us": "/ˈmeməri/",
+      "ipa_uk": "/ˈmeməri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The best part stays in my memory.",
+        "matched_form": "memory",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The best part stays in my memory.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The best part stays in my memory.",
+      "example_zh": "最精彩的部分留在我的记忆里。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in my memory",
+        "a happy memory"
+      ],
+      "example_en_highlighted": "The best part stays in my **memory**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The best part stays in my memory.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W239",
+      "word": "ever",
+      "aliases": [],
+      "source_zh_unreviewed": "曾经；永远",
+      "planned_mode": "context",
+      "sense_zh": "曾经",
+      "pos": "adverb",
+      "ipa_us": "/ˈevɚ/",
+      "ipa_uk": "/ˈevə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Have you ever read this story?",
+        "matched_form": "ever",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Have you ever read this story?；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Have you ever read this story?",
+      "example_zh": "你曾经读过这个故事吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "have you ever",
+        "ever before"
+      ],
+      "example_en_highlighted": "Have you **ever** read this story?",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Have you ever read this story?；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I read a story at the library and keep its best moment in my memory.",
+    "zh": "我在图书馆读一个故事，把其中最精彩的时刻留在记忆里。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C063\n标题 图书馆选读物\n场景 读者在图书馆书架前选择小说、故事、散文和诗歌。\n目标词 library, reading, fiction, story, prose, verse, interest, memory, ever\n原创主配文草案 A good story stays in my memory.\n中文草案 好故事留在我的记忆里。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman reading an open book seated beside shelves in a calm premium library, cool daylight. One small stack of closed books with plain covers on table, clear open pages with no readable text, large elegant shelves and depth. Show reading gesture naturally, no invented book titles or pseudo letters.",
+  "status": "approved",
+  "image_path": "images/C063.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C063 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:18:02 UTC",
+    "prompt_path": "prompts/C063_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C063.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "图书馆书架与持书阅读姿势清晰，文学类别不依封面判断，兴趣与记忆均为语境。"
+  }
+}

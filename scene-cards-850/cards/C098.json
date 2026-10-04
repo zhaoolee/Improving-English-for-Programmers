@@ -1,0 +1,440 @@
+{
+  "id": "C098",
+  "chapter": "社会与表达",
+  "title": "指出这里和那里",
+  "scene": "两位朋友在桌前指不同物体，演示人称、指代和所属。",
+  "target_count": 10,
+  "primary_words": [
+    "I",
+    "you",
+    "he",
+    "this",
+    "that",
+    "here",
+    "there",
+    "mine",
+    "name",
+    "thing"
+  ],
+  "targets": [
+    {
+      "word_id": "W351",
+      "word": "I",
+      "aliases": [],
+      "source_zh_unreviewed": "我",
+      "planned_mode": "context",
+      "sense_zh": "我",
+      "pos": "pronoun",
+      "ipa_us": "/aɪ/",
+      "ipa_uk": "/aɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I point to the notebook near me.",
+        "matched_form": "I",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I point to the notebook near me.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I point to the notebook near me.",
+      "example_zh": "我指向靠近我的笔记本。",
+      "bbox_normalized": null,
+      "collocations": [
+        "I am",
+        "I point"
+      ],
+      "example_en_highlighted": "**I** point to the notebook near me.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I point to the notebook near me.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W849",
+      "word": "you",
+      "aliases": [],
+      "source_zh_unreviewed": "你",
+      "planned_mode": "context",
+      "sense_zh": "你",
+      "pos": "pronoun",
+      "ipa_us": "/juː/",
+      "ipa_uk": "/juː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This cup is for you, my friend.",
+        "matched_form": "you",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：This cup is for you, my friend.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "This cup is for you, my friend.",
+      "example_zh": "朋友，这个杯子给你。",
+      "bbox_normalized": null,
+      "collocations": [
+        "for you",
+        "you are"
+      ],
+      "example_en_highlighted": "This cup is for **you**, my friend.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：This cup is for you, my friend.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W330",
+      "word": "he",
+      "aliases": [],
+      "source_zh_unreviewed": "他",
+      "planned_mode": "context",
+      "sense_zh": "他",
+      "pos": "pronoun",
+      "ipa_us": "/hiː/",
+      "ipa_uk": "/hiː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "He is sitting at the other table in our story.",
+        "matched_form": "he",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：He is sitting at the other table in our story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "He is sitting at the other table in our story.",
+      "example_zh": "故事中的他坐在另一张桌旁。",
+      "bbox_normalized": null,
+      "collocations": [
+        "he is",
+        "he sits"
+      ],
+      "example_en_highlighted": "**He** is sitting at the other table in our story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：He is sitting at the other table in our story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W753",
+      "word": "this",
+      "aliases": [],
+      "source_zh_unreviewed": "这个",
+      "planned_mode": "context",
+      "sense_zh": "这个",
+      "pos": "determiner",
+      "ipa_us": "/ðɪs/",
+      "ipa_uk": "/ðɪs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This notebook is close to me.",
+        "matched_form": "this",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：This notebook is close to me.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "This notebook is close to me.",
+      "example_zh": "这本笔记本靠近我。",
+      "bbox_normalized": null,
+      "collocations": [
+        "this notebook",
+        "this cup"
+      ],
+      "example_en_highlighted": "**This** notebook is close to me.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：This notebook is close to me.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W745",
+      "word": "that",
+      "aliases": [],
+      "source_zh_unreviewed": "那个",
+      "planned_mode": "context",
+      "sense_zh": "那个",
+      "pos": "determiner",
+      "ipa_us": "/ðæt/",
+      "ipa_uk": "/ðæt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "That cup is nearer to you.",
+        "matched_form": "that",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：That cup is nearer to you.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "That cup is nearer to you.",
+      "example_zh": "那个杯子更靠近你。",
+      "bbox_normalized": null,
+      "collocations": [
+        "that cup",
+        "that table"
+      ],
+      "example_en_highlighted": "**That** cup is nearer to you.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：That cup is nearer to you.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W337",
+      "word": "here",
+      "aliases": [],
+      "source_zh_unreviewed": "这里",
+      "planned_mode": "context",
+      "sense_zh": "这里",
+      "pos": "adverb",
+      "ipa_us": "/hɪr/",
+      "ipa_uk": "/hɪə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My notebook is here beside me.",
+        "matched_form": "here",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My notebook is here beside me.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My notebook is here beside me.",
+      "example_zh": "我的笔记本就在这里，在我旁边。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sit here",
+        "right here"
+      ],
+      "example_en_highlighted": "My notebook is **here** beside me.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My notebook is here beside me.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W749",
+      "word": "there",
+      "aliases": [],
+      "source_zh_unreviewed": "那里",
+      "planned_mode": "context",
+      "sense_zh": "那里",
+      "pos": "adverb",
+      "ipa_us": "/ðer/",
+      "ipa_uk": "/ðeə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our other friend is sitting there.",
+        "matched_form": "there",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Our other friend is sitting there.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Our other friend is sitting there.",
+      "example_zh": "我们的另一位朋友坐在那里。",
+      "bbox_normalized": null,
+      "collocations": [
+        "over there",
+        "sit there"
+      ],
+      "example_en_highlighted": "Our other friend is sitting **there**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Our other friend is sitting there.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W444",
+      "word": "mine",
+      "aliases": [],
+      "source_zh_unreviewed": "我的",
+      "planned_mode": "context",
+      "sense_zh": "我的",
+      "pos": "pronoun",
+      "ipa_us": "/maɪn/",
+      "ipa_uk": "/maɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The notebook is mine.",
+        "matched_form": "mine",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The notebook is mine.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The notebook is mine.",
+      "example_zh": "这本笔记本是我的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "this is mine",
+        "mine and yours"
+      ],
+      "example_en_highlighted": "The notebook is **mine**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The notebook is mine.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W462",
+      "word": "name",
+      "aliases": [],
+      "source_zh_unreviewed": "名字",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "名字",
+      "pos": "noun",
+      "ipa_us": "/neɪm/",
+      "ipa_uk": "/neɪm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My name is Mina in this story.",
+        "matched_form": "name",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My name is Mina in this story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My name is Mina in this story.",
+      "example_zh": "这个故事中，我的名字是Mina。",
+      "bbox_normalized": null,
+      "collocations": [
+        "my name",
+        "ask a name"
+      ],
+      "example_en_highlighted": "My **name** is Mina in this story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My name is Mina in this story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W752",
+      "word": "thing",
+      "aliases": [],
+      "source_zh_unreviewed": "事物",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "东西",
+      "pos": "noun",
+      "ipa_us": "/θɪŋ/",
+      "ipa_uk": "/θɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧独立咖啡杯作为一件有用东西。",
+        "sentence": "The cup is one useful thing on our table.",
+        "matched_form": "thing",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The cup is one useful thing on our table.",
+      "example_zh": "杯子是桌上一件有用的东西。",
+      "bbox_normalized": [
+        0.69,
+        0.729,
+        0.855,
+        0.823
+      ],
+      "collocations": [
+        "a small thing",
+        "one useful thing"
+      ],
+      "example_en_highlighted": "The cup is one useful **thing** on our table.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（东西），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "This notebook is mine; that cup is for you, and he is sitting there.",
+    "zh": "这本笔记本是我的；那个杯子给你，而他坐在那里。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C098\n标题 指出这里和那里\n场景 两位朋友在桌前指不同物体，演示人称、指代和所属。\n目标词 I, you, he, this, that, here, there, mine, name, thing\n原创主配文草案 This is mine, and that is for you.\n中文草案 这个是我的，那个给你。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two adult women at neat cafe table, main woman left pointing to notebook near herself and friend right pointing to cup near herself, one adult man clearly seated at separate background table. Crisp notebook and cup, cool Korean refined lifestyle travel editorial, no words or brands, natural fingers and no clutter. Later sentences assign pronouns and ownership explicitly.",
+  "status": "approved",
+  "image_path": "images/C098.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 9,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C098 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:18:22 UTC",
+    "prompt_path": "prompts/C098_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C098.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "左女子指本子，右女子指杯，远处男子独立桌；人称所属与远近指示全部例句明确，thing只框具体杯。"
+  }
+}

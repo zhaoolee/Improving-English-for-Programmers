@@ -1,0 +1,1028 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "recognitionProvider": "Codex conversation vision",
+  "regionPolicy": "每卡整图一次视觉识别；具体词保留局部范围，抽象与功能词明确语境；不调用外部识别。",
+  "cards": {
+    "C071": {
+      "sourcePath": "scene-cards-850/images/C071.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:35:50 UTC",
+      "imageReview": "三人围桌会议与右侧记笔记女子清楚；经理明确指中心桌首女子，职业由句子设定，非外貌识别。办公室框只取桌面及办公物件。",
+      "avoidRegions": [
+        [
+          445,
+          267,
+          643,
+          429
+        ],
+        [
+          851,
+          318,
+          998,
+          493
+        ],
+        [
+          92,
+          208,
+          333,
+          420
+        ]
+      ],
+      "geometry": {
+        "office": {
+          "bubble": [
+            850,
+            900
+          ],
+          "evidence": "桌面、笔记本和笔记电脑构成故事指定的办公环境。",
+          "box": [
+            5,
+            568,
+            998,
+            991
+          ],
+          "anchor": [
+            501,
+            779
+          ]
+        },
+        "work": {
+          "bubble": [
+            135,
+            75
+          ],
+          "evidence": "工作的内容由例句表达。"
+        },
+        "company": {
+          "bubble": [
+            865,
+            75
+          ],
+          "evidence": "公司组织身份只在故事中明确。"
+        },
+        "manager": {
+          "bubble": [
+            480,
+            180
+          ],
+          "evidence": "中心桌首女子，句子明确指定她是经理。",
+          "box": [
+            352,
+            203,
+            743,
+            702
+          ],
+          "anchor": [
+            547,
+            452
+          ]
+        },
+        "secretary": {
+          "bubble": [
+            860,
+            590
+          ],
+          "evidence": "右侧持笔在本子上记笔记的女子，故事指定秘书角色。",
+          "box": [
+            759,
+            260,
+            998,
+            662
+          ],
+          "anchor": [
+            878,
+            461
+          ]
+        },
+        "meeting": {
+          "bubble": [
+            470,
+            930
+          ],
+          "evidence": "三位同事围桌交流的关系，会议由句子明确。",
+          "box": [
+            2,
+            198,
+            998,
+            839
+          ],
+          "anchor": [
+            500,
+            518
+          ]
+        },
+        "organization": {
+          "bubble": [
+            175,
+            930
+          ],
+          "evidence": "组织及两个团队由句子说明。"
+        },
+        "group": {
+          "bubble": [
+            125,
+            555
+          ],
+          "evidence": "三人共同围桌，句子指定同一个小组。",
+          "box": [
+            2,
+            198,
+            998,
+            839
+          ],
+          "anchor": [
+            500,
+            518
+          ]
+        },
+        "join": {
+          "bubble": [
+            860,
+            185
+          ],
+          "evidence": "午饭后参加会议发生在故事中。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C072": {
+      "sourcePath": "scene-cards-850/images/C072.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:35:27 UTC",
+      "imageReview": "左侧女子持笔张手说话，右侧女子倾听，手部可信；白板无字不解释成实际计划，具体观点决定与问句由配文说明。",
+      "avoidRegions": [
+        [
+          214,
+          267,
+          390,
+          431
+        ],
+        [
+          805,
+          315,
+          980,
+          478
+        ]
+      ],
+      "geometry": {
+        "discussion": {
+          "bubble": [
+            500,
+            100
+          ],
+          "evidence": "面对面手势与倾听构成讨论场景，议题由故事指定。",
+          "box": [
+            112,
+            256,
+            996,
+            722
+          ],
+          "anchor": [
+            554,
+            489
+          ]
+        },
+        "opinion": {
+          "bubble": [
+            170,
+            130
+          ],
+          "evidence": "看法内容由例句说明。"
+        },
+        "argument": {
+          "bubble": [
+            840,
+            140
+          ],
+          "evidence": "句子明确避免争论，不声称画面是争吵。"
+        },
+        "suggestion": {
+          "bubble": [
+            500,
+            235
+          ],
+          "evidence": "建议通过原创句表达。"
+        },
+        "decision": {
+          "bubble": [
+            585,
+            390
+          ],
+          "evidence": "决定由句子明示。"
+        },
+        "agreement": {
+          "bubble": [
+            590,
+            550
+          ],
+          "evidence": "意见一致由故事说明，不凭表情断言。"
+        },
+        "talk": {
+          "bubble": [
+            145,
+            700
+          ],
+          "evidence": "左女子开口与张手交流的姿势，交谈由句子明示。",
+          "box": [
+            145,
+            471,
+            609,
+            663
+          ],
+          "anchor": [
+            377,
+            567
+          ]
+        },
+        "say": {
+          "bubble": [
+            140,
+            900
+          ],
+          "evidence": "说出的内容由例句表达。"
+        },
+        "about": {
+          "bubble": [
+            840,
+            695
+          ],
+          "evidence": "介词关于通过句子教学。"
+        },
+        "why": {
+          "bubble": [
+            495,
+            940
+          ],
+          "evidence": "为什么的问句由例句明确。"
+        },
+        "how": {
+          "bubble": [
+            845,
+            925
+          ],
+          "evidence": "怎样的问句由例句明确。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C073": {
+      "sourcePath": "scene-cards-850/images/C073.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:37:12 UTC",
+      "imageReview": "包裹在双方手间，前景信封邮票清楚。信纸在信封内仅故事指定，不把封皮当可读信的内容。",
+      "avoidRegions": [
+        [
+          321,
+          223,
+          517,
+          420
+        ],
+        [
+          827,
+          264,
+          998,
+          452
+        ]
+      ],
+      "geometry": {
+        "letter": {
+          "bubble": [
+            225,
+            910
+          ],
+          "evidence": "装信的信封，例句明确内部含信，不声称可看见内部文字。",
+          "box": [
+            125,
+            794,
+            537,
+            925
+          ],
+          "anchor": [
+            331,
+            859
+          ]
+        },
+        "stamp": {
+          "bubble": [
+            490,
+            745
+          ],
+          "evidence": "信封右上角独立小邮票。",
+          "box": [
+            372,
+            800,
+            450,
+            829
+          ],
+          "anchor": [
+            411,
+            814
+          ]
+        },
+        "parcel": {
+          "bubble": [
+            635,
+            430
+          ],
+          "evidence": "双方之间的棕色包裹。",
+          "box": [
+            391,
+            497,
+            710,
+            655
+          ],
+          "anchor": [
+            550,
+            576
+          ]
+        },
+        "send": {
+          "bubble": [
+            145,
+            620
+          ],
+          "evidence": "向柜台工作人员交递包裹的手部动作；收件人与寄送由故事指定。",
+          "box": [
+            291,
+            493,
+            710,
+            666
+          ],
+          "anchor": [
+            500,
+            579
+          ]
+        },
+        "connection": {
+          "bubble": [
+            175,
+            100
+          ],
+          "evidence": "通信联系不能用连接线或包裹代替语义。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C074": {
+      "sourcePath": "scene-cards-850/images/C074.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:36:31 UTC",
+      "imageReview": "读报和独立茶杯海报清楚。报纸细字不作信息来源，广告性质及新闻内容由原创教学故事指定。",
+      "avoidRegions": [
+        [
+          304,
+          248,
+          481,
+          407
+        ]
+      ],
+      "geometry": {
+        "news": {
+          "bubble": [
+            145,
+            690
+          ],
+          "evidence": "女子持有的报纸，故事明确在读新闻。",
+          "box": [
+            338,
+            377,
+            773,
+            631
+          ],
+          "anchor": [
+            555,
+            504
+          ]
+        },
+        "advertisement": {
+          "bubble": [
+            825,
+            510
+          ],
+          "evidence": "右上茶杯海报，故事指定茶广告。",
+          "box": [
+            785,
+            43,
+            991,
+            396
+          ],
+          "anchor": [
+            888,
+            219
+          ]
+        },
+        "statement": {
+          "bubble": [
+            855,
+            730
+          ],
+          "evidence": "声明的内容通过例句表达。"
+        },
+        "public": {
+          "bubble": [
+            145,
+            95
+          ],
+          "evidence": "公共场所由句子明确。"
+        },
+        "fact": {
+          "bubble": [
+            860,
+            910
+          ],
+          "evidence": "事实需核对，静态照片不证明报纸内容真伪。"
+        },
+        "as": {
+          "bubble": [
+            145,
+            915
+          ],
+          "evidence": "作为读者的介词用法在句子中。"
+        },
+        "by": {
+          "bubble": [
+            530,
+            945
+          ],
+          "evidence": "通过阅读的介词用法在句子中。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C075": {
+      "sourcePath": "scene-cards-850/images/C075.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:37:49 UTC",
+      "imageReview": "右女子用螺丝刀示范，左女子观看；木盒与手部动作清楚，专家角色来自句子。",
+      "avoidRegions": [
+        [
+          192,
+          226,
+          391,
+          465
+        ],
+        [
+          668,
+          157,
+          895,
+          424
+        ]
+      ],
+      "geometry": {
+        "expert": {
+          "bubble": [
+            835,
+            95
+          ],
+          "evidence": "右侧持螺丝刀示范的女子，句子指定为专家。",
+          "box": [
+            405,
+            125,
+            997,
+            866
+          ],
+          "anchor": [
+            701,
+            495
+          ]
+        },
+        "experience": {
+          "bubble": [
+            170,
+            110
+          ],
+          "evidence": "木工经验由故事明确。"
+        },
+        "able": {
+          "bubble": [
+            145,
+            725
+          ],
+          "evidence": "能够使用是练习后的故事。"
+        },
+        "hard": {
+          "bubble": [
+            875,
+            555
+          ],
+          "evidence": "难度由初学者语境说明。"
+        },
+        "simple": {
+          "bubble": [
+            140,
+            890
+          ],
+          "evidence": "简单步骤由例句表达。"
+        },
+        "complex": {
+          "bubble": [
+            860,
+            915
+          ],
+          "evidence": "设计复杂性通过句子表达。"
+        },
+        "responsible": {
+          "bubble": [
+            520,
+            925
+          ],
+          "evidence": "整理责任由本人句子表达。"
+        },
+        "use": {
+          "bubble": [
+            510,
+            480
+          ],
+          "evidence": "右女子手握螺丝刀在木盒螺丝上示范使用。",
+          "box": [
+            518,
+            495,
+            996,
+            840
+          ],
+          "anchor": [
+            757,
+            667
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C076": {
+      "sourcePath": "scene-cards-850/images/C076.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:38:20 UTC",
+      "imageReview": "女子用海绵处理杯沿，杯子列队与账本清楚；制作动作可框，贸易税率收入等不依外貌或不可读账本推断。",
+      "avoidRegions": [
+        [
+          329,
+          235,
+          570,
+          450
+        ]
+      ],
+      "geometry": {
+        "trade": {
+          "bubble": [
+            150,
+            85
+          ],
+          "evidence": "交易活动由故事说明。"
+        },
+        "tax": {
+          "bubble": [
+            865,
+            85
+          ],
+          "evidence": "税款由原创句说明，不从空白账本读取。"
+        },
+        "rate": {
+          "bubble": [
+            860,
+            450
+          ],
+          "evidence": "增长率是跨月份语境。"
+        },
+        "increase": {
+          "bubble": [
+            160,
+            475
+          ],
+          "evidence": "销量增长需要时间数据，句子明示。"
+        },
+        "produce": {
+          "bubble": [
+            510,
+            115
+          ],
+          "evidence": "双手海绵擦整陶杯的手工制作动作。",
+          "box": [
+            274,
+            481,
+            652,
+            690
+          ],
+          "anchor": [
+            463,
+            585
+          ]
+        },
+        "industry": {
+          "bubble": [
+            175,
+            770
+          ],
+          "evidence": "行业归属通过故事说明。"
+        },
+        "number": {
+          "bubble": [
+            500,
+            800
+          ],
+          "evidence": "杯子数量的清点动作与数量语义在例句里。"
+        },
+        "unit": {
+          "bubble": [
+            860,
+            710
+          ],
+          "evidence": "每杯一单位的计量约定由故事说明。"
+        },
+        "poor": {
+          "bubble": [
+            860,
+            920
+          ],
+          "evidence": "开业初收入有限由本人故事表达，不看衣服判断。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C077": {
+      "sourcePath": "scene-cards-850/images/C077.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:44:04 UTC",
+      "imageReview": "女子指工作板，右侧同事听讲，左侧同事记笔记；角色通过明确故事，不能把有色卡片解释成实际部门名。",
+      "avoidRegions": [
+        [
+          312,
+          177,
+          489,
+          379
+        ],
+        [
+          815,
+          453,
+          998,
+          606
+        ],
+        [
+          59,
+          493,
+          233,
+          677
+        ]
+      ],
+      "geometry": {
+        "distribution": {
+          "bubble": [
+            165,
+            90
+          ],
+          "evidence": "公平分配工作由例句明示。"
+        },
+        "division": {
+          "bubble": [
+            810,
+            85
+          ],
+          "evidence": "分工由故事解释。"
+        },
+        "committee": {
+          "bubble": [
+            700,
+            220
+          ],
+          "evidence": "委员会身份在原创句子中。"
+        },
+        "representative": {
+          "bubble": [
+            165,
+            400
+          ],
+          "evidence": "中央指工作板的女子，句子明确她是代表。",
+          "box": [
+            214,
+            138,
+            835,
+            769
+          ],
+          "anchor": [
+            524,
+            453
+          ]
+        },
+        "chief": {
+          "bubble": [
+            865,
+            740
+          ],
+          "evidence": "右侧坐着的同事，句子明确负责人角色。",
+          "box": [
+            712,
+            430,
+            998,
+            983
+          ],
+          "anchor": [
+            855,
+            706
+          ]
+        },
+        "authority": {
+          "bubble": [
+            855,
+            305
+          ],
+          "evidence": "批准权限来自故事，不以手势推断权力。"
+        },
+        "general": {
+          "bubble": [
+            190,
+            865
+          ],
+          "evidence": "总体计划的形容词用法在例句。"
+        },
+        "system": {
+          "bubble": [
+            500,
+            930
+          ],
+          "evidence": "任务分配制度由例句解释。"
+        },
+        "lead": {
+          "bubble": [
+            180,
+            780
+          ],
+          "evidence": "未来带领讨论由故事表达。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C078": {
+      "sourcePath": "scene-cards-850/images/C078.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:44:04 UTC",
+      "imageReview": "提交纸张动作与服务窗口清楚，本卡九个抽象/功能词全部只用句子；不把递交行为当批准成功。",
+      "avoidRegions": [
+        [
+          289,
+          92,
+          478,
+          301
+        ],
+        [
+          751,
+          316,
+          936,
+          505
+        ]
+      ],
+      "geometry": {
+        "approval": {
+          "bubble": [
+            155,
+            80
+          ],
+          "evidence": "等待批准，并未声称已获批。"
+        },
+        "condition": {
+          "bubble": [
+            800,
+            110
+          ],
+          "evidence": "补交文件的条件在例句中。"
+        },
+        "possible": {
+          "bubble": [
+            815,
+            255
+          ],
+          "evidence": "答复可能性由句子说明。"
+        },
+        "probable": {
+          "bubble": [
+            145,
+            475
+          ],
+          "evidence": "更可能明天回复由语境说明。"
+        },
+        "doubt": {
+          "bubble": [
+            145,
+            650
+          ],
+          "evidence": "对细节有疑虑由本人表达。"
+        },
+        "seem": {
+          "bubble": [
+            850,
+            670
+          ],
+          "evidence": "seems为seem屈折形式，条件似乎清楚是语境。"
+        },
+        "may": {
+          "bubble": [
+            140,
+            910
+          ],
+          "evidence": "可能明天回复的情态用法。"
+        },
+        "will": {
+          "bubble": [
+            490,
+            935
+          ],
+          "evidence": "明天查看的意向用法。"
+        },
+        "certain": {
+          "bubble": [
+            835,
+            925
+          ],
+          "evidence": "日期尚未确定的否定句。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C079": {
+      "sourcePath": "scene-cards-850/images/C079.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:44:04 UTC",
+      "imageReview": "黑文件夹正放进带锁盒子，夹口并非完全闭合；去除原先closed描述，改为folder inside a lockable box。私密与保险财产内容由故事设定，不读取空白文件。",
+      "avoidRegions": [
+        [
+          356,
+          102,
+          572,
+          328
+        ]
+      ],
+      "geometry": {
+        "private": {
+          "bubble": [
+            850,
+            640
+          ],
+          "evidence": "放进锁盒的深色文件夹，内容私密由本人故事指定；不能从颜色判断隐私。",
+          "box": [
+            449,
+            513,
+            829,
+            692
+          ],
+          "anchor": [
+            639,
+            602
+          ]
+        },
+        "secret": {
+          "bubble": [
+            160,
+            100
+          ],
+          "evidence": "个人秘密由句子表达。"
+        },
+        "property": {
+          "bubble": [
+            860,
+            120
+          ],
+          "evidence": "财产文件性质由语境说明。"
+        },
+        "insurance": {
+          "bubble": [
+            850,
+            320
+          ],
+          "evidence": "保险文件内容由例句指定，不编造纸面文字。"
+        },
+        "loss": {
+          "bubble": [
+            150,
+            560
+          ],
+          "evidence": "保留副本降低损失风险由故事说明。"
+        },
+        "limit": {
+          "bubble": [
+            150,
+            720
+          ],
+          "evidence": "限制访问由句子表达。"
+        },
+        "necessary": {
+          "bubble": [
+            170,
+            935
+          ],
+          "evidence": "必要性由例句说明。"
+        },
+        "important": {
+          "bubble": [
+            845,
+            930
+          ],
+          "evidence": "重要信息由本人语境说明。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C080": {
+      "sourcePath": "scene-cards-850/images/C080.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:44:04 UTC",
+      "imageReview": "三幅笔记任务顺序清楚，只有中幅打开笔记本开始任务可定位；昨天/现在/未来由配文标定，不按光线断言日期。",
+      "avoidRegions": [
+        [
+          541,
+          1,
+          715,
+          146
+        ],
+        [
+          518,
+          384,
+          686,
+          498
+        ],
+        [
+          541,
+          667,
+          685,
+          766
+        ]
+      ],
+      "geometry": {
+        "yesterday": {
+          "bubble": [
+            170,
+            95
+          ],
+          "evidence": "昨天由配文指定上幅故事。"
+        },
+        "now": {
+          "bubble": [
+            170,
+            385
+          ],
+          "evidence": "现在由句子指定中幅故事。"
+        },
+        "past": {
+          "bubble": [
+            865,
+            75
+          ],
+          "evidence": "过去由已经完成任务语境说明。"
+        },
+        "present": {
+          "bubble": [
+            860,
+            385
+          ],
+          "evidence": "目前由原创句明示。"
+        },
+        "future": {
+          "bubble": [
+            160,
+            735
+          ],
+          "evidence": "未来计划由配文指定。"
+        },
+        "before": {
+          "bubble": [
+            860,
+            735
+          ],
+          "evidence": "先合上后打开在例句中表达。"
+        },
+        "after": {
+          "bubble": [
+            165,
+            920
+          ],
+          "evidence": "休息之后在故事中表达。"
+        },
+        "then": {
+          "bubble": [
+            865,
+            935
+          ],
+          "evidence": "先开本后拿笔的顺序在例句。"
+        },
+        "start": {
+          "bubble": [
+            485,
+            625
+          ],
+          "evidence": "中幅双手打开笔记本开始下一任务，故事指定动作意义。",
+          "box": [
+            331,
+            525,
+            732,
+            652
+          ],
+          "anchor": [
+            531,
+            588
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "reviewCompletedAt": "2026-10-03T18:00:02.551321+00:00",
+  "c077BubbleCorrectionAt": "2026-10-03T18:12:45.241736+00:00"
+}

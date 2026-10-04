@@ -1,0 +1,246 @@
+{
+  "filename": "C095-法庭里的公正.png",
+  "labels": [
+    {
+      "x": 489,
+      "y": 260,
+      "english": "judge",
+      "chinese": "法官",
+      "phoneticUS": "/dʒʌdʒ/",
+      "phoneticUK": "/dʒʌdʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": {
+        "x": 489,
+        "y": 260
+      },
+      "boundingBox": {
+        "left": 347,
+        "top": 178,
+        "right": 632,
+        "bottom": 342
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（法官），待最终图确认。",
+        "association": "场景中体现的具体对象（法官），待最终图确认。",
+        "collocation": "a court judge; the judge listens",
+        "example": "The woman at the raised desk plays the judge.",
+        "exampleChinese": "高台桌后的女子扮演法官。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 85,
+      "english": "crime",
+      "chinese": "犯罪",
+      "phoneticUS": "/kraɪm/",
+      "phoneticUK": "/kraɪm/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We discuss a fictional crime in the mock court.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We discuss a fictional crime in the mock court.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a serious crime; discuss a crime",
+        "example": "We discuss a fictional crime in the mock court.",
+        "exampleChinese": "我们在模拟法庭讨论一桩虚构犯罪。"
+      }
+    },
+    {
+      "x": 609,
+      "y": 719,
+      "english": "prison",
+      "chinese": "监狱",
+      "phoneticUS": "/ˈprɪzən/",
+      "phoneticUK": "/ˈprɪzən/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 609,
+        "y": 719
+      },
+      "boundingBox": {
+        "left": 390,
+        "top": 594,
+        "right": 828,
+        "bottom": 845
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（监狱），待最终图确认。",
+        "association": "场景中体现的具体对象（监狱），待最终图确认。",
+        "collocation": "a prison model; an empty prison cell",
+        "example": "The small model shows an empty prison cell.",
+        "exampleChinese": "这个小模型展示一间空的监狱牢房。"
+      }
+    },
+    {
+      "x": 845,
+      "y": 100,
+      "english": "punishment",
+      "chinese": "惩罚",
+      "phoneticUS": "/ˈpʌnɪʃmənt/",
+      "phoneticUK": "/ˈpʌnɪʃmənt/",
+      "bubblePosition": {
+        "x": 845,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The judge considers fair punishment in the story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The judge considers fair punishment in the story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "fair punishment; consider punishment",
+        "example": "The judge considers fair punishment in the story.",
+        "exampleChinese": "故事中的法官考虑公平的惩罚。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 490,
+      "english": "cruel",
+      "chinese": "残忍的",
+      "phoneticUS": "/ˈkruːəl/",
+      "phoneticUK": "/ˈkruːəl/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 490
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We explain why cruel treatment is wrong.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We explain why cruel treatment is wrong.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a cruel act; cruel treatment",
+        "example": "We explain why cruel treatment is wrong.",
+        "exampleChinese": "我们解释残忍的对待为什么不对。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 490,
+      "english": "hate",
+      "chinese": "厌恶",
+      "phoneticUS": "/heɪt/",
+      "phoneticUK": "/heɪt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 490
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I hate cruelty, but I try to judge facts fairly.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I hate cruelty, but I try to judge facts fairly.；不声称该状态/含义本身在画面可见。",
+        "collocation": "hate cruelty; hate an act",
+        "example": "I hate cruelty, but I try to judge facts fairly.",
+        "exampleChinese": "我厌恶残忍，但尽量公平判断事实。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 735,
+      "english": "disgust",
+      "chinese": "厌恶",
+      "phoneticUS": "/dɪsˈɡʌst/",
+      "phoneticUK": "/dɪsˈɡʌst/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 735
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The story makes me feel disgust at cruelty.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The story makes me feel disgust at cruelty.；不声称该状态/含义本身在画面可见。",
+        "collocation": "feel disgust; disgust at cruelty",
+        "example": "The story makes me feel disgust at cruelty.",
+        "exampleChinese": "这个故事让我对残忍感到厌恶。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 935,
+      "english": "shame",
+      "chinese": "羞愧",
+      "phoneticUS": "/ʃeɪm/",
+      "phoneticUK": "/ʃeɪm/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The fictional speaker describes a feeling of shame.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The fictional speaker describes a feeling of shame.；不声称该状态/含义本身在画面可见。",
+        "collocation": "feel shame; a sense of shame",
+        "example": "The fictional speaker describes a feeling of shame.",
+        "exampleChinese": "虚构的发言者描述羞愧的感受。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "In a mock court, the judge listens carefully and considers fair punishment.",
+    "chinese": "在模拟法庭里，法官认真听取陈述，考虑公平的惩罚。",
+    "source": "原创配文 · C095 法庭里的公正",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

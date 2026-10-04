@@ -1,0 +1,256 @@
+C055  感冒来就诊
+========================================================================
+章节: 身体与健康
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C055.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C055.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T14:55:34Z → 2026-10-03T14:58:58Z
+  提示词文件: prompts/C055_image_final.txt
+
+场景: 医院诊室，病人咳嗽、喷嚏、疲弱；健康与生病用双幅比较。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 三幅分别为肘部咳嗽、纸巾掩鼻喷嚏与休息；医院是明确故事地点，框取接待区而非以装修证明资质；健康与疾病均只用故事语境。
+
+主配文:
+  英文: I visit the hospital with a cough; later, I feel well again.
+  中文: 我因为咳嗽来到医院；后来，我又感觉好了。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): hospital, disease, ill, healthy, cough, sneeze, feeble, normal
+
+------------------------------------------------------------------------
+[1/8] hospital  (W346)
+  词义: 医院
+  词性: noun
+  音标: UK /ˈhɒspɪtəl/ | US /ˈhɑːspɪtəl/
+  搭配: at the hospital
+  例句: I wait at the hospital.
+  例句高亮: I wait at the **hospital**.
+  例句中文: 我在医院等候。
+  标注模式: object
+  标注说明: 故事设定在医院候诊；画面接待区提供地点提示，静态装修不能独立证明医院资质。
+  坐标(normalized): [0.672, 0.69, 0.999, 0.88]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "故事设定在医院候诊；画面接待区提供地点提示，静态装修不能独立证明医院资质。"
+    sentence: "I wait at the hospital."
+    matched_form: "hospital"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 医院
+
+------------------------------------------------------------------------
+[2/8] disease  (W204)
+  词义: 疾病
+  词性: noun
+  音标: UK /dɪˈziːz/ | US /dɪˈziːz/
+  搭配: an infectious disease
+  例句: The doctor explains the disease.
+  例句高亮: The doctor explains the **disease**.
+  例句中文: 医生解释这种疾病。
+  标注模式: context
+  标注说明: 不从照片诊断疾病。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The doctor explains the disease."
+    matched_form: "disease"
+    context: "不从照片诊断疾病。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 疾病
+
+------------------------------------------------------------------------
+[3/8] ill  (W355)
+  词义: 生病的
+  词性: adjective
+  音标: UK /ɪl/ | US /ɪl/
+  搭配: feel ill
+  例句: I feel ill and need a rest.
+  例句高亮: I feel **ill** and need a rest.
+  例句中文: 我感觉不舒服，需要休息。
+  标注模式: context
+  标注说明: 状态由本人句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I feel ill and need a rest."
+    matched_form: "ill"
+    context: "状态由本人句子说明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 生病的
+
+------------------------------------------------------------------------
+[4/8] healthy  (W332)
+  词义: 健康的
+  词性: adjective
+  音标: UK /ˈhelθi/ | US /ˈhelθi/
+  搭配: feel healthy
+  例句: Later, I feel healthy again.
+  例句高亮: Later, I feel **healthy** again.
+  例句中文: 后来，我又觉得身体健康了。
+  标注模式: context
+  标注说明: 静态外表不能证明健康。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Later, I feel healthy again."
+    matched_form: "healthy"
+    context: "静态外表不能证明健康。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 健康的
+
+------------------------------------------------------------------------
+[5/8] cough  (W163)
+  词义: 咳嗽
+  词性: verb
+  音标: UK /kɒf/ | US /kɔːf/
+  搭配: cough into my elbow
+  例句: I cough into my elbow.
+  例句高亮: I **cough** into my elbow.
+  例句中文: 我对着肘弯咳嗽。
+  标注模式: action
+  标注说明: 上幅肘弯遮口动作与句子对应，不由姿势判断病因。
+  坐标(normalized): [0.298, 0.006, 0.603, 0.328]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅肘弯遮口动作与句子对应，不由姿势判断病因。"
+    sentence: "I cough into my elbow."
+    matched_form: "cough"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 咳嗽
+
+------------------------------------------------------------------------
+[6/8] sneeze  (W673)
+  词义: 打喷嚏
+  词性: verb
+  音标: UK /sniːz/ | US /sniːz/
+  搭配: sneeze into a tissue
+  例句: I sneeze into a tissue.
+  例句高亮: I **sneeze** into a tissue.
+  例句中文: 我对着纸巾打喷嚏。
+  标注模式: action
+  标注说明: 中幅纸巾护鼻动作与句子对应。
+  坐标(normalized): [0.285, 0.342, 0.594, 0.649]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中幅纸巾护鼻动作与句子对应。"
+    sentence: "I sneeze into a tissue."
+    matched_form: "sneeze"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 打喷嚏
+
+------------------------------------------------------------------------
+[7/8] feeble  (W259)
+  词义: 虚弱的
+  词性: adjective
+  音标: UK /ˈfiːbəl/ | US /ˈfiːbəl/
+  搭配: feel feeble
+  例句: I feel feeble after being ill.
+  例句高亮: I feel **feeble** after being ill.
+  例句中文: 生病后我感觉虚弱。
+  标注模式: context
+  标注说明: 体力是故事说明，不按外貌鉴定。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I feel feeble after being ill."
+    matched_form: "feeble"
+    context: "体力是故事说明，不按外貌鉴定。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 虚弱的；无力的
+
+------------------------------------------------------------------------
+[8/8] normal  (W478)
+  词义: 正常的
+  词性: adjective
+  音标: UK /ˈnɔːməl/ | US /ˈnɔːrməl/
+  搭配: my normal routine
+  例句: I return to my normal routine.
+  例句高亮: I return to my **normal** routine.
+  例句中文: 我回到正常的日常生活。
+  标注模式: context
+  标注说明: normal选日常状态义，不虚构检测值。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I return to my normal routine."
+    matched_form: "normal"
+    context: "normal选日常状态义，不虚构检测值。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 正常的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C055 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=59 | meta.approved_cards=60
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Three stacked documentary editorial panels in same quiet clinic waiting room with same dressed woman. Top woman covers mouth with bent elbow in gentle coughing pose. Middle woman holds clean tissue close to nose in sneezing pose. Bottom later seated calm upright after story recovery, tissue box on table, airy clinic environment. No generated health readings or signage, no exaggerated sick makeup, no bodily fluids; state and passage of time supplied by captions.

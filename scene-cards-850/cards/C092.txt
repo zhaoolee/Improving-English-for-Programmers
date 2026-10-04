@@ -1,0 +1,283 @@
+C092  朋友相伴的一天
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C092.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C092.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:15:15 UTC
+  提示词文件: prompts/C092_image_final.txt
+
+场景: 朋友共同散步，已婚伴侣温和互动，日常善意与尊重明确。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 左女子与右女子自然握手，旁边成年伴侣清楚。婚姻友谊是故事设定，不按接触动作证明。
+
+主配文:
+  英文: I greet a friend, shake hands, and show respect through kind behavior.
+  中文: 我向朋友问好、握手，并通过友善的举止表达尊重。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): friend, married, relation, kind, respect, society, common, behavior, shake
+
+------------------------------------------------------------------------
+[1/9] friend  (W291)
+  词义: 朋友
+  词性: noun
+  音标: UK /frend/ | US /frend/
+  搭配: a close friend; meet a friend
+  例句: The woman greeting me is my friend.
+  例句高亮: The woman greeting me is my **friend**.
+  例句中文: 向我问好的女子是我的朋友。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（朋友），待最终图确认。
+  坐标(normalized): [0.394, 0.234, 0.788, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧握手女子，句子明确她是我的朋友。"
+    sentence: "The woman greeting me is my friend."
+    matched_form: "friend"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 朋友；友人
+
+------------------------------------------------------------------------
+[2/9] married  (W428)
+  词义: 已婚的
+  词性: adjective
+  音标: UK /ˈmærid/ | US /ˈmærid/
+  搭配: a married couple; be married
+  例句: My friend and her partner are married in this story.
+  例句高亮: My friend and her partner are **married** in this story.
+  例句中文: 故事中，我的朋友和她的伴侣已婚。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "My friend and her partner are married in this story."
+    matched_form: "married"
+    context: "由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 已婚的
+
+------------------------------------------------------------------------
+[3/9] relation  (W588)
+  词义: 关系
+  词性: noun
+  音标: UK /rɪˈleɪʃən/ | US /rɪˈleɪʃən/
+  搭配: a friendly relation; the relation between
+  例句: We describe the relation between the two partners.
+  例句高亮: We describe the **relation** between the two partners.
+  例句中文: 我们描述这两位伴侣之间的关系。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We describe the relation between the two partners."
+    matched_form: "relation"
+    context: "由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 关系；亲属
+
+------------------------------------------------------------------------
+[4/9] kind  (W379)
+  词义: 友善的
+  词性: adjective
+  音标: UK /kaɪnd/ | US /kaɪnd/
+  搭配: a kind gesture; be kind
+  例句: I try to be kind when meeting new people.
+  例句高亮: I try to be **kind** when meeting new people.
+  例句中文: 认识新朋友时，我努力友善待人。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I try to be kind when meeting new people."
+    matched_form: "kind"
+    context: "由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 种类；友善的
+
+------------------------------------------------------------------------
+[5/9] respect  (W592)
+  词义: 尊重
+  词性: noun
+  音标: UK /rɪˈspekt/ | US /rɪˈspekt/
+  搭配: show respect; mutual respect
+  例句: I show respect by listening carefully.
+  例句高亮: I show **respect** by listening carefully.
+  例句中文: 我通过认真倾听表达尊重。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I show respect by listening carefully."
+    matched_form: "respect"
+    context: "由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 尊重；敬意
+
+------------------------------------------------------------------------
+[6/9] society  (W677)
+  词义: 社会
+  词性: noun
+  音标: UK /səˈsaɪəti/ | US /səˈsaɪəti/
+  搭配: in society; a fair society
+  例句: Respect helps people live together in society.
+  例句高亮: Respect helps people live together in **society**.
+  例句中文: 尊重有助于人们在社会中共同生活。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Respect helps people live together in society."
+    matched_form: "society"
+    context: "由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 社会
+
+------------------------------------------------------------------------
+[7/9] common  (W147)
+  词义: 常见的
+  词性: adjective
+  音标: UK /ˈkɒmən/ | US /ˈkɑːmən/
+  搭配: a common greeting; common behavior
+  例句: A handshake is a common greeting in some places.
+  例句高亮: A handshake is a **common** greeting in some places.
+  例句中文: 在有些地方，握手是常见的问候方式。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A handshake is a common greeting in some places."
+    matched_form: "common"
+    context: "由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 常见的；普遍的
+
+------------------------------------------------------------------------
+[8/9] behavior  (W062)
+  词义: 举止
+  词性: noun
+  音标: UK /bɪˈheɪvjə/ | US /bɪˈheɪvjɚ/
+  搭配: kind behavior; polite behavior
+  例句: Kind behavior makes a meeting easier.
+  例句高亮: Kind **behavior** makes a meeting easier.
+  例句中文: 友善的举止让见面更轻松。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Kind behavior makes a meeting easier."
+    matched_form: "behavior"
+    context: "由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 行为；举止
+
+------------------------------------------------------------------------
+[9/9] shake  (W641)
+  词义: 握手
+  词性: verb
+  音标: UK /ʃeɪk/ | US /ʃeɪk/
+  搭配: shake hands; shake hands with
+  例句: We shake hands on the path.
+  例句高亮: We **shake** hands on the path.
+  例句中文: 我们在小路上握手。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（握手），待最终图确认。
+  坐标(normalized): [0.353, 0.541, 0.466, 0.595]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双方右手相握的局部动作。"
+    sentence: "We shake hands on the path."
+    matched_form: "shake"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 摇动
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C092 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Three fully clothed adults meeting on cool elegant park path. Main adult woman left shaking hands with adult female friend right, adult partner standing beside friend. Handshake clearly natural two right hands no tangled fingers. Calm candid Korean travel portrait with open park edges, no words or logos. Friendship and marriage only assigned by teaching story.

@@ -1,0 +1,278 @@
+C033  车站准备出发
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C033.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C033.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T08:06:49Z → 2026-10-03T08:10:01Z
+  提示词文件: prompts/C033_image_final.txt
+
+场景: 旅客买票，搬运工提行李，列车车厢在铁轨旁等候。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 纸票、列车、开门车厢、提箱故事行李员、站台长椅与钢轨可辨；票无可读车次金额，职业由故事说明。waiting与journey保留句子语境，不用静态姿势证明等待过程。
+
+主配文:
+  英文: Ticket in hand, I wait at the station for the next journey.
+  中文: 车票拿在手里，我在车站等候下一段旅程。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): station, train, ticket, rail, carriage, porter, waiting, journey, seat
+
+------------------------------------------------------------------------
+[1/9] station  (W700)
+  词义: 车站
+  词性: noun
+  音标: UK /ˈsteɪʃn/ | US /ˈsteɪʃn/
+  搭配: at the station
+  例句: We wait at the station.
+  例句高亮: We wait at the **station**.
+  例句中文: 我们在车站等候。
+  标注模式: object
+  标注说明: 站台、顶棚与立柱的车站区域。
+  坐标(normalized): [0.02, 0.005, 0.45, 0.145]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "站台、顶棚与立柱的车站区域。"
+    sentence: "We wait at the station."
+    matched_form: "station"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 车站
+
+------------------------------------------------------------------------
+[2/9] train  (W777)
+  词义: 火车
+  词性: noun
+  音标: UK /treɪn/ | US /treɪn/
+  搭配: a waiting train
+  例句: The train stands beside the platform.
+  例句高亮: The **train** stands beside the platform.
+  例句中文: 火车停在站台旁。
+  标注模式: object
+  标注说明: 沿站台停靠的整列车局部。
+  坐标(normalized): [0.462, 0.0, 0.998, 0.951]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "沿站台停靠的整列车局部。"
+    sentence: "The train stands beside the platform."
+    matched_form: "train"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 火车
+
+------------------------------------------------------------------------
+[3/9] ticket  (W761)
+  词义: 车票
+  词性: noun
+  音标: UK /ˈtɪkɪt/ | US /ˈtɪkɪt/
+  搭配: a train ticket
+  例句: I hold my train ticket.
+  例句高亮: I hold my train **ticket**.
+  例句中文: 我拿着火车票。
+  标注模式: object
+  标注说明: 主人公手中的独立纸票，身份由旅行故事说明。
+  坐标(normalized): [0.232, 0.38, 0.317, 0.426]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "主人公手中的独立纸票，身份由旅行故事说明。"
+    sentence: "I hold my train ticket."
+    matched_form: "ticket"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 票
+
+------------------------------------------------------------------------
+[4/9] rail  (W573)
+  词义: 铁轨
+  词性: noun
+  音标: UK /reɪl/ | US /reɪl/
+  搭配: a steel rail
+  例句: A steel rail runs beside the platform.
+  例句高亮: A steel **rail** runs beside the platform.
+  例句中文: 一根钢轨沿着站台延伸。
+  标注模式: object
+  标注说明: 站台旁露出的单根钢轨区域。
+  坐标(normalized): [0.795, 0.726, 0.999, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "站台旁露出的单根钢轨区域。"
+    sentence: "A steel rail runs beside the platform."
+    matched_form: "rail"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 铁轨；栏杆
+
+------------------------------------------------------------------------
+[5/9] carriage  (W116)
+  词义: 车厢
+  词性: noun
+  音标: UK /ˈkærɪdʒ/ | US /ˈkærɪdʒ/
+  搭配: a train carriage
+  例句: The carriage door is open.
+  例句高亮: The **carriage** door is open.
+  例句中文: 车厢门开着。
+  标注模式: object
+  标注说明: 列车开门处所在的单节车厢区域。
+  坐标(normalized): [0.776, 0.058, 0.998, 0.713]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "列车开门处所在的单节车厢区域。"
+    sentence: "The carriage door is open."
+    matched_form: "carriage"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 四轮马车
+
+------------------------------------------------------------------------
+[6/9] porter  (W542)
+  词义: 行李员
+  词性: noun
+  音标: UK /ˈpɔːtə/ | US /ˈpɔːrtər/
+  搭配: a station porter
+  例句: The porter carries my case.
+  例句高亮: The **porter** carries my case.
+  例句中文: 行李员提着我的箱子。
+  标注模式: object
+  标注说明: 实际提行李的故事角色，只定位人物，不凭制服鉴定职业。
+  坐标(normalized): [0.639, 0.245, 0.964, 0.805]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际提行李的故事角色，只定位人物，不凭制服鉴定职业。"
+    sentence: "The porter carries my case."
+    matched_form: "porter"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 搬运工；门房
+
+------------------------------------------------------------------------
+[7/9] waiting  (W799)
+  词义: 等候
+  词性: noun
+  音标: UK /ˈweɪtɪŋ/ | US /ˈweɪtɪŋ/
+  搭配: waiting for a train
+  例句: Waiting for the train gives me time to rest.
+  例句高亮: **Waiting** for the train gives me time to rest.
+  例句中文: 等火车让我有时间休息。
+  标注模式: context
+  标注说明: 静态照片不能证明等待持续，完整原创句支持名词义。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Waiting for the train gives me time to rest."
+    matched_form: "waiting"
+    context: "静态照片不能证明等待持续，完整原创句支持名词义。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 等待
+
+------------------------------------------------------------------------
+[8/9] journey  (W372)
+  词义: 旅程
+  词性: noun
+  音标: UK /ˈdʒɜːni/ | US /ˈdʒɜːrni/
+  搭配: a train journey
+  例句: Our train journey begins here.
+  例句高亮: Our train **journey** begins here.
+  例句中文: 我们的火车旅程从这里开始。
+  标注模式: context
+  标注说明: 整段旅行概念由句子说明，不用列车框替代旅程。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Our train journey begins here."
+    matched_form: "journey"
+    context: "整段旅行概念由句子说明，不用列车框替代旅程。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 旅行；旅程
+
+------------------------------------------------------------------------
+[9/9] seat  (W625)
+  词义: 座位
+  词性: noun
+  音标: UK /siːt/ | US /siːt/
+  搭配: an empty seat
+  例句: There is an empty seat on the bench.
+  例句高亮: There is an empty **seat** on the bench.
+  例句中文: 长椅上有一个空座位。
+  标注模式: object
+  标注说明: 站台长椅的空座面。
+  坐标(normalized): [0.0, 0.63, 0.162, 0.756]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "站台长椅的空座面。"
+    sentence: "There is an empty seat on the bench."
+    matched_form: "seat"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 座位
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C033 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=34 | meta.approved_cards=35
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. A refined railway-platform travel editorial. Main woman foreground left holding a small rectangular paper train ticket between natural fingers; ticket has no writing. At right an adult porter in understated uniform carries her tan suitcase toward an open train carriage door; his porter role comes from the story. Train stretches into background along visible steel rails at lower right, safe platform edge separates people from tracks. A platform bench with clear empty seat sits at lower left, not hidden. Modern calm station canopy and structural columns establish station. No logos, signage, letters or numbers. Train, single carriage door, rail, ticket, seat and suitcase carrier all individually identifiable.

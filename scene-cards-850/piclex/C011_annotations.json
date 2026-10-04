@@ -1,0 +1,321 @@
+{
+  "filename": "C011-准备早餐.png",
+  "labels": [
+    {
+      "x": 175,
+      "y": 719,
+      "english": "bread",
+      "chinese": "面包",
+      "phoneticUS": "/bred/",
+      "phoneticUK": "/bred/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 610
+      },
+      "anchorPosition": {
+        "x": 175,
+        "y": 719
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 648,
+        "right": 366,
+        "bottom": 784
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧切片面包",
+        "association": "左侧切片面包",
+        "collocation": "a slice of bread",
+        "example": "The bread is on the board.",
+        "exampleChinese": "面包在木板上。"
+      }
+    },
+    {
+      "x": 437,
+      "y": 800,
+      "english": "butter",
+      "chinese": "黄油",
+      "phoneticUS": "/ˈbʌtər/",
+      "phoneticUK": "/ˈbʌtə/",
+      "bubblePosition": {
+        "x": 365,
+        "y": 915
+      },
+      "anchorPosition": {
+        "x": 437,
+        "y": 800
+      },
+      "boundingBox": {
+        "left": 372,
+        "top": 760,
+        "right": 500,
+        "bottom": 839
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "小碟上矩形黄油",
+        "association": "小碟上矩形黄油",
+        "collocation": "a little butter",
+        "example": "I spread butter on bread.",
+        "exampleChinese": "我在面包上涂黄油。"
+      }
+    },
+    {
+      "x": 670,
+      "y": 775,
+      "english": "cheese",
+      "chinese": "奶酪",
+      "phoneticUS": "/tʃiːz/",
+      "phoneticUK": "/tʃiːz/",
+      "bubblePosition": {
+        "x": 655,
+        "y": 910
+      },
+      "anchorPosition": {
+        "x": 670,
+        "y": 775
+      },
+      "boundingBox": {
+        "left": 589,
+        "top": 726,
+        "right": 747,
+        "bottom": 818
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "有孔三角奶酪",
+        "association": "有孔三角奶酪",
+        "collocation": "a piece of cheese",
+        "example": "The cheese is on a plate.",
+        "exampleChinese": "奶酪在盘子上。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 755,
+      "english": "egg",
+      "chinese": "鸡蛋",
+      "phoneticUS": "/eɡ/",
+      "phoneticUK": "/eɡ/",
+      "bubblePosition": {
+        "x": 820,
+        "y": 875
+      },
+      "anchorPosition": {
+        "x": 865,
+        "y": 755
+      },
+      "boundingBox": {
+        "left": 809,
+        "top": 710,
+        "right": 913,
+        "bottom": 795
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "棕色整蛋，不含蛋杯",
+        "association": "棕色整蛋，不含蛋杯",
+        "collocation": "a boiled egg",
+        "example": "The egg is in an egg cup.",
+        "exampleChinese": "鸡蛋在蛋杯里。"
+      }
+    },
+    {
+      "x": 930,
+      "y": 717,
+      "english": "milk",
+      "chinese": "牛奶",
+      "phoneticUS": "/mɪlk/",
+      "phoneticUK": "/mɪlk/",
+      "bubblePosition": {
+        "x": 900,
+        "y": 600
+      },
+      "anchorPosition": {
+        "x": 930,
+        "y": 717
+      },
+      "boundingBox": {
+        "left": 881,
+        "top": 666,
+        "right": 990,
+        "bottom": 773
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "杯中白色牛奶，饮品身份由早餐设定说明",
+        "association": "杯中白色牛奶，饮品身份由早餐设定说明",
+        "collocation": "a glass of milk",
+        "example": "I have a glass of milk.",
+        "exampleChinese": "我喝一杯牛奶。"
+      }
+    },
+    {
+      "x": 183,
+      "y": 716,
+      "english": "food",
+      "chinese": "食物",
+      "phoneticUS": "/fuːd/",
+      "phoneticUK": "/fuːd/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 70
+      },
+      "anchorPosition": {
+        "x": 183,
+        "y": 716
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 648,
+        "right": 366,
+        "bottom": 784
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "bread是food的具体可见实例；框对应的面包区域。",
+        "association": "bread是food的具体可见实例；框对应的面包区域。",
+        "collocation": "fresh food",
+        "example": "Bread is food.",
+        "exampleChinese": "面包是食物。"
+      }
+    },
+    {
+      "x": 498,
+      "y": 759,
+      "english": "meal",
+      "chinese": "一餐",
+      "phoneticUS": "/miːl/",
+      "phoneticUK": "/miːl/",
+      "bubblePosition": {
+        "x": 830,
+        "y": 100
+      },
+      "anchorPosition": {
+        "x": 498,
+        "y": 759
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 645,
+        "right": 995,
+        "bottom": 873
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上已摆放的早餐食物组合区域；meal指这组早餐，ready由原创叙述说明准备完成，不把单件餐具当作一餐。",
+        "association": "桌上已摆放的早餐食物组合区域；meal指这组早餐，ready由原创叙述说明准备完成，不把单件餐具当作一餐。",
+        "collocation": "a morning meal",
+        "example": "Breakfast is my first meal.",
+        "exampleChinese": "早餐是我的第一餐。"
+      }
+    },
+    {
+      "x": 498,
+      "y": 759,
+      "english": "ready",
+      "chinese": "准备好的",
+      "phoneticUS": "/ˈredi/",
+      "phoneticUK": "/ˈredi/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 370
+      },
+      "anchorPosition": {
+        "x": 498,
+        "y": 759
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 645,
+        "right": 995,
+        "bottom": 873
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上已摆放的早餐食物组合区域；meal指这组早餐，ready由原创叙述说明准备完成，不把单件餐具当作一餐。",
+        "association": "桌上已摆放的早餐食物组合区域；meal指这组早餐，ready由原创叙述说明准备完成，不把单件餐具当作一餐。",
+        "collocation": "be ready",
+        "example": "Breakfast is ready.",
+        "exampleChinese": "早餐准备好了。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 370,
+      "english": "have",
+      "chinese": "吃；喝",
+      "phoneticUS": "/hæv/",
+      "phoneticUK": "/hæv/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 370
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "have breakfast用餐含义，不解释为拥有",
+        "association": "have breakfast用餐含义，不解释为拥有",
+        "collocation": "have breakfast",
+        "example": "I have breakfast at home.",
+        "exampleChinese": "我在家吃早餐。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Breakfast is ready: bread, butter, cheese, an egg, and milk.",
+    "chinese": "早餐准备好了：面包、黄油、奶酪、鸡蛋和牛奶。",
+    "source": "原创配文 · C011 准备早餐",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

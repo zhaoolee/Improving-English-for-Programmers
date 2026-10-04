@@ -1,0 +1,181 @@
+{
+  "filename": "C073-电子邮件与包裹.png",
+  "labels": [
+    {
+      "x": 331,
+      "y": 859,
+      "english": "letter",
+      "chinese": "信",
+      "phoneticUS": "/ˈletɚ/",
+      "phoneticUK": "/ˈletə/",
+      "bubblePosition": {
+        "x": 225,
+        "y": 910
+      },
+      "anchorPosition": {
+        "x": 331,
+        "y": 859
+      },
+      "boundingBox": {
+        "left": 125,
+        "top": 794,
+        "right": 537,
+        "bottom": 925
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（信），待最终图确认。",
+        "association": "场景中体现的具体对象（信），待最终图确认。",
+        "collocation": "send a letter; write a letter",
+        "example": "The letter is inside the envelope.",
+        "exampleChinese": "信装在信封里。"
+      }
+    },
+    {
+      "x": 411,
+      "y": 814,
+      "english": "stamp",
+      "chinese": "邮票",
+      "phoneticUS": "/stæmp/",
+      "phoneticUK": "/stæmp/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 745
+      },
+      "anchorPosition": {
+        "x": 411,
+        "y": 814
+      },
+      "boundingBox": {
+        "left": 372,
+        "top": 800,
+        "right": 450,
+        "bottom": 829
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（邮票），待最终图确认。",
+        "association": "场景中体现的具体对象（邮票），待最终图确认。",
+        "collocation": "a postage stamp; stick on a stamp",
+        "example": "A stamp is on the envelope.",
+        "exampleChinese": "信封上贴着一张邮票。"
+      }
+    },
+    {
+      "x": 550,
+      "y": 576,
+      "english": "parcel",
+      "chinese": "包裹",
+      "phoneticUS": "/ˈpɑːrsəl/",
+      "phoneticUK": "/ˈpɑːsəl/",
+      "bubblePosition": {
+        "x": 635,
+        "y": 430
+      },
+      "anchorPosition": {
+        "x": 550,
+        "y": 576
+      },
+      "boundingBox": {
+        "left": 391,
+        "top": 497,
+        "right": 710,
+        "bottom": 655
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（包裹），待最终图确认。",
+        "association": "场景中体现的具体对象（包裹），待最终图确认。",
+        "collocation": "a small parcel; send a parcel",
+        "example": "I hand over a small parcel.",
+        "exampleChinese": "我递交一个小包裹。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 579,
+      "english": "send",
+      "chinese": "寄送",
+      "phoneticUS": "/send/",
+      "phoneticUK": "/send/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 620
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 579
+      },
+      "boundingBox": {
+        "left": 291,
+        "top": 493,
+        "right": 710,
+        "bottom": 666
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（寄送），待最终图确认。",
+        "association": "场景中体现的具体动作（寄送），待最终图确认。",
+        "collocation": "send a letter; send a parcel",
+        "example": "I send the parcel to my friend.",
+        "exampleChinese": "我把包裹寄给朋友。"
+      }
+    },
+    {
+      "x": 175,
+      "y": 100,
+      "english": "connection",
+      "chinese": "联系",
+      "phoneticUS": "/kəˈnekʃən/",
+      "phoneticUK": "/kəˈnekʃən/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our letters keep a connection between us.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our letters keep a connection between us.；不声称该状态/含义本身在画面可见。",
+        "collocation": "keep a connection; a connection with",
+        "example": "Our letters keep a connection between us.",
+        "exampleChinese": "我们的信件维系着彼此的联系。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I send a letter with a stamp and hand over a small parcel.",
+    "chinese": "我寄出一封贴了邮票的信，并递交一个小包裹。",
+    "source": "原创配文 · C073 电子邮件与包裹",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

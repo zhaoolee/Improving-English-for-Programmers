@@ -1,0 +1,313 @@
+{
+  "filename": "C025-试衣镜前比较.png",
+  "labels": [
+    {
+      "x": 477,
+      "y": 430,
+      "english": "size",
+      "chinese": "尺寸",
+      "phoneticUS": "/saɪz/",
+      "phoneticUK": "/saɪz/",
+      "bubblePosition": {
+        "x": 119,
+        "y": 64
+      },
+      "anchorPosition": {
+        "x": 477,
+        "y": 430
+      },
+      "boundingBox": {
+        "left": 77,
+        "top": 178,
+        "right": 668,
+        "bottom": 864
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+        "association": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+        "collocation": "the right size",
+        "example": "I check the size of the coat.",
+        "exampleChinese": "我检查外套的尺寸。"
+      }
+    },
+    {
+      "x": 271,
+      "y": 530,
+      "english": "long",
+      "chinese": "长的",
+      "phoneticUS": "/lɔːŋ/",
+      "phoneticUK": "/lɒŋ/",
+      "bubblePosition": {
+        "x": 136,
+        "y": 740
+      },
+      "anchorPosition": {
+        "x": 271,
+        "y": 530
+      },
+      "boundingBox": {
+        "left": 77,
+        "top": 178,
+        "right": 429,
+        "bottom": 863
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。",
+        "association": "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。",
+        "collocation": "a long coat",
+        "example": "The padded coat is long.",
+        "exampleChinese": "这件棉外套很长。"
+      }
+    },
+    {
+      "x": 512,
+      "y": 342,
+      "english": "short",
+      "chinese": "短的",
+      "phoneticUS": "/ʃɔːrt/",
+      "phoneticUK": "/ʃɔːt/",
+      "bubblePosition": {
+        "x": 534,
+        "y": 526
+      },
+      "anchorPosition": {
+        "x": 512,
+        "y": 342
+      },
+      "boundingBox": {
+        "left": 370,
+        "top": 181,
+        "right": 668,
+        "bottom": 510
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。",
+        "association": "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。",
+        "collocation": "a short jacket",
+        "example": "The summer jacket is short.",
+        "exampleChinese": "这件夏季夹克很短。"
+      }
+    },
+    {
+      "x": 271,
+      "y": 530,
+      "english": "thick",
+      "chinese": "厚的",
+      "phoneticUS": "/θɪk/",
+      "phoneticUK": "/θɪk/",
+      "bubblePosition": {
+        "x": 126,
+        "y": 374
+      },
+      "anchorPosition": {
+        "x": 271,
+        "y": 530
+      },
+      "boundingBox": {
+        "left": 77,
+        "top": 178,
+        "right": 429,
+        "bottom": 863
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。",
+        "association": "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。",
+        "collocation": "a thick coat",
+        "example": "The winter coat is thick.",
+        "exampleChinese": "这件冬季外套很厚。"
+      }
+    },
+    {
+      "x": 512,
+      "y": 342,
+      "english": "thin",
+      "chinese": "薄的",
+      "phoneticUS": "/θɪn/",
+      "phoneticUK": "/θɪn/",
+      "bubblePosition": {
+        "x": 600,
+        "y": 660
+      },
+      "anchorPosition": {
+        "x": 512,
+        "y": 342
+      },
+      "boundingBox": {
+        "left": 370,
+        "top": 181,
+        "right": 668,
+        "bottom": 510
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。",
+        "association": "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。",
+        "collocation": "a thin jacket",
+        "example": "The summer jacket is thin.",
+        "exampleChinese": "这件夏季夹克很薄。"
+      }
+    },
+    {
+      "x": 416,
+      "y": 64,
+      "english": "tight",
+      "chinese": "紧的",
+      "phoneticUS": "/taɪt/",
+      "phoneticUK": "/taɪt/",
+      "bubblePosition": {
+        "x": 416,
+        "y": 64
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "条件性试衣例句，不认定图中人物穿着紧",
+        "association": "条件性试衣例句，不认定图中人物穿着紧",
+        "collocation": "a tight coat",
+        "example": "If the coat feels tight, I try a larger size.",
+        "exampleChinese": "如果外套穿着紧，我就试大一号。"
+      }
+    },
+    {
+      "x": 477,
+      "y": 430,
+      "english": "different",
+      "chinese": "不同的",
+      "phoneticUS": "/ˈdɪfərənt/",
+      "phoneticUK": "/ˈdɪfərənt/",
+      "bubblePosition": {
+        "x": 132,
+        "y": 958.4180866317649
+      },
+      "anchorPosition": {
+        "x": 477,
+        "y": 430
+      },
+      "boundingBox": {
+        "left": 77,
+        "top": 178,
+        "right": 668,
+        "bottom": 864
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+        "association": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+        "collocation": "different lengths",
+        "example": "The coats have different lengths.",
+        "exampleChinese": "两件外套长度不同。"
+      }
+    },
+    {
+      "x": 477,
+      "y": 430,
+      "english": "same",
+      "chinese": "相同的",
+      "phoneticUS": "/seɪm/",
+      "phoneticUK": "/seɪm/",
+      "bubblePosition": {
+        "x": 439,
+        "y": 957
+      },
+      "anchorPosition": {
+        "x": 477,
+        "y": 430
+      },
+      "boundingBox": {
+        "left": 77,
+        "top": 178,
+        "right": 668,
+        "bottom": 864
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+        "association": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+        "collocation": "the same color",
+        "example": "The coats are the same color.",
+        "exampleChinese": "两件外套颜色相同。"
+      }
+    },
+    {
+      "x": 801,
+      "y": 956,
+      "english": "than",
+      "chinese": "比",
+      "phoneticUS": "/ðæn/",
+      "phoneticUK": "/ðæn/",
+      "bubblePosition": {
+        "x": 801,
+        "y": 956
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "比较连词引出比较对象，无独立物体框",
+        "association": "比较连词引出比较对象，无独立物体框",
+        "collocation": "longer than",
+        "example": "The winter coat is longer than the summer jacket.",
+        "exampleChinese": "冬季外套比夏季夹克长。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two grey coats: one long and thick, the other short and thin.",
+    "chinese": "两件灰色外套：一件长而厚，另一件短而薄。",
+    "source": "原创配文 · C025 试衣镜前比较",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

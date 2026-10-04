@@ -1,0 +1,376 @@
+{
+  "id": "C036",
+  "chapter": "城市与出行",
+  "title": "飞机飞过海岛",
+  "scene": "飞机飞过海岛，翼部、航线与高度清楚展示。",
+  "target_count": 8,
+  "primary_words": [
+    "plane",
+    "flight",
+    "wing",
+    "island",
+    "high",
+    "low",
+    "transport",
+    "forward"
+  ],
+  "targets": [
+    {
+      "word_id": "W529",
+      "word": "plane",
+      "aliases": [],
+      "source_zh_unreviewed": "飞机；平面",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "飞机",
+      "pos": "noun",
+      "ipa_us": "/pleɪn/",
+      "ipa_uk": "/pleɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅完整客机，身份和场景来自故事。",
+        "sentence": "The plane flies over an island.",
+        "matched_form": "plane",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The plane flies over an island.",
+      "example_zh": "飞机飞过一座海岛。",
+      "bbox_normalized": [
+        0.296,
+        0.03,
+        0.728,
+        0.124
+      ],
+      "collocations": [
+        "a passenger plane"
+      ],
+      "example_en_highlighted": "The **plane** flies over an island.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅完整客机，身份和场景来自故事。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W274",
+      "word": "flight",
+      "aliases": [],
+      "source_zh_unreviewed": "飞行；航班",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "飞行",
+      "pos": "noun",
+      "ipa_us": "/flaɪt/",
+      "ipa_uk": "/flaɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The flight takes us over the sea.",
+        "matched_form": "flight",
+        "referent_region_verified": false,
+        "context": "飞行过程与旅程由完整句子说明，不把飞机框等同于过程。",
+        "image_verified": null
+      },
+      "example_en": "The flight takes us over the sea.",
+      "example_zh": "这次飞行带我们越过海面。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a long flight"
+      ],
+      "example_en_highlighted": "The **flight** takes us over the sea.",
+      "annotation_mode": "context",
+      "annotation_note": "飞行过程与旅程由完整句子说明，不把飞机框等同于过程。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W831",
+      "word": "wing",
+      "aliases": [],
+      "source_zh_unreviewed": "翅膀",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "机翼",
+      "pos": "noun",
+      "ipa_us": "/wɪŋ/",
+      "ipa_uk": "/wɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "窗外实际机翼或上幅同一飞机机翼。",
+        "sentence": "I see the wing through the window.",
+        "matched_form": "wing",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I see the wing through the window.",
+      "example_zh": "我透过窗户看见机翼。",
+      "bbox_normalized": [
+        0.622,
+        0.579,
+        0.947,
+        0.722
+      ],
+      "collocations": [
+        "the plane wing"
+      ],
+      "example_en_highlighted": "I see the **wing** through the window.",
+      "annotation_mode": "object",
+      "annotation_note": "窗外实际机翼或上幅同一飞机机翼。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W368",
+      "word": "island",
+      "aliases": [],
+      "source_zh_unreviewed": "岛屿",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "岛屿",
+      "pos": "noun",
+      "ipa_us": "/ˈaɪlənd/",
+      "ipa_uk": "/ˈaɪlənd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "海中独立岛屿的陆地范围。",
+        "sentence": "The island is surrounded by sea.",
+        "matched_form": "island",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The island is surrounded by sea.",
+      "example_zh": "海水环绕着这座岛。",
+      "bbox_normalized": [
+        0.127,
+        0.231,
+        0.938,
+        0.405
+      ],
+      "collocations": [
+        "a green island"
+      ],
+      "example_en_highlighted": "The **island** is surrounded by sea.",
+      "annotation_mode": "object",
+      "annotation_note": "海中独立岛屿的陆地范围。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W338",
+      "word": "high",
+      "aliases": [],
+      "source_zh_unreviewed": "高",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "在高处",
+      "pos": "adverb",
+      "ipa_us": "/haɪ/",
+      "ipa_uk": "/haɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。",
+        "sentence": "The plane flies high above the island.",
+        "matched_form": "high",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The plane flies high above the island.",
+      "example_zh": "飞机在岛屿上方高处飞行。",
+      "bbox_normalized": [
+        0.125,
+        0.03,
+        0.938,
+        0.405
+      ],
+      "collocations": [
+        "fly high"
+      ],
+      "example_en_highlighted": "The plane flies **high** above the island.",
+      "annotation_mode": "relation",
+      "annotation_note": "上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W419",
+      "word": "low",
+      "aliases": [],
+      "source_zh_unreviewed": "低的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "在低处",
+      "pos": "adverb",
+      "ipa_us": "/loʊ/",
+      "ipa_uk": "/ləʊ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅飞机下方岛屿的相对低位置。",
+        "sentence": "The island lies low below the plane.",
+        "matched_form": "low",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The island lies low below the plane.",
+      "example_zh": "岛屿位于飞机下方低处。",
+      "bbox_normalized": [
+        0.127,
+        0.231,
+        0.938,
+        0.405
+      ],
+      "collocations": [
+        "low below"
+      ],
+      "example_en_highlighted": "The island lies **low** below the plane.",
+      "annotation_mode": "relation",
+      "annotation_note": "上幅飞机下方岛屿的相对低位置。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W778",
+      "word": "transport",
+      "aliases": [],
+      "source_zh_unreviewed": "运输",
+      "planned_mode": "context",
+      "sense_zh": "运输工具",
+      "pos": "noun",
+      "ipa_us": "/ˈtrænspɔːrt/",
+      "ipa_uk": "/ˈtrænspɔːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。",
+        "sentence": "The plane is our transport to the island.",
+        "matched_form": "transport",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The plane is our transport to the island.",
+      "example_zh": "飞机是我们去岛上的交通工具。",
+      "bbox_normalized": [
+        0.296,
+        0.03,
+        0.728,
+        0.124
+      ],
+      "collocations": [
+        "our transport"
+      ],
+      "example_en_highlighted": "The plane is our **transport** to the island.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W286",
+      "word": "forward",
+      "aliases": [],
+      "source_zh_unreviewed": "向前；前进",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "向前",
+      "pos": "adverb",
+      "ipa_us": "/ˈfɔːrwərd/",
+      "ipa_uk": "/ˈfɔːwəd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The plane moves forward through the sky.",
+        "matched_form": "forward",
+        "referent_region_verified": false,
+        "context": "静态照片不能证明运动方向，句子说明向前。",
+        "image_verified": null
+      },
+      "example_en": "The plane moves forward through the sky.",
+      "example_zh": "飞机在空中向前飞行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "move forward"
+      ],
+      "example_en_highlighted": "The plane moves **forward** through the sky.",
+      "annotation_mode": "context",
+      "annotation_note": "静态照片不能证明运动方向，句子说明向前。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "The plane flies over an island, with the sea far below.",
+    "zh": "飞机飞过一座海岛，海面远在下方。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C036\n标题 飞机飞过海岛\n场景 飞机飞过海岛，翼部、航线与高度清楚展示。\n目标词 plane, flight, wing, island, high, low, transport, forward\n原创主配文草案 The plane is high over the island.\n中文草案 飞机在岛屿上空高处。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic travel diptych stacked vertically: upper half exterior side view of one passenger airplane in flight above a clearly distinct green island and blue sea, plane high in frame and island low in frame; whole plane and both wings visible. Lower half woman seated beside an aircraft window looking out; clear wing and island viewed through window. Real aircraft proportions, no airline logos. No drawn routes. Use altitude relationship and exterior nose orientation as cues, not a diagram.",
+  "status": "approved",
+  "image_path": "images/C036.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 6,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C036 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:16:08Z",
+    "prompt_path": "prompts/C036_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C036.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "飞机外景与机舱窗景双幅，机翼和独立海岛可辨；high/low为画面与句子支持的相对位置，不读高度和航线。"
+  }
+}

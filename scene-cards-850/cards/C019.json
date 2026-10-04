@@ -1,0 +1,467 @@
+{
+  "id": "C019",
+  "chapter": "食物与用餐",
+  "title": "老式茶室礼貌点单",
+  "scene": "原创历史茶室中服务人员按旧式称呼解释 servant；客人与服务人员对话点单，明确 yes 与 no 的答复。",
+  "target_count": 11,
+  "primary_words": [
+    "please",
+    "request",
+    "offer",
+    "need",
+    "desire",
+    "selection",
+    "or",
+    "some",
+    "no",
+    "yes",
+    "servant"
+  ],
+  "targets": [
+    {
+      "word_id": "W533",
+      "word": "please",
+      "aliases": [],
+      "source_zh_unreviewed": "请；使高兴",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "请",
+      "pos": "adverb",
+      "ipa_us": "/pliːz/",
+      "ipa_uk": "/pliːz/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "Soup, please.",
+        "matched_form": "please",
+        "context": "点单对话中礼貌表达",
+        "image_verified": null
+      },
+      "example_en": "Soup, please.",
+      "example_zh": "请给我汤。",
+      "bbox_normalized": null,
+      "collocations": [
+        "yes, please"
+      ],
+      "example_en_highlighted": "Soup, **please**.",
+      "annotation_mode": "context",
+      "annotation_note": "点单对话中礼貌表达",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W591",
+      "word": "request",
+      "aliases": [],
+      "source_zh_unreviewed": "请求；要求",
+      "planned_mode": "context",
+      "sense_zh": "请求",
+      "pos": "noun",
+      "ipa_us": "/rɪˈkwest/",
+      "ipa_uk": "/rɪˈkwest/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "My request is for a bowl of soup.",
+        "matched_form": "request",
+        "context": "名词请求，原创对话明确内容",
+        "image_verified": null
+      },
+      "example_en": "My request is for a bowl of soup.",
+      "example_zh": "我请求来一碗汤。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a polite request"
+      ],
+      "example_en_highlighted": "My **request** is for a bowl of soup.",
+      "annotation_mode": "context",
+      "annotation_note": "名词请求，原创对话明确内容",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W489",
+      "word": "offer",
+      "aliases": [],
+      "source_zh_unreviewed": "提供；提议",
+      "planned_mode": "context",
+      "sense_zh": "主动提供",
+      "pos": "verb",
+      "ipa_us": "/ˈɔːfər/",
+      "ipa_uk": "/ˈɒfə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。",
+        "sentence": "I offer the guest a cup of tea.",
+        "matched_form": "offer",
+        "context": "服务者口吻原创句子，托盘只作场景线索",
+        "image_verified": null
+      },
+      "example_en": "I offer the guest a cup of tea.",
+      "example_zh": "我主动给客人提供一杯茶。",
+      "bbox_normalized": [
+        0.462,
+        0.436,
+        0.782,
+        0.562
+      ],
+      "collocations": [
+        "offer tea"
+      ],
+      "example_en_highlighted": "I **offer** the guest a cup of tea.",
+      "annotation_mode": "action",
+      "annotation_note": "服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W469",
+      "word": "need",
+      "aliases": [],
+      "source_zh_unreviewed": "需要",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "需要",
+      "pos": "verb",
+      "ipa_us": "/niːd/",
+      "ipa_uk": "/niːd/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I need a spoon for the soup.",
+        "matched_form": "need",
+        "context": "需要由话语说明",
+        "image_verified": null
+      },
+      "example_en": "I need a spoon for the soup.",
+      "example_zh": "我需要一把勺子喝汤。",
+      "bbox_normalized": null,
+      "collocations": [
+        "need a spoon"
+      ],
+      "example_en_highlighted": "I **need** a spoon for the soup.",
+      "annotation_mode": "context",
+      "annotation_note": "需要由话语说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W194",
+      "word": "desire",
+      "aliases": [],
+      "source_zh_unreviewed": "欲望",
+      "planned_mode": "context",
+      "sense_zh": "渴望",
+      "pos": "noun",
+      "ipa_us": "/dɪˈzaɪər/",
+      "ipa_uk": "/dɪˈzaɪə/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I have a desire for a quiet cup of tea.",
+        "matched_form": "desire",
+        "context": "采用名词愿望，不由表情推断",
+        "image_verified": null
+      },
+      "example_en": "I have a desire for a quiet cup of tea.",
+      "example_zh": "我想安静地喝杯茶。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a desire for tea"
+      ],
+      "example_en_highlighted": "I have a **desire** for a quiet cup of tea.",
+      "annotation_mode": "context",
+      "annotation_note": "采用名词愿望，不由表情推断",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W632",
+      "word": "selection",
+      "aliases": [],
+      "source_zh_unreviewed": "选择",
+      "planned_mode": "context",
+      "sense_zh": "选择范围",
+      "pos": "noun",
+      "ipa_us": "/səˈlekʃən/",
+      "ipa_uk": "/səˈlekʃən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。",
+        "sentence": "The selection includes bread and soup.",
+        "matched_form": "selection",
+        "context": "餐食选择范围由原创设定明确",
+        "image_verified": null
+      },
+      "example_en": "The selection includes bread and soup.",
+      "example_zh": "可选食物包括面包和汤。",
+      "bbox_normalized": [
+        0.006,
+        0.69,
+        0.829,
+        0.85
+      ],
+      "collocations": [
+        "a selection of food"
+      ],
+      "example_en_highlighted": "The **selection** includes bread and soup.",
+      "annotation_mode": "object",
+      "annotation_note": "桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W499",
+      "word": "or",
+      "aliases": [],
+      "source_zh_unreviewed": "或者",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "或者",
+      "pos": "conjunction",
+      "ipa_us": "/ɔːr/",
+      "ipa_uk": "/ɔː/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "Would you like bread or soup?",
+        "matched_form": "or",
+        "context": "并列连词说明两种选择",
+        "image_verified": null
+      },
+      "example_en": "Would you like bread or soup?",
+      "example_zh": "你想要面包还是汤？",
+      "bbox_normalized": null,
+      "collocations": [
+        "bread or soup"
+      ],
+      "example_en_highlighted": "Would you like bread **or** soup?",
+      "annotation_mode": "context",
+      "annotation_note": "并列连词说明两种选择",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W681",
+      "word": "some",
+      "aliases": [],
+      "source_zh_unreviewed": "一些",
+      "planned_mode": "context",
+      "sense_zh": "一些",
+      "pos": "determiner",
+      "ipa_us": "/sʌm/",
+      "ipa_uk": "/sʌm/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I would like some bread.",
+        "matched_form": "some",
+        "context": "限定词修饰不可数bread",
+        "image_verified": null
+      },
+      "example_en": "I would like some bread.",
+      "example_zh": "我想要一些面包。",
+      "bbox_normalized": null,
+      "collocations": [
+        "some bread"
+      ],
+      "example_en_highlighted": "I would like **some** bread.",
+      "annotation_mode": "context",
+      "annotation_note": "限定词修饰不可数bread",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W476",
+      "word": "no",
+      "aliases": [],
+      "source_zh_unreviewed": "不",
+      "planned_mode": "context",
+      "sense_zh": "不；不要",
+      "pos": "interjection",
+      "ipa_us": "/noʊ/",
+      "ipa_uk": "/nəʊ/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "No, thank you. I do not want sugar.",
+        "matched_form": "no",
+        "context": "明确否定答复，不能由表情判断",
+        "image_verified": null
+      },
+      "example_en": "No, thank you. I do not want sugar.",
+      "example_zh": "不用了，谢谢。我不想加糖。",
+      "bbox_normalized": null,
+      "collocations": [
+        "no, thank you"
+      ],
+      "example_en_highlighted": "**No**, thank you. I do not want sugar.",
+      "annotation_mode": "context",
+      "annotation_note": "明确否定答复，不能由表情判断",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W847",
+      "word": "yes",
+      "aliases": [],
+      "source_zh_unreviewed": "是的",
+      "planned_mode": "context",
+      "sense_zh": "是；好的",
+      "pos": "interjection",
+      "ipa_us": "/jes/",
+      "ipa_uk": "/jes/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "Yes, please. I would like tea.",
+        "matched_form": "yes",
+        "context": "明确肯定答复，不能由表情判断",
+        "image_verified": null
+      },
+      "example_en": "Yes, please. I would like tea.",
+      "example_zh": "好的，请给我茶。",
+      "bbox_normalized": null,
+      "collocations": [
+        "yes, please"
+      ],
+      "example_en_highlighted": "**Yes**, please. I would like tea.",
+      "annotation_mode": "context",
+      "annotation_note": "明确肯定答复，不能由表情判断",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W638",
+      "word": "servant",
+      "aliases": [],
+      "source_zh_unreviewed": "仆人",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "仆人（历史称呼）",
+      "pos": "noun",
+      "ipa_us": "/ˈsɜːrvənt/",
+      "ipa_uk": "/ˈsɜːvənt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。",
+        "sentence": "In this fictional old manor, a servant brings tea.",
+        "matched_form": "servant",
+        "context": "原创1890庄园茶室历史身份；不把现代服务员等同于servant，也不凭服装认定身份",
+        "image_verified": null
+      },
+      "example_en": "In this fictional old manor, a servant brings tea.",
+      "example_zh": "在这座虚构的旧式庄园里，一位仆人端来茶。",
+      "bbox_normalized": [
+        0.569,
+        0.052,
+        0.978,
+        0.7
+      ],
+      "collocations": [
+        "a household servant"
+      ],
+      "example_en_highlighted": "In this fictional old manor, a **servant** brings tea.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "“Soup, please.” “Tea?” “Yes, please, but no sugar.”",
+    "zh": "“请给我汤。”“要茶吗？”“好的，请来一杯，但不要糖。”",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "servant 需明确为历史茶室中的旧式称呼，不能把现代店员直接等同于 servant。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C019\n标题 老式茶室礼貌点单\n场景 原创历史茶室中服务人员按旧式称呼解释 servant；客人与服务人员对话点单，明确 yes 与 no 的答复。\n目标词 please, request, offer, need, desire, selection, or, some, no, yes, servant\n原创主配文草案 Please give me some bread or soup.\n中文草案 请给我一些面包或汤。\n编辑注意 servant 需明确为历史茶室中的旧式称呼，不能把现代店员直接等同于 servant。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Fictional 1890 manor-house tea room, original historical scene, no real venue. Two adult East Asian women: young female guest at left in understated pearl-grey period dress seated at table; HOUSEHOLD SERVANT at right in modest historical slate dress and simple white apron, offering small tray with one white teacup, dignified everyday interaction. Table foreground includes bread plate at left and soup bowl center-right. Cool soft window light, pale elegant wooden interior, period costumes subtly tailored and realistic; NOT a modern café waitress. Faces and hands readable, calm negative space at top and bottom for 11 annotations.",
+  "status": "approved",
+  "image_path": "images/C019.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 11,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C019 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T22:54:39Z",
+    "ended_at": "2026-10-02T22:57:56Z",
+    "prompt_path": "prompts/C019_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C019.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "两位成年女性的庄园茶室历史服装、递茶托盘、面包与汤清晰；历史仆人身份仅由虚构1890庄园设定说明。礼貌、需求、选择及yes/no均以明确原创对话支持，不从外貌/表情认定。11词均为无框语境标签。"
+  }
+}

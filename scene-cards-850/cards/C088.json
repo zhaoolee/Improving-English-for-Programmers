@@ -1,0 +1,368 @@
+{
+  "id": "C088",
+  "chapter": "工具与科学",
+  "title": "发现与发明",
+  "scene": "科学展厅展示旧器械到自动机器的发展，有发现、用途与过程解说。",
+  "target_count": 8,
+  "primary_words": [
+    "discovery",
+    "invention",
+    "development",
+    "automatic",
+    "machine",
+    "process",
+    "purpose",
+    "attempt"
+  ],
+  "targets": [
+    {
+      "word_id": "W202",
+      "word": "discovery",
+      "aliases": [],
+      "source_zh_unreviewed": "发现",
+      "planned_mode": "context",
+      "sense_zh": "发现",
+      "pos": "noun",
+      "ipa_us": "/dɪˈskʌvəri/",
+      "ipa_uk": "/dɪˈskʌvəri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A discovery reveals something that was already there.",
+        "matched_form": "discovery",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A discovery reveals something that was already there.",
+      "example_zh": "发现揭示原本就存在的事物。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a new discovery",
+        "make a discovery"
+      ],
+      "example_en_highlighted": "A **discovery** reveals something that was already there.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W366",
+      "word": "invention",
+      "aliases": [],
+      "source_zh_unreviewed": "发明",
+      "planned_mode": "context",
+      "sense_zh": "发明",
+      "pos": "noun",
+      "ipa_us": "/ɪnˈvenʃən/",
+      "ipa_uk": "/ɪnˈvenʃən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景齿轮原型，故事明确代表发明。",
+        "sentence": "The small prototype represents an invention in this exhibit.",
+        "matched_form": "invention",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The small prototype represents an invention in this exhibit.",
+      "example_zh": "这个小原型在展览中代表一项发明。",
+      "bbox_normalized": [
+        0.524,
+        0.667,
+        0.845,
+        0.809
+      ],
+      "collocations": [
+        "a useful invention",
+        "a new invention"
+      ],
+      "example_en_highlighted": "The small prototype represents an **invention** in this exhibit.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（发明），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W197",
+      "word": "development",
+      "aliases": [],
+      "source_zh_unreviewed": "发展",
+      "planned_mode": "context",
+      "sense_zh": "发展",
+      "pos": "noun",
+      "ipa_us": "/dɪˈveləpmənt/",
+      "ipa_uk": "/dɪˈveləpmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The exhibit tells a story of technical development.",
+        "matched_form": "development",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The exhibit tells a story of technical development.",
+      "example_zh": "这个展览讲述技术发展的故事。",
+      "bbox_normalized": null,
+      "collocations": [
+        "technical development",
+        "the development of"
+      ],
+      "example_en_highlighted": "The exhibit tells a story of technical **development**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W043",
+      "word": "automatic",
+      "aliases": [],
+      "source_zh_unreviewed": "自动的；自动化的",
+      "planned_mode": "context",
+      "sense_zh": "自动的",
+      "pos": "adjective",
+      "ipa_us": "/ˌɔːtəˈmætɪk/",
+      "ipa_uk": "/ˌɔːtəˈmætɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The story describes an automatic machine that follows a program.",
+        "matched_form": "automatic",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The story describes an automatic machine that follows a program.",
+      "example_zh": "故事描述一台按照程序运行的自动机器。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an automatic machine",
+        "automatic control"
+      ],
+      "example_en_highlighted": "The story describes an **automatic** machine that follows a program.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W420",
+      "word": "machine",
+      "aliases": [],
+      "source_zh_unreviewed": "机器；机械",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "机器",
+      "pos": "noun",
+      "ipa_us": "/məˈʃiːn/",
+      "ipa_uk": "/məˈʃiːn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧玻璃罩中小机械臂。",
+        "sentence": "The machine is protected by glass.",
+        "matched_form": "machine",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The machine is protected by glass.",
+      "example_zh": "机器由玻璃罩保护着。",
+      "bbox_normalized": [
+        0.794,
+        0.384,
+        0.998,
+        0.623
+      ],
+      "collocations": [
+        "a modern machine",
+        "a small machine"
+      ],
+      "example_en_highlighted": "The **machine** is protected by glass.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（机器），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W555",
+      "word": "process",
+      "aliases": [],
+      "source_zh_unreviewed": "过程；处理",
+      "planned_mode": "context",
+      "sense_zh": "过程",
+      "pos": "noun",
+      "ipa_us": "/ˈprɑːses/",
+      "ipa_uk": "/ˈprəʊses/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We discuss the process of improving the prototype.",
+        "matched_form": "process",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We discuss the process of improving the prototype.",
+      "example_zh": "我们讨论改进原型的过程。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a design process",
+        "the process of"
+      ],
+      "example_en_highlighted": "We discuss the **process** of improving the prototype.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W565",
+      "word": "purpose",
+      "aliases": [],
+      "source_zh_unreviewed": "目的；意图",
+      "planned_mode": "context",
+      "sense_zh": "目的",
+      "pos": "noun",
+      "ipa_us": "/ˈpɝːpəs/",
+      "ipa_uk": "/ˈpɜːpəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The purpose of the display is to explain engineering.",
+        "matched_form": "purpose",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The purpose of the display is to explain engineering.",
+      "example_zh": "这个展示的目的是解释工程技术。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the purpose of",
+        "a clear purpose"
+      ],
+      "example_en_highlighted": "The **purpose** of the display is to explain engineering.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W039",
+      "word": "attempt",
+      "aliases": [],
+      "source_zh_unreviewed": "尝试；企图",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "尝试",
+      "pos": "noun",
+      "ipa_us": "/əˈtempt/",
+      "ipa_uk": "/əˈtempt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The prototype began as a first attempt at a new design.",
+        "matched_form": "attempt",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The prototype began as a first attempt at a new design.",
+      "example_zh": "这个原型起初是对新设计的第一次尝试。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a first attempt",
+        "make an attempt"
+      ],
+      "example_en_highlighted": "The prototype began as a first **attempt** at a new design.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "An old hand tool and a modern machine show how an invention can develop.",
+    "zh": "一件旧手工具和一台现代机器展示了发明如何发展。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C088\n标题 发现与发明\n场景 科学展厅展示旧器械到自动机器的发展，有发现、用途与过程解说。\n目标词 discovery, invention, development, automatic, machine, process, purpose, attempt\n原创主配文草案 An invention often starts with an attempt.\n中文草案 一项发明常常始于一次尝试。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman in cool Korean museum editorial portrait beside an engineering exhibit. Small tabletop robotic arm behind glass right, simple old manual wooden tool on separate stand left, an inert small geared mechanical prototype between. Machine not operating. Clean museum room, no text labels or logos, credible mechanical joints and natural hands.",
+  "status": "approved",
+  "image_path": "images/C088.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 6,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C088 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:05:08 UTC",
+    "prompt_path": "prompts/C088_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C088.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "左手工具、前景齿轮原型及右侧玻璃内机械臂清楚；发明身份由展览故事指定。"
+  }
+}

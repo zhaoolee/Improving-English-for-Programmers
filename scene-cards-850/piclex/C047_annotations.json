@@ -1,0 +1,227 @@
+{
+  "filename": "C047-天气突然变化.png",
+  "labels": [
+    {
+      "x": 831,
+      "y": 78,
+      "english": "sky",
+      "chinese": "天空",
+      "phoneticUS": "/skaɪ/",
+      "phoneticUK": "/skaɪ/",
+      "bubblePosition": {
+        "x": 785,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 831,
+        "y": 78
+      },
+      "boundingBox": {
+        "left": 400,
+        "top": 0,
+        "right": 995,
+        "bottom": 133
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅天空实际区域。",
+        "association": "上幅天空实际区域。",
+        "collocation": "a blue sky",
+        "example": "The sky is blue before the rain.",
+        "exampleChinese": "下雨前天空是蓝色的。"
+      }
+    },
+    {
+      "x": 736,
+      "y": 106,
+      "english": "cloud",
+      "chinese": "云",
+      "phoneticUS": "/klaʊd/",
+      "phoneticUK": "/klaʊd/",
+      "bubblePosition": {
+        "x": 670,
+        "y": 175
+      },
+      "anchorPosition": {
+        "x": 736,
+        "y": 106
+      },
+      "boundingBox": {
+        "left": 549,
+        "top": 77,
+        "right": 822,
+        "bottom": 128
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅独立白云。",
+        "association": "上幅独立白云。",
+        "collocation": "a white cloud",
+        "example": "A white cloud crosses the sky.",
+        "exampleChinese": "一朵白云飘过天空。"
+      }
+    },
+    {
+      "x": 735,
+      "y": 733,
+      "english": "mist",
+      "chinese": "薄雾",
+      "phoneticUS": "/mɪst/",
+      "phoneticUK": "/mɪst/",
+      "bubblePosition": {
+        "x": 830,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 735,
+        "y": 733
+      },
+      "boundingBox": {
+        "left": 396,
+        "top": 630,
+        "right": 996,
+        "bottom": 793
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅贴近山丘的真实雾层。",
+        "association": "下幅贴近山丘的真实雾层。",
+        "collocation": "morning mist",
+        "example": "Mist covers the distant hills.",
+        "exampleChinese": "薄雾笼罩远处的山丘。"
+      }
+    },
+    {
+      "x": 790,
+      "y": 420,
+      "english": "weather",
+      "chinese": "天气",
+      "phoneticUS": "/ˈweðər/",
+      "phoneticUK": "/ˈweðə/",
+      "bubblePosition": {
+        "x": 790,
+        "y": 420
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "晴雨两幅提供线索，天气变化由完整句子说明。",
+        "association": "晴雨两幅提供线索，天气变化由完整句子说明。",
+        "collocation": "a change in the weather",
+        "example": "The weather changes while I wait.",
+        "exampleChinese": "我等待时天气变了。"
+      }
+    },
+    {
+      "x": 825,
+      "y": 565,
+      "english": "thunder",
+      "chinese": "雷声",
+      "phoneticUS": "/ˈθʌndər/",
+      "phoneticUK": "/ˈθʌndə/",
+      "bubblePosition": {
+        "x": 825,
+        "y": 565
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "声音不能静态定位，不把云或闪电当雷声。",
+        "association": "声音不能静态定位，不把云或闪电当雷声。",
+        "collocation": "hear thunder",
+        "example": "I hear thunder beyond the hills.",
+        "exampleChinese": "我听见山丘那边传来雷声。"
+      }
+    },
+    {
+      "x": 135,
+      "y": 55,
+      "english": "sudden",
+      "chinese": "突然的",
+      "phoneticUS": "/ˈsʌdən/",
+      "phoneticUK": "/ˈsʌdən/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 55
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "变化速度来自故事，静态对比不能证明突然。",
+        "association": "变化速度来自故事，静态对比不能证明突然。",
+        "collocation": "a sudden change",
+        "example": "A sudden change in the weather surprises me.",
+        "exampleChinese": "天气突然变化让我吃了一惊。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 925,
+      "english": "air",
+      "chinese": "空气",
+      "phoneticUS": "/er/",
+      "phoneticUK": "/eə/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "空气不可见，雾不当空气本体。",
+        "association": "空气不可见，雾不当空气本体。",
+        "collocation": "fresh air",
+        "example": "I breathe the fresh air.",
+        "exampleChinese": "我呼吸着新鲜空气。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "The sky changes; mist covers the hills, and I hear thunder.",
+    "chinese": "天空变了；薄雾笼罩山丘，我听见了雷声。",
+    "source": "原创配文 · C047 天气突然变化",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

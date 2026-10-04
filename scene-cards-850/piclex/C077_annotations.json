@@ -1,0 +1,273 @@
+{
+  "filename": "C077-项目分工板.png",
+  "labels": [
+    {
+      "x": 165,
+      "y": 90,
+      "english": "distribution",
+      "chinese": "分配",
+      "phoneticUS": "/ˌdɪstrəˈbjuːʃən/",
+      "phoneticUK": "/ˌdɪstrɪˈbjuːʃən/",
+      "bubblePosition": {
+        "x": 165,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The distribution of work is fair.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The distribution of work is fair.；不声称该状态/含义本身在画面可见。",
+        "collocation": "distribution of work; task distribution",
+        "example": "The distribution of work is fair.",
+        "exampleChinese": "工作的分配是公平的。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 85,
+      "english": "division",
+      "chinese": "划分",
+      "phoneticUS": "/dɪˈvɪʒən/",
+      "phoneticUK": "/dɪˈvɪʒən/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A clear division of work helps the team.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A clear division of work helps the team.；不声称该状态/含义本身在画面可见。",
+        "collocation": "division of work; a clear division",
+        "example": "A clear division of work helps the team.",
+        "exampleChinese": "明确的分工有助于团队。"
+      }
+    },
+    {
+      "x": 700,
+      "y": 220,
+      "english": "committee",
+      "chinese": "委员会",
+      "phoneticUS": "/kəˈmɪti/",
+      "phoneticUK": "/kəˈmɪti/",
+      "bubblePosition": {
+        "x": 700,
+        "y": 220
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our committee reviews the plan together.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our committee reviews the plan together.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a small committee; join a committee",
+        "example": "Our committee reviews the plan together.",
+        "exampleChinese": "我们的委员会一起审查计划。"
+      }
+    },
+    {
+      "x": 524,
+      "y": 453,
+      "english": "representative",
+      "chinese": "代表",
+      "phoneticUS": "/ˌreprɪˈzentətɪv/",
+      "phoneticUK": "/ˌreprɪˈzentətɪv/",
+      "bubblePosition": {
+        "x": 165,
+        "y": 400
+      },
+      "anchorPosition": {
+        "x": 524,
+        "y": 453
+      },
+      "boundingBox": {
+        "left": 214,
+        "top": 138,
+        "right": 835,
+        "bottom": 769
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（代表），待最终图确认。",
+        "association": "场景中体现的具体对象（代表），待最终图确认。",
+        "collocation": "a team representative; our representative",
+        "example": "The woman pointing to the board is our representative.",
+        "exampleChinese": "指着工作板的女子是我们的代表。"
+      }
+    },
+    {
+      "x": 855,
+      "y": 706,
+      "english": "chief",
+      "chinese": "负责人",
+      "phoneticUS": "/tʃiːf/",
+      "phoneticUK": "/tʃiːf/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 740
+      },
+      "anchorPosition": {
+        "x": 855,
+        "y": 706
+      },
+      "boundingBox": {
+        "left": 712,
+        "top": 430,
+        "right": 998,
+        "bottom": 983
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（负责人），待最终图确认。",
+        "association": "场景中体现的具体对象（负责人），待最终图确认。",
+        "collocation": "the team chief; our chief",
+        "example": "The colleague seated on the right is our chief.",
+        "exampleChinese": "坐在右侧的同事是我们的负责人。"
+      }
+    },
+    {
+      "x": 855,
+      "y": 305,
+      "english": "authority",
+      "chinese": "权限",
+      "phoneticUS": "/əˈθɔːrəti/",
+      "phoneticUK": "/ɔːˈθɒrəti/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 305
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The chief has authority to approve the plan.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The chief has authority to approve the plan.；不声称该状态/含义本身在画面可见。",
+        "collocation": "have authority; authority to decide",
+        "example": "The chief has authority to approve the plan.",
+        "exampleChinese": "负责人有权批准这个计划。"
+      }
+    },
+    {
+      "x": 190,
+      "y": 865,
+      "english": "general",
+      "chinese": "总体的",
+      "phoneticUS": "/ˈdʒenərəl/",
+      "phoneticUK": "/ˈdʒenərəl/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 865
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We discuss the general plan before the details.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We discuss the general plan before the details.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a general plan; general guidance",
+        "example": "We discuss the general plan before the details.",
+        "exampleChinese": "我们先讨论总体计划，再讨论细节。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 930,
+      "english": "system",
+      "chinese": "制度",
+      "phoneticUS": "/ˈsɪstəm/",
+      "phoneticUK": "/ˈsɪstəm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The system explains how tasks are assigned.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The system explains how tasks are assigned.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a clear system; a working system",
+        "example": "The system explains how tasks are assigned.",
+        "exampleChinese": "这套制度说明如何分配任务。"
+      }
+    },
+    {
+      "x": 180,
+      "y": 780,
+      "english": "lead",
+      "chinese": "带领",
+      "phoneticUS": "/liːd/",
+      "phoneticUK": "/liːd/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 780
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our chief will lead the next discussion.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our chief will lead the next discussion.；不声称该状态/含义本身在画面可见。",
+        "collocation": "lead a team; lead a discussion",
+        "example": "Our chief will lead the next discussion.",
+        "exampleChinese": "我们的负责人将带领下一次讨论。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Our representative explains the system, and the chief helps us divide the work.",
+    "chinese": "我们的代表说明这套制度，负责人帮助我们划分工作。",
+    "source": "原创配文 · C077 项目分工板",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

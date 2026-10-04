@@ -1,0 +1,329 @@
+{
+  "filename": "C051-镜前认识面部.png",
+  "labels": [
+    {
+      "x": 471,
+      "y": 289,
+      "english": "face",
+      "chinese": "脸",
+      "phoneticUS": "/feɪs/",
+      "phoneticUK": "/feɪs/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 100
+      },
+      "anchorPosition": {
+        "x": 471,
+        "y": 289
+      },
+      "boundingBox": {
+        "left": 282,
+        "top": 138,
+        "right": 661,
+        "bottom": 440
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际面部整体。",
+        "association": "实际面部整体。",
+        "collocation": "my face",
+        "example": "I look at my face in the mirror.",
+        "exampleChinese": "我看着镜子里的脸。"
+      }
+    },
+    {
+      "x": 467,
+      "y": 247,
+      "english": "eye",
+      "chinese": "眼睛",
+      "phoneticUS": "/aɪ/",
+      "phoneticUK": "/aɪ/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 230
+      },
+      "anchorPosition": {
+        "x": 467,
+        "y": 247
+      },
+      "boundingBox": {
+        "left": 426,
+        "top": 233,
+        "right": 509,
+        "bottom": 262
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际可辨的一只眼。",
+        "association": "实际可辨的一只眼。",
+        "collocation": "my left eye",
+        "example": "One eye is visible beside my nose.",
+        "exampleChinese": "一只眼睛在鼻子旁清晰可见。"
+      }
+    },
+    {
+      "x": 646,
+      "y": 324,
+      "english": "ear",
+      "chinese": "耳朵",
+      "phoneticUS": "/ɪr/",
+      "phoneticUK": "/ɪə/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 646,
+        "y": 324
+      },
+      "boundingBox": {
+        "left": 602,
+        "top": 280,
+        "right": 690,
+        "bottom": 369
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际露出的耳朵。",
+        "association": "实际露出的耳朵。",
+        "collocation": "my ear",
+        "example": "My hair is behind my ear.",
+        "exampleChinese": "我的头发别在耳后。"
+      }
+    },
+    {
+      "x": 382,
+      "y": 294,
+      "english": "nose",
+      "chinese": "鼻子",
+      "phoneticUS": "/noʊz/",
+      "phoneticUK": "/nəʊz/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 360
+      },
+      "anchorPosition": {
+        "x": 382,
+        "y": 294
+      },
+      "boundingBox": {
+        "left": 340,
+        "top": 260,
+        "right": 424,
+        "bottom": 328
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "面部实际鼻子。",
+        "association": "面部实际鼻子。",
+        "collocation": "my nose",
+        "example": "My nose is above my mouth.",
+        "exampleChinese": "我的鼻子在嘴巴上方。"
+      }
+    },
+    {
+      "x": 374,
+      "y": 352,
+      "english": "mouth",
+      "chinese": "嘴巴",
+      "phoneticUS": "/maʊθ/",
+      "phoneticUK": "/maʊθ/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 490
+      },
+      "anchorPosition": {
+        "x": 374,
+        "y": 352
+      },
+      "boundingBox": {
+        "left": 319,
+        "top": 329,
+        "right": 430,
+        "bottom": 375
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际口部整体。",
+        "association": "实际口部整体。",
+        "collocation": "a closed mouth",
+        "example": "My mouth is closed.",
+        "exampleChinese": "我的嘴巴闭着。"
+      }
+    },
+    {
+      "x": 376,
+      "y": 365,
+      "english": "lip",
+      "chinese": "嘴唇",
+      "phoneticUS": "/lɪp/",
+      "phoneticUK": "/lɪp/",
+      "bubblePosition": {
+        "x": 420,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 376,
+        "y": 365
+      },
+      "boundingBox": {
+        "left": 341,
+        "top": 357,
+        "right": 411,
+        "bottom": 373
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位实际下唇。",
+        "association": "定位实际下唇。",
+        "collocation": "my lower lip",
+        "example": "My lower lip is below my upper lip.",
+        "exampleChinese": "我的下唇在上唇下方。"
+      }
+    },
+    {
+      "x": 392,
+      "y": 406,
+      "english": "chin",
+      "chinese": "下巴",
+      "phoneticUS": "/tʃɪn/",
+      "phoneticUK": "/tʃɪn/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 625
+      },
+      "anchorPosition": {
+        "x": 392,
+        "y": 406
+      },
+      "boundingBox": {
+        "left": 332,
+        "top": 378,
+        "right": 452,
+        "bottom": 435
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际下巴区域。",
+        "association": "实际下巴区域。",
+        "collocation": "my chin",
+        "example": "My chin is below my mouth.",
+        "exampleChinese": "我的下巴在嘴巴下方。"
+      }
+    },
+    {
+      "x": 807,
+      "y": 812,
+      "english": "hair",
+      "chinese": "头发",
+      "phoneticUS": "/her/",
+      "phoneticUK": "/heə/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 807,
+        "y": 812
+      },
+      "boundingBox": {
+        "left": 700,
+        "top": 735,
+        "right": 915,
+        "bottom": 890
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际头发。",
+        "association": "实际头发。",
+        "collocation": "loose hair",
+        "example": "My hair falls beside my face.",
+        "exampleChinese": "我的头发垂在脸旁。"
+      }
+    },
+    {
+      "x": 841,
+      "y": 647,
+      "english": "comb",
+      "chinese": "梳子",
+      "phoneticUS": "/koʊm/",
+      "phoneticUK": "/kəʊm/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 841,
+        "y": 647
+      },
+      "boundingBox": {
+        "left": 740,
+        "top": 559,
+        "right": 942,
+        "bottom": 736
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际梳齿与梳身。",
+        "association": "实际梳齿与梳身。",
+        "collocation": "a wide-tooth comb",
+        "example": "I hold a comb beside my hair.",
+        "exampleChinese": "我在头发旁拿着一把梳子。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I comb my hair and look at my face in the mirror.",
+    "chinese": "我梳着头发，看着镜子里的脸。",
+    "source": "原创配文 · C051 镜前认识面部",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

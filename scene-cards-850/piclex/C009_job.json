@@ -1,0 +1,19 @@
+{
+  "cardID": "C009",
+  "imagePath": "../images/C009.png",
+  "imageSHA256": "239a456b1b79cc850de7b2ffa16175cf11766273065c1ab7451331b005dce61e",
+  "imageReviewed": true,
+  "annotationsPath": "C009_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "dog",
+    "cat",
+    "tail",
+    "animal",
+    "soft",
+    "touch",
+    "comfort",
+    "rest"
+  ],
+  "receiptPath": "C009_import_receipt.json"
+}

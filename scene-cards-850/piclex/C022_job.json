@@ -1,0 +1,19 @@
+{
+  "cardID": "C022",
+  "imagePath": "../images/C022.png",
+  "imageSHA256": "d97158056aa211f07a9aac0b86527dba88a69ede8f3a350cbb385dea9c4dc205",
+  "imageReviewed": true,
+  "annotationsPath": "C022_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "shoe",
+    "boot",
+    "sock",
+    "stocking",
+    "hat",
+    "glove",
+    "bag",
+    "leather"
+  ],
+  "receiptPath": "C022_import_receipt.json"
+}

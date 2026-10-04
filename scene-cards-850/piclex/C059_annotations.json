@@ -1,0 +1,278 @@
+{
+  "filename": "C059-泳池里的平衡.png",
+  "labels": [
+    {
+      "x": 538,
+      "y": 212,
+      "english": "swim",
+      "chinese": "游泳",
+      "phoneticUS": "/swɪm/",
+      "phoneticUK": "/swɪm/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 75
+      },
+      "anchorPosition": {
+        "x": 538,
+        "y": 212
+      },
+      "boundingBox": {
+        "left": 286,
+        "top": 20,
+        "right": 791,
+        "bottom": 405
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅水中游泳姿态，运动由句子支持。",
+        "association": "上幅水中游泳姿态，运动由句子支持。",
+        "collocation": "swim toward the edge",
+        "example": "I swim toward the edge of the pool.",
+        "exampleChinese": "我游向泳池边缘。"
+      }
+    },
+    {
+      "x": 549,
+      "y": 846,
+      "english": "balance",
+      "chinese": "平衡",
+      "phoneticUS": "/ˈbæləns/",
+      "phoneticUK": "/ˈbæləns/",
+      "bubblePosition": {
+        "x": 913.3333333333334,
+        "y": 574.9774917469739
+      },
+      "anchorPosition": {
+        "x": 549,
+        "y": 846
+      },
+      "boundingBox": {
+        "left": 493,
+        "top": 733,
+        "right": 606,
+        "bottom": 959
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅扶栏落脚的平衡姿态，不声称测得稳定性。",
+        "association": "下幅扶栏落脚的平衡姿态，不声称测得稳定性。",
+        "collocation": "keep my balance",
+        "example": "I keep my balance as I step out.",
+        "exampleChinese": "走出泳池时，我保持平衡。"
+      }
+    },
+    {
+      "x": 343,
+      "y": 671,
+      "english": "grip",
+      "chinese": "握持",
+      "phoneticUS": "/ɡrɪp/",
+      "phoneticUK": "/ɡrɪp/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 555
+      },
+      "anchorPosition": {
+        "x": 343,
+        "y": 671
+      },
+      "boundingBox": {
+        "left": 312,
+        "top": 649,
+        "right": 374,
+        "bottom": 694
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际环握栏杆的手部。",
+        "association": "实际环握栏杆的手部。",
+        "collocation": "a firm grip",
+        "example": "I keep a firm grip on the rail.",
+        "exampleChinese": "我牢牢握住扶手。"
+      }
+    },
+    {
+      "x": 197,
+      "y": 822,
+      "english": "support",
+      "chinese": "支撑物",
+      "phoneticUS": "/səˈpɔːrt/",
+      "phoneticUK": "/səˈpɔːt/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 197,
+        "y": 822
+      },
+      "boundingBox": {
+        "left": 172,
+        "top": 689,
+        "right": 223,
+        "bottom": 956
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际栏杆支撑部件。",
+        "association": "实际栏杆支撑部件。",
+        "collocation": "a metal support",
+        "example": "The metal support steadies the rail.",
+        "exampleChinese": "金属支撑固定着扶手。"
+      }
+    },
+    {
+      "x": 880,
+      "y": 70,
+      "english": "fall",
+      "chinese": "跌倒",
+      "phoneticUS": "/fɔːl/",
+      "phoneticUK": "/fɔːl/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 70
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "否定预防句，画面没有跌倒，不编造动作框。",
+        "association": "否定预防句，画面没有跌倒，不编造动作框。",
+        "collocation": "do not fall",
+        "example": "I hold the rail so I do not fall.",
+        "exampleChinese": "我扶着栏杆，以免跌倒。"
+      }
+    },
+    {
+      "x": 875,
+      "y": 365,
+      "english": "slip",
+      "chinese": "滑倒",
+      "phoneticUS": "/slɪp/",
+      "phoneticUK": "/slɪp/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 365
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "画面没有滑倒，使用完整否定语境。",
+        "association": "画面没有滑倒，使用完整否定语境。",
+        "collocation": "do not slip",
+        "example": "I step carefully so I do not slip.",
+        "exampleChinese": "我小心迈步，以免滑倒。"
+      }
+    },
+    {
+      "x": 370,
+      "y": 650,
+      "english": "pull",
+      "chinese": "拉",
+      "phoneticUS": "/pʊl/",
+      "phoneticUK": "/pʊl/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 370,
+        "y": 650
+      },
+      "boundingBox": {
+        "left": 303,
+        "top": 582,
+        "right": 438,
+        "bottom": 718
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "握持与拉近的句子指代手臂，不声称从静态图测得力向。",
+        "association": "握持与拉近的句子指代手臂，不声称从静态图测得力向。",
+        "collocation": "pull myself closer",
+        "example": "I pull myself closer to the rail.",
+        "exampleChinese": "我把自己拉向扶手。"
+      }
+    },
+    {
+      "x": 703,
+      "y": 716,
+      "english": "push",
+      "chinese": "推",
+      "phoneticUS": "/pʊʃ/",
+      "phoneticUK": "/pʊʃ/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 855
+      },
+      "anchorPosition": {
+        "x": 703,
+        "y": 716
+      },
+      "boundingBox": {
+        "left": 601,
+        "top": 650,
+        "right": 806,
+        "bottom": 783
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际撑扶手姿态，力向由句子说明。",
+        "association": "实际撑扶手姿态，力向由句子说明。",
+        "collocation": "push against the rail",
+        "example": "I push against the rail as I stand.",
+        "exampleChinese": "我站起时撑推着扶手。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I swim toward the rail, then hold it as I step out.",
+    "chinese": "我游向扶手，然后扶着它走出泳池。",
+    "source": "原创配文 · C059 泳池里的平衡",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

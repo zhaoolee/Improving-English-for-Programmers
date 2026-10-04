@@ -1,0 +1,270 @@
+{
+  "filename": "C020-餐后收拾.png",
+  "labels": [
+    {
+      "x": 115,
+      "y": 60,
+      "english": "waste",
+      "chinese": "浪费",
+      "phoneticUS": "/weɪst/",
+      "phoneticUK": "/weɪst/",
+      "bubblePosition": {
+        "x": 115,
+        "y": 60
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "保存剩食的故事与否定例句",
+        "association": "保存剩食的故事与否定例句",
+        "collocation": "waste food",
+        "example": "I do not waste food.",
+        "exampleChinese": "我不浪费食物。"
+      }
+    },
+    {
+      "x": 473,
+      "y": 607,
+      "english": "cover",
+      "chinese": "盖子",
+      "phoneticUS": "/ˈkʌvər/",
+      "phoneticUK": "/ˈkʌvə/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 572
+      },
+      "anchorPosition": {
+        "x": 473,
+        "y": 607
+      },
+      "boundingBox": {
+        "left": 338,
+        "top": 548,
+        "right": 594,
+        "bottom": 665
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中圆形容器盖，采用名词义",
+        "association": "手中圆形容器盖，采用名词义",
+        "collocation": "a bowl cover",
+        "example": "The cover fits the vessel.",
+        "exampleChinese": "盖子与容器相配。"
+      }
+    },
+    {
+      "x": 516,
+      "y": 760,
+      "english": "vessel",
+      "chinese": "容器",
+      "phoneticUS": "/ˈvesəl/",
+      "phoneticUK": "/ˈvesəl/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 906
+      },
+      "anchorPosition": {
+        "x": 516,
+        "y": 760
+      },
+      "boundingBox": {
+        "left": 377,
+        "top": 669,
+        "right": 655,
+        "bottom": 837
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景盛汤的瓷制容器；此处正式用语容器义，不是船",
+        "association": "前景盛汤的瓷制容器；此处正式用语容器义，不是船",
+        "collocation": "a food vessel",
+        "example": "The vessel holds the soup.",
+        "exampleChinese": "容器里装着汤。"
+      }
+    },
+    {
+      "x": 842,
+      "y": 829,
+      "english": "drop",
+      "chinese": "一滴",
+      "phoneticUS": "/drɑːp/",
+      "phoneticUK": "/drɒp/",
+      "bubblePosition": {
+        "x": 861,
+        "y": 901
+      },
+      "anchorPosition": {
+        "x": 842,
+        "y": 829
+      },
+      "boundingBox": {
+        "left": 827,
+        "top": 822,
+        "right": 857,
+        "bottom": 835
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "勺子托碟上的独立小汤滴",
+        "association": "勺子托碟上的独立小汤滴",
+        "collocation": "a drop of soup",
+        "example": "A drop of soup is on the saucer.",
+        "exampleChinese": "托碟上有一滴汤。"
+      }
+    },
+    {
+      "x": 215,
+      "y": 780,
+      "english": "bit",
+      "chinese": "少量",
+      "phoneticUS": "/bɪt/",
+      "phoneticUK": "/bɪt/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 215,
+        "y": 780
+      },
+      "boundingBox": {
+        "left": 164,
+        "top": 758,
+        "right": 266,
+        "bottom": 803
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+        "association": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+        "collocation": "a bit of food",
+        "example": "I save a bit of food for tomorrow.",
+        "exampleChinese": "我留一点食物明天吃。"
+      }
+    },
+    {
+      "x": 215,
+      "y": 780,
+      "english": "last",
+      "chinese": "最后的",
+      "phoneticUS": "/læst/",
+      "phoneticUK": "/lɑːst/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 694
+      },
+      "anchorPosition": {
+        "x": 215,
+        "y": 780
+      },
+      "boundingBox": {
+        "left": 164,
+        "top": 758,
+        "right": 266,
+        "bottom": 803
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+        "association": "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。",
+        "collocation": "the last piece",
+        "example": "This is the last piece of bread.",
+        "exampleChinese": "这是最后一块面包。"
+      }
+    },
+    {
+      "x": 411,
+      "y": 52,
+      "english": "end",
+      "chinese": "结束",
+      "phoneticUS": "/end/",
+      "phoneticUK": "/end/",
+      "bubblePosition": {
+        "x": 411,
+        "y": 52
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "名词结束，由餐后叙述说明",
+        "association": "名词结束，由餐后叙述说明",
+        "collocation": "the end of a meal",
+        "example": "I clear the table at the end of the meal.",
+        "exampleChinese": "用餐结束时我收拾餐桌。"
+      }
+    },
+    {
+      "x": 867,
+      "y": 64,
+      "english": "because",
+      "chinese": "因为",
+      "phoneticUS": "/bɪˈkɔːz/",
+      "phoneticUK": "/bɪˈkɒz/",
+      "bubblePosition": {
+        "x": 867,
+        "y": 64
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "引导原因从句的连词，无独立可见物体",
+        "association": "引导原因从句的连词，无独立可见物体",
+        "collocation": "because we need it",
+        "example": "I cover the food because we need it tomorrow.",
+        "exampleChinese": "我把食物盖好，因为我们明天还需要它。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I cover the last bit of food because tomorrow is another day.",
+    "chinese": "我把最后一点食物盖好，因为明天又是新的一天。",
+    "source": "原创配文 · C020 餐后收拾",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

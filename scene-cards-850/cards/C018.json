@@ -1,0 +1,422 @@
+{
+  "id": "C018",
+  "chapter": "食物与用餐",
+  "title": "瓶塞与玻璃杯",
+  "scene": "餐桌上静物展示葡萄酒瓶、软木塞和玻璃杯，饮料液面清楚。",
+  "target_count": 9,
+  "primary_words": [
+    "bottle",
+    "cork",
+    "wine",
+    "glass",
+    "liquid",
+    "full",
+    "little",
+    "much",
+    "of"
+  ],
+  "targets": [
+    {
+      "word_id": "W085",
+      "word": "bottle",
+      "aliases": [],
+      "source_zh_unreviewed": "瓶子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "瓶子",
+      "pos": "noun",
+      "ipa_us": "/ˈbɑːtəl/",
+      "ipa_uk": "/ˈbɒtəl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "左侧葡萄酒瓶整体",
+        "sentence": "The bottle is on the table.",
+        "matched_form": "bottle",
+        "image_verified": true
+      },
+      "example_en": "The bottle is on the table.",
+      "example_zh": "瓶子在桌上。",
+      "bbox_normalized": [
+        0.114,
+        0.218,
+        0.328,
+        0.879
+      ],
+      "collocations": [
+        "a wine bottle"
+      ],
+      "example_en_highlighted": "The **bottle** is on the table.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧葡萄酒瓶整体",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W161",
+      "word": "cork",
+      "aliases": [],
+      "source_zh_unreviewed": "软木塞",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "软木塞",
+      "pos": "noun",
+      "ipa_us": "/kɔːrk/",
+      "ipa_uk": "/kɔːk/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "瓶子前方独立软木塞",
+        "sentence": "The cork lies beside the bottle.",
+        "matched_form": "cork",
+        "image_verified": true
+      },
+      "example_en": "The cork lies beside the bottle.",
+      "example_zh": "软木塞放在瓶子旁边。",
+      "bbox_normalized": [
+        0.341,
+        0.806,
+        0.477,
+        0.893
+      ],
+      "collocations": [
+        "a bottle cork"
+      ],
+      "example_en_highlighted": "The **cork** lies beside the bottle.",
+      "annotation_mode": "object",
+      "annotation_note": "瓶子前方独立软木塞",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W830",
+      "word": "wine",
+      "aliases": [],
+      "source_zh_unreviewed": "葡萄酒",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "葡萄酒",
+      "pos": "noun",
+      "ipa_us": "/waɪn/",
+      "ipa_uk": "/waɪn/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "杯中红色葡萄酒，身份由设定明确",
+        "sentence": "The glass holds red wine.",
+        "matched_form": "wine",
+        "image_verified": true
+      },
+      "example_en": "The glass holds red wine.",
+      "example_zh": "杯里装着红葡萄酒。",
+      "bbox_normalized": [
+        0.613,
+        0.39,
+        0.884,
+        0.624
+      ],
+      "collocations": [
+        "red wine"
+      ],
+      "example_en_highlighted": "The glass holds red **wine**.",
+      "annotation_mode": "object",
+      "annotation_note": "杯中红色葡萄酒，身份由设定明确",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W302",
+      "word": "glass",
+      "aliases": [],
+      "source_zh_unreviewed": "玻璃",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "玻璃杯",
+      "pos": "noun",
+      "ipa_us": "/ɡlæs/",
+      "ipa_uk": "/ɡlɑːs/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "右侧高脚玻璃杯整体",
+        "sentence": "The glass has a long stem.",
+        "matched_form": "glass",
+        "image_verified": true
+      },
+      "example_en": "The glass has a long stem.",
+      "example_zh": "这只玻璃杯有细长的杯柄。",
+      "bbox_normalized": [
+        0.602,
+        0.366,
+        0.891,
+        0.895
+      ],
+      "collocations": [
+        "a wine glass"
+      ],
+      "example_en_highlighted": "The **glass** has a long stem.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧高脚玻璃杯整体",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W408",
+      "word": "liquid",
+      "aliases": [],
+      "source_zh_unreviewed": "液体",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "液体",
+      "pos": "noun",
+      "ipa_us": "/ˈlɪkwɪd/",
+      "ipa_uk": "/ˈlɪkwɪd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "wine是liquid的可见实例，区域定位玻璃杯中实际液体。",
+        "sentence": "Wine is a liquid.",
+        "matched_form": "liquid",
+        "context": "液体类别由例句说明",
+        "image_verified": null
+      },
+      "example_en": "Wine is a liquid.",
+      "example_zh": "葡萄酒是一种液体。",
+      "bbox_normalized": [
+        0.613,
+        0.39,
+        0.884,
+        0.624
+      ],
+      "collocations": [
+        "a red liquid"
+      ],
+      "example_en_highlighted": "Wine is a **liquid**.",
+      "annotation_mode": "object",
+      "annotation_note": "wine是liquid的可见实例，区域定位玻璃杯中实际液体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W295",
+      "word": "full",
+      "aliases": [],
+      "source_zh_unreviewed": "满的；充满的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "满的",
+      "pos": "adjective",
+      "ipa_us": "/fʊl/",
+      "ipa_uk": "/fʊl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "盛至近杯口的玻璃杯区域，full指杯子的可见装满状态；例句nearly full保留程度限定。",
+        "sentence": "The glass is nearly full.",
+        "matched_form": "full",
+        "context": "杯中近杯口的液面与nearly full例句对应",
+        "image_verified": null
+      },
+      "example_en": "The glass is nearly full.",
+      "example_zh": "杯子快满了。",
+      "bbox_normalized": [
+        0.602,
+        0.366,
+        0.891,
+        0.895
+      ],
+      "collocations": [
+        "a full glass"
+      ],
+      "example_en_highlighted": "The glass is nearly **full**.",
+      "annotation_mode": "object",
+      "annotation_note": "盛至近杯口的玻璃杯区域，full指杯子的可见装满状态；例句nearly full保留程度限定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W410",
+      "word": "little",
+      "aliases": [
+        "less",
+        "least"
+      ],
+      "source_zh_unreviewed": "小的；少的",
+      "planned_mode": "context",
+      "sense_zh": "少量",
+      "pos": "determiner",
+      "ipa_us": "/ˈlɪtəl/",
+      "ipa_uk": "/ˈlɪtəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "瓶底少量葡萄酒的液面和内容区域，little定位瓶内少量的wine，不框整瓶或全图。",
+        "sentence": "There is only a little wine in the bottle.",
+        "matched_form": "little",
+        "context": "little限定不可数wine，照片液面与设定对应",
+        "image_verified": null
+      },
+      "example_en": "There is only a little wine in the bottle.",
+      "example_zh": "瓶里只剩少许葡萄酒。",
+      "bbox_normalized": [
+        0.136,
+        0.733,
+        0.315,
+        0.873
+      ],
+      "collocations": [
+        "a little wine"
+      ],
+      "example_en_highlighted": "There is only a **little** wine in the bottle.",
+      "annotation_mode": "object",
+      "annotation_note": "瓶底少量葡萄酒的液面和内容区域，little定位瓶内少量的wine，不框整瓶或全图。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W458",
+      "word": "much",
+      "aliases": [
+        "more",
+        "most"
+      ],
+      "source_zh_unreviewed": "很多；大量的",
+      "planned_mode": "context",
+      "sense_zh": "很多",
+      "pos": "determiner",
+      "ipa_us": "/mʌtʃ/",
+      "ipa_uk": "/mʌtʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "杯中较多葡萄酒的区域，much修饰wine；too much的评价仍来自原创句子，不推算容量。",
+        "sentence": "There is too much wine in this glass.",
+        "matched_form": "much",
+        "context": "much限定不可数wine，too much是叙述者判断",
+        "image_verified": null
+      },
+      "example_en": "There is too much wine in this glass.",
+      "example_zh": "这只杯子里葡萄酒太多了。",
+      "bbox_normalized": [
+        0.613,
+        0.39,
+        0.884,
+        0.624
+      ],
+      "collocations": [
+        "too much wine"
+      ],
+      "example_en_highlighted": "There is too **much** wine in this glass.",
+      "annotation_mode": "object",
+      "annotation_note": "杯中较多葡萄酒的区域，much修饰wine；too much的评价仍来自原创句子，不推算容量。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W487",
+      "word": "of",
+      "aliases": [],
+      "source_zh_unreviewed": "属于；关于",
+      "planned_mode": "context",
+      "sense_zh": "……的",
+      "pos": "preposition",
+      "ipa_us": "/əv/",
+      "ipa_uk": "/əv/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "A glass of wine is on the table.",
+        "matched_form": "of",
+        "context": "介词of连接容器量词与内容物，不设物体框",
+        "image_verified": null
+      },
+      "example_en": "A glass of wine is on the table.",
+      "example_zh": "桌上有一杯葡萄酒。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a glass of wine"
+      ],
+      "example_en_highlighted": "A glass **of** wine is on the table.",
+      "annotation_mode": "context",
+      "annotation_note": "介词of连接容器量词与内容物，不设物体框",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A glass of wine, a quiet table, and an unhurried evening.",
+    "zh": "一杯葡萄酒，一张安静的餐桌，一个不赶时间的夜晚。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C018\n标题 瓶塞与玻璃杯\n场景 餐桌上静物展示葡萄酒瓶、软木塞和玻璃杯，饮料液面清楚。\n目标词 bottle, cork, wine, glass, liquid, full, little, much, of\n原创主配文草案 The glass is full of wine.\n中文草案 杯中装满了葡萄酒。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Cool sophisticated apartment dining portrait. Adult woman at rear left seated calmly, no drinking action. Foreground still life on pale linen: one upright dark green transparent WINE BOTTLE at left with only a little red wine remaining at bottom, no label; one natural beige CORK lying horizontally in front of bottle; ONE clear stemmed wine GLASS at right filled with red wine almost to rim, visible meniscus with small safe gap. Bottle and glass distinct and large, liquid levels coherent, elegant window light, no extra glassware.",
+  "status": "approved",
+  "image_path": "images/C018.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C018 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T22:54:39Z",
+    "ended_at": "2026-10-02T22:56:14Z",
+    "prompt_path": "prompts/C018_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C018.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "酒瓶、软木塞、玻璃杯和红葡萄酒独立清晰；杯液面接近杯口，瓶内仅少量酒。full例句采用nearly full符合实际液面，抽象量词/类别及of使用无框语境标签。"
+  }
+}

@@ -1,0 +1,259 @@
+C097  思考我是谁
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C097.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C097.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:17:44 UTC
+  提示词文件: prompts/C097_image_final.txt
+
+场景: 主角在镜前记录生活，用回忆照片与旁白表达 self、mind、thought、idea、belief、existence、impulse 和 living。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 写笔记和镜中单一反射自然，旅行照片清楚；全八词用句子，不能给思想画虚假脑部框。
+
+主配文:
+  英文: I write down a thought and consider how an idea can change my view of myself.
+  中文: 我记下一段想法，思考一个新点子如何改变我看待自己的方式。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): self, mind, thought, idea, belief, existence, impulse, living
+
+------------------------------------------------------------------------
+[1/8] self  (W633)
+  词义: 自我
+  词性: noun
+  音标: UK /self/ | US /self/
+  搭配: a sense of self; my inner self
+  例句: Writing helps me explore my sense of self.
+  例句高亮: Writing helps me explore my sense of **self**.
+  例句中文: 写作帮助我探索自我意识。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Writing helps me explore my sense of self.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Writing helps me explore my sense of self."
+    matched_form: "self"
+    context: "由原创例句给出的语境：Writing helps me explore my sense of self.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 自己
+
+------------------------------------------------------------------------
+[2/8] mind  (W443)
+  词义: 心智
+  词性: noun
+  音标: UK /maɪnd/ | US /maɪnd/
+  搭配: in my mind; an open mind
+  例句: Many questions come into my mind.
+  例句高亮: Many questions come into my **mind**.
+  例句中文: 许多问题进入我的脑海。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Many questions come into my mind.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Many questions come into my mind."
+    matched_form: "mind"
+    context: "由原创例句给出的语境：Many questions come into my mind.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 心智；思想
+
+------------------------------------------------------------------------
+[3/8] thought  (W755)
+  词义: 想法
+  词性: noun
+  音标: UK /θɔːt/ | US /θɔːt/
+  搭配: a new thought; write a thought
+  例句: I write down a thought before I forget it.
+  例句高亮: I write down a **thought** before I forget it.
+  例句中文: 忘记之前，我记下这个想法。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I write down a thought before I forget it.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I write down a thought before I forget it."
+    matched_form: "thought"
+    context: "由原创例句给出的语境：I write down a thought before I forget it.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 思考
+
+------------------------------------------------------------------------
+[4/8] idea  (W353)
+  词义: 点子
+  词性: noun
+  音标: UK /aɪˈdɪə/ | US /aɪˈdiːə/
+  搭配: a new idea; have an idea
+  例句: A new idea helps me see the problem differently.
+  例句高亮: A new **idea** helps me see the problem differently.
+  例句中文: 一个新点子帮助我换个角度看问题。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A new idea helps me see the problem differently.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A new idea helps me see the problem differently."
+    matched_form: "idea"
+    context: "由原创例句给出的语境：A new idea helps me see the problem differently.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 想法；主意
+
+------------------------------------------------------------------------
+[5/8] belief  (W063)
+  词义: 信念
+  词性: noun
+  音标: UK /bɪˈliːf/ | US /bɪˈliːf/
+  搭配: a personal belief; question a belief
+  例句: I question a belief that I have held for years.
+  例句高亮: I question a **belief** that I have held for years.
+  例句中文: 我反思一个持有多年的信念。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I question a belief that I have held for years.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I question a belief that I have held for years."
+    matched_form: "belief"
+    context: "由原创例句给出的语境：I question a belief that I have held for years.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 信念；信仰
+
+------------------------------------------------------------------------
+[6/8] existence  (W243)
+  词义: 存在
+  词性: noun
+  音标: UK /ɪɡˈzɪstəns/ | US /ɪɡˈzɪstəns/
+  搭配: human existence; the meaning of existence
+  例句: I reflect on the meaning of human existence.
+  例句高亮: I reflect on the meaning of human **existence**.
+  例句中文: 我思考人类存在的意义。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I reflect on the meaning of human existence.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I reflect on the meaning of human existence."
+    matched_form: "existence"
+    context: "由原创例句给出的语境：I reflect on the meaning of human existence.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 存在
+
+------------------------------------------------------------------------
+[7/8] impulse  (W357)
+  词义: 冲动
+  词性: noun
+  音标: UK /ˈɪmpʌls/ | US /ˈɪmpʌls/
+  搭配: a sudden impulse; resist an impulse
+  例句: I pause before acting on a sudden impulse.
+  例句高亮: I pause before acting on a sudden **impulse**.
+  例句中文: 我在按照突然的冲动行动之前停一下。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I pause before acting on a sudden impulse.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I pause before acting on a sudden impulse."
+    matched_form: "impulse"
+    context: "由原创例句给出的语境：I pause before acting on a sudden impulse.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 冲动
+
+------------------------------------------------------------------------
+[8/8] living  (W411)
+  词义: 活着的
+  词性: adjective
+  音标: UK /ˈlɪvɪŋ/ | US /ˈlɪvɪŋ/
+  搭配: living things; a living person
+  例句: I think about the needs of living things.
+  例句高亮: I think about the needs of **living** things.
+  例句中文: 我思考生物的需要。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I think about the needs of living things.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I think about the needs of living things."
+    matched_form: "living"
+    context: "由原创例句给出的语境：I think about the needs of living things.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 生活的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 8
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C097 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at quiet cool pearl-toned desk writing in blank notebook, small upright mirror reflecting her naturally, two ordinary unlabelled travel snapshots beside notebook. Korean polished introspective editorial portrait, real skin, credible single reflection, no text, no mystical thought icons or words. Inner mental concepts only represented by later original sentences.

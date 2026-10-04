@@ -1,0 +1,280 @@
+C034  驾驶与刹车
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C034.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C034.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T08:06:49Z → 2026-10-03T08:09:22Z
+  提示词文件: prompts/C034_image_final.txt
+
+场景: 驾驶者握方向盘，车轮、发动机和刹车踏板以小窗展示。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 主幅握方向盘教学姿势、左下发动机舱、右下宽刹车与窄油门真实可辨。脚在刹车上。静止教学图不证明行驶速度、停下结果或调整过程，slow/quick/stop/adjustment保持语境。图未明确显示完整安全带，不用于真实道路驾驶示范。
+
+主配文:
+  英文: A steady hand on the wheel, a slow start, and time to stop.
+  中文: 稳稳握住方向盘，缓慢起步，留出停车的时间。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): driving, engine, wheel, brake, control, stop, slow, quick, adjustment
+
+------------------------------------------------------------------------
+[1/9] driving  (W218)
+  词义: 驾驶
+  词性: noun
+  音标: UK /ˈdraɪvɪŋ/ | US /ˈdraɪvɪŋ/
+  搭配: careful driving
+  例句: Careful driving begins with good control.
+  例句高亮: Careful **driving** begins with good control.
+  例句中文: 谨慎驾驶从良好的操控开始。
+  标注模式: action
+  标注说明: 握方向盘的驾驶姿势，照片为静止教学演示，不宣称行驶速度。
+  坐标(normalized): [0.114, 0.027, 0.947, 0.612]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "握方向盘的驾驶姿势，照片为静止教学演示，不宣称行驶速度。"
+    sentence: "Careful driving begins with good control."
+    matched_form: "driving"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 驾驶
+
+------------------------------------------------------------------------
+[2/9] engine  (W233)
+  词义: 发动机
+  词性: noun
+  音标: UK /ˈendʒɪn/ | US /ˈendʒɪn/
+  搭配: a car engine
+  例句: The engine is under the front cover.
+  例句高亮: The **engine** is under the front cover.
+  例句中文: 发动机在前方的盖子下面。
+  标注模式: object
+  标注说明: 左下小幅真实发动机舱。
+  坐标(normalized): [0.016, 0.649, 0.486, 0.977]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左下小幅真实发动机舱。"
+    sentence: "The engine is under the front cover."
+    matched_form: "engine"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 引擎
+
+------------------------------------------------------------------------
+[3/9] wheel  (W817)
+  词义: 方向盘
+  词性: noun
+  音标: UK /wiːl/ | US /wiːl/
+  搭配: the steering wheel
+  例句: I hold the steering wheel with both hands.
+  例句高亮: I hold the steering **wheel** with both hands.
+  例句中文: 我用双手握住方向盘。
+  标注模式: object
+  标注说明: 主幅中的实际方向盘，不把车轮和方向盘混用。
+  坐标(normalized): [0.697, 0.218, 0.947, 0.543]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "主幅中的实际方向盘，不把车轮和方向盘混用。"
+    sentence: "I hold the steering wheel with both hands."
+    matched_form: "wheel"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 轮子
+
+------------------------------------------------------------------------
+[4/9] brake  (W089)
+  词义: 刹车
+  词性: noun
+  音标: UK /breɪk/ | US /breɪk/
+  搭配: the brake pedal
+  例句: My foot rests on the brake pedal.
+  例句高亮: My foot rests on the **brake** pedal.
+  例句中文: 我的脚放在刹车踏板上。
+  标注模式: object
+  标注说明: 右下脚部小幅中的宽刹车踏板。
+  坐标(normalized): [0.703, 0.714, 0.855, 0.79]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右下脚部小幅中的宽刹车踏板。"
+    sentence: "My foot rests on the brake pedal."
+    matched_form: "brake"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 刹车
+
+------------------------------------------------------------------------
+[5/9] control  (W156)
+  词义: 操控
+  词性: noun
+  音标: UK /kənˈtrəʊl/ | US /kənˈtroʊl/
+  搭配: keep control
+  例句: I keep control with both hands on the wheel.
+  例句高亮: I keep **control** with both hands on the wheel.
+  例句中文: 我用双手握住方向盘来保持操控。
+  标注模式: action
+  标注说明: 双手与方向盘的操控动作指代区，不声称已证明驾驶能力。
+  坐标(normalized): [0.62, 0.282, 0.888, 0.459]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双手与方向盘的操控动作指代区，不声称已证明驾驶能力。"
+    sentence: "I keep control with both hands on the wheel."
+    matched_form: "control"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 控制
+
+------------------------------------------------------------------------
+[6/9] stop  (W713)
+  词义: 停下
+  词性: verb
+  音标: UK /stɒp/ | US /stɑːp/
+  搭配: stop the car
+  例句: I press the brake to stop the car.
+  例句高亮: I press the brake to **stop** the car.
+  例句中文: 我踩刹车让汽车停下。
+  标注模式: context
+  标注说明: 停车结果需时间信息，静态教学图只给动作线索，由句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I press the brake to stop the car."
+    matched_form: "stop"
+    context: "停车结果需时间信息，静态教学图只给动作线索，由句子说明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 停止
+
+------------------------------------------------------------------------
+[7/9] slow  (W665)
+  词义: 慢的
+  词性: adjective
+  音标: UK /sləʊ/ | US /sloʊ/
+  搭配: a slow start
+  例句: A slow start feels smooth.
+  例句高亮: A **slow** start feels smooth.
+  例句中文: 缓慢起步感觉很平稳。
+  标注模式: context
+  标注说明: 照片不测速度，起步速度由句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A slow start feels smooth."
+    matched_form: "slow"
+    context: "照片不测速度，起步速度由句子说明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 慢的
+
+------------------------------------------------------------------------
+[8/9] quick  (W570)
+  词义: 迅速的
+  词性: adjective
+  音标: UK /kwɪk/ | US /kwɪk/
+  搭配: a quick check
+  例句: I make a quick check before driving.
+  例句高亮: I make a **quick** check before driving.
+  例句中文: 我在驾驶前迅速检查一下。
+  标注模式: context
+  标注说明: 检查耗时无法由静态图验证。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I make a quick check before driving."
+    matched_form: "quick"
+    context: "检查耗时无法由静态图验证。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 快速的；迅速的
+
+------------------------------------------------------------------------
+[9/9] adjustment  (W009)
+  词义: 调整
+  词性: noun
+  音标: UK /əˈdʒʌstmənt/ | US /əˈdʒʌstmənt/
+  搭配: a small adjustment
+  例句: A small seat adjustment helps me reach the pedals.
+  例句高亮: A small seat **adjustment** helps me reach the pedals.
+  例句中文: 稍微调整座椅能让我够到踏板。
+  标注模式: context
+  标注说明: 座椅调整为教学情境，不虚构图中已发生调节。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A small seat adjustment helps me reach the pedals."
+    matched_form: "adjustment"
+    context: "座椅调整为教学情境，不虚构图中已发生调节。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 调整；调节
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 5
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C034 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=34 | meta.approved_cards=35
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. Photographic editorial triptych within one portrait frame, clean subtle divisions and no drawn schematic: upper two-thirds a natural side passenger view of the woman driver in a real parked compact car, seat belt correctly across chest, both hands naturally on steering wheel, eyes forward, cool daylight. Lower left inset is a realistic open engine bay showing engine cover and mechanical components, no text or labels. Lower right inset is a realistic driver footwell with one clearly visible rectangular brake pedal next to a narrow accelerator; flat shoe foot poised on brake, no extra limbs. Matching cool tones and documentary detail, steering wheel, engine and brake readable for vocabulary. The car is stationary during this posed lesson; speed and timing belong to later sentences. Simple blank interior upper corners for labels; no digital display, lettering, digits or logos.

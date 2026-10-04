@@ -1,0 +1,5972 @@
+{
+  "source_url": "https://github.com/zhaoolee/Improving-English-for-Programmers/blob/main/README.md",
+  "source_blob_sha": "99763782d090d81376f1e37d76f0408e690377b2",
+  "normalization": {
+    "grey/gray": "grey",
+    "plough/plow": "plough",
+    "little (less, least)": "little",
+    "much (more, most)": "much"
+  },
+  "words": [
+    {
+      "id": "W001",
+      "word": "a",
+      "source_entry": "a",
+      "aliases": [],
+      "source_zh_unreviewed": "一个；一种"
+    },
+    {
+      "id": "W002",
+      "word": "able",
+      "source_entry": "able",
+      "aliases": [],
+      "source_zh_unreviewed": "能够的；有能力的"
+    },
+    {
+      "id": "W003",
+      "word": "about",
+      "source_entry": "about",
+      "aliases": [],
+      "source_zh_unreviewed": "关于；大约"
+    },
+    {
+      "id": "W004",
+      "word": "account",
+      "source_entry": "account",
+      "aliases": [],
+      "source_zh_unreviewed": "账户；账目；解释"
+    },
+    {
+      "id": "W005",
+      "word": "acid",
+      "source_entry": "acid",
+      "aliases": [],
+      "source_zh_unreviewed": "酸；酸性的"
+    },
+    {
+      "id": "W006",
+      "word": "across",
+      "source_entry": "across",
+      "aliases": [],
+      "source_zh_unreviewed": "横穿；穿过"
+    },
+    {
+      "id": "W007",
+      "word": "act",
+      "source_entry": "act",
+      "aliases": [],
+      "source_zh_unreviewed": "行动；表演"
+    },
+    {
+      "id": "W008",
+      "word": "addition",
+      "source_entry": "addition",
+      "aliases": [],
+      "source_zh_unreviewed": "添加；附加"
+    },
+    {
+      "id": "W009",
+      "word": "adjustment",
+      "source_entry": "adjustment",
+      "aliases": [],
+      "source_zh_unreviewed": "调整；调节"
+    },
+    {
+      "id": "W010",
+      "word": "advertisement",
+      "source_entry": "advertisement",
+      "aliases": [],
+      "source_zh_unreviewed": "广告"
+    },
+    {
+      "id": "W011",
+      "word": "after",
+      "source_entry": "after",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之后；后来"
+    },
+    {
+      "id": "W012",
+      "word": "again",
+      "source_entry": "again",
+      "aliases": [],
+      "source_zh_unreviewed": "再次；又；重新"
+    },
+    {
+      "id": "W013",
+      "word": "against",
+      "source_entry": "against",
+      "aliases": [],
+      "source_zh_unreviewed": "反对；对抗"
+    },
+    {
+      "id": "W014",
+      "word": "agreement",
+      "source_entry": "agreement",
+      "aliases": [],
+      "source_zh_unreviewed": "协议；一致"
+    },
+    {
+      "id": "W015",
+      "word": "air",
+      "source_entry": "air",
+      "aliases": [],
+      "source_zh_unreviewed": "空气；气氛"
+    },
+    {
+      "id": "W016",
+      "word": "all",
+      "source_entry": "all",
+      "aliases": [],
+      "source_zh_unreviewed": "所有的；全部"
+    },
+    {
+      "id": "W017",
+      "word": "almost",
+      "source_entry": "almost",
+      "aliases": [],
+      "source_zh_unreviewed": "几乎；差不多"
+    },
+    {
+      "id": "W018",
+      "word": "among",
+      "source_entry": "among",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之中；在...之间"
+    },
+    {
+      "id": "W019",
+      "word": "amount",
+      "source_entry": "amount",
+      "aliases": [],
+      "source_zh_unreviewed": "数量；总数"
+    },
+    {
+      "id": "W020",
+      "word": "amusement",
+      "source_entry": "amusement",
+      "aliases": [],
+      "source_zh_unreviewed": "娱乐；消遣"
+    },
+    {
+      "id": "W021",
+      "word": "and",
+      "source_entry": "and",
+      "aliases": [],
+      "source_zh_unreviewed": "和；与"
+    },
+    {
+      "id": "W022",
+      "word": "angle",
+      "source_entry": "angle",
+      "aliases": [],
+      "source_zh_unreviewed": "角度；角"
+    },
+    {
+      "id": "W023",
+      "word": "angry",
+      "source_entry": "angry",
+      "aliases": [],
+      "source_zh_unreviewed": "生气的；愤怒的"
+    },
+    {
+      "id": "W024",
+      "word": "animal",
+      "source_entry": "animal",
+      "aliases": [],
+      "source_zh_unreviewed": "动物"
+    },
+    {
+      "id": "W025",
+      "word": "answer",
+      "source_entry": "answer",
+      "aliases": [],
+      "source_zh_unreviewed": "回答；答案"
+    },
+    {
+      "id": "W026",
+      "word": "ant",
+      "source_entry": "ant",
+      "aliases": [],
+      "source_zh_unreviewed": "蚂蚁"
+    },
+    {
+      "id": "W027",
+      "word": "any",
+      "source_entry": "any",
+      "aliases": [],
+      "source_zh_unreviewed": "任何的；一些"
+    },
+    {
+      "id": "W028",
+      "word": "apparatus",
+      "source_entry": "apparatus",
+      "aliases": [],
+      "source_zh_unreviewed": "设备；器械"
+    },
+    {
+      "id": "W029",
+      "word": "apple",
+      "source_entry": "apple",
+      "aliases": [],
+      "source_zh_unreviewed": "苹果"
+    },
+    {
+      "id": "W030",
+      "word": "approval",
+      "source_entry": "approval",
+      "aliases": [],
+      "source_zh_unreviewed": "批准；认可"
+    },
+    {
+      "id": "W031",
+      "word": "arch",
+      "source_entry": "arch",
+      "aliases": [],
+      "source_zh_unreviewed": "拱门；弓形"
+    },
+    {
+      "id": "W032",
+      "word": "argument",
+      "source_entry": "argument",
+      "aliases": [],
+      "source_zh_unreviewed": "争论；论点"
+    },
+    {
+      "id": "W033",
+      "word": "arm",
+      "source_entry": "arm",
+      "aliases": [],
+      "source_zh_unreviewed": "手臂；武器"
+    },
+    {
+      "id": "W034",
+      "word": "army",
+      "source_entry": "army",
+      "aliases": [],
+      "source_zh_unreviewed": "军队"
+    },
+    {
+      "id": "W035",
+      "word": "art",
+      "source_entry": "art",
+      "aliases": [],
+      "source_zh_unreviewed": "艺术"
+    },
+    {
+      "id": "W036",
+      "word": "as",
+      "source_entry": "as",
+      "aliases": [],
+      "source_zh_unreviewed": "如同；当作"
+    },
+    {
+      "id": "W037",
+      "word": "at",
+      "source_entry": "at",
+      "aliases": [],
+      "source_zh_unreviewed": "在；在于"
+    },
+    {
+      "id": "W038",
+      "word": "attack",
+      "source_entry": "attack",
+      "aliases": [],
+      "source_zh_unreviewed": "攻击；袭击"
+    },
+    {
+      "id": "W039",
+      "word": "attempt",
+      "source_entry": "attempt",
+      "aliases": [],
+      "source_zh_unreviewed": "尝试；企图"
+    },
+    {
+      "id": "W040",
+      "word": "attention",
+      "source_entry": "attention",
+      "aliases": [],
+      "source_zh_unreviewed": "注意；关注"
+    },
+    {
+      "id": "W041",
+      "word": "attraction",
+      "source_entry": "attraction",
+      "aliases": [],
+      "source_zh_unreviewed": "吸引；吸引力"
+    },
+    {
+      "id": "W042",
+      "word": "authority",
+      "source_entry": "authority",
+      "aliases": [],
+      "source_zh_unreviewed": "权威；当局"
+    },
+    {
+      "id": "W043",
+      "word": "automatic",
+      "source_entry": "automatic",
+      "aliases": [],
+      "source_zh_unreviewed": "自动的；自动化的"
+    },
+    {
+      "id": "W044",
+      "word": "awake",
+      "source_entry": "awake",
+      "aliases": [],
+      "source_zh_unreviewed": "醒着的；唤醒"
+    },
+    {
+      "id": "W045",
+      "word": "baby",
+      "source_entry": "baby",
+      "aliases": [],
+      "source_zh_unreviewed": "婴儿；宝宝"
+    },
+    {
+      "id": "W046",
+      "word": "back",
+      "source_entry": "back",
+      "aliases": [],
+      "source_zh_unreviewed": "背部；后面"
+    },
+    {
+      "id": "W047",
+      "word": "bad",
+      "source_entry": "bad",
+      "aliases": [],
+      "source_zh_unreviewed": "坏的；糟糕的"
+    },
+    {
+      "id": "W048",
+      "word": "bag",
+      "source_entry": "bag",
+      "aliases": [],
+      "source_zh_unreviewed": "袋子；包"
+    },
+    {
+      "id": "W049",
+      "word": "balance",
+      "source_entry": "balance",
+      "aliases": [],
+      "source_zh_unreviewed": "平衡；均衡"
+    },
+    {
+      "id": "W050",
+      "word": "ball",
+      "source_entry": "ball",
+      "aliases": [],
+      "source_zh_unreviewed": "球"
+    },
+    {
+      "id": "W051",
+      "word": "band",
+      "source_entry": "band",
+      "aliases": [],
+      "source_zh_unreviewed": "带子；乐队"
+    },
+    {
+      "id": "W052",
+      "word": "base",
+      "source_entry": "base",
+      "aliases": [],
+      "source_zh_unreviewed": "基础；底部"
+    },
+    {
+      "id": "W053",
+      "word": "basin",
+      "source_entry": "basin",
+      "aliases": [],
+      "source_zh_unreviewed": "盆地；水盆"
+    },
+    {
+      "id": "W054",
+      "word": "basket",
+      "source_entry": "basket",
+      "aliases": [],
+      "source_zh_unreviewed": "篮子；筐"
+    },
+    {
+      "id": "W055",
+      "word": "bath",
+      "source_entry": "bath",
+      "aliases": [],
+      "source_zh_unreviewed": "洗澡；浴缸"
+    },
+    {
+      "id": "W056",
+      "word": "be",
+      "source_entry": "be",
+      "aliases": [],
+      "source_zh_unreviewed": "是；存在"
+    },
+    {
+      "id": "W057",
+      "word": "beautiful",
+      "source_entry": "beautiful",
+      "aliases": [],
+      "source_zh_unreviewed": "美丽的"
+    },
+    {
+      "id": "W058",
+      "word": "because",
+      "source_entry": "because",
+      "aliases": [],
+      "source_zh_unreviewed": "因为"
+    },
+    {
+      "id": "W059",
+      "word": "bed",
+      "source_entry": "bed",
+      "aliases": [],
+      "source_zh_unreviewed": "床"
+    },
+    {
+      "id": "W060",
+      "word": "bee",
+      "source_entry": "bee",
+      "aliases": [],
+      "source_zh_unreviewed": "蜜蜂"
+    },
+    {
+      "id": "W061",
+      "word": "before",
+      "source_entry": "before",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之前"
+    },
+    {
+      "id": "W062",
+      "word": "behavior",
+      "source_entry": "behavior",
+      "aliases": [],
+      "source_zh_unreviewed": "行为；举止"
+    },
+    {
+      "id": "W063",
+      "word": "belief",
+      "source_entry": "belief",
+      "aliases": [],
+      "source_zh_unreviewed": "信念；信仰"
+    },
+    {
+      "id": "W064",
+      "word": "bell",
+      "source_entry": "bell",
+      "aliases": [],
+      "source_zh_unreviewed": "钟；铃"
+    },
+    {
+      "id": "W065",
+      "word": "bent",
+      "source_entry": "bent",
+      "aliases": [],
+      "source_zh_unreviewed": "弯曲的"
+    },
+    {
+      "id": "W066",
+      "word": "berry",
+      "source_entry": "berry",
+      "aliases": [],
+      "source_zh_unreviewed": "浆果"
+    },
+    {
+      "id": "W067",
+      "word": "between",
+      "source_entry": "between",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之间"
+    },
+    {
+      "id": "W068",
+      "word": "bird",
+      "source_entry": "bird",
+      "aliases": [],
+      "source_zh_unreviewed": "鸟"
+    },
+    {
+      "id": "W069",
+      "word": "birth",
+      "source_entry": "birth",
+      "aliases": [],
+      "source_zh_unreviewed": "出生；诞生"
+    },
+    {
+      "id": "W070",
+      "word": "bit",
+      "source_entry": "bit",
+      "aliases": [],
+      "source_zh_unreviewed": "一点儿；一些"
+    },
+    {
+      "id": "W071",
+      "word": "bite",
+      "source_entry": "bite",
+      "aliases": [],
+      "source_zh_unreviewed": "咬；叮"
+    },
+    {
+      "id": "W072",
+      "word": "bitter",
+      "source_entry": "bitter",
+      "aliases": [],
+      "source_zh_unreviewed": "苦的"
+    },
+    {
+      "id": "W073",
+      "word": "black",
+      "source_entry": "black",
+      "aliases": [],
+      "source_zh_unreviewed": "黑色的"
+    },
+    {
+      "id": "W074",
+      "word": "blade",
+      "source_entry": "blade",
+      "aliases": [],
+      "source_zh_unreviewed": "刀片；刀刃"
+    },
+    {
+      "id": "W075",
+      "word": "blood",
+      "source_entry": "blood",
+      "aliases": [],
+      "source_zh_unreviewed": "血"
+    },
+    {
+      "id": "W076",
+      "word": "blow",
+      "source_entry": "blow",
+      "aliases": [],
+      "source_zh_unreviewed": "吹"
+    },
+    {
+      "id": "W077",
+      "word": "blue",
+      "source_entry": "blue",
+      "aliases": [],
+      "source_zh_unreviewed": "蓝色的"
+    },
+    {
+      "id": "W078",
+      "word": "board",
+      "source_entry": "board",
+      "aliases": [],
+      "source_zh_unreviewed": "板；董事会"
+    },
+    {
+      "id": "W079",
+      "word": "boat",
+      "source_entry": "boat",
+      "aliases": [],
+      "source_zh_unreviewed": "船"
+    },
+    {
+      "id": "W080",
+      "word": "body",
+      "source_entry": "body",
+      "aliases": [],
+      "source_zh_unreviewed": "身体"
+    },
+    {
+      "id": "W081",
+      "word": "boiling",
+      "source_entry": "boiling",
+      "aliases": [],
+      "source_zh_unreviewed": "沸腾的"
+    },
+    {
+      "id": "W082",
+      "word": "bone",
+      "source_entry": "bone",
+      "aliases": [],
+      "source_zh_unreviewed": "骨头"
+    },
+    {
+      "id": "W083",
+      "word": "book",
+      "source_entry": "book",
+      "aliases": [],
+      "source_zh_unreviewed": "书"
+    },
+    {
+      "id": "W084",
+      "word": "boot",
+      "source_entry": "boot",
+      "aliases": [],
+      "source_zh_unreviewed": "靴子"
+    },
+    {
+      "id": "W085",
+      "word": "bottle",
+      "source_entry": "bottle",
+      "aliases": [],
+      "source_zh_unreviewed": "瓶子"
+    },
+    {
+      "id": "W086",
+      "word": "box",
+      "source_entry": "box",
+      "aliases": [],
+      "source_zh_unreviewed": "盒子"
+    },
+    {
+      "id": "W087",
+      "word": "boy",
+      "source_entry": "boy",
+      "aliases": [],
+      "source_zh_unreviewed": "男孩"
+    },
+    {
+      "id": "W088",
+      "word": "brain",
+      "source_entry": "brain",
+      "aliases": [],
+      "source_zh_unreviewed": "大脑"
+    },
+    {
+      "id": "W089",
+      "word": "brake",
+      "source_entry": "brake",
+      "aliases": [],
+      "source_zh_unreviewed": "刹车"
+    },
+    {
+      "id": "W090",
+      "word": "branch",
+      "source_entry": "branch",
+      "aliases": [],
+      "source_zh_unreviewed": "分支；树枝"
+    },
+    {
+      "id": "W091",
+      "word": "brass",
+      "source_entry": "brass",
+      "aliases": [],
+      "source_zh_unreviewed": "黄铜"
+    },
+    {
+      "id": "W092",
+      "word": "bread",
+      "source_entry": "bread",
+      "aliases": [],
+      "source_zh_unreviewed": "面包"
+    },
+    {
+      "id": "W093",
+      "word": "breath",
+      "source_entry": "breath",
+      "aliases": [],
+      "source_zh_unreviewed": "呼吸"
+    },
+    {
+      "id": "W094",
+      "word": "brick",
+      "source_entry": "brick",
+      "aliases": [],
+      "source_zh_unreviewed": "砖"
+    },
+    {
+      "id": "W095",
+      "word": "bridge",
+      "source_entry": "bridge",
+      "aliases": [],
+      "source_zh_unreviewed": "桥"
+    },
+    {
+      "id": "W096",
+      "word": "bright",
+      "source_entry": "bright",
+      "aliases": [],
+      "source_zh_unreviewed": "明亮的"
+    },
+    {
+      "id": "W097",
+      "word": "broken",
+      "source_entry": "broken",
+      "aliases": [],
+      "source_zh_unreviewed": "破碎的"
+    },
+    {
+      "id": "W098",
+      "word": "brother",
+      "source_entry": "brother",
+      "aliases": [],
+      "source_zh_unreviewed": "兄弟"
+    },
+    {
+      "id": "W099",
+      "word": "brown",
+      "source_entry": "brown",
+      "aliases": [],
+      "source_zh_unreviewed": "棕色的"
+    },
+    {
+      "id": "W100",
+      "word": "brush",
+      "source_entry": "brush",
+      "aliases": [],
+      "source_zh_unreviewed": "刷子"
+    },
+    {
+      "id": "W101",
+      "word": "bucket",
+      "source_entry": "bucket",
+      "aliases": [],
+      "source_zh_unreviewed": "桶"
+    },
+    {
+      "id": "W102",
+      "word": "building",
+      "source_entry": "building",
+      "aliases": [],
+      "source_zh_unreviewed": "建筑物"
+    },
+    {
+      "id": "W103",
+      "word": "bulb",
+      "source_entry": "bulb",
+      "aliases": [],
+      "source_zh_unreviewed": "灯泡"
+    },
+    {
+      "id": "W104",
+      "word": "burn",
+      "source_entry": "burn",
+      "aliases": [],
+      "source_zh_unreviewed": "燃烧"
+    },
+    {
+      "id": "W105",
+      "word": "burst",
+      "source_entry": "burst",
+      "aliases": [],
+      "source_zh_unreviewed": "爆炸"
+    },
+    {
+      "id": "W106",
+      "word": "business",
+      "source_entry": "business",
+      "aliases": [],
+      "source_zh_unreviewed": "生意；商业"
+    },
+    {
+      "id": "W107",
+      "word": "but",
+      "source_entry": "but",
+      "aliases": [],
+      "source_zh_unreviewed": "但是"
+    },
+    {
+      "id": "W108",
+      "word": "butter",
+      "source_entry": "butter",
+      "aliases": [],
+      "source_zh_unreviewed": "黄油"
+    },
+    {
+      "id": "W109",
+      "word": "button",
+      "source_entry": "button",
+      "aliases": [],
+      "source_zh_unreviewed": "按钮"
+    },
+    {
+      "id": "W110",
+      "word": "by",
+      "source_entry": "by",
+      "aliases": [],
+      "source_zh_unreviewed": "通过；靠近"
+    },
+    {
+      "id": "W111",
+      "word": "cake",
+      "source_entry": "cake",
+      "aliases": [],
+      "source_zh_unreviewed": "蛋糕"
+    },
+    {
+      "id": "W112",
+      "word": "camera",
+      "source_entry": "camera",
+      "aliases": [],
+      "source_zh_unreviewed": "照相机"
+    },
+    {
+      "id": "W113",
+      "word": "canvas",
+      "source_entry": "canvas",
+      "aliases": [],
+      "source_zh_unreviewed": "帆布"
+    },
+    {
+      "id": "W114",
+      "word": "card",
+      "source_entry": "card",
+      "aliases": [],
+      "source_zh_unreviewed": "卡片"
+    },
+    {
+      "id": "W115",
+      "word": "care",
+      "source_entry": "care",
+      "aliases": [],
+      "source_zh_unreviewed": "关心；照料"
+    },
+    {
+      "id": "W116",
+      "word": "carriage",
+      "source_entry": "carriage",
+      "aliases": [],
+      "source_zh_unreviewed": "四轮马车"
+    },
+    {
+      "id": "W117",
+      "word": "cart",
+      "source_entry": "cart",
+      "aliases": [],
+      "source_zh_unreviewed": "手推车"
+    },
+    {
+      "id": "W118",
+      "word": "cat",
+      "source_entry": "cat",
+      "aliases": [],
+      "source_zh_unreviewed": "猫"
+    },
+    {
+      "id": "W119",
+      "word": "cause",
+      "source_entry": "cause",
+      "aliases": [],
+      "source_zh_unreviewed": "原因；导致"
+    },
+    {
+      "id": "W120",
+      "word": "certain",
+      "source_entry": "certain",
+      "aliases": [],
+      "source_zh_unreviewed": "确定的"
+    },
+    {
+      "id": "W121",
+      "word": "chain",
+      "source_entry": "chain",
+      "aliases": [],
+      "source_zh_unreviewed": "链条"
+    },
+    {
+      "id": "W122",
+      "word": "chalk",
+      "source_entry": "chalk",
+      "aliases": [],
+      "source_zh_unreviewed": "粉笔"
+    },
+    {
+      "id": "W123",
+      "word": "chance",
+      "source_entry": "chance",
+      "aliases": [],
+      "source_zh_unreviewed": "机会"
+    },
+    {
+      "id": "W124",
+      "word": "change",
+      "source_entry": "change",
+      "aliases": [],
+      "source_zh_unreviewed": "改变"
+    },
+    {
+      "id": "W125",
+      "word": "cheap",
+      "source_entry": "cheap",
+      "aliases": [],
+      "source_zh_unreviewed": "便宜的"
+    },
+    {
+      "id": "W126",
+      "word": "cheese",
+      "source_entry": "cheese",
+      "aliases": [],
+      "source_zh_unreviewed": "奶酪"
+    },
+    {
+      "id": "W127",
+      "word": "chemical",
+      "source_entry": "chemical",
+      "aliases": [],
+      "source_zh_unreviewed": "化学的；化学物质"
+    },
+    {
+      "id": "W128",
+      "word": "chest",
+      "source_entry": "chest",
+      "aliases": [],
+      "source_zh_unreviewed": "胸膛；箱子"
+    },
+    {
+      "id": "W129",
+      "word": "chief",
+      "source_entry": "chief",
+      "aliases": [],
+      "source_zh_unreviewed": "首领；主要的"
+    },
+    {
+      "id": "W130",
+      "word": "chin",
+      "source_entry": "chin",
+      "aliases": [],
+      "source_zh_unreviewed": "下巴"
+    },
+    {
+      "id": "W131",
+      "word": "church",
+      "source_entry": "church",
+      "aliases": [],
+      "source_zh_unreviewed": "教堂"
+    },
+    {
+      "id": "W132",
+      "word": "circle",
+      "source_entry": "circle",
+      "aliases": [],
+      "source_zh_unreviewed": "圆圈"
+    },
+    {
+      "id": "W133",
+      "word": "clean",
+      "source_entry": "clean",
+      "aliases": [],
+      "source_zh_unreviewed": "清洁的"
+    },
+    {
+      "id": "W134",
+      "word": "clear",
+      "source_entry": "clear",
+      "aliases": [],
+      "source_zh_unreviewed": "清晰的；明确的"
+    },
+    {
+      "id": "W135",
+      "word": "clock",
+      "source_entry": "clock",
+      "aliases": [],
+      "source_zh_unreviewed": "时钟"
+    },
+    {
+      "id": "W136",
+      "word": "cloth",
+      "source_entry": "cloth",
+      "aliases": [],
+      "source_zh_unreviewed": "布料"
+    },
+    {
+      "id": "W137",
+      "word": "cloud",
+      "source_entry": "cloud",
+      "aliases": [],
+      "source_zh_unreviewed": "云"
+    },
+    {
+      "id": "W138",
+      "word": "coal",
+      "source_entry": "coal",
+      "aliases": [],
+      "source_zh_unreviewed": "煤"
+    },
+    {
+      "id": "W139",
+      "word": "coat",
+      "source_entry": "coat",
+      "aliases": [],
+      "source_zh_unreviewed": "外套"
+    },
+    {
+      "id": "W140",
+      "word": "cold",
+      "source_entry": "cold",
+      "aliases": [],
+      "source_zh_unreviewed": "冷的"
+    },
+    {
+      "id": "W141",
+      "word": "collar",
+      "source_entry": "collar",
+      "aliases": [],
+      "source_zh_unreviewed": "衣领"
+    },
+    {
+      "id": "W142",
+      "word": "color",
+      "source_entry": "color",
+      "aliases": [],
+      "source_zh_unreviewed": "颜色"
+    },
+    {
+      "id": "W143",
+      "word": "comb",
+      "source_entry": "comb",
+      "aliases": [],
+      "source_zh_unreviewed": "梳子"
+    },
+    {
+      "id": "W144",
+      "word": "come",
+      "source_entry": "come",
+      "aliases": [],
+      "source_zh_unreviewed": "来"
+    },
+    {
+      "id": "W145",
+      "word": "comfort",
+      "source_entry": "comfort",
+      "aliases": [],
+      "source_zh_unreviewed": "安慰；舒适"
+    },
+    {
+      "id": "W146",
+      "word": "committee",
+      "source_entry": "committee",
+      "aliases": [],
+      "source_zh_unreviewed": "委员会"
+    },
+    {
+      "id": "W147",
+      "word": "common",
+      "source_entry": "common",
+      "aliases": [],
+      "source_zh_unreviewed": "常见的；普遍的"
+    },
+    {
+      "id": "W148",
+      "word": "company",
+      "source_entry": "company",
+      "aliases": [],
+      "source_zh_unreviewed": "公司"
+    },
+    {
+      "id": "W149",
+      "word": "comparison",
+      "source_entry": "comparison",
+      "aliases": [],
+      "source_zh_unreviewed": "比较"
+    },
+    {
+      "id": "W150",
+      "word": "competition",
+      "source_entry": "competition",
+      "aliases": [],
+      "source_zh_unreviewed": "竞争"
+    },
+    {
+      "id": "W151",
+      "word": "complete",
+      "source_entry": "complete",
+      "aliases": [],
+      "source_zh_unreviewed": "完整的"
+    },
+    {
+      "id": "W152",
+      "word": "complex",
+      "source_entry": "complex",
+      "aliases": [],
+      "source_zh_unreviewed": "复杂的"
+    },
+    {
+      "id": "W153",
+      "word": "condition",
+      "source_entry": "condition",
+      "aliases": [],
+      "source_zh_unreviewed": "条件"
+    },
+    {
+      "id": "W154",
+      "word": "connection",
+      "source_entry": "connection",
+      "aliases": [],
+      "source_zh_unreviewed": "连接"
+    },
+    {
+      "id": "W155",
+      "word": "conscious",
+      "source_entry": "conscious",
+      "aliases": [],
+      "source_zh_unreviewed": "有意识的"
+    },
+    {
+      "id": "W156",
+      "word": "control",
+      "source_entry": "control",
+      "aliases": [],
+      "source_zh_unreviewed": "控制"
+    },
+    {
+      "id": "W157",
+      "word": "cook",
+      "source_entry": "cook",
+      "aliases": [],
+      "source_zh_unreviewed": "烹饪"
+    },
+    {
+      "id": "W158",
+      "word": "copper",
+      "source_entry": "copper",
+      "aliases": [],
+      "source_zh_unreviewed": "铜"
+    },
+    {
+      "id": "W159",
+      "word": "copy",
+      "source_entry": "copy",
+      "aliases": [],
+      "source_zh_unreviewed": "复制"
+    },
+    {
+      "id": "W160",
+      "word": "cord",
+      "source_entry": "cord",
+      "aliases": [],
+      "source_zh_unreviewed": "绳子"
+    },
+    {
+      "id": "W161",
+      "word": "cork",
+      "source_entry": "cork",
+      "aliases": [],
+      "source_zh_unreviewed": "软木塞"
+    },
+    {
+      "id": "W162",
+      "word": "cotton",
+      "source_entry": "cotton",
+      "aliases": [],
+      "source_zh_unreviewed": "棉花"
+    },
+    {
+      "id": "W163",
+      "word": "cough",
+      "source_entry": "cough",
+      "aliases": [],
+      "source_zh_unreviewed": "咳嗽"
+    },
+    {
+      "id": "W164",
+      "word": "country",
+      "source_entry": "country",
+      "aliases": [],
+      "source_zh_unreviewed": "国家"
+    },
+    {
+      "id": "W165",
+      "word": "cover",
+      "source_entry": "cover",
+      "aliases": [],
+      "source_zh_unreviewed": "覆盖"
+    },
+    {
+      "id": "W166",
+      "word": "cow",
+      "source_entry": "cow",
+      "aliases": [],
+      "source_zh_unreviewed": "母牛"
+    },
+    {
+      "id": "W167",
+      "word": "crack",
+      "source_entry": "crack",
+      "aliases": [],
+      "source_zh_unreviewed": "裂缝；破裂声"
+    },
+    {
+      "id": "W168",
+      "word": "credit",
+      "source_entry": "credit",
+      "aliases": [],
+      "source_zh_unreviewed": "信用"
+    },
+    {
+      "id": "W169",
+      "word": "crime",
+      "source_entry": "crime",
+      "aliases": [],
+      "source_zh_unreviewed": "犯罪"
+    },
+    {
+      "id": "W170",
+      "word": "cruel",
+      "source_entry": "cruel",
+      "aliases": [],
+      "source_zh_unreviewed": "残忍的"
+    },
+    {
+      "id": "W171",
+      "word": "crush",
+      "source_entry": "crush",
+      "aliases": [],
+      "source_zh_unreviewed": "压碎"
+    },
+    {
+      "id": "W172",
+      "word": "cry",
+      "source_entry": "cry",
+      "aliases": [],
+      "source_zh_unreviewed": "哭泣"
+    },
+    {
+      "id": "W173",
+      "word": "cup",
+      "source_entry": "cup",
+      "aliases": [],
+      "source_zh_unreviewed": "杯子"
+    },
+    {
+      "id": "W174",
+      "word": "current",
+      "source_entry": "current",
+      "aliases": [],
+      "source_zh_unreviewed": "当前的"
+    },
+    {
+      "id": "W175",
+      "word": "curtain",
+      "source_entry": "curtain",
+      "aliases": [],
+      "source_zh_unreviewed": "窗帘"
+    },
+    {
+      "id": "W176",
+      "word": "curve",
+      "source_entry": "curve",
+      "aliases": [],
+      "source_zh_unreviewed": "曲线"
+    },
+    {
+      "id": "W177",
+      "word": "cushion",
+      "source_entry": "cushion",
+      "aliases": [],
+      "source_zh_unreviewed": "垫子"
+    },
+    {
+      "id": "W178",
+      "word": "cut",
+      "source_entry": "cut",
+      "aliases": [],
+      "source_zh_unreviewed": "切割"
+    },
+    {
+      "id": "W179",
+      "word": "damage",
+      "source_entry": "damage",
+      "aliases": [],
+      "source_zh_unreviewed": "损害；破坏"
+    },
+    {
+      "id": "W180",
+      "word": "danger",
+      "source_entry": "danger",
+      "aliases": [],
+      "source_zh_unreviewed": "危险"
+    },
+    {
+      "id": "W181",
+      "word": "dark",
+      "source_entry": "dark",
+      "aliases": [],
+      "source_zh_unreviewed": "黑暗的"
+    },
+    {
+      "id": "W182",
+      "word": "daughter",
+      "source_entry": "daughter",
+      "aliases": [],
+      "source_zh_unreviewed": "女儿"
+    },
+    {
+      "id": "W183",
+      "word": "day",
+      "source_entry": "day",
+      "aliases": [],
+      "source_zh_unreviewed": "白天；一天"
+    },
+    {
+      "id": "W184",
+      "word": "dead",
+      "source_entry": "dead",
+      "aliases": [],
+      "source_zh_unreviewed": "死的"
+    },
+    {
+      "id": "W185",
+      "word": "dear",
+      "source_entry": "dear",
+      "aliases": [],
+      "source_zh_unreviewed": "亲爱的"
+    },
+    {
+      "id": "W186",
+      "word": "death",
+      "source_entry": "death",
+      "aliases": [],
+      "source_zh_unreviewed": "死亡"
+    },
+    {
+      "id": "W187",
+      "word": "debt",
+      "source_entry": "debt",
+      "aliases": [],
+      "source_zh_unreviewed": "债务"
+    },
+    {
+      "id": "W188",
+      "word": "decision",
+      "source_entry": "decision",
+      "aliases": [],
+      "source_zh_unreviewed": "决定"
+    },
+    {
+      "id": "W189",
+      "word": "deep",
+      "source_entry": "deep",
+      "aliases": [],
+      "source_zh_unreviewed": "深的"
+    },
+    {
+      "id": "W190",
+      "word": "degree",
+      "source_entry": "degree",
+      "aliases": [],
+      "source_zh_unreviewed": "学位；程度"
+    },
+    {
+      "id": "W191",
+      "word": "delicate",
+      "source_entry": "delicate",
+      "aliases": [],
+      "source_zh_unreviewed": "精细的；易碎的"
+    },
+    {
+      "id": "W192",
+      "word": "dependent",
+      "source_entry": "dependent",
+      "aliases": [],
+      "source_zh_unreviewed": "依赖的；依靠的"
+    },
+    {
+      "id": "W193",
+      "word": "design",
+      "source_entry": "design",
+      "aliases": [],
+      "source_zh_unreviewed": "设计"
+    },
+    {
+      "id": "W194",
+      "word": "desire",
+      "source_entry": "desire",
+      "aliases": [],
+      "source_zh_unreviewed": "欲望"
+    },
+    {
+      "id": "W195",
+      "word": "destruction",
+      "source_entry": "destruction",
+      "aliases": [],
+      "source_zh_unreviewed": "破坏；毁灭"
+    },
+    {
+      "id": "W196",
+      "word": "detail",
+      "source_entry": "detail",
+      "aliases": [],
+      "source_zh_unreviewed": "细节"
+    },
+    {
+      "id": "W197",
+      "word": "development",
+      "source_entry": "development",
+      "aliases": [],
+      "source_zh_unreviewed": "发展"
+    },
+    {
+      "id": "W198",
+      "word": "different",
+      "source_entry": "different",
+      "aliases": [],
+      "source_zh_unreviewed": "不同的"
+    },
+    {
+      "id": "W199",
+      "word": "digestion",
+      "source_entry": "digestion",
+      "aliases": [],
+      "source_zh_unreviewed": "消化"
+    },
+    {
+      "id": "W200",
+      "word": "direction",
+      "source_entry": "direction",
+      "aliases": [],
+      "source_zh_unreviewed": "方向"
+    },
+    {
+      "id": "W201",
+      "word": "dirty",
+      "source_entry": "dirty",
+      "aliases": [],
+      "source_zh_unreviewed": "脏的"
+    },
+    {
+      "id": "W202",
+      "word": "discovery",
+      "source_entry": "discovery",
+      "aliases": [],
+      "source_zh_unreviewed": "发现"
+    },
+    {
+      "id": "W203",
+      "word": "discussion",
+      "source_entry": "discussion",
+      "aliases": [],
+      "source_zh_unreviewed": "讨论"
+    },
+    {
+      "id": "W204",
+      "word": "disease",
+      "source_entry": "disease",
+      "aliases": [],
+      "source_zh_unreviewed": "疾病"
+    },
+    {
+      "id": "W205",
+      "word": "disgust",
+      "source_entry": "disgust",
+      "aliases": [],
+      "source_zh_unreviewed": "厌恶"
+    },
+    {
+      "id": "W206",
+      "word": "distance",
+      "source_entry": "distance",
+      "aliases": [],
+      "source_zh_unreviewed": "距离"
+    },
+    {
+      "id": "W207",
+      "word": "distribution",
+      "source_entry": "distribution",
+      "aliases": [],
+      "source_zh_unreviewed": "分配；分布"
+    },
+    {
+      "id": "W208",
+      "word": "division",
+      "source_entry": "division",
+      "aliases": [],
+      "source_zh_unreviewed": "分割；部门"
+    },
+    {
+      "id": "W209",
+      "word": "do",
+      "source_entry": "do",
+      "aliases": [],
+      "source_zh_unreviewed": "做"
+    },
+    {
+      "id": "W210",
+      "word": "dog",
+      "source_entry": "dog",
+      "aliases": [],
+      "source_zh_unreviewed": "狗"
+    },
+    {
+      "id": "W211",
+      "word": "door",
+      "source_entry": "door",
+      "aliases": [],
+      "source_zh_unreviewed": "门"
+    },
+    {
+      "id": "W212",
+      "word": "doubt",
+      "source_entry": "doubt",
+      "aliases": [],
+      "source_zh_unreviewed": "怀疑"
+    },
+    {
+      "id": "W213",
+      "word": "down",
+      "source_entry": "down",
+      "aliases": [],
+      "source_zh_unreviewed": "向下"
+    },
+    {
+      "id": "W214",
+      "word": "drain",
+      "source_entry": "drain",
+      "aliases": [],
+      "source_zh_unreviewed": "排水"
+    },
+    {
+      "id": "W215",
+      "word": "drawer",
+      "source_entry": "drawer",
+      "aliases": [],
+      "source_zh_unreviewed": "抽屉"
+    },
+    {
+      "id": "W216",
+      "word": "dress",
+      "source_entry": "dress",
+      "aliases": [],
+      "source_zh_unreviewed": "连衣裙；穿着"
+    },
+    {
+      "id": "W217",
+      "word": "drink",
+      "source_entry": "drink",
+      "aliases": [],
+      "source_zh_unreviewed": "喝"
+    },
+    {
+      "id": "W218",
+      "word": "driving",
+      "source_entry": "driving",
+      "aliases": [],
+      "source_zh_unreviewed": "驾驶"
+    },
+    {
+      "id": "W219",
+      "word": "drop",
+      "source_entry": "drop",
+      "aliases": [],
+      "source_zh_unreviewed": "掉落"
+    },
+    {
+      "id": "W220",
+      "word": "dry",
+      "source_entry": "dry",
+      "aliases": [],
+      "source_zh_unreviewed": "干的"
+    },
+    {
+      "id": "W221",
+      "word": "dust",
+      "source_entry": "dust",
+      "aliases": [],
+      "source_zh_unreviewed": "灰尘"
+    },
+    {
+      "id": "W222",
+      "word": "ear",
+      "source_entry": "ear",
+      "aliases": [],
+      "source_zh_unreviewed": "耳朵"
+    },
+    {
+      "id": "W223",
+      "word": "early",
+      "source_entry": "early",
+      "aliases": [],
+      "source_zh_unreviewed": "早期的；早的"
+    },
+    {
+      "id": "W224",
+      "word": "earth",
+      "source_entry": "earth",
+      "aliases": [],
+      "source_zh_unreviewed": "地球；土壤"
+    },
+    {
+      "id": "W225",
+      "word": "east",
+      "source_entry": "east",
+      "aliases": [],
+      "source_zh_unreviewed": "东方；东部"
+    },
+    {
+      "id": "W226",
+      "word": "edge",
+      "source_entry": "edge",
+      "aliases": [],
+      "source_zh_unreviewed": "边缘；锋利的部分"
+    },
+    {
+      "id": "W227",
+      "word": "education",
+      "source_entry": "education",
+      "aliases": [],
+      "source_zh_unreviewed": "教育"
+    },
+    {
+      "id": "W228",
+      "word": "effect",
+      "source_entry": "effect",
+      "aliases": [],
+      "source_zh_unreviewed": "影响；效果"
+    },
+    {
+      "id": "W229",
+      "word": "egg",
+      "source_entry": "egg",
+      "aliases": [],
+      "source_zh_unreviewed": "鸡蛋"
+    },
+    {
+      "id": "W230",
+      "word": "elastic",
+      "source_entry": "elastic",
+      "aliases": [],
+      "source_zh_unreviewed": "有弹性的"
+    },
+    {
+      "id": "W231",
+      "word": "electric",
+      "source_entry": "electric",
+      "aliases": [],
+      "source_zh_unreviewed": "电的"
+    },
+    {
+      "id": "W232",
+      "word": "end",
+      "source_entry": "end",
+      "aliases": [],
+      "source_zh_unreviewed": "结束；末尾"
+    },
+    {
+      "id": "W233",
+      "word": "engine",
+      "source_entry": "engine",
+      "aliases": [],
+      "source_zh_unreviewed": "引擎"
+    },
+    {
+      "id": "W234",
+      "word": "enough",
+      "source_entry": "enough",
+      "aliases": [],
+      "source_zh_unreviewed": "足够的"
+    },
+    {
+      "id": "W235",
+      "word": "equal",
+      "source_entry": "equal",
+      "aliases": [],
+      "source_zh_unreviewed": "相等的；平等的"
+    },
+    {
+      "id": "W236",
+      "word": "error",
+      "source_entry": "error",
+      "aliases": [],
+      "source_zh_unreviewed": "错误"
+    },
+    {
+      "id": "W237",
+      "word": "even",
+      "source_entry": "even",
+      "aliases": [],
+      "source_zh_unreviewed": "甚至；均匀的"
+    },
+    {
+      "id": "W238",
+      "word": "event",
+      "source_entry": "event",
+      "aliases": [],
+      "source_zh_unreviewed": "事件"
+    },
+    {
+      "id": "W239",
+      "word": "ever",
+      "source_entry": "ever",
+      "aliases": [],
+      "source_zh_unreviewed": "曾经；永远"
+    },
+    {
+      "id": "W240",
+      "word": "every",
+      "source_entry": "every",
+      "aliases": [],
+      "source_zh_unreviewed": "每个"
+    },
+    {
+      "id": "W241",
+      "word": "example",
+      "source_entry": "example",
+      "aliases": [],
+      "source_zh_unreviewed": "例子"
+    },
+    {
+      "id": "W242",
+      "word": "exchange",
+      "source_entry": "exchange",
+      "aliases": [],
+      "source_zh_unreviewed": "交流；交换"
+    },
+    {
+      "id": "W243",
+      "word": "existence",
+      "source_entry": "existence",
+      "aliases": [],
+      "source_zh_unreviewed": "存在"
+    },
+    {
+      "id": "W244",
+      "word": "expansion",
+      "source_entry": "expansion",
+      "aliases": [],
+      "source_zh_unreviewed": "扩张；膨胀"
+    },
+    {
+      "id": "W245",
+      "word": "experience",
+      "source_entry": "experience",
+      "aliases": [],
+      "source_zh_unreviewed": "经验"
+    },
+    {
+      "id": "W246",
+      "word": "expert",
+      "source_entry": "expert",
+      "aliases": [],
+      "source_zh_unreviewed": "专家"
+    },
+    {
+      "id": "W247",
+      "word": "eye",
+      "source_entry": "eye",
+      "aliases": [],
+      "source_zh_unreviewed": "眼睛"
+    },
+    {
+      "id": "W248",
+      "word": "face",
+      "source_entry": "face",
+      "aliases": [],
+      "source_zh_unreviewed": "脸；面孔"
+    },
+    {
+      "id": "W249",
+      "word": "fact",
+      "source_entry": "fact",
+      "aliases": [],
+      "source_zh_unreviewed": "事实；实际"
+    },
+    {
+      "id": "W250",
+      "word": "fall",
+      "source_entry": "fall",
+      "aliases": [],
+      "source_zh_unreviewed": "落下；跌倒"
+    },
+    {
+      "id": "W251",
+      "word": "false",
+      "source_entry": "false",
+      "aliases": [],
+      "source_zh_unreviewed": "错误的；虚假的"
+    },
+    {
+      "id": "W252",
+      "word": "family",
+      "source_entry": "family",
+      "aliases": [],
+      "source_zh_unreviewed": "家庭；家族"
+    },
+    {
+      "id": "W253",
+      "word": "far",
+      "source_entry": "far",
+      "aliases": [],
+      "source_zh_unreviewed": "远的；遥远的"
+    },
+    {
+      "id": "W254",
+      "word": "farm",
+      "source_entry": "farm",
+      "aliases": [],
+      "source_zh_unreviewed": "农场；农庄"
+    },
+    {
+      "id": "W255",
+      "word": "fat",
+      "source_entry": "fat",
+      "aliases": [],
+      "source_zh_unreviewed": "脂肪；肥胖的"
+    },
+    {
+      "id": "W256",
+      "word": "father",
+      "source_entry": "father",
+      "aliases": [],
+      "source_zh_unreviewed": "父亲；爸爸"
+    },
+    {
+      "id": "W257",
+      "word": "fear",
+      "source_entry": "fear",
+      "aliases": [],
+      "source_zh_unreviewed": "害怕；恐惧"
+    },
+    {
+      "id": "W258",
+      "word": "feather",
+      "source_entry": "feather",
+      "aliases": [],
+      "source_zh_unreviewed": "羽毛；翎毛"
+    },
+    {
+      "id": "W259",
+      "word": "feeble",
+      "source_entry": "feeble",
+      "aliases": [],
+      "source_zh_unreviewed": "虚弱的；无力的"
+    },
+    {
+      "id": "W260",
+      "word": "feeling",
+      "source_entry": "feeling",
+      "aliases": [],
+      "source_zh_unreviewed": "感觉；情感"
+    },
+    {
+      "id": "W261",
+      "word": "female",
+      "source_entry": "female",
+      "aliases": [],
+      "source_zh_unreviewed": "女性的；雌性的"
+    },
+    {
+      "id": "W262",
+      "word": "fertile",
+      "source_entry": "fertile",
+      "aliases": [],
+      "source_zh_unreviewed": "肥沃的；富饶的"
+    },
+    {
+      "id": "W263",
+      "word": "fiction",
+      "source_entry": "fiction",
+      "aliases": [],
+      "source_zh_unreviewed": "小说；虚构"
+    },
+    {
+      "id": "W264",
+      "word": "field",
+      "source_entry": "field",
+      "aliases": [],
+      "source_zh_unreviewed": "田地；领域"
+    },
+    {
+      "id": "W265",
+      "word": "fight",
+      "source_entry": "fight",
+      "aliases": [],
+      "source_zh_unreviewed": "打斗；战斗"
+    },
+    {
+      "id": "W266",
+      "word": "finger",
+      "source_entry": "finger",
+      "aliases": [],
+      "source_zh_unreviewed": "手指；指头"
+    },
+    {
+      "id": "W267",
+      "word": "fire",
+      "source_entry": "fire",
+      "aliases": [],
+      "source_zh_unreviewed": "火；火灾"
+    },
+    {
+      "id": "W268",
+      "word": "first",
+      "source_entry": "first",
+      "aliases": [],
+      "source_zh_unreviewed": "第一；首先"
+    },
+    {
+      "id": "W269",
+      "word": "fish",
+      "source_entry": "fish",
+      "aliases": [],
+      "source_zh_unreviewed": "鱼；钓鱼"
+    },
+    {
+      "id": "W270",
+      "word": "fixed",
+      "source_entry": "fixed",
+      "aliases": [],
+      "source_zh_unreviewed": "固定的；不变的"
+    },
+    {
+      "id": "W271",
+      "word": "flag",
+      "source_entry": "flag",
+      "aliases": [],
+      "source_zh_unreviewed": "旗帜；国旗"
+    },
+    {
+      "id": "W272",
+      "word": "flame",
+      "source_entry": "flame",
+      "aliases": [],
+      "source_zh_unreviewed": "火焰；火舌"
+    },
+    {
+      "id": "W273",
+      "word": "flat",
+      "source_entry": "flat",
+      "aliases": [],
+      "source_zh_unreviewed": "平的；扁平的"
+    },
+    {
+      "id": "W274",
+      "word": "flight",
+      "source_entry": "flight",
+      "aliases": [],
+      "source_zh_unreviewed": "飞行；航班"
+    },
+    {
+      "id": "W275",
+      "word": "floor",
+      "source_entry": "floor",
+      "aliases": [],
+      "source_zh_unreviewed": "地板；楼层"
+    },
+    {
+      "id": "W276",
+      "word": "flower",
+      "source_entry": "flower",
+      "aliases": [],
+      "source_zh_unreviewed": "花；开花"
+    },
+    {
+      "id": "W277",
+      "word": "fly",
+      "source_entry": "fly",
+      "aliases": [],
+      "source_zh_unreviewed": "飞行；苍蝇"
+    },
+    {
+      "id": "W278",
+      "word": "fold",
+      "source_entry": "fold",
+      "aliases": [],
+      "source_zh_unreviewed": "折叠；褶皱"
+    },
+    {
+      "id": "W279",
+      "word": "food",
+      "source_entry": "food",
+      "aliases": [],
+      "source_zh_unreviewed": "食物；食品"
+    },
+    {
+      "id": "W280",
+      "word": "foolish",
+      "source_entry": "foolish",
+      "aliases": [],
+      "source_zh_unreviewed": "愚蠢的；愚笨的"
+    },
+    {
+      "id": "W281",
+      "word": "foot",
+      "source_entry": "foot",
+      "aliases": [],
+      "source_zh_unreviewed": "脚；足"
+    },
+    {
+      "id": "W282",
+      "word": "for",
+      "source_entry": "for",
+      "aliases": [],
+      "source_zh_unreviewed": "对于；为了"
+    },
+    {
+      "id": "W283",
+      "word": "force",
+      "source_entry": "force",
+      "aliases": [],
+      "source_zh_unreviewed": "力量；力"
+    },
+    {
+      "id": "W284",
+      "word": "fork",
+      "source_entry": "fork",
+      "aliases": [],
+      "source_zh_unreviewed": "叉子；分叉"
+    },
+    {
+      "id": "W285",
+      "word": "form",
+      "source_entry": "form",
+      "aliases": [],
+      "source_zh_unreviewed": "形式；形态"
+    },
+    {
+      "id": "W286",
+      "word": "forward",
+      "source_entry": "forward",
+      "aliases": [],
+      "source_zh_unreviewed": "向前；前进"
+    },
+    {
+      "id": "W287",
+      "word": "fowl",
+      "source_entry": "fowl",
+      "aliases": [],
+      "source_zh_unreviewed": "家禽；鸟"
+    },
+    {
+      "id": "W288",
+      "word": "frame",
+      "source_entry": "frame",
+      "aliases": [],
+      "source_zh_unreviewed": "框架；结构"
+    },
+    {
+      "id": "W289",
+      "word": "free",
+      "source_entry": "free",
+      "aliases": [],
+      "source_zh_unreviewed": "自由的；免费的"
+    },
+    {
+      "id": "W290",
+      "word": "frequent",
+      "source_entry": "frequent",
+      "aliases": [],
+      "source_zh_unreviewed": "频繁的；经常的"
+    },
+    {
+      "id": "W291",
+      "word": "friend",
+      "source_entry": "friend",
+      "aliases": [],
+      "source_zh_unreviewed": "朋友；友人"
+    },
+    {
+      "id": "W292",
+      "word": "from",
+      "source_entry": "from",
+      "aliases": [],
+      "source_zh_unreviewed": "来自；从"
+    },
+    {
+      "id": "W293",
+      "word": "front",
+      "source_entry": "front",
+      "aliases": [],
+      "source_zh_unreviewed": "前面；正面"
+    },
+    {
+      "id": "W294",
+      "word": "fruit",
+      "source_entry": "fruit",
+      "aliases": [],
+      "source_zh_unreviewed": "水果；果实"
+    },
+    {
+      "id": "W295",
+      "word": "full",
+      "source_entry": "full",
+      "aliases": [],
+      "source_zh_unreviewed": "满的；充满的"
+    },
+    {
+      "id": "W296",
+      "word": "future",
+      "source_entry": "future",
+      "aliases": [],
+      "source_zh_unreviewed": "未来；将来"
+    },
+    {
+      "id": "W297",
+      "word": "garden",
+      "source_entry": "garden",
+      "aliases": [],
+      "source_zh_unreviewed": "花园"
+    },
+    {
+      "id": "W298",
+      "word": "general",
+      "source_entry": "general",
+      "aliases": [],
+      "source_zh_unreviewed": "将军；一般的"
+    },
+    {
+      "id": "W299",
+      "word": "get",
+      "source_entry": "get",
+      "aliases": [],
+      "source_zh_unreviewed": "得到；获得"
+    },
+    {
+      "id": "W300",
+      "word": "girl",
+      "source_entry": "girl",
+      "aliases": [],
+      "source_zh_unreviewed": "女孩"
+    },
+    {
+      "id": "W301",
+      "word": "give",
+      "source_entry": "give",
+      "aliases": [],
+      "source_zh_unreviewed": "给予；给"
+    },
+    {
+      "id": "W302",
+      "word": "glass",
+      "source_entry": "glass",
+      "aliases": [],
+      "source_zh_unreviewed": "玻璃"
+    },
+    {
+      "id": "W303",
+      "word": "glove",
+      "source_entry": "glove",
+      "aliases": [],
+      "source_zh_unreviewed": "手套"
+    },
+    {
+      "id": "W304",
+      "word": "go",
+      "source_entry": "go",
+      "aliases": [],
+      "source_zh_unreviewed": "去"
+    },
+    {
+      "id": "W305",
+      "word": "goat",
+      "source_entry": "goat",
+      "aliases": [],
+      "source_zh_unreviewed": "山羊"
+    },
+    {
+      "id": "W306",
+      "word": "gold",
+      "source_entry": "gold",
+      "aliases": [],
+      "source_zh_unreviewed": "黄金"
+    },
+    {
+      "id": "W307",
+      "word": "good",
+      "source_entry": "good",
+      "aliases": [],
+      "source_zh_unreviewed": "好的"
+    },
+    {
+      "id": "W308",
+      "word": "government",
+      "source_entry": "government",
+      "aliases": [],
+      "source_zh_unreviewed": "政府"
+    },
+    {
+      "id": "W309",
+      "word": "grain",
+      "source_entry": "grain",
+      "aliases": [],
+      "source_zh_unreviewed": "谷物"
+    },
+    {
+      "id": "W310",
+      "word": "grass",
+      "source_entry": "grass",
+      "aliases": [],
+      "source_zh_unreviewed": "草"
+    },
+    {
+      "id": "W311",
+      "word": "great",
+      "source_entry": "great",
+      "aliases": [],
+      "source_zh_unreviewed": "伟大的"
+    },
+    {
+      "id": "W312",
+      "word": "green",
+      "source_entry": "green",
+      "aliases": [],
+      "source_zh_unreviewed": "绿色"
+    },
+    {
+      "id": "W313",
+      "word": "grey",
+      "source_entry": "grey/gray",
+      "aliases": [
+        "gray"
+      ],
+      "source_zh_unreviewed": "灰色"
+    },
+    {
+      "id": "W314",
+      "word": "grip",
+      "source_entry": "grip",
+      "aliases": [],
+      "source_zh_unreviewed": "紧握"
+    },
+    {
+      "id": "W315",
+      "word": "group",
+      "source_entry": "group",
+      "aliases": [],
+      "source_zh_unreviewed": "组；群"
+    },
+    {
+      "id": "W316",
+      "word": "growth",
+      "source_entry": "growth",
+      "aliases": [],
+      "source_zh_unreviewed": "成长；增长"
+    },
+    {
+      "id": "W317",
+      "word": "guide",
+      "source_entry": "guide",
+      "aliases": [],
+      "source_zh_unreviewed": "指导；导游"
+    },
+    {
+      "id": "W318",
+      "word": "gun",
+      "source_entry": "gun",
+      "aliases": [],
+      "source_zh_unreviewed": "枪"
+    },
+    {
+      "id": "W319",
+      "word": "hair",
+      "source_entry": "hair",
+      "aliases": [],
+      "source_zh_unreviewed": "头发"
+    },
+    {
+      "id": "W320",
+      "word": "hammer",
+      "source_entry": "hammer",
+      "aliases": [],
+      "source_zh_unreviewed": "锤子"
+    },
+    {
+      "id": "W321",
+      "word": "hand",
+      "source_entry": "hand",
+      "aliases": [],
+      "source_zh_unreviewed": "手"
+    },
+    {
+      "id": "W322",
+      "word": "hanging",
+      "source_entry": "hanging",
+      "aliases": [],
+      "source_zh_unreviewed": "悬挂"
+    },
+    {
+      "id": "W323",
+      "word": "happy",
+      "source_entry": "happy",
+      "aliases": [],
+      "source_zh_unreviewed": "快乐的"
+    },
+    {
+      "id": "W324",
+      "word": "harbor",
+      "source_entry": "harbor",
+      "aliases": [],
+      "source_zh_unreviewed": "港口"
+    },
+    {
+      "id": "W325",
+      "word": "hard",
+      "source_entry": "hard",
+      "aliases": [],
+      "source_zh_unreviewed": "困难的；努力的"
+    },
+    {
+      "id": "W326",
+      "word": "harmony",
+      "source_entry": "harmony",
+      "aliases": [],
+      "source_zh_unreviewed": "和谐"
+    },
+    {
+      "id": "W327",
+      "word": "hat",
+      "source_entry": "hat",
+      "aliases": [],
+      "source_zh_unreviewed": "帽子"
+    },
+    {
+      "id": "W328",
+      "word": "hate",
+      "source_entry": "hate",
+      "aliases": [],
+      "source_zh_unreviewed": "憎恨"
+    },
+    {
+      "id": "W329",
+      "word": "have",
+      "source_entry": "have",
+      "aliases": [],
+      "source_zh_unreviewed": "有"
+    },
+    {
+      "id": "W330",
+      "word": "he",
+      "source_entry": "he",
+      "aliases": [],
+      "source_zh_unreviewed": "他"
+    },
+    {
+      "id": "W331",
+      "word": "head",
+      "source_entry": "head",
+      "aliases": [],
+      "source_zh_unreviewed": "头"
+    },
+    {
+      "id": "W332",
+      "word": "healthy",
+      "source_entry": "healthy",
+      "aliases": [],
+      "source_zh_unreviewed": "健康的"
+    },
+    {
+      "id": "W333",
+      "word": "hearing",
+      "source_entry": "hearing",
+      "aliases": [],
+      "source_zh_unreviewed": "听力"
+    },
+    {
+      "id": "W334",
+      "word": "heart",
+      "source_entry": "heart",
+      "aliases": [],
+      "source_zh_unreviewed": "心"
+    },
+    {
+      "id": "W335",
+      "word": "heat",
+      "source_entry": "heat",
+      "aliases": [],
+      "source_zh_unreviewed": "热"
+    },
+    {
+      "id": "W336",
+      "word": "help",
+      "source_entry": "help",
+      "aliases": [],
+      "source_zh_unreviewed": "帮助"
+    },
+    {
+      "id": "W337",
+      "word": "here",
+      "source_entry": "here",
+      "aliases": [],
+      "source_zh_unreviewed": "这里"
+    },
+    {
+      "id": "W338",
+      "word": "high",
+      "source_entry": "high",
+      "aliases": [],
+      "source_zh_unreviewed": "高"
+    },
+    {
+      "id": "W339",
+      "word": "history",
+      "source_entry": "history",
+      "aliases": [],
+      "source_zh_unreviewed": "历史"
+    },
+    {
+      "id": "W340",
+      "word": "hole",
+      "source_entry": "hole",
+      "aliases": [],
+      "source_zh_unreviewed": "洞"
+    },
+    {
+      "id": "W341",
+      "word": "hollow",
+      "source_entry": "hollow",
+      "aliases": [],
+      "source_zh_unreviewed": "空的"
+    },
+    {
+      "id": "W342",
+      "word": "hook",
+      "source_entry": "hook",
+      "aliases": [],
+      "source_zh_unreviewed": "钩子"
+    },
+    {
+      "id": "W343",
+      "word": "hope",
+      "source_entry": "hope",
+      "aliases": [],
+      "source_zh_unreviewed": "希望"
+    },
+    {
+      "id": "W344",
+      "word": "horn",
+      "source_entry": "horn",
+      "aliases": [],
+      "source_zh_unreviewed": "角"
+    },
+    {
+      "id": "W345",
+      "word": "horse",
+      "source_entry": "horse",
+      "aliases": [],
+      "source_zh_unreviewed": "马"
+    },
+    {
+      "id": "W346",
+      "word": "hospital",
+      "source_entry": "hospital",
+      "aliases": [],
+      "source_zh_unreviewed": "医院"
+    },
+    {
+      "id": "W347",
+      "word": "hour",
+      "source_entry": "hour",
+      "aliases": [],
+      "source_zh_unreviewed": "小时"
+    },
+    {
+      "id": "W348",
+      "word": "house",
+      "source_entry": "house",
+      "aliases": [],
+      "source_zh_unreviewed": "房子"
+    },
+    {
+      "id": "W349",
+      "word": "how",
+      "source_entry": "how",
+      "aliases": [],
+      "source_zh_unreviewed": "如何"
+    },
+    {
+      "id": "W350",
+      "word": "humor",
+      "source_entry": "humor",
+      "aliases": [],
+      "source_zh_unreviewed": "幽默感"
+    },
+    {
+      "id": "W351",
+      "word": "I",
+      "source_entry": "I",
+      "aliases": [],
+      "source_zh_unreviewed": "我"
+    },
+    {
+      "id": "W352",
+      "word": "ice",
+      "source_entry": "ice",
+      "aliases": [],
+      "source_zh_unreviewed": "冰"
+    },
+    {
+      "id": "W353",
+      "word": "idea",
+      "source_entry": "idea",
+      "aliases": [],
+      "source_zh_unreviewed": "想法；主意"
+    },
+    {
+      "id": "W354",
+      "word": "if",
+      "source_entry": "if",
+      "aliases": [],
+      "source_zh_unreviewed": "如果"
+    },
+    {
+      "id": "W355",
+      "word": "ill",
+      "source_entry": "ill",
+      "aliases": [],
+      "source_zh_unreviewed": "生病的"
+    },
+    {
+      "id": "W356",
+      "word": "important",
+      "source_entry": "important",
+      "aliases": [],
+      "source_zh_unreviewed": "重要的"
+    },
+    {
+      "id": "W357",
+      "word": "impulse",
+      "source_entry": "impulse",
+      "aliases": [],
+      "source_zh_unreviewed": "冲动"
+    },
+    {
+      "id": "W358",
+      "word": "in",
+      "source_entry": "in",
+      "aliases": [],
+      "source_zh_unreviewed": "在...里面"
+    },
+    {
+      "id": "W359",
+      "word": "increase",
+      "source_entry": "increase",
+      "aliases": [],
+      "source_zh_unreviewed": "增加"
+    },
+    {
+      "id": "W360",
+      "word": "industry",
+      "source_entry": "industry",
+      "aliases": [],
+      "source_zh_unreviewed": "工业"
+    },
+    {
+      "id": "W361",
+      "word": "ink",
+      "source_entry": "ink",
+      "aliases": [],
+      "source_zh_unreviewed": "墨水"
+    },
+    {
+      "id": "W362",
+      "word": "insect",
+      "source_entry": "insect",
+      "aliases": [],
+      "source_zh_unreviewed": "昆虫"
+    },
+    {
+      "id": "W363",
+      "word": "instrument",
+      "source_entry": "instrument",
+      "aliases": [],
+      "source_zh_unreviewed": "乐器"
+    },
+    {
+      "id": "W364",
+      "word": "insurance",
+      "source_entry": "insurance",
+      "aliases": [],
+      "source_zh_unreviewed": "保险"
+    },
+    {
+      "id": "W365",
+      "word": "interest",
+      "source_entry": "interest",
+      "aliases": [],
+      "source_zh_unreviewed": "兴趣"
+    },
+    {
+      "id": "W366",
+      "word": "invention",
+      "source_entry": "invention",
+      "aliases": [],
+      "source_zh_unreviewed": "发明"
+    },
+    {
+      "id": "W367",
+      "word": "iron",
+      "source_entry": "iron",
+      "aliases": [],
+      "source_zh_unreviewed": "铁"
+    },
+    {
+      "id": "W368",
+      "word": "island",
+      "source_entry": "island",
+      "aliases": [],
+      "source_zh_unreviewed": "岛屿"
+    },
+    {
+      "id": "W369",
+      "word": "jelly",
+      "source_entry": "jelly",
+      "aliases": [],
+      "source_zh_unreviewed": "果冻；果酱"
+    },
+    {
+      "id": "W370",
+      "word": "jewel",
+      "source_entry": "jewel",
+      "aliases": [],
+      "source_zh_unreviewed": "珠宝；宝石"
+    },
+    {
+      "id": "W371",
+      "word": "join",
+      "source_entry": "join",
+      "aliases": [],
+      "source_zh_unreviewed": "加入；参加"
+    },
+    {
+      "id": "W372",
+      "word": "journey",
+      "source_entry": "journey",
+      "aliases": [],
+      "source_zh_unreviewed": "旅行；旅程"
+    },
+    {
+      "id": "W373",
+      "word": "judge",
+      "source_entry": "judge",
+      "aliases": [],
+      "source_zh_unreviewed": "法官；裁判"
+    },
+    {
+      "id": "W374",
+      "word": "jump",
+      "source_entry": "jump",
+      "aliases": [],
+      "source_zh_unreviewed": "跳跃；跳动"
+    },
+    {
+      "id": "W375",
+      "word": "keep",
+      "source_entry": "keep",
+      "aliases": [],
+      "source_zh_unreviewed": "保持；继续"
+    },
+    {
+      "id": "W376",
+      "word": "kettle",
+      "source_entry": "kettle",
+      "aliases": [],
+      "source_zh_unreviewed": "水壶；茶壶"
+    },
+    {
+      "id": "W377",
+      "word": "key",
+      "source_entry": "key",
+      "aliases": [],
+      "source_zh_unreviewed": "钥匙；关键"
+    },
+    {
+      "id": "W378",
+      "word": "kick",
+      "source_entry": "kick",
+      "aliases": [],
+      "source_zh_unreviewed": "踢；踢球"
+    },
+    {
+      "id": "W379",
+      "word": "kind",
+      "source_entry": "kind",
+      "aliases": [],
+      "source_zh_unreviewed": "种类；友善的"
+    },
+    {
+      "id": "W380",
+      "word": "kiss",
+      "source_entry": "kiss",
+      "aliases": [],
+      "source_zh_unreviewed": "吻；亲吻"
+    },
+    {
+      "id": "W381",
+      "word": "knee",
+      "source_entry": "knee",
+      "aliases": [],
+      "source_zh_unreviewed": "膝盖"
+    },
+    {
+      "id": "W382",
+      "word": "knife",
+      "source_entry": "knife",
+      "aliases": [],
+      "source_zh_unreviewed": "刀"
+    },
+    {
+      "id": "W383",
+      "word": "knot",
+      "source_entry": "knot",
+      "aliases": [],
+      "source_zh_unreviewed": "结；打结"
+    },
+    {
+      "id": "W384",
+      "word": "knowledge",
+      "source_entry": "knowledge",
+      "aliases": [],
+      "source_zh_unreviewed": "知识"
+    },
+    {
+      "id": "W385",
+      "word": "land",
+      "source_entry": "land",
+      "aliases": [],
+      "source_zh_unreviewed": "土地；陆地"
+    },
+    {
+      "id": "W386",
+      "word": "language",
+      "source_entry": "language",
+      "aliases": [],
+      "source_zh_unreviewed": "语言"
+    },
+    {
+      "id": "W387",
+      "word": "last",
+      "source_entry": "last",
+      "aliases": [],
+      "source_zh_unreviewed": "最后的；持续的"
+    },
+    {
+      "id": "W388",
+      "word": "late",
+      "source_entry": "late",
+      "aliases": [],
+      "source_zh_unreviewed": "迟的；晚的"
+    },
+    {
+      "id": "W389",
+      "word": "laugh",
+      "source_entry": "laugh",
+      "aliases": [],
+      "source_zh_unreviewed": "笑"
+    },
+    {
+      "id": "W390",
+      "word": "law",
+      "source_entry": "law",
+      "aliases": [],
+      "source_zh_unreviewed": "法律"
+    },
+    {
+      "id": "W391",
+      "word": "lead",
+      "source_entry": "lead",
+      "aliases": [],
+      "source_zh_unreviewed": "领导；引导"
+    },
+    {
+      "id": "W392",
+      "word": "leaf",
+      "source_entry": "leaf",
+      "aliases": [],
+      "source_zh_unreviewed": "叶子"
+    },
+    {
+      "id": "W393",
+      "word": "learning",
+      "source_entry": "learning",
+      "aliases": [],
+      "source_zh_unreviewed": "学习"
+    },
+    {
+      "id": "W394",
+      "word": "leather",
+      "source_entry": "leather",
+      "aliases": [],
+      "source_zh_unreviewed": "皮革"
+    },
+    {
+      "id": "W395",
+      "word": "left",
+      "source_entry": "left",
+      "aliases": [],
+      "source_zh_unreviewed": "左边的"
+    },
+    {
+      "id": "W396",
+      "word": "leg",
+      "source_entry": "leg",
+      "aliases": [],
+      "source_zh_unreviewed": "腿"
+    },
+    {
+      "id": "W397",
+      "word": "let",
+      "source_entry": "let",
+      "aliases": [],
+      "source_zh_unreviewed": "让；允许"
+    },
+    {
+      "id": "W398",
+      "word": "letter",
+      "source_entry": "letter",
+      "aliases": [],
+      "source_zh_unreviewed": "信；字母"
+    },
+    {
+      "id": "W399",
+      "word": "level",
+      "source_entry": "level",
+      "aliases": [],
+      "source_zh_unreviewed": "水平；水平的"
+    },
+    {
+      "id": "W400",
+      "word": "library",
+      "source_entry": "library",
+      "aliases": [],
+      "source_zh_unreviewed": "图书馆"
+    },
+    {
+      "id": "W401",
+      "word": "lift",
+      "source_entry": "lift",
+      "aliases": [],
+      "source_zh_unreviewed": "举起；电梯"
+    },
+    {
+      "id": "W402",
+      "word": "light",
+      "source_entry": "light",
+      "aliases": [],
+      "source_zh_unreviewed": "光；轻的"
+    },
+    {
+      "id": "W403",
+      "word": "like",
+      "source_entry": "like",
+      "aliases": [],
+      "source_zh_unreviewed": "喜欢；像"
+    },
+    {
+      "id": "W404",
+      "word": "limit",
+      "source_entry": "limit",
+      "aliases": [],
+      "source_zh_unreviewed": "限制；限度"
+    },
+    {
+      "id": "W405",
+      "word": "line",
+      "source_entry": "line",
+      "aliases": [],
+      "source_zh_unreviewed": "线；排队"
+    },
+    {
+      "id": "W406",
+      "word": "linen",
+      "source_entry": "linen",
+      "aliases": [],
+      "source_zh_unreviewed": "亚麻布"
+    },
+    {
+      "id": "W407",
+      "word": "lip",
+      "source_entry": "lip",
+      "aliases": [],
+      "source_zh_unreviewed": "嘴唇"
+    },
+    {
+      "id": "W408",
+      "word": "liquid",
+      "source_entry": "liquid",
+      "aliases": [],
+      "source_zh_unreviewed": "液体"
+    },
+    {
+      "id": "W409",
+      "word": "list",
+      "source_entry": "list",
+      "aliases": [],
+      "source_zh_unreviewed": "列表"
+    },
+    {
+      "id": "W410",
+      "word": "little",
+      "source_entry": "little (less, least)",
+      "aliases": [
+        "less",
+        "least"
+      ],
+      "source_zh_unreviewed": "小的；少的"
+    },
+    {
+      "id": "W411",
+      "word": "living",
+      "source_entry": "living",
+      "aliases": [],
+      "source_zh_unreviewed": "生活的"
+    },
+    {
+      "id": "W412",
+      "word": "lock",
+      "source_entry": "lock",
+      "aliases": [],
+      "source_zh_unreviewed": "锁"
+    },
+    {
+      "id": "W413",
+      "word": "long",
+      "source_entry": "long",
+      "aliases": [],
+      "source_zh_unreviewed": "长的"
+    },
+    {
+      "id": "W414",
+      "word": "look",
+      "source_entry": "look",
+      "aliases": [],
+      "source_zh_unreviewed": "看；看起来"
+    },
+    {
+      "id": "W415",
+      "word": "loose",
+      "source_entry": "loose",
+      "aliases": [],
+      "source_zh_unreviewed": "松的"
+    },
+    {
+      "id": "W416",
+      "word": "loss",
+      "source_entry": "loss",
+      "aliases": [],
+      "source_zh_unreviewed": "损失"
+    },
+    {
+      "id": "W417",
+      "word": "loud",
+      "source_entry": "loud",
+      "aliases": [],
+      "source_zh_unreviewed": "大声的"
+    },
+    {
+      "id": "W418",
+      "word": "love",
+      "source_entry": "love",
+      "aliases": [],
+      "source_zh_unreviewed": "爱"
+    },
+    {
+      "id": "W419",
+      "word": "low",
+      "source_entry": "low",
+      "aliases": [],
+      "source_zh_unreviewed": "低的"
+    },
+    {
+      "id": "W420",
+      "word": "machine",
+      "source_entry": "machine",
+      "aliases": [],
+      "source_zh_unreviewed": "机器；机械"
+    },
+    {
+      "id": "W421",
+      "word": "make",
+      "source_entry": "make",
+      "aliases": [],
+      "source_zh_unreviewed": "制造；做"
+    },
+    {
+      "id": "W422",
+      "word": "male",
+      "source_entry": "male",
+      "aliases": [],
+      "source_zh_unreviewed": "男性的"
+    },
+    {
+      "id": "W423",
+      "word": "man",
+      "source_entry": "man",
+      "aliases": [],
+      "source_zh_unreviewed": "男人"
+    },
+    {
+      "id": "W424",
+      "word": "manager",
+      "source_entry": "manager",
+      "aliases": [],
+      "source_zh_unreviewed": "经理；管理人"
+    },
+    {
+      "id": "W425",
+      "word": "map",
+      "source_entry": "map",
+      "aliases": [],
+      "source_zh_unreviewed": "地图"
+    },
+    {
+      "id": "W426",
+      "word": "mark",
+      "source_entry": "mark",
+      "aliases": [],
+      "source_zh_unreviewed": "标记；记号"
+    },
+    {
+      "id": "W427",
+      "word": "market",
+      "source_entry": "market",
+      "aliases": [],
+      "source_zh_unreviewed": "市场"
+    },
+    {
+      "id": "W428",
+      "word": "married",
+      "source_entry": "married",
+      "aliases": [],
+      "source_zh_unreviewed": "已婚的"
+    },
+    {
+      "id": "W429",
+      "word": "mass",
+      "source_entry": "mass",
+      "aliases": [],
+      "source_zh_unreviewed": "大量；质量"
+    },
+    {
+      "id": "W430",
+      "word": "match",
+      "source_entry": "match",
+      "aliases": [],
+      "source_zh_unreviewed": "比赛；匹配"
+    },
+    {
+      "id": "W431",
+      "word": "material",
+      "source_entry": "material",
+      "aliases": [],
+      "source_zh_unreviewed": "材料"
+    },
+    {
+      "id": "W432",
+      "word": "may",
+      "source_entry": "may",
+      "aliases": [],
+      "source_zh_unreviewed": "可能；也许"
+    },
+    {
+      "id": "W433",
+      "word": "meal",
+      "source_entry": "meal",
+      "aliases": [],
+      "source_zh_unreviewed": "餐；膳食"
+    },
+    {
+      "id": "W434",
+      "word": "measure",
+      "source_entry": "measure",
+      "aliases": [],
+      "source_zh_unreviewed": "测量；度量"
+    },
+    {
+      "id": "W435",
+      "word": "meat",
+      "source_entry": "meat",
+      "aliases": [],
+      "source_zh_unreviewed": "肉"
+    },
+    {
+      "id": "W436",
+      "word": "medical",
+      "source_entry": "medical",
+      "aliases": [],
+      "source_zh_unreviewed": "医学的；医疗的"
+    },
+    {
+      "id": "W437",
+      "word": "meeting",
+      "source_entry": "meeting",
+      "aliases": [],
+      "source_zh_unreviewed": "会议"
+    },
+    {
+      "id": "W438",
+      "word": "memory",
+      "source_entry": "memory",
+      "aliases": [],
+      "source_zh_unreviewed": "记忆；记忆力"
+    },
+    {
+      "id": "W439",
+      "word": "metal",
+      "source_entry": "metal",
+      "aliases": [],
+      "source_zh_unreviewed": "金属"
+    },
+    {
+      "id": "W440",
+      "word": "middle",
+      "source_entry": "middle",
+      "aliases": [],
+      "source_zh_unreviewed": "中间的"
+    },
+    {
+      "id": "W441",
+      "word": "military",
+      "source_entry": "military",
+      "aliases": [],
+      "source_zh_unreviewed": "军事的"
+    },
+    {
+      "id": "W442",
+      "word": "milk",
+      "source_entry": "milk",
+      "aliases": [],
+      "source_zh_unreviewed": "牛奶"
+    },
+    {
+      "id": "W443",
+      "word": "mind",
+      "source_entry": "mind",
+      "aliases": [],
+      "source_zh_unreviewed": "心智；思想"
+    },
+    {
+      "id": "W444",
+      "word": "mine",
+      "source_entry": "mine",
+      "aliases": [],
+      "source_zh_unreviewed": "我的"
+    },
+    {
+      "id": "W445",
+      "word": "minute",
+      "source_entry": "minute",
+      "aliases": [],
+      "source_zh_unreviewed": "分钟"
+    },
+    {
+      "id": "W446",
+      "word": "mist",
+      "source_entry": "mist",
+      "aliases": [],
+      "source_zh_unreviewed": "薄雾"
+    },
+    {
+      "id": "W447",
+      "word": "mixed",
+      "source_entry": "mixed",
+      "aliases": [],
+      "source_zh_unreviewed": "混合的"
+    },
+    {
+      "id": "W448",
+      "word": "money",
+      "source_entry": "money",
+      "aliases": [],
+      "source_zh_unreviewed": "钱"
+    },
+    {
+      "id": "W449",
+      "word": "monkey",
+      "source_entry": "monkey",
+      "aliases": [],
+      "source_zh_unreviewed": "猴子"
+    },
+    {
+      "id": "W450",
+      "word": "month",
+      "source_entry": "month",
+      "aliases": [],
+      "source_zh_unreviewed": "月份"
+    },
+    {
+      "id": "W451",
+      "word": "moon",
+      "source_entry": "moon",
+      "aliases": [],
+      "source_zh_unreviewed": "月亮"
+    },
+    {
+      "id": "W452",
+      "word": "morning",
+      "source_entry": "morning",
+      "aliases": [],
+      "source_zh_unreviewed": "早晨"
+    },
+    {
+      "id": "W453",
+      "word": "mother",
+      "source_entry": "mother",
+      "aliases": [],
+      "source_zh_unreviewed": "母亲"
+    },
+    {
+      "id": "W454",
+      "word": "motion",
+      "source_entry": "motion",
+      "aliases": [],
+      "source_zh_unreviewed": "运动；动作"
+    },
+    {
+      "id": "W455",
+      "word": "mountain",
+      "source_entry": "mountain",
+      "aliases": [],
+      "source_zh_unreviewed": "山"
+    },
+    {
+      "id": "W456",
+      "word": "mouth",
+      "source_entry": "mouth",
+      "aliases": [],
+      "source_zh_unreviewed": "嘴"
+    },
+    {
+      "id": "W457",
+      "word": "move",
+      "source_entry": "move",
+      "aliases": [],
+      "source_zh_unreviewed": "移动"
+    },
+    {
+      "id": "W458",
+      "word": "much",
+      "source_entry": "much (more, most)",
+      "aliases": [
+        "more",
+        "most"
+      ],
+      "source_zh_unreviewed": "很多；大量的"
+    },
+    {
+      "id": "W459",
+      "word": "muscle",
+      "source_entry": "muscle",
+      "aliases": [],
+      "source_zh_unreviewed": "肌肉"
+    },
+    {
+      "id": "W460",
+      "word": "music",
+      "source_entry": "music",
+      "aliases": [],
+      "source_zh_unreviewed": "音乐"
+    },
+    {
+      "id": "W461",
+      "word": "nail",
+      "source_entry": "nail",
+      "aliases": [],
+      "source_zh_unreviewed": "钉子"
+    },
+    {
+      "id": "W462",
+      "word": "name",
+      "source_entry": "name",
+      "aliases": [],
+      "source_zh_unreviewed": "名字"
+    },
+    {
+      "id": "W463",
+      "word": "narrow",
+      "source_entry": "narrow",
+      "aliases": [],
+      "source_zh_unreviewed": "狭窄的"
+    },
+    {
+      "id": "W464",
+      "word": "nation",
+      "source_entry": "nation",
+      "aliases": [],
+      "source_zh_unreviewed": "国家"
+    },
+    {
+      "id": "W465",
+      "word": "natural",
+      "source_entry": "natural",
+      "aliases": [],
+      "source_zh_unreviewed": "自然的"
+    },
+    {
+      "id": "W466",
+      "word": "near",
+      "source_entry": "near",
+      "aliases": [],
+      "source_zh_unreviewed": "靠近"
+    },
+    {
+      "id": "W467",
+      "word": "necessary",
+      "source_entry": "necessary",
+      "aliases": [],
+      "source_zh_unreviewed": "必要的"
+    },
+    {
+      "id": "W468",
+      "word": "neck",
+      "source_entry": "neck",
+      "aliases": [],
+      "source_zh_unreviewed": "脖子"
+    },
+    {
+      "id": "W469",
+      "word": "need",
+      "source_entry": "need",
+      "aliases": [],
+      "source_zh_unreviewed": "需要"
+    },
+    {
+      "id": "W470",
+      "word": "needle",
+      "source_entry": "needle",
+      "aliases": [],
+      "source_zh_unreviewed": "针"
+    },
+    {
+      "id": "W471",
+      "word": "nerve",
+      "source_entry": "nerve",
+      "aliases": [],
+      "source_zh_unreviewed": "神经"
+    },
+    {
+      "id": "W472",
+      "word": "net",
+      "source_entry": "net",
+      "aliases": [],
+      "source_zh_unreviewed": "网"
+    },
+    {
+      "id": "W473",
+      "word": "new",
+      "source_entry": "new",
+      "aliases": [],
+      "source_zh_unreviewed": "新的"
+    },
+    {
+      "id": "W474",
+      "word": "news",
+      "source_entry": "news",
+      "aliases": [],
+      "source_zh_unreviewed": "新闻"
+    },
+    {
+      "id": "W475",
+      "word": "night",
+      "source_entry": "night",
+      "aliases": [],
+      "source_zh_unreviewed": "夜晚"
+    },
+    {
+      "id": "W476",
+      "word": "no",
+      "source_entry": "no",
+      "aliases": [],
+      "source_zh_unreviewed": "不"
+    },
+    {
+      "id": "W477",
+      "word": "noise",
+      "source_entry": "noise",
+      "aliases": [],
+      "source_zh_unreviewed": "噪音"
+    },
+    {
+      "id": "W478",
+      "word": "normal",
+      "source_entry": "normal",
+      "aliases": [],
+      "source_zh_unreviewed": "正常的"
+    },
+    {
+      "id": "W479",
+      "word": "north",
+      "source_entry": "north",
+      "aliases": [],
+      "source_zh_unreviewed": "北方的"
+    },
+    {
+      "id": "W480",
+      "word": "nose",
+      "source_entry": "nose",
+      "aliases": [],
+      "source_zh_unreviewed": "鼻子"
+    },
+    {
+      "id": "W481",
+      "word": "not",
+      "source_entry": "not",
+      "aliases": [],
+      "source_zh_unreviewed": "不"
+    },
+    {
+      "id": "W482",
+      "word": "note",
+      "source_entry": "note",
+      "aliases": [],
+      "source_zh_unreviewed": "笔记"
+    },
+    {
+      "id": "W483",
+      "word": "now",
+      "source_entry": "now",
+      "aliases": [],
+      "source_zh_unreviewed": "现在"
+    },
+    {
+      "id": "W484",
+      "word": "number",
+      "source_entry": "number",
+      "aliases": [],
+      "source_zh_unreviewed": "数字"
+    },
+    {
+      "id": "W485",
+      "word": "nut",
+      "source_entry": "nut",
+      "aliases": [],
+      "source_zh_unreviewed": "坚果"
+    },
+    {
+      "id": "W486",
+      "word": "observation",
+      "source_entry": "observation",
+      "aliases": [],
+      "source_zh_unreviewed": "观察；观测"
+    },
+    {
+      "id": "W487",
+      "word": "of",
+      "source_entry": "of",
+      "aliases": [],
+      "source_zh_unreviewed": "属于；关于"
+    },
+    {
+      "id": "W488",
+      "word": "off",
+      "source_entry": "off",
+      "aliases": [],
+      "source_zh_unreviewed": "离开；关闭"
+    },
+    {
+      "id": "W489",
+      "word": "offer",
+      "source_entry": "offer",
+      "aliases": [],
+      "source_zh_unreviewed": "提供；提议"
+    },
+    {
+      "id": "W490",
+      "word": "office",
+      "source_entry": "office",
+      "aliases": [],
+      "source_zh_unreviewed": "办公室"
+    },
+    {
+      "id": "W491",
+      "word": "oil",
+      "source_entry": "oil",
+      "aliases": [],
+      "source_zh_unreviewed": "油"
+    },
+    {
+      "id": "W492",
+      "word": "old",
+      "source_entry": "old",
+      "aliases": [],
+      "source_zh_unreviewed": "老的"
+    },
+    {
+      "id": "W493",
+      "word": "on",
+      "source_entry": "on",
+      "aliases": [],
+      "source_zh_unreviewed": "在...上"
+    },
+    {
+      "id": "W494",
+      "word": "only",
+      "source_entry": "only",
+      "aliases": [],
+      "source_zh_unreviewed": "只有"
+    },
+    {
+      "id": "W495",
+      "word": "open",
+      "source_entry": "open",
+      "aliases": [],
+      "source_zh_unreviewed": "打开"
+    },
+    {
+      "id": "W496",
+      "word": "operation",
+      "source_entry": "operation",
+      "aliases": [],
+      "source_zh_unreviewed": "操作；手术"
+    },
+    {
+      "id": "W497",
+      "word": "opinion",
+      "source_entry": "opinion",
+      "aliases": [],
+      "source_zh_unreviewed": "意见"
+    },
+    {
+      "id": "W498",
+      "word": "opposite",
+      "source_entry": "opposite",
+      "aliases": [],
+      "source_zh_unreviewed": "相反的"
+    },
+    {
+      "id": "W499",
+      "word": "or",
+      "source_entry": "or",
+      "aliases": [],
+      "source_zh_unreviewed": "或者"
+    },
+    {
+      "id": "W500",
+      "word": "orange",
+      "source_entry": "orange",
+      "aliases": [],
+      "source_zh_unreviewed": "橙色；橙子"
+    },
+    {
+      "id": "W501",
+      "word": "order",
+      "source_entry": "order",
+      "aliases": [],
+      "source_zh_unreviewed": "订单；秩序"
+    },
+    {
+      "id": "W502",
+      "word": "organization",
+      "source_entry": "organization",
+      "aliases": [],
+      "source_zh_unreviewed": "组织；机构"
+    },
+    {
+      "id": "W503",
+      "word": "ornament",
+      "source_entry": "ornament",
+      "aliases": [],
+      "source_zh_unreviewed": "装饰品"
+    },
+    {
+      "id": "W504",
+      "word": "other",
+      "source_entry": "other",
+      "aliases": [],
+      "source_zh_unreviewed": "其他的"
+    },
+    {
+      "id": "W505",
+      "word": "out",
+      "source_entry": "out",
+      "aliases": [],
+      "source_zh_unreviewed": "出去"
+    },
+    {
+      "id": "W506",
+      "word": "oven",
+      "source_entry": "oven",
+      "aliases": [],
+      "source_zh_unreviewed": "烤箱"
+    },
+    {
+      "id": "W507",
+      "word": "over",
+      "source_entry": "over",
+      "aliases": [],
+      "source_zh_unreviewed": "结束；在...之上"
+    },
+    {
+      "id": "W508",
+      "word": "owner",
+      "source_entry": "owner",
+      "aliases": [],
+      "source_zh_unreviewed": "拥有者"
+    },
+    {
+      "id": "W509",
+      "word": "page",
+      "source_entry": "page",
+      "aliases": [],
+      "source_zh_unreviewed": "页；页面"
+    },
+    {
+      "id": "W510",
+      "word": "pain",
+      "source_entry": "pain",
+      "aliases": [],
+      "source_zh_unreviewed": "疼痛；痛苦"
+    },
+    {
+      "id": "W511",
+      "word": "paint",
+      "source_entry": "paint",
+      "aliases": [],
+      "source_zh_unreviewed": "油漆；绘画"
+    },
+    {
+      "id": "W512",
+      "word": "paper",
+      "source_entry": "paper",
+      "aliases": [],
+      "source_zh_unreviewed": "纸；报纸"
+    },
+    {
+      "id": "W513",
+      "word": "parallel",
+      "source_entry": "parallel",
+      "aliases": [],
+      "source_zh_unreviewed": "平行的；相似的"
+    },
+    {
+      "id": "W514",
+      "word": "parcel",
+      "source_entry": "parcel",
+      "aliases": [],
+      "source_zh_unreviewed": "包裹；小包"
+    },
+    {
+      "id": "W515",
+      "word": "part",
+      "source_entry": "part",
+      "aliases": [],
+      "source_zh_unreviewed": "部分；零件"
+    },
+    {
+      "id": "W516",
+      "word": "past",
+      "source_entry": "past",
+      "aliases": [],
+      "source_zh_unreviewed": "过去；过去的"
+    },
+    {
+      "id": "W517",
+      "word": "paste",
+      "source_entry": "paste",
+      "aliases": [],
+      "source_zh_unreviewed": "糊状物；粘贴"
+    },
+    {
+      "id": "W518",
+      "word": "payment",
+      "source_entry": "payment",
+      "aliases": [],
+      "source_zh_unreviewed": "付款；支付"
+    },
+    {
+      "id": "W519",
+      "word": "peace",
+      "source_entry": "peace",
+      "aliases": [],
+      "source_zh_unreviewed": "和平；平静"
+    },
+    {
+      "id": "W520",
+      "word": "pen",
+      "source_entry": "pen",
+      "aliases": [],
+      "source_zh_unreviewed": "钢笔；圈禁"
+    },
+    {
+      "id": "W521",
+      "word": "pencil",
+      "source_entry": "pencil",
+      "aliases": [],
+      "source_zh_unreviewed": "铅笔"
+    },
+    {
+      "id": "W522",
+      "word": "person",
+      "source_entry": "person",
+      "aliases": [],
+      "source_zh_unreviewed": "人；个人"
+    },
+    {
+      "id": "W523",
+      "word": "physical",
+      "source_entry": "physical",
+      "aliases": [],
+      "source_zh_unreviewed": "物理的；身体的"
+    },
+    {
+      "id": "W524",
+      "word": "picture",
+      "source_entry": "picture",
+      "aliases": [],
+      "source_zh_unreviewed": "图片；画面"
+    },
+    {
+      "id": "W525",
+      "word": "pig",
+      "source_entry": "pig",
+      "aliases": [],
+      "source_zh_unreviewed": "猪"
+    },
+    {
+      "id": "W526",
+      "word": "pin",
+      "source_entry": "pin",
+      "aliases": [],
+      "source_zh_unreviewed": "针；别住"
+    },
+    {
+      "id": "W527",
+      "word": "pipe",
+      "source_entry": "pipe",
+      "aliases": [],
+      "source_zh_unreviewed": "管道；烟斗"
+    },
+    {
+      "id": "W528",
+      "word": "place",
+      "source_entry": "place",
+      "aliases": [],
+      "source_zh_unreviewed": "地方；位置"
+    },
+    {
+      "id": "W529",
+      "word": "plane",
+      "source_entry": "plane",
+      "aliases": [],
+      "source_zh_unreviewed": "飞机；平面"
+    },
+    {
+      "id": "W530",
+      "word": "plant",
+      "source_entry": "plant",
+      "aliases": [],
+      "source_zh_unreviewed": "植物；工厂"
+    },
+    {
+      "id": "W531",
+      "word": "plate",
+      "source_entry": "plate",
+      "aliases": [],
+      "source_zh_unreviewed": "盘子；板块"
+    },
+    {
+      "id": "W532",
+      "word": "play",
+      "source_entry": "play",
+      "aliases": [],
+      "source_zh_unreviewed": "玩耍；剧本"
+    },
+    {
+      "id": "W533",
+      "word": "please",
+      "source_entry": "please",
+      "aliases": [],
+      "source_zh_unreviewed": "请；使高兴"
+    },
+    {
+      "id": "W534",
+      "word": "pleasure",
+      "source_entry": "pleasure",
+      "aliases": [],
+      "source_zh_unreviewed": "快乐；愉悦"
+    },
+    {
+      "id": "W535",
+      "word": "plough",
+      "source_entry": "plough/plow",
+      "aliases": [
+        "plow"
+      ],
+      "source_zh_unreviewed": "犁；耕地"
+    },
+    {
+      "id": "W536",
+      "word": "pocket",
+      "source_entry": "pocket",
+      "aliases": [],
+      "source_zh_unreviewed": "口袋；袖珍的"
+    },
+    {
+      "id": "W537",
+      "word": "point",
+      "source_entry": "point",
+      "aliases": [],
+      "source_zh_unreviewed": "点；要点"
+    },
+    {
+      "id": "W538",
+      "word": "poison",
+      "source_entry": "poison",
+      "aliases": [],
+      "source_zh_unreviewed": "毒药；毒害"
+    },
+    {
+      "id": "W539",
+      "word": "polish",
+      "source_entry": "polish",
+      "aliases": [],
+      "source_zh_unreviewed": "擦亮；抛光"
+    },
+    {
+      "id": "W540",
+      "word": "political",
+      "source_entry": "political",
+      "aliases": [],
+      "source_zh_unreviewed": "政治的；政治上的"
+    },
+    {
+      "id": "W541",
+      "word": "poor",
+      "source_entry": "poor",
+      "aliases": [],
+      "source_zh_unreviewed": "贫穷的；可怜的"
+    },
+    {
+      "id": "W542",
+      "word": "porter",
+      "source_entry": "porter",
+      "aliases": [],
+      "source_zh_unreviewed": "搬运工；门房"
+    },
+    {
+      "id": "W543",
+      "word": "position",
+      "source_entry": "position",
+      "aliases": [],
+      "source_zh_unreviewed": "位置；职位"
+    },
+    {
+      "id": "W544",
+      "word": "possible",
+      "source_entry": "possible",
+      "aliases": [],
+      "source_zh_unreviewed": "可能的；可能性"
+    },
+    {
+      "id": "W545",
+      "word": "pot",
+      "source_entry": "pot",
+      "aliases": [],
+      "source_zh_unreviewed": "锅；罐"
+    },
+    {
+      "id": "W546",
+      "word": "potato",
+      "source_entry": "potato",
+      "aliases": [],
+      "source_zh_unreviewed": "土豆"
+    },
+    {
+      "id": "W547",
+      "word": "powder",
+      "source_entry": "powder",
+      "aliases": [],
+      "source_zh_unreviewed": "粉末；火药"
+    },
+    {
+      "id": "W548",
+      "word": "power",
+      "source_entry": "power",
+      "aliases": [],
+      "source_zh_unreviewed": "力量；权力"
+    },
+    {
+      "id": "W549",
+      "word": "present",
+      "source_entry": "present",
+      "aliases": [],
+      "source_zh_unreviewed": "礼物；现在的"
+    },
+    {
+      "id": "W550",
+      "word": "price",
+      "source_entry": "price",
+      "aliases": [],
+      "source_zh_unreviewed": "价格；价钱"
+    },
+    {
+      "id": "W551",
+      "word": "print",
+      "source_entry": "print",
+      "aliases": [],
+      "source_zh_unreviewed": "印刷；打印"
+    },
+    {
+      "id": "W552",
+      "word": "prison",
+      "source_entry": "prison",
+      "aliases": [],
+      "source_zh_unreviewed": "监狱；囚禁"
+    },
+    {
+      "id": "W553",
+      "word": "private",
+      "source_entry": "private",
+      "aliases": [],
+      "source_zh_unreviewed": "私人的；私立的"
+    },
+    {
+      "id": "W554",
+      "word": "probable",
+      "source_entry": "probable",
+      "aliases": [],
+      "source_zh_unreviewed": "可能的；很可能发生的"
+    },
+    {
+      "id": "W555",
+      "word": "process",
+      "source_entry": "process",
+      "aliases": [],
+      "source_zh_unreviewed": "过程；处理"
+    },
+    {
+      "id": "W556",
+      "word": "produce",
+      "source_entry": "produce",
+      "aliases": [],
+      "source_zh_unreviewed": "生产；农产品"
+    },
+    {
+      "id": "W557",
+      "word": "profit",
+      "source_entry": "profit",
+      "aliases": [],
+      "source_zh_unreviewed": "利润；盈利"
+    },
+    {
+      "id": "W558",
+      "word": "property",
+      "source_entry": "property",
+      "aliases": [],
+      "source_zh_unreviewed": "财产；性质"
+    },
+    {
+      "id": "W559",
+      "word": "prose",
+      "source_entry": "prose",
+      "aliases": [],
+      "source_zh_unreviewed": "散文；散文体"
+    },
+    {
+      "id": "W560",
+      "word": "protest",
+      "source_entry": "protest",
+      "aliases": [],
+      "source_zh_unreviewed": "抗议；反对"
+    },
+    {
+      "id": "W561",
+      "word": "public",
+      "source_entry": "public",
+      "aliases": [],
+      "source_zh_unreviewed": "公共的；公众的"
+    },
+    {
+      "id": "W562",
+      "word": "pull",
+      "source_entry": "pull",
+      "aliases": [],
+      "source_zh_unreviewed": "拉；拖"
+    },
+    {
+      "id": "W563",
+      "word": "pump",
+      "source_entry": "pump",
+      "aliases": [],
+      "source_zh_unreviewed": "泵；打气筒"
+    },
+    {
+      "id": "W564",
+      "word": "punishment",
+      "source_entry": "punishment",
+      "aliases": [],
+      "source_zh_unreviewed": "惩罚；处罚"
+    },
+    {
+      "id": "W565",
+      "word": "purpose",
+      "source_entry": "purpose",
+      "aliases": [],
+      "source_zh_unreviewed": "目的；意图"
+    },
+    {
+      "id": "W566",
+      "word": "push",
+      "source_entry": "push",
+      "aliases": [],
+      "source_zh_unreviewed": "推；按"
+    },
+    {
+      "id": "W567",
+      "word": "put",
+      "source_entry": "put",
+      "aliases": [],
+      "source_zh_unreviewed": "放；放置"
+    },
+    {
+      "id": "W568",
+      "word": "quality",
+      "source_entry": "quality",
+      "aliases": [],
+      "source_zh_unreviewed": "质量；品质"
+    },
+    {
+      "id": "W569",
+      "word": "question",
+      "source_entry": "question",
+      "aliases": [],
+      "source_zh_unreviewed": "问题；疑问"
+    },
+    {
+      "id": "W570",
+      "word": "quick",
+      "source_entry": "quick",
+      "aliases": [],
+      "source_zh_unreviewed": "快速的；迅速的"
+    },
+    {
+      "id": "W571",
+      "word": "quiet",
+      "source_entry": "quiet",
+      "aliases": [],
+      "source_zh_unreviewed": "安静的；寂静的"
+    },
+    {
+      "id": "W572",
+      "word": "quite",
+      "source_entry": "quite",
+      "aliases": [],
+      "source_zh_unreviewed": "相当；非常"
+    },
+    {
+      "id": "W573",
+      "word": "rail",
+      "source_entry": "rail",
+      "aliases": [],
+      "source_zh_unreviewed": "铁轨；栏杆"
+    },
+    {
+      "id": "W574",
+      "word": "rain",
+      "source_entry": "rain",
+      "aliases": [],
+      "source_zh_unreviewed": "雨；下雨"
+    },
+    {
+      "id": "W575",
+      "word": "range",
+      "source_entry": "range",
+      "aliases": [],
+      "source_zh_unreviewed": "范围；山脉"
+    },
+    {
+      "id": "W576",
+      "word": "rat",
+      "source_entry": "rat",
+      "aliases": [],
+      "source_zh_unreviewed": "鼠；老鼠"
+    },
+    {
+      "id": "W577",
+      "word": "rate",
+      "source_entry": "rate",
+      "aliases": [],
+      "source_zh_unreviewed": "率；速度"
+    },
+    {
+      "id": "W578",
+      "word": "ray",
+      "source_entry": "ray",
+      "aliases": [],
+      "source_zh_unreviewed": "光线；射线"
+    },
+    {
+      "id": "W579",
+      "word": "reaction",
+      "source_entry": "reaction",
+      "aliases": [],
+      "source_zh_unreviewed": "反应；反作用"
+    },
+    {
+      "id": "W580",
+      "word": "reading",
+      "source_entry": "reading",
+      "aliases": [],
+      "source_zh_unreviewed": "阅读；读物"
+    },
+    {
+      "id": "W581",
+      "word": "ready",
+      "source_entry": "ready",
+      "aliases": [],
+      "source_zh_unreviewed": "准备好的"
+    },
+    {
+      "id": "W582",
+      "word": "reason",
+      "source_entry": "reason",
+      "aliases": [],
+      "source_zh_unreviewed": "理由；原因"
+    },
+    {
+      "id": "W583",
+      "word": "receipt",
+      "source_entry": "receipt",
+      "aliases": [],
+      "source_zh_unreviewed": "收据；收条"
+    },
+    {
+      "id": "W584",
+      "word": "record",
+      "source_entry": "record",
+      "aliases": [],
+      "source_zh_unreviewed": "记录；唱片"
+    },
+    {
+      "id": "W585",
+      "word": "red",
+      "source_entry": "red",
+      "aliases": [],
+      "source_zh_unreviewed": "红色的"
+    },
+    {
+      "id": "W586",
+      "word": "regret",
+      "source_entry": "regret",
+      "aliases": [],
+      "source_zh_unreviewed": "后悔；遗憾"
+    },
+    {
+      "id": "W587",
+      "word": "regular",
+      "source_entry": "regular",
+      "aliases": [],
+      "source_zh_unreviewed": "规则的；定期的"
+    },
+    {
+      "id": "W588",
+      "word": "relation",
+      "source_entry": "relation",
+      "aliases": [],
+      "source_zh_unreviewed": "关系；亲属"
+    },
+    {
+      "id": "W589",
+      "word": "religion",
+      "source_entry": "religion",
+      "aliases": [],
+      "source_zh_unreviewed": "宗教"
+    },
+    {
+      "id": "W590",
+      "word": "representative",
+      "source_entry": "representative",
+      "aliases": [],
+      "source_zh_unreviewed": "代表；代理人"
+    },
+    {
+      "id": "W591",
+      "word": "request",
+      "source_entry": "request",
+      "aliases": [],
+      "source_zh_unreviewed": "请求；要求"
+    },
+    {
+      "id": "W592",
+      "word": "respect",
+      "source_entry": "respect",
+      "aliases": [],
+      "source_zh_unreviewed": "尊重；敬意"
+    },
+    {
+      "id": "W593",
+      "word": "responsible",
+      "source_entry": "responsible",
+      "aliases": [],
+      "source_zh_unreviewed": "负责任的"
+    },
+    {
+      "id": "W594",
+      "word": "rest",
+      "source_entry": "rest",
+      "aliases": [],
+      "source_zh_unreviewed": "休息；其余部分"
+    },
+    {
+      "id": "W595",
+      "word": "reward",
+      "source_entry": "reward",
+      "aliases": [],
+      "source_zh_unreviewed": "奖励；报酬"
+    },
+    {
+      "id": "W596",
+      "word": "rhythm",
+      "source_entry": "rhythm",
+      "aliases": [],
+      "source_zh_unreviewed": "节奏；韵律"
+    },
+    {
+      "id": "W597",
+      "word": "rice",
+      "source_entry": "rice",
+      "aliases": [],
+      "source_zh_unreviewed": "米饭；稻谷"
+    },
+    {
+      "id": "W598",
+      "word": "right",
+      "source_entry": "right",
+      "aliases": [],
+      "source_zh_unreviewed": "正确的；权利"
+    },
+    {
+      "id": "W599",
+      "word": "ring",
+      "source_entry": "ring",
+      "aliases": [],
+      "source_zh_unreviewed": "环；戒指"
+    },
+    {
+      "id": "W600",
+      "word": "river",
+      "source_entry": "river",
+      "aliases": [],
+      "source_zh_unreviewed": "河流"
+    },
+    {
+      "id": "W601",
+      "word": "road",
+      "source_entry": "road",
+      "aliases": [],
+      "source_zh_unreviewed": "道路"
+    },
+    {
+      "id": "W602",
+      "word": "rod",
+      "source_entry": "rod",
+      "aliases": [],
+      "source_zh_unreviewed": "杆；棒"
+    },
+    {
+      "id": "W603",
+      "word": "roll",
+      "source_entry": "roll",
+      "aliases": [],
+      "source_zh_unreviewed": "卷；滚动"
+    },
+    {
+      "id": "W604",
+      "word": "roof",
+      "source_entry": "roof",
+      "aliases": [],
+      "source_zh_unreviewed": "屋顶"
+    },
+    {
+      "id": "W605",
+      "word": "room",
+      "source_entry": "room",
+      "aliases": [],
+      "source_zh_unreviewed": "房间"
+    },
+    {
+      "id": "W606",
+      "word": "root",
+      "source_entry": "root",
+      "aliases": [],
+      "source_zh_unreviewed": "根；根源"
+    },
+    {
+      "id": "W607",
+      "word": "rough",
+      "source_entry": "rough",
+      "aliases": [],
+      "source_zh_unreviewed": "粗糙的；艰难的"
+    },
+    {
+      "id": "W608",
+      "word": "round",
+      "source_entry": "round",
+      "aliases": [],
+      "source_zh_unreviewed": "圆；回合"
+    },
+    {
+      "id": "W609",
+      "word": "rub",
+      "source_entry": "rub",
+      "aliases": [],
+      "source_zh_unreviewed": "摩擦；擦"
+    },
+    {
+      "id": "W610",
+      "word": "rule",
+      "source_entry": "rule",
+      "aliases": [],
+      "source_zh_unreviewed": "规则；统治"
+    },
+    {
+      "id": "W611",
+      "word": "run",
+      "source_entry": "run",
+      "aliases": [],
+      "source_zh_unreviewed": "跑；奔跑"
+    },
+    {
+      "id": "W612",
+      "word": "sad",
+      "source_entry": "sad",
+      "aliases": [],
+      "source_zh_unreviewed": "悲伤的"
+    },
+    {
+      "id": "W613",
+      "word": "safe",
+      "source_entry": "safe",
+      "aliases": [],
+      "source_zh_unreviewed": "安全的"
+    },
+    {
+      "id": "W614",
+      "word": "sail",
+      "source_entry": "sail",
+      "aliases": [],
+      "source_zh_unreviewed": "航行；航海"
+    },
+    {
+      "id": "W615",
+      "word": "salt",
+      "source_entry": "salt",
+      "aliases": [],
+      "source_zh_unreviewed": "盐"
+    },
+    {
+      "id": "W616",
+      "word": "same",
+      "source_entry": "same",
+      "aliases": [],
+      "source_zh_unreviewed": "相同的"
+    },
+    {
+      "id": "W617",
+      "word": "sand",
+      "source_entry": "sand",
+      "aliases": [],
+      "source_zh_unreviewed": "沙子"
+    },
+    {
+      "id": "W618",
+      "word": "say",
+      "source_entry": "say",
+      "aliases": [],
+      "source_zh_unreviewed": "说"
+    },
+    {
+      "id": "W619",
+      "word": "scale",
+      "source_entry": "scale",
+      "aliases": [],
+      "source_zh_unreviewed": "刻度；规模"
+    },
+    {
+      "id": "W620",
+      "word": "school",
+      "source_entry": "school",
+      "aliases": [],
+      "source_zh_unreviewed": "学校"
+    },
+    {
+      "id": "W621",
+      "word": "science",
+      "source_entry": "science",
+      "aliases": [],
+      "source_zh_unreviewed": "科学"
+    },
+    {
+      "id": "W622",
+      "word": "scissors",
+      "source_entry": "scissors",
+      "aliases": [],
+      "source_zh_unreviewed": "剪刀"
+    },
+    {
+      "id": "W623",
+      "word": "screw",
+      "source_entry": "screw",
+      "aliases": [],
+      "source_zh_unreviewed": "螺丝钉"
+    },
+    {
+      "id": "W624",
+      "word": "sea",
+      "source_entry": "sea",
+      "aliases": [],
+      "source_zh_unreviewed": "海"
+    },
+    {
+      "id": "W625",
+      "word": "seat",
+      "source_entry": "seat",
+      "aliases": [],
+      "source_zh_unreviewed": "座位"
+    },
+    {
+      "id": "W626",
+      "word": "second",
+      "source_entry": "second",
+      "aliases": [],
+      "source_zh_unreviewed": "第二"
+    },
+    {
+      "id": "W627",
+      "word": "secret",
+      "source_entry": "secret",
+      "aliases": [],
+      "source_zh_unreviewed": "秘密"
+    },
+    {
+      "id": "W628",
+      "word": "secretary",
+      "source_entry": "secretary",
+      "aliases": [],
+      "source_zh_unreviewed": "秘书"
+    },
+    {
+      "id": "W629",
+      "word": "see",
+      "source_entry": "see",
+      "aliases": [],
+      "source_zh_unreviewed": "看见"
+    },
+    {
+      "id": "W630",
+      "word": "seed",
+      "source_entry": "seed",
+      "aliases": [],
+      "source_zh_unreviewed": "种子"
+    },
+    {
+      "id": "W631",
+      "word": "seem",
+      "source_entry": "seem",
+      "aliases": [],
+      "source_zh_unreviewed": "似乎"
+    },
+    {
+      "id": "W632",
+      "word": "selection",
+      "source_entry": "selection",
+      "aliases": [],
+      "source_zh_unreviewed": "选择"
+    },
+    {
+      "id": "W633",
+      "word": "self",
+      "source_entry": "self",
+      "aliases": [],
+      "source_zh_unreviewed": "自己"
+    },
+    {
+      "id": "W634",
+      "word": "send",
+      "source_entry": "send",
+      "aliases": [],
+      "source_zh_unreviewed": "发送"
+    },
+    {
+      "id": "W635",
+      "word": "sense",
+      "source_entry": "sense",
+      "aliases": [],
+      "source_zh_unreviewed": "感觉"
+    },
+    {
+      "id": "W636",
+      "word": "separate",
+      "source_entry": "separate",
+      "aliases": [],
+      "source_zh_unreviewed": "分离"
+    },
+    {
+      "id": "W637",
+      "word": "serious",
+      "source_entry": "serious",
+      "aliases": [],
+      "source_zh_unreviewed": "严肃的"
+    },
+    {
+      "id": "W638",
+      "word": "servant",
+      "source_entry": "servant",
+      "aliases": [],
+      "source_zh_unreviewed": "仆人"
+    },
+    {
+      "id": "W639",
+      "word": "sex",
+      "source_entry": "sex",
+      "aliases": [],
+      "source_zh_unreviewed": "性别"
+    },
+    {
+      "id": "W640",
+      "word": "shade",
+      "source_entry": "shade",
+      "aliases": [],
+      "source_zh_unreviewed": "阴影"
+    },
+    {
+      "id": "W641",
+      "word": "shake",
+      "source_entry": "shake",
+      "aliases": [],
+      "source_zh_unreviewed": "摇动"
+    },
+    {
+      "id": "W642",
+      "word": "shame",
+      "source_entry": "shame",
+      "aliases": [],
+      "source_zh_unreviewed": "羞耻"
+    },
+    {
+      "id": "W643",
+      "word": "sharp",
+      "source_entry": "sharp",
+      "aliases": [],
+      "source_zh_unreviewed": "锋利的"
+    },
+    {
+      "id": "W644",
+      "word": "sheep",
+      "source_entry": "sheep",
+      "aliases": [],
+      "source_zh_unreviewed": "绵羊"
+    },
+    {
+      "id": "W645",
+      "word": "shelf",
+      "source_entry": "shelf",
+      "aliases": [],
+      "source_zh_unreviewed": "架子"
+    },
+    {
+      "id": "W646",
+      "word": "ship",
+      "source_entry": "ship",
+      "aliases": [],
+      "source_zh_unreviewed": "船"
+    },
+    {
+      "id": "W647",
+      "word": "shirt",
+      "source_entry": "shirt",
+      "aliases": [],
+      "source_zh_unreviewed": "衬衫"
+    },
+    {
+      "id": "W648",
+      "word": "shock",
+      "source_entry": "shock",
+      "aliases": [],
+      "source_zh_unreviewed": "震惊"
+    },
+    {
+      "id": "W649",
+      "word": "shoe",
+      "source_entry": "shoe",
+      "aliases": [],
+      "source_zh_unreviewed": "鞋"
+    },
+    {
+      "id": "W650",
+      "word": "short",
+      "source_entry": "short",
+      "aliases": [],
+      "source_zh_unreviewed": "短的"
+    },
+    {
+      "id": "W651",
+      "word": "shut",
+      "source_entry": "shut",
+      "aliases": [],
+      "source_zh_unreviewed": "关闭"
+    },
+    {
+      "id": "W652",
+      "word": "side",
+      "source_entry": "side",
+      "aliases": [],
+      "source_zh_unreviewed": "侧面"
+    },
+    {
+      "id": "W653",
+      "word": "sign",
+      "source_entry": "sign",
+      "aliases": [],
+      "source_zh_unreviewed": "标志"
+    },
+    {
+      "id": "W654",
+      "word": "silk",
+      "source_entry": "silk",
+      "aliases": [],
+      "source_zh_unreviewed": "丝绸"
+    },
+    {
+      "id": "W655",
+      "word": "silver",
+      "source_entry": "silver",
+      "aliases": [],
+      "source_zh_unreviewed": "银"
+    },
+    {
+      "id": "W656",
+      "word": "simple",
+      "source_entry": "simple",
+      "aliases": [],
+      "source_zh_unreviewed": "简单的"
+    },
+    {
+      "id": "W657",
+      "word": "sister",
+      "source_entry": "sister",
+      "aliases": [],
+      "source_zh_unreviewed": "姐妹"
+    },
+    {
+      "id": "W658",
+      "word": "size",
+      "source_entry": "size",
+      "aliases": [],
+      "source_zh_unreviewed": "大小"
+    },
+    {
+      "id": "W659",
+      "word": "skin",
+      "source_entry": "skin",
+      "aliases": [],
+      "source_zh_unreviewed": "皮肤"
+    },
+    {
+      "id": "W660",
+      "word": "skirt",
+      "source_entry": "skirt",
+      "aliases": [],
+      "source_zh_unreviewed": "裙子"
+    },
+    {
+      "id": "W661",
+      "word": "sky",
+      "source_entry": "sky",
+      "aliases": [],
+      "source_zh_unreviewed": "天空"
+    },
+    {
+      "id": "W662",
+      "word": "sleep",
+      "source_entry": "sleep",
+      "aliases": [],
+      "source_zh_unreviewed": "睡觉"
+    },
+    {
+      "id": "W663",
+      "word": "slip",
+      "source_entry": "slip",
+      "aliases": [],
+      "source_zh_unreviewed": "滑倒"
+    },
+    {
+      "id": "W664",
+      "word": "slope",
+      "source_entry": "slope",
+      "aliases": [],
+      "source_zh_unreviewed": "坡；斜坡"
+    },
+    {
+      "id": "W665",
+      "word": "slow",
+      "source_entry": "slow",
+      "aliases": [],
+      "source_zh_unreviewed": "慢的"
+    },
+    {
+      "id": "W666",
+      "word": "small",
+      "source_entry": "small",
+      "aliases": [],
+      "source_zh_unreviewed": "小的"
+    },
+    {
+      "id": "W667",
+      "word": "smash",
+      "source_entry": "smash",
+      "aliases": [],
+      "source_zh_unreviewed": "猛击"
+    },
+    {
+      "id": "W668",
+      "word": "smell",
+      "source_entry": "smell",
+      "aliases": [],
+      "source_zh_unreviewed": "气味"
+    },
+    {
+      "id": "W669",
+      "word": "smile",
+      "source_entry": "smile",
+      "aliases": [],
+      "source_zh_unreviewed": "微笑"
+    },
+    {
+      "id": "W670",
+      "word": "smoke",
+      "source_entry": "smoke",
+      "aliases": [],
+      "source_zh_unreviewed": "抽烟"
+    },
+    {
+      "id": "W671",
+      "word": "smooth",
+      "source_entry": "smooth",
+      "aliases": [],
+      "source_zh_unreviewed": "光滑的"
+    },
+    {
+      "id": "W672",
+      "word": "snake",
+      "source_entry": "snake",
+      "aliases": [],
+      "source_zh_unreviewed": "蛇"
+    },
+    {
+      "id": "W673",
+      "word": "sneeze",
+      "source_entry": "sneeze",
+      "aliases": [],
+      "source_zh_unreviewed": "打喷嚏"
+    },
+    {
+      "id": "W674",
+      "word": "snow",
+      "source_entry": "snow",
+      "aliases": [],
+      "source_zh_unreviewed": "雪"
+    },
+    {
+      "id": "W675",
+      "word": "so",
+      "source_entry": "so",
+      "aliases": [],
+      "source_zh_unreviewed": "如此"
+    },
+    {
+      "id": "W676",
+      "word": "soap",
+      "source_entry": "soap",
+      "aliases": [],
+      "source_zh_unreviewed": "肥皂"
+    },
+    {
+      "id": "W677",
+      "word": "society",
+      "source_entry": "society",
+      "aliases": [],
+      "source_zh_unreviewed": "社会"
+    },
+    {
+      "id": "W678",
+      "word": "sock",
+      "source_entry": "sock",
+      "aliases": [],
+      "source_zh_unreviewed": "短袜"
+    },
+    {
+      "id": "W679",
+      "word": "soft",
+      "source_entry": "soft",
+      "aliases": [],
+      "source_zh_unreviewed": "柔软的"
+    },
+    {
+      "id": "W680",
+      "word": "solid",
+      "source_entry": "solid",
+      "aliases": [],
+      "source_zh_unreviewed": "固体的"
+    },
+    {
+      "id": "W681",
+      "word": "some",
+      "source_entry": "some",
+      "aliases": [],
+      "source_zh_unreviewed": "一些"
+    },
+    {
+      "id": "W682",
+      "word": "son",
+      "source_entry": "son",
+      "aliases": [],
+      "source_zh_unreviewed": "儿子"
+    },
+    {
+      "id": "W683",
+      "word": "song",
+      "source_entry": "song",
+      "aliases": [],
+      "source_zh_unreviewed": "歌曲"
+    },
+    {
+      "id": "W684",
+      "word": "sort",
+      "source_entry": "sort",
+      "aliases": [],
+      "source_zh_unreviewed": "种类"
+    },
+    {
+      "id": "W685",
+      "word": "sound",
+      "source_entry": "sound",
+      "aliases": [],
+      "source_zh_unreviewed": "声音"
+    },
+    {
+      "id": "W686",
+      "word": "soup",
+      "source_entry": "soup",
+      "aliases": [],
+      "source_zh_unreviewed": "汤"
+    },
+    {
+      "id": "W687",
+      "word": "south",
+      "source_entry": "south",
+      "aliases": [],
+      "source_zh_unreviewed": "南方"
+    },
+    {
+      "id": "W688",
+      "word": "space",
+      "source_entry": "space",
+      "aliases": [],
+      "source_zh_unreviewed": "空间"
+    },
+    {
+      "id": "W689",
+      "word": "spade",
+      "source_entry": "spade",
+      "aliases": [],
+      "source_zh_unreviewed": "铲子"
+    },
+    {
+      "id": "W690",
+      "word": "special",
+      "source_entry": "special",
+      "aliases": [],
+      "source_zh_unreviewed": "特别的"
+    },
+    {
+      "id": "W691",
+      "word": "sponge",
+      "source_entry": "sponge",
+      "aliases": [],
+      "source_zh_unreviewed": "海绵"
+    },
+    {
+      "id": "W692",
+      "word": "spoon",
+      "source_entry": "spoon",
+      "aliases": [],
+      "source_zh_unreviewed": "勺子"
+    },
+    {
+      "id": "W693",
+      "word": "spring",
+      "source_entry": "spring",
+      "aliases": [],
+      "source_zh_unreviewed": "春天"
+    },
+    {
+      "id": "W694",
+      "word": "square",
+      "source_entry": "square",
+      "aliases": [],
+      "source_zh_unreviewed": "正方形"
+    },
+    {
+      "id": "W695",
+      "word": "stage",
+      "source_entry": "stage",
+      "aliases": [],
+      "source_zh_unreviewed": "舞台"
+    },
+    {
+      "id": "W696",
+      "word": "stamp",
+      "source_entry": "stamp",
+      "aliases": [],
+      "source_zh_unreviewed": "邮票"
+    },
+    {
+      "id": "W697",
+      "word": "star",
+      "source_entry": "star",
+      "aliases": [],
+      "source_zh_unreviewed": "星星"
+    },
+    {
+      "id": "W698",
+      "word": "start",
+      "source_entry": "start",
+      "aliases": [],
+      "source_zh_unreviewed": "开始"
+    },
+    {
+      "id": "W699",
+      "word": "statement",
+      "source_entry": "statement",
+      "aliases": [],
+      "source_zh_unreviewed": "声明"
+    },
+    {
+      "id": "W700",
+      "word": "station",
+      "source_entry": "station",
+      "aliases": [],
+      "source_zh_unreviewed": "车站"
+    },
+    {
+      "id": "W701",
+      "word": "steam",
+      "source_entry": "steam",
+      "aliases": [],
+      "source_zh_unreviewed": "蒸汽"
+    },
+    {
+      "id": "W702",
+      "word": "steel",
+      "source_entry": "steel",
+      "aliases": [],
+      "source_zh_unreviewed": "钢铁"
+    },
+    {
+      "id": "W703",
+      "word": "stem",
+      "source_entry": "stem",
+      "aliases": [],
+      "source_zh_unreviewed": "茎"
+    },
+    {
+      "id": "W704",
+      "word": "step",
+      "source_entry": "step",
+      "aliases": [],
+      "source_zh_unreviewed": "步骤"
+    },
+    {
+      "id": "W705",
+      "word": "stick",
+      "source_entry": "stick",
+      "aliases": [],
+      "source_zh_unreviewed": "棍子"
+    },
+    {
+      "id": "W706",
+      "word": "sticky",
+      "source_entry": "sticky",
+      "aliases": [],
+      "source_zh_unreviewed": "粘的"
+    },
+    {
+      "id": "W707",
+      "word": "stiff",
+      "source_entry": "stiff",
+      "aliases": [],
+      "source_zh_unreviewed": "僵硬的"
+    },
+    {
+      "id": "W708",
+      "word": "still",
+      "source_entry": "still",
+      "aliases": [],
+      "source_zh_unreviewed": "仍然"
+    },
+    {
+      "id": "W709",
+      "word": "stitch",
+      "source_entry": "stitch",
+      "aliases": [],
+      "source_zh_unreviewed": "缝合"
+    },
+    {
+      "id": "W710",
+      "word": "stocking",
+      "source_entry": "stocking",
+      "aliases": [],
+      "source_zh_unreviewed": "长袜"
+    },
+    {
+      "id": "W711",
+      "word": "stomach",
+      "source_entry": "stomach",
+      "aliases": [],
+      "source_zh_unreviewed": "胃"
+    },
+    {
+      "id": "W712",
+      "word": "stone",
+      "source_entry": "stone",
+      "aliases": [],
+      "source_zh_unreviewed": "石头"
+    },
+    {
+      "id": "W713",
+      "word": "stop",
+      "source_entry": "stop",
+      "aliases": [],
+      "source_zh_unreviewed": "停止"
+    },
+    {
+      "id": "W714",
+      "word": "store",
+      "source_entry": "store",
+      "aliases": [],
+      "source_zh_unreviewed": "商店"
+    },
+    {
+      "id": "W715",
+      "word": "story",
+      "source_entry": "story",
+      "aliases": [],
+      "source_zh_unreviewed": "故事"
+    },
+    {
+      "id": "W716",
+      "word": "straight",
+      "source_entry": "straight",
+      "aliases": [],
+      "source_zh_unreviewed": "直的"
+    },
+    {
+      "id": "W717",
+      "word": "strange",
+      "source_entry": "strange",
+      "aliases": [],
+      "source_zh_unreviewed": "奇怪的"
+    },
+    {
+      "id": "W718",
+      "word": "street",
+      "source_entry": "street",
+      "aliases": [],
+      "source_zh_unreviewed": "街道"
+    },
+    {
+      "id": "W719",
+      "word": "stretch",
+      "source_entry": "stretch",
+      "aliases": [],
+      "source_zh_unreviewed": "伸展"
+    },
+    {
+      "id": "W720",
+      "word": "strong",
+      "source_entry": "strong",
+      "aliases": [],
+      "source_zh_unreviewed": "强壮的"
+    },
+    {
+      "id": "W721",
+      "word": "structure",
+      "source_entry": "structure",
+      "aliases": [],
+      "source_zh_unreviewed": "结构"
+    },
+    {
+      "id": "W722",
+      "word": "substance",
+      "source_entry": "substance",
+      "aliases": [],
+      "source_zh_unreviewed": "物质"
+    },
+    {
+      "id": "W723",
+      "word": "such",
+      "source_entry": "such",
+      "aliases": [],
+      "source_zh_unreviewed": "这样的"
+    },
+    {
+      "id": "W724",
+      "word": "sudden",
+      "source_entry": "sudden",
+      "aliases": [],
+      "source_zh_unreviewed": "突然的"
+    },
+    {
+      "id": "W725",
+      "word": "sugar",
+      "source_entry": "sugar",
+      "aliases": [],
+      "source_zh_unreviewed": "糖"
+    },
+    {
+      "id": "W726",
+      "word": "suggestion",
+      "source_entry": "suggestion",
+      "aliases": [],
+      "source_zh_unreviewed": "建议"
+    },
+    {
+      "id": "W727",
+      "word": "summer",
+      "source_entry": "summer",
+      "aliases": [],
+      "source_zh_unreviewed": "夏季"
+    },
+    {
+      "id": "W728",
+      "word": "sun",
+      "source_entry": "sun",
+      "aliases": [],
+      "source_zh_unreviewed": "太阳"
+    },
+    {
+      "id": "W729",
+      "word": "support",
+      "source_entry": "support",
+      "aliases": [],
+      "source_zh_unreviewed": "支持"
+    },
+    {
+      "id": "W730",
+      "word": "surprise",
+      "source_entry": "surprise",
+      "aliases": [],
+      "source_zh_unreviewed": "惊喜"
+    },
+    {
+      "id": "W731",
+      "word": "sweet",
+      "source_entry": "sweet",
+      "aliases": [],
+      "source_zh_unreviewed": "甜的"
+    },
+    {
+      "id": "W732",
+      "word": "swim",
+      "source_entry": "swim",
+      "aliases": [],
+      "source_zh_unreviewed": "游泳"
+    },
+    {
+      "id": "W733",
+      "word": "system",
+      "source_entry": "system",
+      "aliases": [],
+      "source_zh_unreviewed": "系统"
+    },
+    {
+      "id": "W734",
+      "word": "table",
+      "source_entry": "table",
+      "aliases": [],
+      "source_zh_unreviewed": "桌子"
+    },
+    {
+      "id": "W735",
+      "word": "tail",
+      "source_entry": "tail",
+      "aliases": [],
+      "source_zh_unreviewed": "尾巴"
+    },
+    {
+      "id": "W736",
+      "word": "take",
+      "source_entry": "take",
+      "aliases": [],
+      "source_zh_unreviewed": "拿；取"
+    },
+    {
+      "id": "W737",
+      "word": "talk",
+      "source_entry": "talk",
+      "aliases": [],
+      "source_zh_unreviewed": "说话"
+    },
+    {
+      "id": "W738",
+      "word": "tall",
+      "source_entry": "tall",
+      "aliases": [],
+      "source_zh_unreviewed": "高的"
+    },
+    {
+      "id": "W739",
+      "word": "taste",
+      "source_entry": "taste",
+      "aliases": [],
+      "source_zh_unreviewed": "味道；品尝"
+    },
+    {
+      "id": "W740",
+      "word": "tax",
+      "source_entry": "tax",
+      "aliases": [],
+      "source_zh_unreviewed": "税"
+    },
+    {
+      "id": "W741",
+      "word": "teaching",
+      "source_entry": "teaching",
+      "aliases": [],
+      "source_zh_unreviewed": "教学"
+    },
+    {
+      "id": "W742",
+      "word": "tendency",
+      "source_entry": "tendency",
+      "aliases": [],
+      "source_zh_unreviewed": "倾向；趋势"
+    },
+    {
+      "id": "W743",
+      "word": "test",
+      "source_entry": "test",
+      "aliases": [],
+      "source_zh_unreviewed": "测试"
+    },
+    {
+      "id": "W744",
+      "word": "than",
+      "source_entry": "than",
+      "aliases": [],
+      "source_zh_unreviewed": "比"
+    },
+    {
+      "id": "W745",
+      "word": "that",
+      "source_entry": "that",
+      "aliases": [],
+      "source_zh_unreviewed": "那个"
+    },
+    {
+      "id": "W746",
+      "word": "the",
+      "source_entry": "the",
+      "aliases": [],
+      "source_zh_unreviewed": "定冠词"
+    },
+    {
+      "id": "W747",
+      "word": "then",
+      "source_entry": "then",
+      "aliases": [],
+      "source_zh_unreviewed": "然后"
+    },
+    {
+      "id": "W748",
+      "word": "theory",
+      "source_entry": "theory",
+      "aliases": [],
+      "source_zh_unreviewed": "理论"
+    },
+    {
+      "id": "W749",
+      "word": "there",
+      "source_entry": "there",
+      "aliases": [],
+      "source_zh_unreviewed": "那里"
+    },
+    {
+      "id": "W750",
+      "word": "thick",
+      "source_entry": "thick",
+      "aliases": [],
+      "source_zh_unreviewed": "厚的"
+    },
+    {
+      "id": "W751",
+      "word": "thin",
+      "source_entry": "thin",
+      "aliases": [],
+      "source_zh_unreviewed": "薄的"
+    },
+    {
+      "id": "W752",
+      "word": "thing",
+      "source_entry": "thing",
+      "aliases": [],
+      "source_zh_unreviewed": "事物"
+    },
+    {
+      "id": "W753",
+      "word": "this",
+      "source_entry": "this",
+      "aliases": [],
+      "source_zh_unreviewed": "这个"
+    },
+    {
+      "id": "W754",
+      "word": "though",
+      "source_entry": "though",
+      "aliases": [],
+      "source_zh_unreviewed": "虽然"
+    },
+    {
+      "id": "W755",
+      "word": "thought",
+      "source_entry": "thought",
+      "aliases": [],
+      "source_zh_unreviewed": "思考"
+    },
+    {
+      "id": "W756",
+      "word": "thread",
+      "source_entry": "thread",
+      "aliases": [],
+      "source_zh_unreviewed": "线"
+    },
+    {
+      "id": "W757",
+      "word": "throat",
+      "source_entry": "throat",
+      "aliases": [],
+      "source_zh_unreviewed": "喉咙"
+    },
+    {
+      "id": "W758",
+      "word": "through",
+      "source_entry": "through",
+      "aliases": [],
+      "source_zh_unreviewed": "通过"
+    },
+    {
+      "id": "W759",
+      "word": "thumb",
+      "source_entry": "thumb",
+      "aliases": [],
+      "source_zh_unreviewed": "拇指"
+    },
+    {
+      "id": "W760",
+      "word": "thunder",
+      "source_entry": "thunder",
+      "aliases": [],
+      "source_zh_unreviewed": "雷声"
+    },
+    {
+      "id": "W761",
+      "word": "ticket",
+      "source_entry": "ticket",
+      "aliases": [],
+      "source_zh_unreviewed": "票"
+    },
+    {
+      "id": "W762",
+      "word": "tight",
+      "source_entry": "tight",
+      "aliases": [],
+      "source_zh_unreviewed": "紧的"
+    },
+    {
+      "id": "W763",
+      "word": "till",
+      "source_entry": "till",
+      "aliases": [],
+      "source_zh_unreviewed": "直到"
+    },
+    {
+      "id": "W764",
+      "word": "time",
+      "source_entry": "time",
+      "aliases": [],
+      "source_zh_unreviewed": "时间"
+    },
+    {
+      "id": "W765",
+      "word": "tin",
+      "source_entry": "tin",
+      "aliases": [],
+      "source_zh_unreviewed": "锡"
+    },
+    {
+      "id": "W766",
+      "word": "tired",
+      "source_entry": "tired",
+      "aliases": [],
+      "source_zh_unreviewed": "疲倦的"
+    },
+    {
+      "id": "W767",
+      "word": "to",
+      "source_entry": "to",
+      "aliases": [],
+      "source_zh_unreviewed": "到"
+    },
+    {
+      "id": "W768",
+      "word": "toe",
+      "source_entry": "toe",
+      "aliases": [],
+      "source_zh_unreviewed": "脚趾"
+    },
+    {
+      "id": "W769",
+      "word": "together",
+      "source_entry": "together",
+      "aliases": [],
+      "source_zh_unreviewed": "一起"
+    },
+    {
+      "id": "W770",
+      "word": "tomorrow",
+      "source_entry": "tomorrow",
+      "aliases": [],
+      "source_zh_unreviewed": "明天"
+    },
+    {
+      "id": "W771",
+      "word": "tongue",
+      "source_entry": "tongue",
+      "aliases": [],
+      "source_zh_unreviewed": "舌头"
+    },
+    {
+      "id": "W772",
+      "word": "tooth",
+      "source_entry": "tooth",
+      "aliases": [],
+      "source_zh_unreviewed": "牙齿"
+    },
+    {
+      "id": "W773",
+      "word": "top",
+      "source_entry": "top",
+      "aliases": [],
+      "source_zh_unreviewed": "顶部"
+    },
+    {
+      "id": "W774",
+      "word": "touch",
+      "source_entry": "touch",
+      "aliases": [],
+      "source_zh_unreviewed": "触摸"
+    },
+    {
+      "id": "W775",
+      "word": "town",
+      "source_entry": "town",
+      "aliases": [],
+      "source_zh_unreviewed": "城镇"
+    },
+    {
+      "id": "W776",
+      "word": "trade",
+      "source_entry": "trade",
+      "aliases": [],
+      "source_zh_unreviewed": "贸易"
+    },
+    {
+      "id": "W777",
+      "word": "train",
+      "source_entry": "train",
+      "aliases": [],
+      "source_zh_unreviewed": "火车"
+    },
+    {
+      "id": "W778",
+      "word": "transport",
+      "source_entry": "transport",
+      "aliases": [],
+      "source_zh_unreviewed": "运输"
+    },
+    {
+      "id": "W779",
+      "word": "tray",
+      "source_entry": "tray",
+      "aliases": [],
+      "source_zh_unreviewed": "托盘"
+    },
+    {
+      "id": "W780",
+      "word": "tree",
+      "source_entry": "tree",
+      "aliases": [],
+      "source_zh_unreviewed": "树"
+    },
+    {
+      "id": "W781",
+      "word": "trick",
+      "source_entry": "trick",
+      "aliases": [],
+      "source_zh_unreviewed": "技巧"
+    },
+    {
+      "id": "W782",
+      "word": "trouble",
+      "source_entry": "trouble",
+      "aliases": [],
+      "source_zh_unreviewed": "麻烦"
+    },
+    {
+      "id": "W783",
+      "word": "trousers",
+      "source_entry": "trousers",
+      "aliases": [],
+      "source_zh_unreviewed": "裤子"
+    },
+    {
+      "id": "W784",
+      "word": "true",
+      "source_entry": "true",
+      "aliases": [],
+      "source_zh_unreviewed": "真实的"
+    },
+    {
+      "id": "W785",
+      "word": "turn",
+      "source_entry": "turn",
+      "aliases": [],
+      "source_zh_unreviewed": "转动"
+    },
+    {
+      "id": "W786",
+      "word": "twist",
+      "source_entry": "twist",
+      "aliases": [],
+      "source_zh_unreviewed": "扭曲"
+    },
+    {
+      "id": "W787",
+      "word": "umbrella",
+      "source_entry": "umbrella",
+      "aliases": [],
+      "source_zh_unreviewed": "雨伞"
+    },
+    {
+      "id": "W788",
+      "word": "under",
+      "source_entry": "under",
+      "aliases": [],
+      "source_zh_unreviewed": "在...下面"
+    },
+    {
+      "id": "W789",
+      "word": "unit",
+      "source_entry": "unit",
+      "aliases": [],
+      "source_zh_unreviewed": "单元"
+    },
+    {
+      "id": "W790",
+      "word": "up",
+      "source_entry": "up",
+      "aliases": [],
+      "source_zh_unreviewed": "向上"
+    },
+    {
+      "id": "W791",
+      "word": "use",
+      "source_entry": "use",
+      "aliases": [],
+      "source_zh_unreviewed": "使用"
+    },
+    {
+      "id": "W792",
+      "word": "value",
+      "source_entry": "value",
+      "aliases": [],
+      "source_zh_unreviewed": "价值"
+    },
+    {
+      "id": "W793",
+      "word": "verse",
+      "source_entry": "verse",
+      "aliases": [],
+      "source_zh_unreviewed": "诗歌"
+    },
+    {
+      "id": "W794",
+      "word": "very",
+      "source_entry": "very",
+      "aliases": [],
+      "source_zh_unreviewed": "非常"
+    },
+    {
+      "id": "W795",
+      "word": "vessel",
+      "source_entry": "vessel",
+      "aliases": [],
+      "source_zh_unreviewed": "容器"
+    },
+    {
+      "id": "W796",
+      "word": "view",
+      "source_entry": "view",
+      "aliases": [],
+      "source_zh_unreviewed": "视野；看法"
+    },
+    {
+      "id": "W797",
+      "word": "violent",
+      "source_entry": "violent",
+      "aliases": [],
+      "source_zh_unreviewed": "暴力的"
+    },
+    {
+      "id": "W798",
+      "word": "voice",
+      "source_entry": "voice",
+      "aliases": [],
+      "source_zh_unreviewed": "声音"
+    },
+    {
+      "id": "W799",
+      "word": "waiting",
+      "source_entry": "waiting",
+      "aliases": [],
+      "source_zh_unreviewed": "等待"
+    },
+    {
+      "id": "W800",
+      "word": "walk",
+      "source_entry": "walk",
+      "aliases": [],
+      "source_zh_unreviewed": "步行"
+    },
+    {
+      "id": "W801",
+      "word": "wall",
+      "source_entry": "wall",
+      "aliases": [],
+      "source_zh_unreviewed": "墙"
+    },
+    {
+      "id": "W802",
+      "word": "war",
+      "source_entry": "war",
+      "aliases": [],
+      "source_zh_unreviewed": "战争"
+    },
+    {
+      "id": "W803",
+      "word": "warm",
+      "source_entry": "warm",
+      "aliases": [],
+      "source_zh_unreviewed": "温暖的"
+    },
+    {
+      "id": "W804",
+      "word": "wash",
+      "source_entry": "wash",
+      "aliases": [],
+      "source_zh_unreviewed": "洗"
+    },
+    {
+      "id": "W805",
+      "word": "waste",
+      "source_entry": "waste",
+      "aliases": [],
+      "source_zh_unreviewed": "浪费"
+    },
+    {
+      "id": "W806",
+      "word": "watch",
+      "source_entry": "watch",
+      "aliases": [],
+      "source_zh_unreviewed": "手表"
+    },
+    {
+      "id": "W807",
+      "word": "water",
+      "source_entry": "water",
+      "aliases": [],
+      "source_zh_unreviewed": "水"
+    },
+    {
+      "id": "W808",
+      "word": "wave",
+      "source_entry": "wave",
+      "aliases": [],
+      "source_zh_unreviewed": "波浪"
+    },
+    {
+      "id": "W809",
+      "word": "wax",
+      "source_entry": "wax",
+      "aliases": [],
+      "source_zh_unreviewed": "蜡"
+    },
+    {
+      "id": "W810",
+      "word": "way",
+      "source_entry": "way",
+      "aliases": [],
+      "source_zh_unreviewed": "方式"
+    },
+    {
+      "id": "W811",
+      "word": "weather",
+      "source_entry": "weather",
+      "aliases": [],
+      "source_zh_unreviewed": "天气"
+    },
+    {
+      "id": "W812",
+      "word": "week",
+      "source_entry": "week",
+      "aliases": [],
+      "source_zh_unreviewed": "周"
+    },
+    {
+      "id": "W813",
+      "word": "weight",
+      "source_entry": "weight",
+      "aliases": [],
+      "source_zh_unreviewed": "重量"
+    },
+    {
+      "id": "W814",
+      "word": "well",
+      "source_entry": "well",
+      "aliases": [],
+      "source_zh_unreviewed": "好"
+    },
+    {
+      "id": "W815",
+      "word": "west",
+      "source_entry": "west",
+      "aliases": [],
+      "source_zh_unreviewed": "西方"
+    },
+    {
+      "id": "W816",
+      "word": "wet",
+      "source_entry": "wet",
+      "aliases": [],
+      "source_zh_unreviewed": "湿的"
+    },
+    {
+      "id": "W817",
+      "word": "wheel",
+      "source_entry": "wheel",
+      "aliases": [],
+      "source_zh_unreviewed": "轮子"
+    },
+    {
+      "id": "W818",
+      "word": "when",
+      "source_entry": "when",
+      "aliases": [],
+      "source_zh_unreviewed": "何时"
+    },
+    {
+      "id": "W819",
+      "word": "where",
+      "source_entry": "where",
+      "aliases": [],
+      "source_zh_unreviewed": "在哪里"
+    },
+    {
+      "id": "W820",
+      "word": "while",
+      "source_entry": "while",
+      "aliases": [],
+      "source_zh_unreviewed": "当...的时候"
+    },
+    {
+      "id": "W821",
+      "word": "whip",
+      "source_entry": "whip",
+      "aliases": [],
+      "source_zh_unreviewed": "鞭子"
+    },
+    {
+      "id": "W822",
+      "word": "whistle",
+      "source_entry": "whistle",
+      "aliases": [],
+      "source_zh_unreviewed": "哨子"
+    },
+    {
+      "id": "W823",
+      "word": "white",
+      "source_entry": "white",
+      "aliases": [],
+      "source_zh_unreviewed": "白色"
+    },
+    {
+      "id": "W824",
+      "word": "who",
+      "source_entry": "who",
+      "aliases": [],
+      "source_zh_unreviewed": "谁"
+    },
+    {
+      "id": "W825",
+      "word": "why",
+      "source_entry": "why",
+      "aliases": [],
+      "source_zh_unreviewed": "为什么"
+    },
+    {
+      "id": "W826",
+      "word": "wide",
+      "source_entry": "wide",
+      "aliases": [],
+      "source_zh_unreviewed": "宽的"
+    },
+    {
+      "id": "W827",
+      "word": "will",
+      "source_entry": "will",
+      "aliases": [],
+      "source_zh_unreviewed": "将会"
+    },
+    {
+      "id": "W828",
+      "word": "wind",
+      "source_entry": "wind",
+      "aliases": [],
+      "source_zh_unreviewed": "风"
+    },
+    {
+      "id": "W829",
+      "word": "window",
+      "source_entry": "window",
+      "aliases": [],
+      "source_zh_unreviewed": "窗户"
+    },
+    {
+      "id": "W830",
+      "word": "wine",
+      "source_entry": "wine",
+      "aliases": [],
+      "source_zh_unreviewed": "葡萄酒"
+    },
+    {
+      "id": "W831",
+      "word": "wing",
+      "source_entry": "wing",
+      "aliases": [],
+      "source_zh_unreviewed": "翅膀"
+    },
+    {
+      "id": "W832",
+      "word": "winter",
+      "source_entry": "winter",
+      "aliases": [],
+      "source_zh_unreviewed": "冬季"
+    },
+    {
+      "id": "W833",
+      "word": "wire",
+      "source_entry": "wire",
+      "aliases": [],
+      "source_zh_unreviewed": "电线"
+    },
+    {
+      "id": "W834",
+      "word": "wise",
+      "source_entry": "wise",
+      "aliases": [],
+      "source_zh_unreviewed": "明智的"
+    },
+    {
+      "id": "W835",
+      "word": "with",
+      "source_entry": "with",
+      "aliases": [],
+      "source_zh_unreviewed": "和"
+    },
+    {
+      "id": "W836",
+      "word": "woman",
+      "source_entry": "woman",
+      "aliases": [],
+      "source_zh_unreviewed": "女人"
+    },
+    {
+      "id": "W837",
+      "word": "wood",
+      "source_entry": "wood",
+      "aliases": [],
+      "source_zh_unreviewed": "木头"
+    },
+    {
+      "id": "W838",
+      "word": "wool",
+      "source_entry": "wool",
+      "aliases": [],
+      "source_zh_unreviewed": "羊毛"
+    },
+    {
+      "id": "W839",
+      "word": "word",
+      "source_entry": "word",
+      "aliases": [],
+      "source_zh_unreviewed": "单词"
+    },
+    {
+      "id": "W840",
+      "word": "work",
+      "source_entry": "work",
+      "aliases": [],
+      "source_zh_unreviewed": "工作"
+    },
+    {
+      "id": "W841",
+      "word": "worm",
+      "source_entry": "worm",
+      "aliases": [],
+      "source_zh_unreviewed": "蠕虫"
+    },
+    {
+      "id": "W842",
+      "word": "wound",
+      "source_entry": "wound",
+      "aliases": [],
+      "source_zh_unreviewed": "伤口"
+    },
+    {
+      "id": "W843",
+      "word": "writing",
+      "source_entry": "writing",
+      "aliases": [],
+      "source_zh_unreviewed": "写作"
+    },
+    {
+      "id": "W844",
+      "word": "wrong",
+      "source_entry": "wrong",
+      "aliases": [],
+      "source_zh_unreviewed": "错误的"
+    },
+    {
+      "id": "W845",
+      "word": "year",
+      "source_entry": "year",
+      "aliases": [],
+      "source_zh_unreviewed": "年"
+    },
+    {
+      "id": "W846",
+      "word": "yellow",
+      "source_entry": "yellow",
+      "aliases": [],
+      "source_zh_unreviewed": "黄色"
+    },
+    {
+      "id": "W847",
+      "word": "yes",
+      "source_entry": "yes",
+      "aliases": [],
+      "source_zh_unreviewed": "是的"
+    },
+    {
+      "id": "W848",
+      "word": "yesterday",
+      "source_entry": "yesterday",
+      "aliases": [],
+      "source_zh_unreviewed": "昨天"
+    },
+    {
+      "id": "W849",
+      "word": "you",
+      "source_entry": "you",
+      "aliases": [],
+      "source_zh_unreviewed": "你"
+    },
+    {
+      "id": "W850",
+      "word": "young",
+      "source_entry": "young",
+      "aliases": [],
+      "source_zh_unreviewed": "年轻的"
+    }
+  ]
+}

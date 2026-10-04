@@ -1,0 +1,294 @@
+{
+  "filename": "C015-水果摊上的颜色.png",
+  "labels": [
+    {
+      "x": 363,
+      "y": 255,
+      "english": "apple",
+      "chinese": "苹果",
+      "phoneticUS": "/ˈæpəl/",
+      "phoneticUK": "/ˈæpəl/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 215
+      },
+      "anchorPosition": {
+        "x": 363,
+        "y": 255
+      },
+      "boundingBox": {
+        "left": 310,
+        "top": 214,
+        "right": 416,
+        "bottom": 292
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主人公手里红苹果",
+        "association": "主人公手里红苹果",
+        "collocation": "a red apple",
+        "example": "I hold an apple.",
+        "exampleChinese": "我拿着一个苹果。"
+      }
+    },
+    {
+      "x": 920,
+      "y": 587,
+      "english": "orange",
+      "chinese": "橙子",
+      "phoneticUS": "/ˈɔːrɪndʒ/",
+      "phoneticUK": "/ˈɒrɪndʒ/",
+      "bubblePosition": {
+        "x": 900,
+        "y": 475
+      },
+      "anchorPosition": {
+        "x": 920,
+        "y": 587
+      },
+      "boundingBox": {
+        "left": 863,
+        "top": 553,
+        "right": 966,
+        "bottom": 629
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧篮子里一颗橙子，采用水果义",
+        "association": "右侧篮子里一颗橙子，采用水果义",
+        "collocation": "a ripe orange",
+        "example": "The orange is round.",
+        "exampleChinese": "橙子是圆的。"
+      }
+    },
+    {
+      "x": 518,
+      "y": 814,
+      "english": "berry",
+      "chinese": "浆果",
+      "phoneticUS": "/ˈberi/",
+      "phoneticUK": "/ˈberi/",
+      "bubblePosition": {
+        "x": 465,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 518,
+        "y": 814
+      },
+      "boundingBox": {
+        "left": 505,
+        "top": 803,
+        "right": 530,
+        "bottom": 824
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景蓝莓中的一颗，泛称berry由例句明确",
+        "association": "前景蓝莓中的一颗，泛称berry由例句明确",
+        "collocation": "a blue berry",
+        "example": "A blueberry is a small berry.",
+        "exampleChinese": "蓝莓是一种小浆果。"
+      }
+    },
+    {
+      "x": 363,
+      "y": 253,
+      "english": "fruit",
+      "chinese": "水果",
+      "phoneticUS": "/fruːt/",
+      "phoneticUK": "/fruːt/",
+      "bubblePosition": {
+        "x": 845,
+        "y": 120
+      },
+      "anchorPosition": {
+        "x": 363,
+        "y": 253
+      },
+      "boundingBox": {
+        "left": 310,
+        "top": 214,
+        "right": 416,
+        "bottom": 292
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "fruit的可见实例为手中的苹果，采用同一实际苹果区域，不框整个摊位。",
+        "association": "fruit的可见实例为手中的苹果，采用同一实际苹果区域，不框整个摊位。",
+        "collocation": "fresh fruit",
+        "example": "Apples are fruit.",
+        "exampleChinese": "苹果是水果。"
+      }
+    },
+    {
+      "x": 770,
+      "y": 817,
+      "english": "nut",
+      "chinese": "坚果",
+      "phoneticUS": "/nʌt/",
+      "phoneticUK": "/nʌt/",
+      "bubblePosition": {
+        "x": 830,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 770,
+        "y": 817
+      },
+      "boundingBox": {
+        "left": 738,
+        "top": 794,
+        "right": 806,
+        "bottom": 836
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景托盘上一颗带壳核桃",
+        "association": "前景托盘上一颗带壳核桃",
+        "collocation": "a whole nut",
+        "example": "A walnut is a nut.",
+        "exampleChinese": "核桃是一种坚果。"
+      }
+    },
+    {
+      "x": 363,
+      "y": 253,
+      "english": "red",
+      "chinese": "红色的",
+      "phoneticUS": "/red/",
+      "phoneticUK": "/red/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 510
+      },
+      "anchorPosition": {
+        "x": 363,
+        "y": 253
+      },
+      "boundingBox": {
+        "left": 310,
+        "top": 214,
+        "right": 416,
+        "bottom": 292
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中实际红苹果的区域，red描述这只苹果的颜色。",
+        "association": "手中实际红苹果的区域，red描述这只苹果的颜色。",
+        "collocation": "a red apple",
+        "example": "The apple in my hand is red.",
+        "exampleChinese": "我手里的苹果是红色的。"
+      }
+    },
+    {
+      "x": 371,
+      "y": 701,
+      "english": "yellow",
+      "chinese": "黄色的",
+      "phoneticUS": "/ˈjeloʊ/",
+      "phoneticUK": "/ˈjeləʊ/",
+      "bubblePosition": {
+        "x": 345,
+        "y": 515
+      },
+      "anchorPosition": {
+        "x": 371,
+        "y": 701
+      },
+      "boundingBox": {
+        "left": 225,
+        "top": 587,
+        "right": 486,
+        "bottom": 807
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景中间篮子中黄色苹果的区域，yellow描述这些苹果的可见颜色。",
+        "association": "前景中间篮子中黄色苹果的区域，yellow描述这些苹果的可见颜色。",
+        "collocation": "a yellow apple",
+        "example": "The apples in the middle are yellow.",
+        "exampleChinese": "中间的苹果是黄色的。"
+      }
+    },
+    {
+      "x": 673,
+      "y": 714,
+      "english": "green",
+      "chinese": "绿色的",
+      "phoneticUS": "/ɡriːn/",
+      "phoneticUK": "/ɡriːn/",
+      "bubblePosition": {
+        "x": 690,
+        "y": 560
+      },
+      "anchorPosition": {
+        "x": 673,
+        "y": 714
+      },
+      "boundingBox": {
+        "left": 501,
+        "top": 600,
+        "right": 821,
+        "bottom": 807
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景右中篮子中绿色苹果的区域，green描述这些苹果的可见颜色。",
+        "association": "前景右中篮子中绿色苹果的区域，green描述这些苹果的可见颜色。",
+        "collocation": "a green apple",
+        "example": "Some apples are green.",
+        "exampleChinese": "有些苹果是绿色的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I choose red, yellow, and green apples at the fruit stall.",
+    "chinese": "我在水果摊挑选红色、黄色和绿色的苹果。",
+    "source": "原创配文 · C015 水果摊上的颜色",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

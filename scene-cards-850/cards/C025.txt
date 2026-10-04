@@ -1,0 +1,246 @@
+C025  试衣镜前比较
+========================================================================
+章节: 穿衣与购物
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C025.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C025.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T23:19:39Z → 2026-10-02T23:22:40Z
+  提示词文件: prompts/C025_image_final.txt
+
+场景: 两件衣服在镜前对比大小、长度、厚度与松紧。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 同高度悬挂的两件灰外套形成清楚长短、厚薄对比；镜中反射与主体姿态一致。same仅指颜色同为灰，different指长度；tight使用条件句，不推断图中穿着紧。9词均为语境标签不制造物体框。
+
+主配文:
+  英文: Two grey coats: one long and thick, the other short and thin.
+  中文: 两件灰色外套：一件长而厚，另一件短而薄。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): size, long, short, thick, thin, tight, different, same, than
+
+------------------------------------------------------------------------
+[1/9] size  (W658)
+  词义: 尺寸
+  词性: noun
+  音标: UK /saɪz/ | US /saɪz/
+  搭配: the right size
+  例句: I check the size of the coat.
+  例句高亮: I check the **size** of the coat.
+  例句中文: 我检查外套的尺寸。
+  标注模式: object
+  标注说明: 衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。
+  坐标(normalized): [0.077, 0.178, 0.668, 0.864]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。"
+    sentence: "I check the size of the coat."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 大小
+------------------------------------------------------------------------
+[2/9] long  (W413)
+  词义: 长的
+  词性: adjective
+  音标: UK /lɒŋ/ | US /lɔːŋ/
+  搭配: a long coat
+  例句: The padded coat is long.
+  例句高亮: The padded coat is **long**.
+  例句中文: 这件棉外套很长。
+  标注模式: object
+  标注说明: 左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。
+  坐标(normalized): [0.077, 0.178, 0.429, 0.863]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。"
+    sentence: "The padded coat is long."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 长的
+------------------------------------------------------------------------
+[3/9] short  (W650)
+  词义: 短的
+  词性: adjective
+  音标: UK /ʃɔːt/ | US /ʃɔːrt/
+  搭配: a short jacket
+  例句: The summer jacket is short.
+  例句高亮: The summer jacket is **short**.
+  例句中文: 这件夏季夹克很短。
+  标注模式: object
+  标注说明: 右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。
+  坐标(normalized): [0.37, 0.181, 0.668, 0.51]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。"
+    sentence: "The summer jacket is short."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 短的
+------------------------------------------------------------------------
+[4/9] thick  (W750)
+  词义: 厚的
+  词性: adjective
+  音标: UK /θɪk/ | US /θɪk/
+  搭配: a thick coat
+  例句: The winter coat is thick.
+  例句高亮: The winter coat is **thick**.
+  例句中文: 这件冬季外套很厚。
+  标注模式: object
+  标注说明: 左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。
+  坐标(normalized): [0.077, 0.178, 0.429, 0.863]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。"
+    sentence: "The winter coat is thick."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 厚的
+------------------------------------------------------------------------
+[5/9] thin  (W751)
+  词义: 薄的
+  词性: adjective
+  音标: UK /θɪn/ | US /θɪn/
+  搭配: a thin jacket
+  例句: The summer jacket is thin.
+  例句高亮: The summer jacket is **thin**.
+  例句中文: 这件夏季夹克很薄。
+  标注模式: object
+  标注说明: 右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。
+  坐标(normalized): [0.37, 0.181, 0.668, 0.51]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。"
+    sentence: "The summer jacket is thin."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 薄的
+------------------------------------------------------------------------
+[6/9] tight  (W762)
+  词义: 紧的
+  词性: adjective
+  音标: UK /taɪt/ | US /taɪt/
+  搭配: a tight coat
+  例句: If the coat feels tight, I try a larger size.
+  例句高亮: If the coat feels **tight**, I try a larger size.
+  例句中文: 如果外套穿着紧，我就试大一号。
+  标注模式: context
+  标注说明: 条件性试衣例句，不认定图中人物穿着紧
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "If the coat feels tight, I try a larger size."
+    matched_form: "tight"
+    context: "条件性试衣例句，不认定图中人物穿着紧"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 紧的
+------------------------------------------------------------------------
+[7/9] different  (W198)
+  词义: 不同的
+  词性: adjective
+  音标: UK /ˈdɪfərənt/ | US /ˈdɪfərənt/
+  搭配: different lengths
+  例句: The coats have different lengths.
+  例句高亮: The coats have **different** lengths.
+  例句中文: 两件外套长度不同。
+  标注模式: object
+  标注说明: 衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。
+  坐标(normalized): [0.077, 0.178, 0.668, 0.864]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。"
+    sentence: "The coats have different lengths."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 不同的
+------------------------------------------------------------------------
+[8/9] same  (W616)
+  词义: 相同的
+  词性: adjective
+  音标: UK /seɪm/ | US /seɪm/
+  搭配: the same color
+  例句: The coats are the same color.
+  例句高亮: The coats are the **same** color.
+  例句中文: 两件外套颜色相同。
+  标注模式: object
+  标注说明: 衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。
+  坐标(normalized): [0.077, 0.178, 0.668, 0.864]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。"
+    sentence: "The coats are the same color."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 相同的
+------------------------------------------------------------------------
+[9/9] than  (W744)
+  词义: 比
+  词性: conjunction
+  音标: UK /ðæn/ | US /ðæn/
+  搭配: longer than
+  例句: The winter coat is longer than the summer jacket.
+  例句高亮: The winter coat is longer **than** the summer jacket.
+  例句中文: 冬季外套比夏季夹克长。
+  标注模式: context
+  标注说明: 比较连词引出比较对象，无独立物体框
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The winter coat is longer than the summer jacket."
+    matched_form: "than"
+    context: "比较连词引出比较对象，无独立物体框"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 比
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 9
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C025 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=25 | meta.approved_cards=25
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Refined dressing-room fashion editorial, woman stands beside a tall mirror, medium-wide three-quarter scene. TWO distinct coats hanging side by side on simple rack in foreground: LEFT a long pale GREY padded winter coat with visibly bulky quilted thickness, hem reaching near floor; RIGHT a short pale GREY thin unlined summer jacket with fine fabric and short hem, clearly much shorter. Both same grey COLOR, different length and weight, aligned hanger height so comparison clear. Woman wearing ivory blouse and straight dark trousers gently holds right thin jacket hem to compare, face unobstructed. Mirror only subtle coherent partial reflection, not extra person. Clean pale wall and floor for annotations.

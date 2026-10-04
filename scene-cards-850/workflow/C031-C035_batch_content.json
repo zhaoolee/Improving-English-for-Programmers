@@ -1,0 +1,725 @@
+{
+  "startedAt": "2026-10-03T08:00:05Z",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C031",
+      "caption_en": "A map in my hands, a quiet street, and a new way through town.",
+      "caption_zh": "手里一张地图，眼前一条安静的街，我在小镇寻找新的路线。",
+      "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. One polished environmental travel photograph of a small town street junction. Woman in left foreground holding an unfolded paper map with simple street lines and a blue route, absolutely no writing. A second adult local woman at right points toward the left branch, natural hands and clear faces. Main paved road leads into small-town low-rise buildings in distance; two distinct side streets branch left and right at the junction, sidewalks and kerbs make them visually legible. Both map and road junction unobstructed. Soft pale sky and calm side walls for annotation. No traffic signs with writing.",
+      "words": [
+        {
+          "word": "street",
+          "zh": "街道",
+          "pos": "noun",
+          "us": "/striːt/",
+          "uk": "/striːt/",
+          "collocations": [
+            "a quiet street"
+          ],
+          "example": "The street beside us is quiet.",
+          "translation": "我们身旁的街道很安静。",
+          "mode": "object",
+          "evidence": "人物身旁有建筑与人行道的街道区域。",
+          "color": "blue"
+        },
+        {
+          "word": "road",
+          "zh": "道路",
+          "pos": "noun",
+          "us": "/roʊd/",
+          "uk": "/rəʊd/",
+          "collocations": [
+            "the main road"
+          ],
+          "example": "The road leads into town.",
+          "translation": "这条路通向镇里。",
+          "mode": "object",
+          "evidence": "通向远处街区的主道路。",
+          "color": "teal"
+        },
+        {
+          "word": "town",
+          "zh": "小镇",
+          "pos": "noun",
+          "us": "/taʊn/",
+          "uk": "/taʊn/",
+          "collocations": [
+            "a small town"
+          ],
+          "example": "We explore a small town.",
+          "translation": "我们游览一个小镇。",
+          "mode": "object",
+          "evidence": "远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。",
+          "color": "lavender"
+        },
+        {
+          "word": "map",
+          "zh": "地图",
+          "pos": "noun",
+          "us": "/mæp/",
+          "uk": "/mæp/",
+          "collocations": [
+            "check the map"
+          ],
+          "example": "I check the map in my hands.",
+          "translation": "我查看手里的地图。",
+          "mode": "object",
+          "evidence": "手中展开的纸质路线图，无需读取地名。",
+          "color": "amber"
+        },
+        {
+          "word": "left",
+          "zh": "向左",
+          "pos": "adverb",
+          "us": "/left/",
+          "uk": "/left/",
+          "collocations": [
+            "turn left"
+          ],
+          "example": "Turn left at the corner.",
+          "translation": "在拐角处向左转。",
+          "mode": "relation",
+          "evidence": "路口左侧分支与指路手势，方向以当前画面行进视角解释。",
+          "color": "rose"
+        },
+        {
+          "word": "right",
+          "zh": "向右",
+          "pos": "adverb",
+          "us": "/raɪt/",
+          "uk": "/raɪt/",
+          "collocations": [
+            "turn right"
+          ],
+          "example": "You can turn right at this corner.",
+          "translation": "你可以在这个拐角处向右转。",
+          "mode": "relation",
+          "evidence": "路口右侧分支，句子以画面行进方向解释。",
+          "color": "teal"
+        },
+        {
+          "word": "way",
+          "zh": "路线",
+          "pos": "noun",
+          "us": "/weɪ/",
+          "uk": "/weɪ/",
+          "collocations": [
+            "find the way"
+          ],
+          "example": "The map helps us find the way.",
+          "translation": "地图帮助我们找到路线。",
+          "mode": "object",
+          "evidence": "纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。",
+          "color": "amber"
+        },
+        {
+          "word": "where",
+          "zh": "在哪里",
+          "pos": "adverb",
+          "us": "/wer/",
+          "uk": "/weə/",
+          "collocations": [
+            "where is"
+          ],
+          "example": "Where is the town centre?",
+          "translation": "镇中心在哪里？",
+          "mode": "context",
+          "evidence": "问路疑问句提供语境，没有独立可定位对象。",
+          "color": "rose"
+        }
+      ]
+    },
+    {
+      "id": "C032",
+      "caption_en": "A bridge, two travellers, and a little distance between us.",
+      "caption_zh": "一座桥，两位旅人，彼此之间隔着一小段距离。",
+      "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. One single travel editorial photograph, not a collage. Elegant pedestrian bridge crossing a river, viewed obliquely from the near bank with railings and stone walkway receding toward the far bank. Main woman mid-stride in the left foreground, full body and feet visible, clearly walking along bridge. A small silver metal whistle hangs from a dark wrist cord, large enough to identify, held lightly in her lowered hand and not near mouth. A second adult traveller farther along the bridge provides near/far contrast. River and distant bank clear with enough focus for distance, pale open sky and water edges reserved for labels. Whistle visibly has rounded mouthpiece and side opening, not jewellery.",
+      "words": [
+        {
+          "word": "bridge",
+          "zh": "桥",
+          "pos": "noun",
+          "us": "/brɪdʒ/",
+          "uk": "/brɪdʒ/",
+          "collocations": [
+            "cross the bridge"
+          ],
+          "example": "The bridge crosses the river.",
+          "translation": "这座桥横跨河流。",
+          "mode": "object",
+          "evidence": "桥面与护栏的实际区域。",
+          "color": "blue"
+        },
+        {
+          "word": "across",
+          "zh": "横穿",
+          "pos": "preposition",
+          "us": "/əˈkrɔːs/",
+          "uk": "/əˈkrɒs/",
+          "collocations": [
+            "across the bridge"
+          ],
+          "example": "We walk across the bridge.",
+          "translation": "我们步行穿过这座桥。",
+          "mode": "relation",
+          "evidence": "人物和桥面跨河路线共同定位across，句子说明跨越。",
+          "color": "teal"
+        },
+        {
+          "word": "near",
+          "zh": "近的",
+          "pos": "adjective",
+          "us": "/nɪr/",
+          "uk": "/nɪə/",
+          "collocations": [
+            "the near part"
+          ],
+          "example": "The near part of the bridge is beside me.",
+          "translation": "桥的近处部分就在我身旁。",
+          "mode": "relation",
+          "evidence": "左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。",
+          "color": "amber"
+        },
+        {
+          "word": "far",
+          "zh": "在远处",
+          "pos": "adverb",
+          "us": "/fɑːr/",
+          "uk": "/fɑː/",
+          "collocations": [
+            "far away"
+          ],
+          "example": "The other traveller is far away.",
+          "translation": "另一位旅人在远处。",
+          "mode": "relation",
+          "evidence": "桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。",
+          "color": "lavender"
+        },
+        {
+          "word": "distance",
+          "zh": "距离",
+          "pos": "noun",
+          "us": "/ˈdɪstəns/",
+          "uk": "/ˈdɪstəns/",
+          "collocations": [
+            "the distance between"
+          ],
+          "example": "There is some distance between the two travellers.",
+          "translation": "两位旅人之间有一段距离。",
+          "mode": "relation",
+          "evidence": "前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。",
+          "color": "blue"
+        },
+        {
+          "word": "from",
+          "zh": "从",
+          "pos": "preposition",
+          "us": "/frʌm/",
+          "uk": "/frɒm/",
+          "collocations": [
+            "from here"
+          ],
+          "example": "We walk from here to the other bank.",
+          "translation": "我们从这里走到另一岸。",
+          "mode": "context",
+          "evidence": "起点介词在完整句中解释，不独立框桥端。",
+          "color": "rose"
+        },
+        {
+          "word": "to",
+          "zh": "到",
+          "pos": "preposition",
+          "us": "/tuː/",
+          "uk": "/tuː/",
+          "collocations": [
+            "to the other bank"
+          ],
+          "example": "We walk to the other bank.",
+          "translation": "我们走到另一岸。",
+          "mode": "context",
+          "evidence": "终点介词在完整句中解释，不等同于某物体。",
+          "color": "rose"
+        },
+        {
+          "word": "walk",
+          "zh": "步行",
+          "pos": "verb",
+          "us": "/wɔːk/",
+          "uk": "/wɔːk/",
+          "collocations": [
+            "walk across"
+          ],
+          "example": "I walk across the bridge.",
+          "translation": "我步行过桥。",
+          "mode": "action",
+          "evidence": "主人公完整步态和桥面接触位置。",
+          "color": "teal"
+        },
+        {
+          "word": "whistle",
+          "zh": "哨子",
+          "pos": "noun",
+          "us": "/ˈwɪsl/",
+          "uk": "/ˈwɪsl/",
+          "collocations": [
+            "a metal whistle"
+          ],
+          "example": "I carry a small whistle.",
+          "translation": "我带着一个小哨子。",
+          "mode": "object",
+          "evidence": "手中/腕绳上的实体金属哨子，选名词义而非声音。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C033",
+      "caption_en": "Ticket in hand, I wait at the station for the next journey.",
+      "caption_zh": "车票拿在手里，我在车站等候下一段旅程。",
+      "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. A refined railway-platform travel editorial. Main woman foreground left holding a small rectangular paper train ticket between natural fingers; ticket has no writing. At right an adult porter in understated uniform carries her tan suitcase toward an open train carriage door; his porter role comes from the story. Train stretches into background along visible steel rails at lower right, safe platform edge separates people from tracks. A platform bench with clear empty seat sits at lower left, not hidden. Modern calm station canopy and structural columns establish station. No logos, signage, letters or numbers. Train, single carriage door, rail, ticket, seat and suitcase carrier all individually identifiable.",
+      "words": [
+        {
+          "word": "station",
+          "zh": "车站",
+          "pos": "noun",
+          "us": "/ˈsteɪʃn/",
+          "uk": "/ˈsteɪʃn/",
+          "collocations": [
+            "at the station"
+          ],
+          "example": "We wait at the station.",
+          "translation": "我们在车站等候。",
+          "mode": "object",
+          "evidence": "站台、顶棚与立柱的车站区域。",
+          "color": "blue"
+        },
+        {
+          "word": "train",
+          "zh": "火车",
+          "pos": "noun",
+          "us": "/treɪn/",
+          "uk": "/treɪn/",
+          "collocations": [
+            "a waiting train"
+          ],
+          "example": "The train stands beside the platform.",
+          "translation": "火车停在站台旁。",
+          "mode": "object",
+          "evidence": "沿站台停靠的整列车局部。",
+          "color": "teal"
+        },
+        {
+          "word": "ticket",
+          "zh": "车票",
+          "pos": "noun",
+          "us": "/ˈtɪkɪt/",
+          "uk": "/ˈtɪkɪt/",
+          "collocations": [
+            "a train ticket"
+          ],
+          "example": "I hold my train ticket.",
+          "translation": "我拿着火车票。",
+          "mode": "object",
+          "evidence": "主人公手中的独立纸票，身份由旅行故事说明。",
+          "color": "amber"
+        },
+        {
+          "word": "rail",
+          "zh": "铁轨",
+          "pos": "noun",
+          "us": "/reɪl/",
+          "uk": "/reɪl/",
+          "collocations": [
+            "a steel rail"
+          ],
+          "example": "A steel rail runs beside the platform.",
+          "translation": "一根钢轨沿着站台延伸。",
+          "mode": "object",
+          "evidence": "站台旁露出的单根钢轨区域。",
+          "color": "blue"
+        },
+        {
+          "word": "carriage",
+          "zh": "车厢",
+          "pos": "noun",
+          "us": "/ˈkærɪdʒ/",
+          "uk": "/ˈkærɪdʒ/",
+          "collocations": [
+            "a train carriage"
+          ],
+          "example": "The carriage door is open.",
+          "translation": "车厢门开着。",
+          "mode": "object",
+          "evidence": "列车开门处所在的单节车厢区域。",
+          "color": "lavender"
+        },
+        {
+          "word": "porter",
+          "zh": "行李员",
+          "pos": "noun",
+          "us": "/ˈpɔːrtər/",
+          "uk": "/ˈpɔːtə/",
+          "collocations": [
+            "a station porter"
+          ],
+          "example": "The porter carries my case.",
+          "translation": "行李员提着我的箱子。",
+          "mode": "object",
+          "evidence": "实际提行李的故事角色，只定位人物，不凭制服鉴定职业。",
+          "color": "rose"
+        },
+        {
+          "word": "waiting",
+          "zh": "等候",
+          "pos": "noun",
+          "us": "/ˈweɪtɪŋ/",
+          "uk": "/ˈweɪtɪŋ/",
+          "collocations": [
+            "waiting for a train"
+          ],
+          "example": "Waiting for the train gives me time to rest.",
+          "translation": "等火车让我有时间休息。",
+          "mode": "context",
+          "evidence": "静态照片不能证明等待持续，完整原创句支持名词义。",
+          "color": "rose"
+        },
+        {
+          "word": "journey",
+          "zh": "旅程",
+          "pos": "noun",
+          "us": "/ˈdʒɜːrni/",
+          "uk": "/ˈdʒɜːni/",
+          "collocations": [
+            "a train journey"
+          ],
+          "example": "Our train journey begins here.",
+          "translation": "我们的火车旅程从这里开始。",
+          "mode": "context",
+          "evidence": "整段旅行概念由句子说明，不用列车框替代旅程。",
+          "color": "lavender"
+        },
+        {
+          "word": "seat",
+          "zh": "座位",
+          "pos": "noun",
+          "us": "/siːt/",
+          "uk": "/siːt/",
+          "collocations": [
+            "an empty seat"
+          ],
+          "example": "There is an empty seat on the bench.",
+          "translation": "长椅上有一个空座位。",
+          "mode": "object",
+          "evidence": "站台长椅的空座面。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C034",
+      "caption_en": "A steady hand on the wheel, a slow start, and time to stop.",
+      "caption_zh": "稳稳握住方向盘，缓慢起步，留出停车的时间。",
+      "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. Photographic editorial triptych within one portrait frame, clean subtle divisions and no drawn schematic: upper two-thirds a natural side passenger view of the woman driver in a real parked compact car, seat belt correctly across chest, both hands naturally on steering wheel, eyes forward, cool daylight. Lower left inset is a realistic open engine bay showing engine cover and mechanical components, no text or labels. Lower right inset is a realistic driver footwell with one clearly visible rectangular brake pedal next to a narrow accelerator; flat shoe foot poised on brake, no extra limbs. Matching cool tones and documentary detail, steering wheel, engine and brake readable for vocabulary. The car is stationary during this posed lesson; speed and timing belong to later sentences. Simple blank interior upper corners for labels; no digital display, lettering, digits or logos.",
+      "words": [
+        {
+          "word": "driving",
+          "zh": "驾驶",
+          "pos": "noun",
+          "us": "/ˈdraɪvɪŋ/",
+          "uk": "/ˈdraɪvɪŋ/",
+          "collocations": [
+            "careful driving"
+          ],
+          "example": "Careful driving begins with good control.",
+          "translation": "谨慎驾驶从良好的操控开始。",
+          "mode": "action",
+          "evidence": "握方向盘的驾驶姿势，照片为静止教学演示，不宣称行驶速度。",
+          "color": "blue"
+        },
+        {
+          "word": "engine",
+          "zh": "发动机",
+          "pos": "noun",
+          "us": "/ˈendʒɪn/",
+          "uk": "/ˈendʒɪn/",
+          "collocations": [
+            "a car engine"
+          ],
+          "example": "The engine is under the front cover.",
+          "translation": "发动机在前方的盖子下面。",
+          "mode": "object",
+          "evidence": "左下小幅真实发动机舱。",
+          "color": "teal"
+        },
+        {
+          "word": "wheel",
+          "zh": "方向盘",
+          "pos": "noun",
+          "us": "/wiːl/",
+          "uk": "/wiːl/",
+          "collocations": [
+            "the steering wheel"
+          ],
+          "example": "I hold the steering wheel with both hands.",
+          "translation": "我用双手握住方向盘。",
+          "mode": "object",
+          "evidence": "主幅中的实际方向盘，不把车轮和方向盘混用。",
+          "color": "amber"
+        },
+        {
+          "word": "brake",
+          "zh": "刹车",
+          "pos": "noun",
+          "us": "/breɪk/",
+          "uk": "/breɪk/",
+          "collocations": [
+            "the brake pedal"
+          ],
+          "example": "My foot rests on the brake pedal.",
+          "translation": "我的脚放在刹车踏板上。",
+          "mode": "object",
+          "evidence": "右下脚部小幅中的宽刹车踏板。",
+          "color": "rose"
+        },
+        {
+          "word": "control",
+          "zh": "操控",
+          "pos": "noun",
+          "us": "/kənˈtroʊl/",
+          "uk": "/kənˈtrəʊl/",
+          "collocations": [
+            "keep control"
+          ],
+          "example": "I keep control with both hands on the wheel.",
+          "translation": "我用双手握住方向盘来保持操控。",
+          "mode": "action",
+          "evidence": "双手与方向盘的操控动作指代区，不声称已证明驾驶能力。",
+          "color": "blue"
+        },
+        {
+          "word": "stop",
+          "zh": "停下",
+          "pos": "verb",
+          "us": "/stɑːp/",
+          "uk": "/stɒp/",
+          "collocations": [
+            "stop the car"
+          ],
+          "example": "I press the brake to stop the car.",
+          "translation": "我踩刹车让汽车停下。",
+          "mode": "context",
+          "evidence": "停车结果需时间信息，静态教学图只给动作线索，由句子说明。",
+          "color": "rose"
+        },
+        {
+          "word": "slow",
+          "zh": "慢的",
+          "pos": "adjective",
+          "us": "/sloʊ/",
+          "uk": "/sləʊ/",
+          "collocations": [
+            "a slow start"
+          ],
+          "example": "A slow start feels smooth.",
+          "translation": "缓慢起步感觉很平稳。",
+          "mode": "context",
+          "evidence": "照片不测速度，起步速度由句子说明。",
+          "color": "teal"
+        },
+        {
+          "word": "quick",
+          "zh": "迅速的",
+          "pos": "adjective",
+          "us": "/kwɪk/",
+          "uk": "/kwɪk/",
+          "collocations": [
+            "a quick check"
+          ],
+          "example": "I make a quick check before driving.",
+          "translation": "我在驾驶前迅速检查一下。",
+          "mode": "context",
+          "evidence": "检查耗时无法由静态图验证。",
+          "color": "lavender"
+        },
+        {
+          "word": "adjustment",
+          "zh": "调整",
+          "pos": "noun",
+          "us": "/əˈdʒʌstmənt/",
+          "uk": "/əˈdʒʌstmənt/",
+          "collocations": [
+            "a small adjustment"
+          ],
+          "example": "A small seat adjustment helps me reach the pedals.",
+          "translation": "稍微调整座椅能让我够到踏板。",
+          "mode": "context",
+          "evidence": "座椅调整为教学情境，不虚构图中已发生调节。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C035",
+      "caption_en": "Out through the entrance, under the canopy, then up in the lift.",
+      "caption_zh": "穿过入口来到外面，走到雨棚下，再乘电梯上楼。",
+      "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. Two clean photographic panels stacked within one portrait frame, same adult woman and coherent cool modern building, no drawn arrows or infographic. Upper half: environmental view of pearl-grey building entrance with broad horizontal canopy overhead, woman full body taking a natural step out through an open glass door underneath canopy. Building facade, canopy, woman and door unobstructed; sky and side wall negative space. Lower half: woman standing inside a glass lift in the same building, side three-quarter view, realistic slim metal control panel at right with two separate real physical arrow-shaped up and down pushbuttons (chevron symbols only, NO letters or digits), cabin subtly lit. Actual transparent lift structure and door visible, not an escalator. Pose natural; do not depict instantaneous movement as proof. Calm space around both panels for later annotations.",
+      "words": [
+        {
+          "word": "building",
+          "zh": "建筑",
+          "pos": "noun",
+          "us": "/ˈbɪldɪŋ/",
+          "uk": "/ˈbɪldɪŋ/",
+          "collocations": [
+            "a modern building"
+          ],
+          "example": "The building has a glass entrance.",
+          "translation": "这栋建筑有一个玻璃入口。",
+          "mode": "object",
+          "evidence": "上幅建筑立面与玻璃入口。",
+          "color": "blue"
+        },
+        {
+          "word": "lift",
+          "zh": "电梯",
+          "pos": "noun",
+          "us": "/lɪft/",
+          "uk": "/lɪft/",
+          "collocations": [
+            "take the lift"
+          ],
+          "example": "I take the lift to the next floor.",
+          "translation": "我乘电梯到上一层。",
+          "mode": "object",
+          "evidence": "下幅玻璃电梯厢与门框，不是扶梯。",
+          "color": "teal"
+        },
+        {
+          "word": "up",
+          "zh": "向上",
+          "pos": "adverb",
+          "us": "/ʌp/",
+          "uk": "/ʌp/",
+          "collocations": [
+            "go up"
+          ],
+          "example": "The arrow points up.",
+          "translation": "箭头指向上方。",
+          "mode": "relation",
+          "evidence": "电梯面板上方按钮实际向上箭头，方向清楚，不宣称电梯正在上行。",
+          "color": "amber"
+        },
+        {
+          "word": "down",
+          "zh": "向下",
+          "pos": "adverb",
+          "us": "/daʊn/",
+          "uk": "/daʊn/",
+          "collocations": [
+            "go down"
+          ],
+          "example": "The arrow points down.",
+          "translation": "箭头指向下方。",
+          "mode": "relation",
+          "evidence": "电梯面板下方按钮实际向下箭头，方向清楚，不宣称电梯正在下行。",
+          "color": "lavender"
+        },
+        {
+          "word": "out",
+          "zh": "到外面",
+          "pos": "adverb",
+          "us": "/aʊt/",
+          "uk": "/aʊt/",
+          "collocations": [
+            "go out"
+          ],
+          "example": "I step out through the entrance.",
+          "translation": "我穿过入口走到外面。",
+          "mode": "relation",
+          "evidence": "上幅跨越门槛的主人公与门口，句子给出外出方向。",
+          "color": "rose"
+        },
+        {
+          "word": "off",
+          "zh": "关着",
+          "pos": "adverb",
+          "us": "/ɔːf/",
+          "uk": "/ɒf/",
+          "collocations": [
+            "turn off"
+          ],
+          "example": "I turn off the light before leaving home.",
+          "translation": "离家前我把灯关掉。",
+          "mode": "context",
+          "evidence": "独立原创离家例句，不将电梯照片当成关灯证据。",
+          "color": "rose"
+        },
+        {
+          "word": "on",
+          "zh": "开着",
+          "pos": "adverb",
+          "us": "/ɑːn/",
+          "uk": "/ɒn/",
+          "collocations": [
+            "the light is on"
+          ],
+          "example": "The light is on inside the lift.",
+          "translation": "电梯里的灯开着。",
+          "mode": "context",
+          "evidence": "光亮本身不足以验证开关状态，状态由故事句子明确。",
+          "color": "amber"
+        },
+        {
+          "word": "go",
+          "zh": "去",
+          "pos": "verb",
+          "us": "/ɡoʊ/",
+          "uk": "/ɡəʊ/",
+          "collocations": [
+            "go outside"
+          ],
+          "example": "I go outside through the door.",
+          "translation": "我穿过门走到外面。",
+          "mode": "action",
+          "evidence": "上幅人物跨门槛的步行动作，句子说明动作方向。",
+          "color": "teal"
+        },
+        {
+          "word": "under",
+          "zh": "在下面",
+          "pos": "preposition",
+          "us": "/ˈʌndər/",
+          "uk": "/ˈʌndə/",
+          "collocations": [
+            "under the canopy"
+          ],
+          "example": "I stand under the canopy.",
+          "translation": "我站在雨棚下面。",
+          "mode": "relation",
+          "evidence": "上幅雨棚与其下人物的实际上下空间关系。",
+          "color": "blue"
+        },
+        {
+          "word": "over",
+          "zh": "在上方",
+          "pos": "preposition",
+          "us": "/ˈoʊvər/",
+          "uk": "/ˈəʊvə/",
+          "collocations": [
+            "over the entrance"
+          ],
+          "example": "The canopy is over the entrance.",
+          "translation": "雨棚在入口上方。",
+          "mode": "relation",
+          "evidence": "上幅雨棚与入口共同构成上方关系。",
+          "color": "lavender"
+        }
+      ]
+    }
+  ],
+  "lexical_review": {
+    "method": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。",
+    "references": {}
+  }
+}

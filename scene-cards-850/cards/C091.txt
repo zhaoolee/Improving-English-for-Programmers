@@ -1,0 +1,331 @@
+C091  认识彼此
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C091.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C091.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:13:55 UTC
+  提示词文件: prompts/C091_image_final.txt
+
+场景: 首次见面的小组互相介绍，展示不同年龄和性别人物；sex 只按性别分类解释，among 在群体语境中表达。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 三成人两儿童分开，蓝衣男孩米白衣女孩符合故事，角色年龄性别仅为虚构教学设定。11标签完整保留。
+
+主配文:
+  英文: Each person introduces themselves; we learn who is here and get to know one another.
+  中文: 每个人自我介绍；我们认识在场的人，彼此熟悉起来。
+  类型: original | 来源: None | 状态: final
+
+目标词 (11): person, man, woman, boy, girl, young, male, female, among, sex, who
+
+------------------------------------------------------------------------
+[1/11] person  (W522)
+  词义: 人
+  词性: noun
+  音标: UK /ˈpɜːsən/ | US /ˈpɝːsən/
+  搭配: each person; a friendly person
+  例句: Each person introduces themselves.
+  例句高亮: Each **person** introduces themselves.
+  例句中文: 每个人自我介绍。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（人），待最终图确认。
+  坐标(normalized): [0.33, 0.182, 0.712, 0.996]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中央完整人物，person指一个人。"
+    sentence: "Each person introduces themselves."
+    matched_form: "person"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 人；个人
+
+------------------------------------------------------------------------
+[2/11] man  (W423)
+  词义: 成年男子
+  词性: noun
+  音标: UK /mæn/ | US /mæn/
+  搭配: a young man; the man on the left
+  例句: The man on the left introduces himself as Jun.
+  例句高亮: The **man** on the left introduces himself as Jun.
+  例句中文: 左边的成年男子介绍自己叫Jun。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（成年男子），待最终图确认。
+  坐标(normalized): [0.003, 0.066, 0.333, 0.783]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧成人，故事自称Jun并明确成年男子。"
+    sentence: "The man on the left introduces himself as Jun."
+    matched_form: "man"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 男人
+
+------------------------------------------------------------------------
+[3/11] woman  (W836)
+  词义: 成年女子
+  词性: noun
+  音标: UK /ˈwʊmən/ | US /ˈwʊmən/
+  搭配: a young woman; the woman in the middle
+  例句: The woman in the middle introduces herself as Mina.
+  例句高亮: The **woman** in the middle introduces herself as Mina.
+  例句中文: 中间的成年女子介绍自己叫Mina。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（成年女子），待最终图确认。
+  坐标(normalized): [0.33, 0.182, 0.712, 0.996]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中央成人，故事自称Mina并明确成年女子。"
+    sentence: "The woman in the middle introduces herself as Mina."
+    matched_form: "woman"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 女人
+
+------------------------------------------------------------------------
+[4/11] boy  (W087)
+  词义: 男孩
+  词性: noun
+  音标: UK /bɔɪ/ | US /bɔɪ/
+  搭配: a young boy; the boy in blue
+  例句: The boy in blue is ten in our story.
+  例句高亮: The **boy** in blue is ten in our story.
+  例句中文: 故事中，穿蓝衣的男孩十岁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（男孩），待最终图确认。
+  坐标(normalized): [0.001, 0.389, 0.338, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景左蓝衣儿童，故事明确男孩十岁。"
+    sentence: "The boy in blue is ten in our story."
+    matched_form: "boy"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 男孩
+
+------------------------------------------------------------------------
+[5/11] girl  (W300)
+  词义: 女孩
+  词性: noun
+  音标: UK /ɡɜːl/ | US /ɡɝːl/
+  搭配: a young girl; the girl in cream
+  例句: The girl in cream is ten in our story.
+  例句高亮: The **girl** in cream is ten in our story.
+  例句中文: 故事中，穿米白衣的女孩十岁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（女孩），待最终图确认。
+  坐标(normalized): [0.579, 0.428, 0.887, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景右米白衣儿童，故事明确女孩十岁。"
+    sentence: "The girl in cream is ten in our story."
+    matched_form: "girl"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 女孩
+
+------------------------------------------------------------------------
+[6/11] young  (W850)
+  词义: 年轻的
+  词性: adjective
+  音标: UK /jʌŋ/ | US /jʌŋ/
+  搭配: a young person; still young
+  例句: The two children are young in this story.
+  例句高亮: The two children are **young** in this story.
+  例句中文: 故事中的两个孩子年龄小。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The two children are young in this story."
+    matched_form: "young"
+    context: "由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 年轻的
+
+------------------------------------------------------------------------
+[7/11] male  (W422)
+  词义: 男性的
+  词性: adjective
+  音标: UK /meɪl/ | US /meɪl/
+  搭配: a male participant; male or female
+  例句: Jun is a male participant in our fictional group.
+  例句高亮: Jun is a **male** participant in our fictional group.
+  例句中文: Jun是我们虚构小组中的男性参与者。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Jun is a male participant in our fictional group."
+    matched_form: "male"
+    context: "由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 男性的
+
+------------------------------------------------------------------------
+[8/11] female  (W261)
+  词义: 女性的
+  词性: adjective
+  音标: UK /ˈfiːmeɪl/ | US /ˈfiːmeɪl/
+  搭配: a female participant; female or male
+  例句: Mina is a female participant in our fictional group.
+  例句高亮: Mina is a **female** participant in our fictional group.
+  例句中文: Mina是我们虚构小组中的女性参与者。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Mina is a female participant in our fictional group."
+    matched_form: "female"
+    context: "由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 女性的；雌性的
+
+------------------------------------------------------------------------
+[9/11] among  (W018)
+  词义: 在……之中
+  词性: preposition
+  音标: UK /əˈmʌŋ/ | US /əˈmʌŋ/
+  搭配: among friends; among the group
+  例句: I stand among the other people.
+  例句高亮: I stand **among** the other people.
+  例句中文: 我站在其他人之中。
+  标注模式: relation
+  标注说明: 场景中体现的关系（在……之中），待最终图确认。
+  坐标(normalized): [0.001, 0.066, 0.998, 0.996]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中央人位于其他四人之中，群体空间关系清楚。"
+    sentence: "I stand among the other people."
+    matched_form: "among"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 在...之中；在...之间
+
+------------------------------------------------------------------------
+[10/11] sex  (W639)
+  词义: 性别
+  词性: noun
+  音标: UK /seks/ | US /seks/
+  搭配: sex category; sex and age
+  例句: In this vocabulary lesson, sex means a male or female category.
+  例句高亮: In this vocabulary lesson, **sex** means a male or female category.
+  例句中文: 在这节词汇课里，sex指男性或女性的性别类别。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "In this vocabulary lesson, sex means a male or female category."
+    matched_form: "sex"
+    context: "由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 性别
+
+------------------------------------------------------------------------
+[11/11] who  (W824)
+  词义: 谁
+  词性: pronoun
+  音标: UK /huː/ | US /huː/
+  搭配: who is here; ask who
+  例句: Who is standing beside Mina?
+  例句高亮: **Who** is standing beside Mina?
+  例句中文: 谁站在Mina旁边？
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Who is standing beside Mina?"
+    matched_form: "who"
+    context: "由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 谁
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 11
+  content_entries_complete: 11
+  sentence_evidence_complete: 11
+  verified_targets: 11
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C091 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool Korean polished family community meeting outdoors. Main adult woman about 25 centered, adult man left, boy about 10 in plain blue sweater foreground left, girl about 10 in cream sweater foreground right, another adult woman right. Five people distinctly separated, normal friendly introductions, fully clothed ordinary safe family scene, natural skin and hands, no text or labels. Ages and gender descriptions belong to fictional teaching story, not biometric inference.

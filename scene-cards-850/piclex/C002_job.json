@@ -1,0 +1,19 @@
+{
+  "cardID": "C002",
+  "imagePath": "../images/C002.png",
+  "imageSHA256": "15ef6001f33fa989cc325ce37c44c57d002a95d0b18e5ad5dd0446b571c68b46",
+  "imageReviewed": true,
+  "annotationsPath": "C002_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "window",
+    "day",
+    "night",
+    "bright",
+    "dark",
+    "sun",
+    "moon",
+    "star"
+  ],
+  "receiptPath": "C002_import_receipt.json"
+}

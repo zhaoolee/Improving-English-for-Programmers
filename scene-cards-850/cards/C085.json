@@ -1,0 +1,350 @@
+{
+  "id": "C085",
+  "chapter": "工具与科学",
+  "title": "绳索和小机关",
+  "scene": "工作台上链条、绳索、带状绳、棍、旋拧机关与悬挂模型。",
+  "target_count": 7,
+  "primary_words": [
+    "chain",
+    "cord",
+    "stick",
+    "hanging",
+    "twist",
+    "fold",
+    "roll"
+  ],
+  "targets": [
+    {
+      "word_id": "W121",
+      "word": "chain",
+      "aliases": [],
+      "source_zh_unreviewed": "链条",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "链条",
+      "pos": "noun",
+      "ipa_us": "/tʃeɪn/",
+      "ipa_uk": "/tʃeɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌左银色短链。",
+        "sentence": "The short chain lies on the bench.",
+        "matched_form": "chain",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The short chain lies on the bench.",
+      "example_zh": "短链条放在工作台上。",
+      "bbox_normalized": [
+        0.068,
+        0.788,
+        0.201,
+        0.822
+      ],
+      "collocations": [
+        "a short chain",
+        "a metal chain"
+      ],
+      "example_en_highlighted": "The short **chain** lies on the bench.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（链条），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W160",
+      "word": "cord",
+      "aliases": [],
+      "source_zh_unreviewed": "绳子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "绳索",
+      "pos": "noun",
+      "ipa_us": "/kɔːrd/",
+      "ipa_uk": "/kɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双手中的两股白绳。",
+        "sentence": "I hold two strands of cord.",
+        "matched_form": "cord",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I hold two strands of cord.",
+      "example_zh": "我拿着两股绳索。",
+      "bbox_normalized": [
+        0.348,
+        0.474,
+        0.522,
+        0.516
+      ],
+      "collocations": [
+        "a cotton cord",
+        "a length of cord"
+      ],
+      "example_en_highlighted": "I hold two strands of **cord**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（绳索），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W705",
+      "word": "stick",
+      "aliases": [],
+      "source_zh_unreviewed": "棍子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "棍",
+      "pos": "noun",
+      "ipa_us": "/stɪk/",
+      "ipa_uk": "/stɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "支架间横放的木棍。",
+        "sentence": "The wooden stick supports the hanging shape.",
+        "matched_form": "stick",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The wooden stick supports the hanging shape.",
+      "example_zh": "木棍支撑着悬挂的形状。",
+      "bbox_normalized": [
+        0.413,
+        0.63,
+        0.94,
+        0.661
+      ],
+      "collocations": [
+        "a wooden stick",
+        "a straight stick"
+      ],
+      "example_en_highlighted": "The wooden **stick** supports the hanging shape.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（棍），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W322",
+      "word": "hanging",
+      "aliases": [],
+      "source_zh_unreviewed": "悬挂",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "悬挂着的",
+      "pos": "adjective",
+      "ipa_us": "/ˈhæŋɪŋ/",
+      "ipa_uk": "/ˈhæŋɪŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "由绳挂在木棍下的白纸形。",
+        "sentence": "The paper shape is hanging from the stick.",
+        "matched_form": "hanging",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The paper shape is hanging from the stick.",
+      "example_zh": "纸做的形状悬挂在木棍上。",
+      "bbox_normalized": [
+        0.598,
+        0.642,
+        0.74,
+        0.818
+      ],
+      "collocations": [
+        "a hanging shape",
+        "hanging from"
+      ],
+      "example_en_highlighted": "The paper shape is **hanging** from the stick.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（悬挂着的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W786",
+      "word": "twist",
+      "aliases": [],
+      "source_zh_unreviewed": "扭曲",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "拧",
+      "pos": "verb",
+      "ipa_us": "/twɪst/",
+      "ipa_uk": "/twɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双手将白绳拧在一起的动作。",
+        "sentence": "I twist the two strands together.",
+        "matched_form": "twist",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I twist the two strands together.",
+      "example_zh": "我把这两股拧在一起。",
+      "bbox_normalized": [
+        0.27,
+        0.435,
+        0.666,
+        0.578
+      ],
+      "collocations": [
+        "twist a cord",
+        "twist together"
+      ],
+      "example_en_highlighted": "I **twist** the two strands together.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（拧），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W278",
+      "word": "fold",
+      "aliases": [],
+      "source_zh_unreviewed": "折叠；褶皱",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "折叠",
+      "pos": "verb",
+      "ipa_us": "/foʊld/",
+      "ipa_uk": "/fəʊld/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景折叠纸的结果；折纸动作由故事说明。",
+        "sentence": "I fold the paper in half in the story.",
+        "matched_form": "fold",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I fold the paper in half in the story.",
+      "example_zh": "故事中，我把纸对折。",
+      "bbox_normalized": [
+        0.099,
+        0.816,
+        0.483,
+        0.965
+      ],
+      "collocations": [
+        "fold paper",
+        "fold in half"
+      ],
+      "example_en_highlighted": "I **fold** the paper in half in the story.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（折叠），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W603",
+      "word": "roll",
+      "aliases": [],
+      "source_zh_unreviewed": "卷；滚动",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "卷",
+      "pos": "noun",
+      "ipa_us": "/roʊl/",
+      "ipa_uk": "/rəʊl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧圆柱纸卷。",
+        "sentence": "A paper roll rests on the right.",
+        "matched_form": "roll",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A paper roll rests on the right.",
+      "example_zh": "一卷纸放在右侧。",
+      "bbox_normalized": [
+        0.803,
+        0.722,
+        0.998,
+        0.948
+      ],
+      "collocations": [
+        "a paper roll",
+        "a small roll"
+      ],
+      "example_en_highlighted": "A paper **roll** rests on the right.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（卷），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I twist the cord, fold the paper, and place a roll beside the hanging model.",
+    "zh": "我拧起绳子、折好纸，把一卷纸放在悬挂模型旁。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C085\n标题 绳索和小机关\n场景 工作台上链条、绳索、带状绳、棍、旋拧机关与悬挂模型。\n目标词 chain, cord, stick, hanging, twist, fold, roll\n原创主配文草案 The cord is in a knot, and the chain is hanging.\n中文草案 绳子打了结，链条悬挂着。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at crisp craft workbench twisting two strands of plain cotton cord together. Short silver chain separate left, wooden stick spanning small supports with a light plain paper shape hanging by a cord loop, clearly folded white paper foreground and cylindrical paper roll right. No text, no brands, safe small tabletop mechanism, cool editorial lighting, realistic hands and distinct objects.",
+  "status": "approved",
+  "image_path": "images/C085.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 7,
+    "content_entries_complete": 7,
+    "sentence_evidence_complete": 7,
+    "verified_targets": 7,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C085 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:02:35 UTC",
+    "prompt_path": "prompts/C085_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C085.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "双手拧白绳，棍架悬挂纸形，左银链和右纸卷清楚，折叠只标结果并用句子明确动作。"
+  }
+}

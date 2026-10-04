@@ -1,0 +1,294 @@
+{
+  "filename": "C052-伸展身体.png",
+  "labels": [
+    {
+      "x": 590,
+      "y": 301,
+      "english": "body",
+      "chinese": "身体",
+      "phoneticUS": "/ˈbɑːdi/",
+      "phoneticUK": "/ˈbɒdi/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 590,
+        "y": 301
+      },
+      "boundingBox": {
+        "left": 368,
+        "top": 5,
+        "right": 813,
+        "bottom": 597
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅人体整体。",
+        "association": "上幅人体整体。",
+        "collocation": "my body",
+        "example": "I stretch my body on the mat.",
+        "exampleChinese": "我在垫子上舒展身体。"
+      }
+    },
+    {
+      "x": 683,
+      "y": 181,
+      "english": "arm",
+      "chinese": "手臂",
+      "phoneticUS": "/ɑːrm/",
+      "phoneticUK": "/ɑːm/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 115
+      },
+      "anchorPosition": {
+        "x": 683,
+        "y": 181
+      },
+      "boundingBox": {
+        "left": 572,
+        "top": 141,
+        "right": 795,
+        "bottom": 222
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际伸出的手臂。",
+        "association": "实际伸出的手臂。",
+        "collocation": "my left arm",
+        "example": "I stretch one arm to the side.",
+        "exampleChinese": "我把一只手臂向侧面伸展。"
+      }
+    },
+    {
+      "x": 291,
+      "y": 785,
+      "english": "hand",
+      "chinese": "手",
+      "phoneticUS": "/hænd/",
+      "phoneticUK": "/hænd/",
+      "bubblePosition": {
+        "x": 575,
+        "y": 705
+      },
+      "anchorPosition": {
+        "x": 291,
+        "y": 785
+      },
+      "boundingBox": {
+        "left": 96,
+        "top": 617,
+        "right": 486,
+        "bottom": 953
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅完整手掌与手指。",
+        "association": "下幅完整手掌与手指。",
+        "collocation": "an open hand",
+        "example": "My hand is open.",
+        "exampleChinese": "我的手张开着。"
+      }
+    },
+    {
+      "x": 409,
+      "y": 771,
+      "english": "finger",
+      "chinese": "手指",
+      "phoneticUS": "/ˈfɪŋɡər/",
+      "phoneticUK": "/ˈfɪŋɡə/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 409,
+        "y": 771
+      },
+      "boundingBox": {
+        "left": 332,
+        "top": 714,
+        "right": 486,
+        "bottom": 828
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅实际食指。",
+        "association": "下幅实际食指。",
+        "collocation": "my index finger",
+        "example": "My index finger is beside my thumb.",
+        "exampleChinese": "我的食指在拇指旁边。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 791,
+      "english": "thumb",
+      "chinese": "拇指",
+      "phoneticUS": "/θʌm/",
+      "phoneticUK": "/θʌm/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 695
+      },
+      "anchorPosition": {
+        "x": 145,
+        "y": 791
+      },
+      "boundingBox": {
+        "left": 115,
+        "top": 700,
+        "right": 176,
+        "bottom": 882
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际独立拇指。",
+        "association": "实际独立拇指。",
+        "collocation": "my thumb",
+        "example": "My thumb points away from my fingers.",
+        "exampleChinese": "我的拇指向外展开，与其他手指分开。"
+      }
+    },
+    {
+      "x": 542,
+      "y": 472,
+      "english": "leg",
+      "chinese": "腿",
+      "phoneticUS": "/leɡ/",
+      "phoneticUK": "/leɡ/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 410
+      },
+      "anchorPosition": {
+        "x": 542,
+        "y": 472
+      },
+      "boundingBox": {
+        "left": 510,
+        "top": 373,
+        "right": 574,
+        "bottom": 572
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅实际左腿。",
+        "association": "上幅实际左腿。",
+        "collocation": "my left leg",
+        "example": "One leg is straight.",
+        "exampleChinese": "一条腿伸直着。"
+      }
+    },
+    {
+      "x": 790,
+      "y": 778,
+      "english": "foot",
+      "chinese": "脚",
+      "phoneticUS": "/fʊt/",
+      "phoneticUK": "/fʊt/",
+      "bubblePosition": {
+        "x": 615,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 790,
+        "y": 778
+      },
+      "boundingBox": {
+        "left": 669,
+        "top": 619,
+        "right": 912,
+        "bottom": 937
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅脚部整体。",
+        "association": "下幅脚部整体。",
+        "collocation": "my left foot",
+        "example": "My foot rests on the mat.",
+        "exampleChinese": "我的脚放在垫子上。"
+      }
+    },
+    {
+      "x": 719,
+      "y": 895,
+      "english": "toe",
+      "chinese": "脚趾",
+      "phoneticUS": "/toʊ/",
+      "phoneticUK": "/təʊ/",
+      "bubblePosition": {
+        "x": 910,
+        "y": 755
+      },
+      "anchorPosition": {
+        "x": 719,
+        "y": 895
+      },
+      "boundingBox": {
+        "left": 676,
+        "top": 857,
+        "right": 763,
+        "bottom": 934
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际大脚趾。",
+        "association": "实际大脚趾。",
+        "collocation": "my big toe",
+        "example": "My big toe is beside the other toes.",
+        "exampleChinese": "我的大脚趾在其他脚趾旁边。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I stretch my body, open my hand, and stand with both feet on the mat.",
+    "chinese": "我舒展身体，张开手掌，双脚站在垫子上。",
+    "source": "原创配文 · C052 伸展身体",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

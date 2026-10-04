@@ -1,0 +1,297 @@
+{
+  "filename": "C006-照顾小宝宝.png",
+  "labels": [
+    {
+      "x": 475,
+      "y": 425,
+      "english": "baby",
+      "chinese": "宝宝",
+      "phoneticUS": "/ˈbeɪbi/",
+      "phoneticUK": "/ˈbeɪbi/",
+      "bubblePosition": {
+        "x": 270,
+        "y": 465
+      },
+      "anchorPosition": {
+        "x": 475,
+        "y": 425
+      },
+      "boundingBox": {
+        "left": 313,
+        "top": 323,
+        "right": 592,
+        "bottom": 567
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "母亲怀中襁褓里的婴儿，按最终画面框选。",
+        "association": "母亲怀中襁褓里的婴儿，按最终画面框选。",
+        "collocation": "a baby; hold the baby",
+        "example": "The baby is in my arms.",
+        "exampleChinese": "宝宝在我怀里。"
+      }
+    },
+    {
+      "x": 164,
+      "y": 265,
+      "english": "son",
+      "chinese": "儿子",
+      "phoneticUS": "/sʌn/",
+      "phoneticUK": "/sʌn/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 210
+      },
+      "anchorPosition": {
+        "x": 164,
+        "y": 265
+      },
+      "boundingBox": {
+        "left": 25,
+        "top": 250,
+        "right": 310,
+        "bottom": 749
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。",
+        "association": "左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。",
+        "collocation": "my son; a young son",
+        "example": "Our son sits beside us.",
+        "exampleChinese": "我们的儿子坐在我们旁边。"
+      }
+    },
+    {
+      "x": 868,
+      "y": 288,
+      "english": "daughter",
+      "chinese": "女儿",
+      "phoneticUS": "/ˈdɔːtər/",
+      "phoneticUK": "/ˈdɔːtə/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 235
+      },
+      "anchorPosition": {
+        "x": 868,
+        "y": 288
+      },
+      "boundingBox": {
+        "left": 722,
+        "top": 275,
+        "right": 991,
+        "bottom": 797
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。",
+        "association": "右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。",
+        "collocation": "my daughter; a young daughter",
+        "example": "Our daughter sits beside us.",
+        "exampleChinese": "我们的女儿坐在我们旁边。"
+      }
+    },
+    {
+      "x": 180,
+      "y": 90,
+      "english": "birth",
+      "chinese": "出生",
+      "phoneticUS": "/bɝːθ/",
+      "phoneticUK": "/bɜːθ/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "叙述宝宝出生这一过去事件，照片不直接证明出生过程。",
+        "association": "叙述宝宝出生这一过去事件，照片不直接证明出生过程。",
+        "collocation": "the birth of a baby; after birth",
+        "example": "We were happy at the birth of our baby.",
+        "exampleChinese": "宝宝出生时，我们很开心。"
+      }
+    },
+    {
+      "x": 460,
+      "y": 490,
+      "english": "care",
+      "chinese": "照料",
+      "phoneticUS": "/ker/",
+      "phoneticUK": "/keə/",
+      "bubblePosition": {
+        "x": 620,
+        "y": 790
+      },
+      "anchorPosition": {
+        "x": 460,
+        "y": 490
+      },
+      "boundingBox": {
+        "left": 283,
+        "top": 328,
+        "right": 638,
+        "bottom": 652
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。",
+        "association": "双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。",
+        "collocation": "give care; love and care",
+        "example": "Our baby needs love and care.",
+        "exampleChinese": "我们的宝宝需要爱与照料。"
+      }
+    },
+    {
+      "x": 470,
+      "y": 336,
+      "english": "kiss",
+      "chinese": "亲吻",
+      "phoneticUS": "/kɪs/",
+      "phoneticUK": "/kɪs/",
+      "bubblePosition": {
+        "x": 470,
+        "y": 250
+      },
+      "anchorPosition": {
+        "x": 470,
+        "y": 336
+      },
+      "boundingBox": {
+        "left": 447,
+        "top": 315,
+        "right": 492,
+        "bottom": 353
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "母亲嘴唇与宝宝额头接触的动作区域。",
+        "association": "母亲嘴唇与宝宝额头接触的动作区域。",
+        "collocation": "kiss the baby; kiss gently",
+        "example": "I kiss the baby on the forehead.",
+        "exampleChinese": "我亲吻宝宝的额头。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 90,
+      "english": "dear",
+      "chinese": "亲爱的",
+      "phoneticUS": "/dɪr/",
+      "phoneticUK": "/dɪə/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "亲爱的称呼由例句表达，不能把宝宝框成dear。",
+        "association": "亲爱的称呼由例句表达，不能把宝宝框成dear。",
+        "collocation": "my dear baby; a dear friend",
+        "example": "You are my dear baby.",
+        "exampleChinese": "你是我亲爱的宝宝。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 90,
+      "english": "love",
+      "chinese": "爱",
+      "phoneticUS": "/lʌv/",
+      "phoneticUK": "/lʌv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "亲密照料与名词love例句，情感不设物体框。",
+        "association": "亲密照料与名词love例句，情感不设物体框。",
+        "collocation": "give love; love and care",
+        "example": "We give our baby love.",
+        "exampleChinese": "我们给予宝宝爱。"
+      }
+    },
+    {
+      "x": 770,
+      "y": 910,
+      "english": "dependent",
+      "chinese": "依赖的",
+      "phoneticUS": "/dɪˈpendənt/",
+      "phoneticUK": "/dɪˈpendənt/",
+      "bubblePosition": {
+        "x": 770,
+        "y": 910
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "dependent on结构明确依赖关系，不从静态姿态推出抽象属性。",
+        "association": "dependent on结构明确依赖关系，不从静态姿态推出抽象属性。",
+        "collocation": "dependent on parents; fully dependent",
+        "example": "The baby is dependent on us.",
+        "exampleChinese": "宝宝依赖我们。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "We give our dear baby love and care every day.",
+    "chinese": "我们每天给予亲爱的宝宝爱与照料。",
+    "source": "原创配文 · C006 照顾小宝宝",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,257 @@
+C095  法庭里的公正
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C095.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C095.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:15:51 UTC
+  提示词文件: prompts/C095_image_final.txt
+
+场景: 模拟法庭展示法官处理犯罪、监禁与惩罚，通过讲解反思残忍和厌恶。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 模拟法官在高桌后，前景空牢房缩小模型可见；犯罪惩罚内心感受由句子，不把参与者当真实被告。
+
+主配文:
+  英文: In a mock court, the judge listens carefully and considers fair punishment.
+  中文: 在模拟法庭里，法官认真听取陈述，考虑公平的惩罚。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): judge, crime, prison, punishment, cruel, hate, disgust, shame
+
+------------------------------------------------------------------------
+[1/8] judge  (W373)
+  词义: 法官
+  词性: noun
+  音标: UK /dʒʌdʒ/ | US /dʒʌdʒ/
+  搭配: a court judge; the judge listens
+  例句: The woman at the raised desk plays the judge.
+  例句高亮: The woman at the raised desk plays the **judge**.
+  例句中文: 高台桌后的女子扮演法官。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（法官），待最终图确认。
+  坐标(normalized): [0.347, 0.178, 0.632, 0.342]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "高台桌后女子，明确扮演法官。"
+    sentence: "The woman at the raised desk plays the judge."
+    matched_form: "judge"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 法官；裁判
+
+------------------------------------------------------------------------
+[2/8] crime  (W169)
+  词义: 犯罪
+  词性: noun
+  音标: UK /kraɪm/ | US /kraɪm/
+  搭配: a serious crime; discuss a crime
+  例句: We discuss a fictional crime in the mock court.
+  例句高亮: We discuss a fictional **crime** in the mock court.
+  例句中文: 我们在模拟法庭讨论一桩虚构犯罪。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We discuss a fictional crime in the mock court.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We discuss a fictional crime in the mock court."
+    matched_form: "crime"
+    context: "由原创例句给出的语境：We discuss a fictional crime in the mock court.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 犯罪
+
+------------------------------------------------------------------------
+[3/8] prison  (W552)
+  词义: 监狱
+  词性: noun
+  音标: UK /ˈprɪzən/ | US /ˈprɪzən/
+  搭配: a prison model; an empty prison cell
+  例句: The small model shows an empty prison cell.
+  例句高亮: The small model shows an empty **prison** cell.
+  例句中文: 这个小模型展示一间空的监狱牢房。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（监狱），待最终图确认。
+  坐标(normalized): [0.39, 0.594, 0.828, 0.845]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "玻璃罩内空牢房模型的床、栏杆和墙。"
+    sentence: "The small model shows an empty prison cell."
+    matched_form: "prison"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 监狱；囚禁
+
+------------------------------------------------------------------------
+[4/8] punishment  (W564)
+  词义: 惩罚
+  词性: noun
+  音标: UK /ˈpʌnɪʃmənt/ | US /ˈpʌnɪʃmənt/
+  搭配: fair punishment; consider punishment
+  例句: The judge considers fair punishment in the story.
+  例句高亮: The judge considers fair **punishment** in the story.
+  例句中文: 故事中的法官考虑公平的惩罚。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The judge considers fair punishment in the story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The judge considers fair punishment in the story."
+    matched_form: "punishment"
+    context: "由原创例句给出的语境：The judge considers fair punishment in the story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 惩罚；处罚
+
+------------------------------------------------------------------------
+[5/8] cruel  (W170)
+  词义: 残忍的
+  词性: adjective
+  音标: UK /ˈkruːəl/ | US /ˈkruːəl/
+  搭配: a cruel act; cruel treatment
+  例句: We explain why cruel treatment is wrong.
+  例句高亮: We explain why **cruel** treatment is wrong.
+  例句中文: 我们解释残忍的对待为什么不对。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We explain why cruel treatment is wrong.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We explain why cruel treatment is wrong."
+    matched_form: "cruel"
+    context: "由原创例句给出的语境：We explain why cruel treatment is wrong.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 残忍的
+
+------------------------------------------------------------------------
+[6/8] hate  (W328)
+  词义: 厌恶
+  词性: verb
+  音标: UK /heɪt/ | US /heɪt/
+  搭配: hate cruelty; hate an act
+  例句: I hate cruelty, but I try to judge facts fairly.
+  例句高亮: I **hate** cruelty, but I try to judge facts fairly.
+  例句中文: 我厌恶残忍，但尽量公平判断事实。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I hate cruelty, but I try to judge facts fairly.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I hate cruelty, but I try to judge facts fairly."
+    matched_form: "hate"
+    context: "由原创例句给出的语境：I hate cruelty, but I try to judge facts fairly.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 憎恨
+
+------------------------------------------------------------------------
+[7/8] disgust  (W205)
+  词义: 厌恶
+  词性: noun
+  音标: UK /dɪsˈɡʌst/ | US /dɪsˈɡʌst/
+  搭配: feel disgust; disgust at cruelty
+  例句: The story makes me feel disgust at cruelty.
+  例句高亮: The story makes me feel **disgust** at cruelty.
+  例句中文: 这个故事让我对残忍感到厌恶。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The story makes me feel disgust at cruelty.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The story makes me feel disgust at cruelty."
+    matched_form: "disgust"
+    context: "由原创例句给出的语境：The story makes me feel disgust at cruelty.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 厌恶
+
+------------------------------------------------------------------------
+[8/8] shame  (W642)
+  词义: 羞愧
+  词性: noun
+  音标: UK /ʃeɪm/ | US /ʃeɪm/
+  搭配: feel shame; a sense of shame
+  例句: The fictional speaker describes a feeling of shame.
+  例句高亮: The fictional speaker describes a feeling of **shame**.
+  例句中文: 虚构的发言者描述羞愧的感受。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The fictional speaker describes a feeling of shame.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The fictional speaker describes a feeling of shame."
+    matched_form: "shame"
+    context: "由原创例句给出的语境：The fictional speaker describes a feeling of shame.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 羞耻
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 6
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C095 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Educational mock court in a bright modest hall, adult female judge about 25 seated behind raised plain wooden desk, adult participants either side listening, blank documents, a small tabletop model of an empty prison cell with bars in separate glass case foreground. No real defendants, actual captivity, chains, shame imagery or readable legal text. Cool Korean refined editorial environmental portrait.

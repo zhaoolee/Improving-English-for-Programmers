@@ -1,0 +1,226 @@
+C085  绳索和小机关
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C085.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C085.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:02:35 UTC
+  提示词文件: prompts/C085_image_final.txt
+
+场景: 工作台上链条、绳索、带状绳、棍、旋拧机关与悬挂模型。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 双手拧白绳，棍架悬挂纸形，左银链和右纸卷清楚，折叠只标结果并用句子明确动作。
+
+主配文:
+  英文: I twist the cord, fold the paper, and place a roll beside the hanging model.
+  中文: 我拧起绳子、折好纸，把一卷纸放在悬挂模型旁。
+  类型: original | 来源: None | 状态: final
+
+目标词 (7): chain, cord, stick, hanging, twist, fold, roll
+
+------------------------------------------------------------------------
+[1/7] chain  (W121)
+  词义: 链条
+  词性: noun
+  音标: UK /tʃeɪn/ | US /tʃeɪn/
+  搭配: a short chain; a metal chain
+  例句: The short chain lies on the bench.
+  例句高亮: The short **chain** lies on the bench.
+  例句中文: 短链条放在工作台上。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（链条），待最终图确认。
+  坐标(normalized): [0.068, 0.788, 0.201, 0.822]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "桌左银色短链。"
+    sentence: "The short chain lies on the bench."
+    matched_form: "chain"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 链条
+
+------------------------------------------------------------------------
+[2/7] cord  (W160)
+  词义: 绳索
+  词性: noun
+  音标: UK /kɔːd/ | US /kɔːrd/
+  搭配: a cotton cord; a length of cord
+  例句: I hold two strands of cord.
+  例句高亮: I hold two strands of **cord**.
+  例句中文: 我拿着两股绳索。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（绳索），待最终图确认。
+  坐标(normalized): [0.348, 0.474, 0.522, 0.516]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双手中的两股白绳。"
+    sentence: "I hold two strands of cord."
+    matched_form: "cord"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 绳子
+
+------------------------------------------------------------------------
+[3/7] stick  (W705)
+  词义: 棍
+  词性: noun
+  音标: UK /stɪk/ | US /stɪk/
+  搭配: a wooden stick; a straight stick
+  例句: The wooden stick supports the hanging shape.
+  例句高亮: The wooden **stick** supports the hanging shape.
+  例句中文: 木棍支撑着悬挂的形状。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（棍），待最终图确认。
+  坐标(normalized): [0.413, 0.63, 0.94, 0.661]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "支架间横放的木棍。"
+    sentence: "The wooden stick supports the hanging shape."
+    matched_form: "stick"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 棍子
+
+------------------------------------------------------------------------
+[4/7] hanging  (W322)
+  词义: 悬挂着的
+  词性: adjective
+  音标: UK /ˈhæŋɪŋ/ | US /ˈhæŋɪŋ/
+  搭配: a hanging shape; hanging from
+  例句: The paper shape is hanging from the stick.
+  例句高亮: The paper shape is **hanging** from the stick.
+  例句中文: 纸做的形状悬挂在木棍上。
+  标注模式: relation
+  标注说明: 场景中体现的关系（悬挂着的），待最终图确认。
+  坐标(normalized): [0.598, 0.642, 0.74, 0.818]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "由绳挂在木棍下的白纸形。"
+    sentence: "The paper shape is hanging from the stick."
+    matched_form: "hanging"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 悬挂
+
+------------------------------------------------------------------------
+[5/7] twist  (W786)
+  词义: 拧
+  词性: verb
+  音标: UK /twɪst/ | US /twɪst/
+  搭配: twist a cord; twist together
+  例句: I twist the two strands together.
+  例句高亮: I **twist** the two strands together.
+  例句中文: 我把这两股拧在一起。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（拧），待最终图确认。
+  坐标(normalized): [0.27, 0.435, 0.666, 0.578]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双手将白绳拧在一起的动作。"
+    sentence: "I twist the two strands together."
+    matched_form: "twist"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 扭曲
+
+------------------------------------------------------------------------
+[6/7] fold  (W278)
+  词义: 折叠
+  词性: verb
+  音标: UK /fəʊld/ | US /foʊld/
+  搭配: fold paper; fold in half
+  例句: I fold the paper in half in the story.
+  例句高亮: I **fold** the paper in half in the story.
+  例句中文: 故事中，我把纸对折。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（折叠），待最终图确认。
+  坐标(normalized): [0.099, 0.816, 0.483, 0.965]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景折叠纸的结果；折纸动作由故事说明。"
+    sentence: "I fold the paper in half in the story."
+    matched_form: "fold"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 折叠；褶皱
+
+------------------------------------------------------------------------
+[7/7] roll  (W603)
+  词义: 卷
+  词性: noun
+  音标: UK /rəʊl/ | US /roʊl/
+  搭配: a paper roll; a small roll
+  例句: A paper roll rests on the right.
+  例句高亮: A paper **roll** rests on the right.
+  例句中文: 一卷纸放在右侧。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（卷），待最终图确认。
+  坐标(normalized): [0.803, 0.722, 0.998, 0.948]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧圆柱纸卷。"
+    sentence: "A paper roll rests on the right."
+    matched_form: "roll"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 卷；滚动
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 7
+  content_entries_complete: 7
+  sentence_evidence_complete: 7
+  verified_targets: 7
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C085 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at crisp craft workbench twisting two strands of plain cotton cord together. Short silver chain separate left, wooden stick spanning small supports with a light plain paper shape hanging by a cord loop, clearly folded white paper foreground and cylindrical paper roll right. No text, no brands, safe small tabletop mechanism, cool editorial lighting, realistic hands and distinct objects.

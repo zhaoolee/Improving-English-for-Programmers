@@ -1,0 +1,262 @@
+{
+  "filename": "C061-课堂里的学习.png",
+  "labels": [
+    {
+      "x": 506,
+      "y": 658,
+      "english": "school",
+      "chinese": "学校",
+      "phoneticUS": "/skuːl/",
+      "phoneticUK": "/skuːl/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 880
+      },
+      "anchorPosition": {
+        "x": 506,
+        "y": 658
+      },
+      "boundingBox": {
+        "left": 15,
+        "top": 336,
+        "right": 998,
+        "bottom": 981
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（学校），待最终图确认。",
+        "association": "场景中体现的具体对象（学校），待最终图确认。",
+        "collocation": "at school; go to school",
+        "example": "We study at a school in the evening.",
+        "exampleChinese": "我们晚上在一所学校学习。"
+      }
+    },
+    {
+      "x": 488,
+      "y": 278,
+      "english": "teaching",
+      "chinese": "教学",
+      "phoneticUS": "/ˈtiːtʃɪŋ/",
+      "phoneticUK": "/ˈtiːtʃɪŋ/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 260
+      },
+      "anchorPosition": {
+        "x": 488,
+        "y": 278
+      },
+      "boundingBox": {
+        "left": 221,
+        "top": 109,
+        "right": 756,
+        "bottom": 448
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（教学），待最终图确认。",
+        "association": "场景中体现的具体动作（教学），待最终图确认。",
+        "collocation": "language teaching; teaching method",
+        "example": "Her teaching helps us understand the lesson.",
+        "exampleChinese": "她的教学帮助我们理解这节课。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 150,
+      "english": "learning",
+      "chinese": "学习",
+      "phoneticUS": "/ˈlɝːnɪŋ/",
+      "phoneticUK": "/ˈlɜːnɪŋ/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 150
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Learning a language takes practice.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Learning a language takes practice.；不声称该状态/含义本身在画面可见。",
+        "collocation": "language learning; keep learning",
+        "example": "Learning a language takes practice.",
+        "exampleChinese": "学习一门语言需要练习。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 290,
+      "english": "education",
+      "chinese": "教育",
+      "phoneticUS": "/ˌedʒəˈkeɪʃən/",
+      "phoneticUK": "/ˌedʒʊˈkeɪʃən/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 290
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Adult education gives us another chance to learn.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Adult education gives us another chance to learn.；不声称该状态/含义本身在画面可见。",
+        "collocation": "adult education; school education",
+        "example": "Adult education gives us another chance to learn.",
+        "exampleChinese": "成人教育给我们再次学习的机会。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 420,
+      "english": "knowledge",
+      "chinese": "知识",
+      "phoneticUS": "/ˈnɑːlɪdʒ/",
+      "phoneticUK": "/ˈnɒlɪdʒ/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 420
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We gain knowledge from books and lessons.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We gain knowledge from books and lessons.；不声称该状态/含义本身在画面可见。",
+        "collocation": "gain knowledge; share knowledge",
+        "example": "We gain knowledge from books and lessons.",
+        "exampleChinese": "我们从书本和课堂中获得知识。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 550,
+      "english": "language",
+      "chinese": "语言",
+      "phoneticUS": "/ˈlæŋɡwɪdʒ/",
+      "phoneticUK": "/ˈlæŋɡwɪdʒ/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 550
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I practice a new language with my class.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I practice a new language with my class.；不声称该状态/含义本身在画面可见。",
+        "collocation": "learn a language; spoken language",
+        "example": "I practice a new language with my class.",
+        "exampleChinese": "我和班上的同学练习一门新语言。"
+      }
+    },
+    {
+      "x": 445,
+      "y": 361,
+      "english": "book",
+      "chinese": "书",
+      "phoneticUS": "/bʊk/",
+      "phoneticUK": "/bʊk/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 515
+      },
+      "anchorPosition": {
+        "x": 445,
+        "y": 361
+      },
+      "boundingBox": {
+        "left": 331,
+        "top": 317,
+        "right": 560,
+        "bottom": 406
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（书），待最终图确认。",
+        "association": "场景中体现的具体对象（书），待最终图确认。",
+        "collocation": "open a book; read a book",
+        "example": "The teacher holds an open book.",
+        "exampleChinese": "老师拿着一本打开的书。"
+      }
+    },
+    {
+      "x": 748,
+      "y": 548,
+      "english": "chalk",
+      "chinese": "粉笔",
+      "phoneticUS": "/tʃɔːk/",
+      "phoneticUK": "/tʃɔːk/",
+      "bubblePosition": {
+        "x": 570,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 748,
+        "y": 548
+      },
+      "boundingBox": {
+        "left": 705,
+        "top": 538,
+        "right": 792,
+        "bottom": 558
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（粉笔），待最终图确认。",
+        "association": "场景中体现的具体对象（粉笔），待最终图确认。",
+        "collocation": "a piece of chalk; write in chalk",
+        "example": "White chalk rests on the ledge.",
+        "exampleChinese": "白色粉笔放在托架上。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "The teacher opens a book and uses chalk to help us learn a language.",
+    "chinese": "老师打开一本书，用粉笔帮助我们学习一门语言。",
+    "source": "原创配文 · C061 课堂里的学习",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

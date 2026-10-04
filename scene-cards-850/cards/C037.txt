@@ -1,0 +1,252 @@
+C037  港口启航
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C037.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C037.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:16:08Z
+  提示词文件: prompts/C037_image_final.txt
+
+场景: 港口中小艇与大船并列，帆展开，主角登船离岸。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 大船与小艇独立，船帆、港湾、海水、岸边白浪可辨。围巾提供风的线索，不作为风本体；向导身份来自故事。
+
+主配文:
+  英文: A small boat waits in the harbor, while a sail catches the breeze.
+  中文: 一条小艇停在港口里，一面船帆迎着微风。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): harbor, ship, boat, sail, sea, wave, wind, guide
+
+------------------------------------------------------------------------
+[1/8] harbor  (W324)
+  词义: 港口
+  词性: noun
+  音标: UK /ˈhɑːbə/ | US /ˈhɑːrbər/
+  搭配: a quiet harbor
+  例句: The harbor shelters the boats.
+  例句高亮: The **harbor** shelters the boats.
+  例句中文: 港口为船只提供庇护。
+  标注模式: object
+  标注说明: 码头、停泊船与港湾的可见区域。
+  坐标(normalized): [0.0, 0.233, 0.742, 0.483]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "码头、停泊船与港湾的可见区域。"
+    sentence: "The harbor shelters the boats."
+    matched_form: "harbor"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 港口
+
+------------------------------------------------------------------------
+[2/8] ship  (W646)
+  词义: 大船
+  词性: noun
+  音标: UK /ʃɪp/ | US /ʃɪp/
+  搭配: a passenger ship
+  例句: A large ship waits beyond the dock.
+  例句高亮: A large **ship** waits beyond the dock.
+  例句中文: 一艘大船停在码头外。
+  标注模式: object
+  标注说明: 远处大型船舶，区别近处小艇。
+  坐标(normalized): [0.723, 0.262, 0.998, 0.403]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "远处大型船舶，区别近处小艇。"
+    sentence: "A large ship waits beyond the dock."
+    matched_form: "ship"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 船
+
+------------------------------------------------------------------------
+[3/8] boat  (W079)
+  词义: 小艇
+  词性: noun
+  音标: UK /bəʊt/ | US /boʊt/
+  搭配: a sailing boat
+  例句: The small boat is beside the dock.
+  例句高亮: The small **boat** is beside the dock.
+  例句中文: 小艇在码头旁。
+  标注模式: object
+  标注说明: 近处独立帆艇船体。
+  坐标(normalized): [0.801, 0.478, 0.999, 0.56]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "近处独立帆艇船体。"
+    sentence: "The small boat is beside the dock."
+    matched_form: "boat"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 船
+
+------------------------------------------------------------------------
+[4/8] sail  (W614)
+  词义: 船帆
+  词性: noun
+  音标: UK /seɪl/ | US /seɪl/
+  搭配: a white sail
+  例句: The boat has a white sail.
+  例句高亮: The boat has a white **sail**.
+  例句中文: 这条艇有一面白色船帆。
+  标注模式: object
+  标注说明: 实际白色三角船帆，选名词义。
+  坐标(normalized): [0.868, 0.167, 0.995, 0.482]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际白色三角船帆，选名词义。"
+    sentence: "The boat has a white sail."
+    matched_form: "sail"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 航行；航海
+
+------------------------------------------------------------------------
+[5/8] sea  (W624)
+  词义: 海
+  词性: noun
+  音标: UK /siː/ | US /siː/
+  搭配: the open sea
+  例句: The sea stretches beyond the harbor.
+  例句高亮: The **sea** stretches beyond the harbor.
+  例句中文: 大海在港口外延伸。
+  标注模式: object
+  标注说明: 港口外独立可见海水区域。
+  坐标(normalized): [0.64, 0.56, 0.99, 0.838]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "港口外独立可见海水区域。"
+    sentence: "The sea stretches beyond the harbor."
+    matched_form: "sea"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 海
+
+------------------------------------------------------------------------
+[6/8] wave  (W808)
+  词义: 波浪
+  词性: noun
+  音标: UK /weɪv/ | US /weɪv/
+  搭配: a small wave
+  例句: A small wave reaches the dock.
+  例句高亮: A small **wave** reaches the dock.
+  例句中文: 一阵小波浪来到码头边。
+  标注模式: object
+  标注说明: 码头旁可辨水面波峰。
+  坐标(normalized): [0.658, 0.832, 0.995, 0.949]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "码头旁可辨水面波峰。"
+    sentence: "A small wave reaches the dock."
+    matched_form: "wave"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 波浪
+
+------------------------------------------------------------------------
+[7/8] wind  (W828)
+  词义: 风
+  词性: noun
+  音标: UK /wɪnd/ | US /wɪnd/
+  搭配: a light wind
+  例句: The wind lifts my scarf.
+  例句高亮: The **wind** lifts my scarf.
+  例句中文: 风吹起我的围巾。
+  标注模式: context
+  标注说明: 围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The wind lifts my scarf."
+    matched_form: "wind"
+    context: "围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 风
+
+------------------------------------------------------------------------
+[8/8] guide  (W317)
+  词义: 向导
+  词性: noun
+  音标: UK /ɡaɪd/ | US /ɡaɪd/
+  搭配: a local guide
+  例句: The guide shows me the boat.
+  例句高亮: The **guide** shows me the boat.
+  例句中文: 向导指给我看那条艇。
+  标注模式: object
+  标注说明: 故事设定的指船人物，仅定位人物，职业由句子说明。
+  坐标(normalized): [0.31, 0.306, 0.798, 0.997]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "故事设定的指船人物，仅定位人物，职业由句子说明。"
+    sentence: "The guide shows me the boat."
+    matched_form: "guide"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 指导；导游
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C037 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One harbor travel editorial: woman and adult female guide on stone dock at left, guide gestures toward small sailing boat at right with a clear single white triangular sail. A much larger passenger ship sits farther back at upper right, distinct from small boat. Calm open sea beyond harbor entrance, one modest wave beside dock, natural breeze lifts woman scarf. Guide identity from story. Safe stationary posing, no overloaded vessel, no text.

@@ -1,0 +1,321 @@
+{
+  "filename": "C008-打扫与晾干.png",
+  "labels": [
+    {
+      "x": 153,
+      "y": 396,
+      "english": "dirty",
+      "chinese": "脏的",
+      "phoneticUS": "/ˈdɝːti/",
+      "phoneticUK": "/ˈdɜːti/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 90
+      },
+      "anchorPosition": {
+        "x": 153,
+        "y": 396
+      },
+      "boundingBox": {
+        "left": 2,
+        "top": 314,
+        "right": 304,
+        "bottom": 477
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅桌面明显可见的灰尘与脏污，dirty描述该桌面区域。",
+        "association": "上幅桌面明显可见的灰尘与脏污，dirty描述该桌面区域。",
+        "collocation": "a dirty table; be dirty",
+        "example": "The table is dirty before I wipe it.",
+        "exampleChinese": "擦拭前，桌子很脏。"
+      }
+    },
+    {
+      "x": 165,
+      "y": 420,
+      "english": "dust",
+      "chinese": "灰尘",
+      "phoneticUS": "/dʌst/",
+      "phoneticUK": "/dʌst/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 355
+      },
+      "anchorPosition": {
+        "x": 165,
+        "y": 420
+      },
+      "boundingBox": {
+        "left": 2,
+        "top": 314,
+        "right": 304,
+        "bottom": 477
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框上幅桌面明确可辨的积尘区域。",
+        "association": "框上幅桌面明确可辨的积尘区域。",
+        "collocation": "dust on the table; remove dust",
+        "example": "There is dust on the table.",
+        "exampleChinese": "桌上有灰尘。"
+      }
+    },
+    {
+      "x": 347,
+      "y": 381,
+      "english": "sponge",
+      "chinese": "海绵",
+      "phoneticUS": "/spʌndʒ/",
+      "phoneticUK": "/spʌndʒ/",
+      "bubblePosition": {
+        "x": 425,
+        "y": 445
+      },
+      "anchorPosition": {
+        "x": 347,
+        "y": 381
+      },
+      "boundingBox": {
+        "left": 286,
+        "top": 345,
+        "right": 405,
+        "bottom": 398
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位手下黄色多孔海绵，不含整只手。",
+        "association": "定位手下黄色多孔海绵，不含整只手。",
+        "collocation": "a wet sponge; wipe with a sponge",
+        "example": "I wipe the table with a sponge.",
+        "exampleChinese": "我用海绵擦桌子。"
+      }
+    },
+    {
+      "x": 890,
+      "y": 439,
+      "english": "bucket",
+      "chinese": "桶",
+      "phoneticUS": "/ˈbʌkɪt/",
+      "phoneticUK": "/ˈbʌkɪt/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 275
+      },
+      "anchorPosition": {
+        "x": 890,
+        "y": 439
+      },
+      "boundingBox": {
+        "left": 784,
+        "top": 357,
+        "right": 978,
+        "bottom": 498
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框上幅蓝色水桶及桶口。",
+        "association": "框上幅蓝色水桶及桶口。",
+        "collocation": "a bucket of water; a blue bucket",
+        "example": "The bucket holds water.",
+        "exampleChinese": "桶里装着水。"
+      }
+    },
+    {
+      "x": 854,
+      "y": 752,
+      "english": "wet",
+      "chinese": "湿的",
+      "phoneticUS": "/wet/",
+      "phoneticUK": "/wet/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 455
+      },
+      "anchorPosition": {
+        "x": 854,
+        "y": 752
+      },
+      "boundingBox": {
+        "left": 737,
+        "top": 647,
+        "right": 970,
+        "bottom": 856
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅晾晒布的实际区域；洗后湿布由原创句子明确，框只定位布，不从颜色测量湿度。",
+        "association": "下幅晾晒布的实际区域；洗后湿布由原创句子明确，框只定位布，不从颜色测量湿度。",
+        "collocation": "a wet cloth; be wet",
+        "example": "The cloth is wet after washing.",
+        "exampleChinese": "洗过之后，布是湿的。"
+      }
+    },
+    {
+      "x": 829,
+      "y": 717,
+      "english": "dry",
+      "chinese": "晾干",
+      "phoneticUS": "/draɪ/",
+      "phoneticUK": "/draɪ/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 575
+      },
+      "anchorPosition": {
+        "x": 829,
+        "y": 717
+      },
+      "boundingBox": {
+        "left": 667,
+        "top": 570,
+        "right": 991,
+        "bottom": 864
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (intransitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅双手把布挂到晾架的动作区域；dry为晾干过程，句子to dry说明目的，不声称布已干透。",
+        "association": "下幅双手把布挂到晾架的动作区域；dry为晾干过程，句子to dry说明目的，不声称布已干透。",
+        "collocation": "leave it to dry; hang it to dry",
+        "example": "I hang the cloth to dry.",
+        "exampleChinese": "我把布挂起来晾干。"
+      }
+    },
+    {
+      "x": 350,
+      "y": 363,
+      "english": "rub",
+      "chinese": "擦",
+      "phoneticUS": "/rʌb/",
+      "phoneticUK": "/rʌb/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 335
+      },
+      "anchorPosition": {
+        "x": 350,
+        "y": 363
+      },
+      "boundingBox": {
+        "left": 298,
+        "top": 311,
+        "right": 414,
+        "bottom": 398
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅手持海绵贴着桌面的擦拭动作区域。",
+        "association": "上幅手持海绵贴着桌面的擦拭动作区域。",
+        "collocation": "rub the table; rub with a sponge",
+        "example": "I rub the table with a sponge.",
+        "exampleChinese": "我用海绵擦桌子。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 750,
+      "english": "cloth",
+      "chinese": "布",
+      "phoneticUS": "/klɑːθ/",
+      "phoneticUK": "/klɒθ/",
+      "bubblePosition": {
+        "x": 840,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 860,
+        "y": 750
+      },
+      "boundingBox": {
+        "left": 737,
+        "top": 647,
+        "right": 970,
+        "bottom": 856
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框下幅挂起的浅蓝清洁布。",
+        "association": "只框下幅挂起的浅蓝清洁布。",
+        "collocation": "a cleaning cloth; a wet cloth",
+        "example": "The cloth hangs on the rack.",
+        "exampleChinese": "布挂在晾晒架上。"
+      }
+    },
+    {
+      "x": 200,
+      "y": 895,
+      "english": "do",
+      "chinese": "做",
+      "phoneticUS": "/duː/",
+      "phoneticUK": "/duː/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 895
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "do the cleaning具体自然搭配；高亮do，不给功能动词物体框。",
+        "association": "do the cleaning具体自然搭配；高亮do，不给功能动词物体框。",
+        "collocation": "do the cleaning; do housework",
+        "example": "I do the cleaning every week.",
+        "exampleChinese": "我每周打扫。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I rub the dirty table, then hang the wet cloth to dry.",
+    "chinese": "我擦拭脏桌子，然后把湿布挂起来晾干。",
+    "source": "原创配文 · C008 打扫与晾干",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

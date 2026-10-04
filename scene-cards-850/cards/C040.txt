@@ -1,0 +1,335 @@
+C040  日历上的旅行
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C040.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C040.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:12:37Z
+  提示词文件: prompts/C040_image_final.txt
+
+场景: 主角指着日历与手表；旁白呈现小时、分钟、年月周、明天、何时、迟到与直到某时。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 实体手表与空白日历格可见，无可读日期；time定位显示载体，不声称精确读时。其余时长/日期/疑问词由例句支持，无虚假框。
+
+主配文:
+  英文: My watch is ready, and tomorrow has a place on the calendar.
+  中文: 手表已备好，明天也在日历上留有一个位置。
+  类型: original | 来源: None | 状态: final
+
+目标词 (11): time, hour, minute, watch, week, month, year, tomorrow, when, till, late
+
+------------------------------------------------------------------------
+[1/11] time  (W764)
+  词义: 时间
+  词性: noun
+  音标: UK /taɪm/ | US /taɪm/
+  搭配: check the time
+  例句: I check the time on my watch.
+  例句高亮: I check the **time** on my watch.
+  例句中文: 我看手表确认时间。
+  标注模式: object
+  标注说明: 表盘作为本句时间的显示载体，不声称读出准确时刻。
+  坐标(normalized): [0.65, 0.488, 0.743, 0.537]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "表盘作为本句时间的显示载体，不声称读出准确时刻。"
+    sentence: "I check the time on my watch."
+    matched_form: "time"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 时间
+
+------------------------------------------------------------------------
+[2/11] hour  (W347)
+  词义: 小时
+  词性: noun
+  音标: UK /ˈaʊə/ | US /ˈaʊər/
+  搭配: one hour
+  例句: The journey takes one hour.
+  例句高亮: The journey takes one **hour**.
+  例句中文: 旅程需要一小时。
+  标注模式: context
+  标注说明: 持续时长由句子提供，空白表盘不证明一小时。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The journey takes one hour."
+    matched_form: "hour"
+    context: "持续时长由句子提供，空白表盘不证明一小时。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 小时
+
+------------------------------------------------------------------------
+[3/11] minute  (W445)
+  词义: 分钟
+  词性: noun
+  音标: UK /ˈmɪnɪt/ | US /ˈmɪnɪt/
+  搭配: one minute
+  例句: I wait one minute before leaving.
+  例句高亮: I wait one **minute** before leaving.
+  例句中文: 出发前我等一分钟。
+  标注模式: context
+  标注说明: 持续时间由句子说明，无物体框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I wait one minute before leaving."
+    matched_form: "minute"
+    context: "持续时间由句子说明，无物体框。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 分钟
+
+------------------------------------------------------------------------
+[4/11] watch  (W806)
+  词义: 手表
+  词性: noun
+  音标: UK /wɒtʃ/ | US /wɑːtʃ/
+  搭配: a wrist watch
+  例句: My watch is on my wrist.
+  例句高亮: My **watch** is on my wrist.
+  例句中文: 手表在我的手腕上。
+  标注模式: object
+  标注说明: 腕上的实际手表整体。
+  坐标(normalized): [0.65, 0.488, 0.743, 0.537]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "腕上的实际手表整体。"
+    sentence: "My watch is on my wrist."
+    matched_form: "watch"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 手表
+
+------------------------------------------------------------------------
+[5/11] week  (W812)
+  词义: 星期
+  词性: noun
+  音标: UK /wiːk/ | US /wiːk/
+  搭配: next week
+  例句: We travel next week.
+  例句高亮: We travel next **week**.
+  例句中文: 我们下周旅行。
+  标注模式: context
+  标注说明: 空白七列只提示日历结构，不假读具体周次。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We travel next week."
+    matched_form: "week"
+    context: "空白七列只提示日历结构，不假读具体周次。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 周
+
+------------------------------------------------------------------------
+[6/11] month  (W450)
+  词义: 月份
+  词性: noun
+  音标: UK /mʌnθ/ | US /mʌnθ/
+  搭配: next month
+  例句: We plan another trip next month.
+  例句高亮: We plan another trip next **month**.
+  例句中文: 我们计划下个月再旅行。
+  标注模式: context
+  标注说明: 月份来自原创句子，不读取空白日历。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We plan another trip next month."
+    matched_form: "month"
+    context: "月份来自原创句子，不读取空白日历。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 月份
+
+------------------------------------------------------------------------
+[7/11] year  (W845)
+  词义: 年
+  词性: noun
+  音标: UK /jɪə/ | US /jɪr/
+  搭配: this year
+  例句: I visit the island this year.
+  例句高亮: I visit the island this **year**.
+  例句中文: 我今年去那座岛。
+  标注模式: context
+  标注说明: 年份由句子给出，图中无可读年份。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I visit the island this year."
+    matched_form: "year"
+    context: "年份由句子给出，图中无可读年份。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 年
+
+------------------------------------------------------------------------
+[8/11] tomorrow  (W770)
+  词义: 明天
+  词性: adverb
+  音标: UK /təˈmɒrəʊ/ | US /təˈmɑːroʊ/
+  搭配: leave tomorrow
+  例句: We leave tomorrow morning.
+  例句高亮: We leave **tomorrow** morning.
+  例句中文: 我们明天早晨出发。
+  标注模式: context
+  标注说明: 相对日期由故事说明，蓝点不自动等于明天。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We leave tomorrow morning."
+    matched_form: "tomorrow"
+    context: "相对日期由故事说明，蓝点不自动等于明天。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 明天
+
+------------------------------------------------------------------------
+[9/11] when  (W818)
+  词义: 什么时候
+  词性: adverb
+  音标: UK /wen/ | US /wen/
+  搭配: when do
+  例句: When do we leave?
+  例句高亮: **When** do we leave?
+  例句中文: 我们什么时候出发？
+  标注模式: context
+  标注说明: 问时间的疑问词以完整句解释。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "When do we leave?"
+    matched_form: "when"
+    context: "问时间的疑问词以完整句解释。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 何时
+
+------------------------------------------------------------------------
+[10/11] till  (W763)
+  词义: 直到
+  词性: preposition
+  音标: UK /tɪl/ | US /tɪl/
+  搭配: till noon
+  例句: We stay here till noon.
+  例句高亮: We stay here **till** noon.
+  例句中文: 我们在这里待到中午。
+  标注模式: context
+  标注说明: 时间终点介词由句子解释。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We stay here till noon."
+    matched_form: "till"
+    context: "时间终点介词由句子解释。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 直到
+
+------------------------------------------------------------------------
+[11/11] late  (W388)
+  词义: 迟到的
+  词性: adjective
+  音标: UK /leɪt/ | US /leɪt/
+  搭配: be late
+  例句: I do not want to be late.
+  例句高亮: I do not want to be **late**.
+  例句中文: 我不想迟到。
+  标注模式: context
+  标注说明: 迟到状态不由静态图推断。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I do not want to be late."
+    matched_form: "late"
+    context: "迟到状态不由静态图推断。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 迟的；晚的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 11
+  content_entries_complete: 11
+  sentence_evidence_complete: 11
+  verified_targets: 11
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 9
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C040 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One calm hotel-room travel-planning editorial. Woman seated at small desk at right, looks down at open large paper calendar spread flat at lower left; calendar has ONLY a clean seven-column grid of blank squares, no letters or digits. One square marked with a simple muted blue dot, no text. Her left wrist clearly displays a round analogue watch with plain tick marks, hour and minute hands, no numerals or branding; wrist rests near calendar and is readable. Airy blank wall and gentle daylight, authentic fingers. Calendar is only a context cue; do not invent readable dates.

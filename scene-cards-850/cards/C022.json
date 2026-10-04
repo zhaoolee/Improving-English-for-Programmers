@@ -1,0 +1,377 @@
+{
+  "id": "C022",
+  "chapter": "穿衣与购物",
+  "title": "门口换鞋",
+  "scene": "鞋架上有鞋、靴子、短袜和长袜，帽子与手套挂在旁。",
+  "target_count": 8,
+  "primary_words": [
+    "shoe",
+    "boot",
+    "sock",
+    "stocking",
+    "hat",
+    "glove",
+    "bag",
+    "leather"
+  ],
+  "targets": [
+    {
+      "word_id": "W649",
+      "word": "shoe",
+      "aliases": [],
+      "source_zh_unreviewed": "鞋",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "鞋",
+      "pos": "noun",
+      "ipa_us": "/ʃuː/",
+      "ipa_uk": "/ʃuː/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "前景一只低帮白鞋",
+        "sentence": "A white shoe is beside the bench.",
+        "matched_form": "shoe",
+        "image_verified": true
+      },
+      "example_en": "A white shoe is beside the bench.",
+      "example_zh": "一只白鞋在长凳旁边。",
+      "bbox_normalized": [
+        0.054,
+        0.71,
+        0.143,
+        0.84
+      ],
+      "collocations": [
+        "a white shoe"
+      ],
+      "example_en_highlighted": "A white **shoe** is beside the bench.",
+      "annotation_mode": "object",
+      "annotation_note": "前景一只低帮白鞋",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W084",
+      "word": "boot",
+      "aliases": [],
+      "source_zh_unreviewed": "靴子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "靴子",
+      "pos": "noun",
+      "ipa_us": "/buːt/",
+      "ipa_uk": "/buːt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "前景一只高筒棕色靴子",
+        "sentence": "The boot covers the ankle.",
+        "matched_form": "boot",
+        "image_verified": true
+      },
+      "example_en": "The boot covers the ankle.",
+      "example_zh": "这只靴子盖住脚踝。",
+      "bbox_normalized": [
+        0.793,
+        0.587,
+        0.89,
+        0.901
+      ],
+      "collocations": [
+        "a tall boot"
+      ],
+      "example_en_highlighted": "The **boot** covers the ankle.",
+      "annotation_mode": "object",
+      "annotation_note": "前景一只高筒棕色靴子",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W678",
+      "word": "sock",
+      "aliases": [],
+      "source_zh_unreviewed": "短袜",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "短袜",
+      "pos": "noun",
+      "ipa_us": "/sɑːk/",
+      "ipa_uk": "/sɒk/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "长凳上短灰袜，与独立长袜区分",
+        "sentence": "The sock is short.",
+        "matched_form": "sock",
+        "image_verified": true
+      },
+      "example_en": "The sock is short.",
+      "example_zh": "这只袜子是短袜。",
+      "bbox_normalized": [
+        0.131,
+        0.462,
+        0.24,
+        0.529
+      ],
+      "collocations": [
+        "an ankle sock"
+      ],
+      "example_en_highlighted": "The **sock** is short.",
+      "annotation_mode": "object",
+      "annotation_note": "长凳上短灰袜，与独立长袜区分",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W710",
+      "word": "stocking",
+      "aliases": [],
+      "source_zh_unreviewed": "长袜",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "长筒袜",
+      "pos": "noun",
+      "ipa_us": "/ˈstɑːkɪŋ/",
+      "ipa_uk": "/ˈstɒkɪŋ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "长凳上独立薄黑长筒袜，非连裤袜，长度由设定明确",
+        "sentence": "The stocking reaches the knee.",
+        "matched_form": "stocking",
+        "image_verified": true
+      },
+      "example_en": "The stocking reaches the knee.",
+      "example_zh": "这只长筒袜到膝盖。",
+      "bbox_normalized": [
+        0.221,
+        0.444,
+        0.333,
+        0.699
+      ],
+      "collocations": [
+        "a long stocking"
+      ],
+      "example_en_highlighted": "The **stocking** reaches the knee.",
+      "annotation_mode": "object",
+      "annotation_note": "长凳上独立薄黑长筒袜，非连裤袜，长度由设定明确",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W327",
+      "word": "hat",
+      "aliases": [],
+      "source_zh_unreviewed": "帽子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "帽子",
+      "pos": "noun",
+      "ipa_us": "/hæt/",
+      "ipa_uk": "/hæt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "墙上有帽檐的帽子",
+        "sentence": "The hat hangs on the wall.",
+        "matched_form": "hat",
+        "image_verified": true
+      },
+      "example_en": "The hat hangs on the wall.",
+      "example_zh": "帽子挂在墙上。",
+      "bbox_normalized": [
+        0.145,
+        0.019,
+        0.326,
+        0.202
+      ],
+      "collocations": [
+        "a brimmed hat"
+      ],
+      "example_en_highlighted": "The **hat** hangs on the wall.",
+      "annotation_mode": "object",
+      "annotation_note": "墙上有帽檐的帽子",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W303",
+      "word": "glove",
+      "aliases": [],
+      "source_zh_unreviewed": "手套",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "手套",
+      "pos": "noun",
+      "ipa_us": "/ɡlʌv/",
+      "ipa_uk": "/ɡlʌv/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "长凳上一只五指手套",
+        "sentence": "The glove has five fingers.",
+        "matched_form": "glove",
+        "image_verified": true
+      },
+      "example_en": "The glove has five fingers.",
+      "example_zh": "这只手套有五个指头。",
+      "bbox_normalized": [
+        0.765,
+        0.486,
+        0.858,
+        0.544
+      ],
+      "collocations": [
+        "a warm glove"
+      ],
+      "example_en_highlighted": "The **glove** has five fingers.",
+      "annotation_mode": "object",
+      "annotation_note": "长凳上一只五指手套",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W048",
+      "word": "bag",
+      "aliases": [],
+      "source_zh_unreviewed": "袋子；包",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "包",
+      "pos": "noun",
+      "ipa_us": "/bæɡ/",
+      "ipa_uk": "/bæɡ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "棕色手提包整体",
+        "sentence": "The bag has a handle.",
+        "matched_form": "bag",
+        "image_verified": true
+      },
+      "example_en": "The bag has a handle.",
+      "example_zh": "这个包有提手。",
+      "bbox_normalized": [
+        0.693,
+        0.347,
+        0.909,
+        0.501
+      ],
+      "collocations": [
+        "a leather bag"
+      ],
+      "example_en_highlighted": "The **bag** has a handle.",
+      "annotation_mode": "object",
+      "annotation_note": "棕色手提包整体",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W394",
+      "word": "leather",
+      "aliases": [],
+      "source_zh_unreviewed": "皮革",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "皮革",
+      "pos": "noun",
+      "ipa_us": "/ˈleðər/",
+      "ipa_uk": "/ˈleðə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "棕色包的可见区域；leather材质来自原创场景设定，框定位材料制成的对象，不从纹理鉴定成分。",
+        "sentence": "The bag is made of leather.",
+        "matched_form": "leather",
+        "context": "材质身份由原创设定说明，纹理不能单独证明天然皮革",
+        "image_verified": null
+      },
+      "example_en": "The bag is made of leather.",
+      "example_zh": "这个包是皮革制成的。",
+      "bbox_normalized": [
+        0.693,
+        0.347,
+        0.909,
+        0.501
+      ],
+      "collocations": [
+        "made of leather"
+      ],
+      "example_en_highlighted": "The bag is made of **leather**.",
+      "annotation_mode": "object",
+      "annotation_note": "棕色包的可见区域；leather材质来自原创场景设定，框定位材料制成的对象，不从纹理鉴定成分。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I choose my shoes and take my bag before stepping outside.",
+    "zh": "出门前，我选好鞋，再拿上包。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C022\n标题 门口换鞋\n场景 鞋架上有鞋、靴子、短袜和长袜，帽子与手套挂在旁。\n目标词 shoe, boot, sock, stocking, hat, glove, bag, leather\n原创主配文草案 My shoes are in the bag.\n中文草案 我的鞋在包里。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Refined apartment entryway, adult woman sitting on bench in ivory blouse and slate trousers, hands calmly resting, feet modestly framed. Distinct arranged accessories: pair of low white SHOES on floor front-left, tall brown BOOTS floor front-right; one short light-grey ankle SOCK laid flat on bench at left; one separate thin black knee-high STOCKING with reinforced top band spread out on bench beside sock, full length visible, not tights. Beige brimmed HAT hanging on wall left, pair of grey GLOVES on bench far-right, structured brown LEATHER BAG on bench right with real grain and handle visible. Medium-wide scene, all seven props spaced, understated editorial still life with woman.",
+  "status": "approved",
+  "image_path": "images/C022.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C022 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T23:19:39Z",
+    "ended_at": "2026-10-02T23:22:06Z",
+    "prompt_path": "prompts/C022_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C022.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "白鞋、棕色高筒靴、短灰袜、独立黑长筒袜、帽子、五指手套和手提包均可辨。长筒袜自然垂过凳边，未误作连裤袜；皮革身份由原创设定明确，不单凭纹理认定。人物与手脚自然。"
+  }
+}

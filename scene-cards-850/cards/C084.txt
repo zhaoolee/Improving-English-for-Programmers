@@ -1,0 +1,253 @@
+C084  电路里的连接
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C084.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C084.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:04:04 UTC
+  提示词文件: prompts/C084_image_final.txt
+
+场景: 关闭电源的教学电路展示电线、灯泡、导线及铜黄铜锡材料。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 双手持断开的绝缘线，灯泡未亮，电池分离；铜卷黄铜垫圈锡片分开放置，成分由教学设定。
+
+主配文:
+  英文: The electric circuit is switched off while we inspect its wire and bulb.
+  中文: 我们检查电线和灯泡时，教学电路的电源是关闭的。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): wire, bulb, electric, copper, brass, tin, power, current
+
+------------------------------------------------------------------------
+[1/8] wire  (W833)
+  词义: 电线
+  词性: noun
+  音标: UK /waɪə/ | US /waɪr/
+  搭配: an insulated wire; a copper wire
+  例句: The wire lies beside the bulb.
+  例句高亮: The **wire** lies beside the bulb.
+  例句中文: 电线放在灯泡旁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（电线），待最终图确认。
+  坐标(normalized): [0.271, 0.46, 0.703, 0.74]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "连接灯座但另一端断开的红黑绝缘导线。"
+    sentence: "The wire lies beside the bulb."
+    matched_form: "wire"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 电线
+
+------------------------------------------------------------------------
+[2/8] bulb  (W103)
+  词义: 灯泡
+  词性: noun
+  音标: UK /bʌlb/ | US /bʌlb/
+  搭配: a small bulb; a light bulb
+  例句: The small bulb is not lit.
+  例句高亮: The small **bulb** is not lit.
+  例句中文: 这个小灯泡没有亮。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（灯泡），待最终图确认。
+  坐标(normalized): [0.375, 0.676, 0.425, 0.717]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "灯座上独立小灯泡。"
+    sentence: "The small bulb is not lit."
+    matched_form: "bulb"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 灯泡
+
+------------------------------------------------------------------------
+[3/8] electric  (W231)
+  词义: 电的
+  词性: adjective
+  音标: UK /ɪˈlektrɪk/ | US /ɪˈlektrɪk/
+  搭配: an electric circuit; electric power
+  例句: The electric circuit is switched off.
+  例句高亮: The **electric** circuit is switched off.
+  例句中文: 这个电路的电源是关闭的。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（电的），待最终图确认。
+  坐标(normalized): [0.352, 0.669, 0.909, 0.803]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "灯座导线及分离电池组成教学电路。"
+    sentence: "The electric circuit is switched off."
+    matched_form: "electric"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 电的
+
+------------------------------------------------------------------------
+[4/8] copper  (W158)
+  词义: 铜
+  词性: noun
+  音标: UK /ˈkɒpə/ | US /ˈkɑːpɚ/
+  搭配: copper wire; a copper coil
+  例句: The reddish coil is our copper sample.
+  例句高亮: The reddish coil is our **copper** sample.
+  例句中文: 红褐色线圈是我们的铜样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（铜），待最终图确认。
+  坐标(normalized): [0.072, 0.775, 0.316, 0.862]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景红色线圈，故事指定为铜。"
+    sentence: "The reddish coil is our copper sample."
+    matched_form: "copper"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 铜
+
+------------------------------------------------------------------------
+[5/8] brass  (W091)
+  词义: 黄铜
+  词性: noun
+  音标: UK /brɑːs/ | US /bræs/
+  搭配: a brass washer; made of brass
+  例句: The golden washer is our brass sample.
+  例句高亮: The golden washer is our **brass** sample.
+  例句中文: 金色垫圈是我们的黄铜样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（黄铜），待最终图确认。
+  坐标(normalized): [0.359, 0.822, 0.495, 0.87]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景金色圆垫圈，故事指定黄铜。"
+    sentence: "The golden washer is our brass sample."
+    matched_form: "brass"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 黄铜
+
+------------------------------------------------------------------------
+[6/8] tin  (W765)
+  词义: 锡
+  词性: noun
+  音标: UK /tɪn/ | US /tɪn/
+  搭配: a tin sample; a piece of tin
+  例句: The silver rectangle is our tin sample.
+  例句高亮: The silver rectangle is our **tin** sample.
+  例句中文: 银色长方形片是我们的锡样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（锡），待最终图确认。
+  坐标(normalized): [0.579, 0.837, 0.781, 0.905]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右前银色矩形样品，故事指定锡。"
+    sentence: "The silver rectangle is our tin sample."
+    matched_form: "tin"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 锡
+
+------------------------------------------------------------------------
+[7/8] power  (W548)
+  词义: 电能
+  词性: noun
+  音标: UK /ˈpaʊə/ | US /ˈpaʊɚ/
+  搭配: electric power; switch off the power
+  例句: We switch off the power before checking the circuit.
+  例句高亮: We switch off the **power** before checking the circuit.
+  例句中文: 检查电路前，我们关闭电源。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We switch off the power before checking the circuit.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We switch off the power before checking the circuit."
+    matched_form: "power"
+    context: "由原创例句给出的语境：We switch off the power before checking the circuit.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 力量；权力
+
+------------------------------------------------------------------------
+[8/8] current  (W174)
+  词义: 电流
+  词性: noun
+  音标: UK /ˈkʌrənt/ | US /ˈkɝːənt/
+  搭配: electric current; a flow of current
+  例句: No current flows through the disconnected circuit.
+  例句高亮: No **current** flows through the disconnected circuit.
+  例句中文: 断开的电路没有电流通过。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：No current flows through the disconnected circuit.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "No current flows through the disconnected circuit."
+    matched_form: "current"
+    context: "由原创例句给出的语境：No current flows through the disconnected circuit.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 当前的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C084 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool polished adult woman inspecting safe disconnected low-voltage teaching circuit on board, separate insulated wire and small clear unlit incandescent bulb in holder, battery unplugged visibly separated from circuit. Three distinct teaching samples foreground: reddish copper wire coil, golden brass washer, silver tin rectangular sample. No text or logos, no active mains equipment, clear materials, credible hands. Appearance alone not chemical proof.

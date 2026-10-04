@@ -1,0 +1,278 @@
+C032  穿过一座桥
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C032.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C032.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T08:06:49Z → 2026-10-03T08:10:01Z
+  提示词文件: prompts/C032_image_final.txt
+
+场景: 河上桥梁，人物从近处走向远处，双幅突出跨越和距离。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 前景旅人朝镜头方向行走，远处旅人背向镜头；按成图调整配文，不声称两人同向。实体金属哨子可辨，前景桥栏、远端与桥面空间间隔可定位。近岸未出画不虚构，near改为近处桥栏。 裁剪核对后far定位远处旅人，采用far away副词义；指向线绕开远处人物头部。
+
+主配文:
+  英文: A bridge, two travellers, and a little distance between us.
+  中文: 一座桥，两位旅人，彼此之间隔着一小段距离。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): bridge, across, near, far, distance, from, to, walk, whistle
+
+------------------------------------------------------------------------
+[1/9] bridge  (W095)
+  词义: 桥
+  词性: noun
+  音标: UK /brɪdʒ/ | US /brɪdʒ/
+  搭配: cross the bridge
+  例句: The bridge crosses the river.
+  例句高亮: The **bridge** crosses the river.
+  例句中文: 这座桥横跨河流。
+  标注模式: object
+  标注说明: 桥面与护栏的实际区域。
+  坐标(normalized): [0.533, 0.416, 0.996, 0.992]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "桥面与护栏的实际区域。"
+    sentence: "The bridge crosses the river."
+    matched_form: "bridge"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 桥
+
+------------------------------------------------------------------------
+[2/9] across  (W006)
+  词义: 横穿
+  词性: preposition
+  音标: UK /əˈkrɒs/ | US /əˈkrɔːs/
+  搭配: across the bridge
+  例句: We walk across the bridge.
+  例句高亮: We walk **across** the bridge.
+  例句中文: 我们步行穿过这座桥。
+  标注模式: relation
+  标注说明: 人物和桥面跨河路线共同定位across，句子说明跨越。
+  坐标(normalized): [0.53, 0.414, 0.996, 0.992]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "人物和桥面跨河路线共同定位across，句子说明跨越。"
+    sentence: "We walk across the bridge."
+    matched_form: "across"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 横穿；穿过
+
+------------------------------------------------------------------------
+[3/9] near  (W466)
+  词义: 近的
+  词性: adjective
+  音标: UK /nɪə/ | US /nɪr/
+  搭配: the near part
+  例句: The near part of the bridge is beside me.
+  例句高亮: The **near** part of the bridge is beside me.
+  例句中文: 桥的近处部分就在我身旁。
+  标注模式: relation
+  标注说明: 左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。
+  坐标(normalized): [0.0, 0.527, 0.225, 0.957]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左前景桥栏的近处部分，相对远处桥端解释，不虚构看不见的近岸。"
+    sentence: "The near part of the bridge is beside me."
+    matched_form: "near"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 靠近
+
+------------------------------------------------------------------------
+[4/9] far  (W253)
+  词义: 在远处
+  词性: adverb
+  音标: UK /fɑː/ | US /fɑːr/
+  搭配: far away
+  例句: The other traveller is far away.
+  例句高亮: The other traveller is **far** away.
+  例句中文: 另一位旅人在远处。
+  标注模式: relation
+  标注说明: 桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。
+  坐标(normalized): [0.849, 0.289, 0.977, 0.574]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "桥上远处旅人的实际区域，相对前景主人公展示远近，不虚构未显示的桥端。"
+    sentence: "The other traveller is far away."
+    matched_form: "far"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 远的；遥远的
+
+------------------------------------------------------------------------
+[5/9] distance  (W206)
+  词义: 距离
+  词性: noun
+  音标: UK /ˈdɪstəns/ | US /ˈdɪstəns/
+  搭配: the distance between
+  例句: There is some distance between the two travellers.
+  例句高亮: There is some **distance** between the two travellers.
+  例句中文: 两位旅人之间有一段距离。
+  标注模式: relation
+  标注说明: 前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。
+  坐标(normalized): [0.538, 0.467, 0.91, 0.847]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前后两位旅人之间延伸的桥面间隔，区域定位空间间隔，不测数值或推断距离在变化。"
+    sentence: "There is some distance between the two travellers."
+    matched_form: "distance"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 距离
+
+------------------------------------------------------------------------
+[6/9] from  (W292)
+  词义: 从
+  词性: preposition
+  音标: UK /frɒm/ | US /frʌm/
+  搭配: from here
+  例句: We walk from here to the other bank.
+  例句高亮: We walk **from** here to the other bank.
+  例句中文: 我们从这里走到另一岸。
+  标注模式: context
+  标注说明: 起点介词在完整句中解释，不独立框桥端。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We walk from here to the other bank."
+    matched_form: "from"
+    context: "起点介词在完整句中解释，不独立框桥端。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 来自；从
+
+------------------------------------------------------------------------
+[7/9] to  (W767)
+  词义: 到
+  词性: preposition
+  音标: UK /tuː/ | US /tuː/
+  搭配: to the other bank
+  例句: We walk to the other bank.
+  例句高亮: We walk **to** the other bank.
+  例句中文: 我们走到另一岸。
+  标注模式: context
+  标注说明: 终点介词在完整句中解释，不等同于某物体。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We walk to the other bank."
+    matched_form: "to"
+    context: "终点介词在完整句中解释，不等同于某物体。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 到
+
+------------------------------------------------------------------------
+[8/9] walk  (W800)
+  词义: 步行
+  词性: verb
+  音标: UK /wɔːk/ | US /wɔːk/
+  搭配: walk across
+  例句: I walk across the bridge.
+  例句高亮: I **walk** across the bridge.
+  例句中文: 我步行过桥。
+  标注模式: action
+  标注说明: 主人公完整步态和桥面接触位置。
+  坐标(normalized): [0.217, 0.164, 0.538, 0.955]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "主人公完整步态和桥面接触位置。"
+    sentence: "I walk across the bridge."
+    matched_form: "walk"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 步行
+
+------------------------------------------------------------------------
+[9/9] whistle  (W822)
+  词义: 哨子
+  词性: noun
+  音标: UK /ˈwɪsl/ | US /ˈwɪsl/
+  搭配: a metal whistle
+  例句: I carry a small whistle.
+  例句高亮: I carry a small **whistle**.
+  例句中文: 我带着一个小哨子。
+  标注模式: object
+  标注说明: 手中/腕绳上的实体金属哨子，选名词义而非声音。
+  坐标(normalized): [0.516, 0.611, 0.543, 0.649]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手中/腕绳上的实体金属哨子，选名词义而非声音。"
+    sentence: "I carry a small whistle."
+    matched_form: "whistle"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 哨子
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C032 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=34 | meta.approved_cards=35
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. One single travel editorial photograph, not a collage. Elegant pedestrian bridge crossing a river, viewed obliquely from the near bank with railings and stone walkway receding toward the far bank. Main woman mid-stride in the left foreground, full body and feet visible, clearly walking along bridge. A small silver metal whistle hangs from a dark wrist cord, large enough to identify, held lightly in her lowered hand and not near mouth. A second adult traveller farther along the bridge provides near/far contrast. River and distant bank clear with enough focus for distance, pale open sky and water edges reserved for labels. Whistle visibly has rounded mouthpiece and side opening, not jewellery.

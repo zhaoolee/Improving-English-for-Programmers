@@ -1,0 +1,244 @@
+C010  睡前安静下来
+========================================================================
+章节: 家里的一天
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C010.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C010.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T11:56:26Z → 2026-10-02T11:59:55Z
+  提示词文件: prompts/C010_image_final.txt
+
+场景: 主角困倦坐在床边，走廊噪声与安静卧室以双幅对照。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 左右双幅有走廊交谈和关门后卧室：左边两名成年访客交谈，主人在门口；右边同一女性坐在床沿打哈欠，门关着。声音/音量不可由静态图验证，noise/loud/sound/quiet均以原创故事例句说明；still采用不动的含义，back为返回房间，keep为使保持。全部使用语境标签，无虚假声音框。
+
+主配文:
+  英文: Please keep the room quiet; I am tired and need to rest.
+  中文: 请让房间保持安静；我累了，需要休息。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): tired, quiet, noise, loud, sound, still, back, keep
+
+------------------------------------------------------------------------
+[1/8] tired  (W766)
+  词义: 疲倦的
+  词性: adjective
+  音标: UK /taɪəd/ | US /taɪrd/
+  搭配: feel tired; be tired
+  例句: I am tired after a long day.
+  例句高亮: I am **tired** after a long day.
+  例句中文: 忙了一整天后，我很累。
+  标注模式: context
+  标注说明: 倦态与原创自述共同说明tired，不把疲倦当物体。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I am tired after a long day."
+    matched_form: "tired"
+    context: "倦态与原创自述共同说明tired，不把疲倦当物体。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 疲倦的
+------------------------------------------------------------------------
+[2/8] quiet  (W571)
+  词义: 安静的
+  词性: adjective
+  音标: UK /ˈkwaɪət/ | US /ˈkwaɪət/
+  搭配: a quiet room; keep quiet
+  例句: The room is quiet with the door shut.
+  例句高亮: The room is **quiet** with the door shut.
+  例句中文: 门关上后，房间很安静。
+  标注模式: context
+  标注说明: 右幅关门卧室作为故事语境，声音属性由句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The room is quiet with the door shut."
+    matched_form: "quiet"
+    context: "右幅关门卧室作为故事语境，声音属性由句子说明。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 安静的；寂静的
+------------------------------------------------------------------------
+[3/8] noise  (W477)
+  词义: 噪声
+  词性: noun (uncountable)
+  音标: UK /nɔɪz/ | US /nɔɪz/
+  搭配: hear noise; noise in the hall
+  例句: I hear noise in the hall.
+  例句高亮: I hear **noise** in the hall.
+  例句中文: 我听见走廊里的噪声。
+  标注模式: context
+  标注说明: 左幅交谈仅为语境，听觉证据来自原创例句。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I hear noise in the hall."
+    matched_form: "noise"
+    context: "左幅交谈仅为语境，听觉证据来自原创例句。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: context | 源释义(未复核): 噪音
+------------------------------------------------------------------------
+[4/8] loud  (W417)
+  词义: 响亮的
+  词性: adjective
+  音标: UK /laʊd/ | US /laʊd/
+  搭配: a loud voice; be loud
+  例句: Their voices are loud.
+  例句高亮: Their voices are **loud**.
+  例句中文: 他们说话的声音很响。
+  标注模式: context
+  标注说明: 音量不能从嘴部动作测量，例句明确故事音量。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Their voices are loud."
+    matched_form: "loud"
+    context: "音量不能从嘴部动作测量，例句明确故事音量。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 大声的
+------------------------------------------------------------------------
+[5/8] sound  (W685)
+  词义: 声音
+  词性: noun (countable)
+  音标: UK /saʊnd/ | US /saʊnd/
+  搭配: the sound of voices; a soft sound
+  例句: The sound of voices comes from the hall.
+  例句高亮: The **sound** of voices comes from the hall.
+  例句中文: 说话声从走廊传来。
+  标注模式: context
+  标注说明: 声音不可见，用句子说明来源，区别于noise的不悦噪声含义。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The sound of voices comes from the hall."
+    matched_form: "sound"
+    context: "声音不可见，用句子说明来源，区别于noise的不悦噪声含义。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: context | 源释义(未复核): 声音
+------------------------------------------------------------------------
+[6/8] still  (W708)
+  词义: 不动的
+  词性: adjective
+  音标: UK /stɪl/ | US /stɪl/
+  搭配: sit still; keep still
+  例句: I sit still on the bed.
+  例句高亮: I sit **still** on the bed.
+  例句中文: 我在床上坐着不动。
+  标注模式: context
+  标注说明: 本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I sit still on the bed."
+    matched_form: "still"
+    context: "本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+    参考: https://dictionary.cambridge.org/dictionary/english/still (dictionary search excerpt; full page unavailable)
+  计划模式: object_or_action_to_review | 源释义(未复核): 仍然
+------------------------------------------------------------------------
+[7/8] back  (W046)
+  词义: 回到原处
+  词性: adverb
+  音标: UK /bæk/ | US /bæk/
+  搭配: go back; back to my room
+  例句: I go back to my room.
+  例句高亮: I go **back** to my room.
+  例句中文: 我回到自己的房间。
+  标注模式: context
+  标注说明: 双幅故事与go back例句表达返回，不作人体背部解释。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I go back to my room."
+    matched_form: "back"
+    context: "双幅故事与go back例句表达返回，不作人体背部解释。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 背部；后面
+------------------------------------------------------------------------
+[8/8] keep  (W375)
+  词义: 使保持
+  词性: verb (transitive)
+  音标: UK /kiːp/ | US /kiːp/
+  搭配: keep the room quiet; keep still
+  例句: Please keep the room quiet.
+  例句高亮: Please **keep** the room quiet.
+  例句中文: 请让房间保持安静。
+  标注模式: context
+  标注说明: keep+宾语+形容词的自然结构，高亮keep，不设虚假框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Please keep the room quiet."
+    matched_form: "keep"
+    context: "keep+宾语+形容词的自然结构，高亮keep，不设虚假框。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: context | 源释义(未复核): 保持；继续
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 8
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C010 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=10 | meta.approved_cards=10
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. Exactly TWO side-by-side photographic panels in a vertical 4:5 diptych. LEFT: a cool-lit apartment hallway with two fully clothed adult visitors chatting animatedly, open mouths mid-conversation and conversational hand gestures; young protagonist at bedroom doorway turns slightly away looking weary. RIGHT: same young adult woman now seated on edge of neatly made bed in a quiet cool blue evening bedroom, bedroom door behind her CLOSED, relaxed shoulders, one small yawn with hand politely near mouth, coherent body. Soft simple bedside light, clean pale walls and modest negative space above. No visual sound symbols, no floating musical notes, no text. Static photographs cannot depict sound itself; actions only provide story context. Subtle fashion editorial mood, believable same woman and architecture, understated expressions.

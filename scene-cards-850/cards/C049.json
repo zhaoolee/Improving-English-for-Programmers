@@ -1,0 +1,294 @@
+{
+  "id": "C049",
+  "chapter": "自然与农场",
+  "title": "阳光与阴影",
+  "scene": "树荫下看风景，光线、遮阴与景色层次清楚可见。",
+  "target_count": 6,
+  "primary_words": [
+    "ray",
+    "shade",
+    "view",
+    "beautiful",
+    "clear",
+    "great"
+  ],
+  "targets": [
+    {
+      "word_id": "W578",
+      "word": "ray",
+      "aliases": [],
+      "source_zh_unreviewed": "光线；射线",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "光束",
+      "pos": "noun",
+      "ipa_us": "/reɪ/",
+      "ipa_uk": "/reɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际可见穿过薄雾的光束。",
+        "sentence": "A ray of light reaches the path.",
+        "matched_form": "ray",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A ray of light reaches the path.",
+      "example_zh": "一束光照向小径。",
+      "bbox_normalized": [
+        0.622,
+        0.044,
+        0.922,
+        0.239
+      ],
+      "collocations": [
+        "a ray of light"
+      ],
+      "example_en_highlighted": "A **ray** of light reaches the path.",
+      "annotation_mode": "object",
+      "annotation_note": "实际可见穿过薄雾的光束。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W640",
+      "word": "shade",
+      "aliases": [],
+      "source_zh_unreviewed": "阴影",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "阴凉处",
+      "pos": "noun",
+      "ipa_us": "/ʃeɪd/",
+      "ipa_uk": "/ʃeɪd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "树下实际较暗的地面区域。",
+        "sentence": "I rest in the shade of a tree.",
+        "matched_form": "shade",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I rest in the shade of a tree.",
+      "example_zh": "我在树荫里休息。",
+      "bbox_normalized": [
+        0.0,
+        0.824,
+        0.144,
+        0.998
+      ],
+      "collocations": [
+        "in the shade"
+      ],
+      "example_en_highlighted": "I rest in the **shade** of a tree.",
+      "annotation_mode": "object",
+      "annotation_note": "树下实际较暗的地面区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W796",
+      "word": "view",
+      "aliases": [],
+      "source_zh_unreviewed": "视野；看法",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "景色",
+      "pos": "noun",
+      "ipa_us": "/vjuː/",
+      "ipa_uk": "/vjuː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际远处山湖全景。",
+        "sentence": "I enjoy the mountain view.",
+        "matched_form": "view",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I enjoy the mountain view.",
+      "example_zh": "我欣赏山间景色。",
+      "bbox_normalized": [
+        0.435,
+        0.265,
+        0.995,
+        0.674
+      ],
+      "collocations": [
+        "a mountain view"
+      ],
+      "example_en_highlighted": "I enjoy the mountain **view**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际远处山湖全景。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W057",
+      "word": "beautiful",
+      "aliases": [],
+      "source_zh_unreviewed": "美丽的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "美丽的",
+      "pos": "adjective",
+      "ipa_us": "/ˈbjuːtɪfəl/",
+      "ipa_uk": "/ˈbjuːtɪfəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I think the view is beautiful.",
+        "matched_form": "beautiful",
+        "referent_region_verified": false,
+        "context": "个人审美判断由句子表达，不是可测物体属性。",
+        "image_verified": null
+      },
+      "example_en": "I think the view is beautiful.",
+      "example_zh": "我觉得这景色很美。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a beautiful view"
+      ],
+      "example_en_highlighted": "I think the view is **beautiful**.",
+      "annotation_mode": "context",
+      "annotation_note": "个人审美判断由句子表达，不是可测物体属性。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W134",
+      "word": "clear",
+      "aliases": [],
+      "source_zh_unreviewed": "清晰的；明确的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "清晰的",
+      "pos": "adjective",
+      "ipa_us": "/klɪr/",
+      "ipa_uk": "/klɪə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "定位句子指代的可辨山景，不表示空气质量检测。",
+        "sentence": "I have a clear view of the mountains.",
+        "matched_form": "clear",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I have a clear view of the mountains.",
+      "example_zh": "我能清晰地看到群山。",
+      "bbox_normalized": [
+        0.435,
+        0.265,
+        0.995,
+        0.674
+      ],
+      "collocations": [
+        "a clear view"
+      ],
+      "example_en_highlighted": "I have a **clear** view of the mountains.",
+      "annotation_mode": "relation",
+      "annotation_note": "定位句子指代的可辨山景，不表示空气质量检测。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W311",
+      "word": "great",
+      "aliases": [],
+      "source_zh_unreviewed": "伟大的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "极好的",
+      "pos": "adjective",
+      "ipa_us": "/ɡreɪt/",
+      "ipa_uk": "/ɡreɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This is a great place to rest.",
+        "matched_form": "great",
+        "referent_region_verified": false,
+        "context": "great选评价义，个人评价由原创句子说明。",
+        "image_verified": null
+      },
+      "example_en": "This is a great place to rest.",
+      "example_zh": "这是休息的好地方。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a great place"
+      ],
+      "example_en_highlighted": "This is a **great** place to rest.",
+      "annotation_mode": "context",
+      "annotation_note": "great选评价义，个人评价由原创句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A ray of light reaches the path; I pause in the shade to enjoy the view.",
+    "zh": "一束光照向小径；我停在树荫里，欣赏眼前的景色。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C049\n标题 阳光与阴影\n场景 树荫下看风景，光线、遮阴与景色层次清楚可见。\n目标词 ray, shade, view, beautiful, clear, great\n原创主配文草案 The view is beautiful in the clear light.\n中文草案 在清亮的光线中，景色很美。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Single travel fashion photo at shaded park hillside overlook: woman at left under leafy tree in cool natural shade, expansive crisp mountain and lake view on right, a narrow physically plausible shaft of sunlight through overhead leaves into slight morning haze crossing path, with sunlit ground and distinctly darker shaded patch near her feet. Atmospheric real photography, avoid theatrical CGI god rays. Teaching ray and shade clearly separable.",
+  "status": "approved",
+  "image_path": "images/C049.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 6,
+    "content_entries_complete": 6,
+    "sentence_evidence_complete": 6,
+    "verified_targets": 6,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C049 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T13:35:22Z",
+    "ended_at": "2026-10-03T13:38:52Z",
+    "prompt_path": "prompts/C049_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C049.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "树荫人像及山湖景可辨，斜入光线对应ray；评价词只用主观句子。shade定位树下阴影地面。"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "id": "C086",
+  "chapter": "工具与科学",
+  "title": "实验室的物质变化",
+  "scene": "封闭安全演示台，酸、化学物质、粉末及带毒性警示的封存样品清楚；剖面示意膨胀与反应，旁白解释科学理论。",
+  "target_count": 9,
+  "primary_words": [
+    "acid",
+    "chemical",
+    "powder",
+    "substance",
+    "expansion",
+    "reaction",
+    "science",
+    "theory",
+    "poison"
+  ],
+  "targets": [
+    {
+      "word_id": "W005",
+      "word": "acid",
+      "aliases": [],
+      "source_zh_unreviewed": "酸；酸性的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "酸",
+      "pos": "noun",
+      "ipa_us": "/ˈæsɪd/",
+      "ipa_uk": "/ˈæsɪd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左边封存透明液体瓶，故事指定酸样品。",
+        "sentence": "The clear bottle holds the sealed acid sample in our lesson.",
+        "matched_form": "acid",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The clear bottle holds the sealed acid sample in our lesson.",
+      "example_zh": "本课中，透明瓶装着封存的酸样品。",
+      "bbox_normalized": [
+        0.066,
+        0.688,
+        0.161,
+        0.861
+      ],
+      "collocations": [
+        "an acid sample",
+        "a weak acid"
+      ],
+      "example_en_highlighted": "The clear bottle holds the sealed **acid** sample in our lesson.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（酸），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W127",
+      "word": "chemical",
+      "aliases": [],
+      "source_zh_unreviewed": "化学的；化学物质",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "化学物质",
+      "pos": "noun",
+      "ipa_us": "/ˈkemɪkəl/",
+      "ipa_uk": "/ˈkemɪkəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧棕色样品瓶，故事指定化学物质。",
+        "sentence": "The amber bottle holds a chemical sample in the story.",
+        "matched_form": "chemical",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The amber bottle holds a chemical sample in the story.",
+      "example_zh": "故事中，棕色瓶装着化学物质样品。",
+      "bbox_normalized": [
+        0.195,
+        0.704,
+        0.285,
+        0.859
+      ],
+      "collocations": [
+        "a chemical sample",
+        "a sealed chemical"
+      ],
+      "example_en_highlighted": "The amber bottle holds a **chemical** sample in the story.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（化学物质），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W547",
+      "word": "powder",
+      "aliases": [],
+      "source_zh_unreviewed": "粉末；火药",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "粉末",
+      "pos": "noun",
+      "ipa_us": "/ˈpaʊdɚ/",
+      "ipa_uk": "/ˈpaʊdə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前景白粉玻璃罐。",
+        "sentence": "White powder is sealed inside the jar.",
+        "matched_form": "powder",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "White powder is sealed inside the jar.",
+      "example_zh": "白色粉末封存在罐子里。",
+      "bbox_normalized": [
+        0.285,
+        0.739,
+        0.446,
+        0.922
+      ],
+      "collocations": [
+        "white powder",
+        "a jar of powder"
+      ],
+      "example_en_highlighted": "White **powder** is sealed inside the jar.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（粉末），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W722",
+      "word": "substance",
+      "aliases": [],
+      "source_zh_unreviewed": "物质",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "物质",
+      "pos": "noun",
+      "ipa_us": "/ˈsʌbstəns/",
+      "ipa_uk": "/ˈsʌbstəns/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中间玻璃罩下固体结晶样品。",
+        "sentence": "The solid substance is displayed under glass.",
+        "matched_form": "substance",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The solid substance is displayed under glass.",
+      "example_zh": "这种固体物质陈列在玻璃罩下。",
+      "bbox_normalized": [
+        0.576,
+        0.716,
+        0.737,
+        0.834
+      ],
+      "collocations": [
+        "a solid substance",
+        "a sample substance"
+      ],
+      "example_en_highlighted": "The solid **substance** is displayed under glass.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（物质），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W244",
+      "word": "expansion",
+      "aliases": [],
+      "source_zh_unreviewed": "扩张；膨胀",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "膨胀",
+      "pos": "noun",
+      "ipa_us": "/ɪkˈspænʃən/",
+      "ipa_uk": "/ɪkˈspænʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our lesson explains the expansion of a gas when it is heated.",
+        "matched_form": "expansion",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Our lesson explains the expansion of a gas when it is heated.",
+      "example_zh": "本课解释气体受热时的膨胀。",
+      "bbox_normalized": null,
+      "collocations": [
+        "thermal expansion",
+        "expansion of a gas"
+      ],
+      "example_en_highlighted": "Our lesson explains the **expansion** of a gas when it is heated.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W579",
+      "word": "reaction",
+      "aliases": [],
+      "source_zh_unreviewed": "反应；反作用",
+      "planned_mode": "context",
+      "sense_zh": "反应",
+      "pos": "noun",
+      "ipa_us": "/riˈækʃən/",
+      "ipa_uk": "/riˈækʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We discuss a chemical reaction without opening the samples.",
+        "matched_form": "reaction",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We discuss a chemical reaction without opening the samples.",
+      "example_zh": "我们不打开样品，只讨论化学反应。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a chemical reaction",
+        "observe a reaction"
+      ],
+      "example_en_highlighted": "We discuss a chemical **reaction** without opening the samples.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W621",
+      "word": "science",
+      "aliases": [],
+      "source_zh_unreviewed": "科学",
+      "planned_mode": "context",
+      "sense_zh": "科学",
+      "pos": "noun",
+      "ipa_us": "/ˈsaɪəns/",
+      "ipa_uk": "/ˈsaɪəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Science helps us ask questions about these substances.",
+        "matched_form": "science",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Science helps us ask questions about these substances.",
+      "example_zh": "科学帮助我们就这些物质提出问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "study science",
+        "a science lesson"
+      ],
+      "example_en_highlighted": "**Science** helps us ask questions about these substances.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W748",
+      "word": "theory",
+      "aliases": [],
+      "source_zh_unreviewed": "理论",
+      "planned_mode": "context",
+      "sense_zh": "理论",
+      "pos": "noun",
+      "ipa_us": "/ˈθɪri/",
+      "ipa_uk": "/ˈθɪəri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A theory can explain results and make predictions.",
+        "matched_form": "theory",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A theory can explain results and make predictions.",
+      "example_zh": "理论可以解释结果并作出预测。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a scientific theory",
+        "test a theory"
+      ],
+      "example_en_highlighted": "A **theory** can explain results and make predictions.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W538",
+      "word": "poison",
+      "aliases": [],
+      "source_zh_unreviewed": "毒药；毒害",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "毒物",
+      "pos": "noun",
+      "ipa_us": "/ˈpɔɪzən/",
+      "ipa_uk": "/ˈpɔɪzən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧有警示的深瓶，故事明确代表毒物。",
+        "sentence": "The dark bottle represents poison in this teaching display.",
+        "matched_form": "poison",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The dark bottle represents poison in this teaching display.",
+      "example_zh": "深色瓶在这个教学展示中代表毒物。",
+      "bbox_normalized": [
+        0.83,
+        0.65,
+        0.956,
+        0.885
+      ],
+      "collocations": [
+        "a poison sample",
+        "keep poison sealed"
+      ],
+      "example_en_highlighted": "The dark bottle represents **poison** in this teaching display.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（毒物），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "We examine sealed samples and discuss a reaction, its cause, and the theory behind it.",
+    "zh": "我们观察封存的样品，讨论反应、它的起因及背后的理论。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C086\n标题 实验室的物质变化\n场景 封闭安全演示台，酸、化学物质、粉末及带毒性警示的封存样品清楚；剖面示意膨胀与反应，旁白解释科学理论。\n目标词 acid, chemical, powder, substance, expansion, reaction, science, theory, poison\n原创主配文草案 A reaction can change a substance.\n中文草案 反应能改变一种物质。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman in a modest lab coat at a museum chemistry teaching display. All samples sealed on a tidy cool grey tabletop: small clear bottle holding transparent liquid on left, second amber sample bottle, glass jar of white powder foreground, solid crystalline sample under glass, separate sealed dark bottle behind a transparent cover with a simple skull pictogram and no letters. No mixing, no instructions, no readable formulas. Realistic materials and hands, premium cool Korean editorial portrait.",
+  "status": "approved",
+  "image_path": "images/C086.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 5,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C086 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:00:15 UTC",
+    "ended_at": "2026-10-03 18:02:09 UTC",
+    "prompt_path": "prompts/C086_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C086.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "五种封存展示样品清楚，深色瓶有警示图形；物质成分教学设定，不把图生背景细字当来源。"
+  }
+}

@@ -1,0 +1,253 @@
+C083  水管与水泵
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C083.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C083.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:01:31 UTC
+  提示词文件: prompts/C083_image_final.txt
+
+场景: 透明教学模型展示管道连接、泵、弹性软管与软硬实心空心材质。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 左手操作泵，前景透明空心管和右实心杆端面清楚，蓝管下弯后进入水罐，设备完整。
+
+主配文:
+  英文: I examine the pipe and pump, then compare a hollow tube with a solid rod.
+  中文: 我查看管道和水泵，然后比较空心管与实心杆。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): pipe, pump, elastic, solid, hollow, stiff, bent, apparatus
+
+------------------------------------------------------------------------
+[1/8] pipe  (W527)
+  词义: 管道
+  词性: noun
+  音标: UK /paɪp/ | US /paɪp/
+  搭配: a clear pipe; a water pipe
+  例句: Water passes through the clear pipe in the lesson.
+  例句高亮: Water passes through the clear **pipe** in the lesson.
+  例句中文: 本课中的水通过透明管道。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（管道），待最终图确认。
+  坐标(normalized): [0.327, 0.752, 0.692, 0.855]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景独立透明管道。"
+    sentence: "Water passes through the clear pipe in the lesson."
+    matched_form: "pipe"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 管道；烟斗
+
+------------------------------------------------------------------------
+[2/8] pump  (W563)
+  词义: 泵
+  词性: noun
+  音标: UK /pʌmp/ | US /pʌmp/
+  搭配: a hand pump; a water pump
+  例句: The hand pump is beside the jar.
+  例句高亮: The hand **pump** is beside the jar.
+  例句中文: 手动水泵放在罐子旁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（泵），待最终图确认。
+  坐标(normalized): [0.073, 0.46, 0.211, 0.744]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧手动泵。"
+    sentence: "The hand pump is beside the jar."
+    matched_form: "pump"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 泵；打气筒
+
+------------------------------------------------------------------------
+[3/8] elastic  (W230)
+  词义: 有弹性的
+  词性: adjective
+  音标: UK /ɪˈlæstɪk/ | US /ɪˈlæstɪk/
+  搭配: an elastic tube; elastic material
+  例句: The blue tube is elastic in our demonstration.
+  例句高亮: The blue tube is **elastic** in our demonstration.
+  例句中文: 我们的演示中，蓝色管子有弹性。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The blue tube is elastic in our demonstration.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The blue tube is elastic in our demonstration."
+    matched_form: "elastic"
+    context: "由原创例句给出的语境：The blue tube is elastic in our demonstration.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 有弹性的
+
+------------------------------------------------------------------------
+[4/8] solid  (W680)
+  词义: 实心的
+  词性: adjective
+  音标: UK /ˈsɒlɪd/ | US /ˈsɑːlɪd/
+  搭配: a solid rod; a solid piece
+  例句: The solid rod has no hole through its center.
+  例句高亮: The **solid** rod has no hole through its center.
+  例句中文: 实心杆的中心没有贯穿孔。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（实心的），待最终图确认。
+  坐标(normalized): [0.707, 0.811, 0.904, 0.887]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右前实心透明杆，端面封实。"
+    sentence: "The solid rod has no hole through its center."
+    matched_form: "solid"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 固体的
+
+------------------------------------------------------------------------
+[5/8] hollow  (W341)
+  词义: 空心的
+  词性: adjective
+  音标: UK /ˈhɒləʊ/ | US /ˈhɑːloʊ/
+  搭配: a hollow tube; a hollow center
+  例句: The hollow tube has an open center.
+  例句高亮: The **hollow** tube has an open center.
+  例句中文: 空心管的中间是通的。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（空心的），待最终图确认。
+  坐标(normalized): [0.329, 0.752, 0.368, 0.805]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景空心管左端可见贯穿开口。"
+    sentence: "The hollow tube has an open center."
+    matched_form: "hollow"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 空的
+
+------------------------------------------------------------------------
+[6/8] stiff  (W707)
+  词义: 不易弯曲的
+  词性: adjective
+  音标: UK /stɪf/ | US /stɪf/
+  搭配: a stiff pipe; stiff material
+  例句: The clear pipe is stiff in this demonstration.
+  例句高亮: The clear pipe is **stiff** in this demonstration.
+  例句中文: 这次演示中的透明管道不易弯曲。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The clear pipe is stiff in this demonstration.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The clear pipe is stiff in this demonstration."
+    matched_form: "stiff"
+    context: "由原创例句给出的语境：The clear pipe is stiff in this demonstration.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 僵硬的
+
+------------------------------------------------------------------------
+[7/8] bent  (W065)
+  词义: 弯曲的
+  词性: adjective
+  音标: UK /bent/ | US /bent/
+  搭配: a bent tube; a bent shape
+  例句: The blue tube is bent into a U shape.
+  例句高亮: The blue tube is **bent** into a U shape.
+  例句中文: 蓝色管子弯成了U形。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（弯曲的），待最终图确认。
+  坐标(normalized): [0.199, 0.538, 0.826, 0.729]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "蓝软管明显下弯再上弯。"
+    sentence: "The blue tube is bent into a U shape."
+    matched_form: "bent"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 弯曲的
+
+------------------------------------------------------------------------
+[8/8] apparatus  (W028)
+  词义: 装置
+  词性: noun
+  音标: UK /ˌæpəˈreɪtəs/ | US /ˌæpəˈrætəs/
+  搭配: a simple apparatus; laboratory apparatus
+  例句: The apparatus helps us study water flow.
+  例句高亮: The **apparatus** helps us study water flow.
+  例句中文: 这个装置帮助我们学习水流。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（装置），待最终图确认。
+  坐标(normalized): [0.073, 0.46, 0.952, 0.765]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "泵、蓝管、水罐组成特定演示装置，框只取装置。"
+    sentence: "The apparatus helps us study water flow."
+    matched_form: "apparatus"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 设备；器械
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C083 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman in elegant modest lab coat examining small safe tabletop transparent water demonstration apparatus. Low hand-operated pump separate left, clear rigid open-ended pipe foreground with visible hole, solid acrylic rod with filled cross-section beside it, soft blue rubber tube gently bent in U shape connecting pump to water jar. No powered pressure equipment, no labels or letters. Cool bright crisp teaching objects, room edges.

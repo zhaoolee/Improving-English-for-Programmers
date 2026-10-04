@@ -1,0 +1,482 @@
+{
+  "id": "C094",
+  "chapter": "社会与表达",
+  "title": "历史馆里的战争展",
+  "scene": "原创博物馆展板介绍军队、战争、枪械与军事历史；用文字与非血腥图解解释 attack、fight、violent、against、dead、death。",
+  "target_count": 11,
+  "primary_words": [
+    "history",
+    "war",
+    "army",
+    "military",
+    "gun",
+    "attack",
+    "fight",
+    "violent",
+    "against",
+    "dead",
+    "death"
+  ],
+  "targets": [
+    {
+      "word_id": "W339",
+      "word": "history",
+      "aliases": [],
+      "source_zh_unreviewed": "历史",
+      "planned_mode": "context",
+      "sense_zh": "历史",
+      "pos": "noun",
+      "ipa_us": "/ˈhɪstəri/",
+      "ipa_uk": "/ˈhɪstəri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I study history at the museum.",
+        "matched_form": "history",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I study history at the museum.",
+      "example_zh": "我在博物馆学习历史。",
+      "bbox_normalized": null,
+      "collocations": [
+        "study history",
+        "a history museum"
+      ],
+      "example_en_highlighted": "I study **history** at the museum.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W802",
+      "word": "war",
+      "aliases": [],
+      "source_zh_unreviewed": "战争",
+      "planned_mode": "context",
+      "sense_zh": "战争",
+      "pos": "noun",
+      "ipa_us": "/wɔːr/",
+      "ipa_uk": "/wɔː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The exhibit explains the cost of war.",
+        "matched_form": "war",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The exhibit explains the cost of war.",
+      "example_zh": "展览解释战争的代价。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the cost of war",
+        "a war exhibit"
+      ],
+      "example_en_highlighted": "The exhibit explains the cost of **war**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W034",
+      "word": "army",
+      "aliases": [],
+      "source_zh_unreviewed": "军队",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "军队",
+      "pos": "noun",
+      "ipa_us": "/ˈɑːrmi/",
+      "ipa_uk": "/ˈɑːmi/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左下展柜里的排列微型人物，故事指定军队模型。",
+        "sentence": "The miniature figures represent an army in this exhibit.",
+        "matched_form": "army",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The miniature figures represent an army in this exhibit.",
+      "example_zh": "展览中的微型人物代表一支军队。",
+      "bbox_normalized": [
+        0.001,
+        0.444,
+        0.248,
+        0.596
+      ],
+      "collocations": [
+        "an army model",
+        "an army formation"
+      ],
+      "example_en_highlighted": "The miniature figures represent an **army** in this exhibit.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（军队），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W441",
+      "word": "military",
+      "aliases": [],
+      "source_zh_unreviewed": "军事的",
+      "planned_mode": "context",
+      "sense_zh": "军事的",
+      "pos": "adjective",
+      "ipa_us": "/ˈmɪləteri/",
+      "ipa_uk": "/ˈmɪlətri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This room presents military history.",
+        "matched_form": "military",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "This room presents military history.",
+      "example_zh": "这个展厅介绍军事历史。",
+      "bbox_normalized": null,
+      "collocations": [
+        "military history",
+        "a military exhibit"
+      ],
+      "example_en_highlighted": "This room presents **military** history.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W318",
+      "word": "gun",
+      "aliases": [],
+      "source_zh_unreviewed": "枪",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "枪",
+      "pos": "noun",
+      "ipa_us": "/ɡʌn/",
+      "ipa_uk": "/ɡʌn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "玻璃后完整旧步枪，不是背景人物持枪。",
+        "sentence": "An old gun is kept behind glass.",
+        "matched_form": "gun",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "An old gun is kept behind glass.",
+      "example_zh": "一支旧枪保存在玻璃后面。",
+      "bbox_normalized": [
+        0.832,
+        0.019,
+        0.934,
+        0.813
+      ],
+      "collocations": [
+        "an old gun",
+        "a gun display"
+      ],
+      "example_en_highlighted": "An old **gun** is kept behind glass.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（枪），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W038",
+      "word": "attack",
+      "aliases": [],
+      "source_zh_unreviewed": "攻击；袭击",
+      "planned_mode": "context",
+      "sense_zh": "进攻",
+      "pos": "noun",
+      "ipa_us": "/əˈtæk/",
+      "ipa_uk": "/əˈtæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The guide describes an attack in the historical story.",
+        "matched_form": "attack",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The guide describes an attack in the historical story.",
+      "example_zh": "讲解员描述历史故事中的一次进攻。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an attack on",
+        "an armed attack"
+      ],
+      "example_en_highlighted": "The guide describes an **attack** in the historical story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W265",
+      "word": "fight",
+      "aliases": [],
+      "source_zh_unreviewed": "打斗；战斗",
+      "planned_mode": "context",
+      "sense_zh": "战斗",
+      "pos": "verb",
+      "ipa_us": "/faɪt/",
+      "ipa_uk": "/faɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The story explains why soldiers had to fight.",
+        "matched_form": "fight",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The story explains why soldiers had to fight.",
+      "example_zh": "故事解释士兵为什么不得不战斗。",
+      "bbox_normalized": null,
+      "collocations": [
+        "fight in a war",
+        "fight against"
+      ],
+      "example_en_highlighted": "The story explains why soldiers had to **fight**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W797",
+      "word": "violent",
+      "aliases": [],
+      "source_zh_unreviewed": "暴力的",
+      "planned_mode": "context",
+      "sense_zh": "暴力的",
+      "pos": "adjective",
+      "ipa_us": "/ˈvaɪələnt/",
+      "ipa_uk": "/ˈvaɪələnt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The exhibit discusses violent conflict without showing injuries.",
+        "matched_form": "violent",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The exhibit discusses violent conflict without showing injuries.",
+      "example_zh": "展览讨论暴力冲突，但不展示伤情。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a violent conflict",
+        "violent actions"
+      ],
+      "example_en_highlighted": "The exhibit discusses **violent** conflict without showing injuries.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W013",
+      "word": "against",
+      "aliases": [],
+      "source_zh_unreviewed": "反对；对抗",
+      "planned_mode": "context",
+      "sense_zh": "反对",
+      "pos": "preposition",
+      "ipa_us": "/əˈɡenst/",
+      "ipa_uk": "/əˈɡenst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The message is against war.",
+        "matched_form": "against",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The message is against war.",
+      "example_zh": "这个信息表达反对战争。",
+      "bbox_normalized": null,
+      "collocations": [
+        "against war",
+        "stand against"
+      ],
+      "example_en_highlighted": "The message is **against** war.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W184",
+      "word": "dead",
+      "aliases": [],
+      "source_zh_unreviewed": "死的",
+      "planned_mode": "context",
+      "sense_zh": "死去的",
+      "pos": "adjective",
+      "ipa_us": "/ded/",
+      "ipa_uk": "/ded/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We remember the dead soldiers mentioned in the story.",
+        "matched_form": "dead",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We remember the dead soldiers mentioned in the story.",
+      "example_zh": "我们纪念故事中提到的死去的士兵。",
+      "bbox_normalized": null,
+      "collocations": [
+        "remember the dead",
+        "dead soldiers"
+      ],
+      "example_en_highlighted": "We remember the **dead** soldiers mentioned in the story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W186",
+      "word": "death",
+      "aliases": [],
+      "source_zh_unreviewed": "死亡",
+      "planned_mode": "context",
+      "sense_zh": "死亡",
+      "pos": "noun",
+      "ipa_us": "/deθ/",
+      "ipa_uk": "/deθ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The guide speaks about death and loss during war.",
+        "matched_form": "death",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The guide speaks about death and loss during war.",
+      "example_zh": "讲解员讲述战争中的死亡与损失。",
+      "bbox_normalized": null,
+      "collocations": [
+        "death in war",
+        "the loss of life through death"
+      ],
+      "example_en_highlighted": "The guide speaks about **death** and loss during war.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I study history in a museum and reflect on the human cost of war.",
+    "zh": "我在博物馆学习历史，思考战争给人类带来的代价。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "抽象与历史词用展板解说、短对话或旁白，不能强行绑到普通物体。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C094\n标题 历史馆里的战争展\n场景 原创博物馆展板介绍军队、战争、枪械与军事历史；用文字与非血腥图解解释 attack、fight、violent、against、dead、death。\n目标词 history, war, army, military, gun, attack, fight, violent, against, dead, death\n原创主配文草案 The history of war gives us reasons to value peace.\n中文草案 战争史让我们有理由珍惜和平。\n编辑注意 抽象与历史词用展板解说、短对话或旁白，不能强行绑到普通物体。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman visiting a quiet military history museum, inert old rifle behind secured display glass, simple original unlabelled museum map and miniature army formation, subdued cool Korean travel portrait. No firing, gore, injured people, actual battle, extremist emblems or readable text. Show thoughtful ordinary visitor, war concepts only conveyed in later educational captions.",
+  "status": "approved",
+  "image_path": "images/C094.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 9,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C094 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:16:29 UTC",
+    "prompt_path": "prompts/C094_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C094.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "玻璃后旧步枪和背景左侧微型军队展示清楚，无战斗动作伤情；历史战争概念用原创讲解。"
+  }
+}

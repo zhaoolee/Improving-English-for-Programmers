@@ -1,0 +1,251 @@
+C046  溪边垂钓
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C046.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C046.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T13:35:22Z → 2026-10-03T13:36:05Z
+  提示词文件: prompts/C046_image_final.txt
+
+场景: 河边用钓竿、钩和网捕鱼，深水与沙岸界线明确。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 钓竿、托盘钩、网中鱼和细沙可辨。deep只定位故事所指河水，不按颜色鉴定水深；land用干岸区。
+
+主配文:
+  英文: A rod beside the river, a fish in the net, and sand beneath my feet.
+  中文: 河边一根钓竿，网中一条鱼，脚下是一片沙地。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): river, fish, rod, hook, net, sand, deep, land
+
+------------------------------------------------------------------------
+[1/8] river  (W600)
+  词义: 河流
+  词性: noun
+  音标: UK /ˈrɪvə/ | US /ˈrɪvər/
+  搭配: by the river
+  例句: I sit by the river.
+  例句高亮: I sit by the **river**.
+  例句中文: 我坐在河边。
+  标注模式: object
+  标注说明: 实际河道水面。
+  坐标(normalized): [0.39, 0.201, 0.999, 0.68]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际河道水面。"
+    sentence: "I sit by the river."
+    matched_form: "river"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 河流
+
+------------------------------------------------------------------------
+[2/8] fish  (W269)
+  词义: 鱼
+  词性: noun
+  音标: UK /fɪʃ/ | US /fɪʃ/
+  搭配: a river fish
+  例句: A fish rests in the net.
+  例句高亮: A **fish** rests in the net.
+  例句中文: 一条鱼在网里。
+  标注模式: object
+  标注说明: 网中实际可辨鱼体。
+  坐标(normalized): [0.543, 0.804, 0.937, 0.9]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "网中实际可辨鱼体。"
+    sentence: "A fish rests in the net."
+    matched_form: "fish"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 鱼；钓鱼
+
+------------------------------------------------------------------------
+[3/8] rod  (W602)
+  词义: 钓竿
+  词性: noun
+  音标: UK /rɒd/ | US /rɑːd/
+  搭配: a fishing rod
+  例句: I hold a fishing rod.
+  例句高亮: I hold a fishing **rod**.
+  例句中文: 我拿着一根钓竿。
+  标注模式: object
+  标注说明: 完整细长钓竿。
+  坐标(normalized): [0.451, 0.336, 0.655, 0.513]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "完整细长钓竿。"
+    sentence: "I hold a fishing rod."
+    matched_form: "rod"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 杆；棒
+
+------------------------------------------------------------------------
+[4/8] hook  (W342)
+  词义: 鱼钩
+  词性: noun
+  音标: UK /hʊk/ | US /hʊk/
+  搭配: a fishing hook
+  例句: The hook is on the tray.
+  例句高亮: The **hook** is on the tray.
+  例句中文: 鱼钩在托盘上。
+  标注模式: object
+  标注说明: 托盘中实际弯曲金属钩。
+  坐标(normalized): [0.117, 0.822, 0.175, 0.847]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "托盘中实际弯曲金属钩。"
+    sentence: "The hook is on the tray."
+    matched_form: "hook"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 钩子
+
+------------------------------------------------------------------------
+[5/8] net  (W472)
+  词义: 渔网
+  词性: noun
+  音标: UK /net/ | US /net/
+  搭配: a landing net
+  例句: The net holds a fish.
+  例句高亮: The **net** holds a fish.
+  例句中文: 网里装着一条鱼。
+  标注模式: object
+  标注说明: 网圈与网袋实际区域。
+  坐标(normalized): [0.485, 0.703, 0.998, 0.969]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "网圈与网袋实际区域。"
+    sentence: "The net holds a fish."
+    matched_form: "net"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 网
+
+------------------------------------------------------------------------
+[6/8] sand  (W617)
+  词义: 沙
+  词性: noun
+  音标: UK /sænd/ | US /sænd/
+  搭配: wet sand
+  例句: The net lies on wet sand.
+  例句高亮: The net lies on wet **sand**.
+  例句中文: 网放在湿沙上。
+  标注模式: object
+  标注说明: 河岸细沙区域。
+  坐标(normalized): [0.249, 0.896, 0.486, 0.995]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "河岸细沙区域。"
+    sentence: "The net lies on wet sand."
+    matched_form: "sand"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 沙子
+
+------------------------------------------------------------------------
+[7/8] deep  (W189)
+  词义: 深的
+  词性: adjective
+  音标: UK /diːp/ | US /diːp/
+  搭配: deep water
+  例句: The river is deep beyond the sandy bank.
+  例句高亮: The river is **deep** beyond the sandy bank.
+  例句中文: 沙岸外的河水很深。
+  标注模式: relation
+  标注说明: 定位句子所指河水区域，实际水深由故事说明，不用颜色测深。
+  坐标(normalized): [0.57, 0.232, 0.996, 0.576]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "定位句子所指河水区域，实际水深由故事说明，不用颜色测深。"
+    sentence: "The river is deep beyond the sandy bank."
+    matched_form: "deep"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 深的
+
+------------------------------------------------------------------------
+[8/8] land  (W385)
+  词义: 陆地
+  词性: noun
+  音标: UK /lænd/ | US /lænd/
+  搭配: dry land
+  例句: My feet stay on dry land.
+  例句高亮: My feet stay on dry **land**.
+  例句中文: 我的双脚留在干燥的陆地上。
+  标注模式: object
+  标注说明: 与河水分开的实际岸地。
+  坐标(normalized): [0.0, 0.322, 0.15, 0.51]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "与河水分开的实际岸地。"
+    sentence: "My feet stay on dry land."
+    matched_form: "land"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 土地；陆地
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 8
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C046 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=49 | meta.approved_cards=50
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Woman sitting safely on sandy riverbank, holding a simple fishing rod diagonally upward. River on right with dark deeper-looking channel and visible near sandy land. Large landing net rests on damp sand at lower right containing one clearly visible silvery fish, realistic head fins and tail. An unused curved metal fishing hook is clearly visible resting on a small pale tackle tray at lower left near rod handle: close enough to discern hook, no attached fish. No gore or handling injury. Rod fully discernible. Wide river beyond, distant green bank.

@@ -1,0 +1,255 @@
+C087  量一量称一称
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C087.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C087.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:03:28 UTC
+  提示词文件: prompts/C087_image_final.txt
+
+场景: 主角用尺、秤测量物体，比较重量、数量、质量与程度。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 尺在木板上，天平两端同形木块及水平横梁清楚；不把质量重量数字编造为可读数据。
+
+主配文:
+  英文: I measure a board and compare two samples on a balance scale.
+  中文: 我测量一块木板，并用天平比较两个样品。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): measure, scale, weight, mass, degree, equal, even, range
+
+------------------------------------------------------------------------
+[1/8] measure  (W434)
+  词义: 测量
+  词性: verb
+  音标: UK /ˈmeʒə/ | US /ˈmeʒɚ/
+  搭配: measure a board; measure the length
+  例句: I measure the length of the board with a ruler.
+  例句高亮: I **measure** the length of the board with a ruler.
+  例句中文: 我用尺子测量木板的长度。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（测量），待最终图确认。
+  坐标(normalized): [0.173, 0.602, 0.789, 0.726]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双手把尺贴木板测长度。"
+    sentence: "I measure the length of the board with a ruler."
+    matched_form: "measure"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 测量；度量
+
+------------------------------------------------------------------------
+[2/8] scale  (W619)
+  词义: 秤
+  词性: noun
+  音标: UK /skeɪl/ | US /skeɪl/
+  搭配: a balance scale; use a scale
+  例句: The scale has a sample on each pan.
+  例句高亮: The **scale** has a sample on each pan.
+  例句中文: 秤的两端托盘各有一个样品。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（秤），待最终图确认。
+  坐标(normalized): [0.639, 0.349, 0.998, 0.669]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧双盘天平。"
+    sentence: "The scale has a sample on each pan."
+    matched_form: "scale"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 刻度；规模
+
+------------------------------------------------------------------------
+[3/8] weight  (W813)
+  词义: 重量
+  词性: noun
+  音标: UK /weɪt/ | US /weɪt/
+  搭配: equal weight; compare weight
+  例句: We compare the weight of the two samples here.
+  例句高亮: We compare the **weight** of the two samples here.
+  例句中文: 我们在这里比较两个样品的重量。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We compare the weight of the two samples here."
+    matched_form: "weight"
+    context: "由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 重量
+
+------------------------------------------------------------------------
+[4/8] mass  (W429)
+  词义: 质量
+  词性: noun
+  音标: UK /mæs/ | US /mæs/
+  搭配: equal mass; measure mass
+  例句: In our lesson, each cube has the same mass.
+  例句高亮: In our lesson, each cube has the same **mass**.
+  例句中文: 本课设定中，每个立方体的质量相同。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "In our lesson, each cube has the same mass."
+    matched_form: "mass"
+    context: "由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 大量；质量
+
+------------------------------------------------------------------------
+[5/8] degree  (W190)
+  词义: 程度
+  词性: noun
+  音标: UK /dɪˈɡriː/ | US /dɪˈɡriː/
+  搭配: a small degree; degree of difference
+  例句: We look for any degree of difference between the samples.
+  例句高亮: We look for any **degree** of difference between the samples.
+  例句中文: 我们查看样品之间是否存在任何程度的差异。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We look for any degree of difference between the samples."
+    matched_form: "degree"
+    context: "由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 学位；程度
+
+------------------------------------------------------------------------
+[6/8] equal  (W235)
+  词义: 相等的
+  词性: adjective
+  音标: UK /ˈiːkwəl/ | US /ˈiːkwəl/
+  搭配: equal weight; equal amounts
+  例句: The two samples have equal weight in this demonstration.
+  例句高亮: The two samples have **equal** weight in this demonstration.
+  例句中文: 这次演示中的两个样品重量相等。
+  标注模式: relation
+  标注说明: 场景中体现的关系（相等的），待最终图确认。
+  坐标(normalized): [0.642, 0.491, 0.998, 0.578]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "天平两端木块与平衡横梁，由演示设定重量相等。"
+    sentence: "The two samples have equal weight in this demonstration."
+    matched_form: "equal"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 相等的；平等的
+
+------------------------------------------------------------------------
+[7/8] even  (W237)
+  词义: 平整的
+  词性: adjective
+  音标: UK /ˈiːvən/ | US /ˈiːvən/
+  搭配: an even surface; keep even
+  例句: The board has an even surface.
+  例句高亮: The board has an **even** surface.
+  例句中文: 木板的表面平整。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（平整的），待最终图确认。
+  坐标(normalized): [0.252, 0.7, 0.998, 0.853]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "木板平整可见表面。"
+    sentence: "The board has an even surface."
+    matched_form: "even"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 甚至；均匀的
+
+------------------------------------------------------------------------
+[8/8] range  (W575)
+  词义: 范围
+  词性: noun
+  音标: UK /reɪndʒ/ | US /reɪndʒ/
+  搭配: a measurement range; within a range
+  例句: Our ruler has a limited measurement range.
+  例句高亮: Our ruler has a limited measurement **range**.
+  例句中文: 我们的尺子有有限的测量范围。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Our ruler has a limited measurement range."
+    matched_form: "range"
+    context: "由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 范围；山脉
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C087 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at refined teaching workbench using plain ruler beside flat wood board. A small metal balance scale has two identical wooden cubes, one on each level pan, balanced beam visibly horizontal. Clear close foreground showing ruler and flat even board surface. No readable numbers, no logos, natural hands, cool Korean editorial photography.

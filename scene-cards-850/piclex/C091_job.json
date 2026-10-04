@@ -1,0 +1,22 @@
+{
+  "cardID": "C091",
+  "imagePath": "../images/C091.png",
+  "imageSHA256": "e5fbfbf9383c2ce95d0bda0a97ebdd9890d9f4b641c7fed8145b7d1642d89dd5",
+  "imageReviewed": true,
+  "annotationsPath": "C091_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "person",
+    "man",
+    "woman",
+    "boy",
+    "girl",
+    "young",
+    "male",
+    "female",
+    "among",
+    "sex",
+    "who"
+  ],
+  "receiptPath": "C091_import_receipt.json"
+}

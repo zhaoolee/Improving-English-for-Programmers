@@ -1,0 +1,402 @@
+{
+  "id": "C076",
+  "chapter": "工作与信息",
+  "title": "创业小摊的账本",
+  "scene": "小摊主从收入有限的 poor 处境起步，记录贸易、税费、数量、单位和增长率；工业生产用背景图解释。",
+  "target_count": 9,
+  "primary_words": [
+    "trade",
+    "tax",
+    "rate",
+    "increase",
+    "produce",
+    "industry",
+    "number",
+    "unit",
+    "poor"
+  ],
+  "targets": [
+    {
+      "word_id": "W776",
+      "word": "trade",
+      "aliases": [],
+      "source_zh_unreviewed": "贸易",
+      "planned_mode": "context",
+      "sense_zh": "贸易",
+      "pos": "noun",
+      "ipa_us": "/treɪd/",
+      "ipa_uk": "/treɪd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our trade brings handmade cups to customers.",
+        "matched_form": "trade",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Our trade brings handmade cups to customers.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Our trade brings handmade cups to customers.",
+      "example_zh": "我们的贸易把手工杯子带给顾客。",
+      "bbox_normalized": null,
+      "collocations": [
+        "local trade",
+        "trade in goods"
+      ],
+      "example_en_highlighted": "Our **trade** brings handmade cups to customers.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Our trade brings handmade cups to customers.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W740",
+      "word": "tax",
+      "aliases": [],
+      "source_zh_unreviewed": "税",
+      "planned_mode": "context",
+      "sense_zh": "税",
+      "pos": "noun",
+      "ipa_us": "/tæks/",
+      "ipa_uk": "/tæks/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I record the tax separately in my notes.",
+        "matched_form": "tax",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I record the tax separately in my notes.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I record the tax separately in my notes.",
+      "example_zh": "我在笔记中单独记录税款。",
+      "bbox_normalized": null,
+      "collocations": [
+        "pay tax",
+        "income tax"
+      ],
+      "example_en_highlighted": "I record the **tax** separately in my notes.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I record the tax separately in my notes.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W577",
+      "word": "rate",
+      "aliases": [],
+      "source_zh_unreviewed": "率；速度",
+      "planned_mode": "context",
+      "sense_zh": "比率",
+      "pos": "noun",
+      "ipa_us": "/reɪt/",
+      "ipa_uk": "/reɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I compare the rate of growth each month.",
+        "matched_form": "rate",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I compare the rate of growth each month.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I compare the rate of growth each month.",
+      "example_zh": "我比较每个月的增长率。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a growth rate",
+        "at a steady rate"
+      ],
+      "example_en_highlighted": "I compare the **rate** of growth each month.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I compare the rate of growth each month.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W359",
+      "word": "increase",
+      "aliases": [],
+      "source_zh_unreviewed": "增加",
+      "planned_mode": "context",
+      "sense_zh": "增长",
+      "pos": "noun",
+      "ipa_us": "/ˈɪŋkriːs/",
+      "ipa_uk": "/ˈɪŋkriːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "There is a small increase in sales.",
+        "matched_form": "increase",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：There is a small increase in sales.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "There is a small increase in sales.",
+      "example_zh": "销量有小幅增长。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an increase in",
+        "a small increase"
+      ],
+      "example_en_highlighted": "There is a small **increase** in sales.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：There is a small increase in sales.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W556",
+      "word": "produce",
+      "aliases": [],
+      "source_zh_unreviewed": "生产；农产品",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "生产",
+      "pos": "verb",
+      "ipa_us": "/prəˈduːs/",
+      "ipa_uk": "/prəˈdjuːs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双手海绵擦整陶杯的手工制作动作。",
+        "sentence": "We produce simple cups by hand.",
+        "matched_form": "produce",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We produce simple cups by hand.",
+      "example_zh": "我们手工制作简单的杯子。",
+      "bbox_normalized": [
+        0.274,
+        0.481,
+        0.652,
+        0.69
+      ],
+      "collocations": [
+        "produce goods",
+        "produce by hand"
+      ],
+      "example_en_highlighted": "We **produce** simple cups by hand.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（生产），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W360",
+      "word": "industry",
+      "aliases": [],
+      "source_zh_unreviewed": "工业",
+      "planned_mode": "context",
+      "sense_zh": "产业",
+      "pos": "noun",
+      "ipa_us": "/ˈɪndəstri/",
+      "ipa_uk": "/ˈɪndəstri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our workshop is part of the pottery industry.",
+        "matched_form": "industry",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Our workshop is part of the pottery industry.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Our workshop is part of the pottery industry.",
+      "example_zh": "我们的工坊属于陶瓷产业。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the pottery industry",
+        "a local industry"
+      ],
+      "example_en_highlighted": "Our workshop is part of the pottery **industry**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Our workshop is part of the pottery industry.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W484",
+      "word": "number",
+      "aliases": [],
+      "source_zh_unreviewed": "数字",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "数量",
+      "pos": "noun",
+      "ipa_us": "/ˈnʌmbɚ/",
+      "ipa_uk": "/ˈnʌmbə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I count the number of cups on the stall.",
+        "matched_form": "number",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I count the number of cups on the stall.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I count the number of cups on the stall.",
+      "example_zh": "我清点摊位上杯子的数量。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the number of",
+        "count the number"
+      ],
+      "example_en_highlighted": "I count the **number** of cups on the stall.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I count the number of cups on the stall.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W789",
+      "word": "unit",
+      "aliases": [],
+      "source_zh_unreviewed": "单元",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "单位",
+      "pos": "noun",
+      "ipa_us": "/ˈjuːnɪt/",
+      "ipa_uk": "/ˈjuːnɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Each cup counts as one unit in my record.",
+        "matched_form": "unit",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Each cup counts as one unit in my record.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Each cup counts as one unit in my record.",
+      "example_zh": "我的记录把每个杯子算作一个单位。",
+      "bbox_normalized": null,
+      "collocations": [
+        "one unit",
+        "a sales unit"
+      ],
+      "example_en_highlighted": "Each cup counts as one **unit** in my record.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Each cup counts as one unit in my record.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W541",
+      "word": "poor",
+      "aliases": [],
+      "source_zh_unreviewed": "贫穷的；可怜的",
+      "planned_mode": "context",
+      "sense_zh": "收入有限的",
+      "pos": "adjective",
+      "ipa_us": "/pʊr/",
+      "ipa_uk": "/pɔː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We were poor when the workshop first opened.",
+        "matched_form": "poor",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We were poor when the workshop first opened.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We were poor when the workshop first opened.",
+      "example_zh": "工坊刚开张时，我们收入有限。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a poor household",
+        "poor at first"
+      ],
+      "example_en_highlighted": "We were **poor** when the workshop first opened.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We were poor when the workshop first opened.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I sell what we produce, count each unit, and keep a record of our trade.",
+    "zh": "我出售我们制作的产品，清点每一件，并记录我们的交易。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "poor 用于收入有限的处境；industry 使用背景生产图与短句解释，不能标到一个人就算覆盖。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C076\n标题 创业小摊的账本\n场景 小摊主从收入有限的 poor 处境起步，记录贸易、税费、数量、单位和增长率；工业生产用背景图解释。\n目标词 trade, tax, rate, increase, produce, industry, number, unit, poor\n原创主配文草案 The number of things we produce is increasing.\n中文草案 我们生产的东西数量正在增加。\n编辑注意 poor 用于收入有限的处境；industry 使用背景生产图与短句解释，不能标到一个人就算覆盖。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool premium small craft market stall, adult woman finishing a simple handmade ceramic cup with damp sponge, several plain cups in neat rows, open ledger of unlabelled columns no text or numbers. Background small framed photo of pottery workshop shelves conveys production setting. Honest modest business portrait, realistic ceramics and hands, no money claims inferred from clothes, no logos.",
+  "status": "approved",
+  "image_path": "images/C076.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 8,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C076 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:38:20 UTC",
+    "prompt_path": "prompts/C076_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C076.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "女子用海绵处理杯沿，杯子列队与账本清楚；制作动作可框，贸易税率收入等不依外貌或不可读账本推断。"
+  }
+}

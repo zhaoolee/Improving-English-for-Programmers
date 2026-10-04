@@ -1,0 +1,21 @@
+{
+  "cardID": "C065",
+  "imagePath": "../images/C065.png",
+  "imageSHA256": "8f3877782be30f2ba0bdcd6b5e00810559cada3718e6994e8e21fbbba48a963f",
+  "imageReviewed": true,
+  "annotationsPath": "C065_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "circle",
+    "square",
+    "line",
+    "angle",
+    "curve",
+    "parallel",
+    "round",
+    "straight",
+    "flat",
+    "point"
+  ],
+  "receiptPath": "C065_import_receipt.json"
+}

@@ -1,0 +1,321 @@
+{
+  "filename": "C012-炉边热汤.png",
+  "labels": [
+    {
+      "x": 350,
+      "y": 638,
+      "english": "cook",
+      "chinese": "烹饪",
+      "phoneticUS": "/kʊk/",
+      "phoneticUK": "/kʊk/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 500
+      },
+      "anchorPosition": {
+        "x": 350,
+        "y": 638
+      },
+      "boundingBox": {
+        "left": 215,
+        "top": 481,
+        "right": 497,
+        "bottom": 739
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手持勺子在锅内搅拌的烹饪动作",
+        "association": "手持勺子在锅内搅拌的烹饪动作",
+        "collocation": "cook soup",
+        "example": "I cook soup for lunch.",
+        "exampleChinese": "我为午餐煮汤。"
+      }
+    },
+    {
+      "x": 645,
+      "y": 835,
+      "english": "pot",
+      "chinese": "锅",
+      "phoneticUS": "/pɑːt/",
+      "phoneticUK": "/pɒt/",
+      "bubblePosition": {
+        "x": 680,
+        "y": 875
+      },
+      "anchorPosition": {
+        "x": 645,
+        "y": 835
+      },
+      "boundingBox": {
+        "left": 231,
+        "top": 638,
+        "right": 785,
+        "bottom": 892
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "锅身与把手，不含整座炉台",
+        "association": "锅身与把手，不含整座炉台",
+        "collocation": "a cooking pot",
+        "example": "The pot is on the stove.",
+        "exampleChinese": "锅放在炉子上。"
+      }
+    },
+    {
+      "x": 560,
+      "y": 730,
+      "english": "soup",
+      "chinese": "汤",
+      "phoneticUS": "/suːp/",
+      "phoneticUK": "/suːp/",
+      "bubblePosition": {
+        "x": 580,
+        "y": 580
+      },
+      "anchorPosition": {
+        "x": 560,
+        "y": 730
+      },
+      "boundingBox": {
+        "left": 330,
+        "top": 675,
+        "right": 684,
+        "bottom": 766
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "锅中可见液体汤面",
+        "association": "锅中可见液体汤面",
+        "collocation": "vegetable soup",
+        "example": "The soup is in the pot.",
+        "exampleChinese": "汤在锅里。"
+      }
+    },
+    {
+      "x": 895,
+      "y": 810,
+      "english": "potato",
+      "chinese": "土豆",
+      "phoneticUS": "/pəˈteɪtoʊ/",
+      "phoneticUK": "/pəˈteɪtəʊ/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 685
+      },
+      "anchorPosition": {
+        "x": 895,
+        "y": 810
+      },
+      "boundingBox": {
+        "left": 823,
+        "top": 768,
+        "right": 958,
+        "bottom": 853
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "旁边一颗完整棕色土豆",
+        "association": "旁边一颗完整棕色土豆",
+        "collocation": "a whole potato",
+        "example": "A potato is on the board.",
+        "exampleChinese": "木板上有一个土豆。"
+      }
+    },
+    {
+      "x": 110,
+      "y": 817,
+      "english": "rice",
+      "chinese": "米饭",
+      "phoneticUS": "/raɪs/",
+      "phoneticUK": "/raɪs/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 110,
+        "y": 817
+      },
+      "boundingBox": {
+        "left": 3,
+        "top": 780,
+        "right": 218,
+        "bottom": 853
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "碗中白色熟米饭，不含整只碗",
+        "association": "碗中白色熟米饭，不含整只碗",
+        "collocation": "a bowl of rice",
+        "example": "The rice is in a bowl.",
+        "exampleChinese": "米饭在碗里。"
+      }
+    },
+    {
+      "x": 507,
+      "y": 720,
+      "english": "boiling",
+      "chinese": "正在沸腾",
+      "phoneticUS": "/ˈbɔɪlɪŋ/",
+      "phoneticUK": "/ˈbɔɪlɪŋ/",
+      "bubblePosition": {
+        "x": 755,
+        "y": 590
+      },
+      "anchorPosition": {
+        "x": 507,
+        "y": 720
+      },
+      "boundingBox": {
+        "left": 330,
+        "top": 675,
+        "right": 684,
+        "bottom": 766
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (present participle of boil)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "锅内汤面及气泡的区域；boiling采用原创烹饪设定与例句，区域定位所指汤面，不从照片测量温度。",
+        "association": "锅内汤面及气泡的区域；boiling采用原创烹饪设定与例句，区域定位所指汤面，不从照片测量温度。",
+        "collocation": "boiling soup",
+        "example": "The soup is boiling.",
+        "exampleChinese": "汤正在沸腾。"
+      }
+    },
+    {
+      "x": 285,
+      "y": 626,
+      "english": "steam",
+      "chinese": "蒸汽",
+      "phoneticUS": "/stiːm/",
+      "phoneticUK": "/stiːm/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 640
+      },
+      "anchorPosition": {
+        "x": 285,
+        "y": 626
+      },
+      "boundingBox": {
+        "left": 235,
+        "top": 578,
+        "right": 342,
+        "bottom": 681
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "锅上方可见白色水汽区域，不当烟雾",
+        "association": "锅上方可见白色水汽区域，不当烟雾",
+        "collocation": "rising steam",
+        "example": "Steam rises from the pot.",
+        "exampleChinese": "蒸汽从锅里升起。"
+      }
+    },
+    {
+      "x": 480,
+      "y": 940,
+      "english": "heat",
+      "chinese": "热",
+      "phoneticUS": "/hiːt/",
+      "phoneticUK": "/hiːt/",
+      "bubblePosition": {
+        "x": 480,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "热量不可见，由烹饪设定和句子说明",
+        "association": "热量不可见，由烹饪设定和句子说明",
+        "collocation": "heat from the stove",
+        "example": "The stove gives off heat.",
+        "exampleChinese": "炉子散发热量。"
+      }
+    },
+    {
+      "x": 356,
+      "y": 610,
+      "english": "make",
+      "chinese": "制作",
+      "phoneticUS": "/meɪk/",
+      "phoneticUK": "/meɪk/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 75
+      },
+      "anchorPosition": {
+        "x": 356,
+        "y": 610
+      },
+      "boundingBox": {
+        "left": 215,
+        "top": 481,
+        "right": 497,
+        "bottom": 739
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手持木勺在锅中搅拌制作汤的动作区域，make soup指向这个制作活动。",
+        "association": "手持木勺在锅中搅拌制作汤的动作区域，make soup指向这个制作活动。",
+        "collocation": "make soup",
+        "example": "I make soup at home.",
+        "exampleChinese": "我在家做汤。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I cook soup in the pot, with rice and potatoes beside me.",
+    "chinese": "我用锅煮汤，米饭和土豆放在旁边。",
+    "source": "原创配文 · C012 炉边热汤",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

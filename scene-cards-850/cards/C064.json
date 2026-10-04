@@ -1,0 +1,364 @@
+{
+  "id": "C064",
+  "chapter": "学习与艺术",
+  "title": "做题与纠错",
+  "scene": "两名学生问答，草稿中有示例、测试、错误、正误和真假对照。",
+  "target_count": 8,
+  "primary_words": [
+    "question",
+    "answer",
+    "example",
+    "test",
+    "error",
+    "wrong",
+    "true",
+    "false"
+  ],
+  "targets": [
+    {
+      "word_id": "W569",
+      "word": "question",
+      "aliases": [],
+      "source_zh_unreviewed": "问题；疑问",
+      "planned_mode": "context",
+      "sense_zh": "问题",
+      "pos": "noun",
+      "ipa_us": "/ˈkwestʃən/",
+      "ipa_uk": "/ˈkwestʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I ask my friend a question.",
+        "matched_form": "question",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I ask my friend a question.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I ask my friend a question.",
+      "example_zh": "我向朋友提出一个问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "ask a question",
+        "a simple question"
+      ],
+      "example_en_highlighted": "I ask my friend a **question**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I ask my friend a question.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W025",
+      "word": "answer",
+      "aliases": [],
+      "source_zh_unreviewed": "回答；答案",
+      "planned_mode": "context",
+      "sense_zh": "答案",
+      "pos": "noun",
+      "ipa_us": "/ˈænsɚ/",
+      "ipa_uk": "/ˈɑːnsə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We compare my answer with hers.",
+        "matched_form": "answer",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We compare my answer with hers.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We compare my answer with hers.",
+      "example_zh": "我们比较我的答案和她的答案。",
+      "bbox_normalized": null,
+      "collocations": [
+        "give an answer",
+        "check an answer"
+      ],
+      "example_en_highlighted": "We compare my **answer** with hers.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We compare my answer with hers.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W241",
+      "word": "example",
+      "aliases": [],
+      "source_zh_unreviewed": "例子",
+      "planned_mode": "context",
+      "sense_zh": "例子",
+      "pos": "noun",
+      "ipa_us": "/ɪɡˈzæmpəl/",
+      "ipa_uk": "/ɪɡˈzɑːmpəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Her example helps me understand the rule.",
+        "matched_form": "example",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Her example helps me understand the rule.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Her example helps me understand the rule.",
+      "example_zh": "她的例子帮助我理解这个规则。",
+      "bbox_normalized": null,
+      "collocations": [
+        "for example",
+        "a clear example"
+      ],
+      "example_en_highlighted": "Her **example** helps me understand the rule.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Her example helps me understand the rule.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W743",
+      "word": "test",
+      "aliases": [],
+      "source_zh_unreviewed": "测试",
+      "planned_mode": "context",
+      "sense_zh": "测验",
+      "pos": "noun",
+      "ipa_us": "/test/",
+      "ipa_uk": "/test/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧独立练习纸，故事指定练习测验。",
+        "sentence": "This sheet is a practice test.",
+        "matched_form": "test",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This sheet is a practice test.",
+      "example_zh": "这张纸是一份练习测验。",
+      "bbox_normalized": [
+        0.036,
+        0.688,
+        0.389,
+        0.811
+      ],
+      "collocations": [
+        "take a test",
+        "a practice test"
+      ],
+      "example_en_highlighted": "This sheet is a practice **test**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（测验），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W236",
+      "word": "error",
+      "aliases": [],
+      "source_zh_unreviewed": "错误",
+      "planned_mode": "context",
+      "sense_zh": "错误",
+      "pos": "noun",
+      "ipa_us": "/ˈerɚ/",
+      "ipa_uk": "/ˈerə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I find an error in my answer.",
+        "matched_form": "error",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I find an error in my answer.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I find an error in my answer.",
+      "example_zh": "我在自己的答案里发现一个错误。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make an error",
+        "correct an error"
+      ],
+      "example_en_highlighted": "I find an **error** in my answer.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I find an error in my answer.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W844",
+      "word": "wrong",
+      "aliases": [],
+      "source_zh_unreviewed": "错误的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "错误的",
+      "pos": "adjective",
+      "ipa_us": "/rɔːŋ/",
+      "ipa_uk": "/rɒŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My first answer is wrong.",
+        "matched_form": "wrong",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My first answer is wrong.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My first answer is wrong.",
+      "example_zh": "我的第一个答案是错的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a wrong answer",
+        "be wrong"
+      ],
+      "example_en_highlighted": "My first answer is **wrong**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My first answer is wrong.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W784",
+      "word": "true",
+      "aliases": [],
+      "source_zh_unreviewed": "真实的",
+      "planned_mode": "context",
+      "sense_zh": "真实的",
+      "pos": "adjective",
+      "ipa_us": "/truː/",
+      "ipa_uk": "/truː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The statement is true: water freezes when it is cold enough.",
+        "matched_form": "true",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The statement is true: water freezes when it is cold enough.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The statement is true: water freezes when it is cold enough.",
+      "example_zh": "这个陈述是真的：水冷到一定程度会结冰。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a true statement",
+        "be true"
+      ],
+      "example_en_highlighted": "The statement is **true**: water freezes when it is cold enough.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The statement is true: water freezes when it is cold enough.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W251",
+      "word": "false",
+      "aliases": [],
+      "source_zh_unreviewed": "错误的；虚假的",
+      "planned_mode": "context",
+      "sense_zh": "不真实的",
+      "pos": "adjective",
+      "ipa_us": "/fɔːls/",
+      "ipa_uk": "/fɔːls/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The statement that all birds can fly is false.",
+        "matched_form": "false",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The statement that all birds can fly is false.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The statement that all birds can fly is false.",
+      "example_zh": "“所有鸟都会飞”这个陈述不是真的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a false statement",
+        "be false"
+      ],
+      "example_en_highlighted": "The statement that all birds can fly is **false**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The statement that all birds can fly is false.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "We ask a question, compare an answer, and learn from an error together.",
+    "zh": "我们提出问题、比较答案，一起从错误中学习。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C064\n标题 做题与纠错\n场景 两名学生问答，草稿中有示例、测试、错误、正误和真假对照。\n目标词 question, answer, example, test, error, wrong, true, false\n原创主配文草案 An error can help us find the right answer.\n中文草案 错误能帮助我们找到正确答案。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two adult women at study table, main woman speaking with open conversational hand while friend points to workbook. Plain test sheet and open workbook separated, visible simple checked/crossed abstract marks but no letters, mathematical text or readable text. Friendly honest learning scene, not children. Pens and page easy to see, all hands anatomically credible.",
+  "status": "approved",
+  "image_path": "images/C064.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C064 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:18:42 UTC",
+    "prompt_path": "prompts/C064_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C064.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "两位成年学习者讨论练习，左侧练习纸可定位；对错标记不当作数学结论，问题答案和真假由句子解释。"
+  }
+}

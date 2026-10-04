@@ -1,0 +1,695 @@
+{
+  "startedAt": "2026-10-02T23:15:52Z",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C021",
+      "caption_en": "A shirt, a coat, and a quiet moment before going out.",
+      "caption_zh": "一件衬衫，一件外套，还有出门前安静的片刻。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Elegant bedroom dressing scene, woman center wearing an ivory BUTTON-FRONT SHIRT with pointed COLLAR and clear front buttons, not a cardigan. She holds a slate grey COAT on her left side at image right, coat front and one rectangular PATCH POCKET plainly visible, gently straightening pocket edge. Bed foreground displays a separate pair of full-length blue-grey TROUSERS flat at left with both legs visible, a beige knee-length SKIRT flat at right with waistband and hem visible. A simple pale blue sleeveless full DRESS hangs on rack at rear left, bodice and skirt attached, clearly not a separate skirt. Medium-wide portrait with five garments distinct; do not duplicate clothes or hide hem.",
+      "words": [
+        {
+          "word": "shirt",
+          "zh": "衬衫",
+          "pos": "noun",
+          "us": "/ʃɜːrt/",
+          "uk": "/ʃɜːt/",
+          "collocations": [
+            "a white shirt"
+          ],
+          "example": "I wear a white shirt.",
+          "translation": "我穿着白衬衫。",
+          "mode": "object",
+          "evidence": "主人公身上有前襟纽扣与翻领的衬衫",
+          "color": "blue"
+        },
+        {
+          "word": "coat",
+          "zh": "外套",
+          "pos": "noun",
+          "us": "/koʊt/",
+          "uk": "/kəʊt/",
+          "collocations": [
+            "a grey coat"
+          ],
+          "example": "The coat has a pocket.",
+          "translation": "这件外套有一个口袋。",
+          "mode": "object",
+          "evidence": "手中灰色外套整体",
+          "color": "teal"
+        },
+        {
+          "word": "trousers",
+          "zh": "长裤",
+          "pos": "noun",
+          "us": "/ˈtraʊzərz/",
+          "uk": "/ˈtraʊzəz/",
+          "collocations": [
+            "a pair of trousers"
+          ],
+          "example": "The trousers have two long legs.",
+          "translation": "这条长裤有两条长裤腿。",
+          "mode": "object",
+          "evidence": "床边平铺长裤，复数名词",
+          "color": "blue"
+        },
+        {
+          "word": "skirt",
+          "zh": "半身裙",
+          "pos": "noun",
+          "us": "/skɜːrt/",
+          "uk": "/skɜːt/",
+          "collocations": [
+            "a knee-length skirt"
+          ],
+          "example": "The skirt is on the bed.",
+          "translation": "半身裙在床上。",
+          "mode": "object",
+          "evidence": "独立半身裙，不含连衣裙上半身",
+          "color": "rose"
+        },
+        {
+          "word": "dress",
+          "zh": "连衣裙",
+          "pos": "noun",
+          "us": "/dres/",
+          "uk": "/dres/",
+          "collocations": [
+            "a blue dress"
+          ],
+          "example": "The dress hangs on the rack.",
+          "translation": "连衣裙挂在衣架上。",
+          "mode": "object",
+          "evidence": "衣架上的一体式连衣裙",
+          "color": "lavender"
+        },
+        {
+          "word": "pocket",
+          "zh": "口袋",
+          "pos": "noun",
+          "us": "/ˈpɑːkɪt/",
+          "uk": "/ˈpɒkɪt/",
+          "collocations": [
+            "a coat pocket"
+          ],
+          "example": "The pocket is on the coat.",
+          "translation": "口袋在外套上。",
+          "mode": "object",
+          "evidence": "外套前方贴袋",
+          "color": "teal"
+        },
+        {
+          "word": "collar",
+          "zh": "衣领",
+          "pos": "noun",
+          "us": "/ˈkɑːlər/",
+          "uk": "/ˈkɒlə/",
+          "collocations": [
+            "a shirt collar"
+          ],
+          "example": "The collar is part of the shirt.",
+          "translation": "衣领是衬衫的一部分。",
+          "mode": "object",
+          "evidence": "主人公衬衫翻领",
+          "color": "lavender"
+        },
+        {
+          "word": "button",
+          "zh": "纽扣",
+          "pos": "noun",
+          "us": "/ˈbʌtən/",
+          "uk": "/ˈbʌtən/",
+          "collocations": [
+            "a shirt button"
+          ],
+          "example": "A button closes the shirt.",
+          "translation": "一颗纽扣扣住衬衫。",
+          "mode": "object",
+          "evidence": "衬衫前襟一颗纽扣；不是按钮",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C022",
+      "caption_en": "I choose my shoes and take my bag before stepping outside.",
+      "caption_zh": "出门前，我选好鞋，再拿上包。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Refined apartment entryway, adult woman sitting on bench in ivory blouse and slate trousers, hands calmly resting, feet modestly framed. Distinct arranged accessories: pair of low white SHOES on floor front-left, tall brown BOOTS floor front-right; one short light-grey ankle SOCK laid flat on bench at left; one separate thin black knee-high STOCKING with reinforced top band spread out on bench beside sock, full length visible, not tights. Beige brimmed HAT hanging on wall left, pair of grey GLOVES on bench far-right, structured brown LEATHER BAG on bench right with real grain and handle visible. Medium-wide scene, all seven props spaced, understated editorial still life with woman.",
+      "words": [
+        {
+          "word": "shoe",
+          "zh": "鞋",
+          "pos": "noun",
+          "us": "/ʃuː/",
+          "uk": "/ʃuː/",
+          "collocations": [
+            "a white shoe"
+          ],
+          "example": "A white shoe is beside the bench.",
+          "translation": "一只白鞋在长凳旁边。",
+          "mode": "object",
+          "evidence": "前景一只低帮白鞋",
+          "color": "blue"
+        },
+        {
+          "word": "boot",
+          "zh": "靴子",
+          "pos": "noun",
+          "us": "/buːt/",
+          "uk": "/buːt/",
+          "collocations": [
+            "a tall boot"
+          ],
+          "example": "The boot covers the ankle.",
+          "translation": "这只靴子盖住脚踝。",
+          "mode": "object",
+          "evidence": "前景一只高筒棕色靴子",
+          "color": "amber"
+        },
+        {
+          "word": "sock",
+          "zh": "短袜",
+          "pos": "noun",
+          "us": "/sɑːk/",
+          "uk": "/sɒk/",
+          "collocations": [
+            "an ankle sock"
+          ],
+          "example": "The sock is short.",
+          "translation": "这只袜子是短袜。",
+          "mode": "object",
+          "evidence": "长凳上短灰袜，与独立长袜区分",
+          "color": "teal"
+        },
+        {
+          "word": "stocking",
+          "zh": "长筒袜",
+          "pos": "noun",
+          "us": "/ˈstɑːkɪŋ/",
+          "uk": "/ˈstɒkɪŋ/",
+          "collocations": [
+            "a long stocking"
+          ],
+          "example": "The stocking reaches the knee.",
+          "translation": "这只长筒袜到膝盖。",
+          "mode": "object",
+          "evidence": "长凳上独立薄黑长筒袜，非连裤袜，长度由设定明确",
+          "color": "lavender"
+        },
+        {
+          "word": "hat",
+          "zh": "帽子",
+          "pos": "noun",
+          "us": "/hæt/",
+          "uk": "/hæt/",
+          "collocations": [
+            "a brimmed hat"
+          ],
+          "example": "The hat hangs on the wall.",
+          "translation": "帽子挂在墙上。",
+          "mode": "object",
+          "evidence": "墙上有帽檐的帽子",
+          "color": "amber"
+        },
+        {
+          "word": "glove",
+          "zh": "手套",
+          "pos": "noun",
+          "us": "/ɡlʌv/",
+          "uk": "/ɡlʌv/",
+          "collocations": [
+            "a warm glove"
+          ],
+          "example": "The glove has five fingers.",
+          "translation": "这只手套有五个指头。",
+          "mode": "object",
+          "evidence": "长凳上一只五指手套",
+          "color": "blue"
+        },
+        {
+          "word": "bag",
+          "zh": "包",
+          "pos": "noun",
+          "us": "/bæɡ/",
+          "uk": "/bæɡ/",
+          "collocations": [
+            "a leather bag"
+          ],
+          "example": "The bag has a handle.",
+          "translation": "这个包有提手。",
+          "mode": "object",
+          "evidence": "棕色手提包整体",
+          "color": "rose"
+        },
+        {
+          "word": "leather",
+          "zh": "皮革",
+          "pos": "noun",
+          "us": "/ˈleðər/",
+          "uk": "/ˈleðə/",
+          "collocations": [
+            "made of leather"
+          ],
+          "example": "The bag is made of leather.",
+          "translation": "这个包是皮革制成的。",
+          "mode": "object",
+          "evidence": "棕色包的可见区域；leather材质来自原创场景设定，框定位材料制成的对象，不从纹理鉴定成分。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "caption_en": "I like the silk, but every material has its own beauty.",
+      "caption_zh": "我喜欢丝绸，不过每种布料都有自己的美。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Elegant fabric atelier. Woman behind large pale table gently touching edge of fabric without covering samples. Five broad distinctly separated folded fabric samples in foreground LEFT TO RIGHT: white plain woven COTTON, slate grey chunky knitted WOOL, dusty rose glossy draped SILK, natural beige open-weave LINEN, blue grey stiff coarse woven CANVAS. Each sample large with readable weave and folds, not five identical flat cloths. Hands above center, face upper third, single row of samples across lower half. No tags, labels or rolls obscuring samples, refined uncluttered textile fashion photo.",
+      "words": [
+        {
+          "word": "cotton",
+          "zh": "棉布",
+          "pos": "noun",
+          "us": "/ˈkɑːtən/",
+          "uk": "/ˈkɒtən/",
+          "collocations": [
+            "cotton fabric"
+          ],
+          "example": "This white fabric is cotton.",
+          "translation": "这块白布是棉布。",
+          "mode": "object",
+          "evidence": "白色平纹样布；纤维身份由本卡原创布料设定说明",
+          "color": "blue"
+        },
+        {
+          "word": "wool",
+          "zh": "羊毛织物",
+          "pos": "noun",
+          "us": "/wʊl/",
+          "uk": "/wʊl/",
+          "collocations": [
+            "knitted wool"
+          ],
+          "example": "The grey sample is wool.",
+          "translation": "灰色样布是羊毛织物。",
+          "mode": "object",
+          "evidence": "灰色粗针织样布；材质身份由设定说明",
+          "color": "teal"
+        },
+        {
+          "word": "silk",
+          "zh": "丝绸",
+          "pos": "noun",
+          "us": "/sɪlk/",
+          "uk": "/sɪlk/",
+          "collocations": [
+            "pink silk"
+          ],
+          "example": "The pink fabric is silk.",
+          "translation": "粉色布料是丝绸。",
+          "mode": "object",
+          "evidence": "粉色有光泽垂褶样布；材质身份由设定说明",
+          "color": "rose"
+        },
+        {
+          "word": "linen",
+          "zh": "亚麻布",
+          "pos": "noun",
+          "us": "/ˈlɪnən/",
+          "uk": "/ˈlɪnən/",
+          "collocations": [
+            "linen cloth"
+          ],
+          "example": "The beige sample is linen.",
+          "translation": "米色样布是亚麻布。",
+          "mode": "object",
+          "evidence": "米色疏松织纹样布；材质身份由设定说明",
+          "color": "amber"
+        },
+        {
+          "word": "canvas",
+          "zh": "帆布",
+          "pos": "noun",
+          "us": "/ˈkænvəs/",
+          "uk": "/ˈkænvəs/",
+          "collocations": [
+            "strong canvas"
+          ],
+          "example": "The blue-grey fabric is canvas.",
+          "translation": "蓝灰色布料是帆布。",
+          "mode": "object",
+          "evidence": "蓝灰色粗织样布；材质身份由设定说明",
+          "color": "blue"
+        },
+        {
+          "word": "material",
+          "zh": "材料；布料",
+          "pos": "noun",
+          "us": "/məˈtɪriəl/",
+          "uk": "/məˈtɪəriəl/",
+          "collocations": [
+            "a clothing material"
+          ],
+          "example": "Silk is a material for clothes.",
+          "translation": "丝绸是一种制衣材料。",
+          "mode": "object",
+          "evidence": "丝绸布是material的具体可见实例，定位粉色布，不把类别当成无边界整图。",
+          "color": "teal"
+        },
+        {
+          "word": "color",
+          "zh": "颜色",
+          "pos": "noun",
+          "us": "/ˈkʌlər/",
+          "uk": "/ˈkʌlə/",
+          "collocations": [
+            "the color of silk"
+          ],
+          "example": "I like the color of this silk.",
+          "translation": "我喜欢这块丝绸的颜色。",
+          "mode": "object",
+          "evidence": "粉色布的实际区域，color指向这块布的可见颜色。",
+          "color": "rose"
+        },
+        {
+          "word": "smooth",
+          "zh": "光滑的",
+          "pos": "adjective",
+          "us": "/smuːð/",
+          "uk": "/smuːð/",
+          "collocations": [
+            "smooth silk"
+          ],
+          "example": "The silk feels smooth.",
+          "translation": "这块丝绸摸起来光滑。",
+          "mode": "context",
+          "evidence": "触感由原创叙述说明，不从光泽推定触感",
+          "color": "lavender"
+        },
+        {
+          "word": "like",
+          "zh": "喜欢",
+          "pos": "verb",
+          "us": "/laɪk/",
+          "uk": "/laɪk/",
+          "collocations": [
+            "like silk"
+          ],
+          "example": "I like the pink silk.",
+          "translation": "我喜欢粉色丝绸。",
+          "mode": "context",
+          "evidence": "采用动词喜欢义，不是介词像",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C024",
+      "caption_en": "A needle, a little thread, and time to mend a hole.",
+      "caption_zh": "一根针，少许线，再花点时间把破洞补好。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Close environmental portrait at a sewing table, woman face in upper third, hands and repair patch large and sharp in lower half. Repairing a small round HOLE in pale linen garment laid FLAT on table, hole reveals darker table beneath. One real metal sewing NEEDLE threaded with muted BLUE THREAD held in right hand just above cloth, needle eye and length readable, no duplicate needles. A short row of three distinct BLUE STITCHES beside hole, one SMALL visible blue thread KNOT at beginning of stitches. Separate large open metal SCISSORS on table right with two blades and two finger loops. One separate pearl-headed straight PIN on table left away from cloth. Realistic coherent fingers, no sewing machine, no lettering. Make small teaching details unusually clear but physically plausible.",
+      "words": [
+        {
+          "word": "needle",
+          "zh": "缝衣针",
+          "pos": "noun",
+          "us": "/ˈniːdəl/",
+          "uk": "/ˈniːdəl/",
+          "collocations": [
+            "a sewing needle"
+          ],
+          "example": "I hold the needle above the cloth.",
+          "translation": "我把缝衣针拿在布上方。",
+          "mode": "object",
+          "evidence": "手中金属缝衣针，不含手指",
+          "color": "blue"
+        },
+        {
+          "word": "thread",
+          "zh": "线",
+          "pos": "noun",
+          "us": "/θred/",
+          "uk": "/θred/",
+          "collocations": [
+            "blue thread"
+          ],
+          "example": "The thread passes through the needle.",
+          "translation": "线穿过针眼。",
+          "mode": "object",
+          "evidence": "缝补用蓝色线，非剪刀或布的边缘",
+          "color": "teal"
+        },
+        {
+          "word": "stitch",
+          "zh": "针脚",
+          "pos": "noun",
+          "us": "/stɪtʃ/",
+          "uk": "/stɪtʃ/",
+          "collocations": [
+            "a small stitch"
+          ],
+          "example": "A stitch joins the cloth.",
+          "translation": "一个针脚把布缝在一起。",
+          "mode": "object",
+          "evidence": "破洞旁蓝色缝线的一段针脚，名词义",
+          "color": "rose"
+        },
+        {
+          "word": "pin",
+          "zh": "大头针",
+          "pos": "noun",
+          "us": "/pɪn/",
+          "uk": "/pɪn/",
+          "collocations": [
+            "a straight pin"
+          ],
+          "example": "The pin lies on the table.",
+          "translation": "大头针放在桌上。",
+          "mode": "object",
+          "evidence": "桌上独立带珠头的直大头针，非缝衣针",
+          "color": "amber"
+        },
+        {
+          "word": "scissors",
+          "zh": "剪刀",
+          "pos": "noun",
+          "us": "/ˈsɪzərz/",
+          "uk": "/ˈsɪzəz/",
+          "collocations": [
+            "a pair of scissors"
+          ],
+          "example": "The scissors are beside the cloth.",
+          "translation": "剪刀在布旁边。",
+          "mode": "object",
+          "evidence": "独立双刃双环剪刀整体，复数名词",
+          "color": "blue"
+        },
+        {
+          "word": "knot",
+          "zh": "结",
+          "pos": "noun",
+          "us": "/nɑːt/",
+          "uk": "/nɒt/",
+          "collocations": [
+            "a thread knot"
+          ],
+          "example": "The knot keeps the thread in place.",
+          "translation": "这个结固定住线。",
+          "mode": "object",
+          "evidence": "缝线起点的小蓝色线结",
+          "color": "lavender"
+        },
+        {
+          "word": "hole",
+          "zh": "洞",
+          "pos": "noun",
+          "us": "/hoʊl/",
+          "uk": "/həʊl/",
+          "collocations": [
+            "a small hole"
+          ],
+          "example": "The cloth has a hole.",
+          "translation": "这块布有一个洞。",
+          "mode": "object",
+          "evidence": "布中露出暗色桌面的破洞",
+          "color": "rose"
+        },
+        {
+          "word": "loose",
+          "zh": "松的",
+          "pos": "adjective",
+          "us": "/luːs/",
+          "uk": "/luːs/",
+          "collocations": [
+            "a loose thread"
+          ],
+          "example": "I pull the loose thread gently.",
+          "translation": "我轻轻拉那根松线。",
+          "mode": "object",
+          "evidence": "悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。",
+          "color": "teal"
+        },
+        {
+          "word": "separate",
+          "zh": "分开的",
+          "pos": "adjective",
+          "us": "/ˈsepərət/",
+          "uk": "/ˈsepərət/",
+          "collocations": [
+            "separate tools"
+          ],
+          "example": "I keep the tools separate.",
+          "translation": "我把工具分开放。",
+          "mode": "object",
+          "evidence": "左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C025",
+      "caption_en": "Two grey coats: one long and thick, the other short and thin.",
+      "caption_zh": "两件灰色外套：一件长而厚，另一件短而薄。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Refined dressing-room fashion editorial, woman stands beside a tall mirror, medium-wide three-quarter scene. TWO distinct coats hanging side by side on simple rack in foreground: LEFT a long pale GREY padded winter coat with visibly bulky quilted thickness, hem reaching near floor; RIGHT a short pale GREY thin unlined summer jacket with fine fabric and short hem, clearly much shorter. Both same grey COLOR, different length and weight, aligned hanger height so comparison clear. Woman wearing ivory blouse and straight dark trousers gently holds right thin jacket hem to compare, face unobstructed. Mirror only subtle coherent partial reflection, not extra person. Clean pale wall and floor for annotations.",
+      "words": [
+        {
+          "word": "size",
+          "zh": "尺寸",
+          "pos": "noun",
+          "us": "/saɪz/",
+          "uk": "/saɪz/",
+          "collocations": [
+            "the right size"
+          ],
+          "example": "I check the size of the coat.",
+          "translation": "我检查外套的尺寸。",
+          "mode": "object",
+          "evidence": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+          "color": "blue"
+        },
+        {
+          "word": "long",
+          "zh": "长的",
+          "pos": "adjective",
+          "us": "/lɔːŋ/",
+          "uk": "/lɒŋ/",
+          "collocations": [
+            "a long coat"
+          ],
+          "example": "The padded coat is long.",
+          "translation": "这件棉外套很长。",
+          "mode": "object",
+          "evidence": "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。",
+          "color": "teal"
+        },
+        {
+          "word": "short",
+          "zh": "短的",
+          "pos": "adjective",
+          "us": "/ʃɔːrt/",
+          "uk": "/ʃɔːt/",
+          "collocations": [
+            "a short jacket"
+          ],
+          "example": "The summer jacket is short.",
+          "translation": "这件夏季夹克很短。",
+          "mode": "object",
+          "evidence": "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。",
+          "color": "rose"
+        },
+        {
+          "word": "thick",
+          "zh": "厚的",
+          "pos": "adjective",
+          "us": "/θɪk/",
+          "uk": "/θɪk/",
+          "collocations": [
+            "a thick coat"
+          ],
+          "example": "The winter coat is thick.",
+          "translation": "这件冬季外套很厚。",
+          "mode": "object",
+          "evidence": "左侧长款绗缝冬外套的实际区域；long对应低垂下摆，thick由可见绗缝体积和原创厚外套设定支持，不测量厚度。",
+          "color": "blue"
+        },
+        {
+          "word": "thin",
+          "zh": "薄的",
+          "pos": "adjective",
+          "us": "/θɪn/",
+          "uk": "/θɪn/",
+          "collocations": [
+            "a thin jacket"
+          ],
+          "example": "The summer jacket is thin.",
+          "translation": "这件夏季夹克很薄。",
+          "mode": "object",
+          "evidence": "右侧短款轻薄夹克的实际区域；short对应较高下摆，thin由轻薄夏装设定支持，不测量织物厚度。",
+          "color": "rose"
+        },
+        {
+          "word": "tight",
+          "zh": "紧的",
+          "pos": "adjective",
+          "us": "/taɪt/",
+          "uk": "/taɪt/",
+          "collocations": [
+            "a tight coat"
+          ],
+          "example": "If the coat feels tight, I try a larger size.",
+          "translation": "如果外套穿着紧，我就试大一号。",
+          "mode": "context",
+          "evidence": "条件性试衣例句，不认定图中人物穿着紧",
+          "color": "lavender"
+        },
+        {
+          "word": "different",
+          "zh": "不同的",
+          "pos": "adjective",
+          "us": "/ˈdɪfərənt/",
+          "uk": "/ˈdɪfərənt/",
+          "collocations": [
+            "different lengths"
+          ],
+          "example": "The coats have different lengths.",
+          "translation": "两件外套长度不同。",
+          "mode": "object",
+          "evidence": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+          "color": "teal"
+        },
+        {
+          "word": "same",
+          "zh": "相同的",
+          "pos": "adjective",
+          "us": "/seɪm/",
+          "uk": "/seɪm/",
+          "collocations": [
+            "the same color"
+          ],
+          "example": "The coats are the same color.",
+          "translation": "两件外套颜色相同。",
+          "mode": "object",
+          "evidence": "衣架上两件外套的比较区域；size指这组衣服的尺寸，different指长度区别，same仅指可见灰色相同，不声称款式相同。",
+          "color": "amber"
+        },
+        {
+          "word": "than",
+          "zh": "比",
+          "pos": "conjunction",
+          "us": "/ðæn/",
+          "uk": "/ðæn/",
+          "collocations": [
+            "longer than"
+          ],
+          "example": "The winter coat is longer than the summer jacket.",
+          "translation": "冬季外套比夏季夹克长。",
+          "mode": "context",
+          "evidence": "比较连词引出比较对象，无独立物体框",
+          "color": "lavender"
+        }
+      ]
+    }
+  ],
+  "lexical_review": {
+    "method": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。",
+    "references": {}
+  }
+}

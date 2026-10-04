@@ -1,0 +1,294 @@
+{
+  "filename": "C053-理解身体内部.png",
+  "labels": [
+    {
+      "x": 509,
+      "y": 151,
+      "english": "head",
+      "chinese": "头部",
+      "phoneticUS": "/hed/",
+      "phoneticUK": "/hed/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 90
+      },
+      "anchorPosition": {
+        "x": 509,
+        "y": 151
+      },
+      "boundingBox": {
+        "left": 337,
+        "top": 37,
+        "right": 681,
+        "bottom": 266
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅实际头部。",
+        "association": "上幅实际头部。",
+        "collocation": "my head",
+        "example": "I turn my head toward the model.",
+        "exampleChinese": "我把头转向模型。"
+      }
+    },
+    {
+      "x": 586,
+      "y": 278,
+      "english": "neck",
+      "chinese": "颈部",
+      "phoneticUS": "/nek/",
+      "phoneticUK": "/nek/",
+      "bubblePosition": {
+        "x": 830,
+        "y": 190
+      },
+      "anchorPosition": {
+        "x": 586,
+        "y": 278
+      },
+      "boundingBox": {
+        "left": 536,
+        "top": 244,
+        "right": 636,
+        "bottom": 313
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际露出的颈部。",
+        "association": "实际露出的颈部。",
+        "collocation": "my neck",
+        "example": "My neck connects my head to my body.",
+        "exampleChinese": "我的颈部连接着头和身体。"
+      }
+    },
+    {
+      "x": 615,
+      "y": 388,
+      "english": "chest",
+      "chinese": "胸部",
+      "phoneticUS": "/tʃest/",
+      "phoneticUK": "/tʃest/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 325
+      },
+      "anchorPosition": {
+        "x": 615,
+        "y": 388
+      },
+      "boundingBox": {
+        "left": 537,
+        "top": 304,
+        "right": 694,
+        "bottom": 473
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "隔着衣物定位胸部区域，不声称看见内部。",
+        "association": "隔着衣物定位胸部区域，不声称看见内部。",
+        "collocation": "my chest",
+        "example": "My shirt covers my chest.",
+        "exampleChinese": "我的上衣盖住胸部。"
+      }
+    },
+    {
+      "x": 547,
+      "y": 920,
+      "english": "knee",
+      "chinese": "膝盖",
+      "phoneticUS": "/niː/",
+      "phoneticUK": "/niː/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 547,
+        "y": 920
+      },
+      "boundingBox": {
+        "left": 449,
+        "top": 842,
+        "right": 646,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌下近侧弯曲膝部；衣裙遮盖上缘，框只取可见膝部。",
+        "association": "桌下近侧弯曲膝部；衣裙遮盖上缘，框只取可见膝部。",
+        "collocation": "my knee",
+        "example": "My knee bends as I sit.",
+        "exampleChinese": "我坐下时膝盖弯曲。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 553,
+      "english": "heart",
+      "chinese": "心脏",
+      "phoneticUS": "/hɑːrt/",
+      "phoneticUK": "/hɑːt/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 770
+      },
+      "anchorPosition": {
+        "x": 120,
+        "y": 553
+      },
+      "boundingBox": {
+        "left": 43,
+        "top": 468,
+        "right": 197,
+        "bottom": 639
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位心脏教学模型，不是真实内部器官。",
+        "association": "定位心脏教学模型，不是真实内部器官。",
+        "collocation": "a heart model",
+        "example": "This model represents a heart.",
+        "exampleChinese": "这个模型表示心脏。"
+      }
+    },
+    {
+      "x": 331,
+      "y": 583,
+      "english": "brain",
+      "chinese": "大脑",
+      "phoneticUS": "/breɪn/",
+      "phoneticUK": "/breɪn/",
+      "bubblePosition": {
+        "x": 320,
+        "y": 770
+      },
+      "anchorPosition": {
+        "x": 331,
+        "y": 583
+      },
+      "boundingBox": {
+        "left": 230,
+        "top": 522,
+        "right": 433,
+        "bottom": 645
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际脑模型。",
+        "association": "实际脑模型。",
+        "collocation": "a brain model",
+        "example": "This model represents a brain.",
+        "exampleChinese": "这个模型表示大脑。"
+      }
+    },
+    {
+      "x": 610,
+      "y": 623,
+      "english": "bone",
+      "chinese": "骨头",
+      "phoneticUS": "/boʊn/",
+      "phoneticUK": "/bəʊn/",
+      "bubblePosition": {
+        "x": 605,
+        "y": 790
+      },
+      "anchorPosition": {
+        "x": 610,
+        "y": 623
+      },
+      "boundingBox": {
+        "left": 458,
+        "top": 554,
+        "right": 762,
+        "bottom": 692
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际单根骨模型。",
+        "association": "实际单根骨模型。",
+        "collocation": "a bone model",
+        "example": "The pale model represents a bone.",
+        "exampleChinese": "浅色模型表示一根骨头。"
+      }
+    },
+    {
+      "x": 837,
+      "y": 616,
+      "english": "muscle",
+      "chinese": "肌肉",
+      "phoneticUS": "/ˈmʌsəl/",
+      "phoneticUK": "/ˈmʌsəl/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 810
+      },
+      "anchorPosition": {
+        "x": 837,
+        "y": 616
+      },
+      "boundingBox": {
+        "left": 705,
+        "top": 538,
+        "right": 970,
+        "bottom": 694
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际红色肌肉教学模型。",
+        "association": "实际红色肌肉教学模型。",
+        "collocation": "a muscle model",
+        "example": "The red model represents a muscle.",
+        "exampleChinese": "红色模型表示一块肌肉。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Models of the heart, brain, bone, and muscle help me learn about the body.",
+    "chinese": "心脏、大脑、骨骼和肌肉的模型，帮助我认识身体。",
+    "source": "原创配文 · C053 理解身体内部",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,273 @@
+{
+  "filename": "C092-朋友相伴的一天.png",
+  "labels": [
+    {
+      "x": 591,
+      "y": 616,
+      "english": "friend",
+      "chinese": "朋友",
+      "phoneticUS": "/frend/",
+      "phoneticUK": "/frend/",
+      "bubblePosition": {
+        "x": 525,
+        "y": 100
+      },
+      "anchorPosition": {
+        "x": 591,
+        "y": 616
+      },
+      "boundingBox": {
+        "left": 394,
+        "top": 234,
+        "right": 788,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（朋友），待最终图确认。",
+        "association": "场景中体现的具体对象（朋友），待最终图确认。",
+        "collocation": "a close friend; meet a friend",
+        "example": "The woman greeting me is my friend.",
+        "exampleChinese": "向我问好的女子是我的朋友。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 85,
+      "english": "married",
+      "chinese": "已婚的",
+      "phoneticUS": "/ˈmærid/",
+      "phoneticUK": "/ˈmærid/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a married couple; be married",
+        "example": "My friend and her partner are married in this story.",
+        "exampleChinese": "故事中，我的朋友和她的伴侣已婚。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 85,
+      "english": "relation",
+      "chinese": "关系",
+      "phoneticUS": "/rɪˈleɪʃən/",
+      "phoneticUK": "/rɪˈleɪʃən/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a friendly relation; the relation between",
+        "example": "We describe the relation between the two partners.",
+        "exampleChinese": "我们描述这两位伴侣之间的关系。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 530,
+      "english": "kind",
+      "chinese": "友善的",
+      "phoneticUS": "/kaɪnd/",
+      "phoneticUK": "/kaɪnd/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 530
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a kind gesture; be kind",
+        "example": "I try to be kind when meeting new people.",
+        "exampleChinese": "认识新朋友时，我努力友善待人。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 480,
+      "english": "respect",
+      "chinese": "尊重",
+      "phoneticUS": "/rɪˈspekt/",
+      "phoneticUK": "/rɪˈspekt/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 480
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。",
+        "collocation": "show respect; mutual respect",
+        "example": "I show respect by listening carefully.",
+        "exampleChinese": "我通过认真倾听表达尊重。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 900,
+      "english": "society",
+      "chinese": "社会",
+      "phoneticUS": "/səˈsaɪəti/",
+      "phoneticUK": "/səˈsaɪəti/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。",
+        "collocation": "in society; a fair society",
+        "example": "Respect helps people live together in society.",
+        "exampleChinese": "尊重有助于人们在社会中共同生活。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 740,
+      "english": "common",
+      "chinese": "常见的",
+      "phoneticUS": "/ˈkɑːmən/",
+      "phoneticUK": "/ˈkɒmən/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 740
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a common greeting; common behavior",
+        "example": "A handshake is a common greeting in some places.",
+        "exampleChinese": "在有些地方，握手是常见的问候方式。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 940,
+      "english": "behavior",
+      "chinese": "举止",
+      "phoneticUS": "/bɪˈheɪvjɚ/",
+      "phoneticUK": "/bɪˈheɪvjə/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。",
+        "collocation": "kind behavior; polite behavior",
+        "example": "Kind behavior makes a meeting easier.",
+        "exampleChinese": "友善的举止让见面更轻松。"
+      }
+    },
+    {
+      "x": 409,
+      "y": 568,
+      "english": "shake",
+      "chinese": "握手",
+      "phoneticUS": "/ʃeɪk/",
+      "phoneticUK": "/ʃeɪk/",
+      "bubblePosition": {
+        "x": 480,
+        "y": 640
+      },
+      "anchorPosition": {
+        "x": 409,
+        "y": 568
+      },
+      "boundingBox": {
+        "left": 353,
+        "top": 541,
+        "right": 466,
+        "bottom": 595
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（握手），待最终图确认。",
+        "association": "场景中体现的具体动作（握手），待最终图确认。",
+        "collocation": "shake hands; shake hands with",
+        "example": "We shake hands on the path.",
+        "exampleChinese": "我们在小路上握手。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I greet a friend, shake hands, and show respect through kind behavior.",
+    "chinese": "我向朋友问好、握手，并通过友善的举止表达尊重。",
+    "source": "原创配文 · C092 朋友相伴的一天",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

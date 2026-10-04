@@ -1,0 +1,234 @@
+C009  沙发边的小宠物
+========================================================================
+章节: 家里的一天
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C009.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C009.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T11:56:26Z → 2026-10-02T11:59:10Z
+  提示词文件: prompts/C009_image_final.txt
+
+场景: 白色小狗和猫在沙发边，尾巴清楚可见，主人轻柔抚摸。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 白色小狗和灰猫身体分离，猫尾巴沿地毯伸出清楚可辨，人物手真实接触狗毛。动物结构和毛发自然，主人无额外肢体。soft及comfort由原创触感/情感叙述支持，rest由例句和卧姿语境说明，未从照片断言睡眠。
+
+主配文:
+  英文: I touch the soft dog while the cat rests beside us.
+  中文: 猫在我们旁边休息时，我轻轻摸着柔软的小狗。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): dog, cat, tail, animal, soft, touch, comfort, rest
+
+------------------------------------------------------------------------
+[1/8] dog  (W210)
+  词义: 狗
+  词性: noun (countable)
+  音标: UK /dɒɡ/ | US /dɑːɡ/
+  搭配: a small dog; a pet dog
+  例句: The dog sits beside the sofa.
+  例句高亮: The **dog** sits beside the sofa.
+  例句中文: 狗坐在沙发旁边。
+  标注模式: object
+  标注说明: 框白色小狗可见完整身体。
+  坐标(normalized): [0.043, 0.491, 0.413, 0.777]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框白色小狗可见完整身体。"
+    sentence: "The dog sits beside the sofa."
+    matched_form: "dog"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 狗
+------------------------------------------------------------------------
+[2/8] cat  (W118)
+  词义: 猫
+  词性: noun (countable)
+  音标: UK /kæt/ | US /kæt/
+  搭配: a pet cat; a grey cat
+  例句: The cat lies on the rug.
+  例句高亮: The **cat** lies on the rug.
+  例句中文: 猫躺在地毯上。
+  标注模式: object
+  标注说明: 框灰猫身体，不含主人或小狗。
+  坐标(normalized): [0.508, 0.594, 1.0, 0.87]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框灰猫身体，不含主人或小狗。"
+    sentence: "The cat lies on the rug."
+    matched_form: "cat"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 猫
+------------------------------------------------------------------------
+[3/8] tail  (W735)
+  词义: 尾巴
+  词性: noun (countable)
+  音标: UK /teɪl/ | US /teɪl/
+  搭配: a long tail; the cat's tail
+  例句: The cat has a long tail.
+  例句高亮: The cat has a long **tail**.
+  例句中文: 猫有一条长尾巴。
+  标注模式: object
+  标注说明: 只定位灰猫伸出的尾巴。
+  坐标(normalized): [0.546, 0.785, 0.81, 0.871]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只定位灰猫伸出的尾巴。"
+    sentence: "The cat has a long tail."
+    matched_form: "tail"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 尾巴
+------------------------------------------------------------------------
+[4/8] animal  (W024)
+  词义: 动物
+  词性: noun (countable)
+  音标: UK /ˈænɪməl/ | US /ˈænɪməl/
+  搭配: a small animal; a pet animal
+  例句: A dog is an animal.
+  例句高亮: A dog is an **animal**.
+  例句中文: 狗是一种动物。
+  标注模式: object
+  标注说明: 狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。
+  坐标(normalized): [0.043, 0.491, 0.413, 0.777]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。"
+    sentence: "A dog is an animal."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 动物
+------------------------------------------------------------------------
+[5/8] soft  (W679)
+  词义: 柔软的
+  词性: adjective
+  音标: UK /sɒft/ | US /sɑːft/
+  搭配: soft fur; soft to the touch
+  例句: The dog has soft fur.
+  例句高亮: The dog has **soft** fur.
+  例句中文: 狗的毛很柔软。
+  标注模式: context
+  标注说明: 毛发外观与原创触感叙述对应，不声称照片可测量触感。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The dog has soft fur."
+    matched_form: "soft"
+    context: "毛发外观与原创触感叙述对应，不声称照片可测量触感。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 柔软的
+------------------------------------------------------------------------
+[6/8] touch  (W774)
+  词义: 触摸
+  词性: verb (transitive)
+  音标: UK /tʌtʃ/ | US /tʌtʃ/
+  搭配: touch gently; touch the fur
+  例句: I touch the dog gently.
+  例句高亮: I **touch** the dog gently.
+  例句中文: 我轻轻摸着狗。
+  标注模式: action
+  标注说明: 主人手与狗毛接触的真实局部。
+  坐标(normalized): [0.185, 0.49, 0.28, 0.567]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "主人手与狗毛接触的真实局部。"
+    sentence: "I touch the dog gently."
+    matched_form: "touch"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 触摸
+------------------------------------------------------------------------
+[7/8] comfort  (W145)
+  词义: 慰藉
+  词性: noun (uncountable)
+  音标: UK /ˈkʌmfət/ | US /ˈkʌmfərt/
+  搭配: bring comfort; find comfort
+  例句: My pets bring me comfort.
+  例句高亮: My pets bring me **comfort**.
+  例句中文: 我的宠物给我带来慰藉。
+  标注模式: context
+  标注说明: 情感名词由原创叙述与例句覆盖，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "My pets bring me comfort."
+    matched_form: "comfort"
+    context: "情感名词由原创叙述与例句覆盖，不设框。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+    参考: https://dictionary.cambridge.org/us/dictionary/english/comfort (dictionary search excerpt; full page unavailable)
+  计划模式: context | 源释义(未复核): 安慰；舒适
+------------------------------------------------------------------------
+[8/8] rest  (W594)
+  词义: 休息
+  词性: verb (intransitive)
+  音标: UK /rest/ | US /rest/
+  搭配: rest quietly; rest beside me
+  例句: The cat likes to rest beside me.
+  例句高亮: The cat likes to **rest** beside me.
+  例句中文: 猫喜欢在我旁边休息。
+  标注模式: action
+  标注说明: 猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。
+  坐标(normalized): [0.508, 0.594, 1.0, 0.87]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。"
+    sentence: "The cat likes to rest beside me."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: context | 源释义(未复核): 休息；其余部分
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C009 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=10 | meta.approved_cards=10
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. One tranquil elegant apartment sofa scene. Adult woman seated on an ivory sofa, gently stroking a small white fluffy DOG seated on rug at left center. ONE grey CAT lying comfortably on the rug at right center, its long tail clearly stretched in a curve beside body fully visible, not hidden. Her hand visibly touches dog fur; two distinct anatomically believable animals, four paws where exposed, no merged bodies. Frame woman upper body, sofa, dog, cat and floor, enough environmental breathing room; calm affectionate real-life fashion photograph, detailed fur and natural eye reflections.

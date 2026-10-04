@@ -1,0 +1,18 @@
+{
+  "cardID": "C005",
+  "imagePath": "../images/C005.png",
+  "imageSHA256": "56dd45f7b4d919d7786fb383f5c6b2d14df49db6aeeedfe051c16ad3822fdb55",
+  "imageReviewed": true,
+  "annotationsPath": "C005_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "family",
+    "father",
+    "mother",
+    "brother",
+    "sister",
+    "table",
+    "together"
+  ],
+  "receiptPath": "C005_import_receipt.json"
+}

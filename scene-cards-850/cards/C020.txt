@@ -1,0 +1,234 @@
+C020  餐后收拾
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C020.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C020.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T22:54:39Z → 2026-10-02T22:58:34Z
+  提示词文件: prompts/C020_image_final.txt
+
+场景: 主角收集剩食，食物容器有盖，少量汤滴落，展示避免浪费。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 独立圆盖、盛汤容器、小块面包及托碟上一滴汤均清楚；双手自然，盖子尚未盖合，动作与保存剩食主题一致。last/end/because等依原创叙述，均无虚假框。
+
+主配文:
+  英文: I cover the last bit of food because tomorrow is another day.
+  中文: 我把最后一点食物盖好，因为明天又是新的一天。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): waste, cover, vessel, drop, bit, last, end, because
+
+------------------------------------------------------------------------
+[1/8] waste  (W805)
+  词义: 浪费
+  词性: verb
+  音标: UK /weɪst/ | US /weɪst/
+  搭配: waste food
+  例句: I do not waste food.
+  例句高亮: I do not **waste** food.
+  例句中文: 我不浪费食物。
+  标注模式: context
+  标注说明: 保存剩食的故事与否定例句
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I do not waste food."
+    matched_form: "waste"
+    context: "保存剩食的故事与否定例句"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 浪费
+------------------------------------------------------------------------
+[2/8] cover  (W165)
+  词义: 盖子
+  词性: noun
+  音标: UK /ˈkʌvə/ | US /ˈkʌvər/
+  搭配: a bowl cover
+  例句: The cover fits the vessel.
+  例句高亮: The **cover** fits the vessel.
+  例句中文: 盖子与容器相配。
+  标注模式: object
+  标注说明: 手中圆形容器盖，采用名词义
+  坐标(normalized): [0.338, 0.548, 0.594, 0.665]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "手中圆形容器盖，采用名词义"
+    sentence: "The cover fits the vessel."
+    matched_form: "cover"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 覆盖
+------------------------------------------------------------------------
+[3/8] vessel  (W795)
+  词义: 容器
+  词性: noun
+  音标: UK /ˈvesəl/ | US /ˈvesəl/
+  搭配: a food vessel
+  例句: The vessel holds the soup.
+  例句高亮: The **vessel** holds the soup.
+  例句中文: 容器里装着汤。
+  标注模式: object
+  标注说明: 前景盛汤的瓷制容器；此处正式用语容器义，不是船
+  坐标(normalized): [0.377, 0.669, 0.655, 0.837]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "前景盛汤的瓷制容器；此处正式用语容器义，不是船"
+    sentence: "The vessel holds the soup."
+    matched_form: "vessel"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 容器
+------------------------------------------------------------------------
+[4/8] drop  (W219)
+  词义: 一滴
+  词性: noun
+  音标: UK /drɒp/ | US /drɑːp/
+  搭配: a drop of soup
+  例句: A drop of soup is on the saucer.
+  例句高亮: A **drop** of soup is on the saucer.
+  例句中文: 托碟上有一滴汤。
+  标注模式: object
+  标注说明: 勺子托碟上的独立小汤滴
+  坐标(normalized): [0.827, 0.822, 0.857, 0.835]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "勺子托碟上的独立小汤滴"
+    sentence: "A drop of soup is on the saucer."
+    matched_form: "drop"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 掉落
+------------------------------------------------------------------------
+[5/8] bit  (W070)
+  词义: 少量
+  词性: noun
+  音标: UK /bɪt/ | US /bɪt/
+  搭配: a bit of food
+  例句: I save a bit of food for tomorrow.
+  例句高亮: I save a **bit** of food for tomorrow.
+  例句中文: 我留一点食物明天吃。
+  标注模式: object
+  标注说明: 左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。
+  坐标(normalized): [0.164, 0.758, 0.266, 0.803]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。"
+    sentence: "I save a bit of food for tomorrow."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 一点儿；一些
+------------------------------------------------------------------------
+[6/8] last  (W387)
+  词义: 最后的
+  词性: adjective
+  音标: UK /lɑːst/ | US /læst/
+  搭配: the last piece
+  例句: This is the last piece of bread.
+  例句高亮: This is the **last** piece of bread.
+  例句中文: 这是最后一块面包。
+  标注模式: object
+  标注说明: 左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。
+  坐标(normalized): [0.164, 0.758, 0.266, 0.803]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧小盘里的一小块面包；bit定位少量食物，last的最后一块身份由原创场景设定说明，不由外观判断时间顺序。"
+    sentence: "This is the last piece of bread."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 最后的；持续的
+------------------------------------------------------------------------
+[7/8] end  (W232)
+  词义: 结束
+  词性: noun
+  音标: UK /end/ | US /end/
+  搭配: the end of a meal
+  例句: I clear the table at the end of the meal.
+  例句高亮: I clear the table at the **end** of the meal.
+  例句中文: 用餐结束时我收拾餐桌。
+  标注模式: context
+  标注说明: 名词结束，由餐后叙述说明
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I clear the table at the end of the meal."
+    matched_form: "end"
+    context: "名词结束，由餐后叙述说明"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 结束；末尾
+------------------------------------------------------------------------
+[8/8] because  (W058)
+  词义: 因为
+  词性: conjunction
+  音标: UK /bɪˈkɒz/ | US /bɪˈkɔːz/
+  搭配: because we need it
+  例句: I cover the food because we need it tomorrow.
+  例句高亮: I cover the food **because** we need it tomorrow.
+  例句中文: 我把食物盖好，因为我们明天还需要它。
+  标注模式: context
+  标注说明: 引导原因从句的连词，无独立可见物体
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I cover the food because we need it tomorrow."
+    matched_form: "because"
+    context: "引导原因从句的连词，无独立可见物体"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 因为
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C020 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=20 | meta.approved_cards=20
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Refined cool home dining room after a meal. Woman at center gently placing a round ceramic LID onto a matching round FOOD STORAGE VESSEL on table front-center; lid held clearly separate tilted above container, only one lid, coherent hands. Vessel contains a small portion of leftover vegetable soup. Small plate with a last tiny piece of bread at left. Metal spoon resting on small saucer at right with one small drop of soup on saucer. No garbage, no trash bin. Saving leftovers, real porcelain, linen and food textures, elegant daylight.

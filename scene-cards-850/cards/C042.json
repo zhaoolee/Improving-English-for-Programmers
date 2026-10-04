@@ -1,0 +1,382 @@
+{
+  "id": "C042",
+  "chapter": "自然与农场",
+  "title": "从种子到收成",
+  "scene": "农田双幅呈现播种与作物长大，铲子、犁和谷物清楚。",
+  "target_count": 8,
+  "primary_words": [
+    "farm",
+    "field",
+    "seed",
+    "grain",
+    "spade",
+    "plough",
+    "fertile",
+    "growth"
+  ],
+  "targets": [
+    {
+      "word_id": "W254",
+      "word": "farm",
+      "aliases": [],
+      "source_zh_unreviewed": "农场；农庄",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "农场",
+      "pos": "noun",
+      "ipa_us": "/fɑːrm/",
+      "ipa_uk": "/fɑːm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "谷仓与耕地的农场局部。",
+        "sentence": "The farm has a barn and a field.",
+        "matched_form": "farm",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The farm has a barn and a field.",
+      "example_zh": "农场有一座谷仓和一块田。",
+      "bbox_normalized": [
+        0.624,
+        0.047,
+        0.997,
+        0.208
+      ],
+      "collocations": [
+        "a small farm"
+      ],
+      "example_en_highlighted": "The **farm** has a barn and a field.",
+      "annotation_mode": "object",
+      "annotation_note": "谷仓与耕地的农场局部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W264",
+      "word": "field",
+      "aliases": [],
+      "source_zh_unreviewed": "田地；领域",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "田地",
+      "pos": "noun",
+      "ipa_us": "/fiːld/",
+      "ipa_uk": "/fiːld/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "成熟麦田区域。",
+        "sentence": "The field is full of wheat.",
+        "matched_form": "field",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The field is full of wheat.",
+      "example_zh": "田地里长满小麦。",
+      "bbox_normalized": [
+        0.0,
+        0.659,
+        0.658,
+        0.993
+      ],
+      "collocations": [
+        "a wheat field"
+      ],
+      "example_en_highlighted": "The **field** is full of wheat.",
+      "annotation_mode": "object",
+      "annotation_note": "成熟麦田区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W630",
+      "word": "seed",
+      "aliases": [],
+      "source_zh_unreviewed": "种子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "种子",
+      "pos": "noun",
+      "ipa_us": "/siːd/",
+      "ipa_uk": "/siːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "掌中种子，种子用途由播种故事说明。",
+        "sentence": "I hold a seed in my hand.",
+        "matched_form": "seed",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I hold a seed in my hand.",
+      "example_zh": "我手里拿着一粒种子。",
+      "bbox_normalized": [
+        0.411,
+        0.424,
+        0.464,
+        0.451
+      ],
+      "collocations": [
+        "a wheat seed"
+      ],
+      "example_en_highlighted": "I hold a **seed** in my hand.",
+      "annotation_mode": "object",
+      "annotation_note": "掌中种子，种子用途由播种故事说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W309",
+      "word": "grain",
+      "aliases": [],
+      "source_zh_unreviewed": "谷物",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "谷物",
+      "pos": "noun",
+      "ipa_us": "/ɡreɪn/",
+      "ipa_uk": "/ɡreɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。",
+        "sentence": "The ripe grain is ready for harvest.",
+        "matched_form": "grain",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The ripe grain is ready for harvest.",
+      "example_zh": "成熟的谷物可以收割了。",
+      "bbox_normalized": [
+        0.43,
+        0.739,
+        0.56,
+        0.853
+      ],
+      "collocations": [
+        "ripe grain"
+      ],
+      "example_en_highlighted": "The ripe **grain** is ready for harvest.",
+      "annotation_mode": "object",
+      "annotation_note": "成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W689",
+      "word": "spade",
+      "aliases": [],
+      "source_zh_unreviewed": "铲子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "铲子",
+      "pos": "noun",
+      "ipa_us": "/speɪd/",
+      "ipa_uk": "/speɪd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "独立宽金属铲头与杆。",
+        "sentence": "The spade rests in the soil.",
+        "matched_form": "spade",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The spade rests in the soil.",
+      "example_zh": "铲子插在土里。",
+      "bbox_normalized": [
+        0.754,
+        0.0,
+        0.966,
+        0.513
+      ],
+      "collocations": [
+        "a garden spade"
+      ],
+      "example_en_highlighted": "The **spade** rests in the soil.",
+      "annotation_mode": "object",
+      "annotation_note": "独立宽金属铲头与杆。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W535",
+      "word": "plough",
+      "aliases": [
+        "plow"
+      ],
+      "source_zh_unreviewed": "犁；耕地",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "犁",
+      "pos": "noun",
+      "ipa_us": "/plaʊ/",
+      "ipa_uk": "/plaʊ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅实际传统犁具，句子描述功能而非虚构当前动作。",
+        "sentence": "The plough turns the soil.",
+        "matched_form": "plough",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The plough turns the soil.",
+      "example_zh": "犁翻动土壤。",
+      "bbox_normalized": [
+        0.633,
+        0.671,
+        0.999,
+        0.952
+      ],
+      "collocations": [
+        "a small plough"
+      ],
+      "example_en_highlighted": "The **plough** turns the soil.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅实际传统犁具，句子描述功能而非虚构当前动作。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W262",
+      "word": "fertile",
+      "aliases": [],
+      "source_zh_unreviewed": "肥沃的；富饶的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "肥沃的",
+      "pos": "adjective",
+      "ipa_us": "/ˈfɜːrtl/",
+      "ipa_uk": "/ˈfɜːtaɪl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。",
+        "sentence": "The farm has fertile soil.",
+        "matched_form": "fertile",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The farm has fertile soil.",
+      "example_zh": "农场有肥沃的土壤。",
+      "bbox_normalized": [
+        0.509,
+        0.223,
+        0.752,
+        0.496
+      ],
+      "collocations": [
+        "fertile soil"
+      ],
+      "example_en_highlighted": "The farm has **fertile** soil.",
+      "annotation_mode": "object",
+      "annotation_note": "故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W316",
+      "word": "growth",
+      "aliases": [],
+      "source_zh_unreviewed": "成长；增长",
+      "planned_mode": "context",
+      "sense_zh": "生长",
+      "pos": "noun",
+      "ipa_us": "/ɡroʊθ/",
+      "ipa_uk": "/ɡrəʊθ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Plant growth changes the field over time.",
+        "matched_form": "growth",
+        "referent_region_verified": false,
+        "context": "两幅季节对照提供线索，生长过程不当单物体，句子说明时间。",
+        "image_verified": null
+      },
+      "example_en": "Plant growth changes the field over time.",
+      "example_zh": "植物生长让田地随时间变化。",
+      "bbox_normalized": null,
+      "collocations": [
+        "plant growth"
+      ],
+      "example_en_highlighted": "Plant **growth** changes the field over time.",
+      "annotation_mode": "context",
+      "annotation_note": "两幅季节对照提供线索，生长过程不当单物体，句子说明时间。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Seeds in my hand, grain in the field, and a season of growth.",
+    "zh": "手里是种子，田里是谷物，一季生长正在展开。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C042\n标题 从种子到收成\n场景 农田双幅呈现播种与作物长大，铲子、犁和谷物清楚。\n目标词 farm, field, seed, grain, spade, plough, fertile, growth\n原创主配文草案 The seeds grow in the fertile earth.\n中文草案 种子在肥沃的土壤里生长。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic farm diptych stacked: upper half woman kneeling beside dark tilled soil showing a small handful of distinct wheat seeds on open palm, a metal spade with broad flat blade planted in soil nearby, simple barn in background. Lower half same field later with mature golden wheat heads, traditional small metal plough on field edge with handle and curved blade clearly identifiable, no animals pulling it. Farm seasons comparison, natural earth and fine wheat detail. No tractors instead of plough, no text.",
+  "status": "approved",
+  "image_path": "images/C042.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C042 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:14:01Z",
+    "prompt_path": "prompts/C042_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C042.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅掌中种子、宽铲与谷仓，下面成熟麦田和弯犁具可辨。fertile定位故事土壤，不凭黑色证明肥力；growth保留时间过程语境。"
+  }
+}

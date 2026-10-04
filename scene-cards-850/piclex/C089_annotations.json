@@ -1,0 +1,289 @@
+{
+  "filename": "C089-理解原因与结果.png",
+  "labels": [
+    {
+      "x": 704,
+      "y": 345,
+      "english": "cause",
+      "chinese": "原因",
+      "phoneticUS": "/kɔːz/",
+      "phoneticUK": "/kɔːz/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 80
+      },
+      "anchorPosition": {
+        "x": 704,
+        "y": 345
+      },
+      "boundingBox": {
+        "left": 453,
+        "top": 224,
+        "right": 956,
+        "bottom": 466
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（原因），待最终图确认。",
+        "association": "场景中体现的关系（原因），待最终图确认。",
+        "collocation": "the cause of; a direct cause",
+        "example": "The wind is the cause of the model falling in our story.",
+        "exampleChinese": "故事中，风是模型倒下的原因。"
+      }
+    },
+    {
+      "x": 829,
+      "y": 904,
+      "english": "effect",
+      "chinese": "结果",
+      "phoneticUS": "/ɪˈfekt/",
+      "phoneticUK": "/ɪˈfekt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 550
+      },
+      "anchorPosition": {
+        "x": 829,
+        "y": 904
+      },
+      "boundingBox": {
+        "left": 706,
+        "top": 852,
+        "right": 952,
+        "bottom": 957
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（结果），待最终图确认。",
+        "association": "场景中体现的关系（结果），待最终图确认。",
+        "collocation": "the effect of; cause and effect",
+        "example": "The fallen model shows the effect of the wind in the story.",
+        "exampleChinese": "倒下的模型展示了故事中风造成的结果。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 80,
+      "english": "reason",
+      "chinese": "理由",
+      "phoneticUS": "/ˈriːzən/",
+      "phoneticUK": "/ˈriːzən/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We explain the reason for using a light paper model.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We explain the reason for using a light paper model.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a clear reason; the reason for",
+        "example": "We explain the reason for using a light paper model.",
+        "exampleChinese": "我们解释使用轻纸模型的理由。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 375,
+      "english": "force",
+      "chinese": "力",
+      "phoneticUS": "/fɔːrs/",
+      "phoneticUK": "/fɔːs/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 375
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The moving air exerts force on the paper.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The moving air exerts force on the paper.；不声称该状态/含义本身在画面可见。",
+        "collocation": "the force of; a gentle force",
+        "example": "The moving air exerts force on the paper.",
+        "exampleChinese": "流动的空气对纸施加力。"
+      }
+    },
+    {
+      "x": 707,
+      "y": 346,
+      "english": "blow",
+      "chinese": "吹",
+      "phoneticUS": "/bloʊ/",
+      "phoneticUK": "/bləʊ/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 707,
+        "y": 346
+      },
+      "boundingBox": {
+        "left": 462,
+        "top": 226,
+        "right": 953,
+        "bottom": 466
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（吹），待最终图确认。",
+        "association": "场景中体现的具体动作（吹），待最终图确认。",
+        "collocation": "blow toward; blow gently",
+        "example": "The fan makes air blow toward the paper house.",
+        "exampleChinese": "风扇让空气朝纸房子吹去。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 555,
+      "english": "burst",
+      "chinese": "爆裂",
+      "phoneticUS": "/bɝːst/",
+      "phoneticUK": "/bɜːst/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 555
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：An overfilled balloon can burst; this model is made of paper.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：An overfilled balloon can burst; this model is made of paper.；不声称该状态/含义本身在画面可见。",
+        "collocation": "burst suddenly; a balloon can burst",
+        "example": "An overfilled balloon can burst; this model is made of paper.",
+        "exampleChinese": "充气过多的气球可能爆裂；这个模型是纸做的。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 710,
+      "english": "crush",
+      "chinese": "压坏",
+      "phoneticUS": "/krʌʃ/",
+      "phoneticUK": "/krʌʃ/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 710
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Too much pressure can crush a paper model.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Too much pressure can crush a paper model.；不声称该状态/含义本身在画面可见。",
+        "collocation": "crush a model; crush under pressure",
+        "example": "Too much pressure can crush a paper model.",
+        "exampleChinese": "过大的压力会压坏纸模型。"
+      }
+    },
+    {
+      "x": 829,
+      "y": 904,
+      "english": "damage",
+      "chinese": "损坏",
+      "phoneticUS": "/ˈdæmɪdʒ/",
+      "phoneticUK": "/ˈdæmɪdʒ/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 829,
+        "y": 904
+      },
+      "boundingBox": {
+        "left": 706,
+        "top": 852,
+        "right": 952,
+        "bottom": 957
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（损坏），待最终图确认。",
+        "association": "场景中体现的具体对象（损坏），待最终图确认。",
+        "collocation": "visible damage; damage to",
+        "example": "The lower panel shows damage to the paper house.",
+        "exampleChinese": "下方画面展示纸房子受到的损坏。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 935,
+      "english": "smash",
+      "chinese": "砸碎",
+      "phoneticUS": "/smæʃ/",
+      "phoneticUK": "/smæʃ/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A hard impact can smash a cup; we use paper for this demonstration.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A hard impact can smash a cup; we use paper for this demonstration.；不声称该状态/含义本身在画面可见。",
+        "collocation": "smash a cup; smash into pieces",
+        "example": "A hard impact can smash a cup; we use paper for this demonstration.",
+        "exampleChinese": "猛烈撞击可能砸碎杯子；我们用纸做这次演示。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A small fan blows toward a paper house; the second scene shows the damage.",
+    "chinese": "小风扇向纸房子吹风；第二个场景展示它受到的损坏。",
+    "source": "原创配文 · C089 理解原因与结果",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

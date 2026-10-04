@@ -1,0 +1,20 @@
+{
+  "cardID": "C013",
+  "imagePath": "../images/C013.png",
+  "imageSHA256": "cc5665abf272fe9ebc1568685f9c09606a1545f5009336cb2a5501cbab5be089",
+  "imageReviewed": true,
+  "annotationsPath": "C013_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "plate",
+    "fork",
+    "knife",
+    "spoon",
+    "tray",
+    "sharp",
+    "edge",
+    "cut",
+    "blade"
+  ],
+  "receiptPath": "C013_import_receipt.json"
+}

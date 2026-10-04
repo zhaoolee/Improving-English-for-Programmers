@@ -1,0 +1,122 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "recognitionProvider": "Codex conversation vision",
+  "regionPolicy": "每卡整图一次视觉识别；具体词保留局部范围，抽象与功能词明确语境；不调用外部识别。",
+  "cards": {
+    "C077": {
+      "sourcePath": "scene-cards-850/images/C077.png",
+      "generationStartedAt": "2026-10-03 17:35:06 UTC",
+      "generationEndedAt": "2026-10-03 17:44:04 UTC",
+      "imageReview": "女子指工作板，右侧同事听讲，左侧同事记笔记；角色通过明确故事，不能把有色卡片解释成实际部门名。",
+      "avoidRegions": [
+        [
+          312,
+          177,
+          489,
+          379
+        ],
+        [
+          815,
+          453,
+          998,
+          606
+        ],
+        [
+          59,
+          493,
+          233,
+          677
+        ]
+      ],
+      "geometry": {
+        "distribution": {
+          "bubble": [
+            165,
+            90
+          ],
+          "evidence": "公平分配工作由例句明示。"
+        },
+        "division": {
+          "bubble": [
+            810,
+            85
+          ],
+          "evidence": "分工由故事解释。"
+        },
+        "committee": {
+          "bubble": [
+            700,
+            220
+          ],
+          "evidence": "委员会身份在原创句子中。"
+        },
+        "representative": {
+          "bubble": [
+            165,
+            400
+          ],
+          "evidence": "中央指工作板的女子，句子明确她是代表。",
+          "box": [
+            214,
+            138,
+            835,
+            769
+          ],
+          "anchor": [
+            524,
+            453
+          ]
+        },
+        "chief": {
+          "bubble": [
+            865,
+            740
+          ],
+          "evidence": "右侧坐着的同事，句子明确负责人角色。",
+          "box": [
+            712,
+            430,
+            998,
+            983
+          ],
+          "anchor": [
+            855,
+            706
+          ]
+        },
+        "authority": {
+          "bubble": [
+            855,
+            305
+          ],
+          "evidence": "批准权限来自故事，不以手势推断权力。"
+        },
+        "general": {
+          "bubble": [
+            190,
+            865
+          ],
+          "evidence": "总体计划的形容词用法在例句。"
+        },
+        "system": {
+          "bubble": [
+            500,
+            930
+          ],
+          "evidence": "任务分配制度由例句解释。"
+        },
+        "lead": {
+          "bubble": [
+            180,
+            780
+          ],
+          "evidence": "未来带领讨论由故事表达。"
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "reviewCompletedAt": "2026-10-03T18:00:02.551321+00:00",
+  "note": "C077 四气泡修正后 committee=[700,220]；框与evidence不变。"
+}

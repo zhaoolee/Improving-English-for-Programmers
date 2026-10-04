@@ -1,0 +1,259 @@
+{
+  "filename": "C085-绳索和小机关.png",
+  "labels": [
+    {
+      "x": 134,
+      "y": 805,
+      "english": "chain",
+      "chinese": "链条",
+      "phoneticUS": "/tʃeɪn/",
+      "phoneticUK": "/tʃeɪn/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 905
+      },
+      "anchorPosition": {
+        "x": 134,
+        "y": 805
+      },
+      "boundingBox": {
+        "left": 68,
+        "top": 788,
+        "right": 201,
+        "bottom": 822
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（链条），待最终图确认。",
+        "association": "场景中体现的具体对象（链条），待最终图确认。",
+        "collocation": "a short chain; a metal chain",
+        "example": "The short chain lies on the bench.",
+        "exampleChinese": "短链条放在工作台上。"
+      }
+    },
+    {
+      "x": 435,
+      "y": 495,
+      "english": "cord",
+      "chinese": "绳索",
+      "phoneticUS": "/kɔːrd/",
+      "phoneticUK": "/kɔːd/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 480
+      },
+      "anchorPosition": {
+        "x": 435,
+        "y": 495
+      },
+      "boundingBox": {
+        "left": 348,
+        "top": 474,
+        "right": 522,
+        "bottom": 516
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（绳索），待最终图确认。",
+        "association": "场景中体现的具体对象（绳索），待最终图确认。",
+        "collocation": "a cotton cord; a length of cord",
+        "example": "I hold two strands of cord.",
+        "exampleChinese": "我拿着两股绳索。"
+      }
+    },
+    {
+      "x": 676,
+      "y": 645,
+      "english": "stick",
+      "chinese": "棍",
+      "phoneticUS": "/stɪk/",
+      "phoneticUK": "/stɪk/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 465
+      },
+      "anchorPosition": {
+        "x": 676,
+        "y": 645
+      },
+      "boundingBox": {
+        "left": 413,
+        "top": 630,
+        "right": 940,
+        "bottom": 661
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（棍），待最终图确认。",
+        "association": "场景中体现的具体对象（棍），待最终图确认。",
+        "collocation": "a wooden stick; a straight stick",
+        "example": "The wooden stick supports the hanging shape.",
+        "exampleChinese": "木棍支撑着悬挂的形状。"
+      }
+    },
+    {
+      "x": 669,
+      "y": 730,
+      "english": "hanging",
+      "chinese": "悬挂着的",
+      "phoneticUS": "/ˈhæŋɪŋ/",
+      "phoneticUK": "/ˈhæŋɪŋ/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 685
+      },
+      "anchorPosition": {
+        "x": 669,
+        "y": 730
+      },
+      "boundingBox": {
+        "left": 598,
+        "top": 642,
+        "right": 740,
+        "bottom": 818
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（悬挂着的），待最终图确认。",
+        "association": "场景中体现的关系（悬挂着的），待最终图确认。",
+        "collocation": "a hanging shape; hanging from",
+        "example": "The paper shape is hanging from the stick.",
+        "exampleChinese": "纸做的形状悬挂在木棍上。"
+      }
+    },
+    {
+      "x": 468,
+      "y": 506,
+      "english": "twist",
+      "chinese": "拧",
+      "phoneticUS": "/twɪst/",
+      "phoneticUK": "/twɪst/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 468,
+        "y": 506
+      },
+      "boundingBox": {
+        "left": 270,
+        "top": 435,
+        "right": 666,
+        "bottom": 578
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（拧），待最终图确认。",
+        "association": "场景中体现的具体动作（拧），待最终图确认。",
+        "collocation": "twist a cord; twist together",
+        "example": "I twist the two strands together.",
+        "exampleChinese": "我把这两股拧在一起。"
+      }
+    },
+    {
+      "x": 291,
+      "y": 890,
+      "english": "fold",
+      "chinese": "折叠",
+      "phoneticUS": "/foʊld/",
+      "phoneticUK": "/fəʊld/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 720
+      },
+      "anchorPosition": {
+        "x": 291,
+        "y": 890
+      },
+      "boundingBox": {
+        "left": 99,
+        "top": 816,
+        "right": 483,
+        "bottom": 965
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（折叠），待最终图确认。",
+        "association": "场景中体现的具体动作（折叠），待最终图确认。",
+        "collocation": "fold paper; fold in half",
+        "example": "I fold the paper in half in the story.",
+        "exampleChinese": "故事中，我把纸对折。"
+      }
+    },
+    {
+      "x": 900,
+      "y": 835,
+      "english": "roll",
+      "chinese": "卷",
+      "phoneticUS": "/roʊl/",
+      "phoneticUK": "/rəʊl/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 900,
+        "y": 835
+      },
+      "boundingBox": {
+        "left": 803,
+        "top": 722,
+        "right": 998,
+        "bottom": 948
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（卷），待最终图确认。",
+        "association": "场景中体现的具体对象（卷），待最终图确认。",
+        "collocation": "a paper roll; a small roll",
+        "example": "A paper roll rests on the right.",
+        "exampleChinese": "一卷纸放在右侧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I twist the cord, fold the paper, and place a roll beside the hanging model.",
+    "chinese": "我拧起绳子、折好纸，把一卷纸放在悬挂模型旁。",
+    "source": "原创配文 · C085 绳索和小机关",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

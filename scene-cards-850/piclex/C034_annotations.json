@@ -1,0 +1,297 @@
+{
+  "filename": "C034-驾驶与刹车.png",
+  "labels": [
+    {
+      "x": 161,
+      "y": 348,
+      "english": "driving",
+      "chinese": "驾驶",
+      "phoneticUS": "/ˈdraɪvɪŋ/",
+      "phoneticUK": "/ˈdraɪvɪŋ/",
+      "bubblePosition": {
+        "x": 107,
+        "y": 500
+      },
+      "anchorPosition": {
+        "x": 161,
+        "y": 348
+      },
+      "boundingBox": {
+        "left": 114,
+        "top": 27,
+        "right": 947,
+        "bottom": 612
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "握方向盘的驾驶姿势，照片为静止教学演示，不宣称行驶速度。",
+        "association": "握方向盘的驾驶姿势，照片为静止教学演示，不宣称行驶速度。",
+        "collocation": "careful driving",
+        "example": "Careful driving begins with good control.",
+        "exampleChinese": "谨慎驾驶从良好的操控开始。"
+      }
+    },
+    {
+      "x": 276,
+      "y": 781,
+      "english": "engine",
+      "chinese": "发动机",
+      "phoneticUS": "/ˈendʒɪn/",
+      "phoneticUK": "/ˈendʒɪn/",
+      "bubblePosition": {
+        "x": 137,
+        "y": 660
+      },
+      "anchorPosition": {
+        "x": 276,
+        "y": 781
+      },
+      "boundingBox": {
+        "left": 16,
+        "top": 649,
+        "right": 486,
+        "bottom": 977
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左下小幅真实发动机舱。",
+        "association": "左下小幅真实发动机舱。",
+        "collocation": "a car engine",
+        "example": "The engine is under the front cover.",
+        "exampleChinese": "发动机在前方的盖子下面。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 255,
+      "english": "wheel",
+      "chinese": "方向盘",
+      "phoneticUS": "/wiːl/",
+      "phoneticUK": "/wiːl/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 95
+      },
+      "anchorPosition": {
+        "x": 870,
+        "y": 255
+      },
+      "boundingBox": {
+        "left": 697,
+        "top": 218,
+        "right": 947,
+        "bottom": 543
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主幅中的实际方向盘，不把车轮和方向盘混用。",
+        "association": "主幅中的实际方向盘，不把车轮和方向盘混用。",
+        "collocation": "the steering wheel",
+        "example": "I hold the steering wheel with both hands.",
+        "exampleChinese": "我用双手握住方向盘。"
+      }
+    },
+    {
+      "x": 724,
+      "y": 755,
+      "english": "brake",
+      "chinese": "刹车",
+      "phoneticUS": "/breɪk/",
+      "phoneticUK": "/breɪk/",
+      "bubblePosition": {
+        "x": 905,
+        "y": 910
+      },
+      "anchorPosition": {
+        "x": 724,
+        "y": 755
+      },
+      "boundingBox": {
+        "left": 703,
+        "top": 714,
+        "right": 855,
+        "bottom": 790
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右下脚部小幅中的宽刹车踏板。",
+        "association": "右下脚部小幅中的宽刹车踏板。",
+        "collocation": "the brake pedal",
+        "example": "My foot rests on the brake pedal.",
+        "exampleChinese": "我的脚放在刹车踏板上。"
+      }
+    },
+    {
+      "x": 657,
+      "y": 360,
+      "english": "control",
+      "chinese": "操控",
+      "phoneticUS": "/kənˈtroʊl/",
+      "phoneticUK": "/kənˈtrəʊl/",
+      "bubblePosition": {
+        "x": 560,
+        "y": 495
+      },
+      "anchorPosition": {
+        "x": 657,
+        "y": 360
+      },
+      "boundingBox": {
+        "left": 620,
+        "top": 282,
+        "right": 888,
+        "bottom": 459
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "双手与方向盘的操控动作指代区，不声称已证明驾驶能力。",
+        "association": "双手与方向盘的操控动作指代区，不声称已证明驾驶能力。",
+        "collocation": "keep control",
+        "example": "I keep control with both hands on the wheel.",
+        "exampleChinese": "我用双手握住方向盘来保持操控。"
+      }
+    },
+    {
+      "x": 715,
+      "y": 950,
+      "english": "stop",
+      "chinese": "停下",
+      "phoneticUS": "/stɑːp/",
+      "phoneticUK": "/stɒp/",
+      "bubblePosition": {
+        "x": 715,
+        "y": 950
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "停车结果需时间信息，静态教学图只给动作线索，由句子说明。",
+        "association": "停车结果需时间信息，静态教学图只给动作线索，由句子说明。",
+        "collocation": "stop the car",
+        "example": "I press the brake to stop the car.",
+        "exampleChinese": "我踩刹车让汽车停下。"
+      }
+    },
+    {
+      "x": 690,
+      "y": 85,
+      "english": "slow",
+      "chinese": "慢的",
+      "phoneticUS": "/sloʊ/",
+      "phoneticUK": "/sləʊ/",
+      "bubblePosition": {
+        "x": 690,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "照片不测速度，起步速度由句子说明。",
+        "association": "照片不测速度，起步速度由句子说明。",
+        "collocation": "a slow start",
+        "example": "A slow start feels smooth.",
+        "exampleChinese": "缓慢起步感觉很平稳。"
+      }
+    },
+    {
+      "x": 505,
+      "y": 74,
+      "english": "quick",
+      "chinese": "迅速的",
+      "phoneticUS": "/kwɪk/",
+      "phoneticUK": "/kwɪk/",
+      "bubblePosition": {
+        "x": 505,
+        "y": 74
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "检查耗时无法由静态图验证。",
+        "association": "检查耗时无法由静态图验证。",
+        "collocation": "a quick check",
+        "example": "I make a quick check before driving.",
+        "exampleChinese": "我在驾驶前迅速检查一下。"
+      }
+    },
+    {
+      "x": 325,
+      "y": 545,
+      "english": "adjustment",
+      "chinese": "调整",
+      "phoneticUS": "/əˈdʒʌstmənt/",
+      "phoneticUK": "/əˈdʒʌstmənt/",
+      "bubblePosition": {
+        "x": 325,
+        "y": 545
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "座椅调整为教学情境，不虚构图中已发生调节。",
+        "association": "座椅调整为教学情境，不虚构图中已发生调节。",
+        "collocation": "a small adjustment",
+        "example": "A small seat adjustment helps me reach the pedals.",
+        "exampleChinese": "稍微调整座椅能让我够到踏板。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A steady hand on the wheel, a slow start, and time to stop.",
+    "chinese": "稳稳握住方向盘，缓慢起步，留出停车的时间。",
+    "source": "原创配文 · C034 驾驶与刹车",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

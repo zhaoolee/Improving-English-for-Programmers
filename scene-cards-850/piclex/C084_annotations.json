@@ -1,0 +1,278 @@
+{
+  "filename": "C084-电路里的连接.png",
+  "labels": [
+    {
+      "x": 487,
+      "y": 600,
+      "english": "wire",
+      "chinese": "电线",
+      "phoneticUS": "/waɪr/",
+      "phoneticUK": "/waɪə/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 390
+      },
+      "anchorPosition": {
+        "x": 487,
+        "y": 600
+      },
+      "boundingBox": {
+        "left": 271,
+        "top": 460,
+        "right": 703,
+        "bottom": 740
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（电线），待最终图确认。",
+        "association": "场景中体现的具体对象（电线），待最终图确认。",
+        "collocation": "an insulated wire; a copper wire",
+        "example": "The wire lies beside the bulb.",
+        "exampleChinese": "电线放在灯泡旁。"
+      }
+    },
+    {
+      "x": 400,
+      "y": 696,
+      "english": "bulb",
+      "chinese": "灯泡",
+      "phoneticUS": "/bʌlb/",
+      "phoneticUK": "/bʌlb/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 555
+      },
+      "anchorPosition": {
+        "x": 400,
+        "y": 696
+      },
+      "boundingBox": {
+        "left": 375,
+        "top": 676,
+        "right": 425,
+        "bottom": 717
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（灯泡），待最终图确认。",
+        "association": "场景中体现的具体对象（灯泡），待最终图确认。",
+        "collocation": "a small bulb; a light bulb",
+        "example": "The small bulb is not lit.",
+        "exampleChinese": "这个小灯泡没有亮。"
+      }
+    },
+    {
+      "x": 630,
+      "y": 736,
+      "english": "electric",
+      "chinese": "电的",
+      "phoneticUS": "/ɪˈlektrɪk/",
+      "phoneticUK": "/ɪˈlektrɪk/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 705
+      },
+      "anchorPosition": {
+        "x": 630,
+        "y": 736
+      },
+      "boundingBox": {
+        "left": 352,
+        "top": 669,
+        "right": 909,
+        "bottom": 803
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（电的），待最终图确认。",
+        "association": "场景中体现的具体对象（电的），待最终图确认。",
+        "collocation": "an electric circuit; electric power",
+        "example": "The electric circuit is switched off.",
+        "exampleChinese": "这个电路的电源是关闭的。"
+      }
+    },
+    {
+      "x": 194,
+      "y": 818,
+      "english": "copper",
+      "chinese": "铜",
+      "phoneticUS": "/ˈkɑːpɚ/",
+      "phoneticUK": "/ˈkɒpə/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 194,
+        "y": 818
+      },
+      "boundingBox": {
+        "left": 72,
+        "top": 775,
+        "right": 316,
+        "bottom": 862
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（铜），待最终图确认。",
+        "association": "场景中体现的具体对象（铜），待最终图确认。",
+        "collocation": "copper wire; a copper coil",
+        "example": "The reddish coil is our copper sample.",
+        "exampleChinese": "红褐色线圈是我们的铜样品。"
+      }
+    },
+    {
+      "x": 427,
+      "y": 846,
+      "english": "brass",
+      "chinese": "黄铜",
+      "phoneticUS": "/bræs/",
+      "phoneticUK": "/brɑːs/",
+      "bubblePosition": {
+        "x": 495,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 427,
+        "y": 846
+      },
+      "boundingBox": {
+        "left": 359,
+        "top": 822,
+        "right": 495,
+        "bottom": 870
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（黄铜），待最终图确认。",
+        "association": "场景中体现的具体对象（黄铜），待最终图确认。",
+        "collocation": "a brass washer; made of brass",
+        "example": "The golden washer is our brass sample.",
+        "exampleChinese": "金色垫圈是我们的黄铜样品。"
+      }
+    },
+    {
+      "x": 680,
+      "y": 871,
+      "english": "tin",
+      "chinese": "锡",
+      "phoneticUS": "/tɪn/",
+      "phoneticUK": "/tɪn/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 680,
+        "y": 871
+      },
+      "boundingBox": {
+        "left": 579,
+        "top": 837,
+        "right": 781,
+        "bottom": 905
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（锡），待最终图确认。",
+        "association": "场景中体现的具体对象（锡），待最终图确认。",
+        "collocation": "a tin sample; a piece of tin",
+        "example": "The silver rectangle is our tin sample.",
+        "exampleChinese": "银色长方形片是我们的锡样品。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 90,
+      "english": "power",
+      "chinese": "电能",
+      "phoneticUS": "/ˈpaʊɚ/",
+      "phoneticUK": "/ˈpaʊə/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We switch off the power before checking the circuit.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We switch off the power before checking the circuit.；不声称该状态/含义本身在画面可见。",
+        "collocation": "electric power; switch off the power",
+        "example": "We switch off the power before checking the circuit.",
+        "exampleChinese": "检查电路前，我们关闭电源。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 90,
+      "english": "current",
+      "chinese": "电流",
+      "phoneticUS": "/ˈkɝːənt/",
+      "phoneticUK": "/ˈkʌrənt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：No current flows through the disconnected circuit.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：No current flows through the disconnected circuit.；不声称该状态/含义本身在画面可见。",
+        "collocation": "electric current; a flow of current",
+        "example": "No current flows through the disconnected circuit.",
+        "exampleChinese": "断开的电路没有电流通过。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "The electric circuit is switched off while we inspect its wire and bulb.",
+    "chinese": "我们检查电线和灯泡时，教学电路的电源是关闭的。",
+    "source": "原创配文 · C084 电路里的连接",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

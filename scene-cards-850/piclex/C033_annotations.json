@@ -1,0 +1,313 @@
+{
+  "filename": "C033-车站准备出发.png",
+  "labels": [
+    {
+      "x": 130,
+      "y": 120,
+      "english": "station",
+      "chinese": "车站",
+      "phoneticUS": "/ˈsteɪʃn/",
+      "phoneticUK": "/ˈsteɪʃn/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 130,
+        "y": 120
+      },
+      "boundingBox": {
+        "left": 20,
+        "top": 5,
+        "right": 450,
+        "bottom": 145
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "站台、顶棚与立柱的车站区域。",
+        "association": "站台、顶棚与立柱的车站区域。",
+        "collocation": "at the station",
+        "example": "We wait at the station.",
+        "exampleChinese": "我们在车站等候。"
+      }
+    },
+    {
+      "x": 625,
+      "y": 246,
+      "english": "train",
+      "chinese": "火车",
+      "phoneticUS": "/treɪn/",
+      "phoneticUK": "/treɪn/",
+      "bubblePosition": {
+        "x": 590,
+        "y": 175
+      },
+      "anchorPosition": {
+        "x": 625,
+        "y": 246
+      },
+      "boundingBox": {
+        "left": 462,
+        "top": 0,
+        "right": 998,
+        "bottom": 951
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "沿站台停靠的整列车局部。",
+        "association": "沿站台停靠的整列车局部。",
+        "collocation": "a waiting train",
+        "example": "The train stands beside the platform.",
+        "exampleChinese": "火车停在站台旁。"
+      }
+    },
+    {
+      "x": 280,
+      "y": 402,
+      "english": "ticket",
+      "chinese": "车票",
+      "phoneticUS": "/ˈtɪkɪt/",
+      "phoneticUK": "/ˈtɪkɪt/",
+      "bubblePosition": {
+        "x": 165,
+        "y": 350
+      },
+      "anchorPosition": {
+        "x": 280,
+        "y": 402
+      },
+      "boundingBox": {
+        "left": 232,
+        "top": 380,
+        "right": 317,
+        "bottom": 426
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "主人公手中的独立纸票，身份由旅行故事说明。",
+        "association": "主人公手中的独立纸票，身份由旅行故事说明。",
+        "collocation": "a train ticket",
+        "example": "I hold my train ticket.",
+        "exampleChinese": "我拿着火车票。"
+      }
+    },
+    {
+      "x": 932,
+      "y": 895,
+      "english": "rail",
+      "chinese": "铁轨",
+      "phoneticUS": "/reɪl/",
+      "phoneticUK": "/reɪl/",
+      "bubblePosition": {
+        "x": 908,
+        "y": 943
+      },
+      "anchorPosition": {
+        "x": 932,
+        "y": 895
+      },
+      "boundingBox": {
+        "left": 795,
+        "top": 726,
+        "right": 999,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "站台旁露出的单根钢轨区域。",
+        "association": "站台旁露出的单根钢轨区域。",
+        "collocation": "a steel rail",
+        "example": "A steel rail runs beside the platform.",
+        "exampleChinese": "一根钢轨沿着站台延伸。"
+      }
+    },
+    {
+      "x": 961,
+      "y": 163,
+      "english": "carriage",
+      "chinese": "车厢",
+      "phoneticUS": "/ˈkærɪdʒ/",
+      "phoneticUK": "/ˈkærɪdʒ/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 961,
+        "y": 163
+      },
+      "boundingBox": {
+        "left": 776,
+        "top": 58,
+        "right": 998,
+        "bottom": 713
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "列车开门处所在的单节车厢区域。",
+        "association": "列车开门处所在的单节车厢区域。",
+        "collocation": "a train carriage",
+        "example": "The carriage door is open.",
+        "exampleChinese": "车厢门开着。"
+      }
+    },
+    {
+      "x": 805,
+      "y": 256,
+      "english": "porter",
+      "chinese": "行李员",
+      "phoneticUS": "/ˈpɔːrtər/",
+      "phoneticUK": "/ˈpɔːtə/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 805,
+        "y": 256
+      },
+      "boundingBox": {
+        "left": 639,
+        "top": 245,
+        "right": 964,
+        "bottom": 805
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际提行李的故事角色，只定位人物，不凭制服鉴定职业。",
+        "association": "实际提行李的故事角色，只定位人物，不凭制服鉴定职业。",
+        "collocation": "a station porter",
+        "example": "The porter carries my case.",
+        "exampleChinese": "行李员提着我的箱子。"
+      }
+    },
+    {
+      "x": 450,
+      "y": 943,
+      "english": "waiting",
+      "chinese": "等候",
+      "phoneticUS": "/ˈweɪtɪŋ/",
+      "phoneticUK": "/ˈweɪtɪŋ/",
+      "bubblePosition": {
+        "x": 450,
+        "y": 943
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "静态照片不能证明等待持续，完整原创句支持名词义。",
+        "association": "静态照片不能证明等待持续，完整原创句支持名词义。",
+        "collocation": "waiting for a train",
+        "example": "Waiting for the train gives me time to rest.",
+        "exampleChinese": "等火车让我有时间休息。"
+      }
+    },
+    {
+      "x": 570,
+      "y": 75,
+      "english": "journey",
+      "chinese": "旅程",
+      "phoneticUS": "/ˈdʒɜːrni/",
+      "phoneticUK": "/ˈdʒɜːni/",
+      "bubblePosition": {
+        "x": 570,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "整段旅行概念由句子说明，不用列车框替代旅程。",
+        "association": "整段旅行概念由句子说明，不用列车框替代旅程。",
+        "collocation": "a train journey",
+        "example": "Our train journey begins here.",
+        "exampleChinese": "我们的火车旅程从这里开始。"
+      }
+    },
+    {
+      "x": 65,
+      "y": 675,
+      "english": "seat",
+      "chinese": "座位",
+      "phoneticUS": "/siːt/",
+      "phoneticUK": "/siːt/",
+      "bubblePosition": {
+        "x": 105,
+        "y": 805
+      },
+      "anchorPosition": {
+        "x": 65,
+        "y": 675
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 630,
+        "right": 162,
+        "bottom": 756
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "站台长椅的空座面。",
+        "association": "站台长椅的空座面。",
+        "collocation": "an empty seat",
+        "example": "There is an empty seat on the bench.",
+        "exampleChinese": "长椅上有一个空座位。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Ticket in hand, I wait at the station for the next journey.",
+    "chinese": "车票拿在手里，我在车站等候下一段旅程。",
+    "source": "原创配文 · C033 车站准备出发",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

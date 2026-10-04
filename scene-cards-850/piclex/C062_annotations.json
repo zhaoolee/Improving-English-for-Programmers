@@ -1,0 +1,278 @@
+{
+  "filename": "C062-书桌上的文具.png",
+  "labels": [
+    {
+      "x": 419,
+      "y": 713,
+      "english": "paper",
+      "chinese": "纸",
+      "phoneticUS": "/ˈpeɪpɚ/",
+      "phoneticUK": "/ˈpeɪpə/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 560
+      },
+      "anchorPosition": {
+        "x": 419,
+        "y": 713
+      },
+      "boundingBox": {
+        "left": 148,
+        "top": 628,
+        "right": 690,
+        "bottom": 798
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（纸），待最终图确认。",
+        "association": "场景中体现的具体对象（纸），待最终图确认。",
+        "collocation": "a sheet of paper; on paper",
+        "example": "A sheet of paper lies on the desk.",
+        "exampleChinese": "一张纸放在书桌上。"
+      }
+    },
+    {
+      "x": 306,
+      "y": 641,
+      "english": "pen",
+      "chinese": "钢笔",
+      "phoneticUS": "/pen/",
+      "phoneticUK": "/pen/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 690
+      },
+      "anchorPosition": {
+        "x": 306,
+        "y": 641
+      },
+      "boundingBox": {
+        "left": 229,
+        "top": 548,
+        "right": 383,
+        "bottom": 735
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（钢笔），待最终图确认。",
+        "association": "场景中体现的具体对象（钢笔），待最终图确认。",
+        "collocation": "a fountain pen; write with a pen",
+        "example": "I hold a pen above the paper.",
+        "exampleChinese": "我拿着钢笔，笔在纸上方。"
+      }
+    },
+    {
+      "x": 499,
+      "y": 882,
+      "english": "pencil",
+      "chinese": "铅笔",
+      "phoneticUS": "/ˈpensəl/",
+      "phoneticUK": "/ˈpensəl/",
+      "bubblePosition": {
+        "x": 615,
+        "y": 945
+      },
+      "anchorPosition": {
+        "x": 499,
+        "y": 882
+      },
+      "boundingBox": {
+        "left": 398,
+        "top": 833,
+        "right": 601,
+        "bottom": 931
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（铅笔），待最终图确认。",
+        "association": "场景中体现的具体对象（铅笔），待最终图确认。",
+        "collocation": "a sharp pencil; draw with a pencil",
+        "example": "The pencil has a sharp point.",
+        "exampleChinese": "这支铅笔有尖尖的笔尖。"
+      }
+    },
+    {
+      "x": 308,
+      "y": 817,
+      "english": "ink",
+      "chinese": "墨水",
+      "phoneticUS": "/ɪŋk/",
+      "phoneticUK": "/ɪŋk/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 915
+      },
+      "anchorPosition": {
+        "x": 308,
+        "y": 817
+      },
+      "boundingBox": {
+        "left": 238,
+        "top": 757,
+        "right": 378,
+        "bottom": 878
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（墨水），待最终图确认。",
+        "association": "场景中体现的具体对象（墨水），待最终图确认。",
+        "collocation": "black ink; an ink bottle",
+        "example": "The bottle contains dark ink.",
+        "exampleChinese": "瓶子里装着深色墨水。"
+      }
+    },
+    {
+      "x": 875,
+      "y": 920,
+      "english": "note",
+      "chinese": "便条",
+      "phoneticUS": "/noʊt/",
+      "phoneticUK": "/nəʊt/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 920
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I plan to write a short note.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I plan to write a short note.；不声称该状态/含义本身在画面可见。",
+        "collocation": "write a note; leave a note",
+        "example": "I plan to write a short note.",
+        "exampleChinese": "我打算写一张简短的便条。"
+      }
+    },
+    {
+      "x": 859,
+      "y": 660,
+      "english": "page",
+      "chinese": "书页",
+      "phoneticUS": "/peɪdʒ/",
+      "phoneticUK": "/peɪdʒ/",
+      "bubblePosition": {
+        "x": 895,
+        "y": 520
+      },
+      "anchorPosition": {
+        "x": 859,
+        "y": 660
+      },
+      "boundingBox": {
+        "left": 721,
+        "top": 604,
+        "right": 998,
+        "bottom": 716
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（书页），待最终图确认。",
+        "association": "场景中体现的具体对象（书页），待最终图确认。",
+        "collocation": "turn a page; an open page",
+        "example": "This page belongs to the open book.",
+        "exampleChinese": "这页属于打开的书。"
+      }
+    },
+    {
+      "x": 236,
+      "y": 644,
+      "english": "writing",
+      "chinese": "写字",
+      "phoneticUS": "/ˈraɪtɪŋ/",
+      "phoneticUK": "/ˈraɪtɪŋ/",
+      "bubblePosition": {
+        "x": 630,
+        "y": 535
+      },
+      "anchorPosition": {
+        "x": 236,
+        "y": 644
+      },
+      "boundingBox": {
+        "left": 88,
+        "top": 549,
+        "right": 384,
+        "bottom": 739
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（写字），待最终图确认。",
+        "association": "场景中体现的具体动作（写字），待最终图确认。",
+        "collocation": "practice writing; clear writing",
+        "example": "I practice writing with my pen.",
+        "exampleChinese": "我用钢笔练习写字。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 95,
+      "english": "word",
+      "chinese": "单词",
+      "phoneticUS": "/wɝːd/",
+      "phoneticUK": "/wɜːd/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I learn one new word each day.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I learn one new word each day.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a new word; learn a word",
+        "example": "I learn one new word each day.",
+        "exampleChinese": "我每天学习一个新单词。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Paper, a pen, and a pencil are ready on my desk for writing.",
+    "chinese": "纸、钢笔和铅笔已放在书桌上，准备写字。",
+    "source": "原创配文 · C062 书桌上的文具",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

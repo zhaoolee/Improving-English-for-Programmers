@@ -1,0 +1,728 @@
+{
+  "startedAt": "2026-10-02T11:35:38Z",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C006",
+      "caption_en": "We give our dear baby love and care every day.",
+      "caption_zh": "我们每天给予亲爱的宝宝爱与照料。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. One candid family scene in a bright elegant living room. Exactly two adults, two school-age children and one swaddled infant. Mother seated at center-left holding the newborn safely with head and body supported and gently KISSING its forehead, clear face-to-forehead contact. Adult father in muted blue sweater sits nearby right; their little son in pale blue stands left, daughter in pale lavender sits right. Infant wrapped in a cream blanket at center, face visible. All clothed, distinct separated faces, coherent hands and natural family intimacy, no medical setting. Full sofa and all five people comfortably fit, no face crop.",
+      "words": [
+        {
+          "word": "baby",
+          "zh": "宝宝",
+          "pos": "noun (countable)",
+          "us": "/ˈbeɪbi/",
+          "uk": "/ˈbeɪbi/",
+          "collocations": [
+            "a baby",
+            "hold the baby"
+          ],
+          "example": "The baby is in my arms.",
+          "translation": "宝宝在我怀里。",
+          "mode": "object",
+          "evidence": "母亲怀中襁褓里的婴儿，按最终画面框选。",
+          "color": "teal"
+        },
+        {
+          "word": "son",
+          "zh": "儿子",
+          "pos": "noun (countable)",
+          "us": "/sʌn/",
+          "uk": "/sʌn/",
+          "collocations": [
+            "my son",
+            "a young son"
+          ],
+          "example": "Our son stands beside us.",
+          "translation": "我们的儿子站在我们旁边。",
+          "mode": "object",
+          "evidence": "左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。",
+          "color": "blue"
+        },
+        {
+          "word": "daughter",
+          "zh": "女儿",
+          "pos": "noun (countable)",
+          "us": "/ˈdɔːtər/",
+          "uk": "/ˈdɔːtə/",
+          "collocations": [
+            "my daughter",
+            "a young daughter"
+          ],
+          "example": "Our daughter sits beside us.",
+          "translation": "我们的女儿坐在我们旁边。",
+          "mode": "object",
+          "evidence": "右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。",
+          "color": "lavender"
+        },
+        {
+          "word": "birth",
+          "zh": "出生",
+          "pos": "noun (uncountable)",
+          "us": "/bɝːθ/",
+          "uk": "/bɜːθ/",
+          "collocations": [
+            "the birth of a baby",
+            "after birth"
+          ],
+          "example": "We were happy at the birth of our baby.",
+          "translation": "宝宝出生时，我们很开心。",
+          "mode": "context",
+          "evidence": "叙述宝宝出生这一过去事件，照片不直接证明出生过程。",
+          "color": "rose"
+        },
+        {
+          "word": "care",
+          "zh": "照料",
+          "pos": "noun (uncountable)",
+          "us": "/ker/",
+          "uk": "/keə/",
+          "collocations": [
+            "give care",
+            "love and care"
+          ],
+          "example": "Our baby needs love and care.",
+          "translation": "我们的宝宝需要爱与照料。",
+          "mode": "action",
+          "evidence": "双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。",
+          "color": "teal"
+        },
+        {
+          "word": "kiss",
+          "zh": "亲吻",
+          "pos": "verb (transitive)",
+          "us": "/kɪs/",
+          "uk": "/kɪs/",
+          "collocations": [
+            "kiss the baby",
+            "kiss gently"
+          ],
+          "example": "I kiss the baby on the forehead.",
+          "translation": "我亲吻宝宝的额头。",
+          "mode": "action",
+          "evidence": "母亲嘴唇与宝宝额头接触的动作区域。",
+          "color": "rose"
+        },
+        {
+          "word": "dear",
+          "zh": "亲爱的",
+          "pos": "adjective",
+          "us": "/dɪr/",
+          "uk": "/dɪə/",
+          "collocations": [
+            "my dear baby",
+            "a dear friend"
+          ],
+          "example": "You are my dear baby.",
+          "translation": "你是我亲爱的宝宝。",
+          "mode": "context",
+          "evidence": "亲爱的称呼由例句表达，不能把宝宝框成dear。",
+          "color": "rose"
+        },
+        {
+          "word": "love",
+          "zh": "爱",
+          "pos": "noun (uncountable)",
+          "us": "/lʌv/",
+          "uk": "/lʌv/",
+          "collocations": [
+            "give love",
+            "love and care"
+          ],
+          "example": "We give our baby love.",
+          "translation": "我们给予宝宝爱。",
+          "mode": "context",
+          "evidence": "亲密照料与名词love例句，情感不设物体框。",
+          "color": "rose"
+        },
+        {
+          "word": "dependent",
+          "zh": "依赖的",
+          "pos": "adjective",
+          "us": "/dɪˈpendənt/",
+          "uk": "/dɪˈpendənt/",
+          "collocations": [
+            "dependent on parents",
+            "fully dependent"
+          ],
+          "example": "The baby is dependent on us.",
+          "translation": "宝宝依赖我们。",
+          "mode": "context",
+          "evidence": "dependent on结构明确依赖关系，不从静态姿态推出抽象属性。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "caption_en": "I wash my hands with water and soap at the basin.",
+      "caption_zh": "我在洗手盆前用水和肥皂洗手。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. A stylish fully clothed adult woman in three-quarter side profile washing her hands at a white oval wash BASIN in an elegant pale stone bathroom. Elevated camera looking down enough to clearly see the bowl interior, thin running WATER stream, soapy hands, and circular metal DRAIN at bottom, not obscured by hands. A cream bar of SOAP on its own small dish on left counter; a small natural-bristle wooden hand BRUSH on right counter, both visually distinct and large enough to identify. One freestanding white BATH tub clearly visible in rear right. Physically plausible plumbing, simple uncluttered surfaces, no mirror duplication, carefully composed environmental portrait.",
+      "words": [
+        {
+          "word": "basin",
+          "zh": "洗手盆",
+          "pos": "noun (countable)",
+          "us": "/ˈbeɪsən/",
+          "uk": "/ˈbeɪsən/",
+          "collocations": [
+            "a wash basin",
+            "at the basin"
+          ],
+          "example": "I wash my hands in the basin.",
+          "translation": "我在洗手盆里洗手。",
+          "mode": "object",
+          "evidence": "框白色洗手盆盆体，不包含整张台面。",
+          "color": "teal"
+        },
+        {
+          "word": "bath",
+          "zh": "浴缸（英式）",
+          "pos": "noun (countable, British English)",
+          "us": "/bæθ/",
+          "uk": "/bɑːθ/",
+          "collocations": [
+            "a white bath",
+            "a bath in the bathroom"
+          ],
+          "example": "There is a white bath behind me.",
+          "translation": "我身后有一个白色浴缸。",
+          "mode": "object",
+          "evidence": "本卡采用英式bath指浴缸，美式通常说bathtub。",
+          "color": "lavender"
+        },
+        {
+          "word": "soap",
+          "zh": "肥皂",
+          "pos": "noun (uncountable)",
+          "us": "/soʊp/",
+          "uk": "/səʊp/",
+          "collocations": [
+            "a bar of soap",
+            "water and soap"
+          ],
+          "example": "The soap is on a small dish.",
+          "translation": "肥皂放在一个小碟子上。",
+          "mode": "object",
+          "evidence": "定位皂碟中的固体肥皂，不把皂碟当肥皂。",
+          "color": "rose"
+        },
+        {
+          "word": "brush",
+          "zh": "刷子",
+          "pos": "noun (countable)",
+          "us": "/brʌʃ/",
+          "uk": "/brʌʃ/",
+          "collocations": [
+            "a hand brush",
+            "a wooden brush"
+          ],
+          "example": "The brush is beside the basin.",
+          "translation": "刷子在洗手盆旁边。",
+          "mode": "object",
+          "evidence": "定位台面的木柄鬃毛刷。",
+          "color": "amber"
+        },
+        {
+          "word": "wash",
+          "zh": "洗",
+          "pos": "verb (transitive)",
+          "us": "/wɑːʃ/",
+          "uk": "/wɒʃ/",
+          "collocations": [
+            "wash my hands",
+            "wash with soap"
+          ],
+          "example": "I wash my hands with soap.",
+          "translation": "我用肥皂洗手。",
+          "mode": "action",
+          "evidence": "双手在流水下搓洗的区域。",
+          "color": "teal"
+        },
+        {
+          "word": "clean",
+          "zh": "干净的",
+          "pos": "adjective",
+          "us": "/kliːn/",
+          "uk": "/kliːn/",
+          "collocations": [
+            "clean hands",
+            "be clean"
+          ],
+          "example": "My hands are clean after washing.",
+          "translation": "洗完后，我的双手很干净。",
+          "mode": "context",
+          "evidence": "洗后结果由例句说明，静态图不证明洁净程度。",
+          "color": "lavender"
+        },
+        {
+          "word": "water",
+          "zh": "水",
+          "pos": "noun (uncountable)",
+          "us": "/ˈwɑːtər/",
+          "uk": "/ˈwɔːtə/",
+          "collocations": [
+            "running water",
+            "water and soap"
+          ],
+          "example": "Water flows from the tap.",
+          "translation": "水从水龙头流出。",
+          "mode": "object",
+          "evidence": "只框可见流水，不把整个龙头或盆作为水。",
+          "color": "blue"
+        },
+        {
+          "word": "drain",
+          "zh": "排水口",
+          "pos": "noun (countable)",
+          "us": "/dreɪn/",
+          "uk": "/dreɪn/",
+          "collocations": [
+            "a basin drain",
+            "down the drain"
+          ],
+          "example": "Water goes down the drain.",
+          "translation": "水从排水口流下去。",
+          "mode": "object",
+          "evidence": "框盆底可见的金属排水口，避免声称看到隐藏管道。",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "caption_en": "I rub the dirty table, then hang the wet cloth to dry.",
+      "caption_zh": "我擦拭脏桌子，然后把湿布挂起来晾干。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. Exactly TWO stacked horizontal photographic panels within one vertical 4:5 image, thin clean divider, same woman and same elegant apartment. TOP: medium view of woman wiping a light oak table using ONE yellow porous SPONGE under her hand. Clearly visible grey DUST and dusty streaks across left portion of table, a clean wiped stripe on right. A slate blue BUCKET of water on floor at lower right of top panel. A damp pale blue CLOTH draped over bucket rim. BOTTOM: same woman at bright cool window hanging the same pale blue cloth by two clips on a simple drying rack, dry wooden floor and airy minimal background. No duplicated woman within a panel, dust visible without cartoon clouds, hands coherent, table/sponge/bucket/cloth readable. Avoid text or labels.",
+      "words": [
+        {
+          "word": "dirty",
+          "zh": "脏的",
+          "pos": "adjective",
+          "us": "/ˈdɝːti/",
+          "uk": "/ˈdɜːti/",
+          "collocations": [
+            "a dirty table",
+            "be dirty"
+          ],
+          "example": "The table is dirty before I wipe it.",
+          "translation": "擦拭前，桌子很脏。",
+          "mode": "object",
+          "evidence": "上幅桌面明显可见的灰尘与脏污，dirty描述该桌面区域。",
+          "color": "amber"
+        },
+        {
+          "word": "dust",
+          "zh": "灰尘",
+          "pos": "noun (uncountable)",
+          "us": "/dʌst/",
+          "uk": "/dʌst/",
+          "collocations": [
+            "dust on the table",
+            "remove dust"
+          ],
+          "example": "There is dust on the table.",
+          "translation": "桌上有灰尘。",
+          "mode": "object",
+          "evidence": "框上幅桌面明确可辨的积尘区域。",
+          "color": "amber"
+        },
+        {
+          "word": "sponge",
+          "zh": "海绵",
+          "pos": "noun (countable)",
+          "us": "/spʌndʒ/",
+          "uk": "/spʌndʒ/",
+          "collocations": [
+            "a wet sponge",
+            "wipe with a sponge"
+          ],
+          "example": "I wipe the table with a sponge.",
+          "translation": "我用海绵擦桌子。",
+          "mode": "object",
+          "evidence": "定位手下黄色多孔海绵，不含整只手。",
+          "color": "amber"
+        },
+        {
+          "word": "bucket",
+          "zh": "桶",
+          "pos": "noun (countable)",
+          "us": "/ˈbʌkɪt/",
+          "uk": "/ˈbʌkɪt/",
+          "collocations": [
+            "a bucket of water",
+            "a blue bucket"
+          ],
+          "example": "The bucket holds water.",
+          "translation": "桶里装着水。",
+          "mode": "object",
+          "evidence": "框上幅蓝色水桶及桶口。",
+          "color": "blue"
+        },
+        {
+          "word": "wet",
+          "zh": "湿的",
+          "pos": "adjective",
+          "us": "/wet/",
+          "uk": "/wet/",
+          "collocations": [
+            "a wet cloth",
+            "be wet"
+          ],
+          "example": "The cloth is wet after washing.",
+          "translation": "洗过之后，布是湿的。",
+          "mode": "object",
+          "evidence": "下幅晾晒布的实际区域；洗后湿布由原创句子明确，框只定位布，不从颜色测量湿度。",
+          "color": "blue"
+        },
+        {
+          "word": "dry",
+          "zh": "晾干",
+          "pos": "verb (intransitive)",
+          "us": "/draɪ/",
+          "uk": "/draɪ/",
+          "collocations": [
+            "leave it to dry",
+            "hang it to dry"
+          ],
+          "example": "I hang the cloth to dry.",
+          "translation": "我把布挂起来晾干。",
+          "mode": "action",
+          "evidence": "下幅双手把布挂到晾架的动作区域；dry为晾干过程，句子to dry说明目的，不声称布已干透。",
+          "color": "teal"
+        },
+        {
+          "word": "rub",
+          "zh": "擦",
+          "pos": "verb (transitive)",
+          "us": "/rʌb/",
+          "uk": "/rʌb/",
+          "collocations": [
+            "rub the table",
+            "rub with a sponge"
+          ],
+          "example": "I rub the table with a sponge.",
+          "translation": "我用海绵擦桌子。",
+          "mode": "action",
+          "evidence": "上幅手持海绵贴着桌面的擦拭动作区域。",
+          "color": "rose"
+        },
+        {
+          "word": "cloth",
+          "zh": "布",
+          "pos": "noun (countable)",
+          "us": "/klɑːθ/",
+          "uk": "/klɒθ/",
+          "collocations": [
+            "a cleaning cloth",
+            "a wet cloth"
+          ],
+          "example": "The cloth hangs on the rack.",
+          "translation": "布挂在晾晒架上。",
+          "mode": "object",
+          "evidence": "只框下幅挂起的浅蓝清洁布。",
+          "color": "blue"
+        },
+        {
+          "word": "do",
+          "zh": "做",
+          "pos": "verb (transitive)",
+          "us": "/duː/",
+          "uk": "/duː/",
+          "collocations": [
+            "do the cleaning",
+            "do housework"
+          ],
+          "example": "I do the cleaning every week.",
+          "translation": "我每周打扫。",
+          "mode": "context",
+          "evidence": "do the cleaning具体自然搭配；高亮do，不给功能动词物体框。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "caption_en": "I touch the soft dog while the cat rests beside us.",
+      "caption_zh": "猫在我们旁边休息时，我轻轻摸着柔软的小狗。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. One tranquil elegant apartment sofa scene. Adult woman seated on an ivory sofa, gently stroking a small white fluffy DOG seated on rug at left center. ONE grey CAT lying comfortably on the rug at right center, its long tail clearly stretched in a curve beside body fully visible, not hidden. Her hand visibly touches dog fur; two distinct anatomically believable animals, four paws where exposed, no merged bodies. Frame woman upper body, sofa, dog, cat and floor, enough environmental breathing room; calm affectionate real-life fashion photograph, detailed fur and natural eye reflections.",
+      "words": [
+        {
+          "word": "dog",
+          "zh": "狗",
+          "pos": "noun (countable)",
+          "us": "/dɑːɡ/",
+          "uk": "/dɒɡ/",
+          "collocations": [
+            "a small dog",
+            "a pet dog"
+          ],
+          "example": "The dog sits beside the sofa.",
+          "translation": "狗坐在沙发旁边。",
+          "mode": "object",
+          "evidence": "框白色小狗可见完整身体。",
+          "color": "teal"
+        },
+        {
+          "word": "cat",
+          "zh": "猫",
+          "pos": "noun (countable)",
+          "us": "/kæt/",
+          "uk": "/kæt/",
+          "collocations": [
+            "a pet cat",
+            "a grey cat"
+          ],
+          "example": "The cat lies on the rug.",
+          "translation": "猫躺在地毯上。",
+          "mode": "object",
+          "evidence": "框灰猫身体，不含主人或小狗。",
+          "color": "lavender"
+        },
+        {
+          "word": "tail",
+          "zh": "尾巴",
+          "pos": "noun (countable)",
+          "us": "/teɪl/",
+          "uk": "/teɪl/",
+          "collocations": [
+            "a long tail",
+            "the cat's tail"
+          ],
+          "example": "The cat has a long tail.",
+          "translation": "猫有一条长尾巴。",
+          "mode": "object",
+          "evidence": "只定位灰猫伸出的尾巴。",
+          "color": "lavender"
+        },
+        {
+          "word": "animal",
+          "zh": "动物",
+          "pos": "noun (countable)",
+          "us": "/ˈænɪməl/",
+          "uk": "/ˈænɪməl/",
+          "collocations": [
+            "a small animal",
+            "a pet animal"
+          ],
+          "example": "A dog is an animal.",
+          "translation": "狗是一种动物。",
+          "mode": "object",
+          "evidence": "狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。",
+          "color": "teal"
+        },
+        {
+          "word": "soft",
+          "zh": "柔软的",
+          "pos": "adjective",
+          "us": "/sɑːft/",
+          "uk": "/sɒft/",
+          "collocations": [
+            "soft fur",
+            "soft to the touch"
+          ],
+          "example": "The dog has soft fur.",
+          "translation": "狗的毛很柔软。",
+          "mode": "context",
+          "evidence": "毛发外观与原创触感叙述对应，不声称照片可测量触感。",
+          "color": "rose"
+        },
+        {
+          "word": "touch",
+          "zh": "触摸",
+          "pos": "verb (transitive)",
+          "us": "/tʌtʃ/",
+          "uk": "/tʌtʃ/",
+          "collocations": [
+            "touch gently",
+            "touch the fur"
+          ],
+          "example": "I touch the dog gently.",
+          "translation": "我轻轻摸着狗。",
+          "mode": "action",
+          "evidence": "主人手与狗毛接触的真实局部。",
+          "color": "rose"
+        },
+        {
+          "word": "comfort",
+          "zh": "慰藉",
+          "pos": "noun (uncountable)",
+          "us": "/ˈkʌmfərt/",
+          "uk": "/ˈkʌmfət/",
+          "collocations": [
+            "bring comfort",
+            "find comfort"
+          ],
+          "example": "My pets bring me comfort.",
+          "translation": "我的宠物给我带来慰藉。",
+          "mode": "context",
+          "evidence": "情感名词由原创叙述与例句覆盖，不设框。",
+          "color": "amber"
+        },
+        {
+          "word": "rest",
+          "zh": "休息",
+          "pos": "verb (intransitive)",
+          "us": "/rest/",
+          "uk": "/rest/",
+          "collocations": [
+            "rest quietly",
+            "rest beside me"
+          ],
+          "example": "The cat likes to rest beside me.",
+          "translation": "猫喜欢在我旁边休息。",
+          "mode": "action",
+          "evidence": "猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "caption_en": "Please keep the room quiet; I am tired and need to rest.",
+      "caption_zh": "请让房间保持安静；我累了，需要休息。",
+      "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. Exactly TWO side-by-side photographic panels in a vertical 4:5 diptych. LEFT: a cool-lit apartment hallway with two fully clothed adult visitors chatting animatedly, open mouths mid-conversation and conversational hand gestures; young protagonist at bedroom doorway turns slightly away looking weary. RIGHT: same young adult woman now seated on edge of neatly made bed in a quiet cool blue evening bedroom, bedroom door behind her CLOSED, relaxed shoulders, one small yawn with hand politely near mouth, coherent body. Soft simple bedside light, clean pale walls and modest negative space above. No visual sound symbols, no floating musical notes, no text. Static photographs cannot depict sound itself; actions only provide story context. Subtle fashion editorial mood, believable same woman and architecture, understated expressions.",
+      "words": [
+        {
+          "word": "tired",
+          "zh": "疲倦的",
+          "pos": "adjective",
+          "us": "/taɪrd/",
+          "uk": "/taɪəd/",
+          "collocations": [
+            "feel tired",
+            "be tired"
+          ],
+          "example": "I am tired after a long day.",
+          "translation": "忙了一整天后，我很累。",
+          "mode": "context",
+          "evidence": "倦态与原创自述共同说明tired，不把疲倦当物体。",
+          "color": "rose"
+        },
+        {
+          "word": "quiet",
+          "zh": "安静的",
+          "pos": "adjective",
+          "us": "/ˈkwaɪət/",
+          "uk": "/ˈkwaɪət/",
+          "collocations": [
+            "a quiet room",
+            "keep quiet"
+          ],
+          "example": "The room is quiet with the door shut.",
+          "translation": "门关上后，房间很安静。",
+          "mode": "context",
+          "evidence": "右幅关门卧室作为故事语境，声音属性由句子说明。",
+          "color": "teal"
+        },
+        {
+          "word": "noise",
+          "zh": "噪声",
+          "pos": "noun (uncountable)",
+          "us": "/nɔɪz/",
+          "uk": "/nɔɪz/",
+          "collocations": [
+            "hear noise",
+            "noise in the hall"
+          ],
+          "example": "I hear noise in the hall.",
+          "translation": "我听见走廊里的噪声。",
+          "mode": "context",
+          "evidence": "左幅交谈仅为语境，听觉证据来自原创例句。",
+          "color": "amber"
+        },
+        {
+          "word": "loud",
+          "zh": "响亮的",
+          "pos": "adjective",
+          "us": "/laʊd/",
+          "uk": "/laʊd/",
+          "collocations": [
+            "a loud voice",
+            "be loud"
+          ],
+          "example": "Their voices are loud.",
+          "translation": "他们说话的声音很响。",
+          "mode": "context",
+          "evidence": "音量不能从嘴部动作测量，例句明确故事音量。",
+          "color": "amber"
+        },
+        {
+          "word": "sound",
+          "zh": "声音",
+          "pos": "noun (countable)",
+          "us": "/saʊnd/",
+          "uk": "/saʊnd/",
+          "collocations": [
+            "the sound of voices",
+            "a soft sound"
+          ],
+          "example": "The sound of voices comes from the hall.",
+          "translation": "说话声从走廊传来。",
+          "mode": "context",
+          "evidence": "声音不可见，用句子说明来源，区别于noise的不悦噪声含义。",
+          "color": "blue"
+        },
+        {
+          "word": "still",
+          "zh": "不动的",
+          "pos": "adjective",
+          "us": "/stɪl/",
+          "uk": "/stɪl/",
+          "collocations": [
+            "sit still",
+            "keep still"
+          ],
+          "example": "I sit still on the bed.",
+          "translation": "我在床上坐着不动。",
+          "mode": "context",
+          "evidence": "本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。",
+          "color": "lavender"
+        },
+        {
+          "word": "back",
+          "zh": "回到原处",
+          "pos": "adverb",
+          "us": "/bæk/",
+          "uk": "/bæk/",
+          "collocations": [
+            "go back",
+            "back to my room"
+          ],
+          "example": "I go back to my room.",
+          "translation": "我回到自己的房间。",
+          "mode": "context",
+          "evidence": "双幅故事与go back例句表达返回，不作人体背部解释。",
+          "color": "blue"
+        },
+        {
+          "word": "keep",
+          "zh": "使保持",
+          "pos": "verb (transitive)",
+          "us": "/kiːp/",
+          "uk": "/kiːp/",
+          "collocations": [
+            "keep the room quiet",
+            "keep still"
+          ],
+          "example": "Please keep the room quiet.",
+          "translation": "请让房间保持安静。",
+          "mode": "context",
+          "evidence": "keep+宾语+形容词的自然结构，高亮keep，不设虚假框。",
+          "color": "teal"
+        }
+      ]
+    }
+  ],
+  "lexical_review": {
+    "method": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。",
+    "references": {
+      "bath": "https://dictionary.cambridge.org/us/dictionary/english/bath",
+      "dependent": "https://dictionary.cambridge.org/pronunciation/english/dependent",
+      "still": "https://dictionary.cambridge.org/dictionary/english/still",
+      "comfort": "https://dictionary.cambridge.org/us/dictionary/english/comfort"
+    }
+  },
+  "timingBasis": "首次工具时钟记录"
+}

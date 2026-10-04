@@ -1,0 +1,335 @@
+{
+  "id": "C054",
+  "chapter": "身体与健康",
+  "title": "牙科小检查",
+  "scene": "牙医用非写实剖面模型解释牙、舌、咽喉和皮肤下神经。",
+  "target_count": 7,
+  "primary_words": [
+    "tooth",
+    "tongue",
+    "throat",
+    "skin",
+    "nerve",
+    "medical",
+    "pain"
+  ],
+  "targets": [
+    {
+      "word_id": "W772",
+      "word": "tooth",
+      "aliases": [],
+      "source_zh_unreviewed": "牙齿",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "牙齿",
+      "pos": "noun",
+      "ipa_us": "/tuːθ/",
+      "ipa_uk": "/tuːθ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整牙齿教学模型。",
+        "sentence": "The dentist shows me a tooth model.",
+        "matched_form": "tooth",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The dentist shows me a tooth model.",
+      "example_zh": "牙医给我看一个牙齿模型。",
+      "bbox_normalized": [
+        0.188,
+        0.541,
+        0.489,
+        0.928
+      ],
+      "collocations": [
+        "a tooth model"
+      ],
+      "example_en_highlighted": "The dentist shows me a **tooth** model.",
+      "annotation_mode": "object",
+      "annotation_note": "完整牙齿教学模型。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W771",
+      "word": "tongue",
+      "aliases": [],
+      "source_zh_unreviewed": "舌头",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "舌头",
+      "pos": "noun",
+      "ipa_us": "/tʌŋ/",
+      "ipa_uk": "/tʌŋ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "口腔模型中实际可辨粉色舌部。",
+        "sentence": "The pink part of the model represents the tongue.",
+        "matched_form": "tongue",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The pink part of the model represents the tongue.",
+      "example_zh": "模型的粉色部分表示舌头。",
+      "bbox_normalized": [
+        0.605,
+        0.647,
+        0.792,
+        0.739
+      ],
+      "collocations": [
+        "the tongue"
+      ],
+      "example_en_highlighted": "The pink part of the model represents the **tongue**.",
+      "annotation_mode": "object",
+      "annotation_note": "口腔模型中实际可辨粉色舌部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W757",
+      "word": "throat",
+      "aliases": [],
+      "source_zh_unreviewed": "喉咙",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "咽喉",
+      "pos": "noun",
+      "ipa_us": "/θroʊt/",
+      "ipa_uk": "/θrəʊt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "模型中口腔后方通道，不把普通人像当内部可见。",
+        "sentence": "The passage behind the mouth represents the throat.",
+        "matched_form": "throat",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The passage behind the mouth represents the throat.",
+      "example_zh": "口腔后方的通道表示咽喉。",
+      "bbox_normalized": [
+        0.81,
+        0.6,
+        0.863,
+        0.75
+      ],
+      "collocations": [
+        "the throat"
+      ],
+      "example_en_highlighted": "The passage behind the mouth represents the **throat**.",
+      "annotation_mode": "object",
+      "annotation_note": "模型中口腔后方通道，不把普通人像当内部可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W659",
+      "word": "skin",
+      "aliases": [],
+      "source_zh_unreviewed": "皮肤",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "皮肤",
+      "pos": "noun",
+      "ipa_us": "/skɪn/",
+      "ipa_uk": "/skɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅真实前臂皮肤。",
+        "sentence": "The skin on my arm is visible.",
+        "matched_form": "skin",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The skin on my arm is visible.",
+      "example_zh": "我的手臂皮肤露在外面。",
+      "bbox_normalized": [
+        0.194,
+        0.417,
+        0.339,
+        0.463
+      ],
+      "collocations": [
+        "the skin on my arm"
+      ],
+      "example_en_highlighted": "The **skin** on my arm is visible.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅真实前臂皮肤。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W471",
+      "word": "nerve",
+      "aliases": [],
+      "source_zh_unreviewed": "神经",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "神经",
+      "pos": "noun",
+      "ipa_us": "/nɜːrv/",
+      "ipa_uk": "/nɜːv/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "仅定位牙模型黄色神经示意。",
+        "sentence": "The yellow line represents a nerve in the tooth.",
+        "matched_form": "nerve",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The yellow line represents a nerve in the tooth.",
+      "example_zh": "黄色线条表示牙齿中的一条神经。",
+      "bbox_normalized": [
+        0.298,
+        0.623,
+        0.345,
+        0.896
+      ],
+      "collocations": [
+        "a nerve in a tooth"
+      ],
+      "example_en_highlighted": "The yellow line represents a **nerve** in the tooth.",
+      "annotation_mode": "object",
+      "annotation_note": "仅定位牙模型黄色神经示意。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W436",
+      "word": "medical",
+      "aliases": [],
+      "source_zh_unreviewed": "医学的；医疗的",
+      "planned_mode": "context",
+      "sense_zh": "医疗的",
+      "pos": "adjective",
+      "ipa_us": "/ˈmedɪkəl/",
+      "ipa_uk": "/ˈmedɪkəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I ask for medical help with my tooth.",
+        "matched_form": "medical",
+        "referent_region_verified": false,
+        "context": "医疗功能由故事说明，不从白衣鉴定资质。",
+        "image_verified": null
+      },
+      "example_en": "I ask for medical help with my tooth.",
+      "example_zh": "我为牙齿问题寻求医疗帮助。",
+      "bbox_normalized": null,
+      "collocations": [
+        "medical help"
+      ],
+      "example_en_highlighted": "I ask for **medical** help with my tooth.",
+      "annotation_mode": "context",
+      "annotation_note": "医疗功能由故事说明，不从白衣鉴定资质。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W510",
+      "word": "pain",
+      "aliases": [],
+      "source_zh_unreviewed": "疼痛；痛苦",
+      "planned_mode": "context",
+      "sense_zh": "疼痛",
+      "pos": "noun",
+      "ipa_us": "/peɪn/",
+      "ipa_uk": "/peɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I tell the dentist about my tooth pain.",
+        "matched_form": "pain",
+        "referent_region_verified": false,
+        "context": "主观疼痛由句子说明，不从表情诊断。",
+        "image_verified": null
+      },
+      "example_en": "I tell the dentist about my tooth pain.",
+      "example_zh": "我告诉牙医我的牙痛情况。",
+      "bbox_normalized": null,
+      "collocations": [
+        "tooth pain"
+      ],
+      "example_en_highlighted": "I tell the dentist about my tooth **pain**.",
+      "annotation_mode": "context",
+      "annotation_note": "主观疼痛由句子说明，不从表情诊断。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "The dentist uses models to explain my tooth and the inside of my mouth.",
+    "zh": "牙医用模型向我说明牙齿和口腔内部。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "神经、牙齿内部等使用医学教学示意，不能靠普通照片假称可见。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C054\n标题 牙科小检查\n场景 牙医用非写实剖面模型解释牙、舌、咽喉和皮肤下神经。\n目标词 tooth, tongue, throat, skin, nerve, medical, pain\n原创主配文草案 My tooth hurts, so I need medical help.\n中文草案 我的牙疼，所以我需要医疗帮助。\n编辑注意 神经、牙齿内部等使用医学教学示意，不能靠普通照片假称可见。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Two stacked photographic panels of gentle dental consultation, no procedure. Upper woman in ivory blouse seated at clinic table with adult female dentist in pale coat pointing to models; her forearm skin visible. Lower close tabletop photograph: one LARGE simplified PLASTIC tooth cutaway model with white enamel and pink interior, a clearly visible fine yellow nerve representation running from pulp through root; beside it a sagittal PLASTIC head and mouth teaching model showing a distinct pink tongue and back-of-throat passage. Friendly opaque coloured teaching models, no real blood tissue gore, no writing or arrows. Educational representations, not clinical accuracy diagrams.",
+  "status": "approved",
+  "image_path": "images/C054.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 7,
+    "content_entries_complete": 7,
+    "sentence_evidence_complete": 7,
+    "verified_targets": 7,
+    "image_review": "pass",
+    "object_or_region_boxes": 5,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C054 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T14:58:15Z",
+    "prompt_path": "prompts/C054_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C054.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "牙齿剖面黄色路径、舌与咽后通道可见；皮肤取患者前臂；medical和pain由例句表达，不能从外观判断疼痛。"
+  }
+}

@@ -1,0 +1,256 @@
+C060  情绪的几张脸
+========================================================================
+章节: 身体与健康
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C060.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C060.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T14:55:34Z → 2026-10-03T15:02:15Z
+  提示词文件: prompts/C060_image_final.txt
+
+场景: 同一主角不同情境下微笑、笑、哭、悲伤、愤怒、恐惧和惊讶。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 三幅分别微笑、大笑与泪滴；情绪不能仅靠面孔确定，sad等五词用明确故事句，不贴虚假表情框。
+
+主配文:
+  英文: I smile with a friend, laugh at a joke, and cry during a film.
+  中文: 我和朋友微笑，听笑话时大笑，看电影时落泪。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): smile, laugh, cry, sad, angry, fear, shock, surprise
+
+------------------------------------------------------------------------
+[1/8] smile  (W669)
+  词义: 微笑
+  词性: verb
+  音标: UK /smaɪl/ | US /smaɪl/
+  搭配: smile at a friend
+  例句: I smile at my friend.
+  例句高亮: I **smile** at my friend.
+  例句中文: 我对朋友微笑。
+  标注模式: action
+  标注说明: 上幅实际微笑口部。
+  坐标(normalized): [0.343, 0.071, 0.574, 0.238]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅实际微笑口部。"
+    sentence: "I smile at my friend."
+    matched_form: "smile"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 微笑
+
+------------------------------------------------------------------------
+[2/8] laugh  (W389)
+  词义: 大笑
+  词性: verb
+  音标: UK /lɑːf/ | US /læf/
+  搭配: laugh at a joke
+  例句: I laugh at a joke.
+  例句高亮: I **laugh** at a joke.
+  例句中文: 我听到笑话时大笑。
+  标注模式: action
+  标注说明: 中幅张口笑的面部姿态。
+  坐标(normalized): [0.364, 0.383, 0.61, 0.554]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中幅张口笑的面部姿态。"
+    sentence: "I laugh at a joke."
+    matched_form: "laugh"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 笑
+
+------------------------------------------------------------------------
+[3/8] cry  (W172)
+  词义: 哭泣
+  词性: verb
+  音标: UK /kraɪ/ | US /kraɪ/
+  搭配: cry during a film
+  例句: I cry during a sad film.
+  例句高亮: I **cry** during a sad film.
+  例句中文: 我看悲伤的电影时哭了。
+  标注模式: action
+  标注说明: 下幅实际泪痕与哭泣姿势。
+  坐标(normalized): [0.351, 0.724, 0.574, 0.895]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "下幅实际泪痕与哭泣姿势。"
+    sentence: "I cry during a sad film."
+    matched_form: "cry"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 哭泣
+
+------------------------------------------------------------------------
+[4/8] sad  (W612)
+  词义: 难过的
+  词性: adjective
+  音标: UK /sæd/ | US /sæd/
+  搭配: feel sad
+  例句: I feel sad about the story.
+  例句高亮: I feel **sad** about the story.
+  例句中文: 我为这个故事感到难过。
+  标注模式: context
+  标注说明: 主观情绪由自述，不凭面容诊断。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I feel sad about the story."
+    matched_form: "sad"
+    context: "主观情绪由自述，不凭面容诊断。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 悲伤的
+
+------------------------------------------------------------------------
+[5/8] angry  (W023)
+  词义: 生气的
+  词性: adjective
+  音标: UK /ˈæŋɡri/ | US /ˈæŋɡri/
+  搭配: feel angry
+  例句: I feel angry when someone is unkind.
+  例句高亮: I feel **angry** when someone is unkind.
+  例句中文: 有人不友善时，我会生气。
+  标注模式: context
+  标注说明: 故事情境，不用未呈现表情冒充证据。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I feel angry when someone is unkind."
+    matched_form: "angry"
+    context: "故事情境，不用未呈现表情冒充证据。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 生气的；愤怒的
+
+------------------------------------------------------------------------
+[6/8] fear  (W257)
+  词义: 害怕
+  词性: noun
+  音标: UK /fɪə/ | US /fɪr/
+  搭配: a feeling of fear
+  例句: A loud noise gives me a feeling of fear.
+  例句高亮: A loud noise gives me a feeling of **fear**.
+  例句中文: 一声巨响让我感到害怕。
+  标注模式: context
+  标注说明: 情绪与声音由句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A loud noise gives me a feeling of fear."
+    matched_form: "fear"
+    context: "情绪与声音由句子说明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 害怕；恐惧
+
+------------------------------------------------------------------------
+[7/8] shock  (W648)
+  词义: 震惊
+  词性: noun
+  音标: UK /ʃɒk/ | US /ʃɑːk/
+  搭配: a shock
+  例句: The unexpected news is a shock to me.
+  例句高亮: The unexpected news is a **shock** to me.
+  例句中文: 这条意外消息让我震惊。
+  标注模式: context
+  标注说明: shock选心理震惊义，不涉及医学休克。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The unexpected news is a shock to me."
+    matched_form: "shock"
+    context: "shock选心理震惊义，不涉及医学休克。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 震惊
+
+------------------------------------------------------------------------
+[8/8] surprise  (W730)
+  词义: 惊讶
+  词性: noun
+  音标: UK /səˈpraɪz/ | US /sərˈpraɪz/
+  搭配: a pleasant surprise
+  例句: My friend brings me a pleasant surprise.
+  例句高亮: My friend brings me a pleasant **surprise**.
+  例句中文: 朋友给我带来一个惊喜。
+  标注模式: context
+  标注说明: 情节由句子支持。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "My friend brings me a pleasant surprise."
+    matched_form: "surprise"
+    context: "情节由句子支持。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 惊喜
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C060 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=59 | meta.approved_cards=60
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Three equal stacked close portraits of same adult woman in cool softly lit living room. Upper gentle natural closed-mouth smile while talking to female friend partly at edge. Middle spontaneous open-mouth laugh at conversation, normal face anatomy. Lower tender tearful expression with ONE natural clear tear on cheek while watching a film out of frame, no injury or distress violence. Different emotions are story examples, not mental-health diagnosis. Keep portraits centered with clear outer margins for labels; no texting, dialogue or captions.

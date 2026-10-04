@@ -1,0 +1,262 @@
+{
+  "startedAt": "2026-10-02T10:59:26Z",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C004",
+      "caption_en": "I turn the key and open the door. Please come in!",
+      "caption_zh": "我转动钥匙，打开门。请进！",
+      "image_prompt": "Photorealistic refined Korean cool editorial photography, vertical 4:5 overall, two equal vertical photographic panels with a thin clean divider. Show two successive moments at the SAME entrance of a small elegant house, pale grey plaster exterior, light oak front door, cool stone threshold, cool natural daylight. Adult East Asian woman around 25 with loose low bun, ivory cardigan and pale grey skirt. LEFT panel: door fully CLOSED, woman outside in three-quarter profile, her hand turning a clearly visible small metal KEY already inserted in a realistic brass mechanical LOCK near waist height. Make key bow, shaft and keyhole lock distinguishable and not obscured by her fingers. A real small BRASS BELL, clearly hollow with flared rim and visible clapper, hangs from a bracket beside the door frame with a pull cord. It is an actual traditional door bell, not an electronic button. Adult male visitor in muted blue shirt stands patiently outside toward the far edge. RIGHT panel: same woman holding the same door wide OPEN and courteously gesturing toward the interior, same male visitor taking a step across the threshold; doorway opening and interior floor clearly visible, door and bell in the same architectural positions. Plausible progression, closed door left, open door right. Give both people separate coherent silhouettes, anatomically correct hands, natural intimate fashion photography, pearl white mist grey muted blue palette, preserve real skin pores hair and materials with high end subtle retouch, avoid waxy skin and CGI. Frame full doorway and upper bodies, visible key/lock/bell large enough to identify. Modest clear wall space for later annotation. No lettering, numbers, signs, labels, speech bubbles, logos, watermarks or UI. No duplicated limbs, floating keys, impossible door hinges or fantasy architecture.",
+      "words": [
+        {
+          "word": "door",
+          "zh": "门",
+          "pos": "noun (countable)",
+          "us": "/dɔːr/",
+          "uk": "/dɔː/",
+          "collocations": [
+            "open the door",
+            "a wooden door"
+          ],
+          "example": "The door is made of wood.",
+          "translation": "门是木制的。",
+          "mode": "object",
+          "evidence": "只框左幅木门门扇，不把整面墙当门。"
+        },
+        {
+          "word": "key",
+          "zh": "钥匙",
+          "pos": "noun (countable)",
+          "us": "/kiː/",
+          "uk": "/kiː/",
+          "collocations": [
+            "a door key",
+            "turn the key"
+          ],
+          "example": "I turn the key.",
+          "translation": "我转动钥匙。",
+          "mode": "object",
+          "evidence": "只定位人物手中可辨的金属钥匙，不框整只手。"
+        },
+        {
+          "word": "lock",
+          "zh": "锁",
+          "pos": "noun (countable)",
+          "us": "/lɑːk/",
+          "uk": "/lɒk/",
+          "collocations": [
+            "a door lock",
+            "a key in the lock"
+          ],
+          "example": "The key is in the lock.",
+          "translation": "钥匙插在锁里。",
+          "mode": "object",
+          "evidence": "框机械锁与钥匙孔，不把整个门把手当锁。"
+        },
+        {
+          "word": "open",
+          "zh": "开着的",
+          "pos": "adjective",
+          "us": "/ˈoʊpən/",
+          "uk": "/ˈəʊpən/",
+          "collocations": [
+            "be open",
+            "an open door"
+          ],
+          "example": "The door is open in the right picture.",
+          "translation": "右图里的门开着。",
+          "mode": "object",
+          "evidence": "右幅打开的门与敞开的门口，形容词open指向这扇门的可见开合状态。"
+        },
+        {
+          "word": "shut",
+          "zh": "关着的",
+          "pos": "adjective",
+          "us": "/ʃʌt/",
+          "uk": "/ʃʌt/",
+          "collocations": [
+            "be shut",
+            "a shut door"
+          ],
+          "example": "The door is shut in the left picture.",
+          "translation": "左图里的门关着。",
+          "mode": "object",
+          "evidence": "左幅关闭的木门，形容词shut指向可见的关门状态。"
+        },
+        {
+          "word": "house",
+          "zh": "房子",
+          "pos": "noun (countable)",
+          "us": "/haʊs/",
+          "uk": "/haʊs/",
+          "collocations": [
+            "my house",
+            "a house entrance"
+          ],
+          "example": "My house has a wooden door.",
+          "translation": "我的房子有一扇木门。",
+          "mode": "context",
+          "evidence": "住宅入口与原创叙述提供语境；只显示入口，不声称框出了整栋房子。"
+        },
+        {
+          "word": "come",
+          "zh": "来",
+          "pos": "verb (intransitive)",
+          "us": "/kʌm/",
+          "uk": "/kʌm/",
+          "collocations": [
+            "come in",
+            "come to my house"
+          ],
+          "example": "Please come in.",
+          "translation": "请进。",
+          "mode": "context",
+          "evidence": "主人邀请客人进入的场景与例句来说明 come；不把客人静态外貌框成动作。"
+        },
+        {
+          "word": "in",
+          "zh": "在……里",
+          "pos": "preposition",
+          "us": "/ɪn/",
+          "uk": "/ɪn/",
+          "collocations": [
+            "in the lock",
+            "in the house"
+          ],
+          "example": "The key is in the lock.",
+          "translation": "钥匙插在锁里。",
+          "mode": "context",
+          "evidence": "高亮 in；钥匙与锁的真实插入关系由例句说明，不给介词物体框。"
+        },
+        {
+          "word": "bell",
+          "zh": "铃",
+          "pos": "noun (countable)",
+          "us": "/bel/",
+          "uk": "/bel/",
+          "collocations": [
+            "ring the bell",
+            "a brass bell"
+          ],
+          "example": "The bell hangs by the door.",
+          "translation": "铃挂在门旁。",
+          "mode": "object",
+          "evidence": "框门旁实体铜铃，区别于电子门铃按钮。"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "caption_en": "My family sits together at the table for dinner.",
+      "caption_zh": "我的家人一起坐在桌旁吃晚饭。",
+      "image_prompt": "Single refined photorealistic Korean cool editorial family lifestyle photograph, vertical 4:5. An elegant airy apartment dining room in soft cool white late afternoon natural light. Exactly FIVE distinct East Asian ADULT family members sit naturally around ONE light oak dining TABLE with simple bowls, plates and a modest shared dinner, no clutter, no text or brands. All faces visible and separated, physically coherent five chairs and five place settings, candid small smiles and natural gazes. Seat arrangement across the frame: father around 55 in a muted blue-grey knit sweater at far LEFT; mother around 53 in a cream blouse just beside him at left-middle; our protagonist an adult woman around 25 with ivory fine knit cardigan and loose low bun at CENTER behind the table; her adult brother around 28 in a slate blue collared shirt at right-middle; her adult sister around 22 in a pale grey cardigan at far RIGHT. These are fictional cast roles for a learning story; do not put labels on them. Three women and two men, no duplicate faces, no extra person. Show the table surface clearly over the lower third, everyone from waist up, both table edges and connected room space visible, keep people appropriately smaller so group fits comfortably in a vertical environmental portrait. Refined Instagram Korean cool aesthetic, pearl white mist grey muted blue palette, quiet polished composition, sophisticated skin retouch retaining pores and individual hair, authentic fabric and wood, realistic facial anatomy, natural hands resting on table or lightly holding chopsticks, no CGI, waxy skin or exaggerated expressions. Leave modest plain wall above the group and table foreground for later annotation bubbles. No words, lettering, numbers, labels, speech bubbles, logos, watermark or app UI.",
+      "words": [
+        {
+          "word": "family",
+          "zh": "家人",
+          "pos": "noun (countable)",
+          "us": "/ˈfæməli/",
+          "uk": "/ˈfæməli/",
+          "collocations": [
+            "my family",
+            "a family dinner"
+          ],
+          "example": "We are a family.",
+          "translation": "我们是一家人。",
+          "mode": "object",
+          "evidence": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。"
+        },
+        {
+          "word": "father",
+          "zh": "父亲",
+          "pos": "noun (countable)",
+          "us": "/ˈfɑːðər/",
+          "uk": "/ˈfɑːðə/",
+          "collocations": [
+            "my father",
+            "a father and mother"
+          ],
+          "example": "My father sits on the left.",
+          "translation": "我的父亲坐在左边。",
+          "mode": "object",
+          "evidence": "左侧蓝灰针织衫男性为原创故事设定中的父亲；框只定位所指人物，亲属关系来自故事与例句，不从外貌认定。"
+        },
+        {
+          "word": "mother",
+          "zh": "母亲",
+          "pos": "noun (countable)",
+          "us": "/ˈmʌðər/",
+          "uk": "/ˈmʌðə/",
+          "collocations": [
+            "my mother",
+            "my father and mother"
+          ],
+          "example": "My mother sits beside my father.",
+          "translation": "我的母亲坐在父亲旁边。",
+          "mode": "object",
+          "evidence": "左中奶白上衣女性为原创故事设定中的母亲；区域只定位所指人物，亲属身份来自故事与例句。"
+        },
+        {
+          "word": "brother",
+          "zh": "兄弟",
+          "pos": "noun (countable)",
+          "us": "/ˈbrʌðər/",
+          "uk": "/ˈbrʌðə/",
+          "collocations": [
+            "my brother",
+            "an older brother"
+          ],
+          "example": "My brother wears a blue shirt.",
+          "translation": "我的兄弟穿着蓝色衬衫。",
+          "mode": "object",
+          "evidence": "右中蓝衬衫男性为原创故事设定中的兄弟；区域只定位所指人物，不由性别或年龄推断亲属身份。"
+        },
+        {
+          "word": "sister",
+          "zh": "姐妹",
+          "pos": "noun (countable)",
+          "us": "/ˈsɪstər/",
+          "uk": "/ˈsɪstə/",
+          "collocations": [
+            "my sister",
+            "a younger sister"
+          ],
+          "example": "My sister wears a grey cardigan.",
+          "translation": "我的姐妹穿着灰色开衫。",
+          "mode": "object",
+          "evidence": "最右侧浅灰开衫女性为原创故事设定中的姐妹；区域只定位所指人物，亲属关系由故事确定。"
+        },
+        {
+          "word": "table",
+          "zh": "桌子",
+          "pos": "noun (countable)",
+          "us": "/ˈteɪbl/",
+          "uk": "/ˈteɪbl/",
+          "collocations": [
+            "at the table",
+            "a dining table"
+          ],
+          "example": "The plates are on the table.",
+          "translation": "盘子放在桌上。",
+          "mode": "object",
+          "evidence": "框餐桌可见桌面，不把所有家人或椅子算作桌子。"
+        },
+        {
+          "word": "together",
+          "zh": "一起",
+          "pos": "adverb",
+          "us": "/təˈɡeðər/",
+          "uk": "/təˈɡeðə/",
+          "collocations": [
+            "sit together",
+            "eat together"
+          ],
+          "example": "We sit together at the table.",
+          "translation": "我们一起坐在桌旁。",
+          "mode": "object",
+          "evidence": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。"
+        }
+      ]
+    }
+  ]
+}

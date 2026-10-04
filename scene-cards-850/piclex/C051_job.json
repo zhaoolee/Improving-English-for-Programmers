@@ -1,0 +1,20 @@
+{
+  "cardID": "C051",
+  "imagePath": "../images/C051.png",
+  "imageSHA256": "04860bfe8a73ae91bd5bc61258be87ddb194d7acf00c4e150b0232ebb69ce32d",
+  "imageReviewed": true,
+  "annotationsPath": "C051_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "face",
+    "eye",
+    "ear",
+    "nose",
+    "mouth",
+    "lip",
+    "chin",
+    "hair",
+    "comb"
+  ],
+  "receiptPath": "C051_import_receipt.json"
+}

@@ -1,0 +1,254 @@
+{
+  "filename": "C055-感冒来就诊.png",
+  "labels": [
+    {
+      "x": 835,
+      "y": 785,
+      "english": "hospital",
+      "chinese": "医院",
+      "phoneticUS": "/ˈhɑːspɪtəl/",
+      "phoneticUK": "/ˈhɒspɪtəl/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 835,
+        "y": 785
+      },
+      "boundingBox": {
+        "left": 672,
+        "top": 690,
+        "right": 999,
+        "bottom": 880
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "故事设定在医院候诊；画面接待区提供地点提示，静态装修不能独立证明医院资质。",
+        "association": "故事设定在医院候诊；画面接待区提供地点提示，静态装修不能独立证明医院资质。",
+        "collocation": "at the hospital",
+        "example": "I wait at the hospital.",
+        "exampleChinese": "我在医院等候。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 65,
+      "english": "disease",
+      "chinese": "疾病",
+      "phoneticUS": "/dɪˈziːz/",
+      "phoneticUK": "/dɪˈziːz/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "不从照片诊断疾病。",
+        "association": "不从照片诊断疾病。",
+        "collocation": "an infectious disease",
+        "example": "The doctor explains the disease.",
+        "exampleChinese": "医生解释这种疾病。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 65,
+      "english": "ill",
+      "chinese": "生病的",
+      "phoneticUS": "/ɪl/",
+      "phoneticUK": "/ɪl/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "状态由本人句子说明。",
+        "association": "状态由本人句子说明。",
+        "collocation": "feel ill",
+        "example": "I feel ill and need a rest.",
+        "exampleChinese": "我感觉不舒服，需要休息。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 765,
+      "english": "healthy",
+      "chinese": "健康的",
+      "phoneticUS": "/ˈhelθi/",
+      "phoneticUK": "/ˈhelθi/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 765
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "静态外表不能证明健康。",
+        "association": "静态外表不能证明健康。",
+        "collocation": "feel healthy",
+        "example": "Later, I feel healthy again.",
+        "exampleChinese": "后来，我又觉得身体健康了。"
+      }
+    },
+    {
+      "x": 450,
+      "y": 167,
+      "english": "cough",
+      "chinese": "咳嗽",
+      "phoneticUS": "/kɔːf/",
+      "phoneticUK": "/kɒf/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 210
+      },
+      "anchorPosition": {
+        "x": 450,
+        "y": 167
+      },
+      "boundingBox": {
+        "left": 298,
+        "top": 6,
+        "right": 603,
+        "bottom": 328
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅肘弯遮口动作与句子对应，不由姿势判断病因。",
+        "association": "上幅肘弯遮口动作与句子对应，不由姿势判断病因。",
+        "collocation": "cough into my elbow",
+        "example": "I cough into my elbow.",
+        "exampleChinese": "我对着肘弯咳嗽。"
+      }
+    },
+    {
+      "x": 439,
+      "y": 495,
+      "english": "sneeze",
+      "chinese": "打喷嚏",
+      "phoneticUS": "/sniːz/",
+      "phoneticUK": "/sniːz/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 465
+      },
+      "anchorPosition": {
+        "x": 439,
+        "y": 495
+      },
+      "boundingBox": {
+        "left": 285,
+        "top": 342,
+        "right": 594,
+        "bottom": 649
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中幅纸巾护鼻动作与句子对应。",
+        "association": "中幅纸巾护鼻动作与句子对应。",
+        "collocation": "sneeze into a tissue",
+        "example": "I sneeze into a tissue.",
+        "exampleChinese": "我对着纸巾打喷嚏。"
+      }
+    },
+    {
+      "x": 855,
+      "y": 450,
+      "english": "feeble",
+      "chinese": "虚弱的",
+      "phoneticUS": "/ˈfiːbəl/",
+      "phoneticUK": "/ˈfiːbəl/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 450
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "体力是故事说明，不按外貌鉴定。",
+        "association": "体力是故事说明，不按外貌鉴定。",
+        "collocation": "feel feeble",
+        "example": "I feel feeble after being ill.",
+        "exampleChinese": "生病后我感觉虚弱。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 585,
+      "english": "normal",
+      "chinese": "正常的",
+      "phoneticUS": "/ˈnɔːrməl/",
+      "phoneticUK": "/ˈnɔːməl/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 585
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "normal选日常状态义，不虚构检测值。",
+        "association": "normal选日常状态义，不虚构检测值。",
+        "collocation": "my normal routine",
+        "example": "I return to my normal routine.",
+        "exampleChinese": "我回到正常的日常生活。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I visit the hospital with a cough; later, I feel well again.",
+    "chinese": "我因为咳嗽来到医院；后来，我又感觉好了。",
+    "source": "原创配文 · C055 感冒来就诊",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

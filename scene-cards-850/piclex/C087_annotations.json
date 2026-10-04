@@ -1,0 +1,262 @@
+{
+  "filename": "C087-量一量称一称.png",
+  "labels": [
+    {
+      "x": 481,
+      "y": 664,
+      "english": "measure",
+      "chinese": "测量",
+      "phoneticUS": "/ˈmeʒɚ/",
+      "phoneticUK": "/ˈmeʒə/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 470
+      },
+      "anchorPosition": {
+        "x": 481,
+        "y": 664
+      },
+      "boundingBox": {
+        "left": 173,
+        "top": 602,
+        "right": 789,
+        "bottom": 726
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（测量），待最终图确认。",
+        "association": "场景中体现的具体动作（测量），待最终图确认。",
+        "collocation": "measure a board; measure the length",
+        "example": "I measure the length of the board with a ruler.",
+        "exampleChinese": "我用尺子测量木板的长度。"
+      }
+    },
+    {
+      "x": 818,
+      "y": 509,
+      "english": "scale",
+      "chinese": "秤",
+      "phoneticUS": "/skeɪl/",
+      "phoneticUK": "/skeɪl/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 295
+      },
+      "anchorPosition": {
+        "x": 818,
+        "y": 509
+      },
+      "boundingBox": {
+        "left": 639,
+        "top": 349,
+        "right": 998,
+        "bottom": 669
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（秤），待最终图确认。",
+        "association": "场景中体现的具体对象（秤），待最终图确认。",
+        "collocation": "a balance scale; use a scale",
+        "example": "The scale has a sample on each pan.",
+        "exampleChinese": "秤的两端托盘各有一个样品。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 85,
+      "english": "weight",
+      "chinese": "重量",
+      "phoneticUS": "/weɪt/",
+      "phoneticUK": "/weɪt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。",
+        "collocation": "equal weight; compare weight",
+        "example": "We compare the weight of the two samples here.",
+        "exampleChinese": "我们在这里比较两个样品的重量。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 85,
+      "english": "mass",
+      "chinese": "质量",
+      "phoneticUS": "/mæs/",
+      "phoneticUK": "/mæs/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。",
+        "collocation": "equal mass; measure mass",
+        "example": "In our lesson, each cube has the same mass.",
+        "exampleChinese": "本课设定中，每个立方体的质量相同。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 810,
+      "english": "degree",
+      "chinese": "程度",
+      "phoneticUS": "/dɪˈɡriː/",
+      "phoneticUK": "/dɪˈɡriː/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 810
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a small degree; degree of difference",
+        "example": "We look for any degree of difference between the samples.",
+        "exampleChinese": "我们查看样品之间是否存在任何程度的差异。"
+      }
+    },
+    {
+      "x": 820,
+      "y": 534,
+      "english": "equal",
+      "chinese": "相等的",
+      "phoneticUS": "/ˈiːkwəl/",
+      "phoneticUK": "/ˈiːkwəl/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 820,
+        "y": 534
+      },
+      "boundingBox": {
+        "left": 642,
+        "top": 491,
+        "right": 998,
+        "bottom": 578
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（相等的），待最终图确认。",
+        "association": "场景中体现的关系（相等的），待最终图确认。",
+        "collocation": "equal weight; equal amounts",
+        "example": "The two samples have equal weight in this demonstration.",
+        "exampleChinese": "这次演示中的两个样品重量相等。"
+      }
+    },
+    {
+      "x": 625,
+      "y": 776,
+      "english": "even",
+      "chinese": "平整的",
+      "phoneticUS": "/ˈiːvən/",
+      "phoneticUK": "/ˈiːvən/",
+      "bubblePosition": {
+        "x": 515,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 625,
+        "y": 776
+      },
+      "boundingBox": {
+        "left": 252,
+        "top": 700,
+        "right": 998,
+        "bottom": 853
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（平整的），待最终图确认。",
+        "association": "场景中体现的具体对象（平整的），待最终图确认。",
+        "collocation": "an even surface; keep even",
+        "example": "The board has an even surface.",
+        "exampleChinese": "木板的表面平整。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 930,
+      "english": "range",
+      "chinese": "范围",
+      "phoneticUS": "/reɪndʒ/",
+      "phoneticUK": "/reɪndʒ/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a measurement range; within a range",
+        "example": "Our ruler has a limited measurement range.",
+        "exampleChinese": "我们的尺子有有限的测量范围。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I measure a board and compare two samples on a balance scale.",
+    "chinese": "我测量一块木板，并用天平比较两个样品。",
+    "source": "原创配文 · C087 量一量称一称",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,311 @@
+C099  数量与范围的小问题
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C099.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C099.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:18:47 UTC
+  提示词文件: prompts/C099_image_final.txt
+
+场景: 桌上物体组与空盘对照，问答表现全部、每个、仅有、几乎、程度、这样的和否定。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 四杯在左托盘一杯在外，总五杯，右托盘空；限定词及程度词全用独立句子，不框虚假all物体。
+
+主配文:
+  英文: Almost all the cups are on the tray; one is beside it, and another tray is empty.
+  中文: 几乎所有杯子都在托盘上；一个在旁边，另一个托盘是空的。
+  类型: original | 来源: None | 状态: final
+
+目标词 (10): all, every, only, almost, quite, very, so, such, any, not
+
+------------------------------------------------------------------------
+[1/10] all  (W016)
+  词义: 所有的
+  词性: determiner
+  音标: UK /ɔːl/ | US /ɔːl/
+  搭配: all the cups; all five
+  例句: All five cups belong to this set.
+  例句高亮: **All** five cups belong to this set.
+  例句中文: 五个杯子都属于这一套。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：All five cups belong to this set.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "All five cups belong to this set."
+    matched_form: "all"
+    context: "由原创例句给出的语境：All five cups belong to this set.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 所有的；全部
+
+------------------------------------------------------------------------
+[2/10] every  (W240)
+  词义: 每个
+  词性: determiner
+  音标: UK /ˈevri/ | US /ˈevri/
+  搭配: every cup; every one
+  例句: Every cup in this set is plain.
+  例句高亮: **Every** cup in this set is plain.
+  例句中文: 这一套里的每个杯子都没有花纹。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Every cup in this set is plain.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Every cup in this set is plain."
+    matched_form: "every"
+    context: "由原创例句给出的语境：Every cup in this set is plain.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 每个
+
+------------------------------------------------------------------------
+[3/10] only  (W494)
+  词义: 只有
+  词性: adverb
+  音标: UK /ˈəʊnli/ | US /ˈoʊnli/
+  搭配: only one; only here
+  例句: Only one cup is outside the first tray.
+  例句高亮: **Only** one cup is outside the first tray.
+  例句中文: 只有一个杯子在第一个托盘外。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Only one cup is outside the first tray.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Only one cup is outside the first tray."
+    matched_form: "only"
+    context: "由原创例句给出的语境：Only one cup is outside the first tray.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 只有
+
+------------------------------------------------------------------------
+[4/10] almost  (W017)
+  词义: 几乎
+  词性: adverb
+  音标: UK /ˈɔːlməʊst/ | US /ˈɔːlmoʊst/
+  搭配: almost all; almost ready
+  例句: Almost all the cups are on the first tray.
+  例句高亮: **Almost** all the cups are on the first tray.
+  例句中文: 几乎所有杯子都在第一个托盘上。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Almost all the cups are on the first tray.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Almost all the cups are on the first tray."
+    matched_form: "almost"
+    context: "由原创例句给出的语境：Almost all the cups are on the first tray.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 几乎；差不多
+
+------------------------------------------------------------------------
+[5/10] quite  (W572)
+  词义: 相当
+  词性: adverb
+  音标: UK /kwaɪt/ | US /kwaɪt/
+  搭配: quite simple; quite small
+  例句: This arrangement is quite simple.
+  例句高亮: This arrangement is **quite** simple.
+  例句中文: 这个摆放方式相当简单。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：This arrangement is quite simple.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "This arrangement is quite simple."
+    matched_form: "quite"
+    context: "由原创例句给出的语境：This arrangement is quite simple.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 相当；非常
+
+------------------------------------------------------------------------
+[6/10] very  (W794)
+  词义: 很
+  词性: adverb
+  音标: UK /ˈveri/ | US /ˈveri/
+  搭配: very small; very neat
+  例句: The cups are very small in our story.
+  例句高亮: The cups are **very** small in our story.
+  例句中文: 故事中的杯子很小。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The cups are very small in our story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The cups are very small in our story."
+    matched_form: "very"
+    context: "由原创例句给出的语境：The cups are very small in our story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 非常
+
+------------------------------------------------------------------------
+[7/10] so  (W675)
+  词义: 如此
+  词性: adverb
+  音标: UK /səʊ/ | US /soʊ/
+  搭配: so small; so neat
+  例句: These cups are so small that five fit on the table.
+  例句高亮: These cups are **so** small that five fit on the table.
+  例句中文: 这些杯子如此小，桌上能放下五个。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：These cups are so small that five fit on the table.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "These cups are so small that five fit on the table."
+    matched_form: "so"
+    context: "由原创例句给出的语境：These cups are so small that five fit on the table.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 如此
+
+------------------------------------------------------------------------
+[8/10] such  (W723)
+  词义: 这样的
+  词性: determiner
+  音标: UK /sʌtʃ/ | US /sʌtʃ/
+  搭配: such a set; such small cups
+  例句: Such a simple set is easy to count.
+  例句高亮: **Such** a simple set is easy to count.
+  例句中文: 这样简单的一套东西很容易清点。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Such a simple set is easy to count.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Such a simple set is easy to count."
+    matched_form: "such"
+    context: "由原创例句给出的语境：Such a simple set is easy to count.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 这样的
+
+------------------------------------------------------------------------
+[9/10] any  (W027)
+  词义: 任何的
+  词性: determiner
+  音标: UK /ˈeni/ | US /ˈeni/
+  搭配: any cups; any one
+  例句: Are there any cups on the second tray?
+  例句高亮: Are there **any** cups on the second tray?
+  例句中文: 第二个托盘上有杯子吗？
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Are there any cups on the second tray?；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Are there any cups on the second tray?"
+    matched_form: "any"
+    context: "由原创例句给出的语境：Are there any cups on the second tray?；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 任何的；一些
+
+------------------------------------------------------------------------
+[10/10] not  (W481)
+  词义: 不
+  词性: adverb
+  音标: UK /nɒt/ | US /nɑːt/
+  搭配: not on; not all
+  例句: The separate cup is not on the first tray.
+  例句高亮: The separate cup is **not** on the first tray.
+  例句中文: 单独的那个杯子不在第一个托盘上。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The separate cup is not on the first tray.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The separate cup is not on the first tray."
+    matched_form: "not"
+    context: "由原创例句给出的语境：The separate cup is not on the first tray.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 不
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 10
+  content_entries_complete: 10
+  sentence_evidence_complete: 10
+  verified_targets: 10
+  image_review: "pass"
+  object_or_region_boxes: 0
+  context_annotations: 10
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C099 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman arranging four small plain ceramic cups on a large rectangular tray, one matching cup separate beside tray, second clearly empty tray farther right. Exact total five cups, four on first tray and one outside, no additional cups. Cool Korean precise tabletop editorial environmental portrait, natural hands, no text, clean open edges for ten grammar labels.

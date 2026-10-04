@@ -1,0 +1,297 @@
+{
+  "filename": "C086-实验室的物质变化.png",
+  "labels": [
+    {
+      "x": 113,
+      "y": 774,
+      "english": "acid",
+      "chinese": "酸",
+      "phoneticUS": "/ˈæsɪd/",
+      "phoneticUK": "/ˈæsɪd/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 645
+      },
+      "anchorPosition": {
+        "x": 113,
+        "y": 774
+      },
+      "boundingBox": {
+        "left": 66,
+        "top": 688,
+        "right": 161,
+        "bottom": 861
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（酸），待最终图确认。",
+        "association": "场景中体现的具体对象（酸），待最终图确认。",
+        "collocation": "an acid sample; a weak acid",
+        "example": "The clear bottle holds the sealed acid sample in our lesson.",
+        "exampleChinese": "本课中，透明瓶装着封存的酸样品。"
+      }
+    },
+    {
+      "x": 240,
+      "y": 781,
+      "english": "chemical",
+      "chinese": "化学物质",
+      "phoneticUS": "/ˈkemɪkəl/",
+      "phoneticUK": "/ˈkemɪkəl/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 825
+      },
+      "anchorPosition": {
+        "x": 240,
+        "y": 781
+      },
+      "boundingBox": {
+        "left": 195,
+        "top": 704,
+        "right": 285,
+        "bottom": 859
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（化学物质），待最终图确认。",
+        "association": "场景中体现的具体对象（化学物质），待最终图确认。",
+        "collocation": "a chemical sample; a sealed chemical",
+        "example": "The amber bottle holds a chemical sample in the story.",
+        "exampleChinese": "故事中，棕色瓶装着化学物质样品。"
+      }
+    },
+    {
+      "x": 365,
+      "y": 830,
+      "english": "powder",
+      "chinese": "粉末",
+      "phoneticUS": "/ˈpaʊdɚ/",
+      "phoneticUK": "/ˈpaʊdə/",
+      "bubblePosition": {
+        "x": 395,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 365,
+        "y": 830
+      },
+      "boundingBox": {
+        "left": 285,
+        "top": 739,
+        "right": 446,
+        "bottom": 922
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（粉末），待最终图确认。",
+        "association": "场景中体现的具体对象（粉末），待最终图确认。",
+        "collocation": "white powder; a jar of powder",
+        "example": "White powder is sealed inside the jar.",
+        "exampleChinese": "白色粉末封存在罐子里。"
+      }
+    },
+    {
+      "x": 656,
+      "y": 775,
+      "english": "substance",
+      "chinese": "物质",
+      "phoneticUS": "/ˈsʌbstəns/",
+      "phoneticUK": "/ˈsʌbstəns/",
+      "bubblePosition": {
+        "x": 600,
+        "y": 795
+      },
+      "anchorPosition": {
+        "x": 656,
+        "y": 775
+      },
+      "boundingBox": {
+        "left": 576,
+        "top": 716,
+        "right": 737,
+        "bottom": 834
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（物质），待最终图确认。",
+        "association": "场景中体现的具体对象（物质），待最终图确认。",
+        "collocation": "a solid substance; a sample substance",
+        "example": "The solid substance is displayed under glass.",
+        "exampleChinese": "这种固体物质陈列在玻璃罩下。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 95,
+      "english": "expansion",
+      "chinese": "膨胀",
+      "phoneticUS": "/ɪkˈspænʃən/",
+      "phoneticUK": "/ɪkˈspænʃən/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。",
+        "collocation": "thermal expansion; expansion of a gas",
+        "example": "Our lesson explains the expansion of a gas when it is heated.",
+        "exampleChinese": "本课解释气体受热时的膨胀。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 400,
+      "english": "reaction",
+      "chinese": "反应",
+      "phoneticUS": "/riˈækʃən/",
+      "phoneticUK": "/riˈækʃən/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 400
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a chemical reaction; observe a reaction",
+        "example": "We discuss a chemical reaction without opening the samples.",
+        "exampleChinese": "我们不打开样品，只讨论化学反应。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 95,
+      "english": "science",
+      "chinese": "科学",
+      "phoneticUS": "/ˈsaɪəns/",
+      "phoneticUK": "/ˈsaɪəns/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。",
+        "collocation": "study science; a science lesson",
+        "example": "Science helps us ask questions about these substances.",
+        "exampleChinese": "科学帮助我们就这些物质提出问题。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 470,
+      "english": "theory",
+      "chinese": "理论",
+      "phoneticUS": "/ˈθɪri/",
+      "phoneticUK": "/ˈθɪəri/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 470
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a scientific theory; test a theory",
+        "example": "A theory can explain results and make predictions.",
+        "exampleChinese": "理论可以解释结果并作出预测。"
+      }
+    },
+    {
+      "x": 893,
+      "y": 767,
+      "english": "poison",
+      "chinese": "毒物",
+      "phoneticUS": "/ˈpɔɪzən/",
+      "phoneticUK": "/ˈpɔɪzən/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 893,
+        "y": 767
+      },
+      "boundingBox": {
+        "left": 830,
+        "top": 650,
+        "right": 956,
+        "bottom": 885
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（毒物），待最终图确认。",
+        "association": "场景中体现的具体对象（毒物），待最终图确认。",
+        "collocation": "a poison sample; keep poison sealed",
+        "example": "The dark bottle represents poison in this teaching display.",
+        "exampleChinese": "深色瓶在这个教学展示中代表毒物。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "We examine sealed samples and discuss a reaction, its cause, and the theory behind it.",
+    "chinese": "我们观察封存的样品，讨论反应、它的起因及背后的理论。",
+    "source": "原创配文 · C086 实验室的物质变化",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

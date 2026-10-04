@@ -1,0 +1,294 @@
+{
+  "filename": "C002-窗前的昼夜.png",
+  "labels": [
+    {
+      "x": 485,
+      "y": 350,
+      "english": "window",
+      "chinese": "窗户",
+      "phoneticUS": "/ˈwɪndoʊ/",
+      "phoneticUK": "/ˈwɪndəʊ/",
+      "bubblePosition": {
+        "x": 210,
+        "y": 550
+      },
+      "anchorPosition": {
+        "x": 485,
+        "y": 350
+      },
+      "boundingBox": {
+        "left": 105,
+        "top": 0,
+        "right": 498,
+        "bottom": 716
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框可辨窗框和玻璃，不框整间屋子。",
+        "association": "框可辨窗框和玻璃，不框整间屋子。",
+        "collocation": "by the window; open a window",
+        "example": "She sits by the window.",
+        "exampleChinese": "她坐在窗边。"
+      }
+    },
+    {
+      "x": 300,
+      "y": 310,
+      "english": "day",
+      "chinese": "白天",
+      "phoneticUS": "/deɪ/",
+      "phoneticUK": "/deɪ/",
+      "bubblePosition": {
+        "x": 225,
+        "y": 330
+      },
+      "anchorPosition": {
+        "x": 300,
+        "y": 310
+      },
+      "boundingBox": {
+        "left": 18,
+        "top": 20,
+        "right": 487,
+        "bottom": 960
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+        "association": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+        "collocation": "during the day; day and night",
+        "example": "The room is bright during the day.",
+        "exampleChinese": "白天房间很明亮。"
+      }
+    },
+    {
+      "x": 775,
+      "y": 310,
+      "english": "night",
+      "chinese": "夜晚",
+      "phoneticUS": "/naɪt/",
+      "phoneticUK": "/naɪt/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 330
+      },
+      "anchorPosition": {
+        "x": 775,
+        "y": 310
+      },
+      "boundingBox": {
+        "left": 515,
+        "top": 20,
+        "right": 994,
+        "bottom": 960
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+        "association": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+        "collocation": "at night; a clear night",
+        "example": "The sky is dark at night.",
+        "exampleChinese": "夜晚天空很暗。"
+      }
+    },
+    {
+      "x": 300,
+      "y": 310,
+      "english": "bright",
+      "chinese": "明亮的",
+      "phoneticUS": "/braɪt/",
+      "phoneticUK": "/braɪt/",
+      "bubblePosition": {
+        "x": 225,
+        "y": 430
+      },
+      "anchorPosition": {
+        "x": 300,
+        "y": 310
+      },
+      "boundingBox": {
+        "left": 18,
+        "top": 20,
+        "right": 487,
+        "bottom": 960
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+        "association": "左幅明亮日景的局部场景，日间设定由原创句子说明；区域对应整幅对照中的左半幅，不把太阳等同于白天。",
+        "collocation": "bright daylight; a bright room",
+        "example": "The room is bright in the left picture.",
+        "exampleChinese": "左图里的房间很明亮。"
+      }
+    },
+    {
+      "x": 775,
+      "y": 310,
+      "english": "dark",
+      "chinese": "昏暗的",
+      "phoneticUS": "/dɑːrk/",
+      "phoneticUK": "/dɑːk/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 430
+      },
+      "anchorPosition": {
+        "x": 775,
+        "y": 310
+      },
+      "boundingBox": {
+        "left": 515,
+        "top": 20,
+        "right": 994,
+        "bottom": 960
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+        "association": "右幅暗色夜景的局部场景，夜晚设定由原创句子说明；区域对应右半幅，不把月亮等同于夜晚。",
+        "collocation": "a dark sky; a dark room",
+        "example": "The room is dark in the right picture.",
+        "exampleChinese": "右图里的房间很昏暗。"
+      }
+    },
+    {
+      "x": 423,
+      "y": 121,
+      "english": "sun",
+      "chinese": "太阳",
+      "phoneticUS": "/sʌn/",
+      "phoneticUK": "/sʌn/",
+      "bubblePosition": {
+        "x": 375,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 423,
+        "y": 121
+      },
+      "boundingBox": {
+        "left": 405,
+        "top": 105,
+        "right": 440,
+        "bottom": 138
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框左幅窗外可见的太阳圆盘；不拿光斑代替太阳。",
+        "association": "只框左幅窗外可见的太阳圆盘；不拿光斑代替太阳。",
+        "collocation": "the sun; in the sun",
+        "example": "The sun is in the blue sky.",
+        "exampleChinese": "太阳在蓝天中。"
+      }
+    },
+    {
+      "x": 925,
+      "y": 137,
+      "english": "moon",
+      "chinese": "月亮",
+      "phoneticUS": "/muːn/",
+      "phoneticUK": "/muːn/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 925,
+        "y": 137
+      },
+      "boundingBox": {
+        "left": 908,
+        "top": 120,
+        "right": 937,
+        "bottom": 150
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框右幅窗外的新月。",
+        "association": "只框右幅窗外的新月。",
+        "collocation": "the moon; a crescent moon",
+        "example": "The moon is in the night sky.",
+        "exampleChinese": "月亮在夜空中。"
+      }
+    },
+    {
+      "x": 727,
+      "y": 129,
+      "english": "star",
+      "chinese": "星星",
+      "phoneticUS": "/stɑːr/",
+      "phoneticUK": "/stɑː/",
+      "bubblePosition": {
+        "x": 690,
+        "y": 215
+      },
+      "anchorPosition": {
+        "x": 727,
+        "y": 129
+      },
+      "boundingBox": {
+        "left": 722,
+        "top": 126,
+        "right": 731,
+        "bottom": 132
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框右幅一颗独立可辨的星，不框整片天空或灯光。",
+        "association": "框右幅一颗独立可辨的星，不框整片天空或灯光。",
+        "collocation": "a bright star; look at the stars",
+        "example": "I can see a star in the sky.",
+        "exampleChinese": "我能看见天空中一颗星星。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "By the same window, the day is bright and the night is dark.",
+    "chinese": "同一扇窗前，白天明亮，夜晚昏暗。",
+    "source": "原创配文 · C002 窗前的昼夜",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

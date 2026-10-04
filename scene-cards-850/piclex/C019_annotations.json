@@ -1,0 +1,335 @@
+{
+  "filename": "C019-老式茶室礼貌点单.png",
+  "labels": [
+    {
+      "x": 110,
+      "y": 65,
+      "english": "please",
+      "chinese": "请",
+      "phoneticUS": "/pliːz/",
+      "phoneticUK": "/pliːz/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "点单对话中礼貌表达",
+        "association": "点单对话中礼貌表达",
+        "collocation": "yes, please",
+        "example": "Soup, please.",
+        "exampleChinese": "请给我汤。"
+      }
+    },
+    {
+      "x": 410,
+      "y": 65,
+      "english": "request",
+      "chinese": "请求",
+      "phoneticUS": "/rɪˈkwest/",
+      "phoneticUK": "/rɪˈkwest/",
+      "bubblePosition": {
+        "x": 410,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "名词请求，原创对话明确内容",
+        "association": "名词请求，原创对话明确内容",
+        "collocation": "a polite request",
+        "example": "My request is for a bowl of soup.",
+        "exampleChinese": "我请求来一碗汤。"
+      }
+    },
+    {
+      "x": 650,
+      "y": 505,
+      "english": "offer",
+      "chinese": "主动提供",
+      "phoneticUS": "/ˈɔːfər/",
+      "phoneticUK": "/ˈɒfə/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 604
+      },
+      "anchorPosition": {
+        "x": 650,
+        "y": 505
+      },
+      "boundingBox": {
+        "left": 462,
+        "top": 436,
+        "right": 782,
+        "bottom": 562
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。",
+        "association": "服务角色把茶杯托盘举向客人的提供动作区域；offer由服务者口吻的原创句子明确。",
+        "collocation": "offer tea",
+        "example": "I offer the guest a cup of tea.",
+        "exampleChinese": "我主动给客人提供一杯茶。"
+      }
+    },
+    {
+      "x": 555,
+      "y": 165,
+      "english": "need",
+      "chinese": "需要",
+      "phoneticUS": "/niːd/",
+      "phoneticUK": "/niːd/",
+      "bubblePosition": {
+        "x": 555,
+        "y": 165
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "需要由话语说明",
+        "association": "需要由话语说明",
+        "collocation": "need a spoon",
+        "example": "I need a spoon for the soup.",
+        "exampleChinese": "我需要一把勺子喝汤。"
+      }
+    },
+    {
+      "x": 545,
+      "y": 310,
+      "english": "desire",
+      "chinese": "渴望",
+      "phoneticUS": "/dɪˈzaɪər/",
+      "phoneticUK": "/dɪˈzaɪə/",
+      "bubblePosition": {
+        "x": 545,
+        "y": 310
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "采用名词愿望，不由表情推断",
+        "association": "采用名词愿望，不由表情推断",
+        "collocation": "a desire for tea",
+        "example": "I have a desire for a quiet cup of tea.",
+        "exampleChinese": "我想安静地喝杯茶。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 760,
+      "english": "selection",
+      "chinese": "选择范围",
+      "phoneticUS": "/səˈlekʃən/",
+      "phoneticUK": "/səˈlekʃən/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 941
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 760
+      },
+      "boundingBox": {
+        "left": 6,
+        "top": 690,
+        "right": 829,
+        "bottom": 850
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。",
+        "association": "桌面可选择的面包、汤与茶食区域；selection的具体选项由原创设定说明，不把抽象选择意愿框成人物。",
+        "collocation": "a selection of food",
+        "example": "The selection includes bread and soup.",
+        "exampleChinese": "可选食物包括面包和汤。"
+      }
+    },
+    {
+      "x": 415,
+      "y": 941,
+      "english": "or",
+      "chinese": "或者",
+      "phoneticUS": "/ɔːr/",
+      "phoneticUK": "/ɔː/",
+      "bubblePosition": {
+        "x": 415,
+        "y": 941
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "并列连词说明两种选择",
+        "association": "并列连词说明两种选择",
+        "collocation": "bread or soup",
+        "example": "Would you like bread or soup?",
+        "exampleChinese": "你想要面包还是汤？"
+      }
+    },
+    {
+      "x": 650,
+      "y": 941,
+      "english": "some",
+      "chinese": "一些",
+      "phoneticUS": "/sʌm/",
+      "phoneticUK": "/sʌm/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 941
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "限定词修饰不可数bread",
+        "association": "限定词修饰不可数bread",
+        "collocation": "some bread",
+        "example": "I would like some bread.",
+        "exampleChinese": "我想要一些面包。"
+      }
+    },
+    {
+      "x": 878,
+      "y": 941,
+      "english": "no",
+      "chinese": "不；不要",
+      "phoneticUS": "/noʊ/",
+      "phoneticUK": "/nəʊ/",
+      "bubblePosition": {
+        "x": 878,
+        "y": 941
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "interjection",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "明确否定答复，不能由表情判断",
+        "association": "明确否定答复，不能由表情判断",
+        "collocation": "no, thank you",
+        "example": "No, thank you. I do not want sugar.",
+        "exampleChinese": "不用了，谢谢。我不想加糖。"
+      }
+    },
+    {
+      "x": 887,
+      "y": 852,
+      "english": "yes",
+      "chinese": "是；好的",
+      "phoneticUS": "/jes/",
+      "phoneticUK": "/jes/",
+      "bubblePosition": {
+        "x": 887,
+        "y": 852
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "interjection",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "明确肯定答复，不能由表情判断",
+        "association": "明确肯定答复，不能由表情判断",
+        "collocation": "yes, please",
+        "example": "Yes, please. I would like tea.",
+        "exampleChinese": "好的，请给我茶。"
+      }
+    },
+    {
+      "x": 774,
+      "y": 85,
+      "english": "servant",
+      "chinese": "仆人（历史称呼）",
+      "phoneticUS": "/ˈsɜːrvənt/",
+      "phoneticUK": "/ˈsɜːvənt/",
+      "bubblePosition": {
+        "x": 820,
+        "y": 50
+      },
+      "anchorPosition": {
+        "x": 774,
+        "y": 85
+      },
+      "boundingBox": {
+        "left": 569,
+        "top": 52,
+        "right": 978,
+        "bottom": 700
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。",
+        "association": "右侧站立持托盘女性为虚构1890庄园的servant角色；区域仅定位故事角色，不把现代服务员认定为仆人。",
+        "collocation": "a household servant",
+        "example": "In this fictional old manor, a servant brings tea.",
+        "exampleChinese": "在这座虚构的旧式庄园里，一位仆人端来茶。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "“Soup, please.” “Tea?” “Yes, please, but no sugar.”",
+    "chinese": "“请给我汤。”“要茶吗？”“好的，请来一杯，但不要糖。”",
+    "source": "原创配文 · C019 老式茶室礼貌点单",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

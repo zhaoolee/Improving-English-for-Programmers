@@ -1,0 +1,425 @@
+{
+  "id": "C051",
+  "chapter": "身体与健康",
+  "title": "镜前认识面部",
+  "scene": "主角在镜前用梳子梳头，脸、眼、耳、鼻、嘴、唇、下巴和头发清楚。",
+  "target_count": 9,
+  "primary_words": [
+    "face",
+    "eye",
+    "ear",
+    "nose",
+    "mouth",
+    "lip",
+    "chin",
+    "hair",
+    "comb"
+  ],
+  "targets": [
+    {
+      "word_id": "W248",
+      "word": "face",
+      "aliases": [],
+      "source_zh_unreviewed": "脸；面孔",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "脸",
+      "pos": "noun",
+      "ipa_us": "/feɪs/",
+      "ipa_uk": "/feɪs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际面部整体。",
+        "sentence": "I look at my face in the mirror.",
+        "matched_form": "face",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I look at my face in the mirror.",
+      "example_zh": "我看着镜子里的脸。",
+      "bbox_normalized": [
+        0.282,
+        0.138,
+        0.661,
+        0.44
+      ],
+      "collocations": [
+        "my face"
+      ],
+      "example_en_highlighted": "I look at my **face** in the mirror.",
+      "annotation_mode": "object",
+      "annotation_note": "实际面部整体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W247",
+      "word": "eye",
+      "aliases": [],
+      "source_zh_unreviewed": "眼睛",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "眼睛",
+      "pos": "noun",
+      "ipa_us": "/aɪ/",
+      "ipa_uk": "/aɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际可辨的一只眼。",
+        "sentence": "One eye is visible beside my nose.",
+        "matched_form": "eye",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "One eye is visible beside my nose.",
+      "example_zh": "一只眼睛在鼻子旁清晰可见。",
+      "bbox_normalized": [
+        0.426,
+        0.233,
+        0.509,
+        0.262
+      ],
+      "collocations": [
+        "my left eye"
+      ],
+      "example_en_highlighted": "One **eye** is visible beside my nose.",
+      "annotation_mode": "object",
+      "annotation_note": "实际可辨的一只眼。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W222",
+      "word": "ear",
+      "aliases": [],
+      "source_zh_unreviewed": "耳朵",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "耳朵",
+      "pos": "noun",
+      "ipa_us": "/ɪr/",
+      "ipa_uk": "/ɪə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际露出的耳朵。",
+        "sentence": "My hair is behind my ear.",
+        "matched_form": "ear",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My hair is behind my ear.",
+      "example_zh": "我的头发别在耳后。",
+      "bbox_normalized": [
+        0.602,
+        0.28,
+        0.69,
+        0.369
+      ],
+      "collocations": [
+        "my ear"
+      ],
+      "example_en_highlighted": "My hair is behind my **ear**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际露出的耳朵。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W480",
+      "word": "nose",
+      "aliases": [],
+      "source_zh_unreviewed": "鼻子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "鼻子",
+      "pos": "noun",
+      "ipa_us": "/noʊz/",
+      "ipa_uk": "/nəʊz/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "面部实际鼻子。",
+        "sentence": "My nose is above my mouth.",
+        "matched_form": "nose",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My nose is above my mouth.",
+      "example_zh": "我的鼻子在嘴巴上方。",
+      "bbox_normalized": [
+        0.34,
+        0.26,
+        0.424,
+        0.328
+      ],
+      "collocations": [
+        "my nose"
+      ],
+      "example_en_highlighted": "My **nose** is above my mouth.",
+      "annotation_mode": "object",
+      "annotation_note": "面部实际鼻子。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W456",
+      "word": "mouth",
+      "aliases": [],
+      "source_zh_unreviewed": "嘴",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "嘴巴",
+      "pos": "noun",
+      "ipa_us": "/maʊθ/",
+      "ipa_uk": "/maʊθ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际口部整体。",
+        "sentence": "My mouth is closed.",
+        "matched_form": "mouth",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My mouth is closed.",
+      "example_zh": "我的嘴巴闭着。",
+      "bbox_normalized": [
+        0.319,
+        0.329,
+        0.43,
+        0.375
+      ],
+      "collocations": [
+        "a closed mouth"
+      ],
+      "example_en_highlighted": "My **mouth** is closed.",
+      "annotation_mode": "object",
+      "annotation_note": "实际口部整体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W407",
+      "word": "lip",
+      "aliases": [],
+      "source_zh_unreviewed": "嘴唇",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "嘴唇",
+      "pos": "noun",
+      "ipa_us": "/lɪp/",
+      "ipa_uk": "/lɪp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "定位实际下唇。",
+        "sentence": "My lower lip is below my upper lip.",
+        "matched_form": "lip",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My lower lip is below my upper lip.",
+      "example_zh": "我的下唇在上唇下方。",
+      "bbox_normalized": [
+        0.341,
+        0.357,
+        0.411,
+        0.373
+      ],
+      "collocations": [
+        "my lower lip"
+      ],
+      "example_en_highlighted": "My lower **lip** is below my upper lip.",
+      "annotation_mode": "object",
+      "annotation_note": "定位实际下唇。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W130",
+      "word": "chin",
+      "aliases": [],
+      "source_zh_unreviewed": "下巴",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "下巴",
+      "pos": "noun",
+      "ipa_us": "/tʃɪn/",
+      "ipa_uk": "/tʃɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际下巴区域。",
+        "sentence": "My chin is below my mouth.",
+        "matched_form": "chin",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My chin is below my mouth.",
+      "example_zh": "我的下巴在嘴巴下方。",
+      "bbox_normalized": [
+        0.332,
+        0.378,
+        0.452,
+        0.435
+      ],
+      "collocations": [
+        "my chin"
+      ],
+      "example_en_highlighted": "My **chin** is below my mouth.",
+      "annotation_mode": "object",
+      "annotation_note": "实际下巴区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W319",
+      "word": "hair",
+      "aliases": [],
+      "source_zh_unreviewed": "头发",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "头发",
+      "pos": "noun",
+      "ipa_us": "/her/",
+      "ipa_uk": "/heə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际头发。",
+        "sentence": "My hair falls beside my face.",
+        "matched_form": "hair",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My hair falls beside my face.",
+      "example_zh": "我的头发垂在脸旁。",
+      "bbox_normalized": [
+        0.7,
+        0.735,
+        0.915,
+        0.89
+      ],
+      "collocations": [
+        "loose hair"
+      ],
+      "example_en_highlighted": "My **hair** falls beside my face.",
+      "annotation_mode": "object",
+      "annotation_note": "实际头发。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W143",
+      "word": "comb",
+      "aliases": [],
+      "source_zh_unreviewed": "梳子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "梳子",
+      "pos": "noun",
+      "ipa_us": "/koʊm/",
+      "ipa_uk": "/kəʊm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际梳齿与梳身。",
+        "sentence": "I hold a comb beside my hair.",
+        "matched_form": "comb",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I hold a comb beside my hair.",
+      "example_zh": "我在头发旁拿着一把梳子。",
+      "bbox_normalized": [
+        0.74,
+        0.559,
+        0.942,
+        0.736
+      ],
+      "collocations": [
+        "a wide-tooth comb"
+      ],
+      "example_en_highlighted": "I hold a **comb** beside my hair.",
+      "annotation_mode": "object",
+      "annotation_note": "实际梳齿与梳身。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I comb my hair and look at my face in the mirror.",
+    "zh": "我梳着头发，看着镜子里的脸。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C051\n标题 镜前认识面部\n场景 主角在镜前用梳子梳头，脸、眼、耳、鼻、嘴、唇、下巴和头发清楚。\n目标词 face, eye, ear, nose, mouth, lip, chin, hair, comb\n原创主配文草案 My eyes, nose, and mouth are parts of my face.\n中文草案 眼睛、鼻子和嘴都是我脸的一部分。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Close beauty editorial beside a mirror at a dressing table: woman centered, face unobscured in a gentle three-quarter angle, near ear visible with hair tucked behind it, eye nose closed relaxed mouth lips chin distinct. She gently holds one simple wide-tooth ivory comb beside her loose hair, comb fully visible at lower right, mirror at side reflects only enough environment to suggest scene without a second distracting face. Tasteful real facial detail, room around head for annotations.",
+  "status": "approved",
+  "image_path": "images/C051.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 9,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C051 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T14:56:21Z",
+    "prompt_path": "prompts/C051_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C051.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "面部五官、近侧耳和梳子清晰；保留肤纹，梳子与头发有真实指代。"
+  }
+}

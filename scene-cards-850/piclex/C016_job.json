@@ -1,0 +1,20 @@
+{
+  "cardID": "C016",
+  "imagePath": "../images/C016.png",
+  "imageSHA256": "96e2dda7be65393ea56aa563bb5028bc6c60e1876e171198d0453bc2f67d8c69",
+  "imageReviewed": true,
+  "annotationsPath": "C016_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "oven",
+    "cake",
+    "jelly",
+    "taste",
+    "smell",
+    "bitter",
+    "good",
+    "bad",
+    "bite"
+  ],
+  "receiptPath": "C016_import_receipt.json"
+}

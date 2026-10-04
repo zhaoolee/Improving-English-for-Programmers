@@ -1,0 +1,1448 @@
+{
+  "startedAt": "2026-10-03T17:52:42.864630+00:00",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C081",
+      "caption_en": "I mend a wooden chair, choose the right part, and polish the smooth wood.",
+      "caption_zh": "我修理一把木椅，选好合适的零件，并擦亮平滑的木头。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at tidy workshop restoring small wooden chair. Clear wooden seat with one short hairline crack, separate hammer with wooden handle, one long plain nail and one threaded screw close foreground, dark plain iron bracket left and shiny stainless-steel plate right clearly separate; small metal hinge, cloth rubbing wood. Modest cool Korean editorial work portrait, natural hands, no text brands or hazardous powered tools.",
+      "words": [
+        {
+          "word": "wood",
+          "zh": "木材",
+          "pos": "noun",
+          "us": "/wʊd/",
+          "uk": "/wʊd/",
+          "collocations": [
+            "smooth wood",
+            "a piece of wood"
+          ],
+          "example": "The chair is made of wood.",
+          "translation": "这把椅子用木材制成。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（木材），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "hammer",
+          "zh": "锤子",
+          "pos": "noun",
+          "us": "/ˈhæmɚ/",
+          "uk": "/ˈhæmə/",
+          "collocations": [
+            "a wooden-handled hammer",
+            "use a hammer"
+          ],
+          "example": "The hammer rests beside the chair.",
+          "translation": "锤子放在椅子旁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（锤子），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "nail",
+          "zh": "钉子",
+          "pos": "noun",
+          "us": "/neɪl/",
+          "uk": "/neɪl/",
+          "collocations": [
+            "a long nail",
+            "a metal nail"
+          ],
+          "example": "A nail lies beside the screw.",
+          "translation": "钉子放在螺丝旁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（钉子），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "screw",
+          "zh": "螺丝",
+          "pos": "noun",
+          "us": "/skruː/",
+          "uk": "/skruː/",
+          "collocations": [
+            "a threaded screw",
+            "tighten a screw"
+          ],
+          "example": "The screw has a visible thread.",
+          "translation": "这颗螺丝有可见的螺纹。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（螺丝），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "metal",
+          "zh": "金属",
+          "pos": "noun",
+          "us": "/ˈmetəl/",
+          "uk": "/ˈmetəl/",
+          "collocations": [
+            "a metal hinge",
+            "made of metal"
+          ],
+          "example": "The hinge is made of metal.",
+          "translation": "这个铰链由金属制成。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（金属），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "iron",
+          "zh": "铁",
+          "pos": "noun",
+          "us": "/ˈaɪɚn/",
+          "uk": "/ˈaɪən/",
+          "collocations": [
+            "an iron bracket",
+            "a piece of iron"
+          ],
+          "example": "In this lesson, the dark bracket is made of iron.",
+          "translation": "本课设定中，深色支架由铁制成。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（铁），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "steel",
+          "zh": "钢",
+          "pos": "noun",
+          "us": "/stiːl/",
+          "uk": "/stiːl/",
+          "collocations": [
+            "a steel plate",
+            "stainless steel"
+          ],
+          "example": "The shiny plate is the steel sample in our lesson.",
+          "translation": "亮亮的板是本课中的钢样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（钢），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "part",
+          "zh": "零件",
+          "pos": "noun",
+          "us": "/pɑːrt/",
+          "uk": "/pɑːt/",
+          "collocations": [
+            "a spare part",
+            "a small part"
+          ],
+          "example": "The hinge is one small part of the chair.",
+          "translation": "这个铰链是椅子的一个小零件。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（零件），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "crack",
+          "zh": "裂纹",
+          "pos": "noun",
+          "us": "/kræk/",
+          "uk": "/kræk/",
+          "collocations": [
+            "a small crack",
+            "a crack in"
+          ],
+          "example": "I notice a small crack in the seat.",
+          "translation": "我注意到椅面上有一条小裂纹。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（裂纹），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "polish",
+          "zh": "擦亮",
+          "pos": "verb",
+          "us": "/ˈpɑːlɪʃ/",
+          "uk": "/ˈpɒlɪʃ/",
+          "collocations": [
+            "polish wood",
+            "polish with a cloth"
+          ],
+          "example": "I polish the wood with a cloth.",
+          "translation": "我用布擦亮木头。",
+          "mode": "action",
+          "evidence": "场景中体现的具体动作（擦亮），待最终图确认。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C082",
+      "caption_en": "I build a small brick house on a flat base and check its roof.",
+      "caption_zh": "我在平坦的底座上搭建一个小砖屋，并检查屋顶。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool Korean craft editorial adult woman making tabletop miniature brick house. Simple tiny red bricks, a grey rough stone sample beside it, flat wooden board base, gabled slate-grey roof fixed on one half revealing wall structure on other half, small plain bubble spirit level on board (no numbers), clearly horizontal straight surface. Crisp miniature details, realistic hands, no text or logos.",
+      "words": [
+        {
+          "word": "brick",
+          "zh": "砖",
+          "pos": "noun",
+          "us": "/brɪk/",
+          "uk": "/brɪk/",
+          "collocations": [
+            "a red brick",
+            "a brick wall"
+          ],
+          "example": "A red brick lies beside the model.",
+          "translation": "一块红砖放在模型旁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（砖），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "stone",
+          "zh": "石头",
+          "pos": "noun",
+          "us": "/stoʊn/",
+          "uk": "/stəʊn/",
+          "collocations": [
+            "a rough stone",
+            "a stone sample"
+          ],
+          "example": "The stone has a rough surface.",
+          "translation": "这块石头有粗糙的表面。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（石头），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "roof",
+          "zh": "屋顶",
+          "pos": "noun",
+          "us": "/ruːf/",
+          "uk": "/ruːf/",
+          "collocations": [
+            "a sloping roof",
+            "the roof of"
+          ],
+          "example": "The small house has a sloping roof.",
+          "translation": "这个小房子有倾斜的屋顶。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（屋顶），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "base",
+          "zh": "底座",
+          "pos": "noun",
+          "us": "/beɪs/",
+          "uk": "/beɪs/",
+          "collocations": [
+            "a flat base",
+            "on a base"
+          ],
+          "example": "The model stands on a flat base.",
+          "translation": "模型立在平坦的底座上。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（底座），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "structure",
+          "zh": "结构",
+          "pos": "noun",
+          "us": "/ˈstrʌktʃɚ/",
+          "uk": "/ˈstrʌktʃə/",
+          "collocations": [
+            "a simple structure",
+            "the wall structure"
+          ],
+          "example": "The open side shows the wall structure.",
+          "translation": "敞开的一侧展示了墙体结构。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（结构），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "level",
+          "zh": "水平的",
+          "pos": "adjective",
+          "us": "/ˈlevəl/",
+          "uk": "/ˈlevəl/",
+          "collocations": [
+            "a level surface",
+            "keep level"
+          ],
+          "example": "The board is level on the table.",
+          "translation": "板子水平放在桌上。",
+          "mode": "relation",
+          "evidence": "场景中体现的关系（水平的），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "fixed",
+          "zh": "固定的",
+          "pos": "adjective",
+          "us": "/fɪkst/",
+          "uk": "/fɪkst/",
+          "collocations": [
+            "fixed in place",
+            "a fixed part"
+          ],
+          "example": "The roof is fixed in place in the story.",
+          "translation": "故事中的屋顶已经固定好。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The roof is fixed in place in the story.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "board",
+          "zh": "木板",
+          "pos": "noun",
+          "us": "/bɔːrd/",
+          "uk": "/bɔːd/",
+          "collocations": [
+            "a wooden board",
+            "a flat board"
+          ],
+          "example": "A wooden board supports the house.",
+          "translation": "一块木板托着房子。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（木板），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "rough",
+          "zh": "粗糙的",
+          "pos": "adjective",
+          "us": "/rʌf/",
+          "uk": "/rʌf/",
+          "collocations": [
+            "a rough surface",
+            "a rough stone"
+          ],
+          "example": "The grey stone looks rough.",
+          "translation": "这块灰色石头看起来粗糙。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（粗糙的），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "top",
+          "zh": "顶部",
+          "pos": "noun",
+          "us": "/tɑːp/",
+          "uk": "/tɒp/",
+          "collocations": [
+            "at the top",
+            "the top of"
+          ],
+          "example": "The roof is at the top of the model.",
+          "translation": "屋顶位于模型顶部。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（顶部），待最终图确认。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C083",
+      "caption_en": "I examine the pipe and pump, then compare a hollow tube with a solid rod.",
+      "caption_zh": "我查看管道和水泵，然后比较空心管与实心杆。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman in elegant modest lab coat examining small safe tabletop transparent water demonstration apparatus. Low hand-operated pump separate left, clear rigid open-ended pipe foreground with visible hole, solid acrylic rod with filled cross-section beside it, soft blue rubber tube gently bent in U shape connecting pump to water jar. No powered pressure equipment, no labels or letters. Cool bright crisp teaching objects, room edges.",
+      "words": [
+        {
+          "word": "pipe",
+          "zh": "管道",
+          "pos": "noun",
+          "us": "/paɪp/",
+          "uk": "/paɪp/",
+          "collocations": [
+            "a clear pipe",
+            "a water pipe"
+          ],
+          "example": "Water passes through the clear pipe in the lesson.",
+          "translation": "本课中的水通过透明管道。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（管道），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "pump",
+          "zh": "泵",
+          "pos": "noun",
+          "us": "/pʌmp/",
+          "uk": "/pʌmp/",
+          "collocations": [
+            "a hand pump",
+            "a water pump"
+          ],
+          "example": "The hand pump is beside the jar.",
+          "translation": "手动水泵放在罐子旁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（泵），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "elastic",
+          "zh": "有弹性的",
+          "pos": "adjective",
+          "us": "/ɪˈlæstɪk/",
+          "uk": "/ɪˈlæstɪk/",
+          "collocations": [
+            "an elastic tube",
+            "elastic material"
+          ],
+          "example": "The blue tube is elastic in our demonstration.",
+          "translation": "我们的演示中，蓝色管子有弹性。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The blue tube is elastic in our demonstration.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "solid",
+          "zh": "实心的",
+          "pos": "adjective",
+          "us": "/ˈsɑːlɪd/",
+          "uk": "/ˈsɒlɪd/",
+          "collocations": [
+            "a solid rod",
+            "a solid piece"
+          ],
+          "example": "The solid rod has no hole through its center.",
+          "translation": "实心杆的中心没有贯穿孔。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（实心的），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "hollow",
+          "zh": "空心的",
+          "pos": "adjective",
+          "us": "/ˈhɑːloʊ/",
+          "uk": "/ˈhɒləʊ/",
+          "collocations": [
+            "a hollow tube",
+            "a hollow center"
+          ],
+          "example": "The hollow tube has an open center.",
+          "translation": "空心管的中间是通的。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（空心的），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "stiff",
+          "zh": "不易弯曲的",
+          "pos": "adjective",
+          "us": "/stɪf/",
+          "uk": "/stɪf/",
+          "collocations": [
+            "a stiff pipe",
+            "stiff material"
+          ],
+          "example": "The clear pipe is stiff in this demonstration.",
+          "translation": "这次演示中的透明管道不易弯曲。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The clear pipe is stiff in this demonstration.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "bent",
+          "zh": "弯曲的",
+          "pos": "adjective",
+          "us": "/bent/",
+          "uk": "/bent/",
+          "collocations": [
+            "a bent tube",
+            "a bent shape"
+          ],
+          "example": "The blue tube is bent into a U shape.",
+          "translation": "蓝色管子弯成了U形。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（弯曲的），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "apparatus",
+          "zh": "装置",
+          "pos": "noun",
+          "us": "/ˌæpəˈrætəs/",
+          "uk": "/ˌæpəˈreɪtəs/",
+          "collocations": [
+            "a simple apparatus",
+            "laboratory apparatus"
+          ],
+          "example": "The apparatus helps us study water flow.",
+          "translation": "这个装置帮助我们学习水流。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（装置），待最终图确认。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C084",
+      "caption_en": "The electric circuit is switched off while we inspect its wire and bulb.",
+      "caption_zh": "我们检查电线和灯泡时，教学电路的电源是关闭的。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool polished adult woman inspecting safe disconnected low-voltage teaching circuit on board, separate insulated wire and small clear unlit incandescent bulb in holder, battery unplugged visibly separated from circuit. Three distinct teaching samples foreground: reddish copper wire coil, golden brass washer, silver tin rectangular sample. No text or logos, no active mains equipment, clear materials, credible hands. Appearance alone not chemical proof.",
+      "words": [
+        {
+          "word": "wire",
+          "zh": "电线",
+          "pos": "noun",
+          "us": "/waɪr/",
+          "uk": "/waɪə/",
+          "collocations": [
+            "an insulated wire",
+            "a copper wire"
+          ],
+          "example": "The wire lies beside the bulb.",
+          "translation": "电线放在灯泡旁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（电线），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "bulb",
+          "zh": "灯泡",
+          "pos": "noun",
+          "us": "/bʌlb/",
+          "uk": "/bʌlb/",
+          "collocations": [
+            "a small bulb",
+            "a light bulb"
+          ],
+          "example": "The small bulb is not lit.",
+          "translation": "这个小灯泡没有亮。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（灯泡），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "electric",
+          "zh": "电的",
+          "pos": "adjective",
+          "us": "/ɪˈlektrɪk/",
+          "uk": "/ɪˈlektrɪk/",
+          "collocations": [
+            "an electric circuit",
+            "electric power"
+          ],
+          "example": "The electric circuit is switched off.",
+          "translation": "这个电路的电源是关闭的。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（电的），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "copper",
+          "zh": "铜",
+          "pos": "noun",
+          "us": "/ˈkɑːpɚ/",
+          "uk": "/ˈkɒpə/",
+          "collocations": [
+            "copper wire",
+            "a copper coil"
+          ],
+          "example": "The reddish coil is our copper sample.",
+          "translation": "红褐色线圈是我们的铜样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（铜），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "brass",
+          "zh": "黄铜",
+          "pos": "noun",
+          "us": "/bræs/",
+          "uk": "/brɑːs/",
+          "collocations": [
+            "a brass washer",
+            "made of brass"
+          ],
+          "example": "The golden washer is our brass sample.",
+          "translation": "金色垫圈是我们的黄铜样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（黄铜），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "tin",
+          "zh": "锡",
+          "pos": "noun",
+          "us": "/tɪn/",
+          "uk": "/tɪn/",
+          "collocations": [
+            "a tin sample",
+            "a piece of tin"
+          ],
+          "example": "The silver rectangle is our tin sample.",
+          "translation": "银色长方形片是我们的锡样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（锡），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "power",
+          "zh": "电能",
+          "pos": "noun",
+          "us": "/ˈpaʊɚ/",
+          "uk": "/ˈpaʊə/",
+          "collocations": [
+            "electric power",
+            "switch off the power"
+          ],
+          "example": "We switch off the power before checking the circuit.",
+          "translation": "检查电路前，我们关闭电源。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We switch off the power before checking the circuit.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "current",
+          "zh": "电流",
+          "pos": "noun",
+          "us": "/ˈkɝːənt/",
+          "uk": "/ˈkʌrənt/",
+          "collocations": [
+            "electric current",
+            "a flow of current"
+          ],
+          "example": "No current flows through the disconnected circuit.",
+          "translation": "断开的电路没有电流通过。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：No current flows through the disconnected circuit.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C085",
+      "caption_en": "I twist the cord, fold the paper, and place a roll beside the hanging model.",
+      "caption_zh": "我拧起绳子、折好纸，把一卷纸放在悬挂模型旁。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at crisp craft workbench twisting two strands of plain cotton cord together. Short silver chain separate left, wooden stick spanning small supports with a light plain paper shape hanging by a cord loop, clearly folded white paper foreground and cylindrical paper roll right. No text, no brands, safe small tabletop mechanism, cool editorial lighting, realistic hands and distinct objects.",
+      "words": [
+        {
+          "word": "chain",
+          "zh": "链条",
+          "pos": "noun",
+          "us": "/tʃeɪn/",
+          "uk": "/tʃeɪn/",
+          "collocations": [
+            "a short chain",
+            "a metal chain"
+          ],
+          "example": "The short chain lies on the bench.",
+          "translation": "短链条放在工作台上。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（链条），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "cord",
+          "zh": "绳索",
+          "pos": "noun",
+          "us": "/kɔːrd/",
+          "uk": "/kɔːd/",
+          "collocations": [
+            "a cotton cord",
+            "a length of cord"
+          ],
+          "example": "I hold two strands of cord.",
+          "translation": "我拿着两股绳索。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（绳索），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "stick",
+          "zh": "棍",
+          "pos": "noun",
+          "us": "/stɪk/",
+          "uk": "/stɪk/",
+          "collocations": [
+            "a wooden stick",
+            "a straight stick"
+          ],
+          "example": "The wooden stick supports the hanging shape.",
+          "translation": "木棍支撑着悬挂的形状。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（棍），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "hanging",
+          "zh": "悬挂着的",
+          "pos": "adjective",
+          "us": "/ˈhæŋɪŋ/",
+          "uk": "/ˈhæŋɪŋ/",
+          "collocations": [
+            "a hanging shape",
+            "hanging from"
+          ],
+          "example": "The paper shape is hanging from the stick.",
+          "translation": "纸做的形状悬挂在木棍上。",
+          "mode": "relation",
+          "evidence": "场景中体现的关系（悬挂着的），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "twist",
+          "zh": "拧",
+          "pos": "verb",
+          "us": "/twɪst/",
+          "uk": "/twɪst/",
+          "collocations": [
+            "twist a cord",
+            "twist together"
+          ],
+          "example": "I twist the two strands together.",
+          "translation": "我把这两股拧在一起。",
+          "mode": "action",
+          "evidence": "场景中体现的具体动作（拧），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "fold",
+          "zh": "折叠",
+          "pos": "verb",
+          "us": "/foʊld/",
+          "uk": "/fəʊld/",
+          "collocations": [
+            "fold paper",
+            "fold in half"
+          ],
+          "example": "I fold the paper in half in the story.",
+          "translation": "故事中，我把纸对折。",
+          "mode": "action",
+          "evidence": "场景中体现的具体动作（折叠），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "roll",
+          "zh": "卷",
+          "pos": "noun",
+          "us": "/roʊl/",
+          "uk": "/rəʊl/",
+          "collocations": [
+            "a paper roll",
+            "a small roll"
+          ],
+          "example": "A paper roll rests on the right.",
+          "translation": "一卷纸放在右侧。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（卷），待最终图确认。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "C086",
+      "caption_en": "We examine sealed samples and discuss a reaction, its cause, and the theory behind it.",
+      "caption_zh": "我们观察封存的样品，讨论反应、它的起因及背后的理论。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman in a modest lab coat at a museum chemistry teaching display. All samples sealed on a tidy cool grey tabletop: small clear bottle holding transparent liquid on left, second amber sample bottle, glass jar of white powder foreground, solid crystalline sample under glass, separate sealed dark bottle behind a transparent cover with a simple skull pictogram and no letters. No mixing, no instructions, no readable formulas. Realistic materials and hands, premium cool Korean editorial portrait.",
+      "words": [
+        {
+          "word": "acid",
+          "zh": "酸",
+          "pos": "noun",
+          "us": "/ˈæsɪd/",
+          "uk": "/ˈæsɪd/",
+          "collocations": [
+            "an acid sample",
+            "a weak acid"
+          ],
+          "example": "The clear bottle holds the sealed acid sample in our lesson.",
+          "translation": "本课中，透明瓶装着封存的酸样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（酸），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "chemical",
+          "zh": "化学物质",
+          "pos": "noun",
+          "us": "/ˈkemɪkəl/",
+          "uk": "/ˈkemɪkəl/",
+          "collocations": [
+            "a chemical sample",
+            "a sealed chemical"
+          ],
+          "example": "The amber bottle holds a chemical sample in the story.",
+          "translation": "故事中，棕色瓶装着化学物质样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（化学物质），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "powder",
+          "zh": "粉末",
+          "pos": "noun",
+          "us": "/ˈpaʊdɚ/",
+          "uk": "/ˈpaʊdə/",
+          "collocations": [
+            "white powder",
+            "a jar of powder"
+          ],
+          "example": "White powder is sealed inside the jar.",
+          "translation": "白色粉末封存在罐子里。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（粉末），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "substance",
+          "zh": "物质",
+          "pos": "noun",
+          "us": "/ˈsʌbstəns/",
+          "uk": "/ˈsʌbstəns/",
+          "collocations": [
+            "a solid substance",
+            "a sample substance"
+          ],
+          "example": "The solid substance is displayed under glass.",
+          "translation": "这种固体物质陈列在玻璃罩下。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（物质），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "expansion",
+          "zh": "膨胀",
+          "pos": "noun",
+          "us": "/ɪkˈspænʃən/",
+          "uk": "/ɪkˈspænʃən/",
+          "collocations": [
+            "thermal expansion",
+            "expansion of a gas"
+          ],
+          "example": "Our lesson explains the expansion of a gas when it is heated.",
+          "translation": "本课解释气体受热时的膨胀。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Our lesson explains the expansion of a gas when it is heated.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "reaction",
+          "zh": "反应",
+          "pos": "noun",
+          "us": "/riˈækʃən/",
+          "uk": "/riˈækʃən/",
+          "collocations": [
+            "a chemical reaction",
+            "observe a reaction"
+          ],
+          "example": "We discuss a chemical reaction without opening the samples.",
+          "translation": "我们不打开样品，只讨论化学反应。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We discuss a chemical reaction without opening the samples.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "science",
+          "zh": "科学",
+          "pos": "noun",
+          "us": "/ˈsaɪəns/",
+          "uk": "/ˈsaɪəns/",
+          "collocations": [
+            "study science",
+            "a science lesson"
+          ],
+          "example": "Science helps us ask questions about these substances.",
+          "translation": "科学帮助我们就这些物质提出问题。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Science helps us ask questions about these substances.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "theory",
+          "zh": "理论",
+          "pos": "noun",
+          "us": "/ˈθɪri/",
+          "uk": "/ˈθɪəri/",
+          "collocations": [
+            "a scientific theory",
+            "test a theory"
+          ],
+          "example": "A theory can explain results and make predictions.",
+          "translation": "理论可以解释结果并作出预测。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：A theory can explain results and make predictions.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "poison",
+          "zh": "毒物",
+          "pos": "noun",
+          "us": "/ˈpɔɪzən/",
+          "uk": "/ˈpɔɪzən/",
+          "collocations": [
+            "a poison sample",
+            "keep poison sealed"
+          ],
+          "example": "The dark bottle represents poison in this teaching display.",
+          "translation": "深色瓶在这个教学展示中代表毒物。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（毒物），待最终图确认。",
+          "color": "rose"
+        }
+      ]
+    },
+    {
+      "id": "C087",
+      "caption_en": "I measure a board and compare two samples on a balance scale.",
+      "caption_zh": "我测量一块木板，并用天平比较两个样品。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at refined teaching workbench using plain ruler beside flat wood board. A small metal balance scale has two identical wooden cubes, one on each level pan, balanced beam visibly horizontal. Clear close foreground showing ruler and flat even board surface. No readable numbers, no logos, natural hands, cool Korean editorial photography.",
+      "words": [
+        {
+          "word": "measure",
+          "zh": "测量",
+          "pos": "verb",
+          "us": "/ˈmeʒɚ/",
+          "uk": "/ˈmeʒə/",
+          "collocations": [
+            "measure a board",
+            "measure the length"
+          ],
+          "example": "I measure the length of the board with a ruler.",
+          "translation": "我用尺子测量木板的长度。",
+          "mode": "action",
+          "evidence": "场景中体现的具体动作（测量），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "scale",
+          "zh": "秤",
+          "pos": "noun",
+          "us": "/skeɪl/",
+          "uk": "/skeɪl/",
+          "collocations": [
+            "a balance scale",
+            "use a scale"
+          ],
+          "example": "The scale has a sample on each pan.",
+          "translation": "秤的两端托盘各有一个样品。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（秤），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "weight",
+          "zh": "重量",
+          "pos": "noun",
+          "us": "/weɪt/",
+          "uk": "/weɪt/",
+          "collocations": [
+            "equal weight",
+            "compare weight"
+          ],
+          "example": "We compare the weight of the two samples here.",
+          "translation": "我们在这里比较两个样品的重量。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We compare the weight of the two samples here.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "mass",
+          "zh": "质量",
+          "pos": "noun",
+          "us": "/mæs/",
+          "uk": "/mæs/",
+          "collocations": [
+            "equal mass",
+            "measure mass"
+          ],
+          "example": "In our lesson, each cube has the same mass.",
+          "translation": "本课设定中，每个立方体的质量相同。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：In our lesson, each cube has the same mass.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "degree",
+          "zh": "程度",
+          "pos": "noun",
+          "us": "/dɪˈɡriː/",
+          "uk": "/dɪˈɡriː/",
+          "collocations": [
+            "a small degree",
+            "degree of difference"
+          ],
+          "example": "We look for any degree of difference between the samples.",
+          "translation": "我们查看样品之间是否存在任何程度的差异。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We look for any degree of difference between the samples.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "equal",
+          "zh": "相等的",
+          "pos": "adjective",
+          "us": "/ˈiːkwəl/",
+          "uk": "/ˈiːkwəl/",
+          "collocations": [
+            "equal weight",
+            "equal amounts"
+          ],
+          "example": "The two samples have equal weight in this demonstration.",
+          "translation": "这次演示中的两个样品重量相等。",
+          "mode": "relation",
+          "evidence": "场景中体现的关系（相等的），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "even",
+          "zh": "平整的",
+          "pos": "adjective",
+          "us": "/ˈiːvən/",
+          "uk": "/ˈiːvən/",
+          "collocations": [
+            "an even surface",
+            "keep even"
+          ],
+          "example": "The board has an even surface.",
+          "translation": "木板的表面平整。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（平整的），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "range",
+          "zh": "范围",
+          "pos": "noun",
+          "us": "/reɪndʒ/",
+          "uk": "/reɪndʒ/",
+          "collocations": [
+            "a measurement range",
+            "within a range"
+          ],
+          "example": "Our ruler has a limited measurement range.",
+          "translation": "我们的尺子有有限的测量范围。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Our ruler has a limited measurement range.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C088",
+      "caption_en": "An old hand tool and a modern machine show how an invention can develop.",
+      "caption_zh": "一件旧手工具和一台现代机器展示了发明如何发展。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman in cool Korean museum editorial portrait beside an engineering exhibit. Small tabletop robotic arm behind glass right, simple old manual wooden tool on separate stand left, an inert small geared mechanical prototype between. Machine not operating. Clean museum room, no text labels or logos, credible mechanical joints and natural hands.",
+      "words": [
+        {
+          "word": "discovery",
+          "zh": "发现",
+          "pos": "noun",
+          "us": "/dɪˈskʌvəri/",
+          "uk": "/dɪˈskʌvəri/",
+          "collocations": [
+            "a new discovery",
+            "make a discovery"
+          ],
+          "example": "A discovery reveals something that was already there.",
+          "translation": "发现揭示原本就存在的事物。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "invention",
+          "zh": "发明",
+          "pos": "noun",
+          "us": "/ɪnˈvenʃən/",
+          "uk": "/ɪnˈvenʃən/",
+          "collocations": [
+            "a useful invention",
+            "a new invention"
+          ],
+          "example": "The small prototype represents an invention in this exhibit.",
+          "translation": "这个小原型在展览中代表一项发明。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（发明），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "development",
+          "zh": "发展",
+          "pos": "noun",
+          "us": "/dɪˈveləpmənt/",
+          "uk": "/dɪˈveləpmənt/",
+          "collocations": [
+            "technical development",
+            "the development of"
+          ],
+          "example": "The exhibit tells a story of technical development.",
+          "translation": "这个展览讲述技术发展的故事。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "automatic",
+          "zh": "自动的",
+          "pos": "adjective",
+          "us": "/ˌɔːtəˈmætɪk/",
+          "uk": "/ˌɔːtəˈmætɪk/",
+          "collocations": [
+            "an automatic machine",
+            "automatic control"
+          ],
+          "example": "The story describes an automatic machine that follows a program.",
+          "translation": "故事描述一台按照程序运行的自动机器。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "machine",
+          "zh": "机器",
+          "pos": "noun",
+          "us": "/məˈʃiːn/",
+          "uk": "/məˈʃiːn/",
+          "collocations": [
+            "a modern machine",
+            "a small machine"
+          ],
+          "example": "The machine is protected by glass.",
+          "translation": "机器由玻璃罩保护着。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（机器），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "process",
+          "zh": "过程",
+          "pos": "noun",
+          "us": "/ˈprɑːses/",
+          "uk": "/ˈprəʊses/",
+          "collocations": [
+            "a design process",
+            "the process of"
+          ],
+          "example": "We discuss the process of improving the prototype.",
+          "translation": "我们讨论改进原型的过程。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "purpose",
+          "zh": "目的",
+          "pos": "noun",
+          "us": "/ˈpɝːpəs/",
+          "uk": "/ˈpɜːpəs/",
+          "collocations": [
+            "the purpose of",
+            "a clear purpose"
+          ],
+          "example": "The purpose of the display is to explain engineering.",
+          "translation": "这个展示的目的是解释工程技术。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "attempt",
+          "zh": "尝试",
+          "pos": "noun",
+          "us": "/əˈtempt/",
+          "uk": "/əˈtempt/",
+          "collocations": [
+            "a first attempt",
+            "make an attempt"
+          ],
+          "example": "The prototype began as a first attempt at a new design.",
+          "translation": "这个原型起初是对新设计的第一次尝试。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C089",
+      "caption_en": "A small fan blows toward a paper house; the second scene shows the damage.",
+      "caption_zh": "小风扇向纸房子吹风；第二个场景展示它受到的损坏。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Exactly two vertically stacked photographic panels, same adult woman and safe tabletop wind demonstration. Upper panel small desktop fan facing an intact lightweight paper house, paper edges visibly leaning with airflow, adult woman observing left. Lower panel same fan switched off, same paper house crumpled and partly flattened on table, woman observing rather than touching blades. No actual disaster, no text, clear before and after, cool Korean editorial portrait, realistic paper and hands.",
+      "words": [
+        {
+          "word": "cause",
+          "zh": "原因",
+          "pos": "noun",
+          "us": "/kɔːz/",
+          "uk": "/kɔːz/",
+          "collocations": [
+            "the cause of",
+            "a direct cause"
+          ],
+          "example": "The wind is the cause of the model falling in our story.",
+          "translation": "故事中，风是模型倒下的原因。",
+          "mode": "relation",
+          "evidence": "场景中体现的关系（原因），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "effect",
+          "zh": "结果",
+          "pos": "noun",
+          "us": "/ɪˈfekt/",
+          "uk": "/ɪˈfekt/",
+          "collocations": [
+            "the effect of",
+            "cause and effect"
+          ],
+          "example": "The fallen model shows the effect of the wind in the story.",
+          "translation": "倒下的模型展示了故事中风造成的结果。",
+          "mode": "relation",
+          "evidence": "场景中体现的关系（结果），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "reason",
+          "zh": "理由",
+          "pos": "noun",
+          "us": "/ˈriːzən/",
+          "uk": "/ˈriːzən/",
+          "collocations": [
+            "a clear reason",
+            "the reason for"
+          ],
+          "example": "We explain the reason for using a light paper model.",
+          "translation": "我们解释使用轻纸模型的理由。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We explain the reason for using a light paper model.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "force",
+          "zh": "力",
+          "pos": "noun",
+          "us": "/fɔːrs/",
+          "uk": "/fɔːs/",
+          "collocations": [
+            "the force of",
+            "a gentle force"
+          ],
+          "example": "The moving air exerts force on the paper.",
+          "translation": "流动的空气对纸施加力。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The moving air exerts force on the paper.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "blow",
+          "zh": "吹",
+          "pos": "verb",
+          "us": "/bloʊ/",
+          "uk": "/bləʊ/",
+          "collocations": [
+            "blow toward",
+            "blow gently"
+          ],
+          "example": "The fan makes air blow toward the paper house.",
+          "translation": "风扇让空气朝纸房子吹去。",
+          "mode": "action",
+          "evidence": "场景中体现的具体动作（吹），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "burst",
+          "zh": "爆裂",
+          "pos": "verb",
+          "us": "/bɝːst/",
+          "uk": "/bɜːst/",
+          "collocations": [
+            "burst suddenly",
+            "a balloon can burst"
+          ],
+          "example": "An overfilled balloon can burst; this model is made of paper.",
+          "translation": "充气过多的气球可能爆裂；这个模型是纸做的。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：An overfilled balloon can burst; this model is made of paper.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "crush",
+          "zh": "压坏",
+          "pos": "verb",
+          "us": "/krʌʃ/",
+          "uk": "/krʌʃ/",
+          "collocations": [
+            "crush a model",
+            "crush under pressure"
+          ],
+          "example": "Too much pressure can crush a paper model.",
+          "translation": "过大的压力会压坏纸模型。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Too much pressure can crush a paper model.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "damage",
+          "zh": "损坏",
+          "pos": "noun",
+          "us": "/ˈdæmɪdʒ/",
+          "uk": "/ˈdæmɪdʒ/",
+          "collocations": [
+            "visible damage",
+            "damage to"
+          ],
+          "example": "The lower panel shows damage to the paper house.",
+          "translation": "下方画面展示纸房子受到的损坏。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（损坏），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "smash",
+          "zh": "砸碎",
+          "pos": "verb",
+          "us": "/smæʃ/",
+          "uk": "/smæʃ/",
+          "collocations": [
+            "smash a cup",
+            "smash into pieces"
+          ],
+          "example": "A hard impact can smash a cup; we use paper for this demonstration.",
+          "translation": "猛烈撞击可能砸碎杯子；我们用纸做这次演示。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：A hard impact can smash a cup; we use paper for this demonstration.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        }
+      ]
+    },
+    {
+      "id": "C090",
+      "caption_en": "A teaching model shows fire, flame, and smoke beside a clear warning sign.",
+      "caption_zh": "教学模型展示了火、火焰和烟，旁边摆着清楚的警示标志。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman in elegant modest lab coat at a museum fire-safety teaching display. Small inert three-dimensional hearth model under clear display cover, distinctly sculpted red-orange flame tongues above dark coal-like pieces, sculpted matte grey curling smoke plume above (recognizable educational model, not a real fire). Separate black coal sample on small dish, triangular plain flame pictogram warning sign beside exhibit, no text, no actual fire. Cool Korean museum editorial photography, realistic model textures, natural hands.",
+      "words": [
+        {
+          "word": "fire",
+          "zh": "火",
+          "pos": "noun",
+          "us": "/faɪr/",
+          "uk": "/faɪə/",
+          "collocations": [
+            "a model of fire",
+            "fire safety"
+          ],
+          "example": "The model represents fire in a small hearth.",
+          "translation": "模型展示小炉膛里的火。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（火），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "flame",
+          "zh": "火焰",
+          "pos": "noun",
+          "us": "/fleɪm/",
+          "uk": "/fleɪm/",
+          "collocations": [
+            "an orange flame",
+            "a model flame"
+          ],
+          "example": "The orange flame is part of the teaching model.",
+          "translation": "橙色火焰是教学模型的一部分。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（火焰），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "smoke",
+          "zh": "烟",
+          "pos": "noun",
+          "us": "/smoʊk/",
+          "uk": "/sməʊk/",
+          "collocations": [
+            "grey smoke",
+            "a smoke plume"
+          ],
+          "example": "The grey shape represents smoke in the model.",
+          "translation": "灰色形状在模型中代表烟。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（烟），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "coal",
+          "zh": "煤",
+          "pos": "noun",
+          "us": "/koʊl/",
+          "uk": "/kəʊl/",
+          "collocations": [
+            "a coal sample",
+            "a piece of coal"
+          ],
+          "example": "A coal sample rests in the separate dish.",
+          "translation": "煤样品放在单独的碟子里。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（煤），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "burn",
+          "zh": "燃烧",
+          "pos": "verb",
+          "us": "/bɝːn/",
+          "uk": "/bɜːn/",
+          "collocations": [
+            "burn slowly",
+            "coal can burn"
+          ],
+          "example": "Coal can burn, but nothing is burning in this model.",
+          "translation": "煤可以燃烧，但这个模型里没有东西正在燃烧。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "danger",
+          "zh": "危险",
+          "pos": "noun",
+          "us": "/ˈdeɪndʒɚ/",
+          "uk": "/ˈdeɪndʒə/",
+          "collocations": [
+            "a fire danger",
+            "warn of danger"
+          ],
+          "example": "The lesson explains the danger of an uncontrolled fire.",
+          "translation": "这节课解释失控火灾的危险。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "destruction",
+          "zh": "毁坏",
+          "pos": "noun",
+          "us": "/dɪˈstrʌkʃən/",
+          "uk": "/dɪˈstrʌkʃən/",
+          "collocations": [
+            "cause destruction",
+            "destruction by fire"
+          ],
+          "example": "An uncontrolled fire can cause destruction.",
+          "translation": "失控的火灾可能造成毁坏。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "sign",
+          "zh": "标志",
+          "pos": "noun",
+          "us": "/saɪn/",
+          "uk": "/saɪn/",
+          "collocations": [
+            "a warning sign",
+            "a safety sign"
+          ],
+          "example": "The warning sign stands beside the model.",
+          "translation": "警示标志立在模型旁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（标志），待最终图确认。",
+          "color": "lavender"
+        }
+      ]
+    }
+  ],
+  "lexical_review": "Codex按本卡语境编辑复核。未声称访问词典全文；词义、音标与搭配按本卡教学语境整理，原创例句仅提供语境示例，不对画面可见性作断言。",
+  "contentFinalizedAt": "2026-10-03T17:52:42.865868+00:00"
+}

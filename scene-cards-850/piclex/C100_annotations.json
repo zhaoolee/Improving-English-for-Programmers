@@ -1,0 +1,149 @@
+{
+  "filename": "C100-一句话里的转折与条件.png",
+  "labels": [
+    {
+      "x": 155,
+      "y": 80,
+      "english": "and",
+      "chinese": "并且",
+      "phoneticUS": "/ænd/",
+      "phoneticUK": "/ænd/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。",
+        "collocation": "read and rest; walk and talk",
+        "example": "I go outside and walk when it is clear.",
+        "exampleChinese": "天气晴朗时，我出门并散步。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 80,
+      "english": "but",
+      "chinese": "但是",
+      "phoneticUS": "/bʌt/",
+      "phoneticUK": "/bʌt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。",
+        "collocation": "but now; but it rains",
+        "example": "I want to walk, but it is raining in the first scene.",
+        "exampleChinese": "我想散步，但是第一个场景中正在下雨。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 380,
+      "english": "if",
+      "chinese": "如果",
+      "phoneticUS": "/ɪf/",
+      "phoneticUK": "/ɪf/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 380
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。",
+        "collocation": "if it rains; if possible",
+        "example": "If it rains, I read indoors.",
+        "exampleChinese": "如果下雨，我就在室内读书。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 600,
+      "english": "though",
+      "chinese": "虽然",
+      "phoneticUS": "/ðoʊ/",
+      "phoneticUK": "/ðəʊ/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 600
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。",
+        "collocation": "though it rains; though small",
+        "example": "Though it is raining, I enjoy my book.",
+        "exampleChinese": "虽然正在下雨，我仍享受读书。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 935,
+      "english": "while",
+      "chinese": "当……时",
+      "phoneticUS": "/waɪl/",
+      "phoneticUK": "/waɪl/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "conjunction",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。",
+        "collocation": "while I read; while it rains",
+        "example": "I stay indoors while the rain falls.",
+        "exampleChinese": "下雨时，我待在室内。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "If it rains, I read indoors; but when it clears, I go outside and walk.",
+    "chinese": "如果下雨，我就在室内读书；天气放晴时，我就出门散步。",
+    "source": "原创配文 · C100 一句话里的转折与条件",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

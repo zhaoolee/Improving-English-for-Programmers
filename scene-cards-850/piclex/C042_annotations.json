@@ -1,0 +1,286 @@
+{
+  "filename": "C042-从种子到收成.png",
+  "labels": [
+    {
+      "x": 831,
+      "y": 126,
+      "english": "farm",
+      "chinese": "农场",
+      "phoneticUS": "/fɑːrm/",
+      "phoneticUK": "/fɑːm/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 55
+      },
+      "anchorPosition": {
+        "x": 831,
+        "y": 126
+      },
+      "boundingBox": {
+        "left": 624,
+        "top": 47,
+        "right": 997,
+        "bottom": 208
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "谷仓与耕地的农场局部。",
+        "association": "谷仓与耕地的农场局部。",
+        "collocation": "a small farm",
+        "example": "The farm has a barn and a field.",
+        "exampleChinese": "农场有一座谷仓和一块田。"
+      }
+    },
+    {
+      "x": 354,
+      "y": 810,
+      "english": "field",
+      "chinese": "田地",
+      "phoneticUS": "/fiːld/",
+      "phoneticUK": "/fiːld/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 354,
+        "y": 810
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 659,
+        "right": 658,
+        "bottom": 993
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "成熟麦田区域。",
+        "association": "成熟麦田区域。",
+        "collocation": "a wheat field",
+        "example": "The field is full of wheat.",
+        "exampleChinese": "田地里长满小麦。"
+      }
+    },
+    {
+      "x": 438,
+      "y": 438,
+      "english": "seed",
+      "chinese": "种子",
+      "phoneticUS": "/siːd/",
+      "phoneticUK": "/siːd/",
+      "bubblePosition": {
+        "x": 660,
+        "y": 365
+      },
+      "anchorPosition": {
+        "x": 438,
+        "y": 438
+      },
+      "boundingBox": {
+        "left": 411,
+        "top": 424,
+        "right": 464,
+        "bottom": 451
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "掌中种子，种子用途由播种故事说明。",
+        "association": "掌中种子，种子用途由播种故事说明。",
+        "collocation": "a wheat seed",
+        "example": "I hold a seed in my hand.",
+        "exampleChinese": "我手里拿着一粒种子。"
+      }
+    },
+    {
+      "x": 495,
+      "y": 798,
+      "english": "grain",
+      "chinese": "谷物",
+      "phoneticUS": "/ɡreɪn/",
+      "phoneticUK": "/ɡreɪn/",
+      "bubblePosition": {
+        "x": 430,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 495,
+        "y": 798
+      },
+      "boundingBox": {
+        "left": 430,
+        "top": 739,
+        "right": 560,
+        "bottom": 853
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。",
+        "association": "成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。",
+        "collocation": "ripe grain",
+        "example": "The ripe grain is ready for harvest.",
+        "exampleChinese": "成熟的谷物可以收割了。"
+      }
+    },
+    {
+      "x": 843,
+      "y": 449,
+      "english": "spade",
+      "chinese": "铲子",
+      "phoneticUS": "/speɪd/",
+      "phoneticUK": "/speɪd/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 300
+      },
+      "anchorPosition": {
+        "x": 843,
+        "y": 449
+      },
+      "boundingBox": {
+        "left": 754,
+        "top": 0,
+        "right": 966,
+        "bottom": 513
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立宽金属铲头与杆。",
+        "association": "独立宽金属铲头与杆。",
+        "collocation": "a garden spade",
+        "example": "The spade rests in the soil.",
+        "exampleChinese": "铲子插在土里。"
+      }
+    },
+    {
+      "x": 784,
+      "y": 864,
+      "english": "plough",
+      "chinese": "犁",
+      "phoneticUS": "/plaʊ/",
+      "phoneticUK": "/plaʊ/",
+      "bubblePosition": {
+        "x": 825,
+        "y": 630
+      },
+      "anchorPosition": {
+        "x": 784,
+        "y": 864
+      },
+      "boundingBox": {
+        "left": 633,
+        "top": 671,
+        "right": 999,
+        "bottom": 952
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅实际传统犁具，句子描述功能而非虚构当前动作。",
+        "association": "下幅实际传统犁具，句子描述功能而非虚构当前动作。",
+        "collocation": "a small plough",
+        "example": "The plough turns the soil.",
+        "exampleChinese": "犁翻动土壤。"
+      }
+    },
+    {
+      "x": 676,
+      "y": 375,
+      "english": "fertile",
+      "chinese": "肥沃的",
+      "phoneticUS": "/ˈfɜːrtl/",
+      "phoneticUK": "/ˈfɜːtaɪl/",
+      "bubblePosition": {
+        "x": 760,
+        "y": 470
+      },
+      "anchorPosition": {
+        "x": 676,
+        "y": 375
+      },
+      "boundingBox": {
+        "left": 509,
+        "top": 223,
+        "right": 752,
+        "bottom": 496
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。",
+        "association": "故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。",
+        "collocation": "fertile soil",
+        "example": "The farm has fertile soil.",
+        "exampleChinese": "农场有肥沃的土壤。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 90,
+      "english": "growth",
+      "chinese": "生长",
+      "phoneticUS": "/ɡroʊθ/",
+      "phoneticUK": "/ɡrəʊθ/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "两幅季节对照提供线索，生长过程不当单物体，句子说明时间。",
+        "association": "两幅季节对照提供线索，生长过程不当单物体，句子说明时间。",
+        "collocation": "plant growth",
+        "example": "Plant growth changes the field over time.",
+        "exampleChinese": "植物生长让田地随时间变化。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Seeds in my hand, grain in the field, and a season of growth.",
+    "chinese": "手里是种子，田里是谷物，一季生长正在展开。",
+    "source": "原创配文 · C042 从种子到收成",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

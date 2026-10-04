@@ -1,0 +1,255 @@
+C012  炉边热汤
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C012.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C012.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T14:44:39Z → 2026-10-02T14:47:53Z
+  提示词文件: prompts/C012_image_final.txt
+
+场景: 主角在炉边用锅煮汤，土豆和米饭在旁，蒸汽明显。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 锅中汤面与小气泡、水汽、米饭和整土豆均清晰，木勺搅拌动作可辨。boiling采用boil现在分词，热量与沸腾由故事例句说明，未测量温度；steam框上方可见水汽。人物与厨具结构可信。
+
+主配文:
+  英文: I cook soup in the pot, with rice and potatoes beside me.
+  中文: 我用锅煮汤，米饭和土豆放在旁边。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): cook, pot, soup, potato, rice, boiling, steam, heat, make
+
+------------------------------------------------------------------------
+[1/9] cook  (W157)
+  词义: 烹饪
+  词性: verb
+  音标: UK /kʊk/ | US /kʊk/
+  搭配: cook soup
+  例句: I cook soup for lunch.
+  例句高亮: I **cook** soup for lunch.
+  例句中文: 我为午餐煮汤。
+  标注模式: action
+  标注说明: 手持勺子在锅内搅拌的烹饪动作
+  坐标(normalized): [0.215, 0.481, 0.497, 0.739]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "手持勺子在锅内搅拌的烹饪动作"
+    sentence: "I cook soup for lunch."
+    matched_form: "cook"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 烹饪
+------------------------------------------------------------------------
+[2/9] pot  (W545)
+  词义: 锅
+  词性: noun
+  音标: UK /pɒt/ | US /pɑːt/
+  搭配: a cooking pot
+  例句: The pot is on the stove.
+  例句高亮: The **pot** is on the stove.
+  例句中文: 锅放在炉子上。
+  标注模式: object
+  标注说明: 锅身与把手，不含整座炉台
+  坐标(normalized): [0.231, 0.638, 0.785, 0.892]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "锅身与把手，不含整座炉台"
+    sentence: "The pot is on the stove."
+    matched_form: "pot"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 锅；罐
+------------------------------------------------------------------------
+[3/9] soup  (W686)
+  词义: 汤
+  词性: noun
+  音标: UK /suːp/ | US /suːp/
+  搭配: vegetable soup
+  例句: The soup is in the pot.
+  例句高亮: The **soup** is in the pot.
+  例句中文: 汤在锅里。
+  标注模式: object
+  标注说明: 锅中可见液体汤面
+  坐标(normalized): [0.33, 0.675, 0.684, 0.766]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "锅中可见液体汤面"
+    sentence: "The soup is in the pot."
+    matched_form: "soup"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 汤
+------------------------------------------------------------------------
+[4/9] potato  (W546)
+  词义: 土豆
+  词性: noun
+  音标: UK /pəˈteɪtəʊ/ | US /pəˈteɪtoʊ/
+  搭配: a whole potato
+  例句: A potato is on the board.
+  例句高亮: A **potato** is on the board.
+  例句中文: 木板上有一个土豆。
+  标注模式: object
+  标注说明: 旁边一颗完整棕色土豆
+  坐标(normalized): [0.823, 0.768, 0.958, 0.853]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "旁边一颗完整棕色土豆"
+    sentence: "A potato is on the board."
+    matched_form: "potato"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 土豆
+------------------------------------------------------------------------
+[5/9] rice  (W597)
+  词义: 米饭
+  词性: noun
+  音标: UK /raɪs/ | US /raɪs/
+  搭配: a bowl of rice
+  例句: The rice is in a bowl.
+  例句高亮: The **rice** is in a bowl.
+  例句中文: 米饭在碗里。
+  标注模式: object
+  标注说明: 碗中白色熟米饭，不含整只碗
+  坐标(normalized): [0.003, 0.78, 0.218, 0.853]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "碗中白色熟米饭，不含整只碗"
+    sentence: "The rice is in a bowl."
+    matched_form: "rice"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 米饭；稻谷
+------------------------------------------------------------------------
+[6/9] boiling  (W081)
+  词义: 正在沸腾
+  词性: verb (present participle of boil)
+  音标: UK /ˈbɔɪlɪŋ/ | US /ˈbɔɪlɪŋ/
+  搭配: boiling soup
+  例句: The soup is boiling.
+  例句高亮: The soup is **boiling**.
+  例句中文: 汤正在沸腾。
+  标注模式: object
+  标注说明: 锅内汤面及气泡的区域；boiling采用原创烹饪设定与例句，区域定位所指汤面，不从照片测量温度。
+  坐标(normalized): [0.33, 0.675, 0.684, 0.766]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "锅内汤面及气泡的区域；boiling采用原创烹饪设定与例句，区域定位所指汤面，不从照片测量温度。"
+    sentence: "The soup is boiling."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 沸腾的
+------------------------------------------------------------------------
+[7/9] steam  (W701)
+  词义: 蒸汽
+  词性: noun
+  音标: UK /stiːm/ | US /stiːm/
+  搭配: rising steam
+  例句: Steam rises from the pot.
+  例句高亮: **Steam** rises from the pot.
+  例句中文: 蒸汽从锅里升起。
+  标注模式: object
+  标注说明: 锅上方可见白色水汽区域，不当烟雾
+  坐标(normalized): [0.235, 0.578, 0.342, 0.681]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "锅上方可见白色水汽区域，不当烟雾"
+    sentence: "Steam rises from the pot."
+    matched_form: "steam"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 蒸汽
+------------------------------------------------------------------------
+[8/9] heat  (W335)
+  词义: 热
+  词性: noun
+  音标: UK /hiːt/ | US /hiːt/
+  搭配: heat from the stove
+  例句: The stove gives off heat.
+  例句高亮: The stove gives off **heat**.
+  例句中文: 炉子散发热量。
+  标注模式: context
+  标注说明: 热量不可见，由烹饪设定和句子说明
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The stove gives off heat."
+    matched_form: "heat"
+    context: "热量不可见，由烹饪设定和句子说明"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 热
+------------------------------------------------------------------------
+[9/9] make  (W421)
+  词义: 制作
+  词性: verb
+  音标: UK /meɪk/ | US /meɪk/
+  搭配: make soup
+  例句: I make soup at home.
+  例句高亮: I **make** soup at home.
+  例句中文: 我在家做汤。
+  标注模式: action
+  标注说明: 手持木勺在锅中搅拌制作汤的动作区域，make soup指向这个制作活动。
+  坐标(normalized): [0.215, 0.481, 0.497, 0.739]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手持木勺在锅中搅拌制作汤的动作区域，make soup指向这个制作活动。"
+    sentence: "I make soup at home."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 制造；做
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 3
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C012 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=15 | meta.approved_cards=15
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Elegant kitchen stove, camera elevated enough to see inside ONE open steel pot. Woman stirring pale vegetable soup with wooden ladle, no lid obstructing. Visible small bubbles on soup surface and faint realistic rising white steam, not smoke. Two whole brown potatoes on separate board at right foreground; bowl of cooked white rice left foreground. Pot handles distinct, coherent cooking action, kitchen and upper body visible.

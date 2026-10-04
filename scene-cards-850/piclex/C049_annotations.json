@@ -1,0 +1,208 @@
+{
+  "filename": "C049-阳光与阴影.png",
+  "labels": [
+    {
+      "x": 814,
+      "y": 135,
+      "english": "ray",
+      "chinese": "光束",
+      "phoneticUS": "/reɪ/",
+      "phoneticUK": "/reɪ/",
+      "bubblePosition": {
+        "x": 835,
+        "y": 75
+      },
+      "anchorPosition": {
+        "x": 814,
+        "y": 135
+      },
+      "boundingBox": {
+        "left": 622,
+        "top": 44,
+        "right": 922,
+        "bottom": 239
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际可见穿过薄雾的光束。",
+        "association": "实际可见穿过薄雾的光束。",
+        "collocation": "a ray of light",
+        "example": "A ray of light reaches the path.",
+        "exampleChinese": "一束光照向小径。"
+      }
+    },
+    {
+      "x": 80,
+      "y": 945,
+      "english": "shade",
+      "chinese": "阴凉处",
+      "phoneticUS": "/ʃeɪd/",
+      "phoneticUK": "/ʃeɪd/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 80,
+        "y": 945
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 824,
+        "right": 144,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "树下实际较暗的地面区域。",
+        "association": "树下实际较暗的地面区域。",
+        "collocation": "in the shade",
+        "example": "I rest in the shade of a tree.",
+        "exampleChinese": "我在树荫里休息。"
+      }
+    },
+    {
+      "x": 805,
+      "y": 541,
+      "english": "view",
+      "chinese": "景色",
+      "phoneticUS": "/vjuː/",
+      "phoneticUK": "/vjuː/",
+      "bubblePosition": {
+        "x": 825,
+        "y": 445
+      },
+      "anchorPosition": {
+        "x": 805,
+        "y": 541
+      },
+      "boundingBox": {
+        "left": 435,
+        "top": 265,
+        "right": 995,
+        "bottom": 674
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际远处山湖全景。",
+        "association": "实际远处山湖全景。",
+        "collocation": "a mountain view",
+        "example": "I enjoy the mountain view.",
+        "exampleChinese": "我欣赏山间景色。"
+      }
+    },
+    {
+      "x": 840,
+      "y": 730,
+      "english": "beautiful",
+      "chinese": "美丽的",
+      "phoneticUS": "/ˈbjuːtɪfəl/",
+      "phoneticUK": "/ˈbjuːtɪfəl/",
+      "bubblePosition": {
+        "x": 840,
+        "y": 730
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "个人审美判断由句子表达，不是可测物体属性。",
+        "association": "个人审美判断由句子表达，不是可测物体属性。",
+        "collocation": "a beautiful view",
+        "example": "I think the view is beautiful.",
+        "exampleChinese": "我觉得这景色很美。"
+      }
+    },
+    {
+      "x": 805,
+      "y": 386,
+      "english": "clear",
+      "chinese": "清晰的",
+      "phoneticUS": "/klɪr/",
+      "phoneticUK": "/klɪə/",
+      "bubblePosition": {
+        "x": 600,
+        "y": 285
+      },
+      "anchorPosition": {
+        "x": 805,
+        "y": 386
+      },
+      "boundingBox": {
+        "left": 435,
+        "top": 265,
+        "right": 995,
+        "bottom": 674
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位句子指代的可辨山景，不表示空气质量检测。",
+        "association": "定位句子指代的可辨山景，不表示空气质量检测。",
+        "collocation": "a clear view",
+        "example": "I have a clear view of the mountains.",
+        "exampleChinese": "我能清晰地看到群山。"
+      }
+    },
+    {
+      "x": 185,
+      "y": 75,
+      "english": "great",
+      "chinese": "极好的",
+      "phoneticUS": "/ɡreɪt/",
+      "phoneticUK": "/ɡreɪt/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "great选评价义，个人评价由原创句子说明。",
+        "association": "great选评价义，个人评价由原创句子说明。",
+        "collocation": "a great place",
+        "example": "This is a great place to rest.",
+        "exampleChinese": "这是休息的好地方。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A ray of light reaches the path; I pause in the shade to enjoy the view.",
+    "chinese": "一束光照向小径；我停在树荫里，欣赏眼前的景色。",
+    "source": "原创配文 · C049 阳光与阴影",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

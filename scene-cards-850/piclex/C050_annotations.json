@@ -1,0 +1,254 @@
+{
+  "filename": "C050-辨认东南西北.png",
+  "labels": [
+    {
+      "x": 825,
+      "y": 60,
+      "english": "north",
+      "chinese": "北方",
+      "phoneticUS": "/nɔːrθ/",
+      "phoneticUK": "/nɔːθ/",
+      "bubblePosition": {
+        "x": 825,
+        "y": 60
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "方位由故事设定，不能从无字指南针或画面上下推断真实北方。",
+        "association": "方位由故事设定，不能从无字指南针或画面上下推断真实北方。",
+        "collocation": "to the north",
+        "example": "The hills are to the north of this table.",
+        "exampleChinese": "山丘在这张桌子的北方。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 555,
+      "english": "south",
+      "chinese": "南方",
+      "phoneticUS": "/saʊθ/",
+      "phoneticUK": "/saʊθ/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 555
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "故事给出地理方位，静态图不证明。",
+        "association": "故事给出地理方位，静态图不证明。",
+        "collocation": "to the south",
+        "example": "The village is to the south.",
+        "exampleChinese": "村庄在南方。"
+      }
+    },
+    {
+      "x": 805,
+      "y": 355,
+      "english": "east",
+      "chinese": "东方",
+      "phoneticUS": "/iːst/",
+      "phoneticUK": "/iːst/",
+      "bubblePosition": {
+        "x": 805,
+        "y": 355
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "自然例句说明方位，不将照片太阳位置当指南针读数。",
+        "association": "自然例句说明方位，不将照片太阳位置当指南针读数。",
+        "collocation": "in the east",
+        "example": "The sun rises in the east.",
+        "exampleChinese": "太阳从东方升起。"
+      }
+    },
+    {
+      "x": 180,
+      "y": 925,
+      "english": "west",
+      "chinese": "西方",
+      "phoneticUS": "/west/",
+      "phoneticUK": "/west/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "例句给出方位知识，不框虚假西方区域。",
+        "association": "例句给出方位知识，不框虚假西方区域。",
+        "collocation": "in the west",
+        "example": "The sun sets in the west.",
+        "exampleChinese": "太阳在西方落下。"
+      }
+    },
+    {
+      "x": 823,
+      "y": 458,
+      "english": "earth",
+      "chinese": "地球",
+      "phoneticUS": "/ɜːrθ/",
+      "phoneticUK": "/ɜːθ/",
+      "bubblePosition": {
+        "x": 765,
+        "y": 485
+      },
+      "anchorPosition": {
+        "x": 823,
+        "y": 458
+      },
+      "boundingBox": {
+        "left": 658,
+        "top": 351,
+        "right": 993,
+        "bottom": 667
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位地球仪这个地球模型，区别本体与模型。",
+        "association": "定位地球仪这个地球模型，区别本体与模型。",
+        "collocation": "the earth",
+        "example": "The globe is a model of the earth.",
+        "exampleChinese": "地球仪是地球的模型。"
+      }
+    },
+    {
+      "x": 492,
+      "y": 700,
+      "english": "country",
+      "chinese": "国家",
+      "phoneticUS": "/ˈkʌntri/",
+      "phoneticUK": "/ˈkʌntri/",
+      "bubblePosition": {
+        "x": 525,
+        "y": 780
+      },
+      "anchorPosition": {
+        "x": 492,
+        "y": 700
+      },
+      "boundingBox": {
+        "left": 432,
+        "top": 676,
+        "right": 559,
+        "bottom": 727
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位明确高亮的地图指代区域，国家身份由故事说明。",
+        "association": "定位明确高亮的地图指代区域，国家身份由故事说明。",
+        "collocation": "my country",
+        "example": "This blue area on the map represents my country.",
+        "exampleChinese": "地图上的这块蓝色区域代表我的国家。"
+      }
+    },
+    {
+      "x": 175,
+      "y": 65,
+      "english": "nation",
+      "chinese": "民族",
+      "phoneticUS": "/ˈneɪʃən/",
+      "phoneticUK": "/ˈneɪʃən/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "共同历史的群体由句子说明，不用旗帜或单个人替代民族。",
+        "association": "共同历史的群体由句子说明，不用旗帜或单个人替代民族。",
+        "collocation": "one nation",
+        "example": "The people of this nation share a history.",
+        "exampleChinese": "这个民族的人们有着共同的历史。"
+      }
+    },
+    {
+      "x": 943,
+      "y": 658,
+      "english": "flag",
+      "chinese": "旗帜",
+      "phoneticUS": "/flæɡ/",
+      "phoneticUK": "/flæɡ/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 815
+      },
+      "anchorPosition": {
+        "x": 943,
+        "y": 658
+      },
+      "boundingBox": {
+        "left": 902,
+        "top": 538,
+        "right": 999,
+        "bottom": 819
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际纯蓝布旗，不当任何国家身份鉴定。",
+        "association": "实际纯蓝布旗，不当任何国家身份鉴定。",
+        "collocation": "a blue flag",
+        "example": "A blue flag stands beside the globe.",
+        "exampleChinese": "一面蓝色旗帜立在地球仪旁。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A globe, a map, and a flag help me talk about the world.",
+    "chinese": "一个地球仪、一张地图和一面旗帜，帮我聊起这个世界。",
+    "source": "原创配文 · C050 辨认东南西北",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

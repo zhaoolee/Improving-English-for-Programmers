@@ -1,0 +1,254 @@
+{
+  "filename": "C060-情绪的几张脸.png",
+  "labels": [
+    {
+      "x": 458,
+      "y": 154,
+      "english": "smile",
+      "chinese": "微笑",
+      "phoneticUS": "/smaɪl/",
+      "phoneticUK": "/smaɪl/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 170
+      },
+      "anchorPosition": {
+        "x": 458,
+        "y": 154
+      },
+      "boundingBox": {
+        "left": 343,
+        "top": 71,
+        "right": 574,
+        "bottom": 238
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅实际微笑口部。",
+        "association": "上幅实际微笑口部。",
+        "collocation": "smile at a friend",
+        "example": "I smile at my friend.",
+        "exampleChinese": "我对朋友微笑。"
+      }
+    },
+    {
+      "x": 487,
+      "y": 468,
+      "english": "laugh",
+      "chinese": "大笑",
+      "phoneticUS": "/læf/",
+      "phoneticUK": "/lɑːf/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 490
+      },
+      "anchorPosition": {
+        "x": 487,
+        "y": 468
+      },
+      "boundingBox": {
+        "left": 364,
+        "top": 383,
+        "right": 610,
+        "bottom": 554
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中幅张口笑的面部姿态。",
+        "association": "中幅张口笑的面部姿态。",
+        "collocation": "laugh at a joke",
+        "example": "I laugh at a joke.",
+        "exampleChinese": "我听到笑话时大笑。"
+      }
+    },
+    {
+      "x": 462,
+      "y": 809,
+      "english": "cry",
+      "chinese": "哭泣",
+      "phoneticUS": "/kraɪ/",
+      "phoneticUK": "/kraɪ/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 462,
+        "y": 809
+      },
+      "boundingBox": {
+        "left": 351,
+        "top": 724,
+        "right": 574,
+        "bottom": 895
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅实际泪痕与哭泣姿势。",
+        "association": "下幅实际泪痕与哭泣姿势。",
+        "collocation": "cry during a film",
+        "example": "I cry during a sad film.",
+        "exampleChinese": "我看悲伤的电影时哭了。"
+      }
+    },
+    {
+      "x": 125,
+      "y": 820,
+      "english": "sad",
+      "chinese": "难过的",
+      "phoneticUS": "/sæd/",
+      "phoneticUK": "/sæd/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 820
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "主观情绪由自述，不凭面容诊断。",
+        "association": "主观情绪由自述，不凭面容诊断。",
+        "collocation": "feel sad",
+        "example": "I feel sad about the story.",
+        "exampleChinese": "我为这个故事感到难过。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 465,
+      "english": "angry",
+      "chinese": "生气的",
+      "phoneticUS": "/ˈæŋɡri/",
+      "phoneticUK": "/ˈæŋɡri/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 465
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "故事情境，不用未呈现表情冒充证据。",
+        "association": "故事情境，不用未呈现表情冒充证据。",
+        "collocation": "feel angry",
+        "example": "I feel angry when someone is unkind.",
+        "exampleChinese": "有人不友善时，我会生气。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 585,
+      "english": "fear",
+      "chinese": "害怕",
+      "phoneticUS": "/fɪr/",
+      "phoneticUK": "/fɪə/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 585
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "情绪与声音由句子说明。",
+        "association": "情绪与声音由句子说明。",
+        "collocation": "a feeling of fear",
+        "example": "A loud noise gives me a feeling of fear.",
+        "exampleChinese": "一声巨响让我感到害怕。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 935,
+      "english": "shock",
+      "chinese": "震惊",
+      "phoneticUS": "/ʃɑːk/",
+      "phoneticUK": "/ʃɒk/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "shock选心理震惊义，不涉及医学休克。",
+        "association": "shock选心理震惊义，不涉及医学休克。",
+        "collocation": "a shock",
+        "example": "The unexpected news is a shock to me.",
+        "exampleChinese": "这条意外消息让我震惊。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 65,
+      "english": "surprise",
+      "chinese": "惊讶",
+      "phoneticUS": "/sərˈpraɪz/",
+      "phoneticUK": "/səˈpraɪz/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "情节由句子支持。",
+        "association": "情节由句子支持。",
+        "collocation": "a pleasant surprise",
+        "example": "My friend brings me a pleasant surprise.",
+        "exampleChinese": "朋友给我带来一个惊喜。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I smile with a friend, laugh at a joke, and cry during a film.",
+    "chinese": "我和朋友微笑，听笑话时大笑，看电影时落泪。",
+    "source": "原创配文 · C060 情绪的几张脸",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

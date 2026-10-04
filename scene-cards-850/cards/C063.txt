@@ -1,0 +1,283 @@
+C063  图书馆选读物
+========================================================================
+章节: 学习与艺术
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C063.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C063.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:16:08 UTC → 2026-10-03 17:18:02 UTC
+  提示词文件: prompts/C063_image_final.txt
+
+场景: 读者在图书馆书架前选择小说、故事、散文和诗歌。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 图书馆书架与持书阅读姿势清晰，文学类别不依封面判断，兴趣与记忆均为语境。
+
+主配文:
+  英文: I read a story at the library and keep its best moment in my memory.
+  中文: 我在图书馆读一个故事，把其中最精彩的时刻留在记忆里。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): library, reading, fiction, story, prose, verse, interest, memory, ever
+
+------------------------------------------------------------------------
+[1/9] library  (W400)
+  词义: 图书馆
+  词性: noun
+  音标: UK /ˈlaɪbrəri/ | US /ˈlaɪbreri/
+  搭配: at the library; a public library
+  例句: I choose a book at the library.
+  例句高亮: I choose a book at the **library**.
+  例句中文: 我在图书馆挑选一本书。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（图书馆），待最终图确认。
+  坐标(normalized): [0.002, 0.004, 0.605, 0.416]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "书架与阅览空间，故事明确为图书馆。"
+    sentence: "I choose a book at the library."
+    matched_form: "library"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 图书馆
+
+------------------------------------------------------------------------
+[2/9] reading  (W580)
+  词义: 阅读
+  词性: noun
+  音标: UK /ˈriːdɪŋ/ | US /ˈriːdɪŋ/
+  搭配: enjoy reading; reading time
+  例句: Reading is part of my evening routine.
+  例句高亮: **Reading** is part of my evening routine.
+  例句中文: 阅读是我晚间日常的一部分。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（阅读），待最终图确认。
+  坐标(normalized): [0.156, 0.691, 0.901, 0.835]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "握书翻阅的手与打开书，阅读活动由句子说明。"
+    sentence: "Reading is part of my evening routine."
+    matched_form: "reading"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 阅读；读物
+
+------------------------------------------------------------------------
+[3/9] fiction  (W263)
+  词义: 小说文学
+  词性: noun
+  音标: UK /ˈfɪkʃən/ | US /ˈfɪkʃən/
+  搭配: read fiction; a work of fiction
+  例句: I enjoy fiction about journeys.
+  例句高亮: I enjoy **fiction** about journeys.
+  例句中文: 我喜欢读有关旅途的小说文学。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I enjoy fiction about journeys.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I enjoy fiction about journeys."
+    matched_form: "fiction"
+    context: "由原创例句给出的语境：I enjoy fiction about journeys.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 小说；虚构
+
+------------------------------------------------------------------------
+[4/9] story  (W715)
+  词义: 故事
+  词性: noun
+  音标: UK /ˈstɔːri/ | US /ˈstɔːri/
+  搭配: read a story; tell a story
+  例句: The story follows a woman on a journey.
+  例句高亮: The **story** follows a woman on a journey.
+  例句中文: 这个故事讲述一位女子的旅程。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The story follows a woman on a journey.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The story follows a woman on a journey."
+    matched_form: "story"
+    context: "由原创例句给出的语境：The story follows a woman on a journey.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 故事
+
+------------------------------------------------------------------------
+[5/9] prose  (W559)
+  词义: 散文体文字
+  词性: noun
+  音标: UK /prəʊz/ | US /proʊz/
+  搭配: written in prose; clear prose
+  例句: This story is written in prose.
+  例句高亮: This story is written in **prose**.
+  例句中文: 这个故事是用散文体写成的。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：This story is written in prose.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "This story is written in prose."
+    matched_form: "prose"
+    context: "由原创例句给出的语境：This story is written in prose.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 散文；散文体
+
+------------------------------------------------------------------------
+[6/9] verse  (W793)
+  词义: 诗歌
+  词性: noun
+  音标: UK /vɜːs/ | US /vɝːs/
+  搭配: read verse; a line of verse
+  例句: Another book contains verse about the sea.
+  例句高亮: Another book contains **verse** about the sea.
+  例句中文: 另一本书收录了描写大海的诗歌。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Another book contains verse about the sea.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Another book contains verse about the sea."
+    matched_form: "verse"
+    context: "由原创例句给出的语境：Another book contains verse about the sea.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 诗歌
+
+------------------------------------------------------------------------
+[7/9] interest  (W365)
+  词义: 兴趣
+  词性: noun
+  音标: UK /ˈɪntrəst/ | US /ˈɪntrəst/
+  搭配: an interest in; take an interest
+  例句: I have an interest in travel stories.
+  例句高亮: I have an **interest** in travel stories.
+  例句中文: 我对旅行故事感兴趣。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I have an interest in travel stories.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I have an interest in travel stories."
+    matched_form: "interest"
+    context: "由原创例句给出的语境：I have an interest in travel stories.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 兴趣
+
+------------------------------------------------------------------------
+[8/9] memory  (W438)
+  词义: 记忆
+  词性: noun
+  音标: UK /ˈmeməri/ | US /ˈmeməri/
+  搭配: in my memory; a happy memory
+  例句: The best part stays in my memory.
+  例句高亮: The best part stays in my **memory**.
+  例句中文: 最精彩的部分留在我的记忆里。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The best part stays in my memory.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The best part stays in my memory."
+    matched_form: "memory"
+    context: "由原创例句给出的语境：The best part stays in my memory.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 记忆；记忆力
+
+------------------------------------------------------------------------
+[9/9] ever  (W239)
+  词义: 曾经
+  词性: adverb
+  音标: UK /ˈevə/ | US /ˈevɚ/
+  搭配: have you ever; ever before
+  例句: Have you ever read this story?
+  例句高亮: Have you **ever** read this story?
+  例句中文: 你曾经读过这个故事吗？
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Have you ever read this story?；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Have you ever read this story?"
+    matched_form: "ever"
+    context: "由原创例句给出的语境：Have you ever read this story?；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 曾经；永远
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C063 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=69 | meta.approved_cards=70
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman reading an open book seated beside shelves in a calm premium library, cool daylight. One small stack of closed books with plain covers on table, clear open pages with no readable text, large elegant shelves and depth. Show reading gesture naturally, no invented book titles or pseudo letters.

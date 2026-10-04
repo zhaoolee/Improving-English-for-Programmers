@@ -1,0 +1,491 @@
+{
+  "id": "C058",
+  "chapter": "身体与健康",
+  "title": "球场上的运动",
+  "scene": "球场上踢球、跳跃与跑动三连幅，旁白表达比赛、竞争、让同伴参与和身体力量。",
+  "target_count": 11,
+  "primary_words": [
+    "ball",
+    "kick",
+    "jump",
+    "run",
+    "motion",
+    "move",
+    "stretch",
+    "strong",
+    "let",
+    "competition",
+    "match"
+  ],
+  "targets": [
+    {
+      "word_id": "W050",
+      "word": "ball",
+      "aliases": [],
+      "source_zh_unreviewed": "球",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "球",
+      "pos": "noun",
+      "ipa_us": "/bɔːl/",
+      "ipa_uk": "/bɔːl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅独立足球。",
+        "sentence": "The ball is beside my foot.",
+        "matched_form": "ball",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The ball is beside my foot.",
+      "example_zh": "球在我的脚旁。",
+      "bbox_normalized": [
+        0.682,
+        0.861,
+        0.745,
+        0.915
+      ],
+      "collocations": [
+        "a football"
+      ],
+      "example_en_highlighted": "The **ball** is beside my foot.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅独立足球。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W378",
+      "word": "kick",
+      "aliases": [],
+      "source_zh_unreviewed": "踢；踢球",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "踢",
+      "pos": "verb",
+      "ipa_us": "/kɪk/",
+      "ipa_uk": "/kɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅踢球动作姿势和球的关系。",
+        "sentence": "I kick the ball toward my friend.",
+        "matched_form": "kick",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I kick the ball toward my friend.",
+      "example_zh": "我把球踢向朋友。",
+      "bbox_normalized": [
+        0.359,
+        0.785,
+        0.745,
+        0.922
+      ],
+      "collocations": [
+        "kick the ball"
+      ],
+      "example_en_highlighted": "I **kick** the ball toward my friend.",
+      "annotation_mode": "action",
+      "annotation_note": "下幅踢球动作姿势和球的关系。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W374",
+      "word": "jump",
+      "aliases": [],
+      "source_zh_unreviewed": "跳跃；跳动",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "跳",
+      "pos": "verb",
+      "ipa_us": "/dʒʌmp/",
+      "ipa_uk": "/dʒʌmp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中幅双脚离地的实际姿势。",
+        "sentence": "I jump above the grass.",
+        "matched_form": "jump",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I jump above the grass.",
+      "example_zh": "我从草地上跳起。",
+      "bbox_normalized": [
+        0.37,
+        0.335,
+        0.625,
+        0.637
+      ],
+      "collocations": [
+        "jump above the grass"
+      ],
+      "example_en_highlighted": "I **jump** above the grass.",
+      "annotation_mode": "action",
+      "annotation_note": "中幅双脚离地的实际姿势。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W611",
+      "word": "run",
+      "aliases": [],
+      "source_zh_unreviewed": "跑；奔跑",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "跑",
+      "pos": "verb",
+      "ipa_us": "/rʌn/",
+      "ipa_uk": "/rʌn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅跑步步态与句子对应。",
+        "sentence": "I run across the field.",
+        "matched_form": "run",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I run across the field.",
+      "example_zh": "我跑过球场。",
+      "bbox_normalized": [
+        0.415,
+        0.005,
+        0.583,
+        0.32
+      ],
+      "collocations": [
+        "run across the field"
+      ],
+      "example_en_highlighted": "I **run** across the field.",
+      "annotation_mode": "action",
+      "annotation_note": "上幅跑步步态与句子对应。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W454",
+      "word": "motion",
+      "aliases": [],
+      "source_zh_unreviewed": "运动；动作",
+      "planned_mode": "context",
+      "sense_zh": "运动",
+      "pos": "noun",
+      "ipa_us": "/ˈmoʊʃən/",
+      "ipa_uk": "/ˈməʊʃən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "跑动中的腿部区域，连续过程由句子支持。",
+        "sentence": "My legs are in motion as I run.",
+        "matched_form": "motion",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My legs are in motion as I run.",
+      "example_zh": "我跑步时双腿在运动。",
+      "bbox_normalized": [
+        0.422,
+        0.154,
+        0.543,
+        0.319
+      ],
+      "collocations": [
+        "in motion"
+      ],
+      "example_en_highlighted": "My legs are in **motion** as I run.",
+      "annotation_mode": "action",
+      "annotation_note": "跑动中的腿部区域，连续过程由句子支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W457",
+      "word": "move",
+      "aliases": [],
+      "source_zh_unreviewed": "移动",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "移动",
+      "pos": "verb",
+      "ipa_us": "/muːv/",
+      "ipa_uk": "/muːv/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅运动身体指代，方向由句子解释。",
+        "sentence": "I move toward the ball.",
+        "matched_form": "move",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I move toward the ball.",
+      "example_zh": "我向球移动。",
+      "bbox_normalized": [
+        0.236,
+        0.662,
+        0.638,
+        0.986
+      ],
+      "collocations": [
+        "move toward the ball"
+      ],
+      "example_en_highlighted": "I **move** toward the ball.",
+      "annotation_mode": "action",
+      "annotation_note": "上幅运动身体指代，方向由句子解释。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W719",
+      "word": "stretch",
+      "aliases": [],
+      "source_zh_unreviewed": "伸展",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "伸展",
+      "pos": "verb",
+      "ipa_us": "/stretʃ/",
+      "ipa_uk": "/stretʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅实际伸出的腿。",
+        "sentence": "I stretch my leg to kick the ball.",
+        "matched_form": "stretch",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I stretch my leg to kick the ball.",
+      "example_zh": "我伸展腿部去踢球。",
+      "bbox_normalized": [
+        0.402,
+        0.81,
+        0.638,
+        0.923
+      ],
+      "collocations": [
+        "stretch my leg"
+      ],
+      "example_en_highlighted": "I **stretch** my leg to kick the ball.",
+      "annotation_mode": "action",
+      "annotation_note": "下幅实际伸出的腿。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W720",
+      "word": "strong",
+      "aliases": [],
+      "source_zh_unreviewed": "强壮的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "强壮的",
+      "pos": "adjective",
+      "ipa_us": "/strɔːŋ/",
+      "ipa_uk": "/strɒŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My legs feel strong after practice.",
+        "matched_form": "strong",
+        "referent_region_verified": false,
+        "context": "体力不能从姿势直接测定。",
+        "image_verified": null
+      },
+      "example_en": "My legs feel strong after practice.",
+      "example_zh": "练习后，我感觉双腿很有力量。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel strong"
+      ],
+      "example_en_highlighted": "My legs feel **strong** after practice.",
+      "annotation_mode": "context",
+      "annotation_note": "体力不能从姿势直接测定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W397",
+      "word": "let",
+      "aliases": [],
+      "source_zh_unreviewed": "让；允许",
+      "planned_mode": "context",
+      "sense_zh": "让",
+      "pos": "verb",
+      "ipa_us": "/let/",
+      "ipa_uk": "/let/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let my friend join the match.",
+        "matched_form": "let",
+        "referent_region_verified": false,
+        "context": "允许关系由明确句子支持。",
+        "image_verified": null
+      },
+      "example_en": "Let my friend join the match.",
+      "example_zh": "让我的朋友加入比赛。",
+      "bbox_normalized": null,
+      "collocations": [
+        "let my friend join"
+      ],
+      "example_en_highlighted": "**Let** my friend join the match.",
+      "annotation_mode": "context",
+      "annotation_note": "允许关系由明确句子支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W150",
+      "word": "competition",
+      "aliases": [],
+      "source_zh_unreviewed": "竞争",
+      "planned_mode": "context",
+      "sense_zh": "竞赛",
+      "pos": "noun",
+      "ipa_us": "/ˌkɑːmpəˈtɪʃən/",
+      "ipa_uk": "/ˌkɒmpəˈtɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We enjoy a friendly competition.",
+        "matched_form": "competition",
+        "referent_region_verified": false,
+        "context": "竞赛规则由故事说明，不按多人画面认定正式赛事。",
+        "image_verified": null
+      },
+      "example_en": "We enjoy a friendly competition.",
+      "example_zh": "我们享受一场友好的竞赛。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a friendly competition"
+      ],
+      "example_en_highlighted": "We enjoy a friendly **competition**.",
+      "annotation_mode": "context",
+      "annotation_note": "竞赛规则由故事说明，不按多人画面认定正式赛事。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W430",
+      "word": "match",
+      "aliases": [],
+      "source_zh_unreviewed": "比赛；匹配",
+      "planned_mode": "context",
+      "sense_zh": "比赛",
+      "pos": "noun",
+      "ipa_us": "/mætʃ/",
+      "ipa_uk": "/mætʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My friend joins the football match.",
+        "matched_form": "match",
+        "referent_region_verified": false,
+        "context": "比赛身份由句子说明。",
+        "image_verified": null
+      },
+      "example_en": "My friend joins the football match.",
+      "example_zh": "我的朋友加入这场足球比赛。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a football match"
+      ],
+      "example_en_highlighted": "My friend joins the football **match**.",
+      "annotation_mode": "context",
+      "annotation_note": "比赛身份由句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I run, jump, and kick the ball; my friend joins the match.",
+    "zh": "我跑动、跳起、踢球；朋友也加入了比赛。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C058\n标题 球场上的运动\n场景 球场上踢球、跳跃与跑动三连幅，旁白表达比赛、竞争、让同伴参与和身体力量。\n目标词 ball, kick, jump, run, motion, move, stretch, strong, let, competition, match\n原创主配文草案 I run, jump, and kick the ball.\n中文草案 我跑动、跳起，然后踢球。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Three stacked fashion sports photographs of same woman on a green football practice field, modest slate athletic kit and trainers. Upper running stride with clear grounded and lifted legs, a second female teammate farther behind; middle a modest jump with both shoes visibly separated from grass, whole body visible; lower clear side view kick pose with ONE football near extended shoe and supporting foot on grass. Credible sports anatomy, ball not fused to foot, no motion trails or words, no impossible balancing. Small room around all bodies for labels.",
+  "status": "approved",
+  "image_path": "images/C058.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C058 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T15:01:13Z",
+    "prompt_path": "prompts/C058_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C058.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三幅跑步、双脚离地跳跃与踢球清楚；动作词取对应姿势；motion限定跑动腿部；比赛和强壮并非照片证明，使用故事句。"
+  }
+}

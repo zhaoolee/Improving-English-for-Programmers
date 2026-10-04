@@ -1,0 +1,436 @@
+{
+  "id": "C099",
+  "chapter": "社会与表达",
+  "title": "数量与范围的小问题",
+  "scene": "桌上物体组与空盘对照，问答表现全部、每个、仅有、几乎、程度、这样的和否定。",
+  "target_count": 10,
+  "primary_words": [
+    "all",
+    "every",
+    "only",
+    "almost",
+    "quite",
+    "very",
+    "so",
+    "such",
+    "any",
+    "not"
+  ],
+  "targets": [
+    {
+      "word_id": "W016",
+      "word": "all",
+      "aliases": [],
+      "source_zh_unreviewed": "所有的；全部",
+      "planned_mode": "context",
+      "sense_zh": "所有的",
+      "pos": "determiner",
+      "ipa_us": "/ɔːl/",
+      "ipa_uk": "/ɔːl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "All five cups belong to this set.",
+        "matched_form": "all",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：All five cups belong to this set.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "All five cups belong to this set.",
+      "example_zh": "五个杯子都属于这一套。",
+      "bbox_normalized": null,
+      "collocations": [
+        "all the cups",
+        "all five"
+      ],
+      "example_en_highlighted": "**All** five cups belong to this set.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：All five cups belong to this set.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W240",
+      "word": "every",
+      "aliases": [],
+      "source_zh_unreviewed": "每个",
+      "planned_mode": "context",
+      "sense_zh": "每个",
+      "pos": "determiner",
+      "ipa_us": "/ˈevri/",
+      "ipa_uk": "/ˈevri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Every cup in this set is plain.",
+        "matched_form": "every",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Every cup in this set is plain.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Every cup in this set is plain.",
+      "example_zh": "这一套里的每个杯子都没有花纹。",
+      "bbox_normalized": null,
+      "collocations": [
+        "every cup",
+        "every one"
+      ],
+      "example_en_highlighted": "**Every** cup in this set is plain.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Every cup in this set is plain.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W494",
+      "word": "only",
+      "aliases": [],
+      "source_zh_unreviewed": "只有",
+      "planned_mode": "context",
+      "sense_zh": "只有",
+      "pos": "adverb",
+      "ipa_us": "/ˈoʊnli/",
+      "ipa_uk": "/ˈəʊnli/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Only one cup is outside the first tray.",
+        "matched_form": "only",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Only one cup is outside the first tray.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Only one cup is outside the first tray.",
+      "example_zh": "只有一个杯子在第一个托盘外。",
+      "bbox_normalized": null,
+      "collocations": [
+        "only one",
+        "only here"
+      ],
+      "example_en_highlighted": "**Only** one cup is outside the first tray.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Only one cup is outside the first tray.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W017",
+      "word": "almost",
+      "aliases": [],
+      "source_zh_unreviewed": "几乎；差不多",
+      "planned_mode": "context",
+      "sense_zh": "几乎",
+      "pos": "adverb",
+      "ipa_us": "/ˈɔːlmoʊst/",
+      "ipa_uk": "/ˈɔːlməʊst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Almost all the cups are on the first tray.",
+        "matched_form": "almost",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Almost all the cups are on the first tray.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Almost all the cups are on the first tray.",
+      "example_zh": "几乎所有杯子都在第一个托盘上。",
+      "bbox_normalized": null,
+      "collocations": [
+        "almost all",
+        "almost ready"
+      ],
+      "example_en_highlighted": "**Almost** all the cups are on the first tray.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Almost all the cups are on the first tray.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W572",
+      "word": "quite",
+      "aliases": [],
+      "source_zh_unreviewed": "相当；非常",
+      "planned_mode": "context",
+      "sense_zh": "相当",
+      "pos": "adverb",
+      "ipa_us": "/kwaɪt/",
+      "ipa_uk": "/kwaɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This arrangement is quite simple.",
+        "matched_form": "quite",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：This arrangement is quite simple.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "This arrangement is quite simple.",
+      "example_zh": "这个摆放方式相当简单。",
+      "bbox_normalized": null,
+      "collocations": [
+        "quite simple",
+        "quite small"
+      ],
+      "example_en_highlighted": "This arrangement is **quite** simple.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：This arrangement is quite simple.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W794",
+      "word": "very",
+      "aliases": [],
+      "source_zh_unreviewed": "非常",
+      "planned_mode": "context",
+      "sense_zh": "很",
+      "pos": "adverb",
+      "ipa_us": "/ˈveri/",
+      "ipa_uk": "/ˈveri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The cups are very small in our story.",
+        "matched_form": "very",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The cups are very small in our story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The cups are very small in our story.",
+      "example_zh": "故事中的杯子很小。",
+      "bbox_normalized": null,
+      "collocations": [
+        "very small",
+        "very neat"
+      ],
+      "example_en_highlighted": "The cups are **very** small in our story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The cups are very small in our story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W675",
+      "word": "so",
+      "aliases": [],
+      "source_zh_unreviewed": "如此",
+      "planned_mode": "context",
+      "sense_zh": "如此",
+      "pos": "adverb",
+      "ipa_us": "/soʊ/",
+      "ipa_uk": "/səʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "These cups are so small that five fit on the table.",
+        "matched_form": "so",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：These cups are so small that five fit on the table.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "These cups are so small that five fit on the table.",
+      "example_zh": "这些杯子如此小，桌上能放下五个。",
+      "bbox_normalized": null,
+      "collocations": [
+        "so small",
+        "so neat"
+      ],
+      "example_en_highlighted": "These cups are **so** small that five fit on the table.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：These cups are so small that five fit on the table.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W723",
+      "word": "such",
+      "aliases": [],
+      "source_zh_unreviewed": "这样的",
+      "planned_mode": "context",
+      "sense_zh": "这样的",
+      "pos": "determiner",
+      "ipa_us": "/sʌtʃ/",
+      "ipa_uk": "/sʌtʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Such a simple set is easy to count.",
+        "matched_form": "such",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Such a simple set is easy to count.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Such a simple set is easy to count.",
+      "example_zh": "这样简单的一套东西很容易清点。",
+      "bbox_normalized": null,
+      "collocations": [
+        "such a set",
+        "such small cups"
+      ],
+      "example_en_highlighted": "**Such** a simple set is easy to count.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Such a simple set is easy to count.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W027",
+      "word": "any",
+      "aliases": [],
+      "source_zh_unreviewed": "任何的；一些",
+      "planned_mode": "context",
+      "sense_zh": "任何的",
+      "pos": "determiner",
+      "ipa_us": "/ˈeni/",
+      "ipa_uk": "/ˈeni/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Are there any cups on the second tray?",
+        "matched_form": "any",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Are there any cups on the second tray?；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Are there any cups on the second tray?",
+      "example_zh": "第二个托盘上有杯子吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "any cups",
+        "any one"
+      ],
+      "example_en_highlighted": "Are there **any** cups on the second tray?",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Are there any cups on the second tray?；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W481",
+      "word": "not",
+      "aliases": [],
+      "source_zh_unreviewed": "不",
+      "planned_mode": "context",
+      "sense_zh": "不",
+      "pos": "adverb",
+      "ipa_us": "/nɑːt/",
+      "ipa_uk": "/nɒt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The separate cup is not on the first tray.",
+        "matched_form": "not",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The separate cup is not on the first tray.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The separate cup is not on the first tray.",
+      "example_zh": "单独的那个杯子不在第一个托盘上。",
+      "bbox_normalized": null,
+      "collocations": [
+        "not on",
+        "not all"
+      ],
+      "example_en_highlighted": "The separate cup is **not** on the first tray.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The separate cup is not on the first tray.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Almost all the cups are on the tray; one is beside it, and another tray is empty.",
+    "zh": "几乎所有杯子都在托盘上；一个在旁边，另一个托盘是空的。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C099\n标题 数量与范围的小问题\n场景 桌上物体组与空盘对照，问答表现全部、每个、仅有、几乎、程度、这样的和否定。\n目标词 all, every, only, almost, quite, very, so, such, any, not\n原创主配文草案 Almost everything is here, but not all of it.\n中文草案 几乎所有东西都在这里，但并非全部。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman arranging four small plain ceramic cups on a large rectangular tray, one matching cup separate beside tray, second clearly empty tray farther right. Exact total five cups, four on first tray and one outside, no additional cups. Cool Korean precise tabletop editorial environmental portrait, natural hands, no text, clean open edges for ten grammar labels.",
+  "status": "approved",
+  "image_path": "images/C099.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 10,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C099 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:18:47 UTC",
+    "prompt_path": "prompts/C099_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C099.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "四杯在左托盘一杯在外，总五杯，右托盘空；限定词及程度词全用独立句子，不框虚假all物体。"
+  }
+}

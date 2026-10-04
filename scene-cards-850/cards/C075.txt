@@ -1,0 +1,257 @@
+C075  向专家请教
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C075.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C075.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:37:49 UTC
+  提示词文件: prompts/C075_image_final.txt
+
+场景: 主角向熟练专家请教困难任务，展示经验、技能和责任。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 右女子用螺丝刀示范，左女子观看；木盒与手部动作清楚，专家角色来自句子。
+
+主配文:
+  英文: An expert shows me how to use the tool and make a hard task simpler.
+  中文: 一位专家教我使用工具，让困难的任务变得简单一些。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): expert, experience, able, hard, simple, complex, responsible, use
+
+------------------------------------------------------------------------
+[1/8] expert  (W246)
+  词义: 专家
+  词性: noun
+  音标: UK /ˈekspɜːt/ | US /ˈekspɝːt/
+  搭配: ask an expert; an expert in
+  例句: The woman demonstrating the tool is our expert.
+  例句高亮: The woman demonstrating the tool is our **expert**.
+  例句中文: 演示工具的女子是我们的专家。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（专家），待最终图确认。
+  坐标(normalized): [0.405, 0.125, 0.997, 0.866]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧持螺丝刀示范的女子，句子指定为专家。"
+    sentence: "The woman demonstrating the tool is our expert."
+    matched_form: "expert"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 专家
+
+------------------------------------------------------------------------
+[2/8] experience  (W245)
+  词义: 经验
+  词性: noun
+  音标: UK /ɪkˈspɪəriəns/ | US /ɪkˈspɪriəns/
+  搭配: practical experience; gain experience
+  例句: She shares her experience of working with wood.
+  例句高亮: She shares her **experience** of working with wood.
+  例句中文: 她分享自己的木工经验。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：She shares her experience of working with wood.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "She shares her experience of working with wood."
+    matched_form: "experience"
+    context: "由原创例句给出的语境：She shares her experience of working with wood.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 经验
+
+------------------------------------------------------------------------
+[3/8] able  (W002)
+  词义: 能够的
+  词性: adjective
+  音标: UK /ˈeɪbəl/ | US /ˈeɪbəl/
+  搭配: be able to; an able person
+  例句: I am able to use the tool after practice.
+  例句高亮: I am **able** to use the tool after practice.
+  例句中文: 练习之后，我能够使用这个工具。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I am able to use the tool after practice.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I am able to use the tool after practice."
+    matched_form: "able"
+    context: "由原创例句给出的语境：I am able to use the tool after practice.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 能够的；有能力的
+
+------------------------------------------------------------------------
+[4/8] hard  (W325)
+  词义: 困难的
+  词性: adjective
+  音标: UK /hɑːd/ | US /hɑːrd/
+  搭配: a hard task; find it hard
+  例句: The task is hard for a beginner.
+  例句高亮: The task is **hard** for a beginner.
+  例句中文: 这项任务对初学者来说很困难。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The task is hard for a beginner.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The task is hard for a beginner."
+    matched_form: "hard"
+    context: "由原创例句给出的语境：The task is hard for a beginner.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 困难的；努力的
+
+------------------------------------------------------------------------
+[5/8] simple  (W656)
+  词义: 简单的
+  词性: adjective
+  音标: UK /ˈsɪmpəl/ | US /ˈsɪmpəl/
+  搭配: a simple step; a simple plan
+  例句: We begin with a simple step.
+  例句高亮: We begin with a **simple** step.
+  例句中文: 我们从一个简单的步骤开始。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We begin with a simple step.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We begin with a simple step."
+    matched_form: "simple"
+    context: "由原创例句给出的语境：We begin with a simple step.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 简单的
+
+------------------------------------------------------------------------
+[6/8] complex  (W152)
+  词义: 复杂的
+  词性: adjective
+  音标: UK /ˈkɒmpleks/ | US /kəmˈpleks/
+  搭配: a complex task; a complex design
+  例句: A complex design needs careful planning.
+  例句高亮: A **complex** design needs careful planning.
+  例句中文: 复杂的设计需要仔细规划。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A complex design needs careful planning.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A complex design needs careful planning."
+    matched_form: "complex"
+    context: "由原创例句给出的语境：A complex design needs careful planning.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 复杂的
+
+------------------------------------------------------------------------
+[7/8] responsible  (W593)
+  词义: 负责的
+  词性: adjective
+  音标: UK /rɪˈspɒnsəbəl/ | US /rɪˈspɑːnsəbəl/
+  搭配: be responsible for; a responsible worker
+  例句: I am responsible for keeping the bench tidy.
+  例句高亮: I am **responsible** for keeping the bench tidy.
+  例句中文: 我负责保持工作台整洁。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I am responsible for keeping the bench tidy.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I am responsible for keeping the bench tidy."
+    matched_form: "responsible"
+    context: "由原创例句给出的语境：I am responsible for keeping the bench tidy.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 负责任的
+
+------------------------------------------------------------------------
+[8/8] use  (W791)
+  词义: 使用
+  词性: verb
+  音标: UK /juːz/ | US /juːz/
+  搭配: use a tool; use carefully
+  例句: She shows me how to use the screwdriver.
+  例句高亮: She shows me how to **use** the screwdriver.
+  例句中文: 她教我如何使用螺丝刀。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（使用），待最终图确认。
+  坐标(normalized): [0.518, 0.495, 0.996, 0.84]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右女子手握螺丝刀在木盒螺丝上示范使用。"
+    sentence: "She shows me how to use the screwdriver."
+    matched_form: "use"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 使用
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 6
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C075 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman apprentice and adult woman expert side by side at clean craft bench assembling one simple wooden box with a hand screwdriver. Expert deliberately demonstrates screw turning, apprentice watches attentively. Plain wood pieces and tool distinct, credible hands, cool natural editorial lighting, no text, no powered hazardous machinery.

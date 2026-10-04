@@ -1,0 +1,476 @@
+{
+  "id": "C065",
+  "chapter": "学习与艺术",
+  "title": "手工几何图案",
+  "scene": "桌上用纸片制作圆、正方形、平行线和曲线，角度位置明确。",
+  "target_count": 10,
+  "primary_words": [
+    "circle",
+    "square",
+    "line",
+    "angle",
+    "curve",
+    "parallel",
+    "round",
+    "straight",
+    "flat",
+    "point"
+  ],
+  "targets": [
+    {
+      "word_id": "W132",
+      "word": "circle",
+      "aliases": [],
+      "source_zh_unreviewed": "圆圈",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "圆",
+      "pos": "noun",
+      "ipa_us": "/ˈsɝːkəl/",
+      "ipa_uk": "/ˈsɜːkəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "蓝色圆片，俯斜视透视。",
+        "sentence": "I cut a circle from blue paper.",
+        "matched_form": "circle",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I cut a circle from blue paper.",
+      "example_zh": "我用蓝纸剪出一个圆。",
+      "bbox_normalized": [
+        0.131,
+        0.663,
+        0.309,
+        0.751
+      ],
+      "collocations": [
+        "draw a circle",
+        "a paper circle"
+      ],
+      "example_en_highlighted": "I cut a **circle** from blue paper.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（圆），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W694",
+      "word": "square",
+      "aliases": [],
+      "source_zh_unreviewed": "正方形",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "正方形",
+      "pos": "noun",
+      "ipa_us": "/skwer/",
+      "ipa_uk": "/skweə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "绿色四边等长正方形纸片，透视但形状明确。",
+        "sentence": "The square has four equal sides.",
+        "matched_form": "square",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The square has four equal sides.",
+      "example_zh": "这个正方形有四条等长的边。",
+      "bbox_normalized": [
+        0.369,
+        0.647,
+        0.551,
+        0.75
+      ],
+      "collocations": [
+        "a paper square",
+        "draw a square"
+      ],
+      "example_en_highlighted": "The **square** has four equal sides.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（正方形），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W405",
+      "word": "line",
+      "aliases": [],
+      "source_zh_unreviewed": "线；排队",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "线",
+      "pos": "noun",
+      "ipa_us": "/laɪn/",
+      "ipa_uk": "/laɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上方一根深色直纸条表示线。",
+        "sentence": "The dark strip represents a line.",
+        "matched_form": "line",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The dark strip represents a line.",
+      "example_zh": "这根深色纸条表示一条线。",
+      "bbox_normalized": [
+        0.111,
+        0.789,
+        0.407,
+        0.823
+      ],
+      "collocations": [
+        "a straight line",
+        "draw a line"
+      ],
+      "example_en_highlighted": "The dark strip represents a **line**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（线），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W022",
+      "word": "angle",
+      "aliases": [],
+      "source_zh_unreviewed": "角度；角",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "角",
+      "pos": "noun",
+      "ipa_us": "/ˈæŋɡəl/",
+      "ipa_uk": "/ˈæŋɡəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "两根粉条的直角交接处。",
+        "sentence": "The two pink strips form a right angle.",
+        "matched_form": "angle",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The two pink strips form a right angle.",
+      "example_zh": "两根粉色纸条构成一个直角。",
+      "bbox_normalized": [
+        0.622,
+        0.644,
+        0.814,
+        0.736
+      ],
+      "collocations": [
+        "a right angle",
+        "at an angle"
+      ],
+      "example_en_highlighted": "The two pink strips form a right **angle**.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（角），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W176",
+      "word": "curve",
+      "aliases": [],
+      "source_zh_unreviewed": "曲线",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "曲线",
+      "pos": "noun",
+      "ipa_us": "/kɝːv/",
+      "ipa_uk": "/kɜːv/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "紫色弧形纸条。",
+        "sentence": "The purple strip forms a curve.",
+        "matched_form": "curve",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The purple strip forms a curve.",
+      "example_zh": "紫色纸条形成一条曲线。",
+      "bbox_normalized": [
+        0.469,
+        0.785,
+        0.73,
+        0.859
+      ],
+      "collocations": [
+        "a gentle curve",
+        "draw a curve"
+      ],
+      "example_en_highlighted": "The purple strip forms a **curve**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（曲线），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W513",
+      "word": "parallel",
+      "aliases": [],
+      "source_zh_unreviewed": "平行的；相似的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "平行的",
+      "pos": "adjective",
+      "ipa_us": "/ˈpærəlel/",
+      "ipa_uk": "/ˈpærəlel/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "两根平行深色纸条，框同时包含两条。",
+        "sentence": "The two dark lines are parallel.",
+        "matched_form": "parallel",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The two dark lines are parallel.",
+      "example_zh": "这两条深色线是平行的。",
+      "bbox_normalized": [
+        0.104,
+        0.785,
+        0.409,
+        0.875
+      ],
+      "collocations": [
+        "parallel lines",
+        "run parallel"
+      ],
+      "example_en_highlighted": "The two dark lines are **parallel**.",
+      "annotation_mode": "relation",
+      "annotation_note": "场景中体现的关系（平行的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W608",
+      "word": "round",
+      "aliases": [],
+      "source_zh_unreviewed": "圆；回合",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "圆的",
+      "pos": "adjective",
+      "ipa_us": "/raʊnd/",
+      "ipa_uk": "/raʊnd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "同一蓝色圆片表达圆的属性。",
+        "sentence": "The blue piece is round.",
+        "matched_form": "round",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The blue piece is round.",
+      "example_zh": "这块蓝色纸片是圆的。",
+      "bbox_normalized": [
+        0.131,
+        0.663,
+        0.309,
+        0.751
+      ],
+      "collocations": [
+        "a round shape",
+        "a round disk"
+      ],
+      "example_en_highlighted": "The blue piece is **round**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（圆的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W716",
+      "word": "straight",
+      "aliases": [],
+      "source_zh_unreviewed": "直的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "直的",
+      "pos": "adjective",
+      "ipa_us": "/streɪt/",
+      "ipa_uk": "/streɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下方深色直纸条。",
+        "sentence": "The dark paper strip is straight.",
+        "matched_form": "straight",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The dark paper strip is straight.",
+      "example_zh": "这根深色纸条是直的。",
+      "bbox_normalized": [
+        0.111,
+        0.827,
+        0.407,
+        0.875
+      ],
+      "collocations": [
+        "a straight line",
+        "keep straight"
+      ],
+      "example_en_highlighted": "The dark paper strip is **straight**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（直的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W273",
+      "word": "flat",
+      "aliases": [],
+      "source_zh_unreviewed": "平的；扁平的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "平的",
+      "pos": "adjective",
+      "ipa_us": "/flæt/",
+      "ipa_uk": "/flæt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧平放的白纸。",
+        "sentence": "The sheet lies flat on the table.",
+        "matched_form": "flat",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The sheet lies flat on the table.",
+      "example_zh": "这张纸平放在桌上。",
+      "bbox_normalized": [
+        0.793,
+        0.594,
+        0.998,
+        0.862
+      ],
+      "collocations": [
+        "a flat sheet",
+        "lie flat"
+      ],
+      "example_en_highlighted": "The sheet lies **flat** on the table.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（平的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W537",
+      "word": "point",
+      "aliases": [],
+      "source_zh_unreviewed": "点；要点",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "尖端",
+      "pos": "noun",
+      "ipa_us": "/pɔɪnt/",
+      "ipa_uk": "/pɔɪnt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "木铅笔石墨尖端。",
+        "sentence": "The pencil has a sharp point.",
+        "matched_form": "point",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The pencil has a sharp point.",
+      "example_zh": "这支铅笔有尖尖的尖端。",
+      "bbox_normalized": [
+        0.792,
+        0.787,
+        0.839,
+        0.822
+      ],
+      "collocations": [
+        "a sharp point",
+        "the point of a pencil"
+      ],
+      "example_en_highlighted": "The pencil has a sharp **point**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（尖端），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I make a circle and a square, then place two straight lines side by side.",
+    "zh": "我制作一个圆和一个正方形，然后并排放好两条直线。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C065\n标题 手工几何图案\n场景 桌上用纸片制作圆、正方形、平行线和曲线，角度位置明确。\n目标词 circle, square, line, angle, curve, parallel, round, straight, flat, point\n原创主配文草案 A straight line and a circle are on the paper.\n中文草案 纸上有一条直线和一个圆。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool editorial craft table portrait, upper 40% adult woman concentrating hands near paper; lower 60% crisp overhead geometry board. Separate cobalt circular paper disk, teal square cutout, rose L-shaped pair of thin straight paper strips making one right angle, two equal straight navy strips side by side parallel, lavender curved thin strip arc, plain flat ivory sheet and sharpened wooden pencil point. Geometric objects clean, separated, no lettering or numbers. No protractor numerals.",
+  "status": "approved",
+  "image_path": "images/C065.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 10,
+    "content_entries_complete": 10,
+    "sentence_evidence_complete": 10,
+    "verified_targets": 10,
+    "image_review": "pass",
+    "object_or_region_boxes": 10,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C065 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:19:11 UTC",
+    "prompt_path": "prompts/C065_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C065.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "桌面蓝圆、绿方、粉直角、两深色平行条与紫曲线均独立清楚。圆片在透视中呈椭圆，不声称形状变成椭圆；铅笔尖在右下方。"
+  }
+}

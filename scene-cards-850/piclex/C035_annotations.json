@@ -1,0 +1,348 @@
+{
+  "filename": "C035-进出与上下.png",
+  "labels": [
+    {
+      "x": 243,
+      "y": 126,
+      "english": "building",
+      "chinese": "建筑",
+      "phoneticUS": "/ˈbɪldɪŋ/",
+      "phoneticUK": "/ˈbɪldɪŋ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 55
+      },
+      "anchorPosition": {
+        "x": 243,
+        "y": 126
+      },
+      "boundingBox": {
+        "left": 213,
+        "top": 0,
+        "right": 998,
+        "bottom": 430
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅建筑立面与玻璃入口。",
+        "association": "上幅建筑立面与玻璃入口。",
+        "collocation": "a modern building",
+        "example": "The building has a glass entrance.",
+        "exampleChinese": "这栋建筑有一个玻璃入口。"
+      }
+    },
+    {
+      "x": 105,
+      "y": 630,
+      "english": "lift",
+      "chinese": "电梯",
+      "phoneticUS": "/lɪft/",
+      "phoneticUK": "/lɪft/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 560
+      },
+      "anchorPosition": {
+        "x": 105,
+        "y": 630
+      },
+      "boundingBox": {
+        "left": 11,
+        "top": 502,
+        "right": 991,
+        "bottom": 997
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "下幅玻璃电梯厢与门框，不是扶梯。",
+        "association": "下幅玻璃电梯厢与门框，不是扶梯。",
+        "collocation": "take the lift",
+        "example": "I take the lift to the next floor.",
+        "exampleChinese": "我乘电梯到上一层。"
+      }
+    },
+    {
+      "x": 871,
+      "y": 760,
+      "english": "up",
+      "chinese": "向上",
+      "phoneticUS": "/ʌp/",
+      "phoneticUK": "/ʌp/",
+      "bubblePosition": {
+        "x": 925,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 871,
+        "y": 760
+      },
+      "boundingBox": {
+        "left": 850,
+        "top": 744,
+        "right": 891,
+        "bottom": 774
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "电梯面板上方按钮实际向上箭头，方向清楚，不宣称电梯正在上行。",
+        "association": "电梯面板上方按钮实际向上箭头，方向清楚，不宣称电梯正在上行。",
+        "collocation": "go up",
+        "example": "The arrow points up.",
+        "exampleChinese": "箭头指向上方。"
+      }
+    },
+    {
+      "x": 871,
+      "y": 813,
+      "english": "down",
+      "chinese": "向下",
+      "phoneticUS": "/daʊn/",
+      "phoneticUK": "/daʊn/",
+      "bubblePosition": {
+        "x": 912,
+        "y": 926
+      },
+      "anchorPosition": {
+        "x": 871,
+        "y": 813
+      },
+      "boundingBox": {
+        "left": 850,
+        "top": 798,
+        "right": 891,
+        "bottom": 830
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "电梯面板下方按钮实际向下箭头，方向清楚，不宣称电梯正在下行。",
+        "association": "电梯面板下方按钮实际向下箭头，方向清楚，不宣称电梯正在下行。",
+        "collocation": "go down",
+        "example": "The arrow points down.",
+        "exampleChinese": "箭头指向下方。"
+      }
+    },
+    {
+      "x": 658,
+      "y": 366,
+      "english": "out",
+      "chinese": "到外面",
+      "phoneticUS": "/aʊt/",
+      "phoneticUK": "/aʊt/",
+      "bubblePosition": {
+        "x": 745,
+        "y": 328
+      },
+      "anchorPosition": {
+        "x": 658,
+        "y": 366
+      },
+      "boundingBox": {
+        "left": 456,
+        "top": 172,
+        "right": 708,
+        "bottom": 471
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅跨越门槛的主人公与门口，句子给出外出方向。",
+        "association": "上幅跨越门槛的主人公与门口，句子给出外出方向。",
+        "collocation": "go out",
+        "example": "I step out through the entrance.",
+        "exampleChinese": "我穿过入口走到外面。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 925,
+      "english": "off",
+      "chinese": "关着",
+      "phoneticUS": "/ɔːf/",
+      "phoneticUK": "/ɒf/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "独立原创离家例句，不将电梯照片当成关灯证据。",
+        "association": "独立原创离家例句，不将电梯照片当成关灯证据。",
+        "collocation": "turn off",
+        "example": "I turn off the light before leaving home.",
+        "exampleChinese": "离家前我把灯关掉。"
+      }
+    },
+    {
+      "x": 701,
+      "y": 950,
+      "english": "on",
+      "chinese": "开着",
+      "phoneticUS": "/ɑːn/",
+      "phoneticUK": "/ɒn/",
+      "bubblePosition": {
+        "x": 701,
+        "y": 950
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "光亮本身不足以验证开关状态，状态由故事句子明确。",
+        "association": "光亮本身不足以验证开关状态，状态由故事句子明确。",
+        "collocation": "the light is on",
+        "example": "The light is on inside the lift.",
+        "exampleChinese": "电梯里的灯开着。"
+      }
+    },
+    {
+      "x": 579,
+      "y": 446,
+      "english": "go",
+      "chinese": "去",
+      "phoneticUS": "/ɡoʊ/",
+      "phoneticUK": "/ɡəʊ/",
+      "bubblePosition": {
+        "x": 748,
+        "y": 439
+      },
+      "anchorPosition": {
+        "x": 579,
+        "y": 446
+      },
+      "boundingBox": {
+        "left": 456,
+        "top": 172,
+        "right": 708,
+        "bottom": 471
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅人物跨门槛的步行动作，句子说明动作方向。",
+        "association": "上幅人物跨门槛的步行动作，句子说明动作方向。",
+        "collocation": "go outside",
+        "example": "I go outside through the door.",
+        "exampleChinese": "我穿过门走到外面。"
+      }
+    },
+    {
+      "x": 468,
+      "y": 134,
+      "english": "under",
+      "chinese": "在下面",
+      "phoneticUS": "/ˈʌndər/",
+      "phoneticUK": "/ˈʌndə/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 290
+      },
+      "anchorPosition": {
+        "x": 468,
+        "y": 134
+      },
+      "boundingBox": {
+        "left": 420,
+        "top": 24,
+        "right": 690,
+        "bottom": 472
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅雨棚与其下人物的实际上下空间关系。",
+        "association": "上幅雨棚与其下人物的实际上下空间关系。",
+        "collocation": "under the canopy",
+        "example": "I stand under the canopy.",
+        "exampleChinese": "我站在雨棚下面。"
+      }
+    },
+    {
+      "x": 804,
+      "y": 115,
+      "english": "over",
+      "chinese": "在上方",
+      "phoneticUS": "/ˈoʊvər/",
+      "phoneticUK": "/ˈəʊvə/",
+      "bubblePosition": {
+        "x": 816,
+        "y": 79
+      },
+      "anchorPosition": {
+        "x": 804,
+        "y": 115
+      },
+      "boundingBox": {
+        "left": 323,
+        "top": 24,
+        "right": 872,
+        "bottom": 428
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "上幅雨棚与入口共同构成上方关系。",
+        "association": "上幅雨棚与入口共同构成上方关系。",
+        "collocation": "over the entrance",
+        "example": "The canopy is over the entrance.",
+        "exampleChinese": "雨棚在入口上方。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Out through the entrance, under the canopy, then up in the lift.",
+    "chinese": "穿过入口来到外面，走到雨棚下，再乘电梯上楼。",
+    "source": "原创配文 · C035 进出与上下",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

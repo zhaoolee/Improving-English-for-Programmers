@@ -1,0 +1,300 @@
+{
+  "id": "C068",
+  "chapter": "学习与艺术",
+  "title": "摄影与胶片记录",
+  "scene": "主角用相机拍摄，重复拍摄、照片印出、复制、标记和留档的过程清楚。",
+  "target_count": 6,
+  "primary_words": [
+    "camera",
+    "record",
+    "copy",
+    "print",
+    "mark",
+    "again"
+  ],
+  "targets": [
+    {
+      "word_id": "W112",
+      "word": "camera",
+      "aliases": [],
+      "source_zh_unreviewed": "照相机",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "相机",
+      "pos": "noun",
+      "ipa_us": "/ˈkæmərə/",
+      "ipa_uk": "/ˈkæmərə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双手间的无标相机镜头及机身。",
+        "sentence": "I hold the camera with both hands.",
+        "matched_form": "camera",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I hold the camera with both hands.",
+      "example_zh": "我用双手拿着相机。",
+      "bbox_normalized": [
+        0.384,
+        0.367,
+        0.629,
+        0.552
+      ],
+      "collocations": [
+        "use a camera",
+        "a digital camera"
+      ],
+      "example_en_highlighted": "I hold the **camera** with both hands.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（相机），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W584",
+      "word": "record",
+      "aliases": [],
+      "source_zh_unreviewed": "记录；唱片",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "记录",
+      "pos": "noun",
+      "ipa_us": "/ˈrekɚd/",
+      "ipa_uk": "/ˈrekɔːd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The photo is a record of our trip.",
+        "matched_form": "record",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：The photo is a record of our trip.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "The photo is a record of our trip.",
+      "example_zh": "这张照片是我们旅行的记录。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a record of",
+        "keep a record"
+      ],
+      "example_en_highlighted": "The photo is a **record** of our trip.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：The photo is a record of our trip.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W159",
+      "word": "copy",
+      "aliases": [],
+      "source_zh_unreviewed": "复制",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "副本",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːpi/",
+      "ipa_uk": "/ˈkɒpi/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中间的同景观照片作为左照片副本，由故事指定。",
+        "sentence": "The second photo is a copy of the first.",
+        "matched_form": "copy",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The second photo is a copy of the first.",
+      "example_zh": "第二张照片是第一张的副本。",
+      "bbox_normalized": [
+        0.41,
+        0.808,
+        0.695,
+        0.926
+      ],
+      "collocations": [
+        "a second copy",
+        "make a copy"
+      ],
+      "example_en_highlighted": "The second photo is a **copy** of the first.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（副本），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W551",
+      "word": "print",
+      "aliases": [],
+      "source_zh_unreviewed": "印刷；打印",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "冲印照片",
+      "pos": "noun",
+      "ipa_us": "/prɪnt/",
+      "ipa_uk": "/prɪnt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "从右侧打印机伸出的照片。",
+        "sentence": "A photo print comes out of the printer.",
+        "matched_form": "print",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A photo print comes out of the printer.",
+      "example_zh": "一张冲印照片从打印机里出来。",
+      "bbox_normalized": [
+        0.72,
+        0.793,
+        0.996,
+        0.914
+      ],
+      "collocations": [
+        "a photo print",
+        "make a print"
+      ],
+      "example_en_highlighted": "A photo **print** comes out of the printer.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（冲印照片），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W426",
+      "word": "mark",
+      "aliases": [],
+      "source_zh_unreviewed": "标记；记号",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "印记",
+      "pos": "noun",
+      "ipa_us": "/mɑːrk/",
+      "ipa_uk": "/mɑːk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左照片白边上的独立黑圆点。",
+        "sentence": "A small dark mark is on the white border.",
+        "matched_form": "mark",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A small dark mark is on the white border.",
+      "example_zh": "白色边框上有一个深色的小印记。",
+      "bbox_normalized": [
+        0.376,
+        0.912,
+        0.401,
+        0.924
+      ],
+      "collocations": [
+        "a small mark",
+        "leave a mark"
+      ],
+      "example_en_highlighted": "A small dark **mark** is on the white border.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（印记），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W012",
+      "word": "again",
+      "aliases": [],
+      "source_zh_unreviewed": "再次；又；重新",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "再一次",
+      "pos": "adverb",
+      "ipa_us": "/əˈɡen/",
+      "ipa_uk": "/əˈɡen/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I use the camera again after lunch.",
+        "matched_form": "again",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I use the camera again after lunch.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I use the camera again after lunch.",
+      "example_zh": "午饭后，我再次使用相机。",
+      "bbox_normalized": null,
+      "collocations": [
+        "try again",
+        "once again"
+      ],
+      "example_en_highlighted": "I use the camera **again** after lunch.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I use the camera again after lunch.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I use my camera again, then make a print and a copy to keep.",
+    "zh": "我再次使用相机，然后印出一张照片，再留一份副本。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C068\n标题 摄影与胶片记录\n场景 主角用相机拍摄，重复拍摄、照片印出、复制、标记和留档的过程清楚。\n目标词 camera, record, copy, print, mark, again\n原创主配文草案 I use the camera to make a record of the day.\n中文草案 我用相机记录这一天。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. One cool editorial travel photography workspace scene. Adult woman holds recognizable mirrorless camera with round lens upper half. Lower tabletop close: two identical physical small photo prints of a seaside landscape beside each other, plain photo printer at far right with one landscape print emerging, dark small round ink mark on white border of left print, no letters or numbers. Prints convincingly identical copies, printer no logos; camera and normal fingers clear.",
+  "status": "approved",
+  "image_path": "images/C068.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 6,
+    "content_entries_complete": 6,
+    "sentence_evidence_complete": 6,
+    "verified_targets": 6,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C068 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:16:08 UTC",
+    "ended_at": "2026-10-03 17:21:00 UTC",
+    "prompt_path": "prompts/C068_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C068.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "手中相机、两张相似景观照片、打印机出纸照片和左照片黑点均清楚。记录与再次发生用句子。"
+  }
+}

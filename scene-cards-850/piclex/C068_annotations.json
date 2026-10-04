@@ -1,0 +1,208 @@
+{
+  "filename": "C068-摄影与胶片记录.png",
+  "labels": [
+    {
+      "x": 506,
+      "y": 459,
+      "english": "camera",
+      "chinese": "相机",
+      "phoneticUS": "/ˈkæmərə/",
+      "phoneticUK": "/ˈkæmərə/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 460
+      },
+      "anchorPosition": {
+        "x": 506,
+        "y": 459
+      },
+      "boundingBox": {
+        "left": 384,
+        "top": 367,
+        "right": 629,
+        "bottom": 552
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（相机），待最终图确认。",
+        "association": "场景中体现的具体对象（相机），待最终图确认。",
+        "collocation": "use a camera; a digital camera",
+        "example": "I hold the camera with both hands.",
+        "exampleChinese": "我用双手拿着相机。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 115,
+      "english": "record",
+      "chinese": "记录",
+      "phoneticUS": "/ˈrekɚd/",
+      "phoneticUK": "/ˈrekɔːd/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 115
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The photo is a record of our trip.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The photo is a record of our trip.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a record of; keep a record",
+        "example": "The photo is a record of our trip.",
+        "exampleChinese": "这张照片是我们旅行的记录。"
+      }
+    },
+    {
+      "x": 552,
+      "y": 867,
+      "english": "copy",
+      "chinese": "副本",
+      "phoneticUS": "/ˈkɑːpi/",
+      "phoneticUK": "/ˈkɒpi/",
+      "bubblePosition": {
+        "x": 540,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 552,
+        "y": 867
+      },
+      "boundingBox": {
+        "left": 410,
+        "top": 808,
+        "right": 695,
+        "bottom": 926
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（副本），待最终图确认。",
+        "association": "场景中体现的具体对象（副本），待最终图确认。",
+        "collocation": "a second copy; make a copy",
+        "example": "The second photo is a copy of the first.",
+        "exampleChinese": "第二张照片是第一张的副本。"
+      }
+    },
+    {
+      "x": 858,
+      "y": 853,
+      "english": "print",
+      "chinese": "冲印照片",
+      "phoneticUS": "/prɪnt/",
+      "phoneticUK": "/prɪnt/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 730
+      },
+      "anchorPosition": {
+        "x": 858,
+        "y": 853
+      },
+      "boundingBox": {
+        "left": 720,
+        "top": 793,
+        "right": 996,
+        "bottom": 914
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（冲印照片），待最终图确认。",
+        "association": "场景中体现的具体对象（冲印照片），待最终图确认。",
+        "collocation": "a photo print; make a print",
+        "example": "A photo print comes out of the printer.",
+        "exampleChinese": "一张冲印照片从打印机里出来。"
+      }
+    },
+    {
+      "x": 388,
+      "y": 918,
+      "english": "mark",
+      "chinese": "印记",
+      "phoneticUS": "/mɑːrk/",
+      "phoneticUK": "/mɑːk/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 388,
+        "y": 918
+      },
+      "boundingBox": {
+        "left": 376,
+        "top": 912,
+        "right": 401,
+        "bottom": 924
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（印记），待最终图确认。",
+        "association": "场景中体现的具体对象（印记），待最终图确认。",
+        "collocation": "a small mark; leave a mark",
+        "example": "A small dark mark is on the white border.",
+        "exampleChinese": "白色边框上有一个深色的小印记。"
+      }
+    },
+    {
+      "x": 135,
+      "y": 100,
+      "english": "again",
+      "chinese": "再一次",
+      "phoneticUS": "/əˈɡen/",
+      "phoneticUK": "/əˈɡen/",
+      "bubblePosition": {
+        "x": 135,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I use the camera again after lunch.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I use the camera again after lunch.；不声称该状态/含义本身在画面可见。",
+        "collocation": "try again; once again",
+        "example": "I use the camera again after lunch.",
+        "exampleChinese": "午饭后，我再次使用相机。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I use my camera again, then make a print and a copy to keep.",
+    "chinese": "我再次使用相机，然后印出一张照片，再留一份副本。",
+    "source": "原创配文 · C068 摄影与胶片记录",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

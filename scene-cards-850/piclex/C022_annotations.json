@@ -1,0 +1,294 @@
+{
+  "filename": "C022-门口换鞋.png",
+  "labels": [
+    {
+      "x": 96,
+      "y": 790,
+      "english": "shoe",
+      "chinese": "鞋",
+      "phoneticUS": "/ʃuː/",
+      "phoneticUK": "/ʃuː/",
+      "bubblePosition": {
+        "x": 118,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 96,
+        "y": 790
+      },
+      "boundingBox": {
+        "left": 54,
+        "top": 710,
+        "right": 143,
+        "bottom": 840
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景一只低帮白鞋",
+        "association": "前景一只低帮白鞋",
+        "collocation": "a white shoe",
+        "example": "A white shoe is beside the bench.",
+        "exampleChinese": "一只白鞋在长凳旁边。"
+      }
+    },
+    {
+      "x": 841,
+      "y": 774,
+      "english": "boot",
+      "chinese": "靴子",
+      "phoneticUS": "/buːt/",
+      "phoneticUK": "/buːt/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 841,
+        "y": 774
+      },
+      "boundingBox": {
+        "left": 793,
+        "top": 587,
+        "right": 890,
+        "bottom": 901
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景一只高筒棕色靴子",
+        "association": "前景一只高筒棕色靴子",
+        "collocation": "a tall boot",
+        "example": "The boot covers the ankle.",
+        "exampleChinese": "这只靴子盖住脚踝。"
+      }
+    },
+    {
+      "x": 182,
+      "y": 501,
+      "english": "sock",
+      "chinese": "短袜",
+      "phoneticUS": "/sɑːk/",
+      "phoneticUK": "/sɒk/",
+      "bubblePosition": {
+        "x": 114,
+        "y": 416
+      },
+      "anchorPosition": {
+        "x": 182,
+        "y": 501
+      },
+      "boundingBox": {
+        "left": 131,
+        "top": 462,
+        "right": 240,
+        "bottom": 529
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "长凳上短灰袜，与独立长袜区分",
+        "association": "长凳上短灰袜，与独立长袜区分",
+        "collocation": "an ankle sock",
+        "example": "The sock is short.",
+        "exampleChinese": "这只袜子是短袜。"
+      }
+    },
+    {
+      "x": 263,
+      "y": 598,
+      "english": "stocking",
+      "chinese": "长筒袜",
+      "phoneticUS": "/ˈstɑːkɪŋ/",
+      "phoneticUK": "/ˈstɒkɪŋ/",
+      "bubblePosition": {
+        "x": 317,
+        "y": 750
+      },
+      "anchorPosition": {
+        "x": 263,
+        "y": 598
+      },
+      "boundingBox": {
+        "left": 221,
+        "top": 444,
+        "right": 333,
+        "bottom": 699
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "长凳上独立薄黑长筒袜，非连裤袜，长度由设定明确",
+        "association": "长凳上独立薄黑长筒袜，非连裤袜，长度由设定明确",
+        "collocation": "a long stocking",
+        "example": "The stocking reaches the knee.",
+        "exampleChinese": "这只长筒袜到膝盖。"
+      }
+    },
+    {
+      "x": 238,
+      "y": 111,
+      "english": "hat",
+      "chinese": "帽子",
+      "phoneticUS": "/hæt/",
+      "phoneticUK": "/hæt/",
+      "bubblePosition": {
+        "x": 390,
+        "y": 107
+      },
+      "anchorPosition": {
+        "x": 238,
+        "y": 111
+      },
+      "boundingBox": {
+        "left": 145,
+        "top": 19,
+        "right": 326,
+        "bottom": 202
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "墙上有帽檐的帽子",
+        "association": "墙上有帽檐的帽子",
+        "collocation": "a brimmed hat",
+        "example": "The hat hangs on the wall.",
+        "exampleChinese": "帽子挂在墙上。"
+      }
+    },
+    {
+      "x": 811,
+      "y": 521,
+      "english": "glove",
+      "chinese": "手套",
+      "phoneticUS": "/ɡlʌv/",
+      "phoneticUK": "/ɡlʌv/",
+      "bubblePosition": {
+        "x": 890,
+        "y": 565
+      },
+      "anchorPosition": {
+        "x": 811,
+        "y": 521
+      },
+      "boundingBox": {
+        "left": 765,
+        "top": 486,
+        "right": 858,
+        "bottom": 544
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "长凳上一只五指手套",
+        "association": "长凳上一只五指手套",
+        "collocation": "a warm glove",
+        "example": "The glove has five fingers.",
+        "exampleChinese": "这只手套有五个指头。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 437,
+      "english": "bag",
+      "chinese": "包",
+      "phoneticUS": "/bæɡ/",
+      "phoneticUK": "/bæɡ/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 274
+      },
+      "anchorPosition": {
+        "x": 800,
+        "y": 437
+      },
+      "boundingBox": {
+        "left": 693,
+        "top": 347,
+        "right": 909,
+        "bottom": 501
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "棕色手提包整体",
+        "association": "棕色手提包整体",
+        "collocation": "a leather bag",
+        "example": "The bag has a handle.",
+        "exampleChinese": "这个包有提手。"
+      }
+    },
+    {
+      "x": 801,
+      "y": 424,
+      "english": "leather",
+      "chinese": "皮革",
+      "phoneticUS": "/ˈleðər/",
+      "phoneticUK": "/ˈleðə/",
+      "bubblePosition": {
+        "x": 109,
+        "y": 62
+      },
+      "anchorPosition": {
+        "x": 801,
+        "y": 424
+      },
+      "boundingBox": {
+        "left": 693,
+        "top": 347,
+        "right": 909,
+        "bottom": 501
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "棕色包的可见区域；leather材质来自原创场景设定，框定位材料制成的对象，不从纹理鉴定成分。",
+        "association": "棕色包的可见区域；leather材质来自原创场景设定，框定位材料制成的对象，不从纹理鉴定成分。",
+        "collocation": "made of leather",
+        "example": "The bag is made of leather.",
+        "exampleChinese": "这个包是皮革制成的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I choose my shoes and take my bag before stepping outside.",
+    "chinese": "出门前，我选好鞋，再拿上包。",
+    "source": "原创配文 · C022 门口换鞋",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

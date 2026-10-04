@@ -1,0 +1,380 @@
+{
+  "id": "C009",
+  "chapter": "家里的一天",
+  "title": "沙发边的小宠物",
+  "scene": "白色小狗和猫在沙发边，尾巴清楚可见，主人轻柔抚摸。",
+  "target_count": 8,
+  "primary_words": [
+    "dog",
+    "cat",
+    "tail",
+    "animal",
+    "soft",
+    "touch",
+    "comfort",
+    "rest"
+  ],
+  "targets": [
+    {
+      "word_id": "W210",
+      "word": "dog",
+      "aliases": [],
+      "source_zh_unreviewed": "狗",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "狗",
+      "pos": "noun (countable)",
+      "ipa_us": "/dɑːɡ/",
+      "ipa_uk": "/dɒɡ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框白色小狗可见完整身体。",
+        "sentence": "The dog sits beside the sofa.",
+        "matched_form": "dog",
+        "image_verified": true
+      },
+      "example_en": "The dog sits beside the sofa.",
+      "example_zh": "狗坐在沙发旁边。",
+      "bbox_normalized": [
+        0.043,
+        0.491,
+        0.413,
+        0.777
+      ],
+      "collocations": [
+        "a small dog",
+        "a pet dog"
+      ],
+      "example_en_highlighted": "The **dog** sits beside the sofa.",
+      "annotation_mode": "object",
+      "annotation_note": "框白色小狗可见完整身体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W118",
+      "word": "cat",
+      "aliases": [],
+      "source_zh_unreviewed": "猫",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "猫",
+      "pos": "noun (countable)",
+      "ipa_us": "/kæt/",
+      "ipa_uk": "/kæt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "框灰猫身体，不含主人或小狗。",
+        "sentence": "The cat lies on the rug.",
+        "matched_form": "cat",
+        "image_verified": true
+      },
+      "example_en": "The cat lies on the rug.",
+      "example_zh": "猫躺在地毯上。",
+      "bbox_normalized": [
+        0.508,
+        0.594,
+        1.0,
+        0.87
+      ],
+      "collocations": [
+        "a pet cat",
+        "a grey cat"
+      ],
+      "example_en_highlighted": "The **cat** lies on the rug.",
+      "annotation_mode": "object",
+      "annotation_note": "框灰猫身体，不含主人或小狗。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W735",
+      "word": "tail",
+      "aliases": [],
+      "source_zh_unreviewed": "尾巴",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "尾巴",
+      "pos": "noun (countable)",
+      "ipa_us": "/teɪl/",
+      "ipa_uk": "/teɪl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "只定位灰猫伸出的尾巴。",
+        "sentence": "The cat has a long tail.",
+        "matched_form": "tail",
+        "image_verified": true
+      },
+      "example_en": "The cat has a long tail.",
+      "example_zh": "猫有一条长尾巴。",
+      "bbox_normalized": [
+        0.546,
+        0.785,
+        0.81,
+        0.871
+      ],
+      "collocations": [
+        "a long tail",
+        "the cat's tail"
+      ],
+      "example_en_highlighted": "The cat has a long **tail**.",
+      "annotation_mode": "object",
+      "annotation_note": "只定位灰猫伸出的尾巴。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W024",
+      "word": "animal",
+      "aliases": [],
+      "source_zh_unreviewed": "动物",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "动物",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈænɪməl/",
+      "ipa_uk": "/ˈænɪməl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。",
+        "sentence": "A dog is an animal.",
+        "matched_form": "animal",
+        "context": "以狗作animal类别例句，不把两只宠物合成一个不存在的物体。",
+        "image_verified": null
+      },
+      "example_en": "A dog is an animal.",
+      "example_zh": "狗是一种动物。",
+      "bbox_normalized": [
+        0.043,
+        0.491,
+        0.413,
+        0.777
+      ],
+      "collocations": [
+        "a small animal",
+        "a pet animal"
+      ],
+      "example_en_highlighted": "A dog is an **animal**.",
+      "annotation_mode": "object",
+      "annotation_note": "狗是animal类别的可见实例；框狗本身，不要求把类别当成另一件物体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W679",
+      "word": "soft",
+      "aliases": [],
+      "source_zh_unreviewed": "柔软的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "柔软的",
+      "pos": "adjective",
+      "ipa_us": "/sɑːft/",
+      "ipa_uk": "/sɒft/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The dog has soft fur.",
+        "matched_form": "soft",
+        "context": "毛发外观与原创触感叙述对应，不声称照片可测量触感。",
+        "image_verified": null
+      },
+      "example_en": "The dog has soft fur.",
+      "example_zh": "狗的毛很柔软。",
+      "bbox_normalized": null,
+      "collocations": [
+        "soft fur",
+        "soft to the touch"
+      ],
+      "example_en_highlighted": "The dog has **soft** fur.",
+      "annotation_mode": "context",
+      "annotation_note": "毛发外观与原创触感叙述对应，不声称照片可测量触感。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W774",
+      "word": "touch",
+      "aliases": [],
+      "source_zh_unreviewed": "触摸",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "触摸",
+      "pos": "verb (transitive)",
+      "ipa_us": "/tʌtʃ/",
+      "ipa_uk": "/tʌtʃ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "主人手与狗毛接触的真实局部。",
+        "sentence": "I touch the dog gently.",
+        "matched_form": "touch",
+        "image_verified": true
+      },
+      "example_en": "I touch the dog gently.",
+      "example_zh": "我轻轻摸着狗。",
+      "bbox_normalized": [
+        0.185,
+        0.49,
+        0.28,
+        0.567
+      ],
+      "collocations": [
+        "touch gently",
+        "touch the fur"
+      ],
+      "example_en_highlighted": "I **touch** the dog gently.",
+      "annotation_mode": "action",
+      "annotation_note": "主人手与狗毛接触的真实局部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W145",
+      "word": "comfort",
+      "aliases": [],
+      "source_zh_unreviewed": "安慰；舒适",
+      "planned_mode": "context",
+      "sense_zh": "慰藉",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ˈkʌmfərt/",
+      "ipa_uk": "/ˈkʌmfət/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "My pets bring me comfort.",
+        "matched_form": "comfort",
+        "context": "情感名词由原创叙述与例句覆盖，不设框。",
+        "image_verified": null
+      },
+      "example_en": "My pets bring me comfort.",
+      "example_zh": "我的宠物给我带来慰藉。",
+      "bbox_normalized": null,
+      "collocations": [
+        "bring comfort",
+        "find comfort"
+      ],
+      "example_en_highlighted": "My pets bring me **comfort**.",
+      "annotation_mode": "context",
+      "annotation_note": "情感名词由原创叙述与例句覆盖，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。",
+        "reference_url": "https://dictionary.cambridge.org/us/dictionary/english/comfort",
+        "reference_scope": "dictionary search excerpt; full page unavailable"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W594",
+      "word": "rest",
+      "aliases": [],
+      "source_zh_unreviewed": "休息；其余部分",
+      "planned_mode": "context",
+      "sense_zh": "休息",
+      "pos": "verb (intransitive)",
+      "ipa_us": "/rest/",
+      "ipa_uk": "/rest/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。",
+        "sentence": "The cat likes to rest beside me.",
+        "matched_form": "rest",
+        "context": "卧姿为语境，休息由例句说明，不从静态图断言睡着。",
+        "image_verified": null
+      },
+      "example_en": "The cat likes to rest beside me.",
+      "example_zh": "猫喜欢在我旁边休息。",
+      "bbox_normalized": [
+        0.508,
+        0.594,
+        1.0,
+        0.87
+      ],
+      "collocations": [
+        "rest quietly",
+        "rest beside me"
+      ],
+      "example_en_highlighted": "The cat likes to **rest** beside me.",
+      "annotation_mode": "action",
+      "annotation_note": "猫卧在沙发上的休息主体区域，rest由原创叙述与卧姿说明，不认定它已睡着。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-02",
+        "note": "Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I touch the soft dog while the cat rests beside us.",
+    "zh": "猫在我们旁边休息时，我轻轻摸着柔软的小狗。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C009\n标题 沙发边的小宠物\n场景 白色小狗和猫在沙发边，尾巴清楚可见，主人轻柔抚摸。\n目标词 dog, cat, tail, animal, soft, touch, comfort, rest\n原创主配文草案 The dog is soft to the touch.\n中文草案 这只狗摸起来软软的。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. One tranquil elegant apartment sofa scene. Adult woman seated on an ivory sofa, gently stroking a small white fluffy DOG seated on rug at left center. ONE grey CAT lying comfortably on the rug at right center, its long tail clearly stretched in a curve beside body fully visible, not hidden. Her hand visibly touches dog fur; two distinct anatomically believable animals, four paws where exposed, no merged bodies. Frame woman upper body, sofa, dog, cat and floor, enough environmental breathing room; calm affectionate real-life fashion photograph, detailed fur and natural eye reflections.",
+  "status": "approved",
+  "image_path": "images/C009.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C009 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T11:56:26Z",
+    "ended_at": "2026-10-02T11:59:10Z",
+    "prompt_path": "prompts/C009_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C009.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "白色小狗和灰猫身体分离，猫尾巴沿地毯伸出清楚可辨，人物手真实接触狗毛。动物结构和毛发自然，主人无额外肢体。soft及comfort由原创触感/情感叙述支持，rest由例句和卧姿语境说明，未从照片断言睡眠。"
+  }
+}

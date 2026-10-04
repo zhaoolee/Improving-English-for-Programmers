@@ -1,0 +1,230 @@
+{
+  "filename": "C010-睡前安静下来.png",
+  "labels": [
+    {
+      "x": 785,
+      "y": 110,
+      "english": "tired",
+      "chinese": "疲倦的",
+      "phoneticUS": "/taɪrd/",
+      "phoneticUK": "/taɪəd/",
+      "bubblePosition": {
+        "x": 785,
+        "y": 110
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "倦态与原创自述共同说明tired，不把疲倦当物体。",
+        "association": "倦态与原创自述共同说明tired，不把疲倦当物体。",
+        "collocation": "feel tired; be tired",
+        "example": "I am tired after a long day.",
+        "exampleChinese": "忙了一整天后，我很累。"
+      }
+    },
+    {
+      "x": 650,
+      "y": 210,
+      "english": "quiet",
+      "chinese": "安静的",
+      "phoneticUS": "/ˈkwaɪət/",
+      "phoneticUK": "/ˈkwaɪət/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 210
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "右幅关门卧室作为故事语境，声音属性由句子说明。",
+        "association": "右幅关门卧室作为故事语境，声音属性由句子说明。",
+        "collocation": "a quiet room; keep quiet",
+        "example": "The room is quiet with the door shut.",
+        "exampleChinese": "门关上后，房间很安静。"
+      }
+    },
+    {
+      "x": 125,
+      "y": 95,
+      "english": "noise",
+      "chinese": "噪声",
+      "phoneticUS": "/nɔɪz/",
+      "phoneticUK": "/nɔɪz/",
+      "bubblePosition": {
+        "x": 125,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "左幅交谈仅为语境，听觉证据来自原创例句。",
+        "association": "左幅交谈仅为语境，听觉证据来自原创例句。",
+        "collocation": "hear noise; noise in the hall",
+        "example": "I hear noise in the hall.",
+        "exampleChinese": "我听见走廊里的噪声。"
+      }
+    },
+    {
+      "x": 175,
+      "y": 800,
+      "english": "loud",
+      "chinese": "响亮的",
+      "phoneticUS": "/laʊd/",
+      "phoneticUK": "/laʊd/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 800
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "音量不能从嘴部动作测量，例句明确故事音量。",
+        "association": "音量不能从嘴部动作测量，例句明确故事音量。",
+        "collocation": "a loud voice; be loud",
+        "example": "Their voices are loud.",
+        "exampleChinese": "他们说话的声音很响。"
+      }
+    },
+    {
+      "x": 350,
+      "y": 135,
+      "english": "sound",
+      "chinese": "声音",
+      "phoneticUS": "/saʊnd/",
+      "phoneticUK": "/saʊnd/",
+      "bubblePosition": {
+        "x": 350,
+        "y": 135
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "声音不可见，用句子说明来源，区别于noise的不悦噪声含义。",
+        "association": "声音不可见，用句子说明来源，区别于noise的不悦噪声含义。",
+        "collocation": "the sound of voices; a soft sound",
+        "example": "The sound of voices comes from the hall.",
+        "exampleChinese": "说话声从走廊传来。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 870,
+      "english": "still",
+      "chinese": "不动的",
+      "phoneticUS": "/stɪl/",
+      "phoneticUK": "/stɪl/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 870
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。",
+        "association": "本卡采用不动的含义，不是副词仍然；静态照片本身不证明持续不动。",
+        "collocation": "sit still; keep still",
+        "example": "I sit still on the bed.",
+        "exampleChinese": "我在床上坐着不动。"
+      }
+    },
+    {
+      "x": 400,
+      "y": 820,
+      "english": "back",
+      "chinese": "回到原处",
+      "phoneticUS": "/bæk/",
+      "phoneticUK": "/bæk/",
+      "bubblePosition": {
+        "x": 400,
+        "y": 820
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "双幅故事与go back例句表达返回，不作人体背部解释。",
+        "association": "双幅故事与go back例句表达返回，不作人体背部解释。",
+        "collocation": "go back; back to my room",
+        "example": "I go back to my room.",
+        "exampleChinese": "我回到自己的房间。"
+      }
+    },
+    {
+      "x": 625,
+      "y": 900,
+      "english": "keep",
+      "chinese": "使保持",
+      "phoneticUS": "/kiːp/",
+      "phoneticUK": "/kiːp/",
+      "bubblePosition": {
+        "x": 625,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "keep+宾语+形容词的自然结构，高亮keep，不设虚假框。",
+        "association": "keep+宾语+形容词的自然结构，高亮keep，不设虚假框。",
+        "collocation": "keep the room quiet; keep still",
+        "example": "Please keep the room quiet.",
+        "exampleChinese": "请让房间保持安静。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Please keep the room quiet; I am tired and need to rest.",
+    "chinese": "请让房间保持安静；我累了，需要休息。",
+    "source": "原创配文 · C010 睡前安静下来",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

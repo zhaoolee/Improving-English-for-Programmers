@@ -1,0 +1,364 @@
+{
+  "filename": "C065-手工几何图案.png",
+  "labels": [
+    {
+      "x": 220,
+      "y": 707,
+      "english": "circle",
+      "chinese": "圆",
+      "phoneticUS": "/ˈsɝːkəl/",
+      "phoneticUK": "/ˈsɜːkəl/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 600
+      },
+      "anchorPosition": {
+        "x": 220,
+        "y": 707
+      },
+      "boundingBox": {
+        "left": 131,
+        "top": 663,
+        "right": 309,
+        "bottom": 751
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（圆），待最终图确认。",
+        "association": "场景中体现的具体对象（圆），待最终图确认。",
+        "collocation": "draw a circle; a paper circle",
+        "example": "I cut a circle from blue paper.",
+        "exampleChinese": "我用蓝纸剪出一个圆。"
+      }
+    },
+    {
+      "x": 460,
+      "y": 698,
+      "english": "square",
+      "chinese": "正方形",
+      "phoneticUS": "/skwer/",
+      "phoneticUK": "/skweə/",
+      "bubblePosition": {
+        "x": 390,
+        "y": 540
+      },
+      "anchorPosition": {
+        "x": 460,
+        "y": 698
+      },
+      "boundingBox": {
+        "left": 369,
+        "top": 647,
+        "right": 551,
+        "bottom": 750
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（正方形），待最终图确认。",
+        "association": "场景中体现的具体对象（正方形），待最终图确认。",
+        "collocation": "a paper square; draw a square",
+        "example": "The square has four equal sides.",
+        "exampleChinese": "这个正方形有四条等长的边。"
+      }
+    },
+    {
+      "x": 259,
+      "y": 806,
+      "english": "line",
+      "chinese": "线",
+      "phoneticUS": "/laɪn/",
+      "phoneticUK": "/laɪn/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 760
+      },
+      "anchorPosition": {
+        "x": 259,
+        "y": 806
+      },
+      "boundingBox": {
+        "left": 111,
+        "top": 789,
+        "right": 407,
+        "bottom": 823
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（线），待最终图确认。",
+        "association": "场景中体现的具体对象（线），待最终图确认。",
+        "collocation": "a straight line; draw a line",
+        "example": "The dark strip represents a line.",
+        "exampleChinese": "这根深色纸条表示一条线。"
+      }
+    },
+    {
+      "x": 718,
+      "y": 690,
+      "english": "angle",
+      "chinese": "角",
+      "phoneticUS": "/ˈæŋɡəl/",
+      "phoneticUK": "/ˈæŋɡəl/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 565
+      },
+      "anchorPosition": {
+        "x": 718,
+        "y": 690
+      },
+      "boundingBox": {
+        "left": 622,
+        "top": 644,
+        "right": 814,
+        "bottom": 736
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（角），待最终图确认。",
+        "association": "场景中体现的关系（角），待最终图确认。",
+        "collocation": "a right angle; at an angle",
+        "example": "The two pink strips form a right angle.",
+        "exampleChinese": "两根粉色纸条构成一个直角。"
+      }
+    },
+    {
+      "x": 599,
+      "y": 822,
+      "english": "curve",
+      "chinese": "曲线",
+      "phoneticUS": "/kɝːv/",
+      "phoneticUK": "/kɜːv/",
+      "bubblePosition": {
+        "x": 705,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 599,
+        "y": 822
+      },
+      "boundingBox": {
+        "left": 469,
+        "top": 785,
+        "right": 730,
+        "bottom": 859
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（曲线），待最终图确认。",
+        "association": "场景中体现的具体对象（曲线），待最终图确认。",
+        "collocation": "a gentle curve; draw a curve",
+        "example": "The purple strip forms a curve.",
+        "exampleChinese": "紫色纸条形成一条曲线。"
+      }
+    },
+    {
+      "x": 256,
+      "y": 830,
+      "english": "parallel",
+      "chinese": "平行的",
+      "phoneticUS": "/ˈpærəlel/",
+      "phoneticUK": "/ˈpærəlel/",
+      "bubblePosition": {
+        "x": 390,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 256,
+        "y": 830
+      },
+      "boundingBox": {
+        "left": 104,
+        "top": 785,
+        "right": 409,
+        "bottom": 875
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的关系（平行的），待最终图确认。",
+        "association": "场景中体现的关系（平行的），待最终图确认。",
+        "collocation": "parallel lines; run parallel",
+        "example": "The two dark lines are parallel.",
+        "exampleChinese": "这两条深色线是平行的。"
+      }
+    },
+    {
+      "x": 220,
+      "y": 707,
+      "english": "round",
+      "chinese": "圆的",
+      "phoneticUS": "/raʊnd/",
+      "phoneticUK": "/raʊnd/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 220,
+        "y": 707
+      },
+      "boundingBox": {
+        "left": 131,
+        "top": 663,
+        "right": 309,
+        "bottom": 751
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（圆的），待最终图确认。",
+        "association": "场景中体现的具体对象（圆的），待最终图确认。",
+        "collocation": "a round shape; a round disk",
+        "example": "The blue piece is round.",
+        "exampleChinese": "这块蓝色纸片是圆的。"
+      }
+    },
+    {
+      "x": 259,
+      "y": 851,
+      "english": "straight",
+      "chinese": "直的",
+      "phoneticUS": "/streɪt/",
+      "phoneticUK": "/streɪt/",
+      "bubblePosition": {
+        "x": 395,
+        "y": 750
+      },
+      "anchorPosition": {
+        "x": 259,
+        "y": 851
+      },
+      "boundingBox": {
+        "left": 111,
+        "top": 827,
+        "right": 407,
+        "bottom": 875
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（直的），待最终图确认。",
+        "association": "场景中体现的具体对象（直的），待最终图确认。",
+        "collocation": "a straight line; keep straight",
+        "example": "The dark paper strip is straight.",
+        "exampleChinese": "这根深色纸条是直的。"
+      }
+    },
+    {
+      "x": 895,
+      "y": 728,
+      "english": "flat",
+      "chinese": "平的",
+      "phoneticUS": "/flæt/",
+      "phoneticUK": "/flæt/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 750
+      },
+      "anchorPosition": {
+        "x": 895,
+        "y": 728
+      },
+      "boundingBox": {
+        "left": 793,
+        "top": 594,
+        "right": 998,
+        "bottom": 862
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（平的），待最终图确认。",
+        "association": "场景中体现的具体对象（平的），待最终图确认。",
+        "collocation": "a flat sheet; lie flat",
+        "example": "The sheet lies flat on the table.",
+        "exampleChinese": "这张纸平放在桌上。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 804,
+      "english": "point",
+      "chinese": "尖端",
+      "phoneticUS": "/pɔɪnt/",
+      "phoneticUK": "/pɔɪnt/",
+      "bubblePosition": {
+        "x": 905,
+        "y": 920
+      },
+      "anchorPosition": {
+        "x": 815,
+        "y": 804
+      },
+      "boundingBox": {
+        "left": 792,
+        "top": 787,
+        "right": 839,
+        "bottom": 822
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（尖端），待最终图确认。",
+        "association": "场景中体现的具体对象（尖端），待最终图确认。",
+        "collocation": "a sharp point; the point of a pencil",
+        "example": "The pencil has a sharp point.",
+        "exampleChinese": "这支铅笔有尖尖的尖端。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I make a circle and a square, then place two straight lines side by side.",
+    "chinese": "我制作一个圆和一个正方形，然后并排放好两条直线。",
+    "source": "原创配文 · C065 手工几何图案",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

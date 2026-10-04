@@ -1,0 +1,278 @@
+{
+  "filename": "C083-水管与水泵.png",
+  "labels": [
+    {
+      "x": 509,
+      "y": 803,
+      "english": "pipe",
+      "chinese": "管道",
+      "phoneticUS": "/paɪp/",
+      "phoneticUK": "/paɪp/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 920
+      },
+      "anchorPosition": {
+        "x": 509,
+        "y": 803
+      },
+      "boundingBox": {
+        "left": 327,
+        "top": 752,
+        "right": 692,
+        "bottom": 855
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（管道），待最终图确认。",
+        "association": "场景中体现的具体对象（管道），待最终图确认。",
+        "collocation": "a clear pipe; a water pipe",
+        "example": "Water passes through the clear pipe in the lesson.",
+        "exampleChinese": "本课中的水通过透明管道。"
+      }
+    },
+    {
+      "x": 142,
+      "y": 602,
+      "english": "pump",
+      "chinese": "泵",
+      "phoneticUS": "/pʌmp/",
+      "phoneticUK": "/pʌmp/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 405
+      },
+      "anchorPosition": {
+        "x": 142,
+        "y": 602
+      },
+      "boundingBox": {
+        "left": 73,
+        "top": 460,
+        "right": 211,
+        "bottom": 744
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（泵），待最终图确认。",
+        "association": "场景中体现的具体对象（泵），待最终图确认。",
+        "collocation": "a hand pump; a water pump",
+        "example": "The hand pump is beside the jar.",
+        "exampleChinese": "手动水泵放在罐子旁。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 85,
+      "english": "elastic",
+      "chinese": "有弹性的",
+      "phoneticUS": "/ɪˈlæstɪk/",
+      "phoneticUK": "/ɪˈlæstɪk/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The blue tube is elastic in our demonstration.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The blue tube is elastic in our demonstration.；不声称该状态/含义本身在画面可见。",
+        "collocation": "an elastic tube; elastic material",
+        "example": "The blue tube is elastic in our demonstration.",
+        "exampleChinese": "我们的演示中，蓝色管子有弹性。"
+      }
+    },
+    {
+      "x": 805,
+      "y": 849,
+      "english": "solid",
+      "chinese": "实心的",
+      "phoneticUS": "/ˈsɑːlɪd/",
+      "phoneticUK": "/ˈsɒlɪd/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 805,
+        "y": 849
+      },
+      "boundingBox": {
+        "left": 707,
+        "top": 811,
+        "right": 904,
+        "bottom": 887
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（实心的），待最终图确认。",
+        "association": "场景中体现的具体对象（实心的），待最终图确认。",
+        "collocation": "a solid rod; a solid piece",
+        "example": "The solid rod has no hole through its center.",
+        "exampleChinese": "实心杆的中心没有贯穿孔。"
+      }
+    },
+    {
+      "x": 348,
+      "y": 778,
+      "english": "hollow",
+      "chinese": "空心的",
+      "phoneticUS": "/ˈhɑːloʊ/",
+      "phoneticUK": "/ˈhɒləʊ/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 348,
+        "y": 778
+      },
+      "boundingBox": {
+        "left": 329,
+        "top": 752,
+        "right": 368,
+        "bottom": 805
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（空心的），待最终图确认。",
+        "association": "场景中体现的具体对象（空心的），待最终图确认。",
+        "collocation": "a hollow tube; a hollow center",
+        "example": "The hollow tube has an open center.",
+        "exampleChinese": "空心管的中间是通的。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 90,
+      "english": "stiff",
+      "chinese": "不易弯曲的",
+      "phoneticUS": "/stɪf/",
+      "phoneticUK": "/stɪf/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The clear pipe is stiff in this demonstration.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The clear pipe is stiff in this demonstration.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a stiff pipe; stiff material",
+        "example": "The clear pipe is stiff in this demonstration.",
+        "exampleChinese": "这次演示中的透明管道不易弯曲。"
+      }
+    },
+    {
+      "x": 512,
+      "y": 633,
+      "english": "bent",
+      "chinese": "弯曲的",
+      "phoneticUS": "/bent/",
+      "phoneticUK": "/bent/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 545
+      },
+      "anchorPosition": {
+        "x": 512,
+        "y": 633
+      },
+      "boundingBox": {
+        "left": 199,
+        "top": 538,
+        "right": 826,
+        "bottom": 729
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（弯曲的），待最终图确认。",
+        "association": "场景中体现的具体对象（弯曲的），待最终图确认。",
+        "collocation": "a bent tube; a bent shape",
+        "example": "The blue tube is bent into a U shape.",
+        "exampleChinese": "蓝色管子弯成了U形。"
+      }
+    },
+    {
+      "x": 512,
+      "y": 612,
+      "english": "apparatus",
+      "chinese": "装置",
+      "phoneticUS": "/ˌæpəˈrætəs/",
+      "phoneticUK": "/ˌæpəˈreɪtəs/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 410
+      },
+      "anchorPosition": {
+        "x": 512,
+        "y": 612
+      },
+      "boundingBox": {
+        "left": 73,
+        "top": 460,
+        "right": 952,
+        "bottom": 765
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（装置），待最终图确认。",
+        "association": "场景中体现的具体对象（装置），待最终图确认。",
+        "collocation": "a simple apparatus; laboratory apparatus",
+        "example": "The apparatus helps us study water flow.",
+        "exampleChinese": "这个装置帮助我们学习水流。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I examine the pipe and pump, then compare a hollow tube with a solid rod.",
+    "chinese": "我查看管道和水泵，然后比较空心管与实心杆。",
+    "source": "原创配文 · C083 水管与水泵",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

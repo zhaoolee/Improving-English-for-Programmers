@@ -1,0 +1,252 @@
+C043  草地上的昆虫
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C043.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C043.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:14:45Z
+  提示词文件: prompts/C043_image_final.txt
+
+场景: 微距草地，蜜蜂、蚂蚁、蠕虫、苍蝇和其他昆虫各有位置。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 蜜蜂、蚂蚁、苍蝇为独立微距，蚯蚓无足且不归为昆虫；微距与人物幅分开表示不同尺度。small用蚂蚁与草叶相对尺度，不把放大图当实际长度。
+
+主配文:
+  英文: Small lives in the grass: a bee, an ant, and a patient observer.
+  中文: 草间的小生命：蜜蜂、蚂蚁，还有一位耐心的观察者。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): grass, bee, ant, worm, fly, insect, small, natural
+
+------------------------------------------------------------------------
+[1/8] grass  (W310)
+  词义: 草
+  词性: noun
+  音标: UK /ɡrɑːs/ | US /ɡræs/
+  搭配: green grass
+  例句: The grass is green beside the path.
+  例句高亮: The **grass** is green beside the path.
+  例句中文: 小径旁的草是绿色的。
+  标注模式: object
+  标注说明: 微距中的实际草叶。
+  坐标(normalized): [0.654, 0.269, 0.992, 0.402]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "微距中的实际草叶。"
+    sentence: "The grass is green beside the path."
+    matched_form: "grass"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 草
+
+------------------------------------------------------------------------
+[2/8] bee  (W060)
+  词义: 蜜蜂
+  词性: noun
+  音标: UK /biː/ | US /biː/
+  搭配: a honey bee
+  例句: A bee rests on the flower.
+  例句高亮: A **bee** rests on the flower.
+  例句中文: 一只蜜蜂停在花上。
+  标注模式: object
+  标注说明: 有翅六足分节的蜜蜂。
+  坐标(normalized): [0.052, 0.417, 0.348, 0.611]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "有翅六足分节的蜜蜂。"
+    sentence: "A bee rests on the flower."
+    matched_form: "bee"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 蜜蜂
+
+------------------------------------------------------------------------
+[3/8] ant  (W026)
+  词义: 蚂蚁
+  词性: noun
+  音标: UK /ænt/ | US /ænt/
+  搭配: a small ant
+  例句: An ant walks on a blade of grass.
+  例句高亮: An **ant** walks on a blade of grass.
+  例句中文: 一只蚂蚁在一片草叶上走。
+  标注模式: object
+  标注说明: 独立六足分节蚂蚁，步行由句子说明。
+  坐标(normalized): [0.589, 0.475, 0.912, 0.625]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立六足分节蚂蚁，步行由句子说明。"
+    sentence: "An ant walks on a blade of grass."
+    matched_form: "ant"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 蚂蚁
+
+------------------------------------------------------------------------
+[4/8] worm  (W841)
+  词义: 蠕虫
+  词性: noun
+  音标: UK /wɜːm/ | US /wɜːrm/
+  搭配: a garden worm
+  例句: The worm lies on damp soil.
+  例句高亮: The **worm** lies on damp soil.
+  例句中文: 蠕虫在潮湿土壤上。
+  标注模式: object
+  标注说明: 无足蚯蚓，明确不是昆虫。
+  坐标(normalized): [0.025, 0.739, 0.417, 0.945]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "无足蚯蚓，明确不是昆虫。"
+    sentence: "The worm lies on damp soil."
+    matched_form: "worm"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 蠕虫
+
+------------------------------------------------------------------------
+[5/8] fly  (W277)
+  词义: 苍蝇
+  词性: noun
+  音标: UK /flaɪ/ | US /flaɪ/
+  搭配: a house fly
+  例句: A fly rests on a leaf.
+  例句高亮: A **fly** rests on a leaf.
+  例句中文: 一只苍蝇停在叶上。
+  标注模式: object
+  标注说明: 独立两翅六足苍蝇，选择名词义。
+  坐标(normalized): [0.537, 0.716, 0.933, 0.955]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立两翅六足苍蝇，选择名词义。"
+    sentence: "A fly rests on a leaf."
+    matched_form: "fly"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 飞行；苍蝇
+
+------------------------------------------------------------------------
+[6/8] insect  (W362)
+  词义: 昆虫
+  词性: noun
+  音标: UK /ˈɪnsekt/ | US /ˈɪnsekt/
+  搭配: a small insect
+  例句: The bee is an insect.
+  例句高亮: The bee is an **insect**.
+  例句中文: 蜜蜂是一种昆虫。
+  标注模式: object
+  标注说明: 用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。
+  坐标(normalized): [0.052, 0.417, 0.348, 0.611]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。"
+    sentence: "The bee is an insect."
+    matched_form: "insect"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 昆虫
+
+------------------------------------------------------------------------
+[7/8] small  (W666)
+  词义: 小的
+  词性: adjective
+  音标: UK /smɔːl/ | US /smɔːl/
+  搭配: a small ant
+  例句: The ant is small beside the leaf.
+  例句高亮: The ant is **small** beside the leaf.
+  例句中文: 蚂蚁在叶子旁显得很小。
+  标注模式: object
+  标注说明: 实际蚂蚁与草叶比例定位大小，不测长度。
+  坐标(normalized): [0.589, 0.475, 0.912, 0.625]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际蚂蚁与草叶比例定位大小，不测长度。"
+    sentence: "The ant is small beside the leaf."
+    matched_form: "small"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 小的
+
+------------------------------------------------------------------------
+[8/8] natural  (W465)
+  词义: 自然的
+  词性: adjective
+  音标: UK /ˈnætʃrəl/ | US /ˈnætʃrəl/
+  搭配: a natural habitat
+  例句: The grass provides a natural habitat.
+  例句高亮: The grass provides a **natural** habitat.
+  例句中文: 草地提供自然栖息环境。
+  标注模式: context
+  标注说明: 自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The grass provides a natural habitat."
+    matched_form: "natural"
+    context: "自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 自然的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C043 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Refined nature photography composition: upper quarter woman crouching calmly in garden meadow, inspecting grass at a distance, soft cool portrait; lower three quarters four clean photographic macro panels in 2x2 grid. Upper-left honeybee on white flower with six legs and two antennae. Upper-right one small black ant on green blade of grass with six legs and distinct segmented body. Lower-left one earthworm on damp bare soil among grass roots, legless, no insect legs. Lower-right one ordinary housefly on a leaf, six legs, two wings and compound eyes. Distinct real animals, no hybrid anatomy, no written labels. Bright coherent macro focus, natural scale, grass present.

@@ -1,0 +1,252 @@
+C042  从种子到收成
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C042.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C042.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:14:01Z
+  提示词文件: prompts/C042_image_final.txt
+
+场景: 农田双幅呈现播种与作物长大，铲子、犁和谷物清楚。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 上幅掌中种子、宽铲与谷仓，下面成熟麦田和弯犁具可辨。fertile定位故事土壤，不凭黑色证明肥力；growth保留时间过程语境。
+
+主配文:
+  英文: Seeds in my hand, grain in the field, and a season of growth.
+  中文: 手里是种子，田里是谷物，一季生长正在展开。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): farm, field, seed, grain, spade, plough, fertile, growth
+
+------------------------------------------------------------------------
+[1/8] farm  (W254)
+  词义: 农场
+  词性: noun
+  音标: UK /fɑːm/ | US /fɑːrm/
+  搭配: a small farm
+  例句: The farm has a barn and a field.
+  例句高亮: The **farm** has a barn and a field.
+  例句中文: 农场有一座谷仓和一块田。
+  标注模式: object
+  标注说明: 谷仓与耕地的农场局部。
+  坐标(normalized): [0.624, 0.047, 0.997, 0.208]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "谷仓与耕地的农场局部。"
+    sentence: "The farm has a barn and a field."
+    matched_form: "farm"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 农场；农庄
+
+------------------------------------------------------------------------
+[2/8] field  (W264)
+  词义: 田地
+  词性: noun
+  音标: UK /fiːld/ | US /fiːld/
+  搭配: a wheat field
+  例句: The field is full of wheat.
+  例句高亮: The **field** is full of wheat.
+  例句中文: 田地里长满小麦。
+  标注模式: object
+  标注说明: 成熟麦田区域。
+  坐标(normalized): [0.0, 0.659, 0.658, 0.993]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "成熟麦田区域。"
+    sentence: "The field is full of wheat."
+    matched_form: "field"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 田地；领域
+
+------------------------------------------------------------------------
+[3/8] seed  (W630)
+  词义: 种子
+  词性: noun
+  音标: UK /siːd/ | US /siːd/
+  搭配: a wheat seed
+  例句: I hold a seed in my hand.
+  例句高亮: I hold a **seed** in my hand.
+  例句中文: 我手里拿着一粒种子。
+  标注模式: object
+  标注说明: 掌中种子，种子用途由播种故事说明。
+  坐标(normalized): [0.411, 0.424, 0.464, 0.451]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "掌中种子，种子用途由播种故事说明。"
+    sentence: "I hold a seed in my hand."
+    matched_form: "seed"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 种子
+
+------------------------------------------------------------------------
+[4/8] grain  (W309)
+  词义: 谷物
+  词性: noun
+  音标: UK /ɡreɪn/ | US /ɡreɪn/
+  搭配: ripe grain
+  例句: The ripe grain is ready for harvest.
+  例句高亮: The ripe **grain** is ready for harvest.
+  例句中文: 成熟的谷物可以收割了。
+  标注模式: object
+  标注说明: 成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。
+  坐标(normalized): [0.43, 0.739, 0.56, 0.853]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。"
+    sentence: "The ripe grain is ready for harvest."
+    matched_form: "grain"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 谷物
+
+------------------------------------------------------------------------
+[5/8] spade  (W689)
+  词义: 铲子
+  词性: noun
+  音标: UK /speɪd/ | US /speɪd/
+  搭配: a garden spade
+  例句: The spade rests in the soil.
+  例句高亮: The **spade** rests in the soil.
+  例句中文: 铲子插在土里。
+  标注模式: object
+  标注说明: 独立宽金属铲头与杆。
+  坐标(normalized): [0.754, 0.0, 0.966, 0.513]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立宽金属铲头与杆。"
+    sentence: "The spade rests in the soil."
+    matched_form: "spade"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 铲子
+
+------------------------------------------------------------------------
+[6/8] plough  (W535)
+  词义: 犁
+  词性: noun
+  音标: UK /plaʊ/ | US /plaʊ/
+  搭配: a small plough
+  例句: The plough turns the soil.
+  例句高亮: The **plough** turns the soil.
+  例句中文: 犁翻动土壤。
+  标注模式: object
+  标注说明: 下幅实际传统犁具，句子描述功能而非虚构当前动作。
+  坐标(normalized): [0.633, 0.671, 0.999, 0.952]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "下幅实际传统犁具，句子描述功能而非虚构当前动作。"
+    sentence: "The plough turns the soil."
+    matched_form: "plough"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 犁；耕地
+
+------------------------------------------------------------------------
+[7/8] fertile  (W262)
+  词义: 肥沃的
+  词性: adjective
+  音标: UK /ˈfɜːtaɪl/ | US /ˈfɜːrtl/
+  搭配: fertile soil
+  例句: The farm has fertile soil.
+  例句高亮: The farm has **fertile** soil.
+  例句中文: 农场有肥沃的土壤。
+  标注模式: object
+  标注说明: 故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。
+  坐标(normalized): [0.509, 0.223, 0.752, 0.496]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。"
+    sentence: "The farm has fertile soil."
+    matched_form: "fertile"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 肥沃的；富饶的
+
+------------------------------------------------------------------------
+[8/8] growth  (W316)
+  词义: 生长
+  词性: noun
+  音标: UK /ɡrəʊθ/ | US /ɡroʊθ/
+  搭配: plant growth
+  例句: Plant growth changes the field over time.
+  例句高亮: Plant **growth** changes the field over time.
+  例句中文: 植物生长让田地随时间变化。
+  标注模式: context
+  标注说明: 两幅季节对照提供线索，生长过程不当单物体，句子说明时间。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Plant growth changes the field over time."
+    matched_form: "growth"
+    context: "两幅季节对照提供线索，生长过程不当单物体，句子说明时间。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 成长；增长
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C042 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic farm diptych stacked: upper half woman kneeling beside dark tilled soil showing a small handful of distinct wheat seeds on open palm, a metal spade with broad flat blade planted in soil nearby, simple barn in background. Lower half same field later with mature golden wheat heads, traditional small metal plough on field edge with handle and curved blade clearly identifiable, no animals pulling it. Farm seasons comparison, natural earth and fine wheat detail. No tractors instead of plough, no text.

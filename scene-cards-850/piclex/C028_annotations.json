@@ -1,0 +1,254 @@
+{
+  "filename": "C028-收银台算账.png",
+  "labels": [
+    {
+      "x": 140,
+      "y": 62,
+      "english": "payment",
+      "chinese": "付款",
+      "phoneticUS": "/ˈpeɪmənt/",
+      "phoneticUK": "/ˈpeɪmənt/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 62
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "付款是原创交易设定，不声称照片证实支付成功",
+        "association": "付款是原创交易设定，不声称照片证实支付成功",
+        "collocation": "make a payment",
+        "example": "I make a payment for the cup.",
+        "exampleChinese": "我付款买这只杯子。"
+      }
+    },
+    {
+      "x": 548,
+      "y": 473,
+      "english": "receipt",
+      "chinese": "收据",
+      "phoneticUS": "/rɪˈsiːt/",
+      "phoneticUK": "/rɪˈsiːt/",
+      "bubblePosition": {
+        "x": 537,
+        "y": 346
+      },
+      "anchorPosition": {
+        "x": 548,
+        "y": 473
+      },
+      "boundingBox": {
+        "left": 515,
+        "top": 452,
+        "right": 581,
+        "bottom": 495
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "两人之间独立纸条，收据身份由原创交易设定明确；不声称纸上金额可读",
+        "association": "两人之间独立纸条，收据身份由原创交易设定明确；不声称纸上金额可读",
+        "collocation": "keep a receipt",
+        "example": "I keep the receipt.",
+        "exampleChinese": "我保留收据。"
+      }
+    },
+    {
+      "x": 828,
+      "y": 710,
+      "english": "account",
+      "chinese": "账目",
+      "phoneticUS": "/əˈkaʊnt/",
+      "phoneticUK": "/əˈkaʊnt/",
+      "bubblePosition": {
+        "x": 494,
+        "y": 913
+      },
+      "anchorPosition": {
+        "x": 828,
+        "y": 710
+      },
+      "boundingBox": {
+        "left": 668,
+        "top": 664,
+        "right": 989,
+        "bottom": 756
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。",
+        "association": "柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。",
+        "collocation": "keep an account",
+        "example": "The owner keeps an account of each sale.",
+        "exampleChinese": "店主记录每笔销售的账目。"
+      }
+    },
+    {
+      "x": 723,
+      "y": 914,
+      "english": "credit",
+      "chinese": "赊购",
+      "phoneticUS": "/ˈkredɪt/",
+      "phoneticUK": "/ˈkredɪt/",
+      "bubblePosition": {
+        "x": 723,
+        "y": 914
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "补充虚构交易例句，不把当场付款和赊购混为同一事实",
+        "association": "补充虚构交易例句，不把当场付款和赊购混为同一事实",
+        "collocation": "buy on credit",
+        "example": "In this story, the shop lets me buy on credit.",
+        "exampleChinese": "在这个故事里，商店允许我赊购。"
+      }
+    },
+    {
+      "x": 906,
+      "y": 914,
+      "english": "debt",
+      "chinese": "债务",
+      "phoneticUS": "/det/",
+      "phoneticUK": "/det/",
+      "bubblePosition": {
+        "x": 906,
+        "y": 914
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "债务由原创句子说明，不从钱币或表情认定",
+        "association": "债务由原创句子说明，不从钱币或表情认定",
+        "collocation": "pay a debt",
+        "example": "I pay the debt I owe to the shop.",
+        "exampleChinese": "我偿还欠商店的债务。"
+      }
+    },
+    {
+      "x": 475,
+      "y": 165,
+      "english": "business",
+      "chinese": "生意",
+      "phoneticUS": "/ˈbɪznəs/",
+      "phoneticUK": "/ˈbɪznəs/",
+      "bubblePosition": {
+        "x": 475,
+        "y": 165
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "经营关系由原创设定说明",
+        "association": "经营关系由原创设定说明",
+        "collocation": "a small business",
+        "example": "The owner runs a small business.",
+        "exampleChinese": "店主经营一门小生意。"
+      }
+    },
+    {
+      "x": 505,
+      "y": 65,
+      "english": "profit",
+      "chinese": "利润",
+      "phoneticUS": "/ˈprɑːfɪt/",
+      "phoneticUK": "/ˈprɒfɪt/",
+      "bubblePosition": {
+        "x": 505,
+        "y": 65
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "利润概念以条件句说明，不虚构照片中的金额或收益",
+        "association": "利润概念以条件句说明，不虚构照片中的金额或收益",
+        "collocation": "make a profit",
+        "example": "The shop makes a profit when sales exceed costs.",
+        "exampleChinese": "销售收入超过成本时，商店就有利润。"
+      }
+    },
+    {
+      "x": 853,
+      "y": 180,
+      "english": "owner",
+      "chinese": "店主",
+      "phoneticUS": "/ˈoʊnər/",
+      "phoneticUK": "/ˈəʊnə/",
+      "bubblePosition": {
+        "x": 883,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 853,
+        "y": 180
+      },
+      "boundingBox": {
+        "left": 637,
+        "top": 144,
+        "right": 989,
+        "bottom": 678
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。",
+        "association": "右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。",
+        "collocation": "a shop owner",
+        "example": "The owner gives me a receipt.",
+        "exampleChinese": "店主给我一张收据。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I keep the receipt as a record of my payment.",
+    "chinese": "我留好收据，作为这次付款的记录。",
+    "source": "原创配文 · C028 收银台算账",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

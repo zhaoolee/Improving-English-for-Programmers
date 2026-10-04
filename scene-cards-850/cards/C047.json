@@ -1,0 +1,327 @@
+{
+  "id": "C047",
+  "chapter": "自然与农场",
+  "title": "天气突然变化",
+  "scene": "同一片天空的晴雨对照，云、雾、雷雨和天气变化清楚呈现。",
+  "target_count": 7,
+  "primary_words": [
+    "sky",
+    "cloud",
+    "mist",
+    "weather",
+    "thunder",
+    "sudden",
+    "air"
+  ],
+  "targets": [
+    {
+      "word_id": "W661",
+      "word": "sky",
+      "aliases": [],
+      "source_zh_unreviewed": "天空",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "天空",
+      "pos": "noun",
+      "ipa_us": "/skaɪ/",
+      "ipa_uk": "/skaɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅天空实际区域。",
+        "sentence": "The sky is blue before the rain.",
+        "matched_form": "sky",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The sky is blue before the rain.",
+      "example_zh": "下雨前天空是蓝色的。",
+      "bbox_normalized": [
+        0.4,
+        0.0,
+        0.995,
+        0.133
+      ],
+      "collocations": [
+        "a blue sky"
+      ],
+      "example_en_highlighted": "The **sky** is blue before the rain.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅天空实际区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W137",
+      "word": "cloud",
+      "aliases": [],
+      "source_zh_unreviewed": "云",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "云",
+      "pos": "noun",
+      "ipa_us": "/klaʊd/",
+      "ipa_uk": "/klaʊd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅独立白云。",
+        "sentence": "A white cloud crosses the sky.",
+        "matched_form": "cloud",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A white cloud crosses the sky.",
+      "example_zh": "一朵白云飘过天空。",
+      "bbox_normalized": [
+        0.549,
+        0.077,
+        0.822,
+        0.128
+      ],
+      "collocations": [
+        "a white cloud"
+      ],
+      "example_en_highlighted": "A white **cloud** crosses the sky.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅独立白云。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W446",
+      "word": "mist",
+      "aliases": [],
+      "source_zh_unreviewed": "薄雾",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "薄雾",
+      "pos": "noun",
+      "ipa_us": "/mɪst/",
+      "ipa_uk": "/mɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅贴近山丘的真实雾层。",
+        "sentence": "Mist covers the distant hills.",
+        "matched_form": "mist",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Mist covers the distant hills.",
+      "example_zh": "薄雾笼罩远处的山丘。",
+      "bbox_normalized": [
+        0.396,
+        0.63,
+        0.996,
+        0.793
+      ],
+      "collocations": [
+        "morning mist"
+      ],
+      "example_en_highlighted": "**Mist** covers the distant hills.",
+      "annotation_mode": "object",
+      "annotation_note": "下幅贴近山丘的真实雾层。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W811",
+      "word": "weather",
+      "aliases": [],
+      "source_zh_unreviewed": "天气",
+      "planned_mode": "context",
+      "sense_zh": "天气",
+      "pos": "noun",
+      "ipa_us": "/ˈweðər/",
+      "ipa_uk": "/ˈweðə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The weather changes while I wait.",
+        "matched_form": "weather",
+        "referent_region_verified": false,
+        "context": "晴雨两幅提供线索，天气变化由完整句子说明。",
+        "image_verified": null
+      },
+      "example_en": "The weather changes while I wait.",
+      "example_zh": "我等待时天气变了。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a change in the weather"
+      ],
+      "example_en_highlighted": "The **weather** changes while I wait.",
+      "annotation_mode": "context",
+      "annotation_note": "晴雨两幅提供线索，天气变化由完整句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W760",
+      "word": "thunder",
+      "aliases": [],
+      "source_zh_unreviewed": "雷声",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "雷声",
+      "pos": "noun",
+      "ipa_us": "/ˈθʌndər/",
+      "ipa_uk": "/ˈθʌndə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I hear thunder beyond the hills.",
+        "matched_form": "thunder",
+        "referent_region_verified": false,
+        "context": "声音不能静态定位，不把云或闪电当雷声。",
+        "image_verified": null
+      },
+      "example_en": "I hear thunder beyond the hills.",
+      "example_zh": "我听见山丘那边传来雷声。",
+      "bbox_normalized": null,
+      "collocations": [
+        "hear thunder"
+      ],
+      "example_en_highlighted": "I hear **thunder** beyond the hills.",
+      "annotation_mode": "context",
+      "annotation_note": "声音不能静态定位，不把云或闪电当雷声。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W724",
+      "word": "sudden",
+      "aliases": [],
+      "source_zh_unreviewed": "突然的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "突然的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsʌdən/",
+      "ipa_uk": "/ˈsʌdən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A sudden change in the weather surprises me.",
+        "matched_form": "sudden",
+        "referent_region_verified": false,
+        "context": "变化速度来自故事，静态对比不能证明突然。",
+        "image_verified": null
+      },
+      "example_en": "A sudden change in the weather surprises me.",
+      "example_zh": "天气突然变化让我吃了一惊。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a sudden change"
+      ],
+      "example_en_highlighted": "A **sudden** change in the weather surprises me.",
+      "annotation_mode": "context",
+      "annotation_note": "变化速度来自故事，静态对比不能证明突然。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W015",
+      "word": "air",
+      "aliases": [],
+      "source_zh_unreviewed": "空气；气氛",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "空气",
+      "pos": "noun",
+      "ipa_us": "/er/",
+      "ipa_uk": "/eə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I breathe the fresh air.",
+        "matched_form": "air",
+        "referent_region_verified": false,
+        "context": "空气不可见，雾不当空气本体。",
+        "image_verified": null
+      },
+      "example_en": "I breathe the fresh air.",
+      "example_zh": "我呼吸着新鲜空气。",
+      "bbox_normalized": null,
+      "collocations": [
+        "fresh air"
+      ],
+      "example_en_highlighted": "I breathe the fresh **air**.",
+      "annotation_mode": "context",
+      "annotation_note": "空气不可见，雾不当空气本体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "The sky changes; mist covers the hills, and I hear thunder.",
+    "zh": "天空变了；薄雾笼罩山丘，我听见了雷声。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C047\n标题 天气突然变化\n场景 同一片天空的晴雨对照，云、雾、雷雨和天气变化清楚呈现。\n目标词 sky, cloud, mist, weather, thunder, sudden, air\n原创主配文草案 The sky is dark, and a sudden rain is coming.\n中文草案 天空阴暗，一场突如其来的雨就要来了。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Two equal vertically stacked photos at the same hill viewpoint, same adult woman. Upper: pale blue sky, a few white clouds, distant crisp green hills, woman calmly looking out. Lower: the same viewpoint now under grey storm clouds, visible low mist on distant hills and fine rain; woman under a plain umbrella at side, looking toward clouds. Clearly distinguish clouds overhead from mist close to hills. Lightning or sound symbols are not needed. No captions.",
+  "status": "approved",
+  "image_path": "images/C047.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 7,
+    "content_entries_complete": 7,
+    "sentence_evidence_complete": 7,
+    "verified_targets": 7,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C047 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T13:35:22Z",
+    "ended_at": "2026-10-03T13:38:22Z",
+    "prompt_path": "prompts/C047_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C047.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "同景晴雨双幅，白云与山腰雾层分开；雷声、变化速度、天气概念与空气用句子，不给虚假框。"
+  }
+}

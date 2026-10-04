@@ -1,0 +1,254 @@
+C090  消防安全演练
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C090.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C090.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:05:47 UTC
+  提示词文件: prompts/C090_image_final.txt
+
+场景: 温和非真实灾难的消防演练，模型展示煤、火焰、烟、烧灼与危险。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 玻璃内模型火焰烟团清楚，左下煤样和右警示牌分开；强调模型非真实起火，煤成分为教学设定。
+
+主配文:
+  英文: A teaching model shows fire, flame, and smoke beside a clear warning sign.
+  中文: 教学模型展示了火、火焰和烟，旁边摆着清楚的警示标志。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): fire, flame, smoke, coal, burn, danger, destruction, sign
+
+------------------------------------------------------------------------
+[1/8] fire  (W267)
+  词义: 火
+  词性: noun
+  音标: UK /faɪə/ | US /faɪr/
+  搭配: a model of fire; fire safety
+  例句: The model represents fire in a small hearth.
+  例句高亮: The model represents **fire** in a small hearth.
+  例句中文: 模型展示小炉膛里的火。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（火），待最终图确认。
+  坐标(normalized): [0.591, 0.567, 0.824, 0.778]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "炉膛模型里的火与煤的整体形象。"
+    sentence: "The model represents fire in a small hearth."
+    matched_form: "fire"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 火；火灾
+
+------------------------------------------------------------------------
+[2/8] flame  (W272)
+  词义: 火焰
+  词性: noun
+  音标: UK /fleɪm/ | US /fleɪm/
+  搭配: an orange flame; a model flame
+  例句: The orange flame is part of the teaching model.
+  例句高亮: The orange **flame** is part of the teaching model.
+  例句中文: 橙色火焰是教学模型的一部分。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（火焰），待最终图确认。
+  坐标(normalized): [0.622, 0.573, 0.782, 0.741]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "红橙色塑造的火焰舌。"
+    sentence: "The orange flame is part of the teaching model."
+    matched_form: "flame"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 火焰；火舌
+
+------------------------------------------------------------------------
+[3/8] smoke  (W670)
+  词义: 烟
+  词性: noun
+  音标: UK /sməʊk/ | US /smoʊk/
+  搭配: grey smoke; a smoke plume
+  例句: The grey shape represents smoke in the model.
+  例句高亮: The grey shape represents **smoke** in the model.
+  例句中文: 灰色形状在模型中代表烟。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（烟），待最终图确认。
+  坐标(normalized): [0.6, 0.427, 0.865, 0.621]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "模型上方灰色塑造烟团。"
+    sentence: "The grey shape represents smoke in the model."
+    matched_form: "smoke"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 抽烟
+
+------------------------------------------------------------------------
+[4/8] coal  (W138)
+  词义: 煤
+  词性: noun
+  音标: UK /kəʊl/ | US /koʊl/
+  搭配: a coal sample; a piece of coal
+  例句: A coal sample rests in the separate dish.
+  例句高亮: A **coal** sample rests in the separate dish.
+  例句中文: 煤样品放在单独的碟子里。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（煤），待最终图确认。
+  坐标(normalized): [0.343, 0.759, 0.468, 0.812]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左下独立盘内煤样，成分由教学故事指定。"
+    sentence: "A coal sample rests in the separate dish."
+    matched_form: "coal"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 煤
+
+------------------------------------------------------------------------
+[5/8] burn  (W104)
+  词义: 燃烧
+  词性: verb
+  音标: UK /bɜːn/ | US /bɝːn/
+  搭配: burn slowly; coal can burn
+  例句: Coal can burn, but nothing is burning in this model.
+  例句高亮: Coal can **burn**, but nothing is burning in this model.
+  例句中文: 煤可以燃烧，但这个模型里没有东西正在燃烧。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Coal can burn, but nothing is burning in this model."
+    matched_form: "burn"
+    context: "由原创例句给出的语境：Coal can burn, but nothing is burning in this model.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 燃烧
+
+------------------------------------------------------------------------
+[6/8] danger  (W180)
+  词义: 危险
+  词性: noun
+  音标: UK /ˈdeɪndʒə/ | US /ˈdeɪndʒɚ/
+  搭配: a fire danger; warn of danger
+  例句: The lesson explains the danger of an uncontrolled fire.
+  例句高亮: The lesson explains the **danger** of an uncontrolled fire.
+  例句中文: 这节课解释失控火灾的危险。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The lesson explains the danger of an uncontrolled fire."
+    matched_form: "danger"
+    context: "由原创例句给出的语境：The lesson explains the danger of an uncontrolled fire.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 危险
+
+------------------------------------------------------------------------
+[7/8] destruction  (W195)
+  词义: 毁坏
+  词性: noun
+  音标: UK /dɪˈstrʌkʃən/ | US /dɪˈstrʌkʃən/
+  搭配: cause destruction; destruction by fire
+  例句: An uncontrolled fire can cause destruction.
+  例句高亮: An uncontrolled fire can cause **destruction**.
+  例句中文: 失控的火灾可能造成毁坏。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "An uncontrolled fire can cause destruction."
+    matched_form: "destruction"
+    context: "由原创例句给出的语境：An uncontrolled fire can cause destruction.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 破坏；毁灭
+
+------------------------------------------------------------------------
+[8/8] sign  (W653)
+  词义: 标志
+  词性: noun
+  音标: UK /saɪn/ | US /saɪn/
+  搭配: a warning sign; a safety sign
+  例句: The warning sign stands beside the model.
+  例句高亮: The warning **sign** stands beside the model.
+  例句中文: 警示标志立在模型旁。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（标志），待最终图确认。
+  坐标(normalized): [0.849, 0.707, 0.998, 0.881]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧黄色三角火焰警示牌。"
+    sentence: "The warning sign stands beside the model."
+    matched_form: "sign"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 标志
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 5
+  context_annotations: 3
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C090 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman in elegant modest lab coat at a museum fire-safety teaching display. Small inert three-dimensional hearth model under clear display cover, distinctly sculpted red-orange flame tongues above dark coal-like pieces, sculpted matte grey curling smoke plume above (recognizable educational model, not a real fire). Separate black coal sample on small dish, triangular plain flame pictogram warning sign beside exhibit, no text, no actual fire. Cool Korean museum editorial photography, realistic model textures, natural hands.

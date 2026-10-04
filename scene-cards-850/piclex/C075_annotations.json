@@ -1,0 +1,246 @@
+{
+  "filename": "C075-向专家请教.png",
+  "labels": [
+    {
+      "x": 701,
+      "y": 495,
+      "english": "expert",
+      "chinese": "专家",
+      "phoneticUS": "/ˈekspɝːt/",
+      "phoneticUK": "/ˈekspɜːt/",
+      "bubblePosition": {
+        "x": 835,
+        "y": 95
+      },
+      "anchorPosition": {
+        "x": 701,
+        "y": 495
+      },
+      "boundingBox": {
+        "left": 405,
+        "top": 125,
+        "right": 997,
+        "bottom": 866
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（专家），待最终图确认。",
+        "association": "场景中体现的具体对象（专家），待最终图确认。",
+        "collocation": "ask an expert; an expert in",
+        "example": "The woman demonstrating the tool is our expert.",
+        "exampleChinese": "演示工具的女子是我们的专家。"
+      }
+    },
+    {
+      "x": 170,
+      "y": 110,
+      "english": "experience",
+      "chinese": "经验",
+      "phoneticUS": "/ɪkˈspɪriəns/",
+      "phoneticUK": "/ɪkˈspɪəriəns/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 110
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：She shares her experience of working with wood.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：She shares her experience of working with wood.；不声称该状态/含义本身在画面可见。",
+        "collocation": "practical experience; gain experience",
+        "example": "She shares her experience of working with wood.",
+        "exampleChinese": "她分享自己的木工经验。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 725,
+      "english": "able",
+      "chinese": "能够的",
+      "phoneticUS": "/ˈeɪbəl/",
+      "phoneticUK": "/ˈeɪbəl/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 725
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I am able to use the tool after practice.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I am able to use the tool after practice.；不声称该状态/含义本身在画面可见。",
+        "collocation": "be able to; an able person",
+        "example": "I am able to use the tool after practice.",
+        "exampleChinese": "练习之后，我能够使用这个工具。"
+      }
+    },
+    {
+      "x": 875,
+      "y": 555,
+      "english": "hard",
+      "chinese": "困难的",
+      "phoneticUS": "/hɑːrd/",
+      "phoneticUK": "/hɑːd/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 555
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The task is hard for a beginner.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The task is hard for a beginner.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a hard task; find it hard",
+        "example": "The task is hard for a beginner.",
+        "exampleChinese": "这项任务对初学者来说很困难。"
+      }
+    },
+    {
+      "x": 140,
+      "y": 890,
+      "english": "simple",
+      "chinese": "简单的",
+      "phoneticUS": "/ˈsɪmpəl/",
+      "phoneticUK": "/ˈsɪmpəl/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 890
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We begin with a simple step.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We begin with a simple step.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a simple step; a simple plan",
+        "example": "We begin with a simple step.",
+        "exampleChinese": "我们从一个简单的步骤开始。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 915,
+      "english": "complex",
+      "chinese": "复杂的",
+      "phoneticUS": "/kəmˈpleks/",
+      "phoneticUK": "/ˈkɒmpleks/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 915
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：A complex design needs careful planning.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：A complex design needs careful planning.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a complex task; a complex design",
+        "example": "A complex design needs careful planning.",
+        "exampleChinese": "复杂的设计需要仔细规划。"
+      }
+    },
+    {
+      "x": 520,
+      "y": 925,
+      "english": "responsible",
+      "chinese": "负责的",
+      "phoneticUS": "/rɪˈspɑːnsəbəl/",
+      "phoneticUK": "/rɪˈspɒnsəbəl/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I am responsible for keeping the bench tidy.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I am responsible for keeping the bench tidy.；不声称该状态/含义本身在画面可见。",
+        "collocation": "be responsible for; a responsible worker",
+        "example": "I am responsible for keeping the bench tidy.",
+        "exampleChinese": "我负责保持工作台整洁。"
+      }
+    },
+    {
+      "x": 757,
+      "y": 667,
+      "english": "use",
+      "chinese": "使用",
+      "phoneticUS": "/juːz/",
+      "phoneticUK": "/juːz/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 480
+      },
+      "anchorPosition": {
+        "x": 757,
+        "y": 667
+      },
+      "boundingBox": {
+        "left": 518,
+        "top": 495,
+        "right": 996,
+        "bottom": 840
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（使用），待最终图确认。",
+        "association": "场景中体现的具体动作（使用），待最终图确认。",
+        "collocation": "use a tool; use carefully",
+        "example": "She shows me how to use the screwdriver.",
+        "exampleChinese": "她教我如何使用螺丝刀。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "An expert shows me how to use the tool and make a hard task simpler.",
+    "chinese": "一位专家教我使用工具，让困难的任务变得简单一些。",
+    "source": "原创配文 · C075 向专家请教",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

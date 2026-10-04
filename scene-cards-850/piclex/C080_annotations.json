@@ -1,0 +1,265 @@
+{
+  "filename": "C080-日程先后顺序.png",
+  "labels": [
+    {
+      "x": 170,
+      "y": 95,
+      "english": "yesterday",
+      "chinese": "昨天",
+      "phoneticUS": "/ˈjestɚdeɪ/",
+      "phoneticUK": "/ˈjestədeɪ/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I finished the first task yesterday.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I finished the first task yesterday.；不声称该状态/含义本身在画面可见。",
+        "collocation": "yesterday evening; finished yesterday",
+        "example": "I finished the first task yesterday.",
+        "exampleChinese": "我昨天完成了第一项任务。"
+      }
+    },
+    {
+      "x": 170,
+      "y": 385,
+      "english": "now",
+      "chinese": "现在",
+      "phoneticUS": "/naʊ/",
+      "phoneticUK": "/naʊ/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 385
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Now I open another notebook.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Now I open another notebook.；不声称该状态/含义本身在画面可见。",
+        "collocation": "right now; start now",
+        "example": "Now I open another notebook.",
+        "exampleChinese": "现在我打开另一本笔记本。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 75,
+      "english": "past",
+      "chinese": "过去",
+      "phoneticUS": "/pæst/",
+      "phoneticUK": "/pɑːst/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：That finished task belongs to the past.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：That finished task belongs to the past.；不声称该状态/含义本身在画面可见。",
+        "collocation": "in the past; the recent past",
+        "example": "That finished task belongs to the past.",
+        "exampleChinese": "那项已完成的任务属于过去。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 385,
+      "english": "present",
+      "chinese": "现在",
+      "phoneticUS": "/ˈprezənt/",
+      "phoneticUK": "/ˈprezənt/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 385
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：At present, I am working on the next task.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：At present, I am working on the next task.；不声称该状态/含义本身在画面可见。",
+        "collocation": "at present; the present moment",
+        "example": "At present, I am working on the next task.",
+        "exampleChinese": "目前，我正在做下一项任务。"
+      }
+    },
+    {
+      "x": 160,
+      "y": 735,
+      "english": "future",
+      "chinese": "未来",
+      "phoneticUS": "/ˈfjuːtʃɚ/",
+      "phoneticUK": "/ˈfjuːtʃə/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 735
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I plan to study more in the future.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I plan to study more in the future.；不声称该状态/含义本身在画面可见。",
+        "collocation": "in the future; a future plan",
+        "example": "I plan to study more in the future.",
+        "exampleChinese": "我计划未来学习更多。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 735,
+      "english": "before",
+      "chinese": "在……之前",
+      "phoneticUS": "/bɪˈfɔːr/",
+      "phoneticUK": "/bɪˈfɔː/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 735
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I close one notebook before opening another.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I close one notebook before opening another.；不声称该状态/含义本身在画面可见。",
+        "collocation": "before work; before the next task",
+        "example": "I close one notebook before opening another.",
+        "exampleChinese": "打开另一本笔记本之前，我先合上这一本。"
+      }
+    },
+    {
+      "x": 165,
+      "y": 920,
+      "english": "after",
+      "chinese": "在……之后",
+      "phoneticUS": "/ˈæftɚ/",
+      "phoneticUK": "/ˈɑːftə/",
+      "bubblePosition": {
+        "x": 165,
+        "y": 920
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I begin the next task after a short break.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I begin the next task after a short break.；不声称该状态/含义本身在画面可见。",
+        "collocation": "after work; after the first task",
+        "example": "I begin the next task after a short break.",
+        "exampleChinese": "短暂休息之后，我开始下一项任务。"
+      }
+    },
+    {
+      "x": 865,
+      "y": 935,
+      "english": "then",
+      "chinese": "然后",
+      "phoneticUS": "/ðen/",
+      "phoneticUK": "/ðen/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I open the notebook, then pick up my pen.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I open the notebook, then pick up my pen.；不声称该状态/含义本身在画面可见。",
+        "collocation": "and then; then begin",
+        "example": "I open the notebook, then pick up my pen.",
+        "exampleChinese": "我打开笔记本，然后拿起钢笔。"
+      }
+    },
+    {
+      "x": 531,
+      "y": 588,
+      "english": "start",
+      "chinese": "开始",
+      "phoneticUS": "/stɑːrt/",
+      "phoneticUK": "/stɑːt/",
+      "bubblePosition": {
+        "x": 485,
+        "y": 625
+      },
+      "anchorPosition": {
+        "x": 531,
+        "y": 588
+      },
+      "boundingBox": {
+        "left": 331,
+        "top": 525,
+        "right": 732,
+        "bottom": 652
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（开始），待最终图确认。",
+        "association": "场景中体现的具体动作（开始），待最终图确认。",
+        "collocation": "start a task; start writing",
+        "example": "I start the new task by opening my notebook.",
+        "exampleChinese": "我通过打开笔记本来开始新任务。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I finished one task yesterday; now I start another and plan what comes after.",
+    "chinese": "我昨天完成了一项任务，现在开始另一项，并计划之后的事。",
+    "source": "原创配文 · C080 日程先后顺序",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

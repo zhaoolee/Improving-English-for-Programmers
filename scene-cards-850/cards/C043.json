@@ -1,0 +1,380 @@
+{
+  "id": "C043",
+  "chapter": "自然与农场",
+  "title": "草地上的昆虫",
+  "scene": "微距草地，蜜蜂、蚂蚁、蠕虫、苍蝇和其他昆虫各有位置。",
+  "target_count": 8,
+  "primary_words": [
+    "grass",
+    "bee",
+    "ant",
+    "worm",
+    "fly",
+    "insect",
+    "small",
+    "natural"
+  ],
+  "targets": [
+    {
+      "word_id": "W310",
+      "word": "grass",
+      "aliases": [],
+      "source_zh_unreviewed": "草",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "草",
+      "pos": "noun",
+      "ipa_us": "/ɡræs/",
+      "ipa_uk": "/ɡrɑːs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "微距中的实际草叶。",
+        "sentence": "The grass is green beside the path.",
+        "matched_form": "grass",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The grass is green beside the path.",
+      "example_zh": "小径旁的草是绿色的。",
+      "bbox_normalized": [
+        0.654,
+        0.269,
+        0.992,
+        0.402
+      ],
+      "collocations": [
+        "green grass"
+      ],
+      "example_en_highlighted": "The **grass** is green beside the path.",
+      "annotation_mode": "object",
+      "annotation_note": "微距中的实际草叶。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W060",
+      "word": "bee",
+      "aliases": [],
+      "source_zh_unreviewed": "蜜蜂",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蜜蜂",
+      "pos": "noun",
+      "ipa_us": "/biː/",
+      "ipa_uk": "/biː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "有翅六足分节的蜜蜂。",
+        "sentence": "A bee rests on the flower.",
+        "matched_form": "bee",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A bee rests on the flower.",
+      "example_zh": "一只蜜蜂停在花上。",
+      "bbox_normalized": [
+        0.052,
+        0.417,
+        0.348,
+        0.611
+      ],
+      "collocations": [
+        "a honey bee"
+      ],
+      "example_en_highlighted": "A **bee** rests on the flower.",
+      "annotation_mode": "object",
+      "annotation_note": "有翅六足分节的蜜蜂。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W026",
+      "word": "ant",
+      "aliases": [],
+      "source_zh_unreviewed": "蚂蚁",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蚂蚁",
+      "pos": "noun",
+      "ipa_us": "/ænt/",
+      "ipa_uk": "/ænt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "独立六足分节蚂蚁，步行由句子说明。",
+        "sentence": "An ant walks on a blade of grass.",
+        "matched_form": "ant",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "An ant walks on a blade of grass.",
+      "example_zh": "一只蚂蚁在一片草叶上走。",
+      "bbox_normalized": [
+        0.589,
+        0.475,
+        0.912,
+        0.625
+      ],
+      "collocations": [
+        "a small ant"
+      ],
+      "example_en_highlighted": "An **ant** walks on a blade of grass.",
+      "annotation_mode": "object",
+      "annotation_note": "独立六足分节蚂蚁，步行由句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W841",
+      "word": "worm",
+      "aliases": [],
+      "source_zh_unreviewed": "蠕虫",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蠕虫",
+      "pos": "noun",
+      "ipa_us": "/wɜːrm/",
+      "ipa_uk": "/wɜːm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "无足蚯蚓，明确不是昆虫。",
+        "sentence": "The worm lies on damp soil.",
+        "matched_form": "worm",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The worm lies on damp soil.",
+      "example_zh": "蠕虫在潮湿土壤上。",
+      "bbox_normalized": [
+        0.025,
+        0.739,
+        0.417,
+        0.945
+      ],
+      "collocations": [
+        "a garden worm"
+      ],
+      "example_en_highlighted": "The **worm** lies on damp soil.",
+      "annotation_mode": "object",
+      "annotation_note": "无足蚯蚓，明确不是昆虫。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W277",
+      "word": "fly",
+      "aliases": [],
+      "source_zh_unreviewed": "飞行；苍蝇",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "苍蝇",
+      "pos": "noun",
+      "ipa_us": "/flaɪ/",
+      "ipa_uk": "/flaɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "独立两翅六足苍蝇，选择名词义。",
+        "sentence": "A fly rests on a leaf.",
+        "matched_form": "fly",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A fly rests on a leaf.",
+      "example_zh": "一只苍蝇停在叶上。",
+      "bbox_normalized": [
+        0.537,
+        0.716,
+        0.933,
+        0.955
+      ],
+      "collocations": [
+        "a house fly"
+      ],
+      "example_en_highlighted": "A **fly** rests on a leaf.",
+      "annotation_mode": "object",
+      "annotation_note": "独立两翅六足苍蝇，选择名词义。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W362",
+      "word": "insect",
+      "aliases": [],
+      "source_zh_unreviewed": "昆虫",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "昆虫",
+      "pos": "noun",
+      "ipa_us": "/ˈɪnsekt/",
+      "ipa_uk": "/ˈɪnsekt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。",
+        "sentence": "The bee is an insect.",
+        "matched_form": "insect",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The bee is an insect.",
+      "example_zh": "蜜蜂是一种昆虫。",
+      "bbox_normalized": [
+        0.052,
+        0.417,
+        0.348,
+        0.611
+      ],
+      "collocations": [
+        "a small insect"
+      ],
+      "example_en_highlighted": "The bee is an **insect**.",
+      "annotation_mode": "object",
+      "annotation_note": "用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W666",
+      "word": "small",
+      "aliases": [],
+      "source_zh_unreviewed": "小的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "小的",
+      "pos": "adjective",
+      "ipa_us": "/smɔːl/",
+      "ipa_uk": "/smɔːl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际蚂蚁与草叶比例定位大小，不测长度。",
+        "sentence": "The ant is small beside the leaf.",
+        "matched_form": "small",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The ant is small beside the leaf.",
+      "example_zh": "蚂蚁在叶子旁显得很小。",
+      "bbox_normalized": [
+        0.589,
+        0.475,
+        0.912,
+        0.625
+      ],
+      "collocations": [
+        "a small ant"
+      ],
+      "example_en_highlighted": "The ant is **small** beside the leaf.",
+      "annotation_mode": "object",
+      "annotation_note": "实际蚂蚁与草叶比例定位大小，不测长度。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W465",
+      "word": "natural",
+      "aliases": [],
+      "source_zh_unreviewed": "自然的",
+      "planned_mode": "context",
+      "sense_zh": "自然的",
+      "pos": "adjective",
+      "ipa_us": "/ˈnætʃrəl/",
+      "ipa_uk": "/ˈnætʃrəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The grass provides a natural habitat.",
+        "matched_form": "natural",
+        "referent_region_verified": false,
+        "context": "自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。",
+        "image_verified": null
+      },
+      "example_en": "The grass provides a natural habitat.",
+      "example_zh": "草地提供自然栖息环境。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a natural habitat"
+      ],
+      "example_en_highlighted": "The grass provides a **natural** habitat.",
+      "annotation_mode": "context",
+      "annotation_note": "自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Small lives in the grass: a bee, an ant, and a patient observer.",
+    "zh": "草间的小生命：蜜蜂、蚂蚁，还有一位耐心的观察者。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C043\n标题 草地上的昆虫\n场景 微距草地，蜜蜂、蚂蚁、蠕虫、苍蝇和其他昆虫各有位置。\n目标词 grass, bee, ant, worm, fly, insect, small, natural\n原创主配文草案 A small ant is on the grass.\n中文草案 一只小蚂蚁在草上。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Refined nature photography composition: upper quarter woman crouching calmly in garden meadow, inspecting grass at a distance, soft cool portrait; lower three quarters four clean photographic macro panels in 2x2 grid. Upper-left honeybee on white flower with six legs and two antennae. Upper-right one small black ant on green blade of grass with six legs and distinct segmented body. Lower-left one earthworm on damp bare soil among grass roots, legless, no insect legs. Lower-right one ordinary housefly on a leaf, six legs, two wings and compound eyes. Distinct real animals, no hybrid anatomy, no written labels. Bright coherent macro focus, natural scale, grass present.",
+  "status": "approved",
+  "image_path": "images/C043.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C043 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:14:45Z",
+    "prompt_path": "prompts/C043_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C043.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "蜜蜂、蚂蚁、苍蝇为独立微距，蚯蚓无足且不归为昆虫；微距与人物幅分开表示不同尺度。small用蚂蚁与草叶相对尺度，不把放大图当实际长度。"
+  }
+}

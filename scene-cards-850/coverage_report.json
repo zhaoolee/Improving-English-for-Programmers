@@ -1,0 +1,37 @@
+{
+  "version": "v0.1",
+  "date": "2026-10-02",
+  "source_url": "https://github.com/zhaoolee/Improving-English-for-Programmers/blob/main/README.md",
+  "source_blob_sha": "99763782d090d81376f1e37d76f0408e690377b2",
+  "source_word_count": 850,
+  "card_count": 100,
+  "primary_assignments": 850,
+  "unique_primary_words": 850,
+  "missing": [],
+  "extra": [],
+  "duplicate_primary_assignments": [],
+  "min_words_per_card": 5,
+  "max_words_per_card": 11,
+  "completed_images": 1,
+  "approved_cards": 1,
+  "production_review": {
+    "approved_card_ids": [
+      "C001"
+    ],
+    "verified_primary_words": 9,
+    "remaining_cards": 99
+  },
+  "counts_by_chapter": {
+    "家里的一天": 86,
+    "食物与用餐": 91,
+    "穿衣与购物": 83,
+    "城市与出行": 88,
+    "自然与农场": 78,
+    "身体与健康": 81,
+    "学习与艺术": 85,
+    "工作与信息": 84,
+    "工具与科学": 85,
+    "社会与表达": 89
+  },
+  "claim_scope": "Exact coverage of the source headword set in the plan only. No claim of semantic, image or learning-outcome validation."
+}

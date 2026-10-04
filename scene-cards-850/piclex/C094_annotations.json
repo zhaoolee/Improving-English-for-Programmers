@@ -1,0 +1,327 @@
+{
+  "filename": "C094-历史馆里的战争展.png",
+  "labels": [
+    {
+      "x": 155,
+      "y": 80,
+      "english": "history",
+      "chinese": "历史",
+      "phoneticUS": "/ˈhɪstəri/",
+      "phoneticUK": "/ˈhɪstəri/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。",
+        "collocation": "study history; a history museum",
+        "example": "I study history at the museum.",
+        "exampleChinese": "我在博物馆学习历史。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 85,
+      "english": "war",
+      "chinese": "战争",
+      "phoneticUS": "/wɔːr/",
+      "phoneticUK": "/wɔː/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。",
+        "collocation": "the cost of war; a war exhibit",
+        "example": "The exhibit explains the cost of war.",
+        "exampleChinese": "展览解释战争的代价。"
+      }
+    },
+    {
+      "x": 124,
+      "y": 520,
+      "english": "army",
+      "chinese": "军队",
+      "phoneticUS": "/ˈɑːrmi/",
+      "phoneticUK": "/ˈɑːmi/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 590
+      },
+      "anchorPosition": {
+        "x": 124,
+        "y": 520
+      },
+      "boundingBox": {
+        "left": 1,
+        "top": 444,
+        "right": 248,
+        "bottom": 596
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（军队），待最终图确认。",
+        "association": "场景中体现的具体对象（军队），待最终图确认。",
+        "collocation": "an army model; an army formation",
+        "example": "The miniature figures represent an army in this exhibit.",
+        "exampleChinese": "展览中的微型人物代表一支军队。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 85,
+      "english": "military",
+      "chinese": "军事的",
+      "phoneticUS": "/ˈmɪləteri/",
+      "phoneticUK": "/ˈmɪlətri/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。",
+        "collocation": "military history; a military exhibit",
+        "example": "This room presents military history.",
+        "exampleChinese": "这个展厅介绍军事历史。"
+      }
+    },
+    {
+      "x": 883,
+      "y": 416,
+      "english": "gun",
+      "chinese": "枪",
+      "phoneticUS": "/ɡʌn/",
+      "phoneticUK": "/ɡʌn/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 465
+      },
+      "anchorPosition": {
+        "x": 883,
+        "y": 416
+      },
+      "boundingBox": {
+        "left": 832,
+        "top": 19,
+        "right": 934,
+        "bottom": 813
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（枪），待最终图确认。",
+        "association": "场景中体现的具体对象（枪），待最终图确认。",
+        "collocation": "an old gun; a gun display",
+        "example": "An old gun is kept behind glass.",
+        "exampleChinese": "一支旧枪保存在玻璃后面。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 365,
+      "english": "attack",
+      "chinese": "进攻",
+      "phoneticUS": "/əˈtæk/",
+      "phoneticUK": "/əˈtæk/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 365
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "an attack on; an armed attack",
+        "example": "The guide describes an attack in the historical story.",
+        "exampleChinese": "讲解员描述历史故事中的一次进攻。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 775,
+      "english": "fight",
+      "chinese": "战斗",
+      "phoneticUS": "/faɪt/",
+      "phoneticUK": "/faɪt/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 775
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。",
+        "collocation": "fight in a war; fight against",
+        "example": "The story explains why soldiers had to fight.",
+        "exampleChinese": "故事解释士兵为什么不得不战斗。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 680,
+      "english": "violent",
+      "chinese": "暴力的",
+      "phoneticUS": "/ˈvaɪələnt/",
+      "phoneticUK": "/ˈvaɪələnt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 680
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。",
+        "collocation": "a violent conflict; violent actions",
+        "example": "The exhibit discusses violent conflict without showing injuries.",
+        "exampleChinese": "展览讨论暴力冲突，但不展示伤情。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 940,
+      "english": "against",
+      "chinese": "反对",
+      "phoneticUS": "/əˈɡenst/",
+      "phoneticUK": "/əˈɡenst/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "preposition",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。",
+        "collocation": "against war; stand against",
+        "example": "The message is against war.",
+        "exampleChinese": "这个信息表达反对战争。"
+      }
+    },
+    {
+      "x": 490,
+      "y": 940,
+      "english": "dead",
+      "chinese": "死去的",
+      "phoneticUS": "/ded/",
+      "phoneticUK": "/ded/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "remember the dead; dead soldiers",
+        "example": "We remember the dead soldiers mentioned in the story.",
+        "exampleChinese": "我们纪念故事中提到的死去的士兵。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 940,
+      "english": "death",
+      "chinese": "死亡",
+      "phoneticUS": "/deθ/",
+      "phoneticUK": "/deθ/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。",
+        "collocation": "death in war; the loss of life through death",
+        "example": "The guide speaks about death and loss during war.",
+        "exampleChinese": "讲解员讲述战争中的死亡与损失。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I study history in a museum and reflect on the human cost of war.",
+    "chinese": "我在博物馆学习历史，思考战争给人类带来的代价。",
+    "source": "原创配文 · C094 历史馆里的战争展",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

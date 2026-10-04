@@ -1,0 +1,335 @@
+C094  历史馆里的战争展
+========================================================================
+章节: 社会与表达
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C094.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C094.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:13:18 UTC → 2026-10-03 18:16:29 UTC
+  提示词文件: prompts/C094_image_final.txt
+
+场景: 原创博物馆展板介绍军队、战争、枪械与军事历史；用文字与非血腥图解解释 attack、fight、violent、against、dead、death。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 玻璃后旧步枪和背景左侧微型军队展示清楚，无战斗动作伤情；历史战争概念用原创讲解。
+
+主配文:
+  英文: I study history in a museum and reflect on the human cost of war.
+  中文: 我在博物馆学习历史，思考战争给人类带来的代价。
+  类型: original | 来源: None | 状态: final
+
+目标词 (11): history, war, army, military, gun, attack, fight, violent, against, dead, death
+
+------------------------------------------------------------------------
+[1/11] history  (W339)
+  词义: 历史
+  词性: noun
+  音标: UK /ˈhɪstəri/ | US /ˈhɪstəri/
+  搭配: study history; a history museum
+  例句: I study history at the museum.
+  例句高亮: I study **history** at the museum.
+  例句中文: 我在博物馆学习历史。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I study history at the museum."
+    matched_form: "history"
+    context: "由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 历史
+
+------------------------------------------------------------------------
+[2/11] war  (W802)
+  词义: 战争
+  词性: noun
+  音标: UK /wɔː/ | US /wɔːr/
+  搭配: the cost of war; a war exhibit
+  例句: The exhibit explains the cost of war.
+  例句高亮: The exhibit explains the cost of **war**.
+  例句中文: 展览解释战争的代价。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The exhibit explains the cost of war."
+    matched_form: "war"
+    context: "由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 战争
+
+------------------------------------------------------------------------
+[3/11] army  (W034)
+  词义: 军队
+  词性: noun
+  音标: UK /ˈɑːmi/ | US /ˈɑːrmi/
+  搭配: an army model; an army formation
+  例句: The miniature figures represent an army in this exhibit.
+  例句高亮: The miniature figures represent an **army** in this exhibit.
+  例句中文: 展览中的微型人物代表一支军队。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（军队），待最终图确认。
+  坐标(normalized): [0.001, 0.444, 0.248, 0.596]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左下展柜里的排列微型人物，故事指定军队模型。"
+    sentence: "The miniature figures represent an army in this exhibit."
+    matched_form: "army"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 军队
+
+------------------------------------------------------------------------
+[4/11] military  (W441)
+  词义: 军事的
+  词性: adjective
+  音标: UK /ˈmɪlətri/ | US /ˈmɪləteri/
+  搭配: military history; a military exhibit
+  例句: This room presents military history.
+  例句高亮: This room presents **military** history.
+  例句中文: 这个展厅介绍军事历史。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "This room presents military history."
+    matched_form: "military"
+    context: "由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 军事的
+
+------------------------------------------------------------------------
+[5/11] gun  (W318)
+  词义: 枪
+  词性: noun
+  音标: UK /ɡʌn/ | US /ɡʌn/
+  搭配: an old gun; a gun display
+  例句: An old gun is kept behind glass.
+  例句高亮: An old **gun** is kept behind glass.
+  例句中文: 一支旧枪保存在玻璃后面。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（枪），待最终图确认。
+  坐标(normalized): [0.832, 0.019, 0.934, 0.813]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "玻璃后完整旧步枪，不是背景人物持枪。"
+    sentence: "An old gun is kept behind glass."
+    matched_form: "gun"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 枪
+
+------------------------------------------------------------------------
+[6/11] attack  (W038)
+  词义: 进攻
+  词性: noun
+  音标: UK /əˈtæk/ | US /əˈtæk/
+  搭配: an attack on; an armed attack
+  例句: The guide describes an attack in the historical story.
+  例句高亮: The guide describes an **attack** in the historical story.
+  例句中文: 讲解员描述历史故事中的一次进攻。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The guide describes an attack in the historical story."
+    matched_form: "attack"
+    context: "由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 攻击；袭击
+
+------------------------------------------------------------------------
+[7/11] fight  (W265)
+  词义: 战斗
+  词性: verb
+  音标: UK /faɪt/ | US /faɪt/
+  搭配: fight in a war; fight against
+  例句: The story explains why soldiers had to fight.
+  例句高亮: The story explains why soldiers had to **fight**.
+  例句中文: 故事解释士兵为什么不得不战斗。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The story explains why soldiers had to fight."
+    matched_form: "fight"
+    context: "由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 打斗；战斗
+
+------------------------------------------------------------------------
+[8/11] violent  (W797)
+  词义: 暴力的
+  词性: adjective
+  音标: UK /ˈvaɪələnt/ | US /ˈvaɪələnt/
+  搭配: a violent conflict; violent actions
+  例句: The exhibit discusses violent conflict without showing injuries.
+  例句高亮: The exhibit discusses **violent** conflict without showing injuries.
+  例句中文: 展览讨论暴力冲突，但不展示伤情。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The exhibit discusses violent conflict without showing injuries."
+    matched_form: "violent"
+    context: "由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 暴力的
+
+------------------------------------------------------------------------
+[9/11] against  (W013)
+  词义: 反对
+  词性: preposition
+  音标: UK /əˈɡenst/ | US /əˈɡenst/
+  搭配: against war; stand against
+  例句: The message is against war.
+  例句高亮: The message is **against** war.
+  例句中文: 这个信息表达反对战争。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The message is against war."
+    matched_form: "against"
+    context: "由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 反对；对抗
+
+------------------------------------------------------------------------
+[10/11] dead  (W184)
+  词义: 死去的
+  词性: adjective
+  音标: UK /ded/ | US /ded/
+  搭配: remember the dead; dead soldiers
+  例句: We remember the dead soldiers mentioned in the story.
+  例句高亮: We remember the **dead** soldiers mentioned in the story.
+  例句中文: 我们纪念故事中提到的死去的士兵。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We remember the dead soldiers mentioned in the story."
+    matched_form: "dead"
+    context: "由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 死的
+
+------------------------------------------------------------------------
+[11/11] death  (W186)
+  词义: 死亡
+  词性: noun
+  音标: UK /deθ/ | US /deθ/
+  搭配: death in war; the loss of life through death
+  例句: The guide speaks about death and loss during war.
+  例句高亮: The guide speaks about **death** and loss during war.
+  例句中文: 讲解员讲述战争中的死亡与损失。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The guide speaks about death and loss during war."
+    matched_form: "death"
+    context: "由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 死亡
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 11
+  content_entries_complete: 11
+  sentence_evidence_complete: 11
+  verified_targets: 11
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 9
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C094 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=99 | meta.approved_cards=100
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman visiting a quiet military history museum, inert old rifle behind secured display glass, simple original unlabelled museum map and miniature army formation, subdued cool Korean travel portrait. No firing, gore, injured people, actual battle, extremist emblems or readable text. Show thoughtful ordinary visitor, war concepts only conveyed in later educational captions.

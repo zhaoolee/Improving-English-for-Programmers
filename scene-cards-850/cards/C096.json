@@ -1,0 +1,364 @@
+{
+  "id": "C096",
+  "chapter": "社会与表达",
+  "title": "挫折后再尝试",
+  "scene": "主角尝试失败，回望遗憾，又得到鼓励、希望和奖励。",
+  "target_count": 8,
+  "primary_words": [
+    "hope",
+    "regret",
+    "reward",
+    "chance",
+    "trouble",
+    "foolish",
+    "wise",
+    "tendency"
+  ],
+  "targets": [
+    {
+      "word_id": "W343",
+      "word": "hope",
+      "aliases": [],
+      "source_zh_unreviewed": "希望",
+      "planned_mode": "context",
+      "sense_zh": "希望",
+      "pos": "noun",
+      "ipa_us": "/hoʊp/",
+      "ipa_uk": "/həʊp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I have hope that the next attempt will work.",
+        "matched_form": "hope",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I have hope that the next attempt will work.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I have hope that the next attempt will work.",
+      "example_zh": "我希望下一次尝试会成功。",
+      "bbox_normalized": null,
+      "collocations": [
+        "have hope",
+        "hope for success"
+      ],
+      "example_en_highlighted": "I have **hope** that the next attempt will work.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I have hope that the next attempt will work.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W586",
+      "word": "regret",
+      "aliases": [],
+      "source_zh_unreviewed": "后悔；遗憾",
+      "planned_mode": "context",
+      "sense_zh": "遗憾",
+      "pos": "noun",
+      "ipa_us": "/rɪˈɡret/",
+      "ipa_uk": "/rɪˈɡret/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel regret about rushing the first attempt.",
+        "matched_form": "regret",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I feel regret about rushing the first attempt.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I feel regret about rushing the first attempt.",
+      "example_zh": "我为第一次尝试过于仓促而遗憾。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel regret",
+        "regret about"
+      ],
+      "example_en_highlighted": "I feel **regret** about rushing the first attempt.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I feel regret about rushing the first attempt.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W595",
+      "word": "reward",
+      "aliases": [],
+      "source_zh_unreviewed": "奖励；报酬",
+      "planned_mode": "context",
+      "sense_zh": "奖励",
+      "pos": "noun",
+      "ipa_us": "/rɪˈwɔːrd/",
+      "ipa_uk": "/rɪˈwɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右下圆奖牌，故事指定努力的奖励。",
+        "sentence": "The medal is a small reward for effort in our story.",
+        "matched_form": "reward",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The medal is a small reward for effort in our story.",
+      "example_zh": "故事中的奖牌是对努力的小奖励。",
+      "bbox_normalized": [
+        0.717,
+        0.933,
+        0.815,
+        0.965
+      ],
+      "collocations": [
+        "a small reward",
+        "receive a reward"
+      ],
+      "example_en_highlighted": "The medal is a small **reward** for effort in our story.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（奖励），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W123",
+      "word": "chance",
+      "aliases": [],
+      "source_zh_unreviewed": "机会",
+      "planned_mode": "context",
+      "sense_zh": "机会",
+      "pos": "noun",
+      "ipa_us": "/tʃæns/",
+      "ipa_uk": "/tʃɑːns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I give myself another chance to try.",
+        "matched_form": "chance",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I give myself another chance to try.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I give myself another chance to try.",
+      "example_zh": "我给自己再一次尝试的机会。",
+      "bbox_normalized": null,
+      "collocations": [
+        "another chance",
+        "a chance to try"
+      ],
+      "example_en_highlighted": "I give myself another **chance** to try.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I give myself another chance to try.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W782",
+      "word": "trouble",
+      "aliases": [],
+      "source_zh_unreviewed": "麻烦",
+      "planned_mode": "context",
+      "sense_zh": "困难",
+      "pos": "noun",
+      "ipa_us": "/ˈtrʌbəl/",
+      "ipa_uk": "/ˈtrʌbəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I have trouble keeping the paper tower upright.",
+        "matched_form": "trouble",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I have trouble keeping the paper tower upright.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I have trouble keeping the paper tower upright.",
+      "example_zh": "我难以让纸塔保持直立。",
+      "bbox_normalized": null,
+      "collocations": [
+        "have trouble",
+        "trouble with"
+      ],
+      "example_en_highlighted": "I have **trouble** keeping the paper tower upright.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I have trouble keeping the paper tower upright.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W280",
+      "word": "foolish",
+      "aliases": [],
+      "source_zh_unreviewed": "愚蠢的；愚笨的",
+      "planned_mode": "context",
+      "sense_zh": "不明智的",
+      "pos": "adjective",
+      "ipa_us": "/ˈfuːlɪʃ/",
+      "ipa_uk": "/ˈfuːlɪʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Rushing without checking was a foolish choice in the story.",
+        "matched_form": "foolish",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Rushing without checking was a foolish choice in the story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Rushing without checking was a foolish choice in the story.",
+      "example_zh": "故事中，不检查就仓促动手是不明智的选择。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a foolish choice",
+        "seem foolish"
+      ],
+      "example_en_highlighted": "Rushing without checking was a **foolish** choice in the story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Rushing without checking was a foolish choice in the story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W834",
+      "word": "wise",
+      "aliases": [],
+      "source_zh_unreviewed": "明智的",
+      "planned_mode": "context",
+      "sense_zh": "明智的",
+      "pos": "adjective",
+      "ipa_us": "/waɪz/",
+      "ipa_uk": "/waɪz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Taking time to check is a wise choice.",
+        "matched_form": "wise",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Taking time to check is a wise choice.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Taking time to check is a wise choice.",
+      "example_zh": "花时间检查是明智的选择。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a wise choice",
+        "be wise"
+      ],
+      "example_en_highlighted": "Taking time to check is a **wise** choice.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Taking time to check is a wise choice.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W742",
+      "word": "tendency",
+      "aliases": [],
+      "source_zh_unreviewed": "倾向；趋势",
+      "planned_mode": "context",
+      "sense_zh": "倾向",
+      "pos": "noun",
+      "ipa_us": "/ˈtendənsi/",
+      "ipa_uk": "/ˈtendənsi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I notice my tendency to rush when I am excited.",
+        "matched_form": "tendency",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I notice my tendency to rush when I am excited.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I notice my tendency to rush when I am excited.",
+      "example_zh": "我注意到自己兴奋时容易仓促行事的倾向。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a tendency to",
+        "a natural tendency"
+      ],
+      "example_en_highlighted": "I notice my **tendency** to rush when I am excited.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I notice my tendency to rush when I am excited.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "After a difficult attempt, I find hope and give myself another chance.",
+    "zh": "一次艰难的尝试之后，我找到希望，给自己再一次机会。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "抽象与历史词用展板解说、短对话或旁白，不能强行绑到普通物体。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C096\n标题 挫折后再尝试\n场景 主角尝试失败，回望遗憾，又得到鼓励、希望和奖励。\n目标词 hope, regret, reward, chance, trouble, foolish, wise, tendency\n原创主配文草案 A wise person can learn from trouble.\n中文草案 明智的人能从困难中学习。\n编辑注意 抽象与历史词用展板解说、短对话或旁白，不能强行绑到普通物体。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two stacked panels same adult woman at cool refined craft desk. Upper assembling paper tower that has collapsed harmlessly on table; lower trying a steadier small tower while adult female friend encourages nearby, small simple bronze medal beside notebook as later story reward. Realistic paper folding, natural hands, no words logos or exaggerated crying, no injuries.",
+  "status": "approved",
+  "image_path": "images/C096.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C096 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:17:08 UTC",
+    "prompt_path": "prompts/C096_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C096.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅纸塔失败下幅重新搭稳，朋友陪伴，小奖牌下幅右底可见；心理评价全部由故事自述。"
+  }
+}

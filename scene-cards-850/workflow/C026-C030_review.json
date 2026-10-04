@@ -1,0 +1,639 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "cards": {
+    "C026": {
+      "imageReview": "透明伞、窗外湿地面与雨滴、黑白灰雨衣、蓝夹克、棕靴清楚；颜色独立可辨。伞在门边手中，不认定已收伞。天气/商店身份由原创场景说明。 最终预览将伞指向点移至左侧伞面[235,180]，避开人物下颌。",
+      "geometry": {
+        "umbrella": {
+          "bubble": [
+            125,
+            386
+          ],
+          "box": [
+            136,
+            103,
+            579,
+            425
+          ],
+          "anchor": [
+            235,
+            180
+          ]
+        },
+        "rain": {
+          "bubble": [
+            111,
+            67
+          ],
+          "box": [
+            8,
+            27,
+            133,
+            954
+          ],
+          "anchor": [
+            78,
+            362
+          ],
+          "evidence": "左侧玻璃门外的雨滴与湿地面区域，rain指向可见降雨线索；天气由原创场景确认。"
+        },
+        "store": {
+          "bubble": [
+            695,
+            66
+          ],
+          "box": [
+            581,
+            162,
+            993,
+            748
+          ],
+          "anchor": [
+            820,
+            430
+          ],
+          "evidence": "右侧衣架与雨具货品的商店局部区域，store由原创购物设定说明；未框整栋建筑。"
+        },
+        "black": {
+          "bubble": [
+            661,
+            783
+          ],
+          "box": [
+            576,
+            248,
+            742,
+            551
+          ],
+          "anchor": [
+            657,
+            439
+          ],
+          "evidence": "可见雨具中与例句对应的黑色雨衣，颜色词定位这件物品的实际区域。"
+        },
+        "white": {
+          "bubble": [
+            751,
+            176
+          ],
+          "box": [
+            734,
+            241,
+            824,
+            550
+          ],
+          "anchor": [
+            781,
+            416
+          ],
+          "evidence": "可见雨具中与例句对应的白色雨衣，颜色词定位这件物品的实际区域。"
+        },
+        "grey": {
+          "bubble": [
+            906,
+            176
+          ],
+          "box": [
+            822,
+            238,
+            909,
+            553
+          ],
+          "anchor": [
+            866,
+            395
+          ],
+          "evidence": "可见雨具中与例句对应的灰色雨衣，颜色词定位这件物品的实际区域。"
+        },
+        "brown": {
+          "bubble": [
+            850,
+            781
+          ],
+          "box": [
+            752,
+            574,
+            872,
+            712
+          ],
+          "anchor": [
+            807,
+            653
+          ],
+          "evidence": "可见雨具中与例句对应的棕色靴子，颜色词定位这件物品的实际区域。"
+        },
+        "blue": {
+          "bubble": [
+            930,
+            571
+          ],
+          "box": [
+            897,
+            238,
+            998,
+            536
+          ],
+          "anchor": [
+            955,
+            371
+          ],
+          "evidence": "可见雨具中与例句对应的蓝色夹克，颜色词定位这件物品的实际区域。"
+        }
+      },
+      "avoidRegions": [
+        [
+          299,
+          171,
+          441,
+          309
+        ]
+      ],
+      "sourcePath": "scene-cards-850/images/C026.png",
+      "generationStartedAt": "2026-10-03T02:53:32Z",
+      "generationEndedAt": "2026-10-03T02:56:05Z",
+      "originalSourcePathRedacted": true
+    },
+    "C027": {
+      "imageReview": "藤篮、带轮金属手推车与硬币托盘清楚，价牌空白不当成已读金额。市场/低价/便宜/买到用故事与句子证据；手部自然。",
+      "geometry": {
+        "market": {
+          "bubble": [
+            116,
+            71
+          ],
+          "box": [
+            5,
+            407,
+            363,
+            766
+          ],
+          "anchor": [
+            184,
+            586
+          ],
+          "evidence": "左侧陈列蔬菜的市场摊位区域，market的经营场景由原创设定说明；不框整张照片。"
+        },
+        "basket": {
+          "bubble": [
+            166,
+            862
+          ],
+          "box": [
+            234,
+            516,
+            551,
+            785
+          ],
+          "anchor": [
+            408,
+            710
+          ]
+        },
+        "cart": {
+          "bubble": [
+            914,
+            435
+          ],
+          "box": [
+            702,
+            524,
+            958,
+            999
+          ],
+          "anchor": [
+            842,
+            775
+          ]
+        },
+        "price": {
+          "bubble": [
+            877,
+            75
+          ]
+        },
+        "cheap": {
+          "bubble": [
+            868,
+            270
+          ]
+        },
+        "money": {
+          "bubble": [
+            520,
+            906
+          ],
+          "box": [
+            457,
+            787,
+            542,
+            810
+          ],
+          "anchor": [
+            500,
+            800
+          ]
+        },
+        "get": {
+          "bubble": [
+            164,
+            430
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          341,
+          140,
+          516,
+          277
+        ]
+      ],
+      "sourcePath": "scene-cards-850/images/C027.png",
+      "generationStartedAt": "2026-10-03T02:53:32Z",
+      "generationEndedAt": "2026-10-03T02:54:50Z",
+      "originalSourcePathRedacted": true
+    },
+    "C028": {
+      "imageReview": "顾客接收独立收据纸条、收银机、账簿与硬币可辨；未把模糊纸上印痕当可读金额。店主/赊购/债务/利润由原创或条件句说明，赊购为另一个示例情境。",
+      "geometry": {
+        "payment": {
+          "bubble": [
+            140,
+            62
+          ]
+        },
+        "receipt": {
+          "bubble": [
+            537,
+            346
+          ],
+          "box": [
+            515,
+            452,
+            581,
+            495
+          ],
+          "anchor": [
+            548,
+            473
+          ]
+        },
+        "account": {
+          "bubble": [
+            494,
+            913
+          ],
+          "box": [
+            668,
+            664,
+            989,
+            756
+          ],
+          "anchor": [
+            828,
+            710
+          ],
+          "evidence": "柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。"
+        },
+        "credit": {
+          "bubble": [
+            723,
+            914
+          ]
+        },
+        "debt": {
+          "bubble": [
+            906,
+            914
+          ]
+        },
+        "business": {
+          "bubble": [
+            475,
+            165
+          ]
+        },
+        "profit": {
+          "bubble": [
+            505,
+            65
+          ]
+        },
+        "owner": {
+          "bubble": [
+            883,
+            65
+          ],
+          "box": [
+            637,
+            144,
+            989,
+            678
+          ],
+          "anchor": [
+            853,
+            180
+          ],
+          "evidence": "右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。"
+        }
+      },
+      "avoidRegions": [
+        [
+          170,
+          152,
+          314,
+          302
+        ],
+        [
+          773,
+          177,
+          929,
+          340
+        ]
+      ],
+      "sourcePath": "scene-cards-850/images/C028.png",
+      "generationStartedAt": "2026-10-03T02:53:32Z",
+      "generationEndedAt": "2026-10-03T02:54:10Z",
+      "originalSourcePathRedacted": true
+    },
+    "C029": {
+      "imageReview": "盒中银戒指、独立蓝色切面宝石、金色手镯、陶瓷星、折叠贺卡和未点燃蜡烛可辨。金银与蜡的材质身份由故事说明，不声称已鉴定；人物手部自然。",
+      "geometry": {
+        "ring": {
+          "bubble": [
+            215,
+            917
+          ],
+          "box": [
+            236,
+            739,
+            307,
+            789
+          ],
+          "anchor": [
+            270,
+            769
+          ]
+        },
+        "jewel": {
+          "bubble": [
+            486,
+            919
+          ],
+          "box": [
+            455,
+            767,
+            539,
+            830
+          ],
+          "anchor": [
+            497,
+            800
+          ]
+        },
+        "gold": {
+          "bubble": [
+            903,
+            68
+          ],
+          "box": [
+            702,
+            744,
+            955,
+            839
+          ],
+          "anchor": [
+            828,
+            792
+          ],
+          "evidence": "前景右侧金色手镯的实际区域；金材质由原创故事明确，框定位所指手镯，不从反光鉴定黄金。"
+        },
+        "silver": {
+          "bubble": [
+            117,
+            67
+          ],
+          "box": [
+            236,
+            739,
+            307,
+            789
+          ],
+          "anchor": [
+            272,
+            764
+          ],
+          "evidence": "前景戒指的实际区域；银材质来自原创故事，框定位所指戒指，不从颜色鉴定银。"
+        },
+        "ornament": {
+          "bubble": [
+            111,
+            524
+          ],
+          "box": [
+            0,
+            577,
+            157,
+            696
+          ],
+          "anchor": [
+            77,
+            650
+          ]
+        },
+        "card": {
+          "bubble": [
+            799,
+            920
+          ],
+          "box": [
+            631,
+            580,
+            892,
+            733
+          ],
+          "anchor": [
+            765,
+            665
+          ]
+        },
+        "special": {
+          "bubble": [
+            123,
+            399
+          ]
+        },
+        "wax": {
+          "bubble": [
+            922,
+            464
+          ],
+          "box": [
+            891,
+            551,
+            999,
+            683
+          ],
+          "anchor": [
+            944,
+            613
+          ],
+          "evidence": "右侧蜡烛蜡质柱体区域；蜡材质由原创设定说明，不把烛台玻璃等同于蜡。"
+        }
+      },
+      "avoidRegions": [
+        [
+          342,
+          121,
+          578,
+          294
+        ]
+      ],
+      "sourcePath": "scene-cards-850/images/C029.png",
+      "generationStartedAt": "2026-10-03T02:53:32Z",
+      "generationEndedAt": "2026-10-03T02:55:29Z",
+      "originalSourcePathRedacted": true
+    },
+    "C030": {
+      "imageReview": "左杯完整、右杯断柄及缺口和桌面柄碎片清楚，两位成年女性比较杯子，手不触碰碎片。新旧身份与换货故事明确；质量/价值/改变选择等由句子说明。",
+      "geometry": {
+        "new": {
+          "bubble": [
+            140,
+            930
+          ],
+          "box": [
+            212,
+            705,
+            452,
+            852
+          ],
+          "anchor": [
+            332,
+            778
+          ],
+          "evidence": "左侧完整杯子的实际区域；new身份由原创退换货故事明确，框只定位新杯，不以清洁程度推断新旧。"
+        },
+        "old": {
+          "bubble": [
+            490,
+            855
+          ],
+          "box": [
+            528,
+            708,
+            805,
+            871
+          ],
+          "anchor": [
+            666,
+            790
+          ],
+          "evidence": "右侧破损旧杯和断柄碎片区域；old身份由原创故事明确，不由破损程度推断使用年限。"
+        },
+        "broken": {
+          "bubble": [
+            852,
+            930
+          ],
+          "box": [
+            666,
+            721,
+            805,
+            870
+          ],
+          "anchor": [
+            746,
+            840
+          ],
+          "evidence": "右杯缺损的口沿、断柄及桌上断柄碎片区域，broken对应这些直接可见破损。"
+        },
+        "quality": {
+          "bubble": [
+            110,
+            44
+          ]
+        },
+        "value": {
+          "bubble": [
+            488,
+            43
+          ]
+        },
+        "comparison": {
+          "bubble": [
+            500,
+            958.4180866317649
+          ],
+          "box": [
+            211,
+            705,
+            805,
+            871
+          ],
+          "anchor": [
+            508,
+            788
+          ],
+          "evidence": "前景两只同类杯子的对照区域，comparison指向实际比较对象，不包含全幅人物背景。"
+        },
+        "exchange": {
+          "bubble": [
+            120,
+            474
+          ]
+        },
+        "change": {
+          "bubble": [
+            530,
+            500
+          ]
+        },
+        "other": {
+          "bubble": [
+            923,
+            486
+          ]
+        }
+      },
+      "avoidRegions": [
+        [
+          180,
+          165,
+          417,
+          351
+        ],
+        [
+          647,
+          197,
+          884,
+          389
+        ]
+      ],
+      "sourcePath": "scene-cards-850/images/C030.png",
+      "generationStartedAt": "2026-10-03T02:53:32Z",
+      "generationEndedAt": "2026-10-03T02:56:46Z",
+      "originalSourcePathRedacted": true
+    }
+  },
+  "wordOverrides": {},
+  "finalPreview": {
+    "observedCompletedAt": "2026-10-03T03:21:07Z",
+    "method": "官方CLI preview export，工作台真实组件，逐张人工审查",
+    "width": 600,
+    "minGapPixels": 8,
+    "warnings": 0,
+    "imageAndPhotoBindingsVerified": true,
+    "initialRevision": 91,
+    "finalObservedRevision": 92,
+    "cards": {
+      "C026": "C026-final-preview.png",
+      "C027": "C027-final-preview.png",
+      "C028": "C028-final-preview.png",
+      "C029": "C029-final-preview.png",
+      "C030": "C030-final-preview.png"
+    },
+    "note": "C026指向线避开下颌，其他四张无需修正；自动检查不代替指向线和物件证据人工审查。"
+  }
+}

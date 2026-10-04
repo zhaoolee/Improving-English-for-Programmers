@@ -1,0 +1,257 @@
+C006  照顾小宝宝
+========================================================================
+章节: 家里的一天
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C006.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C006.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T11:56:26Z → 2026-10-02T11:57:08Z
+  提示词文件: prompts/C006_image_final.txt
+
+场景: 父母照顾襁褓中的宝宝，旁边有儿子和女儿；表达关心和亲吻。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 五位人物分离清晰：两位成年人、左右两位孩子与中央襁褓宝宝。母亲安全抱持宝宝，嘴唇接近并触及额头的亲吻动作可辨；儿子实际坐着，例句据此修正。亲属身份来自原创设定而非外貌推断；birth为出生回忆，情感与依赖靠句子。无文字、重复肢体或明显结构错误。
+
+主配文:
+  英文: We give our dear baby love and care every day.
+  中文: 我们每天给予亲爱的宝宝爱与照料。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): baby, son, daughter, birth, care, kiss, dear, love, dependent
+
+------------------------------------------------------------------------
+[1/9] baby  (W045)
+  词义: 宝宝
+  词性: noun (countable)
+  音标: UK /ˈbeɪbi/ | US /ˈbeɪbi/
+  搭配: a baby; hold the baby
+  例句: The baby is in my arms.
+  例句高亮: The **baby** is in my arms.
+  例句中文: 宝宝在我怀里。
+  标注模式: object
+  标注说明: 母亲怀中襁褓里的婴儿，按最终画面框选。
+  坐标(normalized): [0.313, 0.323, 0.592, 0.567]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "母亲怀中襁褓里的婴儿，按最终画面框选。"
+    sentence: "The baby is in my arms."
+    matched_form: "baby"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 婴儿；宝宝
+------------------------------------------------------------------------
+[2/9] son  (W682)
+  词义: 儿子
+  词性: noun (countable)
+  音标: UK /sʌn/ | US /sʌn/
+  搭配: my son; a young son
+  例句: Our son sits beside us.
+  例句高亮: Our **son** sits beside us.
+  例句中文: 我们的儿子坐在我们旁边。
+  标注模式: object
+  标注说明: 左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。
+  坐标(normalized): [0.025, 0.25, 0.31, 0.749]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左侧蓝灰上衣男孩为原创故事设定中的儿子，区域定位此角色；亲属关系来自故事，不从照片鉴定。"
+    sentence: "Our son sits beside us."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 儿子
+------------------------------------------------------------------------
+[3/9] daughter  (W182)
+  词义: 女儿
+  词性: noun (countable)
+  音标: UK /ˈdɔːtə/ | US /ˈdɔːtər/
+  搭配: my daughter; a young daughter
+  例句: Our daughter sits beside us.
+  例句高亮: Our **daughter** sits beside us.
+  例句中文: 我们的女儿坐在我们旁边。
+  标注模式: object
+  标注说明: 右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。
+  坐标(normalized): [0.722, 0.275, 0.991, 0.797]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧淡紫上衣女孩为原创故事设定中的女儿，区域定位此角色；身份由故事说明。"
+    sentence: "Our daughter sits beside us."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 女儿
+------------------------------------------------------------------------
+[4/9] birth  (W069)
+  词义: 出生
+  词性: noun (uncountable)
+  音标: UK /bɜːθ/ | US /bɝːθ/
+  搭配: the birth of a baby; after birth
+  例句: We were happy at the birth of our baby.
+  例句高亮: We were happy at the **birth** of our baby.
+  例句中文: 宝宝出生时，我们很开心。
+  标注模式: context
+  标注说明: 叙述宝宝出生这一过去事件，照片不直接证明出生过程。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "We were happy at the birth of our baby."
+    matched_form: "birth"
+    context: "叙述宝宝出生这一过去事件，照片不直接证明出生过程。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 出生；诞生
+------------------------------------------------------------------------
+[5/9] care  (W115)
+  词义: 照料
+  词性: noun (uncountable)
+  音标: UK /keə/ | US /ker/
+  搭配: give care; love and care
+  例句: Our baby needs love and care.
+  例句高亮: Our baby needs love and **care**.
+  例句中文: 我们的宝宝需要爱与照料。
+  标注模式: action
+  标注说明: 双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。
+  坐标(normalized): [0.283, 0.328, 0.638, 0.652]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "双手抱持宝宝的照料区域，care指向这个照料活动，抽象的爱与依赖仍保留句子语境。"
+    sentence: "Our baby needs love and care."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: context | 源释义(未复核): 关心；照料
+------------------------------------------------------------------------
+[6/9] kiss  (W380)
+  词义: 亲吻
+  词性: verb (transitive)
+  音标: UK /kɪs/ | US /kɪs/
+  搭配: kiss the baby; kiss gently
+  例句: I kiss the baby on the forehead.
+  例句高亮: I **kiss** the baby on the forehead.
+  例句中文: 我亲吻宝宝的额头。
+  标注模式: action
+  标注说明: 母亲嘴唇与宝宝额头接触的动作区域。
+  坐标(normalized): [0.447, 0.315, 0.492, 0.353]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "母亲嘴唇与宝宝额头接触的动作区域。"
+    sentence: "I kiss the baby on the forehead."
+    matched_form: "kiss"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 吻；亲吻
+------------------------------------------------------------------------
+[7/9] dear  (W185)
+  词义: 亲爱的
+  词性: adjective
+  音标: UK /dɪə/ | US /dɪr/
+  搭配: my dear baby; a dear friend
+  例句: You are my dear baby.
+  例句高亮: You are my **dear** baby.
+  例句中文: 你是我亲爱的宝宝。
+  标注模式: context
+  标注说明: 亲爱的称呼由例句表达，不能把宝宝框成dear。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "You are my dear baby."
+    matched_form: "dear"
+    context: "亲爱的称呼由例句表达，不能把宝宝框成dear。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: object_or_action_to_review | 源释义(未复核): 亲爱的
+------------------------------------------------------------------------
+[8/9] love  (W418)
+  词义: 爱
+  词性: noun (uncountable)
+  音标: UK /lʌv/ | US /lʌv/
+  搭配: give love; love and care
+  例句: We give our baby love.
+  例句高亮: We give our baby **love**.
+  例句中文: 我们给予宝宝爱。
+  标注模式: context
+  标注说明: 亲密照料与名词love例句，情感不设物体框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "We give our baby love."
+    matched_form: "love"
+    context: "亲密照料与名词love例句，情感不设物体框。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+  计划模式: context | 源释义(未复核): 爱
+------------------------------------------------------------------------
+[9/9] dependent  (W192)
+  词义: 依赖的
+  词性: adjective
+  音标: UK /dɪˈpendənt/ | US /dɪˈpendənt/
+  搭配: dependent on parents; fully dependent
+  例句: The baby is dependent on us.
+  例句高亮: The baby is **dependent** on us.
+  例句中文: 宝宝依赖我们。
+  标注模式: context
+  标注说明: dependent on结构明确依赖关系，不从静态姿态推出抽象属性。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The baby is dependent on us."
+    matched_form: "dependent"
+    context: "dependent on结构明确依赖关系，不从静态姿态推出抽象属性。"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境逐词编辑复核，未直接复用源表释义；关键多义项参考Cambridge检索结果，正文访问403，未声称全词典核验。
+    参考: https://dictionary.cambridge.org/pronunciation/english/dependent (dictionary search excerpt; full page unavailable)
+  计划模式: context | 源释义(未复核): 依赖的；依靠的
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C006 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=10 | meta.approved_cards=10
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photography, vertical 4:5. Pearl white, mist grey, muted slate blue, cool soft natural light, authentic skin pores and flyaway hair, subtle high-end retouch, realistic anatomy and fabric. Main woman is a stylish East Asian ADULT around 25, ivory knit top, loose low bun, calm candid expression. Environment and teaching objects clearly readable, modest empty space for later labels. No lettering, words, numbers, captions, labels, bubbles, logos, watermark or UI. No CGI, waxy skin, duplicate limbs or exaggerated expressions. One candid family scene in a bright elegant living room. Exactly two adults, two school-age children and one swaddled infant. Mother seated at center-left holding the newborn safely with head and body supported and gently KISSING its forehead, clear face-to-forehead contact. Adult father in muted blue sweater sits nearby right; their little son in pale blue stands left, daughter in pale lavender sits right. Infant wrapped in a cream blanket at center, face visible. All clothed, distinct separated faces, coherent hands and natural family intimacy, no medical setting. Full sofa and all five people comfortably fit, no face crop.

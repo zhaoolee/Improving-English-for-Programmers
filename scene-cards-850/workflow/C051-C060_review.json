@@ -1,0 +1,1249 @@
+{
+  "ready": true,
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "recognitionProvider": "Codex conversation vision",
+  "regionPolicy": "每卡整图一次视觉识别；具体词保留局部范围，抽象与功能词明确语境；不调用外部识别。",
+  "cards": {
+    "C051": {
+      "sourcePath": "scene-cards-850/images/C051.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T14:56:21Z",
+      "imageReview": "面部五官、近侧耳和梳子清晰；保留肤纹，梳子与头发有真实指代。",
+      "avoidRegions": [
+        [
+          282,
+          138,
+          690,
+          440
+        ]
+      ],
+      "geometry": {
+        "face": {
+          "bubble": [
+            130,
+            100
+          ],
+          "box": [
+            282,
+            138,
+            661,
+            440
+          ],
+          "anchor": [
+            471,
+            289
+          ]
+        },
+        "eye": {
+          "bubble": [
+            130,
+            230
+          ],
+          "box": [
+            426,
+            233,
+            509,
+            262
+          ],
+          "anchor": [
+            467,
+            247
+          ]
+        },
+        "ear": {
+          "bubble": [
+            860,
+            220
+          ],
+          "box": [
+            602,
+            280,
+            690,
+            369
+          ],
+          "anchor": [
+            646,
+            324
+          ]
+        },
+        "nose": {
+          "bubble": [
+            135,
+            360
+          ],
+          "box": [
+            340,
+            260,
+            424,
+            328
+          ],
+          "anchor": [
+            382,
+            294
+          ]
+        },
+        "mouth": {
+          "bubble": [
+            130,
+            490
+          ],
+          "box": [
+            319,
+            329,
+            430,
+            375
+          ],
+          "anchor": [
+            374,
+            352
+          ]
+        },
+        "lip": {
+          "bubble": [
+            420,
+            570
+          ],
+          "box": [
+            341,
+            357,
+            411,
+            373
+          ],
+          "anchor": [
+            376,
+            365
+          ]
+        },
+        "chin": {
+          "bubble": [
+            150,
+            625
+          ],
+          "box": [
+            332,
+            378,
+            452,
+            435
+          ],
+          "anchor": [
+            392,
+            406
+          ]
+        },
+        "hair": {
+          "bubble": [
+            870,
+            420
+          ],
+          "box": [
+            700,
+            735,
+            915,
+            890
+          ],
+          "anchor": [
+            807,
+            812
+          ]
+        },
+        "comb": {
+          "bubble": [
+            865,
+            955
+          ],
+          "box": [
+            740,
+            559,
+            942,
+            736
+          ],
+          "anchor": [
+            841,
+            647
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C052": {
+      "sourcePath": "scene-cards-850/images/C052.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T14:57:00Z",
+      "imageReview": "全身与手足特写分区；下方手有五指、脚有五趾。食指选右上方伸出的指头，拇指在左侧，足趾对应大脚趾。",
+      "avoidRegions": [
+        [
+          442,
+          26,
+          528,
+          109
+        ]
+      ],
+      "geometry": {
+        "body": {
+          "bubble": [
+            190,
+            65
+          ],
+          "box": [
+            368,
+            5,
+            813,
+            597
+          ],
+          "anchor": [
+            590,
+            301
+          ]
+        },
+        "arm": {
+          "bubble": [
+            850,
+            115
+          ],
+          "box": [
+            572,
+            141,
+            795,
+            222
+          ],
+          "anchor": [
+            683,
+            181
+          ]
+        },
+        "hand": {
+          "bubble": [
+            575,
+            705
+          ],
+          "box": [
+            96,
+            617,
+            486,
+            953
+          ],
+          "anchor": [
+            291,
+            785
+          ]
+        },
+        "finger": {
+          "bubble": [
+            185,
+            955
+          ],
+          "box": [
+            332,
+            714,
+            486,
+            828
+          ],
+          "anchor": [
+            409,
+            771
+          ]
+        },
+        "thumb": {
+          "bubble": [
+            100,
+            695
+          ],
+          "box": [
+            115,
+            700,
+            176,
+            882
+          ],
+          "anchor": [
+            145,
+            791
+          ]
+        },
+        "leg": {
+          "bubble": [
+            810,
+            410
+          ],
+          "box": [
+            510,
+            373,
+            574,
+            572
+          ],
+          "anchor": [
+            542,
+            472
+          ]
+        },
+        "foot": {
+          "bubble": [
+            615,
+            945
+          ],
+          "box": [
+            669,
+            619,
+            912,
+            937
+          ],
+          "anchor": [
+            790,
+            778
+          ]
+        },
+        "toe": {
+          "bubble": [
+            910,
+            755
+          ],
+          "box": [
+            676,
+            857,
+            763,
+            934
+          ],
+          "anchor": [
+            719,
+            895
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C053": {
+      "sourcePath": "scene-cards-850/images/C053.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T14:57:30Z",
+      "imageReview": "实体心脏、脑、骨和肌肉模型分开可见；衣着遮盖胸部；桌下弯曲的近侧膝盖可定位。模型用于示意，不宣称医学精确。",
+      "avoidRegions": [
+        [
+          399,
+          118,
+          587,
+          281
+        ]
+      ],
+      "geometry": {
+        "head": {
+          "bubble": [
+            160,
+            90
+          ],
+          "box": [
+            337,
+            37,
+            681,
+            266
+          ],
+          "anchor": [
+            509,
+            151
+          ]
+        },
+        "neck": {
+          "bubble": [
+            830,
+            190
+          ],
+          "box": [
+            536,
+            244,
+            636,
+            313
+          ],
+          "anchor": [
+            586,
+            278
+          ]
+        },
+        "chest": {
+          "bubble": [
+            850,
+            325
+          ],
+          "box": [
+            537,
+            304,
+            694,
+            473
+          ],
+          "anchor": [
+            615,
+            388
+          ]
+        },
+        "knee": {
+          "bubble": [
+            880,
+            940
+          ],
+          "box": [
+            449,
+            842,
+            646,
+            998
+          ],
+          "anchor": [
+            547,
+            920
+          ]
+        },
+        "heart": {
+          "bubble": [
+            110,
+            770
+          ],
+          "box": [
+            43,
+            468,
+            197,
+            639
+          ],
+          "anchor": [
+            120,
+            553
+          ]
+        },
+        "brain": {
+          "bubble": [
+            320,
+            770
+          ],
+          "box": [
+            230,
+            522,
+            433,
+            645
+          ],
+          "anchor": [
+            331,
+            583
+          ]
+        },
+        "bone": {
+          "bubble": [
+            605,
+            790
+          ],
+          "box": [
+            458,
+            554,
+            762,
+            692
+          ],
+          "anchor": [
+            610,
+            623
+          ]
+        },
+        "muscle": {
+          "bubble": [
+            860,
+            810
+          ],
+          "box": [
+            705,
+            538,
+            970,
+            694
+          ],
+          "anchor": [
+            837,
+            616
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C054": {
+      "sourcePath": "scene-cards-850/images/C054.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T14:58:15Z",
+      "imageReview": "牙齿剖面黄色路径、舌与咽后通道可见；皮肤取患者前臂；medical和pain由例句表达，不能从外观判断疼痛。",
+      "avoidRegions": [
+        [
+          265,
+          109,
+          384,
+          247
+        ],
+        [
+          624,
+          75,
+          796,
+          235
+        ]
+      ],
+      "geometry": {
+        "tooth": {
+          "bubble": [
+            100,
+            560
+          ],
+          "box": [
+            188,
+            541,
+            489,
+            928
+          ],
+          "anchor": [
+            338,
+            734
+          ]
+        },
+        "tongue": {
+          "bubble": [
+            885,
+            670
+          ],
+          "box": [
+            605,
+            647,
+            792,
+            739
+          ],
+          "anchor": [
+            698,
+            693
+          ]
+        },
+        "throat": {
+          "bubble": [
+            915,
+            805
+          ],
+          "box": [
+            810,
+            600,
+            863,
+            750
+          ],
+          "anchor": [
+            836,
+            675
+          ]
+        },
+        "skin": {
+          "bubble": [
+            270,
+            480
+          ],
+          "box": [
+            194,
+            417,
+            339,
+            463
+          ],
+          "anchor": [
+            266,
+            440
+          ]
+        },
+        "nerve": {
+          "bubble": [
+            370,
+            950
+          ],
+          "box": [
+            298,
+            623,
+            345,
+            896
+          ],
+          "anchor": [
+            321,
+            759
+          ]
+        },
+        "medical": {
+          "bubble": [
+            95,
+            45
+          ]
+        },
+        "pain": {
+          "bubble": [
+            915,
+            445
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C055": {
+      "sourcePath": "scene-cards-850/images/C055.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T14:58:58Z",
+      "imageReview": "三幅分别为肘部咳嗽、纸巾掩鼻喷嚏与休息；医院是明确故事地点，框取接待区而非以装修证明资质；健康与疾病均只用故事语境。",
+      "avoidRegions": [
+        [
+          440,
+          47,
+          566,
+          135
+        ],
+        [
+          423,
+          390,
+          553,
+          465
+        ],
+        [
+          448,
+          693,
+          539,
+          773
+        ]
+      ],
+      "geometry": {
+        "hospital": {
+          "bubble": [
+            855,
+            950
+          ],
+          "box": [
+            672,
+            690,
+            999,
+            880
+          ],
+          "anchor": [
+            835,
+            785
+          ]
+        },
+        "disease": {
+          "bubble": [
+            865,
+            65
+          ]
+        },
+        "ill": {
+          "bubble": [
+            140,
+            65
+          ]
+        },
+        "healthy": {
+          "bubble": [
+            145,
+            765
+          ]
+        },
+        "cough": {
+          "bubble": [
+            120,
+            210
+          ],
+          "box": [
+            298,
+            6,
+            603,
+            328
+          ],
+          "anchor": [
+            450,
+            167
+          ]
+        },
+        "sneeze": {
+          "bubble": [
+            135,
+            465
+          ],
+          "box": [
+            285,
+            342,
+            594,
+            649
+          ],
+          "anchor": [
+            439,
+            495
+          ]
+        },
+        "feeble": {
+          "bubble": [
+            855,
+            450
+          ]
+        },
+        "normal": {
+          "bubble": [
+            865,
+            585
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C056": {
+      "sourcePath": "scene-cards-850/images/C056.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T14:59:59Z",
+      "imageReview": "前臂可见针尖大小红点与微小伤口，托盘纱布有独立血点；护士贴敷动作清楚，未画手术，operation例句为不需要手术。",
+      "avoidRegions": [
+        [
+          184,
+          140,
+          404,
+          364
+        ],
+        [
+          648,
+          161,
+          863,
+          412
+        ]
+      ],
+      "geometry": {
+        "wound": {
+          "bubble": [
+            120,
+            670
+          ],
+          "box": [
+            439,
+            676,
+            472,
+            699
+          ],
+          "anchor": [
+            455,
+            687
+          ]
+        },
+        "blood": {
+          "bubble": [
+            880,
+            945
+          ],
+          "box": [
+            731,
+            855,
+            763,
+            875
+          ],
+          "anchor": [
+            747,
+            865
+          ]
+        },
+        "operation": {
+          "bubble": [
+            115,
+            80
+          ]
+        },
+        "conscious": {
+          "bubble": [
+            570,
+            70
+          ]
+        },
+        "physical": {
+          "bubble": [
+            120,
+            460
+          ]
+        },
+        "serious": {
+          "bubble": [
+            560,
+            465
+          ]
+        },
+        "help": {
+          "bubble": [
+            910,
+            675
+          ],
+          "box": [
+            457,
+            583,
+            800,
+            795
+          ],
+          "anchor": [
+            628,
+            689
+          ]
+        },
+        "safe": {
+          "bubble": [
+            115,
+            925
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C057": {
+      "sourcePath": "scene-cards-850/images/C057.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T15:00:40Z",
+      "imageReview": "下幅胃模型形状独立清楚；呼吸、消化、嗅觉、感觉和健康状态由例句表达，不能伪造过程区域。",
+      "avoidRegions": [
+        [
+          336,
+          49,
+          501,
+          174
+        ]
+      ],
+      "geometry": {
+        "breath": {
+          "bubble": [
+            135,
+            95
+          ]
+        },
+        "stomach": {
+          "bubble": [
+            880,
+            800
+          ],
+          "box": [
+            382,
+            599,
+            709,
+            864
+          ],
+          "anchor": [
+            545,
+            731
+          ]
+        },
+        "digestion": {
+          "bubble": [
+            160,
+            825
+          ]
+        },
+        "sense": {
+          "bubble": [
+            875,
+            400
+          ]
+        },
+        "feeling": {
+          "bubble": [
+            120,
+            470
+          ]
+        },
+        "well": {
+          "bubble": [
+            885,
+            115
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C058": {
+      "sourcePath": "scene-cards-850/images/C058.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T15:01:13Z",
+      "imageReview": "三幅跑步、双脚离地跳跃与踢球清楚；动作词取对应姿势；motion限定跑动腿部；比赛和强壮并非照片证明，使用故事句。",
+      "avoidRegions": [
+        [
+          497,
+          12,
+          538,
+          57
+        ],
+        [
+          484,
+          345,
+          539,
+          391
+        ],
+        [
+          398,
+          685,
+          445,
+          723
+        ]
+      ],
+      "geometry": {
+        "ball": {
+          "bubble": [
+            875,
+            940
+          ],
+          "box": [
+            682,
+            861,
+            745,
+            915
+          ],
+          "anchor": [
+            713,
+            888
+          ]
+        },
+        "kick": {
+          "bubble": [
+            865,
+            760
+          ],
+          "box": [
+            359,
+            785,
+            745,
+            922
+          ],
+          "anchor": [
+            552,
+            853
+          ]
+        },
+        "jump": {
+          "bubble": [
+            135,
+            460
+          ],
+          "box": [
+            370,
+            335,
+            625,
+            637
+          ],
+          "anchor": [
+            497,
+            486
+          ]
+        },
+        "run": {
+          "bubble": [
+            850,
+            120
+          ],
+          "box": [
+            415,
+            5,
+            583,
+            320
+          ],
+          "anchor": [
+            499,
+            162
+          ]
+        },
+        "motion": {
+          "bubble": [
+            150,
+            240
+          ],
+          "box": [
+            422,
+            154,
+            543,
+            319
+          ],
+          "anchor": [
+            482,
+            236
+          ]
+        },
+        "move": {
+          "bubble": [
+            860,
+            580
+          ],
+          "box": [
+            236,
+            662,
+            638,
+            986
+          ],
+          "anchor": [
+            437,
+            824
+          ]
+        },
+        "stretch": {
+          "bubble": [
+            135,
+            865
+          ],
+          "box": [
+            402,
+            810,
+            638,
+            923
+          ],
+          "anchor": [
+            520,
+            866
+          ]
+        },
+        "strong": {
+          "bubble": [
+            150,
+            95
+          ]
+        },
+        "let": {
+          "bubble": [
+            140,
+            590
+          ]
+        },
+        "competition": {
+          "bubble": [
+            810,
+            350
+          ]
+        },
+        "match": {
+          "bubble": [
+            510,
+            945
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C059": {
+      "sourcePath": "scene-cards-850/images/C059.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T15:01:45Z",
+      "imageReview": "上幅泳姿下幅扶扶手出水；握持、金属支撑与脚步可见。拉与推依据例句说明施力；没有摔倒或滑倒，两词用预防语境。",
+      "avoidRegions": [
+        [
+          417,
+          76,
+          577,
+          241
+        ],
+        [
+          434,
+          488,
+          522,
+          571
+        ]
+      ],
+      "geometry": {
+        "swim": {
+          "bubble": [
+            130,
+            75
+          ],
+          "box": [
+            286,
+            20,
+            791,
+            405
+          ],
+          "anchor": [
+            538,
+            212
+          ]
+        },
+        "balance": {
+          "bubble": [
+            913.3333333333334,
+            574.9774917469739
+          ],
+          "box": [
+            493,
+            733,
+            606,
+            959
+          ],
+          "anchor": [
+            549,
+            846
+          ]
+        },
+        "grip": {
+          "bubble": [
+            130,
+            555
+          ],
+          "box": [
+            312,
+            649,
+            374,
+            694
+          ],
+          "anchor": [
+            343,
+            671
+          ]
+        },
+        "support": {
+          "bubble": [
+            140,
+            820
+          ],
+          "box": [
+            172,
+            689,
+            223,
+            956
+          ],
+          "anchor": [
+            197,
+            822
+          ]
+        },
+        "fall": {
+          "bubble": [
+            880,
+            70
+          ]
+        },
+        "slip": {
+          "bubble": [
+            875,
+            365
+          ]
+        },
+        "pull": {
+          "bubble": [
+            510,
+            945
+          ],
+          "box": [
+            303,
+            582,
+            438,
+            718
+          ],
+          "anchor": [
+            370,
+            650
+          ]
+        },
+        "push": {
+          "bubble": [
+            865,
+            855
+          ],
+          "box": [
+            601,
+            650,
+            806,
+            783
+          ],
+          "anchor": [
+            703,
+            716
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    },
+    "C060": {
+      "sourcePath": "scene-cards-850/images/C060.png",
+      "generationStartedAt": "2026-10-03T14:55:34Z",
+      "generationEndedAt": "2026-10-03T15:02:15Z",
+      "imageReview": "三幅分别微笑、大笑与泪滴；情绪不能仅靠面孔确定，sad等五词用明确故事句，不贴虚假表情框。",
+      "avoidRegions": [
+        [
+          343,
+          71,
+          574,
+          238
+        ],
+        [
+          364,
+          383,
+          610,
+          554
+        ],
+        [
+          351,
+          724,
+          574,
+          895
+        ]
+      ],
+      "geometry": {
+        "smile": {
+          "bubble": [
+            125,
+            170
+          ],
+          "box": [
+            343,
+            71,
+            574,
+            238
+          ],
+          "anchor": [
+            458,
+            154
+          ]
+        },
+        "laugh": {
+          "bubble": [
+            125,
+            490
+          ],
+          "box": [
+            364,
+            383,
+            610,
+            554
+          ],
+          "anchor": [
+            487,
+            468
+          ]
+        },
+        "cry": {
+          "bubble": [
+            870,
+            840
+          ],
+          "box": [
+            351,
+            724,
+            574,
+            895
+          ],
+          "anchor": [
+            462,
+            809
+          ]
+        },
+        "sad": {
+          "bubble": [
+            125,
+            820
+          ]
+        },
+        "angry": {
+          "bubble": [
+            870,
+            465
+          ]
+        },
+        "fear": {
+          "bubble": [
+            870,
+            585
+          ]
+        },
+        "shock": {
+          "bubble": [
+            120,
+            935
+          ]
+        },
+        "surprise": {
+          "bubble": [
+            850,
+            65
+          ]
+        }
+      },
+      "originalSourcePathRedacted": true
+    }
+  },
+  "reviewCompletedAt": "2026-10-03T15:19:25.881304+00:00"
+}

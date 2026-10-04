@@ -1,0 +1,380 @@
+{
+  "id": "C038",
+  "chapter": "城市与出行",
+  "title": "酒店入住与位置",
+  "scene": "简洁酒店接待场景，用房间剖面表达正面、后面、中间和两侧。",
+  "target_count": 8,
+  "primary_words": [
+    "place",
+    "position",
+    "front",
+    "side",
+    "middle",
+    "between",
+    "opposite",
+    "at"
+  ],
+  "targets": [
+    {
+      "word_id": "W528",
+      "word": "place",
+      "aliases": [],
+      "source_zh_unreviewed": "地方；位置",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "地方",
+      "pos": "noun",
+      "ipa_us": "/pleɪs/",
+      "ipa_uk": "/pleɪs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "酒店休息座椅区定位本句指代的地方。",
+        "sentence": "This is a quiet place to rest.",
+        "matched_form": "place",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This is a quiet place to rest.",
+      "example_zh": "这是一个安静的休息地方。",
+      "bbox_normalized": [
+        0.0,
+        0.488,
+        0.998,
+        0.776
+      ],
+      "collocations": [
+        "a quiet place"
+      ],
+      "example_en_highlighted": "This is a quiet **place** to rest.",
+      "annotation_mode": "object",
+      "annotation_note": "酒店休息座椅区定位本句指代的地方。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W543",
+      "word": "position",
+      "aliases": [],
+      "source_zh_unreviewed": "位置；职位",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "位置",
+      "pos": "noun",
+      "ipa_us": "/pəˈzɪʃn/",
+      "ipa_uk": "/pəˈzɪʃn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中间椅子相对两侧椅子的实际位置。",
+        "sentence": "The position of the chair is easy to see.",
+        "matched_form": "position",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The position of the chair is easy to see.",
+      "example_zh": "椅子的位置很容易看出来。",
+      "bbox_normalized": [
+        0.328,
+        0.486,
+        0.663,
+        0.774
+      ],
+      "collocations": [
+        "the position of"
+      ],
+      "example_en_highlighted": "The **position** of the chair is easy to see.",
+      "annotation_mode": "relation",
+      "annotation_note": "中间椅子相对两侧椅子的实际位置。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W293",
+      "word": "front",
+      "aliases": [],
+      "source_zh_unreviewed": "前面；正面",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "正面",
+      "pos": "noun",
+      "ipa_us": "/frʌnt/",
+      "ipa_uk": "/frʌnt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "前台面向椅子的正面板。",
+        "sentence": "The front of the desk faces the chairs.",
+        "matched_form": "front",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The front of the desk faces the chairs.",
+      "example_zh": "前台的正面对着椅子。",
+      "bbox_normalized": [
+        0.234,
+        0.34,
+        0.833,
+        0.44
+      ],
+      "collocations": [
+        "the front of"
+      ],
+      "example_en_highlighted": "The **front** of the desk faces the chairs.",
+      "annotation_mode": "object",
+      "annotation_note": "前台面向椅子的正面板。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W652",
+      "word": "side",
+      "aliases": [],
+      "source_zh_unreviewed": "侧面",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "侧面",
+      "pos": "noun",
+      "ipa_us": "/saɪd/",
+      "ipa_uk": "/saɪd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中间椅子实际可见侧部。",
+        "sentence": "I can see the side of the chair.",
+        "matched_form": "side",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I can see the side of the chair.",
+      "example_zh": "我能看见椅子的侧面。",
+      "bbox_normalized": [
+        0.608,
+        0.55,
+        0.666,
+        0.728
+      ],
+      "collocations": [
+        "the side of"
+      ],
+      "example_en_highlighted": "I can see the **side** of the chair.",
+      "annotation_mode": "object",
+      "annotation_note": "中间椅子实际可见侧部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W440",
+      "word": "middle",
+      "aliases": [],
+      "source_zh_unreviewed": "中间的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "中间",
+      "pos": "noun",
+      "ipa_us": "/ˈmɪdl/",
+      "ipa_uk": "/ˈmɪdl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "三椅组与中间白椅的相对位置。",
+        "sentence": "The white chair is in the middle.",
+        "matched_form": "middle",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The white chair is in the middle.",
+      "example_zh": "白色椅子在中间。",
+      "bbox_normalized": [
+        0.0,
+        0.488,
+        0.998,
+        0.776
+      ],
+      "collocations": [
+        "in the middle"
+      ],
+      "example_en_highlighted": "The white chair is in the **middle**.",
+      "annotation_mode": "relation",
+      "annotation_note": "三椅组与中间白椅的相对位置。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W067",
+      "word": "between",
+      "aliases": [],
+      "source_zh_unreviewed": "在...之间",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "在之间",
+      "pos": "preposition",
+      "ipa_us": "/bɪˈtwiːn/",
+      "ipa_uk": "/bɪˈtwiːn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "框含三把椅子的左右之间关系，不只框白椅。",
+        "sentence": "The white chair is between two blue chairs.",
+        "matched_form": "between",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The white chair is between two blue chairs.",
+      "example_zh": "白色椅子在两把蓝色椅子之间。",
+      "bbox_normalized": [
+        0.0,
+        0.488,
+        0.998,
+        0.776
+      ],
+      "collocations": [
+        "between two chairs"
+      ],
+      "example_en_highlighted": "The white chair is **between** two blue chairs.",
+      "annotation_mode": "relation",
+      "annotation_note": "框含三把椅子的左右之间关系，不只框白椅。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W498",
+      "word": "opposite",
+      "aliases": [],
+      "source_zh_unreviewed": "相反的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "在对面",
+      "pos": "preposition",
+      "ipa_us": "/ˈɑːpəzɪt/",
+      "ipa_uk": "/ˈɒpəzɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "座椅与前台相隔地面且面对的空间关系。",
+        "sentence": "The chairs are opposite the desk.",
+        "matched_form": "opposite",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The chairs are opposite the desk.",
+      "example_zh": "椅子在前台对面。",
+      "bbox_normalized": [
+        0.0,
+        0.338,
+        0.997,
+        0.775
+      ],
+      "collocations": [
+        "opposite the desk"
+      ],
+      "example_en_highlighted": "The chairs are **opposite** the desk.",
+      "annotation_mode": "relation",
+      "annotation_note": "座椅与前台相隔地面且面对的空间关系。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W037",
+      "word": "at",
+      "aliases": [],
+      "source_zh_unreviewed": "在；在于",
+      "planned_mode": "context",
+      "sense_zh": "在",
+      "pos": "preposition",
+      "ipa_us": "/æt/",
+      "ipa_uk": "/æt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I wait at the hotel desk.",
+        "matched_form": "at",
+        "referent_region_verified": false,
+        "context": "介词在完整句中解释，不把at独立等同于前台。",
+        "image_verified": null
+      },
+      "example_en": "I wait at the hotel desk.",
+      "example_zh": "我在酒店前台等候。",
+      "bbox_normalized": null,
+      "collocations": [
+        "at the desk"
+      ],
+      "example_en_highlighted": "I wait **at** the hotel desk.",
+      "annotation_mode": "context",
+      "annotation_note": "介词在完整句中解释，不把at独立等同于前台。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A place to pause, between two chairs and opposite the hotel desk.",
+    "zh": "在两把椅子之间、酒店前台对面，找一处停歇的位置。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C038\n标题 酒店入住与位置\n场景 简洁酒店接待场景，用房间剖面表达正面、后面、中间和两侧。\n目标词 place, position, front, side, middle, between, opposite, at\n原创主配文草案 Our room is between the two other rooms.\n中文草案 我们的房间在另外两个房间之间。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One cool boutique hotel lobby environmental portrait, woman standing beside a reception desk at far right. In foreground three separate lounge chairs arranged in a straight horizontal row: left blue-grey, middle ivory, right blue-grey, all fully visible. Middle chair clearly between the other two. Reception desk directly across the room from chairs, broad open floor separates them. Front face of desk and side face of middle chair readable. Architectural interior photography, no room numbers or signs, avoid confusing mirrors.",
+  "status": "approved",
+  "image_path": "images/C038.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C038 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:16:08Z",
+    "prompt_path": "prompts/C038_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C038.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三椅横列、白椅居中与两侧蓝椅清晰，前台正面、椅侧和相隔地面的关系可定位。未读取酒店房号或虚构房间剖面。"
+  }
+}

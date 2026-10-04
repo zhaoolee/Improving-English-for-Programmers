@@ -1,0 +1,364 @@
+{
+  "id": "C079",
+  "chapter": "工作与信息",
+  "title": "保护私人资料",
+  "scene": "工作台上公开文件与封存的私人档案对照，人物主动保护秘密。",
+  "target_count": 8,
+  "primary_words": [
+    "private",
+    "secret",
+    "property",
+    "insurance",
+    "loss",
+    "limit",
+    "necessary",
+    "important"
+  ],
+  "targets": [
+    {
+      "word_id": "W553",
+      "word": "private",
+      "aliases": [],
+      "source_zh_unreviewed": "私人的；私立的",
+      "planned_mode": "context",
+      "sense_zh": "私人的",
+      "pos": "adjective",
+      "ipa_us": "/ˈpraɪvət/",
+      "ipa_uk": "/ˈpraɪvət/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "放进锁盒的深色文件夹，内容私密由本人故事指定；不能从颜色判断隐私。",
+        "sentence": "I keep private papers in the folder inside the lockable box.",
+        "matched_form": "private",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I keep private papers in the folder inside the lockable box.",
+      "example_zh": "我把私人文件放在可上锁盒子里的文件夹中。",
+      "bbox_normalized": [
+        0.449,
+        0.513,
+        0.829,
+        0.692
+      ],
+      "collocations": [
+        "private papers",
+        "keep private"
+      ],
+      "example_en_highlighted": "I keep **private** papers in the folder inside the lockable box.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（私人的），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W627",
+      "word": "secret",
+      "aliases": [],
+      "source_zh_unreviewed": "秘密",
+      "planned_mode": "context",
+      "sense_zh": "秘密",
+      "pos": "noun",
+      "ipa_us": "/ˈsiːkrət/",
+      "ipa_uk": "/ˈsiːkrət/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I do not share a personal secret without permission.",
+        "matched_form": "secret",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I do not share a personal secret without permission.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I do not share a personal secret without permission.",
+      "example_zh": "未经允许，我不分享个人秘密。",
+      "bbox_normalized": null,
+      "collocations": [
+        "keep a secret",
+        "a personal secret"
+      ],
+      "example_en_highlighted": "I do not share a personal **secret** without permission.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I do not share a personal secret without permission.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W558",
+      "word": "property",
+      "aliases": [],
+      "source_zh_unreviewed": "财产；性质",
+      "planned_mode": "context",
+      "sense_zh": "财产",
+      "pos": "noun",
+      "ipa_us": "/ˈprɑːpɚti/",
+      "ipa_uk": "/ˈprɒpəti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "These documents concern my personal property.",
+        "matched_form": "property",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：These documents concern my personal property.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "These documents concern my personal property.",
+      "example_zh": "这些文件涉及我的个人财产。",
+      "bbox_normalized": null,
+      "collocations": [
+        "personal property",
+        "protect property"
+      ],
+      "example_en_highlighted": "These documents concern my personal **property**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：These documents concern my personal property.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W364",
+      "word": "insurance",
+      "aliases": [],
+      "source_zh_unreviewed": "保险",
+      "planned_mode": "context",
+      "sense_zh": "保险",
+      "pos": "noun",
+      "ipa_us": "/ɪnˈʃʊrəns/",
+      "ipa_uk": "/ɪnˈʃʊərəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My insurance papers stay in the folder.",
+        "matched_form": "insurance",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My insurance papers stay in the folder.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My insurance papers stay in the folder.",
+      "example_zh": "我的保险文件放在文件夹里。",
+      "bbox_normalized": null,
+      "collocations": [
+        "insurance papers",
+        "an insurance policy"
+      ],
+      "example_en_highlighted": "My **insurance** papers stay in the folder.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My insurance papers stay in the folder.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W416",
+      "word": "loss",
+      "aliases": [],
+      "source_zh_unreviewed": "损失",
+      "planned_mode": "context",
+      "sense_zh": "损失",
+      "pos": "noun",
+      "ipa_us": "/lɔːs/",
+      "ipa_uk": "/lɒs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I keep copies to reduce the risk of loss.",
+        "matched_form": "loss",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I keep copies to reduce the risk of loss.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I keep copies to reduce the risk of loss.",
+      "example_zh": "我保留副本以降低损失的风险。",
+      "bbox_normalized": null,
+      "collocations": [
+        "prevent loss",
+        "a possible loss"
+      ],
+      "example_en_highlighted": "I keep copies to reduce the risk of **loss**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I keep copies to reduce the risk of loss.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W404",
+      "word": "limit",
+      "aliases": [],
+      "source_zh_unreviewed": "限制；限度",
+      "planned_mode": "context",
+      "sense_zh": "限制",
+      "pos": "verb",
+      "ipa_us": "/ˈlɪmɪt/",
+      "ipa_uk": "/ˈlɪmɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I limit access to the private documents.",
+        "matched_form": "limit",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I limit access to the private documents.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I limit access to the private documents.",
+      "example_zh": "我限制对私人文件的访问。",
+      "bbox_normalized": null,
+      "collocations": [
+        "limit access",
+        "limit sharing"
+      ],
+      "example_en_highlighted": "I **limit** access to the private documents.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I limit access to the private documents.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W467",
+      "word": "necessary",
+      "aliases": [],
+      "source_zh_unreviewed": "必要的",
+      "planned_mode": "context",
+      "sense_zh": "必要的",
+      "pos": "adjective",
+      "ipa_us": "/ˈnesəseri/",
+      "ipa_uk": "/ˈnesəsəri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A safe place for these papers is necessary.",
+        "matched_form": "necessary",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A safe place for these papers is necessary.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A safe place for these papers is necessary.",
+      "example_zh": "为这些文件找一个安全的地方是必要的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be necessary",
+        "necessary information"
+      ],
+      "example_en_highlighted": "A safe place for these papers is **necessary**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A safe place for these papers is necessary.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W356",
+      "word": "important",
+      "aliases": [],
+      "source_zh_unreviewed": "重要的",
+      "planned_mode": "context",
+      "sense_zh": "重要的",
+      "pos": "adjective",
+      "ipa_us": "/ɪmˈpɔːrtənt/",
+      "ipa_uk": "/ɪmˈpɔːtənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Protecting important information is part of my routine.",
+        "matched_form": "important",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Protecting important information is part of my routine.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Protecting important information is part of my routine.",
+      "example_zh": "保护重要信息是我日常工作的一部分。",
+      "bbox_normalized": null,
+      "collocations": [
+        "important information",
+        "an important document"
+      ],
+      "example_en_highlighted": "Protecting **important** information is part of my routine.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Protecting important information is part of my routine.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I keep private papers in a folder inside a lockable box and limit access to important information.",
+    "zh": "我把私人文件放进可上锁盒子里的文件夹，限制对重要信息的访问。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C079\n标题 保护私人资料\n场景 工作台上公开文件与封存的私人档案对照，人物主动保护秘密。\n目标词 private, secret, property, insurance, loss, limit, necessary, important\n原创主配文草案 Keep private information safe; it is important.\n中文草案 保护私人信息，它很重要。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at tidy desk placing plain documents into closed dark folder inside lockable desk box; another open pale folder with blank papers separate on desk. Lock and folder clear, no readable personal data or writing, no passwords or digital screens. Cool refined editorial, hands normal, main face clear, safe ordinary paperwork context.",
+  "status": "approved",
+  "image_path": "images/C079.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C079 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:44:04 UTC",
+    "prompt_path": "prompts/C079_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C079.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "黑文件夹正放进带锁盒子，夹口并非完全闭合；去除原先closed描述，改为folder inside a lockable box。私密与保险财产内容由故事设定，不读取空白文件。"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "filename": "C063-图书馆选读物.png",
+  "labels": [
+    {
+      "x": 303,
+      "y": 210,
+      "english": "library",
+      "chinese": "图书馆",
+      "phoneticUS": "/ˈlaɪbreri/",
+      "phoneticUK": "/ˈlaɪbrəri/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 90
+      },
+      "anchorPosition": {
+        "x": 303,
+        "y": 210
+      },
+      "boundingBox": {
+        "left": 2,
+        "top": 4,
+        "right": 605,
+        "bottom": 416
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（图书馆），待最终图确认。",
+        "association": "场景中体现的具体对象（图书馆），待最终图确认。",
+        "collocation": "at the library; a public library",
+        "example": "I choose a book at the library.",
+        "exampleChinese": "我在图书馆挑选一本书。"
+      }
+    },
+    {
+      "x": 528,
+      "y": 763,
+      "english": "reading",
+      "chinese": "阅读",
+      "phoneticUS": "/ˈriːdɪŋ/",
+      "phoneticUK": "/ˈriːdɪŋ/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 528,
+        "y": 763
+      },
+      "boundingBox": {
+        "left": 156,
+        "top": 691,
+        "right": 901,
+        "bottom": 835
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（阅读），待最终图确认。",
+        "association": "场景中体现的具体动作（阅读），待最终图确认。",
+        "collocation": "enjoy reading; reading time",
+        "example": "Reading is part of my evening routine.",
+        "exampleChinese": "阅读是我晚间日常的一部分。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 130,
+      "english": "fiction",
+      "chinese": "小说文学",
+      "phoneticUS": "/ˈfɪkʃən/",
+      "phoneticUK": "/ˈfɪkʃən/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 130
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I enjoy fiction about journeys.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I enjoy fiction about journeys.；不声称该状态/含义本身在画面可见。",
+        "collocation": "read fiction; a work of fiction",
+        "example": "I enjoy fiction about journeys.",
+        "exampleChinese": "我喜欢读有关旅途的小说文学。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 270,
+      "english": "story",
+      "chinese": "故事",
+      "phoneticUS": "/ˈstɔːri/",
+      "phoneticUK": "/ˈstɔːri/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 270
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The story follows a woman on a journey.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The story follows a woman on a journey.；不声称该状态/含义本身在画面可见。",
+        "collocation": "read a story; tell a story",
+        "example": "The story follows a woman on a journey.",
+        "exampleChinese": "这个故事讲述一位女子的旅程。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 410,
+      "english": "prose",
+      "chinese": "散文体文字",
+      "phoneticUS": "/proʊz/",
+      "phoneticUK": "/prəʊz/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 410
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：This story is written in prose.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：This story is written in prose.；不声称该状态/含义本身在画面可见。",
+        "collocation": "written in prose; clear prose",
+        "example": "This story is written in prose.",
+        "exampleChinese": "这个故事是用散文体写成的。"
+      }
+    },
+    {
+      "x": 875,
+      "y": 560,
+      "english": "verse",
+      "chinese": "诗歌",
+      "phoneticUS": "/vɝːs/",
+      "phoneticUK": "/vɜːs/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 560
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Another book contains verse about the sea.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Another book contains verse about the sea.；不声称该状态/含义本身在画面可见。",
+        "collocation": "read verse; a line of verse",
+        "example": "Another book contains verse about the sea.",
+        "exampleChinese": "另一本书收录了描写大海的诗歌。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 445,
+      "english": "interest",
+      "chinese": "兴趣",
+      "phoneticUS": "/ˈɪntrəst/",
+      "phoneticUK": "/ˈɪntrəst/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 445
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I have an interest in travel stories.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I have an interest in travel stories.；不声称该状态/含义本身在画面可见。",
+        "collocation": "an interest in; take an interest",
+        "example": "I have an interest in travel stories.",
+        "exampleChinese": "我对旅行故事感兴趣。"
+      }
+    },
+    {
+      "x": 155,
+      "y": 930,
+      "english": "memory",
+      "chinese": "记忆",
+      "phoneticUS": "/ˈmeməri/",
+      "phoneticUK": "/ˈmeməri/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The best part stays in my memory.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The best part stays in my memory.；不声称该状态/含义本身在画面可见。",
+        "collocation": "in my memory; a happy memory",
+        "example": "The best part stays in my memory.",
+        "exampleChinese": "最精彩的部分留在我的记忆里。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 930,
+      "english": "ever",
+      "chinese": "曾经",
+      "phoneticUS": "/ˈevɚ/",
+      "phoneticUK": "/ˈevə/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 930
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Have you ever read this story?；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Have you ever read this story?；不声称该状态/含义本身在画面可见。",
+        "collocation": "have you ever; ever before",
+        "example": "Have you ever read this story?",
+        "exampleChinese": "你曾经读过这个故事吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I read a story at the library and keep its best moment in my memory.",
+    "chinese": "我在图书馆读一个故事，把其中最精彩的时刻留在记忆里。",
+    "source": "原创配文 · C063 图书馆选读物",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

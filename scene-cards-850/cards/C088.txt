@@ -1,0 +1,257 @@
+C088  发现与发明
+========================================================================
+章节: 工具与科学
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C088.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C088.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 18:00:15 UTC → 2026-10-03 18:05:08 UTC
+  提示词文件: prompts/C088_image_final.txt
+
+场景: 科学展厅展示旧器械到自动机器的发展，有发现、用途与过程解说。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 左手工具、前景齿轮原型及右侧玻璃内机械臂清楚；发明身份由展览故事指定。
+
+主配文:
+  英文: An old hand tool and a modern machine show how an invention can develop.
+  中文: 一件旧手工具和一台现代机器展示了发明如何发展。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): discovery, invention, development, automatic, machine, process, purpose, attempt
+
+------------------------------------------------------------------------
+[1/8] discovery  (W202)
+  词义: 发现
+  词性: noun
+  音标: UK /dɪˈskʌvəri/ | US /dɪˈskʌvəri/
+  搭配: a new discovery; make a discovery
+  例句: A discovery reveals something that was already there.
+  例句高亮: A **discovery** reveals something that was already there.
+  例句中文: 发现揭示原本就存在的事物。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A discovery reveals something that was already there."
+    matched_form: "discovery"
+    context: "由原创例句给出的语境：A discovery reveals something that was already there.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 发现
+
+------------------------------------------------------------------------
+[2/8] invention  (W366)
+  词义: 发明
+  词性: noun
+  音标: UK /ɪnˈvenʃən/ | US /ɪnˈvenʃən/
+  搭配: a useful invention; a new invention
+  例句: The small prototype represents an invention in this exhibit.
+  例句高亮: The small prototype represents an **invention** in this exhibit.
+  例句中文: 这个小原型在展览中代表一项发明。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（发明），待最终图确认。
+  坐标(normalized): [0.524, 0.667, 0.845, 0.809]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景齿轮原型，故事明确代表发明。"
+    sentence: "The small prototype represents an invention in this exhibit."
+    matched_form: "invention"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 发明
+
+------------------------------------------------------------------------
+[3/8] development  (W197)
+  词义: 发展
+  词性: noun
+  音标: UK /dɪˈveləpmənt/ | US /dɪˈveləpmənt/
+  搭配: technical development; the development of
+  例句: The exhibit tells a story of technical development.
+  例句高亮: The exhibit tells a story of technical **development**.
+  例句中文: 这个展览讲述技术发展的故事。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The exhibit tells a story of technical development."
+    matched_form: "development"
+    context: "由原创例句给出的语境：The exhibit tells a story of technical development.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 发展
+
+------------------------------------------------------------------------
+[4/8] automatic  (W043)
+  词义: 自动的
+  词性: adjective
+  音标: UK /ˌɔːtəˈmætɪk/ | US /ˌɔːtəˈmætɪk/
+  搭配: an automatic machine; automatic control
+  例句: The story describes an automatic machine that follows a program.
+  例句高亮: The story describes an **automatic** machine that follows a program.
+  例句中文: 故事描述一台按照程序运行的自动机器。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The story describes an automatic machine that follows a program."
+    matched_form: "automatic"
+    context: "由原创例句给出的语境：The story describes an automatic machine that follows a program.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 自动的；自动化的
+
+------------------------------------------------------------------------
+[5/8] machine  (W420)
+  词义: 机器
+  词性: noun
+  音标: UK /məˈʃiːn/ | US /məˈʃiːn/
+  搭配: a modern machine; a small machine
+  例句: The machine is protected by glass.
+  例句高亮: The **machine** is protected by glass.
+  例句中文: 机器由玻璃罩保护着。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（机器），待最终图确认。
+  坐标(normalized): [0.794, 0.384, 0.998, 0.623]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧玻璃罩中小机械臂。"
+    sentence: "The machine is protected by glass."
+    matched_form: "machine"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 机器；机械
+
+------------------------------------------------------------------------
+[6/8] process  (W555)
+  词义: 过程
+  词性: noun
+  音标: UK /ˈprəʊses/ | US /ˈprɑːses/
+  搭配: a design process; the process of
+  例句: We discuss the process of improving the prototype.
+  例句高亮: We discuss the **process** of improving the prototype.
+  例句中文: 我们讨论改进原型的过程。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We discuss the process of improving the prototype."
+    matched_form: "process"
+    context: "由原创例句给出的语境：We discuss the process of improving the prototype.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 过程；处理
+
+------------------------------------------------------------------------
+[7/8] purpose  (W565)
+  词义: 目的
+  词性: noun
+  音标: UK /ˈpɜːpəs/ | US /ˈpɝːpəs/
+  搭配: the purpose of; a clear purpose
+  例句: The purpose of the display is to explain engineering.
+  例句高亮: The **purpose** of the display is to explain engineering.
+  例句中文: 这个展示的目的是解释工程技术。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The purpose of the display is to explain engineering."
+    matched_form: "purpose"
+    context: "由原创例句给出的语境：The purpose of the display is to explain engineering.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 目的；意图
+
+------------------------------------------------------------------------
+[8/8] attempt  (W039)
+  词义: 尝试
+  词性: noun
+  音标: UK /əˈtempt/ | US /əˈtempt/
+  搭配: a first attempt; make an attempt
+  例句: The prototype began as a first attempt at a new design.
+  例句高亮: The prototype began as a first **attempt** at a new design.
+  例句中文: 这个原型起初是对新设计的第一次尝试。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The prototype began as a first attempt at a new design."
+    matched_form: "attempt"
+    context: "由原创例句给出的语境：The prototype began as a first attempt at a new design.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 尝试；企图
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 2
+  context_annotations: 6
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C088 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=89 | meta.approved_cards=90
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman in cool Korean museum editorial portrait beside an engineering exhibit. Small tabletop robotic arm behind glass right, simple old manual wooden tool on separate stand left, an inert small geared mechanical prototype between. Machine not operating. Clean museum room, no text labels or logos, credible mechanical joints and natural hands.

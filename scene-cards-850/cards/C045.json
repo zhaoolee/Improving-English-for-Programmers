@@ -1,0 +1,413 @@
+{
+  "id": "C045",
+  "chapter": "自然与农场",
+  "title": "自然观察小径",
+  "scene": "观察路径中有鸟、猴子、蛇和鼠，主角使用望远观察方式避免追逐。",
+  "target_count": 9,
+  "primary_words": [
+    "bird",
+    "monkey",
+    "snake",
+    "rat",
+    "observation",
+    "look",
+    "see",
+    "attention",
+    "strange"
+  ],
+  "targets": [
+    {
+      "word_id": "W068",
+      "word": "bird",
+      "aliases": [],
+      "source_zh_unreviewed": "鸟",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "鸟",
+      "pos": "noun",
+      "ipa_us": "/bɜːrd/",
+      "ipa_uk": "/bɜːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅独立鸟体。",
+        "sentence": "A bird rests on the branch.",
+        "matched_form": "bird",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A bird rests on the branch.",
+      "example_zh": "一只鸟停在树枝上。",
+      "bbox_normalized": [
+        0.836,
+        0.12,
+        0.941,
+        0.214
+      ],
+      "collocations": [
+        "a small bird"
+      ],
+      "example_en_highlighted": "A **bird** rests on the branch.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅独立鸟体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W449",
+      "word": "monkey",
+      "aliases": [],
+      "source_zh_unreviewed": "猴子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "猴子",
+      "pos": "noun",
+      "ipa_us": "/ˈmʌŋki/",
+      "ipa_uk": "/ˈmʌŋki/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下左小幅独立猴子。",
+        "sentence": "The monkey sits on a branch.",
+        "matched_form": "monkey",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The monkey sits on a branch.",
+      "example_zh": "猴子坐在树枝上。",
+      "bbox_normalized": [
+        0.049,
+        0.636,
+        0.276,
+        0.934
+      ],
+      "collocations": [
+        "a small monkey"
+      ],
+      "example_en_highlighted": "The **monkey** sits on a branch.",
+      "annotation_mode": "object",
+      "annotation_note": "下左小幅独立猴子。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W672",
+      "word": "snake",
+      "aliases": [],
+      "source_zh_unreviewed": "蛇",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蛇",
+      "pos": "noun",
+      "ipa_us": "/sneɪk/",
+      "ipa_uk": "/sneɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下中小幅蛇体，不从外貌鉴定毒性。",
+        "sentence": "The snake lies on the forest floor.",
+        "matched_form": "snake",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The snake lies on the forest floor.",
+      "example_zh": "蛇在林地上。",
+      "bbox_normalized": [
+        0.365,
+        0.741,
+        0.654,
+        0.882
+      ],
+      "collocations": [
+        "a coiled snake"
+      ],
+      "example_en_highlighted": "The **snake** lies on the forest floor.",
+      "annotation_mode": "object",
+      "annotation_note": "下中小幅蛇体，不从外貌鉴定毒性。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W576",
+      "word": "rat",
+      "aliases": [],
+      "source_zh_unreviewed": "鼠；老鼠",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "鼠",
+      "pos": "noun",
+      "ipa_us": "/ræt/",
+      "ipa_uk": "/ræt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下右小幅灰褐鼠体与裸尾。",
+        "sentence": "The rat has a long tail.",
+        "matched_form": "rat",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The rat has a long tail.",
+      "example_zh": "这只鼠有长尾巴。",
+      "bbox_normalized": [
+        0.691,
+        0.723,
+        0.958,
+        0.936
+      ],
+      "collocations": [
+        "a grey rat"
+      ],
+      "example_en_highlighted": "The **rat** has a long tail.",
+      "annotation_mode": "object",
+      "annotation_note": "下右小幅灰褐鼠体与裸尾。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W486",
+      "word": "observation",
+      "aliases": [],
+      "source_zh_unreviewed": "观察；观测",
+      "planned_mode": "context",
+      "sense_zh": "观察",
+      "pos": "noun",
+      "ipa_us": "/ˌɑːbzərˈveɪʃn/",
+      "ipa_uk": "/ˌɒbzəˈveɪʃn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "持望远镜的实际观察姿势，不声称观察结果已验证。",
+        "sentence": "Careful observation helps us notice animals.",
+        "matched_form": "observation",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Careful observation helps us notice animals.",
+      "example_zh": "仔细观察帮助我们留意动物。",
+      "bbox_normalized": [
+        0.106,
+        0.164,
+        0.468,
+        0.489
+      ],
+      "collocations": [
+        "careful observation"
+      ],
+      "example_en_highlighted": "Careful **observation** helps us notice animals.",
+      "annotation_mode": "action",
+      "annotation_note": "持望远镜的实际观察姿势，不声称观察结果已验证。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W414",
+      "word": "look",
+      "aliases": [],
+      "source_zh_unreviewed": "看；看起来",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "看",
+      "pos": "verb",
+      "ipa_us": "/lʊk/",
+      "ipa_uk": "/lʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "人物望远镜与视线方向，句子明确观察对象。",
+        "sentence": "I look at the bird through binoculars.",
+        "matched_form": "look",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I look at the bird through binoculars.",
+      "example_zh": "我透过望远镜看鸟。",
+      "bbox_normalized": [
+        0.28,
+        0.16,
+        0.441,
+        0.231
+      ],
+      "collocations": [
+        "look at"
+      ],
+      "example_en_highlighted": "I **look** at the bird through binoculars.",
+      "annotation_mode": "action",
+      "annotation_note": "人物望远镜与视线方向，句子明确观察对象。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W629",
+      "word": "see",
+      "aliases": [],
+      "source_zh_unreviewed": "看见",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "看见",
+      "pos": "verb",
+      "ipa_us": "/siː/",
+      "ipa_uk": "/siː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I can see a bird on the branch.",
+        "matched_form": "see",
+        "referent_region_verified": false,
+        "context": "视觉感知结果由句子说明，不从姿势推断。",
+        "image_verified": null
+      },
+      "example_en": "I can see a bird on the branch.",
+      "example_zh": "我能看见枝上的鸟。",
+      "bbox_normalized": null,
+      "collocations": [
+        "see a bird"
+      ],
+      "example_en_highlighted": "I can **see** a bird on the branch.",
+      "annotation_mode": "context",
+      "annotation_note": "视觉感知结果由句子说明，不从姿势推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W040",
+      "word": "attention",
+      "aliases": [],
+      "source_zh_unreviewed": "注意；关注",
+      "planned_mode": "context",
+      "sense_zh": "注意力",
+      "pos": "noun",
+      "ipa_us": "/əˈtenʃn/",
+      "ipa_uk": "/əˈtenʃn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I pay attention to the animals around me.",
+        "matched_form": "attention",
+        "referent_region_verified": false,
+        "context": "心理注意状态不可独立框选。",
+        "image_verified": null
+      },
+      "example_en": "I pay attention to the animals around me.",
+      "example_zh": "我注意周围的动物。",
+      "bbox_normalized": null,
+      "collocations": [
+        "pay attention"
+      ],
+      "example_en_highlighted": "I pay **attention** to the animals around me.",
+      "annotation_mode": "context",
+      "annotation_note": "心理注意状态不可独立框选。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W717",
+      "word": "strange",
+      "aliases": [],
+      "source_zh_unreviewed": "奇怪的",
+      "planned_mode": "context",
+      "sense_zh": "陌生的",
+      "pos": "adjective",
+      "ipa_us": "/streɪndʒ/",
+      "ipa_uk": "/streɪndʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A strange sound comes from the trees.",
+        "matched_form": "strange",
+        "referent_region_verified": false,
+        "context": "陌生声响是原创语境，静态图不能提供声音证据。",
+        "image_verified": null
+      },
+      "example_en": "A strange sound comes from the trees.",
+      "example_zh": "树间传来陌生的声响。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a strange sound"
+      ],
+      "example_en_highlighted": "A **strange** sound comes from the trees.",
+      "annotation_mode": "context",
+      "annotation_note": "陌生声响是原创语境，静态图不能提供声音证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I look, listen, and leave space for the animals along the path.",
+    "zh": "沿着小径，我观看、倾听，也给动物留下空间。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C045\n标题 自然观察小径\n场景 观察路径中有鸟、猴子、蛇和鼠，主角使用望远观察方式避免追逐。\n目标词 bird, monkey, snake, rat, observation, look, see, attention, strange\n原创主配文草案 Look at the bird, and see how it moves.\n中文草案 看看那只鸟，观察它怎样活动。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Nature-observation editorial contact composition: upper half woman standing on forest boardwalk at left holding binoculars toward eyes, calmly observing from distance. One clear small bird perches on branch at right. Lower half three adjacent photographic wildlife close-ups: left a small monkey on branch, centre a nonvenomous-looking snake coiled on forest litter, right a grey-brown rat with long bare tail beside tree root. These are separate observation views, not animals standing together or giant scale. Real anatomy, clear faces of animals, cool forest daylight and natural texture, no text or graphic labels. Keep viewer separate from wildlife.",
+  "status": "approved",
+  "image_path": "images/C045.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 6,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C045 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:16:08Z",
+    "prompt_path": "prompts/C045_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C045.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "上幅持望远镜姿势与独立鸟；下幅猴、蛇、鼠各自观察视图，不假设共处或依外貌判定蛇毒性。心理注意、声响与感知结果用完整例句。"
+  }
+}

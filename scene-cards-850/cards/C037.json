@@ -1,0 +1,380 @@
+{
+  "id": "C037",
+  "chapter": "城市与出行",
+  "title": "港口启航",
+  "scene": "港口中小艇与大船并列，帆展开，主角登船离岸。",
+  "target_count": 8,
+  "primary_words": [
+    "harbor",
+    "ship",
+    "boat",
+    "sail",
+    "sea",
+    "wave",
+    "wind",
+    "guide"
+  ],
+  "targets": [
+    {
+      "word_id": "W324",
+      "word": "harbor",
+      "aliases": [],
+      "source_zh_unreviewed": "港口",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "港口",
+      "pos": "noun",
+      "ipa_us": "/ˈhɑːrbər/",
+      "ipa_uk": "/ˈhɑːbə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "码头、停泊船与港湾的可见区域。",
+        "sentence": "The harbor shelters the boats.",
+        "matched_form": "harbor",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The harbor shelters the boats.",
+      "example_zh": "港口为船只提供庇护。",
+      "bbox_normalized": [
+        0.0,
+        0.233,
+        0.742,
+        0.483
+      ],
+      "collocations": [
+        "a quiet harbor"
+      ],
+      "example_en_highlighted": "The **harbor** shelters the boats.",
+      "annotation_mode": "object",
+      "annotation_note": "码头、停泊船与港湾的可见区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W646",
+      "word": "ship",
+      "aliases": [],
+      "source_zh_unreviewed": "船",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "大船",
+      "pos": "noun",
+      "ipa_us": "/ʃɪp/",
+      "ipa_uk": "/ʃɪp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "远处大型船舶，区别近处小艇。",
+        "sentence": "A large ship waits beyond the dock.",
+        "matched_form": "ship",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A large ship waits beyond the dock.",
+      "example_zh": "一艘大船停在码头外。",
+      "bbox_normalized": [
+        0.723,
+        0.262,
+        0.998,
+        0.403
+      ],
+      "collocations": [
+        "a passenger ship"
+      ],
+      "example_en_highlighted": "A large **ship** waits beyond the dock.",
+      "annotation_mode": "object",
+      "annotation_note": "远处大型船舶，区别近处小艇。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W079",
+      "word": "boat",
+      "aliases": [],
+      "source_zh_unreviewed": "船",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "小艇",
+      "pos": "noun",
+      "ipa_us": "/boʊt/",
+      "ipa_uk": "/bəʊt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "近处独立帆艇船体。",
+        "sentence": "The small boat is beside the dock.",
+        "matched_form": "boat",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The small boat is beside the dock.",
+      "example_zh": "小艇在码头旁。",
+      "bbox_normalized": [
+        0.801,
+        0.478,
+        0.999,
+        0.56
+      ],
+      "collocations": [
+        "a sailing boat"
+      ],
+      "example_en_highlighted": "The small **boat** is beside the dock.",
+      "annotation_mode": "object",
+      "annotation_note": "近处独立帆艇船体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W614",
+      "word": "sail",
+      "aliases": [],
+      "source_zh_unreviewed": "航行；航海",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "船帆",
+      "pos": "noun",
+      "ipa_us": "/seɪl/",
+      "ipa_uk": "/seɪl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际白色三角船帆，选名词义。",
+        "sentence": "The boat has a white sail.",
+        "matched_form": "sail",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The boat has a white sail.",
+      "example_zh": "这条艇有一面白色船帆。",
+      "bbox_normalized": [
+        0.868,
+        0.167,
+        0.995,
+        0.482
+      ],
+      "collocations": [
+        "a white sail"
+      ],
+      "example_en_highlighted": "The boat has a white **sail**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际白色三角船帆，选名词义。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W624",
+      "word": "sea",
+      "aliases": [],
+      "source_zh_unreviewed": "海",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "海",
+      "pos": "noun",
+      "ipa_us": "/siː/",
+      "ipa_uk": "/siː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "港口外独立可见海水区域。",
+        "sentence": "The sea stretches beyond the harbor.",
+        "matched_form": "sea",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The sea stretches beyond the harbor.",
+      "example_zh": "大海在港口外延伸。",
+      "bbox_normalized": [
+        0.64,
+        0.56,
+        0.99,
+        0.838
+      ],
+      "collocations": [
+        "the open sea"
+      ],
+      "example_en_highlighted": "The **sea** stretches beyond the harbor.",
+      "annotation_mode": "object",
+      "annotation_note": "港口外独立可见海水区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W808",
+      "word": "wave",
+      "aliases": [],
+      "source_zh_unreviewed": "波浪",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "波浪",
+      "pos": "noun",
+      "ipa_us": "/weɪv/",
+      "ipa_uk": "/weɪv/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "码头旁可辨水面波峰。",
+        "sentence": "A small wave reaches the dock.",
+        "matched_form": "wave",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A small wave reaches the dock.",
+      "example_zh": "一阵小波浪来到码头边。",
+      "bbox_normalized": [
+        0.658,
+        0.832,
+        0.995,
+        0.949
+      ],
+      "collocations": [
+        "a small wave"
+      ],
+      "example_en_highlighted": "A small **wave** reaches the dock.",
+      "annotation_mode": "object",
+      "annotation_note": "码头旁可辨水面波峰。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W828",
+      "word": "wind",
+      "aliases": [],
+      "source_zh_unreviewed": "风",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "风",
+      "pos": "noun",
+      "ipa_us": "/wɪnd/",
+      "ipa_uk": "/wɪnd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The wind lifts my scarf.",
+        "matched_form": "wind",
+        "referent_region_verified": false,
+        "context": "围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。",
+        "image_verified": null
+      },
+      "example_en": "The wind lifts my scarf.",
+      "example_zh": "风吹起我的围巾。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a light wind"
+      ],
+      "example_en_highlighted": "The **wind** lifts my scarf.",
+      "annotation_mode": "context",
+      "annotation_note": "围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W317",
+      "word": "guide",
+      "aliases": [],
+      "source_zh_unreviewed": "指导；导游",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "向导",
+      "pos": "noun",
+      "ipa_us": "/ɡaɪd/",
+      "ipa_uk": "/ɡaɪd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "故事设定的指船人物，仅定位人物，职业由句子说明。",
+        "sentence": "The guide shows me the boat.",
+        "matched_form": "guide",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The guide shows me the boat.",
+      "example_zh": "向导指给我看那条艇。",
+      "bbox_normalized": [
+        0.31,
+        0.306,
+        0.798,
+        0.997
+      ],
+      "collocations": [
+        "a local guide"
+      ],
+      "example_en_highlighted": "The **guide** shows me the boat.",
+      "annotation_mode": "object",
+      "annotation_note": "故事设定的指船人物，仅定位人物，职业由句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A small boat waits in the harbor, while a sail catches the breeze.",
+    "zh": "一条小艇停在港口里，一面船帆迎着微风。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C037\n标题 港口启航\n场景 港口中小艇与大船并列，帆展开，主角登船离岸。\n目标词 harbor, ship, boat, sail, sea, wave, wind, guide\n原创主配文草案 The wind is strong, and the ship is ready to sail.\n中文草案 风很大，船准备启航了。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One harbor travel editorial: woman and adult female guide on stone dock at left, guide gestures toward small sailing boat at right with a clear single white triangular sail. A much larger passenger ship sits farther back at upper right, distinct from small boat. Calm open sea beyond harbor entrance, one modest wave beside dock, natural breeze lifts woman scarf. Guide identity from story. Safe stationary posing, no overloaded vessel, no text.",
+  "status": "approved",
+  "image_path": "images/C037.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C037 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:16:08Z",
+    "prompt_path": "prompts/C037_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C037.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "大船与小艇独立，船帆、港湾、海水、岸边白浪可辨。围巾提供风的线索，不作为风本体；向导身份来自故事。"
+  }
+}

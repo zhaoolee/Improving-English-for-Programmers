@@ -1,0 +1,321 @@
+{
+  "filename": "C066-画室的小作品.png",
+  "labels": [
+    {
+      "x": 120,
+      "y": 75,
+      "english": "art",
+      "chinese": "艺术",
+      "phoneticUS": "/ɑːrt/",
+      "phoneticUK": "/ɑːt/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Making art helps me notice small things.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Making art helps me notice small things.；不声称该状态/含义本身在画面可见。",
+        "collocation": "make art; a work of art",
+        "example": "Making art helps me notice small things.",
+        "exampleChinese": "艺术创作帮助我留意细小的事物。"
+      }
+    },
+    {
+      "x": 840,
+      "y": 386,
+      "english": "picture",
+      "chinese": "图画",
+      "phoneticUS": "/ˈpɪktʃɚ/",
+      "phoneticUK": "/ˈpɪktʃə/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 85
+      },
+      "anchorPosition": {
+        "x": 840,
+        "y": 386
+      },
+      "boundingBox": {
+        "left": 682,
+        "top": 69,
+        "right": 998,
+        "bottom": 704
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（图画），待最终图确认。",
+        "association": "场景中体现的具体对象（图画），待最终图确认。",
+        "collocation": "paint a picture; a small picture",
+        "example": "I paint a picture of a vase.",
+        "exampleChinese": "我画一幅花瓶的画。"
+      }
+    },
+    {
+      "x": 78,
+      "y": 353,
+      "english": "frame",
+      "chinese": "画框",
+      "phoneticUS": "/freɪm/",
+      "phoneticUK": "/freɪm/",
+      "bubblePosition": {
+        "x": 105,
+        "y": 445
+      },
+      "anchorPosition": {
+        "x": 78,
+        "y": 353
+      },
+      "boundingBox": {
+        "left": 1,
+        "top": 78,
+        "right": 156,
+        "bottom": 628
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（画框），待最终图确认。",
+        "association": "场景中体现的具体对象（画框），待最终图确认。",
+        "collocation": "a wooden frame; put in a frame",
+        "example": "The wooden frame waits beside the picture.",
+        "exampleChinese": "木画框放在画旁，等着装画。"
+      }
+    },
+    {
+      "x": 811,
+      "y": 830,
+      "english": "paint",
+      "chinese": "颜料",
+      "phoneticUS": "/peɪnt/",
+      "phoneticUK": "/peɪnt/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 800
+      },
+      "anchorPosition": {
+        "x": 811,
+        "y": 830
+      },
+      "boundingBox": {
+        "left": 624,
+        "top": 759,
+        "right": 998,
+        "bottom": 902
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（颜料），待最终图确认。",
+        "association": "场景中体现的具体对象（颜料），待最终图确认。",
+        "collocation": "wet paint; mix paint",
+        "example": "Small blobs of paint sit on the palette.",
+        "exampleChinese": "调色板上有小团颜料。"
+      }
+    },
+    {
+      "x": 307,
+      "y": 812,
+      "english": "design",
+      "chinese": "设计图",
+      "phoneticUS": "/dɪˈzaɪn/",
+      "phoneticUK": "/dɪˈzaɪn/",
+      "bubblePosition": {
+        "x": 290,
+        "y": 750
+      },
+      "anchorPosition": {
+        "x": 307,
+        "y": 812
+      },
+      "boundingBox": {
+        "left": 164,
+        "top": 763,
+        "right": 450,
+        "bottom": 862
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（设计图），待最终图确认。",
+        "association": "场景中体现的具体对象（设计图），待最终图确认。",
+        "collocation": "a simple design; make a design",
+        "example": "My design shows the shape of the vase.",
+        "exampleChinese": "我的设计图展示了花瓶的形状。"
+      }
+    },
+    {
+      "x": 840,
+      "y": 457,
+      "english": "form",
+      "chinese": "形状",
+      "phoneticUS": "/fɔːrm/",
+      "phoneticUK": "/fɔːm/",
+      "bubblePosition": {
+        "x": 670,
+        "y": 950
+      },
+      "anchorPosition": {
+        "x": 840,
+        "y": 457
+      },
+      "boundingBox": {
+        "left": 770,
+        "top": 347,
+        "right": 911,
+        "bottom": 567
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（形状），待最终图确认。",
+        "association": "场景中体现的具体对象（形状），待最终图确认。",
+        "collocation": "a curved form; the form of",
+        "example": "The painted vase has a curved form.",
+        "exampleChinese": "画里的花瓶有弯曲的形状。"
+      }
+    },
+    {
+      "x": 842,
+      "y": 315,
+      "english": "detail",
+      "chinese": "细节",
+      "phoneticUS": "/ˈdiːteɪl/",
+      "phoneticUK": "/ˈdiːteɪl/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 395
+      },
+      "anchorPosition": {
+        "x": 842,
+        "y": 315
+      },
+      "boundingBox": {
+        "left": 814,
+        "top": 279,
+        "right": 870,
+        "bottom": 351
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（细节），待最终图确认。",
+        "association": "场景中体现的具体对象（细节），待最终图确认。",
+        "collocation": "a small detail; add detail",
+        "example": "One painted petal is a small detail.",
+        "exampleChinese": "画出的一片花瓣是一个小细节。"
+      }
+    },
+    {
+      "x": 65,
+      "y": 629,
+      "english": "delicate",
+      "chinese": "纤细的",
+      "phoneticUS": "/ˈdelɪkət/",
+      "phoneticUK": "/ˈdelɪkət/",
+      "bubblePosition": {
+        "x": 130,
+        "y": 665
+      },
+      "anchorPosition": {
+        "x": 65,
+        "y": 629
+      },
+      "boundingBox": {
+        "left": 44,
+        "top": 534,
+        "right": 86,
+        "bottom": 725
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（纤细的），待最终图确认。",
+        "association": "场景中体现的具体对象（纤细的），待最终图确认。",
+        "collocation": "a delicate stem; delicate work",
+        "example": "The flower has a delicate stem.",
+        "exampleChinese": "这朵花有纤细的茎。"
+      }
+    },
+    {
+      "x": 531,
+      "y": 816,
+      "english": "paste",
+      "chinese": "浆糊",
+      "phoneticUS": "/peɪst/",
+      "phoneticUK": "/peɪst/",
+      "bubblePosition": {
+        "x": 400,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 531,
+        "y": 816
+      },
+      "boundingBox": {
+        "left": 475,
+        "top": 758,
+        "right": 587,
+        "bottom": 874
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（浆糊），待最终图确认。",
+        "association": "场景中体现的具体对象（浆糊），待最终图确认。",
+        "collocation": "a little paste; paper paste",
+        "example": "This jar holds paste for the paper pieces.",
+        "exampleChinese": "这罐装着粘纸片用的浆糊。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I paint a small picture and choose a frame that suits its quiet colours.",
+    "chinese": "我画一幅小画，为它挑选一个适合柔和色彩的画框。",
+    "source": "原创配文 · C066 画室的小作品",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

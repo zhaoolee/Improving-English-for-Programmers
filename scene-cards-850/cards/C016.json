@@ -1,0 +1,397 @@
+{
+  "id": "C016",
+  "chapter": "食物与用餐",
+  "title": "面包店的烤箱",
+  "scene": "烤箱外刚取出的蛋糕，抹有果酱，展示糕点气味、苦甜与咬下一口。",
+  "target_count": 9,
+  "primary_words": [
+    "oven",
+    "cake",
+    "jelly",
+    "taste",
+    "smell",
+    "bitter",
+    "good",
+    "bad",
+    "bite"
+  ],
+  "targets": [
+    {
+      "word_id": "W506",
+      "word": "oven",
+      "aliases": [],
+      "source_zh_unreviewed": "烤箱",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "烤箱",
+      "pos": "noun",
+      "ipa_us": "/ˈʌvən/",
+      "ipa_uk": "/ˈʌvən/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "后方打开的烤箱",
+        "sentence": "The cake comes out of the oven.",
+        "matched_form": "oven",
+        "image_verified": true
+      },
+      "example_en": "The cake comes out of the oven.",
+      "example_zh": "蛋糕从烤箱里取出来。",
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.224,
+        0.431
+      ],
+      "collocations": [
+        "a hot oven"
+      ],
+      "example_en_highlighted": "The cake comes out of the **oven**.",
+      "annotation_mode": "object",
+      "annotation_note": "后方打开的烤箱",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W111",
+      "word": "cake",
+      "aliases": [],
+      "source_zh_unreviewed": "蛋糕",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "蛋糕",
+      "pos": "noun",
+      "ipa_us": "/keɪk/",
+      "ipa_uk": "/keɪk/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "前景圆形海绵蛋糕",
+        "sentence": "The cake is on a stand.",
+        "matched_form": "cake",
+        "image_verified": true
+      },
+      "example_en": "The cake is on a stand.",
+      "example_zh": "蛋糕放在蛋糕架上。",
+      "bbox_normalized": [
+        0.335,
+        0.585,
+        0.79,
+        0.77
+      ],
+      "collocations": [
+        "a slice of cake"
+      ],
+      "example_en_highlighted": "The **cake** is on a stand.",
+      "annotation_mode": "object",
+      "annotation_note": "前景圆形海绵蛋糕",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W369",
+      "word": "jelly",
+      "aliases": [],
+      "source_zh_unreviewed": "果冻；果酱",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "果冻状果酱",
+      "pos": "noun",
+      "ipa_us": "/ˈdʒeli/",
+      "ipa_uk": "/ˈdʒeli/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "蛋糕上平滑无籽的红色果酱层；采用美式果冻状果酱义，身份由设定说明",
+        "sentence": "I spread fruit jelly on the cake.",
+        "matched_form": "jelly",
+        "image_verified": true
+      },
+      "example_en": "I spread fruit jelly on the cake.",
+      "example_zh": "我在蛋糕上涂果冻状果酱。",
+      "bbox_normalized": [
+        0.353,
+        0.591,
+        0.775,
+        0.685
+      ],
+      "collocations": [
+        "fruit jelly"
+      ],
+      "example_en_highlighted": "I spread fruit **jelly** on the cake.",
+      "annotation_mode": "object",
+      "annotation_note": "蛋糕上平滑无籽的红色果酱层；采用美式果冻状果酱义，身份由设定说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W739",
+      "word": "taste",
+      "aliases": [],
+      "source_zh_unreviewed": "味道；品尝",
+      "planned_mode": "context",
+      "sense_zh": "味道",
+      "pos": "noun",
+      "ipa_us": "/teɪst/",
+      "ipa_uk": "/teɪst/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The cake has a sweet taste.",
+        "matched_form": "taste",
+        "context": "味觉由例句说明，不能从照片测量",
+        "image_verified": null
+      },
+      "example_en": "The cake has a sweet taste.",
+      "example_zh": "蛋糕有甜甜的味道。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a sweet taste"
+      ],
+      "example_en_highlighted": "The cake has a sweet **taste**.",
+      "annotation_mode": "context",
+      "annotation_note": "味觉由例句说明，不能从照片测量",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W668",
+      "word": "smell",
+      "aliases": [],
+      "source_zh_unreviewed": "气味",
+      "planned_mode": "context",
+      "sense_zh": "气味",
+      "pos": "noun",
+      "ipa_us": "/smel/",
+      "ipa_uk": "/smel/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "I love the smell of fresh cake.",
+        "matched_form": "smell",
+        "context": "嗅觉由原创场景叙述说明",
+        "image_verified": null
+      },
+      "example_en": "I love the smell of fresh cake.",
+      "example_zh": "我喜欢新鲜蛋糕的香气。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the smell of cake"
+      ],
+      "example_en_highlighted": "I love the **smell** of fresh cake.",
+      "annotation_mode": "context",
+      "annotation_note": "嗅觉由原创场景叙述说明",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W072",
+      "word": "bitter",
+      "aliases": [],
+      "source_zh_unreviewed": "苦的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "苦的",
+      "pos": "adjective",
+      "ipa_us": "/ˈbɪtər/",
+      "ipa_uk": "/ˈbɪtə/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "The coffee tastes bitter.",
+        "matched_form": "bitter",
+        "context": "咖啡味道由例句说明，不把蛋糕说成苦的",
+        "image_verified": null
+      },
+      "example_en": "The coffee tastes bitter.",
+      "example_zh": "咖啡喝起来是苦的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "bitter coffee"
+      ],
+      "example_en_highlighted": "The coffee tastes **bitter**.",
+      "annotation_mode": "context",
+      "annotation_note": "咖啡味道由例句说明，不把蛋糕说成苦的",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W307",
+      "word": "good",
+      "aliases": [],
+      "source_zh_unreviewed": "好的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "好的",
+      "pos": "adjective",
+      "ipa_us": "/ɡʊd/",
+      "ipa_uk": "/ɡʊd/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "This is a good cake.",
+        "matched_form": "good",
+        "context": "评价由叙述者表达",
+        "image_verified": null
+      },
+      "example_en": "This is a good cake.",
+      "example_zh": "这是个不错的蛋糕。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a good cake"
+      ],
+      "example_en_highlighted": "This is a **good** cake.",
+      "annotation_mode": "context",
+      "annotation_note": "评价由叙述者表达",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W047",
+      "word": "bad",
+      "aliases": [],
+      "source_zh_unreviewed": "坏的；糟糕的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "不好的",
+      "pos": "adjective",
+      "ipa_us": "/bæd/",
+      "ipa_uk": "/bæd/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": null,
+        "sentence": "Burned cake has a bad taste.",
+        "matched_form": "bad",
+        "context": "条件性例句；不声称图中蛋糕烤焦",
+        "image_verified": null
+      },
+      "example_en": "Burned cake has a bad taste.",
+      "example_zh": "烤焦的蛋糕味道不好。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a bad taste"
+      ],
+      "example_en_highlighted": "Burned cake has a **bad** taste.",
+      "annotation_mode": "context",
+      "annotation_note": "条件性例句；不声称图中蛋糕烤焦",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W071",
+      "word": "bite",
+      "aliases": [],
+      "source_zh_unreviewed": "咬；叮",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "一口",
+      "pos": "noun",
+      "ipa_us": "/baɪt/",
+      "ipa_uk": "/baɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。",
+        "sentence": "I take a bite of cake.",
+        "matched_form": "bite",
+        "context": "名词一口；叉上小块与例句对应，不要求照片证明咬合",
+        "image_verified": null
+      },
+      "example_en": "I take a bite of cake.",
+      "example_zh": "我吃一口蛋糕。",
+      "bbox_normalized": [
+        0.35,
+        0.229,
+        0.441,
+        0.283
+      ],
+      "collocations": [
+        "a bite of cake"
+      ],
+      "example_en_highlighted": "I take a **bite** of cake.",
+      "annotation_mode": "object",
+      "annotation_note": "叉上靠近嘴边的一小口蛋糕，bite采用名词一口；区域定位小块，不声称照片证明已经咬下。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A bite of cake, a little fruit jelly, and the smell of baking.",
+    "zh": "一口蛋糕，少许果冻状果酱，还有烘焙的香气。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C016\n标题 面包店的烤箱\n场景 烤箱外刚取出的蛋糕，抹有果酱，展示糕点气味、苦甜与咬下一口。\n目标词 oven, cake, jelly, taste, smell, bitter, good, bad, bite\n原创主配文草案 The cake has a sweet taste and a good smell.\n中文草案 蛋糕味道甜，气味也好闻。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated ivory clothes, loose low bun, natural skin pores and subtle magazine retouch, realistic hands and materials. Cool soft daylight, pearl white and slate palette with appetizing natural food colors. Environmental portrait with teaching props clearly readable, reserved calm space near top and lower corners for later annotation. No text, numbers, labels, branding, watermark or UI. Elegant small bakery kitchen. Open built-in oven clearly visible at rear left. Woman seated at counter with a small fork holding one bite of cake near her mouth, no need to show teeth. Foreground: one round golden sponge cake on white stand, topped with a thin glossy translucent smooth seedless red FRUIT JELLY preserve; one slice removed. Separate small white cup of dark coffee beside cake. Cake, oven and jelly clearly visible, calm upscale composition.",
+  "status": "approved",
+  "image_path": "images/C016.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 6,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C016 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T22:54:39Z",
+    "ended_at": "2026-10-02T22:55:46Z",
+    "prompt_path": "prompts/C016_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C016.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "烤箱、蛋糕、平滑红色果酱层和咖啡可辨；年轻成年女性、真实材质与单张场景符合风格。叉上小块蛋糕仅作一口的线索，味觉/嗅觉/好坏评价均由句子支持。没有从静态图认定咬合或味觉。"
+  }
+}

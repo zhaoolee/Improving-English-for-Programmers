@@ -1,0 +1,253 @@
+C062  书桌上的文具
+========================================================================
+章节: 学习与艺术
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C062.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C062.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:16:08 UTC → 2026-10-03 17:16:46 UTC
+  提示词文件: prompts/C062_image_final.txt
+
+场景: 整齐书桌上放纸、钢笔、铅笔、墨水、便笺和一本翻开的书。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 钢笔尖、木铅笔、墨水瓶、纸与书页清晰，书页自带细小不可读纹理；便条内容与单词只用句子。书页例句改为指向已打开书页，避免声称翻页动作。
+
+主配文:
+  英文: Paper, a pen, and a pencil are ready on my desk for writing.
+  中文: 纸、钢笔和铅笔已放在书桌上，准备写字。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): paper, pen, pencil, ink, note, page, writing, word
+
+------------------------------------------------------------------------
+[1/8] paper  (W512)
+  词义: 纸
+  词性: noun
+  音标: UK /ˈpeɪpə/ | US /ˈpeɪpɚ/
+  搭配: a sheet of paper; on paper
+  例句: A sheet of paper lies on the desk.
+  例句高亮: A sheet of **paper** lies on the desk.
+  例句中文: 一张纸放在书桌上。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（纸），待最终图确认。
+  坐标(normalized): [0.148, 0.628, 0.69, 0.798]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "写字的独立白纸，不取笔记便笺。"
+    sentence: "A sheet of paper lies on the desk."
+    matched_form: "paper"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 纸；报纸
+
+------------------------------------------------------------------------
+[2/8] pen  (W520)
+  词义: 钢笔
+  词性: noun
+  音标: UK /pen/ | US /pen/
+  搭配: a fountain pen; write with a pen
+  例句: I hold a pen above the paper.
+  例句高亮: I hold a **pen** above the paper.
+  例句中文: 我拿着钢笔，笔在纸上方。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（钢笔），待最终图确认。
+  坐标(normalized): [0.229, 0.548, 0.383, 0.735]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手持黑色钢笔与金属笔尖。"
+    sentence: "I hold a pen above the paper."
+    matched_form: "pen"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 钢笔；圈禁
+
+------------------------------------------------------------------------
+[3/8] pencil  (W521)
+  词义: 铅笔
+  词性: noun
+  音标: UK /ˈpensəl/ | US /ˈpensəl/
+  搭配: a sharp pencil; draw with a pencil
+  例句: The pencil has a sharp point.
+  例句高亮: The **pencil** has a sharp point.
+  例句中文: 这支铅笔有尖尖的笔尖。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（铅笔），待最终图确认。
+  坐标(normalized): [0.398, 0.833, 0.601, 0.931]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "桌底部木制铅笔。"
+    sentence: "The pencil has a sharp point."
+    matched_form: "pencil"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 铅笔
+
+------------------------------------------------------------------------
+[4/8] ink  (W361)
+  词义: 墨水
+  词性: noun
+  音标: UK /ɪŋk/ | US /ɪŋk/
+  搭配: black ink; an ink bottle
+  例句: The bottle contains dark ink.
+  例句高亮: The bottle contains dark **ink**.
+  例句中文: 瓶子里装着深色墨水。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（墨水），待最终图确认。
+  坐标(normalized): [0.238, 0.757, 0.378, 0.878]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "开口深色墨水瓶；内容由句子指定墨水。"
+    sentence: "The bottle contains dark ink."
+    matched_form: "ink"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 墨水
+
+------------------------------------------------------------------------
+[5/8] note  (W482)
+  词义: 便条
+  词性: noun
+  音标: UK /nəʊt/ | US /noʊt/
+  搭配: write a note; leave a note
+  例句: I plan to write a short note.
+  例句高亮: I plan to write a short **note**.
+  例句中文: 我打算写一张简短的便条。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I plan to write a short note.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I plan to write a short note."
+    matched_form: "note"
+    context: "由原创例句给出的语境：I plan to write a short note.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 笔记
+
+------------------------------------------------------------------------
+[6/8] page  (W509)
+  词义: 书页
+  词性: noun
+  音标: UK /peɪdʒ/ | US /peɪdʒ/
+  搭配: turn a page; an open page
+  例句: This page belongs to the open book.
+  例句高亮: This **page** belongs to the open book.
+  例句中文: 这页属于打开的书。
+  标注模式: object
+  标注说明: 场景中体现的具体对象（书页），待最终图确认。
+  坐标(normalized): [0.721, 0.604, 0.998, 0.716]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧打开书的一页。"
+    sentence: "This page belongs to the open book."
+    matched_form: "page"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 页；页面
+
+------------------------------------------------------------------------
+[7/8] writing  (W843)
+  词义: 写字
+  词性: noun
+  音标: UK /ˈraɪtɪŋ/ | US /ˈraɪtɪŋ/
+  搭配: practice writing; clear writing
+  例句: I practice writing with my pen.
+  例句高亮: I practice **writing** with my pen.
+  例句中文: 我用钢笔练习写字。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（写字），待最终图确认。
+  坐标(normalized): [0.088, 0.549, 0.384, 0.739]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手持钢笔在纸上留下笔迹的动作。"
+    sentence: "I practice writing with my pen."
+    matched_form: "writing"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 写作
+
+------------------------------------------------------------------------
+[8/8] word  (W839)
+  词义: 单词
+  词性: noun
+  音标: UK /wɜːd/ | US /wɝːd/
+  搭配: a new word; learn a word
+  例句: I learn one new word each day.
+  例句高亮: I learn one new **word** each day.
+  例句中文: 我每天学习一个新单词。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I learn one new word each day.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I learn one new word each day."
+    matched_form: "word"
+    context: "由原创例句给出的语境：I learn one new word each day.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 单词
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C062 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=69 | meta.approved_cards=70
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at cool stylish study desk. Foreground clearly separated white paper sheet, uncapped black fountain pen with visible metal nib, simple wooden sharpened graphite pencil, open small glass ink bottle with dark liquid, small blank note pad and open plain book showing distinct page. Her hand makes small unreadable handwritten strokes on paper. Lower half tabletop close and crisp, face upper left unobstructed; no readable text, brands or random pseudo letters.

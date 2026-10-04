@@ -1,0 +1,236 @@
+C028  收银台算账
+========================================================================
+章节: 穿衣与购物
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C028.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C028.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T02:53:32Z → 2026-10-03T02:54:10Z
+  提示词文件: prompts/C028_image_final.txt
+
+场景: 顾客付款收到收据，店主核对账目，展示一次小生意。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 顾客接收独立收据纸条、收银机、账簿与硬币可辨；未把模糊纸上印痕当可读金额。店主/赊购/债务/利润由原创或条件句说明，赊购为另一个示例情境。
+
+主配文:
+  英文: I keep the receipt as a record of my payment.
+  中文: 我留好收据，作为这次付款的记录。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): payment, receipt, account, credit, debt, business, profit, owner
+
+------------------------------------------------------------------------
+[1/8] payment  (W518)
+  词义: 付款
+  词性: noun
+  音标: UK /ˈpeɪmənt/ | US /ˈpeɪmənt/
+  搭配: make a payment
+  例句: I make a payment for the cup.
+  例句高亮: I make a **payment** for the cup.
+  例句中文: 我付款买这只杯子。
+  标注模式: context
+  标注说明: 付款是原创交易设定，不声称照片证实支付成功
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I make a payment for the cup."
+    matched_form: "payment"
+    context: "付款是原创交易设定，不声称照片证实支付成功"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 付款；支付
+------------------------------------------------------------------------
+[2/8] receipt  (W583)
+  词义: 收据
+  词性: noun
+  音标: UK /rɪˈsiːt/ | US /rɪˈsiːt/
+  搭配: keep a receipt
+  例句: I keep the receipt.
+  例句高亮: I keep the **receipt**.
+  例句中文: 我保留收据。
+  标注模式: object
+  标注说明: 两人之间独立纸条，收据身份由原创交易设定明确；不声称纸上金额可读
+  坐标(normalized): [0.515, 0.452, 0.581, 0.495]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "两人之间独立纸条，收据身份由原创交易设定明确；不声称纸上金额可读"
+    sentence: "I keep the receipt."
+    matched_form: "receipt"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 收据；收条
+------------------------------------------------------------------------
+[3/8] account  (W004)
+  词义: 账目
+  词性: noun
+  音标: UK /əˈkaʊnt/ | US /əˈkaʊnt/
+  搭配: keep an account
+  例句: The owner keeps an account of each sale.
+  例句高亮: The owner keeps an **account** of each sale.
+  例句中文: 店主记录每笔销售的账目。
+  标注模式: object
+  标注说明: 柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。
+  坐标(normalized): [0.668, 0.664, 0.989, 0.756]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "柜台右侧展开的账本区域；account的账目义由原创句子说明，定位承载账目的账本，不虚构可读金额。"
+    sentence: "The owner keeps an account of each sale."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 账户；账目；解释
+------------------------------------------------------------------------
+[4/8] credit  (W168)
+  词义: 赊购
+  词性: noun
+  音标: UK /ˈkredɪt/ | US /ˈkredɪt/
+  搭配: buy on credit
+  例句: In this story, the shop lets me buy on credit.
+  例句高亮: In this story, the shop lets me buy on **credit**.
+  例句中文: 在这个故事里，商店允许我赊购。
+  标注模式: context
+  标注说明: 补充虚构交易例句，不把当场付款和赊购混为同一事实
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "In this story, the shop lets me buy on credit."
+    matched_form: "credit"
+    context: "补充虚构交易例句，不把当场付款和赊购混为同一事实"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 信用
+------------------------------------------------------------------------
+[5/8] debt  (W187)
+  词义: 债务
+  词性: noun
+  音标: UK /det/ | US /det/
+  搭配: pay a debt
+  例句: I pay the debt I owe to the shop.
+  例句高亮: I pay the **debt** I owe to the shop.
+  例句中文: 我偿还欠商店的债务。
+  标注模式: context
+  标注说明: 债务由原创句子说明，不从钱币或表情认定
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "I pay the debt I owe to the shop."
+    matched_form: "debt"
+    context: "债务由原创句子说明，不从钱币或表情认定"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 债务
+------------------------------------------------------------------------
+[6/8] business  (W106)
+  词义: 生意
+  词性: noun
+  音标: UK /ˈbɪznəs/ | US /ˈbɪznəs/
+  搭配: a small business
+  例句: The owner runs a small business.
+  例句高亮: The owner runs a small **business**.
+  例句中文: 店主经营一门小生意。
+  标注模式: context
+  标注说明: 经营关系由原创设定说明
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The owner runs a small business."
+    matched_form: "business"
+    context: "经营关系由原创设定说明"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 生意；商业
+------------------------------------------------------------------------
+[7/8] profit  (W557)
+  词义: 利润
+  词性: noun
+  音标: UK /ˈprɒfɪt/ | US /ˈprɑːfɪt/
+  搭配: make a profit
+  例句: The shop makes a profit when sales exceed costs.
+  例句高亮: The shop makes a **profit** when sales exceed costs.
+  例句中文: 销售收入超过成本时，商店就有利润。
+  标注模式: context
+  标注说明: 利润概念以条件句说明，不虚构照片中的金额或收益
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The shop makes a profit when sales exceed costs."
+    matched_form: "profit"
+    context: "利润概念以条件句说明，不虚构照片中的金额或收益"
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 利润；盈利
+------------------------------------------------------------------------
+[8/8] owner  (W508)
+  词义: 店主
+  词性: noun
+  音标: UK /ˈəʊnə/ | US /ˈoʊnər/
+  搭配: a shop owner
+  例句: The owner gives me a receipt.
+  例句高亮: The **owner** gives me a receipt.
+  例句中文: 店主给我一张收据。
+  标注模式: object
+  标注说明: 右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。
+  坐标(normalized): [0.637, 0.144, 0.989, 0.678]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右侧递出收据的女性为原创故事店主，框定位该角色；所有权由故事设定说明，不凭服装推定。"
+    sentence: "The owner gives me a receipt."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 拥有者
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 1
+  context_annotations: 7
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C028 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=30 | meta.approved_cards=30
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated ivory and slate clothes, loose dark low bun, natural pores with subtle magazine retouch, real hands and materials. Cool soft daylight, coherent single scene, important teaching props clearly readable, calm blank space near image borders for later annotations. No text, letters, digits, logos, brand names, watermark or UI. Refined small independent homewares shop checkout. Young adult female customer at left in ivory blouse receiving ONE narrow blank receipt strip from another adult woman shop owner at right in slate blouse. Both faces visible, natural coherent hands. Counter shows compact unbranded register, open ledger with faint unrecognizable ruled lines but no readable marks, small tray with a few metal coins. Neutral ceramic wares shelf behind establishes small shop. Receipt clearly separate from ledger, no card terminal logos or numbers, cool window daylight, calm wall top and clear counter bottom.

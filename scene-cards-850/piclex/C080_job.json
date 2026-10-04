@@ -1,0 +1,20 @@
+{
+  "cardID": "C080",
+  "imagePath": "../images/C080.png",
+  "imageSHA256": "32704bcc012f46eee2aaa8984d8344add482dc8ccdc9426ae472da6fdb208131",
+  "imageReviewed": true,
+  "annotationsPath": "C080_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "yesterday",
+    "now",
+    "past",
+    "present",
+    "future",
+    "before",
+    "after",
+    "then",
+    "start"
+  ],
+  "receiptPath": "C080_import_receipt.json"
+}

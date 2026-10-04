@@ -1,0 +1,227 @@
+C015  水果摊上的颜色
+========================================================================
+章节: 食物与用餐
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C015.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C015.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T14:44:39Z → 2026-10-02T14:47:20Z
+  提示词文件: prompts/C015_image_final.txt
+
+场景: 果摊上有苹果、橙子、浆果和坚果，用鲜明颜色区分。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 手中红苹果、三篮红黄绿苹果、右侧橙子、前景蓝莓与带壳核桃均清晰且分离。red/yellow/green均对应真实色彩及例句；berry定位一颗蓝莓，nut定位一颗核桃。人物、手部与果实形态自然，无标牌文字。
+
+主配文:
+  英文: I choose red, yellow, and green apples at the fruit stall.
+  中文: 我在水果摊挑选红色、黄色和绿色的苹果。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): apple, orange, berry, fruit, nut, red, yellow, green
+
+------------------------------------------------------------------------
+[1/8] apple  (W029)
+  词义: 苹果
+  词性: noun
+  音标: UK /ˈæpəl/ | US /ˈæpəl/
+  搭配: a red apple
+  例句: I hold an apple.
+  例句高亮: I hold an **apple**.
+  例句中文: 我拿着一个苹果。
+  标注模式: object
+  标注说明: 主人公手里红苹果
+  坐标(normalized): [0.31, 0.214, 0.416, 0.292]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "主人公手里红苹果"
+    sentence: "I hold an apple."
+    matched_form: "apple"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 苹果
+------------------------------------------------------------------------
+[2/8] orange  (W500)
+  词义: 橙子
+  词性: noun
+  音标: UK /ˈɒrɪndʒ/ | US /ˈɔːrɪndʒ/
+  搭配: a ripe orange
+  例句: The orange is round.
+  例句高亮: The **orange** is round.
+  例句中文: 橙子是圆的。
+  标注模式: object
+  标注说明: 右侧篮子里一颗橙子，采用水果义
+  坐标(normalized): [0.863, 0.553, 0.966, 0.629]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "右侧篮子里一颗橙子，采用水果义"
+    sentence: "The orange is round."
+    matched_form: "orange"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 橙色；橙子
+------------------------------------------------------------------------
+[3/8] berry  (W066)
+  词义: 浆果
+  词性: noun
+  音标: UK /ˈberi/ | US /ˈberi/
+  搭配: a blue berry
+  例句: A blueberry is a small berry.
+  例句高亮: A blueberry is a small **berry**.
+  例句中文: 蓝莓是一种小浆果。
+  标注模式: object
+  标注说明: 前景蓝莓中的一颗，泛称berry由例句明确
+  坐标(normalized): [0.505, 0.803, 0.53, 0.824]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "前景蓝莓中的一颗，泛称berry由例句明确"
+    sentence: "A blueberry is a small berry."
+    matched_form: "berry"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 浆果
+------------------------------------------------------------------------
+[4/8] fruit  (W294)
+  词义: 水果
+  词性: noun
+  音标: UK /fruːt/ | US /fruːt/
+  搭配: fresh fruit
+  例句: Apples are fruit.
+  例句高亮: Apples are **fruit**.
+  例句中文: 苹果是水果。
+  标注模式: object
+  标注说明: fruit的可见实例为手中的苹果，采用同一实际苹果区域，不框整个摊位。
+  坐标(normalized): [0.31, 0.214, 0.416, 0.292]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "fruit的可见实例为手中的苹果，采用同一实际苹果区域，不框整个摊位。"
+    sentence: "Apples are fruit."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 水果；果实
+------------------------------------------------------------------------
+[5/8] nut  (W485)
+  词义: 坚果
+  词性: noun
+  音标: UK /nʌt/ | US /nʌt/
+  搭配: a whole nut
+  例句: A walnut is a nut.
+  例句高亮: A walnut is a **nut**.
+  例句中文: 核桃是一种坚果。
+  标注模式: object
+  标注说明: 前景托盘上一颗带壳核桃
+  坐标(normalized): [0.738, 0.794, 0.806, 0.836]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "前景托盘上一颗带壳核桃"
+    sentence: "A walnut is a nut."
+    matched_form: "nut"
+    image_verified: true
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 坚果
+------------------------------------------------------------------------
+[6/8] red  (W585)
+  词义: 红色的
+  词性: adjective
+  音标: UK /red/ | US /red/
+  搭配: a red apple
+  例句: The apple in my hand is red.
+  例句高亮: The apple in my hand is **red**.
+  例句中文: 我手里的苹果是红色的。
+  标注模式: object
+  标注说明: 手中实际红苹果的区域，red描述这只苹果的颜色。
+  坐标(normalized): [0.31, 0.214, 0.416, 0.292]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手中实际红苹果的区域，red描述这只苹果的颜色。"
+    sentence: "The apple in my hand is red."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 红色的
+------------------------------------------------------------------------
+[7/8] yellow  (W846)
+  词义: 黄色的
+  词性: adjective
+  音标: UK /ˈjeləʊ/ | US /ˈjeloʊ/
+  搭配: a yellow apple
+  例句: The apples in the middle are yellow.
+  例句高亮: The apples in the middle are **yellow**.
+  例句中文: 中间的苹果是黄色的。
+  标注模式: object
+  标注说明: 前景中间篮子中黄色苹果的区域，yellow描述这些苹果的可见颜色。
+  坐标(normalized): [0.225, 0.587, 0.486, 0.807]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景中间篮子中黄色苹果的区域，yellow描述这些苹果的可见颜色。"
+    sentence: "The apples in the middle are yellow."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 黄色
+------------------------------------------------------------------------
+[8/8] green  (W312)
+  词义: 绿色的
+  词性: adjective
+  音标: UK /ɡriːn/ | US /ɡriːn/
+  搭配: a green apple
+  例句: Some apples are green.
+  例句高亮: Some apples are **green**.
+  例句中文: 有些苹果是绿色的。
+  标注模式: object
+  标注说明: 前景右中篮子中绿色苹果的区域，green描述这些苹果的可见颜色。
+  坐标(normalized): [0.501, 0.6, 0.821, 0.807]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景右中篮子中绿色苹果的区域，green描述这些苹果的可见颜色。"
+    sentence: "Some apples are green."
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-02
+    说明: Codex按本卡语境独立编辑复核；不将源表未经复核内容直接作为成品，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 绿色
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 4
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C015 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=15 | meta.approved_cards=15
+
+底图提示词 (image_prompt 原文):
+
+Refined photorealistic Korean cool Instagram editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, ivory knit, loose low bun, natural skin texture and subtle high-end retouch, real hands and fabrics. Cool soft daylight, pearl white mist grey slate palette, clear teaching objects with real proportions, modest blank space for later annotation. No words, numbers, labels, logos, watermark or UI. Refined cool outdoor produce stall environmental fashion portrait. Woman behind counter holding ONE red apple, her face clear. Distinct separated baskets across foreground: red apples left, golden YELLOW apples center-left, GREEN apples center-right, ORANGES right. Small open punnet of BLUEBERRIES at front center and a few whole WALNUTS in their shells on small tray at front right, no packages or signs. Whole baskets and fruit surfaces clearly readable, natural saturated fruit colors against muted wardrobe and cool neutral background. Single scene, no crowds, no mixed or hybrid fruits.

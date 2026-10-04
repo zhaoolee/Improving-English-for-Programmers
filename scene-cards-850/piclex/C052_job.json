@@ -1,0 +1,19 @@
+{
+  "cardID": "C052",
+  "imagePath": "../images/C052.png",
+  "imageSHA256": "04d0303c04ef9471985028ecf1909051b9c0a8287c9bba8c84a22c3a20ad4d52",
+  "imageReviewed": true,
+  "annotationsPath": "C052_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "body",
+    "arm",
+    "hand",
+    "finger",
+    "thumb",
+    "leg",
+    "foot",
+    "toe"
+  ],
+  "receiptPath": "C052_import_receipt.json"
+}

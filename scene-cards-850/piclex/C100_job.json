@@ -1,0 +1,16 @@
+{
+  "cardID": "C100",
+  "imagePath": "../images/C100.png",
+  "imageSHA256": "4b3ba9178725d46591aed3491885c1dc6f6d33993933542ae595c97ed90fa9c3",
+  "imageReviewed": true,
+  "annotationsPath": "C100_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "and",
+    "but",
+    "if",
+    "though",
+    "while"
+  ],
+  "receiptPath": "C100_import_receipt.json"
+}

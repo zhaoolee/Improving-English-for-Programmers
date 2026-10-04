@@ -1,0 +1,20 @@
+{
+  "cardID": "C011",
+  "imagePath": "../images/C011.png",
+  "imageSHA256": "649a4449dfc09378dfee34a45ce193b4e098fdc9f99122bc15b383ba3c8ed4d4",
+  "imageReviewed": true,
+  "annotationsPath": "C011_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "bread",
+    "butter",
+    "cheese",
+    "egg",
+    "milk",
+    "food",
+    "meal",
+    "ready",
+    "have"
+  ],
+  "receiptPath": "C011_import_receipt.json"
+}

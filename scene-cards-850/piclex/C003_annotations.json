@@ -1,0 +1,375 @@
+{
+  "filename": "C003-整理房间.png",
+  "labels": [
+    {
+      "x": 530,
+      "y": 60,
+      "english": "room",
+      "chinese": "房间",
+      "phoneticUS": "/ruːm/",
+      "phoneticUK": "/ruːm/",
+      "bubblePosition": {
+        "x": 530,
+        "y": 60
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "整个室内空间与 room 例句对应；不把单件家具当房间。",
+        "association": "整个室内空间与 room 例句对应；不把单件家具当房间。",
+        "collocation": "a tidy room; in my room",
+        "example": "This is my room.",
+        "exampleChinese": "这是我的房间。"
+      }
+    },
+    {
+      "x": 615,
+      "y": 900,
+      "english": "floor",
+      "chinese": "地板",
+      "phoneticUS": "/flɔːr/",
+      "phoneticUK": "/flɔː/",
+      "bubblePosition": {
+        "x": 300,
+        "y": 920
+      },
+      "anchorPosition": {
+        "x": 615,
+        "y": 900
+      },
+      "boundingBox": {
+        "left": 420,
+        "top": 797,
+        "right": 840,
+        "bottom": 975
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框前景一块独立可辨的木地板区域，避开家具和人物。",
+        "association": "框前景一块独立可辨的木地板区域，避开家具和人物。",
+        "collocation": "on the floor; a wooden floor",
+        "example": "The floor is made of wood.",
+        "exampleChinese": "地板是木制的。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 120,
+      "english": "wall",
+      "chinese": "墙",
+      "phoneticUS": "/wɔːl/",
+      "phoneticUK": "/wɔːl/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 200
+      },
+      "anchorPosition": {
+        "x": 870,
+        "y": 120
+      },
+      "boundingBox": {
+        "left": 620,
+        "top": 0,
+        "right": 998,
+        "bottom": 292
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框不被家具挡住的一片墙面。",
+        "association": "框不被家具挡住的一片墙面。",
+        "collocation": "a grey wall; against the wall",
+        "example": "The wall is pale grey.",
+        "exampleChinese": "墙是浅灰色的。"
+      }
+    },
+    {
+      "x": 280,
+      "y": 263,
+      "english": "shelf",
+      "chinese": "搁板",
+      "phoneticUS": "/ʃelf/",
+      "phoneticUK": "/ʃelf/",
+      "bubblePosition": {
+        "x": 245,
+        "y": 140
+      },
+      "anchorPosition": {
+        "x": 280,
+        "y": 263
+      },
+      "boundingBox": {
+        "left": 112,
+        "top": 256,
+        "right": 332,
+        "bottom": 270
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框书下的水平搁板，不把整座书架框成单数 shelf。",
+        "association": "只框书下的水平搁板，不把整座书架框成单数 shelf。",
+        "collocation": "on the shelf; a wooden shelf",
+        "example": "The books are on the shelf.",
+        "exampleChinese": "书放在搁板上。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 630,
+      "english": "drawer",
+      "chinese": "抽屉",
+      "phoneticUS": "/drɔːr/",
+      "phoneticUK": "/drɔː/",
+      "bubblePosition": {
+        "x": 170,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 120,
+        "y": 630
+      },
+      "boundingBox": {
+        "left": 26,
+        "top": 560,
+        "right": 400,
+        "bottom": 796
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框拉开的抽屉，不把柜体整体当抽屉。",
+        "association": "框拉开的抽屉，不把柜体整体当抽屉。",
+        "collocation": "open a drawer; in the drawer",
+        "example": "The drawer is open.",
+        "exampleChinese": "抽屉开着。"
+      }
+    },
+    {
+      "x": 260,
+      "y": 565,
+      "english": "box",
+      "chinese": "盒子",
+      "phoneticUS": "/bɑːks/",
+      "phoneticUK": "/bɒks/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 460
+      },
+      "anchorPosition": {
+        "x": 260,
+        "y": 565
+      },
+      "boundingBox": {
+        "left": 168,
+        "top": 515,
+        "right": 365,
+        "bottom": 615
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框人物手中的单个纸盒。",
+        "association": "框人物手中的单个纸盒。",
+        "collocation": "a small box; put a box away",
+        "example": "The box fits in the drawer.",
+        "exampleChinese": "这个盒子能放进抽屉。"
+      }
+    },
+    {
+      "x": 900,
+      "y": 385,
+      "english": "cushion",
+      "chinese": "靠垫",
+      "phoneticUS": "/ˈkʊʃn/",
+      "phoneticUK": "/ˈkʊʃn/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 900,
+        "y": 385
+      },
+      "boundingBox": {
+        "left": 810,
+        "top": 313,
+        "right": 995,
+        "bottom": 431
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "只框沙发上独立的靠垫，不框沙发座垫。",
+        "association": "只框沙发上独立的靠垫，不框沙发座垫。",
+        "collocation": "a soft cushion; a sofa cushion",
+        "example": "A cushion is on the sofa.",
+        "exampleChinese": "沙发上有一个靠垫。"
+      }
+    },
+    {
+      "x": 385,
+      "y": 560,
+      "english": "put",
+      "chinese": "放置",
+      "phoneticUS": "/pʊt/",
+      "phoneticUK": "/pʊt/",
+      "bubblePosition": {
+        "x": 540,
+        "y": 600
+      },
+      "anchorPosition": {
+        "x": 385,
+        "y": 560
+      },
+      "boundingBox": {
+        "left": 180,
+        "top": 470,
+        "right": 495,
+        "bottom": 618
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb (transitive)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。",
+        "association": "定位手、盒子和抽屉口的动作区域；单幅图与例句共同说明放入动作。",
+        "collocation": "put a box in a drawer; put things away",
+        "example": "I put the box in the drawer.",
+        "exampleChinese": "我把盒子放进抽屉。"
+      }
+    },
+    {
+      "x": 690,
+      "y": 60,
+      "english": "a",
+      "chinese": "一个",
+      "phoneticUS": "/ə/ (weak), /eɪ/ (strong)",
+      "phoneticUK": "/ə/ (weak), /eɪ/ (strong)",
+      "bubblePosition": {
+        "x": 690,
+        "y": 60
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "indefinite article",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "句中高亮 a，首次引入一个盒子；不设置冠词物体框。",
+        "association": "句中高亮 a，首次引入一个盒子；不设置冠词物体框。",
+        "collocation": "a box; a cushion",
+        "example": "I have a box.",
+        "exampleChinese": "我有一个盒子。"
+      }
+    },
+    {
+      "x": 860,
+      "y": 60,
+      "english": "the",
+      "chinese": "这个（特指）",
+      "phoneticUS": "/ðə/ (weak before consonant), /ðiː/ (strong)",
+      "phoneticUK": "/ðə/ (weak before consonant), /ðiː/ (strong)",
+      "bubblePosition": {
+        "x": 860,
+        "y": 60
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "definite article",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。",
+        "association": "接在 I have a box. 后高亮 the box 的 the，回指已引入的盒子；元音前常弱读 /ði/。不设物体框。",
+        "collocation": "the box; the drawer",
+        "example": "I put the box in the drawer.",
+        "exampleChinese": "我把那个盒子放进那个抽屉。"
+      }
+    },
+    {
+      "x": 472,
+      "y": 902,
+      "english": "space",
+      "chinese": "可用空间",
+      "phoneticUS": "/speɪs/",
+      "phoneticUK": "/speɪs/",
+      "bubblePosition": {
+        "x": 720,
+        "y": 880
+      },
+      "anchorPosition": {
+        "x": 472,
+        "y": 902
+      },
+      "boundingBox": {
+        "left": 30,
+        "top": 815,
+        "right": 915,
+        "bottom": 989
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。",
+        "association": "前景地板未被家具占用的空地，定位可用空间，与space on the floor例句一致。",
+        "collocation": "make space; more space",
+        "example": "There is space on the floor.",
+        "exampleChinese": "地板上有空地方。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I put a box in the drawer to make more space in my room.",
+    "chinese": "我把一个盒子放进抽屉，让房间腾出更多空间。",
+    "source": "原创配文 · C003 整理房间",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

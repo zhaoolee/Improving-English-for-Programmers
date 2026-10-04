@@ -1,0 +1,471 @@
+{
+  "id": "C040",
+  "chapter": "城市与出行",
+  "title": "日历上的旅行",
+  "scene": "主角指着日历与手表；旁白呈现小时、分钟、年月周、明天、何时、迟到与直到某时。",
+  "target_count": 11,
+  "primary_words": [
+    "time",
+    "hour",
+    "minute",
+    "watch",
+    "week",
+    "month",
+    "year",
+    "tomorrow",
+    "when",
+    "till",
+    "late"
+  ],
+  "targets": [
+    {
+      "word_id": "W764",
+      "word": "time",
+      "aliases": [],
+      "source_zh_unreviewed": "时间",
+      "planned_mode": "context",
+      "sense_zh": "时间",
+      "pos": "noun",
+      "ipa_us": "/taɪm/",
+      "ipa_uk": "/taɪm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "表盘作为本句时间的显示载体，不声称读出准确时刻。",
+        "sentence": "I check the time on my watch.",
+        "matched_form": "time",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I check the time on my watch.",
+      "example_zh": "我看手表确认时间。",
+      "bbox_normalized": [
+        0.65,
+        0.488,
+        0.743,
+        0.537
+      ],
+      "collocations": [
+        "check the time"
+      ],
+      "example_en_highlighted": "I check the **time** on my watch.",
+      "annotation_mode": "object",
+      "annotation_note": "表盘作为本句时间的显示载体，不声称读出准确时刻。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W347",
+      "word": "hour",
+      "aliases": [],
+      "source_zh_unreviewed": "小时",
+      "planned_mode": "context",
+      "sense_zh": "小时",
+      "pos": "noun",
+      "ipa_us": "/ˈaʊər/",
+      "ipa_uk": "/ˈaʊə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The journey takes one hour.",
+        "matched_form": "hour",
+        "referent_region_verified": false,
+        "context": "持续时长由句子提供，空白表盘不证明一小时。",
+        "image_verified": null
+      },
+      "example_en": "The journey takes one hour.",
+      "example_zh": "旅程需要一小时。",
+      "bbox_normalized": null,
+      "collocations": [
+        "one hour"
+      ],
+      "example_en_highlighted": "The journey takes one **hour**.",
+      "annotation_mode": "context",
+      "annotation_note": "持续时长由句子提供，空白表盘不证明一小时。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W445",
+      "word": "minute",
+      "aliases": [],
+      "source_zh_unreviewed": "分钟",
+      "planned_mode": "context",
+      "sense_zh": "分钟",
+      "pos": "noun",
+      "ipa_us": "/ˈmɪnɪt/",
+      "ipa_uk": "/ˈmɪnɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I wait one minute before leaving.",
+        "matched_form": "minute",
+        "referent_region_verified": false,
+        "context": "持续时间由句子说明，无物体框。",
+        "image_verified": null
+      },
+      "example_en": "I wait one minute before leaving.",
+      "example_zh": "出发前我等一分钟。",
+      "bbox_normalized": null,
+      "collocations": [
+        "one minute"
+      ],
+      "example_en_highlighted": "I wait one **minute** before leaving.",
+      "annotation_mode": "context",
+      "annotation_note": "持续时间由句子说明，无物体框。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W806",
+      "word": "watch",
+      "aliases": [],
+      "source_zh_unreviewed": "手表",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "手表",
+      "pos": "noun",
+      "ipa_us": "/wɑːtʃ/",
+      "ipa_uk": "/wɒtʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "腕上的实际手表整体。",
+        "sentence": "My watch is on my wrist.",
+        "matched_form": "watch",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My watch is on my wrist.",
+      "example_zh": "手表在我的手腕上。",
+      "bbox_normalized": [
+        0.65,
+        0.488,
+        0.743,
+        0.537
+      ],
+      "collocations": [
+        "a wrist watch"
+      ],
+      "example_en_highlighted": "My **watch** is on my wrist.",
+      "annotation_mode": "object",
+      "annotation_note": "腕上的实际手表整体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W812",
+      "word": "week",
+      "aliases": [],
+      "source_zh_unreviewed": "周",
+      "planned_mode": "context",
+      "sense_zh": "星期",
+      "pos": "noun",
+      "ipa_us": "/wiːk/",
+      "ipa_uk": "/wiːk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We travel next week.",
+        "matched_form": "week",
+        "referent_region_verified": false,
+        "context": "空白七列只提示日历结构，不假读具体周次。",
+        "image_verified": null
+      },
+      "example_en": "We travel next week.",
+      "example_zh": "我们下周旅行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "next week"
+      ],
+      "example_en_highlighted": "We travel next **week**.",
+      "annotation_mode": "context",
+      "annotation_note": "空白七列只提示日历结构，不假读具体周次。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W450",
+      "word": "month",
+      "aliases": [],
+      "source_zh_unreviewed": "月份",
+      "planned_mode": "context",
+      "sense_zh": "月份",
+      "pos": "noun",
+      "ipa_us": "/mʌnθ/",
+      "ipa_uk": "/mʌnθ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We plan another trip next month.",
+        "matched_form": "month",
+        "referent_region_verified": false,
+        "context": "月份来自原创句子，不读取空白日历。",
+        "image_verified": null
+      },
+      "example_en": "We plan another trip next month.",
+      "example_zh": "我们计划下个月再旅行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "next month"
+      ],
+      "example_en_highlighted": "We plan another trip next **month**.",
+      "annotation_mode": "context",
+      "annotation_note": "月份来自原创句子，不读取空白日历。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W845",
+      "word": "year",
+      "aliases": [],
+      "source_zh_unreviewed": "年",
+      "planned_mode": "context",
+      "sense_zh": "年",
+      "pos": "noun",
+      "ipa_us": "/jɪr/",
+      "ipa_uk": "/jɪə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I visit the island this year.",
+        "matched_form": "year",
+        "referent_region_verified": false,
+        "context": "年份由句子给出，图中无可读年份。",
+        "image_verified": null
+      },
+      "example_en": "I visit the island this year.",
+      "example_zh": "我今年去那座岛。",
+      "bbox_normalized": null,
+      "collocations": [
+        "this year"
+      ],
+      "example_en_highlighted": "I visit the island this **year**.",
+      "annotation_mode": "context",
+      "annotation_note": "年份由句子给出，图中无可读年份。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W770",
+      "word": "tomorrow",
+      "aliases": [],
+      "source_zh_unreviewed": "明天",
+      "planned_mode": "context",
+      "sense_zh": "明天",
+      "pos": "adverb",
+      "ipa_us": "/təˈmɑːroʊ/",
+      "ipa_uk": "/təˈmɒrəʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We leave tomorrow morning.",
+        "matched_form": "tomorrow",
+        "referent_region_verified": false,
+        "context": "相对日期由故事说明，蓝点不自动等于明天。",
+        "image_verified": null
+      },
+      "example_en": "We leave tomorrow morning.",
+      "example_zh": "我们明天早晨出发。",
+      "bbox_normalized": null,
+      "collocations": [
+        "leave tomorrow"
+      ],
+      "example_en_highlighted": "We leave **tomorrow** morning.",
+      "annotation_mode": "context",
+      "annotation_note": "相对日期由故事说明，蓝点不自动等于明天。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W818",
+      "word": "when",
+      "aliases": [],
+      "source_zh_unreviewed": "何时",
+      "planned_mode": "context",
+      "sense_zh": "什么时候",
+      "pos": "adverb",
+      "ipa_us": "/wen/",
+      "ipa_uk": "/wen/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "When do we leave?",
+        "matched_form": "when",
+        "referent_region_verified": false,
+        "context": "问时间的疑问词以完整句解释。",
+        "image_verified": null
+      },
+      "example_en": "When do we leave?",
+      "example_zh": "我们什么时候出发？",
+      "bbox_normalized": null,
+      "collocations": [
+        "when do"
+      ],
+      "example_en_highlighted": "**When** do we leave?",
+      "annotation_mode": "context",
+      "annotation_note": "问时间的疑问词以完整句解释。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W763",
+      "word": "till",
+      "aliases": [],
+      "source_zh_unreviewed": "直到",
+      "planned_mode": "context",
+      "sense_zh": "直到",
+      "pos": "preposition",
+      "ipa_us": "/tɪl/",
+      "ipa_uk": "/tɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We stay here till noon.",
+        "matched_form": "till",
+        "referent_region_verified": false,
+        "context": "时间终点介词由句子解释。",
+        "image_verified": null
+      },
+      "example_en": "We stay here till noon.",
+      "example_zh": "我们在这里待到中午。",
+      "bbox_normalized": null,
+      "collocations": [
+        "till noon"
+      ],
+      "example_en_highlighted": "We stay here **till** noon.",
+      "annotation_mode": "context",
+      "annotation_note": "时间终点介词由句子解释。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W388",
+      "word": "late",
+      "aliases": [],
+      "source_zh_unreviewed": "迟的；晚的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "迟到的",
+      "pos": "adjective",
+      "ipa_us": "/leɪt/",
+      "ipa_uk": "/leɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I do not want to be late.",
+        "matched_form": "late",
+        "referent_region_verified": false,
+        "context": "迟到状态不由静态图推断。",
+        "image_verified": null
+      },
+      "example_en": "I do not want to be late.",
+      "example_zh": "我不想迟到。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be late"
+      ],
+      "example_en_highlighted": "I do not want to be **late**.",
+      "annotation_mode": "context",
+      "annotation_note": "迟到状态不由静态图推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "My watch is ready, and tomorrow has a place on the calendar.",
+    "zh": "手表已备好，明天也在日历上留有一个位置。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C040\n标题 日历上的旅行\n场景 主角指着日历与手表；旁白呈现小时、分钟、年月周、明天、何时、迟到与直到某时。\n目标词 time, hour, minute, watch, week, month, year, tomorrow, when, till, late\n原创主配文草案 The journey will start tomorrow at this time.\n中文草案 旅程将于明天这个时候开始。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One calm hotel-room travel-planning editorial. Woman seated at small desk at right, looks down at open large paper calendar spread flat at lower left; calendar has ONLY a clean seven-column grid of blank squares, no letters or digits. One square marked with a simple muted blue dot, no text. Her left wrist clearly displays a round analogue watch with plain tick marks, hour and minute hands, no numerals or branding; wrist rests near calendar and is readable. Airy blank wall and gentle daylight, authentic fingers. Calendar is only a context cue; do not invent readable dates.",
+  "status": "approved",
+  "image_path": "images/C040.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 9,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C040 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T09:09:33Z",
+    "ended_at": "2026-10-03T09:12:37Z",
+    "prompt_path": "prompts/C040_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C040.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "实体手表与空白日历格可见，无可读日期；time定位显示载体，不声称精确读时。其余时长/日期/疑问词由例句支持，无虚假框。"
+  }
+}

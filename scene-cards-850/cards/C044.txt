@@ -1,0 +1,276 @@
+C044  农场动物围栏
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C044.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C044.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:15:22Z
+  提示词文件: prompts/C044_image_final.txt
+
+场景: 牛、山羊、绵羊、猪、马和家禽在分区围栏里；墙上挂一条未使用的传统马鞭，羽毛和角清楚可见。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 六类动物独立可辨，鸡尾羽、山羊角和墙上未使用马鞭可定位。牛体部分出画，框覆盖可见牛头与前部，不声称照片显示完整身体。
+
+主配文:
+  英文: A quiet farm morning, with animals resting in their separate spaces.
+  中文: 安静的农场清晨，动物们在各自的区域里休息。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): cow, goat, sheep, pig, horse, fowl, feather, horn, whip
+
+------------------------------------------------------------------------
+[1/9] cow  (W166)
+  词义: 奶牛
+  词性: noun
+  音标: UK /kaʊ/ | US /kaʊ/
+  搭配: a dairy cow
+  例句: The cow rests beside the fence.
+  例句高亮: The **cow** rests beside the fence.
+  例句中文: 奶牛在围栏旁休息。
+  标注模式: object
+  标注说明: 实际黑白牛体。
+  坐标(normalized): [0.0, 0.423, 0.264, 0.704]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际黑白牛体。"
+    sentence: "The cow rests beside the fence."
+    matched_form: "cow"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 母牛
+
+------------------------------------------------------------------------
+[2/9] goat  (W305)
+  词义: 山羊
+  词性: noun
+  音标: UK /ɡəʊt/ | US /ɡoʊt/
+  搭配: a brown goat
+  例句: The goat has curved horns.
+  例句高亮: The **goat** has curved horns.
+  例句中文: 山羊有弯曲的角。
+  标注模式: object
+  标注说明: 独立山羊整体，区别绵羊。
+  坐标(normalized): [0.697, 0.452, 0.998, 0.637]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立山羊整体，区别绵羊。"
+    sentence: "The goat has curved horns."
+    matched_form: "goat"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 山羊
+
+------------------------------------------------------------------------
+[3/9] sheep  (W644)
+  词义: 绵羊
+  词性: noun
+  音标: UK /ʃiːp/ | US /ʃiːp/
+  搭配: a white sheep
+  例句: The sheep has thick wool.
+  例句高亮: The **sheep** has thick wool.
+  例句中文: 绵羊长着厚羊毛。
+  标注模式: object
+  标注说明: 独立羊毛绵羊整体。
+  坐标(normalized): [0.845, 0.525, 0.998, 0.711]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立羊毛绵羊整体。"
+    sentence: "The sheep has thick wool."
+    matched_form: "sheep"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 绵羊
+
+------------------------------------------------------------------------
+[4/9] pig  (W525)
+  词义: 猪
+  词性: noun
+  音标: UK /pɪɡ/ | US /pɪɡ/
+  搭配: a pink pig
+  例句: The pig stands in its pen.
+  例句高亮: The **pig** stands in its pen.
+  例句中文: 猪站在自己的围栏里。
+  标注模式: object
+  标注说明: 独立粉色猪体。
+  坐标(normalized): [0.155, 0.357, 0.329, 0.434]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立粉色猪体。"
+    sentence: "The pig stands in its pen."
+    matched_form: "pig"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 猪
+
+------------------------------------------------------------------------
+[5/9] horse  (W345)
+  词义: 马
+  词性: noun
+  音标: UK /hɔːs/ | US /hɔːrs/
+  搭配: a brown horse
+  例句: The horse waits beside the stable.
+  例句高亮: The **horse** waits beside the stable.
+  例句中文: 马在马厩旁等着。
+  标注模式: object
+  标注说明: 独立马体，等待情境由故事句说明。
+  坐标(normalized): [0.669, 0.216, 0.925, 0.453]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "独立马体，等待情境由故事句说明。"
+    sentence: "The horse waits beside the stable."
+    matched_form: "horse"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 马
+
+------------------------------------------------------------------------
+[6/9] fowl  (W287)
+  词义: 家禽
+  词性: noun
+  音标: UK /faʊl/ | US /faʊl/
+  搭配: domestic fowl
+  例句: The fowl walks along the path.
+  例句高亮: The **fowl** walks along the path.
+  例句中文: 家禽沿着小径走。
+  标注模式: object
+  标注说明: 实际家鸡定位家禽类别。
+  坐标(normalized): [0.577, 0.713, 0.763, 0.95]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际家鸡定位家禽类别。"
+    sentence: "The fowl walks along the path."
+    matched_form: "fowl"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 家禽；鸟
+
+------------------------------------------------------------------------
+[7/9] feather  (W258)
+  词义: 羽毛
+  词性: noun
+  音标: UK /ˈfeðə/ | US /ˈfeðər/
+  搭配: a tail feather
+  例句: A long feather is part of the chicken’s tail.
+  例句高亮: A long **feather** is part of the chicken’s tail.
+  例句中文: 一根长羽毛是鸡尾巴的一部分。
+  标注模式: object
+  标注说明: 家鸡实际尾羽，不把整只鸡当单根羽毛。
+  坐标(normalized): [0.696, 0.754, 0.768, 0.873]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "家鸡实际尾羽，不把整只鸡当单根羽毛。"
+    sentence: "A long feather is part of the chicken’s tail."
+    matched_form: "feather"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 羽毛；翎毛
+
+------------------------------------------------------------------------
+[8/9] horn  (W344)
+  词义: 角
+  词性: noun
+  音标: UK /hɔːn/ | US /hɔːrn/
+  搭配: a curved horn
+  例句: A curved horn grows on the goat’s head.
+  例句高亮: A curved **horn** grows on the goat’s head.
+  例句中文: 弯角长在山羊头上。
+  标注模式: object
+  标注说明: 山羊单侧角的真实区域。
+  坐标(normalized): [0.789, 0.456, 0.911, 0.498]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "山羊单侧角的真实区域。"
+    sentence: "A curved horn grows on the goat’s head."
+    matched_form: "horn"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 角
+
+------------------------------------------------------------------------
+[9/9] whip  (W821)
+  词义: 马鞭
+  词性: noun
+  音标: UK /wɪp/ | US /wɪp/
+  搭配: a leather whip
+  例句: The unused whip hangs on the wall.
+  例句高亮: The unused **whip** hangs on the wall.
+  例句中文: 未使用的马鞭挂在墙上。
+  标注模式: object
+  标注说明: 墙上完整鞭柄与柔性鞭梢，不展示伤害。
+  坐标(normalized): [0.048, 0.032, 0.107, 0.383]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "墙上完整鞭柄与柔性鞭梢，不展示伤害。"
+    sentence: "The unused whip hangs on the wall."
+    matched_form: "whip"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 鞭子
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 9
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C044 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Refined farm editorial in ONE portrait with orderly separated pens, realistic perspective. Woman calmly at central path. Left pen foreground a black-and-white cow, right pen foreground a brown goat with two clearly distinct curved horns beside a fluffy white sheep. Left rear pen a pink pig, right rear pen a bay horse. One domestic chicken at bottom centre with clear tail feathers. At left edge timber wall a long unused traditional leather horse whip hangs vertically from hook, handle and thin flexible lash entire and visible, nobody holding it. Each animal distinct and fully identifiable, no merged bodies, no harm, no brands or signage. Calm blank sky and path for labels.

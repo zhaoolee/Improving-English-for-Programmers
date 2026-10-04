@@ -1,0 +1,21 @@
+{
+  "cardID": "C081",
+  "imagePath": "../images/C081.png",
+  "imageSHA256": "846a6d6634a381a94e6565003c732f85bd1a71874a9969067992924a34470c93",
+  "imageReviewed": true,
+  "annotationsPath": "C081_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "wood",
+    "hammer",
+    "nail",
+    "screw",
+    "metal",
+    "iron",
+    "steel",
+    "part",
+    "crack",
+    "polish"
+  ],
+  "receiptPath": "C081_import_receipt.json"
+}

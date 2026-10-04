@@ -1,0 +1,418 @@
+{
+  "id": "C024",
+  "chapter": "穿衣与购物",
+  "title": "缝补一处破洞",
+  "scene": "手作台用针线缝补衣服，针、别针、剪刀和线结可见。",
+  "target_count": 9,
+  "primary_words": [
+    "needle",
+    "thread",
+    "stitch",
+    "pin",
+    "scissors",
+    "knot",
+    "hole",
+    "loose",
+    "separate"
+  ],
+  "targets": [
+    {
+      "word_id": "W470",
+      "word": "needle",
+      "aliases": [],
+      "source_zh_unreviewed": "针",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "缝衣针",
+      "pos": "noun",
+      "ipa_us": "/ˈniːdəl/",
+      "ipa_uk": "/ˈniːdəl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "手中金属缝衣针，不含手指",
+        "sentence": "I hold the needle above the cloth.",
+        "matched_form": "needle",
+        "image_verified": true
+      },
+      "example_en": "I hold the needle above the cloth.",
+      "example_zh": "我把缝衣针拿在布上方。",
+      "bbox_normalized": [
+        0.354,
+        0.602,
+        0.414,
+        0.656
+      ],
+      "collocations": [
+        "a sewing needle"
+      ],
+      "example_en_highlighted": "I hold the **needle** above the cloth.",
+      "annotation_mode": "object",
+      "annotation_note": "手中金属缝衣针，不含手指",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W756",
+      "word": "thread",
+      "aliases": [],
+      "source_zh_unreviewed": "线",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "线",
+      "pos": "noun",
+      "ipa_us": "/θred/",
+      "ipa_uk": "/θred/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "缝补用蓝色线，非剪刀或布的边缘",
+        "sentence": "The thread passes through the needle.",
+        "matched_form": "thread",
+        "image_verified": true
+      },
+      "example_en": "The thread passes through the needle.",
+      "example_zh": "线穿过针眼。",
+      "bbox_normalized": [
+        0.316,
+        0.608,
+        0.411,
+        0.779
+      ],
+      "collocations": [
+        "blue thread"
+      ],
+      "example_en_highlighted": "The **thread** passes through the needle.",
+      "annotation_mode": "object",
+      "annotation_note": "缝补用蓝色线，非剪刀或布的边缘",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W709",
+      "word": "stitch",
+      "aliases": [],
+      "source_zh_unreviewed": "缝合",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "针脚",
+      "pos": "noun",
+      "ipa_us": "/stɪtʃ/",
+      "ipa_uk": "/stɪtʃ/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "破洞旁蓝色缝线的一段针脚，名词义",
+        "sentence": "A stitch joins the cloth.",
+        "matched_form": "stitch",
+        "image_verified": true
+      },
+      "example_en": "A stitch joins the cloth.",
+      "example_zh": "一个针脚把布缝在一起。",
+      "bbox_normalized": [
+        0.432,
+        0.772,
+        0.449,
+        0.779
+      ],
+      "collocations": [
+        "a small stitch"
+      ],
+      "example_en_highlighted": "A **stitch** joins the cloth.",
+      "annotation_mode": "object",
+      "annotation_note": "破洞旁蓝色缝线的一段针脚，名词义",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W526",
+      "word": "pin",
+      "aliases": [],
+      "source_zh_unreviewed": "针；别住",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "大头针",
+      "pos": "noun",
+      "ipa_us": "/pɪn/",
+      "ipa_uk": "/pɪn/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "桌上独立带珠头的直大头针，非缝衣针",
+        "sentence": "The pin lies on the table.",
+        "matched_form": "pin",
+        "image_verified": true
+      },
+      "example_en": "The pin lies on the table.",
+      "example_zh": "大头针放在桌上。",
+      "bbox_normalized": [
+        0.034,
+        0.828,
+        0.123,
+        0.855
+      ],
+      "collocations": [
+        "a straight pin"
+      ],
+      "example_en_highlighted": "The **pin** lies on the table.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上独立带珠头的直大头针，非缝衣针",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W622",
+      "word": "scissors",
+      "aliases": [],
+      "source_zh_unreviewed": "剪刀",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "剪刀",
+      "pos": "noun",
+      "ipa_us": "/ˈsɪzərz/",
+      "ipa_uk": "/ˈsɪzəz/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "独立双刃双环剪刀整体，复数名词",
+        "sentence": "The scissors are beside the cloth.",
+        "matched_form": "scissors",
+        "image_verified": true
+      },
+      "example_en": "The scissors are beside the cloth.",
+      "example_zh": "剪刀在布旁边。",
+      "bbox_normalized": [
+        0.697,
+        0.739,
+        1.0,
+        0.954
+      ],
+      "collocations": [
+        "a pair of scissors"
+      ],
+      "example_en_highlighted": "The **scissors** are beside the cloth.",
+      "annotation_mode": "object",
+      "annotation_note": "独立双刃双环剪刀整体，复数名词",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W383",
+      "word": "knot",
+      "aliases": [],
+      "source_zh_unreviewed": "结；打结",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "结",
+      "pos": "noun",
+      "ipa_us": "/nɑːt/",
+      "ipa_uk": "/nɒt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "缝线起点的小蓝色线结",
+        "sentence": "The knot keeps the thread in place.",
+        "matched_form": "knot",
+        "image_verified": true
+      },
+      "example_en": "The knot keeps the thread in place.",
+      "example_zh": "这个结固定住线。",
+      "bbox_normalized": [
+        0.4,
+        0.769,
+        0.419,
+        0.778
+      ],
+      "collocations": [
+        "a thread knot"
+      ],
+      "example_en_highlighted": "The **knot** keeps the thread in place.",
+      "annotation_mode": "object",
+      "annotation_note": "缝线起点的小蓝色线结",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W340",
+      "word": "hole",
+      "aliases": [],
+      "source_zh_unreviewed": "洞",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "洞",
+      "pos": "noun",
+      "ipa_us": "/hoʊl/",
+      "ipa_uk": "/həʊl/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "布中露出暗色桌面的破洞",
+        "sentence": "The cloth has a hole.",
+        "matched_form": "hole",
+        "image_verified": true
+      },
+      "example_en": "The cloth has a hole.",
+      "example_zh": "这块布有一个洞。",
+      "bbox_normalized": [
+        0.471,
+        0.783,
+        0.508,
+        0.805
+      ],
+      "collocations": [
+        "a small hole"
+      ],
+      "example_en_highlighted": "The cloth has a **hole**.",
+      "annotation_mode": "object",
+      "annotation_note": "布中露出暗色桌面的破洞",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W415",
+      "word": "loose",
+      "aliases": [],
+      "source_zh_unreviewed": "松的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "松的",
+      "pos": "adjective",
+      "ipa_us": "/luːs/",
+      "ipa_uk": "/luːs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。",
+        "sentence": "I pull the loose thread gently.",
+        "matched_form": "loose",
+        "context": "线的松紧由例句明确，不从照片测量张力",
+        "image_verified": null
+      },
+      "example_en": "I pull the loose thread gently.",
+      "example_zh": "我轻轻拉那根松线。",
+      "bbox_normalized": [
+        0.316,
+        0.608,
+        0.411,
+        0.779
+      ],
+      "collocations": [
+        "a loose thread"
+      ],
+      "example_en_highlighted": "I pull the **loose** thread gently.",
+      "annotation_mode": "object",
+      "annotation_note": "悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W636",
+      "word": "separate",
+      "aliases": [],
+      "source_zh_unreviewed": "分离",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "分开的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsepərət/",
+      "ipa_uk": "/ˈsepərət/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。",
+        "sentence": "I keep the tools separate.",
+        "matched_form": "separate",
+        "context": "形容词分开的读/ˈsepərət/，与动词读音区分；工具分置与例句支持",
+        "image_verified": null
+      },
+      "example_en": "I keep the tools separate.",
+      "example_zh": "我把工具分开放。",
+      "bbox_normalized": [
+        0.027,
+        0.715,
+        0.998,
+        0.954
+      ],
+      "collocations": [
+        "separate tools"
+      ],
+      "example_en_highlighted": "I keep the tools **separate**.",
+      "annotation_mode": "object",
+      "annotation_note": "左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A needle, a little thread, and time to mend a hole.",
+    "zh": "一根针，少许线，再花点时间把破洞补好。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C024\n标题 缝补一处破洞\n场景 手作台用针线缝补衣服，针、别针、剪刀和线结可见。\n目标词 needle, thread, stitch, pin, scissors, knot, hole, loose, separate\n原创主配文草案 I use a needle and thread to close the hole.\n中文草案 我用针线缝好这个洞。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Refined photorealistic Korean cool Instagram fashion editorial photograph, vertical 4:5. Stylish East Asian adult woman around 25, sophisticated understated clothes, loose dark low bun, natural pores and subtle high-end magazine retouch, anatomically real hands, true materials. Cool soft window daylight, pearl white and slate palette, coherent single scene, important teaching props clearly readable and separated, calm space near image borders for later annotation. No text, letters, numbers, logos, branding, watermark or UI. Close environmental portrait at a sewing table, woman face in upper third, hands and repair patch large and sharp in lower half. Repairing a small round HOLE in pale linen garment laid FLAT on table, hole reveals darker table beneath. One real metal sewing NEEDLE threaded with muted BLUE THREAD held in right hand just above cloth, needle eye and length readable, no duplicate needles. A short row of three distinct BLUE STITCHES beside hole, one SMALL visible blue thread KNOT at beginning of stitches. Separate large open metal SCISSORS on table right with two blades and two finger loops. One separate pearl-headed straight PIN on table left away from cloth. Realistic coherent fingers, no sewing machine, no lettering. Make small teaching details unusually clear but physically plausible.",
+  "status": "approved",
+  "image_path": "images/C024.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C024 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-02T23:19:39Z",
+    "ended_at": "2026-10-02T23:20:53Z",
+    "prompt_path": "prompts/C024_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C024.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "手中缝衣针、蓝线、蓝色针脚与小线结、独立珠头大头针、破洞和剪刀清晰；右侧剪刀部分柄出画，只框可见范围。针眼位置被手指部分遮挡，不声称可见针眼完整细节。工具分置、真实手部及布料纹理满足要求。"
+  }
+}

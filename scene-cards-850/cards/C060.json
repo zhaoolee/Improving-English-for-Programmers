@@ -1,0 +1,364 @@
+{
+  "id": "C060",
+  "chapter": "身体与健康",
+  "title": "情绪的几张脸",
+  "scene": "同一主角不同情境下微笑、笑、哭、悲伤、愤怒、恐惧和惊讶。",
+  "target_count": 8,
+  "primary_words": [
+    "smile",
+    "laugh",
+    "cry",
+    "sad",
+    "angry",
+    "fear",
+    "shock",
+    "surprise"
+  ],
+  "targets": [
+    {
+      "word_id": "W669",
+      "word": "smile",
+      "aliases": [],
+      "source_zh_unreviewed": "微笑",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "微笑",
+      "pos": "verb",
+      "ipa_us": "/smaɪl/",
+      "ipa_uk": "/smaɪl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅实际微笑口部。",
+        "sentence": "I smile at my friend.",
+        "matched_form": "smile",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I smile at my friend.",
+      "example_zh": "我对朋友微笑。",
+      "bbox_normalized": [
+        0.343,
+        0.071,
+        0.574,
+        0.238
+      ],
+      "collocations": [
+        "smile at a friend"
+      ],
+      "example_en_highlighted": "I **smile** at my friend.",
+      "annotation_mode": "action",
+      "annotation_note": "上幅实际微笑口部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W389",
+      "word": "laugh",
+      "aliases": [],
+      "source_zh_unreviewed": "笑",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "大笑",
+      "pos": "verb",
+      "ipa_us": "/læf/",
+      "ipa_uk": "/lɑːf/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中幅张口笑的面部姿态。",
+        "sentence": "I laugh at a joke.",
+        "matched_form": "laugh",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I laugh at a joke.",
+      "example_zh": "我听到笑话时大笑。",
+      "bbox_normalized": [
+        0.364,
+        0.383,
+        0.61,
+        0.554
+      ],
+      "collocations": [
+        "laugh at a joke"
+      ],
+      "example_en_highlighted": "I **laugh** at a joke.",
+      "annotation_mode": "action",
+      "annotation_note": "中幅张口笑的面部姿态。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W172",
+      "word": "cry",
+      "aliases": [],
+      "source_zh_unreviewed": "哭泣",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "哭泣",
+      "pos": "verb",
+      "ipa_us": "/kraɪ/",
+      "ipa_uk": "/kraɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "下幅实际泪痕与哭泣姿势。",
+        "sentence": "I cry during a sad film.",
+        "matched_form": "cry",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I cry during a sad film.",
+      "example_zh": "我看悲伤的电影时哭了。",
+      "bbox_normalized": [
+        0.351,
+        0.724,
+        0.574,
+        0.895
+      ],
+      "collocations": [
+        "cry during a film"
+      ],
+      "example_en_highlighted": "I **cry** during a sad film.",
+      "annotation_mode": "action",
+      "annotation_note": "下幅实际泪痕与哭泣姿势。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W612",
+      "word": "sad",
+      "aliases": [],
+      "source_zh_unreviewed": "悲伤的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "难过的",
+      "pos": "adjective",
+      "ipa_us": "/sæd/",
+      "ipa_uk": "/sæd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel sad about the story.",
+        "matched_form": "sad",
+        "referent_region_verified": false,
+        "context": "主观情绪由自述，不凭面容诊断。",
+        "image_verified": null
+      },
+      "example_en": "I feel sad about the story.",
+      "example_zh": "我为这个故事感到难过。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel sad"
+      ],
+      "example_en_highlighted": "I feel **sad** about the story.",
+      "annotation_mode": "context",
+      "annotation_note": "主观情绪由自述，不凭面容诊断。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W023",
+      "word": "angry",
+      "aliases": [],
+      "source_zh_unreviewed": "生气的；愤怒的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "生气的",
+      "pos": "adjective",
+      "ipa_us": "/ˈæŋɡri/",
+      "ipa_uk": "/ˈæŋɡri/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel angry when someone is unkind.",
+        "matched_form": "angry",
+        "referent_region_verified": false,
+        "context": "故事情境，不用未呈现表情冒充证据。",
+        "image_verified": null
+      },
+      "example_en": "I feel angry when someone is unkind.",
+      "example_zh": "有人不友善时，我会生气。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel angry"
+      ],
+      "example_en_highlighted": "I feel **angry** when someone is unkind.",
+      "annotation_mode": "context",
+      "annotation_note": "故事情境，不用未呈现表情冒充证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W257",
+      "word": "fear",
+      "aliases": [],
+      "source_zh_unreviewed": "害怕；恐惧",
+      "planned_mode": "context",
+      "sense_zh": "害怕",
+      "pos": "noun",
+      "ipa_us": "/fɪr/",
+      "ipa_uk": "/fɪə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A loud noise gives me a feeling of fear.",
+        "matched_form": "fear",
+        "referent_region_verified": false,
+        "context": "情绪与声音由句子说明。",
+        "image_verified": null
+      },
+      "example_en": "A loud noise gives me a feeling of fear.",
+      "example_zh": "一声巨响让我感到害怕。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a feeling of fear"
+      ],
+      "example_en_highlighted": "A loud noise gives me a feeling of **fear**.",
+      "annotation_mode": "context",
+      "annotation_note": "情绪与声音由句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W648",
+      "word": "shock",
+      "aliases": [],
+      "source_zh_unreviewed": "震惊",
+      "planned_mode": "context",
+      "sense_zh": "震惊",
+      "pos": "noun",
+      "ipa_us": "/ʃɑːk/",
+      "ipa_uk": "/ʃɒk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The unexpected news is a shock to me.",
+        "matched_form": "shock",
+        "referent_region_verified": false,
+        "context": "shock选心理震惊义，不涉及医学休克。",
+        "image_verified": null
+      },
+      "example_en": "The unexpected news is a shock to me.",
+      "example_zh": "这条意外消息让我震惊。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a shock"
+      ],
+      "example_en_highlighted": "The unexpected news is a **shock** to me.",
+      "annotation_mode": "context",
+      "annotation_note": "shock选心理震惊义，不涉及医学休克。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W730",
+      "word": "surprise",
+      "aliases": [],
+      "source_zh_unreviewed": "惊喜",
+      "planned_mode": "context",
+      "sense_zh": "惊讶",
+      "pos": "noun",
+      "ipa_us": "/sərˈpraɪz/",
+      "ipa_uk": "/səˈpraɪz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My friend brings me a pleasant surprise.",
+        "matched_form": "surprise",
+        "referent_region_verified": false,
+        "context": "情节由句子支持。",
+        "image_verified": null
+      },
+      "example_en": "My friend brings me a pleasant surprise.",
+      "example_zh": "朋友给我带来一个惊喜。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a pleasant surprise"
+      ],
+      "example_en_highlighted": "My friend brings me a pleasant **surprise**.",
+      "annotation_mode": "context",
+      "annotation_note": "情节由句子支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I smile with a friend, laugh at a joke, and cry during a film.",
+    "zh": "我和朋友微笑，听笑话时大笑，看电影时落泪。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C060\n标题 情绪的几张脸\n场景 同一主角不同情境下微笑、笑、哭、悲伤、愤怒、恐惧和惊讶。\n目标词 smile, laugh, cry, sad, angry, fear, shock, surprise\n原创主配文草案 A smile can turn a sad day into a good day.\n中文草案 一个微笑能让难过的一天变好。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Three equal stacked close portraits of same adult woman in cool softly lit living room. Upper gentle natural closed-mouth smile while talking to female friend partly at edge. Middle spontaneous open-mouth laugh at conversation, normal face anatomy. Lower tender tearful expression with ONE natural clear tear on cheek while watching a film out of frame, no injury or distress violence. Different emotions are story examples, not mental-health diagnosis. Keep portraits centered with clear outer margins for labels; no texting, dialogue or captions.",
+  "status": "approved",
+  "image_path": "images/C060.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 3,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C060 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T15:02:15Z",
+    "prompt_path": "prompts/C060_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C060.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "三幅分别微笑、大笑与泪滴；情绪不能仅靠面孔确定，sad等五词用明确故事句，不贴虚假表情框。"
+  }
+}

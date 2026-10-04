@@ -1,0 +1,329 @@
+{
+  "filename": "C024-缝补一处破洞.png",
+  "labels": [
+    {
+      "x": 385,
+      "y": 631,
+      "english": "needle",
+      "chinese": "缝衣针",
+      "phoneticUS": "/ˈniːdəl/",
+      "phoneticUK": "/ˈniːdəl/",
+      "bubblePosition": {
+        "x": 452,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 385,
+        "y": 631
+      },
+      "boundingBox": {
+        "left": 354,
+        "top": 602,
+        "right": 414,
+        "bottom": 656
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中金属缝衣针，不含手指",
+        "association": "手中金属缝衣针，不含手指",
+        "collocation": "a sewing needle",
+        "example": "I hold the needle above the cloth.",
+        "exampleChinese": "我把缝衣针拿在布上方。"
+      }
+    },
+    {
+      "x": 322,
+      "y": 732,
+      "english": "thread",
+      "chinese": "线",
+      "phoneticUS": "/θred/",
+      "phoneticUK": "/θred/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 670
+      },
+      "anchorPosition": {
+        "x": 322,
+        "y": 732
+      },
+      "boundingBox": {
+        "left": 316,
+        "top": 608,
+        "right": 411,
+        "bottom": 779
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "缝补用蓝色线，非剪刀或布的边缘",
+        "association": "缝补用蓝色线，非剪刀或布的边缘",
+        "collocation": "blue thread",
+        "example": "The thread passes through the needle.",
+        "exampleChinese": "线穿过针眼。"
+      }
+    },
+    {
+      "x": 439,
+      "y": 775,
+      "english": "stitch",
+      "chinese": "针脚",
+      "phoneticUS": "/stɪtʃ/",
+      "phoneticUK": "/stɪtʃ/",
+      "bubblePosition": {
+        "x": 238.29056997309254,
+        "y": 775.4532022617983
+      },
+      "anchorPosition": {
+        "x": 439,
+        "y": 775
+      },
+      "boundingBox": {
+        "left": 432,
+        "top": 772,
+        "right": 449,
+        "bottom": 779
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "破洞旁蓝色缝线的一段针脚，名词义",
+        "association": "破洞旁蓝色缝线的一段针脚，名词义",
+        "collocation": "a small stitch",
+        "example": "A stitch joins the cloth.",
+        "exampleChinese": "一个针脚把布缝在一起。"
+      }
+    },
+    {
+      "x": 79,
+      "y": 842,
+      "english": "pin",
+      "chinese": "大头针",
+      "phoneticUS": "/pɪn/",
+      "phoneticUK": "/pɪn/",
+      "bubblePosition": {
+        "x": 116,
+        "y": 933
+      },
+      "anchorPosition": {
+        "x": 79,
+        "y": 842
+      },
+      "boundingBox": {
+        "left": 34,
+        "top": 828,
+        "right": 123,
+        "bottom": 855
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上独立带珠头的直大头针，非缝衣针",
+        "association": "桌上独立带珠头的直大头针，非缝衣针",
+        "collocation": "a straight pin",
+        "example": "The pin lies on the table.",
+        "exampleChinese": "大头针放在桌上。"
+      }
+    },
+    {
+      "x": 904,
+      "y": 851,
+      "english": "scissors",
+      "chinese": "剪刀",
+      "phoneticUS": "/ˈsɪzərz/",
+      "phoneticUK": "/ˈsɪzəz/",
+      "bubblePosition": {
+        "x": 813,
+        "y": 959
+      },
+      "anchorPosition": {
+        "x": 904,
+        "y": 851
+      },
+      "boundingBox": {
+        "left": 697,
+        "top": 739,
+        "right": 1000,
+        "bottom": 954
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立双刃双环剪刀整体，复数名词",
+        "association": "独立双刃双环剪刀整体，复数名词",
+        "collocation": "a pair of scissors",
+        "example": "The scissors are beside the cloth.",
+        "exampleChinese": "剪刀在布旁边。"
+      }
+    },
+    {
+      "x": 409,
+      "y": 774,
+      "english": "knot",
+      "chinese": "结",
+      "phoneticUS": "/nɑːt/",
+      "phoneticUK": "/nɒt/",
+      "bubblePosition": {
+        "x": 343,
+        "y": 861
+      },
+      "anchorPosition": {
+        "x": 409,
+        "y": 774
+      },
+      "boundingBox": {
+        "left": 400,
+        "top": 769,
+        "right": 419,
+        "bottom": 778
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "缝线起点的小蓝色线结",
+        "association": "缝线起点的小蓝色线结",
+        "collocation": "a thread knot",
+        "example": "The knot keeps the thread in place.",
+        "exampleChinese": "这个结固定住线。"
+      }
+    },
+    {
+      "x": 490,
+      "y": 795,
+      "english": "hole",
+      "chinese": "洞",
+      "phoneticUS": "/hoʊl/",
+      "phoneticUK": "/həʊl/",
+      "bubblePosition": {
+        "x": 559,
+        "y": 869
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 795
+      },
+      "boundingBox": {
+        "left": 471,
+        "top": 783,
+        "right": 508,
+        "bottom": 805
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "布中露出暗色桌面的破洞",
+        "association": "布中露出暗色桌面的破洞",
+        "collocation": "a small hole",
+        "example": "The cloth has a hole.",
+        "exampleChinese": "这块布有一个洞。"
+      }
+    },
+    {
+      "x": 364,
+      "y": 694,
+      "english": "loose",
+      "chinese": "松的",
+      "phoneticUS": "/luːs/",
+      "phoneticUK": "/luːs/",
+      "bubblePosition": {
+        "x": 116,
+        "y": 404
+      },
+      "anchorPosition": {
+        "x": 364,
+        "y": 694
+      },
+      "boundingBox": {
+        "left": 316,
+        "top": 608,
+        "right": 411,
+        "bottom": 779
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。",
+        "association": "悬垂并弯曲的蓝线区域，loose修饰这条线；松紧语境由原创句子说明，不测量张力。",
+        "collocation": "a loose thread",
+        "example": "I pull the loose thread gently.",
+        "exampleChinese": "我轻轻拉那根松线。"
+      }
+    },
+    {
+      "x": 753,
+      "y": 872,
+      "english": "separate",
+      "chinese": "分开的",
+      "phoneticUS": "/ˈsepərət/",
+      "phoneticUK": "/ˈsepərət/",
+      "bubblePosition": {
+        "x": 116,
+        "y": 65
+      },
+      "anchorPosition": {
+        "x": 753,
+        "y": 872
+      },
+      "boundingBox": {
+        "left": 27,
+        "top": 715,
+        "right": 998,
+        "bottom": 954
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。",
+        "association": "左侧独立大头针与右侧独立剪刀的工具分置区域，separate描述分开的排列，不合并成新物体。",
+        "collocation": "separate tools",
+        "example": "I keep the tools separate.",
+        "exampleChinese": "我把工具分开放。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A needle, a little thread, and time to mend a hole.",
+    "chinese": "一根针，少许线，再花点时间把破洞补好。",
+    "source": "原创配文 · C024 缝补一处破洞",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

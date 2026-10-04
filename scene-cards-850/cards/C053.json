@@ -1,0 +1,384 @@
+{
+  "id": "C053",
+  "chapter": "身体与健康",
+  "title": "理解身体内部",
+  "scene": "诊室里医学教学模型展示头颈、胸、膝盖以及心脑骨肌。",
+  "target_count": 8,
+  "primary_words": [
+    "head",
+    "neck",
+    "chest",
+    "knee",
+    "heart",
+    "brain",
+    "bone",
+    "muscle"
+  ],
+  "targets": [
+    {
+      "word_id": "W331",
+      "word": "head",
+      "aliases": [],
+      "source_zh_unreviewed": "头",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "头部",
+      "pos": "noun",
+      "ipa_us": "/hed/",
+      "ipa_uk": "/hed/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "上幅实际头部。",
+        "sentence": "I turn my head toward the model.",
+        "matched_form": "head",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I turn my head toward the model.",
+      "example_zh": "我把头转向模型。",
+      "bbox_normalized": [
+        0.337,
+        0.037,
+        0.681,
+        0.266
+      ],
+      "collocations": [
+        "my head"
+      ],
+      "example_en_highlighted": "I turn my **head** toward the model.",
+      "annotation_mode": "object",
+      "annotation_note": "上幅实际头部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W468",
+      "word": "neck",
+      "aliases": [],
+      "source_zh_unreviewed": "脖子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "颈部",
+      "pos": "noun",
+      "ipa_us": "/nek/",
+      "ipa_uk": "/nek/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际露出的颈部。",
+        "sentence": "My neck connects my head to my body.",
+        "matched_form": "neck",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My neck connects my head to my body.",
+      "example_zh": "我的颈部连接着头和身体。",
+      "bbox_normalized": [
+        0.536,
+        0.244,
+        0.636,
+        0.313
+      ],
+      "collocations": [
+        "my neck"
+      ],
+      "example_en_highlighted": "My **neck** connects my head to my body.",
+      "annotation_mode": "object",
+      "annotation_note": "实际露出的颈部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W128",
+      "word": "chest",
+      "aliases": [],
+      "source_zh_unreviewed": "胸膛；箱子",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "胸部",
+      "pos": "noun",
+      "ipa_us": "/tʃest/",
+      "ipa_uk": "/tʃest/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "隔着衣物定位胸部区域，不声称看见内部。",
+        "sentence": "My shirt covers my chest.",
+        "matched_form": "chest",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My shirt covers my chest.",
+      "example_zh": "我的上衣盖住胸部。",
+      "bbox_normalized": [
+        0.537,
+        0.304,
+        0.694,
+        0.473
+      ],
+      "collocations": [
+        "my chest"
+      ],
+      "example_en_highlighted": "My shirt covers my **chest**.",
+      "annotation_mode": "object",
+      "annotation_note": "隔着衣物定位胸部区域，不声称看见内部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W381",
+      "word": "knee",
+      "aliases": [],
+      "source_zh_unreviewed": "膝盖",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "膝盖",
+      "pos": "noun",
+      "ipa_us": "/niː/",
+      "ipa_uk": "/niː/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌下近侧弯曲膝部；衣裙遮盖上缘，框只取可见膝部。",
+        "sentence": "My knee bends as I sit.",
+        "matched_form": "knee",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My knee bends as I sit.",
+      "example_zh": "我坐下时膝盖弯曲。",
+      "bbox_normalized": [
+        0.449,
+        0.842,
+        0.646,
+        0.998
+      ],
+      "collocations": [
+        "my knee"
+      ],
+      "example_en_highlighted": "My **knee** bends as I sit.",
+      "annotation_mode": "object",
+      "annotation_note": "桌下近侧弯曲膝部；衣裙遮盖上缘，框只取可见膝部。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W334",
+      "word": "heart",
+      "aliases": [],
+      "source_zh_unreviewed": "心",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "心脏",
+      "pos": "noun",
+      "ipa_us": "/hɑːrt/",
+      "ipa_uk": "/hɑːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "定位心脏教学模型，不是真实内部器官。",
+        "sentence": "This model represents a heart.",
+        "matched_form": "heart",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This model represents a heart.",
+      "example_zh": "这个模型表示心脏。",
+      "bbox_normalized": [
+        0.043,
+        0.468,
+        0.197,
+        0.639
+      ],
+      "collocations": [
+        "a heart model"
+      ],
+      "example_en_highlighted": "This model represents a **heart**.",
+      "annotation_mode": "object",
+      "annotation_note": "定位心脏教学模型，不是真实内部器官。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W088",
+      "word": "brain",
+      "aliases": [],
+      "source_zh_unreviewed": "大脑",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "大脑",
+      "pos": "noun",
+      "ipa_us": "/breɪn/",
+      "ipa_uk": "/breɪn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际脑模型。",
+        "sentence": "This model represents a brain.",
+        "matched_form": "brain",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This model represents a brain.",
+      "example_zh": "这个模型表示大脑。",
+      "bbox_normalized": [
+        0.23,
+        0.522,
+        0.433,
+        0.645
+      ],
+      "collocations": [
+        "a brain model"
+      ],
+      "example_en_highlighted": "This model represents a **brain**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际脑模型。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W082",
+      "word": "bone",
+      "aliases": [],
+      "source_zh_unreviewed": "骨头",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "骨头",
+      "pos": "noun",
+      "ipa_us": "/boʊn/",
+      "ipa_uk": "/bəʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际单根骨模型。",
+        "sentence": "The pale model represents a bone.",
+        "matched_form": "bone",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The pale model represents a bone.",
+      "example_zh": "浅色模型表示一根骨头。",
+      "bbox_normalized": [
+        0.458,
+        0.554,
+        0.762,
+        0.692
+      ],
+      "collocations": [
+        "a bone model"
+      ],
+      "example_en_highlighted": "The pale model represents a **bone**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际单根骨模型。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W459",
+      "word": "muscle",
+      "aliases": [],
+      "source_zh_unreviewed": "肌肉",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "肌肉",
+      "pos": "noun",
+      "ipa_us": "/ˈmʌsəl/",
+      "ipa_uk": "/ˈmʌsəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际红色肌肉教学模型。",
+        "sentence": "The red model represents a muscle.",
+        "matched_form": "muscle",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The red model represents a muscle.",
+      "example_zh": "红色模型表示一块肌肉。",
+      "bbox_normalized": [
+        0.705,
+        0.538,
+        0.97,
+        0.694
+      ],
+      "collocations": [
+        "a muscle model"
+      ],
+      "example_en_highlighted": "The red model represents a **muscle**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际红色肌肉教学模型。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Models of the heart, brain, bone, and muscle help me learn about the body.",
+    "zh": "心脏、大脑、骨骼和肌肉的模型，帮助我认识身体。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C053\n标题 理解身体内部\n场景 诊室里医学教学模型展示头颈、胸、膝盖以及心脑骨肌。\n目标词 head, neck, chest, knee, heart, brain, bone, muscle\n原创主配文草案 The heart and the brain are parts of the body.\n中文草案 心脏和大脑都是身体的一部分。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Two stacked photography panels in calm educational clinic. Upper woman seated upright in knee-length ivory skirt, head neck upper chest clothed and near knee clearly visible, no revealing clothing, studying models. Lower large close tabletop objects separated: a simple realistic plastic heart model, a brain model with cortex folds, one pale femur bone model, one red striated skeletal muscle teaching model. All four distinct complete physical models on neutral table; no surgery or exposed real organs, no explanatory writing.",
+  "status": "approved",
+  "image_path": "images/C053.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 8,
+    "context_annotations": 0,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C053 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T14:57:30Z",
+    "prompt_path": "prompts/C053_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C053.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "实体心脏、脑、骨和肌肉模型分开可见；衣着遮盖胸部；桌下弯曲的近侧膝盖可定位。模型用于示意，不宣称医学精确。"
+  }
+}

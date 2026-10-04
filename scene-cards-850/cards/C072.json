@@ -1,0 +1,482 @@
+{
+  "id": "C072",
+  "chapter": "工作与信息",
+  "title": "白板上的讨论",
+  "scene": "两位同事在白板前交换意见，从争论走向建议和决定。",
+  "target_count": 11,
+  "primary_words": [
+    "discussion",
+    "opinion",
+    "argument",
+    "suggestion",
+    "decision",
+    "agreement",
+    "talk",
+    "say",
+    "about",
+    "why",
+    "how"
+  ],
+  "targets": [
+    {
+      "word_id": "W203",
+      "word": "discussion",
+      "aliases": [],
+      "source_zh_unreviewed": "讨论",
+      "planned_mode": "context",
+      "sense_zh": "讨论",
+      "pos": "noun",
+      "ipa_us": "/dɪˈskʌʃən/",
+      "ipa_uk": "/dɪˈskʌʃən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "面对面手势与倾听构成讨论场景，议题由故事指定。",
+        "sentence": "We have a discussion about the problem.",
+        "matched_form": "discussion",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We have a discussion about the problem.",
+      "example_zh": "我们讨论这个问题。",
+      "bbox_normalized": [
+        0.112,
+        0.256,
+        0.996,
+        0.722
+      ],
+      "collocations": [
+        "a useful discussion",
+        "have a discussion"
+      ],
+      "example_en_highlighted": "We have a **discussion** about the problem.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（讨论），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W497",
+      "word": "opinion",
+      "aliases": [],
+      "source_zh_unreviewed": "意见",
+      "planned_mode": "context",
+      "sense_zh": "看法",
+      "pos": "noun",
+      "ipa_us": "/əˈpɪnjən/",
+      "ipa_uk": "/əˈpɪnjən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I share my opinion with my colleague.",
+        "matched_form": "opinion",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I share my opinion with my colleague.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I share my opinion with my colleague.",
+      "example_zh": "我和同事分享我的看法。",
+      "bbox_normalized": null,
+      "collocations": [
+        "share an opinion",
+        "in my opinion"
+      ],
+      "example_en_highlighted": "I share my **opinion** with my colleague.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I share my opinion with my colleague.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W032",
+      "word": "argument",
+      "aliases": [],
+      "source_zh_unreviewed": "争论；论点",
+      "planned_mode": "context",
+      "sense_zh": "争论",
+      "pos": "noun",
+      "ipa_us": "/ˈɑːrɡjəmənt/",
+      "ipa_uk": "/ˈɑːɡjəmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We avoid an argument and listen carefully.",
+        "matched_form": "argument",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We avoid an argument and listen carefully.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We avoid an argument and listen carefully.",
+      "example_zh": "我们避免争论，认真倾听。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an argument about",
+        "avoid an argument"
+      ],
+      "example_en_highlighted": "We avoid an **argument** and listen carefully.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We avoid an argument and listen carefully.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W726",
+      "word": "suggestion",
+      "aliases": [],
+      "source_zh_unreviewed": "建议",
+      "planned_mode": "context",
+      "sense_zh": "建议",
+      "pos": "noun",
+      "ipa_us": "/səˈdʒestʃən/",
+      "ipa_uk": "/səˈdʒestʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Her suggestion is to try a smaller step.",
+        "matched_form": "suggestion",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Her suggestion is to try a smaller step.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Her suggestion is to try a smaller step.",
+      "example_zh": "她的建议是先尝试一个较小的步骤。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make a suggestion",
+        "a helpful suggestion"
+      ],
+      "example_en_highlighted": "Her **suggestion** is to try a smaller step.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Her suggestion is to try a smaller step.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W188",
+      "word": "decision",
+      "aliases": [],
+      "source_zh_unreviewed": "决定",
+      "planned_mode": "context",
+      "sense_zh": "决定",
+      "pos": "noun",
+      "ipa_us": "/dɪˈsɪʒən/",
+      "ipa_uk": "/dɪˈsɪʒən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We make a decision together.",
+        "matched_form": "decision",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We make a decision together.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We make a decision together.",
+      "example_zh": "我们一起作出决定。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make a decision",
+        "a shared decision"
+      ],
+      "example_en_highlighted": "We make a **decision** together.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We make a decision together.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W014",
+      "word": "agreement",
+      "aliases": [],
+      "source_zh_unreviewed": "协议；一致",
+      "planned_mode": "context",
+      "sense_zh": "一致意见",
+      "pos": "noun",
+      "ipa_us": "/əˈɡriːmənt/",
+      "ipa_uk": "/əˈɡriːmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We reach agreement on the next step.",
+        "matched_form": "agreement",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We reach agreement on the next step.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We reach agreement on the next step.",
+      "example_zh": "我们就下一步达成一致。",
+      "bbox_normalized": null,
+      "collocations": [
+        "reach agreement",
+        "in agreement"
+      ],
+      "example_en_highlighted": "We reach **agreement** on the next step.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We reach agreement on the next step.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W737",
+      "word": "talk",
+      "aliases": [],
+      "source_zh_unreviewed": "说话",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "交谈",
+      "pos": "verb",
+      "ipa_us": "/tɔːk/",
+      "ipa_uk": "/tɔːk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "左女子开口与张手交流的姿势，交谈由句子明示。",
+        "sentence": "We talk beside the whiteboard.",
+        "matched_form": "talk",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We talk beside the whiteboard.",
+      "example_zh": "我们在白板旁交谈。",
+      "bbox_normalized": [
+        0.145,
+        0.471,
+        0.609,
+        0.663
+      ],
+      "collocations": [
+        "talk about",
+        "talk with"
+      ],
+      "example_en_highlighted": "We **talk** beside the whiteboard.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（交谈），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W618",
+      "word": "say",
+      "aliases": [],
+      "source_zh_unreviewed": "说",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "说",
+      "pos": "verb",
+      "ipa_us": "/seɪ/",
+      "ipa_uk": "/seɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I say why I prefer this plan.",
+        "matched_form": "say",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I say why I prefer this plan.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I say why I prefer this plan.",
+      "example_zh": "我说出偏好这个计划的原因。",
+      "bbox_normalized": null,
+      "collocations": [
+        "say something",
+        "say why"
+      ],
+      "example_en_highlighted": "I **say** why I prefer this plan.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I say why I prefer this plan.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W003",
+      "word": "about",
+      "aliases": [],
+      "source_zh_unreviewed": "关于；大约",
+      "planned_mode": "context",
+      "sense_zh": "关于",
+      "pos": "preposition",
+      "ipa_us": "/əˈbaʊt/",
+      "ipa_uk": "/əˈbaʊt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We talk about the new plan.",
+        "matched_form": "about",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We talk about the new plan.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We talk about the new plan.",
+      "example_zh": "我们谈论这个新计划。",
+      "bbox_normalized": null,
+      "collocations": [
+        "talk about",
+        "think about"
+      ],
+      "example_en_highlighted": "We talk **about** the new plan.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We talk about the new plan.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W825",
+      "word": "why",
+      "aliases": [],
+      "source_zh_unreviewed": "为什么",
+      "planned_mode": "context",
+      "sense_zh": "为什么",
+      "pos": "adverb",
+      "ipa_us": "/waɪ/",
+      "ipa_uk": "/waɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Why should we try this plan?",
+        "matched_form": "why",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Why should we try this plan?；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Why should we try this plan?",
+      "example_zh": "我们为什么要尝试这个计划？",
+      "bbox_normalized": null,
+      "collocations": [
+        "ask why",
+        "explain why"
+      ],
+      "example_en_highlighted": "**Why** should we try this plan?",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Why should we try this plan?；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W349",
+      "word": "how",
+      "aliases": [],
+      "source_zh_unreviewed": "如何",
+      "planned_mode": "context",
+      "sense_zh": "怎样",
+      "pos": "adverb",
+      "ipa_us": "/haʊ/",
+      "ipa_uk": "/haʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How can we make the plan simpler?",
+        "matched_form": "how",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：How can we make the plan simpler?；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "How can we make the plan simpler?",
+      "example_zh": "我们怎样能让这个计划更简单？",
+      "bbox_normalized": null,
+      "collocations": [
+        "ask how",
+        "explain how"
+      ],
+      "example_en_highlighted": "**How** can we make the plan simpler?",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：How can we make the plan simpler?；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "We talk about the problem, share an opinion, and agree on the next step.",
+    "zh": "我们谈论这个问题，分享看法，并商定下一步。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C072\n标题 白板上的讨论\n场景 两位同事在白板前交换意见，从争论走向建议和决定。\n目标词 discussion, opinion, argument, suggestion, decision, agreement, talk, say, about, why, how\n原创主配文草案 A good discussion can lead to an agreement.\n中文草案 好的讨论能促成共识。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two adult female colleagues beside blank whiteboard with only simple arrow and unlabelled shapes, main woman open hand speaking, friend thoughtfully listening, marker tray. Cool daylight polished office candid, no writing letters numbers or UI, no visible aggression. Conversation exchange real, negative space around edges.",
+  "status": "approved",
+  "image_path": "images/C072.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 11,
+    "content_entries_complete": 11,
+    "sentence_evidence_complete": 11,
+    "verified_targets": 11,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 9,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C072 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 17:35:06 UTC",
+    "ended_at": "2026-10-03 17:35:27 UTC",
+    "prompt_path": "prompts/C072_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C072.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "左侧女子持笔张手说话，右侧女子倾听，手部可信；白板无字不解释成实际计划，具体观点决定与问句由配文说明。"
+  }
+}

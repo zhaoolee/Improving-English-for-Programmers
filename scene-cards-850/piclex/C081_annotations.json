@@ -1,0 +1,364 @@
+{
+  "filename": "C081-修理一把木椅.png",
+  "labels": [
+    {
+      "x": 744,
+      "y": 612,
+      "english": "wood",
+      "chinese": "木材",
+      "phoneticUS": "/wʊd/",
+      "phoneticUK": "/wʊd/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 90
+      },
+      "anchorPosition": {
+        "x": 744,
+        "y": 612
+      },
+      "boundingBox": {
+        "left": 491,
+        "top": 544,
+        "right": 997,
+        "bottom": 680
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（木材），待最终图确认。",
+        "association": "场景中体现的具体对象（木材），待最终图确认。",
+        "collocation": "smooth wood; a piece of wood",
+        "example": "The chair is made of wood.",
+        "exampleChinese": "这把椅子用木材制成。"
+      }
+    },
+    {
+      "x": 194,
+      "y": 796,
+      "english": "hammer",
+      "chinese": "锤子",
+      "phoneticUS": "/ˈhæmɚ/",
+      "phoneticUK": "/ˈhæmə/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 715
+      },
+      "anchorPosition": {
+        "x": 194,
+        "y": 796
+      },
+      "boundingBox": {
+        "left": 5,
+        "top": 735,
+        "right": 383,
+        "bottom": 857
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（锤子），待最终图确认。",
+        "association": "场景中体现的具体对象（锤子），待最终图确认。",
+        "collocation": "a wooden-handled hammer; use a hammer",
+        "example": "The hammer rests beside the chair.",
+        "exampleChinese": "锤子放在椅子旁。"
+      }
+    },
+    {
+      "x": 365,
+      "y": 894,
+      "english": "nail",
+      "chinese": "钉子",
+      "phoneticUS": "/neɪl/",
+      "phoneticUK": "/neɪl/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 955
+      },
+      "anchorPosition": {
+        "x": 365,
+        "y": 894
+      },
+      "boundingBox": {
+        "left": 293,
+        "top": 868,
+        "right": 437,
+        "bottom": 920
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（钉子），待最终图确认。",
+        "association": "场景中体现的具体对象（钉子），待最终图确认。",
+        "collocation": "a long nail; a metal nail",
+        "example": "A nail lies beside the screw.",
+        "exampleChinese": "钉子放在螺丝旁。"
+      }
+    },
+    {
+      "x": 434,
+      "y": 881,
+      "english": "screw",
+      "chinese": "螺丝",
+      "phoneticUS": "/skruː/",
+      "phoneticUK": "/skruː/",
+      "bubblePosition": {
+        "x": 485,
+        "y": 795
+      },
+      "anchorPosition": {
+        "x": 434,
+        "y": 881
+      },
+      "boundingBox": {
+        "left": 396,
+        "top": 864,
+        "right": 472,
+        "bottom": 899
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（螺丝），待最终图确认。",
+        "association": "场景中体现的具体对象（螺丝），待最终图确认。",
+        "collocation": "a threaded screw; tighten a screw",
+        "example": "The screw has a visible thread.",
+        "exampleChinese": "这颗螺丝有可见的螺纹。"
+      }
+    },
+    {
+      "x": 585,
+      "y": 970,
+      "english": "metal",
+      "chinese": "金属",
+      "phoneticUS": "/ˈmetəl/",
+      "phoneticUK": "/ˈmetəl/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 585,
+        "y": 970
+      },
+      "boundingBox": {
+        "left": 519,
+        "top": 943,
+        "right": 652,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（金属），待最终图确认。",
+        "association": "场景中体现的具体对象（金属），待最终图确认。",
+        "collocation": "a metal hinge; made of metal",
+        "example": "The hinge is made of metal.",
+        "exampleChinese": "这个铰链由金属制成。"
+      }
+    },
+    {
+      "x": 184,
+      "y": 882,
+      "english": "iron",
+      "chinese": "铁",
+      "phoneticUS": "/ˈaɪɚn/",
+      "phoneticUK": "/ˈaɪən/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 870
+      },
+      "anchorPosition": {
+        "x": 184,
+        "y": 882
+      },
+      "boundingBox": {
+        "left": 102,
+        "top": 817,
+        "right": 266,
+        "bottom": 947
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（铁），待最终图确认。",
+        "association": "场景中体现的具体对象（铁），待最终图确认。",
+        "collocation": "an iron bracket; a piece of iron",
+        "example": "In this lesson, the dark bracket is made of iron.",
+        "exampleChinese": "本课设定中，深色支架由铁制成。"
+      }
+    },
+    {
+      "x": 735,
+      "y": 910,
+      "english": "steel",
+      "chinese": "钢",
+      "phoneticUS": "/stiːl/",
+      "phoneticUK": "/stiːl/",
+      "bubblePosition": {
+        "x": 675,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 735,
+        "y": 910
+      },
+      "boundingBox": {
+        "left": 635,
+        "top": 875,
+        "right": 835,
+        "bottom": 946
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（钢），待最终图确认。",
+        "association": "场景中体现的具体对象（钢），待最终图确认。",
+        "collocation": "a steel plate; stainless steel",
+        "example": "The shiny plate is the steel sample in our lesson.",
+        "exampleChinese": "亮亮的板是本课中的钢样品。"
+      }
+    },
+    {
+      "x": 585,
+      "y": 970,
+      "english": "part",
+      "chinese": "零件",
+      "phoneticUS": "/pɑːrt/",
+      "phoneticUK": "/pɑːt/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 935
+      },
+      "anchorPosition": {
+        "x": 585,
+        "y": 970
+      },
+      "boundingBox": {
+        "left": 519,
+        "top": 943,
+        "right": 652,
+        "bottom": 998
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（零件），待最终图确认。",
+        "association": "场景中体现的具体对象（零件），待最终图确认。",
+        "collocation": "a spare part; a small part",
+        "example": "The hinge is one small part of the chair.",
+        "exampleChinese": "这个铰链是椅子的一个小零件。"
+      }
+    },
+    {
+      "x": 786,
+      "y": 626,
+      "english": "crack",
+      "chinese": "裂纹",
+      "phoneticUS": "/kræk/",
+      "phoneticUK": "/kræk/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 680
+      },
+      "anchorPosition": {
+        "x": 786,
+        "y": 626
+      },
+      "boundingBox": {
+        "left": 692,
+        "top": 602,
+        "right": 880,
+        "bottom": 650
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（裂纹），待最终图确认。",
+        "association": "场景中体现的具体对象（裂纹），待最终图确认。",
+        "collocation": "a small crack; a crack in",
+        "example": "I notice a small crack in the seat.",
+        "exampleChinese": "我注意到椅面上有一条小裂纹。"
+      }
+    },
+    {
+      "x": 392,
+      "y": 577,
+      "english": "polish",
+      "chinese": "擦亮",
+      "phoneticUS": "/ˈpɑːlɪʃ/",
+      "phoneticUK": "/ˈpɒlɪʃ/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 405
+      },
+      "anchorPosition": {
+        "x": 392,
+        "y": 577
+      },
+      "boundingBox": {
+        "left": 207,
+        "top": 468,
+        "right": 578,
+        "bottom": 687
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体动作（擦亮），待最终图确认。",
+        "association": "场景中体现的具体动作（擦亮），待最终图确认。",
+        "collocation": "polish wood; polish with a cloth",
+        "example": "I polish the wood with a cloth.",
+        "exampleChinese": "我用布擦亮木头。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I mend a wooden chair, choose the right part, and polish the smooth wood.",
+    "chinese": "我修理一把木椅，选好合适的零件，并擦亮平滑的木头。",
+    "source": "原创配文 · C081 修理一把木椅",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,279 @@
+C045  自然观察小径
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C045.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C045.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:16:08Z
+  提示词文件: prompts/C045_image_final.txt
+
+场景: 观察路径中有鸟、猴子、蛇和鼠，主角使用望远观察方式避免追逐。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 上幅持望远镜姿势与独立鸟；下幅猴、蛇、鼠各自观察视图，不假设共处或依外貌判定蛇毒性。心理注意、声响与感知结果用完整例句。
+
+主配文:
+  英文: I look, listen, and leave space for the animals along the path.
+  中文: 沿着小径，我观看、倾听，也给动物留下空间。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): bird, monkey, snake, rat, observation, look, see, attention, strange
+
+------------------------------------------------------------------------
+[1/9] bird  (W068)
+  词义: 鸟
+  词性: noun
+  音标: UK /bɜːd/ | US /bɜːrd/
+  搭配: a small bird
+  例句: A bird rests on the branch.
+  例句高亮: A **bird** rests on the branch.
+  例句中文: 一只鸟停在树枝上。
+  标注模式: object
+  标注说明: 上幅独立鸟体。
+  坐标(normalized): [0.836, 0.12, 0.941, 0.214]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "上幅独立鸟体。"
+    sentence: "A bird rests on the branch."
+    matched_form: "bird"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 鸟
+
+------------------------------------------------------------------------
+[2/9] monkey  (W449)
+  词义: 猴子
+  词性: noun
+  音标: UK /ˈmʌŋki/ | US /ˈmʌŋki/
+  搭配: a small monkey
+  例句: The monkey sits on a branch.
+  例句高亮: The **monkey** sits on a branch.
+  例句中文: 猴子坐在树枝上。
+  标注模式: object
+  标注说明: 下左小幅独立猴子。
+  坐标(normalized): [0.049, 0.636, 0.276, 0.934]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "下左小幅独立猴子。"
+    sentence: "The monkey sits on a branch."
+    matched_form: "monkey"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 猴子
+
+------------------------------------------------------------------------
+[3/9] snake  (W672)
+  词义: 蛇
+  词性: noun
+  音标: UK /sneɪk/ | US /sneɪk/
+  搭配: a coiled snake
+  例句: The snake lies on the forest floor.
+  例句高亮: The **snake** lies on the forest floor.
+  例句中文: 蛇在林地上。
+  标注模式: object
+  标注说明: 下中小幅蛇体，不从外貌鉴定毒性。
+  坐标(normalized): [0.365, 0.741, 0.654, 0.882]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "下中小幅蛇体，不从外貌鉴定毒性。"
+    sentence: "The snake lies on the forest floor."
+    matched_form: "snake"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 蛇
+
+------------------------------------------------------------------------
+[4/9] rat  (W576)
+  词义: 鼠
+  词性: noun
+  音标: UK /ræt/ | US /ræt/
+  搭配: a grey rat
+  例句: The rat has a long tail.
+  例句高亮: The **rat** has a long tail.
+  例句中文: 这只鼠有长尾巴。
+  标注模式: object
+  标注说明: 下右小幅灰褐鼠体与裸尾。
+  坐标(normalized): [0.691, 0.723, 0.958, 0.936]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "下右小幅灰褐鼠体与裸尾。"
+    sentence: "The rat has a long tail."
+    matched_form: "rat"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 鼠；老鼠
+
+------------------------------------------------------------------------
+[5/9] observation  (W486)
+  词义: 观察
+  词性: noun
+  音标: UK /ˌɒbzəˈveɪʃn/ | US /ˌɑːbzərˈveɪʃn/
+  搭配: careful observation
+  例句: Careful observation helps us notice animals.
+  例句高亮: Careful **observation** helps us notice animals.
+  例句中文: 仔细观察帮助我们留意动物。
+  标注模式: action
+  标注说明: 持望远镜的实际观察姿势，不声称观察结果已验证。
+  坐标(normalized): [0.106, 0.164, 0.468, 0.489]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "持望远镜的实际观察姿势，不声称观察结果已验证。"
+    sentence: "Careful observation helps us notice animals."
+    matched_form: "observation"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 观察；观测
+
+------------------------------------------------------------------------
+[6/9] look  (W414)
+  词义: 看
+  词性: verb
+  音标: UK /lʊk/ | US /lʊk/
+  搭配: look at
+  例句: I look at the bird through binoculars.
+  例句高亮: I **look** at the bird through binoculars.
+  例句中文: 我透过望远镜看鸟。
+  标注模式: action
+  标注说明: 人物望远镜与视线方向，句子明确观察对象。
+  坐标(normalized): [0.28, 0.16, 0.441, 0.231]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "人物望远镜与视线方向，句子明确观察对象。"
+    sentence: "I look at the bird through binoculars."
+    matched_form: "look"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 看；看起来
+
+------------------------------------------------------------------------
+[7/9] see  (W629)
+  词义: 看见
+  词性: verb
+  音标: UK /siː/ | US /siː/
+  搭配: see a bird
+  例句: I can see a bird on the branch.
+  例句高亮: I can **see** a bird on the branch.
+  例句中文: 我能看见枝上的鸟。
+  标注模式: context
+  标注说明: 视觉感知结果由句子说明，不从姿势推断。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I can see a bird on the branch."
+    matched_form: "see"
+    context: "视觉感知结果由句子说明，不从姿势推断。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 看见
+
+------------------------------------------------------------------------
+[8/9] attention  (W040)
+  词义: 注意力
+  词性: noun
+  音标: UK /əˈtenʃn/ | US /əˈtenʃn/
+  搭配: pay attention
+  例句: I pay attention to the animals around me.
+  例句高亮: I pay **attention** to the animals around me.
+  例句中文: 我注意周围的动物。
+  标注模式: context
+  标注说明: 心理注意状态不可独立框选。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I pay attention to the animals around me."
+    matched_form: "attention"
+    context: "心理注意状态不可独立框选。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 注意；关注
+
+------------------------------------------------------------------------
+[9/9] strange  (W717)
+  词义: 陌生的
+  词性: adjective
+  音标: UK /streɪndʒ/ | US /streɪndʒ/
+  搭配: a strange sound
+  例句: A strange sound comes from the trees.
+  例句高亮: A **strange** sound comes from the trees.
+  例句中文: 树间传来陌生的声响。
+  标注模式: context
+  标注说明: 陌生声响是原创语境，静态图不能提供声音证据。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "A strange sound comes from the trees."
+    matched_form: "strange"
+    context: "陌生声响是原创语境，静态图不能提供声音证据。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 奇怪的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 6
+  context_annotations: 3
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C045 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Nature-observation editorial contact composition: upper half woman standing on forest boardwalk at left holding binoculars toward eyes, calmly observing from distance. One clear small bird perches on branch at right. Lower half three adjacent photographic wildlife close-ups: left a small monkey on branch, centre a nonvenomous-looking snake coiled on forest litter, right a grey-brown rat with long bare tail beside tree root. These are separate observation views, not animals standing together or giant scale. Real anatomy, clear faces of animals, cool forest daylight and natural texture, no text or graphic labels. Keep viewer separate from wildlife.

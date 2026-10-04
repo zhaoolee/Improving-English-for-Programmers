@@ -1,0 +1,380 @@
+{
+  "id": "C031",
+  "chapter": "城市与出行",
+  "title": "街角问路",
+  "scene": "道路穿过街区，地图和路口指向左右，主角向行人问路。",
+  "target_count": 8,
+  "primary_words": [
+    "street",
+    "road",
+    "town",
+    "map",
+    "left",
+    "right",
+    "way",
+    "where"
+  ],
+  "targets": [
+    {
+      "word_id": "W718",
+      "word": "street",
+      "aliases": [],
+      "source_zh_unreviewed": "街道",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "街道",
+      "pos": "noun",
+      "ipa_us": "/striːt/",
+      "ipa_uk": "/striːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "人物身旁有建筑与人行道的街道区域。",
+        "sentence": "The street beside us is quiet.",
+        "matched_form": "street",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The street beside us is quiet.",
+      "example_zh": "我们身旁的街道很安静。",
+      "bbox_normalized": [
+        0.05,
+        0.37,
+        0.206,
+        0.558
+      ],
+      "collocations": [
+        "a quiet street"
+      ],
+      "example_en_highlighted": "The **street** beside us is quiet.",
+      "annotation_mode": "object",
+      "annotation_note": "人物身旁有建筑与人行道的街道区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W601",
+      "word": "road",
+      "aliases": [],
+      "source_zh_unreviewed": "道路",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "道路",
+      "pos": "noun",
+      "ipa_us": "/roʊd/",
+      "ipa_uk": "/rəʊd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "通向远处街区的主道路。",
+        "sentence": "The road leads into town.",
+        "matched_form": "road",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The road leads into town.",
+      "example_zh": "这条路通向镇里。",
+      "bbox_normalized": [
+        0.398,
+        0.419,
+        0.632,
+        0.627
+      ],
+      "collocations": [
+        "the main road"
+      ],
+      "example_en_highlighted": "The **road** leads into town.",
+      "annotation_mode": "object",
+      "annotation_note": "通向远处街区的主道路。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W775",
+      "word": "town",
+      "aliases": [],
+      "source_zh_unreviewed": "城镇",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "小镇",
+      "pos": "noun",
+      "ipa_us": "/taʊn/",
+      "ipa_uk": "/taʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。",
+        "sentence": "We explore a small town.",
+        "matched_form": "town",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We explore a small town.",
+      "example_zh": "我们游览一个小镇。",
+      "bbox_normalized": [
+        0.083,
+        0.142,
+        0.957,
+        0.388
+      ],
+      "collocations": [
+        "a small town"
+      ],
+      "example_en_highlighted": "We explore a small **town**.",
+      "annotation_mode": "object",
+      "annotation_note": "远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W425",
+      "word": "map",
+      "aliases": [],
+      "source_zh_unreviewed": "地图",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "地图",
+      "pos": "noun",
+      "ipa_us": "/mæp/",
+      "ipa_uk": "/mæp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "手中展开的纸质路线图，无需读取地名。",
+        "sentence": "I check the map in my hands.",
+        "matched_form": "map",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I check the map in my hands.",
+      "example_zh": "我查看手里的地图。",
+      "bbox_normalized": [
+        0.365,
+        0.595,
+        0.573,
+        0.74
+      ],
+      "collocations": [
+        "check the map"
+      ],
+      "example_en_highlighted": "I check the **map** in my hands.",
+      "annotation_mode": "object",
+      "annotation_note": "手中展开的纸质路线图，无需读取地名。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W395",
+      "word": "left",
+      "aliases": [],
+      "source_zh_unreviewed": "左边的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "向左",
+      "pos": "adverb",
+      "ipa_us": "/left/",
+      "ipa_uk": "/left/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "路口左侧分支与指路手势，方向以当前画面行进视角解释。",
+        "sentence": "Turn left at the corner.",
+        "matched_form": "left",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Turn left at the corner.",
+      "example_zh": "在拐角处向左转。",
+      "bbox_normalized": [
+        0.05,
+        0.37,
+        0.206,
+        0.558
+      ],
+      "collocations": [
+        "turn left"
+      ],
+      "example_en_highlighted": "Turn **left** at the corner.",
+      "annotation_mode": "relation",
+      "annotation_note": "路口左侧分支与指路手势，方向以当前画面行进视角解释。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W598",
+      "word": "right",
+      "aliases": [],
+      "source_zh_unreviewed": "正确的；权利",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "向右",
+      "pos": "adverb",
+      "ipa_us": "/raɪt/",
+      "ipa_uk": "/raɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "路口右侧分支，句子以画面行进方向解释。",
+        "sentence": "You can turn right at this corner.",
+        "matched_form": "right",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "You can turn right at this corner.",
+      "example_zh": "你可以在这个拐角处向右转。",
+      "bbox_normalized": [
+        0.79,
+        0.35,
+        0.976,
+        0.478
+      ],
+      "collocations": [
+        "turn right"
+      ],
+      "example_en_highlighted": "You can turn **right** at this corner.",
+      "annotation_mode": "relation",
+      "annotation_note": "路口右侧分支，句子以画面行进方向解释。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W810",
+      "word": "way",
+      "aliases": [],
+      "source_zh_unreviewed": "方式",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "路线",
+      "pos": "noun",
+      "ipa_us": "/weɪ/",
+      "ipa_uk": "/weɪ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。",
+        "sentence": "The map helps us find the way.",
+        "matched_form": "way",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The map helps us find the way.",
+      "example_zh": "地图帮助我们找到路线。",
+      "bbox_normalized": [
+        0.365,
+        0.595,
+        0.573,
+        0.74
+      ],
+      "collocations": [
+        "find the way"
+      ],
+      "example_en_highlighted": "The map helps us find the **way**.",
+      "annotation_mode": "object",
+      "annotation_note": "纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W819",
+      "word": "where",
+      "aliases": [],
+      "source_zh_unreviewed": "在哪里",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "在哪里",
+      "pos": "adverb",
+      "ipa_us": "/wer/",
+      "ipa_uk": "/weə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Where is the town centre?",
+        "matched_form": "where",
+        "referent_region_verified": false,
+        "context": "问路疑问句提供语境，没有独立可定位对象。",
+        "image_verified": null
+      },
+      "example_en": "Where is the town centre?",
+      "example_zh": "镇中心在哪里？",
+      "bbox_normalized": null,
+      "collocations": [
+        "where is"
+      ],
+      "example_en_highlighted": "**Where** is the town centre?",
+      "annotation_mode": "context",
+      "annotation_note": "问路疑问句提供语境，没有独立可定位对象。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A map in my hands, a quiet street, and a new way through town.",
+    "zh": "手里一张地图，眼前一条安静的街，我在小镇寻找新的路线。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C031\n标题 街角问路\n场景 道路穿过街区，地图和路口指向左右，主角向行人问路。\n目标词 street, road, town, map, left, right, way, where\n原创主配文草案 Where is the road to the town?\n中文草案 去镇上的路在哪里？\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. One polished environmental travel photograph of a small town street junction. Woman in left foreground holding an unfolded paper map with simple street lines and a blue route, absolutely no writing. A second adult local woman at right points toward the left branch, natural hands and clear faces. Main paved road leads into small-town low-rise buildings in distance; two distinct side streets branch left and right at the junction, sidewalks and kerbs make them visually legible. Both map and road junction unobstructed. Soft pale sky and calm side walls for annotation. No traffic signs with writing.",
+  "status": "approved",
+  "image_path": "images/C031.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 8,
+    "content_entries_complete": 8,
+    "sentence_evidence_complete": 8,
+    "verified_targets": 8,
+    "image_review": "pass",
+    "object_or_region_boxes": 7,
+    "context_annotations": 1,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C031 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T08:06:49Z",
+    "ended_at": "2026-10-03T08:10:01Z",
+    "prompt_path": "prompts/C031_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C031.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "小镇三岔街道、手中地图、指路者与左右支路可辨。地图不读取地名或把蓝色水系当路线；left/right依据画面朝前视角与例句说明。两人手部可信，远景保留街区层次。"
+  }
+}

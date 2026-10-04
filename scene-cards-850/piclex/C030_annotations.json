@@ -1,0 +1,289 @@
+{
+  "filename": "C030-退换货的选择.png",
+  "labels": [
+    {
+      "x": 332,
+      "y": 778,
+      "english": "new",
+      "chinese": "新的",
+      "phoneticUS": "/nuː/",
+      "phoneticUK": "/njuː/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 332,
+        "y": 778
+      },
+      "boundingBox": {
+        "left": 212,
+        "top": 705,
+        "right": 452,
+        "bottom": 852
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧完整杯子的实际区域；new身份由原创退换货故事明确，框只定位新杯，不以清洁程度推断新旧。",
+        "association": "左侧完整杯子的实际区域；new身份由原创退换货故事明确，框只定位新杯，不以清洁程度推断新旧。",
+        "collocation": "a new cup",
+        "example": "The cup on the left is new.",
+        "exampleChinese": "左边的杯子是新的。"
+      }
+    },
+    {
+      "x": 666,
+      "y": 790,
+      "english": "old",
+      "chinese": "旧的",
+      "phoneticUS": "/oʊld/",
+      "phoneticUK": "/əʊld/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 855
+      },
+      "anchorPosition": {
+        "x": 666,
+        "y": 790
+      },
+      "boundingBox": {
+        "left": 528,
+        "top": 708,
+        "right": 805,
+        "bottom": 871
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧破损旧杯和断柄碎片区域；old身份由原创故事明确，不由破损程度推断使用年限。",
+        "association": "右侧破损旧杯和断柄碎片区域；old身份由原创故事明确，不由破损程度推断使用年限。",
+        "collocation": "an old cup",
+        "example": "The cup on the right is old.",
+        "exampleChinese": "右边的杯子是旧的。"
+      }
+    },
+    {
+      "x": 746,
+      "y": 840,
+      "english": "broken",
+      "chinese": "破损的",
+      "phoneticUS": "/ˈbroʊkən/",
+      "phoneticUK": "/ˈbrəʊkən/",
+      "bubblePosition": {
+        "x": 852,
+        "y": 930
+      },
+      "anchorPosition": {
+        "x": 746,
+        "y": 840
+      },
+      "boundingBox": {
+        "left": 666,
+        "top": 721,
+        "right": 805,
+        "bottom": 870
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右杯缺损的口沿、断柄及桌上断柄碎片区域，broken对应这些直接可见破损。",
+        "association": "右杯缺损的口沿、断柄及桌上断柄碎片区域，broken对应这些直接可见破损。",
+        "collocation": "a broken handle",
+        "example": "The old cup has a broken handle.",
+        "exampleChinese": "旧杯子的把手断了。"
+      }
+    },
+    {
+      "x": 110,
+      "y": 44,
+      "english": "quality",
+      "chinese": "质量",
+      "phoneticUS": "/ˈkwɑːləti/",
+      "phoneticUK": "/ˈkwɒləti/",
+      "bubblePosition": {
+        "x": 110,
+        "y": 44
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "质量是检查与判断，由叙述说明",
+        "association": "质量是检查与判断，由叙述说明",
+        "collocation": "check the quality",
+        "example": "I check the quality of the new cup.",
+        "exampleChinese": "我检查新杯子的质量。"
+      }
+    },
+    {
+      "x": 488,
+      "y": 43,
+      "english": "value",
+      "chinese": "性价比",
+      "phoneticUS": "/ˈvæljuː/",
+      "phoneticUK": "/ˈvæljuː/",
+      "bubblePosition": {
+        "x": 488,
+        "y": 43
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "采用物有所值搭配，主观评价由例句明确，不推算真实价格",
+        "association": "采用物有所值搭配，主观评价由例句明确，不推算真实价格",
+        "collocation": "good value",
+        "example": "The new cup is good value for the money.",
+        "exampleChinese": "新杯子物有所值。"
+      }
+    },
+    {
+      "x": 508,
+      "y": 788,
+      "english": "comparison",
+      "chinese": "比较",
+      "phoneticUS": "/kəmˈpærɪsən/",
+      "phoneticUK": "/kəmˈpærɪsən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 958.4180866317649
+      },
+      "anchorPosition": {
+        "x": 508,
+        "y": 788
+      },
+      "boundingBox": {
+        "left": 211,
+        "top": 705,
+        "right": 805,
+        "bottom": 871
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "前景两只同类杯子的对照区域，comparison指向实际比较对象，不包含全幅人物背景。",
+        "association": "前景两只同类杯子的对照区域，comparison指向实际比较对象，不包含全幅人物背景。",
+        "collocation": "a comparison of cups",
+        "example": "I make a comparison of the two cups.",
+        "exampleChinese": "我把两只杯子作比较。"
+      }
+    },
+    {
+      "x": 120,
+      "y": 474,
+      "english": "exchange",
+      "chinese": "换货",
+      "phoneticUS": "/ɪksˈtʃeɪndʒ/",
+      "phoneticUK": "/ɪksˈtʃeɪndʒ/",
+      "bubblePosition": {
+        "x": 120,
+        "y": 474
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "采用动词换货，由原创对话叙述明确，不从递物动作认定已完成业务",
+        "association": "采用动词换货，由原创对话叙述明确，不从递物动作认定已完成业务",
+        "collocation": "exchange a cup",
+        "example": "I exchange the broken cup for a new one.",
+        "exampleChinese": "我把坏掉的杯子换成一只新的。"
+      }
+    },
+    {
+      "x": 530,
+      "y": 500,
+      "english": "change",
+      "chinese": "改变",
+      "phoneticUS": "/tʃeɪndʒ/",
+      "phoneticUK": "/tʃeɪndʒ/",
+      "bubblePosition": {
+        "x": 530,
+        "y": 500
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "改变采用决定变化义，与exchange换货区分",
+        "association": "改变采用决定变化义，与exchange换货区分",
+        "collocation": "change my choice",
+        "example": "I change my choice after checking the cups.",
+        "exampleChinese": "检查杯子后，我改变了选择。"
+      }
+    },
+    {
+      "x": 923,
+      "y": 486,
+      "english": "other",
+      "chinese": "另一个的",
+      "phoneticUS": "/ˈʌðər/",
+      "phoneticUK": "/ˈʌðə/",
+      "bubblePosition": {
+        "x": 923,
+        "y": 486
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "限定词other修饰cup，两件物品与句子支持",
+        "association": "限定词other修饰cup，两件物品与句子支持",
+        "collocation": "the other cup",
+        "example": "One cup is new; the other cup is old.",
+        "exampleChinese": "一只杯子是新的，另一只杯子是旧的。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "I exchange the broken cup for a new one.",
+    "chinese": "我把坏掉的杯子换成一只新的。",
+    "source": "原创配文 · C030 退换货的选择",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

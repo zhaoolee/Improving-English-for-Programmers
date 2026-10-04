@@ -1,0 +1,482 @@
+{
+  "id": "C001",
+  "chapter": "家里的一天",
+  "title": "清晨醒来",
+  "scene": "晨光从窗帘缝照进卧室，床边有钟，主角刚醒。",
+  "target_count": 9,
+  "primary_words": [
+    "bed",
+    "sleep",
+    "awake",
+    "morning",
+    "clock",
+    "curtain",
+    "light",
+    "early",
+    "be"
+  ],
+  "targets": [
+    {
+      "word_id": "W059",
+      "word": "bed",
+      "aliases": [],
+      "source_zh_unreviewed": "床",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "床；用来睡觉的家具",
+      "pos": "noun (countable)",
+      "ipa_us": "/bed/",
+      "ipa_uk": "/bed/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "浅木床头、白枕头和大面积白色被褥组成可辨床体。",
+        "sentence": "I am still in bed.",
+        "matched_form": "bed",
+        "image_verified": true
+      },
+      "example_en": "I am still in bed.",
+      "example_zh": "我还在床上。",
+      "bbox_normalized": [
+        0.0,
+        0.292,
+        1.0,
+        1.0
+      ],
+      "collocations": [
+        "in bed",
+        "on the bed",
+        "get out of bed"
+      ],
+      "example_en_highlighted": "I am still in **bed**.",
+      "annotation_mode": "object",
+      "annotation_note": "框床的可见整体；in bed 指人在床上休息，常在被褥里；on the bed 指在床面上。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bed_1",
+        "sense": "furniture, sense 1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "按冷调新版定位床的整体可见范围；bed 原例句及配文仍与画面一致。"
+    },
+    {
+      "word_id": "W662",
+      "word": "sleep",
+      "aliases": [],
+      "source_zh_unreviewed": "睡觉",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "睡觉；处于睡眠状态（本例回顾昨夜）",
+      "pos": "verb (intransitive)",
+      "ipa_us": "/sliːp/",
+      "ipa_uk": "/sliːp/",
+      "evidence": {
+        "type": "sentence",
+        "image": null,
+        "sentence": "I slept well last night.",
+        "matched_form": "slept",
+        "form_note": "slept 是 sleep 的过去式；目标词主归属仍为 sleep。",
+        "context": "刚醒来的主人公回顾昨夜的睡眠；这是原创叙述，单幅底图不证明昨夜睡得好。",
+        "image_verified": null
+      },
+      "example_en": "I slept well last night.",
+      "example_zh": "我昨晚睡得很好。",
+      "bbox_normalized": null,
+      "collocations": [
+        "sleep well",
+        "sleep in bed",
+        "sleep at night"
+      ],
+      "example_en_highlighted": "I **slept** well last night.",
+      "annotation_mode": "context",
+      "annotation_note": "只高亮 slept；本图人物醒着，不把床或睁眼人物框成 sleep 的动作证据。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sleep_1",
+        "sense": "verb, sense 1; verb forms",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "原例句 I slept well last night. 的 slept 覆盖 sleep；新版女性醒着，不给 sleep 虚假动作框。"
+    },
+    {
+      "word_id": "W044",
+      "word": "awake",
+      "aliases": [],
+      "source_zh_unreviewed": "醒着的；唤醒",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "醒着的；没有在睡觉",
+      "pos": "adjective (predicative)",
+      "ipa_us": "/əˈweɪk/",
+      "ipa_uk": "/əˈweɪk/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "年轻女性双眼睁开，在床头坐起并看向窗外。",
+        "sentence": "I am awake now.",
+        "matched_form": "awake",
+        "image_verified": true
+      },
+      "example_en": "I am awake now.",
+      "example_zh": "我现在醒着。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be awake",
+        "stay awake",
+        "fully awake"
+      ],
+      "example_en_highlighted": "I am **awake** now.",
+      "annotation_mode": "context",
+      "annotation_note": "本卡教表语形容词，使用 be awake；高亮 awake，人物状态不当作独立物体。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/awake_1",
+        "sense": "adjective, sense 1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "新版人物醒着，原 I am awake now. 与主配文匹配，采用词句高亮。"
+    },
+    {
+      "word_id": "W452",
+      "word": "morning",
+      "aliases": [],
+      "source_zh_unreviewed": "早晨",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "早晨；一天中醒来后至中午前的一段时间",
+      "pos": "noun",
+      "ipa_us": "/ˈmɔːrnɪŋ/",
+      "ipa_uk": "/ˈmɔːnɪŋ/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": "低角度日光与刚醒来的卧室场景支持叙事中的早晨。",
+        "sentence": "The room is bright this morning.",
+        "matched_form": "morning",
+        "limitation": "日光单独不能区分早晨和傍晚；时间由配文和场景设定明确。",
+        "image_verified": true
+      },
+      "example_en": "The room is bright this morning.",
+      "example_zh": "今天早晨房间很明亮。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in the morning",
+        "morning light",
+        "this morning"
+      ],
+      "example_en_highlighted": "The room is bright this **morning**.",
+      "annotation_mode": "context",
+      "annotation_note": "高亮 morning，不把太阳、窗户或钟框成早晨。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/morning_1",
+        "sense": "noun, sense 1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "原 morning light 配文与 this morning 例句明确早晨，冷白自然窗光和刚醒女性支持场景语境。"
+    },
+    {
+      "word_id": "W135",
+      "word": "clock",
+      "aliases": [],
+      "source_zh_unreviewed": "时钟",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "钟；摆放或悬挂的计时器",
+      "pos": "noun (countable)",
+      "ipa_us": "/klɑːk/",
+      "ipa_uk": "/klɒk/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "床边浅木桌上一个独立圆形指针钟，钟面、刻度、两根指针和支脚可辨。",
+        "sentence": "The clock is beside my bed.",
+        "matched_form": "clock",
+        "image_verified": true
+      },
+      "example_en": "The clock is beside my bed.",
+      "example_zh": "钟在我的床边。",
+      "bbox_normalized": [
+        0.634,
+        0.424,
+        0.756,
+        0.525
+      ],
+      "collocations": [
+        "a bedside clock",
+        "the clock face",
+        "look at the clock"
+      ],
+      "example_en_highlighted": "The **clock** is beside my bed.",
+      "annotation_mode": "object",
+      "annotation_note": "只框钟，不包含整张床边桌；不依赖生成图的精确读数。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/clock_1",
+        "sense": "noun, sense 1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "新版钟向右移动，框重新定位；原 beside my bed 例句匹配，无文字数字。"
+    },
+    {
+      "word_id": "W175",
+      "word": "curtain",
+      "aliases": [],
+      "source_zh_unreviewed": "窗帘",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "窗帘；挂在窗前遮挡光线的布",
+      "pos": "noun (countable)",
+      "ipa_us": "/ˈkɜːrtn/",
+      "ipa_uk": "/ˈkɜːtn/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "窗前雾灰布帘有可见织物纹理和褶皱，日光从布帘边缘照入。",
+        "sentence": "Light comes past the curtain.",
+        "matched_form": "curtain",
+        "image_verified": true
+      },
+      "example_en": "Light comes past the curtain.",
+      "example_zh": "光从窗帘旁边透进来。",
+      "bbox_normalized": [
+        0.67,
+        0.0,
+        0.969,
+        0.652
+      ],
+      "collocations": [
+        "open the curtain",
+        "close the curtain",
+        "a gap in the curtains"
+      ],
+      "example_en_highlighted": "Light comes past the **curtain**.",
+      "annotation_mode": "object",
+      "annotation_note": "框一片可辨的雾灰布帘，不把窗户或旁边透光区域当窗帘。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/curtain_1",
+        "sense": "noun, sense 1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "窗帘换为雾灰，仍可清楚识别；原 Light comes past the curtain. 与画面匹配。"
+    },
+    {
+      "word_id": "W402",
+      "word": "light",
+      "aliases": [],
+      "source_zh_unreviewed": "光；轻的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "光；本卡指从窗外照入的自然光",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/laɪt/",
+      "ipa_uk": "/laɪt/",
+      "evidence": {
+        "type": "image_and_sentence",
+        "image": "右侧窗外的冷白日光照在白床品上，受光区域与周围阴影可区分。",
+        "sentence": "Light falls on the bed.",
+        "matched_form": "Light",
+        "image_verified": true
+      },
+      "example_en": "Light falls on the bed.",
+      "example_zh": "光照在床上。",
+      "bbox_normalized": [
+        0.632,
+        0.619,
+        0.987,
+        0.778
+      ],
+      "collocations": [
+        "morning light",
+        "natural light",
+        "a patch of light"
+      ],
+      "example_en_highlighted": "**Light** falls on the bed.",
+      "annotation_mode": "object",
+      "annotation_note": "object 模式在此定位可见光斑区域，并非把光当实体或把灯具当光；框选受光区域，底图生成后再定坐标。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/light_1",
+        "sense": "from sun/lamps, sense 1",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "框冷调新版床面代表性受光区域，原 Light falls on the bed. 匹配；光斑不当作灯具。"
+    },
+    {
+      "word_id": "W223",
+      "word": "early",
+      "aliases": [],
+      "source_zh_unreviewed": "早期的；早的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "早的；本卡指一天刚开始、时间还早",
+      "pos": "adjective (predicative)",
+      "ipa_us": "/ˈɜːrli/",
+      "ipa_uk": "/ˈɜːli/",
+      "evidence": {
+        "type": "sentence_with_scene_context",
+        "image": "晨光和床边钟只是时间语境，不能单独证明时间早。",
+        "sentence": "It is still early.",
+        "matched_form": "early",
+        "context": "主角刚在清晨醒来，原创叙述明确时间还早；不等同于比预定时间更早。",
+        "image_verified": true
+      },
+      "example_en": "It is still early.",
+      "example_zh": "时间还早。",
+      "bbox_normalized": null,
+      "collocations": [
+        "early morning",
+        "be early",
+        "an early start"
+      ],
+      "example_en_highlighted": "It is still **early**.",
+      "annotation_mode": "context",
+      "annotation_note": "高亮 early，不给钟、日光或人物虚假的 early 物体框。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/early_1",
+        "sense": "adjective, sense 1: near the beginning of a period",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "原 It is still early. 明确时间还早；醒来、晨光与床边钟支持语境，不设 early 物体框。"
+    },
+    {
+      "word_id": "W056",
+      "word": "be",
+      "aliases": [],
+      "source_zh_unreviewed": "是；存在",
+      "planned_mode": "context",
+      "sense_zh": "系动词，用来说明状态；本卡以 am/is 连接主语与状态或位置",
+      "pos": "verb (linking)",
+      "ipa_us": "/biː/ (strong), /bi/ (weak)",
+      "ipa_uk": "/biː/ (strong), /bi/ (weak)",
+      "evidence": {
+        "type": "sentence",
+        "image": null,
+        "sentence": "I am awake now.",
+        "matched_form": "am",
+        "caption_forms": [
+          "am",
+          "is"
+        ],
+        "form_note": "am（配 I）和 is（配单数主语）是 be 的现在时形式；am/is 不新增主归属。",
+        "image_verified": null
+      },
+      "example_en": "I am awake now.",
+      "example_zh": "我现在醒着。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be awake",
+        "be in bed",
+        "be early"
+      ],
+      "example_en_highlighted": "I **am** awake now.",
+      "annotation_mode": "context",
+      "annotation_note": "在例句中高亮 am，在配文中高亮 am/is；无物体框。词头音标不等于句中 am/is 的读音，am 的重读形式 /æm/、常见弱读 /əm/，is 为 /ɪz/。",
+      "lexical_source": {
+        "name": "Oxford Advanced Learner's Dictionary",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/be_1",
+        "sense": "linking verb, senses 1 and 4; verb forms",
+        "checked_on": "2026-10-02"
+      },
+      "coverage_status": "verified",
+      "review_note": "原配文及例句 am/is 保留高亮，be 词头和主归属不变；无物体框。"
+    }
+  ],
+  "caption": {
+    "en": "I am awake, and the morning light is on my bed.",
+    "zh": "我醒了，晨光照在我的床上。",
+    "type": "original",
+    "source": null,
+    "status": "final",
+    "en_highlighted": "I **am** **awake**, and the **morning** **light** **is** on my **bed**.",
+    "translation_type": "original_translation",
+    "word_count": 11
+  },
+  "editor_note": "逐词词义、词性和英美音标已独立复核；音标采用牛津宽式记法，包括美音 /r/ 的记法，不混用源表音标。sleep 由 slept 例句覆盖；awake 为表语形容词；morning/early 由句子限定时间，be 只高亮 am/is。主配文和例句为原创，中文为原创翻译。坐标必须在图像生成并人工逐词核对后填写。",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C001\n标题 清晨醒来\n场景 晨光从窗帘缝照进卧室，床边有钟，主角刚醒。\n目标词 bed, sleep, awake, morning, clock, curtain, light, early, be\n原创主配文草案 I am awake, and the morning light is on my bed.\n中文草案 我醒了，晨光照在我的床上。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: style-transfer\nAsset type: C001 清晨醒来，英语场景学习卡无字底图，4:5竖幅。\nInput image: 当前成年年轻女性卧室照片是编辑目标。保留清晨醒来、女性睁眼坐在床上、床边独立指针钟、窗帘和日光落在床面的关系，可重新设计人物造型、摄影构图、颜色与材质。\nPrimary request: 整体改为清冷韩系高精修人像 / 冷调时尚写真，有高级韩国时尚杂志与精致旅行人像的审美。清爽、疏离、安静、精致，不使用暖黄奶油风。保持卧室晨醒场景，而把旅行人像的自然环境光与精致人像质感引入摄影。\nSubject: 一位约25岁的成年东亚年轻女性，具有自然的韩系清冷气质，双眼明确睁开，坐起靠着床头，头略转向窗外，视线轻轻望向远处，不看镜头，表情安静克制。黑色头发整洁低髻，少量自然脸侧碎发；清透冷调底妆、精细自然眼妆、低饱和冷玫瑰唇色。米白细棉上衣搭浅灰绿薄针织开衫，简洁合身，真实垂坠和褶皱。\nPortrait finish: 高品质时尚人像精修，皮肤干净细腻、自然明亮，均匀肤色并修饰小瑕疵，同时保留细微皮肤纹理、真实面部结构和发丝。柔和高光、准确自然的五官与身体比例，审美精致而不僵硬。人物面部是视觉焦点，使用真实50mm环境人像视角，焦点落在双眼，背景有适度分离但钟和窗帘仍能辨认。\nScene/materials: 明亮冷调的极简卧室，珍珠白棉麻床品和枕头、雾灰布帘、浅色木质床头与床边小桌。床边摆一个清楚可辨的简洁圆形指针钟，只有刻度和两根指针、支脚，没有数字字母，尽量显示约六点十分。窗帘边缘留透光空间，清晨的柔和冷白日光从右侧照进来，床面有一块可定位的受光区域。室内道具克制，移除绿植与墙上装饰画，避免生活杂物分散人像焦点。\nColor/light: 冷白、雾灰、微量灰蓝和浅灰绿，柔和蓝灰阴影，真实自然肤色，低饱和、通透、细腻的层次。像清晨阴晴交界的自然窗光；人物脸侧与床面有柔和定向日光，高光保留细节，阴影不死黑。明确冷调时尚摄影色彩：不泛黄，不金色，不橙红，不暖棕，不把皮肤变成不自然的蓝色。\nComposition: 单幅4:5，完整环境人像中景，人物置于自然三分线，头部留有呼吸空间，床品前景不占满画面。床、床边钟、布帘、受光床面分别可查；透视和空间关系可信，保留适量简单墙面空白供后续标注。不能裁切或模糊掉教学目标物体。\nConstraints: 仅一位成年年轻女性，眼睛明显睁开。保留床、钟、窗帘与日光落在床上的教学关系，不改成室外旅行场景。无任何文字、数字、字母、字幕、标签、品牌、水印、二维码、气泡或App界面。sleep/morning/early/be 后续由词句教学，不画成象征物。\nAvoid: 暖黄网红卧室风、金色夕阳、橙色电影调色、过度HDR、塑料皮肤、瓷娃娃脸、CG渲染感、强行大眼尖下巴、过度磨皮、假发丝、畸形手指、变形钟或不可信家具。",
+  "status": "approved",
+  "image_path": "images/C001.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-02",
+  "scene_detail": "清晨极简冷调卧室，一名成年东亚年轻女性睁眼坐起靠在床头，自然望向窗外。黑色低髻与自然碎发、清透妆容、珍珠白上衣和浅灰绿针织开衫形成清冷韩系环境人像；白色床品、雾灰布帘、浅木床头与床边桌在冷白晨光中呈现细腻层次。床边指针钟清楚可辨，日光从窗帘边缘照入并落在床面。床、钟、窗帘和受光区域提供画面证据，其余词继续通过原配文与例句教学。",
+  "visual_style": "清冷韩系高精修环境人像 / 冷调时尚写真：珍珠白、雾灰、浅灰绿，冷白窗光，清透妆容与低髻，均匀细腻肤色及自然发丝、织物纹理",
+  "image_status": "completed",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 4,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C001 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他99卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-02",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "source_path": "[redacted:external-generated-image]",
+    "reference_image_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "aspect_ratio_note": "约4:5，原样保存，未裁切",
+    "prompt_path": "prompts/C001_image_final.txt",
+    "revision": 3,
+    "sourcePathRedacted": true,
+    "referenceImagePathRedacted": true
+  },
+  "image_revision_history": [
+    {
+      "revision": 1,
+      "replaced_on": "2026-10-02",
+      "reason": "C001 精致 Instagram 家居生活摄影改版（新版已复核 approved）",
+      "backup_path": "images/archive/C001-before-instagram.png",
+      "image_prompt": "Use case: photorealistic-natural\nAsset type: C001 清晨醒来，英语场景学习卡的无字底图。\nPrimary request: 一张完整单幅、4:5 竖幅写实生活摄影，安静卧室的清晨，一位短黑发的东亚青年刚醒，睁开双眼并在床上坐起，穿米白上衣和敞开的轻薄深绿色外套。\nScene/backdrop: 床的枕头、床垫、被褥和部分床架清楚可见；床边小桌上摆一只独立可辨、占画面足够面积的简单指针钟，钟面只有刻度和两根指针，无数字无字母；窗前厚布窗帘有自然褶皱，两片之间留窄缝，低角度清晨日光从缝里照入，在床的下半部形成清楚的受光斑块，周围被褥较暗。\nComposition/framing: 视线高度的三分之二卧室中景，人物面部清楚、眼睛明显睁开；床、钟、窗帘和床上的光斑在同一画幅里各自可辨，互不遮挡主要识别部分；自然的简单墙面留适量空白，便于日后添加词语气泡；只拍一位人物，不做拼图或多幅对比。\nLighting/mood: 可信的窗外低角度自然光，温暖而克制，真实棉布、木材和皮肤材质，可信人体、物体比例与透视，日常抓拍感。\nConstraints: 底图里不出现任何文字、数字、字母、单词、标注、字幕、品牌、二维码、水印、App 界面或图形气泡。不要把 sleep、morning、early、be 写入图片或画成象征性物体；这些词由后续例句和配文教学。不要画睡着的人，人物应醒着。不要添加不相关道具。",
+      "image_generation": {
+        "tool": "built-in image_gen",
+        "source_path": "[redacted:external-generated-image]",
+        "width": 1122,
+        "height": 1402,
+        "aspect_ratio_note": "约 4:5，未经裁切或重绘",
+        "prompt_path": "prompts/C001_image_final.txt",
+        "sourcePathRedacted": true
+      }
+    },
+    {
+      "revision": 2,
+      "replaced_on": "2026-10-02",
+      "reason": "C001 清冷韩系高精修环境人像/冷调时尚写真改版（新版已复核 approved）",
+      "backup_path": "images/archive/C001-before-korean-cool.png",
+      "image_prompt": "Use case: style-transfer\nAsset type: C001 清晨醒来，4:5竖幅英语学习卡无字底图。\nInput image: 上一版年轻女性卧室照片为编辑目标。保留清晨醒来、女性醒着坐在床上、床边指针钟、窗帘及晨光落在床面的教学关系；可以重新布置材质、光线和构图。\nPrimary request: 提升为精致、有审美的 Instagram 家居生活摄影：明亮通透的奶油色卧室，轻盈、温暖、细腻且真实。画面具有成熟生活方式博主的构图与调色品味、安静清晨的美感、精选但自然的室内材质。\nSubject: 约25岁的成年东亚年轻女性，神态松弛，眼睛明确睁开，在床头坐起靠着枕头，自然望向窗外。深色头发松松挽起，几缕细碎发丝落在脸侧，清透自然的淡妆、柔和唇色，皮肤仍有微小纹理。穿有细腻垂坠感的米白棉质上衣和柔软苔绿薄针织开衫，清爽协调，领口自然，姿态轻松而优雅。\nScene/materials: 低矮浅橡木床头、蓬松象牙白枕头和奶油白亚麻被褥，褶皱自然且有层次，整体干净、有呼吸感。浅橡木床边桌上摆简洁米白圆形指针钟，钟面只有刻度和两根指针，无数字字母，尽量约六点十分；钟清楚可辨。右侧窗前为柔软燕麦色亚麻布帘，织物纹理细腻，两片之间留透光缝隙。原来的小绿植可保留作为安静点缀，不添加杂乱道具。\nComposition: 一张完整4:5竖幅，以有审美的35mm生活摄影视角取景，人物面部靠画面上半部自然三分线，前景床品、中景人物与床边钟、背景窗帘形成清楚层次。背景墙留适量空白。床、钟、窗帘和一片受光床面分别可辨；调整裁切使床品与人物比例更协调，避免大面积暗灰被褥占满前景。\nLighting/color: 柔和温暖的清晨日光从右侧布帘缝照入，肤色明亮自然，象牙白高光保留细节，床面有明显但柔和的日光光斑。浅奶油、燕麦、浅橡木和少量苔绿组成统一色调。高品质Instagram自然生活摄影，轻微胶片颗粒、清透的暖白平衡、细腻过渡和真实光影，不泛黄，不橙红，不灰暗，不过曝。保留真实物体、人物和透视。\nConstraints: 仅一位成年年轻女性，明确醒着。保留床、床边钟、窗帘与晨光照在床上的关系。底图不生成任何文字、字母、数字、品牌、水印、字幕、标签、气泡、二维码或Instagram界面。摄影风格与精致感提升不得牺牲钟和窗帘的教学识别度。sleep/morning/early/be 由后续词句教学。\nAvoid: 塑料或瓷娃娃皮肤、重度磨皮、CG质感、完美对称脸、过度锐化、HDR光晕、浓妆、僵硬摆拍、酒店广告样板间、异常手指或肢体、变形或悬浮物体。",
+      "image_generation": {
+        "tool": "built-in image_gen",
+        "mode": "edit",
+        "source_path": "[redacted:external-generated-image]",
+        "reference_image_path": "[redacted:external-generated-image]",
+        "width": 1122,
+        "height": 1402,
+        "aspect_ratio_note": "约4:5，原样保存，未裁切",
+        "prompt_path": "prompts/C001_image_final.txt",
+        "revision": 2,
+        "sourcePathRedacted": true
+      }
+    }
+  ],
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C001.png 宽高归一化至 0..1；由人工视觉定位，框光斑时只定位代表性受光区域。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "single_scene": true,
+    "no_text_or_watermark": true,
+    "protagonist": "一名成年东亚年轻女性，黑色低髻与自然脸侧发丝，珍珠白上衣、浅灰绿针织开衫，双眼睁开，坐在床头看向窗外。",
+    "style_review": "画面为冷白与灰绿色调，窗光、床品和雾灰窗帘协调；女性面部妆容清透、肤色细腻均匀，五官及身体比例自然，可见发丝、皮肤和织物细节。符合清冷韩系高精修环境人像方向，生成图片不声称为实拍。",
+    "objects": "浅木床头、白枕头和被褥；床边浅木桌上清楚可辨的指针钟；窗前雾灰布帘；床面来自窗外日光的受光区域。",
+    "limitations": [
+      "sleep 使用原 slept 例句；单幅照片不证明昨夜睡得好。",
+      "morning/early 由原配文、例句和场景明确，图像支持语境。",
+      "不使用生成钟面的读数作为精确时间事实。",
+      "be 只在词句中高亮 am/is，不设物体框。"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "filename": "C098-指出这里和那里.png",
+  "labels": [
+    {
+      "x": 145,
+      "y": 85,
+      "english": "I",
+      "chinese": "我",
+      "phoneticUS": "/aɪ/",
+      "phoneticUK": "/aɪ/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "pronoun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：I point to the notebook near me.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：I point to the notebook near me.；不声称该状态/含义本身在画面可见。",
+        "collocation": "I am; I point",
+        "example": "I point to the notebook near me.",
+        "exampleChinese": "我指向靠近我的笔记本。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 85,
+      "english": "you",
+      "chinese": "你",
+      "phoneticUS": "/juː/",
+      "phoneticUK": "/juː/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "pronoun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：This cup is for you, my friend.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：This cup is for you, my friend.；不声称该状态/含义本身在画面可见。",
+        "collocation": "for you; you are",
+        "example": "This cup is for you, my friend.",
+        "exampleChinese": "朋友，这个杯子给你。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 545,
+      "english": "he",
+      "chinese": "他",
+      "phoneticUS": "/hiː/",
+      "phoneticUK": "/hiː/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 545
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "pronoun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：He is sitting at the other table in our story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：He is sitting at the other table in our story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "he is; he sits",
+        "example": "He is sitting at the other table in our story.",
+        "exampleChinese": "故事中的他坐在另一张桌旁。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 620,
+      "english": "this",
+      "chinese": "这个",
+      "phoneticUS": "/ðɪs/",
+      "phoneticUK": "/ðɪs/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 620
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：This notebook is close to me.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：This notebook is close to me.；不声称该状态/含义本身在画面可见。",
+        "collocation": "this notebook; this cup",
+        "example": "This notebook is close to me.",
+        "exampleChinese": "这本笔记本靠近我。"
+      }
+    },
+    {
+      "x": 850,
+      "y": 700,
+      "english": "that",
+      "chinese": "那个",
+      "phoneticUS": "/ðæt/",
+      "phoneticUK": "/ðæt/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 700
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "determiner",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：That cup is nearer to you.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：That cup is nearer to you.；不声称该状态/含义本身在画面可见。",
+        "collocation": "that cup; that table",
+        "example": "That cup is nearer to you.",
+        "exampleChinese": "那个杯子更靠近你。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 775,
+      "english": "here",
+      "chinese": "这里",
+      "phoneticUS": "/hɪr/",
+      "phoneticUK": "/hɪə/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 775
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My notebook is here beside me.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My notebook is here beside me.；不声称该状态/含义本身在画面可见。",
+        "collocation": "sit here; right here",
+        "example": "My notebook is here beside me.",
+        "exampleChinese": "我的笔记本就在这里，在我旁边。"
+      }
+    },
+    {
+      "x": 520,
+      "y": 85,
+      "english": "there",
+      "chinese": "那里",
+      "phoneticUS": "/ðer/",
+      "phoneticUK": "/ðeə/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：Our other friend is sitting there.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：Our other friend is sitting there.；不声称该状态/含义本身在画面可见。",
+        "collocation": "over there; sit there",
+        "example": "Our other friend is sitting there.",
+        "exampleChinese": "我们的另一位朋友坐在那里。"
+      }
+    },
+    {
+      "x": 145,
+      "y": 935,
+      "english": "mine",
+      "chinese": "我的",
+      "phoneticUS": "/maɪn/",
+      "phoneticUK": "/maɪn/",
+      "bubblePosition": {
+        "x": 145,
+        "y": 935
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "pronoun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：The notebook is mine.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：The notebook is mine.；不声称该状态/含义本身在画面可见。",
+        "collocation": "this is mine; mine and yours",
+        "example": "The notebook is mine.",
+        "exampleChinese": "这本笔记本是我的。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 940,
+      "english": "name",
+      "chinese": "名字",
+      "phoneticUS": "/neɪm/",
+      "phoneticUK": "/neɪm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 940
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "由原创例句给出的语境：My name is Mina in this story.；不声称该状态/含义本身在画面可见。",
+        "association": "由原创例句给出的语境：My name is Mina in this story.；不声称该状态/含义本身在画面可见。",
+        "collocation": "my name; ask a name",
+        "example": "My name is Mina in this story.",
+        "exampleChinese": "这个故事中，我的名字是Mina。"
+      }
+    },
+    {
+      "x": 772,
+      "y": 776,
+      "english": "thing",
+      "chinese": "东西",
+      "phoneticUS": "/θɪŋ/",
+      "phoneticUK": "/θɪŋ/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 920
+      },
+      "anchorPosition": {
+        "x": 772,
+        "y": 776
+      },
+      "boundingBox": {
+        "left": 690,
+        "top": 729,
+        "right": 855,
+        "bottom": 823
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中体现的具体对象（东西），待最终图确认。",
+        "association": "场景中体现的具体对象（东西），待最终图确认。",
+        "collocation": "a small thing; one useful thing",
+        "example": "The cup is one useful thing on our table.",
+        "exampleChinese": "杯子是桌上一件有用的东西。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "This notebook is mine; that cup is for you, and he is sitting there.",
+    "chinese": "这本笔记本是我的；那个杯子给你，而他坐在那里。",
+    "source": "原创配文 · C098 指出这里和那里",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 图片，配文、例句与中文译文原创，工作台草稿。",
+  "sourceURL": ""
+}

@@ -1,0 +1,1512 @@
+{
+  "startedAt": "2026-10-03T18:08:55.354065+00:00",
+  "status": "content_final",
+  "cards": [
+    {
+      "id": "C091",
+      "caption_en": "Each person introduces themselves; we learn who is here and get to know one another.",
+      "caption_zh": "每个人自我介绍；我们认识在场的人，彼此熟悉起来。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Cool Korean polished family community meeting outdoors. Main adult woman about 25 centered, adult man left, boy about 10 in plain blue sweater foreground left, girl about 10 in cream sweater foreground right, another adult woman right. Five people distinctly separated, normal friendly introductions, fully clothed ordinary safe family scene, natural skin and hands, no text or labels. Ages and gender descriptions belong to fictional teaching story, not biometric inference.",
+      "words": [
+        {
+          "word": "person",
+          "zh": "人",
+          "pos": "noun",
+          "us": "/ˈpɝːsən/",
+          "uk": "/ˈpɜːsən/",
+          "collocations": [
+            "each person",
+            "a friendly person"
+          ],
+          "example": "Each person introduces themselves.",
+          "translation": "每个人自我介绍。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（人），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "man",
+          "zh": "成年男子",
+          "pos": "noun",
+          "us": "/mæn/",
+          "uk": "/mæn/",
+          "collocations": [
+            "a young man",
+            "the man on the left"
+          ],
+          "example": "The man on the left introduces himself as Jun.",
+          "translation": "左边的成年男子介绍自己叫Jun。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（成年男子），待最终图确认。",
+          "color": "teal"
+        },
+        {
+          "word": "woman",
+          "zh": "成年女子",
+          "pos": "noun",
+          "us": "/ˈwʊmən/",
+          "uk": "/ˈwʊmən/",
+          "collocations": [
+            "a young woman",
+            "the woman in the middle"
+          ],
+          "example": "The woman in the middle introduces herself as Mina.",
+          "translation": "中间的成年女子介绍自己叫Mina。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（成年女子），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "boy",
+          "zh": "男孩",
+          "pos": "noun",
+          "us": "/bɔɪ/",
+          "uk": "/bɔɪ/",
+          "collocations": [
+            "a young boy",
+            "the boy in blue"
+          ],
+          "example": "The boy in blue is ten in our story.",
+          "translation": "故事中，穿蓝衣的男孩十岁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（男孩），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "girl",
+          "zh": "女孩",
+          "pos": "noun",
+          "us": "/ɡɝːl/",
+          "uk": "/ɡɜːl/",
+          "collocations": [
+            "a young girl",
+            "the girl in cream"
+          ],
+          "example": "The girl in cream is ten in our story.",
+          "translation": "故事中，穿米白衣的女孩十岁。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（女孩），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "young",
+          "zh": "年轻的",
+          "pos": "adjective",
+          "us": "/jʌŋ/",
+          "uk": "/jʌŋ/",
+          "collocations": [
+            "a young person",
+            "still young"
+          ],
+          "example": "The two children are young in this story.",
+          "translation": "故事中的两个孩子年龄小。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The two children are young in this story.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "male",
+          "zh": "男性的",
+          "pos": "adjective",
+          "us": "/meɪl/",
+          "uk": "/meɪl/",
+          "collocations": [
+            "a male participant",
+            "male or female"
+          ],
+          "example": "Jun is a male participant in our fictional group.",
+          "translation": "Jun是我们虚构小组中的男性参与者。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Jun is a male participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "female",
+          "zh": "女性的",
+          "pos": "adjective",
+          "us": "/ˈfiːmeɪl/",
+          "uk": "/ˈfiːmeɪl/",
+          "collocations": [
+            "a female participant",
+            "female or male"
+          ],
+          "example": "Mina is a female participant in our fictional group.",
+          "translation": "Mina是我们虚构小组中的女性参与者。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Mina is a female participant in our fictional group.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "among",
+          "zh": "在……之中",
+          "pos": "preposition",
+          "us": "/əˈmʌŋ/",
+          "uk": "/əˈmʌŋ/",
+          "collocations": [
+            "among friends",
+            "among the group"
+          ],
+          "example": "I stand among the other people.",
+          "translation": "我站在其他人之中。",
+          "mode": "relation",
+          "evidence": "场景中体现的关系（在……之中），待最终图确认。",
+          "color": "rose"
+        },
+        {
+          "word": "sex",
+          "zh": "性别",
+          "pos": "noun",
+          "us": "/seks/",
+          "uk": "/seks/",
+          "collocations": [
+            "sex category",
+            "sex and age"
+          ],
+          "example": "In this vocabulary lesson, sex means a male or female category.",
+          "translation": "在这节词汇课里，sex指男性或女性的性别类别。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：In this vocabulary lesson, sex means a male or female category.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "who",
+          "zh": "谁",
+          "pos": "pronoun",
+          "us": "/huː/",
+          "uk": "/huː/",
+          "collocations": [
+            "who is here",
+            "ask who"
+          ],
+          "example": "Who is standing beside Mina?",
+          "translation": "谁站在Mina旁边？",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Who is standing beside Mina?；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "C092",
+      "caption_en": "I greet a friend, shake hands, and show respect through kind behavior.",
+      "caption_zh": "我向朋友问好、握手，并通过友善的举止表达尊重。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Three fully clothed adults meeting on cool elegant park path. Main adult woman left shaking hands with adult female friend right, adult partner standing beside friend. Handshake clearly natural two right hands no tangled fingers. Calm candid Korean travel portrait with open park edges, no words or logos. Friendship and marriage only assigned by teaching story.",
+      "words": [
+        {
+          "word": "friend",
+          "zh": "朋友",
+          "pos": "noun",
+          "us": "/frend/",
+          "uk": "/frend/",
+          "collocations": [
+            "a close friend",
+            "meet a friend"
+          ],
+          "example": "The woman greeting me is my friend.",
+          "translation": "向我问好的女子是我的朋友。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（朋友），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "married",
+          "zh": "已婚的",
+          "pos": "adjective",
+          "us": "/ˈmærid/",
+          "uk": "/ˈmærid/",
+          "collocations": [
+            "a married couple",
+            "be married"
+          ],
+          "example": "My friend and her partner are married in this story.",
+          "translation": "故事中，我的朋友和她的伴侣已婚。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "relation",
+          "zh": "关系",
+          "pos": "noun",
+          "us": "/rɪˈleɪʃən/",
+          "uk": "/rɪˈleɪʃən/",
+          "collocations": [
+            "a friendly relation",
+            "the relation between"
+          ],
+          "example": "We describe the relation between the two partners.",
+          "translation": "我们描述这两位伴侣之间的关系。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "kind",
+          "zh": "友善的",
+          "pos": "adjective",
+          "us": "/kaɪnd/",
+          "uk": "/kaɪnd/",
+          "collocations": [
+            "a kind gesture",
+            "be kind"
+          ],
+          "example": "I try to be kind when meeting new people.",
+          "translation": "认识新朋友时，我努力友善待人。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "respect",
+          "zh": "尊重",
+          "pos": "noun",
+          "us": "/rɪˈspekt/",
+          "uk": "/rɪˈspekt/",
+          "collocations": [
+            "show respect",
+            "mutual respect"
+          ],
+          "example": "I show respect by listening carefully.",
+          "translation": "我通过认真倾听表达尊重。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "society",
+          "zh": "社会",
+          "pos": "noun",
+          "us": "/səˈsaɪəti/",
+          "uk": "/səˈsaɪəti/",
+          "collocations": [
+            "in society",
+            "a fair society"
+          ],
+          "example": "Respect helps people live together in society.",
+          "translation": "尊重有助于人们在社会中共同生活。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "common",
+          "zh": "常见的",
+          "pos": "adjective",
+          "us": "/ˈkɑːmən/",
+          "uk": "/ˈkɒmən/",
+          "collocations": [
+            "a common greeting",
+            "common behavior"
+          ],
+          "example": "A handshake is a common greeting in some places.",
+          "translation": "在有些地方，握手是常见的问候方式。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "behavior",
+          "zh": "举止",
+          "pos": "noun",
+          "us": "/bɪˈheɪvjɚ/",
+          "uk": "/bɪˈheɪvjə/",
+          "collocations": [
+            "kind behavior",
+            "polite behavior"
+          ],
+          "example": "Kind behavior makes a meeting easier.",
+          "translation": "友善的举止让见面更轻松。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "shake",
+          "zh": "握手",
+          "pos": "verb",
+          "us": "/ʃeɪk/",
+          "uk": "/ʃeɪk/",
+          "collocations": [
+            "shake hands",
+            "shake hands with"
+          ],
+          "example": "We shake hands on the path.",
+          "translation": "我们在小路上握手。",
+          "mode": "action",
+          "evidence": "场景中体现的具体动作（握手），待最终图确认。",
+          "color": "rose"
+        }
+      ]
+    },
+    {
+      "id": "C093",
+      "caption_en": "At a public meeting, we discuss a rule and ask how government serves people.",
+      "caption_zh": "在公共说明会上，我们讨论一项规则，询问政府如何服务人们。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman speaker at a modest municipal-style community hall meeting, two adult visitors listening, simple blank town map pictograms behind speaker. Through side window a recognizable small church with steeple and cross far outside, clearly separate from hall. Cool Korean civic editorial environmental portrait, no real politicians, party logos, readable words or legal text.",
+      "words": [
+        {
+          "word": "government",
+          "zh": "政府",
+          "pos": "noun",
+          "us": "/ˈɡʌvɚnmənt/",
+          "uk": "/ˈɡʌvənmənt/",
+          "collocations": [
+            "local government",
+            "government services"
+          ],
+          "example": "The local government holds a public meeting in our story.",
+          "translation": "故事中的地方政府举行公共说明会。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The local government holds a public meeting in our story.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "political",
+          "zh": "政治的",
+          "pos": "adjective",
+          "us": "/pəˈlɪtɪkəl/",
+          "uk": "/pəˈlɪtɪkəl/",
+          "collocations": [
+            "a political question",
+            "political discussion"
+          ],
+          "example": "We ask a political question about public decisions.",
+          "translation": "我们就公共决策提出一个政治问题。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We ask a political question about public decisions.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "law",
+          "zh": "法律",
+          "pos": "noun",
+          "us": "/lɔː/",
+          "uk": "/lɔː/",
+          "collocations": [
+            "the law",
+            "a public law"
+          ],
+          "example": "A law sets rules that people must follow.",
+          "translation": "法律规定人们必须遵守的规则。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：A law sets rules that people must follow.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "rule",
+          "zh": "规则",
+          "pos": "noun",
+          "us": "/ruːl/",
+          "uk": "/ruːl/",
+          "collocations": [
+            "a public rule",
+            "follow a rule"
+          ],
+          "example": "We discuss a rule for using the hall.",
+          "translation": "我们讨论使用大厅的一项规则。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We discuss a rule for using the hall.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "peace",
+          "zh": "和平",
+          "pos": "noun",
+          "us": "/piːs/",
+          "uk": "/piːs/",
+          "collocations": [
+            "live in peace",
+            "work for peace"
+          ],
+          "example": "People can disagree and still live in peace.",
+          "translation": "人们可以意见不同，仍然和平共处。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：People can disagree and still live in peace.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "protest",
+          "zh": "抗议",
+          "pos": "noun",
+          "us": "/ˈproʊtest/",
+          "uk": "/ˈprəʊtest/",
+          "collocations": [
+            "a peaceful protest",
+            "make a protest"
+          ],
+          "example": "The speaker describes a peaceful protest in the story.",
+          "translation": "发言者讲述故事中的一场和平抗议。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The speaker describes a peaceful protest in the story.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "religion",
+          "zh": "宗教",
+          "pos": "noun",
+          "us": "/rɪˈlɪdʒən/",
+          "uk": "/rɪˈlɪdʒən/",
+          "collocations": [
+            "freedom of religion",
+            "a religion"
+          ],
+          "example": "Religion is one topic in our vocabulary discussion.",
+          "translation": "宗教是我们词汇讨论的一个话题。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Religion is one topic in our vocabulary discussion.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "church",
+          "zh": "教堂",
+          "pos": "noun",
+          "us": "/tʃɝːtʃ/",
+          "uk": "/tʃɜːtʃ/",
+          "collocations": [
+            "a small church",
+            "the church outside"
+          ],
+          "example": "A small church stands outside the window.",
+          "translation": "窗外立着一座小教堂。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（教堂），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "free",
+          "zh": "自由的",
+          "pos": "adjective",
+          "us": "/friː/",
+          "uk": "/friː/",
+          "collocations": [
+            "free to ask",
+            "free discussion"
+          ],
+          "example": "People are free to ask questions at this meeting.",
+          "translation": "人们在这场会议上可以自由提问。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：People are free to ask questions at this meeting.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        }
+      ]
+    },
+    {
+      "id": "C094",
+      "caption_en": "I study history in a museum and reflect on the human cost of war.",
+      "caption_zh": "我在博物馆学习历史，思考战争给人类带来的代价。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult young woman visiting a quiet military history museum, inert old rifle behind secured display glass, simple original unlabelled museum map and miniature army formation, subdued cool Korean travel portrait. No firing, gore, injured people, actual battle, extremist emblems or readable text. Show thoughtful ordinary visitor, war concepts only conveyed in later educational captions.",
+      "words": [
+        {
+          "word": "history",
+          "zh": "历史",
+          "pos": "noun",
+          "us": "/ˈhɪstəri/",
+          "uk": "/ˈhɪstəri/",
+          "collocations": [
+            "study history",
+            "a history museum"
+          ],
+          "example": "I study history at the museum.",
+          "translation": "我在博物馆学习历史。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I study history at the museum.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "war",
+          "zh": "战争",
+          "pos": "noun",
+          "us": "/wɔːr/",
+          "uk": "/wɔː/",
+          "collocations": [
+            "the cost of war",
+            "a war exhibit"
+          ],
+          "example": "The exhibit explains the cost of war.",
+          "translation": "展览解释战争的代价。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The exhibit explains the cost of war.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "army",
+          "zh": "军队",
+          "pos": "noun",
+          "us": "/ˈɑːrmi/",
+          "uk": "/ˈɑːmi/",
+          "collocations": [
+            "an army model",
+            "an army formation"
+          ],
+          "example": "The miniature figures represent an army in this exhibit.",
+          "translation": "展览中的微型人物代表一支军队。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（军队），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "military",
+          "zh": "军事的",
+          "pos": "adjective",
+          "us": "/ˈmɪləteri/",
+          "uk": "/ˈmɪlətri/",
+          "collocations": [
+            "military history",
+            "a military exhibit"
+          ],
+          "example": "This room presents military history.",
+          "translation": "这个展厅介绍军事历史。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：This room presents military history.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "gun",
+          "zh": "枪",
+          "pos": "noun",
+          "us": "/ɡʌn/",
+          "uk": "/ɡʌn/",
+          "collocations": [
+            "an old gun",
+            "a gun display"
+          ],
+          "example": "An old gun is kept behind glass.",
+          "translation": "一支旧枪保存在玻璃后面。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（枪），待最终图确认。",
+          "color": "amber"
+        },
+        {
+          "word": "attack",
+          "zh": "进攻",
+          "pos": "noun",
+          "us": "/əˈtæk/",
+          "uk": "/əˈtæk/",
+          "collocations": [
+            "an attack on",
+            "an armed attack"
+          ],
+          "example": "The guide describes an attack in the historical story.",
+          "translation": "讲解员描述历史故事中的一次进攻。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The guide describes an attack in the historical story.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "fight",
+          "zh": "战斗",
+          "pos": "verb",
+          "us": "/faɪt/",
+          "uk": "/faɪt/",
+          "collocations": [
+            "fight in a war",
+            "fight against"
+          ],
+          "example": "The story explains why soldiers had to fight.",
+          "translation": "故事解释士兵为什么不得不战斗。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The story explains why soldiers had to fight.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "violent",
+          "zh": "暴力的",
+          "pos": "adjective",
+          "us": "/ˈvaɪələnt/",
+          "uk": "/ˈvaɪələnt/",
+          "collocations": [
+            "a violent conflict",
+            "violent actions"
+          ],
+          "example": "The exhibit discusses violent conflict without showing injuries.",
+          "translation": "展览讨论暴力冲突，但不展示伤情。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The exhibit discusses violent conflict without showing injuries.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "against",
+          "zh": "反对",
+          "pos": "preposition",
+          "us": "/əˈɡenst/",
+          "uk": "/əˈɡenst/",
+          "collocations": [
+            "against war",
+            "stand against"
+          ],
+          "example": "The message is against war.",
+          "translation": "这个信息表达反对战争。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The message is against war.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "dead",
+          "zh": "死去的",
+          "pos": "adjective",
+          "us": "/ded/",
+          "uk": "/ded/",
+          "collocations": [
+            "remember the dead",
+            "dead soldiers"
+          ],
+          "example": "We remember the dead soldiers mentioned in the story.",
+          "translation": "我们纪念故事中提到的死去的士兵。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We remember the dead soldiers mentioned in the story.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "death",
+          "zh": "死亡",
+          "pos": "noun",
+          "us": "/deθ/",
+          "uk": "/deθ/",
+          "collocations": [
+            "death in war",
+            "the loss of life through death"
+          ],
+          "example": "The guide speaks about death and loss during war.",
+          "translation": "讲解员讲述战争中的死亡与损失。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The guide speaks about death and loss during war.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "C095",
+      "caption_en": "In a mock court, the judge listens carefully and considers fair punishment.",
+      "caption_zh": "在模拟法庭里，法官认真听取陈述，考虑公平的惩罚。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Educational mock court in a bright modest hall, adult female judge about 25 seated behind raised plain wooden desk, adult participants either side listening, blank documents, a small tabletop model of an empty prison cell with bars in separate glass case foreground. No real defendants, actual captivity, chains, shame imagery or readable legal text. Cool Korean refined editorial environmental portrait.",
+      "words": [
+        {
+          "word": "judge",
+          "zh": "法官",
+          "pos": "noun",
+          "us": "/dʒʌdʒ/",
+          "uk": "/dʒʌdʒ/",
+          "collocations": [
+            "a court judge",
+            "the judge listens"
+          ],
+          "example": "The woman at the raised desk plays the judge.",
+          "translation": "高台桌后的女子扮演法官。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（法官），待最终图确认。",
+          "color": "blue"
+        },
+        {
+          "word": "crime",
+          "zh": "犯罪",
+          "pos": "noun",
+          "us": "/kraɪm/",
+          "uk": "/kraɪm/",
+          "collocations": [
+            "a serious crime",
+            "discuss a crime"
+          ],
+          "example": "We discuss a fictional crime in the mock court.",
+          "translation": "我们在模拟法庭讨论一桩虚构犯罪。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We discuss a fictional crime in the mock court.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "prison",
+          "zh": "监狱",
+          "pos": "noun",
+          "us": "/ˈprɪzən/",
+          "uk": "/ˈprɪzən/",
+          "collocations": [
+            "a prison model",
+            "an empty prison cell"
+          ],
+          "example": "The small model shows an empty prison cell.",
+          "translation": "这个小模型展示一间空的监狱牢房。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（监狱），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "punishment",
+          "zh": "惩罚",
+          "pos": "noun",
+          "us": "/ˈpʌnɪʃmənt/",
+          "uk": "/ˈpʌnɪʃmənt/",
+          "collocations": [
+            "fair punishment",
+            "consider punishment"
+          ],
+          "example": "The judge considers fair punishment in the story.",
+          "translation": "故事中的法官考虑公平的惩罚。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The judge considers fair punishment in the story.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "cruel",
+          "zh": "残忍的",
+          "pos": "adjective",
+          "us": "/ˈkruːəl/",
+          "uk": "/ˈkruːəl/",
+          "collocations": [
+            "a cruel act",
+            "cruel treatment"
+          ],
+          "example": "We explain why cruel treatment is wrong.",
+          "translation": "我们解释残忍的对待为什么不对。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：We explain why cruel treatment is wrong.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "hate",
+          "zh": "厌恶",
+          "pos": "verb",
+          "us": "/heɪt/",
+          "uk": "/heɪt/",
+          "collocations": [
+            "hate cruelty",
+            "hate an act"
+          ],
+          "example": "I hate cruelty, but I try to judge facts fairly.",
+          "translation": "我厌恶残忍，但尽量公平判断事实。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I hate cruelty, but I try to judge facts fairly.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "disgust",
+          "zh": "厌恶",
+          "pos": "noun",
+          "us": "/dɪsˈɡʌst/",
+          "uk": "/dɪsˈɡʌst/",
+          "collocations": [
+            "feel disgust",
+            "disgust at cruelty"
+          ],
+          "example": "The story makes me feel disgust at cruelty.",
+          "translation": "这个故事让我对残忍感到厌恶。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The story makes me feel disgust at cruelty.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "shame",
+          "zh": "羞愧",
+          "pos": "noun",
+          "us": "/ʃeɪm/",
+          "uk": "/ʃeɪm/",
+          "collocations": [
+            "feel shame",
+            "a sense of shame"
+          ],
+          "example": "The fictional speaker describes a feeling of shame.",
+          "translation": "虚构的发言者描述羞愧的感受。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The fictional speaker describes a feeling of shame.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C096",
+      "caption_en": "After a difficult attempt, I find hope and give myself another chance.",
+      "caption_zh": "一次艰难的尝试之后，我找到希望，给自己再一次机会。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two stacked panels same adult woman at cool refined craft desk. Upper assembling paper tower that has collapsed harmlessly on table; lower trying a steadier small tower while adult female friend encourages nearby, small simple bronze medal beside notebook as later story reward. Realistic paper folding, natural hands, no words logos or exaggerated crying, no injuries.",
+      "words": [
+        {
+          "word": "hope",
+          "zh": "希望",
+          "pos": "noun",
+          "us": "/hoʊp/",
+          "uk": "/həʊp/",
+          "collocations": [
+            "have hope",
+            "hope for success"
+          ],
+          "example": "I have hope that the next attempt will work.",
+          "translation": "我希望下一次尝试会成功。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I have hope that the next attempt will work.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "regret",
+          "zh": "遗憾",
+          "pos": "noun",
+          "us": "/rɪˈɡret/",
+          "uk": "/rɪˈɡret/",
+          "collocations": [
+            "feel regret",
+            "regret about"
+          ],
+          "example": "I feel regret about rushing the first attempt.",
+          "translation": "我为第一次尝试过于仓促而遗憾。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I feel regret about rushing the first attempt.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "reward",
+          "zh": "奖励",
+          "pos": "noun",
+          "us": "/rɪˈwɔːrd/",
+          "uk": "/rɪˈwɔːd/",
+          "collocations": [
+            "a small reward",
+            "receive a reward"
+          ],
+          "example": "The medal is a small reward for effort in our story.",
+          "translation": "故事中的奖牌是对努力的小奖励。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（奖励），待最终图确认。",
+          "color": "lavender"
+        },
+        {
+          "word": "chance",
+          "zh": "机会",
+          "pos": "noun",
+          "us": "/tʃæns/",
+          "uk": "/tʃɑːns/",
+          "collocations": [
+            "another chance",
+            "a chance to try"
+          ],
+          "example": "I give myself another chance to try.",
+          "translation": "我给自己再一次尝试的机会。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I give myself another chance to try.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "trouble",
+          "zh": "困难",
+          "pos": "noun",
+          "us": "/ˈtrʌbəl/",
+          "uk": "/ˈtrʌbəl/",
+          "collocations": [
+            "have trouble",
+            "trouble with"
+          ],
+          "example": "I have trouble keeping the paper tower upright.",
+          "translation": "我难以让纸塔保持直立。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I have trouble keeping the paper tower upright.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "foolish",
+          "zh": "不明智的",
+          "pos": "adjective",
+          "us": "/ˈfuːlɪʃ/",
+          "uk": "/ˈfuːlɪʃ/",
+          "collocations": [
+            "a foolish choice",
+            "seem foolish"
+          ],
+          "example": "Rushing without checking was a foolish choice in the story.",
+          "translation": "故事中，不检查就仓促动手是不明智的选择。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Rushing without checking was a foolish choice in the story.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "wise",
+          "zh": "明智的",
+          "pos": "adjective",
+          "us": "/waɪz/",
+          "uk": "/waɪz/",
+          "collocations": [
+            "a wise choice",
+            "be wise"
+          ],
+          "example": "Taking time to check is a wise choice.",
+          "translation": "花时间检查是明智的选择。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Taking time to check is a wise choice.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "tendency",
+          "zh": "倾向",
+          "pos": "noun",
+          "us": "/ˈtendənsi/",
+          "uk": "/ˈtendənsi/",
+          "collocations": [
+            "a tendency to",
+            "a natural tendency"
+          ],
+          "example": "I notice my tendency to rush when I am excited.",
+          "translation": "我注意到自己兴奋时容易仓促行事的倾向。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I notice my tendency to rush when I am excited.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C097",
+      "caption_en": "I write down a thought and consider how an idea can change my view of myself.",
+      "caption_zh": "我记下一段想法，思考一个新点子如何改变我看待自己的方式。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman at quiet cool pearl-toned desk writing in blank notebook, small upright mirror reflecting her naturally, two ordinary unlabelled travel snapshots beside notebook. Korean polished introspective editorial portrait, real skin, credible single reflection, no text, no mystical thought icons or words. Inner mental concepts only represented by later original sentences.",
+      "words": [
+        {
+          "word": "self",
+          "zh": "自我",
+          "pos": "noun",
+          "us": "/self/",
+          "uk": "/self/",
+          "collocations": [
+            "a sense of self",
+            "my inner self"
+          ],
+          "example": "Writing helps me explore my sense of self.",
+          "translation": "写作帮助我探索自我意识。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Writing helps me explore my sense of self.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "mind",
+          "zh": "心智",
+          "pos": "noun",
+          "us": "/maɪnd/",
+          "uk": "/maɪnd/",
+          "collocations": [
+            "in my mind",
+            "an open mind"
+          ],
+          "example": "Many questions come into my mind.",
+          "translation": "许多问题进入我的脑海。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Many questions come into my mind.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "thought",
+          "zh": "想法",
+          "pos": "noun",
+          "us": "/θɔːt/",
+          "uk": "/θɔːt/",
+          "collocations": [
+            "a new thought",
+            "write a thought"
+          ],
+          "example": "I write down a thought before I forget it.",
+          "translation": "忘记之前，我记下这个想法。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I write down a thought before I forget it.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "idea",
+          "zh": "点子",
+          "pos": "noun",
+          "us": "/aɪˈdiːə/",
+          "uk": "/aɪˈdɪə/",
+          "collocations": [
+            "a new idea",
+            "have an idea"
+          ],
+          "example": "A new idea helps me see the problem differently.",
+          "translation": "一个新点子帮助我换个角度看问题。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：A new idea helps me see the problem differently.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "belief",
+          "zh": "信念",
+          "pos": "noun",
+          "us": "/bɪˈliːf/",
+          "uk": "/bɪˈliːf/",
+          "collocations": [
+            "a personal belief",
+            "question a belief"
+          ],
+          "example": "I question a belief that I have held for years.",
+          "translation": "我反思一个持有多年的信念。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I question a belief that I have held for years.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "existence",
+          "zh": "存在",
+          "pos": "noun",
+          "us": "/ɪɡˈzɪstəns/",
+          "uk": "/ɪɡˈzɪstəns/",
+          "collocations": [
+            "human existence",
+            "the meaning of existence"
+          ],
+          "example": "I reflect on the meaning of human existence.",
+          "translation": "我思考人类存在的意义。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I reflect on the meaning of human existence.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "impulse",
+          "zh": "冲动",
+          "pos": "noun",
+          "us": "/ˈɪmpʌls/",
+          "uk": "/ˈɪmpʌls/",
+          "collocations": [
+            "a sudden impulse",
+            "resist an impulse"
+          ],
+          "example": "I pause before acting on a sudden impulse.",
+          "translation": "我在按照突然的冲动行动之前停一下。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I pause before acting on a sudden impulse.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "living",
+          "zh": "活着的",
+          "pos": "adjective",
+          "us": "/ˈlɪvɪŋ/",
+          "uk": "/ˈlɪvɪŋ/",
+          "collocations": [
+            "living things",
+            "a living person"
+          ],
+          "example": "I think about the needs of living things.",
+          "translation": "我思考生物的需要。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I think about the needs of living things.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C098",
+      "caption_en": "This notebook is mine; that cup is for you, and he is sitting there.",
+      "caption_zh": "这本笔记本是我的；那个杯子给你，而他坐在那里。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Two adult women at neat cafe table, main woman left pointing to notebook near herself and friend right pointing to cup near herself, one adult man clearly seated at separate background table. Crisp notebook and cup, cool Korean refined lifestyle travel editorial, no words or brands, natural fingers and no clutter. Later sentences assign pronouns and ownership explicitly.",
+      "words": [
+        {
+          "word": "I",
+          "zh": "我",
+          "pos": "pronoun",
+          "us": "/aɪ/",
+          "uk": "/aɪ/",
+          "collocations": [
+            "I am",
+            "I point"
+          ],
+          "example": "I point to the notebook near me.",
+          "translation": "我指向靠近我的笔记本。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I point to the notebook near me.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "you",
+          "zh": "你",
+          "pos": "pronoun",
+          "us": "/juː/",
+          "uk": "/juː/",
+          "collocations": [
+            "for you",
+            "you are"
+          ],
+          "example": "This cup is for you, my friend.",
+          "translation": "朋友，这个杯子给你。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：This cup is for you, my friend.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "he",
+          "zh": "他",
+          "pos": "pronoun",
+          "us": "/hiː/",
+          "uk": "/hiː/",
+          "collocations": [
+            "he is",
+            "he sits"
+          ],
+          "example": "He is sitting at the other table in our story.",
+          "translation": "故事中的他坐在另一张桌旁。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：He is sitting at the other table in our story.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "this",
+          "zh": "这个",
+          "pos": "determiner",
+          "us": "/ðɪs/",
+          "uk": "/ðɪs/",
+          "collocations": [
+            "this notebook",
+            "this cup"
+          ],
+          "example": "This notebook is close to me.",
+          "translation": "这本笔记本靠近我。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：This notebook is close to me.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "that",
+          "zh": "那个",
+          "pos": "determiner",
+          "us": "/ðæt/",
+          "uk": "/ðæt/",
+          "collocations": [
+            "that cup",
+            "that table"
+          ],
+          "example": "That cup is nearer to you.",
+          "translation": "那个杯子更靠近你。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：That cup is nearer to you.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "here",
+          "zh": "这里",
+          "pos": "adverb",
+          "us": "/hɪr/",
+          "uk": "/hɪə/",
+          "collocations": [
+            "sit here",
+            "right here"
+          ],
+          "example": "My notebook is here beside me.",
+          "translation": "我的笔记本就在这里，在我旁边。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：My notebook is here beside me.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "there",
+          "zh": "那里",
+          "pos": "adverb",
+          "us": "/ðer/",
+          "uk": "/ðeə/",
+          "collocations": [
+            "over there",
+            "sit there"
+          ],
+          "example": "Our other friend is sitting there.",
+          "translation": "我们的另一位朋友坐在那里。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Our other friend is sitting there.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "mine",
+          "zh": "我的",
+          "pos": "pronoun",
+          "us": "/maɪn/",
+          "uk": "/maɪn/",
+          "collocations": [
+            "this is mine",
+            "mine and yours"
+          ],
+          "example": "The notebook is mine.",
+          "translation": "这本笔记本是我的。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The notebook is mine.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "name",
+          "zh": "名字",
+          "pos": "noun",
+          "us": "/neɪm/",
+          "uk": "/neɪm/",
+          "collocations": [
+            "my name",
+            "ask a name"
+          ],
+          "example": "My name is Mina in this story.",
+          "translation": "这个故事中，我的名字是Mina。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：My name is Mina in this story.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "thing",
+          "zh": "东西",
+          "pos": "noun",
+          "us": "/θɪŋ/",
+          "uk": "/θɪŋ/",
+          "collocations": [
+            "a small thing",
+            "one useful thing"
+          ],
+          "example": "The cup is one useful thing on our table.",
+          "translation": "杯子是桌上一件有用的东西。",
+          "mode": "object",
+          "evidence": "场景中体现的具体对象（东西），待最终图确认。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C099",
+      "caption_en": "Almost all the cups are on the tray; one is beside it, and another tray is empty.",
+      "caption_zh": "几乎所有杯子都在托盘上；一个在旁边，另一个托盘是空的。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Adult woman arranging four small plain ceramic cups on a large rectangular tray, one matching cup separate beside tray, second clearly empty tray farther right. Exact total five cups, four on first tray and one outside, no additional cups. Cool Korean precise tabletop editorial environmental portrait, natural hands, no text, clean open edges for ten grammar labels.",
+      "words": [
+        {
+          "word": "all",
+          "zh": "所有的",
+          "pos": "determiner",
+          "us": "/ɔːl/",
+          "uk": "/ɔːl/",
+          "collocations": [
+            "all the cups",
+            "all five"
+          ],
+          "example": "All five cups belong to this set.",
+          "translation": "五个杯子都属于这一套。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：All five cups belong to this set.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "every",
+          "zh": "每个",
+          "pos": "determiner",
+          "us": "/ˈevri/",
+          "uk": "/ˈevri/",
+          "collocations": [
+            "every cup",
+            "every one"
+          ],
+          "example": "Every cup in this set is plain.",
+          "translation": "这一套里的每个杯子都没有花纹。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Every cup in this set is plain.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "only",
+          "zh": "只有",
+          "pos": "adverb",
+          "us": "/ˈoʊnli/",
+          "uk": "/ˈəʊnli/",
+          "collocations": [
+            "only one",
+            "only here"
+          ],
+          "example": "Only one cup is outside the first tray.",
+          "translation": "只有一个杯子在第一个托盘外。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Only one cup is outside the first tray.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "almost",
+          "zh": "几乎",
+          "pos": "adverb",
+          "us": "/ˈɔːlmoʊst/",
+          "uk": "/ˈɔːlməʊst/",
+          "collocations": [
+            "almost all",
+            "almost ready"
+          ],
+          "example": "Almost all the cups are on the first tray.",
+          "translation": "几乎所有杯子都在第一个托盘上。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Almost all the cups are on the first tray.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "quite",
+          "zh": "相当",
+          "pos": "adverb",
+          "us": "/kwaɪt/",
+          "uk": "/kwaɪt/",
+          "collocations": [
+            "quite simple",
+            "quite small"
+          ],
+          "example": "This arrangement is quite simple.",
+          "translation": "这个摆放方式相当简单。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：This arrangement is quite simple.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        },
+        {
+          "word": "very",
+          "zh": "很",
+          "pos": "adverb",
+          "us": "/ˈveri/",
+          "uk": "/ˈveri/",
+          "collocations": [
+            "very small",
+            "very neat"
+          ],
+          "example": "The cups are very small in our story.",
+          "translation": "故事中的杯子很小。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The cups are very small in our story.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "so",
+          "zh": "如此",
+          "pos": "adverb",
+          "us": "/soʊ/",
+          "uk": "/səʊ/",
+          "collocations": [
+            "so small",
+            "so neat"
+          ],
+          "example": "These cups are so small that five fit on the table.",
+          "translation": "这些杯子如此小，桌上能放下五个。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：These cups are so small that five fit on the table.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "such",
+          "zh": "这样的",
+          "pos": "determiner",
+          "us": "/sʌtʃ/",
+          "uk": "/sʌtʃ/",
+          "collocations": [
+            "such a set",
+            "such small cups"
+          ],
+          "example": "Such a simple set is easy to count.",
+          "translation": "这样简单的一套东西很容易清点。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Such a simple set is easy to count.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "any",
+          "zh": "任何的",
+          "pos": "determiner",
+          "us": "/ˈeni/",
+          "uk": "/ˈeni/",
+          "collocations": [
+            "any cups",
+            "any one"
+          ],
+          "example": "Are there any cups on the second tray?",
+          "translation": "第二个托盘上有杯子吗？",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Are there any cups on the second tray?；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "not",
+          "zh": "不",
+          "pos": "adverb",
+          "us": "/nɑːt/",
+          "uk": "/nɒt/",
+          "collocations": [
+            "not on",
+            "not all"
+          ],
+          "example": "The separate cup is not on the first tray.",
+          "translation": "单独的那个杯子不在第一个托盘上。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：The separate cup is not on the first tray.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C100",
+      "caption_en": "If it rains, I read indoors; but when it clears, I go outside and walk.",
+      "caption_zh": "如果下雨，我就在室内读书；天气放晴时，我就出门散步。",
+      "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Exactly two vertically stacked photographic panels, same adult woman. Upper sitting indoors with open book beside rain-speckled window, lower walking on sunlit garden path after rain with matching modest cardigan. Cool Korean refined travel/lifestyle portrait, real skin and hands, no text, labels or symbolic words. Clearly different activities and weather; conditional and contrast meaning only in later original sentences.",
+      "words": [
+        {
+          "word": "and",
+          "zh": "并且",
+          "pos": "conjunction",
+          "us": "/ænd/",
+          "uk": "/ænd/",
+          "collocations": [
+            "read and rest",
+            "walk and talk"
+          ],
+          "example": "I go outside and walk when it is clear.",
+          "translation": "天气晴朗时，我出门并散步。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I go outside and walk when it is clear.；不声称该状态/含义本身在画面可见。",
+          "color": "blue"
+        },
+        {
+          "word": "but",
+          "zh": "但是",
+          "pos": "conjunction",
+          "us": "/bʌt/",
+          "uk": "/bʌt/",
+          "collocations": [
+            "but now",
+            "but it rains"
+          ],
+          "example": "I want to walk, but it is raining in the first scene.",
+          "translation": "我想散步，但是第一个场景中正在下雨。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I want to walk, but it is raining in the first scene.；不声称该状态/含义本身在画面可见。",
+          "color": "teal"
+        },
+        {
+          "word": "if",
+          "zh": "如果",
+          "pos": "conjunction",
+          "us": "/ɪf/",
+          "uk": "/ɪf/",
+          "collocations": [
+            "if it rains",
+            "if possible"
+          ],
+          "example": "If it rains, I read indoors.",
+          "translation": "如果下雨，我就在室内读书。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：If it rains, I read indoors.；不声称该状态/含义本身在画面可见。",
+          "color": "lavender"
+        },
+        {
+          "word": "though",
+          "zh": "虽然",
+          "pos": "conjunction",
+          "us": "/ðoʊ/",
+          "uk": "/ðəʊ/",
+          "collocations": [
+            "though it rains",
+            "though small"
+          ],
+          "example": "Though it is raining, I enjoy my book.",
+          "translation": "虽然正在下雨，我仍享受读书。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：Though it is raining, I enjoy my book.；不声称该状态/含义本身在画面可见。",
+          "color": "rose"
+        },
+        {
+          "word": "while",
+          "zh": "当……时",
+          "pos": "conjunction",
+          "us": "/waɪl/",
+          "uk": "/waɪl/",
+          "collocations": [
+            "while I read",
+            "while it rains"
+          ],
+          "example": "I stay indoors while the rain falls.",
+          "translation": "下雨时，我待在室内。",
+          "mode": "context",
+          "evidence": "由原创例句给出的语境：I stay indoors while the rain falls.；不声称该状态/含义本身在画面可见。",
+          "color": "amber"
+        }
+      ]
+    }
+  ],
+  "lexical_review": "Codex按本卡语境编辑复核。全部词义、音标、搭配与例句为原创教学整理，不引用或不声称访问任何词典/词典页面。",
+  "contentFinalizedAt": "2026-10-03T18:08:55.355355+00:00"
+}

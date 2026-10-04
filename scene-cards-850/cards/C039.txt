@@ -1,0 +1,251 @@
+C039  山路转弯
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C039.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C039.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T09:09:33Z → 2026-10-03T09:11:53Z
+  提示词文件: prompts/C039_image_final.txt
+
+场景: 狭窄山路与宽平路双幅对比，主角转弯并穿过拱门。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 狭径连续穿过石拱门，宽路在右下转弯，远山和坡面可见；人物正走出拱门，turn改为实际弯道名词义，不声称正转身。
+
+主配文:
+  英文: The narrow path goes through an arch beside a wide mountain road.
+  中文: 狭窄的小径穿过拱门，旁边是一条宽阔的山路。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): mountain, slope, narrow, wide, turn, through, arch, direction
+
+------------------------------------------------------------------------
+[1/8] mountain  (W455)
+  词义: 山
+  词性: noun
+  音标: UK /ˈmaʊntən/ | US /ˈmaʊntən/
+  搭配: a green mountain
+  例句: A mountain rises behind the village.
+  例句高亮: A **mountain** rises behind the village.
+  例句中文: 村庄后面耸立着一座山。
+  标注模式: object
+  标注说明: 远处完整可见山体局部。
+  坐标(normalized): [0.47, 0.226, 0.997, 0.507]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "远处完整可见山体局部。"
+    sentence: "A mountain rises behind the village."
+    matched_form: "mountain"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 山
+
+------------------------------------------------------------------------
+[2/8] slope  (W664)
+  词义: 斜坡
+  词性: noun
+  音标: UK /sləʊp/ | US /sloʊp/
+  搭配: a gentle slope
+  例句: The path climbs a gentle slope.
+  例句高亮: The path climbs a gentle **slope**.
+  例句中文: 小径沿着缓坡向上。
+  标注模式: object
+  标注说明: 山坡的倾斜地表区域。
+  坐标(normalized): [0.55, 0.411, 0.965, 0.71]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "山坡的倾斜地表区域。"
+    sentence: "The path climbs a gentle slope."
+    matched_form: "slope"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 坡；斜坡
+
+------------------------------------------------------------------------
+[3/8] narrow  (W463)
+  词义: 狭窄的
+  词性: adjective
+  音标: UK /ˈnærəʊ/ | US /ˈnæroʊ/
+  搭配: a narrow path
+  例句: The path under the arch is narrow.
+  例句高亮: The path under the arch is **narrow**.
+  例句中文: 拱门下的小径很窄。
+  标注模式: object
+  标注说明: 拱门下狭窄小径与实际边界。
+  坐标(normalized): [0.091, 0.446, 0.41, 0.991]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "拱门下狭窄小径与实际边界。"
+    sentence: "The path under the arch is narrow."
+    matched_form: "narrow"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 狭窄的
+
+------------------------------------------------------------------------
+[4/8] wide  (W826)
+  词义: 宽的
+  词性: adjective
+  音标: UK /waɪd/ | US /waɪd/
+  搭配: a wide road
+  例句: The road beside the path is wide.
+  例句高亮: The road beside the path is **wide**.
+  例句中文: 小径旁边的道路很宽。
+  标注模式: object
+  标注说明: 前景宽道路，和小径形成可见宽度对照。
+  坐标(normalized): [0.591, 0.755, 0.999, 0.992]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "前景宽道路，和小径形成可见宽度对照。"
+    sentence: "The road beside the path is wide."
+    matched_form: "wide"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 宽的
+
+------------------------------------------------------------------------
+[5/8] turn  (W785)
+  词义: 转弯
+  词性: noun
+  音标: UK /tɜːn/ | US /tɜːrn/
+  搭配: a gentle turn
+  例句: The wide road has a gentle turn.
+  例句高亮: The wide road has a gentle **turn**.
+  例句中文: 宽路有一个缓弯。
+  标注模式: relation
+  标注说明: 右下宽道路的实际弯曲处，选名词弯道义，不虚构人物正在转弯。
+  坐标(normalized): [0.591, 0.755, 0.999, 0.992]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右下宽道路的实际弯曲处，选名词弯道义，不虚构人物正在转弯。"
+    sentence: "The wide road has a gentle turn."
+    matched_form: "turn"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 转动
+
+------------------------------------------------------------------------
+[6/8] through  (W758)
+  词义: 穿过
+  词性: preposition
+  音标: UK /θruː/ | US /θruː/
+  搭配: through the arch
+  例句: The path goes through the arch.
+  例句高亮: The path goes **through** the arch.
+  例句中文: 小径穿过拱门。
+  标注模式: relation
+  标注说明: 小径连续穿过拱门开口的空间关系。
+  坐标(normalized): [0.094, 0.232, 0.355, 0.489]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "小径连续穿过拱门开口的空间关系。"
+    sentence: "The path goes through the arch."
+    matched_form: "through"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 通过
+
+------------------------------------------------------------------------
+[7/8] arch  (W031)
+  词义: 拱门
+  词性: noun
+  音标: UK /ɑːtʃ/ | US /ɑːrtʃ/
+  搭配: a stone arch
+  例句: The stone arch stands over the path.
+  例句高亮: The stone **arch** stands over the path.
+  例句中文: 石拱门横跨小径。
+  标注模式: object
+  标注说明: 完整弧顶与两侧支柱的拱门。
+  坐标(normalized): [0.084, 0.178, 0.454, 0.526]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "完整弧顶与两侧支柱的拱门。"
+    sentence: "The stone arch stands over the path."
+    matched_form: "arch"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 拱门；弓形
+
+------------------------------------------------------------------------
+[8/8] direction  (W200)
+  词义: 方向
+  词性: noun
+  音标: UK /dəˈrekʃn/ | US /dəˈrekʃn/
+  搭配: the right direction
+  例句: The path shows the direction through the arch.
+  例句高亮: The path shows the **direction** through the arch.
+  例句中文: 小径指明了穿过拱门的方向。
+  标注模式: relation
+  标注说明: 弯路通向拱门村落的路径方向，不虚构箭头。
+  坐标(normalized): [0.091, 0.446, 0.41, 0.991]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "弯路通向拱门村落的路径方向，不虚构箭头。"
+    sentence: "The path shows the direction through the arch."
+    matched_form: "direction"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 方向
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 8
+  context_annotations: 0
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C039 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=44 | meta.approved_cards=45
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One mountain-village travel environmental portrait, broad foreground road at lower right joins a visibly narrower uphill stone footpath bending toward and THROUGH a complete old stone arch at mid-left. Woman walking on the narrow path near arch, full body visible, distant grey-green mountains and sloping hillside clear. Both broad road width and narrow path width readable, not blocked by person. Stone arch complete curve and passage open, no impossible road perspective. Negative pale sky and open road edges.

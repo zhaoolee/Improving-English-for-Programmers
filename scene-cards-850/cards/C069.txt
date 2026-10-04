@@ -1,0 +1,282 @@
+C069  游园会小表演
+========================================================================
+章节: 学习与艺术
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C069.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C069.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:16:08 UTC → 2026-10-03 17:21:43 UTC
+  提示词文件: prompts/C069_image_final.txt
+
+场景: 公园小舞台举行魔术与趣味表演，游戏和幽默通过观众反应表达。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 主角在小平台表演帽子丝巾戏法，朋友作为观众；愉快幽默不按笑脸推断，由句子明示。
+
+主配文:
+  英文: A little humor makes the event fun, and we enjoy the small magic act.
+  中文: 一点幽默让活动充满趣味，我们欣赏这个小魔术节目。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): play, amusement, pleasure, humor, trick, act, attraction, happy, event
+
+------------------------------------------------------------------------
+[1/9] play  (W532)
+  词义: 玩耍
+  词性: verb
+  音标: UK /pleɪ/ | US /pleɪ/
+  搭配: play a game; play together
+  例句: We play a simple game before the show.
+  例句高亮: We **play** a simple game before the show.
+  例句中文: 演出前，我们玩一个简单的游戏。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：We play a simple game before the show.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "We play a simple game before the show."
+    matched_form: "play"
+    context: "由原创例句给出的语境：We play a simple game before the show.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 玩耍；剧本
+
+------------------------------------------------------------------------
+[2/9] amusement  (W020)
+  词义: 娱乐
+  词性: noun
+  音标: UK /əˈmjuːzmənt/ | US /əˈmjuːzmənt/
+  搭配: for amusement; a source of amusement
+  例句: The show is a source of amusement.
+  例句高亮: The show is a source of **amusement**.
+  例句中文: 这个节目给人带来娱乐。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The show is a source of amusement.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The show is a source of amusement."
+    matched_form: "amusement"
+    context: "由原创例句给出的语境：The show is a source of amusement.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 娱乐；消遣
+
+------------------------------------------------------------------------
+[3/9] pleasure  (W534)
+  词义: 愉快
+  词性: noun
+  音标: UK /ˈpleʒə/ | US /ˈpleʒɚ/
+  搭配: great pleasure; take pleasure in
+  例句: Watching the act gives me pleasure.
+  例句高亮: Watching the act gives me **pleasure**.
+  例句中文: 观看这个节目让我愉快。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Watching the act gives me pleasure.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Watching the act gives me pleasure."
+    matched_form: "pleasure"
+    context: "由原创例句给出的语境：Watching the act gives me pleasure.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 快乐；愉悦
+
+------------------------------------------------------------------------
+[4/9] humor  (W350)
+  词义: 幽默
+  词性: noun
+  音标: UK /ˈhjuːmə/ | US /ˈhjuːmɚ/
+  搭配: a sense of humor; gentle humor
+  例句: Her gentle humor makes us laugh.
+  例句高亮: Her gentle **humor** makes us laugh.
+  例句中文: 她温和的幽默让我们发笑。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Her gentle humor makes us laugh.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Her gentle humor makes us laugh."
+    matched_form: "humor"
+    context: "由原创例句给出的语境：Her gentle humor makes us laugh.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 幽默感
+
+------------------------------------------------------------------------
+[5/9] trick  (W781)
+  词义: 魔术戏法
+  词性: noun
+  音标: UK /trɪk/ | US /trɪk/
+  搭配: a magic trick; perform a trick
+  例句: She performs a trick with a scarf and a hat.
+  例句高亮: She performs a **trick** with a scarf and a hat.
+  例句中文: 她用丝巾和帽子表演一个戏法。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（魔术戏法），待最终图确认。
+  坐标(normalized): [0.499, 0.171, 0.738, 0.542]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "拿帽子和丝巾示意魔术动作，戏法由故事明示。"
+    sentence: "She performs a trick with a scarf and a hat."
+    matched_form: "trick"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 技巧
+
+------------------------------------------------------------------------
+[6/9] act  (W007)
+  词义: 表演节目
+  词性: noun
+  音标: UK /ækt/ | US /ækt/
+  搭配: a magic act; a short act
+  例句: The magic act is part of the event.
+  例句高亮: The magic **act** is part of the event.
+  例句中文: 这个魔术节目是活动的一部分。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（表演节目），待最终图确认。
+  坐标(normalized): [0.328, 0.117, 0.759, 0.982]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "正在表演的主角，故事指定魔术节目。"
+    sentence: "The magic act is part of the event."
+    matched_form: "act"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 行动；表演
+
+------------------------------------------------------------------------
+[7/9] attraction  (W041)
+  词义: 吸引人的节目
+  词性: noun
+  音标: UK /əˈtrækʃən/ | US /əˈtrækʃən/
+  搭配: the main attraction; a popular attraction
+  例句: The magic show is the main attraction.
+  例句高亮: The magic show is the main **attraction**.
+  例句中文: 魔术表演是最吸引人的节目。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：The magic show is the main attraction.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "The magic show is the main attraction."
+    matched_form: "attraction"
+    context: "由原创例句给出的语境：The magic show is the main attraction.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 吸引；吸引力
+
+------------------------------------------------------------------------
+[8/9] happy  (W323)
+  词义: 开心的
+  词性: adjective
+  音标: UK /ˈhæpi/ | US /ˈhæpi/
+  搭配: feel happy; a happy moment
+  例句: I feel happy while watching with my friends.
+  例句高亮: I feel **happy** while watching with my friends.
+  例句中文: 和朋友一起观看时，我感到开心。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I feel happy while watching with my friends.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I feel happy while watching with my friends."
+    matched_form: "happy"
+    context: "由原创例句给出的语境：I feel happy while watching with my friends.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 快乐的
+
+------------------------------------------------------------------------
+[9/9] event  (W238)
+  词义: 活动
+  词性: noun
+  音标: UK /ɪˈvent/ | US /ɪˈvent/
+  搭配: a park event; attend an event
+  例句: We attend a small event in the park.
+  例句高亮: We attend a small **event** in the park.
+  例句中文: 我们在公园参加一个小活动。
+  标注模式: relation
+  标注说明: 场景中体现的关系（活动），待最终图确认。
+  坐标(normalized): [0.017, 0.502, 0.998, 0.982]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "平台与观众关系，故事指定公园活动。"
+    sentence: "We attend a small event in the park."
+    matched_form: "event"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 事件
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 3
+  context_annotations: 6
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C069 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=69 | meta.approved_cards=70
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Polished cool outdoor park fair small wooden performance platform, adult East Asian woman magician showing simple coloured silk scarf above plain black top hat, two adult friends in foreground reacting with natural smiles. Clear hat scarf hands; no floating impossible limbs or text, no playing card letters. Show event context and friendly theatrical performance, refined Instagram candid editorial.

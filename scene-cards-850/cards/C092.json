@@ -1,0 +1,406 @@
+{
+  "id": "C092",
+  "chapter": "社会与表达",
+  "title": "朋友相伴的一天",
+  "scene": "朋友共同散步，已婚伴侣温和互动，日常善意与尊重明确。",
+  "target_count": 9,
+  "primary_words": [
+    "friend",
+    "married",
+    "relation",
+    "kind",
+    "respect",
+    "society",
+    "common",
+    "behavior",
+    "shake"
+  ],
+  "targets": [
+    {
+      "word_id": "W291",
+      "word": "friend",
+      "aliases": [],
+      "source_zh_unreviewed": "朋友；友人",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "朋友",
+      "pos": "noun",
+      "ipa_us": "/frend/",
+      "ipa_uk": "/frend/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧握手女子，句子明确她是我的朋友。",
+        "sentence": "The woman greeting me is my friend.",
+        "matched_form": "friend",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The woman greeting me is my friend.",
+      "example_zh": "向我问好的女子是我的朋友。",
+      "bbox_normalized": [
+        0.394,
+        0.234,
+        0.788,
+        0.998
+      ],
+      "collocations": [
+        "a close friend",
+        "meet a friend"
+      ],
+      "example_en_highlighted": "The woman greeting me is my **friend**.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中体现的具体对象（朋友），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W428",
+      "word": "married",
+      "aliases": [],
+      "source_zh_unreviewed": "已婚的",
+      "planned_mode": "context",
+      "sense_zh": "已婚的",
+      "pos": "adjective",
+      "ipa_us": "/ˈmærid/",
+      "ipa_uk": "/ˈmærid/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My friend and her partner are married in this story.",
+        "matched_form": "married",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "My friend and her partner are married in this story.",
+      "example_zh": "故事中，我的朋友和她的伴侣已婚。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a married couple",
+        "be married"
+      ],
+      "example_en_highlighted": "My friend and her partner are **married** in this story.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：My friend and her partner are married in this story.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W588",
+      "word": "relation",
+      "aliases": [],
+      "source_zh_unreviewed": "关系；亲属",
+      "planned_mode": "context",
+      "sense_zh": "关系",
+      "pos": "noun",
+      "ipa_us": "/rɪˈleɪʃən/",
+      "ipa_uk": "/rɪˈleɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We describe the relation between the two partners.",
+        "matched_form": "relation",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "We describe the relation between the two partners.",
+      "example_zh": "我们描述这两位伴侣之间的关系。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a friendly relation",
+        "the relation between"
+      ],
+      "example_en_highlighted": "We describe the **relation** between the two partners.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：We describe the relation between the two partners.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W379",
+      "word": "kind",
+      "aliases": [],
+      "source_zh_unreviewed": "种类；友善的",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "友善的",
+      "pos": "adjective",
+      "ipa_us": "/kaɪnd/",
+      "ipa_uk": "/kaɪnd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I try to be kind when meeting new people.",
+        "matched_form": "kind",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I try to be kind when meeting new people.",
+      "example_zh": "认识新朋友时，我努力友善待人。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a kind gesture",
+        "be kind"
+      ],
+      "example_en_highlighted": "I try to be **kind** when meeting new people.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I try to be kind when meeting new people.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W592",
+      "word": "respect",
+      "aliases": [],
+      "source_zh_unreviewed": "尊重；敬意",
+      "planned_mode": "context",
+      "sense_zh": "尊重",
+      "pos": "noun",
+      "ipa_us": "/rɪˈspekt/",
+      "ipa_uk": "/rɪˈspekt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I show respect by listening carefully.",
+        "matched_form": "respect",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "I show respect by listening carefully.",
+      "example_zh": "我通过认真倾听表达尊重。",
+      "bbox_normalized": null,
+      "collocations": [
+        "show respect",
+        "mutual respect"
+      ],
+      "example_en_highlighted": "I show **respect** by listening carefully.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：I show respect by listening carefully.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W677",
+      "word": "society",
+      "aliases": [],
+      "source_zh_unreviewed": "社会",
+      "planned_mode": "context",
+      "sense_zh": "社会",
+      "pos": "noun",
+      "ipa_us": "/səˈsaɪəti/",
+      "ipa_uk": "/səˈsaɪəti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Respect helps people live together in society.",
+        "matched_form": "society",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Respect helps people live together in society.",
+      "example_zh": "尊重有助于人们在社会中共同生活。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in society",
+        "a fair society"
+      ],
+      "example_en_highlighted": "Respect helps people live together in **society**.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Respect helps people live together in society.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W147",
+      "word": "common",
+      "aliases": [],
+      "source_zh_unreviewed": "常见的；普遍的",
+      "planned_mode": "context",
+      "sense_zh": "常见的",
+      "pos": "adjective",
+      "ipa_us": "/ˈkɑːmən/",
+      "ipa_uk": "/ˈkɒmən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A handshake is a common greeting in some places.",
+        "matched_form": "common",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "A handshake is a common greeting in some places.",
+      "example_zh": "在有些地方，握手是常见的问候方式。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a common greeting",
+        "common behavior"
+      ],
+      "example_en_highlighted": "A handshake is a **common** greeting in some places.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：A handshake is a common greeting in some places.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W062",
+      "word": "behavior",
+      "aliases": [],
+      "source_zh_unreviewed": "行为；举止",
+      "planned_mode": "context",
+      "sense_zh": "举止",
+      "pos": "noun",
+      "ipa_us": "/bɪˈheɪvjɚ/",
+      "ipa_uk": "/bɪˈheɪvjə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Kind behavior makes a meeting easier.",
+        "matched_form": "behavior",
+        "referent_region_verified": false,
+        "context": "由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。",
+        "image_verified": null
+      },
+      "example_en": "Kind behavior makes a meeting easier.",
+      "example_zh": "友善的举止让见面更轻松。",
+      "bbox_normalized": null,
+      "collocations": [
+        "kind behavior",
+        "polite behavior"
+      ],
+      "example_en_highlighted": "Kind **behavior** makes a meeting easier.",
+      "annotation_mode": "context",
+      "annotation_note": "由原创例句给出的语境：Kind behavior makes a meeting easier.；不声称该状态/含义本身在画面可见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W641",
+      "word": "shake",
+      "aliases": [],
+      "source_zh_unreviewed": "摇动",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "握手",
+      "pos": "verb",
+      "ipa_us": "/ʃeɪk/",
+      "ipa_uk": "/ʃeɪk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "双方右手相握的局部动作。",
+        "sentence": "We shake hands on the path.",
+        "matched_form": "shake",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We shake hands on the path.",
+      "example_zh": "我们在小路上握手。",
+      "bbox_normalized": [
+        0.353,
+        0.541,
+        0.466,
+        0.595
+      ],
+      "collocations": [
+        "shake hands",
+        "shake hands with"
+      ],
+      "example_en_highlighted": "We **shake** hands on the path.",
+      "annotation_mode": "action",
+      "annotation_note": "场景中体现的具体动作（握手），待最终图确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I greet a friend, shake hands, and show respect through kind behavior.",
+    "zh": "我向朋友问好、握手，并通过友善的举止表达尊重。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C092\n标题 朋友相伴的一天\n场景 朋友共同散步，已婚伴侣温和互动，日常善意与尊重明确。\n目标词 friend, married, relation, kind, respect, society, common, behavior, shake\n原创主配文草案 Kind behavior is a sign of respect.\n中文草案 友善的行为体现尊重。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Three fully clothed adults meeting on cool elegant park path. Main adult woman left shaking hands with adult female friend right, adult partner standing beside friend. Handshake clearly natural two right hands no tangled fingers. Calm candid Korean travel portrait with open park edges, no words or logos. Friendship and marriage only assigned by teaching story.",
+  "status": "approved",
+  "image_path": "images/C092.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 9,
+    "content_entries_complete": 9,
+    "sentence_evidence_complete": 9,
+    "verified_targets": 9,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 7,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C092 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03 18:13:18 UTC",
+    "ended_at": "2026-10-03 18:15:15 UTC",
+    "prompt_path": "prompts/C092_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C092.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "左女子与右女子自然握手，旁边成年伴侣清楚。婚姻友谊是故事设定，不按接触动作证明。"
+  }
+}

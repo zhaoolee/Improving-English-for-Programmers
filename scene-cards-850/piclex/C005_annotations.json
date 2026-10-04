@@ -1,0 +1,259 @@
+{
+  "filename": "C005-一家人围桌.png",
+  "labels": [
+    {
+      "x": 132,
+      "y": 349,
+      "english": "family",
+      "chinese": "家人",
+      "phoneticUS": "/ˈfæməli/",
+      "phoneticUK": "/ˈfæməli/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 110
+      },
+      "anchorPosition": {
+        "x": 132,
+        "y": 349
+      },
+      "boundingBox": {
+        "left": 5,
+        "top": 344,
+        "right": 995,
+        "bottom": 795
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+        "association": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+        "collocation": "my family; a family dinner",
+        "example": "We are a family.",
+        "exampleChinese": "我们是一家人。"
+      }
+    },
+    {
+      "x": 137,
+      "y": 349,
+      "english": "father",
+      "chinese": "父亲",
+      "phoneticUS": "/ˈfɑːðər/",
+      "phoneticUK": "/ˈfɑːðə/",
+      "bubblePosition": {
+        "x": 140,
+        "y": 290
+      },
+      "anchorPosition": {
+        "x": 137,
+        "y": 349
+      },
+      "boundingBox": {
+        "left": 5,
+        "top": 348,
+        "right": 269,
+        "bottom": 740
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左侧蓝灰针织衫男性为原创故事设定中的父亲；框只定位所指人物，亲属关系来自故事与例句，不从外貌认定。",
+        "association": "左侧蓝灰针织衫男性为原创故事设定中的父亲；框只定位所指人物，亲属关系来自故事与例句，不从外貌认定。",
+        "collocation": "my father; a father and mother",
+        "example": "My father sits on the left.",
+        "exampleChinese": "我的父亲坐在左边。"
+      }
+    },
+    {
+      "x": 298,
+      "y": 382,
+      "english": "mother",
+      "chinese": "母亲",
+      "phoneticUS": "/ˈmʌðər/",
+      "phoneticUK": "/ˈmʌðə/",
+      "bubblePosition": {
+        "x": 310,
+        "y": 320
+      },
+      "anchorPosition": {
+        "x": 298,
+        "y": 382
+      },
+      "boundingBox": {
+        "left": 185,
+        "top": 381,
+        "right": 411,
+        "bottom": 685
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "左中奶白上衣女性为原创故事设定中的母亲；区域只定位所指人物，亲属身份来自故事与例句。",
+        "association": "左中奶白上衣女性为原创故事设定中的母亲；区域只定位所指人物，亲属身份来自故事与例句。",
+        "collocation": "my mother; my father and mother",
+        "example": "My mother sits beside my father.",
+        "exampleChinese": "我的母亲坐在父亲旁边。"
+      }
+    },
+    {
+      "x": 728,
+      "y": 348,
+      "english": "brother",
+      "chinese": "兄弟",
+      "phoneticUS": "/ˈbrʌðər/",
+      "phoneticUK": "/ˈbrʌðə/",
+      "bubblePosition": {
+        "x": 710,
+        "y": 280
+      },
+      "anchorPosition": {
+        "x": 728,
+        "y": 348
+      },
+      "boundingBox": {
+        "left": 609,
+        "top": 340,
+        "right": 846,
+        "bottom": 730
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右中蓝衬衫男性为原创故事设定中的兄弟；区域只定位所指人物，不由性别或年龄推断亲属身份。",
+        "association": "右中蓝衬衫男性为原创故事设定中的兄弟；区域只定位所指人物，不由性别或年龄推断亲属身份。",
+        "collocation": "my brother; an older brother",
+        "example": "My brother wears a blue shirt.",
+        "exampleChinese": "我的兄弟穿着蓝色衬衫。"
+      }
+    },
+    {
+      "x": 894,
+      "y": 395,
+      "english": "sister",
+      "chinese": "姐妹",
+      "phoneticUS": "/ˈsɪstər/",
+      "phoneticUK": "/ˈsɪstə/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 325
+      },
+      "anchorPosition": {
+        "x": 894,
+        "y": 395
+      },
+      "boundingBox": {
+        "left": 793,
+        "top": 394,
+        "right": 995,
+        "bottom": 797
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "最右侧浅灰开衫女性为原创故事设定中的姐妹；区域只定位所指人物，亲属关系由故事确定。",
+        "association": "最右侧浅灰开衫女性为原创故事设定中的姐妹；区域只定位所指人物，亲属关系由故事确定。",
+        "collocation": "my sister; a younger sister",
+        "example": "My sister wears a grey cardigan.",
+        "exampleChinese": "我的姐妹穿着灰色开衫。"
+      }
+    },
+    {
+      "x": 695,
+      "y": 735,
+      "english": "table",
+      "chinese": "桌子",
+      "phoneticUS": "/ˈteɪbl/",
+      "phoneticUK": "/ˈteɪbl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 785
+      },
+      "anchorPosition": {
+        "x": 695,
+        "y": 735
+      },
+      "boundingBox": {
+        "left": 72,
+        "top": 596,
+        "right": 995,
+        "bottom": 775
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (countable)",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框餐桌可见桌面，不把所有家人或椅子算作桌子。",
+        "association": "框餐桌可见桌面，不把所有家人或椅子算作桌子。",
+        "collocation": "at the table; a dining table",
+        "example": "The plates are on the table.",
+        "exampleChinese": "盘子放在桌上。"
+      }
+    },
+    {
+      "x": 132,
+      "y": 349,
+      "english": "together",
+      "chinese": "一起",
+      "phoneticUS": "/təˈɡeðər/",
+      "phoneticUK": "/təˈɡeðə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 245
+      },
+      "anchorPosition": {
+        "x": 132,
+        "y": 349
+      },
+      "boundingBox": {
+        "left": 5,
+        "top": 344,
+        "right": 995,
+        "bottom": 795
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+        "association": "五人同桌聚坐的群体区域；family身份来自原创家庭设定，together对应共同围桌的可见排列；区域不包含整张照片。",
+        "collocation": "sit together; eat together",
+        "example": "We sit together at the table.",
+        "exampleChinese": "我们一起坐在桌旁。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "My family sits together at the table for dinner.",
+    "chinese": "我的家人一起坐在桌旁吃晚饭。",
+    "source": "原创配文 · C005 一家人围桌",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "本项目用内置 image_gen 生成的图片；配文、例句和中文译文为原创。此导入为工作台草稿。",
+  "sourceURL": ""
+}

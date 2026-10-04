@@ -1,0 +1,20 @@
+{
+  "cardID": "C033",
+  "imagePath": "../images/C033.png",
+  "imageSHA256": "fa46224b2623618a97fe70464cd6d55c4199d6c5c4a1ca01acc8728ec7abf086",
+  "imageReviewed": true,
+  "annotationsPath": "C033_annotations.json",
+  "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+  "expectedWords": [
+    "station",
+    "train",
+    "ticket",
+    "rail",
+    "carriage",
+    "porter",
+    "waiting",
+    "journey",
+    "seat"
+  ],
+  "receiptPath": "C033_import_receipt.json"
+}

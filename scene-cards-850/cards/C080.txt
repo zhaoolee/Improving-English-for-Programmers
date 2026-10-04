@@ -1,0 +1,284 @@
+C080  日程先后顺序
+========================================================================
+章节: 工作与信息
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C080.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C080.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03 17:35:06 UTC → 2026-10-03 17:44:04 UTC
+  提示词文件: prompts/C080_image_final.txt
+
+场景: 同一主角三小幅表现昨天完成、现在进行、以后计划，时刻明确。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 三幅笔记任务顺序清楚，只有中幅打开笔记本开始任务可定位；昨天/现在/未来由配文标定，不按光线断言日期。
+
+主配文:
+  英文: I finished one task yesterday; now I start another and plan what comes after.
+  中文: 我昨天完成了一项任务，现在开始另一项，并计划之后的事。
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): yesterday, now, past, present, future, before, after, then, start
+
+------------------------------------------------------------------------
+[1/9] yesterday  (W848)
+  词义: 昨天
+  词性: adverb
+  音标: UK /ˈjestədeɪ/ | US /ˈjestɚdeɪ/
+  搭配: yesterday evening; finished yesterday
+  例句: I finished the first task yesterday.
+  例句高亮: I finished the first task **yesterday**.
+  例句中文: 我昨天完成了第一项任务。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I finished the first task yesterday.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I finished the first task yesterday."
+    matched_form: "yesterday"
+    context: "由原创例句给出的语境：I finished the first task yesterday.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 昨天
+
+------------------------------------------------------------------------
+[2/9] now  (W483)
+  词义: 现在
+  词性: adverb
+  音标: UK /naʊ/ | US /naʊ/
+  搭配: right now; start now
+  例句: Now I open another notebook.
+  例句高亮: **Now** I open another notebook.
+  例句中文: 现在我打开另一本笔记本。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：Now I open another notebook.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Now I open another notebook."
+    matched_form: "now"
+    context: "由原创例句给出的语境：Now I open another notebook.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 现在
+
+------------------------------------------------------------------------
+[3/9] past  (W516)
+  词义: 过去
+  词性: noun
+  音标: UK /pɑːst/ | US /pæst/
+  搭配: in the past; the recent past
+  例句: That finished task belongs to the past.
+  例句高亮: That finished task belongs to the **past**.
+  例句中文: 那项已完成的任务属于过去。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：That finished task belongs to the past.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "That finished task belongs to the past."
+    matched_form: "past"
+    context: "由原创例句给出的语境：That finished task belongs to the past.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 过去；过去的
+
+------------------------------------------------------------------------
+[4/9] present  (W549)
+  词义: 现在
+  词性: noun
+  音标: UK /ˈprezənt/ | US /ˈprezənt/
+  搭配: at present; the present moment
+  例句: At present, I am working on the next task.
+  例句高亮: At **present**, I am working on the next task.
+  例句中文: 目前，我正在做下一项任务。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：At present, I am working on the next task.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "At present, I am working on the next task."
+    matched_form: "present"
+    context: "由原创例句给出的语境：At present, I am working on the next task.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 礼物；现在的
+
+------------------------------------------------------------------------
+[5/9] future  (W296)
+  词义: 未来
+  词性: noun
+  音标: UK /ˈfjuːtʃə/ | US /ˈfjuːtʃɚ/
+  搭配: in the future; a future plan
+  例句: I plan to study more in the future.
+  例句高亮: I plan to study more in the **future**.
+  例句中文: 我计划未来学习更多。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I plan to study more in the future.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I plan to study more in the future."
+    matched_form: "future"
+    context: "由原创例句给出的语境：I plan to study more in the future.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 未来；将来
+
+------------------------------------------------------------------------
+[6/9] before  (W061)
+  词义: 在……之前
+  词性: preposition
+  音标: UK /bɪˈfɔː/ | US /bɪˈfɔːr/
+  搭配: before work; before the next task
+  例句: I close one notebook before opening another.
+  例句高亮: I close one notebook **before** opening another.
+  例句中文: 打开另一本笔记本之前，我先合上这一本。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I close one notebook before opening another.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I close one notebook before opening another."
+    matched_form: "before"
+    context: "由原创例句给出的语境：I close one notebook before opening another.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 在...之前
+
+------------------------------------------------------------------------
+[7/9] after  (W011)
+  词义: 在……之后
+  词性: preposition
+  音标: UK /ˈɑːftə/ | US /ˈæftɚ/
+  搭配: after work; after the first task
+  例句: I begin the next task after a short break.
+  例句高亮: I begin the next task **after** a short break.
+  例句中文: 短暂休息之后，我开始下一项任务。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I begin the next task after a short break.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I begin the next task after a short break."
+    matched_form: "after"
+    context: "由原创例句给出的语境：I begin the next task after a short break.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 在...之后；后来
+
+------------------------------------------------------------------------
+[8/9] then  (W747)
+  词义: 然后
+  词性: adverb
+  音标: UK /ðen/ | US /ðen/
+  搭配: and then; then begin
+  例句: I open the notebook, then pick up my pen.
+  例句高亮: I open the notebook, **then** pick up my pen.
+  例句中文: 我打开笔记本，然后拿起钢笔。
+  标注模式: context
+  标注说明: 由原创例句给出的语境：I open the notebook, then pick up my pen.；不声称该状态/含义本身在画面可见。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I open the notebook, then pick up my pen."
+    matched_form: "then"
+    context: "由原创例句给出的语境：I open the notebook, then pick up my pen.；不声称该状态/含义本身在画面可见。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 然后
+
+------------------------------------------------------------------------
+[9/9] start  (W698)
+  词义: 开始
+  词性: verb
+  音标: UK /stɑːt/ | US /stɑːrt/
+  搭配: start a task; start writing
+  例句: I start the new task by opening my notebook.
+  例句高亮: I **start** the new task by opening my notebook.
+  例句中文: 我通过打开笔记本来开始新任务。
+  标注模式: action
+  标注说明: 场景中体现的具体动作（开始），待最终图确认。
+  坐标(normalized): [0.331, 0.525, 0.732, 0.652]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "中幅双手打开笔记本开始下一任务，故事指定动作意义。"
+    sentence: "I start the new task by opening my notebook."
+    matched_form: "start"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: context | 源释义(未复核): 开始
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 1
+  context_annotations: 8
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C080 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=79 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 refined cool Korean Instagram editorial photograph. Adult East Asian woman about 25, elegant pearl/slate modest everyday clothing, real skin pores and believable hands, soft cool daylight, restrained colours and crisp teaching objects. Clean spaces at outer edges for later labels. No logos, brands, watermark or UI. No text or letters unless explicitly requested below. Environmental portrait, polished and credible, not plastic AI beauty. Three stacked editorial scenes of same adult woman at consistent tidy desk. Top closes plain notebook after finishing task in soft evening light; middle opens another notebook and picks up pen in cool morning light; bottom arranges a blank planner beside closed notebook for later. No clocks digits, words, dates or labels; sequence tells story but dates exist only in caption. Hands credible, restrained Korean editorial styling.

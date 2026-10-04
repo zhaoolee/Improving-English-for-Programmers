@@ -1,0 +1,203 @@
+C049  阳光与阴影
+========================================================================
+章节: 自然与农场
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C049.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C049.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T13:35:22Z → 2026-10-03T13:38:52Z
+  提示词文件: prompts/C049_image_final.txt
+
+场景: 树荫下看风景，光线、遮阴与景色层次清楚可见。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 树荫人像及山湖景可辨，斜入光线对应ray；评价词只用主观句子。shade定位树下阴影地面。
+
+主配文:
+  英文: A ray of light reaches the path; I pause in the shade to enjoy the view.
+  中文: 一束光照向小径；我停在树荫里，欣赏眼前的景色。
+  类型: original | 来源: None | 状态: final
+
+目标词 (6): ray, shade, view, beautiful, clear, great
+
+------------------------------------------------------------------------
+[1/6] ray  (W578)
+  词义: 光束
+  词性: noun
+  音标: UK /reɪ/ | US /reɪ/
+  搭配: a ray of light
+  例句: A ray of light reaches the path.
+  例句高亮: A **ray** of light reaches the path.
+  例句中文: 一束光照向小径。
+  标注模式: object
+  标注说明: 实际可见穿过薄雾的光束。
+  坐标(normalized): [0.622, 0.044, 0.922, 0.239]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际可见穿过薄雾的光束。"
+    sentence: "A ray of light reaches the path."
+    matched_form: "ray"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 光线；射线
+
+------------------------------------------------------------------------
+[2/6] shade  (W640)
+  词义: 阴凉处
+  词性: noun
+  音标: UK /ʃeɪd/ | US /ʃeɪd/
+  搭配: in the shade
+  例句: I rest in the shade of a tree.
+  例句高亮: I rest in the **shade** of a tree.
+  例句中文: 我在树荫里休息。
+  标注模式: object
+  标注说明: 树下实际较暗的地面区域。
+  坐标(normalized): [0.0, 0.824, 0.144, 0.998]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "树下实际较暗的地面区域。"
+    sentence: "I rest in the shade of a tree."
+    matched_form: "shade"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 阴影
+
+------------------------------------------------------------------------
+[3/6] view  (W796)
+  词义: 景色
+  词性: noun
+  音标: UK /vjuː/ | US /vjuː/
+  搭配: a mountain view
+  例句: I enjoy the mountain view.
+  例句高亮: I enjoy the mountain **view**.
+  例句中文: 我欣赏山间景色。
+  标注模式: object
+  标注说明: 实际远处山湖全景。
+  坐标(normalized): [0.435, 0.265, 0.995, 0.674]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "实际远处山湖全景。"
+    sentence: "I enjoy the mountain view."
+    matched_form: "view"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 视野；看法
+
+------------------------------------------------------------------------
+[4/6] beautiful  (W057)
+  词义: 美丽的
+  词性: adjective
+  音标: UK /ˈbjuːtɪfəl/ | US /ˈbjuːtɪfəl/
+  搭配: a beautiful view
+  例句: I think the view is beautiful.
+  例句高亮: I think the view is **beautiful**.
+  例句中文: 我觉得这景色很美。
+  标注模式: context
+  标注说明: 个人审美判断由句子表达，不是可测物体属性。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "I think the view is beautiful."
+    matched_form: "beautiful"
+    context: "个人审美判断由句子表达，不是可测物体属性。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 美丽的
+
+------------------------------------------------------------------------
+[5/6] clear  (W134)
+  词义: 清晰的
+  词性: adjective
+  音标: UK /klɪə/ | US /klɪr/
+  搭配: a clear view
+  例句: I have a clear view of the mountains.
+  例句高亮: I have a **clear** view of the mountains.
+  例句中文: 我能清晰地看到群山。
+  标注模式: relation
+  标注说明: 定位句子指代的可辨山景，不表示空气质量检测。
+  坐标(normalized): [0.435, 0.265, 0.995, 0.674]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "定位句子指代的可辨山景，不表示空气质量检测。"
+    sentence: "I have a clear view of the mountains."
+    matched_form: "clear"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 清晰的；明确的
+
+------------------------------------------------------------------------
+[6/6] great  (W311)
+  词义: 极好的
+  词性: adjective
+  音标: UK /ɡreɪt/ | US /ɡreɪt/
+  搭配: a great place
+  例句: This is a great place to rest.
+  例句高亮: This is a **great** place to rest.
+  例句中文: 这是休息的好地方。
+  标注模式: context
+  标注说明: great选评价义，个人评价由原创句子说明。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "This is a great place to rest."
+    matched_form: "great"
+    context: "great选评价义，个人评价由原创句子说明。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 伟大的
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 6
+  content_entries_complete: 6
+  sentence_evidence_complete: 6
+  verified_targets: 6
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 2
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C049 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=49 | meta.approved_cards=50
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. One 4:5 portrait English scene-card base photo, refined cool Korean Instagram editorial, adult East Asian woman about 25, elegant ivory/slate clothing, loose low bun, delicate natural makeup, genuine skin texture, natural hands. Cool pearl daylight, true greens, real materials, crisp teaching objects, restrained composition and clean spaces near edges for later labels. NO text, letters, digits, brands, labels, watermark, app UI. Single travel fashion photo at shaded park hillside overlook: woman at left under leafy tree in cool natural shade, expansive crisp mountain and lake view on right, a narrow physically plausible shaft of sunlight through overhead leaves into slight morning haze crossing path, with sunlit ground and distinctly darker shaded patch near her feet. Atmospheric real photography, avoid theatrical CGI god rays. Teaching ray and shade clearly separable.

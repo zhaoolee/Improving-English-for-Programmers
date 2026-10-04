@@ -1,0 +1,1381 @@
+{
+  "startedAt": "2026-10-03T08:57:26Z",
+  "status": "approved",
+  "cards": [
+    {
+      "id": "C036",
+      "caption_en": "The plane flies over an island, with the sea far below.",
+      "caption_zh": "飞机飞过一座海岛，海面远在下方。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic travel diptych stacked vertically: upper half exterior side view of one passenger airplane in flight above a clearly distinct green island and blue sea, plane high in frame and island low in frame; whole plane and both wings visible. Lower half woman seated beside an aircraft window looking out; clear wing and island viewed through window. Real aircraft proportions, no airline logos. No drawn routes. Use altitude relationship and exterior nose orientation as cues, not a diagram.",
+      "words": [
+        {
+          "word": "plane",
+          "zh": "飞机",
+          "pos": "noun",
+          "us": "/pleɪn/",
+          "uk": "/pleɪn/",
+          "collocations": [
+            "a passenger plane"
+          ],
+          "example": "The plane flies over an island.",
+          "translation": "飞机飞过一座海岛。",
+          "mode": "object",
+          "evidence": "上幅完整客机，身份和场景来自故事。",
+          "color": "blue"
+        },
+        {
+          "word": "flight",
+          "zh": "飞行",
+          "pos": "noun",
+          "us": "/flaɪt/",
+          "uk": "/flaɪt/",
+          "collocations": [
+            "a long flight"
+          ],
+          "example": "The flight takes us over the sea.",
+          "translation": "这次飞行带我们越过海面。",
+          "mode": "context",
+          "evidence": "飞行过程与旅程由完整句子说明，不把飞机框等同于过程。",
+          "color": "teal"
+        },
+        {
+          "word": "wing",
+          "zh": "机翼",
+          "pos": "noun",
+          "us": "/wɪŋ/",
+          "uk": "/wɪŋ/",
+          "collocations": [
+            "the plane wing"
+          ],
+          "example": "I see the wing through the window.",
+          "translation": "我透过窗户看见机翼。",
+          "mode": "object",
+          "evidence": "窗外实际机翼或上幅同一飞机机翼。",
+          "color": "amber"
+        },
+        {
+          "word": "island",
+          "zh": "岛屿",
+          "pos": "noun",
+          "us": "/ˈaɪlənd/",
+          "uk": "/ˈaɪlənd/",
+          "collocations": [
+            "a green island"
+          ],
+          "example": "The island is surrounded by sea.",
+          "translation": "海水环绕着这座岛。",
+          "mode": "object",
+          "evidence": "海中独立岛屿的陆地范围。",
+          "color": "lavender"
+        },
+        {
+          "word": "high",
+          "zh": "在高处",
+          "pos": "adverb",
+          "us": "/haɪ/",
+          "uk": "/haɪ/",
+          "collocations": [
+            "fly high"
+          ],
+          "example": "The plane flies high above the island.",
+          "translation": "飞机在岛屿上方高处飞行。",
+          "mode": "relation",
+          "evidence": "上幅飞机相对海岛的高位置，句子说明高度关系，不测数值。",
+          "color": "rose"
+        },
+        {
+          "word": "low",
+          "zh": "在低处",
+          "pos": "adverb",
+          "us": "/loʊ/",
+          "uk": "/ləʊ/",
+          "collocations": [
+            "low below"
+          ],
+          "example": "The island lies low below the plane.",
+          "translation": "岛屿位于飞机下方低处。",
+          "mode": "relation",
+          "evidence": "上幅飞机下方岛屿的相对低位置。",
+          "color": "blue"
+        },
+        {
+          "word": "transport",
+          "zh": "运输工具",
+          "pos": "noun",
+          "us": "/ˈtrænspɔːrt/",
+          "uk": "/ˈtrænspɔːt/",
+          "collocations": [
+            "our transport"
+          ],
+          "example": "The plane is our transport to the island.",
+          "translation": "飞机是我们去岛上的交通工具。",
+          "mode": "object",
+          "evidence": "上幅飞机定位故事中的航空运输工具，不把用途当视觉鉴定。",
+          "color": "teal"
+        },
+        {
+          "word": "forward",
+          "zh": "向前",
+          "pos": "adverb",
+          "us": "/ˈfɔːrwərd/",
+          "uk": "/ˈfɔːwəd/",
+          "collocations": [
+            "move forward"
+          ],
+          "example": "The plane moves forward through the sky.",
+          "translation": "飞机在空中向前飞行。",
+          "mode": "context",
+          "evidence": "静态照片不能证明运动方向，句子说明向前。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C037",
+      "caption_en": "A small boat waits in the harbor, while a sail catches the breeze.",
+      "caption_zh": "一条小艇停在港口里，一面船帆迎着微风。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One harbor travel editorial: woman and adult female guide on stone dock at left, guide gestures toward small sailing boat at right with a clear single white triangular sail. A much larger passenger ship sits farther back at upper right, distinct from small boat. Calm open sea beyond harbor entrance, one modest wave beside dock, natural breeze lifts woman scarf. Guide identity from story. Safe stationary posing, no overloaded vessel, no text.",
+      "words": [
+        {
+          "word": "harbor",
+          "zh": "港口",
+          "pos": "noun",
+          "us": "/ˈhɑːrbər/",
+          "uk": "/ˈhɑːbə/",
+          "collocations": [
+            "a quiet harbor"
+          ],
+          "example": "The harbor shelters the boats.",
+          "translation": "港口为船只提供庇护。",
+          "mode": "object",
+          "evidence": "码头、停泊船与港湾的可见区域。",
+          "color": "blue"
+        },
+        {
+          "word": "ship",
+          "zh": "大船",
+          "pos": "noun",
+          "us": "/ʃɪp/",
+          "uk": "/ʃɪp/",
+          "collocations": [
+            "a passenger ship"
+          ],
+          "example": "A large ship waits beyond the dock.",
+          "translation": "一艘大船停在码头外。",
+          "mode": "object",
+          "evidence": "远处大型船舶，区别近处小艇。",
+          "color": "teal"
+        },
+        {
+          "word": "boat",
+          "zh": "小艇",
+          "pos": "noun",
+          "us": "/boʊt/",
+          "uk": "/bəʊt/",
+          "collocations": [
+            "a sailing boat"
+          ],
+          "example": "The small boat is beside the dock.",
+          "translation": "小艇在码头旁。",
+          "mode": "object",
+          "evidence": "近处独立帆艇船体。",
+          "color": "amber"
+        },
+        {
+          "word": "sail",
+          "zh": "船帆",
+          "pos": "noun",
+          "us": "/seɪl/",
+          "uk": "/seɪl/",
+          "collocations": [
+            "a white sail"
+          ],
+          "example": "The boat has a white sail.",
+          "translation": "这条艇有一面白色船帆。",
+          "mode": "object",
+          "evidence": "实际白色三角船帆，选名词义。",
+          "color": "lavender"
+        },
+        {
+          "word": "sea",
+          "zh": "海",
+          "pos": "noun",
+          "us": "/siː/",
+          "uk": "/siː/",
+          "collocations": [
+            "the open sea"
+          ],
+          "example": "The sea stretches beyond the harbor.",
+          "translation": "大海在港口外延伸。",
+          "mode": "object",
+          "evidence": "港口外独立可见海水区域。",
+          "color": "rose"
+        },
+        {
+          "word": "wave",
+          "zh": "波浪",
+          "pos": "noun",
+          "us": "/weɪv/",
+          "uk": "/weɪv/",
+          "collocations": [
+            "a small wave"
+          ],
+          "example": "A small wave reaches the dock.",
+          "translation": "一阵小波浪来到码头边。",
+          "mode": "object",
+          "evidence": "码头旁可辨水面波峰。",
+          "color": "blue"
+        },
+        {
+          "word": "wind",
+          "zh": "风",
+          "pos": "noun",
+          "us": "/wɪnd/",
+          "uk": "/wɪnd/",
+          "collocations": [
+            "a light wind"
+          ],
+          "example": "The wind lifts my scarf.",
+          "translation": "风吹起我的围巾。",
+          "mode": "context",
+          "evidence": "围巾只能提供线索，风是不可见原因，由原创句子支持，不把围巾当风本体。",
+          "color": "teal"
+        },
+        {
+          "word": "guide",
+          "zh": "向导",
+          "pos": "noun",
+          "us": "/ɡaɪd/",
+          "uk": "/ɡaɪd/",
+          "collocations": [
+            "a local guide"
+          ],
+          "example": "The guide shows me the boat.",
+          "translation": "向导指给我看那条艇。",
+          "mode": "object",
+          "evidence": "故事设定的指船人物，仅定位人物，职业由句子说明。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C038",
+      "caption_en": "A place to pause, between two chairs and opposite the hotel desk.",
+      "caption_zh": "在两把椅子之间、酒店前台对面，找一处停歇的位置。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One cool boutique hotel lobby environmental portrait, woman standing beside a reception desk at far right. In foreground three separate lounge chairs arranged in a straight horizontal row: left blue-grey, middle ivory, right blue-grey, all fully visible. Middle chair clearly between the other two. Reception desk directly across the room from chairs, broad open floor separates them. Front face of desk and side face of middle chair readable. Architectural interior photography, no room numbers or signs, avoid confusing mirrors.",
+      "words": [
+        {
+          "word": "place",
+          "zh": "地方",
+          "pos": "noun",
+          "us": "/pleɪs/",
+          "uk": "/pleɪs/",
+          "collocations": [
+            "a quiet place"
+          ],
+          "example": "This is a quiet place to rest.",
+          "translation": "这是一个安静的休息地方。",
+          "mode": "object",
+          "evidence": "酒店休息座椅区定位本句指代的地方。",
+          "color": "blue"
+        },
+        {
+          "word": "position",
+          "zh": "位置",
+          "pos": "noun",
+          "us": "/pəˈzɪʃn/",
+          "uk": "/pəˈzɪʃn/",
+          "collocations": [
+            "the position of"
+          ],
+          "example": "The position of the chair is easy to see.",
+          "translation": "椅子的位置很容易看出来。",
+          "mode": "relation",
+          "evidence": "中间椅子相对两侧椅子的实际位置。",
+          "color": "teal"
+        },
+        {
+          "word": "front",
+          "zh": "正面",
+          "pos": "noun",
+          "us": "/frʌnt/",
+          "uk": "/frʌnt/",
+          "collocations": [
+            "the front of"
+          ],
+          "example": "The front of the desk faces the chairs.",
+          "translation": "前台的正面对着椅子。",
+          "mode": "object",
+          "evidence": "前台面向椅子的正面板。",
+          "color": "amber"
+        },
+        {
+          "word": "side",
+          "zh": "侧面",
+          "pos": "noun",
+          "us": "/saɪd/",
+          "uk": "/saɪd/",
+          "collocations": [
+            "the side of"
+          ],
+          "example": "I can see the side of the chair.",
+          "translation": "我能看见椅子的侧面。",
+          "mode": "object",
+          "evidence": "中间椅子实际可见侧部。",
+          "color": "lavender"
+        },
+        {
+          "word": "middle",
+          "zh": "中间",
+          "pos": "noun",
+          "us": "/ˈmɪdl/",
+          "uk": "/ˈmɪdl/",
+          "collocations": [
+            "in the middle"
+          ],
+          "example": "The white chair is in the middle.",
+          "translation": "白色椅子在中间。",
+          "mode": "relation",
+          "evidence": "三椅组与中间白椅的相对位置。",
+          "color": "rose"
+        },
+        {
+          "word": "between",
+          "zh": "在之间",
+          "pos": "preposition",
+          "us": "/bɪˈtwiːn/",
+          "uk": "/bɪˈtwiːn/",
+          "collocations": [
+            "between two chairs"
+          ],
+          "example": "The white chair is between two blue chairs.",
+          "translation": "白色椅子在两把蓝色椅子之间。",
+          "mode": "relation",
+          "evidence": "框含三把椅子的左右之间关系，不只框白椅。",
+          "color": "blue"
+        },
+        {
+          "word": "opposite",
+          "zh": "在对面",
+          "pos": "preposition",
+          "us": "/ˈɑːpəzɪt/",
+          "uk": "/ˈɒpəzɪt/",
+          "collocations": [
+            "opposite the desk"
+          ],
+          "example": "The chairs are opposite the desk.",
+          "translation": "椅子在前台对面。",
+          "mode": "relation",
+          "evidence": "座椅与前台相隔地面且面对的空间关系。",
+          "color": "teal"
+        },
+        {
+          "word": "at",
+          "zh": "在",
+          "pos": "preposition",
+          "us": "/æt/",
+          "uk": "/æt/",
+          "collocations": [
+            "at the desk"
+          ],
+          "example": "I wait at the hotel desk.",
+          "translation": "我在酒店前台等候。",
+          "mode": "context",
+          "evidence": "介词在完整句中解释，不把at独立等同于前台。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C039",
+      "caption_en": "The narrow path goes through an arch beside a wide mountain road.",
+      "caption_zh": "狭窄的小径穿过拱门，旁边是一条宽阔的山路。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One mountain-village travel environmental portrait, broad foreground road at lower right joins a visibly narrower uphill stone footpath bending toward and THROUGH a complete old stone arch at mid-left. Woman walking on the narrow path near arch, full body visible, distant grey-green mountains and sloping hillside clear. Both broad road width and narrow path width readable, not blocked by person. Stone arch complete curve and passage open, no impossible road perspective. Negative pale sky and open road edges.",
+      "words": [
+        {
+          "word": "mountain",
+          "zh": "山",
+          "pos": "noun",
+          "us": "/ˈmaʊntən/",
+          "uk": "/ˈmaʊntən/",
+          "collocations": [
+            "a green mountain"
+          ],
+          "example": "A mountain rises behind the village.",
+          "translation": "村庄后面耸立着一座山。",
+          "mode": "object",
+          "evidence": "远处完整可见山体局部。",
+          "color": "blue"
+        },
+        {
+          "word": "slope",
+          "zh": "斜坡",
+          "pos": "noun",
+          "us": "/sloʊp/",
+          "uk": "/sləʊp/",
+          "collocations": [
+            "a gentle slope"
+          ],
+          "example": "The path climbs a gentle slope.",
+          "translation": "小径沿着缓坡向上。",
+          "mode": "object",
+          "evidence": "山坡的倾斜地表区域。",
+          "color": "teal"
+        },
+        {
+          "word": "narrow",
+          "zh": "狭窄的",
+          "pos": "adjective",
+          "us": "/ˈnæroʊ/",
+          "uk": "/ˈnærəʊ/",
+          "collocations": [
+            "a narrow path"
+          ],
+          "example": "The path under the arch is narrow.",
+          "translation": "拱门下的小径很窄。",
+          "mode": "object",
+          "evidence": "拱门下狭窄小径与实际边界。",
+          "color": "amber"
+        },
+        {
+          "word": "wide",
+          "zh": "宽的",
+          "pos": "adjective",
+          "us": "/waɪd/",
+          "uk": "/waɪd/",
+          "collocations": [
+            "a wide road"
+          ],
+          "example": "The road beside the path is wide.",
+          "translation": "小径旁边的道路很宽。",
+          "mode": "object",
+          "evidence": "前景宽道路，和小径形成可见宽度对照。",
+          "color": "lavender"
+        },
+        {
+          "word": "turn",
+          "zh": "转弯",
+          "pos": "noun",
+          "us": "/tɜːrn/",
+          "uk": "/tɜːn/",
+          "collocations": [
+            "a gentle turn"
+          ],
+          "example": "The wide road has a gentle turn.",
+          "translation": "宽路有一个缓弯。",
+          "mode": "relation",
+          "evidence": "右下宽道路的实际弯曲处，选名词弯道义，不虚构人物正在转弯。",
+          "color": "rose"
+        },
+        {
+          "word": "through",
+          "zh": "穿过",
+          "pos": "preposition",
+          "us": "/θruː/",
+          "uk": "/θruː/",
+          "collocations": [
+            "through the arch"
+          ],
+          "example": "The path goes through the arch.",
+          "translation": "小径穿过拱门。",
+          "mode": "relation",
+          "evidence": "小径连续穿过拱门开口的空间关系。",
+          "color": "blue"
+        },
+        {
+          "word": "arch",
+          "zh": "拱门",
+          "pos": "noun",
+          "us": "/ɑːrtʃ/",
+          "uk": "/ɑːtʃ/",
+          "collocations": [
+            "a stone arch"
+          ],
+          "example": "The stone arch stands over the path.",
+          "translation": "石拱门横跨小径。",
+          "mode": "object",
+          "evidence": "完整弧顶与两侧支柱的拱门。",
+          "color": "teal"
+        },
+        {
+          "word": "direction",
+          "zh": "方向",
+          "pos": "noun",
+          "us": "/dəˈrekʃn/",
+          "uk": "/dəˈrekʃn/",
+          "collocations": [
+            "the right direction"
+          ],
+          "example": "The path shows the direction through the arch.",
+          "translation": "小径指明了穿过拱门的方向。",
+          "mode": "relation",
+          "evidence": "弯路通向拱门村落的路径方向，不虚构箭头。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C040",
+      "caption_en": "My watch is ready, and tomorrow has a place on the calendar.",
+      "caption_zh": "手表已备好，明天也在日历上留有一个位置。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. One calm hotel-room travel-planning editorial. Woman seated at small desk at right, looks down at open large paper calendar spread flat at lower left; calendar has ONLY a clean seven-column grid of blank squares, no letters or digits. One square marked with a simple muted blue dot, no text. Her left wrist clearly displays a round analogue watch with plain tick marks, hour and minute hands, no numerals or branding; wrist rests near calendar and is readable. Airy blank wall and gentle daylight, authentic fingers. Calendar is only a context cue; do not invent readable dates.",
+      "words": [
+        {
+          "word": "time",
+          "zh": "时间",
+          "pos": "noun",
+          "us": "/taɪm/",
+          "uk": "/taɪm/",
+          "collocations": [
+            "check the time"
+          ],
+          "example": "I check the time on my watch.",
+          "translation": "我看手表确认时间。",
+          "mode": "object",
+          "evidence": "表盘作为本句时间的显示载体，不声称读出准确时刻。",
+          "color": "blue"
+        },
+        {
+          "word": "hour",
+          "zh": "小时",
+          "pos": "noun",
+          "us": "/ˈaʊər/",
+          "uk": "/ˈaʊə/",
+          "collocations": [
+            "one hour"
+          ],
+          "example": "The journey takes one hour.",
+          "translation": "旅程需要一小时。",
+          "mode": "context",
+          "evidence": "持续时长由句子提供，空白表盘不证明一小时。",
+          "color": "teal"
+        },
+        {
+          "word": "minute",
+          "zh": "分钟",
+          "pos": "noun",
+          "us": "/ˈmɪnɪt/",
+          "uk": "/ˈmɪnɪt/",
+          "collocations": [
+            "one minute"
+          ],
+          "example": "I wait one minute before leaving.",
+          "translation": "出发前我等一分钟。",
+          "mode": "context",
+          "evidence": "持续时间由句子说明，无物体框。",
+          "color": "amber"
+        },
+        {
+          "word": "watch",
+          "zh": "手表",
+          "pos": "noun",
+          "us": "/wɑːtʃ/",
+          "uk": "/wɒtʃ/",
+          "collocations": [
+            "a wrist watch"
+          ],
+          "example": "My watch is on my wrist.",
+          "translation": "手表在我的手腕上。",
+          "mode": "object",
+          "evidence": "腕上的实际手表整体。",
+          "color": "lavender"
+        },
+        {
+          "word": "week",
+          "zh": "星期",
+          "pos": "noun",
+          "us": "/wiːk/",
+          "uk": "/wiːk/",
+          "collocations": [
+            "next week"
+          ],
+          "example": "We travel next week.",
+          "translation": "我们下周旅行。",
+          "mode": "context",
+          "evidence": "空白七列只提示日历结构，不假读具体周次。",
+          "color": "rose"
+        },
+        {
+          "word": "month",
+          "zh": "月份",
+          "pos": "noun",
+          "us": "/mʌnθ/",
+          "uk": "/mʌnθ/",
+          "collocations": [
+            "next month"
+          ],
+          "example": "We plan another trip next month.",
+          "translation": "我们计划下个月再旅行。",
+          "mode": "context",
+          "evidence": "月份来自原创句子，不读取空白日历。",
+          "color": "blue"
+        },
+        {
+          "word": "year",
+          "zh": "年",
+          "pos": "noun",
+          "us": "/jɪr/",
+          "uk": "/jɪə/",
+          "collocations": [
+            "this year"
+          ],
+          "example": "I visit the island this year.",
+          "translation": "我今年去那座岛。",
+          "mode": "context",
+          "evidence": "年份由句子给出，图中无可读年份。",
+          "color": "teal"
+        },
+        {
+          "word": "tomorrow",
+          "zh": "明天",
+          "pos": "adverb",
+          "us": "/təˈmɑːroʊ/",
+          "uk": "/təˈmɒrəʊ/",
+          "collocations": [
+            "leave tomorrow"
+          ],
+          "example": "We leave tomorrow morning.",
+          "translation": "我们明天早晨出发。",
+          "mode": "context",
+          "evidence": "相对日期由故事说明，蓝点不自动等于明天。",
+          "color": "amber"
+        },
+        {
+          "word": "when",
+          "zh": "什么时候",
+          "pos": "adverb",
+          "us": "/wen/",
+          "uk": "/wen/",
+          "collocations": [
+            "when do"
+          ],
+          "example": "When do we leave?",
+          "translation": "我们什么时候出发？",
+          "mode": "context",
+          "evidence": "问时间的疑问词以完整句解释。",
+          "color": "lavender"
+        },
+        {
+          "word": "till",
+          "zh": "直到",
+          "pos": "preposition",
+          "us": "/tɪl/",
+          "uk": "/tɪl/",
+          "collocations": [
+            "till noon"
+          ],
+          "example": "We stay here till noon.",
+          "translation": "我们在这里待到中午。",
+          "mode": "context",
+          "evidence": "时间终点介词由句子解释。",
+          "color": "rose"
+        },
+        {
+          "word": "late",
+          "zh": "迟到的",
+          "pos": "adjective",
+          "us": "/leɪt/",
+          "uk": "/leɪt/",
+          "collocations": [
+            "be late"
+          ],
+          "example": "I do not want to be late.",
+          "translation": "我不想迟到。",
+          "mode": "context",
+          "evidence": "迟到状态不由静态图推断。",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "C041",
+      "caption_en": "A young tree, one leaf, and a flower make the garden feel alive.",
+      "caption_zh": "一棵小树、一片叶子和一朵花，让花园充满生机。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic two-panel garden editorial: upper two-thirds woman kneeling naturally beside a young sapling in a garden bed, root ball removed from nursery pot resting visibly on soil with exposed fine pale roots, distinct woody branches and clear leaves. Behind her a much taller tree fully visible to establish tall. Lower third close-up of one flowering garden plant, whole green stem from soil to white flower and one separate leaf sharp, no text. Real scale, anatomically plausible plant and hands, no floating root ball. Clear ground and sky margins.",
+      "words": [
+        {
+          "word": "garden",
+          "zh": "花园",
+          "pos": "noun",
+          "us": "/ˈɡɑːrdn/",
+          "uk": "/ˈɡɑːdn/",
+          "collocations": [
+            "a small garden"
+          ],
+          "example": "We plant a tree in the garden.",
+          "translation": "我们在花园里种一棵树。",
+          "mode": "object",
+          "evidence": "土床与植物构成的花园区域。",
+          "color": "blue"
+        },
+        {
+          "word": "tree",
+          "zh": "树",
+          "pos": "noun",
+          "us": "/triː/",
+          "uk": "/triː/",
+          "collocations": [
+            "a young tree"
+          ],
+          "example": "The young tree has many leaves.",
+          "translation": "这棵小树有许多叶子。",
+          "mode": "object",
+          "evidence": "上幅完整树苗。",
+          "color": "teal"
+        },
+        {
+          "word": "branch",
+          "zh": "树枝",
+          "pos": "noun",
+          "us": "/bræntʃ/",
+          "uk": "/brɑːntʃ/",
+          "collocations": [
+            "a tree branch"
+          ],
+          "example": "A branch grows from the trunk.",
+          "translation": "一根树枝从树干上长出。",
+          "mode": "object",
+          "evidence": "树苗独立木质分枝。",
+          "color": "amber"
+        },
+        {
+          "word": "leaf",
+          "zh": "叶子",
+          "pos": "noun",
+          "us": "/liːf/",
+          "uk": "/liːf/",
+          "collocations": [
+            "a green leaf"
+          ],
+          "example": "A green leaf catches the light.",
+          "translation": "一片绿叶迎着光。",
+          "mode": "object",
+          "evidence": "实际独立叶片。",
+          "color": "lavender"
+        },
+        {
+          "word": "root",
+          "zh": "根",
+          "pos": "noun",
+          "us": "/ruːt/",
+          "uk": "/ruːt/",
+          "collocations": [
+            "a plant root"
+          ],
+          "example": "A root reaches into the soil.",
+          "translation": "一条根伸进土里。",
+          "mode": "object",
+          "evidence": "露出根团上的细根，不用土团冒充根。",
+          "color": "rose"
+        },
+        {
+          "word": "stem",
+          "zh": "茎",
+          "pos": "noun",
+          "us": "/stem/",
+          "uk": "/stem/",
+          "collocations": [
+            "a green stem"
+          ],
+          "example": "The flower grows on a green stem.",
+          "translation": "花长在绿色的茎上。",
+          "mode": "object",
+          "evidence": "下幅植物真实绿色茎。",
+          "color": "blue"
+        },
+        {
+          "word": "flower",
+          "zh": "花",
+          "pos": "noun",
+          "us": "/ˈflaʊər/",
+          "uk": "/ˈflaʊə/",
+          "collocations": [
+            "a white flower"
+          ],
+          "example": "The plant has a white flower.",
+          "translation": "这株植物开着一朵白花。",
+          "mode": "object",
+          "evidence": "下幅实际白色花朵。",
+          "color": "teal"
+        },
+        {
+          "word": "plant",
+          "zh": "植物",
+          "pos": "noun",
+          "us": "/plænt/",
+          "uk": "/plɑːnt/",
+          "collocations": [
+            "a flowering plant"
+          ],
+          "example": "I water the plant beside the tree.",
+          "translation": "我给树旁的植物浇水。",
+          "mode": "object",
+          "evidence": "下幅开花植物整体，浇水为另句示例不虚构图中动作。",
+          "color": "amber"
+        },
+        {
+          "word": "tall",
+          "zh": "高的",
+          "pos": "adjective",
+          "us": "/tɔːl/",
+          "uk": "/tɔːl/",
+          "collocations": [
+            "a tall tree"
+          ],
+          "example": "A tall tree stands behind us.",
+          "translation": "一棵高树在我们身后。",
+          "mode": "object",
+          "evidence": "背景高树的实际指代区域，相对人物/树苗比较。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "caption_en": "Seeds in my hand, grain in the field, and a season of growth.",
+      "caption_zh": "手里是种子，田里是谷物，一季生长正在展开。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Photographic farm diptych stacked: upper half woman kneeling beside dark tilled soil showing a small handful of distinct wheat seeds on open palm, a metal spade with broad flat blade planted in soil nearby, simple barn in background. Lower half same field later with mature golden wheat heads, traditional small metal plough on field edge with handle and curved blade clearly identifiable, no animals pulling it. Farm seasons comparison, natural earth and fine wheat detail. No tractors instead of plough, no text.",
+      "words": [
+        {
+          "word": "farm",
+          "zh": "农场",
+          "pos": "noun",
+          "us": "/fɑːrm/",
+          "uk": "/fɑːm/",
+          "collocations": [
+            "a small farm"
+          ],
+          "example": "The farm has a barn and a field.",
+          "translation": "农场有一座谷仓和一块田。",
+          "mode": "object",
+          "evidence": "谷仓与耕地的农场局部。",
+          "color": "blue"
+        },
+        {
+          "word": "field",
+          "zh": "田地",
+          "pos": "noun",
+          "us": "/fiːld/",
+          "uk": "/fiːld/",
+          "collocations": [
+            "a wheat field"
+          ],
+          "example": "The field is full of wheat.",
+          "translation": "田地里长满小麦。",
+          "mode": "object",
+          "evidence": "成熟麦田区域。",
+          "color": "teal"
+        },
+        {
+          "word": "seed",
+          "zh": "种子",
+          "pos": "noun",
+          "us": "/siːd/",
+          "uk": "/siːd/",
+          "collocations": [
+            "a wheat seed"
+          ],
+          "example": "I hold a seed in my hand.",
+          "translation": "我手里拿着一粒种子。",
+          "mode": "object",
+          "evidence": "掌中种子，种子用途由播种故事说明。",
+          "color": "amber"
+        },
+        {
+          "word": "grain",
+          "zh": "谷物",
+          "pos": "noun",
+          "us": "/ɡreɪn/",
+          "uk": "/ɡreɪn/",
+          "collocations": [
+            "ripe grain"
+          ],
+          "example": "The ripe grain is ready for harvest.",
+          "translation": "成熟的谷物可以收割了。",
+          "mode": "object",
+          "evidence": "成熟麦穗中的谷粒区域，成熟与收割由场景句子说明。",
+          "color": "lavender"
+        },
+        {
+          "word": "spade",
+          "zh": "铲子",
+          "pos": "noun",
+          "us": "/speɪd/",
+          "uk": "/speɪd/",
+          "collocations": [
+            "a garden spade"
+          ],
+          "example": "The spade rests in the soil.",
+          "translation": "铲子插在土里。",
+          "mode": "object",
+          "evidence": "独立宽金属铲头与杆。",
+          "color": "rose"
+        },
+        {
+          "word": "plough",
+          "zh": "犁",
+          "pos": "noun",
+          "us": "/plaʊ/",
+          "uk": "/plaʊ/",
+          "collocations": [
+            "a small plough"
+          ],
+          "example": "The plough turns the soil.",
+          "translation": "犁翻动土壤。",
+          "mode": "object",
+          "evidence": "下幅实际传统犁具，句子描述功能而非虚构当前动作。",
+          "color": "blue"
+        },
+        {
+          "word": "fertile",
+          "zh": "肥沃的",
+          "pos": "adjective",
+          "us": "/ˈfɜːrtl/",
+          "uk": "/ˈfɜːtaɪl/",
+          "collocations": [
+            "fertile soil"
+          ],
+          "example": "The farm has fertile soil.",
+          "translation": "农场有肥沃的土壤。",
+          "mode": "object",
+          "evidence": "故事指定的耕地土壤，框定位土壤，不从颜色鉴定肥力。",
+          "color": "teal"
+        },
+        {
+          "word": "growth",
+          "zh": "生长",
+          "pos": "noun",
+          "us": "/ɡroʊθ/",
+          "uk": "/ɡrəʊθ/",
+          "collocations": [
+            "plant growth"
+          ],
+          "example": "Plant growth changes the field over time.",
+          "translation": "植物生长让田地随时间变化。",
+          "mode": "context",
+          "evidence": "两幅季节对照提供线索，生长过程不当单物体，句子说明时间。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C043",
+      "caption_en": "Small lives in the grass: a bee, an ant, and a patient observer.",
+      "caption_zh": "草间的小生命：蜜蜂、蚂蚁，还有一位耐心的观察者。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Refined nature photography composition: upper quarter woman crouching calmly in garden meadow, inspecting grass at a distance, soft cool portrait; lower three quarters four clean photographic macro panels in 2x2 grid. Upper-left honeybee on white flower with six legs and two antennae. Upper-right one small black ant on green blade of grass with six legs and distinct segmented body. Lower-left one earthworm on damp bare soil among grass roots, legless, no insect legs. Lower-right one ordinary housefly on a leaf, six legs, two wings and compound eyes. Distinct real animals, no hybrid anatomy, no written labels. Bright coherent macro focus, natural scale, grass present.",
+      "words": [
+        {
+          "word": "grass",
+          "zh": "草",
+          "pos": "noun",
+          "us": "/ɡræs/",
+          "uk": "/ɡrɑːs/",
+          "collocations": [
+            "green grass"
+          ],
+          "example": "The grass is green beside the path.",
+          "translation": "小径旁的草是绿色的。",
+          "mode": "object",
+          "evidence": "微距中的实际草叶。",
+          "color": "blue"
+        },
+        {
+          "word": "bee",
+          "zh": "蜜蜂",
+          "pos": "noun",
+          "us": "/biː/",
+          "uk": "/biː/",
+          "collocations": [
+            "a honey bee"
+          ],
+          "example": "A bee rests on the flower.",
+          "translation": "一只蜜蜂停在花上。",
+          "mode": "object",
+          "evidence": "有翅六足分节的蜜蜂。",
+          "color": "teal"
+        },
+        {
+          "word": "ant",
+          "zh": "蚂蚁",
+          "pos": "noun",
+          "us": "/ænt/",
+          "uk": "/ænt/",
+          "collocations": [
+            "a small ant"
+          ],
+          "example": "An ant walks on a blade of grass.",
+          "translation": "一只蚂蚁在一片草叶上走。",
+          "mode": "object",
+          "evidence": "独立六足分节蚂蚁，步行由句子说明。",
+          "color": "amber"
+        },
+        {
+          "word": "worm",
+          "zh": "蠕虫",
+          "pos": "noun",
+          "us": "/wɜːrm/",
+          "uk": "/wɜːm/",
+          "collocations": [
+            "a garden worm"
+          ],
+          "example": "The worm lies on damp soil.",
+          "translation": "蠕虫在潮湿土壤上。",
+          "mode": "object",
+          "evidence": "无足蚯蚓，明确不是昆虫。",
+          "color": "lavender"
+        },
+        {
+          "word": "fly",
+          "zh": "苍蝇",
+          "pos": "noun",
+          "us": "/flaɪ/",
+          "uk": "/flaɪ/",
+          "collocations": [
+            "a house fly"
+          ],
+          "example": "A fly rests on a leaf.",
+          "translation": "一只苍蝇停在叶上。",
+          "mode": "object",
+          "evidence": "独立两翅六足苍蝇，选择名词义。",
+          "color": "rose"
+        },
+        {
+          "word": "insect",
+          "zh": "昆虫",
+          "pos": "noun",
+          "us": "/ˈɪnsekt/",
+          "uk": "/ˈɪnsekt/",
+          "collocations": [
+            "a small insect"
+          ],
+          "example": "The bee is an insect.",
+          "translation": "蜜蜂是一种昆虫。",
+          "mode": "object",
+          "evidence": "用实际蜜蜂定位昆虫类别，不把蚯蚓归为昆虫。",
+          "color": "blue"
+        },
+        {
+          "word": "small",
+          "zh": "小的",
+          "pos": "adjective",
+          "us": "/smɔːl/",
+          "uk": "/smɔːl/",
+          "collocations": [
+            "a small ant"
+          ],
+          "example": "The ant is small beside the leaf.",
+          "translation": "蚂蚁在叶子旁显得很小。",
+          "mode": "object",
+          "evidence": "实际蚂蚁与草叶比例定位大小，不测长度。",
+          "color": "teal"
+        },
+        {
+          "word": "natural",
+          "zh": "自然的",
+          "pos": "adjective",
+          "us": "/ˈnætʃrəl/",
+          "uk": "/ˈnætʃrəl/",
+          "collocations": [
+            "a natural habitat"
+          ],
+          "example": "The grass provides a natural habitat.",
+          "translation": "草地提供自然栖息环境。",
+          "mode": "context",
+          "evidence": "自然环境的描述由场景与句子说明，不声称生成图为真实生物调查。",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "id": "C044",
+      "caption_en": "A quiet farm morning, with animals resting in their separate spaces.",
+      "caption_zh": "安静的农场清晨，动物们在各自的区域里休息。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Refined farm editorial in ONE portrait with orderly separated pens, realistic perspective. Woman calmly at central path. Left pen foreground a black-and-white cow, right pen foreground a brown goat with two clearly distinct curved horns beside a fluffy white sheep. Left rear pen a pink pig, right rear pen a bay horse. One domestic chicken at bottom centre with clear tail feathers. At left edge timber wall a long unused traditional leather horse whip hangs vertically from hook, handle and thin flexible lash entire and visible, nobody holding it. Each animal distinct and fully identifiable, no merged bodies, no harm, no brands or signage. Calm blank sky and path for labels.",
+      "words": [
+        {
+          "word": "cow",
+          "zh": "奶牛",
+          "pos": "noun",
+          "us": "/kaʊ/",
+          "uk": "/kaʊ/",
+          "collocations": [
+            "a dairy cow"
+          ],
+          "example": "The cow rests beside the fence.",
+          "translation": "奶牛在围栏旁休息。",
+          "mode": "object",
+          "evidence": "实际黑白牛体。",
+          "color": "blue"
+        },
+        {
+          "word": "goat",
+          "zh": "山羊",
+          "pos": "noun",
+          "us": "/ɡoʊt/",
+          "uk": "/ɡəʊt/",
+          "collocations": [
+            "a brown goat"
+          ],
+          "example": "The goat has curved horns.",
+          "translation": "山羊有弯曲的角。",
+          "mode": "object",
+          "evidence": "独立山羊整体，区别绵羊。",
+          "color": "teal"
+        },
+        {
+          "word": "sheep",
+          "zh": "绵羊",
+          "pos": "noun",
+          "us": "/ʃiːp/",
+          "uk": "/ʃiːp/",
+          "collocations": [
+            "a white sheep"
+          ],
+          "example": "The sheep has thick wool.",
+          "translation": "绵羊长着厚羊毛。",
+          "mode": "object",
+          "evidence": "独立羊毛绵羊整体。",
+          "color": "amber"
+        },
+        {
+          "word": "pig",
+          "zh": "猪",
+          "pos": "noun",
+          "us": "/pɪɡ/",
+          "uk": "/pɪɡ/",
+          "collocations": [
+            "a pink pig"
+          ],
+          "example": "The pig stands in its pen.",
+          "translation": "猪站在自己的围栏里。",
+          "mode": "object",
+          "evidence": "独立粉色猪体。",
+          "color": "lavender"
+        },
+        {
+          "word": "horse",
+          "zh": "马",
+          "pos": "noun",
+          "us": "/hɔːrs/",
+          "uk": "/hɔːs/",
+          "collocations": [
+            "a brown horse"
+          ],
+          "example": "The horse waits beside the stable.",
+          "translation": "马在马厩旁等着。",
+          "mode": "object",
+          "evidence": "独立马体，等待情境由故事句说明。",
+          "color": "rose"
+        },
+        {
+          "word": "fowl",
+          "zh": "家禽",
+          "pos": "noun",
+          "us": "/faʊl/",
+          "uk": "/faʊl/",
+          "collocations": [
+            "domestic fowl"
+          ],
+          "example": "The fowl walks along the path.",
+          "translation": "家禽沿着小径走。",
+          "mode": "object",
+          "evidence": "实际家鸡定位家禽类别。",
+          "color": "blue"
+        },
+        {
+          "word": "feather",
+          "zh": "羽毛",
+          "pos": "noun",
+          "us": "/ˈfeðər/",
+          "uk": "/ˈfeðə/",
+          "collocations": [
+            "a tail feather"
+          ],
+          "example": "A long feather is part of the chicken’s tail.",
+          "translation": "一根长羽毛是鸡尾巴的一部分。",
+          "mode": "object",
+          "evidence": "家鸡实际尾羽，不把整只鸡当单根羽毛。",
+          "color": "teal"
+        },
+        {
+          "word": "horn",
+          "zh": "角",
+          "pos": "noun",
+          "us": "/hɔːrn/",
+          "uk": "/hɔːn/",
+          "collocations": [
+            "a curved horn"
+          ],
+          "example": "A curved horn grows on the goat’s head.",
+          "translation": "弯角长在山羊头上。",
+          "mode": "object",
+          "evidence": "山羊单侧角的真实区域。",
+          "color": "amber"
+        },
+        {
+          "word": "whip",
+          "zh": "马鞭",
+          "pos": "noun",
+          "us": "/wɪp/",
+          "uk": "/wɪp/",
+          "collocations": [
+            "a leather whip"
+          ],
+          "example": "The unused whip hangs on the wall.",
+          "translation": "未使用的马鞭挂在墙上。",
+          "mode": "object",
+          "evidence": "墙上完整鞭柄与柔性鞭梢，不展示伤害。",
+          "color": "lavender"
+        }
+      ]
+    },
+    {
+      "id": "C045",
+      "caption_en": "I look, listen, and leave space for the animals along the path.",
+      "caption_zh": "沿着小径，我观看、倾听，也给动物留下空间。",
+      "image_prompt": "Use case: photorealistic-natural. Portrait 4:5 English scene-card base image, refined cool Korean Instagram editorial photography. Stylish adult East Asian woman about 25, dark loose low bun, understated ivory/slate clothing, delicate natural makeup, genuine skin texture and hands, realistic materials and perspective. Cool soft daylight, pearl grey, pale blue, authentic greens, true skin colour. Teaching objects sharp enough to identify. Generous clean spaces around edges for later bubbles. NO words, letters, digits, brand, caption, watermark, drawn labels or app UI. Nature-observation editorial contact composition: upper half woman standing on forest boardwalk at left holding binoculars toward eyes, calmly observing from distance. One clear small bird perches on branch at right. Lower half three adjacent photographic wildlife close-ups: left a small monkey on branch, centre a nonvenomous-looking snake coiled on forest litter, right a grey-brown rat with long bare tail beside tree root. These are separate observation views, not animals standing together or giant scale. Real anatomy, clear faces of animals, cool forest daylight and natural texture, no text or graphic labels. Keep viewer separate from wildlife.",
+      "words": [
+        {
+          "word": "bird",
+          "zh": "鸟",
+          "pos": "noun",
+          "us": "/bɜːrd/",
+          "uk": "/bɜːd/",
+          "collocations": [
+            "a small bird"
+          ],
+          "example": "A bird rests on the branch.",
+          "translation": "一只鸟停在树枝上。",
+          "mode": "object",
+          "evidence": "上幅独立鸟体。",
+          "color": "blue"
+        },
+        {
+          "word": "monkey",
+          "zh": "猴子",
+          "pos": "noun",
+          "us": "/ˈmʌŋki/",
+          "uk": "/ˈmʌŋki/",
+          "collocations": [
+            "a small monkey"
+          ],
+          "example": "The monkey sits on a branch.",
+          "translation": "猴子坐在树枝上。",
+          "mode": "object",
+          "evidence": "下左小幅独立猴子。",
+          "color": "teal"
+        },
+        {
+          "word": "snake",
+          "zh": "蛇",
+          "pos": "noun",
+          "us": "/sneɪk/",
+          "uk": "/sneɪk/",
+          "collocations": [
+            "a coiled snake"
+          ],
+          "example": "The snake lies on the forest floor.",
+          "translation": "蛇在林地上。",
+          "mode": "object",
+          "evidence": "下中小幅蛇体，不从外貌鉴定毒性。",
+          "color": "amber"
+        },
+        {
+          "word": "rat",
+          "zh": "鼠",
+          "pos": "noun",
+          "us": "/ræt/",
+          "uk": "/ræt/",
+          "collocations": [
+            "a grey rat"
+          ],
+          "example": "The rat has a long tail.",
+          "translation": "这只鼠有长尾巴。",
+          "mode": "object",
+          "evidence": "下右小幅灰褐鼠体与裸尾。",
+          "color": "lavender"
+        },
+        {
+          "word": "observation",
+          "zh": "观察",
+          "pos": "noun",
+          "us": "/ˌɑːbzərˈveɪʃn/",
+          "uk": "/ˌɒbzəˈveɪʃn/",
+          "collocations": [
+            "careful observation"
+          ],
+          "example": "Careful observation helps us notice animals.",
+          "translation": "仔细观察帮助我们留意动物。",
+          "mode": "action",
+          "evidence": "持望远镜的实际观察姿势，不声称观察结果已验证。",
+          "color": "rose"
+        },
+        {
+          "word": "look",
+          "zh": "看",
+          "pos": "verb",
+          "us": "/lʊk/",
+          "uk": "/lʊk/",
+          "collocations": [
+            "look at"
+          ],
+          "example": "I look at the bird through binoculars.",
+          "translation": "我透过望远镜看鸟。",
+          "mode": "action",
+          "evidence": "人物望远镜与视线方向，句子明确观察对象。",
+          "color": "blue"
+        },
+        {
+          "word": "see",
+          "zh": "看见",
+          "pos": "verb",
+          "us": "/siː/",
+          "uk": "/siː/",
+          "collocations": [
+            "see a bird"
+          ],
+          "example": "I can see a bird on the branch.",
+          "translation": "我能看见枝上的鸟。",
+          "mode": "context",
+          "evidence": "视觉感知结果由句子说明，不从姿势推断。",
+          "color": "teal"
+        },
+        {
+          "word": "attention",
+          "zh": "注意力",
+          "pos": "noun",
+          "us": "/əˈtenʃn/",
+          "uk": "/əˈtenʃn/",
+          "collocations": [
+            "pay attention"
+          ],
+          "example": "I pay attention to the animals around me.",
+          "translation": "我注意周围的动物。",
+          "mode": "context",
+          "evidence": "心理注意状态不可独立框选。",
+          "color": "amber"
+        },
+        {
+          "word": "strange",
+          "zh": "陌生的",
+          "pos": "adjective",
+          "us": "/streɪndʒ/",
+          "uk": "/streɪndʒ/",
+          "collocations": [
+            "a strange sound"
+          ],
+          "example": "A strange sound comes from the trees.",
+          "translation": "树间传来陌生的声响。",
+          "mode": "context",
+          "evidence": "陌生声响是原创语境，静态图不能提供声音证据。",
+          "color": "lavender"
+        }
+      ]
+    }
+  ],
+  "lexical_review": {
+    "method": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。",
+    "references": {}
+  },
+  "completionReceipt": "C036-C045_acceptance.json"
+}

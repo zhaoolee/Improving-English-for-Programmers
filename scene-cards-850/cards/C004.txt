@@ -1,0 +1,257 @@
+C004  开门迎客
+========================================================================
+章节: 家里的一天
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-02）
+图片状态: generated
+图片路径: images/C004.png
+复核日期: 2026-10-02
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C004.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-02T11:02:16Z → 2026-10-02T11:02:58Z
+  提示词文件: prompts/C004_image_final.txt
+
+场景: 客人在门外，主角拿钥匙开锁；开门和关门用双幅呈现。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 同一住宅入口双幅：左幅门关着，女性手中金属钥匙插在机械锁处；右幅木门打开，主人向室内邀请客人。两幅都有门旁实体铜铃和拉绳。人物结构、门扇与门槛透视可信；钥匙部分被手指遮挡但可辨，框选可见部分。house与come/in等由句子和语境覆盖。
+
+主配文:
+  英文: I turn the key and open the door. Please come in!
+  中文: 我转动钥匙，打开门。请进！
+  类型: original | 来源: None | 状态: final
+
+目标词 (9): door, key, lock, open, shut, house, come, in, bell
+
+------------------------------------------------------------------------
+[1/9] door  (W211)
+  词义: 门
+  词性: noun (countable)
+  音标: UK /dɔː/ | US /dɔːr/
+  搭配: open the door; a wooden door
+  例句: The door is made of wood.
+  例句高亮: The **door** is made of wood.
+  例句中文: 门是木制的。
+  标注模式: object
+  标注说明: 只框左幅木门门扇，不把整面墙当门。
+  坐标(normalized): [0.242, 0.035, 0.466, 0.825]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只框左幅木门门扇，不把整面墙当门。"
+    sentence: "The door is made of wood."
+    matched_form: "door"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/door  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 门
+------------------------------------------------------------------------
+[2/9] key  (W377)
+  词义: 钥匙
+  词性: noun (countable)
+  音标: UK /kiː/ | US /kiː/
+  搭配: a door key; turn the key
+  例句: I turn the key.
+  例句高亮: I turn the **key**.
+  例句中文: 我转动钥匙。
+  标注模式: object
+  标注说明: 只定位人物手中可辨的金属钥匙，不框整只手。
+  坐标(normalized): [0.419, 0.417, 0.446, 0.451]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "只定位人物手中可辨的金属钥匙，不框整只手。"
+    sentence: "I turn the key."
+    matched_form: "key"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/key_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 钥匙；关键
+------------------------------------------------------------------------
+[3/9] lock  (W412)
+  词义: 锁
+  词性: noun (countable)
+  音标: UK /lɒk/ | US /lɑːk/
+  搭配: a door lock; a key in the lock
+  例句: The key is in the lock.
+  例句高亮: The key is in the **lock**.
+  例句中文: 钥匙插在锁里。
+  标注模式: object
+  标注说明: 框机械锁与钥匙孔，不把整个门把手当锁。
+  坐标(normalized): [0.435, 0.402, 0.462, 0.446]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框机械锁与钥匙孔，不把整个门把手当锁。"
+    sentence: "The key is in the lock."
+    matched_form: "lock"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/lock_2  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 锁
+------------------------------------------------------------------------
+[4/9] open  (W495)
+  词义: 开着的
+  词性: adjective
+  音标: UK /ˈəʊpən/ | US /ˈoʊpən/
+  搭配: be open; an open door
+  例句: The door is open in the right picture.
+  例句高亮: The door is **open** in the right picture.
+  例句中文: 右图里的门开着。
+  标注模式: object
+  标注说明: 右幅打开的门与敞开的门口，形容词open指向这扇门的可见开合状态。
+  坐标(normalized): [0.684, 0.032, 0.993, 0.888]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "右幅打开的门与敞开的门口，形容词open指向这扇门的可见开合状态。"
+    sentence: "The door is open in the right picture."
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/open_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 打开
+------------------------------------------------------------------------
+[5/9] shut  (W651)
+  词义: 关着的
+  词性: adjective
+  音标: UK /ʃʌt/ | US /ʃʌt/
+  搭配: be shut; keep the door shut
+  例句: The door is shut in the left picture.
+  例句高亮: The door is **shut** in the left picture.
+  例句中文: 左图里的门关着。
+  标注模式: object
+  标注说明: 左幅关闭的木门，形容词shut指向可见的关门状态。
+  坐标(normalized): [0.194, 0.032, 0.491, 0.815]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "左幅关闭的木门，形容词shut指向可见的关门状态。"
+    sentence: "The door is shut in the left picture."
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/shut_2  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 关闭
+------------------------------------------------------------------------
+[6/9] house  (W348)
+  词义: 房子
+  词性: noun (countable)
+  音标: UK /haʊs/ | US /haʊs/
+  搭配: my house; a house entrance
+  例句: My house has a wooden door.
+  例句高亮: My **house** has a wooden door.
+  例句中文: 我的房子有一扇木门。
+  标注模式: context
+  标注说明: 住宅入口与原创叙述提供语境；只显示入口，不声称框出了整栋房子。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "My house has a wooden door."
+    matched_form: "house"
+    context: "住宅入口与原创叙述提供语境；只显示入口，不声称框出了整栋房子。"
+    image_verified: null
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/house_1  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 房子
+------------------------------------------------------------------------
+[7/9] come  (W144)
+  词义: 来
+  词性: verb (intransitive)
+  音标: UK /kʌm/ | US /kʌm/
+  搭配: come in; come to my house
+  例句: Please come in.
+  例句高亮: Please **come** in.
+  例句中文: 请进。
+  标注模式: context
+  标注说明: 主人邀请客人进入的场景与例句来说明 come；不把客人静态外貌框成动作。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "Please come in."
+    matched_form: "come"
+    context: "主人邀请客人进入的场景与例句来说明 come；不把客人静态外貌框成动作。"
+    image_verified: null
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/come_1  (核对日期: 2026-10-02)
+  计划模式: context | 源释义(未复核): 来
+------------------------------------------------------------------------
+[8/9] in  (W358)
+  词义: 在……里
+  词性: preposition
+  音标: UK /ɪn/ | US /ɪn/
+  搭配: in the lock; in the house
+  例句: The key is in the lock.
+  例句高亮: The key is **in** the lock.
+  例句中文: 钥匙插在锁里。
+  标注模式: context
+  标注说明: 高亮 in；钥匙与锁的真实插入关系由例句说明，不给介词物体框。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "sentence_with_scene_context"
+    image: null
+    sentence: "The key is in the lock."
+    matched_form: "in"
+    context: "高亮 in；钥匙与锁的真实插入关系由例句说明，不给介词物体框。"
+    image_verified: null
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/in_1  (核对日期: 2026-10-02)
+  计划模式: context | 源释义(未复核): 在...里面
+------------------------------------------------------------------------
+[9/9] bell  (W064)
+  词义: 铃
+  词性: noun (countable)
+  音标: UK /bel/ | US /bel/
+  搭配: ring the bell; a brass bell
+  例句: The bell hangs by the door.
+  例句高亮: The **bell** hangs by the door.
+  例句中文: 铃挂在门旁。
+  标注模式: object
+  标注说明: 框门旁实体铜铃，区别于电子门铃按钮。
+  坐标(normalized): [0.409, 0.082, 0.479, 0.164]
+  覆盖状态: verified
+  证据:
+    type: "image_and_sentence"
+    image: "框门旁实体铜铃，区别于电子门铃按钮。"
+    sentence: "The bell hangs by the door."
+    matched_form: "bell"
+    image_verified: true
+  词条来源:
+    Oxford Advanced Learner's Dictionary
+    https://www.oxfordlearnersdictionaries.com/definition/english/bell  (核对日期: 2026-10-02)
+  计划模式: object_or_action_to_review | 源释义(未复核): 钟；铃
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 9
+  content_entries_complete: 9
+  sentence_evidence_complete: 9
+  verified_targets: 9
+  image_review: "pass"
+  object_or_region_boxes: 4
+  context_annotations: 5
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C004 的逐词编辑及底图视觉复核完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=5 | meta.approved_cards=5
+
+底图提示词 (image_prompt 原文):
+
+Photorealistic refined Korean cool editorial photography, vertical 4:5 overall, two equal vertical photographic panels with a thin clean divider. Show two successive moments at the SAME entrance of a small elegant house, pale grey plaster exterior, light oak front door, cool stone threshold, cool natural daylight. Adult East Asian woman around 25 with loose low bun, ivory cardigan and pale grey skirt. LEFT panel: door fully CLOSED, woman outside in three-quarter profile, her hand turning a clearly visible small metal KEY already inserted in a realistic brass mechanical LOCK near waist height. Make key bow, shaft and keyhole lock distinguishable and not obscured by her fingers. A real small BRASS BELL, clearly hollow with flared rim and visible clapper, hangs from a bracket beside the door frame with a pull cord. It is an actual traditional door bell, not an electronic button. Adult male visitor in muted blue shirt stands patiently outside toward the far edge. RIGHT panel: same woman holding the same door wide OPEN and courteously gesturing toward the interior, same male visitor taking a step across the threshold; doorway opening and interior floor clearly visible, door and bell in the same architectural positions. Plausible progression, closed door left, open door right. Give both people separate coherent silhouettes, anatomically correct hands, natural intimate fashion photography, pearl white mist grey muted blue palette, preserve real skin pores hair and materials with high end subtle retouch, avoid waxy skin and CGI. Frame full doorway and upper bodies, visible key/lock/bell large enough to identify. Modest clear wall space for later annotation. No lettering, numbers, signs, labels, speech bubbles, logos, watermarks or UI. No duplicated limbs, floating keys, impossible door hinges or fantasy architecture.

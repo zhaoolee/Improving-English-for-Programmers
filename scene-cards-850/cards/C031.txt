@@ -1,0 +1,252 @@
+C031  街角问路
+========================================================================
+章节: 城市与出行
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-03）
+图片状态: generated
+图片路径: images/C031.png
+复核日期: 2026-10-03
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C031.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: [redacted:external-generated-image]
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-03T08:06:49Z → 2026-10-03T08:10:01Z
+  提示词文件: prompts/C031_image_final.txt
+
+场景: 道路穿过街区，地图和路口指向左右，主角向行人问路。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 小镇三岔街道、手中地图、指路者与左右支路可辨。地图不读取地名或把蓝色水系当路线；left/right依据画面朝前视角与例句说明。两人手部可信，远景保留街区层次。
+
+主配文:
+  英文: A map in my hands, a quiet street, and a new way through town.
+  中文: 手里一张地图，眼前一条安静的街，我在小镇寻找新的路线。
+  类型: original | 来源: None | 状态: final
+
+目标词 (8): street, road, town, map, left, right, way, where
+
+------------------------------------------------------------------------
+[1/8] street  (W718)
+  词义: 街道
+  词性: noun
+  音标: UK /striːt/ | US /striːt/
+  搭配: a quiet street
+  例句: The street beside us is quiet.
+  例句高亮: The **street** beside us is quiet.
+  例句中文: 我们身旁的街道很安静。
+  标注模式: object
+  标注说明: 人物身旁有建筑与人行道的街道区域。
+  坐标(normalized): [0.05, 0.37, 0.206, 0.558]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "人物身旁有建筑与人行道的街道区域。"
+    sentence: "The street beside us is quiet."
+    matched_form: "street"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 街道
+
+------------------------------------------------------------------------
+[2/8] road  (W601)
+  词义: 道路
+  词性: noun
+  音标: UK /rəʊd/ | US /roʊd/
+  搭配: the main road
+  例句: The road leads into town.
+  例句高亮: The **road** leads into town.
+  例句中文: 这条路通向镇里。
+  标注模式: object
+  标注说明: 通向远处街区的主道路。
+  坐标(normalized): [0.398, 0.419, 0.632, 0.627]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "通向远处街区的主道路。"
+    sentence: "The road leads into town."
+    matched_form: "road"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 道路
+
+------------------------------------------------------------------------
+[3/8] town  (W775)
+  词义: 小镇
+  词性: noun
+  音标: UK /taʊn/ | US /taʊn/
+  搭配: a small town
+  例句: We explore a small town.
+  例句高亮: We explore a small **town**.
+  例句中文: 我们游览一个小镇。
+  标注模式: object
+  标注说明: 远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。
+  坐标(normalized): [0.083, 0.142, 0.957, 0.388]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "远处低层街区定位故事中的小镇，不把单栋楼等同于全镇。"
+    sentence: "We explore a small town."
+    matched_form: "town"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 城镇
+
+------------------------------------------------------------------------
+[4/8] map  (W425)
+  词义: 地图
+  词性: noun
+  音标: UK /mæp/ | US /mæp/
+  搭配: check the map
+  例句: I check the map in my hands.
+  例句高亮: I check the **map** in my hands.
+  例句中文: 我查看手里的地图。
+  标注模式: object
+  标注说明: 手中展开的纸质路线图，无需读取地名。
+  坐标(normalized): [0.365, 0.595, 0.573, 0.74]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "手中展开的纸质路线图，无需读取地名。"
+    sentence: "I check the map in my hands."
+    matched_form: "map"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 地图
+
+------------------------------------------------------------------------
+[5/8] left  (W395)
+  词义: 向左
+  词性: adverb
+  音标: UK /left/ | US /left/
+  搭配: turn left
+  例句: Turn left at the corner.
+  例句高亮: Turn **left** at the corner.
+  例句中文: 在拐角处向左转。
+  标注模式: relation
+  标注说明: 路口左侧分支与指路手势，方向以当前画面行进视角解释。
+  坐标(normalized): [0.05, 0.37, 0.206, 0.558]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "路口左侧分支与指路手势，方向以当前画面行进视角解释。"
+    sentence: "Turn left at the corner."
+    matched_form: "left"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 左边的
+
+------------------------------------------------------------------------
+[6/8] right  (W598)
+  词义: 向右
+  词性: adverb
+  音标: UK /raɪt/ | US /raɪt/
+  搭配: turn right
+  例句: You can turn right at this corner.
+  例句高亮: You can turn **right** at this corner.
+  例句中文: 你可以在这个拐角处向右转。
+  标注模式: relation
+  标注说明: 路口右侧分支，句子以画面行进方向解释。
+  坐标(normalized): [0.79, 0.35, 0.976, 0.478]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "路口右侧分支，句子以画面行进方向解释。"
+    sentence: "You can turn right at this corner."
+    matched_form: "right"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 正确的；权利
+
+------------------------------------------------------------------------
+[7/8] way  (W810)
+  词义: 路线
+  词性: noun
+  音标: UK /weɪ/ | US /weɪ/
+  搭配: find the way
+  例句: The map helps us find the way.
+  例句高亮: The map helps us find the **way**.
+  例句中文: 地图帮助我们找到路线。
+  标注模式: object
+  标注说明: 纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。
+  坐标(normalized): [0.365, 0.595, 0.573, 0.74]
+  覆盖状态: verified
+  证据:
+    type: "referent_region_and_sentence"
+    image: "纸质地图的道路网络定位路线指代；路线含义来自例句，不把蓝色河流当成指定路线。"
+    sentence: "The map helps us find the way."
+    matched_form: "way"
+    referent_region_verified: true
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 方式
+
+------------------------------------------------------------------------
+[8/8] where  (W819)
+  词义: 在哪里
+  词性: adverb
+  音标: UK /weə/ | US /wer/
+  搭配: where is
+  例句: Where is the town centre?
+  例句高亮: **Where** is the town centre?
+  例句中文: 镇中心在哪里？
+  标注模式: context
+  标注说明: 问路疑问句提供语境，没有独立可定位对象。
+  坐标(normalized): None
+  覆盖状态: verified
+  证据:
+    type: "context_sentence"
+    image: null
+    sentence: "Where is the town centre?"
+    matched_form: "where"
+    context: "问路疑问句提供语境，没有独立可定位对象。"
+    referent_region_verified: false
+    image_verified: null
+  词条来源:
+    Codex 按本卡语境编辑复核 | url:  | 核对日期: 2026-10-03
+    说明: Codex按本卡语境独立编辑复核，不声称已访问词典全文。
+  计划模式: object_or_action_to_review | 源释义(未复核): 在哪里
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 8
+  content_entries_complete: 8
+  sentence_evidence_complete: 8
+  verified_targets: 8
+  image_review: "pass"
+  object_or_region_boxes: 7
+  context_annotations: 1
+  assignment_changes: []
+  unfinished_items: []
+  scope: "C031 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+
+全局状态: meta.completed_images=34 | meta.approved_cards=35
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Asset: English scene-card base photograph, portrait 4:5. Refined Korean cool Instagram travel-fashion editorial with authentic environmental detail. Main subject is a stylish adult East Asian woman around 25, dark loose low bun, understated ivory/slate outfit, subtle magazine retouch while retaining pores, real hair and natural hands. Cool soft daylight, pearl white, fog grey, slate blue; true skin color. Clear teaching objects, coherent anatomy and perspective, deliberate breathing room near edges for later bubbles. No text, letters, digits, words, captions, brand, watermark, UI or learning labels. One polished environmental travel photograph of a small town street junction. Woman in left foreground holding an unfolded paper map with simple street lines and a blue route, absolutely no writing. A second adult local woman at right points toward the left branch, natural hands and clear faces. Main paved road leads into small-town low-rise buildings in distance; two distinct side streets branch left and right at the junction, sidewalks and kerbs make them visually legible. Both map and road junction unobstructed. Soft pale sky and calm side walls for annotation. No traffic signs with writing.

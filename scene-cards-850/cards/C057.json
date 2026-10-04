@@ -1,0 +1,282 @@
+{
+  "id": "C057",
+  "chapter": "身体与健康",
+  "title": "呼吸与消化",
+  "scene": "主角运动后平稳呼吸，旁边教学模型说明胃与消化、嗅觉和感官。",
+  "target_count": 6,
+  "primary_words": [
+    "breath",
+    "stomach",
+    "digestion",
+    "sense",
+    "feeling",
+    "well"
+  ],
+  "targets": [
+    {
+      "word_id": "W093",
+      "word": "breath",
+      "aliases": [],
+      "source_zh_unreviewed": "呼吸",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "一次呼吸",
+      "pos": "noun",
+      "ipa_us": "/breθ/",
+      "ipa_uk": "/breθ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I take a slow breath after the walk.",
+        "matched_form": "breath",
+        "referent_region_verified": false,
+        "context": "呼吸气流不可见，由动作故事句子说明。",
+        "image_verified": null
+      },
+      "example_en": "I take a slow breath after the walk.",
+      "example_zh": "散步后，我缓缓吸一口气。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a slow breath"
+      ],
+      "example_en_highlighted": "I take a slow **breath** after the walk.",
+      "annotation_mode": "context",
+      "annotation_note": "呼吸气流不可见，由动作故事句子说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W711",
+      "word": "stomach",
+      "aliases": [],
+      "source_zh_unreviewed": "胃",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "胃",
+      "pos": "noun",
+      "ipa_us": "/ˈstʌmək/",
+      "ipa_uk": "/ˈstʌmək/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "实际胃教学模型，不把腹部表面当胃本体。",
+        "sentence": "This model represents the stomach.",
+        "matched_form": "stomach",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This model represents the stomach.",
+      "example_zh": "这个模型表示胃。",
+      "bbox_normalized": [
+        0.382,
+        0.599,
+        0.709,
+        0.864
+      ],
+      "collocations": [
+        "a stomach model"
+      ],
+      "example_en_highlighted": "This model represents the **stomach**.",
+      "annotation_mode": "object",
+      "annotation_note": "实际胃教学模型，不把腹部表面当胃本体。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W199",
+      "word": "digestion",
+      "aliases": [],
+      "source_zh_unreviewed": "消化",
+      "planned_mode": "context",
+      "sense_zh": "消化",
+      "pos": "noun",
+      "ipa_us": "/daɪˈdʒestʃən/",
+      "ipa_uk": "/daɪˈdʒestʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I learn about digestion with the model.",
+        "matched_form": "digestion",
+        "referent_region_verified": false,
+        "context": "过程不可由静态模型直接看见。",
+        "image_verified": null
+      },
+      "example_en": "I learn about digestion with the model.",
+      "example_zh": "我借助模型了解消化。",
+      "bbox_normalized": null,
+      "collocations": [
+        "learn about digestion"
+      ],
+      "example_en_highlighted": "I learn about **digestion** with the model.",
+      "annotation_mode": "context",
+      "annotation_note": "过程不可由静态模型直接看见。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W635",
+      "word": "sense",
+      "aliases": [],
+      "source_zh_unreviewed": "感觉",
+      "planned_mode": "context",
+      "sense_zh": "感官",
+      "pos": "noun",
+      "ipa_us": "/sens/",
+      "ipa_uk": "/sens/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My sense of smell helps me notice the herb.",
+        "matched_form": "sense",
+        "referent_region_verified": false,
+        "context": "感官功能由自然例句说明，不框植物代替感官。",
+        "image_verified": null
+      },
+      "example_en": "My sense of smell helps me notice the herb.",
+      "example_zh": "嗅觉帮助我闻到香草。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the sense of smell"
+      ],
+      "example_en_highlighted": "My **sense** of smell helps me notice the herb.",
+      "annotation_mode": "context",
+      "annotation_note": "感官功能由自然例句说明，不框植物代替感官。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W260",
+      "word": "feeling",
+      "aliases": [],
+      "source_zh_unreviewed": "感觉；情感",
+      "planned_mode": "context",
+      "sense_zh": "感受",
+      "pos": "noun",
+      "ipa_us": "/ˈfiːlɪŋ/",
+      "ipa_uk": "/ˈfiːlɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I have a feeling of calm after resting.",
+        "matched_form": "feeling",
+        "referent_region_verified": false,
+        "context": "主观感受不从静态表情断定。",
+        "image_verified": null
+      },
+      "example_en": "I have a feeling of calm after resting.",
+      "example_zh": "休息后我感到平静。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a feeling of calm"
+      ],
+      "example_en_highlighted": "I have a **feeling** of calm after resting.",
+      "annotation_mode": "context",
+      "annotation_note": "主观感受不从静态表情断定。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": "W814",
+      "word": "well",
+      "aliases": [],
+      "source_zh_unreviewed": "好",
+      "planned_mode": "object_or_action_to_review",
+      "sense_zh": "身体好的",
+      "pos": "adjective",
+      "ipa_us": "/wel/",
+      "ipa_uk": "/wel/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I feel well after a rest.",
+        "matched_form": "well",
+        "referent_region_verified": false,
+        "context": "well选健康状态形容词义，故事自述。",
+        "image_verified": null
+      },
+      "example_en": "I feel well after a rest.",
+      "example_zh": "休息后我感觉身体很好。",
+      "bbox_normalized": null,
+      "collocations": [
+        "feel well"
+      ],
+      "example_en_highlighted": "I feel **well** after a rest.",
+      "annotation_mode": "context",
+      "annotation_note": "well选健康状态形容词义，故事自述。",
+      "lexical_source": {
+        "name": "Codex 按本卡语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-03",
+        "note": "Codex按本卡语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "I take a slow breath, notice a gentle feeling, and learn about digestion.",
+    "zh": "我缓缓吸一口气，留意舒缓的感受，也了解消化。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "editor_note": "",
+  "content_prompt": "你是英语学习卡片的内容编辑。依据本卡目标词逐条制作内容，目标词集合必须原样保留；同一词允许复习，不新增主归属、不删除或替换目标词。不是要求所有英语句子严格仅用 Basic 850；允许必要的辅助词，但不计入850覆盖。\n输出：1 场景与明确画面证据；2 每个目标词的本卡词义、词性、英美音标、自然搭配、短例句与中文、annotation_mode（object/action/relation/context）、evidence；3 图像生成提示词；4 主配文及中文，约8～18个英文词，优先自然、易懂，必要时用2～3句短对话；5 逐词覆盖检查与未完成项。\n具体词标到物体，动作词标到动作，空间关系用真实对象关系或双幅对比；功能词与抽象词必须有包含该词或明确屈折形式的自然句子和语境，不给虚假的物体框。所有目标词都有独立可查的词条，即使主配文没有包含它。语法词在词句中高亮，不把冠词标成物体。\n主配文草案均为原创，不冒充名著或名言。若要求文学配文，先找可核实的原文，提供作者、作品、原文位置、来源URL及使用依据。不得只根据作者去世就断言可商用；单独核查英文原文、所选版本和译文。改写必须标记 adaptation，原创译文标记 original_translation。查不到出处就使用原创句。无需每张都放名言，更不硬凑所有目标词到一条名言里。\n音标和释义需按本卡词义重新核对，不能把源仓库的未经复核数据当成成品。坐标仅在最终图生成后设置；现在可给位置建议，不声称已有精确框选。输出status=content_draft，图片完成并逐词核对后才能改为approved。\n卡片ID C057\n标题 呼吸与消化\n场景 主角运动后平稳呼吸，旁边教学模型说明胃与消化、嗅觉和感官。\n目标词 breath, stomach, digestion, sense, feeling, well\n原创主配文草案 I take a deep breath and feel well.\n中文草案 我深吸一口气，感觉很好。\n编辑注意 按具体语境逐词定稿。",
+  "image_prompt": "Use case: photorealistic-natural. One portrait 4:5 scene-card base image, refined cool Korean Instagram editorial photography. Adult East Asian woman about 25, elegant pearl/slate everyday clothing appropriate to scene, understated natural makeup, real skin pores, credible hands and anatomy, soft cool daylight and restrained colours. Teaching objects crisp and distinct, clean spaces near outer edges for later labels. No text, letters, digits, brands, labels, captions, logos or watermarks. Quiet wellness educational editorial, two stacked photographs. Upper adult woman in modest exercise clothes after a walk, sitting upright on bench in bright room, hand loosely resting near upper abdomen, breathing calmly; small fresh herb sprig on table for sense of smell context. Lower tabletop close view of a SIMPLE opaque plastic stomach teaching model, pink curved sac with short inlet and outlet, clearly distinct and clean; no real internal tissue or labels. Psychological and digestive processes explained by sentences, not implied to be visible.",
+  "status": "approved",
+  "image_path": "images/C057.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-03",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 6,
+    "content_entries_complete": 6,
+    "sentence_evidence_complete": 6,
+    "verified_targets": 6,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 5,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "C057 的逐词编辑及底图视觉核对完成；850 总表仍只是词头分配覆盖，其他卡未制作，不声称学习效果已验证。"
+  },
+  "reviewed_on": "2026-10-03",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "[redacted:external-generated-image]",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-03T14:55:34Z",
+    "ended_at": "2026-10-03T15:00:40Z",
+    "prompt_path": "prompts/C057_image_final.txt",
+    "sourcePathRedacted": true
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/C057.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "下幅胃模型形状独立清楚；呼吸、消化、嗅觉、感觉和健康状态由例句表达，不能伪造过程区域。"
+  }
+}
