@@ -38,8 +38,8 @@ from urllib.parse import quote
 START = "## 850章节开始"
 END = "## 850章节结束"
 SOURCE_HEADING = "## 数据来源"
-# 官方原图绝对地址：GitHub 渲染 README 时会通过其图片代理加载，避免相对路径被重写成
-# /github/.../raw/main/... 再重定向。未来 Fork 可用 --image-base-url 切换。
+# 官方原图直链：避免相对路径在 GitHub 上被重写成 /raw/main/... 后再重定向。
+# 是否经过图片代理以实际页面为准；发布后需浏览器验证。Fork 可用 --image-base-url 切换。
 IMAGE_BASE_URL = "https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/"
 
 INTRO = (

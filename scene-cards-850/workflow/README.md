@@ -104,7 +104,7 @@ V6 已发布：V6（C001—C100，100图850唯一目标词/504局部框/346语�
 - 只读校验：`python3 scene-cards-850/scripts/sync-readme.py --check`（已同步退出 0，不一致退出 1，不写文件）
 - 临时验证：`--readme /path/to/README.md`（相对调用 cwd 解析，数据源仍为本仓库）
 - 选图绑定：每卡读取 `piclex/Cxxx_job.json` 的 `imagePath`（相对 job 目录解析，必须在仓库内）；**C001 当前绑定 `workflow/references/instagram-warm.png`（暖图），将来跟随 job 合法更新**；其余为 `images/Cxxx.png`。不使用未绑定冷图或预览副本。
-- 图片地址：`src` 用官方原图绝对地址（常量 `IMAGE_BASE_URL`，默认 `https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/`；Fork 可用 `--image-base-url`），让 GitHub 走图片代理、避免相对路径被重写为 `/github/.../raw/main/...` 再重定向；保持 `<img width="480">`。**线上需在浏览器实际确认 100 张 `naturalWidth > 0`，本地存在不等于 GitHub 加载成功；是否修复以 Root 线上验收为准。**
+- 图片地址：`src` 用官方原图绝对地址（常量 `IMAGE_BASE_URL`，默认 `https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/`；Fork 可用 `--image-base-url`），避免相对路径被重写为 `/github/.../raw/main/...` 再重定向；保持 `<img width="480">`。**线上需在浏览器实际确认 100 张 `naturalWidth > 0`，本地存在不等于 GitHub 加载成功；是否修复以 Root 线上验收为准。**
 - 标记必须各恰好 1 个且顺序正确；单标记/重复/反向报错不写。区间外文本（含原 850 词表与数据来源）逐字保留；重复运行幂等。
 
 ## 底图压缩（ONEPUNCH，可选，不影响原图）
