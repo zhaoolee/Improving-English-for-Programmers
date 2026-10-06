@@ -1,0 +1,130 @@
+{
+  "filename": "W016-确认用户角色与权限.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "role",
+      "chinese": "角色",
+      "phoneticUS": "/roʊl/",
+      "phoneticUK": "/rəʊl/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "用户角色由对白定义，界面图标不能证明具体权限角色。",
+        "association": "用户角色由对白定义，界面图标不能证明具体权限角色。",
+        "collocation": "default role; assign a role",
+        "example": "A: Which role should a new user get by default?\nB: Viewer. A viewer can read reports but cannot edit them.\nA: Should the edit button disappear on the laptop screen?\nB: Keep it visible but disabled, with a short explanation.",
+        "exampleChinese": "A: 新用户默认应该获得哪个角色？\nB: 查看者。查看者可以阅读报表，但不能编辑。\nA: 笔记本电脑屏幕上的编辑按钮应该隐藏吗？\nB: 保留显示，但设为不可用，并给出简短说明。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "viewer",
+      "chinese": "查看者",
+      "phoneticUS": "/ˈvjuːər/",
+      "phoneticUK": "/ˈvjuːə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件查看者角色由对白约定，不把同事人物框为软件身份。",
+        "association": "软件查看者角色由对白约定，不把同事人物框为软件身份。",
+        "collocation": "viewer role; a viewer can read",
+        "example": "Viewer. A viewer can read reports but cannot edit them.",
+        "exampleChinese": "查看者。查看者可以阅读报表，但不能编辑。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "edit",
+      "chinese": "编辑",
+      "phoneticUS": "/ˈedɪt/",
+      "phoneticUK": "/ˈedɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对白说明编辑权限，没有实际编辑动作区域。",
+        "association": "对白说明编辑权限，没有实际编辑动作区域。",
+        "collocation": "edit a report; edit permission",
+        "example": "Viewer. A viewer can read reports but cannot edit them.",
+        "exampleChinese": "查看者。查看者可以阅读报表，但不能编辑。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 552,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 845
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 552
+      },
+      "boundingBox": {
+        "left": 327,
+        "top": 332,
+        "right": 694,
+        "bottom": 589
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的笔记本电脑本体可定位。",
+        "association": "完整可见的笔记本电脑本体可定位。",
+        "collocation": "laptop screen; open a laptop",
+        "example": "Should the edit button disappear on the laptop screen?",
+        "exampleChinese": "笔记本电脑屏幕上的编辑按钮应该隐藏吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer checks the default user role and the editing controls with a product manager.",
+    "chinese": "开发者与产品经理确认默认用户角色及编辑控件的表现。",
+    "source": "原创对话 · W016 确认用户角色与权限",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

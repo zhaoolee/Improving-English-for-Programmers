@@ -1,0 +1,130 @@
+{
+  "filename": "W054-确认问题出现的环境.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "environment",
+      "chinese": "环境",
+      "phoneticUS": "/ɪnˈvaɪrənmənt/",
+      "phoneticUK": "/ɪnˈvaɪrənmənt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处environment是软件运行环境而非房间，预发布环境由对白说明。",
+        "association": "此处environment是软件运行环境而非房间，预发布环境由对白说明。",
+        "collocation": "a staging environment; test environment",
+        "example": "A: Which environment did you use when the error appeared?\nB: Staging, in the browser on my laptop.\nA: Could you share the browser version and a screenshot?\nB: Sure. I'll include both in the report.",
+        "exampleChinese": "A: 错误出现时，你使用的是哪个环境？\nB: 预发布环境，用的是笔记本电脑上的浏览器。\nA: 你能提供浏览器版本和一张截图吗？\nB: 当然。我会把两者都放进报告里。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "version",
+      "chinese": "版本",
+      "phoneticUS": "/ˈvɜːrʒən/",
+      "phoneticUK": "/ˈvɜːʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "底图没有版本号码，不能从外观识别软件版本。",
+        "association": "底图没有版本号码，不能从外观识别软件版本。",
+        "collocation": "browser version; share the version",
+        "example": "Could you share the browser version and a screenshot?",
+        "exampleChinese": "你能提供浏览器版本和一张截图吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "browser",
+      "chinese": "浏览器",
+      "phoneticUS": "/ˈbraʊzər/",
+      "phoneticUK": "/ˈbraʊzə/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "浏览器作为运行软件由对白说明，打印示意不证明软件正在运行。",
+        "association": "浏览器作为运行软件由对白说明，打印示意不证明软件正在运行。",
+        "collocation": "in the browser; a browser window",
+        "example": "Staging, in the browser on my laptop.",
+        "exampleChinese": "预发布环境，用的是笔记本电脑上的浏览器。"
+      }
+    },
+    {
+      "x": 562,
+      "y": 381,
+      "english": "screenshot",
+      "chinese": "截图",
+      "phoneticUS": "/ˈskriːnʃɑːt/",
+      "phoneticUK": "/ˈskriːnʃɒt/",
+      "bubblePosition": {
+        "x": 590,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 562,
+        "y": 381
+      },
+      "boundingBox": {
+        "left": 478,
+        "top": 273,
+        "right": 648,
+        "bottom": 484
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立纸张上展示的浏览器截图可框选，具体身份由对白设定。",
+        "association": "独立纸张上展示的浏览器截图可框选，具体身份由对白设定。",
+        "collocation": "share a screenshot; attach a screenshot",
+        "example": "Could you share the browser version and a screenshot?",
+        "exampleChinese": "你能提供浏览器版本和一张截图吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A tester and a developer confirm the environment where a bug occurs.",
+    "chinese": "测试同事与开发者确认问题出现时的环境和浏览器版本。",
+    "source": "原创对话 · W054 确认问题出现的环境",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

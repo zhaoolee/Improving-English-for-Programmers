@@ -1,0 +1,120 @@
+W055  讨论偶发错误
+========================================================================
+分类: 测试与问题排查（debugging）
+关键词: intermittent
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W055.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W055.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W055.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T16:12:32.645Z → 2026-10-05T16:16:52.116Z
+  提示词文件: prompts/W055_image_final.txt
+
+场景: 两位开发者排查偶发音频错误，记录耳机断开时的时序并比较日志。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面完整头戴式耳机的头梁与两个耳罩可定位。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。
+
+沟通目标: 说明复现不稳定并建立可比较的排查记录。
+
+主配文（一句场景描述）:
+  英文: Two developers investigate an intermittent audio bug that sometimes follows a headphone disconnect.
+  中文: 两位开发者排查偶发音频错误，记录耳机断开时的时序并比较日志。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] This audio bug is intermittent. It does not happen every time.
+        这个音频错误是偶发的，不是每次都会出现。
+  [B] Is there a pattern in when it occurs?
+        它出现的时机有规律吗？
+  [A] It sometimes happens when I unplug the headphones.
+        有时我拔下耳机时会出现。
+  [B] Record the timing of each disconnect, then compare the logs.
+        记录每次断开时的时序，再比较日志。
+
+目标词 (4): intermittent, pattern, timing, headphones
+
+------------------------------------------------------------------------
+[1/4] intermittent
+  词义: 偶发的
+  词性: adjective
+  音标: UK /ˌɪntəˈmɪtənt/ | US /ˌɪntərˈmɪtənt/
+  搭配: an intermittent bug; intermittent failure
+  例句: This audio bug is intermittent. It does not happen every time.
+  例句高亮: This audio bug is **intermittent**. It does not happen every time.
+  例句中文: 这个音频错误是偶发的，不是每次都会出现。
+  标注模式: context
+  标注说明: 偶发频率由对白说明，单张静态图不能证明每次发生概率。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] pattern
+  词义: 规律
+  词性: noun
+  音标: UK /ˈpætən/ | US /ˈpætərn/
+  搭配: see a pattern; a pattern in failures
+  例句: Is there a pattern in when it occurs?
+  例句高亮: Is there a **pattern** in when it occurs?
+  例句中文: 它出现的时机有规律吗？
+  标注模式: context
+  标注说明: 故障规律需要多次记录，不能用画面重复线条替代。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] timing
+  词义: 时序
+  词性: noun
+  音标: UK /ˈtaɪmɪŋ/ | US /ˈtaɪmɪŋ/
+  搭配: record the timing; disconnect timing
+  例句: Record the timing of each disconnect, then compare the logs.
+  例句高亮: Record the **timing** of each disconnect, then compare the logs.
+  例句中文: 记录每次断开时的时序，再比较日志。
+  标注模式: context
+  标注说明: 事件时间关系由调查建议定义，不用静态图虚构测量。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] headphones
+  词义: 耳机
+  词性: plural noun
+  音标: UK /ˈhedfəʊnz/ | US /ˈhedfoʊnz/
+  搭配: unplug the headphones; wear headphones
+  例句: It sometimes happens when I unplug the headphones.
+  例句高亮: It sometimes happens when I unplug the **headphones**.
+  例句中文: 有时我拔下耳机时会出现。
+  标注模式: object
+  标注说明: 桌面完整头戴式耳机的头梁与两个耳罩可定位。
+  坐标(normalized): [0.685, 0.478, 0.893, 0.645]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W055 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure developers beside a laptop on a simple desk. A pair of LARGE OVER-EAR HEADPHONES, with clear arched headband and two ear cups, lies fully visible on the RIGHT of the desk. Its cable trails to a loose unplugged connector beside the laptop, no hand covers the headphones. Developer gestures toward disconnected cable, teammate listens thoughtfully. No sound waves, text or labels.
+

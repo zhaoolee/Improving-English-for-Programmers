@@ -1,0 +1,130 @@
+{
+  "filename": "W071-请求事故沟通反馈.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "feedback",
+      "chinese": "反馈",
+      "phoneticUS": "/ˈfiːdbæk/",
+      "phoneticUK": "/ˈfiːdbæk/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "具体反馈由对白支持，不把导师或手势等同于反馈，不设框。",
+        "association": "具体反馈由对白支持，不把导师或手势等同于反馈，不设框。",
+        "collocation": "give feedback on; ask for feedback",
+        "example": "A: Could you give me feedback on how I handled the incident?\nB: You explained the impact clearly. To improve, share your next update time sooner.\nA: I'll write that in my notebook. What should my goal be for next time?\nB: Give a brief status update with an owner and a clear next step.",
+        "exampleChinese": "A: 你能就我处理这次事故的方式给我一些反馈吗？\nB: 你把影响说明得很清楚。要进一步改进，可以更早告诉大家下一次更新的时间。\nA: 我会把它记在笔记本里。下一次我应该设定什么目标？\nB: 做一次简短的状态同步，说明负责人和明确的下一步。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "improve",
+      "chinese": "改进",
+      "phoneticUS": "/ɪmˈpruːv/",
+      "phoneticUK": "/ɪmˈpruːv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对白提出改进方向；静态图不能证明能力改善，不设框。",
+        "association": "对白提出改进方向；静态图不能证明能力改善，不设框。",
+        "collocation": "improve communication; improve your skills",
+        "example": "To improve, share your next update time sooner.",
+        "exampleChinese": "要进一步改进，可以更早告诉大家下一次更新的时间。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "goal",
+      "chinese": "目标",
+      "phoneticUS": "/ɡoʊl/",
+      "phoneticUK": "/ɡəʊl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "本卡目标为下一次沟通方式，由问答明确；笔记本不是目标本身，不设框。",
+        "association": "本卡目标为下一次沟通方式，由问答明确；笔记本不是目标本身，不设框。",
+        "collocation": "set a goal; a clear goal",
+        "example": "What should my goal be for next time?",
+        "exampleChinese": "下一次我应该设定什么目标？"
+      }
+    },
+    {
+      "x": 430,
+      "y": 520,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 410,
+        "y": 665
+      },
+      "anchorPosition": {
+        "x": 430,
+        "y": 520
+      },
+      "boundingBox": {
+        "left": 285,
+        "top": 475,
+        "right": 525,
+        "bottom": 565
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "圆桌前沿打开的纸质笔记本为实际局部对象；本词条不是笔记本电脑。",
+        "association": "圆桌前沿打开的纸质笔记本为实际局部对象；本词条不是笔记本电脑。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "I'll write that in my notebook.",
+        "exampleChinese": "我会把它记在笔记本里。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a mentor for feedback on incident communication and writes down a goal.",
+    "chinese": "开发者向导师请求事故沟通方面的反馈，并在笔记本中记录下一次的改进目标。",
+    "source": "原创对话 · W071 请求事故沟通反馈",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

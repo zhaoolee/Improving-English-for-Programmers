@@ -1,0 +1,256 @@
+{
+  "id": "W061",
+  "category": "operations",
+  "category_title": "发布与线上协作",
+  "chapter": "发布与线上协作",
+  "title": "讨论发布回滚",
+  "keyword": "rollback",
+  "scene": "一次发布影响了用户登录，两名值班开发者协商回滚并分工监测恢复情况。",
+  "target_count": 4,
+  "primary_words": [
+    "rollback",
+    "deployment",
+    "impact",
+    "monitor"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "rollback",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "回滚",
+      "pos": "noun",
+      "ipa_us": "/ˈroʊlbæk/",
+      "ipa_uk": "/ˈrəʊlbæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll record the rollback and confirm when the service is healthy.",
+        "matched_form": "rollback",
+        "referent_region_verified": false,
+        "context": "对话明确恢复旧版本；名词 rollback 与动词短语 roll back 分开说明，静态图不证明操作已完成。",
+        "image_verified": null
+      },
+      "example_en": "I'll record the rollback and confirm when the service is healthy.",
+      "example_zh": "我会记录这次回滚，并在服务恢复正常后确认。",
+      "bbox_normalized": null,
+      "collocations": [
+        "record a rollback",
+        "perform a rollback"
+      ],
+      "example_en_highlighted": "I'll record the **rollback** and confirm when the service is healthy.",
+      "annotation_mode": "context",
+      "annotation_note": "对话明确恢复旧版本；名词 rollback 与动词短语 roll back 分开说明，静态图不证明操作已完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "deployment",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "发布部署",
+      "pos": "noun",
+      "ipa_us": "/dɪˈplɔɪmənt/",
+      "ipa_uk": "/dɪˈplɔɪmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Should we roll back the new deployment?",
+        "matched_form": "deployment",
+        "referent_region_verified": false,
+        "context": "对话明确指一次发布部署；静态图表不能证明部署操作，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Should we roll back the new deployment?",
+      "example_zh": "我们应该回滚这次新发布吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a new deployment",
+        "roll back a deployment"
+      ],
+      "example_en_highlighted": "Should we roll back the new **deployment**?",
+      "annotation_mode": "context",
+      "annotation_note": "对话明确指一次发布部署；静态图表不能证明部署操作，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "impact",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "影响",
+      "pos": "noun",
+      "ipa_us": "/ˈɪmpækt/",
+      "ipa_uk": "/ˈɪmpækt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The impact is growing—users can't sign in.",
+        "matched_form": "impact",
+        "referent_region_verified": false,
+        "context": "用户登录受影响由对话给出，不从抽象曲线推断影响规模。",
+        "image_verified": null
+      },
+      "example_en": "The impact is growing—users can't sign in.",
+      "example_zh": "影响正在扩大——用户无法登录。",
+      "bbox_normalized": null,
+      "collocations": [
+        "user impact",
+        "assess the impact"
+      ],
+      "example_en_highlighted": "The **impact** is growing—users can't sign in.",
+      "annotation_mode": "context",
+      "annotation_note": "用户登录受影响由对话给出，不从抽象曲线推断影响规模。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "monitor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "显示器",
+      "pos": "noun",
+      "ipa_us": "/ˈmɑːnɪtər/",
+      "ipa_uk": "/ˈmɒnɪtə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上的独立显示器可局部框选；本词条教设备名词，不与 monitor 监测的动词混用。",
+        "sentence": "I'll watch the monitor while you restore the previous version.",
+        "matched_form": "monitor",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll watch the monitor while you restore the previous version.",
+      "example_zh": "你恢复之前的版本时，我会盯着显示器监测情况。",
+      "bbox_normalized": [
+        0.34,
+        0.263,
+        0.703,
+        0.535
+      ],
+      "collocations": [
+        "watch the monitor",
+        "a computer monitor"
+      ],
+      "example_en_highlighted": "I'll watch the **monitor** while you restore the previous version.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上的独立显示器可局部框选；本词条教设备名词，不与 monitor 监测的动词混用。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two on-call developers coordinate a rollback after a deployment affects users' ability to sign in.",
+    "zh": "一次发布影响了用户登录，两名值班开发者协商回滚并分工监测恢复情况。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two on-call developers coordinate a rollback after a deployment affects users' ability to sign in.",
+    "zh": "一次发布影响了用户登录，两名值班开发者协商回滚并分工监测恢复情况。"
+  },
+  "roles": {
+    "A": "On-call developer 值班开发者",
+    "B": "On-call developer 值班开发者"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Should we roll back the new deployment?",
+      "zh": "我们应该回滚这次新发布吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. The impact is growing—users can't sign in.",
+      "zh": "应该。影响正在扩大——用户无法登录。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll watch the monitor while you restore the previous version.",
+      "zh": "你恢复之前的版本时，我会盯着显示器监测情况。"
+    },
+    {
+      "speaker": "B",
+      "en": "Okay. I'll record the rollback and confirm when the service is healthy.",
+      "zh": "好。我会记录这次回滚，并在服务恢复正常后确认。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明影响、确认回滚与监测分工。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure on-call developers coordinating calmly at an operations desk. A large standalone monitor at center shows an abstract dashboard with a line chart and one warning triangle. One developer points to the monitor; the other uses a small keyboard. Show the entire monitor with frame and stand clearly visible for a learning crop. Use attentive cooperative poses, not panic. Pure minimalist office, no text, numbers, brands, server racks or dramatic effects.",
+  "status": "approved",
+  "image_path": "images/inverted/W061.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W061 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W061.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T08:26:25Z",
+    "ended_at": "2026-10-04T08:29:41Z",
+    "prompt_path": "prompts/W061_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W061.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W061.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "40407931f4a660c62e3207061d271baf086fef1c0177685403106a85b4e80fca",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W061.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名值班同事共同查看抽象监控仪表盘，显示器本体含底座可见。黑白、合作姿态、无品牌或长文本。rollback/deployment/impact由对白支持，不从图表推断具体故障原因、用户数量或恢复结果。"
+  }
+}

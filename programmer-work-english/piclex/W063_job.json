@@ -1,0 +1,17 @@
+{
+  "cardID": "W063",
+  "imagePath": "../images/inverted/W063.png",
+  "imageSHA256": "539e1b7ee9c80dd0b3afc2b31531da32dd1397b7d9524c5d54696ad80390b08f",
+  "imageReviewed": true,
+  "annotationsPath": "W063_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "notify",
+    "schedule",
+    "deployment",
+    "clock"
+  ],
+  "receiptPath": "W063_v7_image_replace_receipt.json",
+  "photoID": "a7b384ee-80b7-4565-a0d1-83b04239463c",
+  "expectedAssetID": "a1352125f1bb5bd229245d67d9f04049402e35a9ea24f213c8687a7f6f80a451"
+}

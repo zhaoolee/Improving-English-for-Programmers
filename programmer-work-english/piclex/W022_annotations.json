@@ -1,0 +1,130 @@
+{
+  "filename": "W022-站会上汇报进展.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "progress",
+      "chinese": "进展",
+      "phoneticUS": "/ˈprɑːɡres/",
+      "phoneticUK": "/ˈprəʊɡres/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "工作进展由站会对白报告，空白任务板本身不能证明完成进度。",
+        "association": "工作进展由站会对白报告，空白任务板本身不能证明完成进度。",
+        "collocation": "report progress; make progress",
+        "example": "A: Here's my progress: the search feature is ready for review.\nB: Any blocker that could delay the task?\nA: One test is failing. I'll fix it before lunch.\nB: Thanks. Please update the board when the test passes.",
+        "exampleChinese": "A: 这是我的进展：搜索功能已经可以评审了。\nB: 有没有可能让任务延期的阻碍？\nA: 有一项测试失败了。我会在午饭前修好它。\nB: 谢谢。测试通过后，请更新任务板。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "blocker",
+      "chinese": "阻碍",
+      "phoneticUS": "/ˈblɑːkər/",
+      "phoneticUK": "/ˈblɒkə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "工作阻碍由失败测试的对白说明，不框成物理路障。",
+        "association": "工作阻碍由失败测试的对白说明，不框成物理路障。",
+        "collocation": "a task blocker; remove a blocker",
+        "example": "Any blocker that could delay the task?",
+        "exampleChinese": "有没有可能让任务延期的阻碍？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "test",
+      "chinese": "测试",
+      "phoneticUS": "/test/",
+      "phoneticUK": "/test/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件测试及失败状态由对白说明，静态空白任务卡不具备局部测试证据。",
+        "association": "软件测试及失败状态由对白说明，静态空白任务卡不具备局部测试证据。",
+        "collocation": "a failing test; the test passes",
+        "example": "One test is failing.",
+        "exampleChinese": "有一项测试失败了。"
+      }
+    },
+    {
+      "x": 513,
+      "y": 455,
+      "english": "board",
+      "chinese": "任务板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 830
+      },
+      "anchorPosition": {
+        "x": 513,
+        "y": 455
+      },
+      "boundingBox": {
+        "left": 311,
+        "top": 235,
+        "right": 714,
+        "bottom": 760
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可框出整块带任务卡的实际任务板；具体任务与完成状态由对白支持。",
+        "association": "可框出整块带任务卡的实际任务板；具体任务与完成状态由对白支持。",
+        "collocation": "update the board; a task board",
+        "example": "Please update the board when the test passes.",
+        "exampleChinese": "测试通过后，请更新任务板。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer gives a stand-up update and agrees to fix a failing test before updating the board.",
+    "chinese": "开发者在站会上汇报进展，说明测试阻碍，并约定修复后更新任务板。",
+    "source": "原创对话 · W022 站会上汇报进展",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

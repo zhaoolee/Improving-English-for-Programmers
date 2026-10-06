@@ -1,0 +1,130 @@
+{
+  "filename": "W032-解释接口的数据流.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "flow",
+      "chinese": "流向",
+      "phoneticUS": "/floʊ/",
+      "phoneticUK": "/fləʊ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "数据流由完整对白解释；箭头只辅助表示路径，不把静态线条当作正在流动的数据。",
+        "association": "数据流由完整对白解释；箭头只辅助表示路径，不把静态线条当作正在流动的数据。",
+        "collocation": "data flow; the flow of data",
+        "example": "A: Could you explain the data flow for this API?\nB: A request comes in, and the service reads the data from storage.\nA: Then it sends a response back to the client, right?\nB: Exactly. The diagram shows the path.",
+        "exampleChinese": "A: 你能解释一下这个接口的数据流吗？\nB: 请求进入后，服务会从存储中读取数据。\nA: 然后它会向客户端返回响应，对吗？\nB: 没错。示意图展示了这条路径。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "request",
+      "chinese": "请求",
+      "phoneticUS": "/rɪˈkwest/",
+      "phoneticUK": "/rɪˈkwest/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "接口请求是软件交互，由对白支持，图中空白节点不等同于请求实体。",
+        "association": "接口请求是软件交互，由对白支持，图中空白节点不等同于请求实体。",
+        "collocation": "an API request; a request comes in",
+        "example": "A request comes in, and the service reads the data from storage.",
+        "exampleChinese": "请求进入后，服务会从存储中读取数据。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "response",
+      "chinese": "响应",
+      "phoneticUS": "/rɪˈspɑːns/",
+      "phoneticUK": "/rɪˈspɒns/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "响应由接口对白说明，不能把任意返回箭头框成真实响应消息。",
+        "association": "响应由接口对白说明，不能把任意返回箭头框成真实响应消息。",
+        "collocation": "send a response; a response back to the client",
+        "example": "Then it sends a response back to the client, right?",
+        "exampleChinese": "然后它会向客户端返回响应，对吗？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 380,
+      "english": "diagram",
+      "chinese": "示意图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 535
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 380
+      },
+      "boundingBox": {
+        "left": 280,
+        "top": 320,
+        "right": 735,
+        "bottom": 435
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板中的完整节点与连线构成可定位示意图，不只截取其中一个空白框。",
+        "association": "白板中的完整节点与连线构成可定位示意图，不只截取其中一个空白框。",
+        "collocation": "a flow diagram; the diagram shows the path",
+        "example": "The diagram shows the path.",
+        "exampleChinese": "示意图展示了这条路径。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers use a diagram to explain how an API handles a request and returns a response.",
+    "chinese": "两名开发者借助示意图，解释接口接收请求并返回响应的数据流。",
+    "source": "原创对话 · W032 解释接口的数据流",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

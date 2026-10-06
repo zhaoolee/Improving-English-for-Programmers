@@ -1,0 +1,17 @@
+{
+  "cardID": "W001",
+  "imagePath": "../images/inverted/W001.png",
+  "imageSHA256": "b770d365062df9b6760ad26dcc352b6ed842d34ae88ef5153cd1475f6e2975a1",
+  "imageReviewed": true,
+  "annotationsPath": "W001_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "introduce",
+    "desk",
+    "laptop",
+    "access"
+  ],
+  "receiptPath": "W001_v7_image_replace_receipt.json",
+  "photoID": "db062116-c4c1-4f9e-9d65-ebb1d8750d96",
+  "expectedAssetID": "5a8643d3b587803fd15fb3b7d9473b86c188a28437fcf9f9d21172df4bb92cd1"
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "W042-解释一次代码修改.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "refactor",
+      "chinese": "重构",
+      "phoneticUS": "/ˌriːˈfæktər/",
+      "phoneticUK": "/ˌriːˈfæktə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "重构目的和行为保持不变由对白明确说明，不能从不可读屏幕判断已完成重构。",
+        "association": "重构目的和行为保持不变由对白明确说明，不能从不可读屏幕判断已完成重构。",
+        "collocation": "refactor a function; refactor code",
+        "example": "A: I chose to refactor this function to remove duplicate code.\nB: What stays the same?\nA: The behavior stays the same. The tests pass on my laptop.\nB: Great. Please mention that in the review notes.",
+        "exampleChinese": "A: 我选择重构这个函数，以去掉重复代码。\nB: 哪些方面保持不变？\nA: 行为保持不变。测试在我的笔记本电脑上都通过了。\nB: 很好。请在评审说明里写清楚这一点。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "duplicate",
+      "chinese": "重复的",
+      "phoneticUS": "/ˈduːplɪkət/",
+      "phoneticUK": "/ˈdjuːplɪkət/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "重复代码由对白支持；抽象屏幕线条不能判定语义重复，不设框。",
+        "association": "重复代码由对白支持；抽象屏幕线条不能判定语义重复，不设框。",
+        "collocation": "duplicate code; remove duplicate code",
+        "example": "I chose to refactor this function to remove duplicate code.",
+        "exampleChinese": "我选择重构这个函数，以去掉重复代码。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "function",
+      "chinese": "函数",
+      "phoneticUS": "/ˈfʌŋkʃən/",
+      "phoneticUK": "/ˈfʌŋkʃən/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件函数由对白指定；不可读屏幕不提供可靠的具体函数区域。",
+        "association": "软件函数由对白指定；不可读屏幕不提供可靠的具体函数区域。",
+        "collocation": "refactor a function; a helper function",
+        "example": "I chose to refactor this function to remove duplicate code.",
+        "exampleChinese": "我选择重构这个函数，以去掉重复代码。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 450,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 450
+      },
+      "boundingBox": {
+        "left": 355,
+        "top": 360,
+        "right": 628,
+        "bottom": 558
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上的完整笔记本电脑可以框选；测试通过由对白说明，不从屏幕外观推断。",
+        "association": "桌上的完整笔记本电脑可以框选；测试通过由对白说明，不从屏幕外观推断。",
+        "collocation": "on my laptop; tests pass on a laptop",
+        "example": "The tests pass on my laptop.",
+        "exampleChinese": "测试在我的笔记本电脑上都通过了。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer explains a refactor that removes duplicate code while keeping the behavior unchanged.",
+    "chinese": "开发者向同事解释一次重构：去掉重复代码，同时保持原有行为。",
+    "source": "原创对话 · W042 解释一次代码修改",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

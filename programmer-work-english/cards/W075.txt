@@ -1,0 +1,120 @@
+W075  说明当前工作量
+========================================================================
+分类: 反馈与职业成长（growth）
+关键词: workload
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W075.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W075.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W075.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T16:12:32.645Z → 2026-10-05T16:15:38.418Z
+  提示词文件: prompts/W075_image_final.txt
+
+场景: 开发者说明本周工作量过大，请负责人重新分配一项任务。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面展开的纸质笔记本可定位，不与电脑混淆。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。
+
+沟通目标: 说明可用精力并协商任务分配。
+
+主配文（一句场景描述）:
+  英文: A developer explains a heavy workload and asks a lead to delegate one task.
+  中文: 开发者说明本周工作量过大，请负责人重新分配一项任务。
+
+角色与对白:
+  A = Developer 开发者
+  B = Team lead 团队负责人
+  [A] My workload is higher than I can manage this week.
+        这周的工作量超过了我能处理的程度。
+  [B] How much capacity do you have for the new task?
+        你还有多少精力可以处理新任务？
+  [A] Very little. I listed the deadlines in this notebook. Could we delegate one item?
+        很少。我把截止日期列在这个笔记本里了。我们能把其中一项交给别人吗？
+  [B] Yes. Let us review the priorities and move one task to another teammate.
+        可以。我们看看优先级，把一项任务交给另一位同事。
+
+目标词 (4): workload, capacity, delegate, notebook
+
+------------------------------------------------------------------------
+[1/4] workload
+  词义: 工作量
+  词性: noun
+  音标: UK /ˈwɜːkləʊd/ | US /ˈwɜːrkloʊd/
+  搭配: manage a workload; a heavy workload
+  例句: My workload is higher than I can manage this week.
+  例句高亮: My **workload** is higher than I can manage this week.
+  例句中文: 这周的工作量超过了我能处理的程度。
+  标注模式: context
+  标注说明: 工作量由对白说明，笔记本页数不能量化负荷。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] capacity
+  词义: 可用精力
+  词性: noun
+  音标: UK /kəˈpæsəti/ | US /kəˈpæsəti/
+  搭配: available capacity; capacity for a task
+  例句: How much capacity do you have for the new task?
+  例句高亮: How much **capacity** do you have for the new task?
+  例句中文: 你还有多少精力可以处理新任务？
+  标注模式: context
+  标注说明: 此处capacity是承担工作的余力，由对白说明，不是容器体积。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] delegate
+  词义: 委派
+  词性: verb
+  音标: UK /ˈdelɪɡeɪt/ | US /ˈdelɪɡeɪt/
+  搭配: delegate an item; delegate a task
+  例句: Very little. I listed the deadlines in this notebook. Could we delegate one item?
+  例句高亮: Very little. I listed the deadlines in this notebook. Could we **delegate** one item?
+  例句中文: 很少。我把截止日期列在这个笔记本里了。我们能把其中一项交给别人吗？
+  标注模式: context
+  标注说明: 任务委派是协商建议，人物手势不能证明已经转交。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] notebook
+  词义: 笔记本
+  词性: noun
+  音标: UK /ˈnəʊtbʊk/ | US /ˈnoʊtbʊk/
+  搭配: in this notebook; write in a notebook
+  例句: Very little. I listed the deadlines in this notebook. Could we delegate one item?
+  例句高亮: Very little. I listed the deadlines in this **notebook**. Could we delegate one item?
+  例句中文: 很少。我把截止日期列在这个笔记本里了。我们能把其中一项交给别人吗？
+  标注模式: object
+  标注说明: 桌面展开的纸质笔记本可定位，不与电脑混淆。
+  坐标(normalized): [0.485, 0.479, 0.842, 0.593]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W075 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers calmly discussing workload at a small desk. A large OPEN PAPER NOTEBOOK is laid flat on the front-right of the desk, two facing pages, visible center fold, short abstract ruling only with no writing, not a laptop. Left developer sits with slightly worried face and open palm; right team lead sits and gestures toward notebook without covering it. Notebook fully visible, separated from hands.
+

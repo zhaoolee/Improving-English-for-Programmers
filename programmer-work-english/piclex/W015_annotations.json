@@ -1,0 +1,130 @@
+{
+  "filename": "W015-确认验收标准.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "criteria",
+      "chinese": "标准",
+      "phoneticUS": "/kraɪˈtɪriə/",
+      "phoneticUK": "/kraɪˈtɪəriə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "plural noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "criteria是可验收要求，由完整对白定义，不给整个屏幕虚假框。",
+        "association": "criteria是可验收要求，由完整对白定义，不给整个屏幕虚假框。",
+        "collocation": "acceptance criteria; add criteria to a ticket",
+        "example": "A: For acceptance, do we need a confirmation after saving?\nB: Yes. Show a checkmark and keep the entered values.\nA: I will add those criteria to the ticket. Does a failed save keep the form open?\nB: Exactly. Display an error and let the user retry.",
+        "exampleChinese": "A: 验收时，保存后需要显示确认提示吗？\nB: 需要。显示一个对勾，并保留已输入的内容。\nA: 我会把这些标准加到任务单里。保存失败时表单保持打开吗？\nB: 对。显示错误，让用户重试。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "acceptance",
+      "chinese": "验收",
+      "phoneticUS": "/əkˈseptəns/",
+      "phoneticUK": "/əkˈseptəns/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "验收行为与规则由对白说明，画面不能证明已通过验收。",
+        "association": "验收行为与规则由对白说明，画面不能证明已通过验收。",
+        "collocation": "for acceptance; acceptance criteria",
+        "example": "For acceptance, do we need a confirmation after saving?",
+        "exampleChinese": "验收时，保存后需要显示确认提示吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "confirmation",
+      "chinese": "确认提示",
+      "phoneticUS": "/ˌkɑːnfərˈmeɪʃən/",
+      "phoneticUK": "/ˌkɒnfəˈmeɪʃən/",
+      "bubblePosition": {
+        "x": 780.2905699730925,
+        "y": 91.83608677621143
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "confirmation是功能反馈含义，以对白说明；仅把可见符号定位给checkmark。",
+        "association": "confirmation是功能反馈含义，以对白说明；仅把可见符号定位给checkmark。",
+        "collocation": "show a confirmation; confirmation after saving",
+        "example": "For acceptance, do we need a confirmation after saving?",
+        "exampleChinese": "验收时，保存后需要显示确认提示吗？"
+      }
+    },
+    {
+      "x": 787,
+      "y": 359,
+      "english": "checkmark",
+      "chinese": "对勾",
+      "phoneticUS": "/ˈtʃekmɑːrk/",
+      "phoneticUK": "/ˈtʃekmɑːk/",
+      "bubblePosition": {
+        "x": 860,
+        "y": 200
+      },
+      "anchorPosition": {
+        "x": 787,
+        "y": 359
+      },
+      "boundingBox": {
+        "left": 750,
+        "top": 327,
+        "right": 845,
+        "bottom": 416
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕上独立清晰的对勾符号可框选；成功反馈由对白定义。",
+        "association": "屏幕上独立清晰的对勾符号可框选；成功反馈由对白定义。",
+        "collocation": "show a checkmark; a confirmation checkmark",
+        "example": "Yes. Show a checkmark and keep the entered values.",
+        "exampleChinese": "需要。显示一个对勾，并保留已输入的内容。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a product teammate agree on the acceptance criteria for a save action.",
+    "chinese": "开发者与产品同事确认保存操作的验收标准，包括成功提示和失败处理。",
+    "source": "原创对话 · W015 确认验收标准",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

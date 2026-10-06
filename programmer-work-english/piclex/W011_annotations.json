@@ -1,0 +1,138 @@
+{
+  "filename": "W011-澄清提交按钮的需求.png",
+  "labels": [
+    {
+      "x": 250,
+      "y": 100,
+      "english": "clarify",
+      "chinese": "澄清",
+      "phoneticUS": "/ˈklærəfaɪ/",
+      "phoneticUK": "/ˈklærɪfaɪ/",
+      "bubblePosition": {
+        "x": 250,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "通过问答澄清按钮启用条件；人物指屏幕不能单独证明澄清，不设框。",
+        "association": "通过问答澄清按钮启用条件；人物指屏幕不能单独证明澄清，不设框。",
+        "collocation": "clarify a requirement; clarify what you mean",
+        "example": "A: Could you clarify this requirement?\nB: The button should stay disabled until all required fields are filled in.\nA: So the user can submit only after completing the form?\nB: Exactly. Let's check the screen together.",
+        "exampleChinese": "A: 你能澄清一下这项需求吗？\nB: 在所有必填项填写完成之前，按钮应保持禁用。\nA: 也就是说，用户必须填完表单才能提交，对吗？\nB: 没错。我们一起看一下屏幕。"
+      }
+    },
+    {
+      "x": 750,
+      "y": 100,
+      "english": "requirement",
+      "chinese": "需求",
+      "phoneticUS": "/rɪˈkwaɪərmənt/",
+      "phoneticUK": "/rɪˈkwaɪəmənt/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "本卡需求是对话给出的启用条件，不把整个显示器框作需求。",
+        "association": "本卡需求是对话给出的启用条件，不把整个显示器框作需求。",
+        "collocation": "clarify a requirement; meet a requirement",
+        "example": "Could you clarify this requirement?",
+        "exampleChinese": "你能澄清一下这项需求吗？"
+      }
+    },
+    {
+      "x": 506,
+      "y": 484,
+      "english": "button",
+      "chinese": "按钮",
+      "phoneticUS": "/ˈbʌtən/",
+      "phoneticUK": "/ˈbʌtən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 675
+      },
+      "anchorPosition": {
+        "x": 506,
+        "y": 484
+      },
+      "boundingBox": {
+        "left": 430,
+        "top": 458,
+        "right": 582,
+        "bottom": 508
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕表单上的独立圆角按钮是实际局部对象；启用规则由对话支持。",
+        "association": "屏幕表单上的独立圆角按钮是实际局部对象；启用规则由对话支持。",
+        "collocation": "a submit button; click a button",
+        "example": "The button should stay disabled until all required fields are filled in.",
+        "exampleChinese": "在所有必填项填写完成之前，按钮应保持禁用。"
+      }
+    },
+    {
+      "x": 640,
+      "y": 390,
+      "english": "screen",
+      "chinese": "屏幕",
+      "phoneticUS": "/skriːn/",
+      "phoneticUK": "/skriːn/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 210
+      },
+      "anchorPosition": {
+        "x": 640,
+        "y": 390
+      },
+      "boundingBox": {
+        "left": 330,
+        "top": 309,
+        "right": 682,
+        "bottom": 529
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器中呈现表单的屏幕区域可局部框选。",
+        "association": "显示器中呈现表单的屏幕区域可局部框选。",
+        "collocation": "check the screen; on the screen",
+        "example": "Let's check the screen together.",
+        "exampleChinese": "我们一起看一下屏幕。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a product manager clarify when a form's submit button should be enabled.",
+    "chinese": "开发者与产品经理确认，表单的提交按钮应当在什么条件下启用。",
+    "source": "原创对话 · W011 澄清提交按钮的需求",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

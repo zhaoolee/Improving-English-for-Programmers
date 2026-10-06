@@ -1,0 +1,130 @@
+{
+  "filename": "W026-拆分过大的任务.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "split",
+      "chinese": "拆分",
+      "phoneticUS": "/splɪt/",
+      "phoneticUK": "/splɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务拆分由对白说明，不把便签本身当成抽象拆分动作。",
+        "association": "任务拆分由对白说明，不把便签本身当成抽象拆分动作。",
+        "collocation": "split a task; split into steps",
+        "example": "A: Could we split this task into smaller steps?\nB: Yes. Start with the API, then build the form.\nA: Are those steps independent enough to test separately?\nB: Yes. I'll put each step on a separate note.",
+        "exampleChinese": "A: 我们能把这个任务拆成更小的步骤吗？\nB: 可以。先做 API，再开发表单。\nA: 这些步骤是否足够独立，可以分别测试？\nB: 是的。我会把每个步骤写在单独的便签上。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "smaller",
+      "chinese": "更小的",
+      "phoneticUS": "/ˈsmɔːlər/",
+      "phoneticUK": "/ˈsmɔːlə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "smaller指工作量较小，不由便签物理尺寸推断。",
+        "association": "smaller指工作量较小，不由便签物理尺寸推断。",
+        "collocation": "smaller steps; smaller tasks",
+        "example": "Could we split this task into smaller steps?",
+        "exampleChinese": "我们能把这个任务拆成更小的步骤吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "independent",
+      "chinese": "独立的",
+      "phoneticUS": "/ˌɪndɪˈpendənt/",
+      "phoneticUK": "/ˌɪndɪˈpendənt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "可独立测试是工作依赖关系，由对白明确，不能仅从便签分离判定。",
+        "association": "可独立测试是工作依赖关系，由对白明确，不能仅从便签分离判定。",
+        "collocation": "independent steps; independent tasks",
+        "example": "Are those steps independent enough to test separately?",
+        "exampleChinese": "这些步骤是否足够独立，可以分别测试？"
+      }
+    },
+    {
+      "x": 789,
+      "y": 311,
+      "english": "note",
+      "chinese": "便签",
+      "phoneticUS": "/noʊt/",
+      "phoneticUK": "/nəʊt/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 435
+      },
+      "anchorPosition": {
+        "x": 789,
+        "y": 311
+      },
+      "boundingBox": {
+        "left": 741,
+        "top": 264,
+        "right": 833,
+        "bottom": 358
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框选一张完整可见便签本体，不用空白便签证明具体步骤内容。",
+        "association": "框选一张完整可见便签本体，不用空白便签证明具体步骤内容。",
+        "collocation": "a separate note; put on a note",
+        "example": "Yes. I'll put each step on a separate note.",
+        "exampleChinese": "是的。我会把每个步骤写在单独的便签上。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two teammates split a large task into smaller independent steps on separate notes.",
+    "chinese": "两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。",
+    "source": "原创对话 · W026 拆分过大的任务",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

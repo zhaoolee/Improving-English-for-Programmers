@@ -1,0 +1,130 @@
+{
+  "filename": "W036-讨论异常处理策略.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "fallback",
+      "chinese": "备用方案",
+      "phoneticUS": "/ˈfɔːlbæk/",
+      "phoneticUK": "/ˈfɔːlbæk/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "备用处理方案由对白说明，屏幕警告符号不是fallback局部实体。",
+        "association": "备用处理方案由对白说明，屏幕警告符号不是fallback局部实体。",
+        "collocation": "fallback plan; a fallback if a request fails",
+        "example": "A: What is our fallback if this request fails?\nB: If there's a timeout, retry once before showing an error.\nA: Will the monitor keep showing the user's previous result?\nB: Yes. Keep that result visible and offer a retry button.",
+        "exampleChinese": "A: 这个请求失败时，我们的备用方案是什么？\nB: 如果发生超时，先重试一次，再显示错误。\nA: 显示器上会继续显示用户之前的结果吗？\nB: 会的。保留那个结果，并提供一个重试按钮。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "timeout",
+      "chinese": "超时",
+      "phoneticUS": "/ˈtaɪmaʊt/",
+      "phoneticUK": "/ˈtaɪmaʊt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "请求超时是时间条件，由对白明确，不从静态屏幕推断。",
+        "association": "请求超时是时间条件，由对白明确，不从静态屏幕推断。",
+        "collocation": "request timeout; a timeout occurs",
+        "example": "If there's a timeout, retry once before showing an error.",
+        "exampleChinese": "如果发生超时，先重试一次，再显示错误。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "retry",
+      "chinese": "重试",
+      "phoneticUS": "/ˌriːˈtraɪ/",
+      "phoneticUK": "/ˌriːˈtraɪ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "重试是计划中的程序行为，没有可见点击动作证据。",
+        "association": "重试是计划中的程序行为，没有可见点击动作证据。",
+        "collocation": "retry once; retry a request",
+        "example": "If there's a timeout, retry once before showing an error.",
+        "exampleChinese": "如果发生超时，先重试一次，再显示错误。"
+      }
+    },
+    {
+      "x": 832,
+      "y": 447,
+      "english": "monitor",
+      "chinese": "显示器",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 890,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 832,
+        "y": 447
+      },
+      "boundingBox": {
+        "left": 627,
+        "top": 287,
+        "right": 893,
+        "bottom": 539
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的独立桌面显示器与支架可定位。",
+        "association": "完整可见的独立桌面显示器与支架可定位。",
+        "collocation": "desktop monitor; show on the monitor",
+        "example": "Will the monitor keep showing the user's previous result?",
+        "exampleChinese": "显示器上会继续显示用户之前的结果吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers agree on retry behavior and a fallback for a request that times out.",
+    "chinese": "两位开发者讨论请求超时后的重试方式与备用处理方案。",
+    "source": "原创对话 · W036 讨论异常处理策略",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

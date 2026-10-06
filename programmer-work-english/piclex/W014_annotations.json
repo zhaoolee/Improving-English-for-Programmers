@@ -1,0 +1,130 @@
+{
+  "filename": "W014-讨论输入为空的情况.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "empty",
+      "chinese": "空的",
+      "phoneticUS": "/ˈempti/",
+      "phoneticUK": "/ˈempti/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对白讨论空值条件，输入框另用field定位，不为校验条件编造对象框。",
+        "association": "对白讨论空值条件，输入框另用field定位，不为校验条件编造对象框。",
+        "collocation": "an empty field; leave a field empty",
+        "example": "A: What should happen when this field is empty?\nB: Validate it before submission and show a message.\nA: Should the message explain which value is missing?\nB: Yes. Keep it specific and leave the field easy to find.",
+        "exampleChinese": "A: 这个输入框为空时应该怎样处理？\nB: 提交前校验，并显示提示信息。\nA: 提示信息应该说明缺少哪个值吗？\nB: 是的。提示要具体，并让这个输入框容易找到。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "validate",
+      "chinese": "校验",
+      "phoneticUS": "/ˈvælɪdeɪt/",
+      "phoneticUK": "/ˈvælɪdeɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "校验规则由对白约定，图标不能证明校验已执行。",
+        "association": "校验规则由对白约定，图标不能证明校验已执行。",
+        "collocation": "validate input; validate a field",
+        "example": "Validate it before submission and show a message.",
+        "exampleChinese": "提交前校验，并显示提示信息。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "message",
+      "chinese": "提示信息",
+      "phoneticUS": "/ˈmesɪdʒ/",
+      "phoneticUK": "/ˈmesɪdʒ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "底图无文字，不把感叹号冒充具体提示文案。",
+        "association": "底图无文字，不把感叹号冒充具体提示文案。",
+        "collocation": "show a message; an error message",
+        "example": "Should the message explain which value is missing?",
+        "exampleChinese": "提示信息应该说明缺少哪个值吗？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 405,
+      "english": "field",
+      "chinese": "输入框",
+      "phoneticUS": "/fiːld/",
+      "phoneticUK": "/fiːld/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 405
+      },
+      "boundingBox": {
+        "left": 340,
+        "top": 373,
+        "right": 659,
+        "bottom": 439
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕内完整空白圆角输入框是field的局部指代区域。",
+        "association": "屏幕内完整空白圆角输入框是field的局部指代区域。",
+        "collocation": "an input field; a required field",
+        "example": "What should happen when this field is empty?",
+        "exampleChinese": "这个输入框为空时应该怎样处理？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer clarifies how a form should handle an empty field.",
+    "chinese": "开发者确认表单遇到空输入框时应如何处理。",
+    "source": "原创对话 · W014 讨论输入为空的情况",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

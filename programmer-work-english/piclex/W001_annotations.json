@@ -1,0 +1,138 @@
+{
+  "filename": "W001-入职第一天的介绍.png",
+  "labels": [
+    {
+      "x": 250,
+      "y": 100,
+      "english": "introduce",
+      "chinese": "介绍",
+      "phoneticUS": "/ˌɪntrəˈduːs/",
+      "phoneticUK": "/ˌɪntrəˈdjuːs/",
+      "bubblePosition": {
+        "x": 250,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话明确请求介绍团队；静态招手不证明已经完成介绍，不设动作框。",
+        "association": "对话明确请求介绍团队；静态招手不证明已经完成介绍，不设动作框。",
+        "collocation": "introduce someone to the team; introduce yourself",
+        "example": "A: Hi, I'm Alex. Could you introduce me to the team?\nB: Of course. Your desk is next to mine.\nA: Thanks. I'll set up my laptop there. How do I get access to the repository?\nB: I'll send you an invite after introductions.",
+        "exampleChinese": "A: 你好，我是 Alex。你能向我介绍一下团队吗？\nB: 当然。你的办公桌就在我的旁边。\nA: 谢谢。我会在那里配置笔记本电脑。我怎样才能获得代码仓库的访问权限？\nB: 介绍完大家后，我会给你发送邀请。"
+      }
+    },
+    {
+      "x": 720,
+      "y": 745,
+      "english": "desk",
+      "chinese": "办公桌",
+      "phoneticUS": "/desk/",
+      "phoneticUK": "/desk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 720,
+        "y": 745
+      },
+      "boundingBox": {
+        "left": 260,
+        "top": 545,
+        "right": 765,
+        "bottom": 805
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中的完整办公桌是 desk 的局部指代对象；桌子的分配由对话设定支持。",
+        "association": "场景中的完整办公桌是 desk 的局部指代对象；桌子的分配由对话设定支持。",
+        "collocation": "at your desk; a work desk",
+        "example": "Your desk is next to mine.",
+        "exampleChinese": "你的办公桌就在我的旁边。"
+      }
+    },
+    {
+      "x": 480,
+      "y": 510,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 305
+      },
+      "anchorPosition": {
+        "x": 480,
+        "y": 510
+      },
+      "boundingBox": {
+        "left": 390,
+        "top": 435,
+        "right": 610,
+        "bottom": 585
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上的打开式笔记本电脑可局部定位；配置行为由对话表达。",
+        "association": "桌上的打开式笔记本电脑可局部定位；配置行为由对话表达。",
+        "collocation": "set up a laptop; on my laptop",
+        "example": "I'll set up my laptop there.",
+        "exampleChinese": "我会在那里配置笔记本电脑。"
+      }
+    },
+    {
+      "x": 750,
+      "y": 100,
+      "english": "access",
+      "chinese": "访问权限",
+      "phoneticUS": "/ˈækses/",
+      "phoneticUK": "/ˈækses/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "权限由对话明确表达，不能从电脑外观判断，不设框。",
+        "association": "权限由对话明确表达，不能从电脑外观判断，不设框。",
+        "collocation": "get access to; repository access",
+        "example": "How do I get access to the repository?",
+        "exampleChinese": "我怎样才能获得代码仓库的访问权限？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A new developer asks a teammate for introductions and repository access.",
+    "chinese": "新入职的开发者请同事介绍团队，并询问如何获得代码仓库的访问权限。",
+    "source": "原创对话 · W001 入职第一天的介绍",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

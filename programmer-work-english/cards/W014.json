@@ -1,0 +1,256 @@
+{
+  "id": "W014",
+  "category": "requirements",
+  "category_title": "需求澄清",
+  "chapter": "需求澄清",
+  "title": "讨论输入为空的情况",
+  "keyword": "empty",
+  "scene": "开发者确认表单遇到空输入框时应如何处理。",
+  "target_count": 4,
+  "primary_words": [
+    "empty",
+    "validate",
+    "message",
+    "field"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "empty",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "空的",
+      "pos": "adjective",
+      "ipa_us": "/ˈempti/",
+      "ipa_uk": "/ˈempti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What should happen when this field is empty?",
+        "matched_form": "empty",
+        "referent_region_verified": false,
+        "context": "对白讨论空值条件，输入框另用field定位，不为校验条件编造对象框。",
+        "image_verified": null
+      },
+      "example_en": "What should happen when this field is empty?",
+      "example_zh": "这个输入框为空时应该怎样处理？",
+      "bbox_normalized": null,
+      "collocations": [
+        "an empty field",
+        "leave a field empty"
+      ],
+      "example_en_highlighted": "What should happen when this field is **empty**?",
+      "annotation_mode": "context",
+      "annotation_note": "对白讨论空值条件，输入框另用field定位，不为校验条件编造对象框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "validate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "校验",
+      "pos": "verb",
+      "ipa_us": "/ˈvælɪdeɪt/",
+      "ipa_uk": "/ˈvælɪdeɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Validate it before submission and show a message.",
+        "matched_form": "validate",
+        "referent_region_verified": false,
+        "context": "校验规则由对白约定，图标不能证明校验已执行。",
+        "image_verified": null
+      },
+      "example_en": "Validate it before submission and show a message.",
+      "example_zh": "提交前校验，并显示提示信息。",
+      "bbox_normalized": null,
+      "collocations": [
+        "validate input",
+        "validate a field"
+      ],
+      "example_en_highlighted": "**Validate** it before submission and show a message.",
+      "annotation_mode": "context",
+      "annotation_note": "校验规则由对白约定，图标不能证明校验已执行。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "message",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "提示信息",
+      "pos": "noun",
+      "ipa_us": "/ˈmesɪdʒ/",
+      "ipa_uk": "/ˈmesɪdʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Should the message explain which value is missing?",
+        "matched_form": "message",
+        "referent_region_verified": false,
+        "context": "底图无文字，不把感叹号冒充具体提示文案。",
+        "image_verified": null
+      },
+      "example_en": "Should the message explain which value is missing?",
+      "example_zh": "提示信息应该说明缺少哪个值吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "show a message",
+        "an error message"
+      ],
+      "example_en_highlighted": "Should the **message** explain which value is missing?",
+      "annotation_mode": "context",
+      "annotation_note": "底图无文字，不把感叹号冒充具体提示文案。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "field",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "输入框",
+      "pos": "noun",
+      "ipa_us": "/fiːld/",
+      "ipa_uk": "/fiːld/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "屏幕内完整空白圆角输入框是field的局部指代区域。",
+        "sentence": "What should happen when this field is empty?",
+        "matched_form": "field",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "What should happen when this field is empty?",
+      "example_zh": "这个输入框为空时应该怎样处理？",
+      "bbox_normalized": [
+        0.34,
+        0.373,
+        0.659,
+        0.439
+      ],
+      "collocations": [
+        "an input field",
+        "a required field"
+      ],
+      "example_en_highlighted": "What should happen when this **field** is empty?",
+      "annotation_mode": "object",
+      "annotation_note": "屏幕内完整空白圆角输入框是field的局部指代区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer clarifies how a form should handle an empty field.",
+    "zh": "开发者确认表单遇到空输入框时应如何处理。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer clarifies how a form should handle an empty field.",
+    "zh": "开发者确认表单遇到空输入框时应如何处理。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Product teammate 产品同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What should happen when this field is empty?",
+      "zh": "这个输入框为空时应该怎样处理？"
+    },
+    {
+      "speaker": "B",
+      "en": "Validate it before submission and show a message.",
+      "zh": "提交前校验，并显示提示信息。"
+    },
+    {
+      "speaker": "A",
+      "en": "Should the message explain which value is missing?",
+      "zh": "提示信息应该说明缺少哪个值吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Keep it specific and leave the field easy to find.",
+      "zh": "是的。提示要具体，并让这个输入框容易找到。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "确认空输入的校验行为与提示文案。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures facing a large front-facing desktop monitor centered on a desk. Screen displays only ONE large rounded rectangular EMPTY input field, a small unlabeled rounded submit button below it and a simple exclamation icon away from the field. Left person points at the blank field, right person explains with open palm. Field border fully visible, blank inside. Make field large enough to crop independently.",
+  "status": "approved",
+  "image_path": "images/inverted/W014.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-05",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W014 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-05",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W014.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T08:00:21.265Z",
+    "ended_at": "2026-10-05T08:01:07.681Z",
+    "prompt_path": "prompts/W014_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W014.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W014.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "b7f8ba59096fb8b5388bc30dca8dbdf232fc8cc7874398e15ea79939cce3ec8b",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W014.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两人讨论空输入的行为，中央屏幕有完整大空白输入框和独立提示图标，无文字。左侧指尖触及输入框边界少量区域，不遮挡空白内容；具体校验与提示文案由对白约定。"
+  }
+}

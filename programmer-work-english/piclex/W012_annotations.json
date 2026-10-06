@@ -1,0 +1,138 @@
+{
+  "filename": "W012-用具体例子确认需求.png",
+  "labels": [
+    {
+      "x": 250,
+      "y": 100,
+      "english": "example",
+      "chinese": "例子",
+      "phoneticUS": "/ɪɡˈzæmpəl/",
+      "phoneticUK": "/ɪɡˈzɑːmpəl/",
+      "bubblePosition": {
+        "x": 250,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "例子是对白中的具体需求演示，不把任意道具框成example。",
+        "association": "例子是对白中的具体需求演示，不把任意道具框成example。",
+        "collocation": "give an example; an example of",
+        "example": "A: Could you give me an example of how the filter should work?\nB: Choose a date range, and show only records from that period.\nA: Let's mark the dates on this calendar and check the screen.\nB: Good idea. We'll include records from both the start and end dates.",
+        "exampleChinese": "A: 你能举个例子说明这个筛选功能应该如何工作吗？\nB: 选择一个日期范围，只显示这段时间内的记录。\nA: 我们在这张日历上标出日期，再看看屏幕。\nB: 好主意。开始日期和结束日期当天的记录都要包含在内。"
+      }
+    },
+    {
+      "x": 750,
+      "y": 100,
+      "english": "filter",
+      "chinese": "筛选功能",
+      "phoneticUS": "/ˈfɪltər/",
+      "phoneticUK": "/ˈfɪltə/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "筛选是软件功能，由日期范围对白说明；抽象界面不能证明筛选执行，不设虚假框。",
+        "association": "筛选是软件功能，由日期范围对白说明；抽象界面不能证明筛选执行，不设虚假框。",
+        "collocation": "a date filter; how the filter should work",
+        "example": "Could you give me an example of how the filter should work?",
+        "exampleChinese": "你能举个例子说明这个筛选功能应该如何工作吗？"
+      }
+    },
+    {
+      "x": 280,
+      "y": 555,
+      "english": "calendar",
+      "chinese": "日历",
+      "phoneticUS": "/ˈkælɪndər/",
+      "phoneticUK": "/ˈkælɪndə/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 840
+      },
+      "anchorPosition": {
+        "x": 280,
+        "y": 555
+      },
+      "boundingBox": {
+        "left": 205,
+        "top": 480,
+        "right": 360,
+        "bottom": 610
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上具有装订和日期网格的纸质台历可定位；具体日期与包含边界来自对白。",
+        "association": "桌上具有装订和日期网格的纸质台历可定位；具体日期与包含边界来自对白。",
+        "collocation": "on this calendar; mark dates on a calendar",
+        "example": "Let's mark the dates on this calendar and check the screen.",
+        "exampleChinese": "我们在这张日历上标出日期，再看看屏幕。"
+      }
+    },
+    {
+      "x": 560,
+      "y": 395,
+      "english": "screen",
+      "chinese": "屏幕",
+      "phoneticUS": "/skriːn/",
+      "phoneticUK": "/skriːn/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 215
+      },
+      "anchorPosition": {
+        "x": 560,
+        "y": 395
+      },
+      "boundingBox": {
+        "left": 357,
+        "top": 307,
+        "right": 663,
+        "bottom": 498
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框选显示器的实际显示屏区域，不包含整张桌子或日历。",
+        "association": "框选显示器的实际显示屏区域，不包含整张桌子或日历。",
+        "collocation": "check the screen; on the screen",
+        "example": "Let's mark the dates on this calendar and check the screen.",
+        "exampleChinese": "我们在这张日历上标出日期，再看看屏幕。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a product manager use a calendar and a screen to clarify a date filter.",
+    "chinese": "开发者与产品经理借助日历和屏幕，用具体例子确认日期筛选的需求。",
+    "source": "原创对话 · W012 用具体例子确认需求",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

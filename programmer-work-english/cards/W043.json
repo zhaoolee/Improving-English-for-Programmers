@@ -1,0 +1,256 @@
+{
+  "id": "W043",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "提出可选修改建议",
+  "keyword": "suggestion",
+  "scene": "评审同事提出一个可选的变量重命名建议，并用光标指出修改位置。",
+  "target_count": 4,
+  "primary_words": [
+    "suggestion",
+    "rename",
+    "optional",
+    "cursor"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "suggestion",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "建议",
+      "pos": "noun",
+      "ipa_us": "/səˈdʒestʃən/",
+      "ipa_uk": "/səˈdʒestʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A small suggestion: could we rename this variable?",
+        "matched_form": "suggestion",
+        "referent_region_verified": false,
+        "context": "建议是一种沟通意图，由礼貌提问表达；不从人物姿势认定，不设框。",
+        "image_verified": null
+      },
+      "example_en": "A small suggestion: could we rename this variable?",
+      "example_zh": "一个小建议：我们能给这个变量换个名字吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a small suggestion",
+        "make a suggestion"
+      ],
+      "example_en_highlighted": "A small **suggestion**: could we rename this variable?",
+      "annotation_mode": "context",
+      "annotation_note": "建议是一种沟通意图，由礼貌提问表达；不从人物姿势认定，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "rename",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "重命名",
+      "pos": "verb",
+      "ipa_us": "/ˌriːˈneɪm/",
+      "ipa_uk": "/ˌriːˈneɪm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A small suggestion: could we rename this variable?",
+        "matched_form": "rename",
+        "referent_region_verified": false,
+        "context": "变量重命名由对白提出，静态抽象代码无前后名字对比，不设动作框。",
+        "image_verified": null
+      },
+      "example_en": "A small suggestion: could we rename this variable?",
+      "example_zh": "一个小建议：我们能给这个变量换个名字吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "rename a variable",
+        "rename a function"
+      ],
+      "example_en_highlighted": "A small suggestion: could we **rename** this variable?",
+      "annotation_mode": "context",
+      "annotation_note": "变量重命名由对白提出，静态抽象代码无前后名字对比，不设动作框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "optional",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "可选的",
+      "pos": "adjective",
+      "ipa_us": "/ˈɑːpʃənəl/",
+      "ipa_uk": "/ˈɒpʃənəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "It's optional, so you can keep the current name if it works better.",
+        "matched_form": "optional",
+        "referent_region_verified": false,
+        "context": "修改非强制的属性由对白明确说明，不把光标或代码块等同于optional。",
+        "image_verified": null
+      },
+      "example_en": "It's optional, so you can keep the current name if it works better.",
+      "example_zh": "这是可选修改；如果当前名字更合适，也可以保留。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an optional change",
+        "it's optional"
+      ],
+      "example_en_highlighted": "It's **optional**, so you can keep the current name if it works better.",
+      "annotation_mode": "context",
+      "annotation_note": "修改非强制的属性由对白明确说明，不把光标或代码块等同于optional。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "cursor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "光标",
+      "pos": "noun",
+      "ipa_us": "/ˈkɜːrsər/",
+      "ipa_uk": "/ˈkɜːsə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示屏上独立、箭头形的鼠标光标可局部定位；具体变量由对白设定，插图不含真实代码。",
+        "sentence": "Can you point to it with the cursor?",
+        "matched_form": "cursor",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Can you point to it with the cursor?",
+      "example_zh": "你能用光标指出它吗？",
+      "bbox_normalized": [
+        0.568,
+        0.344,
+        0.614,
+        0.407
+      ],
+      "collocations": [
+        "point with the cursor",
+        "move the cursor"
+      ],
+      "example_en_highlighted": "Can you point to it with the **cursor**?",
+      "annotation_mode": "object",
+      "annotation_note": "显示屏上独立、箭头形的鼠标光标可局部定位；具体变量由对白设定，插图不含真实代码。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A reviewer offers an optional variable rename and points it out with the cursor.",
+    "zh": "评审同事提出一个可选的变量重命名建议，并用光标指出修改位置。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A reviewer offers an optional variable rename and points it out with the cursor.",
+    "zh": "评审同事提出一个可选的变量重命名建议，并用光标指出修改位置。"
+  },
+  "roles": {
+    "A": "Reviewer 评审同事",
+    "B": "Author 代码作者"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "A small suggestion: could we rename this variable?",
+      "zh": "一个小建议：我们能给这个变量换个名字吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Which one? Can you point to it with the cursor?",
+      "zh": "哪个变量？你能用光标指出它吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "This one. The shorter name would be easier to read.",
+      "zh": "这个。较短的名字会更容易阅读。"
+    },
+    {
+      "speaker": "B",
+      "en": "That makes sense. It's optional, so you can keep the current name if it works better.",
+      "zh": "有道理。这是可选修改；如果当前名字更合适，也可以保留。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "礼貌提出建议，明确它是可选修改。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers sit beside a desktop monitor doing a friendly code review. The reviewer on the left has one hand on a computer mouse, the author on the right listens with a relaxed open-hand gesture. On the monitor, draw sparse abstract code-like horizontal marks and ONE large, sharply recognizable arrow-shaped mouse cursor over an empty gap near the middle-right. Cursor is a black outlined classic diagonal arrow with white interior, visually distinct from code marks and not touching them. Keep the cursor entirely visible and large enough for a local learning crop. No letters, readable code, or text.",
+  "status": "approved",
+  "image_path": "images/inverted/W043.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W043 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W043.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T14:09:01Z",
+    "ended_at": "2026-10-04T14:11:38Z",
+    "prompt_path": "prompts/W043_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W043.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W043.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "b13b5f0d818919e0fcfa1b844771e38100e3c54d498563a3a6f6f4f31ba2dc05",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W043.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：屏幕中的鼠标箭头光标与抽象代码短线清楚分开；评审者用鼠标指出位置，代码作者回应。光标可独立裁剪；建议、重命名及可选属性由对白说明，不以无文字代码声称完成真实修改。"
+  }
+}

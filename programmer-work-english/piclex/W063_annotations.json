@@ -1,0 +1,130 @@
+{
+  "filename": "W063-通知即将发布.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 75,
+      "english": "notify",
+      "chinese": "通知",
+      "phoneticUS": "/ˈnoʊtɪfaɪ/",
+      "phoneticUK": "/ˈnəʊtɪfaɪ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "通知团队是后续计划，由对白提出，静态电脑与人物动作不能证明消息已经发送，不设框。",
+        "association": "通知团队是后续计划，由对白提出，静态电脑与人物动作不能证明消息已经发送，不设框。",
+        "collocation": "notify the team; notify someone about a deployment",
+        "example": "A: Could you notify the team about the deployment?\nB: Sure. What's the schedule?\nA: We'll start at two. Let's check the clock before we send the notice.\nB: I'll post the time and expected impact in the release channel.",
+        "exampleChinese": "A: 你能通知团队这次部署的安排吗？\nB: 可以。时间安排是什么？\nA: 我们两点开始。发送通知前，先核对一下时钟。\nB: 我会在发布频道里说明时间和预期影响。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "schedule",
+      "chinese": "时间安排",
+      "phoneticUS": "/ˈskedʒuːl/",
+      "phoneticUK": "/ˈʃedjuːl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处schedule指发布计划的时间安排，由问答明确说明；不把时钟等同于完整计划。",
+        "association": "此处schedule指发布计划的时间安排，由问答明确说明；不把时钟等同于完整计划。",
+        "collocation": "the deployment schedule; what's the schedule",
+        "example": "What's the schedule?",
+        "exampleChinese": "时间安排是什么？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 75,
+      "english": "deployment",
+      "chinese": "部署",
+      "phoneticUS": "/dɪˈplɔɪmənt/",
+      "phoneticUK": "/dɪˈplɔɪmənt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件部署是工作流程，由对白说明，图中没有部署系统的真实运行证据，不设框。",
+        "association": "软件部署是工作流程，由对白说明，图中没有部署系统的真实运行证据，不设框。",
+        "collocation": "a planned deployment; notify someone about a deployment",
+        "example": "Could you notify the team about the deployment?",
+        "exampleChinese": "你能通知团队这次部署的安排吗？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 249,
+      "english": "clock",
+      "chinese": "时钟",
+      "phoneticUS": "/klɑːk/",
+      "phoneticUK": "/klɒk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 249
+      },
+      "boundingBox": {
+        "left": 395,
+        "top": 140,
+        "right": 605,
+        "bottom": 355
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "墙上有表盘和指针的完整时钟可框选；发布将在两点开始由对白说明。",
+        "association": "墙上有表盘和指针的完整时钟可框选；发布将在两点开始由对白说明。",
+        "collocation": "check the clock; a wall clock",
+        "example": "Let's check the clock before we send the notice.",
+        "exampleChinese": "发送通知前，先核对一下时钟。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers confirm the deployment schedule before notifying the team.",
+    "chinese": "两名开发者核对发布时间，并准备向团队通知发布计划和预期影响。",
+    "source": "原创对话 · W063 通知即将发布",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

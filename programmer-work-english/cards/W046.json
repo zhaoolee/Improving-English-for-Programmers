@@ -1,0 +1,246 @@
+{
+  "id": "W046",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "结对编程时交换思路",
+  "keyword": "approach",
+  "scene": "结对编程的两位开发者比较思路，并交换操作与指导角色。",
+  "target_count": 4,
+  "primary_words": [
+    "approach",
+    "driver",
+    "navigator",
+    "keyboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "approach",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "思路",
+      "pos": "noun",
+      "ipa_us": "/əˈproʊtʃ/",
+      "ipa_uk": "/əˈprəʊtʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could we try a different approach to this loop?",
+        "matched_form": "approach",
+        "referent_region_verified": false,
+        "context": "实现思路是对白中的抽象方案，没有局部物体框。",
+        "image_verified": null
+      },
+      "example_en": "Could we try a different approach to this loop?",
+      "example_zh": "我们能为这个循环试试另一种思路吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a different approach",
+        "compare approaches"
+      ],
+      "example_en_highlighted": "Could we try a different **approach** to this loop?",
+      "annotation_mode": "context",
+      "annotation_note": "实现思路是对白中的抽象方案，没有局部物体框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "driver",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "操作者",
+      "pos": "noun",
+      "ipa_us": "/ˈdraɪvər/",
+      "ipa_uk": "/ˈdraɪvə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll take the keyboard as the driver and show a small example.",
+        "matched_form": "driver",
+        "referent_region_verified": false,
+        "context": "结对编程操作者身份由对白明确，不能仅由座位或手势鉴定。",
+        "image_verified": null
+      },
+      "example_en": "I'll take the keyboard as the driver and show a small example.",
+      "example_zh": "我作为操作者接过键盘，演示一个小例子。",
+      "bbox_normalized": null,
+      "collocations": [
+        "driver role",
+        "act as the driver"
+      ],
+      "example_en_highlighted": "I'll take the keyboard as the **driver** and show a small example.",
+      "annotation_mode": "context",
+      "annotation_note": "结对编程操作者身份由对白明确，不能仅由座位或手势鉴定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "navigator",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "指导者",
+      "pos": "noun",
+      "ipa_us": "/ˈnævɪɡeɪtər/",
+      "ipa_uk": "/ˈnævɪɡeɪtə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Sure. I'll be the navigator while you explain your idea.",
+        "matched_form": "navigator",
+        "referent_region_verified": false,
+        "context": "结对编程指导者是对白约定身份，不把同事外观当角色证据。",
+        "image_verified": null
+      },
+      "example_en": "Sure. I'll be the navigator while you explain your idea.",
+      "example_zh": "当然。我来做指导者，你来解释你的想法。",
+      "bbox_normalized": null,
+      "collocations": [
+        "navigator role",
+        "be the navigator"
+      ],
+      "example_en_highlighted": "Sure. I'll be the **navigator** while you explain your idea.",
+      "annotation_mode": "context",
+      "annotation_note": "结对编程指导者是对白约定身份，不把同事外观当角色证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "keyboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "键盘",
+      "pos": "noun",
+      "ipa_us": "/ˈkiːbɔːrd/",
+      "ipa_uk": "/ˈkiːbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整可见的独立键盘实体可定位。",
+        "sentence": "I'll take the keyboard as the driver and show a small example.",
+        "matched_form": "keyboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll take the keyboard as the driver and show a small example.",
+      "example_zh": "我作为操作者接过键盘，演示一个小例子。",
+      "bbox_normalized": [
+        0.359,
+        0.502,
+        0.613,
+        0.561
+      ],
+      "collocations": [
+        "take the keyboard",
+        "use the keyboard"
+      ],
+      "example_en_highlighted": "I'll take the **keyboard** as the driver and show a small example.",
+      "annotation_mode": "object",
+      "annotation_note": "完整可见的独立键盘实体可定位。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A pair of developers compares approaches and switches driver and navigator roles.",
+    "zh": "结对编程的两位开发者比较思路，并交换操作与指导角色。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A pair of developers compares approaches and switches driver and navigator roles.",
+    "zh": "结对编程的两位开发者比较思路，并交换操作与指导角色。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could we try a different approach to this loop?",
+      "zh": "我们能为这个循环试试另一种思路吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. I'll be the navigator while you explain your idea.",
+      "zh": "当然。我来做指导者，你来解释你的想法。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll take the keyboard as the driver and show a small example.",
+      "zh": "我作为操作者接过键盘，演示一个小例子。"
+    },
+    {
+      "speaker": "B",
+      "en": "Great. Then we'll compare the two approaches together.",
+      "zh": "好。然后我们一起比较这两种思路。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "提出另一种实现思路并交换结对角色。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure programmers sit beside each other at ONE desk, facing a simple monitor with only abstract horizontal lines. The left programmer has hands poised above a SEPARATE physical keyboard in the foreground at the desk center; right programmer makes a listening open-palm gesture. The whole rectangular keyboard with simple unlabeled keys is visible, hands above it not covering it. No laptop and no readable code.",
+  "status": "approved",
+  "image_path": "images/W046.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W046 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W046.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T17:07:49.513Z",
+    "ended_at": "2026-10-05T17:10:12.044Z",
+    "prompt_path": "prompts/W046_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W046.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；完整可见的独立键盘实体可定位。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。"
+  }
+}

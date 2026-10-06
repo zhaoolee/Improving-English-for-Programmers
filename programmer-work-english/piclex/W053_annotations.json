@@ -1,0 +1,130 @@
+{
+  "filename": "W053-请求日志与截图.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "log",
+      "chinese": "日志",
+      "phoneticUS": "/lɑːɡ/",
+      "phoneticUK": "/lɒɡ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "技术日志及其相关行由对白请求，抽象屏幕短线不是可核验的日志内容，不设框。",
+        "association": "技术日志及其相关行由对白请求，抽象屏幕短线不是可核验的日志内容，不设框。",
+        "collocation": "attach a log; relevant log lines",
+        "example": "A: Could you attach the log and a screenshot to the bug report?\nB: Sure. Do you need the full log?\nA: Just the lines around the error, with the timestamp.\nB: Got it. I'll include this screenshot and the relevant lines.",
+        "exampleChinese": "A: 你能把日志和一张截图附到缺陷报告里吗？\nB: 可以。你需要完整日志吗？\nA: 只要错误前后几行，并保留时间戳。\nB: 明白。我会附上这张截图和相关日志行。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "attach",
+      "chinese": "附上",
+      "phoneticUS": "/əˈtætʃ/",
+      "phoneticUK": "/əˈtætʃ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处attach指报告附件操作，由对白表达，纸面递交不当成已完成文件上传，不设框。",
+        "association": "此处attach指报告附件操作，由对白表达，纸面递交不当成已完成文件上传，不设框。",
+        "collocation": "attach a screenshot; attach files to a report",
+        "example": "Could you attach the log and a screenshot to the bug report?",
+        "exampleChinese": "你能把日志和一张截图附到缺陷报告里吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "timestamp",
+      "chinese": "时间戳",
+      "phoneticUS": "/ˈtaɪmstæmp/",
+      "phoneticUK": "/ˈtaɪmstæmp/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "时间戳是日志中的时间信息，由对白要求保留；无文字底图没有真实时间戳，不设框。",
+        "association": "时间戳是日志中的时间信息，由对白要求保留；无文字底图没有真实时间戳，不设框。",
+        "collocation": "with the timestamp; an error timestamp",
+        "example": "Just the lines around the error, with the timestamp.",
+        "exampleChinese": "只要错误前后几行，并保留时间戳。"
+      }
+    },
+    {
+      "x": 550,
+      "y": 520,
+      "english": "screenshot",
+      "chinese": "截图",
+      "phoneticUS": "/ˈskriːnʃɑːt/",
+      "phoneticUK": "/ˈskriːnʃɒt/",
+      "bubblePosition": {
+        "x": 545,
+        "y": 875
+      },
+      "anchorPosition": {
+        "x": 550,
+        "y": 520
+      },
+      "boundingBox": {
+        "left": 398,
+        "top": 407,
+        "right": 688,
+        "bottom": 598
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "带浏览器界面框和对话框的纸质截图是可见局部指代，框住整个截图纸面。",
+        "association": "带浏览器界面框和对话框的纸质截图是可见局部指代，框住整个截图纸面。",
+        "collocation": "attach a screenshot; include this screenshot",
+        "example": "I'll include this screenshot and the relevant lines.",
+        "exampleChinese": "我会附上这张截图和相关日志行。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a tester to attach a screenshot and the relevant log lines.",
+    "chinese": "开发者请测试同事提供截图，以及包含错误时间戳的相关日志行。",
+    "source": "原创对话 · W053 请求日志与截图",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

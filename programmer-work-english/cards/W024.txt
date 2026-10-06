@@ -1,0 +1,120 @@
+W024  估算任务完成时间
+========================================================================
+分类: 计划与进度（planning）
+关键词: estimate
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-05）
+图片状态: generated
+图片路径: images/W024.png
+复核日期: 2026-10-05
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W024.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W024.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T08:00:21.265Z → 2026-10-05T08:01:34.499Z
+  提示词文件: prompts/W024_image_final.txt
+
+场景: 两名同事讨论任务的工作量估算和截止时间。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两人讨论工时与截止时间，中央实体墙历具有装订与七列四行空白日期格；画面不展示具体星期或日期，周五和两天工作量来自对白。整张日历边界完整，少量指点手势不遮挡主体。
+
+沟通目标: 区分估算工作量与承诺截止时间，并留出测试时间。
+
+主配文（一句场景描述）:
+  英文: Two teammates discuss an estimate and a deadline for a task.
+  中文: 两名同事讨论任务的工作量估算和截止时间。
+
+角色与对白:
+  A = Team lead 团队负责人
+  B = Developer 开发者
+  [A] What is your estimate for this task?
+        你对这个任务的估算是多少？
+  [B] About two days of effort, including testing.
+        大约两天的工作量，包括测试。
+  [A] The deadline is Friday. Could you mark it on the calendar?
+        截止时间是周五。你能在日历上标记一下吗？
+  [B] Yes. I'll flag any risk to that deadline early.
+        可以。我会尽早说明可能影响截止时间的风险。
+
+目标词 (4): estimate, effort, deadline, calendar
+
+------------------------------------------------------------------------
+[1/4] estimate
+  词义: 估算
+  词性: noun
+  音标: UK /ˈestɪmət/ | US /ˈestɪmət/
+  搭配: an estimate for; a rough estimate
+  例句: What is your estimate for this task?
+  例句高亮: What is your **estimate** for this task?
+  例句中文: 你对这个任务的估算是多少？
+  标注模式: context
+  标注说明: 名词estimate是工作量预估，不能把日历日期当成已确定工时。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] effort
+  词义: 工作量
+  词性: noun (uncountable)
+  音标: UK /ˈefət/ | US /ˈefərt/
+  搭配: two days of effort; estimated effort
+  例句: About two days of effort, including testing.
+  例句高亮: About two days of **effort**, including testing.
+  例句中文: 大约两天的工作量，包括测试。
+  标注模式: context
+  标注说明: 此处effort是所需工作量，数值由对白提供而非画面测量。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] deadline
+  词义: 截止时间
+  词性: noun
+  音标: UK /ˈdedlaɪn/ | US /ˈdedlaɪn/
+  搭配: meet a deadline; the deadline is Friday
+  例句: The deadline is Friday. Could you mark it on the calendar?
+  例句高亮: The **deadline** is Friday. Could you mark it on the calendar?
+  例句中文: 截止时间是周五。你能在日历上标记一下吗？
+  标注模式: context
+  标注说明: 底图没有星期或日期文字，周五截止时间由对白约定。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] calendar
+  词义: 日历
+  词性: noun
+  音标: UK /ˈkælɪndə/ | US /ˈkælɪndər/
+  搭配: on the calendar; mark a calendar
+  例句: The deadline is Friday. Could you mark it on the calendar?
+  例句高亮: The deadline is Friday. Could you mark it on the **calendar**?
+  例句中文: 截止时间是周五。你能在日历上标记一下吗？
+  标注模式: object
+  标注说明: 有装订和七列日期格的墙历可框选整个物件。
+  坐标(normalized): [0.263, 0.166, 0.733, 0.503]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W024 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=32 | meta.approved_cards=32
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers standing beside a large wall calendar, central slightly above a small desk. Calendar has plain binding and a clear seven-column by five-row date grid, no numerals or weekday letters. One person points at an unnumbered date cell, other holds open palm discussing timing. Keep entire calendar perimeter visible and hands out of the grid. No other charts.
+

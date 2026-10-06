@@ -1,0 +1,256 @@
+{
+  "id": "W052",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "比较预期与实际结果",
+  "keyword": "expected",
+  "scene": "开发者与测试同事借助截图，对比预期结果和实际结果。",
+  "target_count": 4,
+  "primary_words": [
+    "expected",
+    "actual",
+    "result",
+    "screenshot"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "expected",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "预期的",
+      "pos": "adjective",
+      "ipa_us": "/ɪkˈspektɪd/",
+      "ipa_uk": "/ɪkˈspektɪd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The expected result is an empty list.",
+        "matched_form": "expected",
+        "referent_region_verified": false,
+        "context": "预期结果是需求中的目标状态，由对白说明；不可把静态空白区域当作预期本身。",
+        "image_verified": null
+      },
+      "example_en": "The expected result is an empty list.",
+      "example_zh": "预期结果是一个空列表。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the expected result",
+        "expected behavior"
+      ],
+      "example_en_highlighted": "The **expected** result is an empty list.",
+      "annotation_mode": "context",
+      "annotation_note": "预期结果是需求中的目标状态，由对白说明；不可把静态空白区域当作预期本身。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "actual",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "实际的",
+      "pos": "adjective",
+      "ipa_us": "/ˈæktʃuəl/",
+      "ipa_uk": "/ˈæktʃuəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "But the actual result shows every record.",
+        "matched_form": "actual",
+        "referent_region_verified": false,
+        "context": "实际运行结果由测试对白设定支持；插图不证明运行数据，不单独框actual。",
+        "image_verified": null
+      },
+      "example_en": "But the actual result shows every record.",
+      "example_zh": "但实际结果显示了所有记录。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the actual result",
+        "actual behavior"
+      ],
+      "example_en_highlighted": "But the **actual** result shows every record.",
+      "annotation_mode": "context",
+      "annotation_note": "实际运行结果由测试对白设定支持；插图不证明运行数据，不单独框actual。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "result",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "结果",
+      "pos": "noun",
+      "ipa_us": "/rɪˈzʌlt/",
+      "ipa_uk": "/rɪˈzʌlt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The expected result is an empty list.",
+        "matched_form": "result",
+        "referent_region_verified": false,
+        "context": "结果包含预期与实际的语义比较，不把某个空白行等同于整个结果。",
+        "image_verified": null
+      },
+      "example_en": "The expected result is an empty list.",
+      "example_zh": "预期结果是一个空列表。",
+      "bbox_normalized": null,
+      "collocations": [
+        "compare results",
+        "the expected result"
+      ],
+      "example_en_highlighted": "The expected **result** is an empty list.",
+      "annotation_mode": "context",
+      "annotation_note": "结果包含预期与实际的语义比较，不把某个空白行等同于整个结果。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "screenshot",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "截图",
+      "pos": "noun",
+      "ipa_us": "/ˈskriːnʃɑːt/",
+      "ipa_uk": "/ˈskriːnʃɒt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "纸上带浏览器边框与结果行的界面副本是截图的局部指代，框出整个纸质截图。",
+        "sentence": "I've saved a screenshot of the result.",
+        "matched_form": "screenshot",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I've saved a screenshot of the result.",
+      "example_zh": "我保存了结果的截图。",
+      "bbox_normalized": [
+        0.36,
+        0.5,
+        0.635,
+        0.63
+      ],
+      "collocations": [
+        "save a screenshot",
+        "a screenshot of the result"
+      ],
+      "example_en_highlighted": "I've saved a **screenshot** of the result.",
+      "annotation_mode": "object",
+      "annotation_note": "纸上带浏览器边框与结果行的界面副本是截图的局部指代，框出整个纸质截图。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer and a tester compare expected and actual results using a screenshot.",
+    "zh": "开发者与测试同事借助截图，对比预期结果和实际结果。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer and a tester compare expected and actual results using a screenshot.",
+    "zh": "开发者与测试同事借助截图，对比预期结果和实际结果。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Tester 测试同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "The expected result is an empty list.",
+      "zh": "预期结果是一个空列表。"
+    },
+    {
+      "speaker": "B",
+      "en": "But the actual result shows every record.",
+      "zh": "但实际结果显示了所有记录。"
+    },
+    {
+      "speaker": "A",
+      "en": "I've saved a screenshot of the result. Could you check it?",
+      "zh": "我保存了结果的截图。你能检查一下吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Let's compare it with the requirement.",
+      "zh": "可以。我们把它和需求对照一下。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "清楚区分应该发生什么与实际发生什么，并提供证据。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers compare evidence at a desk. A desktop monitor shows a simple abstract browser with several blank result rows. In the center foreground of the desk, place a large unobstructed paper printout of the same interface, clearly with an outer paper margin and miniature browser frame and result rows inside: this is the screenshot prop. One coworker points to the paper, the other looks at the monitor. No text, numbers, labels, or speech balloons.",
+  "status": "approved",
+  "image_path": "images/inverted/W052.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W052 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W052.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T13:27:56Z",
+    "ended_at": "2026-10-04T13:30:50Z",
+    "prompt_path": "prompts/W052_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W052.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W052.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "b981d284d26cfc768e23e963b5df07e5928196fddbd3cb286fcd92dc263df064",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W052.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名开发者对照显示器及桌上打印的界面截图。截图有清晰纸张外缘与界面行，完整框选其纸面；预期、实际及结果差异由对白支持，不把无文字的行列表当成确切业务数据。"
+  }
+}

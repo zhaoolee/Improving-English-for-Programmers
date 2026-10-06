@@ -1,0 +1,120 @@
+W032  解释接口的数据流
+========================================================================
+分类: 技术方案讨论（design）
+关键词: flow
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W032.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W032.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W032.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T13:27:56Z → 2026-10-04T13:31:45Z
+  提示词文件: prompts/W032_image_final.txt
+
+场景: 两名开发者借助示意图，解释接口接收请求并返回响应的数据流。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名同事解释白板上的客户端、服务、存储和双向箭头示意图。diagram框住完整图形，不框整块白板代替图形；请求、响应与数据流由对白和箭头结构共同提供语境。
+
+沟通目标: 按照请求、处理、响应的顺序解释接口。
+
+主配文（一句场景描述）:
+  英文: Two developers use a diagram to explain how an API handles a request and returns a response.
+  中文: 两名开发者借助示意图，解释接口接收请求并返回响应的数据流。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Could you explain the data flow for this API?
+        你能解释一下这个接口的数据流吗？
+  [B] A request comes in, and the service reads the data from storage.
+        请求进入后，服务会从存储中读取数据。
+  [A] Then it sends a response back to the client, right?
+        然后它会向客户端返回响应，对吗？
+  [B] Exactly. The diagram shows the path.
+        没错。示意图展示了这条路径。
+
+目标词 (4): flow, request, response, diagram
+
+------------------------------------------------------------------------
+[1/4] flow
+  词义: 流向
+  词性: noun
+  音标: UK /fləʊ/ | US /floʊ/
+  搭配: data flow; the flow of data
+  例句: Could you explain the data flow for this API?
+  例句高亮: Could you explain the data **flow** for this API?
+  例句中文: 你能解释一下这个接口的数据流吗？
+  标注模式: context
+  标注说明: 数据流由完整对白解释；箭头只辅助表示路径，不把静态线条当作正在流动的数据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] request
+  词义: 请求
+  词性: noun
+  音标: UK /rɪˈkwest/ | US /rɪˈkwest/
+  搭配: an API request; a request comes in
+  例句: A request comes in, and the service reads the data from storage.
+  例句高亮: A **request** comes in, and the service reads the data from storage.
+  例句中文: 请求进入后，服务会从存储中读取数据。
+  标注模式: context
+  标注说明: 接口请求是软件交互，由对白支持，图中空白节点不等同于请求实体。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] response
+  词义: 响应
+  词性: noun
+  音标: UK /rɪˈspɒns/ | US /rɪˈspɑːns/
+  搭配: send a response; a response back to the client
+  例句: Then it sends a response back to the client, right?
+  例句高亮: Then it sends a **response** back to the client, right?
+  例句中文: 然后它会向客户端返回响应，对吗？
+  标注模式: context
+  标注说明: 响应由接口对白说明，不能把任意返回箭头框成真实响应消息。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] diagram
+  词义: 示意图
+  词性: noun
+  音标: UK /ˈdaɪəɡræm/ | US /ˈdaɪəɡræm/
+  搭配: a flow diagram; the diagram shows the path
+  例句: The diagram shows the path.
+  例句高亮: The **diagram** shows the path.
+  例句中文: 示意图展示了这条路径。
+  标注模式: object
+  标注说明: 白板中的完整节点与连线构成可定位示意图，不只截取其中一个空白框。
+  坐标(normalized): [0.28, 0.32, 0.735, 0.435]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W032 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=16 | meta.approved_cards=16
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers stand beside a wide whiteboard. Inside the whiteboard is ONE simple left-to-right connected flow diagram: a small blank laptop-shaped client icon at left, one rectangular service block in the center, one cylinder-shaped storage icon at right, and clear directional arrows linking them, including a return arrow. No letters, text, or numbers. One developer points at a connector while the other listens. Keep all nodes and arrows inside the board clear and unobstructed.
+

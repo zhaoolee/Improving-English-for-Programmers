@@ -1,0 +1,130 @@
+{
+  "filename": "W013-区分必须与可选功能.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "required",
+      "chinese": "必需的",
+      "phoneticUS": "/rɪˈkwaɪərd/",
+      "phoneticUK": "/rɪˈkwaɪəd/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "是否必需是产品范围决策，由对白确认；不从界面外观推断，不设框。",
+        "association": "是否必需是产品范围决策，由对白确认；不从界面外观推断，不设框。",
+        "collocation": "a required feature; required for the first version",
+        "example": "A: Is this feature required for the first version?\nB: Yes. The email alert is required, but the sound is optional.\nA: So we'll use a checkbox to let users turn the sound on or off?\nB: Exactly. Keep sound off by default.",
+        "exampleChinese": "A: 首个版本必须包含这个功能吗？\nB: 是的。邮件提醒是必需的，但声音是可选的。\nA: 那么我们用复选框让用户打开或关闭声音，对吗？\nB: 没错。声音默认关闭。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "optional",
+      "chinese": "可选的",
+      "phoneticUS": "/ˈɑːpʃənəl/",
+      "phoneticUK": "/ˈɒpʃənəl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "可选属性与默认关闭由对白说明，不把复选框本身等同于optional。",
+        "association": "可选属性与默认关闭由对白说明，不把复选框本身等同于optional。",
+        "collocation": "an optional setting; the sound is optional",
+        "example": "The email alert is required, but the sound is optional.",
+        "exampleChinese": "邮件提醒是必需的，但声音是可选的。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "feature",
+      "chinese": "功能",
+      "phoneticUS": "/ˈfiːtʃər/",
+      "phoneticUK": "/ˈfiːtʃə/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "功能指邮件提醒这一产品能力，由对白说明；静态抽象设置界面不足以框出整个功能。",
+        "association": "功能指邮件提醒这一产品能力，由对白说明；静态抽象设置界面不足以框出整个功能。",
+        "collocation": "a required feature; the first version of a feature",
+        "example": "Is this feature required for the first version?",
+        "exampleChinese": "首个版本必须包含这个功能吗？"
+      }
+    },
+    {
+      "x": 488,
+      "y": 478,
+      "english": "checkbox",
+      "chinese": "复选框",
+      "phoneticUS": "/ˈtʃekbɑːks/",
+      "phoneticUK": "/ˈtʃekbɒks/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 488,
+        "y": 478
+      },
+      "boundingBox": {
+        "left": 460,
+        "top": 450,
+        "right": 515,
+        "bottom": 506
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示屏上独立的空方形复选框可局部定位；声音功能和默认行为由对白支持。",
+        "association": "显示屏上独立的空方形复选框可局部定位；声音功能和默认行为由对白支持。",
+        "collocation": "use a checkbox; select a checkbox",
+        "example": "So we'll use a checkbox to let users turn the sound on or off?",
+        "exampleChinese": "那么我们用复选框让用户打开或关闭声音，对吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a product manager separate required features from optional settings.",
+    "chinese": "开发者与产品经理区分必须实现的功能和可选设置，并确认复选框的行为。",
+    "source": "原创对话 · W013 区分必须与可选功能",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

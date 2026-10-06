@@ -1,0 +1,246 @@
+{
+  "id": "W005",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "了解项目背景",
+  "keyword": "background",
+  "scene": "新同事询问项目背景与目标，并借助流程图了解全貌。",
+  "target_count": 4,
+  "primary_words": [
+    "background",
+    "purpose",
+    "overview",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "background",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "背景",
+      "pos": "noun",
+      "ipa_us": "/ˈbækɡraʊnd/",
+      "ipa_uk": "/ˈbækɡraʊnd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you give me some background on this project?",
+        "matched_form": "background",
+        "referent_region_verified": false,
+        "context": "项目历史背景由对白介绍，不能由白板外观推断。",
+        "image_verified": null
+      },
+      "example_en": "Could you give me some background on this project?",
+      "example_zh": "你能给我介绍一下这个项目的背景吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "project background",
+        "give some background"
+      ],
+      "example_en_highlighted": "Could you give me some **background** on this project?",
+      "annotation_mode": "context",
+      "annotation_note": "项目历史背景由对白介绍，不能由白板外观推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "purpose",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "目标",
+      "pos": "noun",
+      "ipa_us": "/ˈpɜːrpəs/",
+      "ipa_uk": "/ˈpɜːpəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Sure. Its purpose is to help support teams handle customer requests.",
+        "matched_form": "purpose",
+        "referent_region_verified": false,
+        "context": "产品目标由对白明确，不用流程图替代目标证据。",
+        "image_verified": null
+      },
+      "example_en": "Sure. Its purpose is to help support teams handle customer requests.",
+      "example_zh": "当然。它的目标是帮助支持团队处理客户请求。",
+      "bbox_normalized": null,
+      "collocations": [
+        "project purpose",
+        "the purpose of a project"
+      ],
+      "example_en_highlighted": "Sure. Its **purpose** is to help support teams handle customer requests.",
+      "annotation_mode": "context",
+      "annotation_note": "产品目标由对白明确，不用流程图替代目标证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "overview",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "概览",
+      "pos": "noun",
+      "ipa_us": "/ˈoʊvərvjuː/",
+      "ipa_uk": "/ˈəʊvəvjuː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Of course. It gives an overview of how a request moves through the system.",
+        "matched_form": "overview",
+        "referent_region_verified": false,
+        "context": "overview指整体解释，不等于任一局部方框。",
+        "image_verified": null
+      },
+      "example_en": "Of course. It gives an overview of how a request moves through the system.",
+      "example_zh": "当然。它展示了请求如何在系统中流转的全貌。",
+      "bbox_normalized": null,
+      "collocations": [
+        "give an overview",
+        "system overview"
+      ],
+      "example_en_highlighted": "Of course. It gives an **overview** of how a request moves through the system.",
+      "annotation_mode": "context",
+      "annotation_note": "overview指整体解释，不等于任一局部方框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "流程图",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板上的完整框箭头图可以定位；流程含义由对白设定。",
+        "sentence": "Could you walk me through the diagram on the board?",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Could you walk me through the diagram on the board?",
+      "example_zh": "你能带我看一下白板上的流程图吗？",
+      "bbox_normalized": [
+        0.556,
+        0.315,
+        0.926,
+        0.435
+      ],
+      "collocations": [
+        "walk through a diagram",
+        "flow diagram"
+      ],
+      "example_en_highlighted": "Could you walk me through the **diagram** on the board?",
+      "annotation_mode": "object",
+      "annotation_note": "白板上的完整框箭头图可以定位；流程含义由对白设定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A new teammate asks about the project background and its purpose.",
+    "zh": "新同事询问项目背景与目标，并借助流程图了解全貌。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A new teammate asks about the project background and its purpose.",
+    "zh": "新同事询问项目背景与目标，并借助流程图了解全貌。"
+  },
+  "roles": {
+    "A": "New developer 新开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you give me some background on this project?",
+      "zh": "你能给我介绍一下这个项目的背景吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. Its purpose is to help support teams handle customer requests.",
+      "zh": "当然。它的目标是帮助支持团队处理客户请求。"
+    },
+    {
+      "speaker": "A",
+      "en": "Could you walk me through the diagram on the board?",
+      "zh": "你能带我看一下白板上的流程图吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Of course. It gives an overview of how a request moves through the system.",
+      "zh": "当然。它展示了请求如何在系统中流转的全貌。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "了解背景、目标和整体流程。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers stand beside a large freestanding whiteboard on the RIGHT. The board contains one clear three-box flow diagram connected by arrows, with no writing. Coworker on left listens with open palm; coworker at center points to the diagram without covering it. The whole board and entire diagram are unobstructed.",
+  "status": "approved",
+  "image_path": "images/W005.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W005 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W005.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T16:12:32.642Z",
+    "ended_at": "2026-10-05T16:13:09.622Z",
+    "prompt_path": "prompts/W005_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W005.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；白板上的完整框箭头图可以定位；流程含义由对白设定。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。"
+  }
+}

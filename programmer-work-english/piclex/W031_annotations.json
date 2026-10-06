@@ -1,0 +1,130 @@
+{
+  "filename": "W031-讨论缓存方案的取舍.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 85,
+      "english": "trade-off",
+      "chinese": "取舍",
+      "phoneticUS": "/ˈtreɪd ɔːf/",
+      "phoneticUK": "/ˈtreɪd ɒf/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话比较性能与维护代价；不将箭头图当作取舍本身，不设框。",
+        "association": "对话比较性能与维护代价；不将箭头图当作取舍本身，不设框。",
+        "collocation": "a trade-off between; a performance trade-off",
+        "example": "A: What's the trade-off if we add a cache?\nB: Lower latency, but more work to keep the cached data up to date.\nA: Could you show that in the diagram?\nB: Sure. Let's compare both options before we decide.",
+        "exampleChinese": "A: 如果增加缓存，需要做什么取舍？\nB: 延迟会降低，但保持缓存数据最新需要更多工作。\nA: 你能在示意图里说明这一点吗？\nB: 可以。我们比较两种方案后再决定。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "cache",
+      "chinese": "缓存",
+      "phoneticUS": "/kæʃ/",
+      "phoneticUK": "/kæʃ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "缓存是讨论中的逻辑组件；无标识的矩形不证明哪一个是缓存，不设框。",
+        "association": "缓存是讨论中的逻辑组件；无标识的矩形不证明哪一个是缓存，不设框。",
+        "collocation": "add a cache; cached data",
+        "example": "What's the trade-off if we add a cache?",
+        "exampleChinese": "如果增加缓存，需要做什么取舍？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 85,
+      "english": "latency",
+      "chinese": "延迟",
+      "phoneticUS": "/ˈleɪtənsi/",
+      "phoneticUK": "/ˈleɪtənsi/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话说明延迟降低，静态示意图不能展示时间测量，不设框。",
+        "association": "对话说明延迟降低，静态示意图不能展示时间测量，不设框。",
+        "collocation": "lower latency; reduce latency",
+        "example": "Lower latency, but more work to keep the cached data up to date.",
+        "exampleChinese": "延迟会降低，但保持缓存数据最新需要更多工作。"
+      }
+    },
+    {
+      "x": 625,
+      "y": 333,
+      "english": "diagram",
+      "chinese": "示意图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 200
+      },
+      "anchorPosition": {
+        "x": 625,
+        "y": 333
+      },
+      "boundingBox": {
+        "left": 327,
+        "top": 250,
+        "right": 690,
+        "bottom": 415
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板中的矩形和箭头组成实际可见示意图，可框整体图形而不虚构其技术含义。",
+        "association": "白板中的矩形和箭头组成实际可见示意图，可框整体图形而不虚构其技术含义。",
+        "collocation": "draw a diagram; in the diagram",
+        "example": "Could you show that in the diagram?",
+        "exampleChinese": "你能在示意图里说明这一点吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers use a diagram to discuss a cache's benefits and maintenance costs.",
+    "chinese": "两名开发者借助示意图，讨论缓存带来的性能收益和维护成本。",
+    "source": "原创对话 · W031 讨论缓存方案的取舍",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

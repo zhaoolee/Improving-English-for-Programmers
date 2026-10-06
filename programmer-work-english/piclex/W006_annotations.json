@@ -1,0 +1,130 @@
+{
+  "filename": "W006-确认团队分工.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "ownership",
+      "chinese": "负责归属",
+      "phoneticUS": "/ˈoʊnərʃɪp/",
+      "phoneticUK": "/ˈəʊnəʃɪp/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对白明确服务责任归属，白板和人物外观无法证明谁负责。",
+        "association": "对白明确服务责任归属，白板和人物外观无法证明谁负责。",
+        "collocation": "ownership of a service; take ownership",
+        "example": "A: Who has ownership of the billing service?\nB: Maya does. Her main responsibility is keeping it reliable.\nA: And who will maintain the new reporting module?\nB: I will. Let's add both names to the board.",
+        "exampleChinese": "A: 账单服务由谁负责？\nB: 由 Maya 负责。她的主要职责是保证它稳定运行。\nA: 那新的报表模块由谁来维护？\nB: 我来维护。我们把这两个名字都加到白板上吧。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "responsibility",
+      "chinese": "职责",
+      "phoneticUS": "/rɪˌspɑːnsəˈbɪləti/",
+      "phoneticUK": "/rɪˌspɒnsəˈbɪləti/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "职责是对白约定的工作分工，没有可定位局部。",
+        "association": "职责是对白约定的工作分工，没有可定位局部。",
+        "collocation": "main responsibility; share responsibility",
+        "example": "Maya does. Her main responsibility is keeping it reliable.",
+        "exampleChinese": "由 Maya 负责。她的主要职责是保证它稳定运行。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "maintain",
+      "chinese": "维护",
+      "phoneticUS": "/meɪnˈteɪn/",
+      "phoneticUK": "/meɪnˈteɪn/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "维护工作由对白说明，静态指向白板不能证明正在维护。",
+        "association": "维护工作由对白说明，静态指向白板不能证明正在维护。",
+        "collocation": "maintain a module; maintain a service",
+        "example": "And who will maintain the new reporting module?",
+        "exampleChinese": "那新的报表模块由谁来维护？"
+      }
+    },
+    {
+      "x": 735,
+      "y": 500,
+      "english": "board",
+      "chinese": "白板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 825,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 735,
+        "y": 500
+      },
+      "boundingBox": {
+        "left": 493,
+        "top": 211,
+        "right": 934,
+        "bottom": 806
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可定位完整白板本体；任务分工只由对白支持。",
+        "association": "可定位完整白板本体；任务分工只由对白支持。",
+        "collocation": "add to the board; project board",
+        "example": "I will. Let's add both names to the board.",
+        "exampleChinese": "我来维护。我们把这两个名字都加到白板上吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer confirms who owns and maintains each service with a teammate.",
+    "chinese": "开发者与同事确认各项服务由谁负责和维护。",
+    "source": "原创对话 · W006 确认团队分工",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

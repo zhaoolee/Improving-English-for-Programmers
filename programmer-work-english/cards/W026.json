@@ -1,0 +1,246 @@
+{
+  "id": "W026",
+  "category": "planning",
+  "category_title": "计划与进度",
+  "chapter": "计划与进度",
+  "title": "拆分过大的任务",
+  "keyword": "split",
+  "scene": "两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。",
+  "target_count": 4,
+  "primary_words": [
+    "split",
+    "smaller",
+    "independent",
+    "note"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "split",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "拆分",
+      "pos": "verb",
+      "ipa_us": "/splɪt/",
+      "ipa_uk": "/splɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could we split this task into smaller steps?",
+        "matched_form": "split",
+        "referent_region_verified": false,
+        "context": "任务拆分由对白说明，不把便签本身当成抽象拆分动作。",
+        "image_verified": null
+      },
+      "example_en": "Could we split this task into smaller steps?",
+      "example_zh": "我们能把这个任务拆成更小的步骤吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "split a task",
+        "split into steps"
+      ],
+      "example_en_highlighted": "Could we **split** this task into smaller steps?",
+      "annotation_mode": "context",
+      "annotation_note": "任务拆分由对白说明，不把便签本身当成抽象拆分动作。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "smaller",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "更小的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsmɔːlər/",
+      "ipa_uk": "/ˈsmɔːlə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could we split this task into smaller steps?",
+        "matched_form": "smaller",
+        "referent_region_verified": false,
+        "context": "smaller指工作量较小，不由便签物理尺寸推断。",
+        "image_verified": null
+      },
+      "example_en": "Could we split this task into smaller steps?",
+      "example_zh": "我们能把这个任务拆成更小的步骤吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "smaller steps",
+        "smaller tasks"
+      ],
+      "example_en_highlighted": "Could we split this task into **smaller** steps?",
+      "annotation_mode": "context",
+      "annotation_note": "smaller指工作量较小，不由便签物理尺寸推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "independent",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "独立的",
+      "pos": "adjective",
+      "ipa_us": "/ˌɪndɪˈpendənt/",
+      "ipa_uk": "/ˌɪndɪˈpendənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Are those steps independent enough to test separately?",
+        "matched_form": "independent",
+        "referent_region_verified": false,
+        "context": "可独立测试是工作依赖关系，由对白明确，不能仅从便签分离判定。",
+        "image_verified": null
+      },
+      "example_en": "Are those steps independent enough to test separately?",
+      "example_zh": "这些步骤是否足够独立，可以分别测试？",
+      "bbox_normalized": null,
+      "collocations": [
+        "independent steps",
+        "independent tasks"
+      ],
+      "example_en_highlighted": "Are those steps **independent** enough to test separately?",
+      "annotation_mode": "context",
+      "annotation_note": "可独立测试是工作依赖关系，由对白明确，不能仅从便签分离判定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "note",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "便签",
+      "pos": "noun",
+      "ipa_us": "/noʊt/",
+      "ipa_uk": "/nəʊt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "框选一张完整可见便签本体，不用空白便签证明具体步骤内容。",
+        "sentence": "Yes. I'll put each step on a separate note.",
+        "matched_form": "note",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Yes. I'll put each step on a separate note.",
+      "example_zh": "是的。我会把每个步骤写在单独的便签上。",
+      "bbox_normalized": [
+        0.741,
+        0.264,
+        0.833,
+        0.358
+      ],
+      "collocations": [
+        "a separate note",
+        "put on a note"
+      ],
+      "example_en_highlighted": "Yes. I'll put each step on a separate **note**.",
+      "annotation_mode": "object",
+      "annotation_note": "框选一张完整可见便签本体，不用空白便签证明具体步骤内容。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two teammates split a large task into smaller independent steps on separate notes.",
+    "zh": "两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two teammates split a large task into smaller independent steps on separate notes.",
+    "zh": "两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could we split this task into smaller steps?",
+      "zh": "我们能把这个任务拆成更小的步骤吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Start with the API, then build the form.",
+      "zh": "可以。先做 API，再开发表单。"
+    },
+    {
+      "speaker": "A",
+      "en": "Are those steps independent enough to test separately?",
+      "zh": "这些步骤是否足够独立，可以分别测试？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. I'll put each step on a separate note.",
+      "zh": "是的。我会把每个步骤写在单独的便签上。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "按可独立验证的步骤拆分任务。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure teammates stand at a whiteboard. On the RIGHT side of the whiteboard are THREE separate blank square sticky notes arranged horizontally, each with a small folded corner. One coworker gestures toward the notes without touching or hiding them, the other holds open palms. The entire rightmost sticky note is especially clear and unobstructed. No words, no arrows necessary, no extra props.",
+  "status": "approved",
+  "image_path": "images/W026.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W026 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W026.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T17:07:49.513Z",
+    "ended_at": "2026-10-05T17:09:17.649Z",
+    "prompt_path": "prompts/W026_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W026.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；框选一张完整可见便签本体，不用空白便签证明具体步骤内容。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。"
+  }
+}

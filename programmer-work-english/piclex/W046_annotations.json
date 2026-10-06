@@ -1,0 +1,130 @@
+{
+  "filename": "W046-结对编程时交换思路.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "approach",
+      "chinese": "思路",
+      "phoneticUS": "/əˈproʊtʃ/",
+      "phoneticUK": "/əˈprəʊtʃ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "实现思路是对白中的抽象方案，没有局部物体框。",
+        "association": "实现思路是对白中的抽象方案，没有局部物体框。",
+        "collocation": "a different approach; compare approaches",
+        "example": "A: Could we try a different approach to this loop?\nB: Sure. I'll be the navigator while you explain your idea.\nA: I'll take the keyboard as the driver and show a small example.\nB: Great. Then we'll compare the two approaches together.",
+        "exampleChinese": "A: 我们能为这个循环试试另一种思路吗？\nB: 当然。我来做指导者，你来解释你的想法。\nA: 我作为操作者接过键盘，演示一个小例子。\nB: 好。然后我们一起比较这两种思路。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "driver",
+      "chinese": "操作者",
+      "phoneticUS": "/ˈdraɪvər/",
+      "phoneticUK": "/ˈdraɪvə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "结对编程操作者身份由对白明确，不能仅由座位或手势鉴定。",
+        "association": "结对编程操作者身份由对白明确，不能仅由座位或手势鉴定。",
+        "collocation": "driver role; act as the driver",
+        "example": "I'll take the keyboard as the driver and show a small example.",
+        "exampleChinese": "我作为操作者接过键盘，演示一个小例子。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "navigator",
+      "chinese": "指导者",
+      "phoneticUS": "/ˈnævɪɡeɪtər/",
+      "phoneticUK": "/ˈnævɪɡeɪtə/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "结对编程指导者是对白约定身份，不把同事外观当角色证据。",
+        "association": "结对编程指导者是对白约定身份，不把同事外观当角色证据。",
+        "collocation": "navigator role; be the navigator",
+        "example": "Sure. I'll be the navigator while you explain your idea.",
+        "exampleChinese": "当然。我来做指导者，你来解释你的想法。"
+      }
+    },
+    {
+      "x": 486,
+      "y": 533,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 600,
+        "y": 845
+      },
+      "anchorPosition": {
+        "x": 486,
+        "y": 533
+      },
+      "boundingBox": {
+        "left": 359,
+        "top": 502,
+        "right": 613,
+        "bottom": 561
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的独立键盘实体可定位。",
+        "association": "完整可见的独立键盘实体可定位。",
+        "collocation": "take the keyboard; use the keyboard",
+        "example": "I'll take the keyboard as the driver and show a small example.",
+        "exampleChinese": "我作为操作者接过键盘，演示一个小例子。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A pair of developers compares approaches and switches driver and navigator roles.",
+    "chinese": "结对编程的两位开发者比较思路，并交换操作与指导角色。",
+    "source": "原创对话 · W046 结对编程时交换思路",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

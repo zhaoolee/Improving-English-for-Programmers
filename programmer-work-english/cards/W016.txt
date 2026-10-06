@@ -1,0 +1,120 @@
+W016  确认用户角色与权限
+========================================================================
+分类: 需求澄清（requirements）
+关键词: role
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W016.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W016.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W016.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T17:07:49.513Z → 2026-10-05T17:08:52.545Z
+  提示词文件: prompts/W016_image_final.txt
+
+场景: 开发者与产品经理确认默认用户角色及编辑控件的表现。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；完整可见的笔记本电脑本体可定位。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。
+
+沟通目标: 确认默认权限与无编辑权限时的界面。
+
+主配文（一句场景描述）:
+  英文: A developer checks the default user role and the editing controls with a product manager.
+  中文: 开发者与产品经理确认默认用户角色及编辑控件的表现。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Which role should a new user get by default?
+        新用户默认应该获得哪个角色？
+  [B] Viewer. A viewer can read reports but cannot edit them.
+        查看者。查看者可以阅读报表，但不能编辑。
+  [A] Should the edit button disappear on the laptop screen?
+        笔记本电脑屏幕上的编辑按钮应该隐藏吗？
+  [B] Keep it visible but disabled, with a short explanation.
+        保留显示，但设为不可用，并给出简短说明。
+
+目标词 (4): role, viewer, edit, laptop
+
+------------------------------------------------------------------------
+[1/4] role
+  词义: 角色
+  词性: noun
+  音标: UK /rəʊl/ | US /roʊl/
+  搭配: default role; assign a role
+  例句: Which role should a new user get by default?
+  例句高亮: Which **role** should a new user get by default?
+  例句中文: 新用户默认应该获得哪个角色？
+  标注模式: context
+  标注说明: 用户角色由对白定义，界面图标不能证明具体权限角色。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] viewer
+  词义: 查看者
+  词性: noun
+  音标: UK /ˈvjuːə/ | US /ˈvjuːər/
+  搭配: viewer role; a viewer can read
+  例句: Viewer. A viewer can read reports but cannot edit them.
+  例句高亮: **Viewer**. A viewer can read reports but cannot edit them.
+  例句中文: 查看者。查看者可以阅读报表，但不能编辑。
+  标注模式: context
+  标注说明: 软件查看者角色由对白约定，不把同事人物框为软件身份。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] edit
+  词义: 编辑
+  词性: verb
+  音标: UK /ˈedɪt/ | US /ˈedɪt/
+  搭配: edit a report; edit permission
+  例句: Viewer. A viewer can read reports but cannot edit them.
+  例句高亮: Viewer. A viewer can read reports but cannot **edit** them.
+  例句中文: 查看者。查看者可以阅读报表，但不能编辑。
+  标注模式: context
+  标注说明: 对白说明编辑权限，没有实际编辑动作区域。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: laptop screen; open a laptop
+  例句: Should the edit button disappear on the laptop screen?
+  例句高亮: Should the edit button disappear on the **laptop** screen?
+  例句中文: 笔记本电脑屏幕上的编辑按钮应该隐藏吗？
+  标注模式: object
+  标注说明: 完整可见的笔记本电脑本体可定位。
+  坐标(normalized): [0.327, 0.332, 0.694, 0.589]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W016 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=48 | meta.approved_cards=48
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers sit at a desk, one on LEFT and one on RIGHT. Between them is one large open laptop, angled front-facing, with the WHOLE laptop screen, hinge and keyboard clearly visible. Screen shows abstract report rectangles and a small outlined empty button, without any letters or numbers. One points near the screen without covering the laptop, the other listens. No other props.
+

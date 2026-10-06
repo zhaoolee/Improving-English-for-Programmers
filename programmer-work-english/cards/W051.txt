@@ -1,0 +1,120 @@
+W051  确认错误复现步骤
+========================================================================
+分类: 测试与问题排查（debugging）
+关键词: reproduce
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W051.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W051.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W051.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T08:26:25Z → 2026-10-04T08:28:11Z
+  提示词文件: prompts/W051_image_final.txt
+
+场景: 开发者与测试同事确认表单错误的复现步骤，并整理截图等证据。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：屏幕浏览器具有地址栏、标签页、表单和警告符号；桌上纸质截图展示同一界面副本。两名人物分别指屏幕和截图；实际手指局部遮住窗口/纸张，不影响整体指代。browser/screenshot可定位，reproduce/error由对白支持。
+
+沟通目标: 确认环境与操作步骤，请求可复查的错误证据。
+
+主配文（一句场景描述）:
+  英文: A developer and a tester confirm how to reproduce a form error and document the evidence.
+  中文: 开发者与测试同事确认表单错误的复现步骤，并整理截图等证据。
+
+角色与对白:
+  A = Developer 开发者
+  B = Tester 测试同事
+  [A] Can you reproduce this error in your browser?
+        你能在你的浏览器里复现这个错误吗？
+  [B] Yes. It happens after I submit the form with an empty email field.
+        能。在邮箱字段为空时提交表单，就会出现。
+  [A] Could you attach a screenshot and list the steps?
+        你能附上一张截图，并列出操作步骤吗？
+  [B] Sure. I'll include the expected and actual results too.
+        可以。我也会写上预期结果和实际结果。
+
+目标词 (4): reproduce, error, browser, screenshot
+
+------------------------------------------------------------------------
+[1/4] reproduce
+  词义: 复现
+  词性: verb
+  音标: UK /ˌriːprəˈdjuːs/ | US /ˌriːprəˈduːs/
+  搭配: reproduce an error; steps to reproduce
+  例句: Can you reproduce this error in your browser?
+  例句高亮: Can you **reproduce** this error in your browser?
+  例句中文: 你能在你的浏览器里复现这个错误吗？
+  标注模式: context
+  标注说明: 对话明确复现条件；单张静态图不能证明重复运行得到相同结果，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] error
+  词义: 错误
+  词性: noun
+  音标: UK /ˈerə/ | US /ˈerər/
+  搭配: reproduce an error; an error message
+  例句: Can you reproduce this error in your browser?
+  例句高亮: Can you reproduce this **error** in your browser?
+  例句中文: 你能在你的浏览器里复现这个错误吗？
+  标注模式: context
+  标注说明: 具体表单错误与复现条件由对话说明；不把警告符号当作具体错误本身，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] browser
+  词义: 浏览器
+  词性: noun
+  音标: UK /ˈbraʊzə/ | US /ˈbraʊzər/
+  搭配: in your browser; a browser window
+  例句: Can you reproduce this error in your browser?
+  例句高亮: Can you reproduce this error in your **browser**?
+  例句中文: 你能在你的浏览器里复现这个错误吗？
+  标注模式: object
+  标注说明: 屏幕上有标签页与地址栏的浏览器窗口为实际局部指代对象；不识别具体品牌。
+  坐标(normalized): [0.336, 0.24, 0.64, 0.426]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] screenshot
+  词义: 截图
+  词性: noun
+  音标: UK /ˈskriːnʃɒt/ | US /ˈskriːnʃɑːt/
+  搭配: attach a screenshot; take a screenshot
+  例句: Could you attach a screenshot and list the steps?
+  例句高亮: Could you attach a **screenshot** and list the steps?
+  例句中文: 你能附上一张截图，并列出操作步骤吗？
+  标注模式: object
+  标注说明: 桌上的纸张呈现同一浏览器界面的截图副本，由明确场景设定与对白支持；框选完整纸张。
+  坐标(normalized): [0.59, 0.487, 0.775, 0.59]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 2
+  context_annotations: 2
+  scope: W051 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers debugging at a desk. A central desktop monitor clearly displays ONE browser window with a recognizable top tab and address bar, a simple form, and a small warning triangle. Beside the monitor, on the lower-right part of the desk, place one fully visible printed screenshot sheet, showing a miniature copy of the same browser window and warning triangle. One coworker points toward the monitor and the other toward the printed sheet. Make browser window and screenshot sheet separately recognizable and unobstructed. No readable text, no code, no extra sheets.
+

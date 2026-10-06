@@ -1,0 +1,130 @@
+{
+  "filename": "W065-说明用户受到的影响.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "impact",
+      "chinese": "影响",
+      "phoneticUS": "/ˈɪmpækt/",
+      "phoneticUK": "/ˈɪmpækt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "用户影响由对白说明，单个警告图标不能量化范围。",
+        "association": "用户影响由对白说明，单个警告图标不能量化范围。",
+        "collocation": "user impact; impact of an incident",
+        "example": "A: What is the user impact of this incident?\nB: Some users cannot complete checkout on their phone.\nA: How many users are affected, and is there a workaround?\nB: About ten percent. They can use the website while we investigate.",
+        "exampleChinese": "A: 这次事故对用户有什么影响？\nB: 部分用户无法在手机上完成结账。\nA: 有多少用户受影响？有没有临时替代办法？\nB: 大约百分之十。我们调查期间，他们可以使用网站。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "affected",
+      "chinese": "受影响的",
+      "phoneticUS": "/əˈfektɪd/",
+      "phoneticUK": "/əˈfektɪd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "受影响人群由调查与对白定义，不用人物外貌认定用户群。",
+        "association": "受影响人群由调查与对白定义，不用人物外貌认定用户群。",
+        "collocation": "affected users; users are affected",
+        "example": "How many users are affected, and is there a workaround?",
+        "exampleChinese": "有多少用户受影响？有没有临时替代办法？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "workaround",
+      "chinese": "临时替代办法",
+      "phoneticUS": "/ˈwɜːrkəraʊnd/",
+      "phoneticUK": "/ˈwɜːkəraʊnd/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "替代路径是使用网站，由对白明确，手机图标本身不能证明替代方案可用。",
+        "association": "替代路径是使用网站，由对白明确，手机图标本身不能证明替代方案可用。",
+        "collocation": "a workaround; offer a workaround",
+        "example": "How many users are affected, and is there a workaround?",
+        "exampleChinese": "有多少用户受影响？有没有临时替代办法？"
+      }
+    },
+    {
+      "x": 842,
+      "y": 320,
+      "english": "phone",
+      "chinese": "手机",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 865,
+        "y": 525
+      },
+      "anchorPosition": {
+        "x": 842,
+        "y": 320
+      },
+      "boundingBox": {
+        "left": 787,
+        "top": 233,
+        "right": 921,
+        "bottom": 425
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧人物持有的完整实体手机可定位；用户故障由对白说明。",
+        "association": "右侧人物持有的完整实体手机可定位；用户故障由对白说明。",
+        "collocation": "on their phone; use a phone",
+        "example": "Some users cannot complete checkout on their phone.",
+        "exampleChinese": "部分用户无法在手机上完成结账。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two teammates discuss how a checkout incident affects users and the available workaround.",
+    "chinese": "两位同事讨论结账故障的用户影响、受影响比例及临时替代方案。",
+    "source": "原创对话 · W065 说明用户受到的影响",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

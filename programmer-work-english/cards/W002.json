@@ -1,0 +1,256 @@
+{
+  "id": "W002",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "介绍自己的开发经验",
+  "keyword": "experience",
+  "scene": "开发者向同事介绍自己的后端开发经验，并准备在笔记本电脑上展示一个项目。",
+  "target_count": 4,
+  "primary_words": [
+    "experience",
+    "backend",
+    "project",
+    "laptop"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "experience",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "经验",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ɪkˈspɪriəns/",
+      "ipa_uk": "/ɪkˈspɪəriəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Most of my experience is in backend development.",
+        "matched_form": "experience",
+        "referent_region_verified": false,
+        "context": "工作经验由A的对白说明，不能从人物外貌或电脑推断，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Most of my experience is in backend development.",
+      "example_zh": "我的大部分经验都在后端开发方面。",
+      "bbox_normalized": null,
+      "collocations": [
+        "experience in backend development",
+        "work experience"
+      ],
+      "example_en_highlighted": "Most of my **experience** is in backend development.",
+      "annotation_mode": "context",
+      "annotation_note": "工作经验由A的对白说明，不能从人物外貌或电脑推断，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "backend",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "后端",
+      "pos": "noun",
+      "ipa_us": "/ˈbækˌend/",
+      "ipa_uk": "/ˈbækˌend/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Most of my experience is in backend development.",
+        "matched_form": "backend",
+        "referent_region_verified": false,
+        "context": "软件后端属于系统职责，不把屏幕里的任意图形当作后端实体。",
+        "image_verified": null
+      },
+      "example_en": "Most of my experience is in backend development.",
+      "example_zh": "我的大部分经验都在后端开发方面。",
+      "bbox_normalized": null,
+      "collocations": [
+        "backend development",
+        "a backend service"
+      ],
+      "example_en_highlighted": "Most of my experience is in **backend** development.",
+      "annotation_mode": "context",
+      "annotation_note": "软件后端属于系统职责，不把屏幕里的任意图形当作后端实体。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "project",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "项目",
+      "pos": "noun",
+      "ipa_us": "/ˈprɑːdʒekt/",
+      "ipa_uk": "/ˈprɒdʒekt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I can show you the project on my laptop.",
+        "matched_form": "project",
+        "referent_region_verified": false,
+        "context": "项目由对白明确说明；抽象屏幕图形不足以框出整个软件项目。",
+        "image_verified": null
+      },
+      "example_en": "I can show you the project on my laptop.",
+      "example_zh": "我可以在笔记本电脑上给你展示这个项目。",
+      "bbox_normalized": null,
+      "collocations": [
+        "work on a project",
+        "show a project"
+      ],
+      "example_en_highlighted": "I can show you the **project** on my laptop.",
+      "annotation_mode": "context",
+      "annotation_note": "项目由对白明确说明；抽象屏幕图形不足以框出整个软件项目。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上打开的笔记本电脑是明确的局部指代对象，按实际完整机身定位。",
+        "sentence": "I can show you the project on my laptop.",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I can show you the project on my laptop.",
+      "example_zh": "我可以在笔记本电脑上给你展示这个项目。",
+      "bbox_normalized": [
+        0.395,
+        0.405,
+        0.617,
+        0.56
+      ],
+      "collocations": [
+        "on my laptop",
+        "an open laptop"
+      ],
+      "example_en_highlighted": "I can show you the project on my **laptop**.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上打开的笔记本电脑是明确的局部指代对象，按实际完整机身定位。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer describes their backend experience and offers to show a project on a laptop.",
+    "zh": "开发者向同事介绍自己的后端开发经验，并准备在笔记本电脑上展示一个项目。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer describes their backend experience and offers to show a project on a laptop.",
+    "zh": "开发者向同事介绍自己的后端开发经验，并准备在笔记本电脑上展示一个项目。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Most of my experience is in backend development.",
+      "zh": "我的大部分经验都在后端开发方面。"
+    },
+    {
+      "speaker": "B",
+      "en": "What kind of project have you worked on?",
+      "zh": "你做过哪类项目？"
+    },
+    {
+      "speaker": "A",
+      "en": "I built an order service. I can show you the project on my laptop.",
+      "zh": "我开发过一个订单服务。我可以在笔记本电脑上给你展示这个项目。"
+    },
+    {
+      "speaker": "B",
+      "en": "Great. Let's look at the design together.",
+      "zh": "太好了。我们一起看看它的设计。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明相关工作经验，并用一个项目展示自己的技能。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers sit side by side at a small desk. The developer on the left gestures confidently toward an open laptop at the center while the teammate on the right listens. The laptop is fully visible, with screen and keyboard, and its screen contains only a few abstract architecture blocks connected by lines. One coffee mug away from the laptop is fine. The scene is a calm introduction of prior work; do not write a resume or text.",
+  "status": "approved",
+  "image_path": "images/inverted/W002.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W002 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W002.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T13:27:56Z",
+    "ended_at": "2026-10-04T13:31:45Z",
+    "prompt_path": "prompts/W002_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W002.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W002.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "5850f6f03dd7a5d5dc0cb7d27339ab85aae2462c493da93d9ce0f5138441ab4a",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W002.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名成年火柴人围坐桌边讨论开发经历，打开的笔记本电脑完整可见，屏幕为无字架构符号。experience/backend/project由对白提供语境证据，不从简图推断个人资历或技术栈。"
+  }
+}

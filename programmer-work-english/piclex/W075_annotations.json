@@ -1,0 +1,130 @@
+{
+  "filename": "W075-说明当前工作量.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "workload",
+      "chinese": "工作量",
+      "phoneticUS": "/ˈwɜːrkloʊd/",
+      "phoneticUK": "/ˈwɜːkləʊd/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "工作量由对白说明，笔记本页数不能量化负荷。",
+        "association": "工作量由对白说明，笔记本页数不能量化负荷。",
+        "collocation": "manage a workload; a heavy workload",
+        "example": "A: My workload is higher than I can manage this week.\nB: How much capacity do you have for the new task?\nA: Very little. I listed the deadlines in this notebook. Could we delegate one item?\nB: Yes. Let us review the priorities and move one task to another teammate.",
+        "exampleChinese": "A: 这周的工作量超过了我能处理的程度。\nB: 你还有多少精力可以处理新任务？\nA: 很少。我把截止日期列在这个笔记本里了。我们能把其中一项交给别人吗？\nB: 可以。我们看看优先级，把一项任务交给另一位同事。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "capacity",
+      "chinese": "可用精力",
+      "phoneticUS": "/kəˈpæsəti/",
+      "phoneticUK": "/kəˈpæsəti/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处capacity是承担工作的余力，由对白说明，不是容器体积。",
+        "association": "此处capacity是承担工作的余力，由对白说明，不是容器体积。",
+        "collocation": "available capacity; capacity for a task",
+        "example": "How much capacity do you have for the new task?",
+        "exampleChinese": "你还有多少精力可以处理新任务？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "delegate",
+      "chinese": "委派",
+      "phoneticUS": "/ˈdelɪɡeɪt/",
+      "phoneticUK": "/ˈdelɪɡeɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务委派是协商建议，人物手势不能证明已经转交。",
+        "association": "任务委派是协商建议，人物手势不能证明已经转交。",
+        "collocation": "delegate an item; delegate a task",
+        "example": "Very little. I listed the deadlines in this notebook. Could we delegate one item?",
+        "exampleChinese": "很少。我把截止日期列在这个笔记本里了。我们能把其中一项交给别人吗？"
+      }
+    },
+    {
+      "x": 639,
+      "y": 533,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 810
+      },
+      "anchorPosition": {
+        "x": 639,
+        "y": 533
+      },
+      "boundingBox": {
+        "left": 485,
+        "top": 479,
+        "right": 842,
+        "bottom": 593
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面展开的纸质笔记本可定位，不与电脑混淆。",
+        "association": "桌面展开的纸质笔记本可定位，不与电脑混淆。",
+        "collocation": "in this notebook; write in a notebook",
+        "example": "Very little. I listed the deadlines in this notebook. Could we delegate one item?",
+        "exampleChinese": "很少。我把截止日期列在这个笔记本里了。我们能把其中一项交给别人吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer explains a heavy workload and asks a lead to delegate one task.",
+    "chinese": "开发者说明本周工作量过大，请负责人重新分配一项任务。",
+    "source": "原创对话 · W075 说明当前工作量",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

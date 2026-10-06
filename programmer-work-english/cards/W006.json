@@ -1,0 +1,246 @@
+{
+  "id": "W006",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "确认团队分工",
+  "keyword": "ownership",
+  "scene": "开发者与同事确认各项服务由谁负责和维护。",
+  "target_count": 4,
+  "primary_words": [
+    "ownership",
+    "responsibility",
+    "maintain",
+    "board"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "ownership",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "负责归属",
+      "pos": "noun",
+      "ipa_us": "/ˈoʊnərʃɪp/",
+      "ipa_uk": "/ˈəʊnəʃɪp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Who has ownership of the billing service?",
+        "matched_form": "ownership",
+        "referent_region_verified": false,
+        "context": "对白明确服务责任归属，白板和人物外观无法证明谁负责。",
+        "image_verified": null
+      },
+      "example_en": "Who has ownership of the billing service?",
+      "example_zh": "账单服务由谁负责？",
+      "bbox_normalized": null,
+      "collocations": [
+        "ownership of a service",
+        "take ownership"
+      ],
+      "example_en_highlighted": "Who has **ownership** of the billing service?",
+      "annotation_mode": "context",
+      "annotation_note": "对白明确服务责任归属，白板和人物外观无法证明谁负责。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "responsibility",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "职责",
+      "pos": "noun",
+      "ipa_us": "/rɪˌspɑːnsəˈbɪləti/",
+      "ipa_uk": "/rɪˌspɒnsəˈbɪləti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Maya does. Her main responsibility is keeping it reliable.",
+        "matched_form": "responsibility",
+        "referent_region_verified": false,
+        "context": "职责是对白约定的工作分工，没有可定位局部。",
+        "image_verified": null
+      },
+      "example_en": "Maya does. Her main responsibility is keeping it reliable.",
+      "example_zh": "由 Maya 负责。她的主要职责是保证它稳定运行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "main responsibility",
+        "share responsibility"
+      ],
+      "example_en_highlighted": "Maya does. Her main **responsibility** is keeping it reliable.",
+      "annotation_mode": "context",
+      "annotation_note": "职责是对白约定的工作分工，没有可定位局部。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "maintain",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "维护",
+      "pos": "verb",
+      "ipa_us": "/meɪnˈteɪn/",
+      "ipa_uk": "/meɪnˈteɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "And who will maintain the new reporting module?",
+        "matched_form": "maintain",
+        "referent_region_verified": false,
+        "context": "维护工作由对白说明，静态指向白板不能证明正在维护。",
+        "image_verified": null
+      },
+      "example_en": "And who will maintain the new reporting module?",
+      "example_zh": "那新的报表模块由谁来维护？",
+      "bbox_normalized": null,
+      "collocations": [
+        "maintain a module",
+        "maintain a service"
+      ],
+      "example_en_highlighted": "And who will **maintain** the new reporting module?",
+      "annotation_mode": "context",
+      "annotation_note": "维护工作由对白说明，静态指向白板不能证明正在维护。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "board",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/bɔːrd/",
+      "ipa_uk": "/bɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可定位完整白板本体；任务分工只由对白支持。",
+        "sentence": "I will. Let's add both names to the board.",
+        "matched_form": "board",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I will. Let's add both names to the board.",
+      "example_zh": "我来维护。我们把这两个名字都加到白板上吧。",
+      "bbox_normalized": [
+        0.493,
+        0.211,
+        0.934,
+        0.806
+      ],
+      "collocations": [
+        "add to the board",
+        "project board"
+      ],
+      "example_en_highlighted": "I will. Let's add both names to the **board**.",
+      "annotation_mode": "object",
+      "annotation_note": "可定位完整白板本体；任务分工只由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer confirms who owns and maintains each service with a teammate.",
+    "zh": "开发者与同事确认各项服务由谁负责和维护。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer confirms who owns and maintains each service with a teammate.",
+    "zh": "开发者与同事确认各项服务由谁负责和维护。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Who has ownership of the billing service?",
+      "zh": "账单服务由谁负责？"
+    },
+    {
+      "speaker": "B",
+      "en": "Maya does. Her main responsibility is keeping it reliable.",
+      "zh": "由 Maya 负责。她的主要职责是保证它稳定运行。"
+    },
+    {
+      "speaker": "A",
+      "en": "And who will maintain the new reporting module?",
+      "zh": "那新的报表模块由谁来维护？"
+    },
+    {
+      "speaker": "B",
+      "en": "I will. Let's add both names to the board.",
+      "zh": "我来维护。我们把这两个名字都加到白板上吧。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "确认服务责任归属与维护分工。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers stand to the LEFT and center of a freestanding rectangular whiteboard on the RIGHT. One points toward two empty rounded rectangular cards on the board; the other listens with open palm. The ENTIRE board is clearly visible, including its frame and stand, with no writing. No other props.",
+  "status": "approved",
+  "image_path": "images/W006.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W006 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W006.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T17:07:49.513Z",
+    "ended_at": "2026-10-05T17:08:16.438Z",
+    "prompt_path": "prompts/W006_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W006.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；可定位完整白板本体；任务分工只由对白支持。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。"
+  }
+}

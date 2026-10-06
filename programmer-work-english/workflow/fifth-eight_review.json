@@ -1,0 +1,506 @@
+{
+  "ready": true,
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "reviewer": "Codex final-image visual review",
+  "coordinateSystem": "0..1000 image coordinates; cards normalized by preparation script",
+  "semanticReview": "4话轮原创英文/中文独立；英文无中文；逐词语义定位以实际最终图和明确对白为依据。",
+  "reviewCompletedAt": "2026-10-05T16:26:48.299760+00:00",
+  "cards": {
+    "W005": {
+      "sourcePath": "images/W005.png",
+      "generationStartedAt": "2026-10-05T16:12:32.642Z",
+      "generationEndedAt": "2026-10-05T16:13:09.622Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；白板上的完整框箭头图可以定位；流程含义由对白设定。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "background": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "purpose": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "overview": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            840,
+            565
+          ],
+          "box": [
+            556,
+            315,
+            926,
+            435
+          ],
+          "anchor": [
+            770,
+            365
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            80,
+            264,
+            214,
+            395
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            357,
+            267,
+            480,
+            398
+          ]
+        }
+      ]
+    },
+    "W015": {
+      "sourcePath": "images/W015.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:13:38.453Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；屏幕上独立清晰的对勾符号可框选；成功反馈由对白定义。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "criteria": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "acceptance": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "confirmation": {
+          "bubble": [
+            780.2905699730925,
+            91.83608677621143
+          ]
+        },
+        "checkmark": {
+          "bubble": [
+            860,
+            200
+          ],
+          "box": [
+            750,
+            327,
+            845,
+            416
+          ],
+          "anchor": [
+            787,
+            359
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            170,
+            287,
+            314,
+            427
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            386,
+            181,
+            533,
+            325
+          ]
+        }
+      ]
+    },
+    "W025": {
+      "sourcePath": "images/W025.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:14:05.870Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；有装订与日期格的完整桌面日历可定位。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "extension": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "deadline": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "scope": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "calendar": {
+          "bubble": [
+            850,
+            320
+          ],
+          "box": [
+            718,
+            391,
+            945,
+            578
+          ],
+          "anchor": [
+            820,
+            472
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            154,
+            211,
+            302,
+            350
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            461,
+            260,
+            608,
+            398
+          ]
+        }
+      ]
+    },
+    "W035": {
+      "sourcePath": "images/W035.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:15:08.999Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；右侧人物手持的第二部实体手机可以定位，屏幕数据含义由对白说明。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "consistency": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "immediately": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "stale": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "phone": {
+          "bubble": [
+            630,
+            220
+          ],
+          "box": [
+            594,
+            290,
+            695,
+            441
+          ],
+          "anchor": [
+            632,
+            355
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            198,
+            221,
+            353,
+            376
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            710,
+            230,
+            861,
+            377
+          ]
+        }
+      ]
+    },
+    "W045": {
+      "sourcePath": "images/W045.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:14:38.647Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面前侧完整独立键盘可定位。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "naming": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "descriptive": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "rename": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "keyboard": {
+          "bubble": [
+            660,
+            810
+          ],
+          "box": [
+            409,
+            485,
+            682,
+            568
+          ],
+          "anchor": [
+            532,
+            516
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            160,
+            254,
+            300,
+            392
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            691,
+            251,
+            829,
+            392
+          ]
+        }
+      ]
+    },
+    "W055": {
+      "sourcePath": "images/W055.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:16:52.116Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面完整头戴式耳机的头梁与两个耳罩可定位。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "intermittent": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "pattern": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "timing": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "headphones": {
+          "bubble": [
+            855,
+            700
+          ],
+          "box": [
+            685,
+            478,
+            893,
+            645
+          ],
+          "anchor": [
+            784,
+            557
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            273,
+            177,
+            420,
+            320
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            602,
+            184,
+            749,
+            324
+          ]
+        }
+      ]
+    },
+    "W065": {
+      "sourcePath": "images/W065.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:16:20.441Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；右侧人物持有的完整实体手机可定位；用户故障由对白说明。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "impact": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "affected": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "workaround": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "phone": {
+          "bubble": [
+            865,
+            525
+          ],
+          "box": [
+            787,
+            233,
+            921,
+            425
+          ],
+          "anchor": [
+            842,
+            320
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            202,
+            208,
+            348,
+            355
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            582,
+            204,
+            727,
+            353
+          ]
+        }
+      ]
+    },
+    "W075": {
+      "sourcePath": "images/W075.png",
+      "generationStartedAt": "2026-10-05T16:12:32.645Z",
+      "generationEndedAt": "2026-10-05T16:15:38.418Z",
+      "imageReview": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面展开的纸质笔记本可定位，不与电脑混淆。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。",
+      "geometry": {
+        "workload": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "capacity": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "delegate": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            650,
+            810
+          ],
+          "box": [
+            485,
+            479,
+            842,
+            593
+          ],
+          "anchor": [
+            639,
+            533
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "face-1",
+          "bounds": [
+            243,
+            215,
+            384,
+            354
+          ]
+        },
+        {
+          "id": "face-2",
+          "bounds": [
+            637,
+            202,
+            780,
+            344
+          ]
+        }
+      ]
+    }
+  }
+}

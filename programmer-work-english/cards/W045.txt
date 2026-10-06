@@ -1,0 +1,120 @@
+W045  讨论变量命名
+========================================================================
+分类: 开发与代码评审（development）
+关键词: naming
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W045.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W045.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W045.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T16:12:32.645Z → 2026-10-05T16:14:38.647Z
+  提示词文件: prompts/W045_image_final.txt
+
+场景: 两位开发者在代码评审中讨论更清楚的变量命名。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面前侧完整独立键盘可定位。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。
+
+沟通目标: 说明命名问题、提出修改并保持一致性。
+
+主配文（一句场景描述）:
+  英文: Two developers improve a variable name during a code review.
+  中文: 两位开发者在代码评审中讨论更清楚的变量命名。
+
+角色与对白:
+  A = Developer 开发者
+  B = Reviewer 评审同事
+  [A] Could we improve the naming of this variable?
+        我们能改进这个变量的命名吗？
+  [B] Yes. A descriptive name should explain what the value represents.
+        可以。清楚描述含义的名称应当说明这个值代表什么。
+  [A] I will rename it to match its purpose. Could you take the keyboard and show me your suggestion?
+        我会改成符合用途的名称。你能接过键盘演示一下你的建议吗？
+  [B] Sure. Let us keep the naming consistent across the module.
+        当然。我们让整个模块的命名保持一致吧。
+
+目标词 (4): naming, descriptive, rename, keyboard
+
+------------------------------------------------------------------------
+[1/4] naming
+  词义: 命名
+  词性: noun
+  音标: UK /ˈneɪmɪŋ/ | US /ˈneɪmɪŋ/
+  搭配: variable naming; consistent naming
+  例句: Could we improve the naming of this variable?
+  例句高亮: Could we improve the **naming** of this variable?
+  例句中文: 我们能改进这个变量的命名吗？
+  标注模式: context
+  标注说明: 代码命名由对白讨论，无文字屏幕不能体现真实命名。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] descriptive
+  词义: 描述清楚的
+  词性: adjective
+  音标: UK /dɪˈskrɪptɪv/ | US /dɪˈskrɪptɪv/
+  搭配: a descriptive name; descriptive variable names
+  例句: Yes. A descriptive name should explain what the value represents.
+  例句高亮: Yes. A **descriptive** name should explain what the value represents.
+  例句中文: 可以。清楚描述含义的名称应当说明这个值代表什么。
+  标注模式: context
+  标注说明: 名字是否准确描述含义需要代码语境，静态抽象屏幕不能证明。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] rename
+  词义: 重命名
+  词性: verb
+  音标: UK /ˌriːˈneɪm/ | US /ˌriːˈneɪm/
+  搭配: rename a variable; rename it
+  例句: I will rename it to match its purpose. Could you take the keyboard and show me your suggestion?
+  例句高亮: I will **rename** it to match its purpose. Could you take the keyboard and show me your suggestion?
+  例句中文: 我会改成符合用途的名称。你能接过键盘演示一下你的建议吗？
+  标注模式: context
+  标注说明: 重命名是计划操作，伸手不能证明代码已经更名。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] keyboard
+  词义: 键盘
+  词性: noun
+  音标: UK /ˈkiːbɔːd/ | US /ˈkiːbɔːrd/
+  搭配: take the keyboard; type on a keyboard
+  例句: I will rename it to match its purpose. Could you take the keyboard and show me your suggestion?
+  例句高亮: I will rename it to match its purpose. Could you take the **keyboard** and show me your suggestion?
+  例句中文: 我会改成符合用途的名称。你能接过键盘演示一下你的建议吗？
+  标注模式: object
+  标注说明: 桌面前侧完整独立键盘可定位。
+  坐标(normalized): [0.409, 0.485, 0.682, 0.568]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W045 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure developers doing pair code review at a desk with one monitor. A large separate PHYSICAL KEYBOARD with an orderly grid of small unlettered key shapes lies clearly visible at the desk front-right, no hands over it. Left developer listens; right reviewer reaches toward keyboard but hand stays beside it. Screen contains abstract rows without code or letters. Entire keyboard unobstructed.
+

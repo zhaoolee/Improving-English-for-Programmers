@@ -1,0 +1,256 @@
+{
+  "id": "W013",
+  "category": "requirements",
+  "category_title": "需求澄清",
+  "chapter": "需求澄清",
+  "title": "区分必须与可选功能",
+  "keyword": "required",
+  "scene": "开发者与产品经理区分必须实现的功能和可选设置，并确认复选框的行为。",
+  "target_count": 4,
+  "primary_words": [
+    "required",
+    "optional",
+    "feature",
+    "checkbox"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "required",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "必需的",
+      "pos": "adjective",
+      "ipa_us": "/rɪˈkwaɪərd/",
+      "ipa_uk": "/rɪˈkwaɪəd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Is this feature required for the first version?",
+        "matched_form": "required",
+        "referent_region_verified": false,
+        "context": "是否必需是产品范围决策，由对白确认；不从界面外观推断，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Is this feature required for the first version?",
+      "example_zh": "首个版本必须包含这个功能吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a required feature",
+        "required for the first version"
+      ],
+      "example_en_highlighted": "Is this feature **required** for the first version?",
+      "annotation_mode": "context",
+      "annotation_note": "是否必需是产品范围决策，由对白确认；不从界面外观推断，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "optional",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "可选的",
+      "pos": "adjective",
+      "ipa_us": "/ˈɑːpʃənəl/",
+      "ipa_uk": "/ˈɒpʃənəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The email alert is required, but the sound is optional.",
+        "matched_form": "optional",
+        "referent_region_verified": false,
+        "context": "可选属性与默认关闭由对白说明，不把复选框本身等同于optional。",
+        "image_verified": null
+      },
+      "example_en": "The email alert is required, but the sound is optional.",
+      "example_zh": "邮件提醒是必需的，但声音是可选的。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an optional setting",
+        "the sound is optional"
+      ],
+      "example_en_highlighted": "The email alert is required, but the sound is **optional**.",
+      "annotation_mode": "context",
+      "annotation_note": "可选属性与默认关闭由对白说明，不把复选框本身等同于optional。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "feature",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "功能",
+      "pos": "noun",
+      "ipa_us": "/ˈfiːtʃər/",
+      "ipa_uk": "/ˈfiːtʃə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Is this feature required for the first version?",
+        "matched_form": "feature",
+        "referent_region_verified": false,
+        "context": "功能指邮件提醒这一产品能力，由对白说明；静态抽象设置界面不足以框出整个功能。",
+        "image_verified": null
+      },
+      "example_en": "Is this feature required for the first version?",
+      "example_zh": "首个版本必须包含这个功能吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a required feature",
+        "the first version of a feature"
+      ],
+      "example_en_highlighted": "Is this **feature** required for the first version?",
+      "annotation_mode": "context",
+      "annotation_note": "功能指邮件提醒这一产品能力，由对白说明；静态抽象设置界面不足以框出整个功能。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "checkbox",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "复选框",
+      "pos": "noun",
+      "ipa_us": "/ˈtʃekbɑːks/",
+      "ipa_uk": "/ˈtʃekbɒks/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示屏上独立的空方形复选框可局部定位；声音功能和默认行为由对白支持。",
+        "sentence": "So we'll use a checkbox to let users turn the sound on or off?",
+        "matched_form": "checkbox",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "So we'll use a checkbox to let users turn the sound on or off?",
+      "example_zh": "那么我们用复选框让用户打开或关闭声音，对吗？",
+      "bbox_normalized": [
+        0.46,
+        0.45,
+        0.515,
+        0.506
+      ],
+      "collocations": [
+        "use a checkbox",
+        "select a checkbox"
+      ],
+      "example_en_highlighted": "So we'll use a **checkbox** to let users turn the sound on or off?",
+      "annotation_mode": "object",
+      "annotation_note": "显示屏上独立的空方形复选框可局部定位；声音功能和默认行为由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer and a product manager separate required features from optional settings.",
+    "zh": "开发者与产品经理区分必须实现的功能和可选设置，并确认复选框的行为。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer and a product manager separate required features from optional settings.",
+    "zh": "开发者与产品经理区分必须实现的功能和可选设置，并确认复选框的行为。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Product manager 产品经理"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Is this feature required for the first version?",
+      "zh": "首个版本必须包含这个功能吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. The email alert is required, but the sound is optional.",
+      "zh": "是的。邮件提醒是必需的，但声音是可选的。"
+    },
+    {
+      "speaker": "A",
+      "en": "So we'll use a checkbox to let users turn the sound on or off?",
+      "zh": "那么我们用复选框让用户打开或关闭声音，对吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Exactly. Keep sound off by default.",
+      "zh": "没错。声音默认关闭。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "区分首版必需功能、可选项和默认行为。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers stand beside a desktop monitor discussing a simple settings form. One points to a single large empty square checkbox on the lower middle of the screen, the other nods with an open hand. The monitor shows only two short blank horizontal setting rows and ONE clearly recognizable large empty checkbox, with plenty of space around it. The checkbox must be fully visible, unobstructed and well separated from the bezel and any other UI marks. No letters, no icons of email words, no readable text.",
+  "status": "approved",
+  "image_path": "images/inverted/W013.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W013 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W013.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T14:09:01Z",
+    "ended_at": "2026-10-04T14:13:24Z",
+    "prompt_path": "prompts/W013_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W013.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W013.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "867ec6c85a59704e8e9576ffec5c0b021c86909da8398296bbfa4a381eb7d5e6",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W013.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名同事讨论设置界面，屏幕下部仅有一个大而独立的空方形复选框，边缘完整可辨。必需、可选及声音默认行为由对白说明；仅框真实复选框，不框整个显示器代替小对象。"
+  }
+}

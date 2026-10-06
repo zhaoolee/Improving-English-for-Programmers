@@ -1,0 +1,130 @@
+{
+  "filename": "W073-分享一次技术学习.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "lesson",
+      "chinese": "经验教训",
+      "phoneticUS": "/ˈlesən/",
+      "phoneticUK": "/ˈlesən/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处lesson指从经历中学到的经验，不是课堂课时；具体收获由对白说明，不设框。",
+        "association": "此处lesson指从经历中学到的经验，不是课堂课时；具体收获由对白说明，不设框。",
+        "collocation": "share a lesson; a lesson from debugging",
+        "example": "A: I'd like to share a lesson from yesterday's debugging session.\nB: What approach helped you find the problem?\nA: I tested one assumption at a time and wrote the results in this notebook.\nB: That's useful. Could you show the team a short example?",
+        "exampleChinese": "A: 我想分享昨天排查问题时学到的一点经验。\nB: 什么方法帮助你找到了问题？\nA: 我每次验证一个假设，并把结果写在这本笔记本里。\nB: 这很有用。你能给团队演示一个简短的例子吗？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "share",
+      "chinese": "分享",
+      "phoneticUS": "/ʃer/",
+      "phoneticUK": "/ʃeə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "分享技术经验是沟通意图，由对白明确表达，打开笔记本不证明已分享内容，不设动作框。",
+        "association": "分享技术经验是沟通意图，由对白明确表达，打开笔记本不证明已分享内容，不设动作框。",
+        "collocation": "share a lesson; share an example with the team",
+        "example": "I'd like to share a lesson from yesterday's debugging session.",
+        "exampleChinese": "我想分享昨天排查问题时学到的一点经验。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "approach",
+      "chinese": "方法",
+      "phoneticUS": "/əˈproʊtʃ/",
+      "phoneticUK": "/əˈprəʊtʃ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处approach指逐项验证假设的方法，由对白解释，不能用某个静态笔记本区域定位方法。",
+        "association": "此处approach指逐项验证假设的方法，由对白解释，不能用某个静态笔记本区域定位方法。",
+        "collocation": "a debugging approach; test an approach",
+        "example": "What approach helped you find the problem?",
+        "exampleChinese": "什么方法帮助你找到了问题？"
+      }
+    },
+    {
+      "x": 498,
+      "y": 548,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 880
+      },
+      "anchorPosition": {
+        "x": 498,
+        "y": 548
+      },
+      "boundingBox": {
+        "left": 299,
+        "top": 485,
+        "right": 689,
+        "bottom": 611
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上完整展开的双页纸质笔记本可定位，过去验证和记录结果的过程由对白说明。",
+        "association": "桌上完整展开的双页纸质笔记本可定位，过去验证和记录结果的过程由对白说明。",
+        "collocation": "in this notebook; write results in a notebook",
+        "example": "I tested one assumption at a time and wrote the results in this notebook.",
+        "exampleChinese": "我每次验证一个假设，并把结果写在这本笔记本里。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer shares a debugging lesson and explains the approach recorded in a notebook.",
+    "chinese": "开发者向同事分享一次排查经验，并解释笔记本里记录的方法。",
+    "source": "原创对话 · W073 分享一次技术学习",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

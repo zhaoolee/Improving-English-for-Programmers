@@ -1,0 +1,17 @@
+{
+  "cardID": "W014",
+  "imagePath": "../images/inverted/W014.png",
+  "imageSHA256": "b7f8ba59096fb8b5388bc30dca8dbdf232fc8cc7874398e15ea79939cce3ec8b",
+  "imageReviewed": true,
+  "annotationsPath": "W014_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "empty",
+    "validate",
+    "message",
+    "field"
+  ],
+  "receiptPath": "W014_v7_image_replace_receipt.json",
+  "photoID": "52058aef-e7cd-4b89-8c15-7623b9ffa1a6",
+  "expectedAssetID": "86709fc796d000d741472a8dd9b3497dbf3182453b2cd8e2c864c737386fa570"
+}

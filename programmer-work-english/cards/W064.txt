@@ -1,0 +1,119 @@
+W064  响应线上告警
+========================================================================
+分类: 发布与线上协作（operations）
+关键词: alert
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-05）
+图片状态: generated
+图片路径: images/W064.png
+复核日期: 2026-10-05
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W064.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W064.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T08:00:21.265Z → 2026-10-05T08:03:14.605Z
+  提示词文件: prompts/W064_image_final.txt
+
+场景: 两名同事确认收到线上告警，并开始调查问题。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：值班同事展示完整手机，另一位同事准备调查；屏幕只有警告符号，具体告警、接手与调查由对白提供，不冒充已完成诊断。手机边框完整，手只握边缘。 布局复核：phone 气泡已避让右脸避让矩形与手势，已核对避让手势/人脸。
+
+沟通目标: 先确认接手告警，再分配调查和通知任务。
+
+主配文（一句场景描述）:
+  英文: Two teammates acknowledge an alert and begin investigating a live issue.
+  中文: 两名同事确认收到线上告警，并开始调查问题。
+
+角色与对白:
+  A = On-call developer 值班开发者
+  B = Teammate 团队同事
+  [A] An alert just appeared on my phone.
+        我的手机刚刚收到了告警。
+  [B] Please acknowledge it. I'll investigate the error rate.
+        请先确认接手。我来调查错误率。
+  [A] I'll check recent changes and keep you updated.
+        我会检查近期变更，并及时同步情况。
+  [B] Good. Tell the team if users are affected.
+        好。如果用户受到影响，请通知团队。
+
+目标词 (4): alert, acknowledge, investigate, phone
+
+------------------------------------------------------------------------
+[1/4] alert
+  词义: 告警
+  词性: noun
+  音标: UK /əˈlɜːt/ | US /əˈlɜːrt/
+  搭配: acknowledge an alert; an alert appeared
+  例句: An alert just appeared on my phone.
+  例句高亮: An **alert** just appeared on my phone.
+  例句中文: 我的手机刚刚收到了告警。
+  标注模式: context
+  标注说明: 告警由对白确认，三角图标不能证明真实事件或具体告警内容。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] acknowledge
+  词义: 确认接手
+  词性: verb
+  音标: UK /əkˈnɒlɪdʒ/ | US /əkˈnɑːlɪdʒ/
+  搭配: acknowledge an alert; acknowledge receipt
+  例句: Please acknowledge it. I'll investigate the error rate.
+  例句高亮: Please **acknowledge** it. I'll investigate the error rate.
+  例句中文: 请先确认接手。我来调查错误率。
+  标注模式: context
+  标注说明: 此处是确认收到并接手告警而非承认过错，确认动作尚为请求。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] investigate
+  词义: 调查
+  词性: verb
+  音标: UK /ɪnˈvestɪɡeɪt/ | US /ɪnˈvestɪɡeɪt/
+  搭配: investigate an issue; investigate the error rate
+  例句: Please acknowledge it. I'll investigate the error rate.
+  例句高亮: Please acknowledge it. I'll **investigate** the error rate.
+  例句中文: 请先确认接手。我来调查错误率。
+  标注模式: context
+  标注说明: 调查是后续诊断工作，电脑姿态不足以定位具体调查动作。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] phone
+  词义: 手机
+  词性: noun
+  音标: UK /fəʊn/ | US /foʊn/
+  搭配: on my phone; check a phone
+  例句: An alert just appeared on my phone.
+  例句高亮: An alert just appeared on my **phone**.
+  例句中文: 我的手机刚刚收到了告警。
+  标注模式: object
+  标注说明: 人物手持的完整手机可框选；告警内容由对白设定。
+  坐标(normalized): [0.383, 0.277, 0.45, 0.401]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W064 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=32 | meta.approved_cards=32
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers beside desk. Left on-call developer holds fully visible smartphone upright at chest height near center, almost front-facing. Screen contains only warning triangle with exclamation mark, no letters or numbers. Right coworker at open laptop looks toward phone and gestures calmly. Phone has speaker and rounded rectangular body, no hand over screen. Coordinated response, not panic.

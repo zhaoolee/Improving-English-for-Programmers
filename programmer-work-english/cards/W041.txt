@@ -1,0 +1,120 @@
+W041  请求代码评审
+========================================================================
+分类: 开发与代码评审（development）
+关键词: review
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W041.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W041.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W041.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T08:26:25Z → 2026-10-04T08:28:36Z
+  提示词文件: prompts/W041_image_final.txt
+
+场景: 开发者请同事评审代码修改，并收到一个让变量命名更清楚的建议。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名同事并坐查看笔记本，合作姿态清楚。图中屏幕和部分键盘可见，笔记本完整边界可框选；没有可读代码。review/change/suggest由对白支持，不从手势鉴定评审结果。
+
+沟通目标: 请求评审、提出具体建议并确认后续动作。
+
+主配文（一句场景描述）:
+  英文: A developer asks a teammate to review a change and receives a naming suggestion.
+  中文: 开发者请同事评审代码修改，并收到一个让变量命名更清楚的建议。
+
+角色与对白:
+  A = Author 修改作者
+  B = Reviewer 评审同事
+  [A] Could you review the change on my laptop?
+        你能在我的笔记本电脑上评审这次修改吗？
+  [B] Sure. I suggest renaming this variable so its purpose is clearer.
+        可以。我建议给这个变量重新命名，让它的用途更清楚。
+  [A] Good point. I'll update the name and rerun the tests.
+        有道理。我会修改名称并重新运行测试。
+  [B] Thanks. I'll take another look when it's ready.
+        谢谢。准备好后，我会再看一次。
+
+目标词 (4): review, change, suggest, laptop
+
+------------------------------------------------------------------------
+[1/4] review
+  词义: 评审
+  词性: verb
+  音标: UK /rɪˈvjuː/ | US /rɪˈvjuː/
+  搭配: review a change; review code
+  例句: Could you review the change on my laptop?
+  例句高亮: Could you **review** the change on my laptop?
+  例句中文: 你能在我的笔记本电脑上评审这次修改吗？
+  标注模式: context
+  标注说明: 评审意图与反馈由对话给出，不能仅凭看电脑鉴定评审，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] change
+  词义: 修改
+  词性: noun
+  音标: UK /tʃeɪndʒ/ | US /tʃeɪndʒ/
+  搭配: review a change; make a change
+  例句: Could you review the change on my laptop?
+  例句高亮: Could you review the **change** on my laptop?
+  例句中文: 你能在我的笔记本电脑上评审这次修改吗？
+  标注模式: context
+  标注说明: 本卡是代码修改而不是物体；抽象编辑器线条不表示具体差异，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] suggest
+  词义: 建议
+  词性: verb
+  音标: UK /səˈdʒest/ | US /səˈdʒest/
+  搭配: suggest doing something; suggest a change
+  例句: I suggest renaming this variable so its purpose is clearer.
+  例句高亮: I **suggest** renaming this variable so its purpose is clearer.
+  例句中文: 我建议给这个变量重新命名，让它的用途更清楚。
+  标注模式: context
+  标注说明: 建议行为由明确对白支持；不把手势当成建议的充分证据，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: on my laptop; an open laptop
+  例句: Could you review the change on my laptop?
+  例句高亮: Could you review the change on my **laptop**?
+  例句中文: 你能在我的笔记本电脑上评审这次修改吗？
+  标注模式: object
+  标注说明: 桌上的打开式笔记本电脑为实际局部对象。
+  坐标(normalized): [0.385, 0.414, 0.655, 0.548]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W041 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers seated side by side at a small desk reviewing ONE open laptop. The laptop is centered facing the viewer at a slight angle, with screen and keyboard fully visible. One developer gestures politely with an open hand toward the screen, the other nods with a hand near the keyboard. Only a few abstract horizontal marks on the display suggest an editor; no readable code. Keep the laptop unobstructed and easy to crop. Friendly cooperative posture, minimal office.
+

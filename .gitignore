@@ -56,3 +56,50 @@ scene-cards-850/workflow/*
 !scene-cards-850/workflow/references/
 scene-cards-850/workflow/references/*
 !scene-cards-850/workflow/references/instagram-warm.png
+
+# --- programmer-work-english：默认忽略，仅白名单可提交（公开源与本地运行材料分离）---
+programmer-work-english/*
+!programmer-work-english/README.md
+!programmer-work-english/cards_plan.json
+!programmer-work-english/START_HERE.txt
+!programmer-work-english/cards/
+!programmer-work-english/images/
+!programmer-work-english/prompts/
+!programmer-work-english/piclex/
+!programmer-work-english/scripts/
+!programmer-work-english/workflow/
+!programmer-work-english/workflow/styles/
+
+# 卡片：仅 Wxxx.json / Wxxx.txt
+programmer-work-english/cards/*
+!programmer-work-english/cards/*.json
+!programmer-work-english/cards/*.txt
+
+# 图片：仅 Wxxx.png（忽略预览、压缩、备份等）
+programmer-work-english/images/*
+!programmer-work-english/images/W[0-9][0-9][0-9].png
+# 反色（黑底白线）发布图：公开源，原图保留
+!programmer-work-english/images/inverted/
+programmer-work-english/images/inverted/*
+!programmer-work-english/images/inverted/W[0-9][0-9][0-9].png
+
+# PicLex：仅 annotations 与 job（忽略 receipt/预览/其它本地回执）
+programmer-work-english/piclex/*
+!programmer-work-english/piclex/*_annotations.json
+!programmer-work-english/piclex/*_job.json
+
+# 脚本：全部可提交，除 __pycache__
+programmer-work-english/scripts/__pycache__/
+
+# workflow：README、调色板、styles/、批次内容与审图保留；其余一律本地忽略：
+# generation-index、pi 任务/日志、scaffold-result、files-ready、offline-acceptance、
+# region-decisions、回执、预览、计时、acceptance、发布/目录(catalog)、draft、运行日志等。
+programmer-work-english/workflow/*
+!programmer-work-english/workflow/README.md
+!programmer-work-english/workflow/label-palette.json
+!programmer-work-english/workflow/*_batch_content.json
+!programmer-work-english/workflow/*_review.json
+!programmer-work-english/workflow/styles/
+programmer-work-english/workflow/styles/*
+!programmer-work-english/workflow/styles/*.txt
+programmer-work-english/workflow/__pycache__/

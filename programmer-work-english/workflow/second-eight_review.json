@@ -1,0 +1,526 @@
+{
+  "ready": true,
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "reviewer": "Codex 整卡视觉审查",
+  "coordinateSystem": "0–1000，按实际选定底图定位；cards写0–1，PicLex写0–1000。",
+  "semanticReview": "32词条均保留定稿词序；10局部区域、22语境词。抽象词由原创对白支持；所有context无框。英文对白无中文，无角色说明拼接，四话轮为A/B/A/B。",
+  "reviewCompletedAt": "2026-10-04T13:37:07Z",
+  "cards": {
+    "W002": {
+      "sourcePath": "images/W002.png",
+      "imageReview": "通过：两名成年火柴人围坐桌边讨论开发经历，打开的笔记本电脑完整可见，屏幕为无字架构符号。experience/backend/project由对白提供语境证据，不从简图推断个人资历或技术栈。",
+      "geometry": {
+        "experience": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "backend": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "project": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            865
+          ],
+          "box": [
+            395,
+            405,
+            617,
+            560
+          ],
+          "anchor": [
+            505,
+            480
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            174,
+            257,
+            322,
+            405
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            680,
+            274,
+            825,
+            425
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:31:45Z"
+    },
+    "W012": {
+      "sourcePath": "images/W012.png",
+      "imageReview": "通过：左侧同事指向桌面日历，右侧开发者讨论屏幕的日期范围界面。日历及显示屏分开框选；filter/example和边界日期的业务行为由对白表达，空白界面不当作筛选结果证据。",
+      "geometry": {
+        "example": {
+          "bubble": [
+            250,
+            100
+          ]
+        },
+        "filter": {
+          "bubble": [
+            750,
+            100
+          ]
+        },
+        "calendar": {
+          "bubble": [
+            490,
+            840
+          ],
+          "box": [
+            205,
+            480,
+            360,
+            610
+          ],
+          "anchor": [
+            280,
+            555
+          ]
+        },
+        "screen": {
+          "bubble": [
+            520,
+            215
+          ],
+          "box": [
+            357,
+            307,
+            663,
+            498
+          ],
+          "anchor": [
+            560,
+            395
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            139,
+            180,
+            290,
+            323
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            733,
+            288,
+            885,
+            435
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:31:45Z"
+    },
+    "W022": {
+      "sourcePath": "images/W022.png",
+      "imageReview": "通过：两名同事站在三列任务板前进行站会，完整任务板及支架可见，无字卡片保持极简画风。进展、阻碍与失败测试由对白说明，不能从任务卡外观认定状态。",
+      "geometry": {
+        "progress": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "blocker": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "test": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "board": {
+          "bubble": [
+            500,
+            830
+          ],
+          "box": [
+            311,
+            235,
+            714,
+            760
+          ],
+          "anchor": [
+            513,
+            455
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            118,
+            218,
+            259,
+            377
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            750,
+            243,
+            898,
+            395
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:31:45Z"
+    },
+    "W032": {
+      "sourcePath": "images/W032.png",
+      "imageReview": "通过：两名同事解释白板上的客户端、服务、存储和双向箭头示意图。diagram框住完整图形，不框整块白板代替图形；请求、响应与数据流由对白和箭头结构共同提供语境。",
+      "geometry": {
+        "flow": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "request": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "response": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            500,
+            535
+          ],
+          "box": [
+            280,
+            320,
+            735,
+            435
+          ],
+          "anchor": [
+            510,
+            380
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            110,
+            288,
+            235,
+            413
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            784,
+            295,
+            906,
+            420
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:31:45Z"
+    },
+    "W042": {
+      "sourcePath": "images/W042.png",
+      "imageReview": "通过：同事围绕打开的笔记本讨论修改，屏幕使用抽象短线，无具体代码文字。重构、重复代码、函数与测试通过由对白说明，笔记本是唯一定位目标，不将抽象代码概念框在空白UI上。",
+      "geometry": {
+        "refactor": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "duplicate": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "function": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            850
+          ],
+          "box": [
+            355,
+            360,
+            628,
+            558
+          ],
+          "anchor": [
+            500,
+            450
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            190,
+            237,
+            340,
+            388
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            625,
+            236,
+            783,
+            388
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:30:21Z"
+    },
+    "W052": {
+      "sourcePath": "images/W052.png",
+      "imageReview": "通过：两名开发者对照显示器及桌上打印的界面截图。截图有清晰纸张外缘与界面行，完整框选其纸面；预期、实际及结果差异由对白支持，不把无文字的行列表当成确切业务数据。",
+      "geometry": {
+        "expected": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "actual": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "result": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "screenshot": {
+          "bubble": [
+            500,
+            880
+          ],
+          "box": [
+            360,
+            500,
+            635,
+            630
+          ],
+          "anchor": [
+            490,
+            565
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            166,
+            236,
+            332,
+            402
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            672,
+            253,
+            837,
+            406
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:30:50Z"
+    },
+    "W062": {
+      "sourcePath": "images/W062.png",
+      "imageReview": "通过：两名同事核对前景纸面检查清单与左侧平板，清单勾选和待确认项清楚。两件物件独立框选；备份就绪和发布准备由对白说明，不从勾选图案推断服务真实状态。",
+      "geometry": {
+        "checklist": {
+          "bubble": [
+            500,
+            870
+          ],
+          "box": [
+            321,
+            557,
+            699,
+            787
+          ],
+          "anchor": [
+            490,
+            675
+          ]
+        },
+        "backup": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "release": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "tablet": {
+          "bubble": [
+            155,
+            315
+          ],
+          "box": [
+            45,
+            383,
+            256,
+            642
+          ],
+          "anchor": [
+            147,
+            512
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            316,
+            201,
+            510,
+            389
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            634,
+            220,
+            833,
+            405
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:31:16Z"
+    },
+    "W072": {
+      "sourcePath": "images/W072.png",
+      "imageReview": "通过：两名同事在圆桌旁一对一讨论成长，前景打开的双页笔记本完整可见。成长目标和练习由对白说明；meeting例句明确指未来团队会议，不以当前两人交谈假称完整团队会议。",
+      "geometry": {
+        "goal": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "practice": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "meeting": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            460,
+            860
+          ],
+          "box": [
+            320,
+            505,
+            580,
+            618
+          ],
+          "anchor": [
+            443,
+            560
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            190,
+            195,
+            382,
+            385
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            613,
+            190,
+            805,
+            385
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T13:27:56Z",
+      "generationEndedAt": "2026-10-04T13:31:45Z"
+    }
+  }
+}

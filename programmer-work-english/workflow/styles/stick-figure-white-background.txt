@@ -1,0 +1,52 @@
+程序员工作英语 底图风格模板（历史 provenance：白底黑线）
+说明：这是最初的「白底黑线」风格模板，供 V1–V5 与需要重新生成白底原图时参考。
+当前默认生产方向为黑底白线，见 stick-figure-black-white.txt。
+
+程序员工作英语 底图风格模板：极简黑白火柴人
+================================================
+
+用途：programmer-work-english 专题所有底图的统一视觉风格。底图本身没有任何文字、
+字母或对话气泡；颜色只出现在后续添加的学习标签上。
+
+核心风格
+--------
+- 纯白背景，干净、统一的黑色线稿。
+- 成年火柴人：圆形头部、简单表情、细线条四肢，呈现程序员工作与沟通场景。
+- 单幅完整场景，无分镜、无面板。
+- 无颜色、无渐变、无阴影、无写实照片质感。
+- 克制、精致的程序员职场漫画审美，态度礼貌、专注、可读。
+
+构图
+----
+- 方形 1024x1024。
+- 人物与关键道具集中在 x≈180..820、y≈220..790（0..1000 画布）。
+- 顶部 y<180、底部 y>850 与左右两侧保留充足空白，便于之后添加学习标签。
+- 命名的学习道具清晰可辨、完整可见、互不遮挡。
+- 用姿势与手势体现对话；不画对话气泡。
+
+禁止
+----
+- 不出现任何文字、字母、数字、可读代码、字幕、标签、品牌、水印或二维码。
+- 不使用颜色、渐变或写实渲染。
+- 不画多格漫画、装饰性数学符号或与场景无关的道具。
+- 允许简单的抽象 UI 标记（不含文字）。
+
+标签关系
+--------
+- 底图黑白；学习标签使用 workflow/label-palette.json 的协调配色与白色文字。
+- 可定位对象在最终底图上人工框选（cards 0–1、PicLex 0–1000）。
+- 抽象词、功能词使用对白语境，不编造框。
+
+统一前缀（与首批 image_prompt 一致）
+------------------------------------
+Use case: illustration-story. Create ONE standalone finished educational scene
+illustration, square 1024x1024. Pure white background, clean consistent black line
+art, minimalist adult stick figures with circular heads, simple expressive faces
+and thin limbs, restrained polished programmer workplace comic aesthetic. No color,
+no gradients, no shading, no photographic rendering. One coherent scene, no panels.
+Keep all people and props in the central area approximately x=180..820 and
+y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top
+(y<180), bottom (y>850), and sides for learning labels added later. Make the named
+learning props clearly recognizable and fully visible. Gestures should show a
+conversation. No speech balloons, captions, logos, watermarks, readable code, or
+long text; simple abstract UI marks are allowed. Scene: <本卡场景描述>

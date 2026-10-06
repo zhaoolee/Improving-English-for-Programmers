@@ -1,0 +1,246 @@
+{
+  "id": "W035",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "确认数据一致性要求",
+  "keyword": "consistency",
+  "scene": "两位开发者确认数据一致性要求：保存后两部手机都应立即显示最新值。",
+  "target_count": 4,
+  "primary_words": [
+    "consistency",
+    "immediately",
+    "stale",
+    "phone"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "consistency",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "一致性",
+      "pos": "noun",
+      "ipa_us": "/kənˈsɪstənsi/",
+      "ipa_uk": "/kənˈsɪstənsi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What level of consistency does this feature need?",
+        "matched_form": "consistency",
+        "referent_region_verified": false,
+        "context": "数据一致性是技术要求，静态相似界面不能证明实现了该性质。",
+        "image_verified": null
+      },
+      "example_en": "What level of consistency does this feature need?",
+      "example_zh": "这个功能需要什么程度的一致性？",
+      "bbox_normalized": null,
+      "collocations": [
+        "data consistency",
+        "level of consistency"
+      ],
+      "example_en_highlighted": "What level of **consistency** does this feature need?",
+      "annotation_mode": "context",
+      "annotation_note": "数据一致性是技术要求，静态相似界面不能证明实现了该性质。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "immediately",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "立即",
+      "pos": "adverb",
+      "ipa_us": "/ɪˈmiːdiətli/",
+      "ipa_uk": "/ɪˈmiːdiətli/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "After a user saves, the new value must appear immediately.",
+        "matched_form": "immediately",
+        "referent_region_verified": false,
+        "context": "响应时序由对白要求定义，静态图不能量化时间。",
+        "image_verified": null
+      },
+      "example_en": "After a user saves, the new value must appear immediately.",
+      "example_zh": "用户保存后，新值必须立即出现。",
+      "bbox_normalized": null,
+      "collocations": [
+        "appear immediately",
+        "update immediately"
+      ],
+      "example_en_highlighted": "After a user saves, the new value must appear **immediately**.",
+      "annotation_mode": "context",
+      "annotation_note": "响应时序由对白要求定义，静态图不能量化时间。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "stale",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "陈旧的",
+      "pos": "adjective",
+      "ipa_us": "/steɪl/",
+      "ipa_uk": "/steɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could the second phone show a stale value?",
+        "matched_form": "stale",
+        "referent_region_verified": false,
+        "context": "数据过期与否由对白讨论，不用空白手机界面当作旧值证据。",
+        "image_verified": null
+      },
+      "example_en": "Could the second phone show a stale value?",
+      "example_zh": "第二部手机可以显示旧值吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a stale value",
+        "stale data"
+      ],
+      "example_en_highlighted": "Could the second phone show a **stale** value?",
+      "annotation_mode": "context",
+      "annotation_note": "数据过期与否由对白讨论，不用空白手机界面当作旧值证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "phone",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "手机",
+      "pos": "noun",
+      "ipa_us": "/foʊn/",
+      "ipa_uk": "/fəʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧人物手持的第二部实体手机可以定位，屏幕数据含义由对白说明。",
+        "sentence": "Could the second phone show a stale value?",
+        "matched_form": "phone",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Could the second phone show a stale value?",
+      "example_zh": "第二部手机可以显示旧值吗？",
+      "bbox_normalized": [
+        0.594,
+        0.29,
+        0.695,
+        0.441
+      ],
+      "collocations": [
+        "the second phone",
+        "on a phone"
+      ],
+      "example_en_highlighted": "Could the second **phone** show a stale value?",
+      "annotation_mode": "object",
+      "annotation_note": "右侧人物手持的第二部实体手机可以定位，屏幕数据含义由对白说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers confirm that both phones must show the latest saved value immediately.",
+    "zh": "两位开发者确认数据一致性要求：保存后两部手机都应立即显示最新值。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers confirm that both phones must show the latest saved value immediately.",
+    "zh": "两位开发者确认数据一致性要求：保存后两部手机都应立即显示最新值。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Technical teammate 技术同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What level of consistency does this feature need?",
+      "zh": "这个功能需要什么程度的一致性？"
+    },
+    {
+      "speaker": "B",
+      "en": "After a user saves, the new value must appear immediately.",
+      "zh": "用户保存后，新值必须立即出现。"
+    },
+    {
+      "speaker": "A",
+      "en": "Could the second phone show a stale value?",
+      "zh": "第二部手机可以显示旧值吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "No. Both devices must show the latest saved value.",
+      "zh": "不可以。两台设备都必须显示最新保存的值。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "明确保存后的读一致性与陈旧值是否可接受。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure developers sit across a small desk comparing TWO physical smartphones. Left person holds one phone vertically; RIGHT person holds a second phone upright away from their torso, entire phone outline and screen clearly visible. Each screen has the same single blank rectangular tile; no data, digits or text. Calm explanatory gestures, no arrows between devices. Right phone is a distinct recognizable physical handset, easy to crop.",
+  "status": "approved",
+  "image_path": "images/W035.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W035 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W035.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T16:12:32.645Z",
+    "ended_at": "2026-10-05T16:15:08.999Z",
+    "prompt_path": "prompts/W035_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W035.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；右侧人物手持的第二部实体手机可以定位，屏幕数据含义由对白说明。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。"
+  }
+}

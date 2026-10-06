@@ -1,0 +1,130 @@
+{
+  "filename": "W025-协商延期.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "extension",
+      "chinese": "延期",
+      "phoneticUS": "/ɪkˈstenʃən/",
+      "phoneticUK": "/ɪkˈstenʃən/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "延期是时间协商，由对白请求，不凭日历认定批准。",
+        "association": "延期是时间协商，由对白请求，不凭日历认定批准。",
+        "collocation": "request an extension; deadline extension",
+        "example": "A: Could we get an extension for this task?\nB: What is putting the deadline at risk?\nA: The integration needs another day. I can reduce the scope, or move the date on the calendar.\nB: Keep the scope and propose a new date. I will confirm it with the team.",
+        "exampleChinese": "A: 这个任务可以延期吗？\nB: 什么原因让截止日期面临风险？\nA: 集成还需要一天。我可以缩减范围，或者调整日历上的日期。\nB: 保留范围，提出一个新日期。我会和团队确认。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "deadline",
+      "chinese": "截止日期",
+      "phoneticUS": "/ˈdedlaɪn/",
+      "phoneticUK": "/ˈdedlaɪn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "具体期限由对白说明，无文字日历不显示确定截止日期。",
+        "association": "具体期限由对白说明，无文字日历不显示确定截止日期。",
+        "collocation": "meet a deadline; put the deadline at risk",
+        "example": "What is putting the deadline at risk?",
+        "exampleChinese": "什么原因让截止日期面临风险？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "scope",
+      "chinese": "范围",
+      "phoneticUS": "/skoʊp/",
+      "phoneticUK": "/skəʊp/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务范围由协商定义，物品面积不代表工作范围。",
+        "association": "任务范围由协商定义，物品面积不代表工作范围。",
+        "collocation": "keep the scope; reduce the scope",
+        "example": "Keep the scope and propose a new date. I will confirm it with the team.",
+        "exampleChinese": "保留范围，提出一个新日期。我会和团队确认。"
+      }
+    },
+    {
+      "x": 820,
+      "y": 472,
+      "english": "calendar",
+      "chinese": "日历",
+      "phoneticUS": "/ˈkæləndər/",
+      "phoneticUK": "/ˈkælɪndə/",
+      "bubblePosition": {
+        "x": 850,
+        "y": 320
+      },
+      "anchorPosition": {
+        "x": 820,
+        "y": 472
+      },
+      "boundingBox": {
+        "left": 718,
+        "top": 391,
+        "right": 945,
+        "bottom": 578
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "有装订与日期格的完整桌面日历可定位。",
+        "association": "有装订与日期格的完整桌面日历可定位。",
+        "collocation": "on the calendar; move a date on the calendar",
+        "example": "The integration needs another day. I can reduce the scope, or move the date on the calendar.",
+        "exampleChinese": "集成还需要一天。我可以缩减范围，或者调整日历上的日期。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer requests a deadline extension and agrees on how to propose a new date.",
+    "chinese": "开发者请求延期，并与负责人讨论保留范围和提出新日期。",
+    "source": "原创对话 · W025 协商延期",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

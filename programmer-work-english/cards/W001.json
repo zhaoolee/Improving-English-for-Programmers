@@ -1,0 +1,260 @@
+{
+  "id": "W001",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "入职第一天的介绍",
+  "keyword": "introduce",
+  "scene": "新入职的开发者请同事介绍团队，并询问如何获得代码仓库的访问权限。",
+  "target_count": 4,
+  "primary_words": [
+    "introduce",
+    "desk",
+    "laptop",
+    "access"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "introduce",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "介绍",
+      "pos": "verb",
+      "ipa_us": "/ˌɪntrəˈduːs/",
+      "ipa_uk": "/ˌɪntrəˈdjuːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you introduce me to the team?",
+        "matched_form": "introduce",
+        "referent_region_verified": false,
+        "context": "对话明确请求介绍团队；静态招手不证明已经完成介绍，不设动作框。",
+        "image_verified": null
+      },
+      "example_en": "Could you introduce me to the team?",
+      "example_zh": "你能向我介绍一下团队吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "introduce someone to the team",
+        "introduce yourself"
+      ],
+      "example_en_highlighted": "Could you **introduce** me to the team?",
+      "annotation_mode": "context",
+      "annotation_note": "对话明确请求介绍团队；静态招手不证明已经完成介绍，不设动作框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "desk",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "办公桌",
+      "pos": "noun",
+      "ipa_us": "/desk/",
+      "ipa_uk": "/desk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "场景中的完整办公桌是 desk 的局部指代对象；桌子的分配由对话设定支持。",
+        "sentence": "Your desk is next to mine.",
+        "matched_form": "desk",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Your desk is next to mine.",
+      "example_zh": "你的办公桌就在我的旁边。",
+      "bbox_normalized": [
+        0.26,
+        0.545,
+        0.765,
+        0.805
+      ],
+      "collocations": [
+        "at your desk",
+        "a work desk"
+      ],
+      "example_en_highlighted": "Your **desk** is next to mine.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中的完整办公桌是 desk 的局部指代对象；桌子的分配由对话设定支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上的打开式笔记本电脑可局部定位；配置行为由对话表达。",
+        "sentence": "I'll set up my laptop there.",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll set up my laptop there.",
+      "example_zh": "我会在那里配置笔记本电脑。",
+      "bbox_normalized": [
+        0.39,
+        0.435,
+        0.61,
+        0.585
+      ],
+      "collocations": [
+        "set up a laptop",
+        "on my laptop"
+      ],
+      "example_en_highlighted": "I'll set up my **laptop** there.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上的打开式笔记本电脑可局部定位；配置行为由对话表达。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "access",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "访问权限",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ˈækses/",
+      "ipa_uk": "/ˈækses/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How do I get access to the repository?",
+        "matched_form": "access",
+        "referent_region_verified": false,
+        "context": "权限由对话明确表达，不能从电脑外观判断，不设框。",
+        "image_verified": null
+      },
+      "example_en": "How do I get access to the repository?",
+      "example_zh": "我怎样才能获得代码仓库的访问权限？",
+      "bbox_normalized": null,
+      "collocations": [
+        "get access to",
+        "repository access"
+      ],
+      "example_en_highlighted": "How do I get **access** to the repository?",
+      "annotation_mode": "context",
+      "annotation_note": "权限由对话明确表达，不能从电脑外观判断，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A new developer asks a teammate for introductions and repository access.",
+    "zh": "新入职的开发者请同事介绍团队，并询问如何获得代码仓库的访问权限。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A new developer asks a teammate for introductions and repository access.",
+    "zh": "新入职的开发者请同事介绍团队，并询问如何获得代码仓库的访问权限。"
+  },
+  "roles": {
+    "A": "New developer 新同事",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Hi, I'm Alex. Could you introduce me to the team?",
+      "zh": "你好，我是 Alex。你能向我介绍一下团队吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Of course. Your desk is next to mine.",
+      "zh": "当然。你的办公桌就在我的旁边。"
+    },
+    {
+      "speaker": "A",
+      "en": "Thanks. I'll set up my laptop there. How do I get access to the repository?",
+      "zh": "谢谢。我会在那里配置笔记本电脑。我怎样才能获得代码仓库的访问权限？"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll send you an invite after introductions.",
+      "zh": "介绍完大家后，我会给你发送邀请。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "介绍自己，并提出具体的入职协作请求。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers greeting each other at a small programmer desk. The newcomer stands at left and gives a friendly small wave; the teammate stands at right and gestures toward the desk in the center. An open laptop sits fully visible on the desk. Draw the complete desk tabletop and legs, and a clearly recognizable open laptop with screen and keyboard, unobstructed. The laptop and desk are the visible learning props.",
+  "status": "approved",
+  "image_path": "images/inverted/W001.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W001 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W001.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T08:26:25Z",
+    "ended_at": "2026-10-04T08:26:44Z",
+    "prompt_path": "prompts/W001_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W001.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W001.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "b770d365062df9b6760ad26dcc352b6ed842d34ae88ef5153cd1475f6e2975a1",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W001.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：白底黑线，两名火柴人问候；左侧新人背包招手，右侧同事介绍办公位置。办公桌与打开式笔记本完整可见，未生成对白或品牌文字。introduce/access由对白设定支持；单桌画面不声称能看出邻桌分配。"
+  }
+}

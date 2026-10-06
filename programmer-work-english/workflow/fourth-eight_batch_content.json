@@ -1,0 +1,840 @@
+{
+  "title": "程序员工作英语 · 每类第四张",
+  "status": "content_final",
+  "startedAt": "2026-10-05T07:51:41.483726+00:00",
+  "startedAtNote": "首次记录的恢复检查时间；此前入口操作未单独计时。",
+  "contentFinalizedAt": "2026-10-05T07:59:00Z",
+  "displayTimeZone": "Asia/Shanghai",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "promptTemplate": "workflow/styles/stick-figure-black-white.txt",
+  "cards": [
+    {
+      "id": "W004",
+      "category": "team",
+      "title": "配置开发环境时求助",
+      "keyword": "setup",
+      "description_en": "A developer asks a teammate for help with a local setup.",
+      "description_zh": "开发者向同事求助，排查本地开发环境的配置问题。",
+      "communication_goal": "说明配置障碍并请求指导。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Could you help me with the local setup?",
+          "zh": "你能帮我配置本地开发环境吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Sure. Did you install every dependency?",
+          "zh": "当然。你安装了所有依赖吗？"
+        },
+        {
+          "speaker": "A",
+          "en": "One is missing. Could you show me what to type on the keyboard?",
+          "zh": "缺少了一个。你能告诉我该在键盘上输入什么吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. Let's install it and try again.",
+          "zh": "可以。我们把它安装好，再试一次。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers at a desk, developer seated left and teammate standing right leaning toward a desktop monitor. A separate physical keyboard with clear key grid is fully visible horizontally on the desk foreground center. Teammate points near the keyboard without obscuring it while developer asks with open palm. Screen contains abstract rectangles without letters. Entire keyboard and both hands visible.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers at a desk, developer seated left and teammate standing right leaning toward a desktop monitor. A separate physical keyboard with clear key grid is fully visible horizontally on the desk foreground center. Teammate points near the keyboard without obscuring it while developer asks with open palm. Screen contains abstract rectangles without letters. Entire keyboard and both hands visible.",
+      "words": [
+        {
+          "word": "setup",
+          "zh": "配置",
+          "pos": "noun",
+          "us": "/ˈsetʌp/",
+          "uk": "/ˈsetʌp/",
+          "collocations": [
+            "local setup",
+            "help with setup"
+          ],
+          "example": "Could you help me with the local setup?",
+          "translation": "你能帮我配置本地开发环境吗？",
+          "mode": "context",
+          "evidence": "setup指配置过程与状态，由对白说明，不能用电脑外观证明配置完成。",
+          "color": "blue"
+        },
+        {
+          "word": "dependency",
+          "zh": "依赖",
+          "pos": "noun",
+          "us": "/dɪˈpendənsi/",
+          "uk": "/dɪˈpendənsi/",
+          "collocations": [
+            "install a dependency",
+            "missing dependency"
+          ],
+          "example": "Sure. Did you install every dependency?",
+          "translation": "当然。你安装了所有依赖吗？",
+          "mode": "context",
+          "evidence": "软件依赖由对白指出，屏幕抽象块不能定位真实依赖。",
+          "color": "lavender"
+        },
+        {
+          "word": "install",
+          "zh": "安装",
+          "pos": "verb",
+          "us": "/ɪnˈstɔːl/",
+          "uk": "/ɪnˈstɔːl/",
+          "collocations": [
+            "install a dependency",
+            "install software"
+          ],
+          "example": "Yes. Let's install it and try again.",
+          "translation": "可以。我们把它安装好，再试一次。",
+          "mode": "context",
+          "evidence": "安装是后续建议，键盘操作不能证明安装过程或结果。",
+          "color": "rose"
+        },
+        {
+          "word": "keyboard",
+          "zh": "键盘",
+          "pos": "noun",
+          "us": "/ˈkiːbɔːrd/",
+          "uk": "/ˈkiːbɔːd/",
+          "collocations": [
+            "on the keyboard",
+            "type on a keyboard"
+          ],
+          "example": "One is missing. Could you show me what to type on the keyboard?",
+          "translation": "缺少了一个。你能告诉我该在键盘上输入什么吗？",
+          "mode": "object",
+          "evidence": "独立实体键盘可完整框选。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W014",
+      "category": "requirements",
+      "title": "讨论输入为空的情况",
+      "keyword": "empty",
+      "description_en": "A developer clarifies how a form should handle an empty field.",
+      "description_zh": "开发者确认表单遇到空输入框时应如何处理。",
+      "communication_goal": "确认空输入的校验行为与提示文案。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Product teammate 产品同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "What should happen when this field is empty?",
+          "zh": "这个输入框为空时应该怎样处理？"
+        },
+        {
+          "speaker": "B",
+          "en": "Validate it before submission and show a message.",
+          "zh": "提交前校验，并显示提示信息。"
+        },
+        {
+          "speaker": "A",
+          "en": "Should the message explain which value is missing?",
+          "zh": "提示信息应该说明缺少哪个值吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. Keep it specific and leave the field easy to find.",
+          "zh": "是的。提示要具体，并让这个输入框容易找到。"
+        }
+      ],
+      "scene_prompt": "Two adult stick figures facing a large front-facing desktop monitor centered on a desk. Screen displays only ONE large rounded rectangular EMPTY input field, a small unlabeled rounded submit button below it and a simple exclamation icon away from the field. Left person points at the blank field, right person explains with open palm. Field border fully visible, blank inside. Make field large enough to crop independently.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures facing a large front-facing desktop monitor centered on a desk. Screen displays only ONE large rounded rectangular EMPTY input field, a small unlabeled rounded submit button below it and a simple exclamation icon away from the field. Left person points at the blank field, right person explains with open palm. Field border fully visible, blank inside. Make field large enough to crop independently.",
+      "words": [
+        {
+          "word": "empty",
+          "zh": "空的",
+          "pos": "adjective",
+          "us": "/ˈempti/",
+          "uk": "/ˈempti/",
+          "collocations": [
+            "an empty field",
+            "leave a field empty"
+          ],
+          "example": "What should happen when this field is empty?",
+          "translation": "这个输入框为空时应该怎样处理？",
+          "mode": "context",
+          "evidence": "对白讨论空值条件，输入框另用field定位，不为校验条件编造对象框。",
+          "color": "blue"
+        },
+        {
+          "word": "validate",
+          "zh": "校验",
+          "pos": "verb",
+          "us": "/ˈvælɪdeɪt/",
+          "uk": "/ˈvælɪdeɪt/",
+          "collocations": [
+            "validate input",
+            "validate a field"
+          ],
+          "example": "Validate it before submission and show a message.",
+          "translation": "提交前校验，并显示提示信息。",
+          "mode": "context",
+          "evidence": "校验规则由对白约定，图标不能证明校验已执行。",
+          "color": "lavender"
+        },
+        {
+          "word": "message",
+          "zh": "提示信息",
+          "pos": "noun",
+          "us": "/ˈmesɪdʒ/",
+          "uk": "/ˈmesɪdʒ/",
+          "collocations": [
+            "show a message",
+            "an error message"
+          ],
+          "example": "Should the message explain which value is missing?",
+          "translation": "提示信息应该说明缺少哪个值吗？",
+          "mode": "context",
+          "evidence": "底图无文字，不把感叹号冒充具体提示文案。",
+          "color": "rose"
+        },
+        {
+          "word": "field",
+          "zh": "输入框",
+          "pos": "noun",
+          "us": "/fiːld/",
+          "uk": "/fiːld/",
+          "collocations": [
+            "an input field",
+            "a required field"
+          ],
+          "example": "What should happen when this field is empty?",
+          "translation": "这个输入框为空时应该怎样处理？",
+          "mode": "object",
+          "evidence": "屏幕内完整空白圆角输入框是field的局部指代区域。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W024",
+      "category": "planning",
+      "title": "估算任务完成时间",
+      "keyword": "estimate",
+      "description_en": "Two teammates discuss an estimate and a deadline for a task.",
+      "description_zh": "两名同事讨论任务的工作量估算和截止时间。",
+      "communication_goal": "区分估算工作量与承诺截止时间，并留出测试时间。",
+      "roles": {
+        "A": "Team lead 团队负责人",
+        "B": "Developer 开发者"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "What is your estimate for this task?",
+          "zh": "你对这个任务的估算是多少？"
+        },
+        {
+          "speaker": "B",
+          "en": "About two days of effort, including testing.",
+          "zh": "大约两天的工作量，包括测试。"
+        },
+        {
+          "speaker": "A",
+          "en": "The deadline is Friday. Could you mark it on the calendar?",
+          "zh": "截止时间是周五。你能在日历上标记一下吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. I'll flag any risk to that deadline early.",
+          "zh": "可以。我会尽早说明可能影响截止时间的风险。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers standing beside a large wall calendar, central slightly above a small desk. Calendar has plain binding and a clear seven-column by five-row date grid, no numerals or weekday letters. One person points at an unnumbered date cell, other holds open palm discussing timing. Keep entire calendar perimeter visible and hands out of the grid. No other charts.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers standing beside a large wall calendar, central slightly above a small desk. Calendar has plain binding and a clear seven-column by five-row date grid, no numerals or weekday letters. One person points at an unnumbered date cell, other holds open palm discussing timing. Keep entire calendar perimeter visible and hands out of the grid. No other charts.",
+      "words": [
+        {
+          "word": "estimate",
+          "zh": "估算",
+          "pos": "noun",
+          "us": "/ˈestɪmət/",
+          "uk": "/ˈestɪmət/",
+          "collocations": [
+            "an estimate for",
+            "a rough estimate"
+          ],
+          "example": "What is your estimate for this task?",
+          "translation": "你对这个任务的估算是多少？",
+          "mode": "context",
+          "evidence": "名词estimate是工作量预估，不能把日历日期当成已确定工时。",
+          "color": "blue"
+        },
+        {
+          "word": "effort",
+          "zh": "工作量",
+          "pos": "noun (uncountable)",
+          "us": "/ˈefərt/",
+          "uk": "/ˈefət/",
+          "collocations": [
+            "two days of effort",
+            "estimated effort"
+          ],
+          "example": "About two days of effort, including testing.",
+          "translation": "大约两天的工作量，包括测试。",
+          "mode": "context",
+          "evidence": "此处effort是所需工作量，数值由对白提供而非画面测量。",
+          "color": "lavender"
+        },
+        {
+          "word": "deadline",
+          "zh": "截止时间",
+          "pos": "noun",
+          "us": "/ˈdedlaɪn/",
+          "uk": "/ˈdedlaɪn/",
+          "collocations": [
+            "meet a deadline",
+            "the deadline is Friday"
+          ],
+          "example": "The deadline is Friday. Could you mark it on the calendar?",
+          "translation": "截止时间是周五。你能在日历上标记一下吗？",
+          "mode": "context",
+          "evidence": "底图没有星期或日期文字，周五截止时间由对白约定。",
+          "color": "rose"
+        },
+        {
+          "word": "calendar",
+          "zh": "日历",
+          "pos": "noun",
+          "us": "/ˈkælɪndər/",
+          "uk": "/ˈkælɪndə/",
+          "collocations": [
+            "on the calendar",
+            "mark a calendar"
+          ],
+          "example": "The deadline is Friday. Could you mark it on the calendar?",
+          "translation": "截止时间是周五。你能在日历上标记一下吗？",
+          "mode": "object",
+          "evidence": "有装订和七列日期格的墙历可框选整个物件。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W034",
+      "category": "design",
+      "title": "讨论性能瓶颈",
+      "keyword": "bottleneck",
+      "description_en": "Two developers use measurements to discuss a performance bottleneck.",
+      "description_zh": "两名开发者根据测量结果讨论性能瓶颈。",
+      "communication_goal": "先测量延迟，再判断优化对象，避免凭感觉归因。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Could the database be the bottleneck?",
+          "zh": "数据库会是瓶颈吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Possibly. Let's measure latency before we change anything.",
+          "zh": "有可能。修改之前，我们先测量延迟。"
+        },
+        {
+          "speaker": "A",
+          "en": "The graph shows a spike during database calls.",
+          "zh": "这张图显示数据库调用期间出现了峰值。"
+        },
+        {
+          "speaker": "B",
+          "en": "Then compare those calls with the total request time.",
+          "zh": "那么，把这些调用耗时和请求总耗时比较一下。"
+        }
+      ],
+      "scene_prompt": "Two adult stick figures beside a large wall-mounted graph board centered, clean single line graph with horizontal and vertical axes, one prominent peak midway. NO axis numbers or words. Left developer gestures toward peak without covering it, right colleague holds open palm thoughtfully. Entire plotted graph and rectangular board visible. No other charts or clock.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures beside a large wall-mounted graph board centered, clean single line graph with horizontal and vertical axes, one prominent peak midway. NO axis numbers or words. Left developer gestures toward peak without covering it, right colleague holds open palm thoughtfully. Entire plotted graph and rectangular board visible. No other charts or clock.",
+      "words": [
+        {
+          "word": "bottleneck",
+          "zh": "瓶颈",
+          "pos": "noun",
+          "us": "/ˈbɑːtlnek/",
+          "uk": "/ˈbɒtlnek/",
+          "collocations": [
+            "a performance bottleneck",
+            "identify a bottleneck"
+          ],
+          "example": "Could the database be the bottleneck?",
+          "translation": "数据库会是瓶颈吗？",
+          "mode": "context",
+          "evidence": "数据库是否瓶颈仍是假设，峰值不能单独证明因果关系。",
+          "color": "blue"
+        },
+        {
+          "word": "latency",
+          "zh": "延迟",
+          "pos": "noun (uncountable)",
+          "us": "/ˈleɪtənsi/",
+          "uk": "/ˈleɪtənsi/",
+          "collocations": [
+            "measure latency",
+            "request latency"
+          ],
+          "example": "Possibly. Let's measure latency before we change anything.",
+          "translation": "有可能。修改之前，我们先测量延迟。",
+          "mode": "context",
+          "evidence": "延迟是时间量，无轴标签示意图不能当真实测量值。",
+          "color": "lavender"
+        },
+        {
+          "word": "measure",
+          "zh": "测量",
+          "pos": "verb",
+          "us": "/ˈmeʒər/",
+          "uk": "/ˈmeʒə/",
+          "collocations": [
+            "measure latency",
+            "measure performance"
+          ],
+          "example": "Possibly. Let's measure latency before we change anything.",
+          "translation": "有可能。修改之前，我们先测量延迟。",
+          "mode": "context",
+          "evidence": "测量是后续建议，没有具体测量动作证据。",
+          "color": "rose"
+        },
+        {
+          "word": "graph",
+          "zh": "图表",
+          "pos": "noun",
+          "us": "/ɡræf/",
+          "uk": "/ɡrɑːf/",
+          "collocations": [
+            "a line graph",
+            "the graph shows"
+          ],
+          "example": "The graph shows a spike during database calls.",
+          "translation": "这张图显示数据库调用期间出现了峰值。",
+          "mode": "object",
+          "evidence": "板上的折线图可定位；与数据库调用的关联由对白设定。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W044",
+      "category": "development",
+      "title": "回应必须修改的评论",
+      "keyword": "required",
+      "description_en": "A developer responds to a required change in a code review.",
+      "description_zh": "开发者回应代码评审中必须修改的问题。",
+      "communication_goal": "确认必改意见，并说明处理与复核步骤。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Reviewer 评审者"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Is this change required before we merge?",
+          "zh": "合并之前必须做这处修改吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. Please address the comment about missing validation.",
+          "zh": "是的。请处理关于缺少校验的这条评论。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll add it to my checklist and update the patch.",
+          "zh": "我会把它加入检查清单，并更新补丁。"
+        },
+        {
+          "speaker": "B",
+          "en": "Thanks. Ask me to review it again when you are ready.",
+          "zh": "谢谢。准备好后，请让我再评审一次。"
+        }
+      ],
+      "scene_prompt": "Two adult stick figures at a small table reviewing a single large paper checklist flat in foreground center. Rectangular sheet has four empty square checkboxes and short plain horizontal placeholder lines, no letters. Developer indicates sheet with a pen held above it; reviewer points at a monitor behind showing abstract rectangles. Entire checklist unobscured and not crossed by arms.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures at a small table reviewing a single large paper checklist flat in foreground center. Rectangular sheet has four empty square checkboxes and short plain horizontal placeholder lines, no letters. Developer indicates sheet with a pen held above it; reviewer points at a monitor behind showing abstract rectangles. Entire checklist unobscured and not crossed by arms.",
+      "words": [
+        {
+          "word": "required",
+          "zh": "必须的",
+          "pos": "adjective",
+          "us": "/rɪˈkwaɪərd/",
+          "uk": "/rɪˈkwaɪəd/",
+          "collocations": [
+            "a required change",
+            "required before merging"
+          ],
+          "example": "Is this change required before we merge?",
+          "translation": "合并之前必须做这处修改吗？",
+          "mode": "context",
+          "evidence": "必改要求由评审者对白确认，不能凭指点或清单判定优先级。",
+          "color": "blue"
+        },
+        {
+          "word": "address",
+          "zh": "处理",
+          "pos": "verb",
+          "us": "/əˈdres/",
+          "uk": "/əˈdres/",
+          "collocations": [
+            "address a comment",
+            "address an issue"
+          ],
+          "example": "Yes. Please address the comment about missing validation.",
+          "translation": "是的。请处理关于缺少校验的这条评论。",
+          "mode": "context",
+          "evidence": "address是处理问题而非地址，拟进行的修改没有局部区域。",
+          "color": "lavender"
+        },
+        {
+          "word": "comment",
+          "zh": "评论",
+          "pos": "noun",
+          "us": "/ˈkɑːment/",
+          "uk": "/ˈkɒment/",
+          "collocations": [
+            "a review comment",
+            "address a comment"
+          ],
+          "example": "Yes. Please address the comment about missing validation.",
+          "translation": "是的。请处理关于缺少校验的这条评论。",
+          "mode": "context",
+          "evidence": "无文字屏幕不展示真实评审评论，具体内容由对白提供。",
+          "color": "rose"
+        },
+        {
+          "word": "checklist",
+          "zh": "检查清单",
+          "pos": "noun",
+          "us": "/ˈtʃeklɪst/",
+          "uk": "/ˈtʃeklɪst/",
+          "collocations": [
+            "add to a checklist",
+            "a review checklist"
+          ],
+          "example": "I'll add it to my checklist and update the patch.",
+          "translation": "我会把它加入检查清单，并更新补丁。",
+          "mode": "object",
+          "evidence": "带多行复选框的纸质检查清单可完整框选。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W054",
+      "category": "debugging",
+      "title": "确认问题出现的环境",
+      "keyword": "environment",
+      "description_en": "A tester and a developer confirm the environment where a bug occurs.",
+      "description_zh": "测试同事与开发者确认问题出现时的环境和浏览器版本。",
+      "communication_goal": "核对运行环境与版本，再索取证据。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Tester 测试同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Which environment did you use when the error appeared?",
+          "zh": "错误出现时，你使用的是哪个环境？"
+        },
+        {
+          "speaker": "B",
+          "en": "Staging, in the browser on my laptop.",
+          "zh": "预发布环境，用的是笔记本电脑上的浏览器。"
+        },
+        {
+          "speaker": "A",
+          "en": "Could you share the browser version and a screenshot?",
+          "zh": "你能提供浏览器版本和一张截图吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Sure. I'll include both in the report.",
+          "zh": "当然。我会把两者都放进报告里。"
+        }
+      ],
+      "scene_prompt": "Two adult stick figures at a desk with an open laptop behind. Tester holds up a rectangular printed SCREENSHOT paper by its far side edge, fully front-facing near center right. Screenshot depicts browser window frame with top toolbar of three small circular icons, one large blank pane, a simple warning triangle. Developer points with open hand from left. Whole paper unobscured, no letters, version numerals or code.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures at a desk with an open laptop behind. Tester holds up a rectangular printed SCREENSHOT paper by its far side edge, fully front-facing near center right. Screenshot depicts browser window frame with top toolbar of three small circular icons, one large blank pane, a simple warning triangle. Developer points with open hand from left. Whole paper unobscured, no letters, version numerals or code.",
+      "words": [
+        {
+          "word": "environment",
+          "zh": "环境",
+          "pos": "noun",
+          "us": "/ɪnˈvaɪrənmənt/",
+          "uk": "/ɪnˈvaɪrənmənt/",
+          "collocations": [
+            "a staging environment",
+            "test environment"
+          ],
+          "example": "Which environment did you use when the error appeared?",
+          "translation": "错误出现时，你使用的是哪个环境？",
+          "mode": "context",
+          "evidence": "此处environment是软件运行环境而非房间，预发布环境由对白说明。",
+          "color": "blue"
+        },
+        {
+          "word": "version",
+          "zh": "版本",
+          "pos": "noun",
+          "us": "/ˈvɜːrʒən/",
+          "uk": "/ˈvɜːʃən/",
+          "collocations": [
+            "browser version",
+            "share the version"
+          ],
+          "example": "Could you share the browser version and a screenshot?",
+          "translation": "你能提供浏览器版本和一张截图吗？",
+          "mode": "context",
+          "evidence": "底图没有版本号码，不能从外观识别软件版本。",
+          "color": "lavender"
+        },
+        {
+          "word": "browser",
+          "zh": "浏览器",
+          "pos": "noun",
+          "us": "/ˈbraʊzər/",
+          "uk": "/ˈbraʊzə/",
+          "collocations": [
+            "in the browser",
+            "a browser window"
+          ],
+          "example": "Staging, in the browser on my laptop.",
+          "translation": "预发布环境，用的是笔记本电脑上的浏览器。",
+          "mode": "context",
+          "evidence": "浏览器作为运行软件由对白说明，打印示意不证明软件正在运行。",
+          "color": "rose"
+        },
+        {
+          "word": "screenshot",
+          "zh": "截图",
+          "pos": "noun",
+          "us": "/ˈskriːnʃɑːt/",
+          "uk": "/ˈskriːnʃɒt/",
+          "collocations": [
+            "share a screenshot",
+            "attach a screenshot"
+          ],
+          "example": "Could you share the browser version and a screenshot?",
+          "translation": "你能提供浏览器版本和一张截图吗？",
+          "mode": "object",
+          "evidence": "独立纸张上展示的浏览器截图可框选，具体身份由对白设定。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W064",
+      "category": "operations",
+      "title": "响应线上告警",
+      "keyword": "alert",
+      "description_en": "Two teammates acknowledge an alert and begin investigating a live issue.",
+      "description_zh": "两名同事确认收到线上告警，并开始调查问题。",
+      "communication_goal": "先确认接手告警，再分配调查和通知任务。",
+      "roles": {
+        "A": "On-call developer 值班开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "An alert just appeared on my phone.",
+          "zh": "我的手机刚刚收到了告警。"
+        },
+        {
+          "speaker": "B",
+          "en": "Please acknowledge it. I'll investigate the error rate.",
+          "zh": "请先确认接手。我来调查错误率。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll check recent changes and keep you updated.",
+          "zh": "我会检查近期变更，并及时同步情况。"
+        },
+        {
+          "speaker": "B",
+          "en": "Good. Tell the team if users are affected.",
+          "zh": "好。如果用户受到影响，请通知团队。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers beside desk. Left on-call developer holds fully visible smartphone upright at chest height near center, almost front-facing. Screen contains only warning triangle with exclamation mark, no letters or numbers. Right coworker at open laptop looks toward phone and gestures calmly. Phone has speaker and rounded rectangular body, no hand over screen. Coordinated response, not panic.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers beside desk. Left on-call developer holds fully visible smartphone upright at chest height near center, almost front-facing. Screen contains only warning triangle with exclamation mark, no letters or numbers. Right coworker at open laptop looks toward phone and gestures calmly. Phone has speaker and rounded rectangular body, no hand over screen. Coordinated response, not panic.",
+      "words": [
+        {
+          "word": "alert",
+          "zh": "告警",
+          "pos": "noun",
+          "us": "/əˈlɜːrt/",
+          "uk": "/əˈlɜːt/",
+          "collocations": [
+            "acknowledge an alert",
+            "an alert appeared"
+          ],
+          "example": "An alert just appeared on my phone.",
+          "translation": "我的手机刚刚收到了告警。",
+          "mode": "context",
+          "evidence": "告警由对白确认，三角图标不能证明真实事件或具体告警内容。",
+          "color": "blue"
+        },
+        {
+          "word": "acknowledge",
+          "zh": "确认接手",
+          "pos": "verb",
+          "us": "/əkˈnɑːlɪdʒ/",
+          "uk": "/əkˈnɒlɪdʒ/",
+          "collocations": [
+            "acknowledge an alert",
+            "acknowledge receipt"
+          ],
+          "example": "Please acknowledge it. I'll investigate the error rate.",
+          "translation": "请先确认接手。我来调查错误率。",
+          "mode": "context",
+          "evidence": "此处是确认收到并接手告警而非承认过错，确认动作尚为请求。",
+          "color": "lavender"
+        },
+        {
+          "word": "investigate",
+          "zh": "调查",
+          "pos": "verb",
+          "us": "/ɪnˈvestɪɡeɪt/",
+          "uk": "/ɪnˈvestɪɡeɪt/",
+          "collocations": [
+            "investigate an issue",
+            "investigate the error rate"
+          ],
+          "example": "Please acknowledge it. I'll investigate the error rate.",
+          "translation": "请先确认接手。我来调查错误率。",
+          "mode": "context",
+          "evidence": "调查是后续诊断工作，电脑姿态不足以定位具体调查动作。",
+          "color": "rose"
+        },
+        {
+          "word": "phone",
+          "zh": "手机",
+          "pos": "noun",
+          "us": "/foʊn/",
+          "uk": "/fəʊn/",
+          "collocations": [
+            "on my phone",
+            "check a phone"
+          ],
+          "example": "An alert just appeared on my phone.",
+          "translation": "我的手机刚刚收到了告警。",
+          "mode": "object",
+          "evidence": "人物手持的完整手机可框选；告警内容由对白设定。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W074",
+      "category": "growth",
+      "title": "请求导师的建议",
+      "keyword": "advice",
+      "description_en": "A developer asks a mentor for advice on improving technical explanations.",
+      "description_zh": "开发者向导师请教如何改进技术说明，并记下练习建议。",
+      "communication_goal": "提出具体成长问题并确认可执行的练习方法。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Mentor 导师"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Could you give me some advice on explaining technical decisions?",
+          "zh": "你能给我一些讲解技术决策的建议吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Start with the problem, then explain one reason for your choice.",
+          "zh": "先说问题，再解释你做出选择的一个理由。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll write that in my notebook. Could we practise together?",
+          "zh": "我会把它记在笔记本里。我们能一起练习吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Of course. A mentor can help you improve through practice.",
+          "zh": "当然。导师可以通过练习帮助你改进。"
+        }
+      ],
+      "scene_prompt": "Two adult stick figures seated opposite each other across small rounded meeting table, friendly mentoring conversation. OPEN physical notebook with center fold and two blank pages lies horizontally foreground center, fully visible. Left developer holds pen lifted above one page without covering it, right mentor explains with open palm. Adult proportions, no age or seniority stereotype. No other paper or laptop, no writing.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures seated opposite each other across small rounded meeting table, friendly mentoring conversation. OPEN physical notebook with center fold and two blank pages lies horizontally foreground center, fully visible. Left developer holds pen lifted above one page without covering it, right mentor explains with open palm. Adult proportions, no age or seniority stereotype. No other paper or laptop, no writing.",
+      "words": [
+        {
+          "word": "advice",
+          "zh": "建议",
+          "pos": "noun (uncountable)",
+          "us": "/ədˈvaɪs/",
+          "uk": "/ədˈvaɪs/",
+          "collocations": [
+            "give some advice",
+            "advice on explaining"
+          ],
+          "example": "Could you give me some advice on explaining technical decisions?",
+          "translation": "你能给我一些讲解技术决策的建议吗？",
+          "mode": "context",
+          "evidence": "advice是不可数名词，内容由对白表达而非手势判断。",
+          "color": "blue"
+        },
+        {
+          "word": "mentor",
+          "zh": "导师",
+          "pos": "noun",
+          "us": "/ˈmentɔːr/",
+          "uk": "/ˈmentɔː/",
+          "collocations": [
+            "a mentor can help",
+            "ask a mentor"
+          ],
+          "example": "Of course. A mentor can help you improve through practice.",
+          "translation": "当然。导师可以通过练习帮助你改进。",
+          "mode": "context",
+          "evidence": "导师身份由角色与对白设定，不从年龄或手势推断。",
+          "color": "lavender"
+        },
+        {
+          "word": "improve",
+          "zh": "改进",
+          "pos": "verb",
+          "us": "/ɪmˈpruːv/",
+          "uk": "/ɪmˈpruːv/",
+          "collocations": [
+            "improve through practice",
+            "improve explanations"
+          ],
+          "example": "Of course. A mentor can help you improve through practice.",
+          "translation": "当然。导师可以通过练习帮助你改进。",
+          "mode": "context",
+          "evidence": "能力进步需要过程和结果，静态谈话不能证明已改进。",
+          "color": "rose"
+        },
+        {
+          "word": "notebook",
+          "zh": "笔记本",
+          "pos": "noun",
+          "us": "/ˈnoʊtbʊk/",
+          "uk": "/ˈnəʊtbʊk/",
+          "collocations": [
+            "in my notebook",
+            "write in a notebook"
+          ],
+          "example": "I'll write that in my notebook. Could we practise together?",
+          "translation": "我会把它记在笔记本里。我们能一起练习吗？",
+          "mode": "object",
+          "evidence": "桌上带装订折线的打开式纸质笔记本可完整定位。",
+          "color": "teal"
+        }
+      ]
+    }
+  ],
+  "lexicalReview": {
+    "reviewer": "Codex",
+    "result": "原创对白逐词语义、词性、常见英美音标及搭配复核；未声称逐页核验词典。setup和estimate为名词；address为处理；advice不可数；抽象词有语境证据。"
+  }
+}

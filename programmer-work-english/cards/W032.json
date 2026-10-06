@@ -1,0 +1,256 @@
+{
+  "id": "W032",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "解释接口的数据流",
+  "keyword": "flow",
+  "scene": "两名开发者借助示意图，解释接口接收请求并返回响应的数据流。",
+  "target_count": 4,
+  "primary_words": [
+    "flow",
+    "request",
+    "response",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "flow",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "流向",
+      "pos": "noun",
+      "ipa_us": "/floʊ/",
+      "ipa_uk": "/fləʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you explain the data flow for this API?",
+        "matched_form": "flow",
+        "referent_region_verified": false,
+        "context": "数据流由完整对白解释；箭头只辅助表示路径，不把静态线条当作正在流动的数据。",
+        "image_verified": null
+      },
+      "example_en": "Could you explain the data flow for this API?",
+      "example_zh": "你能解释一下这个接口的数据流吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "data flow",
+        "the flow of data"
+      ],
+      "example_en_highlighted": "Could you explain the data **flow** for this API?",
+      "annotation_mode": "context",
+      "annotation_note": "数据流由完整对白解释；箭头只辅助表示路径，不把静态线条当作正在流动的数据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "request",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "请求",
+      "pos": "noun",
+      "ipa_us": "/rɪˈkwest/",
+      "ipa_uk": "/rɪˈkwest/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A request comes in, and the service reads the data from storage.",
+        "matched_form": "request",
+        "referent_region_verified": false,
+        "context": "接口请求是软件交互，由对白支持，图中空白节点不等同于请求实体。",
+        "image_verified": null
+      },
+      "example_en": "A request comes in, and the service reads the data from storage.",
+      "example_zh": "请求进入后，服务会从存储中读取数据。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an API request",
+        "a request comes in"
+      ],
+      "example_en_highlighted": "A **request** comes in, and the service reads the data from storage.",
+      "annotation_mode": "context",
+      "annotation_note": "接口请求是软件交互，由对白支持，图中空白节点不等同于请求实体。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "response",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "响应",
+      "pos": "noun",
+      "ipa_us": "/rɪˈspɑːns/",
+      "ipa_uk": "/rɪˈspɒns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Then it sends a response back to the client, right?",
+        "matched_form": "response",
+        "referent_region_verified": false,
+        "context": "响应由接口对白说明，不能把任意返回箭头框成真实响应消息。",
+        "image_verified": null
+      },
+      "example_en": "Then it sends a response back to the client, right?",
+      "example_zh": "然后它会向客户端返回响应，对吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "send a response",
+        "a response back to the client"
+      ],
+      "example_en_highlighted": "Then it sends a **response** back to the client, right?",
+      "annotation_mode": "context",
+      "annotation_note": "响应由接口对白说明，不能把任意返回箭头框成真实响应消息。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "示意图",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板中的完整节点与连线构成可定位示意图，不只截取其中一个空白框。",
+        "sentence": "The diagram shows the path.",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The diagram shows the path.",
+      "example_zh": "示意图展示了这条路径。",
+      "bbox_normalized": [
+        0.28,
+        0.32,
+        0.735,
+        0.435
+      ],
+      "collocations": [
+        "a flow diagram",
+        "the diagram shows the path"
+      ],
+      "example_en_highlighted": "The **diagram** shows the path.",
+      "annotation_mode": "object",
+      "annotation_note": "白板中的完整节点与连线构成可定位示意图，不只截取其中一个空白框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers use a diagram to explain how an API handles a request and returns a response.",
+    "zh": "两名开发者借助示意图，解释接口接收请求并返回响应的数据流。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers use a diagram to explain how an API handles a request and returns a response.",
+    "zh": "两名开发者借助示意图，解释接口接收请求并返回响应的数据流。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you explain the data flow for this API?",
+      "zh": "你能解释一下这个接口的数据流吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "A request comes in, and the service reads the data from storage.",
+      "zh": "请求进入后，服务会从存储中读取数据。"
+    },
+    {
+      "speaker": "A",
+      "en": "Then it sends a response back to the client, right?",
+      "zh": "然后它会向客户端返回响应，对吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Exactly. The diagram shows the path.",
+      "zh": "没错。示意图展示了这条路径。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "按照请求、处理、响应的顺序解释接口。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers stand beside a wide whiteboard. Inside the whiteboard is ONE simple left-to-right connected flow diagram: a small blank laptop-shaped client icon at left, one rectangular service block in the center, one cylinder-shaped storage icon at right, and clear directional arrows linking them, including a return arrow. No letters, text, or numbers. One developer points at a connector while the other listens. Keep all nodes and arrows inside the board clear and unobstructed.",
+  "status": "approved",
+  "image_path": "images/inverted/W032.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W032 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W032.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T13:27:56Z",
+    "ended_at": "2026-10-04T13:31:45Z",
+    "prompt_path": "prompts/W032_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W032.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W032.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "25e93cef5e733e07fc72e9147a28d39825d528d5e51a6be817c9966fa14fe0de",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W032.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名同事解释白板上的客户端、服务、存储和双向箭头示意图。diagram框住完整图形，不框整块白板代替图形；请求、响应与数据流由对白和箭头结构共同提供语境。"
+  }
+}

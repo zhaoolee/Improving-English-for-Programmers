@@ -1,0 +1,256 @@
+{
+  "id": "W033",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "比较两种实现方案",
+  "keyword": "compare",
+  "scene": "两名开发者借助示意图，对比两种实现方案的速度和复杂度。",
+  "target_count": 4,
+  "primary_words": [
+    "compare",
+    "option",
+    "complexity",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "compare",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "比较",
+      "pos": "verb",
+      "ipa_us": "/kəmˈper/",
+      "ipa_uk": "/kəmˈpeə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let's compare the two options in this diagram.",
+        "matched_form": "compare",
+        "referent_region_verified": false,
+        "context": "比较行为由双人对白和示意图讨论支持，不能将某个静态图块单独框为compare。",
+        "image_verified": null
+      },
+      "example_en": "Let's compare the two options in this diagram.",
+      "example_zh": "我们比较一下这张示意图里的两种方案。",
+      "bbox_normalized": null,
+      "collocations": [
+        "compare two options",
+        "compare speed and complexity"
+      ],
+      "example_en_highlighted": "Let's **compare** the two options in this diagram.",
+      "annotation_mode": "context",
+      "annotation_note": "比较行为由双人对白和示意图讨论支持，不能将某个静态图块单独框为compare。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "option",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "方案",
+      "pos": "noun",
+      "ipa_us": "/ˈɑːpʃən/",
+      "ipa_uk": "/ˈɒpʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The first option is faster, but it adds complexity.",
+        "matched_form": "option",
+        "referent_region_verified": false,
+        "context": "此处option是实现方案，由对白定义；抽象路径不证明具体实现语义，保持无框。",
+        "image_verified": null
+      },
+      "example_en": "The first option is faster, but it adds complexity.",
+      "example_zh": "第一种方案更快，但会增加复杂度。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the first option",
+        "choose an option"
+      ],
+      "example_en_highlighted": "The first **option** is faster, but it adds complexity.",
+      "annotation_mode": "context",
+      "annotation_note": "此处option是实现方案，由对白定义；抽象路径不证明具体实现语义，保持无框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "complexity",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "复杂度",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/kəmˈpleksəti/",
+      "ipa_uk": "/kəmˈpleksɪti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The first option is faster, but it adds complexity.",
+        "matched_form": "complexity",
+        "referent_region_verified": false,
+        "context": "软件维护复杂度由对白评价，不用图块数目证明实际复杂度，不设框。",
+        "image_verified": null
+      },
+      "example_en": "The first option is faster, but it adds complexity.",
+      "example_zh": "第一种方案更快，但会增加复杂度。",
+      "bbox_normalized": null,
+      "collocations": [
+        "add complexity",
+        "reduce complexity"
+      ],
+      "example_en_highlighted": "The first option is faster, but it adds **complexity**.",
+      "annotation_mode": "context",
+      "annotation_note": "软件维护复杂度由对白评价，不用图块数目证明实际复杂度，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "示意图",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板上的上下两条方框箭头路径共同构成一张示意图，框选实际完整图形，排除整块白板。",
+        "sentence": "Let's compare the two options in this diagram.",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let's compare the two options in this diagram.",
+      "example_zh": "我们比较一下这张示意图里的两种方案。",
+      "bbox_normalized": [
+        0.3,
+        0.294,
+        0.7,
+        0.528
+      ],
+      "collocations": [
+        "in this diagram",
+        "an implementation diagram"
+      ],
+      "example_en_highlighted": "Let's compare the two options in this **diagram**.",
+      "annotation_mode": "object",
+      "annotation_note": "白板上的上下两条方框箭头路径共同构成一张示意图，框选实际完整图形，排除整块白板。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers compare the speed and complexity of two implementation options.",
+    "zh": "两名开发者借助示意图，对比两种实现方案的速度和复杂度。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers compare the speed and complexity of two implementation options.",
+    "zh": "两名开发者借助示意图，对比两种实现方案的速度和复杂度。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Let's compare the two options in this diagram.",
+      "zh": "我们比较一下这张示意图里的两种方案。"
+    },
+    {
+      "speaker": "B",
+      "en": "The first option is faster, but it adds complexity.",
+      "zh": "第一种方案更快，但会增加复杂度。"
+    },
+    {
+      "speaker": "A",
+      "en": "The second option is simpler to maintain. Is its speed good enough?",
+      "zh": "第二种方案更容易维护。它的速度够用吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Let's choose the second one for now.",
+      "zh": "够用。我们目前先选第二种。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "比较实现方案，并说明当前选择的依据。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers stand on opposite sides of a wide whiteboard. They compare ONE diagram composed of two vertically stacked abstract implementation paths: upper path with four small connected rectangles and a tiny extra branch; lower path with two larger connected rectangles. Only arrows and blank boxes, no words, no letters, no numbering. One developer points at the upper path, the other points at the lower path. Keep both paths entirely visible together in the middle of the board, framed as a single clear diagram with enough empty space below it for a learning label. No suggestion that exact runtime speed can be seen from the drawing.",
+  "status": "approved",
+  "image_path": "images/inverted/W033.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W033 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W033.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T14:09:01Z",
+    "ended_at": "2026-10-04T14:11:05Z",
+    "prompt_path": "prompts/W033_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W033.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W033.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "f6ceb9a46fd17afcf8ec841a0be92e9a83b9b54fc64d669c309406bdc051bc73",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W033.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：上下两条实现路径与上方额外分支构成完整示意图，同事分别指向两种方案。框住实际图形而非整个白板；速度与维护复杂度由对白评价，不由图块数量推断真实性能。"
+  }
+}

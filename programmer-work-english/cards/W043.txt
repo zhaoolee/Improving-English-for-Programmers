@@ -1,0 +1,120 @@
+W043  提出可选修改建议
+========================================================================
+分类: 开发与代码评审（development）
+关键词: suggestion
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W043.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W043.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W043.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T14:09:01Z → 2026-10-04T14:11:38Z
+  提示词文件: prompts/W043_image_final.txt
+
+场景: 评审同事提出一个可选的变量重命名建议，并用光标指出修改位置。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：屏幕中的鼠标箭头光标与抽象代码短线清楚分开；评审者用鼠标指出位置，代码作者回应。光标可独立裁剪；建议、重命名及可选属性由对白说明，不以无文字代码声称完成真实修改。
+
+沟通目标: 礼貌提出建议，明确它是可选修改。
+
+主配文（一句场景描述）:
+  英文: A reviewer offers an optional variable rename and points it out with the cursor.
+  中文: 评审同事提出一个可选的变量重命名建议，并用光标指出修改位置。
+
+角色与对白:
+  A = Reviewer 评审同事
+  B = Author 代码作者
+  [A] A small suggestion: could we rename this variable?
+        一个小建议：我们能给这个变量换个名字吗？
+  [B] Which one? Can you point to it with the cursor?
+        哪个变量？你能用光标指出它吗？
+  [A] This one. The shorter name would be easier to read.
+        这个。较短的名字会更容易阅读。
+  [B] That makes sense. It's optional, so you can keep the current name if it works better.
+        有道理。这是可选修改；如果当前名字更合适，也可以保留。
+
+目标词 (4): suggestion, rename, optional, cursor
+
+------------------------------------------------------------------------
+[1/4] suggestion
+  词义: 建议
+  词性: noun
+  音标: UK /səˈdʒestʃən/ | US /səˈdʒestʃən/
+  搭配: a small suggestion; make a suggestion
+  例句: A small suggestion: could we rename this variable?
+  例句高亮: A small **suggestion**: could we rename this variable?
+  例句中文: 一个小建议：我们能给这个变量换个名字吗？
+  标注模式: context
+  标注说明: 建议是一种沟通意图，由礼貌提问表达；不从人物姿势认定，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] rename
+  词义: 重命名
+  词性: verb
+  音标: UK /ˌriːˈneɪm/ | US /ˌriːˈneɪm/
+  搭配: rename a variable; rename a function
+  例句: A small suggestion: could we rename this variable?
+  例句高亮: A small suggestion: could we **rename** this variable?
+  例句中文: 一个小建议：我们能给这个变量换个名字吗？
+  标注模式: context
+  标注说明: 变量重命名由对白提出，静态抽象代码无前后名字对比，不设动作框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] optional
+  词义: 可选的
+  词性: adjective
+  音标: UK /ˈɒpʃənəl/ | US /ˈɑːpʃənəl/
+  搭配: an optional change; it's optional
+  例句: It's optional, so you can keep the current name if it works better.
+  例句高亮: It's **optional**, so you can keep the current name if it works better.
+  例句中文: 这是可选修改；如果当前名字更合适，也可以保留。
+  标注模式: context
+  标注说明: 修改非强制的属性由对白明确说明，不把光标或代码块等同于optional。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] cursor
+  词义: 光标
+  词性: noun
+  音标: UK /ˈkɜːsə/ | US /ˈkɜːrsər/
+  搭配: point with the cursor; move the cursor
+  例句: Can you point to it with the cursor?
+  例句高亮: Can you point to it with the **cursor**?
+  例句中文: 你能用光标指出它吗？
+  标注模式: object
+  标注说明: 显示屏上独立、箭头形的鼠标光标可局部定位；具体变量由对白设定，插图不含真实代码。
+  坐标(normalized): [0.568, 0.344, 0.614, 0.407]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W043 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=24 | meta.approved_cards=24
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers sit beside a desktop monitor doing a friendly code review. The reviewer on the left has one hand on a computer mouse, the author on the right listens with a relaxed open-hand gesture. On the monitor, draw sparse abstract code-like horizontal marks and ONE large, sharply recognizable arrow-shaped mouse cursor over an empty gap near the middle-right. Cursor is a black outlined classic diagonal arrow with white interior, visually distinct from code marks and not touching them. Keep the cursor entirely visible and large enough for a local learning crop. No letters, readable code, or text.
+

@@ -1,0 +1,130 @@
+{
+  "filename": "W043-提出可选修改建议.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "suggestion",
+      "chinese": "建议",
+      "phoneticUS": "/səˈdʒestʃən/",
+      "phoneticUK": "/səˈdʒestʃən/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "建议是一种沟通意图，由礼貌提问表达；不从人物姿势认定，不设框。",
+        "association": "建议是一种沟通意图，由礼貌提问表达；不从人物姿势认定，不设框。",
+        "collocation": "a small suggestion; make a suggestion",
+        "example": "A: A small suggestion: could we rename this variable?\nB: Which one? Can you point to it with the cursor?\nA: This one. The shorter name would be easier to read.\nB: That makes sense. It's optional, so you can keep the current name if it works better.",
+        "exampleChinese": "A: 一个小建议：我们能给这个变量换个名字吗？\nB: 哪个变量？你能用光标指出它吗？\nA: 这个。较短的名字会更容易阅读。\nB: 有道理。这是可选修改；如果当前名字更合适，也可以保留。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "rename",
+      "chinese": "重命名",
+      "phoneticUS": "/ˌriːˈneɪm/",
+      "phoneticUK": "/ˌriːˈneɪm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "变量重命名由对白提出，静态抽象代码无前后名字对比，不设动作框。",
+        "association": "变量重命名由对白提出，静态抽象代码无前后名字对比，不设动作框。",
+        "collocation": "rename a variable; rename a function",
+        "example": "A small suggestion: could we rename this variable?",
+        "exampleChinese": "一个小建议：我们能给这个变量换个名字吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "optional",
+      "chinese": "可选的",
+      "phoneticUS": "/ˈɑːpʃənəl/",
+      "phoneticUK": "/ˈɒpʃənəl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "修改非强制的属性由对白明确说明，不把光标或代码块等同于optional。",
+        "association": "修改非强制的属性由对白明确说明，不把光标或代码块等同于optional。",
+        "collocation": "an optional change; it's optional",
+        "example": "It's optional, so you can keep the current name if it works better.",
+        "exampleChinese": "这是可选修改；如果当前名字更合适，也可以保留。"
+      }
+    },
+    {
+      "x": 588,
+      "y": 378,
+      "english": "cursor",
+      "chinese": "光标",
+      "phoneticUS": "/ˈkɜːrsər/",
+      "phoneticUK": "/ˈkɜːsə/",
+      "bubblePosition": {
+        "x": 590,
+        "y": 205
+      },
+      "anchorPosition": {
+        "x": 588,
+        "y": 378
+      },
+      "boundingBox": {
+        "left": 568,
+        "top": 344,
+        "right": 614,
+        "bottom": 407
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示屏上独立、箭头形的鼠标光标可局部定位；具体变量由对白设定，插图不含真实代码。",
+        "association": "显示屏上独立、箭头形的鼠标光标可局部定位；具体变量由对白设定，插图不含真实代码。",
+        "collocation": "point with the cursor; move the cursor",
+        "example": "Can you point to it with the cursor?",
+        "exampleChinese": "你能用光标指出它吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A reviewer offers an optional variable rename and points it out with the cursor.",
+    "chinese": "评审同事提出一个可选的变量重命名建议，并用光标指出修改位置。",
+    "source": "原创对话 · W043 提出可选修改建议",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

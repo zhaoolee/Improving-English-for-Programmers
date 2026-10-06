@@ -1,0 +1,256 @@
+{
+  "id": "W034",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "讨论性能瓶颈",
+  "keyword": "bottleneck",
+  "scene": "两名开发者根据测量结果讨论性能瓶颈。",
+  "target_count": 4,
+  "primary_words": [
+    "bottleneck",
+    "latency",
+    "measure",
+    "graph"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "bottleneck",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "瓶颈",
+      "pos": "noun",
+      "ipa_us": "/ˈbɑːtlnek/",
+      "ipa_uk": "/ˈbɒtlnek/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could the database be the bottleneck?",
+        "matched_form": "bottleneck",
+        "referent_region_verified": false,
+        "context": "数据库是否瓶颈仍是假设，峰值不能单独证明因果关系。",
+        "image_verified": null
+      },
+      "example_en": "Could the database be the bottleneck?",
+      "example_zh": "数据库会是瓶颈吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a performance bottleneck",
+        "identify a bottleneck"
+      ],
+      "example_en_highlighted": "Could the database be the **bottleneck**?",
+      "annotation_mode": "context",
+      "annotation_note": "数据库是否瓶颈仍是假设，峰值不能单独证明因果关系。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "latency",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "延迟",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ˈleɪtənsi/",
+      "ipa_uk": "/ˈleɪtənsi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Possibly. Let's measure latency before we change anything.",
+        "matched_form": "latency",
+        "referent_region_verified": false,
+        "context": "延迟是时间量，无轴标签示意图不能当真实测量值。",
+        "image_verified": null
+      },
+      "example_en": "Possibly. Let's measure latency before we change anything.",
+      "example_zh": "有可能。修改之前，我们先测量延迟。",
+      "bbox_normalized": null,
+      "collocations": [
+        "measure latency",
+        "request latency"
+      ],
+      "example_en_highlighted": "Possibly. Let's measure **latency** before we change anything.",
+      "annotation_mode": "context",
+      "annotation_note": "延迟是时间量，无轴标签示意图不能当真实测量值。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "measure",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "测量",
+      "pos": "verb",
+      "ipa_us": "/ˈmeʒər/",
+      "ipa_uk": "/ˈmeʒə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Possibly. Let's measure latency before we change anything.",
+        "matched_form": "measure",
+        "referent_region_verified": false,
+        "context": "测量是后续建议，没有具体测量动作证据。",
+        "image_verified": null
+      },
+      "example_en": "Possibly. Let's measure latency before we change anything.",
+      "example_zh": "有可能。修改之前，我们先测量延迟。",
+      "bbox_normalized": null,
+      "collocations": [
+        "measure latency",
+        "measure performance"
+      ],
+      "example_en_highlighted": "Possibly. Let's **measure** latency before we change anything.",
+      "annotation_mode": "context",
+      "annotation_note": "测量是后续建议，没有具体测量动作证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "graph",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "图表",
+      "pos": "noun",
+      "ipa_us": "/ɡræf/",
+      "ipa_uk": "/ɡrɑːf/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "板上的折线图可定位；与数据库调用的关联由对白设定。",
+        "sentence": "The graph shows a spike during database calls.",
+        "matched_form": "graph",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The graph shows a spike during database calls.",
+      "example_zh": "这张图显示数据库调用期间出现了峰值。",
+      "bbox_normalized": [
+        0.227,
+        0.207,
+        0.773,
+        0.583
+      ],
+      "collocations": [
+        "a line graph",
+        "the graph shows"
+      ],
+      "example_en_highlighted": "The **graph** shows a spike during database calls.",
+      "annotation_mode": "object",
+      "annotation_note": "板上的折线图可定位；与数据库调用的关联由对白设定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers use measurements to discuss a performance bottleneck.",
+    "zh": "两名开发者根据测量结果讨论性能瓶颈。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers use measurements to discuss a performance bottleneck.",
+    "zh": "两名开发者根据测量结果讨论性能瓶颈。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could the database be the bottleneck?",
+      "zh": "数据库会是瓶颈吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Possibly. Let's measure latency before we change anything.",
+      "zh": "有可能。修改之前，我们先测量延迟。"
+    },
+    {
+      "speaker": "A",
+      "en": "The graph shows a spike during database calls.",
+      "zh": "这张图显示数据库调用期间出现了峰值。"
+    },
+    {
+      "speaker": "B",
+      "en": "Then compare those calls with the total request time.",
+      "zh": "那么，把这些调用耗时和请求总耗时比较一下。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先测量延迟，再判断优化对象，避免凭感觉归因。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures beside a large wall-mounted graph board centered, clean single line graph with horizontal and vertical axes, one prominent peak midway. NO axis numbers or words. Left developer gestures toward peak without covering it, right colleague holds open palm thoughtfully. Entire plotted graph and rectangular board visible. No other charts or clock.",
+  "status": "approved",
+  "image_path": "images/inverted/W034.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-05",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W034 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-05",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W034.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T08:00:21.265Z",
+    "ended_at": "2026-10-05T08:00:44.238Z",
+    "prompt_path": "prompts/W034_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W034.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W034.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "bfd44c6f684b975a1836cdcfa4072ab3c82438375628cecae40294772dc598b2",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W034.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名开发者讨论性能测量，中央图板完整，单峰曲线与两轴清楚，无数字或文字；手势避开峰值。数据库是否瓶颈仍为假设，不用示意曲线证明因果。"
+  }
+}

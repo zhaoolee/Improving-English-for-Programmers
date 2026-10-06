@@ -1,0 +1,256 @@
+{
+  "id": "W064",
+  "category": "operations",
+  "category_title": "发布与线上协作",
+  "chapter": "发布与线上协作",
+  "title": "响应线上告警",
+  "keyword": "alert",
+  "scene": "两名同事确认收到线上告警，并开始调查问题。",
+  "target_count": 4,
+  "primary_words": [
+    "alert",
+    "acknowledge",
+    "investigate",
+    "phone"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "alert",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "告警",
+      "pos": "noun",
+      "ipa_us": "/əˈlɜːrt/",
+      "ipa_uk": "/əˈlɜːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "An alert just appeared on my phone.",
+        "matched_form": "alert",
+        "referent_region_verified": false,
+        "context": "告警由对白确认，三角图标不能证明真实事件或具体告警内容。",
+        "image_verified": null
+      },
+      "example_en": "An alert just appeared on my phone.",
+      "example_zh": "我的手机刚刚收到了告警。",
+      "bbox_normalized": null,
+      "collocations": [
+        "acknowledge an alert",
+        "an alert appeared"
+      ],
+      "example_en_highlighted": "An **alert** just appeared on my phone.",
+      "annotation_mode": "context",
+      "annotation_note": "告警由对白确认，三角图标不能证明真实事件或具体告警内容。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "acknowledge",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "确认接手",
+      "pos": "verb",
+      "ipa_us": "/əkˈnɑːlɪdʒ/",
+      "ipa_uk": "/əkˈnɒlɪdʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Please acknowledge it. I'll investigate the error rate.",
+        "matched_form": "acknowledge",
+        "referent_region_verified": false,
+        "context": "此处是确认收到并接手告警而非承认过错，确认动作尚为请求。",
+        "image_verified": null
+      },
+      "example_en": "Please acknowledge it. I'll investigate the error rate.",
+      "example_zh": "请先确认接手。我来调查错误率。",
+      "bbox_normalized": null,
+      "collocations": [
+        "acknowledge an alert",
+        "acknowledge receipt"
+      ],
+      "example_en_highlighted": "Please **acknowledge** it. I'll investigate the error rate.",
+      "annotation_mode": "context",
+      "annotation_note": "此处是确认收到并接手告警而非承认过错，确认动作尚为请求。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "investigate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "调查",
+      "pos": "verb",
+      "ipa_us": "/ɪnˈvestɪɡeɪt/",
+      "ipa_uk": "/ɪnˈvestɪɡeɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Please acknowledge it. I'll investigate the error rate.",
+        "matched_form": "investigate",
+        "referent_region_verified": false,
+        "context": "调查是后续诊断工作，电脑姿态不足以定位具体调查动作。",
+        "image_verified": null
+      },
+      "example_en": "Please acknowledge it. I'll investigate the error rate.",
+      "example_zh": "请先确认接手。我来调查错误率。",
+      "bbox_normalized": null,
+      "collocations": [
+        "investigate an issue",
+        "investigate the error rate"
+      ],
+      "example_en_highlighted": "Please acknowledge it. I'll **investigate** the error rate.",
+      "annotation_mode": "context",
+      "annotation_note": "调查是后续诊断工作，电脑姿态不足以定位具体调查动作。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "phone",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "手机",
+      "pos": "noun",
+      "ipa_us": "/foʊn/",
+      "ipa_uk": "/fəʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "人物手持的完整手机可框选；告警内容由对白设定。",
+        "sentence": "An alert just appeared on my phone.",
+        "matched_form": "phone",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "An alert just appeared on my phone.",
+      "example_zh": "我的手机刚刚收到了告警。",
+      "bbox_normalized": [
+        0.383,
+        0.277,
+        0.45,
+        0.401
+      ],
+      "collocations": [
+        "on my phone",
+        "check a phone"
+      ],
+      "example_en_highlighted": "An alert just appeared on my **phone**.",
+      "annotation_mode": "object",
+      "annotation_note": "人物手持的完整手机可框选；告警内容由对白设定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two teammates acknowledge an alert and begin investigating a live issue.",
+    "zh": "两名同事确认收到线上告警，并开始调查问题。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two teammates acknowledge an alert and begin investigating a live issue.",
+    "zh": "两名同事确认收到线上告警，并开始调查问题。"
+  },
+  "roles": {
+    "A": "On-call developer 值班开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "An alert just appeared on my phone.",
+      "zh": "我的手机刚刚收到了告警。"
+    },
+    {
+      "speaker": "B",
+      "en": "Please acknowledge it. I'll investigate the error rate.",
+      "zh": "请先确认接手。我来调查错误率。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll check recent changes and keep you updated.",
+      "zh": "我会检查近期变更，并及时同步情况。"
+    },
+    {
+      "speaker": "B",
+      "en": "Good. Tell the team if users are affected.",
+      "zh": "好。如果用户受到影响，请通知团队。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先确认接手告警，再分配调查和通知任务。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers beside desk. Left on-call developer holds fully visible smartphone upright at chest height near center, almost front-facing. Screen contains only warning triangle with exclamation mark, no letters or numbers. Right coworker at open laptop looks toward phone and gestures calmly. Phone has speaker and rounded rectangular body, no hand over screen. Coordinated response, not panic.",
+  "status": "approved",
+  "image_path": "images/inverted/W064.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-05",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W064 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-05",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W064.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T08:00:21.265Z",
+    "ended_at": "2026-10-05T08:03:14.605Z",
+    "prompt_path": "prompts/W064_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W064.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W064.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "997d64f7b2c319844be70f0627f8c4c8aabf88b9a504817da2177fb2b50552ea",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W064.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：值班同事展示完整手机，另一位同事准备调查；屏幕只有警告符号，具体告警、接手与调查由对白提供，不冒充已完成诊断。手机边框完整，手只握边缘。 布局复核：phone 气泡已避让右脸避让矩形与手势，已核对避让手势/人脸。"
+  }
+}

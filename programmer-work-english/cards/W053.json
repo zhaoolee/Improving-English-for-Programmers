@@ -1,0 +1,256 @@
+{
+  "id": "W053",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "请求日志与截图",
+  "keyword": "log",
+  "scene": "开发者请测试同事提供截图，以及包含错误时间戳的相关日志行。",
+  "target_count": 4,
+  "primary_words": [
+    "log",
+    "attach",
+    "timestamp",
+    "screenshot"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "log",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "日志",
+      "pos": "noun",
+      "ipa_us": "/lɑːɡ/",
+      "ipa_uk": "/lɒɡ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you attach the log and a screenshot to the bug report?",
+        "matched_form": "log",
+        "referent_region_verified": false,
+        "context": "技术日志及其相关行由对白请求，抽象屏幕短线不是可核验的日志内容，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Could you attach the log and a screenshot to the bug report?",
+      "example_zh": "你能把日志和一张截图附到缺陷报告里吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "attach a log",
+        "relevant log lines"
+      ],
+      "example_en_highlighted": "Could you attach the **log** and a screenshot to the bug report?",
+      "annotation_mode": "context",
+      "annotation_note": "技术日志及其相关行由对白请求，抽象屏幕短线不是可核验的日志内容，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "attach",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "附上",
+      "pos": "verb",
+      "ipa_us": "/əˈtætʃ/",
+      "ipa_uk": "/əˈtætʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you attach the log and a screenshot to the bug report?",
+        "matched_form": "attach",
+        "referent_region_verified": false,
+        "context": "此处attach指报告附件操作，由对白表达，纸面递交不当成已完成文件上传，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Could you attach the log and a screenshot to the bug report?",
+      "example_zh": "你能把日志和一张截图附到缺陷报告里吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "attach a screenshot",
+        "attach files to a report"
+      ],
+      "example_en_highlighted": "Could you **attach** the log and a screenshot to the bug report?",
+      "annotation_mode": "context",
+      "annotation_note": "此处attach指报告附件操作，由对白表达，纸面递交不当成已完成文件上传，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "timestamp",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "时间戳",
+      "pos": "noun",
+      "ipa_us": "/ˈtaɪmstæmp/",
+      "ipa_uk": "/ˈtaɪmstæmp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Just the lines around the error, with the timestamp.",
+        "matched_form": "timestamp",
+        "referent_region_verified": false,
+        "context": "时间戳是日志中的时间信息，由对白要求保留；无文字底图没有真实时间戳，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Just the lines around the error, with the timestamp.",
+      "example_zh": "只要错误前后几行，并保留时间戳。",
+      "bbox_normalized": null,
+      "collocations": [
+        "with the timestamp",
+        "an error timestamp"
+      ],
+      "example_en_highlighted": "Just the lines around the error, with the **timestamp**.",
+      "annotation_mode": "context",
+      "annotation_note": "时间戳是日志中的时间信息，由对白要求保留；无文字底图没有真实时间戳，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "screenshot",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "截图",
+      "pos": "noun",
+      "ipa_us": "/ˈskriːnʃɑːt/",
+      "ipa_uk": "/ˈskriːnʃɒt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "带浏览器界面框和对话框的纸质截图是可见局部指代，框住整个截图纸面。",
+        "sentence": "I'll include this screenshot and the relevant lines.",
+        "matched_form": "screenshot",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll include this screenshot and the relevant lines.",
+      "example_zh": "我会附上这张截图和相关日志行。",
+      "bbox_normalized": [
+        0.398,
+        0.407,
+        0.688,
+        0.598
+      ],
+      "collocations": [
+        "attach a screenshot",
+        "include this screenshot"
+      ],
+      "example_en_highlighted": "I'll include this **screenshot** and the relevant lines.",
+      "annotation_mode": "object",
+      "annotation_note": "带浏览器界面框和对话框的纸质截图是可见局部指代，框住整个截图纸面。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer asks a tester to attach a screenshot and the relevant log lines.",
+    "zh": "开发者请测试同事提供截图，以及包含错误时间戳的相关日志行。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer asks a tester to attach a screenshot and the relevant log lines.",
+    "zh": "开发者请测试同事提供截图，以及包含错误时间戳的相关日志行。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Tester 测试同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you attach the log and a screenshot to the bug report?",
+      "zh": "你能把日志和一张截图附到缺陷报告里吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. Do you need the full log?",
+      "zh": "可以。你需要完整日志吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "Just the lines around the error, with the timestamp.",
+      "zh": "只要错误前后几行，并保留时间戳。"
+    },
+    {
+      "speaker": "B",
+      "en": "Got it. I'll include this screenshot and the relevant lines.",
+      "zh": "明白。我会附上这张截图和相关日志行。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "明确请求排查材料的范围和需要保留的时间信息。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers stand at a small desk discussing a bug report. The tester on the right presents a clearly visible large paper printout showing a screenshot of a generic browser window with a blank rectangular dialog and small abstract control shapes. The developer on the left points to the printout while holding a pen. The whole screenshot printout rests centrally on the desk with a clear paper margin and no hands covering the browser frame. A desktop monitor in the background has only short abstract rows. No readable logs, dates, numbers, letters, code, or captions.",
+  "status": "approved",
+  "image_path": "images/inverted/W053.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W053 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W053.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T14:09:01Z",
+    "ended_at": "2026-10-04T14:12:24Z",
+    "prompt_path": "prompts/W053_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W053.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W053.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "e0e2f4cd1379104b10181a5c81c03f5bcaffaf5290d9388781a809fcf65bd1c3",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W053.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：测试同事展示纸质界面截图，外缘、浏览器边框与提示框完整，开发者请求排查信息。截图局部可定位；日志、附件操作和时间戳由对白明确说明，无文字的背景屏幕不证明真实日志。"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "note": "程序员工作英语场景卡片标注调色板。backgroundColor 为写入工作台的给定背景色；textColor 统一 #FFFFFF。renderedTint 由 PicLex deck-workbench/src/palette.mjs 的 labelStyle 计算，仅供展示审查，不是写入值。",
+  "textColor": "#FFFFFF",
+  "colors": {
+    "blue": {
+      "name": "blue",
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#224C73",
+      "renderedText": "#FFFFFF"
+    },
+    "teal": {
+      "name": "teal",
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#18524B",
+      "renderedText": "#FFFFFF"
+    },
+    "sage": {
+      "name": "sage",
+      "backgroundColor": "#79986E",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#295419",
+      "renderedText": "#FFFFFF"
+    },
+    "rose": {
+      "name": "rose",
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#802641",
+      "renderedText": "#FFFFFF"
+    },
+    "lavender": {
+      "name": "lavender",
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#452680",
+      "renderedText": "#FFFFFF"
+    },
+    "violet": {
+      "name": "violet",
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#442680",
+      "renderedText": "#FFFFFF"
+    },
+    "amber": {
+      "name": "amber",
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#5E451C",
+      "renderedText": "#FFFFFF"
+    },
+    "ochre": {
+      "name": "ochre",
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#694216",
+      "renderedText": "#FFFFFF"
+    },
+    "indigo": {
+      "name": "indigo",
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#263F80",
+      "renderedText": "#FFFFFF"
+    }
+  },
+  "mapping": {
+    "W001": {
+      "introduce": "blue",
+      "desk": "teal",
+      "laptop": "rose",
+      "access": "lavender"
+    },
+    "W011": {
+      "clarify": "blue",
+      "requirement": "lavender",
+      "button": "teal",
+      "screen": "rose"
+    },
+    "W021": {
+      "priority": "blue",
+      "issue": "lavender",
+      "deadline": "rose",
+      "board": "teal"
+    },
+    "W031": {
+      "trade-off": "blue",
+      "cache": "lavender",
+      "latency": "rose",
+      "diagram": "teal"
+    },
+    "W041": {
+      "review": "blue",
+      "change": "lavender",
+      "suggest": "rose",
+      "laptop": "teal"
+    },
+    "W051": {
+      "reproduce": "blue",
+      "error": "lavender",
+      "browser": "teal",
+      "screenshot": "rose"
+    },
+    "W061": {
+      "rollback": "blue",
+      "deployment": "lavender",
+      "impact": "rose",
+      "monitor": "teal"
+    },
+    "W071": {
+      "feedback": "blue",
+      "improve": "lavender",
+      "goal": "rose",
+      "notebook": "teal"
+    },
+    "W002": {
+      "experience": "blue",
+      "backend": "lavender",
+      "project": "rose",
+      "laptop": "teal"
+    },
+    "W012": {
+      "example": "blue",
+      "filter": "lavender",
+      "calendar": "rose",
+      "screen": "teal"
+    },
+    "W022": {
+      "progress": "blue",
+      "blocker": "lavender",
+      "test": "rose",
+      "board": "teal"
+    },
+    "W032": {
+      "flow": "blue",
+      "request": "lavender",
+      "response": "rose",
+      "diagram": "teal"
+    },
+    "W042": {
+      "refactor": "blue",
+      "duplicate": "lavender",
+      "function": "rose",
+      "laptop": "teal"
+    },
+    "W052": {
+      "expected": "blue",
+      "actual": "lavender",
+      "result": "rose",
+      "screenshot": "teal"
+    },
+    "W062": {
+      "checklist": "blue",
+      "backup": "lavender",
+      "release": "rose",
+      "tablet": "teal"
+    },
+    "W072": {
+      "goal": "blue",
+      "practice": "lavender",
+      "meeting": "rose",
+      "notebook": "teal"
+    },
+    "W003": {
+      "permission": "blue",
+      "invite": "lavender",
+      "repository": "rose",
+      "laptop": "teal"
+    },
+    "W013": {
+      "required": "blue",
+      "optional": "lavender",
+      "feature": "rose",
+      "checkbox": "teal"
+    },
+    "W023": {
+      "blocked": "blue",
+      "dependency": "lavender",
+      "estimate": "rose",
+      "phone": "teal"
+    },
+    "W033": {
+      "compare": "blue",
+      "option": "lavender",
+      "complexity": "rose",
+      "diagram": "teal"
+    },
+    "W043": {
+      "suggestion": "blue",
+      "rename": "lavender",
+      "optional": "rose",
+      "cursor": "teal"
+    },
+    "W053": {
+      "log": "blue",
+      "attach": "lavender",
+      "timestamp": "rose",
+      "screenshot": "teal"
+    },
+    "W063": {
+      "notify": "blue",
+      "schedule": "lavender",
+      "deployment": "rose",
+      "clock": "teal"
+    },
+    "W073": {
+      "lesson": "blue",
+      "share": "lavender",
+      "approach": "rose",
+      "notebook": "teal"
+    },
+    "W004": {
+      "setup": "blue",
+      "dependency": "lavender",
+      "install": "rose",
+      "keyboard": "teal"
+    },
+    "W014": {
+      "empty": "blue",
+      "validate": "lavender",
+      "message": "rose",
+      "field": "teal"
+    },
+    "W024": {
+      "estimate": "blue",
+      "effort": "lavender",
+      "deadline": "rose",
+      "calendar": "teal"
+    },
+    "W034": {
+      "bottleneck": "blue",
+      "latency": "lavender",
+      "measure": "rose",
+      "graph": "teal"
+    },
+    "W044": {
+      "required": "blue",
+      "address": "lavender",
+      "comment": "rose",
+      "checklist": "teal"
+    },
+    "W054": {
+      "environment": "blue",
+      "version": "lavender",
+      "browser": "rose",
+      "screenshot": "teal"
+    },
+    "W064": {
+      "alert": "blue",
+      "acknowledge": "lavender",
+      "investigate": "rose",
+      "phone": "teal"
+    },
+    "W074": {
+      "advice": "blue",
+      "mentor": "lavender",
+      "improve": "rose",
+      "notebook": "teal"
+    },
+    "W005": {
+      "background": "blue",
+      "purpose": "lavender",
+      "overview": "rose",
+      "diagram": "teal"
+    },
+    "W015": {
+      "criteria": "blue",
+      "acceptance": "lavender",
+      "confirmation": "rose",
+      "checkmark": "teal"
+    },
+    "W025": {
+      "extension": "blue",
+      "deadline": "lavender",
+      "scope": "rose",
+      "calendar": "teal"
+    },
+    "W035": {
+      "consistency": "blue",
+      "immediately": "lavender",
+      "stale": "rose",
+      "phone": "teal"
+    },
+    "W045": {
+      "naming": "blue",
+      "descriptive": "lavender",
+      "rename": "rose",
+      "keyboard": "teal"
+    },
+    "W055": {
+      "intermittent": "blue",
+      "pattern": "lavender",
+      "timing": "rose",
+      "headphones": "teal"
+    },
+    "W065": {
+      "impact": "blue",
+      "affected": "lavender",
+      "workaround": "rose",
+      "phone": "teal"
+    },
+    "W075": {
+      "workload": "blue",
+      "capacity": "lavender",
+      "delegate": "rose",
+      "notebook": "teal"
+    },
+    "W006": {
+      "ownership": "blue",
+      "responsibility": "lavender",
+      "maintain": "rose",
+      "board": "teal"
+    },
+    "W016": {
+      "role": "blue",
+      "viewer": "lavender",
+      "edit": "rose",
+      "laptop": "teal"
+    },
+    "W026": {
+      "split": "blue",
+      "smaller": "lavender",
+      "independent": "rose",
+      "note": "teal"
+    },
+    "W036": {
+      "fallback": "blue",
+      "timeout": "lavender",
+      "retry": "rose",
+      "monitor": "teal"
+    },
+    "W046": {
+      "approach": "blue",
+      "driver": "lavender",
+      "navigator": "rose",
+      "keyboard": "teal"
+    },
+    "W056": {
+      "hypothesis": "blue",
+      "verify": "lavender",
+      "isolate": "rose",
+      "cable": "teal"
+    },
+    "W066": {
+      "coordinate": "blue",
+      "incident": "lavender",
+      "update": "rose",
+      "headset": "teal"
+    },
+    "W076": {
+      "focus": "blue",
+      "interrupt": "lavender",
+      "available": "rose",
+      "timer": "teal"
+    }
+  },
+  "wordsTotal": 192
+}

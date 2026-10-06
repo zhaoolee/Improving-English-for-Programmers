@@ -1,0 +1,120 @@
+W014  讨论输入为空的情况
+========================================================================
+分类: 需求澄清（requirements）
+关键词: empty
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-05）
+图片状态: generated
+图片路径: images/W014.png
+复核日期: 2026-10-05
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W014.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W014.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T08:00:21.265Z → 2026-10-05T08:01:07.681Z
+  提示词文件: prompts/W014_image_final.txt
+
+场景: 开发者确认表单遇到空输入框时应如何处理。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两人讨论空输入的行为，中央屏幕有完整大空白输入框和独立提示图标，无文字。左侧指尖触及输入框边界少量区域，不遮挡空白内容；具体校验与提示文案由对白约定。
+
+沟通目标: 确认空输入的校验行为与提示文案。
+
+主配文（一句场景描述）:
+  英文: A developer clarifies how a form should handle an empty field.
+  中文: 开发者确认表单遇到空输入框时应如何处理。
+
+角色与对白:
+  A = Developer 开发者
+  B = Product teammate 产品同事
+  [A] What should happen when this field is empty?
+        这个输入框为空时应该怎样处理？
+  [B] Validate it before submission and show a message.
+        提交前校验，并显示提示信息。
+  [A] Should the message explain which value is missing?
+        提示信息应该说明缺少哪个值吗？
+  [B] Yes. Keep it specific and leave the field easy to find.
+        是的。提示要具体，并让这个输入框容易找到。
+
+目标词 (4): empty, validate, message, field
+
+------------------------------------------------------------------------
+[1/4] empty
+  词义: 空的
+  词性: adjective
+  音标: UK /ˈempti/ | US /ˈempti/
+  搭配: an empty field; leave a field empty
+  例句: What should happen when this field is empty?
+  例句高亮: What should happen when this field is **empty**?
+  例句中文: 这个输入框为空时应该怎样处理？
+  标注模式: context
+  标注说明: 对白讨论空值条件，输入框另用field定位，不为校验条件编造对象框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] validate
+  词义: 校验
+  词性: verb
+  音标: UK /ˈvælɪdeɪt/ | US /ˈvælɪdeɪt/
+  搭配: validate input; validate a field
+  例句: Validate it before submission and show a message.
+  例句高亮: **Validate** it before submission and show a message.
+  例句中文: 提交前校验，并显示提示信息。
+  标注模式: context
+  标注说明: 校验规则由对白约定，图标不能证明校验已执行。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] message
+  词义: 提示信息
+  词性: noun
+  音标: UK /ˈmesɪdʒ/ | US /ˈmesɪdʒ/
+  搭配: show a message; an error message
+  例句: Should the message explain which value is missing?
+  例句高亮: Should the **message** explain which value is missing?
+  例句中文: 提示信息应该说明缺少哪个值吗？
+  标注模式: context
+  标注说明: 底图无文字，不把感叹号冒充具体提示文案。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] field
+  词义: 输入框
+  词性: noun
+  音标: UK /fiːld/ | US /fiːld/
+  搭配: an input field; a required field
+  例句: What should happen when this field is empty?
+  例句高亮: What should happen when this **field** is empty?
+  例句中文: 这个输入框为空时应该怎样处理？
+  标注模式: object
+  标注说明: 屏幕内完整空白圆角输入框是field的局部指代区域。
+  坐标(normalized): [0.34, 0.373, 0.659, 0.439]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W014 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=32 | meta.approved_cards=32
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures facing a large front-facing desktop monitor centered on a desk. Screen displays only ONE large rounded rectangular EMPTY input field, a small unlabeled rounded submit button below it and a simple exclamation icon away from the field. Left person points at the blank field, right person explains with open palm. Field border fully visible, blank inside. Make field large enough to crop independently.
+

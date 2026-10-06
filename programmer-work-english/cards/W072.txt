@@ -1,0 +1,120 @@
+W072  一对一讨论成长目标
+========================================================================
+分类: 反馈与职业成长（growth）
+关键词: goal
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W072.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W072.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W072.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T13:27:56Z → 2026-10-04T13:31:45Z
+  提示词文件: prompts/W072_image_final.txt
+
+场景: 开发者与导师在一对一交流中，确定练习清晰表达技术方案的成长目标。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名同事在圆桌旁一对一讨论成长，前景打开的双页笔记本完整可见。成长目标和练习由对白说明；meeting例句明确指未来团队会议，不以当前两人交谈假称完整团队会议。
+
+沟通目标: 提出成长目标，并约定可执行的练习和复盘时间。
+
+主配文（一句场景描述）:
+  英文: A developer and a mentor agree on a goal for practicing clearer technical explanations.
+  中文: 开发者与导师在一对一交流中，确定练习清晰表达技术方案的成长目标。
+
+角色与对白:
+  A = Developer 开发者
+  B = Mentor 导师
+  [A] My goal is to explain technical decisions more clearly.
+        我的目标是把技术决策解释得更清楚。
+  [B] What would help you practice that?
+        怎样的练习能帮助你做到这一点？
+  [A] I'll lead one short discussion in each team meeting and take notes in this notebook.
+        我会在每次团队会议中主持一次简短讨论，并在这本笔记本里记下要点。
+  [B] That sounds realistic. Let's review your progress in two weeks.
+        这很实际。我们两周后回顾一下你的进展。
+
+目标词 (4): goal, practice, meeting, notebook
+
+------------------------------------------------------------------------
+[1/4] goal
+  词义: 目标
+  词性: noun
+  音标: UK /ɡəʊl/ | US /ɡoʊl/
+  搭配: set a goal; my goal is to
+  例句: My goal is to explain technical decisions more clearly.
+  例句高亮: My **goal** is to explain technical decisions more clearly.
+  例句中文: 我的目标是把技术决策解释得更清楚。
+  标注模式: context
+  标注说明: 成长目标由对白明确提出，不能从人物表情或笔记本外观推断，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] practice
+  词义: 练习
+  词性: verb
+  音标: UK /ˈpræktɪs/ | US /ˈpræktɪs/
+  搭配: practice explaining decisions; help someone practice
+  例句: What would help you practice that?
+  例句高亮: What would help you **practice** that?
+  例句中文: 怎样的练习能帮助你做到这一点？
+  标注模式: context
+  标注说明: 此处practice为美式动词拼写，对应对白中的练习行动；静态谈话不证明已进行练习。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] meeting
+  词义: 会议
+  词性: noun
+  音标: UK /ˈmiːtɪŋ/ | US /ˈmiːtɪŋ/
+  搭配: a team meeting; in each meeting
+  例句: I'll lead one short discussion in each team meeting and take notes in this notebook.
+  例句高亮: I'll lead one short discussion in each team **meeting** and take notes in this notebook.
+  例句中文: 我会在每次团队会议中主持一次简短讨论，并在这本笔记本里记下要点。
+  标注模式: context
+  标注说明: 此词指未来的团队会议，不是当前一对一画面本身，保持无框语境词。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] notebook
+  词义: 笔记本
+  词性: noun
+  音标: UK /ˈnəʊtbʊk/ | US /ˈnoʊtbʊk/
+  搭配: in this notebook; take notes in a notebook
+  例句: I'll lead one short discussion in each team meeting and take notes in this notebook.
+  例句高亮: I'll lead one short discussion in each team meeting and take notes in this **notebook**.
+  例句中文: 我会在每次团队会议中主持一次简短讨论，并在这本笔记本里记下要点。
+  标注模式: object
+  标注说明: 桌上的双页纸质笔记本可以定位，未来记录行为由对白说明。
+  坐标(normalized): [0.32, 0.505, 0.58, 0.618]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W072 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=16 | meta.approved_cards=16
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure colleagues have a supportive one-to-one conversation at a small round table. The developer on the left gestures thoughtfully and has an open paper notebook directly in front of them, with two blank ruled pages and clear binding; a pen lies beside it without covering the pages. The mentor on the right wears simple glasses and gives an encouraging open-hand gesture. Keep the whole notebook visible and separate from one small mug at the right. No text or speech balloons.
+

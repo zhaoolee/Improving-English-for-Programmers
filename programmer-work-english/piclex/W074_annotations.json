@@ -1,0 +1,130 @@
+{
+  "filename": "W074-请求导师的建议.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "advice",
+      "chinese": "建议",
+      "phoneticUS": "/ədˈvaɪs/",
+      "phoneticUK": "/ədˈvaɪs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "advice是不可数名词，内容由对白表达而非手势判断。",
+        "association": "advice是不可数名词，内容由对白表达而非手势判断。",
+        "collocation": "give some advice; advice on explaining",
+        "example": "A: Could you give me some advice on explaining technical decisions?\nB: Start with the problem, then explain one reason for your choice.\nA: I'll write that in my notebook. Could we practise together?\nB: Of course. A mentor can help you improve through practice.",
+        "exampleChinese": "A: 你能给我一些讲解技术决策的建议吗？\nB: 先说问题，再解释你做出选择的一个理由。\nA: 我会把它记在笔记本里。我们能一起练习吗？\nB: 当然。导师可以通过练习帮助你改进。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "mentor",
+      "chinese": "导师",
+      "phoneticUS": "/ˈmentɔːr/",
+      "phoneticUK": "/ˈmentɔː/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "导师身份由角色与对白设定，不从年龄或手势推断。",
+        "association": "导师身份由角色与对白设定，不从年龄或手势推断。",
+        "collocation": "a mentor can help; ask a mentor",
+        "example": "Of course. A mentor can help you improve through practice.",
+        "exampleChinese": "当然。导师可以通过练习帮助你改进。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "improve",
+      "chinese": "改进",
+      "phoneticUS": "/ɪmˈpruːv/",
+      "phoneticUK": "/ɪmˈpruːv/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "能力进步需要过程和结果，静态谈话不能证明已改进。",
+        "association": "能力进步需要过程和结果，静态谈话不能证明已改进。",
+        "collocation": "improve through practice; improve explanations",
+        "example": "Of course. A mentor can help you improve through practice.",
+        "exampleChinese": "当然。导师可以通过练习帮助你改进。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 552,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 285.6666666666667
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 552
+      },
+      "boundingBox": {
+        "left": 365,
+        "top": 499,
+        "right": 633,
+        "bottom": 583
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上带装订折线的打开式纸质笔记本可完整定位。",
+        "association": "桌上带装订折线的打开式纸质笔记本可完整定位。",
+        "collocation": "in my notebook; write in a notebook",
+        "example": "I'll write that in my notebook. Could we practise together?",
+        "exampleChinese": "我会把它记在笔记本里。我们能一起练习吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a mentor for advice on improving technical explanations.",
+    "chinese": "开发者向导师请教如何改进技术说明，并记下练习建议。",
+    "source": "原创对话 · W074 请求导师的建议",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

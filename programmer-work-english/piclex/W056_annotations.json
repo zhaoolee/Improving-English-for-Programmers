@@ -1,0 +1,130 @@
+{
+  "filename": "W056-提出待验证的假设.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "hypothesis",
+      "chinese": "假设",
+      "phoneticUS": "/haɪˈpɑːθəsɪs/",
+      "phoneticUK": "/haɪˈpɒθəsɪs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "故障原因仍是待验证假设，由对白明确，不宣称图片证明因果。",
+        "association": "故障原因仍是待验证假设，由对白明确，不宣称图片证明因果。",
+        "collocation": "test a hypothesis; evidence for a hypothesis",
+        "example": "A: My hypothesis is that this cable causes the connection failures.\nB: Let's verify that by replacing only the cable.\nA: If the failures stop, can we isolate the problem to this cable?\nB: It's evidence for the hypothesis. Let's repeat the test before we conclude.",
+        "exampleChinese": "A: 我的假设是这根线导致了连接失败。\nB: 我们只更换这根线来验证一下。\nA: 如果故障不再出现，我们就能把问题定位到这根线吗？\nB: 这为假设提供了证据。我们先重复测试，再下结论。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "verify",
+      "chinese": "验证",
+      "phoneticUS": "/ˈverɪfaɪ/",
+      "phoneticUK": "/ˈverɪfaɪ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "验证是对话约定的实验步骤，静态图不足以证明已经通过。",
+        "association": "验证是对话约定的实验步骤，静态图不足以证明已经通过。",
+        "collocation": "verify a hypothesis; verify by testing",
+        "example": "Let's verify that by replacing only the cable.",
+        "exampleChinese": "我们只更换这根线来验证一下。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "isolate",
+      "chinese": "定位",
+      "phoneticUS": "/ˈaɪsəleɪt/",
+      "phoneticUK": "/ˈaɪsəleɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "isolate指定位故障原因，不能把线缆分离状态当成因果定位。",
+        "association": "isolate指定位故障原因，不能把线缆分离状态当成因果定位。",
+        "collocation": "isolate the problem; isolate a cause",
+        "example": "If the failures stop, can we isolate the problem to this cable?",
+        "exampleChinese": "如果故障不再出现，我们就能把问题定位到这根线吗？"
+      }
+    },
+    {
+      "x": 679,
+      "y": 611,
+      "english": "cable",
+      "chinese": "连接线",
+      "phoneticUS": "/ˈkeɪbəl/",
+      "phoneticUK": "/ˈkeɪbəl/",
+      "bubblePosition": {
+        "x": 700,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 679,
+        "y": 611
+      },
+      "boundingBox": {
+        "left": 474,
+        "top": 574,
+        "right": 869,
+        "bottom": 661
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "框选完整线缆及两端插头；故障原因仅为假设，不由外观判定。",
+        "association": "框选完整线缆及两端插头；故障原因仅为假设，不由外观判定。",
+        "collocation": "replace a cable; connection cable",
+        "example": "My hypothesis is that this cable causes the connection failures.",
+        "exampleChinese": "我的假设是这根线导致了连接失败。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers test a connection hypothesis by changing a cable and checking the result.",
+    "chinese": "两位开发者通过更换连接线并检查结果，验证连接问题的假设。",
+    "source": "原创对话 · W056 提出待验证的假设",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

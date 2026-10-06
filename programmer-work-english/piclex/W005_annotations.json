@@ -1,0 +1,130 @@
+{
+  "filename": "W005-了解项目背景.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "background",
+      "chinese": "背景",
+      "phoneticUS": "/ˈbækɡraʊnd/",
+      "phoneticUK": "/ˈbækɡraʊnd/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "项目历史背景由对白介绍，不能由白板外观推断。",
+        "association": "项目历史背景由对白介绍，不能由白板外观推断。",
+        "collocation": "project background; give some background",
+        "example": "A: Could you give me some background on this project?\nB: Sure. Its purpose is to help support teams handle customer requests.\nA: Could you walk me through the diagram on the board?\nB: Of course. It gives an overview of how a request moves through the system.",
+        "exampleChinese": "A: 你能给我介绍一下这个项目的背景吗？\nB: 当然。它的目标是帮助支持团队处理客户请求。\nA: 你能带我看一下白板上的流程图吗？\nB: 当然。它展示了请求如何在系统中流转的全貌。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "purpose",
+      "chinese": "目标",
+      "phoneticUS": "/ˈpɜːrpəs/",
+      "phoneticUK": "/ˈpɜːpəs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "产品目标由对白明确，不用流程图替代目标证据。",
+        "association": "产品目标由对白明确，不用流程图替代目标证据。",
+        "collocation": "project purpose; the purpose of a project",
+        "example": "Sure. Its purpose is to help support teams handle customer requests.",
+        "exampleChinese": "当然。它的目标是帮助支持团队处理客户请求。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "overview",
+      "chinese": "概览",
+      "phoneticUS": "/ˈoʊvərvjuː/",
+      "phoneticUK": "/ˈəʊvəvjuː/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "overview指整体解释，不等于任一局部方框。",
+        "association": "overview指整体解释，不等于任一局部方框。",
+        "collocation": "give an overview; system overview",
+        "example": "Of course. It gives an overview of how a request moves through the system.",
+        "exampleChinese": "当然。它展示了请求如何在系统中流转的全貌。"
+      }
+    },
+    {
+      "x": 770,
+      "y": 365,
+      "english": "diagram",
+      "chinese": "流程图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 840,
+        "y": 565
+      },
+      "anchorPosition": {
+        "x": 770,
+        "y": 365
+      },
+      "boundingBox": {
+        "left": 556,
+        "top": 315,
+        "right": 926,
+        "bottom": 435
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板上的完整框箭头图可以定位；流程含义由对白设定。",
+        "association": "白板上的完整框箭头图可以定位；流程含义由对白设定。",
+        "collocation": "walk through a diagram; flow diagram",
+        "example": "Could you walk me through the diagram on the board?",
+        "exampleChinese": "你能带我看一下白板上的流程图吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A new teammate asks about the project background and its purpose.",
+    "chinese": "新同事询问项目背景与目标，并借助流程图了解全貌。",
+    "source": "原创对话 · W005 了解项目背景",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "W024-估算任务完成时间.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 90,
+      "english": "estimate",
+      "chinese": "估算",
+      "phoneticUS": "/ˈestɪmət/",
+      "phoneticUK": "/ˈestɪmət/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "名词estimate是工作量预估，不能把日历日期当成已确定工时。",
+        "association": "名词estimate是工作量预估，不能把日历日期当成已确定工时。",
+        "collocation": "an estimate for; a rough estimate",
+        "example": "A: What is your estimate for this task?\nB: About two days of effort, including testing.\nA: The deadline is Friday. Could you mark it on the calendar?\nB: Yes. I'll flag any risk to that deadline early.",
+        "exampleChinese": "A: 你对这个任务的估算是多少？\nB: 大约两天的工作量，包括测试。\nA: 截止时间是周五。你能在日历上标记一下吗？\nB: 可以。我会尽早说明可能影响截止时间的风险。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 90,
+      "english": "effort",
+      "chinese": "工作量",
+      "phoneticUS": "/ˈefərt/",
+      "phoneticUK": "/ˈefət/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处effort是所需工作量，数值由对白提供而非画面测量。",
+        "association": "此处effort是所需工作量，数值由对白提供而非画面测量。",
+        "collocation": "two days of effort; estimated effort",
+        "example": "About two days of effort, including testing.",
+        "exampleChinese": "大约两天的工作量，包括测试。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 90,
+      "english": "deadline",
+      "chinese": "截止时间",
+      "phoneticUS": "/ˈdedlaɪn/",
+      "phoneticUK": "/ˈdedlaɪn/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 90
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "底图没有星期或日期文字，周五截止时间由对白约定。",
+        "association": "底图没有星期或日期文字，周五截止时间由对白约定。",
+        "collocation": "meet a deadline; the deadline is Friday",
+        "example": "The deadline is Friday. Could you mark it on the calendar?",
+        "exampleChinese": "截止时间是周五。你能在日历上标记一下吗？"
+      }
+    },
+    {
+      "x": 498,
+      "y": 337,
+      "english": "calendar",
+      "chinese": "日历",
+      "phoneticUS": "/ˈkælɪndər/",
+      "phoneticUK": "/ˈkælɪndə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 535
+      },
+      "anchorPosition": {
+        "x": 498,
+        "y": 337
+      },
+      "boundingBox": {
+        "left": 263,
+        "top": 166,
+        "right": 733,
+        "bottom": 503
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "有装订和七列日期格的墙历可框选整个物件。",
+        "association": "有装订和七列日期格的墙历可框选整个物件。",
+        "collocation": "on the calendar; mark a calendar",
+        "example": "The deadline is Friday. Could you mark it on the calendar?",
+        "exampleChinese": "截止时间是周五。你能在日历上标记一下吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two teammates discuss an estimate and a deadline for a task.",
+    "chinese": "两名同事讨论任务的工作量估算和截止时间。",
+    "source": "原创对话 · W024 估算任务完成时间",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

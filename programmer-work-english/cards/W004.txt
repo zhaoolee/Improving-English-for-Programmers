@@ -1,0 +1,120 @@
+W004  配置开发环境时求助
+========================================================================
+分类: 融入团队（team）
+关键词: setup
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-05）
+图片状态: generated
+图片路径: images/W004.png
+复核日期: 2026-10-05
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W004.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W004.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T08:00:21.265Z → 2026-10-05T08:01:59.540Z
+  提示词文件: prompts/W004_image_final.txt
+
+场景: 开发者向同事求助，排查本地开发环境的配置问题。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：开发者就本地配置向同事求助，屏幕是无文字示意，前景完整独立键盘清楚可见；软件依赖与安装由对白说明。
+
+沟通目标: 说明配置障碍并请求指导。
+
+主配文（一句场景描述）:
+  英文: A developer asks a teammate for help with a local setup.
+  中文: 开发者向同事求助，排查本地开发环境的配置问题。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Could you help me with the local setup?
+        你能帮我配置本地开发环境吗？
+  [B] Sure. Did you install every dependency?
+        当然。你安装了所有依赖吗？
+  [A] One is missing. Could you show me what to type on the keyboard?
+        缺少了一个。你能告诉我该在键盘上输入什么吗？
+  [B] Yes. Let's install it and try again.
+        可以。我们把它安装好，再试一次。
+
+目标词 (4): setup, dependency, install, keyboard
+
+------------------------------------------------------------------------
+[1/4] setup
+  词义: 配置
+  词性: noun
+  音标: UK /ˈsetʌp/ | US /ˈsetʌp/
+  搭配: local setup; help with setup
+  例句: Could you help me with the local setup?
+  例句高亮: Could you help me with the local **setup**?
+  例句中文: 你能帮我配置本地开发环境吗？
+  标注模式: context
+  标注说明: setup指配置过程与状态，由对白说明，不能用电脑外观证明配置完成。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] dependency
+  词义: 依赖
+  词性: noun
+  音标: UK /dɪˈpendənsi/ | US /dɪˈpendənsi/
+  搭配: install a dependency; missing dependency
+  例句: Sure. Did you install every dependency?
+  例句高亮: Sure. Did you install every **dependency**?
+  例句中文: 当然。你安装了所有依赖吗？
+  标注模式: context
+  标注说明: 软件依赖由对白指出，屏幕抽象块不能定位真实依赖。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] install
+  词义: 安装
+  词性: verb
+  音标: UK /ɪnˈstɔːl/ | US /ɪnˈstɔːl/
+  搭配: install a dependency; install software
+  例句: Yes. Let's install it and try again.
+  例句高亮: Yes. Let's **install** it and try again.
+  例句中文: 可以。我们把它安装好，再试一次。
+  标注模式: context
+  标注说明: 安装是后续建议，键盘操作不能证明安装过程或结果。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] keyboard
+  词义: 键盘
+  词性: noun
+  音标: UK /ˈkiːbɔːd/ | US /ˈkiːbɔːrd/
+  搭配: on the keyboard; type on a keyboard
+  例句: One is missing. Could you show me what to type on the keyboard?
+  例句高亮: One is missing. Could you show me what to type on the **keyboard**?
+  例句中文: 缺少了一个。你能告诉我该在键盘上输入什么吗？
+  标注模式: object
+  标注说明: 独立实体键盘可完整框选。
+  坐标(normalized): [0.381, 0.53, 0.646, 0.576]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W004 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=32 | meta.approved_cards=32
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers at a desk, developer seated left and teammate standing right leaning toward a desktop monitor. A separate physical keyboard with clear key grid is fully visible horizontally on the desk foreground center. Teammate points near the keyboard without obscuring it while developer asks with open palm. Screen contains abstract rectangles without letters. Entire keyboard and both hands visible.
+

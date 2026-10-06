@@ -1,0 +1,256 @@
+{
+  "id": "W041",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "请求代码评审",
+  "keyword": "review",
+  "scene": "开发者请同事评审代码修改，并收到一个让变量命名更清楚的建议。",
+  "target_count": 4,
+  "primary_words": [
+    "review",
+    "change",
+    "suggest",
+    "laptop"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "review",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "评审",
+      "pos": "verb",
+      "ipa_us": "/rɪˈvjuː/",
+      "ipa_uk": "/rɪˈvjuː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you review the change on my laptop?",
+        "matched_form": "review",
+        "referent_region_verified": false,
+        "context": "评审意图与反馈由对话给出，不能仅凭看电脑鉴定评审，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Could you review the change on my laptop?",
+      "example_zh": "你能在我的笔记本电脑上评审这次修改吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "review a change",
+        "review code"
+      ],
+      "example_en_highlighted": "Could you **review** the change on my laptop?",
+      "annotation_mode": "context",
+      "annotation_note": "评审意图与反馈由对话给出，不能仅凭看电脑鉴定评审，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "change",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "修改",
+      "pos": "noun",
+      "ipa_us": "/tʃeɪndʒ/",
+      "ipa_uk": "/tʃeɪndʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you review the change on my laptop?",
+        "matched_form": "change",
+        "referent_region_verified": false,
+        "context": "本卡是代码修改而不是物体；抽象编辑器线条不表示具体差异，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Could you review the change on my laptop?",
+      "example_zh": "你能在我的笔记本电脑上评审这次修改吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "review a change",
+        "make a change"
+      ],
+      "example_en_highlighted": "Could you review the **change** on my laptop?",
+      "annotation_mode": "context",
+      "annotation_note": "本卡是代码修改而不是物体；抽象编辑器线条不表示具体差异，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "suggest",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "建议",
+      "pos": "verb",
+      "ipa_us": "/səˈdʒest/",
+      "ipa_uk": "/səˈdʒest/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I suggest renaming this variable so its purpose is clearer.",
+        "matched_form": "suggest",
+        "referent_region_verified": false,
+        "context": "建议行为由明确对白支持；不把手势当成建议的充分证据，不设框。",
+        "image_verified": null
+      },
+      "example_en": "I suggest renaming this variable so its purpose is clearer.",
+      "example_zh": "我建议给这个变量重新命名，让它的用途更清楚。",
+      "bbox_normalized": null,
+      "collocations": [
+        "suggest doing something",
+        "suggest a change"
+      ],
+      "example_en_highlighted": "I **suggest** renaming this variable so its purpose is clearer.",
+      "annotation_mode": "context",
+      "annotation_note": "建议行为由明确对白支持；不把手势当成建议的充分证据，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上的打开式笔记本电脑为实际局部对象。",
+        "sentence": "Could you review the change on my laptop?",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Could you review the change on my laptop?",
+      "example_zh": "你能在我的笔记本电脑上评审这次修改吗？",
+      "bbox_normalized": [
+        0.385,
+        0.414,
+        0.655,
+        0.548
+      ],
+      "collocations": [
+        "on my laptop",
+        "an open laptop"
+      ],
+      "example_en_highlighted": "Could you review the change on my **laptop**?",
+      "annotation_mode": "object",
+      "annotation_note": "桌上的打开式笔记本电脑为实际局部对象。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer asks a teammate to review a change and receives a naming suggestion.",
+    "zh": "开发者请同事评审代码修改，并收到一个让变量命名更清楚的建议。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer asks a teammate to review a change and receives a naming suggestion.",
+    "zh": "开发者请同事评审代码修改，并收到一个让变量命名更清楚的建议。"
+  },
+  "roles": {
+    "A": "Author 修改作者",
+    "B": "Reviewer 评审同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you review the change on my laptop?",
+      "zh": "你能在我的笔记本电脑上评审这次修改吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. I suggest renaming this variable so its purpose is clearer.",
+      "zh": "可以。我建议给这个变量重新命名，让它的用途更清楚。"
+    },
+    {
+      "speaker": "A",
+      "en": "Good point. I'll update the name and rerun the tests.",
+      "zh": "有道理。我会修改名称并重新运行测试。"
+    },
+    {
+      "speaker": "B",
+      "en": "Thanks. I'll take another look when it's ready.",
+      "zh": "谢谢。准备好后，我会再看一次。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "请求评审、提出具体建议并确认后续动作。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers seated side by side at a small desk reviewing ONE open laptop. The laptop is centered facing the viewer at a slight angle, with screen and keyboard fully visible. One developer gestures politely with an open hand toward the screen, the other nods with a hand near the keyboard. Only a few abstract horizontal marks on the display suggest an editor; no readable code. Keep the laptop unobstructed and easy to crop. Friendly cooperative posture, minimal office.",
+  "status": "approved",
+  "image_path": "images/inverted/W041.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W041 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W041.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T08:26:25Z",
+    "ended_at": "2026-10-04T08:28:36Z",
+    "prompt_path": "prompts/W041_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W041.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W041.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "45dd7d6911017fafdf673754c043ad27ab5ec6ac2526bc38e37d5d9020ff2240",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W041.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名同事并坐查看笔记本，合作姿态清楚。图中屏幕和部分键盘可见，笔记本完整边界可框选；没有可读代码。review/change/suggest由对白支持，不从手势鉴定评审结果。"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cardID": "W005",
+  "imagePath": "../images/W005.png",
+  "imageSHA256": "8d11806973f0055389f48e9ca15e827749e5e550feab3841b42d5ece14d71dde",
+  "imageReviewed": true,
+  "annotationsPath": "W005_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "background",
+    "purpose",
+    "overview",
+    "diagram"
+  ],
+  "receiptPath": "W005_import_receipt.json"
+}

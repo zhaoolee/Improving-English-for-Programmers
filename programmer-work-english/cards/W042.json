@@ -1,0 +1,256 @@
+{
+  "id": "W042",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "解释一次代码修改",
+  "keyword": "refactor",
+  "scene": "开发者向同事解释一次重构：去掉重复代码，同时保持原有行为。",
+  "target_count": 4,
+  "primary_words": [
+    "refactor",
+    "duplicate",
+    "function",
+    "laptop"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "refactor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "重构",
+      "pos": "verb",
+      "ipa_us": "/ˌriːˈfæktər/",
+      "ipa_uk": "/ˌriːˈfæktə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I chose to refactor this function to remove duplicate code.",
+        "matched_form": "refactor",
+        "referent_region_verified": false,
+        "context": "重构目的和行为保持不变由对白明确说明，不能从不可读屏幕判断已完成重构。",
+        "image_verified": null
+      },
+      "example_en": "I chose to refactor this function to remove duplicate code.",
+      "example_zh": "我选择重构这个函数，以去掉重复代码。",
+      "bbox_normalized": null,
+      "collocations": [
+        "refactor a function",
+        "refactor code"
+      ],
+      "example_en_highlighted": "I chose to **refactor** this function to remove duplicate code.",
+      "annotation_mode": "context",
+      "annotation_note": "重构目的和行为保持不变由对白明确说明，不能从不可读屏幕判断已完成重构。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "duplicate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "重复的",
+      "pos": "adjective",
+      "ipa_us": "/ˈduːplɪkət/",
+      "ipa_uk": "/ˈdjuːplɪkət/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I chose to refactor this function to remove duplicate code.",
+        "matched_form": "duplicate",
+        "referent_region_verified": false,
+        "context": "重复代码由对白支持；抽象屏幕线条不能判定语义重复，不设框。",
+        "image_verified": null
+      },
+      "example_en": "I chose to refactor this function to remove duplicate code.",
+      "example_zh": "我选择重构这个函数，以去掉重复代码。",
+      "bbox_normalized": null,
+      "collocations": [
+        "duplicate code",
+        "remove duplicate code"
+      ],
+      "example_en_highlighted": "I chose to refactor this function to remove **duplicate** code.",
+      "annotation_mode": "context",
+      "annotation_note": "重复代码由对白支持；抽象屏幕线条不能判定语义重复，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "function",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "函数",
+      "pos": "noun",
+      "ipa_us": "/ˈfʌŋkʃən/",
+      "ipa_uk": "/ˈfʌŋkʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I chose to refactor this function to remove duplicate code.",
+        "matched_form": "function",
+        "referent_region_verified": false,
+        "context": "软件函数由对白指定；不可读屏幕不提供可靠的具体函数区域。",
+        "image_verified": null
+      },
+      "example_en": "I chose to refactor this function to remove duplicate code.",
+      "example_zh": "我选择重构这个函数，以去掉重复代码。",
+      "bbox_normalized": null,
+      "collocations": [
+        "refactor a function",
+        "a helper function"
+      ],
+      "example_en_highlighted": "I chose to refactor this **function** to remove duplicate code.",
+      "annotation_mode": "context",
+      "annotation_note": "软件函数由对白指定；不可读屏幕不提供可靠的具体函数区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上的完整笔记本电脑可以框选；测试通过由对白说明，不从屏幕外观推断。",
+        "sentence": "The tests pass on my laptop.",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The tests pass on my laptop.",
+      "example_zh": "测试在我的笔记本电脑上都通过了。",
+      "bbox_normalized": [
+        0.355,
+        0.36,
+        0.628,
+        0.558
+      ],
+      "collocations": [
+        "on my laptop",
+        "tests pass on a laptop"
+      ],
+      "example_en_highlighted": "The tests pass on my **laptop**.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上的完整笔记本电脑可以框选；测试通过由对白说明，不从屏幕外观推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer explains a refactor that removes duplicate code while keeping the behavior unchanged.",
+    "zh": "开发者向同事解释一次重构：去掉重复代码，同时保持原有行为。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer explains a refactor that removes duplicate code while keeping the behavior unchanged.",
+    "zh": "开发者向同事解释一次重构：去掉重复代码，同时保持原有行为。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Reviewer 评审同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "I chose to refactor this function to remove duplicate code.",
+      "zh": "我选择重构这个函数，以去掉重复代码。"
+    },
+    {
+      "speaker": "B",
+      "en": "What stays the same?",
+      "zh": "哪些方面保持不变？"
+    },
+    {
+      "speaker": "A",
+      "en": "The behavior stays the same. The tests pass on my laptop.",
+      "zh": "行为保持不变。测试在我的笔记本电脑上都通过了。"
+    },
+    {
+      "speaker": "B",
+      "en": "Great. Please mention that in the review notes.",
+      "zh": "很好。请在评审说明里写清楚这一点。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明修改的目的，并说明哪些行为保持不变。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers discuss a code change at a desk. The developer on the left points to a fully visible open laptop with screen and keyboard at center; the reviewer on the right listens and holds a pen. The laptop screen shows only sparse abstract short code-like lines, with no legible text, no red/green status, and no words. A small blank notebook is placed to the right, separate from the laptop. Friendly, clear explanation gestures.",
+  "status": "approved",
+  "image_path": "images/inverted/W042.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W042 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W042.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T13:27:56Z",
+    "ended_at": "2026-10-04T13:30:21Z",
+    "prompt_path": "prompts/W042_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W042.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W042.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "b8ceddfc668bf434314a84eff3bfe368e8212add38c48b6cd069eeff899b08da",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W042.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：同事围绕打开的笔记本讨论修改，屏幕使用抽象短线，无具体代码文字。重构、重复代码、函数与测试通过由对白说明，笔记本是唯一定位目标，不将抽象代码概念框在空白UI上。"
+  }
+}

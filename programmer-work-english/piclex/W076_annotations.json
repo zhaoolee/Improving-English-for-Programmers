@@ -1,0 +1,130 @@
+{
+  "filename": "W076-协商专注工作的时间.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "focus",
+      "chinese": "专注",
+      "phoneticUS": "/ˈfoʊkəs/",
+      "phoneticUK": "/ˈfəʊkəs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "专注是对白中约定的工作状态，不仅凭人物坐姿推断。",
+        "association": "专注是对白中约定的工作状态，不仅凭人物坐姿推断。",
+        "collocation": "focus on a task; time to focus",
+        "example": "A: Could I have an hour to focus on this task?\nB: Sure. I won't interrupt you unless something urgent comes up.\nA: I'll set the timer and be available again at eleven.\nB: Sounds good. I'll collect any questions for then.",
+        "exampleChinese": "A: 我能有一个小时专注处理这个任务吗？\nB: 当然。除非有紧急情况，我不会打断你。\nA: 我会设置计时器，到十一点再恢复联系。\nB: 好。我会先把问题收集起来，到时再问。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "interrupt",
+      "chinese": "打断",
+      "phoneticUS": "/ˌɪntəˈrʌpt/",
+      "phoneticUK": "/ˌɪntəˈrʌpt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "是否打断及紧急条件由对白约定，无可定位动作框。",
+        "association": "是否打断及紧急条件由对白约定，无可定位动作框。",
+        "collocation": "interrupt someone; avoid interruptions",
+        "example": "Sure. I won't interrupt you unless something urgent comes up.",
+        "exampleChinese": "当然。除非有紧急情况，我不会打断你。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "available",
+      "chinese": "可联系的",
+      "phoneticUS": "/əˈveɪləbəl/",
+      "phoneticUK": "/əˈveɪləbəl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "available指可联系的工作时间，不从人物外表或钟面判定。",
+        "association": "available指可联系的工作时间，不从人物外表或钟面判定。",
+        "collocation": "be available; available at eleven",
+        "example": "I'll set the timer and be available again at eleven.",
+        "exampleChinese": "我会设置计时器，到十一点再恢复联系。"
+      }
+    },
+    {
+      "x": 771,
+      "y": 521,
+      "english": "timer",
+      "chinese": "计时器",
+      "phoneticUS": "/ˈtaɪmər/",
+      "phoneticUK": "/ˈtaɪmə/",
+      "bubblePosition": {
+        "x": 885,
+        "y": 320
+      },
+      "anchorPosition": {
+        "x": 771,
+        "y": 521
+      },
+      "boundingBox": {
+        "left": 676,
+        "top": 410,
+        "right": 870,
+        "bottom": 617
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整独立计时器本体可定位；具体十一点由对白支持。",
+        "association": "完整独立计时器本体可定位；具体十一点由对白支持。",
+        "collocation": "set the timer; use a timer",
+        "example": "I'll set the timer and be available again at eleven.",
+        "exampleChinese": "我会设置计时器，到十一点再恢复联系。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer arranges a focus block and agrees when to be available for teammates.",
+    "chinese": "开发者安排一段专注工作时间，并与同事约定何时可以联系。",
+    "source": "原创对话 · W076 协商专注工作的时间",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

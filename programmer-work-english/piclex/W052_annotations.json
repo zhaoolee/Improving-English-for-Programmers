@@ -1,0 +1,130 @@
+{
+  "filename": "W052-比较预期与实际结果.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "expected",
+      "chinese": "预期的",
+      "phoneticUS": "/ɪkˈspektɪd/",
+      "phoneticUK": "/ɪkˈspektɪd/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "预期结果是需求中的目标状态，由对白说明；不可把静态空白区域当作预期本身。",
+        "association": "预期结果是需求中的目标状态，由对白说明；不可把静态空白区域当作预期本身。",
+        "collocation": "the expected result; expected behavior",
+        "example": "A: The expected result is an empty list.\nB: But the actual result shows every record.\nA: I've saved a screenshot of the result. Could you check it?\nB: Yes. Let's compare it with the requirement.",
+        "exampleChinese": "A: 预期结果是一个空列表。\nB: 但实际结果显示了所有记录。\nA: 我保存了结果的截图。你能检查一下吗？\nB: 可以。我们把它和需求对照一下。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "actual",
+      "chinese": "实际的",
+      "phoneticUS": "/ˈæktʃuəl/",
+      "phoneticUK": "/ˈæktʃuəl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "实际运行结果由测试对白设定支持；插图不证明运行数据，不单独框actual。",
+        "association": "实际运行结果由测试对白设定支持；插图不证明运行数据，不单独框actual。",
+        "collocation": "the actual result; actual behavior",
+        "example": "But the actual result shows every record.",
+        "exampleChinese": "但实际结果显示了所有记录。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "result",
+      "chinese": "结果",
+      "phoneticUS": "/rɪˈzʌlt/",
+      "phoneticUK": "/rɪˈzʌlt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "结果包含预期与实际的语义比较，不把某个空白行等同于整个结果。",
+        "association": "结果包含预期与实际的语义比较，不把某个空白行等同于整个结果。",
+        "collocation": "compare results; the expected result",
+        "example": "The expected result is an empty list.",
+        "exampleChinese": "预期结果是一个空列表。"
+      }
+    },
+    {
+      "x": 490,
+      "y": 565,
+      "english": "screenshot",
+      "chinese": "截图",
+      "phoneticUS": "/ˈskriːnʃɑːt/",
+      "phoneticUK": "/ˈskriːnʃɒt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 880
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 565
+      },
+      "boundingBox": {
+        "left": 360,
+        "top": 500,
+        "right": 635,
+        "bottom": 630
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "纸上带浏览器边框与结果行的界面副本是截图的局部指代，框出整个纸质截图。",
+        "association": "纸上带浏览器边框与结果行的界面副本是截图的局部指代，框出整个纸质截图。",
+        "collocation": "save a screenshot; a screenshot of the result",
+        "example": "I've saved a screenshot of the result.",
+        "exampleChinese": "我保存了结果的截图。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a tester compare expected and actual results using a screenshot.",
+    "chinese": "开发者与测试同事借助截图，对比预期结果和实际结果。",
+    "source": "原创对话 · W052 比较预期与实际结果",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

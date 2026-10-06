@@ -1,0 +1,120 @@
+W046  结对编程时交换思路
+========================================================================
+分类: 开发与代码评审（development）
+关键词: approach
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W046.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W046.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W046.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T17:07:49.513Z → 2026-10-05T17:10:12.044Z
+  提示词文件: prompts/W046_image_final.txt
+
+场景: 结对编程的两位开发者比较思路，并交换操作与指导角色。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；完整可见的独立键盘实体可定位。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。
+
+沟通目标: 提出另一种实现思路并交换结对角色。
+
+主配文（一句场景描述）:
+  英文: A pair of developers compares approaches and switches driver and navigator roles.
+  中文: 结对编程的两位开发者比较思路，并交换操作与指导角色。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Could we try a different approach to this loop?
+        我们能为这个循环试试另一种思路吗？
+  [B] Sure. I'll be the navigator while you explain your idea.
+        当然。我来做指导者，你来解释你的想法。
+  [A] I'll take the keyboard as the driver and show a small example.
+        我作为操作者接过键盘，演示一个小例子。
+  [B] Great. Then we'll compare the two approaches together.
+        好。然后我们一起比较这两种思路。
+
+目标词 (4): approach, driver, navigator, keyboard
+
+------------------------------------------------------------------------
+[1/4] approach
+  词义: 思路
+  词性: noun
+  音标: UK /əˈprəʊtʃ/ | US /əˈproʊtʃ/
+  搭配: a different approach; compare approaches
+  例句: Could we try a different approach to this loop?
+  例句高亮: Could we try a different **approach** to this loop?
+  例句中文: 我们能为这个循环试试另一种思路吗？
+  标注模式: context
+  标注说明: 实现思路是对白中的抽象方案，没有局部物体框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] driver
+  词义: 操作者
+  词性: noun
+  音标: UK /ˈdraɪvə/ | US /ˈdraɪvər/
+  搭配: driver role; act as the driver
+  例句: I'll take the keyboard as the driver and show a small example.
+  例句高亮: I'll take the keyboard as the **driver** and show a small example.
+  例句中文: 我作为操作者接过键盘，演示一个小例子。
+  标注模式: context
+  标注说明: 结对编程操作者身份由对白明确，不能仅由座位或手势鉴定。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] navigator
+  词义: 指导者
+  词性: noun
+  音标: UK /ˈnævɪɡeɪtə/ | US /ˈnævɪɡeɪtər/
+  搭配: navigator role; be the navigator
+  例句: Sure. I'll be the navigator while you explain your idea.
+  例句高亮: Sure. I'll be the **navigator** while you explain your idea.
+  例句中文: 当然。我来做指导者，你来解释你的想法。
+  标注模式: context
+  标注说明: 结对编程指导者是对白约定身份，不把同事外观当角色证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] keyboard
+  词义: 键盘
+  词性: noun
+  音标: UK /ˈkiːbɔːd/ | US /ˈkiːbɔːrd/
+  搭配: take the keyboard; use the keyboard
+  例句: I'll take the keyboard as the driver and show a small example.
+  例句高亮: I'll take the **keyboard** as the driver and show a small example.
+  例句中文: 我作为操作者接过键盘，演示一个小例子。
+  标注模式: object
+  标注说明: 完整可见的独立键盘实体可定位。
+  坐标(normalized): [0.359, 0.502, 0.613, 0.561]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W046 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=48 | meta.approved_cards=48
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure programmers sit beside each other at ONE desk, facing a simple monitor with only abstract horizontal lines. The left programmer has hands poised above a SEPARATE physical keyboard in the foreground at the desk center; right programmer makes a listening open-palm gesture. The whole rectangular keyboard with simple unlabeled keys is visible, hands above it not covering it. No laptop and no readable code.
+

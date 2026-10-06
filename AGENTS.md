@@ -51,6 +51,8 @@
 
 根 `README.md` 的 `## 850章节开始` … `## 850章节结束` 区间由 `python3 scene-cards-850/scripts/sync-readme.py` 从已审定卡片数据生成（100 个 `### Cxxx · 标题`，图片 + 单词/中文/例句三列表，保留目标词高亮），**请勿手改**。只读校验用 `--check`（不一致退出非零、不写）；临时文件用 `--readme PATH`（相对 cwd 解析，数据源仍本仓库）。图片 `src` 使用官方原图绝对地址（常量 `IMAGE_BASE_URL`，默认 `https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/`；Fork 可用 `--image-base-url` 切换），直接读取原图、避开相对路径重写重定向；保持 `<img width="480">`。**线上验收必须用浏览器实际确认 `naturalWidth > 0`（100 张），本地文件存在不等于 GitHub 加载成功**；实际是否修复以 Root 线上验收为准。选图按每卡 `piclex/Cxxx_job.json` 的 `imagePath`（相对 job 目录、仓库内）；**C001 当前绑定 `workflow/references/instagram-warm.png`，将来跟随 job 合法更新**，其余为 `images/Cxxx.png`，不用未绑定冷图或预览副本。
 
+根 `README.md` 另有独立的 `## 程序员英语章节开始` … `## 程序员英语章节结束` 区间（位于 `## 850章节开始` 之前），由 `python3 programmer-work-english/scripts/sync-readme.py --root` 从本专题已审定 `cards/Wxxx.json`（仅 `status=approved`）机械生成：每个 `### Wxxx · 标题`（图片 + 双语场景描述 + 关键词 + 完整 4 话轮中英对白表 + 单词/中文/例句三列表，保留目标词高亮），数量随已审定卡自动变化，不展示未制作计划卡、不附每卡内部 PicLex 存储说明；脚本只维护该独立章节，不改专题概述与专题索引。首次运行紧邻 `## 850章节开始` 之前插入；已有区间仅替换自身；标记重复/残缺/反向，或程序员 `END` 未在 `## 850章节开始` 之前时报错且不写。只读校验用 `--root --check`（未同步或区间不存在退出非零、不写）；临时文件用 `--root --readme PATH`（相对 cwd 解析，数据源仍本仓库）。图片 `src` 使用官方原图绝对地址（`--image-base-url`，默认同一 raw main 前缀，URL 与属性转义），路径按每卡 `piclex/Wxxx_job.json` 的 `imagePath`（相对 job 目录）解析，必须仓库内存在、SHA-256 为 64 位十六进制且等于 job 声明、并与 `cards.image_path` 一致，不引用工作台预览、压缩副本或旧白底图；保持 `<img width="480">`。不带 `--root` 时仍维护专题 `programmer-work-english/README.md` 的 `<!-- W样卡开始 -->` / `<!-- W样卡结束 -->`，支持 `--check`，生成内容不变。更新顺序：先重跑专题与根两个模式，再分别跑 `--check`；更新根 README 时 `## 850章节开始` 及其后内容必须逐字节不变（根模式不写 850 区间，850 仍由 `scene-cards-850/scripts/sync-readme.py` 维护）。
+
 底图压缩可选：`python3 scene-cards-850/scripts/compress-card-images.py [--card Cxxx] [--force]` 用本地 ONEPUNCH 默认近视觉无损处理每卡 job 实际选图（原图不可变，`--force` 跳过旧回执复用供工具升级重试），输出 `images/compressed/`，逐张写 `manifest.json`；只在 `written` 且严格更小、宽高/源 SHA 一致时引用副本，`unchanged` 不复制。`sync-readme.py` 仅当 manifest 项与当前 job 选图的源/输出哈希匹配时才用压缩图，否则回退 job 原图（未来换图不套旧压缩版）。
 
 ### 五张批次与持久化材料
@@ -135,3 +137,47 @@
 - 2026-10-03 C036–C045已完成86词，68局部框/18语境词；真实裁剪见workflow/C036-C045_region-crops-1.png至-3.png。最终有效预览索引C036-C045_final-preview-index.json；气泡中心先离边缘预留至少50/1000，长标签按实际尺寸增大。局部复验的avoid文件必须只含本次photos，避免重复已知参数错误。计划completed_images按实际存在图片的approved卡计算，C001特殊image_status不得漏计。
 
 - C046–C050试用确认：Codex整卡视觉35词/23框/12语境，五张原生预览一次通过零警告。预上传空白照片会使导入器的整卡组check在中间态失败；本批全部内容写入后按回执幂等read/check恢复，无重复写入/上传。默认Codex流程继续每卡完整上传+写入，避免这个中间态。复用调色板已定义颜色，未定义别名先映射到现有颜色，避免机械整理阶段拒绝。
+
+## 程序员工作英语专题交接（2026-10-04）
+
+### 定位与卡组
+
+- 《程序员工作英语》是与《基础英语850词》并列的独立专题和**独立免费 PicLex 卡组**；deckID=`121d190a-5d4c-4a09-8d50-4741acdbbb1b`，不得与 850 的 `add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f` 混用。
+- 用户明确指定本专题底图为**极简黑白火柴人**；当前实现为白底黑线、底图无文字、词条气泡彩色白字，**不要套用 850 的清冷韩系/摄影视觉默认**。
+- 计划 80 张：8 类各 10 场景（W001–W080）；每卡一句双语场景描述 + 4 句原创双人对话 + 4 个目标词（关键词 + 配套词）。首批为每类第 1 个场景：W001、W011、W021、W031、W041、W051、W061、W071。
+
+### 已发布事实（V1 → … → V8 → 当前 V9）
+
+- 首批 8 张已完成底图（内置 image_gen）、人工审图、机械整理、导入并免费公开发布 **V1**（publicationID=`3a1872417949ed97d2a4d1919bed43e2`，packageSHA256=`f5c20a0534fb5aca5d9ad597badd067501c55901ed3660c9e00b1295c877cbb4`，1758190 bytes）；2026-10-04 修正英文对白后免费公开发布 **V2**（publicationID=`977ed174d8a8258e3b12e00694bdecb0`，packageSHA256=`38d316587bbb0a40bc72953b99700db4c1e4b15d099ea71e32a10984d60428fc`，1757332 bytes，已被取代）。
+- 第二批 8 张（W002、W012、W022、W032、W042、W052、W062、W072）已导入并免费公开发布 **V3**：publicationID=`194cd48c22ce4e66b5c989659d25141a`，packageSHA256=`e368c9b654325b59218b5a06fd8e0ca583d4c88033e58fe2c1b02c3da3ce9bcd`（3551774 bytes，已被 V4 取代）。
+- 第三批 8 张（W003、W013、W023、W033、W043、W053、W063、W073）已导入并免费公开发布 **V4**：publicationID=`1414dbb07cd2b79a17eff0124f78971f`，packageSHA256=`f6b465f5de065844d0f381ae26abd4231c31b0883f9fd12ee4716be3a8badcc6`（5311126 bytes）；当时公网 version=4、24 图 / 96 词条 / 81 唯一词 / 29 局部框 / 67 语境词（已被 V5 取代）。
+- 第四批 8 张（W004、W014、W024、W034、W044、W054、W064、W074）已导入并免费公开发布 **V5**：publicationID=`8310c19c27152112253e51ca49e01988`，packageSHA256=`83baefa9c810f288612dbb0f58ec2ad20509a6e7af6f5cb82f373466e08d661a`（7048634 bytes，已被 V6 取代）。
+- **V6（历史，黑底白线新 photoID 版本，已被 V7 取代）**：32 张展示图由原白底黑线图精确 RGB 反色（新 photoID/assetID），publicationID=`22bdb1464bd779b0c0bc2857c2963ba9`，packageSHA256=`830870d27a71a3f516b92bdb36826a578e9900ab3de4508c1aadb7c62cc7120a`（7059505 bytes）；因手机更新后练习为空（旧 V5 照片全局去重 + 新 ID 筛选冲突），由 V7 原地换图修复。
+- **V7（历史，黑底白线保留原 V5 photoID/顺序）**：在 32 个**原 V5 photoID** 上通过官方换图接口替换图片 asset（`workflow/V7-image-replacement-journal.json`，final revision 122），publicationID=`f0db8be990d3359c45d5e083b71c27c5`，packageSHA256=`222dc1483176fca897c9364b11831dbf2f75a8f64a5c47af3efc57b37cf20f04`（7059505 bytes）；32 图/128 词条/101 唯一词/37 框/91 语境；`originalV5PhotoIDsPreserved=true`。
+- 统计：本地/已公开 **48 图 / 192 词条 / 151 个不同词 / 53 局部框 / 139 语境词**（当前公开 V9）；工作台观察 revision：V1=18、V2=27、V3=45、V4=63、V5=83、V6=89、V7=123、V8=141，V9 草稿/导入/发布观察 157/158/159，**均为历史观察值，不得固定为写入参数**，写入前必须读取最新草稿。
+- **第六批（每类第 6 张）W006、W016、W026、W036、W046、W056、W066、W076**：直接生成黑底白线，每张新 photoID；已导入并免费公开发布 **V9**：publicationID=`a59a61284b742183147fda597f1ac3ca`，packageSHA256=`38931e23003acf1ea354397bf5b897ae15156bbc047679ed46fb5d1b7572e725`（9698920 bytes），releaseSHA256=`db077aa256e32aa0df73c7cfedfd1edd9a4bd79508b7296ba98a72344716b71c`，48 图/192 词条/151 唯一词/53 框/139 语境；HTTP 200、包与本地验收包全等、原 40 图字节全等、850 未变；`description` 经官方 CLI 更新为“当前48张，每类6张”。
+- **手机端真机更新未验收**（未使用模拟器）；兼容性：手机来源代码未改，现有去重逻辑在 Mac 隔离复现（`workflow/V6-practice-diagnosis/V7-card-update-compatibility.json`）。其余 **32 张未制作**；下一未制作卡按真实编号升序为 **W007**，若继续每类第 7 个场景可选 W007/W017/…（仅制作范围，不改已定场景标题）。
+
+### 对白映射（与 850 不同）
+
+- 官方 readingDialogue 约定（副本：`workflow/AB-cli-schema.json`）：`labels[].learning.example` 恰好 A、B 两个角色，canonical **A,B,A,B**，至少各一句，每句非空英文；**A=用户（学习者）朗读评分，B=机器朗读不评分**；角色标记不朗读/不评分；英文与中文逐话轮对应，英文/中文各 ≤500；中文只作展示、不参与识别；**普通单句不得改成对白**。本专题 48 个关键词使用对白，其余 144 个标签为普通例句。
+- `annotations.quote.english/chinese` **只保存一句双语场景描述**（PicLex 页脚显示高度有限，完整双语对白会被裁切）。
+- 关键词那一个 label 的 `learning.example` / `exampleChinese` 保存**完整 4 话轮对白**（仅逐句 `speaker` + 文本，共 4 行，各 ≤500 字符；**角色说明只保留在 `cards.roles` 元数据，不拼入练习对白**）；其余 3 个词的 learning 例句保留 cards 原定稿摘录；`cards.targets` 各词例句仍为原摘录；`cards.dialogue` / `roles` / `description` 完整保留，并附 `dialogue_storage`。
+- `prepare-batch.py` / `validate.py` 拒绝：角色说明进入 learning、英文含中文、空话轮、第三个角色（C）、中英 speaker 顺序不一致。
+
+### 复用流程与边界
+
+- 复用现有路径：`programmer-work-english/scripts/prepare-batch.py`（importlib 复用 850 的校验/构造核心，不修改旧脚本）、`validate.py`、`sync-readme.py`、`invert-images.sh`（仅用 ImageMagick 反色）、`inversion-upload.mjs`（官方 CLI 上传/候选草稿）；导入/换图沿用 `scene-cards-850/scripts/import-piclex.mjs`（dry-run）与官方 CLI `photos`/draft API，每卡独立 job/receipt。
+- V7 换图恢复材料（本地忽略）：`workflow/V7-image-replacement-journal.json`、`V7-after-image-replacement.json`、`V7-check.json`、`V7-local-backup/`、`V7-local-sync.json`、`V7-publication.json`、`V7-publication-verification.json`、`V7-after-publication.json`、`V7-release-created.json`、`V7-final-preview-index.json`、`V7-timing.json`、`V7-final-local-sync.json`。
+- 黑底白线方向（V6）：当前风格模板 `workflow/styles/stick-figure-black-white.txt`；原白底黑线模板 provenance 见 `workflow/styles/stick-figure-white-background.txt`；原图 `images/Wxxx.png` 永久保留，反色 `images/inverted/Wxxx.png` 为公开源。
+- 公开：本专题 README、计划、cards、images、prompts、styles、调色板、scripts、batch_content/review。本地忽略（不得公开）：generation-index、region-decisions、import receipt/summary、acceptance、preview、timing、files-ready、offline-acceptance、publication-verification、scaffold-result、pi 任务与日志等。
+- AB/对白格式恢复材料（本地忽略）：`workflow/AB-cli-schema.json`（官方 schema 副本）、`workflow/AB-current-draft.json`（V2 时期 revision 27 草稿）、`workflow/AB-format-acceptance.json`（Root 生成）。核对新版 CLI 时，已发布的 V2 内容已符合官方 readingDialogue，因此格式适配未改变 V2 内容、无需另发版本；**V3 因新增第二批 8 张而发布**；schema/格式合规不等于手机 AB 模式评分验收。
+- 不读密钥、不编辑 PicLex 源码/数据/配置、不擅自发布；已有明确发布授权时按现有流程完成并核对目录/版本/count/hash 与下载 HTTP/尺寸。
+
+- 2026-10-04 英文对白修正（历史，现已被 V3 取代）：用户真机截图发现V1关键词对白开头含双语角色说明。已删除学习文本中的角色说明行，4话轮英文和中文分别存储，roles元数据保留；prepare/validate拒绝英文含汉字并验证反向用例。官方 guarded batch 8卡只变16个对白字段，图片/词条/几何不变；原8个receipt仅read/check刷新，零上传/重复写入。当时公开内容V2，publicationID=`977ed174d8a8258e3b12e00694bdecb0`，packageSHA256=`38d316587bbb0a40bc72953b99700db4c1e4b15d099ea71e32a10984d60428fc`，1757332 bytes；公网200，8图32词/31唯一词/11框21语境，全部英文例句无中文，工作台观察revision27仅历史值。恢复从 `programmer-work-english/workflow/V2-publication-verification.json`、`V2-after-publication.json`、`V2-language-fix-batch-receipt.json`、`V2-receipts-refreshed.json`，本地历史V1保留。核验时间 2026-10-04T09:04:16.638098+00:00，收尾 2026-10-04T09:05:24.597131+00:00。
+
+- 2026-10-04 第三批（每类第 3 张）：W003、W013、W023、W033、W043、W053、W063、W073 已完成底图/审图/机械整理/离线校验/8 job 导入并随 **V4** 公开发布；第三批 32 词条/31 不同词/8 局部框/24 语境词，整体 24 图/96 标签/81 唯一词/29 局部框/67 语境词；公网 version=4、HTTP 200、24 段英文无中文、已有 16 张内容 hash 未变、850 未变；其余 56 张未制作，下一张 W004；手机未验收。恢复材料 `programmer-work-english/workflow/third-eight_*` 与 `V4-*`（本地忽略）。
+
+- 2026-10-05 第四批（每类第 4 张）：W004、W014、W024、W034、W044、W054、W064、W074 已完成底图/审图/机械整理/离线校验/8 job 导入并随 **V5** 公开发布（W064 `phone`、W074 `notebook` 两处 bubblePosition 经官方 layout apply 修正，仅位置变化）；第四批 32 词条/32 不同词/8 局部框/24 语境词，整体 32 图/128 标签/101 唯一词/37 局部框/91 语境词；公网 version=5、HTTP 200、32 段英文无中文、已有 24 张内容 hash 未变、850 未变；其余 48 张未制作，下一张 W005；手机未验收。恢复材料 `programmer-work-english/workflow/fourth-eight_*` 与 `V5-*`（本地忽略）。
+
+- 2026-10-05 黑底白线版本演进（重要更正）：当时曾判断用户“不要求保留旧 photoID”并据此发布 V6（新 photoID）；该判断后被证明不符合卡组原位更新需求——手机更新 V6 后练习为空（旧 V5 照片全局去重与新 ID 筛选冲突）。V7 已通过官方换图接口在**原 V5 photoID**上替换黑底白线图片并公开发布，纠正了当时的错误判断；不把“新 ID 复制发布”当作卡组原位更新。32 张反色图仍由 `scripts/invert-images.sh`（`-channel RGB -negate +channel`）生成，未编辑 PicLex 源码/数据库。V6 保留为历史版本。恢复材料 `programmer-work-english/workflow/V6-*`、`V7-*`、`inversion-*`（本地忽略）。

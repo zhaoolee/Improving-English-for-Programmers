@@ -1,0 +1,130 @@
+{
+  "filename": "W064-响应线上告警.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "alert",
+      "chinese": "告警",
+      "phoneticUS": "/əˈlɜːrt/",
+      "phoneticUK": "/əˈlɜːt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "告警由对白确认，三角图标不能证明真实事件或具体告警内容。",
+        "association": "告警由对白确认，三角图标不能证明真实事件或具体告警内容。",
+        "collocation": "acknowledge an alert; an alert appeared",
+        "example": "A: An alert just appeared on my phone.\nB: Please acknowledge it. I'll investigate the error rate.\nA: I'll check recent changes and keep you updated.\nB: Good. Tell the team if users are affected.",
+        "exampleChinese": "A: 我的手机刚刚收到了告警。\nB: 请先确认接手。我来调查错误率。\nA: 我会检查近期变更，并及时同步情况。\nB: 好。如果用户受到影响，请通知团队。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "acknowledge",
+      "chinese": "确认接手",
+      "phoneticUS": "/əkˈnɑːlɪdʒ/",
+      "phoneticUK": "/əkˈnɒlɪdʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处是确认收到并接手告警而非承认过错，确认动作尚为请求。",
+        "association": "此处是确认收到并接手告警而非承认过错，确认动作尚为请求。",
+        "collocation": "acknowledge an alert; acknowledge receipt",
+        "example": "Please acknowledge it. I'll investigate the error rate.",
+        "exampleChinese": "请先确认接手。我来调查错误率。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "investigate",
+      "chinese": "调查",
+      "phoneticUS": "/ɪnˈvestɪɡeɪt/",
+      "phoneticUK": "/ɪnˈvestɪɡeɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "调查是后续诊断工作，电脑姿态不足以定位具体调查动作。",
+        "association": "调查是后续诊断工作，电脑姿态不足以定位具体调查动作。",
+        "collocation": "investigate an issue; investigate the error rate",
+        "example": "Please acknowledge it. I'll investigate the error rate.",
+        "exampleChinese": "请先确认接手。我来调查错误率。"
+      }
+    },
+    {
+      "x": 417,
+      "y": 339,
+      "english": "phone",
+      "chinese": "手机",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 460.5811399461851,
+        "y": 231.32782644757717
+      },
+      "anchorPosition": {
+        "x": 417,
+        "y": 339
+      },
+      "boundingBox": {
+        "left": 383,
+        "top": 277,
+        "right": 450,
+        "bottom": 401
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "人物手持的完整手机可框选；告警内容由对白设定。",
+        "association": "人物手持的完整手机可框选；告警内容由对白设定。",
+        "collocation": "on my phone; check a phone",
+        "example": "An alert just appeared on my phone.",
+        "exampleChinese": "我的手机刚刚收到了告警。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two teammates acknowledge an alert and begin investigating a live issue.",
+    "chinese": "两名同事确认收到线上告警，并开始调查问题。",
+    "source": "原创对话 · W064 响应线上告警",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

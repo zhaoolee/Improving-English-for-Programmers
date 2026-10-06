@@ -1,0 +1,130 @@
+{
+  "filename": "W035-确认数据一致性要求.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "consistency",
+      "chinese": "一致性",
+      "phoneticUS": "/kənˈsɪstənsi/",
+      "phoneticUK": "/kənˈsɪstənsi/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "数据一致性是技术要求，静态相似界面不能证明实现了该性质。",
+        "association": "数据一致性是技术要求，静态相似界面不能证明实现了该性质。",
+        "collocation": "data consistency; level of consistency",
+        "example": "A: What level of consistency does this feature need?\nB: After a user saves, the new value must appear immediately.\nA: Could the second phone show a stale value?\nB: No. Both devices must show the latest saved value.",
+        "exampleChinese": "A: 这个功能需要什么程度的一致性？\nB: 用户保存后，新值必须立即出现。\nA: 第二部手机可以显示旧值吗？\nB: 不可以。两台设备都必须显示最新保存的值。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "immediately",
+      "chinese": "立即",
+      "phoneticUS": "/ɪˈmiːdiətli/",
+      "phoneticUK": "/ɪˈmiːdiətli/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adverb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "响应时序由对白要求定义，静态图不能量化时间。",
+        "association": "响应时序由对白要求定义，静态图不能量化时间。",
+        "collocation": "appear immediately; update immediately",
+        "example": "After a user saves, the new value must appear immediately.",
+        "exampleChinese": "用户保存后，新值必须立即出现。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "stale",
+      "chinese": "陈旧的",
+      "phoneticUS": "/steɪl/",
+      "phoneticUK": "/steɪl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "数据过期与否由对白讨论，不用空白手机界面当作旧值证据。",
+        "association": "数据过期与否由对白讨论，不用空白手机界面当作旧值证据。",
+        "collocation": "a stale value; stale data",
+        "example": "Could the second phone show a stale value?",
+        "exampleChinese": "第二部手机可以显示旧值吗？"
+      }
+    },
+    {
+      "x": 632,
+      "y": 355,
+      "english": "phone",
+      "chinese": "手机",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 630,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 632,
+        "y": 355
+      },
+      "boundingBox": {
+        "left": 594,
+        "top": 290,
+        "right": 695,
+        "bottom": 441
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧人物手持的第二部实体手机可以定位，屏幕数据含义由对白说明。",
+        "association": "右侧人物手持的第二部实体手机可以定位，屏幕数据含义由对白说明。",
+        "collocation": "the second phone; on a phone",
+        "example": "Could the second phone show a stale value?",
+        "exampleChinese": "第二部手机可以显示旧值吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers confirm that both phones must show the latest saved value immediately.",
+    "chinese": "两位开发者确认数据一致性要求：保存后两部手机都应立即显示最新值。",
+    "source": "原创对话 · W035 确认数据一致性要求",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

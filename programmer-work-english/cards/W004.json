@@ -1,0 +1,256 @@
+{
+  "id": "W004",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "配置开发环境时求助",
+  "keyword": "setup",
+  "scene": "开发者向同事求助，排查本地开发环境的配置问题。",
+  "target_count": 4,
+  "primary_words": [
+    "setup",
+    "dependency",
+    "install",
+    "keyboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "setup",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "配置",
+      "pos": "noun",
+      "ipa_us": "/ˈsetʌp/",
+      "ipa_uk": "/ˈsetʌp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you help me with the local setup?",
+        "matched_form": "setup",
+        "referent_region_verified": false,
+        "context": "setup指配置过程与状态，由对白说明，不能用电脑外观证明配置完成。",
+        "image_verified": null
+      },
+      "example_en": "Could you help me with the local setup?",
+      "example_zh": "你能帮我配置本地开发环境吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "local setup",
+        "help with setup"
+      ],
+      "example_en_highlighted": "Could you help me with the local **setup**?",
+      "annotation_mode": "context",
+      "annotation_note": "setup指配置过程与状态，由对白说明，不能用电脑外观证明配置完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "dependency",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "依赖",
+      "pos": "noun",
+      "ipa_us": "/dɪˈpendənsi/",
+      "ipa_uk": "/dɪˈpendənsi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Sure. Did you install every dependency?",
+        "matched_form": "dependency",
+        "referent_region_verified": false,
+        "context": "软件依赖由对白指出，屏幕抽象块不能定位真实依赖。",
+        "image_verified": null
+      },
+      "example_en": "Sure. Did you install every dependency?",
+      "example_zh": "当然。你安装了所有依赖吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "install a dependency",
+        "missing dependency"
+      ],
+      "example_en_highlighted": "Sure. Did you install every **dependency**?",
+      "annotation_mode": "context",
+      "annotation_note": "软件依赖由对白指出，屏幕抽象块不能定位真实依赖。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "install",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "安装",
+      "pos": "verb",
+      "ipa_us": "/ɪnˈstɔːl/",
+      "ipa_uk": "/ɪnˈstɔːl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. Let's install it and try again.",
+        "matched_form": "install",
+        "referent_region_verified": false,
+        "context": "安装是后续建议，键盘操作不能证明安装过程或结果。",
+        "image_verified": null
+      },
+      "example_en": "Yes. Let's install it and try again.",
+      "example_zh": "可以。我们把它安装好，再试一次。",
+      "bbox_normalized": null,
+      "collocations": [
+        "install a dependency",
+        "install software"
+      ],
+      "example_en_highlighted": "Yes. Let's **install** it and try again.",
+      "annotation_mode": "context",
+      "annotation_note": "安装是后续建议，键盘操作不能证明安装过程或结果。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "keyboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "键盘",
+      "pos": "noun",
+      "ipa_us": "/ˈkiːbɔːrd/",
+      "ipa_uk": "/ˈkiːbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "独立实体键盘可完整框选。",
+        "sentence": "One is missing. Could you show me what to type on the keyboard?",
+        "matched_form": "keyboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "One is missing. Could you show me what to type on the keyboard?",
+      "example_zh": "缺少了一个。你能告诉我该在键盘上输入什么吗？",
+      "bbox_normalized": [
+        0.381,
+        0.53,
+        0.646,
+        0.576
+      ],
+      "collocations": [
+        "on the keyboard",
+        "type on a keyboard"
+      ],
+      "example_en_highlighted": "One is missing. Could you show me what to type on the **keyboard**?",
+      "annotation_mode": "object",
+      "annotation_note": "独立实体键盘可完整框选。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer asks a teammate for help with a local setup.",
+    "zh": "开发者向同事求助，排查本地开发环境的配置问题。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer asks a teammate for help with a local setup.",
+    "zh": "开发者向同事求助，排查本地开发环境的配置问题。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you help me with the local setup?",
+      "zh": "你能帮我配置本地开发环境吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. Did you install every dependency?",
+      "zh": "当然。你安装了所有依赖吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "One is missing. Could you show me what to type on the keyboard?",
+      "zh": "缺少了一个。你能告诉我该在键盘上输入什么吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Let's install it and try again.",
+      "zh": "可以。我们把它安装好，再试一次。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明配置障碍并请求指导。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick-figure coworkers at a desk, developer seated left and teammate standing right leaning toward a desktop monitor. A separate physical keyboard with clear key grid is fully visible horizontally on the desk foreground center. Teammate points near the keyboard without obscuring it while developer asks with open palm. Screen contains abstract rectangles without letters. Entire keyboard and both hands visible.",
+  "status": "approved",
+  "image_path": "images/inverted/W004.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-05",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W004 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-05",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W004.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T08:00:21.265Z",
+    "ended_at": "2026-10-05T08:01:59.540Z",
+    "prompt_path": "prompts/W004_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W004.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W004.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "a2bb45264ac3f5d4c743c666859a13062ae47d96674041d6ecb5477f7d834afb",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W004.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：开发者就本地配置向同事求助，屏幕是无文字示意，前景完整独立键盘清楚可见；软件依赖与安装由对白说明。"
+  }
+}

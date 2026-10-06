@@ -1,0 +1,256 @@
+{
+  "id": "W044",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "回应必须修改的评论",
+  "keyword": "required",
+  "scene": "开发者回应代码评审中必须修改的问题。",
+  "target_count": 4,
+  "primary_words": [
+    "required",
+    "address",
+    "comment",
+    "checklist"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "required",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "必须的",
+      "pos": "adjective",
+      "ipa_us": "/rɪˈkwaɪərd/",
+      "ipa_uk": "/rɪˈkwaɪəd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Is this change required before we merge?",
+        "matched_form": "required",
+        "referent_region_verified": false,
+        "context": "必改要求由评审者对白确认，不能凭指点或清单判定优先级。",
+        "image_verified": null
+      },
+      "example_en": "Is this change required before we merge?",
+      "example_zh": "合并之前必须做这处修改吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a required change",
+        "required before merging"
+      ],
+      "example_en_highlighted": "Is this change **required** before we merge?",
+      "annotation_mode": "context",
+      "annotation_note": "必改要求由评审者对白确认，不能凭指点或清单判定优先级。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "address",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "处理",
+      "pos": "verb",
+      "ipa_us": "/əˈdres/",
+      "ipa_uk": "/əˈdres/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. Please address the comment about missing validation.",
+        "matched_form": "address",
+        "referent_region_verified": false,
+        "context": "address是处理问题而非地址，拟进行的修改没有局部区域。",
+        "image_verified": null
+      },
+      "example_en": "Yes. Please address the comment about missing validation.",
+      "example_zh": "是的。请处理关于缺少校验的这条评论。",
+      "bbox_normalized": null,
+      "collocations": [
+        "address a comment",
+        "address an issue"
+      ],
+      "example_en_highlighted": "Yes. Please **address** the comment about missing validation.",
+      "annotation_mode": "context",
+      "annotation_note": "address是处理问题而非地址，拟进行的修改没有局部区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "comment",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "评论",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːment/",
+      "ipa_uk": "/ˈkɒment/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. Please address the comment about missing validation.",
+        "matched_form": "comment",
+        "referent_region_verified": false,
+        "context": "无文字屏幕不展示真实评审评论，具体内容由对白提供。",
+        "image_verified": null
+      },
+      "example_en": "Yes. Please address the comment about missing validation.",
+      "example_zh": "是的。请处理关于缺少校验的这条评论。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a review comment",
+        "address a comment"
+      ],
+      "example_en_highlighted": "Yes. Please address the **comment** about missing validation.",
+      "annotation_mode": "context",
+      "annotation_note": "无文字屏幕不展示真实评审评论，具体内容由对白提供。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "checklist",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "检查清单",
+      "pos": "noun",
+      "ipa_us": "/ˈtʃeklɪst/",
+      "ipa_uk": "/ˈtʃeklɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "带多行复选框的纸质检查清单可完整框选。",
+        "sentence": "I'll add it to my checklist and update the patch.",
+        "matched_form": "checklist",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll add it to my checklist and update the patch.",
+      "example_zh": "我会把它加入检查清单，并更新补丁。",
+      "bbox_normalized": [
+        0.364,
+        0.48,
+        0.649,
+        0.625
+      ],
+      "collocations": [
+        "add to a checklist",
+        "a review checklist"
+      ],
+      "example_en_highlighted": "I'll add it to my **checklist** and update the patch.",
+      "annotation_mode": "object",
+      "annotation_note": "带多行复选框的纸质检查清单可完整框选。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer responds to a required change in a code review.",
+    "zh": "开发者回应代码评审中必须修改的问题。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer responds to a required change in a code review.",
+    "zh": "开发者回应代码评审中必须修改的问题。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Reviewer 评审者"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Is this change required before we merge?",
+      "zh": "合并之前必须做这处修改吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Please address the comment about missing validation.",
+      "zh": "是的。请处理关于缺少校验的这条评论。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll add it to my checklist and update the patch.",
+      "zh": "我会把它加入检查清单，并更新补丁。"
+    },
+    {
+      "speaker": "B",
+      "en": "Thanks. Ask me to review it again when you are ready.",
+      "zh": "谢谢。准备好后，请让我再评审一次。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "确认必改意见，并说明处理与复核步骤。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures at a small table reviewing a single large paper checklist flat in foreground center. Rectangular sheet has four empty square checkboxes and short plain horizontal placeholder lines, no letters. Developer indicates sheet with a pen held above it; reviewer points at a monitor behind showing abstract rectangles. Entire checklist unobscured and not crossed by arms.",
+  "status": "approved",
+  "image_path": "images/inverted/W044.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-05",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W044 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-05",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W044.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T08:00:21.265Z",
+    "ended_at": "2026-10-05T08:02:48.502Z",
+    "prompt_path": "prompts/W044_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W044.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W044.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "26cdcb2804da82b370e607d3ce9f31f0fbe41e058423ea0423256c68fbe26426",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W044.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：开发者记录检查项并听取评审意见，前景纸质清单四个复选框和边界清楚；必改要求与具体评论由对白提供，不从无文字屏幕推断。"
+  }
+}

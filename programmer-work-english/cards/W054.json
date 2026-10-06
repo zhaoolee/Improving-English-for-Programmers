@@ -1,0 +1,256 @@
+{
+  "id": "W054",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "确认问题出现的环境",
+  "keyword": "environment",
+  "scene": "测试同事与开发者确认问题出现时的环境和浏览器版本。",
+  "target_count": 4,
+  "primary_words": [
+    "environment",
+    "version",
+    "browser",
+    "screenshot"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "environment",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "环境",
+      "pos": "noun",
+      "ipa_us": "/ɪnˈvaɪrənmənt/",
+      "ipa_uk": "/ɪnˈvaɪrənmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Which environment did you use when the error appeared?",
+        "matched_form": "environment",
+        "referent_region_verified": false,
+        "context": "此处environment是软件运行环境而非房间，预发布环境由对白说明。",
+        "image_verified": null
+      },
+      "example_en": "Which environment did you use when the error appeared?",
+      "example_zh": "错误出现时，你使用的是哪个环境？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a staging environment",
+        "test environment"
+      ],
+      "example_en_highlighted": "Which **environment** did you use when the error appeared?",
+      "annotation_mode": "context",
+      "annotation_note": "此处environment是软件运行环境而非房间，预发布环境由对白说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "version",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "版本",
+      "pos": "noun",
+      "ipa_us": "/ˈvɜːrʒən/",
+      "ipa_uk": "/ˈvɜːʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you share the browser version and a screenshot?",
+        "matched_form": "version",
+        "referent_region_verified": false,
+        "context": "底图没有版本号码，不能从外观识别软件版本。",
+        "image_verified": null
+      },
+      "example_en": "Could you share the browser version and a screenshot?",
+      "example_zh": "你能提供浏览器版本和一张截图吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "browser version",
+        "share the version"
+      ],
+      "example_en_highlighted": "Could you share the browser **version** and a screenshot?",
+      "annotation_mode": "context",
+      "annotation_note": "底图没有版本号码，不能从外观识别软件版本。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "browser",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "浏览器",
+      "pos": "noun",
+      "ipa_us": "/ˈbraʊzər/",
+      "ipa_uk": "/ˈbraʊzə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Staging, in the browser on my laptop.",
+        "matched_form": "browser",
+        "referent_region_verified": false,
+        "context": "浏览器作为运行软件由对白说明，打印示意不证明软件正在运行。",
+        "image_verified": null
+      },
+      "example_en": "Staging, in the browser on my laptop.",
+      "example_zh": "预发布环境，用的是笔记本电脑上的浏览器。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in the browser",
+        "a browser window"
+      ],
+      "example_en_highlighted": "Staging, in the **browser** on my laptop.",
+      "annotation_mode": "context",
+      "annotation_note": "浏览器作为运行软件由对白说明，打印示意不证明软件正在运行。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "screenshot",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "截图",
+      "pos": "noun",
+      "ipa_us": "/ˈskriːnʃɑːt/",
+      "ipa_uk": "/ˈskriːnʃɒt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "独立纸张上展示的浏览器截图可框选，具体身份由对白设定。",
+        "sentence": "Could you share the browser version and a screenshot?",
+        "matched_form": "screenshot",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Could you share the browser version and a screenshot?",
+      "example_zh": "你能提供浏览器版本和一张截图吗？",
+      "bbox_normalized": [
+        0.478,
+        0.273,
+        0.648,
+        0.484
+      ],
+      "collocations": [
+        "share a screenshot",
+        "attach a screenshot"
+      ],
+      "example_en_highlighted": "Could you share the browser version and a **screenshot**?",
+      "annotation_mode": "object",
+      "annotation_note": "独立纸张上展示的浏览器截图可框选，具体身份由对白设定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-05",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A tester and a developer confirm the environment where a bug occurs.",
+    "zh": "测试同事与开发者确认问题出现时的环境和浏览器版本。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A tester and a developer confirm the environment where a bug occurs.",
+    "zh": "测试同事与开发者确认问题出现时的环境和浏览器版本。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Tester 测试同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Which environment did you use when the error appeared?",
+      "zh": "错误出现时，你使用的是哪个环境？"
+    },
+    {
+      "speaker": "B",
+      "en": "Staging, in the browser on my laptop.",
+      "zh": "预发布环境，用的是笔记本电脑上的浏览器。"
+    },
+    {
+      "speaker": "A",
+      "en": "Could you share the browser version and a screenshot?",
+      "zh": "你能提供浏览器版本和一张截图吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. I'll include both in the report.",
+      "zh": "当然。我会把两者都放进报告里。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "核对运行环境与版本，再索取证据。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures at a desk with an open laptop behind. Tester holds up a rectangular printed SCREENSHOT paper by its far side edge, fully front-facing near center right. Screenshot depicts browser window frame with top toolbar of three small circular icons, one large blank pane, a simple warning triangle. Developer points with open hand from left. Whole paper unobscured, no letters, version numerals or code.",
+  "status": "approved",
+  "image_path": "images/inverted/W054.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-05",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W054 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-05",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W054.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T08:00:21.265Z",
+    "ended_at": "2026-10-05T08:02:26.241Z",
+    "prompt_path": "prompts/W054_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W054.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W054.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "0fa696197b3b9ae035965dbc7618848a3100cc75edad1f2402a20c3504739bdb",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W054.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名同事核对问题环境，测试同事手持完整打印截图；浏览器窗口图示无文字，软件环境与版本由对白说明。截图纸张仅边缘被手握住，内容完整可裁剪。"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "W034-讨论性能瓶颈.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "bottleneck",
+      "chinese": "瓶颈",
+      "phoneticUS": "/ˈbɑːtlnek/",
+      "phoneticUK": "/ˈbɒtlnek/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "数据库是否瓶颈仍是假设，峰值不能单独证明因果关系。",
+        "association": "数据库是否瓶颈仍是假设，峰值不能单独证明因果关系。",
+        "collocation": "a performance bottleneck; identify a bottleneck",
+        "example": "A: Could the database be the bottleneck?\nB: Possibly. Let's measure latency before we change anything.\nA: The graph shows a spike during database calls.\nB: Then compare those calls with the total request time.",
+        "exampleChinese": "A: 数据库会是瓶颈吗？\nB: 有可能。修改之前，我们先测量延迟。\nA: 这张图显示数据库调用期间出现了峰值。\nB: 那么，把这些调用耗时和请求总耗时比较一下。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "latency",
+      "chinese": "延迟",
+      "phoneticUS": "/ˈleɪtənsi/",
+      "phoneticUK": "/ˈleɪtənsi/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "延迟是时间量，无轴标签示意图不能当真实测量值。",
+        "association": "延迟是时间量，无轴标签示意图不能当真实测量值。",
+        "collocation": "measure latency; request latency",
+        "example": "Possibly. Let's measure latency before we change anything.",
+        "exampleChinese": "有可能。修改之前，我们先测量延迟。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "measure",
+      "chinese": "测量",
+      "phoneticUS": "/ˈmeʒər/",
+      "phoneticUK": "/ˈmeʒə/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "测量是后续建议，没有具体测量动作证据。",
+        "association": "测量是后续建议，没有具体测量动作证据。",
+        "collocation": "measure latency; measure performance",
+        "example": "Possibly. Let's measure latency before we change anything.",
+        "exampleChinese": "有可能。修改之前，我们先测量延迟。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 409,
+      "english": "graph",
+      "chinese": "图表",
+      "phoneticUS": "/ɡræf/",
+      "phoneticUK": "/ɡrɑːf/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 409
+      },
+      "boundingBox": {
+        "left": 227,
+        "top": 207,
+        "right": 773,
+        "bottom": 583
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "板上的折线图可定位；与数据库调用的关联由对白设定。",
+        "association": "板上的折线图可定位；与数据库调用的关联由对白设定。",
+        "collocation": "a line graph; the graph shows",
+        "example": "The graph shows a spike during database calls.",
+        "exampleChinese": "这张图显示数据库调用期间出现了峰值。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers use measurements to discuss a performance bottleneck.",
+    "chinese": "两名开发者根据测量结果讨论性能瓶颈。",
+    "source": "原创对话 · W034 讨论性能瓶颈",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

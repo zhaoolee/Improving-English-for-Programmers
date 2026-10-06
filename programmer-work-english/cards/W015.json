@@ -1,0 +1,246 @@
+{
+  "id": "W015",
+  "category": "requirements",
+  "category_title": "需求澄清",
+  "chapter": "需求澄清",
+  "title": "确认验收标准",
+  "keyword": "criteria",
+  "scene": "开发者与产品同事确认保存操作的验收标准，包括成功提示和失败处理。",
+  "target_count": 4,
+  "primary_words": [
+    "criteria",
+    "acceptance",
+    "confirmation",
+    "checkmark"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "criteria",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "标准",
+      "pos": "plural noun",
+      "ipa_us": "/kraɪˈtɪriə/",
+      "ipa_uk": "/kraɪˈtɪəriə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I will add those criteria to the ticket. Does a failed save keep the form open?",
+        "matched_form": "criteria",
+        "referent_region_verified": false,
+        "context": "criteria是可验收要求，由完整对白定义，不给整个屏幕虚假框。",
+        "image_verified": null
+      },
+      "example_en": "I will add those criteria to the ticket. Does a failed save keep the form open?",
+      "example_zh": "我会把这些标准加到任务单里。保存失败时表单保持打开吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "acceptance criteria",
+        "add criteria to a ticket"
+      ],
+      "example_en_highlighted": "I will add those **criteria** to the ticket. Does a failed save keep the form open?",
+      "annotation_mode": "context",
+      "annotation_note": "criteria是可验收要求，由完整对白定义，不给整个屏幕虚假框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "acceptance",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "验收",
+      "pos": "noun",
+      "ipa_us": "/əkˈseptəns/",
+      "ipa_uk": "/əkˈseptəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "For acceptance, do we need a confirmation after saving?",
+        "matched_form": "acceptance",
+        "referent_region_verified": false,
+        "context": "验收行为与规则由对白说明，画面不能证明已通过验收。",
+        "image_verified": null
+      },
+      "example_en": "For acceptance, do we need a confirmation after saving?",
+      "example_zh": "验收时，保存后需要显示确认提示吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "for acceptance",
+        "acceptance criteria"
+      ],
+      "example_en_highlighted": "For **acceptance**, do we need a confirmation after saving?",
+      "annotation_mode": "context",
+      "annotation_note": "验收行为与规则由对白说明，画面不能证明已通过验收。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "confirmation",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "确认提示",
+      "pos": "noun",
+      "ipa_us": "/ˌkɑːnfərˈmeɪʃən/",
+      "ipa_uk": "/ˌkɒnfəˈmeɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "For acceptance, do we need a confirmation after saving?",
+        "matched_form": "confirmation",
+        "referent_region_verified": false,
+        "context": "confirmation是功能反馈含义，以对白说明；仅把可见符号定位给checkmark。",
+        "image_verified": null
+      },
+      "example_en": "For acceptance, do we need a confirmation after saving?",
+      "example_zh": "验收时，保存后需要显示确认提示吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "show a confirmation",
+        "confirmation after saving"
+      ],
+      "example_en_highlighted": "For acceptance, do we need a **confirmation** after saving?",
+      "annotation_mode": "context",
+      "annotation_note": "confirmation是功能反馈含义，以对白说明；仅把可见符号定位给checkmark。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "checkmark",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "对勾",
+      "pos": "noun",
+      "ipa_us": "/ˈtʃekmɑːrk/",
+      "ipa_uk": "/ˈtʃekmɑːk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "屏幕上独立清晰的对勾符号可框选；成功反馈由对白定义。",
+        "sentence": "Yes. Show a checkmark and keep the entered values.",
+        "matched_form": "checkmark",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Yes. Show a checkmark and keep the entered values.",
+      "example_zh": "需要。显示一个对勾，并保留已输入的内容。",
+      "bbox_normalized": [
+        0.75,
+        0.327,
+        0.845,
+        0.416
+      ],
+      "collocations": [
+        "show a checkmark",
+        "a confirmation checkmark"
+      ],
+      "example_en_highlighted": "Yes. Show a **checkmark** and keep the entered values.",
+      "annotation_mode": "object",
+      "annotation_note": "屏幕上独立清晰的对勾符号可框选；成功反馈由对白定义。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer and a product teammate agree on the acceptance criteria for a save action.",
+    "zh": "开发者与产品同事确认保存操作的验收标准，包括成功提示和失败处理。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer and a product teammate agree on the acceptance criteria for a save action.",
+    "zh": "开发者与产品同事确认保存操作的验收标准，包括成功提示和失败处理。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Product teammate 产品同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "For acceptance, do we need a confirmation after saving?",
+      "zh": "验收时，保存后需要显示确认提示吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Show a checkmark and keep the entered values.",
+      "zh": "需要。显示一个对勾，并保留已输入的内容。"
+    },
+    {
+      "speaker": "A",
+      "en": "I will add those criteria to the ticket. Does a failed save keep the form open?",
+      "zh": "我会把这些标准加到任务单里。保存失败时表单保持打开吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Exactly. Display an error and let the user retry.",
+      "zh": "对。显示错误，让用户重试。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "确认可测试的成功与失败标准。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers at a desk reviewing a large desktop monitor positioned on the RIGHT. Screen shows a blank form with two unlettered rectangular fields and ONE large unmistakable white checkmark in a separate small outlined success tile near the screen upper-right. One person points to the success tile without touching it; another considers with open palm. The full checkmark is large and unobstructed; no words or digits.",
+  "status": "approved",
+  "image_path": "images/W015.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W015 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W015.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T16:12:32.645Z",
+    "ended_at": "2026-10-05T16:13:38.453Z",
+    "prompt_path": "prompts/W015_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W015.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；屏幕上独立清晰的对勾符号可框选；成功反馈由对白定义。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。"
+  }
+}

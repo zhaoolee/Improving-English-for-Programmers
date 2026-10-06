@@ -1,0 +1,130 @@
+{
+  "filename": "W072-一对一讨论成长目标.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "goal",
+      "chinese": "目标",
+      "phoneticUS": "/ɡoʊl/",
+      "phoneticUK": "/ɡəʊl/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "成长目标由对白明确提出，不能从人物表情或笔记本外观推断，不设框。",
+        "association": "成长目标由对白明确提出，不能从人物表情或笔记本外观推断，不设框。",
+        "collocation": "set a goal; my goal is to",
+        "example": "A: My goal is to explain technical decisions more clearly.\nB: What would help you practice that?\nA: I'll lead one short discussion in each team meeting and take notes in this notebook.\nB: That sounds realistic. Let's review your progress in two weeks.",
+        "exampleChinese": "A: 我的目标是把技术决策解释得更清楚。\nB: 怎样的练习能帮助你做到这一点？\nA: 我会在每次团队会议中主持一次简短讨论，并在这本笔记本里记下要点。\nB: 这很实际。我们两周后回顾一下你的进展。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "practice",
+      "chinese": "练习",
+      "phoneticUS": "/ˈpræktɪs/",
+      "phoneticUK": "/ˈpræktɪs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处practice为美式动词拼写，对应对白中的练习行动；静态谈话不证明已进行练习。",
+        "association": "此处practice为美式动词拼写，对应对白中的练习行动；静态谈话不证明已进行练习。",
+        "collocation": "practice explaining decisions; help someone practice",
+        "example": "What would help you practice that?",
+        "exampleChinese": "怎样的练习能帮助你做到这一点？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "meeting",
+      "chinese": "会议",
+      "phoneticUS": "/ˈmiːtɪŋ/",
+      "phoneticUK": "/ˈmiːtɪŋ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此词指未来的团队会议，不是当前一对一画面本身，保持无框语境词。",
+        "association": "此词指未来的团队会议，不是当前一对一画面本身，保持无框语境词。",
+        "collocation": "a team meeting; in each meeting",
+        "example": "I'll lead one short discussion in each team meeting and take notes in this notebook.",
+        "exampleChinese": "我会在每次团队会议中主持一次简短讨论，并在这本笔记本里记下要点。"
+      }
+    },
+    {
+      "x": 443,
+      "y": 560,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 460,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 443,
+        "y": 560
+      },
+      "boundingBox": {
+        "left": 320,
+        "top": 505,
+        "right": 580,
+        "bottom": 618
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上的双页纸质笔记本可以定位，未来记录行为由对白说明。",
+        "association": "桌上的双页纸质笔记本可以定位，未来记录行为由对白说明。",
+        "collocation": "in this notebook; take notes in a notebook",
+        "example": "I'll lead one short discussion in each team meeting and take notes in this notebook.",
+        "exampleChinese": "我会在每次团队会议中主持一次简短讨论，并在这本笔记本里记下要点。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a mentor agree on a goal for practicing clearer technical explanations.",
+    "chinese": "开发者与导师在一对一交流中，确定练习清晰表达技术方案的成长目标。",
+    "source": "原创对话 · W072 一对一讨论成长目标",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

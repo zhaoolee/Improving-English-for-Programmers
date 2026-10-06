@@ -1,0 +1,120 @@
+W062  发布前核对检查项
+========================================================================
+分类: 发布与线上协作（operations）
+关键词: checklist
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W062.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W062.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W062.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T13:27:56Z → 2026-10-04T13:31:16Z
+  提示词文件: prompts/W062_image_final.txt
+
+场景: 两名开发者在发布前核对检查清单，并用平板查看发布步骤。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名同事核对前景纸面检查清单与左侧平板，清单勾选和待确认项清楚。两件物件独立框选；备份就绪和发布准备由对白说明，不从勾选图案推断服务真实状态。
+
+沟通目标: 确认发布前的准备状态和放行条件。
+
+主配文（一句场景描述）:
+  英文: Two developers review a checklist and rollout steps before starting a release.
+  中文: 两名开发者在发布前核对检查清单，并用平板查看发布步骤。
+
+角色与对白:
+  A = Developer 开发者
+  B = Release partner 发布协作同事
+  [A] Let's go through the checklist before this release.
+        我们在这次发布前逐项核对检查清单。
+  [B] The tests have passed, and the backup is ready.
+        测试已经通过，备份也已准备好。
+  [A] I'll check the rollout steps on this tablet.
+        我会在这台平板上检查发布步骤。
+  [B] Good. Once they're confirmed, we can start.
+        好。确认这些步骤后，我们就可以开始了。
+
+目标词 (4): checklist, backup, release, tablet
+
+------------------------------------------------------------------------
+[1/4] checklist
+  词义: 检查清单
+  词性: noun
+  音标: UK /ˈtʃeklɪst/ | US /ˈtʃeklɪst/
+  搭配: go through a checklist; a release checklist
+  例句: Let's go through the checklist before this release.
+  例句高亮: Let's go through the **checklist** before this release.
+  例句中文: 我们在这次发布前逐项核对检查清单。
+  标注模式: object
+  标注说明: 桌上具有方形检查框和核对符号的实际纸质清单可定位；具体检查项由对白补充。
+  坐标(normalized): [0.321, 0.557, 0.699, 0.787]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] backup
+  词义: 备份
+  词性: noun
+  音标: UK /ˈbækʌp/ | US /ˈbækʌp/
+  搭配: a backup is ready; create a backup
+  例句: The tests have passed, and the backup is ready.
+  例句高亮: The tests have passed, and the **backup** is ready.
+  例句中文: 测试已经通过，备份也已准备好。
+  标注模式: context
+  标注说明: 数据备份的状态由对白明确说明，图中没有真实备份介质证据，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] release
+  词义: 发布
+  词性: noun
+  音标: UK /rɪˈliːs/ | US /rɪˈliːs/
+  搭配: before a release; start a release
+  例句: Let's go through the checklist before this release.
+  例句高亮: Let's go through the checklist before this **release**.
+  例句中文: 我们在这次发布前逐项核对检查清单。
+  标注模式: context
+  标注说明: 软件发布是工作流程，由对白说明，不能将某个按钮或物件框成release。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] tablet
+  词义: 平板电脑
+  词性: noun
+  音标: UK /ˈtæblət/ | US /ˈtæblət/
+  搭配: on this tablet; check steps on a tablet
+  例句: I'll check the rollout steps on this tablet.
+  例句高亮: I'll check the rollout steps on this **tablet**.
+  例句中文: 我会在这台平板上检查发布步骤。
+  标注模式: object
+  标注说明: 桌上的带屏幕和圆角边框的平板电脑可局部定位，不与纸质清单混框。
+  坐标(normalized): [0.045, 0.383, 0.256, 0.642]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 2
+  context_annotations: 2
+  scope: W062 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=16 | meta.approved_cards=16
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers sit at a table doing a pre-release check. A large unobstructed paper checklist lies in the center foreground, with square checkboxes, three check marks, and blank short horizontal lines; no letters or numbers. A clearly recognizable thin tablet with a simple screen and rounded rectangular bezel stands on a small support at the left part of the table, separate from the paper. One developer points toward the tablet, the other uses a pen beside the checklist. Keep tablet and checklist fully visible.
+

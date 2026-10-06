@@ -1,0 +1,17 @@
+{
+  "cardID": "W021",
+  "imagePath": "../images/inverted/W021.png",
+  "imageSHA256": "32f23f31e284587ed64577b6cb9fb1e735d204cd223859de68381a3cea2a663e",
+  "imageReviewed": true,
+  "annotationsPath": "W021_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "priority",
+    "issue",
+    "deadline",
+    "board"
+  ],
+  "receiptPath": "W021_v7_image_replace_receipt.json",
+  "photoID": "e26e56a9-afda-429f-a0a8-a286b1322835",
+  "expectedAssetID": "343f130408e081edf0c592ebaf898684bac3f9671580178aa111df9dc8e634e6"
+}

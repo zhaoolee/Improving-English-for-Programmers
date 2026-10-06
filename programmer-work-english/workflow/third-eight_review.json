@@ -1,0 +1,506 @@
+{
+  "ready": true,
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "reviewer": "Codex 整卡视觉审查",
+  "coordinateSystem": "0–1000，按实际选定底图定位；cards写0–1，PicLex写0–1000。",
+  "semanticReview": "32词条固定词序；8局部区域、24语境词。抽象词由对白支持，context无虚假框。全部英文对白无中文，四话轮A/B/A/B，中英独立；小物件复选框、光标完整框选。",
+  "reviewCompletedAt": "2026-10-04T14:15:29Z",
+  "cards": {
+    "W003": {
+      "sourcePath": "images/W003.png",
+      "imageReview": "通过：开发者向同事求助，桌上完整打开的笔记本可见，屏幕只有信封图标。权限、邀请、仓库与推送状态由对白设定，不把图标当真实权限证据；无角色说明或文字进入底图。",
+      "geometry": {
+        "permission": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "invite": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "repository": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            865
+          ],
+          "box": [
+            370,
+            430,
+            642,
+            614
+          ],
+          "anchor": [
+            525,
+            515
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            205,
+            270,
+            354,
+            416
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            550,
+            191,
+            707,
+            339
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:13:24Z"
+    },
+    "W013": {
+      "sourcePath": "images/W013.png",
+      "imageReview": "通过：两名同事讨论设置界面，屏幕下部仅有一个大而独立的空方形复选框，边缘完整可辨。必需、可选及声音默认行为由对白说明；仅框真实复选框，不框整个显示器代替小对象。",
+      "geometry": {
+        "required": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "optional": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "feature": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "checkbox": {
+          "bubble": [
+            500,
+            860
+          ],
+          "box": [
+            460,
+            450,
+            515,
+            506
+          ],
+          "anchor": [
+            488,
+            478
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            110,
+            185,
+            300,
+            370
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            710,
+            195,
+            900,
+            382
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:13:24Z"
+    },
+    "W023": {
+      "sourcePath": "images/W023.png",
+      "imageReview": "通过：左侧开发者持手机说明阻塞，右侧负责人倾听；手机完整边框和听筒图标清晰可辨。背景任务板不作为阻塞或依赖证据，失败原因和时间预估请求由对白说明。",
+      "geometry": {
+        "blocked": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "dependency": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "estimate": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "phone": {
+          "bubble": [
+            500,
+            205
+          ],
+          "box": [
+            434,
+            345,
+            495,
+            445
+          ],
+          "anchor": [
+            462,
+            385
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            261,
+            278,
+            395,
+            414
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            659,
+            197,
+            800,
+            333
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:13:24Z"
+    },
+    "W033": {
+      "sourcePath": "images/W033.png",
+      "imageReview": "通过：上下两条实现路径与上方额外分支构成完整示意图，同事分别指向两种方案。框住实际图形而非整个白板；速度与维护复杂度由对白评价，不由图块数量推断真实性能。",
+      "geometry": {
+        "compare": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "option": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "complexity": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            500,
+            650
+          ],
+          "box": [
+            300,
+            294,
+            700,
+            528
+          ],
+          "anchor": [
+            445,
+            395
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            80,
+            280,
+            217,
+            409
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            782,
+            299,
+            917,
+            426
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:11:05Z"
+    },
+    "W043": {
+      "sourcePath": "images/W043.png",
+      "imageReview": "通过：屏幕中的鼠标箭头光标与抽象代码短线清楚分开；评审者用鼠标指出位置，代码作者回应。光标可独立裁剪；建议、重命名及可选属性由对白说明，不以无文字代码声称完成真实修改。",
+      "geometry": {
+        "suggestion": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "rename": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "optional": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "cursor": {
+          "bubble": [
+            590,
+            205
+          ],
+          "box": [
+            568,
+            344,
+            614,
+            407
+          ],
+          "anchor": [
+            588,
+            378
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            122,
+            265,
+            285,
+            425
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            722,
+            265,
+            885,
+            435
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:11:38Z"
+    },
+    "W053": {
+      "sourcePath": "images/W053.png",
+      "imageReview": "通过：测试同事展示纸质界面截图，外缘、浏览器边框与提示框完整，开发者请求排查信息。截图局部可定位；日志、附件操作和时间戳由对白明确说明，无文字的背景屏幕不证明真实日志。",
+      "geometry": {
+        "log": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "attach": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "timestamp": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "screenshot": {
+          "bubble": [
+            545,
+            875
+          ],
+          "box": [
+            398,
+            407,
+            688,
+            598
+          ],
+          "anchor": [
+            550,
+            520
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            177,
+            191,
+            338,
+            337
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            657,
+            207,
+            808,
+            351
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:12:24Z"
+    },
+    "W063": {
+      "sourcePath": "images/W063.png",
+      "imageReview": "通过：完整圆形墙钟具十二个刻度、长针朝上与短针朝右上，示意两点；两名同事核对发布安排。clock框选整只墙钟，通知及部署尚为计划，不能声称静态画面证明已发送或已部署。顶部标签已留出钟面上方间距。",
+      "geometry": {
+        "notify": {
+          "bubble": [
+            200,
+            75
+          ]
+        },
+        "schedule": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "deployment": {
+          "bubble": [
+            800,
+            75
+          ]
+        },
+        "clock": {
+          "bubble": [
+            500,
+            420
+          ],
+          "box": [
+            395,
+            140,
+            605,
+            355
+          ],
+          "anchor": [
+            500,
+            249
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            155,
+            278,
+            295,
+            416
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            647,
+            361,
+            775,
+            491
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:12:56Z"
+    },
+    "W073": {
+      "sourcePath": "images/W073.png",
+      "imageReview": "通过：同事在圆桌旁讨论排查经验，前景双页螺旋笔记本完整可见，一人指向页内。记录方法和经验教训由对白说明；仅框纸质笔记本，不把静态手势或空白笔记本当学习成果证明。",
+      "geometry": {
+        "lesson": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "share": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "approach": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            500,
+            880
+          ],
+          "box": [
+            299,
+            485,
+            689,
+            611
+          ],
+          "anchor": [
+            498,
+            548
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            185,
+            190,
+            370,
+            375
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            620,
+            202,
+            810,
+            380
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T14:09:01Z",
+      "generationEndedAt": "2026-10-04T14:13:24Z"
+    }
+  }
+}

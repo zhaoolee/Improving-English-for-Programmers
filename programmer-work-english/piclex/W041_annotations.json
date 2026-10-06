@@ -1,0 +1,130 @@
+{
+  "filename": "W041-请求代码评审.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "review",
+      "chinese": "评审",
+      "phoneticUS": "/rɪˈvjuː/",
+      "phoneticUK": "/rɪˈvjuː/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "评审意图与反馈由对话给出，不能仅凭看电脑鉴定评审，不设框。",
+        "association": "评审意图与反馈由对话给出，不能仅凭看电脑鉴定评审，不设框。",
+        "collocation": "review a change; review code",
+        "example": "A: Could you review the change on my laptop?\nB: Sure. I suggest renaming this variable so its purpose is clearer.\nA: Good point. I'll update the name and rerun the tests.\nB: Thanks. I'll take another look when it's ready.",
+        "exampleChinese": "A: 你能在我的笔记本电脑上评审这次修改吗？\nB: 可以。我建议给这个变量重新命名，让它的用途更清楚。\nA: 有道理。我会修改名称并重新运行测试。\nB: 谢谢。准备好后，我会再看一次。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "change",
+      "chinese": "修改",
+      "phoneticUS": "/tʃeɪndʒ/",
+      "phoneticUK": "/tʃeɪndʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "本卡是代码修改而不是物体；抽象编辑器线条不表示具体差异，不设框。",
+        "association": "本卡是代码修改而不是物体；抽象编辑器线条不表示具体差异，不设框。",
+        "collocation": "review a change; make a change",
+        "example": "Could you review the change on my laptop?",
+        "exampleChinese": "你能在我的笔记本电脑上评审这次修改吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "suggest",
+      "chinese": "建议",
+      "phoneticUS": "/səˈdʒest/",
+      "phoneticUK": "/səˈdʒest/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "建议行为由明确对白支持；不把手势当成建议的充分证据，不设框。",
+        "association": "建议行为由明确对白支持；不把手势当成建议的充分证据，不设框。",
+        "collocation": "suggest doing something; suggest a change",
+        "example": "I suggest renaming this variable so its purpose is clearer.",
+        "exampleChinese": "我建议给这个变量重新命名，让它的用途更清楚。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 488,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 680
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 488
+      },
+      "boundingBox": {
+        "left": 385,
+        "top": 414,
+        "right": 655,
+        "bottom": 548
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上的打开式笔记本电脑为实际局部对象。",
+        "association": "桌上的打开式笔记本电脑为实际局部对象。",
+        "collocation": "on my laptop; an open laptop",
+        "example": "Could you review the change on my laptop?",
+        "exampleChinese": "你能在我的笔记本电脑上评审这次修改吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a teammate to review a change and receives a naming suggestion.",
+    "chinese": "开发者请同事评审代码修改，并收到一个让变量命名更清楚的建议。",
+    "source": "原创对话 · W041 请求代码评审",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

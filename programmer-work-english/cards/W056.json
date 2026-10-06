@@ -1,0 +1,246 @@
+{
+  "id": "W056",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "提出待验证的假设",
+  "keyword": "hypothesis",
+  "scene": "两位开发者通过更换连接线并检查结果，验证连接问题的假设。",
+  "target_count": 4,
+  "primary_words": [
+    "hypothesis",
+    "verify",
+    "isolate",
+    "cable"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "hypothesis",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "假设",
+      "pos": "noun",
+      "ipa_us": "/haɪˈpɑːθəsɪs/",
+      "ipa_uk": "/haɪˈpɒθəsɪs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My hypothesis is that this cable causes the connection failures.",
+        "matched_form": "hypothesis",
+        "referent_region_verified": false,
+        "context": "故障原因仍是待验证假设，由对白明确，不宣称图片证明因果。",
+        "image_verified": null
+      },
+      "example_en": "My hypothesis is that this cable causes the connection failures.",
+      "example_zh": "我的假设是这根线导致了连接失败。",
+      "bbox_normalized": null,
+      "collocations": [
+        "test a hypothesis",
+        "evidence for a hypothesis"
+      ],
+      "example_en_highlighted": "My **hypothesis** is that this cable causes the connection failures.",
+      "annotation_mode": "context",
+      "annotation_note": "故障原因仍是待验证假设，由对白明确，不宣称图片证明因果。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "verify",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "验证",
+      "pos": "verb",
+      "ipa_us": "/ˈverɪfaɪ/",
+      "ipa_uk": "/ˈverɪfaɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let's verify that by replacing only the cable.",
+        "matched_form": "verify",
+        "referent_region_verified": false,
+        "context": "验证是对话约定的实验步骤，静态图不足以证明已经通过。",
+        "image_verified": null
+      },
+      "example_en": "Let's verify that by replacing only the cable.",
+      "example_zh": "我们只更换这根线来验证一下。",
+      "bbox_normalized": null,
+      "collocations": [
+        "verify a hypothesis",
+        "verify by testing"
+      ],
+      "example_en_highlighted": "Let's **verify** that by replacing only the cable.",
+      "annotation_mode": "context",
+      "annotation_note": "验证是对话约定的实验步骤，静态图不足以证明已经通过。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "isolate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "定位",
+      "pos": "verb",
+      "ipa_us": "/ˈaɪsəleɪt/",
+      "ipa_uk": "/ˈaɪsəleɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "If the failures stop, can we isolate the problem to this cable?",
+        "matched_form": "isolate",
+        "referent_region_verified": false,
+        "context": "isolate指定位故障原因，不能把线缆分离状态当成因果定位。",
+        "image_verified": null
+      },
+      "example_en": "If the failures stop, can we isolate the problem to this cable?",
+      "example_zh": "如果故障不再出现，我们就能把问题定位到这根线吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "isolate the problem",
+        "isolate a cause"
+      ],
+      "example_en_highlighted": "If the failures stop, can we **isolate** the problem to this cable?",
+      "annotation_mode": "context",
+      "annotation_note": "isolate指定位故障原因，不能把线缆分离状态当成因果定位。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "cable",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "连接线",
+      "pos": "noun",
+      "ipa_us": "/ˈkeɪbəl/",
+      "ipa_uk": "/ˈkeɪbəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "框选完整线缆及两端插头；故障原因仅为假设，不由外观判定。",
+        "sentence": "My hypothesis is that this cable causes the connection failures.",
+        "matched_form": "cable",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "My hypothesis is that this cable causes the connection failures.",
+      "example_zh": "我的假设是这根线导致了连接失败。",
+      "bbox_normalized": [
+        0.474,
+        0.574,
+        0.869,
+        0.661
+      ],
+      "collocations": [
+        "replace a cable",
+        "connection cable"
+      ],
+      "example_en_highlighted": "My hypothesis is that this **cable** causes the connection failures.",
+      "annotation_mode": "object",
+      "annotation_note": "框选完整线缆及两端插头；故障原因仅为假设，不由外观判定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers test a connection hypothesis by changing a cable and checking the result.",
+    "zh": "两位开发者通过更换连接线并检查结果，验证连接问题的假设。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers test a connection hypothesis by changing a cable and checking the result.",
+    "zh": "两位开发者通过更换连接线并检查结果，验证连接问题的假设。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "My hypothesis is that this cable causes the connection failures.",
+      "zh": "我的假设是这根线导致了连接失败。"
+    },
+    {
+      "speaker": "B",
+      "en": "Let's verify that by replacing only the cable.",
+      "zh": "我们只更换这根线来验证一下。"
+    },
+    {
+      "speaker": "A",
+      "en": "If the failures stop, can we isolate the problem to this cable?",
+      "zh": "如果故障不再出现，我们就能把问题定位到这根线吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "It's evidence for the hypothesis. Let's repeat the test before we conclude.",
+      "zh": "这为假设提供了证据。我们先重复测试，再下结论。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用单一变化验证假设并隔离故障原因。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure programmers sit at a desk with a simple laptop on LEFT. On the RIGHT foreground of the desk lies one large clearly recognizable detached data CABLE, a curved cord with a rectangular connector plug at EACH end. Both plugs and the entire curved cord are fully visible and isolated from hands. One programmer points toward the cable, other listens. No extra cables, no text.",
+  "status": "approved",
+  "image_path": "images/W056.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W056 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W056.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T17:07:49.513Z",
+    "ended_at": "2026-10-05T17:10:39.552Z",
+    "prompt_path": "prompts/W056_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W056.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；框选完整线缆及两端插头；故障原因仅为假设，不由外观判定。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。"
+  }
+}

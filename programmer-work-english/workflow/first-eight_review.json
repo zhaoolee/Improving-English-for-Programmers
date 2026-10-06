@@ -1,0 +1,535 @@
+{
+  "ready": true,
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "reviewer": "Codex 整卡视觉审查",
+  "coordinateSystem": "0–1000，按实际选定底图定位；cards写0–1，PicLex写0–1000。",
+  "semanticReview": "32词条均保留定稿词序；抽象词由原创对白支持，所有context明确无框；可见对象按实际图形定位。图中额外杯子/盆栽不列作目标词。未声称手机验收或学习效果。",
+  "cards": {
+    "W001": {
+      "sourcePath": "images/W001.png",
+      "imageReview": "通过：白底黑线，两名火柴人问候；左侧新人背包招手，右侧同事介绍办公位置。办公桌与打开式笔记本完整可见，未生成对白或品牌文字。introduce/access由对白设定支持；单桌画面不声称能看出邻桌分配。",
+      "geometry": {
+        "introduce": {
+          "bubble": [
+            250,
+            100
+          ]
+        },
+        "desk": {
+          "bubble": [
+            500,
+            865
+          ],
+          "box": [
+            260,
+            545,
+            765,
+            805
+          ],
+          "anchor": [
+            720,
+            745
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            305
+          ],
+          "box": [
+            390,
+            435,
+            610,
+            585
+          ],
+          "anchor": [
+            480,
+            510
+          ]
+        },
+        "access": {
+          "bubble": [
+            750,
+            100
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            150,
+            220,
+            295,
+            365
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            720,
+            210,
+            860,
+            350
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:26:44Z"
+    },
+    "W011": {
+      "sourcePath": "images/W011.png",
+      "imageReview": "通过：开发者和产品经理共同指向带两栏输入框与一个按钮的表单。按钮、屏幕明确可分开框选，人物表情和黑白线条符合风格。启用条件由对白表达，不从空白UI推断运行状态。",
+      "geometry": {
+        "clarify": {
+          "bubble": [
+            250,
+            100
+          ]
+        },
+        "requirement": {
+          "bubble": [
+            750,
+            100
+          ]
+        },
+        "button": {
+          "bubble": [
+            500,
+            675
+          ],
+          "box": [
+            430,
+            458,
+            582,
+            508
+          ],
+          "anchor": [
+            506,
+            484
+          ]
+        },
+        "screen": {
+          "bubble": [
+            520,
+            210
+          ],
+          "box": [
+            330,
+            309,
+            682,
+            529
+          ],
+          "anchor": [
+            640,
+            390
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            115,
+            310,
+            255,
+            450
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            740,
+            265,
+            925,
+            410
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:27:11Z"
+    },
+    "W021": {
+      "sourcePath": "images/W021.png",
+      "imageReview": "通过：两名同事在三栏任务板前交流，一人指任务卡，另一人持笔。整块任务板含支撑完整可见。空白任务卡没有虚假内容；priority/issue/deadline均由对白支持。",
+      "geometry": {
+        "priority": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "issue": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "deadline": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "board": {
+          "bubble": [
+            500,
+            660
+          ],
+          "box": [
+            282,
+            230,
+            724,
+            758
+          ],
+          "anchor": [
+            600,
+            500
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            105,
+            280,
+            245,
+            410
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            755,
+            285,
+            890,
+            410
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:27:34Z"
+    },
+    "W031": {
+      "sourcePath": "images/W031.png",
+      "imageReview": "通过：两个同事用白板中的矩形和分支箭头讨论方案；可见diagram整体完整。图中实际有四个矩形，是完整连通示意图，不强行声明其中某个矩形是cache。trade-off/cache/latency由对白支持。",
+      "geometry": {
+        "trade-off": {
+          "bubble": [
+            200,
+            85
+          ]
+        },
+        "cache": {
+          "bubble": [
+            500,
+            85
+          ]
+        },
+        "latency": {
+          "bubble": [
+            800,
+            85
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            520,
+            200
+          ],
+          "box": [
+            327,
+            250,
+            690,
+            415
+          ],
+          "anchor": [
+            625,
+            333
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            160,
+            275,
+            280,
+            400
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            730,
+            285,
+            855,
+            425
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:28:56Z"
+    },
+    "W041": {
+      "sourcePath": "images/W041.png",
+      "imageReview": "通过：两名同事并坐查看笔记本，合作姿态清楚。图中屏幕和部分键盘可见，笔记本完整边界可框选；没有可读代码。review/change/suggest由对白支持，不从手势鉴定评审结果。",
+      "geometry": {
+        "review": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "change": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "suggest": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            680
+          ],
+          "box": [
+            385,
+            414,
+            655,
+            548
+          ],
+          "anchor": [
+            500,
+            488
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            270,
+            210,
+            430,
+            375
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            570,
+            220,
+            735,
+            385
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:28:36Z"
+    },
+    "W051": {
+      "sourcePath": "images/W051.png",
+      "imageReview": "通过：屏幕浏览器具有地址栏、标签页、表单和警告符号；桌上纸质截图展示同一界面副本。两名人物分别指屏幕和截图；实际手指局部遮住窗口/纸张，不影响整体指代。browser/screenshot可定位，reproduce/error由对白支持。",
+      "geometry": {
+        "reproduce": {
+          "bubble": [
+            250,
+            80
+          ]
+        },
+        "error": {
+          "bubble": [
+            750,
+            80
+          ]
+        },
+        "browser": {
+          "bubble": [
+            520,
+            160
+          ],
+          "box": [
+            336,
+            240,
+            640,
+            426
+          ],
+          "anchor": [
+            588,
+            320
+          ]
+        },
+        "screenshot": {
+          "bubble": [
+            555,
+            690
+          ],
+          "box": [
+            590,
+            487,
+            775,
+            590
+          ],
+          "anchor": [
+            679,
+            545
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            160,
+            255,
+            310,
+            410
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            680,
+            200,
+            835,
+            350
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:28:11Z"
+    },
+    "W061": {
+      "sourcePath": "images/W061.png",
+      "imageReview": "通过：两名值班同事共同查看抽象监控仪表盘，显示器本体含底座可见。黑白、合作姿态、无品牌或长文本。rollback/deployment/impact由对白支持，不从图表推断具体故障原因、用户数量或恢复结果。",
+      "geometry": {
+        "rollback": {
+          "bubble": [
+            200,
+            80
+          ]
+        },
+        "deployment": {
+          "bubble": [
+            500,
+            80
+          ]
+        },
+        "impact": {
+          "bubble": [
+            800,
+            80
+          ]
+        },
+        "monitor": {
+          "bubble": [
+            515,
+            190
+          ],
+          "box": [
+            340,
+            263,
+            703,
+            535
+          ],
+          "anchor": [
+            535,
+            370
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            160,
+            280,
+            315,
+            430
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            715,
+            300,
+            855,
+            440
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:29:41Z"
+    },
+    "W071": {
+      "sourcePath": "images/W071.png",
+      "imageReview": "通过：两名同事在圆桌旁进行支持性谈话，左侧人用笔在打开的纸质笔记本记事，右侧人解释。笔记本两页与装订可见，手部局部遮挡不影响指代。导师关系和feedback/improve/goal由明确故事及对白支持。",
+      "geometry": {
+        "feedback": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "improve": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "goal": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            410,
+            665
+          ],
+          "box": [
+            285,
+            475,
+            525,
+            565
+          ],
+          "anchor": [
+            430,
+            520
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            240,
+            210,
+            400,
+            365
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            610,
+            195,
+            780,
+            355
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-04T08:26:25Z",
+      "generationEndedAt": "2026-10-04T08:29:16Z"
+    }
+  }
+}

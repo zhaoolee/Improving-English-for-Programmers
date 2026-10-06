@@ -1,0 +1,138 @@
+{
+  "filename": "W062-发布前核对检查项.png",
+  "labels": [
+    {
+      "x": 490,
+      "y": 675,
+      "english": "checklist",
+      "chinese": "检查清单",
+      "phoneticUS": "/ˈtʃeklɪst/",
+      "phoneticUK": "/ˈtʃeklɪst/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 870
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 675
+      },
+      "boundingBox": {
+        "left": 321,
+        "top": 557,
+        "right": 699,
+        "bottom": 787
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上具有方形检查框和核对符号的实际纸质清单可定位；具体检查项由对白补充。",
+        "association": "桌上具有方形检查框和核对符号的实际纸质清单可定位；具体检查项由对白补充。",
+        "collocation": "go through a checklist; a release checklist",
+        "example": "A: Let's go through the checklist before this release.\nB: The tests have passed, and the backup is ready.\nA: I'll check the rollout steps on this tablet.\nB: Good. Once they're confirmed, we can start.",
+        "exampleChinese": "A: 我们在这次发布前逐项核对检查清单。\nB: 测试已经通过，备份也已准备好。\nA: 我会在这台平板上检查发布步骤。\nB: 好。确认这些步骤后，我们就可以开始了。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "backup",
+      "chinese": "备份",
+      "phoneticUS": "/ˈbækʌp/",
+      "phoneticUK": "/ˈbækʌp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "数据备份的状态由对白明确说明，图中没有真实备份介质证据，不设框。",
+        "association": "数据备份的状态由对白明确说明，图中没有真实备份介质证据，不设框。",
+        "collocation": "a backup is ready; create a backup",
+        "example": "The tests have passed, and the backup is ready.",
+        "exampleChinese": "测试已经通过，备份也已准备好。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "release",
+      "chinese": "发布",
+      "phoneticUS": "/rɪˈliːs/",
+      "phoneticUK": "/rɪˈliːs/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件发布是工作流程，由对白说明，不能将某个按钮或物件框成release。",
+        "association": "软件发布是工作流程，由对白说明，不能将某个按钮或物件框成release。",
+        "collocation": "before a release; start a release",
+        "example": "Let's go through the checklist before this release.",
+        "exampleChinese": "我们在这次发布前逐项核对检查清单。"
+      }
+    },
+    {
+      "x": 147,
+      "y": 512,
+      "english": "tablet",
+      "chinese": "平板电脑",
+      "phoneticUS": "/ˈtæblət/",
+      "phoneticUK": "/ˈtæblət/",
+      "bubblePosition": {
+        "x": 155,
+        "y": 315
+      },
+      "anchorPosition": {
+        "x": 147,
+        "y": 512
+      },
+      "boundingBox": {
+        "left": 45,
+        "top": 383,
+        "right": 256,
+        "bottom": 642
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上的带屏幕和圆角边框的平板电脑可局部定位，不与纸质清单混框。",
+        "association": "桌上的带屏幕和圆角边框的平板电脑可局部定位，不与纸质清单混框。",
+        "collocation": "on this tablet; check steps on a tablet",
+        "example": "I'll check the rollout steps on this tablet.",
+        "exampleChinese": "我会在这台平板上检查发布步骤。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers review a checklist and rollout steps before starting a release.",
+    "chinese": "两名开发者在发布前核对检查清单，并用平板查看发布步骤。",
+    "source": "原创对话 · W062 发布前核对检查项",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

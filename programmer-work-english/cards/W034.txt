@@ -1,0 +1,120 @@
+W034  讨论性能瓶颈
+========================================================================
+分类: 技术方案讨论（design）
+关键词: bottleneck
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-05）
+图片状态: generated
+图片路径: images/W034.png
+复核日期: 2026-10-05
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W034.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W034.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T08:00:21.265Z → 2026-10-05T08:00:44.238Z
+  提示词文件: prompts/W034_image_final.txt
+
+场景: 两名开发者根据测量结果讨论性能瓶颈。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名开发者讨论性能测量，中央图板完整，单峰曲线与两轴清楚，无数字或文字；手势避开峰值。数据库是否瓶颈仍为假设，不用示意曲线证明因果。
+
+沟通目标: 先测量延迟，再判断优化对象，避免凭感觉归因。
+
+主配文（一句场景描述）:
+  英文: Two developers use measurements to discuss a performance bottleneck.
+  中文: 两名开发者根据测量结果讨论性能瓶颈。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Could the database be the bottleneck?
+        数据库会是瓶颈吗？
+  [B] Possibly. Let's measure latency before we change anything.
+        有可能。修改之前，我们先测量延迟。
+  [A] The graph shows a spike during database calls.
+        这张图显示数据库调用期间出现了峰值。
+  [B] Then compare those calls with the total request time.
+        那么，把这些调用耗时和请求总耗时比较一下。
+
+目标词 (4): bottleneck, latency, measure, graph
+
+------------------------------------------------------------------------
+[1/4] bottleneck
+  词义: 瓶颈
+  词性: noun
+  音标: UK /ˈbɒtlnek/ | US /ˈbɑːtlnek/
+  搭配: a performance bottleneck; identify a bottleneck
+  例句: Could the database be the bottleneck?
+  例句高亮: Could the database be the **bottleneck**?
+  例句中文: 数据库会是瓶颈吗？
+  标注模式: context
+  标注说明: 数据库是否瓶颈仍是假设，峰值不能单独证明因果关系。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] latency
+  词义: 延迟
+  词性: noun (uncountable)
+  音标: UK /ˈleɪtənsi/ | US /ˈleɪtənsi/
+  搭配: measure latency; request latency
+  例句: Possibly. Let's measure latency before we change anything.
+  例句高亮: Possibly. Let's measure **latency** before we change anything.
+  例句中文: 有可能。修改之前，我们先测量延迟。
+  标注模式: context
+  标注说明: 延迟是时间量，无轴标签示意图不能当真实测量值。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] measure
+  词义: 测量
+  词性: verb
+  音标: UK /ˈmeʒə/ | US /ˈmeʒər/
+  搭配: measure latency; measure performance
+  例句: Possibly. Let's measure latency before we change anything.
+  例句高亮: Possibly. Let's **measure** latency before we change anything.
+  例句中文: 有可能。修改之前，我们先测量延迟。
+  标注模式: context
+  标注说明: 测量是后续建议，没有具体测量动作证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] graph
+  词义: 图表
+  词性: noun
+  音标: UK /ɡrɑːf/ | US /ɡræf/
+  搭配: a line graph; the graph shows
+  例句: The graph shows a spike during database calls.
+  例句高亮: The **graph** shows a spike during database calls.
+  例句中文: 这张图显示数据库调用期间出现了峰值。
+  标注模式: object
+  标注说明: 板上的折线图可定位；与数据库调用的关联由对白设定。
+  坐标(normalized): [0.227, 0.207, 0.773, 0.583]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W034 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=32 | meta.approved_cards=32
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure white background, consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No color, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Make named learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI marks allowed. Scene: Two adult stick figures beside a large wall-mounted graph board centered, clean single line graph with horizontal and vertical axes, one prominent peak midway. NO axis numbers or words. Left developer gestures toward peak without covering it, right colleague holds open palm thoughtfully. Entire plotted graph and rectangular board visible. No other charts or clock.
+

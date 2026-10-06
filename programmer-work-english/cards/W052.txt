@@ -1,0 +1,120 @@
+W052  比较预期与实际结果
+========================================================================
+分类: 测试与问题排查（debugging）
+关键词: expected
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W052.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W052.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W052.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T13:27:56Z → 2026-10-04T13:30:50Z
+  提示词文件: prompts/W052_image_final.txt
+
+场景: 开发者与测试同事借助截图，对比预期结果和实际结果。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名开发者对照显示器及桌上打印的界面截图。截图有清晰纸张外缘与界面行，完整框选其纸面；预期、实际及结果差异由对白支持，不把无文字的行列表当成确切业务数据。
+
+沟通目标: 清楚区分应该发生什么与实际发生什么，并提供证据。
+
+主配文（一句场景描述）:
+  英文: A developer and a tester compare expected and actual results using a screenshot.
+  中文: 开发者与测试同事借助截图，对比预期结果和实际结果。
+
+角色与对白:
+  A = Developer 开发者
+  B = Tester 测试同事
+  [A] The expected result is an empty list.
+        预期结果是一个空列表。
+  [B] But the actual result shows every record.
+        但实际结果显示了所有记录。
+  [A] I've saved a screenshot of the result. Could you check it?
+        我保存了结果的截图。你能检查一下吗？
+  [B] Yes. Let's compare it with the requirement.
+        可以。我们把它和需求对照一下。
+
+目标词 (4): expected, actual, result, screenshot
+
+------------------------------------------------------------------------
+[1/4] expected
+  词义: 预期的
+  词性: adjective
+  音标: UK /ɪkˈspektɪd/ | US /ɪkˈspektɪd/
+  搭配: the expected result; expected behavior
+  例句: The expected result is an empty list.
+  例句高亮: The **expected** result is an empty list.
+  例句中文: 预期结果是一个空列表。
+  标注模式: context
+  标注说明: 预期结果是需求中的目标状态，由对白说明；不可把静态空白区域当作预期本身。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] actual
+  词义: 实际的
+  词性: adjective
+  音标: UK /ˈæktʃuəl/ | US /ˈæktʃuəl/
+  搭配: the actual result; actual behavior
+  例句: But the actual result shows every record.
+  例句高亮: But the **actual** result shows every record.
+  例句中文: 但实际结果显示了所有记录。
+  标注模式: context
+  标注说明: 实际运行结果由测试对白设定支持；插图不证明运行数据，不单独框actual。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] result
+  词义: 结果
+  词性: noun
+  音标: UK /rɪˈzʌlt/ | US /rɪˈzʌlt/
+  搭配: compare results; the expected result
+  例句: The expected result is an empty list.
+  例句高亮: The expected **result** is an empty list.
+  例句中文: 预期结果是一个空列表。
+  标注模式: context
+  标注说明: 结果包含预期与实际的语义比较，不把某个空白行等同于整个结果。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] screenshot
+  词义: 截图
+  词性: noun
+  音标: UK /ˈskriːnʃɒt/ | US /ˈskriːnʃɑːt/
+  搭配: save a screenshot; a screenshot of the result
+  例句: I've saved a screenshot of the result.
+  例句高亮: I've saved a **screenshot** of the result.
+  例句中文: 我保存了结果的截图。
+  标注模式: object
+  标注说明: 纸上带浏览器边框与结果行的界面副本是截图的局部指代，框出整个纸质截图。
+  坐标(normalized): [0.36, 0.5, 0.635, 0.63]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W052 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=16 | meta.approved_cards=16
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers compare evidence at a desk. A desktop monitor shows a simple abstract browser with several blank result rows. In the center foreground of the desk, place a large unobstructed paper printout of the same interface, clearly with an outer paper margin and miniature browser frame and result rows inside: this is the screenshot prop. One coworker points to the paper, the other looks at the monitor. No text, numbers, labels, or speech balloons.
+

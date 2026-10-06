@@ -1,0 +1,120 @@
+W026  拆分过大的任务
+========================================================================
+分类: 计划与进度（planning）
+关键词: split
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W026.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W026.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W026.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T17:07:49.513Z → 2026-10-05T17:09:17.649Z
+  提示词文件: prompts/W026_image_final.txt
+
+场景: 两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；框选一张完整可见便签本体，不用空白便签证明具体步骤内容。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。
+
+沟通目标: 按可独立验证的步骤拆分任务。
+
+主配文（一句场景描述）:
+  英文: Two teammates split a large task into smaller independent steps on separate notes.
+  中文: 两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Could we split this task into smaller steps?
+        我们能把这个任务拆成更小的步骤吗？
+  [B] Yes. Start with the API, then build the form.
+        可以。先做 API，再开发表单。
+  [A] Are those steps independent enough to test separately?
+        这些步骤是否足够独立，可以分别测试？
+  [B] Yes. I'll put each step on a separate note.
+        是的。我会把每个步骤写在单独的便签上。
+
+目标词 (4): split, smaller, independent, note
+
+------------------------------------------------------------------------
+[1/4] split
+  词义: 拆分
+  词性: verb
+  音标: UK /splɪt/ | US /splɪt/
+  搭配: split a task; split into steps
+  例句: Could we split this task into smaller steps?
+  例句高亮: Could we **split** this task into smaller steps?
+  例句中文: 我们能把这个任务拆成更小的步骤吗？
+  标注模式: context
+  标注说明: 任务拆分由对白说明，不把便签本身当成抽象拆分动作。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] smaller
+  词义: 更小的
+  词性: adjective
+  音标: UK /ˈsmɔːlə/ | US /ˈsmɔːlər/
+  搭配: smaller steps; smaller tasks
+  例句: Could we split this task into smaller steps?
+  例句高亮: Could we split this task into **smaller** steps?
+  例句中文: 我们能把这个任务拆成更小的步骤吗？
+  标注模式: context
+  标注说明: smaller指工作量较小，不由便签物理尺寸推断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] independent
+  词义: 独立的
+  词性: adjective
+  音标: UK /ˌɪndɪˈpendənt/ | US /ˌɪndɪˈpendənt/
+  搭配: independent steps; independent tasks
+  例句: Are those steps independent enough to test separately?
+  例句高亮: Are those steps **independent** enough to test separately?
+  例句中文: 这些步骤是否足够独立，可以分别测试？
+  标注模式: context
+  标注说明: 可独立测试是工作依赖关系，由对白明确，不能仅从便签分离判定。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] note
+  词义: 便签
+  词性: noun
+  音标: UK /nəʊt/ | US /noʊt/
+  搭配: a separate note; put on a note
+  例句: Yes. I'll put each step on a separate note.
+  例句高亮: Yes. I'll put each step on a separate **note**.
+  例句中文: 是的。我会把每个步骤写在单独的便签上。
+  标注模式: object
+  标注说明: 框选一张完整可见便签本体，不用空白便签证明具体步骤内容。
+  坐标(normalized): [0.741, 0.264, 0.833, 0.358]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W026 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=48 | meta.approved_cards=48
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure teammates stand at a whiteboard. On the RIGHT side of the whiteboard are THREE separate blank square sticky notes arranged horizontally, each with a small folded corner. One coworker gestures toward the notes without touching or hiding them, the other holds open palms. The entire rightmost sticky note is especially clear and unobstructed. No words, no arrows necessary, no extra props.
+

@@ -1,0 +1,17 @@
+{
+  "cardID": "W004",
+  "imagePath": "../images/inverted/W004.png",
+  "imageSHA256": "a2bb45264ac3f5d4c743c666859a13062ae47d96674041d6ecb5477f7d834afb",
+  "imageReviewed": true,
+  "annotationsPath": "W004_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "setup",
+    "dependency",
+    "install",
+    "keyboard"
+  ],
+  "receiptPath": "W004_v7_image_replace_receipt.json",
+  "photoID": "321db88b-49db-4545-beb1-3ef86025f19f",
+  "expectedAssetID": "d09c81e06893f305310a92cb1996da01ccc340d975473ab37da1b5da5e0ecc0a"
+}

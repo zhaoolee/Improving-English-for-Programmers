@@ -1,0 +1,841 @@
+{
+  "title": "程序员工作英语 第六批",
+  "status": "content_final",
+  "startedAt": "2026-10-05T17:02:09.691084+00:00",
+  "startedAtNote": "首个实际记录时间；包含路由、准备、工具与审批等待。",
+  "contentFinalizedAt": "2026-10-05T17:06:45.183501+00:00",
+  "displayTimeZone": "Asia/Shanghai",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "promptTemplate": "workflow/styles/stick-figure-black-white.txt",
+  "cards": [
+    {
+      "id": "W006",
+      "category": "team",
+      "title": "确认团队分工",
+      "keyword": "ownership",
+      "description_en": "A developer confirms who owns and maintains each service with a teammate.",
+      "description_zh": "开发者与同事确认各项服务由谁负责和维护。",
+      "communication_goal": "确认服务责任归属与维护分工。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Who has ownership of the billing service?",
+          "zh": "账单服务由谁负责？"
+        },
+        {
+          "speaker": "B",
+          "en": "Maya does. Her main responsibility is keeping it reliable.",
+          "zh": "由 Maya 负责。她的主要职责是保证它稳定运行。"
+        },
+        {
+          "speaker": "A",
+          "en": "And who will maintain the new reporting module?",
+          "zh": "那新的报表模块由谁来维护？"
+        },
+        {
+          "speaker": "B",
+          "en": "I will. Let's add both names to the board.",
+          "zh": "我来维护。我们把这两个名字都加到白板上吧。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers stand to the LEFT and center of a freestanding rectangular whiteboard on the RIGHT. One points toward two empty rounded rectangular cards on the board; the other listens with open palm. The ENTIRE board is clearly visible, including its frame and stand, with no writing. No other props.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers stand to the LEFT and center of a freestanding rectangular whiteboard on the RIGHT. One points toward two empty rounded rectangular cards on the board; the other listens with open palm. The ENTIRE board is clearly visible, including its frame and stand, with no writing. No other props.",
+      "words": [
+        {
+          "word": "ownership",
+          "zh": "负责归属",
+          "pos": "noun",
+          "us": "/ˈoʊnərʃɪp/",
+          "uk": "/ˈəʊnəʃɪp/",
+          "collocations": [
+            "ownership of a service",
+            "take ownership"
+          ],
+          "example": "Who has ownership of the billing service?",
+          "translation": "账单服务由谁负责？",
+          "mode": "context",
+          "evidence": "对白明确服务责任归属，白板和人物外观无法证明谁负责。",
+          "color": "blue"
+        },
+        {
+          "word": "responsibility",
+          "zh": "职责",
+          "pos": "noun",
+          "us": "/rɪˌspɑːnsəˈbɪləti/",
+          "uk": "/rɪˌspɒnsəˈbɪləti/",
+          "collocations": [
+            "main responsibility",
+            "share responsibility"
+          ],
+          "example": "Maya does. Her main responsibility is keeping it reliable.",
+          "translation": "由 Maya 负责。她的主要职责是保证它稳定运行。",
+          "mode": "context",
+          "evidence": "职责是对白约定的工作分工，没有可定位局部。",
+          "color": "lavender"
+        },
+        {
+          "word": "maintain",
+          "zh": "维护",
+          "pos": "verb",
+          "us": "/meɪnˈteɪn/",
+          "uk": "/meɪnˈteɪn/",
+          "collocations": [
+            "maintain a module",
+            "maintain a service"
+          ],
+          "example": "And who will maintain the new reporting module?",
+          "translation": "那新的报表模块由谁来维护？",
+          "mode": "context",
+          "evidence": "维护工作由对白说明，静态指向白板不能证明正在维护。",
+          "color": "rose"
+        },
+        {
+          "word": "board",
+          "zh": "白板",
+          "pos": "noun",
+          "us": "/bɔːrd/",
+          "uk": "/bɔːd/",
+          "collocations": [
+            "add to the board",
+            "project board"
+          ],
+          "example": "I will. Let's add both names to the board.",
+          "translation": "我来维护。我们把这两个名字都加到白板上吧。",
+          "mode": "object",
+          "evidence": "可定位完整白板本体；任务分工只由对白支持。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W016",
+      "category": "requirements",
+      "title": "确认用户角色与权限",
+      "keyword": "role",
+      "description_en": "A developer checks the default user role and the editing controls with a product manager.",
+      "description_zh": "开发者与产品经理确认默认用户角色及编辑控件的表现。",
+      "communication_goal": "确认默认权限与无编辑权限时的界面。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Which role should a new user get by default?",
+          "zh": "新用户默认应该获得哪个角色？"
+        },
+        {
+          "speaker": "B",
+          "en": "Viewer. A viewer can read reports but cannot edit them.",
+          "zh": "查看者。查看者可以阅读报表，但不能编辑。"
+        },
+        {
+          "speaker": "A",
+          "en": "Should the edit button disappear on the laptop screen?",
+          "zh": "笔记本电脑屏幕上的编辑按钮应该隐藏吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Keep it visible but disabled, with a short explanation.",
+          "zh": "保留显示，但设为不可用，并给出简短说明。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers sit at a desk, one on LEFT and one on RIGHT. Between them is one large open laptop, angled front-facing, with the WHOLE laptop screen, hinge and keyboard clearly visible. Screen shows abstract report rectangles and a small outlined empty button, without any letters or numbers. One points near the screen without covering the laptop, the other listens. No other props.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers sit at a desk, one on LEFT and one on RIGHT. Between them is one large open laptop, angled front-facing, with the WHOLE laptop screen, hinge and keyboard clearly visible. Screen shows abstract report rectangles and a small outlined empty button, without any letters or numbers. One points near the screen without covering the laptop, the other listens. No other props.",
+      "words": [
+        {
+          "word": "role",
+          "zh": "角色",
+          "pos": "noun",
+          "us": "/roʊl/",
+          "uk": "/rəʊl/",
+          "collocations": [
+            "default role",
+            "assign a role"
+          ],
+          "example": "Which role should a new user get by default?",
+          "translation": "新用户默认应该获得哪个角色？",
+          "mode": "context",
+          "evidence": "用户角色由对白定义，界面图标不能证明具体权限角色。",
+          "color": "blue"
+        },
+        {
+          "word": "viewer",
+          "zh": "查看者",
+          "pos": "noun",
+          "us": "/ˈvjuːər/",
+          "uk": "/ˈvjuːə/",
+          "collocations": [
+            "viewer role",
+            "a viewer can read"
+          ],
+          "example": "Viewer. A viewer can read reports but cannot edit them.",
+          "translation": "查看者。查看者可以阅读报表，但不能编辑。",
+          "mode": "context",
+          "evidence": "软件查看者角色由对白约定，不把同事人物框为软件身份。",
+          "color": "lavender"
+        },
+        {
+          "word": "edit",
+          "zh": "编辑",
+          "pos": "verb",
+          "us": "/ˈedɪt/",
+          "uk": "/ˈedɪt/",
+          "collocations": [
+            "edit a report",
+            "edit permission"
+          ],
+          "example": "Viewer. A viewer can read reports but cannot edit them.",
+          "translation": "查看者。查看者可以阅读报表，但不能编辑。",
+          "mode": "context",
+          "evidence": "对白说明编辑权限，没有实际编辑动作区域。",
+          "color": "rose"
+        },
+        {
+          "word": "laptop",
+          "zh": "笔记本电脑",
+          "pos": "noun",
+          "us": "/ˈlæptɑːp/",
+          "uk": "/ˈlæptɒp/",
+          "collocations": [
+            "laptop screen",
+            "open a laptop"
+          ],
+          "example": "Should the edit button disappear on the laptop screen?",
+          "translation": "笔记本电脑屏幕上的编辑按钮应该隐藏吗？",
+          "mode": "object",
+          "evidence": "完整可见的笔记本电脑本体可定位。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W026",
+      "category": "planning",
+      "title": "拆分过大的任务",
+      "keyword": "split",
+      "description_en": "Two teammates split a large task into smaller independent steps on separate notes.",
+      "description_zh": "两位同事把一个过大的任务拆分成较小的独立步骤，并分别记在便签上。",
+      "communication_goal": "按可独立验证的步骤拆分任务。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Could we split this task into smaller steps?",
+          "zh": "我们能把这个任务拆成更小的步骤吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. Start with the API, then build the form.",
+          "zh": "可以。先做 API，再开发表单。"
+        },
+        {
+          "speaker": "A",
+          "en": "Are those steps independent enough to test separately?",
+          "zh": "这些步骤是否足够独立，可以分别测试？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. I'll put each step on a separate note.",
+          "zh": "是的。我会把每个步骤写在单独的便签上。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure teammates stand at a whiteboard. On the RIGHT side of the whiteboard are THREE separate blank square sticky notes arranged horizontally, each with a small folded corner. One coworker gestures toward the notes without touching or hiding them, the other holds open palms. The entire rightmost sticky note is especially clear and unobstructed. No words, no arrows necessary, no extra props.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure teammates stand at a whiteboard. On the RIGHT side of the whiteboard are THREE separate blank square sticky notes arranged horizontally, each with a small folded corner. One coworker gestures toward the notes without touching or hiding them, the other holds open palms. The entire rightmost sticky note is especially clear and unobstructed. No words, no arrows necessary, no extra props.",
+      "words": [
+        {
+          "word": "split",
+          "zh": "拆分",
+          "pos": "verb",
+          "us": "/splɪt/",
+          "uk": "/splɪt/",
+          "collocations": [
+            "split a task",
+            "split into steps"
+          ],
+          "example": "Could we split this task into smaller steps?",
+          "translation": "我们能把这个任务拆成更小的步骤吗？",
+          "mode": "context",
+          "evidence": "任务拆分由对白说明，不把便签本身当成抽象拆分动作。",
+          "color": "blue"
+        },
+        {
+          "word": "smaller",
+          "zh": "更小的",
+          "pos": "adjective",
+          "us": "/ˈsmɔːlər/",
+          "uk": "/ˈsmɔːlə/",
+          "collocations": [
+            "smaller steps",
+            "smaller tasks"
+          ],
+          "example": "Could we split this task into smaller steps?",
+          "translation": "我们能把这个任务拆成更小的步骤吗？",
+          "mode": "context",
+          "evidence": "smaller指工作量较小，不由便签物理尺寸推断。",
+          "color": "lavender"
+        },
+        {
+          "word": "independent",
+          "zh": "独立的",
+          "pos": "adjective",
+          "us": "/ˌɪndɪˈpendənt/",
+          "uk": "/ˌɪndɪˈpendənt/",
+          "collocations": [
+            "independent steps",
+            "independent tasks"
+          ],
+          "example": "Are those steps independent enough to test separately?",
+          "translation": "这些步骤是否足够独立，可以分别测试？",
+          "mode": "context",
+          "evidence": "可独立测试是工作依赖关系，由对白明确，不能仅从便签分离判定。",
+          "color": "rose"
+        },
+        {
+          "word": "note",
+          "zh": "便签",
+          "pos": "noun",
+          "us": "/noʊt/",
+          "uk": "/nəʊt/",
+          "collocations": [
+            "a separate note",
+            "put on a note"
+          ],
+          "example": "Yes. I'll put each step on a separate note.",
+          "translation": "是的。我会把每个步骤写在单独的便签上。",
+          "mode": "object",
+          "evidence": "框选一张完整可见便签本体，不用空白便签证明具体步骤内容。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W036",
+      "category": "design",
+      "title": "讨论异常处理策略",
+      "keyword": "fallback",
+      "description_en": "Two developers agree on retry behavior and a fallback for a request that times out.",
+      "description_zh": "两位开发者讨论请求超时后的重试方式与备用处理方案。",
+      "communication_goal": "说明重试上限与失败后的用户提示。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "What is our fallback if this request fails?",
+          "zh": "这个请求失败时，我们的备用方案是什么？"
+        },
+        {
+          "speaker": "B",
+          "en": "If there's a timeout, retry once before showing an error.",
+          "zh": "如果发生超时，先重试一次，再显示错误。"
+        },
+        {
+          "speaker": "A",
+          "en": "Will the monitor keep showing the user's previous result?",
+          "zh": "显示器上会继续显示用户之前的结果吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. Keep that result visible and offer a retry button.",
+          "zh": "会的。保留那个结果，并提供一个重试按钮。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure developers sit at a desk. A clearly recognizable separate desktop MONITOR is on the RIGHT, front-facing, entirely visible including its rectangular screen and pedestal stand. Screen shows one large abstract result rectangle, small warning triangle, and empty outlined button, no writing. One coworker points near the monitor; the other listens with open hand. No laptop, no extra devices.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure developers sit at a desk. A clearly recognizable separate desktop MONITOR is on the RIGHT, front-facing, entirely visible including its rectangular screen and pedestal stand. Screen shows one large abstract result rectangle, small warning triangle, and empty outlined button, no writing. One coworker points near the monitor; the other listens with open hand. No laptop, no extra devices.",
+      "words": [
+        {
+          "word": "fallback",
+          "zh": "备用方案",
+          "pos": "noun",
+          "us": "/ˈfɔːlbæk/",
+          "uk": "/ˈfɔːlbæk/",
+          "collocations": [
+            "fallback plan",
+            "a fallback if a request fails"
+          ],
+          "example": "What is our fallback if this request fails?",
+          "translation": "这个请求失败时，我们的备用方案是什么？",
+          "mode": "context",
+          "evidence": "备用处理方案由对白说明，屏幕警告符号不是fallback局部实体。",
+          "color": "blue"
+        },
+        {
+          "word": "timeout",
+          "zh": "超时",
+          "pos": "noun",
+          "us": "/ˈtaɪmaʊt/",
+          "uk": "/ˈtaɪmaʊt/",
+          "collocations": [
+            "request timeout",
+            "a timeout occurs"
+          ],
+          "example": "If there's a timeout, retry once before showing an error.",
+          "translation": "如果发生超时，先重试一次，再显示错误。",
+          "mode": "context",
+          "evidence": "请求超时是时间条件，由对白明确，不从静态屏幕推断。",
+          "color": "lavender"
+        },
+        {
+          "word": "retry",
+          "zh": "重试",
+          "pos": "verb",
+          "us": "/ˌriːˈtraɪ/",
+          "uk": "/ˌriːˈtraɪ/",
+          "collocations": [
+            "retry once",
+            "retry a request"
+          ],
+          "example": "If there's a timeout, retry once before showing an error.",
+          "translation": "如果发生超时，先重试一次，再显示错误。",
+          "mode": "context",
+          "evidence": "重试是计划中的程序行为，没有可见点击动作证据。",
+          "color": "rose"
+        },
+        {
+          "word": "monitor",
+          "zh": "显示器",
+          "pos": "noun",
+          "us": "/ˈmɑːnɪtər/",
+          "uk": "/ˈmɒnɪtə/",
+          "collocations": [
+            "desktop monitor",
+            "show on the monitor"
+          ],
+          "example": "Will the monitor keep showing the user's previous result?",
+          "translation": "显示器上会继续显示用户之前的结果吗？",
+          "mode": "object",
+          "evidence": "完整可见的独立桌面显示器与支架可定位。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W046",
+      "category": "development",
+      "title": "结对编程时交换思路",
+      "keyword": "approach",
+      "description_en": "A pair of developers compares approaches and switches driver and navigator roles.",
+      "description_zh": "结对编程的两位开发者比较思路，并交换操作与指导角色。",
+      "communication_goal": "提出另一种实现思路并交换结对角色。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Could we try a different approach to this loop?",
+          "zh": "我们能为这个循环试试另一种思路吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Sure. I'll be the navigator while you explain your idea.",
+          "zh": "当然。我来做指导者，你来解释你的想法。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll take the keyboard as the driver and show a small example.",
+          "zh": "我作为操作者接过键盘，演示一个小例子。"
+        },
+        {
+          "speaker": "B",
+          "en": "Great. Then we'll compare the two approaches together.",
+          "zh": "好。然后我们一起比较这两种思路。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure programmers sit beside each other at ONE desk, facing a simple monitor with only abstract horizontal lines. The left programmer has hands poised above a SEPARATE physical keyboard in the foreground at the desk center; right programmer makes a listening open-palm gesture. The whole rectangular keyboard with simple unlabeled keys is visible, hands above it not covering it. No laptop and no readable code.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure programmers sit beside each other at ONE desk, facing a simple monitor with only abstract horizontal lines. The left programmer has hands poised above a SEPARATE physical keyboard in the foreground at the desk center; right programmer makes a listening open-palm gesture. The whole rectangular keyboard with simple unlabeled keys is visible, hands above it not covering it. No laptop and no readable code.",
+      "words": [
+        {
+          "word": "approach",
+          "zh": "思路",
+          "pos": "noun",
+          "us": "/əˈproʊtʃ/",
+          "uk": "/əˈprəʊtʃ/",
+          "collocations": [
+            "a different approach",
+            "compare approaches"
+          ],
+          "example": "Could we try a different approach to this loop?",
+          "translation": "我们能为这个循环试试另一种思路吗？",
+          "mode": "context",
+          "evidence": "实现思路是对白中的抽象方案，没有局部物体框。",
+          "color": "blue"
+        },
+        {
+          "word": "driver",
+          "zh": "操作者",
+          "pos": "noun",
+          "us": "/ˈdraɪvər/",
+          "uk": "/ˈdraɪvə/",
+          "collocations": [
+            "driver role",
+            "act as the driver"
+          ],
+          "example": "I'll take the keyboard as the driver and show a small example.",
+          "translation": "我作为操作者接过键盘，演示一个小例子。",
+          "mode": "context",
+          "evidence": "结对编程操作者身份由对白明确，不能仅由座位或手势鉴定。",
+          "color": "lavender"
+        },
+        {
+          "word": "navigator",
+          "zh": "指导者",
+          "pos": "noun",
+          "us": "/ˈnævɪɡeɪtər/",
+          "uk": "/ˈnævɪɡeɪtə/",
+          "collocations": [
+            "navigator role",
+            "be the navigator"
+          ],
+          "example": "Sure. I'll be the navigator while you explain your idea.",
+          "translation": "当然。我来做指导者，你来解释你的想法。",
+          "mode": "context",
+          "evidence": "结对编程指导者是对白约定身份，不把同事外观当角色证据。",
+          "color": "rose"
+        },
+        {
+          "word": "keyboard",
+          "zh": "键盘",
+          "pos": "noun",
+          "us": "/ˈkiːbɔːrd/",
+          "uk": "/ˈkiːbɔːd/",
+          "collocations": [
+            "take the keyboard",
+            "use the keyboard"
+          ],
+          "example": "I'll take the keyboard as the driver and show a small example.",
+          "translation": "我作为操作者接过键盘，演示一个小例子。",
+          "mode": "object",
+          "evidence": "完整可见的独立键盘实体可定位。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W056",
+      "category": "debugging",
+      "title": "提出待验证的假设",
+      "keyword": "hypothesis",
+      "description_en": "Two developers test a connection hypothesis by changing a cable and checking the result.",
+      "description_zh": "两位开发者通过更换连接线并检查结果，验证连接问题的假设。",
+      "communication_goal": "用单一变化验证假设并隔离故障原因。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "My hypothesis is that this cable causes the connection failures.",
+          "zh": "我的假设是这根线导致了连接失败。"
+        },
+        {
+          "speaker": "B",
+          "en": "Let's verify that by replacing only the cable.",
+          "zh": "我们只更换这根线来验证一下。"
+        },
+        {
+          "speaker": "A",
+          "en": "If the failures stop, can we isolate the problem to this cable?",
+          "zh": "如果故障不再出现，我们就能把问题定位到这根线吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "It's evidence for the hypothesis. Let's repeat the test before we conclude.",
+          "zh": "这为假设提供了证据。我们先重复测试，再下结论。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure programmers sit at a desk with a simple laptop on LEFT. On the RIGHT foreground of the desk lies one large clearly recognizable detached data CABLE, a curved cord with a rectangular connector plug at EACH end. Both plugs and the entire curved cord are fully visible and isolated from hands. One programmer points toward the cable, other listens. No extra cables, no text.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure programmers sit at a desk with a simple laptop on LEFT. On the RIGHT foreground of the desk lies one large clearly recognizable detached data CABLE, a curved cord with a rectangular connector plug at EACH end. Both plugs and the entire curved cord are fully visible and isolated from hands. One programmer points toward the cable, other listens. No extra cables, no text.",
+      "words": [
+        {
+          "word": "hypothesis",
+          "zh": "假设",
+          "pos": "noun",
+          "us": "/haɪˈpɑːθəsɪs/",
+          "uk": "/haɪˈpɒθəsɪs/",
+          "collocations": [
+            "test a hypothesis",
+            "evidence for a hypothesis"
+          ],
+          "example": "My hypothesis is that this cable causes the connection failures.",
+          "translation": "我的假设是这根线导致了连接失败。",
+          "mode": "context",
+          "evidence": "故障原因仍是待验证假设，由对白明确，不宣称图片证明因果。",
+          "color": "blue"
+        },
+        {
+          "word": "verify",
+          "zh": "验证",
+          "pos": "verb",
+          "us": "/ˈverɪfaɪ/",
+          "uk": "/ˈverɪfaɪ/",
+          "collocations": [
+            "verify a hypothesis",
+            "verify by testing"
+          ],
+          "example": "Let's verify that by replacing only the cable.",
+          "translation": "我们只更换这根线来验证一下。",
+          "mode": "context",
+          "evidence": "验证是对话约定的实验步骤，静态图不足以证明已经通过。",
+          "color": "lavender"
+        },
+        {
+          "word": "isolate",
+          "zh": "定位",
+          "pos": "verb",
+          "us": "/ˈaɪsəleɪt/",
+          "uk": "/ˈaɪsəleɪt/",
+          "collocations": [
+            "isolate the problem",
+            "isolate a cause"
+          ],
+          "example": "If the failures stop, can we isolate the problem to this cable?",
+          "translation": "如果故障不再出现，我们就能把问题定位到这根线吗？",
+          "mode": "context",
+          "evidence": "isolate指定位故障原因，不能把线缆分离状态当成因果定位。",
+          "color": "rose"
+        },
+        {
+          "word": "cable",
+          "zh": "连接线",
+          "pos": "noun",
+          "us": "/ˈkeɪbəl/",
+          "uk": "/ˈkeɪbəl/",
+          "collocations": [
+            "replace a cable",
+            "connection cable"
+          ],
+          "example": "My hypothesis is that this cable causes the connection failures.",
+          "translation": "我的假设是这根线导致了连接失败。",
+          "mode": "object",
+          "evidence": "框选完整线缆及两端插头；故障原因仅为假设，不由外观判定。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W066",
+      "category": "operations",
+      "title": "分配事故处理职责",
+      "keyword": "coordinate",
+      "description_en": "An incident lead assigns investigation and communication tasks to teammates.",
+      "description_zh": "事故负责人给同事分配排查与沟通任务。",
+      "communication_goal": "明确事故期间的协调、排查和对外更新职责。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Who will coordinate our response to this incident?",
+          "zh": "这次事故由谁协调应对？"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll lead it. Please investigate the errors while I update the support team.",
+          "zh": "我来负责。请你排查错误，我来向支持团队同步情况。"
+        },
+        {
+          "speaker": "A",
+          "en": "Should I use the headset to stay on the incident call?",
+          "zh": "我应该戴上耳麦留在事故电话会议里吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. Share what you find, and I will keep the status page current.",
+          "zh": "是的。分享你的发现，我会及时更新状态页面。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers at an incident-response desk with one plain monitor showing abstract warning symbols. A large over-ear HEADSET with a short clearly visible microphone boom lies by itself on the RIGHT foreground of the desk. Both earcups, headband and microphone boom are fully visible, no hands covering. One coworker gestures to the other to discuss roles. No phone, no text.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers at an incident-response desk with one plain monitor showing abstract warning symbols. A large over-ear HEADSET with a short clearly visible microphone boom lies by itself on the RIGHT foreground of the desk. Both earcups, headband and microphone boom are fully visible, no hands covering. One coworker gestures to the other to discuss roles. No phone, no text.",
+      "words": [
+        {
+          "word": "coordinate",
+          "zh": "协调",
+          "pos": "verb",
+          "us": "/koʊˈɔːrdɪneɪt/",
+          "uk": "/kəʊˈɔːdɪneɪt/",
+          "collocations": [
+            "coordinate a response",
+            "coordinate with a team"
+          ],
+          "example": "Who will coordinate our response to this incident?",
+          "translation": "这次事故由谁协调应对？",
+          "mode": "context",
+          "evidence": "事故应对协调由对白明确，不把手势当成可证的协调动作。",
+          "color": "blue"
+        },
+        {
+          "word": "incident",
+          "zh": "事故",
+          "pos": "noun",
+          "us": "/ˈɪnsɪdənt/",
+          "uk": "/ˈɪnsɪdənt/",
+          "collocations": [
+            "incident response",
+            "incident call"
+          ],
+          "example": "Who will coordinate our response to this incident?",
+          "translation": "这次事故由谁协调应对？",
+          "mode": "context",
+          "evidence": "线上事故是对白设定，警告图标本身不能证明事故事实。",
+          "color": "lavender"
+        },
+        {
+          "word": "update",
+          "zh": "同步情况",
+          "pos": "verb",
+          "us": "/ʌpˈdeɪt/",
+          "uk": "/ʌpˈdeɪt/",
+          "collocations": [
+            "update the team",
+            "update a status page"
+          ],
+          "example": "I'll lead it. Please investigate the errors while I update the support team.",
+          "translation": "我来负责。请你排查错误，我来向支持团队同步情况。",
+          "mode": "context",
+          "evidence": "向支持团队同步信息是对白中的计划行为，无可定位局部。",
+          "color": "rose"
+        },
+        {
+          "word": "headset",
+          "zh": "耳麦",
+          "pos": "noun",
+          "us": "/ˈhedset/",
+          "uk": "/ˈhedset/",
+          "collocations": [
+            "use a headset",
+            "wear a headset"
+          ],
+          "example": "Should I use the headset to stay on the incident call?",
+          "translation": "我应该戴上耳麦留在事故电话会议里吗？",
+          "mode": "object",
+          "evidence": "完整可见的带麦克风耳麦可定位，区别于无麦克风耳机。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "W076",
+      "category": "growth",
+      "title": "协商专注工作的时间",
+      "keyword": "focus",
+      "description_en": "A developer arranges a focus block and agrees when to be available for teammates.",
+      "description_zh": "开发者安排一段专注工作时间，并与同事约定何时可以联系。",
+      "communication_goal": "约定专注时间、紧急打断条件和恢复联系的时间。",
+      "roles": {
+        "A": "Developer 开发者",
+        "B": "Teammate 团队同事"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Could I have an hour to focus on this task?",
+          "zh": "我能有一个小时专注处理这个任务吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Sure. I won't interrupt you unless something urgent comes up.",
+          "zh": "当然。除非有紧急情况，我不会打断你。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll set the timer and be available again at eleven.",
+          "zh": "我会设置计时器，到十一点再恢复联系。"
+        },
+        {
+          "speaker": "B",
+          "en": "Sounds good. I'll collect any questions for then.",
+          "zh": "好。我会先把问题收集起来，到时再问。"
+        }
+      ],
+      "scene_prompt": "Two adult stick-figure coworkers beside a simple desk. One is seated near an open laptop on the LEFT; the other stands at center, making a friendly open-palm gesture. On RIGHT foreground of the desk is ONE large freestanding circular analog TIMER with a clear top knob, round face and two plain hands. Entire timer and its small base unobstructed. No numbers or letters on the dial, no decorative symbols.",
+      "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers beside a simple desk. One is seated near an open laptop on the LEFT; the other stands at center, making a friendly open-palm gesture. On RIGHT foreground of the desk is ONE large freestanding circular analog TIMER with a clear top knob, round face and two plain hands. Entire timer and its small base unobstructed. No numbers or letters on the dial, no decorative symbols.",
+      "words": [
+        {
+          "word": "focus",
+          "zh": "专注",
+          "pos": "verb",
+          "us": "/ˈfoʊkəs/",
+          "uk": "/ˈfəʊkəs/",
+          "collocations": [
+            "focus on a task",
+            "time to focus"
+          ],
+          "example": "Could I have an hour to focus on this task?",
+          "translation": "我能有一个小时专注处理这个任务吗？",
+          "mode": "context",
+          "evidence": "专注是对白中约定的工作状态，不仅凭人物坐姿推断。",
+          "color": "blue"
+        },
+        {
+          "word": "interrupt",
+          "zh": "打断",
+          "pos": "verb",
+          "us": "/ˌɪntəˈrʌpt/",
+          "uk": "/ˌɪntəˈrʌpt/",
+          "collocations": [
+            "interrupt someone",
+            "avoid interruptions"
+          ],
+          "example": "Sure. I won't interrupt you unless something urgent comes up.",
+          "translation": "当然。除非有紧急情况，我不会打断你。",
+          "mode": "context",
+          "evidence": "是否打断及紧急条件由对白约定，无可定位动作框。",
+          "color": "lavender"
+        },
+        {
+          "word": "available",
+          "zh": "可联系的",
+          "pos": "adjective",
+          "us": "/əˈveɪləbəl/",
+          "uk": "/əˈveɪləbəl/",
+          "collocations": [
+            "be available",
+            "available at eleven"
+          ],
+          "example": "I'll set the timer and be available again at eleven.",
+          "translation": "我会设置计时器，到十一点再恢复联系。",
+          "mode": "context",
+          "evidence": "available指可联系的工作时间，不从人物外表或钟面判定。",
+          "color": "rose"
+        },
+        {
+          "word": "timer",
+          "zh": "计时器",
+          "pos": "noun",
+          "us": "/ˈtaɪmər/",
+          "uk": "/ˈtaɪmə/",
+          "collocations": [
+            "set the timer",
+            "use a timer"
+          ],
+          "example": "I'll set the timer and be available again at eleven.",
+          "translation": "我会设置计时器，到十一点再恢复联系。",
+          "mode": "object",
+          "evidence": "完整独立计时器本体可定位；具体十一点由对白支持。",
+          "color": "teal"
+        }
+      ]
+    }
+  ],
+  "lexicalReview": {
+    "reviewer": "Codex",
+    "method": "按原创对白语境检查词性、释义、英美音标与搭配；未声明外部词典全文核验。",
+    "source": "原创中英对白、描述及教学信息"
+  }
+}

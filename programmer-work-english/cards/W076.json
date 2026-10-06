@@ -1,0 +1,246 @@
+{
+  "id": "W076",
+  "category": "growth",
+  "category_title": "反馈与职业成长",
+  "chapter": "反馈与职业成长",
+  "title": "协商专注工作的时间",
+  "keyword": "focus",
+  "scene": "开发者安排一段专注工作时间，并与同事约定何时可以联系。",
+  "target_count": 4,
+  "primary_words": [
+    "focus",
+    "interrupt",
+    "available",
+    "timer"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "focus",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "专注",
+      "pos": "verb",
+      "ipa_us": "/ˈfoʊkəs/",
+      "ipa_uk": "/ˈfəʊkəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could I have an hour to focus on this task?",
+        "matched_form": "focus",
+        "referent_region_verified": false,
+        "context": "专注是对白中约定的工作状态，不仅凭人物坐姿推断。",
+        "image_verified": null
+      },
+      "example_en": "Could I have an hour to focus on this task?",
+      "example_zh": "我能有一个小时专注处理这个任务吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "focus on a task",
+        "time to focus"
+      ],
+      "example_en_highlighted": "Could I have an hour to **focus** on this task?",
+      "annotation_mode": "context",
+      "annotation_note": "专注是对白中约定的工作状态，不仅凭人物坐姿推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "interrupt",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "打断",
+      "pos": "verb",
+      "ipa_us": "/ˌɪntəˈrʌpt/",
+      "ipa_uk": "/ˌɪntəˈrʌpt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Sure. I won't interrupt you unless something urgent comes up.",
+        "matched_form": "interrupt",
+        "referent_region_verified": false,
+        "context": "是否打断及紧急条件由对白约定，无可定位动作框。",
+        "image_verified": null
+      },
+      "example_en": "Sure. I won't interrupt you unless something urgent comes up.",
+      "example_zh": "当然。除非有紧急情况，我不会打断你。",
+      "bbox_normalized": null,
+      "collocations": [
+        "interrupt someone",
+        "avoid interruptions"
+      ],
+      "example_en_highlighted": "Sure. I won't **interrupt** you unless something urgent comes up.",
+      "annotation_mode": "context",
+      "annotation_note": "是否打断及紧急条件由对白约定，无可定位动作框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "available",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "可联系的",
+      "pos": "adjective",
+      "ipa_us": "/əˈveɪləbəl/",
+      "ipa_uk": "/əˈveɪləbəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll set the timer and be available again at eleven.",
+        "matched_form": "available",
+        "referent_region_verified": false,
+        "context": "available指可联系的工作时间，不从人物外表或钟面判定。",
+        "image_verified": null
+      },
+      "example_en": "I'll set the timer and be available again at eleven.",
+      "example_zh": "我会设置计时器，到十一点再恢复联系。",
+      "bbox_normalized": null,
+      "collocations": [
+        "be available",
+        "available at eleven"
+      ],
+      "example_en_highlighted": "I'll set the timer and be **available** again at eleven.",
+      "annotation_mode": "context",
+      "annotation_note": "available指可联系的工作时间，不从人物外表或钟面判定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "timer",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "计时器",
+      "pos": "noun",
+      "ipa_us": "/ˈtaɪmər/",
+      "ipa_uk": "/ˈtaɪmə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整独立计时器本体可定位；具体十一点由对白支持。",
+        "sentence": "I'll set the timer and be available again at eleven.",
+        "matched_form": "timer",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll set the timer and be available again at eleven.",
+      "example_zh": "我会设置计时器，到十一点再恢复联系。",
+      "bbox_normalized": [
+        0.676,
+        0.41,
+        0.87,
+        0.617
+      ],
+      "collocations": [
+        "set the timer",
+        "use a timer"
+      ],
+      "example_en_highlighted": "I'll set the **timer** and be available again at eleven.",
+      "annotation_mode": "object",
+      "annotation_note": "完整独立计时器本体可定位；具体十一点由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer arranges a focus block and agrees when to be available for teammates.",
+    "zh": "开发者安排一段专注工作时间，并与同事约定何时可以联系。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer arranges a focus block and agrees when to be available for teammates.",
+    "zh": "开发者安排一段专注工作时间，并与同事约定何时可以联系。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could I have an hour to focus on this task?",
+      "zh": "我能有一个小时专注处理这个任务吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. I won't interrupt you unless something urgent comes up.",
+      "zh": "当然。除非有紧急情况，我不会打断你。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll set the timer and be available again at eleven.",
+      "zh": "我会设置计时器，到十一点再恢复联系。"
+    },
+    {
+      "speaker": "B",
+      "en": "Sounds good. I'll collect any questions for then.",
+      "zh": "好。我会先把问题收集起来，到时再问。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "约定专注时间、紧急打断条件和恢复联系的时间。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers beside a simple desk. One is seated near an open laptop on the LEFT; the other stands at center, making a friendly open-palm gesture. On RIGHT foreground of the desk is ONE large freestanding circular analog TIMER with a clear top knob, round face and two plain hands. Entire timer and its small base unobstructed. No numbers or letters on the dial, no decorative symbols.",
+  "status": "approved",
+  "image_path": "images/W076.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W076 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W076.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T17:07:49.513Z",
+    "ended_at": "2026-10-05T17:11:33.744Z",
+    "prompt_path": "prompts/W076_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W076.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；完整独立计时器本体可定位；具体十一点由对白支持。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。"
+  }
+}

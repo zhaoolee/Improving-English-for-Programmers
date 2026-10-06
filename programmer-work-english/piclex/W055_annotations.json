@@ -1,0 +1,130 @@
+{
+  "filename": "W055-讨论偶发错误.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "intermittent",
+      "chinese": "偶发的",
+      "phoneticUS": "/ˌɪntərˈmɪtənt/",
+      "phoneticUK": "/ˌɪntəˈmɪtənt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "偶发频率由对白说明，单张静态图不能证明每次发生概率。",
+        "association": "偶发频率由对白说明，单张静态图不能证明每次发生概率。",
+        "collocation": "an intermittent bug; intermittent failure",
+        "example": "A: This audio bug is intermittent. It does not happen every time.\nB: Is there a pattern in when it occurs?\nA: It sometimes happens when I unplug the headphones.\nB: Record the timing of each disconnect, then compare the logs.",
+        "exampleChinese": "A: 这个音频错误是偶发的，不是每次都会出现。\nB: 它出现的时机有规律吗？\nA: 有时我拔下耳机时会出现。\nB: 记录每次断开时的时序，再比较日志。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "pattern",
+      "chinese": "规律",
+      "phoneticUS": "/ˈpætərn/",
+      "phoneticUK": "/ˈpætən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "故障规律需要多次记录，不能用画面重复线条替代。",
+        "association": "故障规律需要多次记录，不能用画面重复线条替代。",
+        "collocation": "see a pattern; a pattern in failures",
+        "example": "Is there a pattern in when it occurs?",
+        "exampleChinese": "它出现的时机有规律吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "timing",
+      "chinese": "时序",
+      "phoneticUS": "/ˈtaɪmɪŋ/",
+      "phoneticUK": "/ˈtaɪmɪŋ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "事件时间关系由调查建议定义，不用静态图虚构测量。",
+        "association": "事件时间关系由调查建议定义，不用静态图虚构测量。",
+        "collocation": "record the timing; disconnect timing",
+        "example": "Record the timing of each disconnect, then compare the logs.",
+        "exampleChinese": "记录每次断开时的时序，再比较日志。"
+      }
+    },
+    {
+      "x": 784,
+      "y": 557,
+      "english": "headphones",
+      "chinese": "耳机",
+      "phoneticUS": "/ˈhedfoʊnz/",
+      "phoneticUK": "/ˈhedfəʊnz/",
+      "bubblePosition": {
+        "x": 855,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 784,
+        "y": 557
+      },
+      "boundingBox": {
+        "left": 685,
+        "top": 478,
+        "right": 893,
+        "bottom": 645
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "plural noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面完整头戴式耳机的头梁与两个耳罩可定位。",
+        "association": "桌面完整头戴式耳机的头梁与两个耳罩可定位。",
+        "collocation": "unplug the headphones; wear headphones",
+        "example": "It sometimes happens when I unplug the headphones.",
+        "exampleChinese": "有时我拔下耳机时会出现。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers investigate an intermittent audio bug that sometimes follows a headphone disconnect.",
+    "chinese": "两位开发者排查偶发音频错误，记录耳机断开时的时序并比较日志。",
+    "source": "原创对话 · W055 讨论偶发错误",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

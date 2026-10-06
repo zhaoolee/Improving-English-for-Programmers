@@ -1,0 +1,120 @@
+W006  确认团队分工
+========================================================================
+分类: 融入团队（team）
+关键词: ownership
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W006.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W006.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W006.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T17:07:49.513Z → 2026-10-05T17:08:16.438Z
+  提示词文件: prompts/W006_image_final.txt
+
+场景: 开发者与同事确认各项服务由谁负责和维护。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；可定位完整白板本体；任务分工只由对白支持。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。
+
+沟通目标: 确认服务责任归属与维护分工。
+
+主配文（一句场景描述）:
+  英文: A developer confirms who owns and maintains each service with a teammate.
+  中文: 开发者与同事确认各项服务由谁负责和维护。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Who has ownership of the billing service?
+        账单服务由谁负责？
+  [B] Maya does. Her main responsibility is keeping it reliable.
+        由 Maya 负责。她的主要职责是保证它稳定运行。
+  [A] And who will maintain the new reporting module?
+        那新的报表模块由谁来维护？
+  [B] I will. Let's add both names to the board.
+        我来维护。我们把这两个名字都加到白板上吧。
+
+目标词 (4): ownership, responsibility, maintain, board
+
+------------------------------------------------------------------------
+[1/4] ownership
+  词义: 负责归属
+  词性: noun
+  音标: UK /ˈəʊnəʃɪp/ | US /ˈoʊnərʃɪp/
+  搭配: ownership of a service; take ownership
+  例句: Who has ownership of the billing service?
+  例句高亮: Who has **ownership** of the billing service?
+  例句中文: 账单服务由谁负责？
+  标注模式: context
+  标注说明: 对白明确服务责任归属，白板和人物外观无法证明谁负责。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] responsibility
+  词义: 职责
+  词性: noun
+  音标: UK /rɪˌspɒnsəˈbɪləti/ | US /rɪˌspɑːnsəˈbɪləti/
+  搭配: main responsibility; share responsibility
+  例句: Maya does. Her main responsibility is keeping it reliable.
+  例句高亮: Maya does. Her main **responsibility** is keeping it reliable.
+  例句中文: 由 Maya 负责。她的主要职责是保证它稳定运行。
+  标注模式: context
+  标注说明: 职责是对白约定的工作分工，没有可定位局部。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] maintain
+  词义: 维护
+  词性: verb
+  音标: UK /meɪnˈteɪn/ | US /meɪnˈteɪn/
+  搭配: maintain a module; maintain a service
+  例句: And who will maintain the new reporting module?
+  例句高亮: And who will **maintain** the new reporting module?
+  例句中文: 那新的报表模块由谁来维护？
+  标注模式: context
+  标注说明: 维护工作由对白说明，静态指向白板不能证明正在维护。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] board
+  词义: 白板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: add to the board; project board
+  例句: I will. Let's add both names to the board.
+  例句高亮: I will. Let's add both names to the **board**.
+  例句中文: 我来维护。我们把这两个名字都加到白板上吧。
+  标注模式: object
+  标注说明: 可定位完整白板本体；任务分工只由对白支持。
+  坐标(normalized): [0.493, 0.211, 0.934, 0.806]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W006 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=48 | meta.approved_cards=48
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure coworkers stand to the LEFT and center of a freestanding rectangular whiteboard on the RIGHT. One points toward two empty rounded rectangular cards on the board; the other listens with open palm. The ENTIRE board is clearly visible, including its frame and stand, with no writing. No other props.
+

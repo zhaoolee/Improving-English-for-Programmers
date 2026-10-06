@@ -1,0 +1,120 @@
+W022  站会上汇报进展
+========================================================================
+分类: 计划与进度（planning）
+关键词: progress
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W022.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W022.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W022.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T13:27:56Z → 2026-10-04T13:31:45Z
+  提示词文件: prompts/W022_image_final.txt
+
+场景: 开发者在站会上汇报进展，说明测试阻碍，并约定修复后更新任务板。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名同事站在三列任务板前进行站会，完整任务板及支架可见，无字卡片保持极简画风。进展、阻碍与失败测试由对白说明，不能从任务卡外观认定状态。
+
+沟通目标: 简短汇报完成项、阻碍和下一步。
+
+主配文（一句场景描述）:
+  英文: A developer gives a stand-up update and agrees to fix a failing test before updating the board.
+  中文: 开发者在站会上汇报进展，说明测试阻碍，并约定修复后更新任务板。
+
+角色与对白:
+  A = Developer 开发者
+  B = Team lead 团队负责人
+  [A] Here's my progress: the search feature is ready for review.
+        这是我的进展：搜索功能已经可以评审了。
+  [B] Any blocker that could delay the task?
+        有没有可能让任务延期的阻碍？
+  [A] One test is failing. I'll fix it before lunch.
+        有一项测试失败了。我会在午饭前修好它。
+  [B] Thanks. Please update the board when the test passes.
+        谢谢。测试通过后，请更新任务板。
+
+目标词 (4): progress, blocker, test, board
+
+------------------------------------------------------------------------
+[1/4] progress
+  词义: 进展
+  词性: noun (uncountable)
+  音标: UK /ˈprəʊɡres/ | US /ˈprɑːɡres/
+  搭配: report progress; make progress
+  例句: Here's my progress: the search feature is ready for review.
+  例句高亮: Here's my **progress**: the search feature is ready for review.
+  例句中文: 这是我的进展：搜索功能已经可以评审了。
+  标注模式: context
+  标注说明: 工作进展由站会对白报告，空白任务板本身不能证明完成进度。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] blocker
+  词义: 阻碍
+  词性: noun
+  音标: UK /ˈblɒkə/ | US /ˈblɑːkər/
+  搭配: a task blocker; remove a blocker
+  例句: Any blocker that could delay the task?
+  例句高亮: Any **blocker** that could delay the task?
+  例句中文: 有没有可能让任务延期的阻碍？
+  标注模式: context
+  标注说明: 工作阻碍由失败测试的对白说明，不框成物理路障。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] test
+  词义: 测试
+  词性: noun
+  音标: UK /test/ | US /test/
+  搭配: a failing test; the test passes
+  例句: One test is failing.
+  例句高亮: One **test** is failing.
+  例句中文: 有一项测试失败了。
+  标注模式: context
+  标注说明: 软件测试及失败状态由对白说明，静态空白任务卡不具备局部测试证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] board
+  词义: 任务板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: update the board; a task board
+  例句: Please update the board when the test passes.
+  例句高亮: Please update the **board** when the test passes.
+  例句中文: 测试通过后，请更新任务板。
+  标注模式: object
+  标注说明: 可框出整块带任务卡的实际任务板；具体任务与完成状态由对白支持。
+  坐标(normalized): [0.311, 0.235, 0.714, 0.76]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W022 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=16 | meta.approved_cards=16
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers stand for a brief daily stand-up beside a freestanding task board. The developer at left holds a small notepad at waist level and reports with an open hand; the team lead at right points toward the board. The board has three columns of blank square cards, no readable marks. Keep the full board rectangle and its stand unobstructed. This should be a standing meeting, not seated laptop work.
+

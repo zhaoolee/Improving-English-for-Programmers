@@ -1,0 +1,130 @@
+{
+  "filename": "W023-报告任务被阻塞.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "blocked",
+      "chinese": "被阻塞的",
+      "phoneticUS": "/blɑːkt/",
+      "phoneticUK": "/blɒkt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务受阻由对白给出支付接口依赖这一原因，不把人物或桌子当物理阻碍，不设框。",
+        "association": "任务受阻由对白给出支付接口依赖这一原因，不把人物或桌子当物理阻碍，不设框。",
+        "collocation": "a task is blocked; blocked by a dependency",
+        "example": "A: My task is blocked by a dependency on the payments API.\nB: When will the API be ready?\nA: I'll call the owner on this phone and get an estimate.\nB: Thanks. Meanwhile, work on the tests that don't need it.",
+        "exampleChinese": "A: 我的任务被支付接口这一依赖阻塞了。\nB: 这个接口什么时候能准备好？\nA: 我会用这部手机联系负责人，确认预计时间。\nB: 谢谢。在此期间，先做不依赖这个接口的测试。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "dependency",
+      "chinese": "依赖",
+      "phoneticUS": "/dɪˈpendənsi/",
+      "phoneticUK": "/dɪˈpendənsi/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件任务间的依赖由对白说明，图中没有可框出的真实接口依赖对象。",
+        "association": "软件任务间的依赖由对白说明，图中没有可框出的真实接口依赖对象。",
+        "collocation": "a dependency on an API; resolve a dependency",
+        "example": "My task is blocked by a dependency on the payments API.",
+        "exampleChinese": "我的任务被支付接口这一依赖阻塞了。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "estimate",
+      "chinese": "预计时间",
+      "phoneticUS": "/ˈestɪmət/",
+      "phoneticUK": "/ˈestɪmət/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处estimate指准备完成的时间预估，来自后续电话计划，不从静态手机界面推断，不设框。",
+        "association": "此处estimate指准备完成的时间预估，来自后续电话计划，不从静态手机界面推断，不设框。",
+        "collocation": "get an estimate; a time estimate",
+        "example": "I'll call the owner on this phone and get an estimate.",
+        "exampleChinese": "我会用这部手机联系负责人，确认预计时间。"
+      }
+    },
+    {
+      "x": 462,
+      "y": 385,
+      "english": "phone",
+      "chinese": "手机",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 205
+      },
+      "anchorPosition": {
+        "x": 462,
+        "y": 385
+      },
+      "boundingBox": {
+        "left": 434,
+        "top": 345,
+        "right": 495,
+        "bottom": 445
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "开发者手中的完整智能手机是局部指代对象，电话联系计划由对白支持。",
+        "association": "开发者手中的完整智能手机是局部指代对象，电话联系计划由对白支持。",
+        "collocation": "on this phone; call someone on a phone",
+        "example": "I'll call the owner on this phone and get an estimate.",
+        "exampleChinese": "我会用这部手机联系负责人，确认预计时间。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer reports a dependency blocker and plans to ask the API owner for an estimate.",
+    "chinese": "开发者说明任务被接口依赖阻塞，并准备电话联系负责人确认预计时间。",
+    "source": "原创对话 · W023 报告任务被阻塞",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

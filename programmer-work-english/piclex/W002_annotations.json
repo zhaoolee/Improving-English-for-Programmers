@@ -1,0 +1,130 @@
+{
+  "filename": "W002-介绍自己的开发经验.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "experience",
+      "chinese": "经验",
+      "phoneticUS": "/ɪkˈspɪriəns/",
+      "phoneticUK": "/ɪkˈspɪəriəns/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "工作经验由A的对白说明，不能从人物外貌或电脑推断，不设框。",
+        "association": "工作经验由A的对白说明，不能从人物外貌或电脑推断，不设框。",
+        "collocation": "experience in backend development; work experience",
+        "example": "A: Most of my experience is in backend development.\nB: What kind of project have you worked on?\nA: I built an order service. I can show you the project on my laptop.\nB: Great. Let's look at the design together.",
+        "exampleChinese": "A: 我的大部分经验都在后端开发方面。\nB: 你做过哪类项目？\nA: 我开发过一个订单服务。我可以在笔记本电脑上给你展示这个项目。\nB: 太好了。我们一起看看它的设计。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "backend",
+      "chinese": "后端",
+      "phoneticUS": "/ˈbækˌend/",
+      "phoneticUK": "/ˈbækˌend/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件后端属于系统职责，不把屏幕里的任意图形当作后端实体。",
+        "association": "软件后端属于系统职责，不把屏幕里的任意图形当作后端实体。",
+        "collocation": "backend development; a backend service",
+        "example": "Most of my experience is in backend development.",
+        "exampleChinese": "我的大部分经验都在后端开发方面。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "project",
+      "chinese": "项目",
+      "phoneticUS": "/ˈprɑːdʒekt/",
+      "phoneticUK": "/ˈprɒdʒekt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "项目由对白明确说明；抽象屏幕图形不足以框出整个软件项目。",
+        "association": "项目由对白明确说明；抽象屏幕图形不足以框出整个软件项目。",
+        "collocation": "work on a project; show a project",
+        "example": "I can show you the project on my laptop.",
+        "exampleChinese": "我可以在笔记本电脑上给你展示这个项目。"
+      }
+    },
+    {
+      "x": 505,
+      "y": 480,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 505,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 395,
+        "top": 405,
+        "right": 617,
+        "bottom": 560
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上打开的笔记本电脑是明确的局部指代对象，按实际完整机身定位。",
+        "association": "桌上打开的笔记本电脑是明确的局部指代对象，按实际完整机身定位。",
+        "collocation": "on my laptop; an open laptop",
+        "example": "I can show you the project on my laptop.",
+        "exampleChinese": "我可以在笔记本电脑上给你展示这个项目。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer describes their backend experience and offers to show a project on a laptop.",
+    "chinese": "开发者向同事介绍自己的后端开发经验，并准备在笔记本电脑上展示一个项目。",
+    "source": "原创对话 · W002 介绍自己的开发经验",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

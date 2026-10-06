@@ -1,0 +1,120 @@
+W033  比较两种实现方案
+========================================================================
+分类: 技术方案讨论（design）
+关键词: compare
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W033.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W033.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W033.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T14:09:01Z → 2026-10-04T14:11:05Z
+  提示词文件: prompts/W033_image_final.txt
+
+场景: 两名开发者借助示意图，对比两种实现方案的速度和复杂度。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：上下两条实现路径与上方额外分支构成完整示意图，同事分别指向两种方案。框住实际图形而非整个白板；速度与维护复杂度由对白评价，不由图块数量推断真实性能。
+
+沟通目标: 比较实现方案，并说明当前选择的依据。
+
+主配文（一句场景描述）:
+  英文: Two developers compare the speed and complexity of two implementation options.
+  中文: 两名开发者借助示意图，对比两种实现方案的速度和复杂度。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] Let's compare the two options in this diagram.
+        我们比较一下这张示意图里的两种方案。
+  [B] The first option is faster, but it adds complexity.
+        第一种方案更快，但会增加复杂度。
+  [A] The second option is simpler to maintain. Is its speed good enough?
+        第二种方案更容易维护。它的速度够用吗？
+  [B] Yes. Let's choose the second one for now.
+        够用。我们目前先选第二种。
+
+目标词 (4): compare, option, complexity, diagram
+
+------------------------------------------------------------------------
+[1/4] compare
+  词义: 比较
+  词性: verb
+  音标: UK /kəmˈpeə/ | US /kəmˈper/
+  搭配: compare two options; compare speed and complexity
+  例句: Let's compare the two options in this diagram.
+  例句高亮: Let's **compare** the two options in this diagram.
+  例句中文: 我们比较一下这张示意图里的两种方案。
+  标注模式: context
+  标注说明: 比较行为由双人对白和示意图讨论支持，不能将某个静态图块单独框为compare。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] option
+  词义: 方案
+  词性: noun
+  音标: UK /ˈɒpʃən/ | US /ˈɑːpʃən/
+  搭配: the first option; choose an option
+  例句: The first option is faster, but it adds complexity.
+  例句高亮: The first **option** is faster, but it adds complexity.
+  例句中文: 第一种方案更快，但会增加复杂度。
+  标注模式: context
+  标注说明: 此处option是实现方案，由对白定义；抽象路径不证明具体实现语义，保持无框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] complexity
+  词义: 复杂度
+  词性: noun (uncountable)
+  音标: UK /kəmˈpleksɪti/ | US /kəmˈpleksəti/
+  搭配: add complexity; reduce complexity
+  例句: The first option is faster, but it adds complexity.
+  例句高亮: The first option is faster, but it adds **complexity**.
+  例句中文: 第一种方案更快，但会增加复杂度。
+  标注模式: context
+  标注说明: 软件维护复杂度由对白评价，不用图块数目证明实际复杂度，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] diagram
+  词义: 示意图
+  词性: noun
+  音标: UK /ˈdaɪəɡræm/ | US /ˈdaɪəɡræm/
+  搭配: in this diagram; an implementation diagram
+  例句: Let's compare the two options in this diagram.
+  例句高亮: Let's compare the two options in this **diagram**.
+  例句中文: 我们比较一下这张示意图里的两种方案。
+  标注模式: object
+  标注说明: 白板上的上下两条方框箭头路径共同构成一张示意图，框选实际完整图形，排除整块白板。
+  坐标(normalized): [0.3, 0.294, 0.7, 0.528]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W033 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=24 | meta.approved_cards=24
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, letters, numbers, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers stand on opposite sides of a wide whiteboard. They compare ONE diagram composed of two vertically stacked abstract implementation paths: upper path with four small connected rectangles and a tiny extra branch; lower path with two larger connected rectangles. Only arrows and blank boxes, no words, no letters, no numbering. One developer points at the upper path, the other points at the lower path. Keep both paths entirely visible together in the middle of the board, framed as a single clear diagram with enough empty space below it for a learning label. No suggestion that exact runtime speed can be seen from the drawing.
+

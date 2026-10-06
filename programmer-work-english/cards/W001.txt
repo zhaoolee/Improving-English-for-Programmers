@@ -1,0 +1,120 @@
+W001  入职第一天的介绍
+========================================================================
+分类: 融入团队（team）
+关键词: introduce
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W001.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W001.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W001.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T08:26:25Z → 2026-10-04T08:26:44Z
+  提示词文件: prompts/W001_image_final.txt
+
+场景: 新入职的开发者请同事介绍团队，并询问如何获得代码仓库的访问权限。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：白底黑线，两名火柴人问候；左侧新人背包招手，右侧同事介绍办公位置。办公桌与打开式笔记本完整可见，未生成对白或品牌文字。introduce/access由对白设定支持；单桌画面不声称能看出邻桌分配。
+
+沟通目标: 介绍自己，并提出具体的入职协作请求。
+
+主配文（一句场景描述）:
+  英文: A new developer asks a teammate for introductions and repository access.
+  中文: 新入职的开发者请同事介绍团队，并询问如何获得代码仓库的访问权限。
+
+角色与对白:
+  A = New developer 新同事
+  B = Teammate 团队同事
+  [A] Hi, I'm Alex. Could you introduce me to the team?
+        你好，我是 Alex。你能向我介绍一下团队吗？
+  [B] Of course. Your desk is next to mine.
+        当然。你的办公桌就在我的旁边。
+  [A] Thanks. I'll set up my laptop there. How do I get access to the repository?
+        谢谢。我会在那里配置笔记本电脑。我怎样才能获得代码仓库的访问权限？
+  [B] I'll send you an invite after introductions.
+        介绍完大家后，我会给你发送邀请。
+
+目标词 (4): introduce, desk, laptop, access
+
+------------------------------------------------------------------------
+[1/4] introduce
+  词义: 介绍
+  词性: verb
+  音标: UK /ˌɪntrəˈdjuːs/ | US /ˌɪntrəˈduːs/
+  搭配: introduce someone to the team; introduce yourself
+  例句: Could you introduce me to the team?
+  例句高亮: Could you **introduce** me to the team?
+  例句中文: 你能向我介绍一下团队吗？
+  标注模式: context
+  标注说明: 对话明确请求介绍团队；静态招手不证明已经完成介绍，不设动作框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] desk
+  词义: 办公桌
+  词性: noun
+  音标: UK /desk/ | US /desk/
+  搭配: at your desk; a work desk
+  例句: Your desk is next to mine.
+  例句高亮: Your **desk** is next to mine.
+  例句中文: 你的办公桌就在我的旁边。
+  标注模式: object
+  标注说明: 场景中的完整办公桌是 desk 的局部指代对象；桌子的分配由对话设定支持。
+  坐标(normalized): [0.26, 0.545, 0.765, 0.805]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: set up a laptop; on my laptop
+  例句: I'll set up my laptop there.
+  例句高亮: I'll set up my **laptop** there.
+  例句中文: 我会在那里配置笔记本电脑。
+  标注模式: object
+  标注说明: 桌上的打开式笔记本电脑可局部定位；配置行为由对话表达。
+  坐标(normalized): [0.39, 0.435, 0.61, 0.585]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] access
+  词义: 访问权限
+  词性: noun (uncountable)
+  音标: UK /ˈækses/ | US /ˈækses/
+  搭配: get access to; repository access
+  例句: How do I get access to the repository?
+  例句高亮: How do I get **access** to the repository?
+  例句中文: 我怎样才能获得代码仓库的访问权限？
+  标注模式: context
+  标注说明: 权限由对话明确表达，不能从电脑外观判断，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 2
+  context_annotations: 2
+  scope: W001 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers greeting each other at a small programmer desk. The newcomer stands at left and gives a friendly small wave; the teammate stands at right and gestures toward the desk in the center. An open laptop sits fully visible on the desk. Draw the complete desk tabletop and legs, and a clearly recognizable open laptop with screen and keyboard, unobstructed. The laptop and desk are the visible learning props.
+

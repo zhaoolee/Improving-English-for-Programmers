@@ -1,0 +1,256 @@
+{
+  "id": "W031",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "讨论缓存方案的取舍",
+  "keyword": "trade-off",
+  "scene": "两名开发者借助示意图，讨论缓存带来的性能收益和维护成本。",
+  "target_count": 4,
+  "primary_words": [
+    "trade-off",
+    "cache",
+    "latency",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "trade-off",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "取舍",
+      "pos": "noun",
+      "ipa_us": "/ˈtreɪd ɔːf/",
+      "ipa_uk": "/ˈtreɪd ɒf/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What's the trade-off if we add a cache?",
+        "matched_form": "trade-off",
+        "referent_region_verified": false,
+        "context": "对话比较性能与维护代价；不将箭头图当作取舍本身，不设框。",
+        "image_verified": null
+      },
+      "example_en": "What's the trade-off if we add a cache?",
+      "example_zh": "如果增加缓存，需要做什么取舍？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a trade-off between",
+        "a performance trade-off"
+      ],
+      "example_en_highlighted": "What's the **trade-off** if we add a cache?",
+      "annotation_mode": "context",
+      "annotation_note": "对话比较性能与维护代价；不将箭头图当作取舍本身，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "cache",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "缓存",
+      "pos": "noun",
+      "ipa_us": "/kæʃ/",
+      "ipa_uk": "/kæʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What's the trade-off if we add a cache?",
+        "matched_form": "cache",
+        "referent_region_verified": false,
+        "context": "缓存是讨论中的逻辑组件；无标识的矩形不证明哪一个是缓存，不设框。",
+        "image_verified": null
+      },
+      "example_en": "What's the trade-off if we add a cache?",
+      "example_zh": "如果增加缓存，需要做什么取舍？",
+      "bbox_normalized": null,
+      "collocations": [
+        "add a cache",
+        "cached data"
+      ],
+      "example_en_highlighted": "What's the trade-off if we add a **cache**?",
+      "annotation_mode": "context",
+      "annotation_note": "缓存是讨论中的逻辑组件；无标识的矩形不证明哪一个是缓存，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "latency",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "延迟",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ˈleɪtənsi/",
+      "ipa_uk": "/ˈleɪtənsi/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Lower latency, but more work to keep the cached data up to date.",
+        "matched_form": "latency",
+        "referent_region_verified": false,
+        "context": "对话说明延迟降低，静态示意图不能展示时间测量，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Lower latency, but more work to keep the cached data up to date.",
+      "example_zh": "延迟会降低，但保持缓存数据最新需要更多工作。",
+      "bbox_normalized": null,
+      "collocations": [
+        "lower latency",
+        "reduce latency"
+      ],
+      "example_en_highlighted": "Lower **latency**, but more work to keep the cached data up to date.",
+      "annotation_mode": "context",
+      "annotation_note": "对话说明延迟降低，静态示意图不能展示时间测量，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "示意图",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板中的矩形和箭头组成实际可见示意图，可框整体图形而不虚构其技术含义。",
+        "sentence": "Could you show that in the diagram?",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Could you show that in the diagram?",
+      "example_zh": "你能在示意图里说明这一点吗？",
+      "bbox_normalized": [
+        0.327,
+        0.25,
+        0.69,
+        0.415
+      ],
+      "collocations": [
+        "draw a diagram",
+        "in the diagram"
+      ],
+      "example_en_highlighted": "Could you show that in the **diagram**?",
+      "annotation_mode": "object",
+      "annotation_note": "白板中的矩形和箭头组成实际可见示意图，可框整体图形而不虚构其技术含义。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers use a diagram to discuss a cache's benefits and maintenance costs.",
+    "zh": "两名开发者借助示意图，讨论缓存带来的性能收益和维护成本。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers use a diagram to discuss a cache's benefits and maintenance costs.",
+    "zh": "两名开发者借助示意图，讨论缓存带来的性能收益和维护成本。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Developer 开发者"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What's the trade-off if we add a cache?",
+      "zh": "如果增加缓存，需要做什么取舍？"
+    },
+    {
+      "speaker": "B",
+      "en": "Lower latency, but more work to keep the cached data up to date.",
+      "zh": "延迟会降低，但保持缓存数据最新需要更多工作。"
+    },
+    {
+      "speaker": "A",
+      "en": "Could you show that in the diagram?",
+      "zh": "你能在示意图里说明这一点吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. Let's compare both options before we decide.",
+      "zh": "可以。我们比较两种方案后再决定。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明方案收益与代价，比较后再决定。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers discussing a technical diagram on a central whiteboard. One points at the diagram; the other has an open questioning palm. Draw one very simple complete diagram: three empty rectangular boxes connected by arrows, with a second small branching path to suggest two possible routes. The full diagram sits inside the central whiteboard, clear and easy to crop. No labels, code, jargon, numbers, or decorative math. Minimal clean office.",
+  "status": "approved",
+  "image_path": "images/inverted/W031.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W031 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W031.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T08:26:25Z",
+    "ended_at": "2026-10-04T08:28:56Z",
+    "prompt_path": "prompts/W031_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W031.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W031.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "284b20290e5fdcd14b0308480983746bab77c52f46db601ba23bcd38475fbb60",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W031.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两个同事用白板中的矩形和分支箭头讨论方案；可见diagram整体完整。图中实际有四个矩形，是完整连通示意图，不强行声明其中某个矩形是cache。trade-off/cache/latency由对白支持。"
+  }
+}

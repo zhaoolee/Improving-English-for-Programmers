@@ -1,0 +1,130 @@
+{
+  "filename": "W044-回应必须修改的评论.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "required",
+      "chinese": "必须的",
+      "phoneticUS": "/rɪˈkwaɪərd/",
+      "phoneticUK": "/rɪˈkwaɪəd/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "必改要求由评审者对白确认，不能凭指点或清单判定优先级。",
+        "association": "必改要求由评审者对白确认，不能凭指点或清单判定优先级。",
+        "collocation": "a required change; required before merging",
+        "example": "A: Is this change required before we merge?\nB: Yes. Please address the comment about missing validation.\nA: I'll add it to my checklist and update the patch.\nB: Thanks. Ask me to review it again when you are ready.",
+        "exampleChinese": "A: 合并之前必须做这处修改吗？\nB: 是的。请处理关于缺少校验的这条评论。\nA: 我会把它加入检查清单，并更新补丁。\nB: 谢谢。准备好后，请让我再评审一次。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "address",
+      "chinese": "处理",
+      "phoneticUS": "/əˈdres/",
+      "phoneticUK": "/əˈdres/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "address是处理问题而非地址，拟进行的修改没有局部区域。",
+        "association": "address是处理问题而非地址，拟进行的修改没有局部区域。",
+        "collocation": "address a comment; address an issue",
+        "example": "Yes. Please address the comment about missing validation.",
+        "exampleChinese": "是的。请处理关于缺少校验的这条评论。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "comment",
+      "chinese": "评论",
+      "phoneticUS": "/ˈkɑːment/",
+      "phoneticUK": "/ˈkɒment/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "无文字屏幕不展示真实评审评论，具体内容由对白提供。",
+        "association": "无文字屏幕不展示真实评审评论，具体内容由对白提供。",
+        "collocation": "a review comment; address a comment",
+        "example": "Yes. Please address the comment about missing validation.",
+        "exampleChinese": "是的。请处理关于缺少校验的这条评论。"
+      }
+    },
+    {
+      "x": 509,
+      "y": 552,
+      "english": "checklist",
+      "chinese": "检查清单",
+      "phoneticUS": "/ˈtʃeklɪst/",
+      "phoneticUK": "/ˈtʃeklɪst/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 870
+      },
+      "anchorPosition": {
+        "x": 509,
+        "y": 552
+      },
+      "boundingBox": {
+        "left": 364,
+        "top": 480,
+        "right": 649,
+        "bottom": 625
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "带多行复选框的纸质检查清单可完整框选。",
+        "association": "带多行复选框的纸质检查清单可完整框选。",
+        "collocation": "add to a checklist; a review checklist",
+        "example": "I'll add it to my checklist and update the patch.",
+        "exampleChinese": "我会把它加入检查清单，并更新补丁。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer responds to a required change in a code review.",
+    "chinese": "开发者回应代码评审中必须修改的问题。",
+    "source": "原创对话 · W044 回应必须修改的评论",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "W004-配置开发环境时求助.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "setup",
+      "chinese": "配置",
+      "phoneticUS": "/ˈsetʌp/",
+      "phoneticUK": "/ˈsetʌp/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "setup指配置过程与状态，由对白说明，不能用电脑外观证明配置完成。",
+        "association": "setup指配置过程与状态，由对白说明，不能用电脑外观证明配置完成。",
+        "collocation": "local setup; help with setup",
+        "example": "A: Could you help me with the local setup?\nB: Sure. Did you install every dependency?\nA: One is missing. Could you show me what to type on the keyboard?\nB: Yes. Let's install it and try again.",
+        "exampleChinese": "A: 你能帮我配置本地开发环境吗？\nB: 当然。你安装了所有依赖吗？\nA: 缺少了一个。你能告诉我该在键盘上输入什么吗？\nB: 可以。我们把它安装好，再试一次。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "dependency",
+      "chinese": "依赖",
+      "phoneticUS": "/dɪˈpendənsi/",
+      "phoneticUK": "/dɪˈpendənsi/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件依赖由对白指出，屏幕抽象块不能定位真实依赖。",
+        "association": "软件依赖由对白指出，屏幕抽象块不能定位真实依赖。",
+        "collocation": "install a dependency; missing dependency",
+        "example": "Sure. Did you install every dependency?",
+        "exampleChinese": "当然。你安装了所有依赖吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "install",
+      "chinese": "安装",
+      "phoneticUS": "/ɪnˈstɔːl/",
+      "phoneticUK": "/ɪnˈstɔːl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "安装是后续建议，键盘操作不能证明安装过程或结果。",
+        "association": "安装是后续建议，键盘操作不能证明安装过程或结果。",
+        "collocation": "install a dependency; install software",
+        "example": "Yes. Let's install it and try again.",
+        "exampleChinese": "可以。我们把它安装好，再试一次。"
+      }
+    },
+    {
+      "x": 515,
+      "y": 554,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 515,
+        "y": 554
+      },
+      "boundingBox": {
+        "left": 381,
+        "top": 530,
+        "right": 646,
+        "bottom": 576
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "独立实体键盘可完整框选。",
+        "association": "独立实体键盘可完整框选。",
+        "collocation": "on the keyboard; type on a keyboard",
+        "example": "One is missing. Could you show me what to type on the keyboard?",
+        "exampleChinese": "缺少了一个。你能告诉我该在键盘上输入什么吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a teammate for help with a local setup.",
+    "chinese": "开发者向同事求助，排查本地开发环境的配置问题。",
+    "source": "原创对话 · W004 配置开发环境时求助",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

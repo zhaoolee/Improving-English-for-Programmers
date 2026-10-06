@@ -1,0 +1,130 @@
+{
+  "filename": "W003-申请仓库访问权限.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "permission",
+      "chinese": "权限",
+      "phoneticUS": "/pərˈmɪʃən/",
+      "phoneticUK": "/pəˈmɪʃən/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "权限缺失由对白明确说明，电脑或信封图标不能证明真实授权状态，不设框。",
+        "association": "权限缺失由对白明确说明，电脑或信封图标不能证明真实授权状态，不设框。",
+        "collocation": "have permission to; repository permission",
+        "example": "A: I don't have permission to push to the repository.\nB: I'll send you an invite.\nA: Thanks. I'll accept it on my laptop.\nB: Let me know if access is still blocked.",
+        "exampleChinese": "A: 我没有向代码仓库推送代码的权限。\nB: 我会给你发送邀请。\nA: 谢谢。我会在笔记本电脑上接受邀请。\nB: 如果仍然无法访问，请告诉我。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "invite",
+      "chinese": "邀请",
+      "phoneticUS": "/ˈɪnvaɪt/",
+      "phoneticUK": "/ˈɪnvaɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处invite是非正式工作用语的名词；将发送邀请由对白说明，信封图标不足以证明仓库邀请，不设框。",
+        "association": "此处invite是非正式工作用语的名词；将发送邀请由对白说明，信封图标不足以证明仓库邀请，不设框。",
+        "collocation": "send an invite; accept an invite",
+        "example": "I'll send you an invite.",
+        "exampleChinese": "我会给你发送邀请。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "repository",
+      "chinese": "代码仓库",
+      "phoneticUS": "/rɪˈpɑːzətɔːri/",
+      "phoneticUK": "/rɪˈpɒzɪtəri/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件代码仓库由对白说明；笔记本和抽象UI不能局部定位整个仓库，不设虚假框。",
+        "association": "软件代码仓库由对白说明；笔记本和抽象UI不能局部定位整个仓库，不设虚假框。",
+        "collocation": "push to a repository; repository access",
+        "example": "I don't have permission to push to the repository.",
+        "exampleChinese": "我没有向代码仓库推送代码的权限。"
+      }
+    },
+    {
+      "x": 525,
+      "y": 515,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 525,
+        "y": 515
+      },
+      "boundingBox": {
+        "left": 370,
+        "top": 430,
+        "right": 642,
+        "bottom": 614
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上打开的笔记本电脑可完整定位，接受邀请的后续行为由对白支持。",
+        "association": "桌上打开的笔记本电脑可完整定位，接受邀请的后续行为由对白支持。",
+        "collocation": "on my laptop; use a laptop",
+        "example": "I'll accept it on my laptop.",
+        "exampleChinese": "我会在笔记本电脑上接受邀请。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a teammate for repository permission and an invite.",
+    "chinese": "开发者向同事申请代码仓库权限，并准备在笔记本电脑上接受邀请。",
+    "source": "原创对话 · W003 申请仓库访问权限",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

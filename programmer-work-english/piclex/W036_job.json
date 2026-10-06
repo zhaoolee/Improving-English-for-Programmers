@@ -1,0 +1,15 @@
+{
+  "cardID": "W036",
+  "imagePath": "../images/W036.png",
+  "imageSHA256": "f57fecc35aee77fdd82b63851e96dc19f80592423ae591977190b3632976c565",
+  "imageReviewed": true,
+  "annotationsPath": "W036_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "fallback",
+    "timeout",
+    "retry",
+    "monitor"
+  ],
+  "receiptPath": "W036_import_receipt.json"
+}

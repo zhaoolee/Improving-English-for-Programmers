@@ -1,0 +1,260 @@
+{
+  "id": "W011",
+  "category": "requirements",
+  "category_title": "需求澄清",
+  "chapter": "需求澄清",
+  "title": "澄清提交按钮的需求",
+  "keyword": "clarify",
+  "scene": "开发者与产品经理确认，表单的提交按钮应当在什么条件下启用。",
+  "target_count": 4,
+  "primary_words": [
+    "clarify",
+    "requirement",
+    "button",
+    "screen"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "clarify",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "澄清",
+      "pos": "verb",
+      "ipa_us": "/ˈklærəfaɪ/",
+      "ipa_uk": "/ˈklærɪfaɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you clarify this requirement?",
+        "matched_form": "clarify",
+        "referent_region_verified": false,
+        "context": "通过问答澄清按钮启用条件；人物指屏幕不能单独证明澄清，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Could you clarify this requirement?",
+      "example_zh": "你能澄清一下这项需求吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "clarify a requirement",
+        "clarify what you mean"
+      ],
+      "example_en_highlighted": "Could you **clarify** this requirement?",
+      "annotation_mode": "context",
+      "annotation_note": "通过问答澄清按钮启用条件；人物指屏幕不能单独证明澄清，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "requirement",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "需求",
+      "pos": "noun",
+      "ipa_us": "/rɪˈkwaɪərmənt/",
+      "ipa_uk": "/rɪˈkwaɪəmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you clarify this requirement?",
+        "matched_form": "requirement",
+        "referent_region_verified": false,
+        "context": "本卡需求是对话给出的启用条件，不把整个显示器框作需求。",
+        "image_verified": null
+      },
+      "example_en": "Could you clarify this requirement?",
+      "example_zh": "你能澄清一下这项需求吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "clarify a requirement",
+        "meet a requirement"
+      ],
+      "example_en_highlighted": "Could you clarify this **requirement**?",
+      "annotation_mode": "context",
+      "annotation_note": "本卡需求是对话给出的启用条件，不把整个显示器框作需求。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "button",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "按钮",
+      "pos": "noun",
+      "ipa_us": "/ˈbʌtən/",
+      "ipa_uk": "/ˈbʌtən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "屏幕表单上的独立圆角按钮是实际局部对象；启用规则由对话支持。",
+        "sentence": "The button should stay disabled until all required fields are filled in.",
+        "matched_form": "button",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The button should stay disabled until all required fields are filled in.",
+      "example_zh": "在所有必填项填写完成之前，按钮应保持禁用。",
+      "bbox_normalized": [
+        0.43,
+        0.458,
+        0.582,
+        0.508
+      ],
+      "collocations": [
+        "a submit button",
+        "click a button"
+      ],
+      "example_en_highlighted": "The **button** should stay disabled until all required fields are filled in.",
+      "annotation_mode": "object",
+      "annotation_note": "屏幕表单上的独立圆角按钮是实际局部对象；启用规则由对话支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "screen",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "屏幕",
+      "pos": "noun",
+      "ipa_us": "/skriːn/",
+      "ipa_uk": "/skriːn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示器中呈现表单的屏幕区域可局部框选。",
+        "sentence": "Let's check the screen together.",
+        "matched_form": "screen",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let's check the screen together.",
+      "example_zh": "我们一起看一下屏幕。",
+      "bbox_normalized": [
+        0.33,
+        0.309,
+        0.682,
+        0.529
+      ],
+      "collocations": [
+        "check the screen",
+        "on the screen"
+      ],
+      "example_en_highlighted": "Let's check the **screen** together.",
+      "annotation_mode": "object",
+      "annotation_note": "显示器中呈现表单的屏幕区域可局部框选。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer and a product manager clarify when a form's submit button should be enabled.",
+    "zh": "开发者与产品经理确认，表单的提交按钮应当在什么条件下启用。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer and a product manager clarify when a form's submit button should be enabled.",
+    "zh": "开发者与产品经理确认，表单的提交按钮应当在什么条件下启用。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Product manager 产品经理"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you clarify this requirement?",
+      "zh": "你能澄清一下这项需求吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "The button should stay disabled until all required fields are filled in.",
+      "zh": "在所有必填项填写完成之前，按钮应保持禁用。"
+    },
+    {
+      "speaker": "A",
+      "en": "So the user can submit only after completing the form?",
+      "zh": "也就是说，用户必须填完表单才能提交，对吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Exactly. Let's check the screen together.",
+      "zh": "没错。我们一起看一下屏幕。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "提问并复述理解，确认需求条件。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers, a developer at left and a product manager at right, discussing one large desktop monitor at center. Both gesture toward its screen. The monitor displays a very simple web form: two empty outlined input fields near the top and ONE distinct rounded rectangular submit button near the lower center. Make the screen and the single button large, unobstructed, and easy to box separately. No text is needed inside the UI. A low simple desktop supports the monitor.",
+  "status": "approved",
+  "image_path": "images/inverted/W011.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W011 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W011.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T08:26:25Z",
+    "ended_at": "2026-10-04T08:27:11Z",
+    "prompt_path": "prompts/W011_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W011.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W011.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "a2afdaec9f67bd2ec62cced35b7c9bf72a99e34955c0be4e71c78627238ad236",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W011.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：开发者和产品经理共同指向带两栏输入框与一个按钮的表单。按钮、屏幕明确可分开框选，人物表情和黑白线条符合风格。启用条件由对白表达，不从空白UI推断运行状态。"
+  }
+}

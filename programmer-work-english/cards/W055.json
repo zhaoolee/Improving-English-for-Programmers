@@ -1,0 +1,246 @@
+{
+  "id": "W055",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "讨论偶发错误",
+  "keyword": "intermittent",
+  "scene": "两位开发者排查偶发音频错误，记录耳机断开时的时序并比较日志。",
+  "target_count": 4,
+  "primary_words": [
+    "intermittent",
+    "pattern",
+    "timing",
+    "headphones"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "intermittent",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "偶发的",
+      "pos": "adjective",
+      "ipa_us": "/ˌɪntərˈmɪtənt/",
+      "ipa_uk": "/ˌɪntəˈmɪtənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This audio bug is intermittent. It does not happen every time.",
+        "matched_form": "intermittent",
+        "referent_region_verified": false,
+        "context": "偶发频率由对白说明，单张静态图不能证明每次发生概率。",
+        "image_verified": null
+      },
+      "example_en": "This audio bug is intermittent. It does not happen every time.",
+      "example_zh": "这个音频错误是偶发的，不是每次都会出现。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an intermittent bug",
+        "intermittent failure"
+      ],
+      "example_en_highlighted": "This audio bug is **intermittent**. It does not happen every time.",
+      "annotation_mode": "context",
+      "annotation_note": "偶发频率由对白说明，单张静态图不能证明每次发生概率。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "pattern",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "规律",
+      "pos": "noun",
+      "ipa_us": "/ˈpætərn/",
+      "ipa_uk": "/ˈpætən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Is there a pattern in when it occurs?",
+        "matched_form": "pattern",
+        "referent_region_verified": false,
+        "context": "故障规律需要多次记录，不能用画面重复线条替代。",
+        "image_verified": null
+      },
+      "example_en": "Is there a pattern in when it occurs?",
+      "example_zh": "它出现的时机有规律吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "see a pattern",
+        "a pattern in failures"
+      ],
+      "example_en_highlighted": "Is there a **pattern** in when it occurs?",
+      "annotation_mode": "context",
+      "annotation_note": "故障规律需要多次记录，不能用画面重复线条替代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "timing",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "时序",
+      "pos": "noun",
+      "ipa_us": "/ˈtaɪmɪŋ/",
+      "ipa_uk": "/ˈtaɪmɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Record the timing of each disconnect, then compare the logs.",
+        "matched_form": "timing",
+        "referent_region_verified": false,
+        "context": "事件时间关系由调查建议定义，不用静态图虚构测量。",
+        "image_verified": null
+      },
+      "example_en": "Record the timing of each disconnect, then compare the logs.",
+      "example_zh": "记录每次断开时的时序，再比较日志。",
+      "bbox_normalized": null,
+      "collocations": [
+        "record the timing",
+        "disconnect timing"
+      ],
+      "example_en_highlighted": "Record the **timing** of each disconnect, then compare the logs.",
+      "annotation_mode": "context",
+      "annotation_note": "事件时间关系由调查建议定义，不用静态图虚构测量。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "headphones",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "耳机",
+      "pos": "plural noun",
+      "ipa_us": "/ˈhedfoʊnz/",
+      "ipa_uk": "/ˈhedfəʊnz/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌面完整头戴式耳机的头梁与两个耳罩可定位。",
+        "sentence": "It sometimes happens when I unplug the headphones.",
+        "matched_form": "headphones",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "It sometimes happens when I unplug the headphones.",
+      "example_zh": "有时我拔下耳机时会出现。",
+      "bbox_normalized": [
+        0.685,
+        0.478,
+        0.893,
+        0.645
+      ],
+      "collocations": [
+        "unplug the headphones",
+        "wear headphones"
+      ],
+      "example_en_highlighted": "It sometimes happens when I unplug the **headphones**.",
+      "annotation_mode": "object",
+      "annotation_note": "桌面完整头戴式耳机的头梁与两个耳罩可定位。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers investigate an intermittent audio bug that sometimes follows a headphone disconnect.",
+    "zh": "两位开发者排查偶发音频错误，记录耳机断开时的时序并比较日志。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers investigate an intermittent audio bug that sometimes follows a headphone disconnect.",
+    "zh": "两位开发者排查偶发音频错误，记录耳机断开时的时序并比较日志。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Teammate 团队同事"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "This audio bug is intermittent. It does not happen every time.",
+      "zh": "这个音频错误是偶发的，不是每次都会出现。"
+    },
+    {
+      "speaker": "B",
+      "en": "Is there a pattern in when it occurs?",
+      "zh": "它出现的时机有规律吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "It sometimes happens when I unplug the headphones.",
+      "zh": "有时我拔下耳机时会出现。"
+    },
+    {
+      "speaker": "B",
+      "en": "Record the timing of each disconnect, then compare the logs.",
+      "zh": "记录每次断开时的时序，再比较日志。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明复现不稳定并建立可比较的排查记录。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure developers beside a laptop on a simple desk. A pair of LARGE OVER-EAR HEADPHONES, with clear arched headband and two ear cups, lies fully visible on the RIGHT of the desk. Its cable trails to a loose unplugged connector beside the laptop, no hand covers the headphones. Developer gestures toward disconnected cable, teammate listens thoughtfully. No sound waves, text or labels.",
+  "status": "approved",
+  "image_path": "images/W055.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W055 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W055.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-05T16:12:32.645Z",
+    "ended_at": "2026-10-05T16:16:52.116Z",
+    "prompt_path": "prompts/W055_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W055.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：纯黑背景白色火柴人线稿，单幅双人工作沟通场景、底图无文字；桌面完整头戴式耳机的头梁与两个耳罩可定位。 其余3词仅以明确对白支持，不虚构局部框。 局部裁剪复查后扩大右/下边界，保护完整道具。"
+  }
+}

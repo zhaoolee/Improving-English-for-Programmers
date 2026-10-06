@@ -1,0 +1,130 @@
+{
+  "filename": "W033-比较两种实现方案.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "compare",
+      "chinese": "比较",
+      "phoneticUS": "/kəmˈper/",
+      "phoneticUK": "/kəmˈpeə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "比较行为由双人对白和示意图讨论支持，不能将某个静态图块单独框为compare。",
+        "association": "比较行为由双人对白和示意图讨论支持，不能将某个静态图块单独框为compare。",
+        "collocation": "compare two options; compare speed and complexity",
+        "example": "A: Let's compare the two options in this diagram.\nB: The first option is faster, but it adds complexity.\nA: The second option is simpler to maintain. Is its speed good enough?\nB: Yes. Let's choose the second one for now.",
+        "exampleChinese": "A: 我们比较一下这张示意图里的两种方案。\nB: 第一种方案更快，但会增加复杂度。\nA: 第二种方案更容易维护。它的速度够用吗？\nB: 够用。我们目前先选第二种。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "option",
+      "chinese": "方案",
+      "phoneticUS": "/ˈɑːpʃən/",
+      "phoneticUK": "/ˈɒpʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "此处option是实现方案，由对白定义；抽象路径不证明具体实现语义，保持无框。",
+        "association": "此处option是实现方案，由对白定义；抽象路径不证明具体实现语义，保持无框。",
+        "collocation": "the first option; choose an option",
+        "example": "The first option is faster, but it adds complexity.",
+        "exampleChinese": "第一种方案更快，但会增加复杂度。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "complexity",
+      "chinese": "复杂度",
+      "phoneticUS": "/kəmˈpleksəti/",
+      "phoneticUK": "/kəmˈpleksɪti/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun (uncountable)",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件维护复杂度由对白评价，不用图块数目证明实际复杂度，不设框。",
+        "association": "软件维护复杂度由对白评价，不用图块数目证明实际复杂度，不设框。",
+        "collocation": "add complexity; reduce complexity",
+        "example": "The first option is faster, but it adds complexity.",
+        "exampleChinese": "第一种方案更快，但会增加复杂度。"
+      }
+    },
+    {
+      "x": 445,
+      "y": 395,
+      "english": "diagram",
+      "chinese": "示意图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 445,
+        "y": 395
+      },
+      "boundingBox": {
+        "left": 300,
+        "top": 294,
+        "right": 700,
+        "bottom": 528
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板上的上下两条方框箭头路径共同构成一张示意图，框选实际完整图形，排除整块白板。",
+        "association": "白板上的上下两条方框箭头路径共同构成一张示意图，框选实际完整图形，排除整块白板。",
+        "collocation": "in this diagram; an implementation diagram",
+        "example": "Let's compare the two options in this diagram.",
+        "exampleChinese": "我们比较一下这张示意图里的两种方案。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers compare the speed and complexity of two implementation options.",
+    "chinese": "两名开发者借助示意图，对比两种实现方案的速度和复杂度。",
+    "source": "原创对话 · W033 比较两种实现方案",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

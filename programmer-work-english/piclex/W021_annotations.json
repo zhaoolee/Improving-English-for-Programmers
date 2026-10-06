@@ -1,0 +1,130 @@
+{
+  "filename": "W021-确认任务优先级.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "priority",
+      "chinese": "优先事项",
+      "phoneticUS": "/praɪˈɔːrəti/",
+      "phoneticUK": "/praɪˈɒrɪti/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话明确排序任务；不把任务板等同于优先级，不设框。",
+        "association": "对话明确排序任务；不把任务板等同于优先级，不设框。",
+        "collocation": "top priority; give priority to",
+        "example": "A: Which issue is our top priority?\nB: The login issue. The deadline for the fix is tomorrow.\nA: I'll take it. Can we move the layout task to next week?\nB: Yes. Let's update the board.",
+        "exampleChinese": "A: 哪个问题是我们的首要任务？\nB: 登录问题。修复的截止时间是明天。\nA: 我来处理它。我们能把布局任务移到下周吗？\nB: 可以。我们更新一下任务板。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "issue",
+      "chinese": "问题",
+      "phoneticUS": "/ˈɪʃuː/",
+      "phoneticUK": "/ˈɪʃuː/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "登录问题由对话说明，空白任务卡不能独立证明具体问题。",
+        "association": "登录问题由对话说明，空白任务卡不能独立证明具体问题。",
+        "collocation": "a login issue; resolve an issue",
+        "example": "The login issue.",
+        "exampleChinese": "登录问题。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "deadline",
+      "chinese": "截止时间",
+      "phoneticUS": "/ˈdedlaɪn/",
+      "phoneticUK": "/ˈdedlaɪn/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话明示明天截止；画面没有表示具体期限的可见对象，不设框。",
+        "association": "对话明示明天截止；画面没有表示具体期限的可见对象，不设框。",
+        "collocation": "meet a deadline; the deadline for the fix",
+        "example": "The deadline for the fix is tomorrow.",
+        "exampleChinese": "修复的截止时间是明天。"
+      }
+    },
+    {
+      "x": 600,
+      "y": 500,
+      "english": "board",
+      "chinese": "任务板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 660
+      },
+      "anchorPosition": {
+        "x": 600,
+        "y": 500
+      },
+      "boundingBox": {
+        "left": 282,
+        "top": 230,
+        "right": 724,
+        "bottom": 758
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中央带分栏与任务卡的任务板是实际局部指代对象。",
+        "association": "中央带分栏与任务卡的任务板是实际局部指代对象。",
+        "collocation": "a task board; update the board",
+        "example": "Let's update the board.",
+        "exampleChinese": "我们更新一下任务板。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers agree to fix a login issue before updating the page layout.",
+    "chinese": "两名开发者在任务板前确认，先修复登录问题，再处理页面布局。",
+    "source": "原创对话 · W021 确认任务优先级",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

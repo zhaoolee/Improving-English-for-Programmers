@@ -1,0 +1,130 @@
+{
+  "filename": "W066-分配事故处理职责.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "coordinate",
+      "chinese": "协调",
+      "phoneticUS": "/koʊˈɔːrdɪneɪt/",
+      "phoneticUK": "/kəʊˈɔːdɪneɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "事故应对协调由对白明确，不把手势当成可证的协调动作。",
+        "association": "事故应对协调由对白明确，不把手势当成可证的协调动作。",
+        "collocation": "coordinate a response; coordinate with a team",
+        "example": "A: Who will coordinate our response to this incident?\nB: I'll lead it. Please investigate the errors while I update the support team.\nA: Should I use the headset to stay on the incident call?\nB: Yes. Share what you find, and I will keep the status page current.",
+        "exampleChinese": "A: 这次事故由谁协调应对？\nB: 我来负责。请你排查错误，我来向支持团队同步情况。\nA: 我应该戴上耳麦留在事故电话会议里吗？\nB: 是的。分享你的发现，我会及时更新状态页面。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "incident",
+      "chinese": "事故",
+      "phoneticUS": "/ˈɪnsɪdənt/",
+      "phoneticUK": "/ˈɪnsɪdənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "线上事故是对白设定，警告图标本身不能证明事故事实。",
+        "association": "线上事故是对白设定，警告图标本身不能证明事故事实。",
+        "collocation": "incident response; incident call",
+        "example": "Who will coordinate our response to this incident?",
+        "exampleChinese": "这次事故由谁协调应对？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "update",
+      "chinese": "同步情况",
+      "phoneticUS": "/ʌpˈdeɪt/",
+      "phoneticUK": "/ʌpˈdeɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "向支持团队同步信息是对白中的计划行为，无可定位局部。",
+        "association": "向支持团队同步信息是对白中的计划行为，无可定位局部。",
+        "collocation": "update the team; update a status page",
+        "example": "I'll lead it. Please investigate the errors while I update the support team.",
+        "exampleChinese": "我来负责。请你排查错误，我来向支持团队同步情况。"
+      }
+    },
+    {
+      "x": 806,
+      "y": 623,
+      "english": "headset",
+      "chinese": "耳麦",
+      "phoneticUS": "/ˈhedset/",
+      "phoneticUK": "/ˈhedset/",
+      "bubblePosition": {
+        "x": 875,
+        "y": 440
+      },
+      "anchorPosition": {
+        "x": 806,
+        "y": 623
+      },
+      "boundingBox": {
+        "left": 726,
+        "top": 535,
+        "right": 888,
+        "bottom": 678
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的带麦克风耳麦可定位，区别于无麦克风耳机。",
+        "association": "完整可见的带麦克风耳麦可定位，区别于无麦克风耳机。",
+        "collocation": "use a headset; wear a headset",
+        "example": "Should I use the headset to stay on the incident call?",
+        "exampleChinese": "我应该戴上耳麦留在事故电话会议里吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "An incident lead assigns investigation and communication tasks to teammates.",
+    "chinese": "事故负责人给同事分配排查与沟通任务。",
+    "source": "原创对话 · W066 分配事故处理职责",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

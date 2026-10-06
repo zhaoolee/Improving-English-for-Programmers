@@ -1,0 +1,120 @@
+W036  讨论异常处理策略
+========================================================================
+分类: 技术方案讨论（design）
+关键词: fallback
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/W036.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W036.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W036.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-05T17:07:49.513Z → 2026-10-05T17:09:44.310Z
+  提示词文件: prompts/W036_image_final.txt
+
+场景: 两位开发者讨论请求超时后的重试方式与备用处理方案。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅双人黑底白线火柴人，底图无文字、学习道具可辨认；完整可见的独立桌面显示器与支架可定位。 其他3词保持语境标签，无编造动作或身份框。 实际1254像素尺寸的裁剪检查后修正框范围，加入边缘余量保护完整道具。
+
+沟通目标: 说明重试上限与失败后的用户提示。
+
+主配文（一句场景描述）:
+  英文: Two developers agree on retry behavior and a fallback for a request that times out.
+  中文: 两位开发者讨论请求超时后的重试方式与备用处理方案。
+
+角色与对白:
+  A = Developer 开发者
+  B = Teammate 团队同事
+  [A] What is our fallback if this request fails?
+        这个请求失败时，我们的备用方案是什么？
+  [B] If there's a timeout, retry once before showing an error.
+        如果发生超时，先重试一次，再显示错误。
+  [A] Will the monitor keep showing the user's previous result?
+        显示器上会继续显示用户之前的结果吗？
+  [B] Yes. Keep that result visible and offer a retry button.
+        会的。保留那个结果，并提供一个重试按钮。
+
+目标词 (4): fallback, timeout, retry, monitor
+
+------------------------------------------------------------------------
+[1/4] fallback
+  词义: 备用方案
+  词性: noun
+  音标: UK /ˈfɔːlbæk/ | US /ˈfɔːlbæk/
+  搭配: fallback plan; a fallback if a request fails
+  例句: What is our fallback if this request fails?
+  例句高亮: What is our **fallback** if this request fails?
+  例句中文: 这个请求失败时，我们的备用方案是什么？
+  标注模式: context
+  标注说明: 备用处理方案由对白说明，屏幕警告符号不是fallback局部实体。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] timeout
+  词义: 超时
+  词性: noun
+  音标: UK /ˈtaɪmaʊt/ | US /ˈtaɪmaʊt/
+  搭配: request timeout; a timeout occurs
+  例句: If there's a timeout, retry once before showing an error.
+  例句高亮: If there's a **timeout**, retry once before showing an error.
+  例句中文: 如果发生超时，先重试一次，再显示错误。
+  标注模式: context
+  标注说明: 请求超时是时间条件，由对白明确，不从静态屏幕推断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] retry
+  词义: 重试
+  词性: verb
+  音标: UK /ˌriːˈtraɪ/ | US /ˌriːˈtraɪ/
+  搭配: retry once; retry a request
+  例句: If there's a timeout, retry once before showing an error.
+  例句高亮: If there's a timeout, **retry** once before showing an error.
+  例句中文: 如果发生超时，先重试一次，再显示错误。
+  标注模式: context
+  标注说明: 重试是计划中的程序行为，没有可见点击动作证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] monitor
+  词义: 显示器
+  词性: noun
+  音标: UK /ˈmɒnɪtə/ | US /ˈmɑːnɪtər/
+  搭配: desktop monitor; show on the monitor
+  例句: Will the monitor keep showing the user's previous result?
+  例句高亮: Will the **monitor** keep showing the user's previous result?
+  例句中文: 显示器上会继续显示用户之前的结果吗？
+  标注模式: object
+  标注说明: 完整可见的独立桌面显示器与支架可定位。
+  坐标(normalized): [0.627, 0.287, 0.893, 0.539]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W036 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=48 | meta.approved_cards=48
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two adult stick-figure developers sit at a desk. A clearly recognizable separate desktop MONITOR is on the RIGHT, front-facing, entirely visible including its rectangular screen and pedestal stand. Screen shows one large abstract result rectangle, small warning triangle, and empty outlined button, no writing. One coworker points near the monitor; the other listens with open hand. No laptop, no extra devices.
+

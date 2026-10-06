@@ -1,0 +1,130 @@
+{
+  "filename": "W045-讨论变量命名.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "naming",
+      "chinese": "命名",
+      "phoneticUS": "/ˈneɪmɪŋ/",
+      "phoneticUK": "/ˈneɪmɪŋ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "代码命名由对白讨论，无文字屏幕不能体现真实命名。",
+        "association": "代码命名由对白讨论，无文字屏幕不能体现真实命名。",
+        "collocation": "variable naming; consistent naming",
+        "example": "A: Could we improve the naming of this variable?\nB: Yes. A descriptive name should explain what the value represents.\nA: I will rename it to match its purpose. Could you take the keyboard and show me your suggestion?\nB: Sure. Let us keep the naming consistent across the module.",
+        "exampleChinese": "A: 我们能改进这个变量的命名吗？\nB: 可以。清楚描述含义的名称应当说明这个值代表什么。\nA: 我会改成符合用途的名称。你能接过键盘演示一下你的建议吗？\nB: 当然。我们让整个模块的命名保持一致吧。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "descriptive",
+      "chinese": "描述清楚的",
+      "phoneticUS": "/dɪˈskrɪptɪv/",
+      "phoneticUK": "/dɪˈskrɪptɪv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "名字是否准确描述含义需要代码语境，静态抽象屏幕不能证明。",
+        "association": "名字是否准确描述含义需要代码语境，静态抽象屏幕不能证明。",
+        "collocation": "a descriptive name; descriptive variable names",
+        "example": "Yes. A descriptive name should explain what the value represents.",
+        "exampleChinese": "可以。清楚描述含义的名称应当说明这个值代表什么。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "rename",
+      "chinese": "重命名",
+      "phoneticUS": "/ˌriːˈneɪm/",
+      "phoneticUK": "/ˌriːˈneɪm/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "重命名是计划操作，伸手不能证明代码已经更名。",
+        "association": "重命名是计划操作，伸手不能证明代码已经更名。",
+        "collocation": "rename a variable; rename it",
+        "example": "I will rename it to match its purpose. Could you take the keyboard and show me your suggestion?",
+        "exampleChinese": "我会改成符合用途的名称。你能接过键盘演示一下你的建议吗？"
+      }
+    },
+    {
+      "x": 532,
+      "y": 516,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 660,
+        "y": 810
+      },
+      "anchorPosition": {
+        "x": 532,
+        "y": 516
+      },
+      "boundingBox": {
+        "left": 409,
+        "top": 485,
+        "right": 682,
+        "bottom": 568
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面前侧完整独立键盘可定位。",
+        "association": "桌面前侧完整独立键盘可定位。",
+        "collocation": "take the keyboard; type on a keyboard",
+        "example": "I will rename it to match its purpose. Could you take the keyboard and show me your suggestion?",
+        "exampleChinese": "我会改成符合用途的名称。你能接过键盘演示一下你的建议吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers improve a variable name during a code review.",
+    "chinese": "两位开发者在代码评审中讨论更清楚的变量命名。",
+    "source": "原创对话 · W045 讨论变量命名",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

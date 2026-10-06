@@ -1,0 +1,506 @@
+{
+  "ready": true,
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "reviewer": "Codex visual review",
+  "coordinateSystem": "PicLex 0–1000 normalized within source image",
+  "semanticReview": "8张已逐张视觉核对；8个完整局部区域与24个有对白证据的语境词，位置按实际底图记录；没有手机端验收。",
+  "reviewCompletedAt": "2026-10-05T08:05:52Z",
+  "cards": {
+    "W054": {
+      "imageReview": "通过：两名同事核对问题环境，测试同事手持完整打印截图；浏览器窗口图示无文字，软件环境与版本由对白说明。截图纸张仅边缘被手握住，内容完整可裁剪。",
+      "geometry": {
+        "environment": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "version": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "browser": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "screenshot": {
+          "bubble": [
+            590,
+            860
+          ],
+          "box": [
+            478,
+            273,
+            648,
+            484
+          ],
+          "anchor": [
+            562,
+            381
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            195,
+            190,
+            360,
+            346
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            660,
+            185,
+            815,
+            350
+          ]
+        }
+      ],
+      "sourcePath": "images/W054.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:02:26.241Z"
+    },
+    "W044": {
+      "imageReview": "通过：开发者记录检查项并听取评审意见，前景纸质清单四个复选框和边界清楚；必改要求与具体评论由对白提供，不从无文字屏幕推断。",
+      "geometry": {
+        "required": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "address": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "comment": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "checklist": {
+          "bubble": [
+            500,
+            870
+          ],
+          "box": [
+            364,
+            480,
+            649,
+            625
+          ],
+          "anchor": [
+            509,
+            552
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            150,
+            210,
+            327,
+            385
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            692,
+            205,
+            870,
+            384
+          ]
+        }
+      ],
+      "sourcePath": "images/W044.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:02:48.502Z"
+    },
+    "W004": {
+      "imageReview": "通过：开发者就本地配置向同事求助，屏幕是无文字示意，前景完整独立键盘清楚可见；软件依赖与安装由对白说明。",
+      "geometry": {
+        "setup": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "dependency": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "install": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "keyboard": {
+          "bubble": [
+            510,
+            865
+          ],
+          "box": [
+            381,
+            530,
+            646,
+            576
+          ],
+          "anchor": [
+            515,
+            554
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            178,
+            272,
+            326,
+            415
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            613,
+            147,
+            761,
+            297
+          ]
+        }
+      ],
+      "sourcePath": "images/W004.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:01:59.540Z"
+    },
+    "W014": {
+      "imageReview": "通过：两人讨论空输入的行为，中央屏幕有完整大空白输入框和独立提示图标，无文字。左侧指尖触及输入框边界少量区域，不遮挡空白内容；具体校验与提示文案由对白约定。",
+      "geometry": {
+        "empty": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "validate": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "message": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "field": {
+          "bubble": [
+            500,
+            865
+          ],
+          "box": [
+            340,
+            373,
+            659,
+            439
+          ],
+          "anchor": [
+            510,
+            405
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            100,
+            225,
+            252,
+            374
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            769,
+            222,
+            916,
+            372
+          ]
+        }
+      ],
+      "sourcePath": "images/W014.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:01:07.681Z"
+    },
+    "W024": {
+      "imageReview": "通过：两人讨论工时与截止时间，中央实体墙历具有装订与七列四行空白日期格；画面不展示具体星期或日期，周五和两天工作量来自对白。整张日历边界完整，少量指点手势不遮挡主体。",
+      "geometry": {
+        "estimate": {
+          "bubble": [
+            200,
+            90
+          ]
+        },
+        "effort": {
+          "bubble": [
+            500,
+            90
+          ]
+        },
+        "deadline": {
+          "bubble": [
+            800,
+            90
+          ]
+        },
+        "calendar": {
+          "bubble": [
+            500,
+            535
+          ],
+          "box": [
+            263,
+            166,
+            733,
+            503
+          ],
+          "anchor": [
+            498,
+            337
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            105,
+            265,
+            238,
+            414
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            760,
+            296,
+            943,
+            447
+          ]
+        }
+      ],
+      "sourcePath": "images/W024.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:01:34.499Z"
+    },
+    "W034": {
+      "imageReview": "通过：两名开发者讨论性能测量，中央图板完整，单峰曲线与两轴清楚，无数字或文字；手势避开峰值。数据库是否瓶颈仍为假设，不用示意曲线证明因果。",
+      "geometry": {
+        "bottleneck": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "latency": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "measure": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "graph": {
+          "bubble": [
+            500,
+            700
+          ],
+          "box": [
+            227,
+            207,
+            773,
+            583
+          ],
+          "anchor": [
+            510,
+            409
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            100,
+            280,
+            236,
+            416
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            773,
+            303,
+            906,
+            429
+          ]
+        }
+      ],
+      "sourcePath": "images/W034.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:00:44.238Z"
+    },
+    "W064": {
+      "imageReview": "通过：值班同事展示完整手机，另一位同事准备调查；屏幕只有警告符号，具体告警、接手与调查由对白提供，不冒充已完成诊断。手机边框完整，手只握边缘。 布局复核：phone 气泡已避让右脸避让矩形与手势，已核对避让手势/人脸。",
+      "geometry": {
+        "alert": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "acknowledge": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "investigate": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "phone": {
+          "bubble": [
+            460.5811399461851,
+            231.32782644757717
+          ],
+          "box": [
+            383,
+            277,
+            450,
+            401
+          ],
+          "anchor": [
+            417,
+            339
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            210,
+            167,
+            368,
+            324
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            553,
+            256,
+            709,
+            411
+          ]
+        }
+      ],
+      "sourcePath": "images/W064.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:03:14.605Z"
+    },
+    "W074": {
+      "imageReview": "通过：两位成人围桌进行友好指导，中央打开式纸质笔记本有清楚中缝和两页，笔尖仅触页边；导师身份由角色与对白设定，不从外貌判断。建议和能力进步为对白内容。 布局复核：notebook 气泡已避让导师手部，已核对避让手势。",
+      "geometry": {
+        "advice": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "mentor": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "improve": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            500,
+            285.6666666666667
+          ],
+          "box": [
+            365,
+            499,
+            633,
+            583
+          ],
+          "anchor": [
+            500,
+            552
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "left-face",
+          "bounds": [
+            201,
+            215,
+            369,
+            376
+          ]
+        },
+        {
+          "id": "right-face",
+          "bounds": [
+            626,
+            206,
+            793,
+            374
+          ]
+        }
+      ],
+      "sourcePath": "images/W074.png",
+      "generationStartedAt": "2026-10-05T08:00:21.265Z",
+      "generationEndedAt": "2026-10-05T08:03:38.291Z"
+    }
+  }
+}

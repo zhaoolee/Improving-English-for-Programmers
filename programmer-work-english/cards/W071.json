@@ -1,0 +1,256 @@
+{
+  "id": "W071",
+  "category": "growth",
+  "category_title": "反馈与职业成长",
+  "chapter": "反馈与职业成长",
+  "title": "请求事故沟通反馈",
+  "keyword": "feedback",
+  "scene": "开发者向导师请求事故沟通方面的反馈，并在笔记本中记录下一次的改进目标。",
+  "target_count": 4,
+  "primary_words": [
+    "feedback",
+    "improve",
+    "goal",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "feedback",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "反馈",
+      "pos": "noun (uncountable)",
+      "ipa_us": "/ˈfiːdbæk/",
+      "ipa_uk": "/ˈfiːdbæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you give me feedback on how I handled the incident?",
+        "matched_form": "feedback",
+        "referent_region_verified": false,
+        "context": "具体反馈由对白支持，不把导师或手势等同于反馈，不设框。",
+        "image_verified": null
+      },
+      "example_en": "Could you give me feedback on how I handled the incident?",
+      "example_zh": "你能就我处理这次事故的方式给我一些反馈吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "give feedback on",
+        "ask for feedback"
+      ],
+      "example_en_highlighted": "Could you give me **feedback** on how I handled the incident?",
+      "annotation_mode": "context",
+      "annotation_note": "具体反馈由对白支持，不把导师或手势等同于反馈，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "improve",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "改进",
+      "pos": "verb",
+      "ipa_us": "/ɪmˈpruːv/",
+      "ipa_uk": "/ɪmˈpruːv/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "To improve, share your next update time sooner.",
+        "matched_form": "improve",
+        "referent_region_verified": false,
+        "context": "对白提出改进方向；静态图不能证明能力改善，不设框。",
+        "image_verified": null
+      },
+      "example_en": "To improve, share your next update time sooner.",
+      "example_zh": "要进一步改进，可以更早告诉大家下一次更新的时间。",
+      "bbox_normalized": null,
+      "collocations": [
+        "improve communication",
+        "improve your skills"
+      ],
+      "example_en_highlighted": "To **improve**, share your next update time sooner.",
+      "annotation_mode": "context",
+      "annotation_note": "对白提出改进方向；静态图不能证明能力改善，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "goal",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "目标",
+      "pos": "noun",
+      "ipa_us": "/ɡoʊl/",
+      "ipa_uk": "/ɡəʊl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What should my goal be for next time?",
+        "matched_form": "goal",
+        "referent_region_verified": false,
+        "context": "本卡目标为下一次沟通方式，由问答明确；笔记本不是目标本身，不设框。",
+        "image_verified": null
+      },
+      "example_en": "What should my goal be for next time?",
+      "example_zh": "下一次我应该设定什么目标？",
+      "bbox_normalized": null,
+      "collocations": [
+        "set a goal",
+        "a clear goal"
+      ],
+      "example_en_highlighted": "What should my **goal** be for next time?",
+      "annotation_mode": "context",
+      "annotation_note": "本卡目标为下一次沟通方式，由问答明确；笔记本不是目标本身，不设框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "圆桌前沿打开的纸质笔记本为实际局部对象；本词条不是笔记本电脑。",
+        "sentence": "I'll write that in my notebook.",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll write that in my notebook.",
+      "example_zh": "我会把它记在笔记本里。",
+      "bbox_normalized": [
+        0.285,
+        0.475,
+        0.525,
+        0.565
+      ],
+      "collocations": [
+        "write in a notebook",
+        "an open notebook"
+      ],
+      "example_en_highlighted": "I'll write that in my **notebook**.",
+      "annotation_mode": "object",
+      "annotation_note": "圆桌前沿打开的纸质笔记本为实际局部对象；本词条不是笔记本电脑。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-04",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer asks a mentor for feedback on incident communication and writes down a goal.",
+    "zh": "开发者向导师请求事故沟通方面的反馈，并在笔记本中记录下一次的改进目标。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer asks a mentor for feedback on incident communication and writes down a goal.",
+    "zh": "开发者向导师请求事故沟通方面的反馈，并在笔记本中记录下一次的改进目标。"
+  },
+  "roles": {
+    "A": "Developer 开发者",
+    "B": "Mentor 导师"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you give me feedback on how I handled the incident?",
+      "zh": "你能就我处理这次事故的方式给我一些反馈吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "You explained the impact clearly. To improve, share your next update time sooner.",
+      "zh": "你把影响说明得很清楚。要进一步改进，可以更早告诉大家下一次更新的时间。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll write that in my notebook. What should my goal be for next time?",
+      "zh": "我会把它记在笔记本里。下一次我应该设定什么目标？"
+    },
+    {
+      "speaker": "B",
+      "en": "Give a brief status update with an owner and a clear next step.",
+      "zh": "做一次简短的状态同步，说明负责人和明确的下一步。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "请求具体反馈，并把建议转为可执行目标。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure coworkers having a supportive one-to-one conversation across a small round table. The developer on the left writes with a pen in ONE open paper notebook, clearly visible on the near edge of the table. The mentor on the right makes a gentle explanatory open-hand gesture. Keep the complete notebook, including its two pages and central binding, unobstructed and easy to crop. Comfortable seated poses, minimal office, no computers, no readable writing, no speech bubbles.",
+  "status": "approved",
+  "image_path": "images/inverted/W071.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-04",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W071 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-04",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W071.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-04T08:26:25Z",
+    "ended_at": "2026-10-04T08:29:16Z",
+    "prompt_path": "prompts/W071_image_final.txt",
+    "inversion": {
+      "method": "exact RGB inversion (ImageMagick -channel RGB -negate +channel)",
+      "original_path": "images/W071.png",
+      "original_retained": true,
+      "inverted_path": "images/inverted/W071.png",
+      "alpha_inverted": false,
+      "invertedSHA256": "9ab340fb6abe5c55d7f4c98d3c610f37f9fe455e2f1d531895aa8bc66a43606f",
+      "manifest": "workflow/inversion-manifest.json",
+      "note": "原图保留；本卡发布用图为原图精确 RGB 反色（黑底白线）。"
+    }
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W071.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两名同事在圆桌旁进行支持性谈话，左侧人用笔在打开的纸质笔记本记事，右侧人解释。笔记本两页与装订可见，手部局部遮挡不影响指代。导师关系和feedback/improve/goal由明确故事及对白支持。"
+  }
+}

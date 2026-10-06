@@ -1,0 +1,120 @@
+W021  确认任务优先级
+========================================================================
+分类: 计划与进度（planning）
+关键词: priority
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-04）
+图片状态: generated
+图片路径: images/W021.png
+复核日期: 2026-10-04
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W021.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W021.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-04T08:26:25Z → 2026-10-04T08:27:34Z
+  提示词文件: prompts/W021_image_final.txt
+
+场景: 两名开发者在任务板前确认，先修复登录问题，再处理页面布局。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两名同事在三栏任务板前交流，一人指任务卡，另一人持笔。整块任务板含支撑完整可见。空白任务卡没有虚假内容；priority/issue/deadline均由对白支持。
+
+沟通目标: 明确优先事项、期限和下一步。
+
+主配文（一句场景描述）:
+  英文: Two developers agree to fix a login issue before updating the page layout.
+  中文: 两名开发者在任务板前确认，先修复登录问题，再处理页面布局。
+
+角色与对白:
+  A = Developer 开发者
+  B = Team lead 团队负责人
+  [A] Which issue is our top priority?
+        哪个问题是我们的首要任务？
+  [B] The login issue. The deadline for the fix is tomorrow.
+        登录问题。修复的截止时间是明天。
+  [A] I'll take it. Can we move the layout task to next week?
+        我来处理它。我们能把布局任务移到下周吗？
+  [B] Yes. Let's update the board.
+        可以。我们更新一下任务板。
+
+目标词 (4): priority, issue, deadline, board
+
+------------------------------------------------------------------------
+[1/4] priority
+  词义: 优先事项
+  词性: noun
+  音标: UK /praɪˈɒrɪti/ | US /praɪˈɔːrəti/
+  搭配: top priority; give priority to
+  例句: Which issue is our top priority?
+  例句高亮: Which issue is our top **priority**?
+  例句中文: 哪个问题是我们的首要任务？
+  标注模式: context
+  标注说明: 对话明确排序任务；不把任务板等同于优先级，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] issue
+  词义: 问题
+  词性: noun
+  音标: UK /ˈɪʃuː/ | US /ˈɪʃuː/
+  搭配: a login issue; resolve an issue
+  例句: The login issue.
+  例句高亮: The login **issue**.
+  例句中文: 登录问题。
+  标注模式: context
+  标注说明: 登录问题由对话说明，空白任务卡不能独立证明具体问题。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] deadline
+  词义: 截止时间
+  词性: noun
+  音标: UK /ˈdedlaɪn/ | US /ˈdedlaɪn/
+  搭配: meet a deadline; the deadline for the fix
+  例句: The deadline for the fix is tomorrow.
+  例句高亮: The **deadline** for the fix is tomorrow.
+  例句中文: 修复的截止时间是明天。
+  标注模式: context
+  标注说明: 对话明示明天截止；画面没有表示具体期限的可见对象，不设框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] board
+  词义: 任务板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: a task board; update the board
+  例句: Let's update the board.
+  例句高亮: Let's update the **board**.
+  例句中文: 我们更新一下任务板。
+  标注模式: object
+  标注说明: 中央带分栏与任务卡的任务板是实际局部指代对象。
+  坐标(normalized): [0.282, 0.23, 0.724, 0.758]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W021 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone finished educational scene illustration, square 1024x1024. Pure white background, clean consistent black line art, minimalist adult stick figures with circular heads, simple expressive faces and thin limbs, restrained polished programmer workplace comic aesthetic. No color, no gradients, no shading, no photographic rendering. One coherent scene, no panels. Keep all people and props in the central area approximately x=180..820 and y=220..790 on a 0..1000 canvas. Preserve generous empty white space at top (y<180), bottom (y>850), and sides for learning labels added later. Make the named learning props clearly recognizable and fully visible. Gestures should show a conversation. No speech balloons, captions, logos, watermarks, readable code, or long text; simple abstract UI marks are allowed. Scene: Two adult stick-figure developers standing on opposite sides of one central freestanding task board. The board has three simple vertical columns and a few blank square task cards; one colleague points to the top card while the other holds a small pen and nods. The whole task board including its rectangular frame is clearly visible, unobstructed, centrally placed. No readable writing or numbers on cards. Minimal office setting, no other props.
+

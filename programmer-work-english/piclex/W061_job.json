@@ -1,0 +1,17 @@
+{
+  "cardID": "W061",
+  "imagePath": "../images/inverted/W061.png",
+  "imageSHA256": "40407931f4a660c62e3207061d271baf086fef1c0177685403106a85b4e80fca",
+  "imageReviewed": true,
+  "annotationsPath": "W061_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "rollback",
+    "deployment",
+    "impact",
+    "monitor"
+  ],
+  "receiptPath": "W061_v7_image_replace_receipt.json",
+  "photoID": "4d645299-f141-4e3f-aef1-b91706b137d5",
+  "expectedAssetID": "92c3be62442b3fa670d59ebc5eb8fda1e2062cc5feac92474941e7bbe355464c"
+}

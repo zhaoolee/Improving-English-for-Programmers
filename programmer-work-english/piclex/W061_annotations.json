@@ -1,0 +1,130 @@
+{
+  "filename": "W061-讨论发布回滚.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 80,
+      "english": "rollback",
+      "chinese": "回滚",
+      "phoneticUS": "/ˈroʊlbæk/",
+      "phoneticUK": "/ˈrəʊlbæk/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话明确恢复旧版本；名词 rollback 与动词短语 roll back 分开说明，静态图不证明操作已完成。",
+        "association": "对话明确恢复旧版本；名词 rollback 与动词短语 roll back 分开说明，静态图不证明操作已完成。",
+        "collocation": "record a rollback; perform a rollback",
+        "example": "A: Should we roll back the new deployment?\nB: Yes. The impact is growing—users can't sign in.\nA: I'll watch the monitor while you restore the previous version.\nB: Okay. I'll record the rollback and confirm when the service is healthy.",
+        "exampleChinese": "A: 我们应该回滚这次新发布吗？\nB: 应该。影响正在扩大——用户无法登录。\nA: 你恢复之前的版本时，我会盯着显示器监测情况。\nB: 好。我会记录这次回滚，并在服务恢复正常后确认。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 80,
+      "english": "deployment",
+      "chinese": "发布部署",
+      "phoneticUS": "/dɪˈplɔɪmənt/",
+      "phoneticUK": "/dɪˈplɔɪmənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对话明确指一次发布部署；静态图表不能证明部署操作，不设框。",
+        "association": "对话明确指一次发布部署；静态图表不能证明部署操作，不设框。",
+        "collocation": "a new deployment; roll back a deployment",
+        "example": "Should we roll back the new deployment?",
+        "exampleChinese": "我们应该回滚这次新发布吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 80,
+      "english": "impact",
+      "chinese": "影响",
+      "phoneticUS": "/ˈɪmpækt/",
+      "phoneticUK": "/ˈɪmpækt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "用户登录受影响由对话给出，不从抽象曲线推断影响规模。",
+        "association": "用户登录受影响由对话给出，不从抽象曲线推断影响规模。",
+        "collocation": "user impact; assess the impact",
+        "example": "The impact is growing—users can't sign in.",
+        "exampleChinese": "影响正在扩大——用户无法登录。"
+      }
+    },
+    {
+      "x": 535,
+      "y": 370,
+      "english": "monitor",
+      "chinese": "显示器",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 515,
+        "y": 190
+      },
+      "anchorPosition": {
+        "x": 535,
+        "y": 370
+      },
+      "boundingBox": {
+        "left": 340,
+        "top": 263,
+        "right": 703,
+        "bottom": 535
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上的独立显示器可局部框选；本词条教设备名词，不与 monitor 监测的动词混用。",
+        "association": "桌上的独立显示器可局部框选；本词条教设备名词，不与 monitor 监测的动词混用。",
+        "collocation": "watch the monitor; a computer monitor",
+        "example": "I'll watch the monitor while you restore the previous version.",
+        "exampleChinese": "你恢复之前的版本时，我会盯着显示器监测情况。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two on-call developers coordinate a rollback after a deployment affects users' ability to sign in.",
+    "chinese": "一次发布影响了用户登录，两名值班开发者协商回滚并分工监测恢复情况。",
+    "source": "原创对话 · W061 讨论发布回滚",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}
