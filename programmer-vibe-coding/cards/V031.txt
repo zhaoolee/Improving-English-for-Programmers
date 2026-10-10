@@ -1,0 +1,119 @@
+V031  你说完成了，证据呢？
+========================================================================
+分类: 测试与代码审查（quality）
+关键词: verify
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/V031.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V031.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V031.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-06T06:57:40.149Z → 2026-10-06T07:00:19.670Z
+  提示词文件: prompts/V031_image_final.txt
+
+场景: 程序员在接受已完成的工作前，要求 AI 提供测试证据。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。
+
+沟通目标: 报告实际验证结果与尚未检查的部分。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant for test evidence before accepting completed work.
+  中文: 程序员在接受已完成的工作前，要求 AI 提供测试证据。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] You said it was done. How did you verify it?
+        你说已经完成了。你是怎么验证的？
+  [B] I ran the test and recorded the result.
+        我运行了测试，并记录了结果。
+  [A] Where is the evidence, and what is still unchecked?
+        证据在哪里，还有哪些部分没有检查？
+  [B] Here is the checklist. The edge cases still need review.
+        这是检查清单。边界情况仍然需要审查。
+
+目标词 (4): verify, test, evidence, checklist
+
+------------------------------------------------------------------------
+[1/4] verify
+  词义: 验证
+  词性: verb
+  音标: UK /ˈverɪfaɪ/ | US /ˈverɪfaɪ/
+  搭配: verify the result; verify a change
+  例句: You said it was done. How did you verify it?
+  例句高亮: You said it was done. How did you **verify** it?
+  例句中文: 你说已经完成了。你是怎么验证的？
+  标注模式: context
+  标注说明: 验证完成与否由对白报告，勾选示意不能证明真实测试执行。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] test
+  词义: 测试
+  词性: noun
+  音标: UK /test/ | US /test/
+  搭配: run a test; a regression test
+  例句: I ran the test and recorded the result.
+  例句高亮: I ran the **test** and recorded the result.
+  例句中文: 我运行了测试，并记录了结果。
+  标注模式: context
+  标注说明: 测试是运行过程与检查，不虚构静态局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] evidence
+  词义: 证据
+  词性: noun
+  音标: UK /ˈevɪdəns/ | US /ˈevɪdəns/
+  搭配: test evidence; collect evidence
+  例句: Where is the evidence, and what is still unchecked?
+  例句高亮: Where is the **evidence**, and what is still unchecked?
+  例句中文: 证据在哪里，还有哪些部分没有检查？
+  标注模式: context
+  标注说明: 证据的有效性由对白讨论，纸面示意不是测试记录。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] checklist
+  词义: 检查清单
+  词性: noun
+  音标: UK /ˈtʃeklɪst/ | US /ˈtʃeklɪst/
+  搭配: a review checklist; use a checklist
+  例句: Here is the checklist. The edge cases still need review.
+  例句高亮: Here is the **checklist**. The edge cases still need review.
+  例句中文: 这是检查清单。边界情况仍然需要审查。
+  标注模式: object
+  标注说明: 夹板上可见的复选框清单是 checklist 的指代区域。
+  坐标(normalized): [0.333, 0.277, 0.629, 0.697]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V031 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer left holds or points at a large complete clipboard near center, facing the OpenAI logo floating to the right. The clipboard has a clear top clip and FOUR checkbox rows: two ticked boxes and two empty boxes, with only short abstract lines beside them, NO text or numbers. Entire clipboard unobstructed, sized for a clean local learning crop.

@@ -1,0 +1,130 @@
+{
+  "filename": "V026-修了一个 Bug，怎么又来了三个？.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 95,
+      "english": "reproduce",
+      "chinese": "复现",
+      "phoneticUS": "/ˌriːprəˈduːs/",
+      "phoneticUK": "/ˌriːprəˈdjuːs/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "复现是一段操作过程，静态报错示意不能证明已复现。",
+        "association": "复现是一段操作过程，静态报错示意不能证明已复现。",
+        "collocation": "reproduce a bug; reproduce an error",
+        "example": "A: Can you fix the error on this screen?\nB: First reproduce it and collect the log.\nA: Should we change the code before finding the cause?\nB: No. Use the evidence to choose the smallest fix.",
+        "exampleChinese": "A: 你能修复这个屏幕上的错误吗？\nB: 先复现它，再收集日志。\nA: 找出原因之前，我们应该修改代码吗？\nB: 先不要。根据证据选择最小的修复。"
+      }
+    },
+    {
+      "x": 520,
+      "y": 95,
+      "english": "log",
+      "chinese": "日志",
+      "phoneticUS": "/lɔːɡ/",
+      "phoneticUK": "/lɒɡ/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "屏幕无可读日志，具体日志资料由对白说明。",
+        "association": "屏幕无可读日志，具体日志资料由对白说明。",
+        "collocation": "collect the log; an error log",
+        "example": "First reproduce it and collect the log.",
+        "exampleChinese": "先复现它，再收集日志。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "cause",
+      "chinese": "原因",
+      "phoneticUS": "/kɔːz/",
+      "phoneticUK": "/kɔːz/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "原因是抽象因果解释，无可定位物体。",
+        "association": "原因是抽象因果解释，无可定位物体。",
+        "collocation": "find the cause; the root cause",
+        "example": "Should we change the code before finding the cause?",
+        "exampleChinese": "找出原因之前，我们应该修改代码吗？"
+      }
+    },
+    {
+      "x": 490,
+      "y": 445,
+      "english": "screen",
+      "chinese": "屏幕",
+      "phoneticUS": "/skriːn/",
+      "phoneticUK": "/skriːn/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 445
+      },
+      "boundingBox": {
+        "left": 315,
+        "top": 341,
+        "right": 686,
+        "bottom": 572
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器的屏幕面板可定位，错误内容由对白与示意标志共同表达。",
+        "association": "显示器的屏幕面板可定位，错误内容由对白与示意标志共同表达。",
+        "collocation": "on the screen; an error screen",
+        "example": "Can you fix the error on this screen?",
+        "exampleChinese": "你能修复这个屏幕上的错误吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant use an error screen and logs to investigate a bug.",
+    "chinese": "程序员与 AI 根据错误画面和日志排查问题。",
+    "source": "原创对话 · V026 修了一个 Bug，怎么又来了三个？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

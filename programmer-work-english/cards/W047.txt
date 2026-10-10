@@ -1,0 +1,119 @@
+W047  处理合并冲突
+========================================================================
+分类: 开发与代码评审（development）
+关键词: conflict
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W047.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W047.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W047.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:31:01.346Z
+  提示词文件: prompts/W047_image_final.txt
+
+场景: 两位开发者一起解决合并冲突。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：前景没有手部覆盖的完整键盘。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 与同事共同解决分支合并冲突。
+
+主配文（一句场景描述）:
+  英文: Two developers work together to resolve a merge conflict.
+  中文: 两位开发者一起解决合并冲突。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] My branch has a conflict with the latest changes.
+        我的分支与最新修改发生了冲突。
+  [B] Let's resolve it together. Which file changed on both sides?
+        我们一起解决。哪一个文件双方都修改了？
+  [A] The settings file. I'll use this keyboard to open both versions.
+        设置文件。我用这个键盘打开两个版本。
+  [B] Great. Keep the new validation and your default values.
+        好。保留新的校验逻辑和你设置的默认值。
+
+目标词 (4): conflict, resolve, branch, keyboard
+
+------------------------------------------------------------------------
+[1/4] conflict
+  词义: 冲突
+  词性: noun
+  音标: UK /ˈkɒnflɪkt/ | US /ˈkɑːnflɪkt/
+  搭配: a merge conflict; resolve a conflict
+  例句: My branch has a conflict with the latest changes.
+  例句高亮: My branch has a **conflict** with the latest changes.
+  例句中文: 我的分支与最新修改发生了冲突。
+  标注模式: context
+  标注说明: “My branch has a conflict with the latest changes.”明确表达冲突；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] resolve
+  词义: 解决
+  词性: verb
+  音标: UK /rɪˈzɒlv/ | US /rɪˈzɑːlv/
+  搭配: resolve a conflict; resolve an issue
+  例句: Let's resolve it together. Which file changed on both sides?
+  例句高亮: Let's **resolve** it together. Which file changed on both sides?
+  例句中文: 我们一起解决。哪一个文件双方都修改了？
+  标注模式: context
+  标注说明: “Let's resolve it together. Which file changed on both sides?”明确表达解决；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] branch
+  词义: 分支
+  词性: noun
+  音标: UK /brɑːntʃ/ | US /bræntʃ/
+  搭配: my branch; a feature branch
+  例句: My branch has a conflict with the latest changes.
+  例句高亮: My **branch** has a conflict with the latest changes.
+  例句中文: 我的分支与最新修改发生了冲突。
+  标注模式: context
+  标注说明: “My branch has a conflict with the latest changes.”明确表达分支；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] keyboard
+  词义: 键盘
+  词性: noun
+  音标: UK /ˈkiːbɔːd/ | US /ˈkiːbɔːrd/
+  搭配: on this keyboard; a computer keyboard
+  例句: The settings file. I'll use this keyboard to open both versions.
+  例句高亮: The settings file. I'll use this **keyboard** to open both versions.
+  例句中文: 设置文件。我用这个键盘打开两个版本。
+  标注模式: object
+  标注说明: 键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.527, 0.579, 0.782, 0.703]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W047 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at one workstation, one pointing at a monitor with two abstract converging lines and one typing. A separate complete keyboard lies in clear foreground, not covered by hands.

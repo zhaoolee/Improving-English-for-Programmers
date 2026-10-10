@@ -1,0 +1,119 @@
+W028  跟进跨团队依赖
+========================================================================
+分类: 计划与进度（planning）
+关键词: dependency
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W028.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W028.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W028.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.174Z → 2026-10-07T09:27:55.167Z
+  提示词文件: prompts/W028_image_final.txt
+
+场景: 开发者跟进另一个团队提供的依赖。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：左侧人物手持电话听筒。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 跟进跨团队依赖并说明阻塞点。
+
+主配文（一句场景描述）:
+  英文: A developer follows up on a dependency with another team.
+  中文: 开发者跟进另一个团队提供的依赖。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Is the API dependency ready for integration?
+        这个 API 依赖已经可以用于集成了吗？
+  [B] Not yet. The other team is finishing its tests.
+        还没。他们团队正在完成测试。
+  [A] I'll follow up by phone and ask for an updated estimate.
+        我会打电话跟进，询问最新的预计时间。
+  [B] Thanks. Please tell them which part is blocking us.
+        谢谢。请告诉他们是哪一部分阻塞了我们。
+
+目标词 (4): dependency, follow, ready, phone
+
+------------------------------------------------------------------------
+[1/4] dependency
+  词义: 依赖
+  词性: noun
+  音标: UK /dɪˈpendənsi/ | US /dɪˈpendənsi/
+  搭配: an API dependency; remove a dependency
+  例句: Is the API dependency ready for integration?
+  例句高亮: Is the API **dependency** ready for integration?
+  例句中文: 这个 API 依赖已经可以用于集成了吗？
+  标注模式: context
+  标注说明: “Is the API dependency ready for integration?”明确表达依赖；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] follow
+  词义: 跟进（follow up）
+  词性: verb
+  音标: UK /ˈfɒləʊ/ | US /ˈfɑːloʊ/
+  搭配: follow up; follow up on a dependency
+  例句: I'll follow up by phone and ask for an updated estimate.
+  例句高亮: I'll **follow** up by phone and ask for an updated estimate.
+  例句中文: 我会打电话跟进，询问最新的预计时间。
+  标注模式: context
+  标注说明: “I'll follow up by phone and ask for an updated estimate.”明确表达跟进；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] ready
+  词义: 就绪的
+  词性: adjective
+  音标: UK /ˈredi/ | US /ˈredi/
+  搭配: ready for integration; be ready
+  例句: Is the API dependency ready for integration?
+  例句高亮: Is the API dependency **ready** for integration?
+  例句中文: 这个 API 依赖已经可以用于集成了吗？
+  标注模式: context
+  标注说明: “Is the API dependency ready for integration?”明确表达就绪的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] phone
+  词义: 电话
+  词性: noun
+  音标: UK /fəʊn/ | US /foʊn/
+  搭配: on the phone; by phone
+  例句: I'll follow up by phone and ask for an updated estimate.
+  例句高亮: I'll follow up by **phone** and ask for an updated estimate.
+  例句中文: 我会打电话跟进，询问最新的预计时间。
+  标注模式: object
+  标注说明: 电话（phone）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.151, 0.188, 0.245, 0.338]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W028 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: One coworker holds a physical phone to their ear while standing next to a seated teammate. Phone is a simple recognizable handset with a visible outline, away from face enough to locate. Small office desk.

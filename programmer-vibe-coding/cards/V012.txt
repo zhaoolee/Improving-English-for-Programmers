@@ -1,0 +1,119 @@
+V012  让 AI 先读项目地图
+========================================================================
+分类: 让 AI 理解项目（context）
+关键词: structure
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V012.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V012.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V012.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T05:14:22Z → 2026-10-09T05:16:12Z
+  提示词文件: prompts/V012_image_final.txt
+
+场景: 程序员让 AI 先检查项目结构，再提出改动建议。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。屏幕中的文件夹图标完整、无文字，只框图标而非整个显示器，不宣称已读取实际目录。
+
+沟通目标: 先理解模块与依赖，再确定改动位置。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to inspect the project structure before proposing changes.
+  中文: 程序员让 AI 先检查项目结构，再提出改动建议。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Before editing, inspect the project structure and open the source folder.
+        编辑前，先检查项目结构并打开源代码文件夹。
+  [B] Which module handles requests from the browser?
+        哪个模块处理来自浏览器的请求？
+  [A] Start with the API module, then trace its dependency on the database layer.
+        先从 API 模块开始，再追踪它对数据库层的依赖。
+  [B] I'll summarize what I find before proposing a change.
+        我会先总结发现，再提出改动建议。
+
+目标词 (4): structure, module, dependency, folder
+
+------------------------------------------------------------------------
+[1/4] structure
+  词义: 结构
+  词性: noun
+  音标: UK /ˈstrʌktʃə/ | US /ˈstrʌktʃər/
+  搭配: project structure; inspect the structure
+  例句: Before editing, inspect the project structure and open the source folder.
+  例句高亮: Before editing, inspect the project **structure** and open the source folder.
+  例句中文: 编辑前，先检查项目结构并打开源代码文件夹。
+  标注模式: context
+  标注说明: 项目组织由对白指定，单个文件夹图标无法展示真实项目结构。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] module
+  词义: 模块
+  词性: noun
+  音标: UK /ˈmɒdjuːl/ | US /ˈmɑːdʒuːl/
+  搭配: the API module; a software module
+  例句: Which module handles requests from the browser?
+  例句高亮: Which **module** handles requests from the browser?
+  例句中文: 哪个模块处理来自浏览器的请求？
+  标注模式: context
+  标注说明: 这里是软件代码模块，不能把图标框当代码模块。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] dependency
+  词义: 依赖
+  词性: noun
+  音标: UK /dɪˈpendənsi/ | US /dɪˈpendənsi/
+  搭配: a dependency on; trace a dependency
+  例句: Start with the API module, then trace its dependency on the database layer.
+  例句高亮: Start with the API module, then trace its **dependency** on the database layer.
+  例句中文: 先从 API 模块开始，再追踪它对数据库层的依赖。
+  标注模式: context
+  标注说明: 软件依赖由对白说明，没有局部可见指代。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: the source folder; open a folder
+  例句: Before editing, inspect the project structure and open the source folder.
+  例句高亮: Before editing, inspect the project structure and open the source **folder**.
+  例句中文: 编辑前，先检查项目结构并打开源代码文件夹。
+  标注模式: object
+  标注说明: 屏幕中的文件夹图标是可定位的指代，不证明其实际内容。
+  坐标(normalized): [0.384, 0.318, 0.596, 0.478]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V012 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=18 | meta.approved_cards=18
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left beside a simple desk and points to a large desktop monitor at center. On its otherwise blank screen show exactly one large WHITE outlined generic folder icon with a clear raised tab at upper left, no contents and no writing. Keep the folder icon large, complete and unobstructed for cropping. The white OpenAI knot floats to the right outside the monitor. No other icons, arrows, laptop or objects.

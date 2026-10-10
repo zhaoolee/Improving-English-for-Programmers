@@ -1,0 +1,21 @@
+{
+  "cardID": "I009",
+  "imagePath": "../images/I009.png",
+  "imageSHA256": "a6ca409b44fa99fe60901b83d03432a3e72aefb6ce7335d1f38974ba2130b4a8",
+  "imageReviewed": true,
+  "annotationsPath": "I009_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "impact",
+    "metric",
+    "baseline",
+    "chart"
+  ],
+  "receiptPath": "I009_learning_import_receipt.json",
+  "photoID": "b7e7d4cc-8b95-46fc-be9e-0b32fe641e3a",
+  "expectedAssetID": "b1299ff1d98ecb2975ec63ac7efedce3de219e74d85cd0e990c0fd7d23b0031b",
+  "expectedImageFilename": "I009.png",
+  "expectedSourceSHA256": "a6ca409b44fa99fe60901b83d03432a3e72aefb6ce7335d1f38974ba2130b4a8",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

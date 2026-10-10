@@ -1,0 +1,246 @@
+{
+  "id": "V039",
+  "category": "delivery",
+  "category_title": "从能跑到交付",
+  "chapter": "从能跑到交付",
+  "title": "第一位用户说不好用怎么办？",
+  "keyword": "feedback",
+  "scene": "使用 Git、发布、回滚与反馈完成交付",
+  "target_count": 4,
+  "primary_words": [
+    "feedback",
+    "observe",
+    "clarify",
+    "headset"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "feedback",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "反馈",
+      "pos": "noun",
+      "ipa_us": "/ˈfiːdbæk/",
+      "ipa_uk": "/ˈfiːdbæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our first user says the flow feels awkward. How should we handle the feedback?",
+        "matched_form": "feedback",
+        "referent_region_verified": false,
+        "context": "反馈内容来自用户表达，耳麦只能提供沟通语境。",
+        "image_verified": null
+      },
+      "example_en": "Our first user says the flow feels awkward. How should we handle the feedback?",
+      "example_zh": "第一位用户说流程很别扭。我们该如何处理这条反馈？",
+      "bbox_normalized": null,
+      "collocations": [
+        "user feedback",
+        "handle feedback"
+      ],
+      "example_en_highlighted": "Our first user says the flow feels awkward. How should we handle the **feedback**?",
+      "annotation_mode": "context",
+      "annotation_note": "反馈内容来自用户表达，耳麦只能提供沟通语境。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "observe",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "观察",
+      "pos": "verb",
+      "ipa_us": "/əbˈzɜːrv/",
+      "ipa_uk": "/əbˈzɜːv/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Ask what they tried and observe where they hesitate.",
+        "matched_form": "observe",
+        "referent_region_verified": false,
+        "context": "观察是研究动作，静态画面不能证明已经收集结果。",
+        "image_verified": null
+      },
+      "example_en": "Ask what they tried and observe where they hesitate.",
+      "example_zh": "问清他们尝试了什么，并观察他们在哪里犹豫。",
+      "bbox_normalized": null,
+      "collocations": [
+        "observe a user",
+        "observe behavior"
+      ],
+      "example_en_highlighted": "Ask what they tried and **observe** where they hesitate.",
+      "annotation_mode": "context",
+      "annotation_note": "观察是研究动作，静态画面不能证明已经收集结果。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "clarify",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "澄清",
+      "pos": "verb",
+      "ipa_us": "/ˈklerəfaɪ/",
+      "ipa_uk": "/ˈklærəfaɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll use this headset to clarify the problem without defending the design.",
+        "matched_form": "clarify",
+        "referent_region_verified": false,
+        "context": "澄清是沟通过程，不能从持有耳麦推断已经完成。",
+        "image_verified": null
+      },
+      "example_en": "I'll use this headset to clarify the problem without defending the design.",
+      "example_zh": "我会用这个耳麦澄清问题，而不是急着为设计辩护。",
+      "bbox_normalized": null,
+      "collocations": [
+        "clarify the problem",
+        "clarify feedback"
+      ],
+      "example_en_highlighted": "I'll use this headset to **clarify** the problem without defending the design.",
+      "annotation_mode": "context",
+      "annotation_note": "澄清是沟通过程，不能从持有耳麦推断已经完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "headset",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "耳麦",
+      "pos": "noun",
+      "ipa_us": "/ˈhedset/",
+      "ipa_uk": "/ˈhedset/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整可见的头梁、耳罩和麦克风杆构成耳麦直接指代。",
+        "sentence": "I'll use this headset to clarify the problem without defending the design.",
+        "matched_form": "headset",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll use this headset to clarify the problem without defending the design.",
+      "example_zh": "我会用这个耳麦澄清问题，而不是急着为设计辩护。",
+      "bbox_normalized": [
+        0.404,
+        0.273,
+        0.566,
+        0.472
+      ],
+      "collocations": [
+        "use a headset",
+        "an over-ear headset"
+      ],
+      "example_en_highlighted": "I'll use this **headset** to clarify the problem without defending the design.",
+      "annotation_mode": "object",
+      "annotation_note": "完整可见的头梁、耳罩和麦克风杆构成耳麦直接指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks how to respond when the first user gives negative feedback.",
+    "zh": "第一位用户给出负面反馈后，程序员询问该如何回应。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks how to respond when the first user gives negative feedback.",
+    "zh": "第一位用户给出负面反馈后，程序员询问该如何回应。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Our first user says the flow feels awkward. How should we handle the feedback?",
+      "zh": "第一位用户说流程很别扭。我们该如何处理这条反馈？"
+    },
+    {
+      "speaker": "B",
+      "en": "Ask what they tried and observe where they hesitate.",
+      "zh": "问清他们尝试了什么，并观察他们在哪里犹豫。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll use this headset to clarify the problem without defending the design.",
+      "zh": "我会用这个耳麦澄清问题，而不是急着为设计辩护。"
+    },
+    {
+      "speaker": "B",
+      "en": "Then we'll change the smallest part that blocks them.",
+      "zh": "然后我们只改真正阻碍他们的最小部分。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先倾听、观察和澄清真实阻碍，再做最小改进。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a small desk holding one over-ear headset at center. The headset's full curved headband, two ear cups and short microphone boom are clearly visible and unobstructed, with no logos. The other hand rests away from it. The floating white OpenAI knot is at the right as the conversation partner. No phone, screen, text or second headset.",
+  "status": "approved",
+  "image_path": "images/V039.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V039 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V039.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V039_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V039.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。程序员手持唯一头戴式耳机，耳罩、头梁和麦克风完整可见；反馈、观察和澄清由用户沟通对白表达。"
+  }
+}

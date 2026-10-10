@@ -1,0 +1,130 @@
+{
+  "filename": "I031.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "disagreement",
+      "chinese": "分歧",
+      "phoneticUS": "/ˌdɪsəˈɡriːmənt/",
+      "phoneticUK": "/ˌdɪsəˈɡriːmənt/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：disagreement。本卡例句：We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：disagreement。本卡例句：We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+        "collocation": "a team disagreement; resolve a disagreement",
+        "example": "A: We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.\nB: How did you reach a compromise?\nA: I proposed a smaller first version. I'll use this card to outline the result: we launched on time.\nB: What did you learn about handling different priorities?",
+        "exampleChinese": "A: 我们曾对是否在上线前增加功能产生分歧。我的任务是让发布按期进行。\nB: 你们如何达成折中方案？\nA: 我提议先做一个较小的版本。我用这张卡片说明结果：我们按时上线了。\nB: 关于处理不同的优先事项，你学到了什么？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "compromise",
+      "chinese": "折中方案",
+      "phoneticUS": "/ˈkɑːmprəmaɪz/",
+      "phoneticUK": "/ˈkɒmprəmaɪz/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：compromise。本卡例句：How did you reach a compromise?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：compromise。本卡例句：How did you reach a compromise?",
+        "collocation": "reach a compromise; a practical compromise",
+        "example": "How did you reach a compromise?",
+        "exampleChinese": "你们如何达成折中方案？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "result",
+      "chinese": "结果",
+      "phoneticUS": "/rɪˈzʌlt/",
+      "phoneticUK": "/rɪˈzʌlt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：result。本卡例句：I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：result。本卡例句：I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "collocation": "a measurable result; explain the result",
+        "example": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "exampleChinese": "我提议先做一个较小的版本。我用这张卡片说明结果：我们按时上线了。"
+      }
+    },
+    {
+      "x": 758,
+      "y": 790,
+      "english": "card",
+      "chinese": "卡片",
+      "phoneticUS": "/kɑːrd/",
+      "phoneticUK": "/kɑːd/",
+      "bubblePosition": {
+        "x": 710,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 758,
+        "y": 790
+      },
+      "boundingBox": {
+        "left": 670,
+        "top": 767,
+        "right": 882,
+        "bottom": 825
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据。",
+        "association": "桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据。",
+        "collocation": "a note card; write on a card",
+        "example": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "exampleChinese": "我提议先做一个较小的版本。我用这张卡片说明结果：我们按时上线了。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate recounts a team disagreement during a behavioral interview.",
+    "chinese": "在行为面试中，候选人讲述一次团队分歧。",
+    "source": "原创配文 · I031 用 STAR 讲一次团队分歧",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

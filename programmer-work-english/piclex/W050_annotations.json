@@ -1,0 +1,130 @@
+{
+  "filename": "W050-确认修改后可以合并.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "merge",
+      "chinese": "合并",
+      "phoneticUS": "/mɜːrdʒ/",
+      "phoneticUK": "/mɜːdʒ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Great. I'll use this mouse to merge the pull request.”明确表达合并；单幅画面不能独立证明，不设局部框。",
+        "association": "“Great. I'll use this mouse to merge the pull request.”明确表达合并；单幅画面不能独立证明，不设局部框。",
+        "collocation": "merge a pull request; merge a branch",
+        "example": "A: Do the tests pass after my latest update?\nB: Yes, and I've finished the review. The change looks good.\nA: Great. I'll use this mouse to merge the pull request.\nB: Go ahead. Thanks for addressing the comments.",
+        "exampleChinese": "A: 我最新一次更新后，测试都通过了吗？\nB: 是的，而且我完成了评审。这次变更看起来没问题。\nA: 好。我用这个鼠标合并拉取请求。\nB: 可以合并。谢谢你处理了评审意见。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "review",
+      "chinese": "评审",
+      "phoneticUS": "/rɪˈvjuː/",
+      "phoneticUK": "/rɪˈvjuː/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Yes, and I've finished the review. The change looks good.”明确表达评审；单幅画面不能独立证明，不设局部框。",
+        "association": "“Yes, and I've finished the review. The change looks good.”明确表达评审；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a code review; finish the review",
+        "example": "Yes, and I've finished the review. The change looks good.",
+        "exampleChinese": "是的，而且我完成了评审。这次变更看起来没问题。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "pass",
+      "chinese": "通过",
+      "phoneticUS": "/pæs/",
+      "phoneticUK": "/pɑːs/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Do the tests pass after my latest update?”明确表达通过；单幅画面不能独立证明，不设局部框。",
+        "association": "“Do the tests pass after my latest update?”明确表达通过；单幅画面不能独立证明，不设局部框。",
+        "collocation": "pass the tests; pass a test",
+        "example": "Do the tests pass after my latest update?",
+        "exampleChinese": "我最新一次更新后，测试都通过了吗？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 602,
+      "english": "mouse",
+      "chinese": "鼠标",
+      "phoneticUS": "/maʊs/",
+      "phoneticUK": "/maʊs/",
+      "bubblePosition": {
+        "x": 550,
+        "y": 760
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 602
+      },
+      "boundingBox": {
+        "left": 452,
+        "top": 558,
+        "right": 563,
+        "bottom": 630
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "鼠标（mouse）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "鼠标（mouse）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "use the mouse; a computer mouse",
+        "example": "Great. I'll use this mouse to merge the pull request.",
+        "exampleChinese": "好。我用这个鼠标合并拉取请求。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer confirms that a revised change is ready to merge.",
+    "chinese": "开发者确认修改后的变更已可以合并。",
+    "source": "原创对话 · W050 确认修改后可以合并",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

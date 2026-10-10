@@ -1,0 +1,130 @@
+{
+  "filename": "W049-礼貌回应评审分歧.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "disagree",
+      "chinese": "不同意",
+      "phoneticUS": "/ˌdɪsəˈɡriː/",
+      "phoneticUK": "/ˌdɪsəˈɡriː/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I disagree with moving this logic into the controller.”明确表达不同意；单幅画面不能独立证明，不设局部框。",
+        "association": "“I disagree with moving this logic into the controller.”明确表达不同意；单幅画面不能独立证明，不设局部框。",
+        "collocation": "disagree with; agree to disagree",
+        "example": "A: I disagree with moving this logic into the controller.\nB: Thanks for explaining. What's your main concern?\nA: Testing would be harder. Can we discuss an alternative over a mug of tea?\nB: Absolutely. Let's compare both approaches with a small example.",
+        "exampleChinese": "A: 我不同意把这段逻辑移到控制器里。\nB: 谢谢你说明。你主要有什么顾虑？\nA: 测试会更难。我们能喝杯茶，讨论一个替代方案吗？\nB: 当然。我们用一个小例子比较两种做法吧。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "concern",
+      "chinese": "顾虑",
+      "phoneticUS": "/kənˈsɜːrn/",
+      "phoneticUK": "/kənˈsɜːn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Thanks for explaining. What's your main concern?”明确表达顾虑；单幅画面不能独立证明，不设局部框。",
+        "association": "“Thanks for explaining. What's your main concern?”明确表达顾虑；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a main concern; raise a concern",
+        "example": "Thanks for explaining. What's your main concern?",
+        "exampleChinese": "谢谢你说明。你主要有什么顾虑？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "alternative",
+      "chinese": "替代方案",
+      "phoneticUS": "/ɔːlˈtɜːrnətɪv/",
+      "phoneticUK": "/ɔːlˈtɜːnətɪv/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Testing would be harder. Can we discuss an alternative over a mug of tea?”明确表达替代方案；单幅画面不能独立证明，不设局部框。",
+        "association": "“Testing would be harder. Can we discuss an alternative over a mug of tea?”明确表达替代方案；单幅画面不能独立证明，不设局部框。",
+        "collocation": "an alternative approach; consider an alternative",
+        "example": "Testing would be harder. Can we discuss an alternative over a mug of tea?",
+        "exampleChinese": "测试会更难。我们能喝杯茶，讨论一个替代方案吗？"
+      }
+    },
+    {
+      "x": 470,
+      "y": 587,
+      "english": "mug",
+      "chinese": "马克杯",
+      "phoneticUS": "/mʌɡ/",
+      "phoneticUK": "/mʌɡ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 740
+      },
+      "anchorPosition": {
+        "x": 470,
+        "y": 587
+      },
+      "boundingBox": {
+        "left": 417,
+        "top": 527,
+        "right": 532,
+        "bottom": 625
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "a mug of tea; a coffee mug",
+        "example": "Testing would be harder. Can we discuss an alternative over a mug of tea?",
+        "exampleChinese": "测试会更难。我们能喝杯茶，讨论一个替代方案吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers discuss a review disagreement respectfully.",
+    "chinese": "两位开发者礼貌地讨论代码评审中的分歧。",
+    "source": "原创对话 · W049 礼貌回应评审分歧",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

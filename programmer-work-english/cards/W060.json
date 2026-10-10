@@ -1,0 +1,246 @@
+{
+  "id": "W060",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "整理完整的缺陷报告",
+  "keyword": "report",
+  "scene": "开发者整理操作步骤与结果明确的缺陷报告。",
+  "target_count": 4,
+  "primary_words": [
+    "report",
+    "expected",
+    "actual",
+    "document"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "report",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "报告",
+      "pos": "noun",
+      "ipa_us": "/rɪˈpɔːrt/",
+      "ipa_uk": "/rɪˈpɔːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Does the bug report include the expected and actual results?",
+        "matched_form": "report",
+        "referent_region_verified": false,
+        "context": "“Does the bug report include the expected and actual results?”明确表达报告；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Does the bug report include the expected and actual results?",
+      "example_zh": "缺陷报告包含预期结果和实际结果了吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a bug report",
+        "write a report"
+      ],
+      "example_en_highlighted": "Does the bug **report** include the expected and actual results?",
+      "annotation_mode": "context",
+      "annotation_note": "“Does the bug report include the expected and actual results?”明确表达报告；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "expected",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "预期的",
+      "pos": "adjective",
+      "ipa_us": "/ɪkˈspektɪd/",
+      "ipa_uk": "/ɪkˈspektɪd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Does the bug report include the expected and actual results?",
+        "matched_form": "expected",
+        "referent_region_verified": false,
+        "context": "“Does the bug report include the expected and actual results?”明确表达预期的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Does the bug report include the expected and actual results?",
+      "example_zh": "缺陷报告包含预期结果和实际结果了吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "the expected result",
+        "be expected"
+      ],
+      "example_en_highlighted": "Does the bug report include the **expected** and actual results?",
+      "annotation_mode": "context",
+      "annotation_note": "“Does the bug report include the expected and actual results?”明确表达预期的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "actual",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "实际的",
+      "pos": "adjective",
+      "ipa_us": "/ˈæktʃuəl/",
+      "ipa_uk": "/ˈæktʃuəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Does the bug report include the expected and actual results?",
+        "matched_form": "actual",
+        "referent_region_verified": false,
+        "context": "“Does the bug report include the expected and actual results?”明确表达实际的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Does the bug report include the expected and actual results?",
+      "example_zh": "缺陷报告包含预期结果和实际结果了吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "the actual result",
+        "in actual use"
+      ],
+      "example_en_highlighted": "Does the bug report include the expected and **actual** results?",
+      "annotation_mode": "context",
+      "annotation_note": "“Does the bug report include the expected and actual results?”明确表达实际的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "document",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "文档",
+      "pos": "noun",
+      "ipa_us": "/ˈdɑːkjumənt/",
+      "ipa_uk": "/ˈdɒkjumənt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Let's check this document for the app version and device details.",
+        "matched_form": "document",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let's check this document for the app version and device details.",
+      "example_zh": "我们检查一下这份文档里有没有应用版本和设备信息。",
+      "bbox_normalized": [
+        0.518,
+        0.329,
+        0.695,
+        0.534
+      ],
+      "collocations": [
+        "this document",
+        "a design document"
+      ],
+      "example_en_highlighted": "Let's check this **document** for the app version and device details.",
+      "annotation_mode": "object",
+      "annotation_note": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer prepares a bug report with clear steps and results.",
+    "zh": "开发者整理操作步骤与结果明确的缺陷报告。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer prepares a bug report with clear steps and results.",
+    "zh": "开发者整理操作步骤与结果明确的缺陷报告。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Does the bug report include the expected and actual results?",
+      "zh": "缺陷报告包含预期结果和实际结果了吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. I also added the steps and a screenshot.",
+      "zh": "包含了。我还加了操作步骤和截图。"
+    },
+    {
+      "speaker": "A",
+      "en": "Let's check this document for the app version and device details.",
+      "zh": "我们检查一下这份文档里有没有应用版本和设备信息。"
+    },
+    {
+      "speaker": "B",
+      "en": "They're included. The report is ready to share now.",
+      "zh": "都有。现在报告已经可以分享了。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "整理包含预期、实际与证据的完整缺陷报告。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a desk reviewing a complete physical document sheet held upright by one person. Sheet has only abstract horizontal strokes, no writing. Other person points with open palm.",
+  "status": "approved",
+  "image_path": "images/W060.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W060 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W060.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:34:04.380Z",
+    "prompt_path": "prompts/W060_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W060.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：右侧手持文档完整纸张；报告数据内容由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

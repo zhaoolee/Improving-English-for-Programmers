@@ -1,0 +1,242 @@
+{
+  "id": "V036",
+  "category": "delivery",
+  "category_title": "从能跑到交付",
+  "chapter": "从能跑到交付",
+  "title": "我电脑上能跑，别人电脑上呢？",
+  "keyword": "deploy",
+  "scene": "程序员与 AI 规划发布前的备份与回滚路径。",
+  "target_count": 4,
+  "primary_words": [
+    "deploy",
+    "release",
+    "backup",
+    "roll back"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "deploy",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "部署",
+      "pos": "verb",
+      "ipa_us": "/dɪˈplɔɪ/",
+      "ipa_uk": "/dɪˈplɔɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "It works here. Can we deploy it now?",
+        "matched_form": "deploy",
+        "referent_region_verified": false,
+        "context": "部署过程不能由包装箱或箭头证明，仅用对白语境。",
+        "image_verified": null
+      },
+      "example_en": "It works here. Can we deploy it now?",
+      "example_zh": "它在这里能运行。我们现在可以部署了吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "deploy a release",
+        "deploy an app"
+      ],
+      "example_en_highlighted": "It works here. Can we **deploy** it now?",
+      "annotation_mode": "context",
+      "annotation_note": "部署过程不能由包装箱或箭头证明，仅用对白语境。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "release",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "发布包",
+      "pos": "noun",
+      "ipa_us": "/rɪˈliːs/",
+      "ipa_uk": "/rɪˈliːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "First verify the release and prepare a backup.",
+        "matched_form": "release",
+        "referent_region_verified": false,
+        "context": "软件发布包是抽象工程产物，实体箱子仅为故事隐喻，不设置物体框。",
+        "image_verified": null
+      },
+      "example_en": "First verify the release and prepare a backup.",
+      "example_zh": "先验证发布包，再准备备份。",
+      "bbox_normalized": null,
+      "collocations": [
+        "verify a release",
+        "a stable release"
+      ],
+      "example_en_highlighted": "First verify the **release** and prepare a backup.",
+      "annotation_mode": "context",
+      "annotation_note": "软件发布包是抽象工程产物，实体箱子仅为故事隐喻，不设置物体框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "backup",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "备份",
+      "pos": "noun",
+      "ipa_us": "/ˈbækʌp/",
+      "ipa_uk": "/ˈbækʌp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "First verify the release and prepare a backup.",
+        "matched_form": "backup",
+        "referent_region_verified": false,
+        "context": "备份资料与有效性由对白表达，箱子不是真实备份数据。",
+        "image_verified": null
+      },
+      "example_en": "First verify the release and prepare a backup.",
+      "example_zh": "先验证发布包，再准备备份。",
+      "bbox_normalized": null,
+      "collocations": [
+        "prepare a backup",
+        "restore a backup"
+      ],
+      "example_en_highlighted": "First verify the release and prepare a **backup**.",
+      "annotation_mode": "context",
+      "annotation_note": "备份资料与有效性由对白表达，箱子不是真实备份数据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "roll back",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "回滚",
+      "pos": "verb phrase",
+      "ipa_us": "/roʊl bæk/",
+      "ipa_uk": "/rəʊl bæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How will we roll back if the release fails?",
+        "matched_form": "roll back",
+        "referent_region_verified": false,
+        "context": "回滚过程与权限不能从箭头证明，保持语境词。",
+        "image_verified": null
+      },
+      "example_en": "How will we roll back if the release fails?",
+      "example_zh": "如果发布失败，我们怎样回滚？",
+      "bbox_normalized": null,
+      "collocations": [
+        "roll back a release",
+        "roll back a change"
+      ],
+      "example_en_highlighted": "How will we **roll back** if the release fails?",
+      "annotation_mode": "context",
+      "annotation_note": "回滚过程与权限不能从箭头证明，保持语境词。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer and an AI assistant plan a release with a backup and a rollback path.",
+    "zh": "程序员与 AI 规划发布前的备份与回滚路径。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer and an AI assistant plan a release with a backup and a rollback path.",
+    "zh": "程序员与 AI 规划发布前的备份与回滚路径。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "It works here. Can we deploy it now?",
+      "zh": "它在这里能运行。我们现在可以部署了吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "First verify the release and prepare a backup.",
+      "zh": "先验证发布包，再准备备份。"
+    },
+    {
+      "speaker": "A",
+      "en": "How will we roll back if the release fails?",
+      "zh": "如果发布失败，我们怎样回滚？"
+    },
+    {
+      "speaker": "B",
+      "en": "Keep the previous package and write down the recovery steps.",
+      "zh": "保留上一个软件包，并写下恢复步骤。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "交付前先验证包，并准备可执行的回滚方案。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands left beside a low desk with TWO simple complete closed software-package shipping boxes near center, one behind the other. Each box has a visible lid seam; no writing or badges. A small curved return arrow between them suggests rollback. The requested OpenAI white knot floats right, facing the programmer. Only one human and one logo. Keep both boxes clearly distinguishable and fully visible.",
+  "status": "approved",
+  "image_path": "images/V036.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 0,
+    "context_annotations": 4,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V036 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V036.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-06T06:57:40.149Z",
+    "ended_at": "2026-10-06T07:00:37.922Z",
+    "prompt_path": "prompts/V036_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V036.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。"
+  }
+}

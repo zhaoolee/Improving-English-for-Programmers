@@ -1,0 +1,130 @@
+{
+  "filename": "I034.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "feedback",
+      "chinese": "反馈",
+      "phoneticUS": "/ˈfiːdbæk/",
+      "phoneticUK": "/ˈfiːdbæk/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：feedback。本卡例句：I received constructive feedback that my design notes were hard to follow.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：feedback。本卡例句：I received constructive feedback that my design notes were hard to follow.",
+        "collocation": "ask for feedback; constructive feedback",
+        "example": "A: I received constructive feedback that my design notes were hard to follow.\nB: What did you do to improve them?\nA: I asked for an example, then reorganized my notes in this notebook around decisions and reasons.\nB: How did you check that the new format helped?",
+        "exampleChinese": "A: 我收到一条建设性反馈：我的设计笔记不容易理解。\nB: 你做了什么来改进它们？\nA: 我请对方举例，然后围绕决策与理由，重新整理了这本笔记本里的内容。\nB: 你如何检查新格式是否有帮助？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "constructive",
+      "chinese": "建设性的",
+      "phoneticUS": "/kənˈstrʌktɪv/",
+      "phoneticUK": "/kənˈstrʌktɪv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：constructive。本卡例句：I received constructive feedback that my design notes were hard to follow.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：constructive。本卡例句：I received constructive feedback that my design notes were hard to follow.",
+        "collocation": "constructive feedback; constructive criticism",
+        "example": "I received constructive feedback that my design notes were hard to follow.",
+        "exampleChinese": "我收到一条建设性反馈：我的设计笔记不容易理解。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "improve",
+      "chinese": "改进",
+      "phoneticUS": "/ɪmˈpruːv/",
+      "phoneticUK": "/ɪmˈpruːv/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：improve。本卡例句：What did you do to improve them?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：improve。本卡例句：What did you do to improve them?",
+        "collocation": "improve readability; improve your work",
+        "example": "What did you do to improve them?",
+        "exampleChinese": "你做了什么来改进它们？"
+      }
+    },
+    {
+      "x": 245,
+      "y": 661,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 265,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 245,
+        "y": 661
+      },
+      "boundingBox": {
+        "left": 45,
+        "top": 615,
+        "right": 375,
+        "bottom": 700
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人面前正在书写的打开式笔记本；接受反馈、改进发生的事实由故事设定。",
+        "association": "候选人面前正在书写的打开式笔记本；接受反馈、改进发生的事实由故事设定。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "I asked for an example, then reorganized my notes in this notebook around decisions and reasons.",
+        "exampleChinese": "我请对方举例，然后围绕决策与理由，重新整理了这本笔记本里的内容。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains how he responded to feedback and improved his work.",
+    "chinese": "候选人说明自己如何回应反馈并改进工作。",
+    "source": "原创配文 · I034 如何接受批评并改进？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

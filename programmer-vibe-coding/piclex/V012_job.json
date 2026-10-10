@@ -1,0 +1,15 @@
+{
+  "cardID": "V012",
+  "imagePath": "../images/V012.png",
+  "imageSHA256": "1edd7f5f1ad1d7d01b79057a5769a2ed015e7ddb2499408f585dbf49a7fff69f",
+  "imageReviewed": true,
+  "annotationsPath": "V012_annotations.json",
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "expectedWords": [
+    "structure",
+    "module",
+    "dependency",
+    "folder"
+  ],
+  "receiptPath": "V012_import_receipt.json"
+}

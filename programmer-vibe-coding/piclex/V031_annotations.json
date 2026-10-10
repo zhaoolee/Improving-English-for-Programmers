@@ -1,0 +1,130 @@
+{
+  "filename": "V031-你说完成了，证据呢？.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "verify",
+      "chinese": "验证",
+      "phoneticUS": "/ˈverɪfaɪ/",
+      "phoneticUK": "/ˈverɪfaɪ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "验证完成与否由对白报告，勾选示意不能证明真实测试执行。",
+        "association": "验证完成与否由对白报告，勾选示意不能证明真实测试执行。",
+        "collocation": "verify the result; verify a change",
+        "example": "A: You said it was done. How did you verify it?\nB: I ran the test and recorded the result.\nA: Where is the evidence, and what is still unchecked?\nB: Here is the checklist. The edge cases still need review.",
+        "exampleChinese": "A: 你说已经完成了。你是怎么验证的？\nB: 我运行了测试，并记录了结果。\nA: 证据在哪里，还有哪些部分没有检查？\nB: 这是检查清单。边界情况仍然需要审查。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "test",
+      "chinese": "测试",
+      "phoneticUS": "/test/",
+      "phoneticUK": "/test/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "测试是运行过程与检查，不虚构静态局部框。",
+        "association": "测试是运行过程与检查，不虚构静态局部框。",
+        "collocation": "run a test; a regression test",
+        "example": "I ran the test and recorded the result.",
+        "exampleChinese": "我运行了测试，并记录了结果。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "evidence",
+      "chinese": "证据",
+      "phoneticUS": "/ˈevɪdəns/",
+      "phoneticUK": "/ˈevɪdəns/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "证据的有效性由对白讨论，纸面示意不是测试记录。",
+        "association": "证据的有效性由对白讨论，纸面示意不是测试记录。",
+        "collocation": "test evidence; collect evidence",
+        "example": "Where is the evidence, and what is still unchecked?",
+        "exampleChinese": "证据在哪里，还有哪些部分没有检查？"
+      }
+    },
+    {
+      "x": 468,
+      "y": 490,
+      "english": "checklist",
+      "chinese": "检查清单",
+      "phoneticUS": "/ˈtʃeklɪst/",
+      "phoneticUK": "/ˈtʃeklɪst/",
+      "bubblePosition": {
+        "x": 660,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 468,
+        "y": 490
+      },
+      "boundingBox": {
+        "left": 333,
+        "top": 277,
+        "right": 629,
+        "bottom": 697
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "夹板上可见的复选框清单是 checklist 的指代区域。",
+        "association": "夹板上可见的复选框清单是 checklist 的指代区域。",
+        "collocation": "a review checklist; use a checklist",
+        "example": "Here is the checklist. The edge cases still need review.",
+        "exampleChinese": "这是检查清单。边界情况仍然需要审查。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant for test evidence before accepting completed work.",
+    "chinese": "程序员在接受已完成的工作前，要求 AI 提供测试证据。",
+    "source": "原创对话 · V031 你说完成了，证据呢？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

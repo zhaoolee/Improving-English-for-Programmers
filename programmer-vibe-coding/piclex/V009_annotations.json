@@ -1,0 +1,130 @@
+{
+  "filename": "V009-用一个例子消除十种误解.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "example",
+      "chinese": "示例",
+      "phoneticUS": "/ɪɡˈzæmpəl/",
+      "phoneticUK": "/ɪɡˈzɑːmpəl/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "具体示例来自对白，空白屏幕不提供可读示例内容。",
+        "association": "具体示例来自对白，空白屏幕不提供可读示例内容。",
+        "collocation": "a concrete example; show an example",
+        "example": "A: Let me show you an example on this tablet before you build the search.\nB: What input should I use, and what output should I expect?\nA: If I search for a title with extra spaces, trim the spaces and return the matching item.\nB: Got it. I'll also check a search with no matches.",
+        "exampleChinese": "A: 在你实现搜索前，我先在这台平板上给你看一个例子。\nB: 应该使用什么输入，预期得到什么输出？\nA: 如果我搜索的标题带有多余空格，就去掉空格并返回匹配项。\nB: 明白了。我还会检查没有匹配结果的搜索。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "input",
+      "chinese": "输入",
+      "phoneticUS": "/ˈɪnpʊt/",
+      "phoneticUK": "/ˈɪnpʊt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指搜索的输入数据，而非可定位的输入设备。",
+        "association": "这里指搜索的输入数据，而非可定位的输入设备。",
+        "collocation": "search input; valid input",
+        "example": "What input should I use, and what output should I expect?",
+        "exampleChinese": "应该使用什么输入，预期得到什么输出？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "output",
+      "chinese": "输出",
+      "phoneticUS": "/ˈaʊtpʊt/",
+      "phoneticUK": "/ˈaʊtpʊt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指搜索结果数据，静态空白屏幕不能证明结果。",
+        "association": "这里指搜索结果数据，静态空白屏幕不能证明结果。",
+        "collocation": "expected output; check the output",
+        "example": "What input should I use, and what output should I expect?",
+        "exampleChinese": "应该使用什么输入，预期得到什么输出？"
+      }
+    },
+    {
+      "x": 484,
+      "y": 460,
+      "english": "tablet",
+      "chinese": "平板电脑",
+      "phoneticUS": "/ˈtæblət/",
+      "phoneticUK": "/ˈtæblət/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 484,
+        "y": 460
+      },
+      "boundingBox": {
+        "left": 357,
+        "top": 382,
+        "right": 614,
+        "bottom": 537
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整手持平板的屏幕、边框与机身是直接可见指代。",
+        "association": "完整手持平板的屏幕、边框与机身是直接可见指代。",
+        "collocation": "on this tablet; a tablet screen",
+        "example": "Let me show you an example on this tablet before you build the search.",
+        "exampleChinese": "在你实现搜索前，我先在这台平板上给你看一个例子。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer uses a concrete input and output example to clarify a requirement.",
+    "chinese": "程序员用具体的输入与输出示例澄清需求。",
+    "source": "原创对话 · V009 用一个例子消除十种误解",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

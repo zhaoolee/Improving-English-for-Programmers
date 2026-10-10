@@ -1,0 +1,246 @@
+{
+  "id": "V021",
+  "category": "interface",
+  "category_title": "界面与交互打磨",
+  "chapter": "界面与交互打磨",
+  "title": "功能都有了，为什么还是不好用？",
+  "keyword": "usability",
+  "scene": "程序员向 AI 询问如何改善手机应用的布局与反馈。",
+  "target_count": 4,
+  "primary_words": [
+    "usability",
+    "layout",
+    "feedback",
+    "phone"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "usability",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "可用性",
+      "pos": "noun",
+      "ipa_us": "/ˌjuːzəˈbɪləti/",
+      "ipa_uk": "/ˌjuːzəˈbɪləti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The app runs on my phone. Why is the usability still poor?",
+        "matched_form": "usability",
+        "referent_region_verified": false,
+        "context": "可用性是使用评价，只由对白明确表达。",
+        "image_verified": null
+      },
+      "example_en": "The app runs on my phone. Why is the usability still poor?",
+      "example_zh": "应用在我的手机上能运行，为什么可用性还是很差？",
+      "bbox_normalized": null,
+      "collocations": [
+        "improve usability",
+        "a usability issue"
+      ],
+      "example_en_highlighted": "The app runs on my phone. Why is the **usability** still poor?",
+      "annotation_mode": "context",
+      "annotation_note": "可用性是使用评价，只由对白明确表达。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "layout",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "布局",
+      "pos": "noun",
+      "ipa_us": "/ˈleɪaʊt/",
+      "ipa_uk": "/ˈleɪaʊt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The layout hides the main action.",
+        "matched_form": "layout",
+        "referent_region_verified": false,
+        "context": "布局的优劣由对话说明，不把泛化示意 UI 当作具体错误。",
+        "image_verified": null
+      },
+      "example_en": "The layout hides the main action.",
+      "example_zh": "布局把主要操作藏起来了。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a screen layout",
+        "improve the layout"
+      ],
+      "example_en_highlighted": "The **layout** hides the main action.",
+      "annotation_mode": "context",
+      "annotation_note": "布局的优劣由对话说明，不把泛化示意 UI 当作具体错误。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "feedback",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "反馈",
+      "pos": "noun",
+      "ipa_us": "/ˈfiːdbæk/",
+      "ipa_uk": "/ˈfiːdbæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What feedback should the interface show?",
+        "matched_form": "feedback",
+        "referent_region_verified": false,
+        "context": "交互反馈类型由对白解释，抽象状态符号不代表真实运行反馈。",
+        "image_verified": null
+      },
+      "example_en": "What feedback should the interface show?",
+      "example_zh": "界面应该显示哪些反馈？",
+      "bbox_normalized": null,
+      "collocations": [
+        "visual feedback",
+        "user feedback"
+      ],
+      "example_en_highlighted": "What **feedback** should the interface show?",
+      "annotation_mode": "context",
+      "annotation_note": "交互反馈类型由对白解释，抽象状态符号不代表真实运行反馈。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "phone",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "手机",
+      "pos": "noun",
+      "ipa_us": "/foʊn/",
+      "ipa_uk": "/fəʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整的手机外壳和屏幕是 phone 的局部对象。",
+        "sentence": "The app runs on my phone. Why is the usability still poor?",
+        "matched_form": "phone",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The app runs on my phone. Why is the usability still poor?",
+      "example_zh": "应用在我的手机上能运行，为什么可用性还是很差？",
+      "bbox_normalized": [
+        0.444,
+        0.252,
+        0.69,
+        0.62
+      ],
+      "collocations": [
+        "on my phone",
+        "a phone app"
+      ],
+      "example_en_highlighted": "The app runs on my **phone**. Why is the usability still poor?",
+      "annotation_mode": "object",
+      "annotation_note": "完整的手机外壳和屏幕是 phone 的局部对象。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant how to improve a phone app's layout and feedback.",
+    "zh": "程序员向 AI 询问如何改善手机应用的布局与反馈。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant how to improve a phone app's layout and feedback.",
+    "zh": "程序员向 AI 询问如何改善手机应用的布局与反馈。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "The app runs on my phone. Why is the usability still poor?",
+      "zh": "应用在我的手机上能运行，为什么可用性还是很差？"
+    },
+    {
+      "speaker": "B",
+      "en": "The layout hides the main action.",
+      "zh": "布局把主要操作藏起来了。"
+    },
+    {
+      "speaker": "A",
+      "en": "What feedback should the interface show?",
+      "zh": "界面应该显示哪些反馈？"
+    },
+    {
+      "speaker": "B",
+      "en": "Show loading, success, and failure clearly.",
+      "zh": "清晰展示加载、成功和失败状态。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "区分功能可运行和界面可用，补齐交互反馈。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer sits left and points toward a large upright smartphone standing on a small desk near center-right, with the white OpenAI knot floating above and to its right. The entire PHONE body and rounded screen are clearly visible. Its UI uses only blank boxes, a simple spinner ring and a small check symbol, no letters or digits. Keep the phone large and easy to crop.",
+  "status": "approved",
+  "image_path": "images/V021.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V021 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V021.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-06T06:57:40.149Z",
+    "ended_at": "2026-10-06T06:59:31.895Z",
+    "prompt_path": "prompts/V021_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V021.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。"
+  }
+}

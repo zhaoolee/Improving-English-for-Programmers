@@ -1,0 +1,130 @@
+{
+  "filename": "V032-测试通过，还漏了什么？.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "coverage",
+      "chinese": "覆盖范围",
+      "phoneticUS": "/ˈkʌvərɪdʒ/",
+      "phoneticUK": "/ˈkʌvərɪdʒ/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "测试覆盖范围由用例集合决定，不能从清单外观判断。",
+        "association": "测试覆盖范围由用例集合决定，不能从清单外观判断。",
+        "collocation": "test coverage; missing coverage",
+        "example": "A: The main tests passed. What coverage is still missing?\nB: We have not checked the offline scenario or the timeout.\nA: Add each assumption and missing scenario to this checklist.\nB: I'll test those cases before calling the feature complete.",
+        "exampleChinese": "A: 主要测试通过了。还缺少哪些覆盖？\nB: 我们还没有检查离线场景和超时。\nA: 把每个假设和缺失场景都加到这份检查清单里。\nB: 在宣布功能完成前，我会测试这些情况。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "scenario",
+      "chinese": "场景",
+      "phoneticUS": "/səˈnerioʊ/",
+      "phoneticUK": "/səˈnɑːriəʊ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是待测试的使用情境，不把纸张中的一行当作具体场景。",
+        "association": "这里是待测试的使用情境，不把纸张中的一行当作具体场景。",
+        "collocation": "an offline scenario; test a scenario",
+        "example": "We have not checked the offline scenario or the timeout.",
+        "exampleChinese": "我们还没有检查离线场景和超时。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "assumption",
+      "chinese": "假设",
+      "phoneticUS": "/əˈsʌmpʃən/",
+      "phoneticUK": "/əˈsʌmpʃən/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "假设是需要验证的判断，画面不展示其文字内容。",
+        "association": "假设是需要验证的判断，画面不展示其文字内容。",
+        "collocation": "check an assumption; hidden assumption",
+        "example": "Add each assumption and missing scenario to this checklist.",
+        "exampleChinese": "把每个假设和缺失场景都加到这份检查清单里。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 410,
+      "english": "checklist",
+      "chinese": "检查清单",
+      "phoneticUS": "/ˈtʃeklɪst/",
+      "phoneticUK": "/ˈtʃeklɪst/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 410
+      },
+      "boundingBox": {
+        "left": 361,
+        "top": 235,
+        "right": 632,
+        "bottom": 588
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "带空方框与空白横线的完整纸质清单是直接指代，只框整张清单。",
+        "association": "带空方框与空白横线的完整纸质清单是直接指代，只框整张清单。",
+        "collocation": "this checklist; a test checklist",
+        "example": "Add each assumption and missing scenario to this checklist.",
+        "exampleChinese": "把每个假设和缺失场景都加到这份检查清单里。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks what test coverage is still missing after the main checks pass.",
+    "chinese": "主要检查通过后，程序员追问测试覆盖还遗漏了什么。",
+    "source": "原创对话 · V032 测试通过，还漏了什么？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

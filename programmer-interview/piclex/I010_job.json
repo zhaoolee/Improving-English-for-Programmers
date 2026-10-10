@@ -1,0 +1,21 @@
+{
+  "cardID": "I010",
+  "imagePath": "../images/I010.png",
+  "imageSHA256": "d766d78f2a57aaefb30dcb6f08d9d2905da6af739b8ec7f144a770381a834fae",
+  "imageReviewed": true,
+  "annotationsPath": "I010_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "retrospective",
+    "assumption",
+    "outcome",
+    "notebook"
+  ],
+  "receiptPath": "I010_learning_import_receipt.json",
+  "photoID": "c11e7c2f-26e2-4622-818e-3c8ebdd518d2",
+  "expectedAssetID": "c8701d905933b418e9e39d3ed691f72a287494a74cce12f0a1275db2bf50f278",
+  "expectedImageFilename": "I010.png",
+  "expectedSourceSHA256": "d766d78f2a57aaefb30dcb6f08d9d2905da6af739b8ec7f144a770381a834fae",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

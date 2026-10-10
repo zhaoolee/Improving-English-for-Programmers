@@ -1,0 +1,21 @@
+{
+  "cardID": "I033",
+  "imagePath": "../images/I033.png",
+  "imageSHA256": "6d7f3a561ba49c67efc0310c06548d5339b83e1459b766bb6b4a81e956d709a8",
+  "imageReviewed": true,
+  "annotationsPath": "I033_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "deadline",
+    "prioritize",
+    "negotiate",
+    "planner"
+  ],
+  "receiptPath": "I033_learning_import_receipt.json",
+  "photoID": "0b4ada2f-6098-49ff-9f46-8f23c06881f8",
+  "expectedAssetID": "6c004d6de2613fe7c5acb49fabcb993c0b5639b60c37ab6c482fd740de25b27b",
+  "expectedImageFilename": "I033.png",
+  "expectedSourceSHA256": "6d7f3a561ba49c67efc0310c06548d5339b83e1459b766bb6b4a81e956d709a8",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

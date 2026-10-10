@@ -1,0 +1,130 @@
+{
+  "filename": "W048-请求补充测试.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "coverage",
+      "chinese": "覆盖范围",
+      "phoneticUS": "/ˈkʌvərɪdʒ/",
+      "phoneticUK": "/ˈkʌvərɪdʒ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Could we improve test coverage for this change?”明确表达覆盖范围；单幅画面不能独立证明，不设局部框。",
+        "association": "“Could we improve test coverage for this change?”明确表达覆盖范围；单幅画面不能独立证明，不设局部框。",
+        "collocation": "test coverage; improve coverage",
+        "example": "A: Could we improve test coverage for this change?\nB: Sure. Which edge case should I add?\nA: Empty input. Please assert the result and run it on this laptop.\nB: Got it. I'll add that case before the next review.",
+        "exampleChinese": "A: 我们能提高这次变更的测试覆盖范围吗？\nB: 当然。应该补哪个边界情况？\nA: 空输入。请对结果做断言，并在这个笔记本电脑上运行测试。\nB: 明白。我会在下一次评审之前补上。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "edge",
+      "chinese": "边界",
+      "phoneticUS": "/edʒ/",
+      "phoneticUK": "/edʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Sure. Which edge case should I add?”明确表达边界；单幅画面不能独立证明，不设局部框。",
+        "association": "“Sure. Which edge case should I add?”明确表达边界；单幅画面不能独立证明，不设局部框。",
+        "collocation": "an edge case; at the edge",
+        "example": "Sure. Which edge case should I add?",
+        "exampleChinese": "当然。应该补哪个边界情况？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "assert",
+      "chinese": "断言",
+      "phoneticUS": "/əˈsɜːrt/",
+      "phoneticUK": "/əˈsɜːt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Empty input. Please assert the result and run it on this laptop.”明确表达断言；单幅画面不能独立证明，不设局部框。",
+        "association": "“Empty input. Please assert the result and run it on this laptop.”明确表达断言；单幅画面不能独立证明，不设局部框。",
+        "collocation": "assert the result; assert a value",
+        "example": "Empty input. Please assert the result and run it on this laptop.",
+        "exampleChinese": "空输入。请对结果做断言，并在这个笔记本电脑上运行测试。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 505,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 450,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 505
+      },
+      "boundingBox": {
+        "left": 407,
+        "top": 413,
+        "right": 696,
+        "bottom": 584
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this laptop; an open laptop",
+        "example": "Empty input. Please assert the result and run it on this laptop.",
+        "exampleChinese": "空输入。请对结果做断言，并在这个笔记本电脑上运行测试。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A reviewer asks for tests covering an edge case.",
+    "chinese": "评审者请求补充覆盖边界情况的测试。",
+    "source": "原创对话 · W048 请求补充测试",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

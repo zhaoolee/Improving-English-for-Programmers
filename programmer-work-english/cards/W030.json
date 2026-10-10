@@ -1,0 +1,246 @@
+{
+  "id": "W030",
+  "category": "planning",
+  "category_title": "计划与进度",
+  "chapter": "计划与进度",
+  "title": "交接未完成的任务",
+  "keyword": "unfinished",
+  "scene": "开发者带着必要的背景信息交接未完成的任务。",
+  "target_count": 4,
+  "primary_words": [
+    "unfinished",
+    "transfer",
+    "context",
+    "document"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "unfinished",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "未完成的",
+      "pos": "adjective",
+      "ipa_us": "/ʌnˈfɪnɪʃt/",
+      "ipa_uk": "/ʌnˈfɪnɪʃt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can I transfer this unfinished task to you before my leave?",
+        "matched_form": "unfinished",
+        "referent_region_verified": false,
+        "context": "“Can I transfer this unfinished task to you before my leave?”明确表达未完成的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Can I transfer this unfinished task to you before my leave?",
+      "example_zh": "我休假之前能把这项未完成的任务移交给你吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "an unfinished task",
+        "leave work unfinished"
+      ],
+      "example_en_highlighted": "Can I transfer this **unfinished** task to you before my leave?",
+      "annotation_mode": "context",
+      "annotation_note": "“Can I transfer this unfinished task to you before my leave?”明确表达未完成的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "transfer",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "移交",
+      "pos": "verb",
+      "ipa_us": "/trænsˈfɜːr/",
+      "ipa_uk": "/trænsˈfɜː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can I transfer this unfinished task to you before my leave?",
+        "matched_form": "transfer",
+        "referent_region_verified": false,
+        "context": "“Can I transfer this unfinished task to you before my leave?”明确表达移交；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Can I transfer this unfinished task to you before my leave?",
+      "example_zh": "我休假之前能把这项未完成的任务移交给你吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "transfer a task",
+        "transfer to a teammate"
+      ],
+      "example_en_highlighted": "Can I **transfer** this unfinished task to you before my leave?",
+      "annotation_mode": "context",
+      "annotation_note": "“Can I transfer this unfinished task to you before my leave?”明确表达移交；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "context",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "背景信息",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːntekst/",
+      "ipa_uk": "/ˈkɒntekst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. Could you share the context and the current blocker?",
+        "matched_form": "context",
+        "referent_region_verified": false,
+        "context": "“Yes. Could you share the context and the current blocker?”明确表达背景信息；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Yes. Could you share the context and the current blocker?",
+      "example_zh": "可以。你能介绍一下背景和当前的阻塞点吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "share the context",
+        "the context of a task"
+      ],
+      "example_en_highlighted": "Yes. Could you share the **context** and the current blocker?",
+      "annotation_mode": "context",
+      "annotation_note": "“Yes. Could you share the context and the current blocker?”明确表达背景信息；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "document",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "文档",
+      "pos": "noun",
+      "ipa_us": "/ˈdɑːkjumənt/",
+      "ipa_uk": "/ˈdɒkjumənt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "This document explains the approach. The last test still fails.",
+        "matched_form": "document",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This document explains the approach. The last test still fails.",
+      "example_zh": "这份文档解释了实现思路。最后一项测试还没通过。",
+      "bbox_normalized": [
+        0.401,
+        0.291,
+        0.592,
+        0.503
+      ],
+      "collocations": [
+        "this document",
+        "a design document"
+      ],
+      "example_en_highlighted": "This **document** explains the approach. The last test still fails.",
+      "annotation_mode": "object",
+      "annotation_note": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer hands over an unfinished task with useful context.",
+    "zh": "开发者带着必要的背景信息交接未完成的任务。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer hands over an unfinished task with useful context.",
+    "zh": "开发者带着必要的背景信息交接未完成的任务。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Can I transfer this unfinished task to you before my leave?",
+      "zh": "我休假之前能把这项未完成的任务移交给你吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Could you share the context and the current blocker?",
+      "zh": "可以。你能介绍一下背景和当前的阻塞点吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "This document explains the approach. The last test still fails.",
+      "zh": "这份文档解释了实现思路。最后一项测试还没通过。"
+    },
+    {
+      "speaker": "B",
+      "en": "Thanks. I'll read it and continue from there.",
+      "zh": "谢谢。我读完后会接着做。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "移交未完成任务并说明背景与阻塞。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a desk. One hands the other a single large physical document sheet with only abstract lines and no readable writing. Full sheet visible between the people.",
+  "status": "approved",
+  "image_path": "images/W030.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W030 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W030.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:28:16.904Z",
+    "prompt_path": "prompts/W030_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W030.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：传递的完整纸质文档，只有抽象横线。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

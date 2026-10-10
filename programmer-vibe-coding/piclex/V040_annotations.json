@@ -1,0 +1,130 @@
+{
+  "filename": "V040-从一次成功到可重复交付.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "repeatable",
+      "chinese": "可重复的",
+      "phoneticUS": "/rɪˈpiːtəbəl/",
+      "phoneticUK": "/rɪˈpiːtəbəl/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "可重复性需要多次独立执行验证，单张模板不能证明。",
+        "association": "可重复性需要多次独立执行验证，单张模板不能证明。",
+        "collocation": "a repeatable process; make delivery repeatable",
+        "example": "A: The release worked once. How do we make the delivery repeatable?\nB: Automate the stable steps and write a procedure for the manual checks.\nA: Put the sequence in this template so another person can follow it.\nB: Then we'll run the procedure again from a clean environment.",
+        "exampleChinese": "A: 这次发布成功了。怎样让交付过程可以重复？\nB: 把稳定步骤自动化，并为人工检查写一份流程。\nA: 把步骤顺序写进这个模板，让其他人也能照着执行。\nB: 然后我们会在干净环境中再次执行这套流程。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "automate",
+      "chinese": "自动化",
+      "phoneticUS": "/ˈɔːtəmeɪt/",
+      "phoneticUK": "/ˈɔːtəmeɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "自动化是执行方式，画面没有运行中的工具或结果。",
+        "association": "自动化是执行方式，画面没有运行中的工具或结果。",
+        "collocation": "automate a step; automate delivery",
+        "example": "Automate the stable steps and write a procedure for the manual checks.",
+        "exampleChinese": "把稳定步骤自动化，并为人工检查写一份流程。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "procedure",
+      "chinese": "流程",
+      "phoneticUS": "/prəˈsiːdʒər/",
+      "phoneticUK": "/prəˈsiːdʒə/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "流程由有序步骤构成，模板中的无字框只提供记录语境。",
+        "association": "流程由有序步骤构成，模板中的无字框只提供记录语境。",
+        "collocation": "write a procedure; follow the procedure",
+        "example": "Automate the stable steps and write a procedure for the manual checks.",
+        "exampleChinese": "把稳定步骤自动化，并为人工检查写一份流程。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 480,
+      "english": "template",
+      "chinese": "模板",
+      "phoneticUS": "/ˈtempleɪt/",
+      "phoneticUK": "/ˈtempleɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 312,
+        "top": 206,
+        "right": 664,
+        "bottom": 751
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中完整可见、带空白步骤框的模板纸是直接指代，只框整张纸。",
+        "association": "手中完整可见、带空白步骤框的模板纸是直接指代，只框整张纸。",
+        "collocation": "use this template; a delivery template",
+        "example": "Put the sequence in this template so another person can follow it.",
+        "exampleChinese": "把步骤顺序写进这个模板，让其他人也能照着执行。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to turn one successful release into a repeatable delivery process.",
+    "chinese": "程序员让 AI 把一次成功发布变成可重复的交付流程。",
+    "source": "原创对话 · V040 从一次成功到可重复交付",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

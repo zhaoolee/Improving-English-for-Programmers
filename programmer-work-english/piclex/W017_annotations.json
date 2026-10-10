@@ -1,0 +1,130 @@
+{
+  "filename": "W017-澄清错误提示文案.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "wording",
+      "chinese": "措辞",
+      "phoneticUS": "/ˈwɜːrdɪŋ/",
+      "phoneticUK": "/ˈwɜːdɪŋ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Could we make the wording of this error more specific?”明确表达措辞；单幅画面不能独立证明，不设局部框。",
+        "association": "“Could we make the wording of this error more specific?”明确表达措辞；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the wording of a message; clear wording",
+        "example": "A: Could we make the wording of this error more specific?\nB: Yes. It should explain why the upload failed.\nA: Let's show a retry button on this monitor as well.\nB: Agreed. The message should help people decide what to do next.",
+        "exampleChinese": "A: 我们能把这个错误提示的措辞写得更明确吗？\nB: 可以。它应该解释上传为什么失败。\nA: 我们也在这个显示器上展示重试按钮吧。\nB: 同意。提示应该帮助用户决定下一步怎么做。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "specific",
+      "chinese": "明确的",
+      "phoneticUS": "/spəˈsɪfɪk/",
+      "phoneticUK": "/spəˈsɪfɪk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Could we make the wording of this error more specific?”明确表达明确的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Could we make the wording of this error more specific?”明确表达明确的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "more specific; a specific example",
+        "example": "Could we make the wording of this error more specific?",
+        "exampleChinese": "我们能把这个错误提示的措辞写得更明确吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "retry",
+      "chinese": "重试",
+      "phoneticUS": "/ˈriːtraɪ/",
+      "phoneticUK": "/ˈriːtraɪ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let's show a retry button on this monitor as well.”明确表达重试；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let's show a retry button on this monitor as well.”明确表达重试；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a retry button; one retry",
+        "example": "Let's show a retry button on this monitor as well.",
+        "exampleChinese": "我们也在这个显示器上展示重试按钮吧。"
+      }
+    },
+    {
+      "x": 492,
+      "y": 470,
+      "english": "monitor",
+      "chinese": "显示器",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 492,
+        "y": 470
+      },
+      "boundingBox": {
+        "left": 331,
+        "top": 292,
+        "right": 645,
+        "bottom": 541
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on the monitor; a computer monitor",
+        "example": "Let's show a retry button on this monitor as well.",
+        "exampleChinese": "我们也在这个显示器上展示重试按钮吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a designer clarify an error message.",
+    "chinese": "开发者与设计师澄清错误提示的措辞。",
+    "source": "原创对话 · W017 澄清错误提示文案",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

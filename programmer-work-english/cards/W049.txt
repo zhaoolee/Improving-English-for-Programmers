@@ -1,0 +1,119 @@
+W049  礼貌回应评审分歧
+========================================================================
+分类: 开发与代码评审（development）
+关键词: disagree
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W049.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W049.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W049.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:31:51.036Z
+  提示词文件: prompts/W049_image_final.txt
+
+场景: 两位开发者礼貌地讨论代码评审中的分歧。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：桌前马克杯，包括完整杯把。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 礼貌说明评审分歧并提出替代方案。
+
+主配文（一句场景描述）:
+  英文: Two developers discuss a review disagreement respectfully.
+  中文: 两位开发者礼貌地讨论代码评审中的分歧。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] I disagree with moving this logic into the controller.
+        我不同意把这段逻辑移到控制器里。
+  [B] Thanks for explaining. What's your main concern?
+        谢谢你说明。你主要有什么顾虑？
+  [A] Testing would be harder. Can we discuss an alternative over a mug of tea?
+        测试会更难。我们能喝杯茶，讨论一个替代方案吗？
+  [B] Absolutely. Let's compare both approaches with a small example.
+        当然。我们用一个小例子比较两种做法吧。
+
+目标词 (4): disagree, concern, alternative, mug
+
+------------------------------------------------------------------------
+[1/4] disagree
+  词义: 不同意
+  词性: verb
+  音标: UK /ˌdɪsəˈɡriː/ | US /ˌdɪsəˈɡriː/
+  搭配: disagree with; agree to disagree
+  例句: I disagree with moving this logic into the controller.
+  例句高亮: I **disagree** with moving this logic into the controller.
+  例句中文: 我不同意把这段逻辑移到控制器里。
+  标注模式: context
+  标注说明: “I disagree with moving this logic into the controller.”明确表达不同意；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] concern
+  词义: 顾虑
+  词性: noun
+  音标: UK /kənˈsɜːn/ | US /kənˈsɜːrn/
+  搭配: a main concern; raise a concern
+  例句: Thanks for explaining. What's your main concern?
+  例句高亮: Thanks for explaining. What's your main **concern**?
+  例句中文: 谢谢你说明。你主要有什么顾虑？
+  标注模式: context
+  标注说明: “Thanks for explaining. What's your main concern?”明确表达顾虑；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] alternative
+  词义: 替代方案
+  词性: noun
+  音标: UK /ɔːlˈtɜːnətɪv/ | US /ɔːlˈtɜːrnətɪv/
+  搭配: an alternative approach; consider an alternative
+  例句: Testing would be harder. Can we discuss an alternative over a mug of tea?
+  例句高亮: Testing would be harder. Can we discuss an **alternative** over a mug of tea?
+  例句中文: 测试会更难。我们能喝杯茶，讨论一个替代方案吗？
+  标注模式: context
+  标注说明: “Testing would be harder. Can we discuss an alternative over a mug of tea?”明确表达替代方案；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] mug
+  词义: 马克杯
+  词性: noun
+  音标: UK /mʌɡ/ | US /mʌɡ/
+  搭配: a mug of tea; a coffee mug
+  例句: Testing would be harder. Can we discuss an alternative over a mug of tea?
+  例句高亮: Testing would be harder. Can we discuss an alternative over a **mug** of tea?
+  例句中文: 测试会更难。我们能喝杯茶，讨论一个替代方案吗？
+  标注模式: object
+  标注说明: 马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.417, 0.527, 0.532, 0.625]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W049 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a small desk having a calm open-palm discussion. One large plain mug with clear loop handle stands alone at the front of the table, fully visible. Minimal other props.

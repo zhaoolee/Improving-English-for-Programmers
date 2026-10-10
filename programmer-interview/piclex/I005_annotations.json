@@ -1,0 +1,130 @@
+{
+  "filename": "I005.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "gap",
+      "chinese": "空档",
+      "phoneticUS": "/ɡæp/",
+      "phoneticUK": "/ɡæp/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：gap。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：gap。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+        "collocation": "a career gap; a gap on a resume",
+        "example": "A: The gap on my resume was a six-month break to care for a family member.\nB: How did you prepare to return to development?\nA: I built a small web app. My folder includes examples of my transferable testing skills.\nB: Tell me how you tested the app.",
+        "exampleChinese": "A: 我简历上的空档是照顾家人的六个月休假。\nB: 你为重返开发岗位做了哪些准备？\nA: 我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。\nB: 说说你是如何测试这个应用的。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "transferable",
+      "chinese": "可迁移的",
+      "phoneticUS": "/trænsˈfɜːrəbl/",
+      "phoneticUK": "/trænsˈfɜːrəbl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transferable。本卡例句：I built a small web app. My folder includes examples of my transferable testing skills.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transferable。本卡例句：I built a small web app. My folder includes examples of my transferable testing skills.",
+        "collocation": "transferable skills; transferable experience",
+        "example": "I built a small web app. My folder includes examples of my transferable testing skills.",
+        "exampleChinese": "我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "resume",
+      "chinese": "简历",
+      "phoneticUS": "/ˈrezəmeɪ/",
+      "phoneticUK": "/ˈrezjuːmeɪ/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resume。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resume。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+        "collocation": "a current resume; a gap on a resume",
+        "example": "The gap on my resume was a six-month break to care for a family member.",
+        "exampleChinese": "我简历上的空档是照顾家人的六个月休假。"
+      }
+    },
+    {
+      "x": 465,
+      "y": 872,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 785,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 465,
+        "y": 872
+      },
+      "boundingBox": {
+        "left": 246,
+        "top": 793,
+        "right": 680,
+        "bottom": 930
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。",
+        "association": "修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。",
+        "collocation": "a document folder; open a folder",
+        "example": "I built a small web app. My folder includes examples of my transferable testing skills.",
+        "exampleChinese": "我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains a career gap and the skills she brings to a new field.",
+    "chinese": "候选人解释职业空档，以及自己能带到新领域的技能。",
+    "source": "原创配文 · I005 解释职业空档或转岗经历",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

@@ -1,0 +1,246 @@
+{
+  "id": "V022",
+  "category": "interface",
+  "category_title": "界面与交互打磨",
+  "chapter": "界面与交互打磨",
+  "title": "给 AI 一张参考图怎么说？",
+  "keyword": "reference",
+  "scene": "用参考、反馈与异常状态提高可用性",
+  "target_count": 4,
+  "primary_words": [
+    "reference",
+    "match",
+    "preserve",
+    "tablet"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "reference",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "参考",
+      "pos": "noun",
+      "ipa_us": "/ˈrefərəns/",
+      "ipa_uk": "/ˈrefərəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Use the reference image on this tablet for spacing and visual rhythm.",
+        "matched_form": "reference",
+        "referent_region_verified": false,
+        "context": "参考关系由对白说明，不把设备本身等同于参考原则。",
+        "image_verified": null
+      },
+      "example_en": "Use the reference image on this tablet for spacing and visual rhythm.",
+      "example_zh": "用这台平板上的参考图来借鉴间距和视觉节奏。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a visual reference",
+        "use as a reference"
+      ],
+      "example_en_highlighted": "Use the **reference** image on this tablet for spacing and visual rhythm.",
+      "annotation_mode": "context",
+      "annotation_note": "参考关系由对白说明，不把设备本身等同于参考原则。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "match",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "匹配",
+      "pos": "verb",
+      "ipa_us": "/mætʃ/",
+      "ipa_uk": "/mætʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Which parts should I match, and which parts should stay original?",
+        "matched_form": "match",
+        "referent_region_verified": false,
+        "context": "匹配是设计要求，静态画面不能证明结果一致。",
+        "image_verified": null
+      },
+      "example_en": "Which parts should I match, and which parts should stay original?",
+      "example_zh": "哪些部分需要匹配，哪些部分应该保持原创？",
+      "bbox_normalized": null,
+      "collocations": [
+        "match the spacing",
+        "match a style"
+      ],
+      "example_en_highlighted": "Which parts should I **match**, and which parts should stay original?",
+      "annotation_mode": "context",
+      "annotation_note": "匹配是设计要求，静态画面不能证明结果一致。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "preserve",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "保留",
+      "pos": "verb",
+      "ipa_us": "/prɪˈzɜːrv/",
+      "ipa_uk": "/prɪˈzɜːv/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Preserve our layout and use the reference only as guidance.",
+        "matched_form": "preserve",
+        "referent_region_verified": false,
+        "context": "保留指修改约束，由对白明确，没有局部物体框。",
+        "image_verified": null
+      },
+      "example_en": "Preserve our layout and use the reference only as guidance.",
+      "example_zh": "保留我们的布局，只把参考图当作指导。",
+      "bbox_normalized": null,
+      "collocations": [
+        "preserve the layout",
+        "preserve existing behavior"
+      ],
+      "example_en_highlighted": "**Preserve** our layout and use the reference only as guidance.",
+      "annotation_mode": "context",
+      "annotation_note": "保留指修改约束，由对白明确，没有局部物体框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "tablet",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "平板电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈtæblət/",
+      "ipa_uk": "/ˈtæblət/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整可见的平板边框与屏幕是直接指代，只框设备。",
+        "sentence": "Use the reference image on this tablet for spacing and visual rhythm.",
+        "matched_form": "tablet",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Use the reference image on this tablet for spacing and visual rhythm.",
+      "example_zh": "用这台平板上的参考图来借鉴间距和视觉节奏。",
+      "bbox_normalized": [
+        0.362,
+        0.292,
+        0.618,
+        0.65
+      ],
+      "collocations": [
+        "on this tablet",
+        "a tablet screen"
+      ],
+      "example_en_highlighted": "Use the reference image on this **tablet** for spacing and visual rhythm.",
+      "annotation_mode": "object",
+      "annotation_note": "完整可见的平板边框与屏幕是直接指代，只框设备。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer explains how an AI assistant should use a visual reference without copying it blindly.",
+    "zh": "程序员说明 AI 应如何使用视觉参考，而不是盲目照搬。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer explains how an AI assistant should use a visual reference without copying it blindly.",
+    "zh": "程序员说明 AI 应如何使用视觉参考，而不是盲目照搬。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Use the reference image on this tablet for spacing and visual rhythm.",
+      "zh": "用这台平板上的参考图来借鉴间距和视觉节奏。"
+    },
+    {
+      "speaker": "B",
+      "en": "Which parts should I match, and which parts should stay original?",
+      "zh": "哪些部分需要匹配，哪些部分应该保持原创？"
+    },
+    {
+      "speaker": "A",
+      "en": "Preserve our layout and use the reference only as guidance.",
+      "zh": "保留我们的布局，只把参考图当作指导。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll match the spacing without copying its content.",
+      "zh": "我会匹配间距，但不会复制它的内容。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "明确参考图中要借鉴与必须保留的部分。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left and holds a large tablet upright at center, angled slightly toward the floating white OpenAI knot at the right. The tablet has a complete bezel and a blank black screen containing only three simple unlabeled white layout rectangles. Both hands stay at the outer bezel and do not cover the screen. No letters, icons, captions or extra devices.",
+  "status": "approved",
+  "image_path": "images/V022.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V022 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V022.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V022_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V022.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，恰好一个成年火柴人和一个 OpenAI 标识。平板电脑边框、屏幕和按键完整可见且没有可读内容；reference、match、preserve 保持语境词。"
+  }
+}

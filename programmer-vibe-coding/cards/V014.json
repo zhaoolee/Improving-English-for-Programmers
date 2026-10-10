@@ -1,0 +1,246 @@
+{
+  "id": "V014",
+  "category": "context",
+  "category_title": "让 AI 理解项目",
+  "chapter": "让 AI 理解项目",
+  "title": "上下文太多，也会迷路",
+  "keyword": "relevant",
+  "scene": "程序员让 AI 只保留与当前任务相关的上下文。",
+  "target_count": 4,
+  "primary_words": [
+    "relevant",
+    "context",
+    "filter",
+    "screen"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "relevant",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "相关的",
+      "pos": "adjective",
+      "ipa_us": "/ˈreləvənt/",
+      "ipa_uk": "/ˈreləvənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "There is too much context. Which files are relevant to this bug?",
+        "matched_form": "relevant",
+        "referent_region_verified": false,
+        "context": "相关性由对白与任务决定，纸张或屏幕外观不能证明关联。",
+        "image_verified": null
+      },
+      "example_en": "There is too much context. Which files are relevant to this bug?",
+      "example_zh": "上下文太多了，哪些文件与这个缺陷有关？",
+      "bbox_normalized": null,
+      "collocations": [
+        "relevant files",
+        "relevant to this bug"
+      ],
+      "example_en_highlighted": "There is too much context. Which files are **relevant** to this bug?",
+      "annotation_mode": "context",
+      "annotation_note": "相关性由对白与任务决定，纸张或屏幕外观不能证明关联。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "context",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "上下文",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːntekst/",
+      "ipa_uk": "/ˈkɒntekst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "There is too much context. Which files are relevant to this bug?",
+        "matched_form": "context",
+        "referent_region_verified": false,
+        "context": "这里是任务背景信息，不把整张图或纸堆当成其局部指代。",
+        "image_verified": null
+      },
+      "example_en": "There is too much context. Which files are relevant to this bug?",
+      "example_zh": "上下文太多了，哪些文件与这个缺陷有关？",
+      "bbox_normalized": null,
+      "collocations": [
+        "task context",
+        "provide context"
+      ],
+      "example_en_highlighted": "There is too much **context**. Which files are relevant to this bug?",
+      "annotation_mode": "context",
+      "annotation_note": "这里是任务背景信息，不把整张图或纸堆当成其局部指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "filter",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "筛选",
+      "pos": "verb",
+      "ipa_us": "/ˈfɪltər/",
+      "ipa_uk": "/ˈfɪltə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Filter out the unrelated files. I'll keep the error log on this screen.",
+        "matched_form": "filter",
+        "referent_region_verified": false,
+        "context": "这里指筛掉无关资料，静态画面不能证明确实完成筛选。",
+        "image_verified": null
+      },
+      "example_en": "Filter out the unrelated files. I'll keep the error log on this screen.",
+      "example_zh": "筛掉无关文件。我会在这个屏幕上保留错误日志。",
+      "bbox_normalized": null,
+      "collocations": [
+        "filter out unrelated files",
+        "filter the results"
+      ],
+      "example_en_highlighted": "**Filter** out the unrelated files. I'll keep the error log on this screen.",
+      "annotation_mode": "context",
+      "annotation_note": "这里指筛掉无关资料，静态画面不能证明确实完成筛选。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "screen",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "屏幕",
+      "pos": "noun",
+      "ipa_us": "/skriːn/",
+      "ipa_uk": "/skriːn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示器内屏是实际可见指代；不声称能读取空白内屏中的日志。",
+        "sentence": "Filter out the unrelated files. I'll keep the error log on this screen.",
+        "matched_form": "screen",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Filter out the unrelated files. I'll keep the error log on this screen.",
+      "example_zh": "筛掉无关文件。我会在这个屏幕上保留错误日志。",
+      "bbox_normalized": [
+        0.401,
+        0.329,
+        0.688,
+        0.503
+      ],
+      "collocations": [
+        "on this screen",
+        "a monitor screen"
+      ],
+      "example_en_highlighted": "Filter out the unrelated files. I'll keep the error log on this **screen**.",
+      "annotation_mode": "object",
+      "annotation_note": "显示器内屏是实际可见指代；不声称能读取空白内屏中的日志。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to keep only the context relevant to the current task.",
+    "zh": "程序员让 AI 只保留与当前任务相关的上下文。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to keep only the context relevant to the current task.",
+    "zh": "程序员让 AI 只保留与当前任务相关的上下文。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "There is too much context. Which files are relevant to this bug?",
+      "zh": "上下文太多了，哪些文件与这个缺陷有关？"
+    },
+    {
+      "speaker": "B",
+      "en": "The error log and the request handler are useful. The old design notes are not needed.",
+      "zh": "错误日志和请求处理代码有用，旧的设计笔记不需要。"
+    },
+    {
+      "speaker": "A",
+      "en": "Filter out the unrelated files. I'll keep the error log on this screen.",
+      "zh": "筛掉无关文件。我会在这个屏幕上保留错误日志。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll focus on those two sources and ask if I need more information.",
+      "zh": "我会专注于这两份资料，需要更多信息时再问。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "筛选必要上下文，避免无关信息干扰当前任务。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a small desk and points toward a large desktop monitor at center. The monitor has a clear rectangular bezel and a fully blank black inner screen, outlined in white. Show the whole inner screen unobstructed; keep the pointing hand outside the bezel. The floating white OpenAI knot is at the right. A small pile of blank papers rests aside at the far left of the desk, representing unnecessary context, away from the monitor. No writing, symbols or UI text.",
+  "status": "approved",
+  "image_path": "images/V014.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V014 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V014.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T05:44:26Z",
+    "ended_at": "2026-10-09T05:46:23Z",
+    "prompt_path": "prompts/V014_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V014.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。显示器内屏完整，指手不遮主体；额外键盘、鼠标与纸堆不参与教学，只框内屏。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。"
+  }
+}

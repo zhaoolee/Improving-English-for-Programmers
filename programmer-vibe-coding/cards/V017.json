@@ -1,0 +1,246 @@
+{
+  "id": "V017",
+  "category": "implementation",
+  "category_title": "拆任务、写功能",
+  "chapter": "拆任务、写功能",
+  "title": "先做一条能走通的主流程",
+  "keyword": "flow",
+  "scene": "程序员与 AI 先打通最小主流程，再添加额外功能。",
+  "target_count": 4,
+  "primary_words": [
+    "flow",
+    "minimal",
+    "complete",
+    "button"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "flow",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "流程",
+      "pos": "noun",
+      "ipa_us": "/floʊ/",
+      "ipa_uk": "/fləʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Start with a minimal flow: click this button and save one item.",
+        "matched_form": "flow",
+        "referent_region_verified": false,
+        "context": "这里是从点击到保存的操作流程，单个按钮不是流程本身，含义由对白支持。",
+        "image_verified": null
+      },
+      "example_en": "Start with a minimal flow: click this button and save one item.",
+      "example_zh": "先做最小流程：点击这个按钮，保存一条记录。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a basic flow",
+        "complete the flow"
+      ],
+      "example_en_highlighted": "Start with a minimal **flow**: click this button and save one item.",
+      "annotation_mode": "context",
+      "annotation_note": "这里是从点击到保存的操作流程，单个按钮不是流程本身，含义由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "minimal",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "最小的",
+      "pos": "adjective",
+      "ipa_us": "/ˈmɪnɪməl/",
+      "ipa_uk": "/ˈmɪnɪməl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Start with a minimal flow: click this button and save one item.",
+        "matched_form": "minimal",
+        "referent_region_verified": false,
+        "context": "最小指功能范围，不是图中按钮的物理尺寸。",
+        "image_verified": null
+      },
+      "example_en": "Start with a minimal flow: click this button and save one item.",
+      "example_zh": "先做最小流程：点击这个按钮，保存一条记录。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a minimal flow",
+        "a minimal version"
+      ],
+      "example_en_highlighted": "Start with a **minimal** flow: click this button and save one item.",
+      "annotation_mode": "context",
+      "annotation_note": "最小指功能范围，不是图中按钮的物理尺寸。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "complete",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "完成",
+      "pos": "verb",
+      "ipa_us": "/kəmˈpliːt/",
+      "ipa_uk": "/kəmˈpliːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Not yet. Complete the basic flow first, then let me try it.",
+        "matched_form": "complete",
+        "referent_region_verified": false,
+        "context": "完成是对白中的请求，画面不能证明功能已实现或测试通过。",
+        "image_verified": null
+      },
+      "example_en": "Not yet. Complete the basic flow first, then let me try it.",
+      "example_zh": "先不用。先完成基本流程，再让我试一下。",
+      "bbox_normalized": null,
+      "collocations": [
+        "complete the flow",
+        "complete a task"
+      ],
+      "example_en_highlighted": "Not yet. **Complete** the basic flow first, then let me try it.",
+      "annotation_mode": "context",
+      "annotation_note": "完成是对白中的请求，画面不能证明功能已实现或测试通过。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "button",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "按钮",
+      "pos": "noun",
+      "ipa_us": "/ˈbʌtən/",
+      "ipa_uk": "/ˈbʌtən/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "屏幕中唯一完整的圆角矩形按钮是实际可见指代，其保存功能由对白定义。",
+        "sentence": "Start with a minimal flow: click this button and save one item.",
+        "matched_form": "button",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Start with a minimal flow: click this button and save one item.",
+      "example_zh": "先做最小流程：点击这个按钮，保存一条记录。",
+      "bbox_normalized": [
+        0.427,
+        0.37,
+        0.634,
+        0.44
+      ],
+      "collocations": [
+        "click this button",
+        "a save button"
+      ],
+      "example_en_highlighted": "Start with a minimal flow: click this **button** and save one item.",
+      "annotation_mode": "object",
+      "annotation_note": "屏幕中唯一完整的圆角矩形按钮是实际可见指代，其保存功能由对白定义。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer and an AI assistant build a minimal flow before adding extra features.",
+    "zh": "程序员与 AI 先打通最小主流程，再添加额外功能。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer and an AI assistant build a minimal flow before adding extra features.",
+    "zh": "程序员与 AI 先打通最小主流程，再添加额外功能。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Start with a minimal flow: click this button and save one item.",
+      "zh": "先做最小流程：点击这个按钮，保存一条记录。"
+    },
+    {
+      "speaker": "B",
+      "en": "Should I add filters and bulk editing now?",
+      "zh": "现在要加筛选和批量编辑吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "Not yet. Complete the basic flow first, then let me try it.",
+      "zh": "先不用。先完成基本流程，再让我试一下。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll build that path and check that the saved item appears in the list.",
+      "zh": "我会先实现这条路径，并检查保存的记录是否出现在列表里。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先完成可运行的主流程，用实际操作验证。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a simple desk beside a desktop monitor at center. On the blank black screen draw exactly one large rounded-rectangle outline button, horizontally centered. The button has no label, icon or letters and is clearly distinct from the larger monitor frame. Keep the entire button unobstructed. The programmer points toward it with the finger outside the monitor. A floating white OpenAI knot at right. No other UI elements or objects.",
+  "status": "approved",
+  "image_path": "images/V017.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V017 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V017.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T05:44:26Z",
+    "ended_at": "2026-10-09T05:46:23Z",
+    "prompt_path": "prompts/V017_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V017.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。屏幕中唯一圆角按钮边界完整；其功能来自对白，不从空白按钮推断保存成功。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。"
+  }
+}

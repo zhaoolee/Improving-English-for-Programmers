@@ -1,0 +1,130 @@
+{
+  "filename": "W038-提出技术风险.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "risk",
+      "chinese": "风险",
+      "phoneticUS": "/rɪsk/",
+      "phoneticUK": "/rɪsk/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What is the main risk of calling the external service?”明确表达风险；单幅画面不能独立证明，不设局部框。",
+        "association": "“What is the main risk of calling the external service?”明确表达风险；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a technical risk; reduce the risk",
+        "example": "A: What is the main risk of calling the external service?\nB: A slow response could hold up the entire request.\nA: I'll use this notebook to record how we can mitigate it.\nB: Set a time limit and use a fallback when it expires.",
+        "exampleChinese": "A: 调用外部服务的主要风险是什么？\nB: 响应缓慢可能拖住整个请求。\nA: 我用这个笔记本记录我们可以怎样降低风险。\nB: 设置时限，超时后使用备用方案。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "mitigate",
+      "chinese": "降低风险",
+      "phoneticUS": "/ˈmɪtɪɡeɪt/",
+      "phoneticUK": "/ˈmɪtɪɡeɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll use this notebook to record how we can mitigate it.”明确表达降低风险；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll use this notebook to record how we can mitigate it.”明确表达降低风险；单幅画面不能独立证明，不设局部框。",
+        "collocation": "mitigate a risk; mitigate the impact",
+        "example": "I'll use this notebook to record how we can mitigate it.",
+        "exampleChinese": "我用这个笔记本记录我们可以怎样降低风险。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "limit",
+      "chinese": "限制",
+      "phoneticUS": "/ˈlɪmɪt/",
+      "phoneticUK": "/ˈlɪmɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Set a time limit and use a fallback when it expires.”明确表达限制；单幅画面不能独立证明，不设局部框。",
+        "association": "“Set a time limit and use a fallback when it expires.”明确表达限制；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a time limit; set a limit",
+        "example": "Set a time limit and use a fallback when it expires.",
+        "exampleChinese": "设置时限，超时后使用备用方案。"
+      }
+    },
+    {
+      "x": 531,
+      "y": 607,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 780
+      },
+      "anchorPosition": {
+        "x": 531,
+        "y": 607
+      },
+      "boundingBox": {
+        "left": 375,
+        "top": 538,
+        "right": 708,
+        "bottom": 660
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "in this notebook; write in a notebook",
+        "example": "I'll use this notebook to record how we can mitigate it.",
+        "exampleChinese": "我用这个笔记本记录我们可以怎样降低风险。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer raises a technical risk and proposes a safeguard.",
+    "chinese": "开发者提出技术风险，并建议防护措施。",
+    "source": "原创对话 · W038 提出技术风险",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

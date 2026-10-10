@@ -1,0 +1,130 @@
+{
+  "filename": "I011.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "clarify",
+      "chinese": "澄清",
+      "phoneticUS": "/ˈklærəfaɪ/",
+      "phoneticUK": "/ˈklærɪfaɪ/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：clarify。本卡例句：Before I type on the laptop, may I clarify the expected input?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：clarify。本卡例句：Before I type on the laptop, may I clarify the expected input?",
+        "collocation": "clarify the input; clarify a requirement",
+        "example": "A: Before I type on the laptop, may I clarify the expected input?\nB: You'll receive an array of integers.\nA: Can the array contain a duplicate value, and can it be empty?\nB: Yes to both. Please explain how you handle those cases.",
+        "exampleChinese": "A: 在笔记本电脑上输入代码前，我可以先确认一下预期的输入吗？\nB: 你会收到一个整数数组。\nA: 数组中可以有重复值吗？可以为空吗？\nB: 两种情况都可以。请说明你如何处理它们。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "input",
+      "chinese": "输入",
+      "phoneticUS": "/ˈɪnpʊt/",
+      "phoneticUK": "/ˈɪnpʊt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：input。本卡例句：Before I type on the laptop, may I clarify the expected input?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：input。本卡例句：Before I type on the laptop, may I clarify the expected input?",
+        "collocation": "expected input; an empty input",
+        "example": "Before I type on the laptop, may I clarify the expected input?",
+        "exampleChinese": "在笔记本电脑上输入代码前，我可以先确认一下预期的输入吗？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "duplicate",
+      "chinese": "重复的",
+      "phoneticUS": "/ˈduːplɪkət/",
+      "phoneticUK": "/ˈdjuːplɪkət/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：duplicate。本卡例句：Can the array contain a duplicate value, and can it be empty?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：duplicate。本卡例句：Can the array contain a duplicate value, and can it be empty?",
+        "collocation": "a duplicate value; a duplicate entry",
+        "example": "Can the array contain a duplicate value, and can it be empty?",
+        "exampleChinese": "数组中可以有重复值吗？可以为空吗？"
+      }
+    },
+    {
+      "x": 638,
+      "y": 780,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 720,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 638,
+        "y": 780
+      },
+      "boundingBox": {
+        "left": 310,
+        "top": 565,
+        "right": 915,
+        "bottom": 850
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面中央打开的笔记本电脑，实际屏幕和键盘可见；不根据模糊代码确认输入。",
+        "association": "桌面中央打开的笔记本电脑，实际屏幕和键盘可见；不根据模糊代码确认输入。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "Before I type on the laptop, may I clarify the expected input?",
+        "exampleChinese": "在笔记本电脑上输入代码前，我可以先确认一下预期的输入吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Before coding, a candidate asks the interviewer to clarify the problem.",
+    "chinese": "开始编码前，候选人请面试官澄清题意。",
+    "source": "原创配文 · I011 动手前确认题意与边界",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

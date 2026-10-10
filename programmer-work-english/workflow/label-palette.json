@@ -354,7 +354,199 @@
       "interrupt": "lavender",
       "available": "rose",
       "timer": "teal"
+    },
+    "W007": {
+      "habit": "blue",
+      "focus": "lavender",
+      "break": "rose",
+      "plate": "teal"
+    },
+    "W008": {
+      "available": "blue",
+      "discuss": "lavender",
+      "brief": "rose",
+      "clock": "teal"
+    },
+    "W009": {
+      "introduce": "blue",
+      "join": "lavender",
+      "support": "rose",
+      "headset": "teal"
+    },
+    "W010": {
+      "handover": "blue",
+      "locate": "lavender",
+      "complete": "rose",
+      "folder": "teal"
+    },
+    "W017": {
+      "wording": "blue",
+      "specific": "lavender",
+      "retry": "rose",
+      "monitor": "teal"
+    },
+    "W018": {
+      "consistent": "blue",
+      "design": "lavender",
+      "requirement": "rose",
+      "tablet": "teal"
+    },
+    "W019": {
+      "change": "blue",
+      "impact": "lavender",
+      "approve": "rose",
+      "notebook": "teal"
+    },
+    "W020": {
+      "understanding": "blue",
+      "confirm": "lavender",
+      "exclude": "rose",
+      "board": "teal"
+    },
+    "W027": {
+      "deliver": "blue",
+      "scope": "lavender",
+      "commit": "rose",
+      "calendar": "teal"
+    },
+    "W028": {
+      "dependency": "blue",
+      "follow": "lavender",
+      "ready": "rose",
+      "phone": "teal"
+    },
+    "W029": {
+      "status": "blue",
+      "progress": "lavender",
+      "remaining": "rose",
+      "keyboard": "teal"
+    },
+    "W030": {
+      "unfinished": "blue",
+      "transfer": "lavender",
+      "context": "rose",
+      "document": "teal"
+    },
+    "W037": {
+      "maintenance": "blue",
+      "simple": "lavender",
+      "cost": "rose",
+      "board": "teal"
+    },
+    "W038": {
+      "risk": "blue",
+      "mitigate": "lavender",
+      "limit": "rose",
+      "notebook": "teal"
+    },
+    "W039": {
+      "tradeoff": "blue",
+      "latency": "lavender",
+      "acceptable": "rose",
+      "monitor": "teal"
+    },
+    "W040": {
+      "decision": "blue",
+      "rationale": "lavender",
+      "record": "rose",
+      "pen": "teal"
+    },
+    "W047": {
+      "conflict": "blue",
+      "resolve": "lavender",
+      "branch": "rose",
+      "keyboard": "teal"
+    },
+    "W048": {
+      "coverage": "blue",
+      "edge": "lavender",
+      "assert": "rose",
+      "laptop": "teal"
+    },
+    "W049": {
+      "disagree": "blue",
+      "concern": "lavender",
+      "alternative": "rose",
+      "mug": "teal"
+    },
+    "W050": {
+      "merge": "blue",
+      "review": "lavender",
+      "pass": "rose",
+      "mouse": "teal"
+    },
+    "W057": {
+      "isolate": "blue",
+      "affected": "lavender",
+      "region": "rose",
+      "board": "teal"
+    },
+    "W058": {
+      "verify": "blue",
+      "fix": "lavender",
+      "regression": "rose",
+      "laptop": "teal"
+    },
+    "W059": {
+      "reproduce": "blue",
+      "environment": "lavender",
+      "evidence": "rose",
+      "monitor": "teal"
+    },
+    "W060": {
+      "report": "blue",
+      "expected": "lavender",
+      "actual": "rose",
+      "document": "teal"
+    },
+    "W067": {
+      "update": "blue",
+      "investigate": "lavender",
+      "estimate": "rose",
+      "phone": "teal"
+    },
+    "W068": {
+      "recover": "blue",
+      "stable": "lavender",
+      "observe": "rose",
+      "monitor": "teal"
+    },
+    "W069": {
+      "alert": "blue",
+      "shift": "lavender",
+      "escalate": "rose",
+      "notebook": "teal"
+    },
+    "W070": {
+      "blameless": "blue",
+      "contribute": "lavender",
+      "prevent": "rose",
+      "board": "teal"
+    },
+    "W077": {
+      "feedback": "blue",
+      "specific": "lavender",
+      "improve": "rose",
+      "notebook": "teal"
+    },
+    "W078": {
+      "project": "blue",
+      "challenge": "lavender",
+      "result": "rose",
+      "laptop": "teal"
+    },
+    "W079": {
+      "growth": "blue",
+      "skill": "lavender",
+      "mentor": "rose",
+      "calendar": "teal"
+    },
+    "W080": {
+      "appreciate": "blue",
+      "guidance": "lavender",
+      "confidence": "rose",
+      "mug": "teal"
     }
   },
-  "wordsTotal": 192
+  "wordsTotal": 320
 }

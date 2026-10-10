@@ -1,0 +1,130 @@
+{
+  "filename": "V012-让 AI 先读项目地图.png",
+  "labels": [
+    {
+      "x": 260,
+      "y": 80,
+      "english": "structure",
+      "chinese": "结构",
+      "phoneticUS": "/ˈstrʌktʃər/",
+      "phoneticUK": "/ˈstrʌktʃə/",
+      "bubblePosition": {
+        "x": 260,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "项目组织由对白指定，单个文件夹图标无法展示真实项目结构。",
+        "association": "项目组织由对白指定，单个文件夹图标无法展示真实项目结构。",
+        "collocation": "project structure; inspect the structure",
+        "example": "A: Before editing, inspect the project structure and open the source folder.\nB: Which module handles requests from the browser?\nA: Start with the API module, then trace its dependency on the database layer.\nB: I'll summarize what I find before proposing a change.",
+        "exampleChinese": "A: 编辑前，先检查项目结构并打开源代码文件夹。\nB: 哪个模块处理来自浏览器的请求？\nA: 先从 API 模块开始，再追踪它对数据库层的依赖。\nB: 我会先总结发现，再提出改动建议。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 80,
+      "english": "module",
+      "chinese": "模块",
+      "phoneticUS": "/ˈmɑːdʒuːl/",
+      "phoneticUK": "/ˈmɒdjuːl/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是软件代码模块，不能把图标框当代码模块。",
+        "association": "这里是软件代码模块，不能把图标框当代码模块。",
+        "collocation": "the API module; a software module",
+        "example": "Which module handles requests from the browser?",
+        "exampleChinese": "哪个模块处理来自浏览器的请求？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 220,
+      "english": "dependency",
+      "chinese": "依赖",
+      "phoneticUS": "/dɪˈpendənsi/",
+      "phoneticUK": "/dɪˈpendənsi/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 220
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件依赖由对白说明，没有局部可见指代。",
+        "association": "软件依赖由对白说明，没有局部可见指代。",
+        "collocation": "a dependency on; trace a dependency",
+        "example": "Start with the API module, then trace its dependency on the database layer.",
+        "exampleChinese": "先从 API 模块开始，再追踪它对数据库层的依赖。"
+      }
+    },
+    {
+      "x": 490,
+      "y": 409,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 409
+      },
+      "boundingBox": {
+        "left": 384,
+        "top": 318,
+        "right": 596,
+        "bottom": 478
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕中的文件夹图标是可定位的指代，不证明其实际内容。",
+        "association": "屏幕中的文件夹图标是可定位的指代，不证明其实际内容。",
+        "collocation": "the source folder; open a folder",
+        "example": "Before editing, inspect the project structure and open the source folder.",
+        "exampleChinese": "编辑前，先检查项目结构并打开源代码文件夹。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to inspect the project structure before proposing changes.",
+    "chinese": "程序员让 AI 先检查项目结构，再提出改动建议。",
+    "source": "原创对话 · V012 让 AI 先读项目地图",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

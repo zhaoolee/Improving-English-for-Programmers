@@ -1,0 +1,284 @@
+{
+  "id": "I017",
+  "category": "fundamentals",
+  "title_zh": "说明一次 HTTP 请求的流程",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "欧洲女候选人从浏览器请求出发讲解 HTTP 流程，亚洲女面试官看小型节点图。",
+  "cast": {
+    "candidate": "EU_SOFIA",
+    "interviewer": "AS_HANA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.\nInterviewer or recruiter: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.\nExactly two people discussing an HTTP request in an interview. Sofia, in a sage blouse, sits beside an open laptop and a small paper sketch with three unlabeled boxes linked by arrows. She traces the sequence gently with a pen, then makes eye contact with Hana, the interviewer in an ivory blouse and navy blazer. The laptop screen has a neutral browser-like rectangle without legible content. Photograph at seated eye level with a 50mm three-quarter view, showing both faces, the whole laptop and the sketch. Soft morning daylight, a clean cream interior and grounded material detail. No floating network globe, visible URLs or magical streams of data.",
+  "prompt_path": "prompts/I017_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I017.png",
+  "image_sha256": "f697538eb0c7a24a87ef61e1f910aec6a081d7e7036224a8440b11850b7f61cc",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留 实际可见物件：修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I017_generate.txt",
+    "source_path": "images/I017.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:36:35 UTC",
+    "selected_image_path": "images/I017.png",
+    "selected_image_sha256": "f697538eb0c7a24a87ef61e1f910aec6a081d7e7036224a8440b11850b7f61cc",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "pre_edit_selected_source_path": null,
+    "pre_edit_selected_image_sha256": "e8ee25384991c310174d33f8c38d7f868a3cf8ac5c24f7418b60e6d0083440ff",
+    "pre_edit_selected_image_dimensions": "1122x1402",
+    "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-cca58cfe-f7c3-465e-bbbe-1905e20c3e30.png",
+    "edit_chain": [
+      {
+        "step": 1,
+        "note": "定向物件编辑",
+        "prompt_path": "workflow/learning-40-20261010/edit-prompts/I017_edit.txt",
+        "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-cca58cfe-f7c3-465e-bbbe-1905e20c3e30.png",
+        "started_at_utc": "2026-10-10T02:34:36Z",
+        "finished_at_utc": "2026-10-10T02:35:14Z",
+        "review": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留。"
+      }
+    ],
+    "edit_journal_path": "workflow/learning-40-20261010/image-edit-journal.json",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-10T02:34:36Z",
+    "ended_at": "2026-10-10T02:35:14Z",
+    "prompt_path": "prompts/I017_image_final.txt"
+  },
+  "title": "说明一次 HTTP 请求的流程",
+  "scene": "欧洲女候选人从浏览器请求出发讲解 HTTP 流程，亚洲女面试官看小型节点图。",
+  "category_title": "技术基础与原理问答",
+  "primary_words": [
+    "request",
+    "response",
+    "server",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "request",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "请求",
+      "pos": "noun",
+      "ipa_us": "/rɪˈkwest/",
+      "ipa_uk": "/rɪˈkwest/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The client sends a request to the server, which returns a response.",
+        "matched_form": "request",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：request。本卡例句：The client sends a request to the server, which returns a response.",
+        "image_verified": null
+      },
+      "example_en": "The client sends a request to the server, which returns a response.",
+      "example_zh": "客户端向服务器发送请求，服务器返回响应。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an HTTP request",
+        "handle a request"
+      ],
+      "example_en_highlighted": "The client sends a **request** to the server, which returns a response.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：request。本卡例句：The client sends a request to the server, which returns a response.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "response",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "响应",
+      "pos": "noun",
+      "ipa_us": "/rɪˈspɑːns/",
+      "ipa_uk": "/rɪˈspɒns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The client sends a request to the server, which returns a response.",
+        "matched_form": "response",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：response。本卡例句：The client sends a request to the server, which returns a response.",
+        "image_verified": null
+      },
+      "example_en": "The client sends a request to the server, which returns a response.",
+      "example_zh": "客户端向服务器发送请求，服务器返回响应。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an HTTP response",
+        "a response body"
+      ],
+      "example_en_highlighted": "The client sends a request to the server, which returns a **response**.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：response。本卡例句：The client sends a request to the server, which returns a response.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "server",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "服务器",
+      "pos": "noun",
+      "ipa_us": "/ˈsɜːrvər/",
+      "ipa_uk": "/ˈsɜːvə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The client sends a request to the server, which returns a response.",
+        "matched_form": "server",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：server。本卡例句：The client sends a request to the server, which returns a response.",
+        "image_verified": null
+      },
+      "example_en": "The client sends a request to the server, which returns a response.",
+      "example_zh": "客户端向服务器发送请求，服务器返回响应。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a web server",
+        "the server response"
+      ],
+      "example_en_highlighted": "The client sends a request to the **server**, which returns a response.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：server。本卡例句：The client sends a request to the server, which returns a response.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "示意图",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。",
+        "sentence": "A status code, headers, and possibly a body. This diagram shows the two directions.",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A status code, headers, and possibly a body. This diagram shows the two directions.",
+      "example_zh": "状态码、响应头，以及可能存在的响应体。这张示意图展示了两个方向。",
+      "bbox_normalized": [
+        0.315,
+        0.655,
+        0.745,
+        0.741
+      ],
+      "collocations": [
+        "a flow diagram",
+        "explain a diagram"
+      ],
+      "example_en_highlighted": "A status code, headers, and possibly a body. This **diagram** shows the two directions.",
+      "annotation_mode": "object",
+      "annotation_note": "修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "技术基础与原理问答",
+  "keyword": "request",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate uses a paper diagram to describe an HTTP exchange.",
+    "zh": "候选人借助纸上的示意图说明一次 HTTP 交互。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate uses a paper diagram to describe an HTTP exchange.",
+    "zh": "候选人借助纸上的示意图说明一次 HTTP 交互。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "The client sends a request to the server, which returns a response.",
+      "zh": "客户端向服务器发送请求，服务器返回响应。"
+    },
+    {
+      "speaker": "B",
+      "en": "What information does an HTTP response contain?",
+      "zh": "HTTP 响应包含哪些信息？"
+    },
+    {
+      "speaker": "A",
+      "en": "A status code, headers, and possibly a body. This diagram shows the two directions.",
+      "zh": "状态码、响应头，以及可能存在的响应体。这张示意图展示了两个方向。"
+    },
+    {
+      "speaker": "B",
+      "en": "How would you handle a failed request?",
+      "zh": "你会如何处理失败的请求？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用清晰英语解释常见技术概念、区别和适用条件。本卡主题：说明一次 HTTP 请求的流程。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I017 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I017.png 宽高归一化至 0..1；由人工视觉定位。"
+}

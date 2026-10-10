@@ -1,0 +1,246 @@
+{
+  "id": "V015",
+  "category": "context",
+  "category_title": "让 AI 理解项目",
+  "chapter": "让 AI 理解项目",
+  "title": "交接前留下能恢复的记录",
+  "keyword": "resume",
+  "scene": "程序员让 AI 留下交接记录，以便稍后恢复工作。",
+  "target_count": 4,
+  "primary_words": [
+    "resume",
+    "record",
+    "pending",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "resume",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "继续",
+      "pos": "verb",
+      "ipa_us": "/rɪˈzuːm/",
+      "ipa_uk": "/rɪˈzjuːm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Before we stop, record our progress so I can resume tomorrow.",
+        "matched_form": "resume",
+        "referent_region_verified": false,
+        "context": "这里是恢复之前的工作，不是名词简历；由对白明确含义，没有局部可见指代。",
+        "image_verified": null
+      },
+      "example_en": "Before we stop, record our progress so I can resume tomorrow.",
+      "example_zh": "结束前，记录我们的进度，方便我明天继续。",
+      "bbox_normalized": null,
+      "collocations": [
+        "resume work",
+        "resume tomorrow"
+      ],
+      "example_en_highlighted": "Before we stop, record our progress so I can **resume** tomorrow.",
+      "annotation_mode": "context",
+      "annotation_note": "这里是恢复之前的工作，不是名词简历；由对白明确含义，没有局部可见指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "record",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "记录",
+      "pos": "verb",
+      "ipa_us": "/rɪˈkɔːrd/",
+      "ipa_uk": "/rɪˈkɔːd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Before we stop, record our progress so I can resume tomorrow.",
+        "matched_form": "record",
+        "referent_region_verified": false,
+        "context": "这里为动词，写字道具只提供情境，不能证明记录内容已经保存。",
+        "image_verified": null
+      },
+      "example_en": "Before we stop, record our progress so I can resume tomorrow.",
+      "example_zh": "结束前，记录我们的进度，方便我明天继续。",
+      "bbox_normalized": null,
+      "collocations": [
+        "record progress",
+        "record the results"
+      ],
+      "example_en_highlighted": "Before we stop, **record** our progress so I can resume tomorrow.",
+      "annotation_mode": "context",
+      "annotation_note": "这里为动词，写字道具只提供情境，不能证明记录内容已经保存。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "pending",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "待处理的",
+      "pos": "adjective",
+      "ipa_us": "/ˈpendɪŋ/",
+      "ipa_uk": "/ˈpendɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll note what changed, what passed, and what is still pending.",
+        "matched_form": "pending",
+        "referent_region_verified": false,
+        "context": "任务状态来自交接对白，不能从静态笔记本判断。",
+        "image_verified": null
+      },
+      "example_en": "I'll note what changed, what passed, and what is still pending.",
+      "example_zh": "我会记下改了什么、哪些检查通过了，以及哪些事项还待处理。",
+      "bbox_normalized": null,
+      "collocations": [
+        "pending tasks",
+        "still pending"
+      ],
+      "example_en_highlighted": "I'll note what changed, what passed, and what is still **pending**.",
+      "annotation_mode": "context",
+      "annotation_note": "任务状态来自交接对白，不能从静态笔记本判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "可见的纸质螺旋笔记本是直接指代，框完整封面与装订。",
+        "sentence": "Add the next step and the file paths. I'll put a short summary in this notebook.",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Add the next step and the file paths. I'll put a short summary in this notebook.",
+      "example_zh": "加上下一步和文件路径。我会在这个笔记本里记一份简短摘要。",
+      "bbox_normalized": [
+        0.432,
+        0.475,
+        0.576,
+        0.64
+      ],
+      "collocations": [
+        "in this notebook",
+        "a work notebook"
+      ],
+      "example_en_highlighted": "Add the next step and the file paths. I'll put a short summary in this **notebook**.",
+      "annotation_mode": "object",
+      "annotation_note": "可见的纸质螺旋笔记本是直接指代，框完整封面与装订。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to leave a handoff record so work can resume later.",
+    "zh": "程序员让 AI 留下交接记录，以便稍后恢复工作。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to leave a handoff record so work can resume later.",
+    "zh": "程序员让 AI 留下交接记录，以便稍后恢复工作。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Before we stop, record our progress so I can resume tomorrow.",
+      "zh": "结束前，记录我们的进度，方便我明天继续。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll note what changed, what passed, and what is still pending.",
+      "zh": "我会记下改了什么、哪些检查通过了，以及哪些事项还待处理。"
+    },
+    {
+      "speaker": "A",
+      "en": "Add the next step and the file paths. I'll put a short summary in this notebook.",
+      "zh": "加上下一步和文件路径。我会在这个笔记本里记一份简短摘要。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll leave a handoff note in the project and include the commands needed to continue.",
+      "zh": "我会在项目里留下交接记录，并附上继续工作所需的命令。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "记录已完成事项、待办与恢复入口。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small table, holding a pen beside a closed spiral-bound notebook at center. The notebook is upright, resting its lower edge on the table, with the cover facing the viewer. Its left spiral binding and complete rectangular cover outline are clearly visible; the cover is blank black. Keep hands beside rather than over the cover. The white OpenAI knot floats to the right. Calm end-of-work discussion. No clocks, words or extra notebooks.",
+  "status": "approved",
+  "image_path": "images/V015.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V015 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V015.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T05:44:26Z",
+    "ended_at": "2026-10-09T05:46:23Z",
+    "prompt_path": "prompts/V015_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V015.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。竖立的纸质螺旋笔记本封面和装订完整可见，无可读交接内容。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。"
+  }
+}

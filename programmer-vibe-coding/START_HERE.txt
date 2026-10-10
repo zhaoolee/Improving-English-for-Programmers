@@ -1,0 +1,43 @@
+程序员 Vibe Coding（第一季）
+独立免费 PicLex 卡组：56a51624-d8aa-4167-99c5-e1c727a938db
+工作台：http://127.0.0.1:18100/
+
+当前制作状态（已完成 V001–V040 全 40 张；采用内置 image_gen + PicLex 快速导入流程；其余 0 张卡未制作）：
+- 40 张均已导入工作台目标卡组草稿，共 160 词条/125 不同词/40 局部框/120 语境词；最后17张导入后观察 revision=84（仅历史值，写入前须重新读取）。
+- 最后一批 V020/V022–V025/V027–V030/V032–V035/V037–V040：17 个 job 均 done/check 空，375px 与 600px 官方预览各 17/17 成功、0 警告，Codex 视觉通过；见 workflow/final-seventeen_acceptance.json（本地忽略）。
+- 免费公开版本仍为 **V2**：23 图/92 词条/78 不同词/23 框/69 语境/23 段四轮 A/B 对白；最后17张尚未发布新的 PicLex 内容版本。
+- 40 期计划、8 个子专题各 5 期已全部完成；无下一张待制作。
+
+公开发布边界：
+- **前 23 张已于 V2 免费公开**（新增 15 张；首批 8 张照片与 JSON 逐字节保留；旧其他公开卡组目录未变）；工作台草稿现有完整 40 张，最后 17 张未发布。
+  V2：publicationID=b08788d6e1787b09367f1bbd23e74221，packageSHA256=f51319dcd051bb07c5a6f16fe5911771b4d41dbca9ae0f760936d811e73287f4（3149374 bytes），releaseSHA256=4277f2f79cf0a8fcc41cd3b86cbee3170b264d0c4e8eaed32a1566a4fa0ee369；
+  downloadURL=https://piclex.v2fy.com/decks/56a51624-d8aa-4167-99c5-e1c727a938db/v2-f51319dcd051bb07/deck.piclexdeck；公网目录 version=2、23 图/92 词条。
+- 历史 V1（首批 8 图/32 词条）已移入 `cards_plan.json` `meta.publication_history` 保留；V2 为其增量。
+- 手机端真机未验收；本机 HTTPS 入口未验证通过（发布经官方服务器；本机 HTTPS 曾超时）。不虚称手机或本机 HTTPS 已通过。
+
+恢复入口：
+- README.md：40 期目录与 40 张已完成卡片的配文、对白与词条（由 sync-readme.py 机械生成；发布边界以本文件为准）。
+- cards_plan.json：40 张 approved、当前草稿聚合（40/160/125/40/120）与 import_history。
+- 公开源（内容/审图/成品/提示词）：workflow/first-eight、second-five、third-five、fourth-five、final-seventeen 的 batch_content/review；cards/Vxxx.json、prompts/Vxxx_image_final.txt、images/Vxxx.png、piclex/Vxxx_job.json 与 Vxxx_annotations.json。
+- 最新运行材料（本地忽略）：workflow/final-seventeen_acceptance.json、final-seventeen-preview-375/、final-seventeen-preview-600/、final-seventeen_batch_content_timing.json、piclex/Vxxx_import_receipt.json。
+- 历史批次同结构：workflow/first-eight_*、second-five_*、third-five_*（运行材料本地忽略）。
+- workflow/V1-publication*.json、V1-after-publication.json、V1-public-catalog.json、V1-published-workbench.jpg：V1 发布回执（本地）。
+- workflow/V2-publication.json、V2-publication-verification.json、V2-package-acceptance.json、V2-public-files-verification.json、V2-public-catalog.json、V2-after-publication.json、V2-final-local-sync.json：V2 发布回执与本地同步（本地）。
+
+流程：
+1. 首先读取计划和交接记录，检查真实图片、job与独立receipt，不重复导入done卡。
+2. 用workflow/<批次>_batch_content.json定稿每卡4词、一句双语描述、canonical A,B,A,B对白和image_prompt。
+3. 内置imagegen生成；保留原始图。实际查看最终图后填写workflow/<批次>_review.json。
+4. 坐标按实际原图宽高（1254×1254）归一化，不以工具显示预览宽度代替；联系表裁剪按准确框，源坐标不扩张（单元格留白可保留）。
+5. scripts/prepare-batch.py --content <内容路径> --review <审图路径> --dry-run；通过后去掉--dry-run。
+6. scripts/validate.py；scripts/sync-readme.py及--check。
+7. 沿用../scene-cards-850/scripts/import-piclex.mjs，每卡先--dry-run，再按卡串行导入。
+8. 官方preview export：375px/min-gap6和600px/min-gap8；检查实际预览与真实对象裁剪。
+9. 公共发布按用户授权执行；导入工作台草稿不等于已发布到手机。
+
+注意：
+关键词learning.example/exampleChinese保存完整四话轮；其余3词保留对白摘录。
+quote只保存一句双语场景说明，避免页脚裁切。
+抽象过程用对白语境，不编造框；真实物体用人工确认的局部框。
+原图仅复制，未编辑像素；使用原图PNG（1254×1254）。
+运行回执/计时/预览/timing 为本地忽略；内容/审图/成品/提示词为公开源。不保存凭据。

@@ -110,9 +110,13 @@ packageSHA256=`38d316587bbb0a40bc72953b99700db4c1e4b15d099ea71e32a10984d60428fc`
 - 首批 8 张已导入工作台（`first-eight-import-summary.json` 8/8 done），375px/600px 布局 0 警告（`first-eight_acceptance.json`），
   并免费公开发布：首发 **V1**（publicationID=`3a1872417949ed97d2a4d1919bed43e2`），英文对白修正后 **V2**（publicationID=`977ed174d8a8258e3b12e00694bdecb0`，packageSHA256=`38d316587bbb0a40bc72953b99700db4c1e4b15d099ea71e32a10984d60428fc`，已被 V3 取代）；
   公网包已核对哈希/图片/几何/对白。
-- **手机端尚未验收**；后续第二批 V3、第三批 V4、第四批 V5、第五批 V8、第六批 V9 均已发布；其余 32 张未制作，下一未制作卡为 W007。
+- **手机端尚未验收**；后续第二批 V3、第三批 V4、第四批 V5、第五批 V8、第六批 V9 及最后一批 V10 均已发布；80 张计划卡已全部完成，当前公开 V10。
 
-## 当前版本 V9（黑底白线，2026-10-06）
+## 当前版本 V10（黑底白线，2026-10-07）
+
+最后一批 final-thirty-two（每类第 7–10 张，32 张：W007–W010、W017–W020、W027–W030、W037–W040、W047–W050、W057–W060、W067–W070、W077–W080）已本地完成、导入并免费公开发布 **V10**：80 图 / 320 词条 / 224 唯一词 / 85 局部框 / 235 语境词；publicationID=`5df15a728161bd954f9ba7cbf01f70a7`，packageSHA256=`86ccb63944b4da32b824861943f519e0ca283e272c0ee569ebc8a93ceea10f74`（15486193 bytes），releaseSHA256=`0d188797ef8df1c0f6670ed57f16a7b5446aac6c2431ea866b605fa08de353f6`；公网 HTTP 200、目录与包哈希一致、与本地验收包全等，原 48 图字节全等（release 差异 added32/modified0/removed0），850 未变。`description` 经官方 CLI 更新为“当前80张，每类10张”。W008 `brief` 一处 bubblePosition 经官方 layout apply 修正（仅位置，revision 224）。恢复从 `V10-publication.json`、`V10-publication-verification.json`、`V10-package-acceptance.json`、`V10-after-publication.json`、`final-thirty-two_final-sync.json`、`final-thirty-two_final-preview-index.json` 开始。**手机端真机更新未验收；80 张计划卡已全部完成。**
+
+## 历史版本 V9（第六批，2026-10-06，已被 V10 取代）
 
 第六批（W006/W016/W026/W036/W046/W056/W066/W076）已本地完成、导入并免费公开发布 **V9**：48 图 / 192 词条 / 151 唯一词 / 53 局部框 / 139 语境词；publicationID=`a59a61284b742183147fda597f1ac3ca`，packageSHA256=`38931e23003acf1ea354397bf5b897ae15156bbc047679ed46fb5d1b7572e725`（9698920 bytes），releaseSHA256=`db077aa256e32aa0df73c7cfedfd1edd9a4bd79508b7296ba98a72344716b71c`；公网 HTTP 200、目录与包哈希一致、与本地验收包全等，原 40 图字节全等，850 未变。`description` 经官方 CLI 更新为“当前48张，每类6张”。恢复从 `V9-publication.json`、`V9-publication-verification.json`、`V9-after-publication.json`、`sixth-eight_final-sync.json`、`sixth-eight_final-preview-index.json` 开始。下批 W007/W017/…。
 

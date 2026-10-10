@@ -1,0 +1,246 @@
+{
+  "id": "V027",
+  "category": "debugging",
+  "category_title": "Debug 救火现场",
+  "chapter": "Debug 救火现场",
+  "title": "先复现，再动代码",
+  "keyword": "reproduce",
+  "scene": "复现问题、收集证据并寻找根因",
+  "target_count": 4,
+  "primary_words": [
+    "reproduce",
+    "consistent",
+    "step",
+    "phone"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "reproduce",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "复现",
+      "pos": "verb",
+      "ipa_us": "/ˌriːprəˈduːs/",
+      "ipa_uk": "/ˌriːprəˈdjuːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can you reproduce the crash on this phone before changing the code?",
+        "matched_form": "reproduce",
+        "referent_region_verified": false,
+        "context": "复现是重复触发问题的过程，单张画面不能证明已经成功复现。",
+        "image_verified": null
+      },
+      "example_en": "Can you reproduce the crash on this phone before changing the code?",
+      "example_zh": "改代码之前，你能在这部手机上复现崩溃吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "reproduce a crash",
+        "reproduce consistently"
+      ],
+      "example_en_highlighted": "Can you **reproduce** the crash on this phone before changing the code?",
+      "annotation_mode": "context",
+      "annotation_note": "复现是重复触发问题的过程，单张画面不能证明已经成功复现。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "consistent",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "稳定一致的",
+      "pos": "adjective",
+      "ipa_us": "/kənˈsɪstənt/",
+      "ipa_uk": "/kənˈsɪstənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Once it is consistent, I'll inspect the failing path.",
+        "matched_form": "consistent",
+        "referent_region_verified": false,
+        "context": "稳定性需要多次观察，不能由静态手机画面判断。",
+        "image_verified": null
+      },
+      "example_en": "Once it is consistent, I'll inspect the failing path.",
+      "example_zh": "能够稳定复现后，我再检查失败路径。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a consistent failure",
+        "reproduce consistently"
+      ],
+      "example_en_highlighted": "Once it is **consistent**, I'll inspect the failing path.",
+      "annotation_mode": "context",
+      "annotation_note": "稳定性需要多次观察，不能由静态手机画面判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "step",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "步骤",
+      "pos": "noun",
+      "ipa_us": "/step/",
+      "ipa_uk": "/step/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll repeat each step and record when the crash appears.",
+        "matched_form": "step",
+        "referent_region_verified": false,
+        "context": "步骤是操作序列，不给手机局部虚假框。",
+        "image_verified": null
+      },
+      "example_en": "I'll repeat each step and record when the crash appears.",
+      "example_zh": "我会重复每个步骤，并记录崩溃何时出现。",
+      "bbox_normalized": null,
+      "collocations": [
+        "repeat each step",
+        "reproduction steps"
+      ],
+      "example_en_highlighted": "I'll repeat each **step** and record when the crash appears.",
+      "annotation_mode": "context",
+      "annotation_note": "步骤是操作序列，不给手机局部虚假框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "phone",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "手机",
+      "pos": "noun",
+      "ipa_us": "/foʊn/",
+      "ipa_uk": "/fəʊn/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整可见的智能手机机身和屏幕是直接指代，只框整部手机。",
+        "sentence": "Can you reproduce the crash on this phone before changing the code?",
+        "matched_form": "phone",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Can you reproduce the crash on this phone before changing the code?",
+      "example_zh": "改代码之前，你能在这部手机上复现崩溃吗？",
+      "bbox_normalized": [
+        0.362,
+        0.272,
+        0.582,
+        0.688
+      ],
+      "collocations": [
+        "on this phone",
+        "a phone screen"
+      ],
+      "example_en_highlighted": "Can you reproduce the crash on this **phone** before changing the code?",
+      "annotation_mode": "object",
+      "annotation_note": "完整可见的智能手机机身和屏幕是直接指代，只框整部手机。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to reproduce a bug consistently before editing code.",
+    "zh": "程序员让 AI 在修改代码前先稳定复现缺陷。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to reproduce a bug consistently before editing code.",
+    "zh": "程序员让 AI 在修改代码前先稳定复现缺陷。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Can you reproduce the crash on this phone before changing the code?",
+      "zh": "改代码之前，你能在这部手机上复现崩溃吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Not consistently. I need the exact steps and environment.",
+      "zh": "还不能稳定复现。我需要准确步骤和环境信息。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll repeat each step and record when the crash appears.",
+      "zh": "我会重复每个步骤，并记录崩溃何时出现。"
+    },
+    {
+      "speaker": "B",
+      "en": "Once it is consistent, I'll inspect the failing path.",
+      "zh": "能够稳定复现后，我再检查失败路径。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先记录复现步骤和环境，再开始修复。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left holding one large smartphone upright at center with the full device border visible. The blank black phone screen contains only one simple unlabeled broken-line crack symbol near the middle, without letters or warning text. The hand grips the outer edge and does not cover the screen. The floating white OpenAI knot is at the right. No other devices.",
+  "status": "approved",
+  "image_path": "images/V027.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V027 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V027.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V027_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V027.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。竖直手机完整可见，屏幕裂纹是无文字的故障证据；复现、稳定和步骤仍由对白限定。"
+  }
+}

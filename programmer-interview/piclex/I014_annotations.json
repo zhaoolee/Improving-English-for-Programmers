@@ -1,0 +1,130 @@
+{
+  "filename": "I014.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 75,
+      "english": "complexity",
+      "chinese": "复杂度",
+      "phoneticUS": "/kəmˈpleksəti/",
+      "phoneticUK": "/kəmˈpleksəti/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：complexity。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：complexity。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+        "collocation": "time complexity; space complexity",
+        "example": "A: The time complexity is linear because the algorithm scans the array once.\nB: How much extra space does it use?\nA: Only a fixed set of counters. May I trace an example in your notebook?\nB: Explain why that space does not grow with the input.",
+        "exampleChinese": "A: 时间复杂度是线性的，因为算法只扫描数组一次。\nB: 它需要多少额外空间？\nA: 只需要固定数量的计数器。我可以在你的笔记本里演示一个例子吗？\nB: 请说明为什么这部分空间不会随输入规模增长。"
+      }
+    },
+    {
+      "x": 565,
+      "y": 75,
+      "english": "linear",
+      "chinese": "线性的",
+      "phoneticUS": "/ˈlɪniər/",
+      "phoneticUK": "/ˈlɪniə/",
+      "bubblePosition": {
+        "x": 565,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：linear。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：linear。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+        "collocation": "linear time; linear complexity",
+        "example": "The time complexity is linear because the algorithm scans the array once.",
+        "exampleChinese": "时间复杂度是线性的，因为算法只扫描数组一次。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "space",
+      "chinese": "空间",
+      "phoneticUS": "/speɪs/",
+      "phoneticUK": "/speɪs/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：space。本卡例句：How much extra space does it use?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：space。本卡例句：How much extra space does it use?",
+        "collocation": "extra space; space complexity",
+        "example": "How much extra space does it use?",
+        "exampleChinese": "它需要多少额外空间？"
+      }
+    },
+    {
+      "x": 620,
+      "y": 696,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 620,
+        "y": 696
+      },
+      "boundingBox": {
+        "left": 470,
+        "top": 665,
+        "right": 785,
+        "bottom": 725
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画。",
+        "association": "原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "Only a fixed set of counters. May I trace an example in your notebook?",
+        "exampleChinese": "只需要固定数量的计数器。我可以在你的笔记本里演示一个例子吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains the cost of an algorithm while the interviewer keeps a notebook open.",
+    "chinese": "候选人解释算法的开销，面试官打开笔记本记录。",
+    "source": "原创配文 · I014 解释时间和空间复杂度",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

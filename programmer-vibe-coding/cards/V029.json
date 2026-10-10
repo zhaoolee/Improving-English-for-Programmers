@@ -1,0 +1,246 @@
+{
+  "id": "V029",
+  "category": "debugging",
+  "category_title": "Debug 救火现场",
+  "chapter": "Debug 救火现场",
+  "title": "最小改动定位根因",
+  "keyword": "isolate",
+  "scene": "复现问题、收集证据并寻找根因",
+  "target_count": 4,
+  "primary_words": [
+    "isolate",
+    "cause",
+    "patch",
+    "cable"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "isolate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "隔离",
+      "pos": "verb",
+      "ipa_us": "/ˈaɪsəleɪt/",
+      "ipa_uk": "/ˈaɪsəleɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Change one condition at a time so we can isolate the failure.",
+        "matched_form": "isolate",
+        "referent_region_verified": false,
+        "context": "这里指控制变量并缩小问题范围，不把物体分开放置等同于完成隔离。",
+        "image_verified": null
+      },
+      "example_en": "Change one condition at a time so we can isolate the failure.",
+      "example_zh": "一次只改变一个条件，这样我们才能隔离故障。",
+      "bbox_normalized": null,
+      "collocations": [
+        "isolate a failure",
+        "isolate one variable"
+      ],
+      "example_en_highlighted": "Change one condition at a time so we can **isolate** the failure.",
+      "annotation_mode": "context",
+      "annotation_note": "这里指控制变量并缩小问题范围，不把物体分开放置等同于完成隔离。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "cause",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "原因",
+      "pos": "noun",
+      "ipa_us": "/kɔːz/",
+      "ipa_uk": "/kɔːz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Then we can find the root cause without a broad patch.",
+        "matched_form": "cause",
+        "referent_region_verified": false,
+        "context": "根因需要实验与证据，静态线缆不能证明故障来源。",
+        "image_verified": null
+      },
+      "example_en": "Then we can find the root cause without a broad patch.",
+      "example_zh": "这样无需大范围补丁也能找到根因。",
+      "bbox_normalized": null,
+      "collocations": [
+        "root cause",
+        "find the cause"
+      ],
+      "example_en_highlighted": "Then we can find the root **cause** without a broad patch.",
+      "annotation_mode": "context",
+      "annotation_note": "根因需要实验与证据，静态线缆不能证明故障来源。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "patch",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "补丁",
+      "pos": "noun",
+      "ipa_us": "/pætʃ/",
+      "ipa_uk": "/pætʃ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll keep the patch minimal and compare the result.",
+        "matched_form": "patch",
+        "referent_region_verified": false,
+        "context": "这里指软件代码补丁，不能框选实体贴片或设备。",
+        "image_verified": null
+      },
+      "example_en": "I'll keep the patch minimal and compare the result.",
+      "example_zh": "我会保持补丁最小，并比较结果。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a minimal patch",
+        "apply a patch"
+      ],
+      "example_en_highlighted": "I'll keep the **patch** minimal and compare the result.",
+      "annotation_mode": "context",
+      "annotation_note": "这里指软件代码补丁，不能框选实体贴片或设备。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "cable",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "线缆",
+      "pos": "noun",
+      "ipa_us": "/ˈkeɪbəl/",
+      "ipa_uk": "/ˈkeɪbəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中央完整可见、两端清楚的单根线缆是直接指代。",
+        "sentence": "Use this cable as the only variable in the hardware test.",
+        "matched_form": "cable",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Use this cable as the only variable in the hardware test.",
+      "example_zh": "在硬件测试中，只把这根线缆作为变量。",
+      "bbox_normalized": [
+        0.364,
+        0.542,
+        0.577,
+        0.614
+      ],
+      "collocations": [
+        "this cable",
+        "connect a cable"
+      ],
+      "example_en_highlighted": "Use this **cable** as the only variable in the hardware test.",
+      "annotation_mode": "object",
+      "annotation_note": "中央完整可见、两端清楚的单根线缆是直接指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer changes one variable at a time to isolate the root cause of a failure.",
+    "zh": "程序员一次只改变一个变量，以定位故障根因。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer changes one variable at a time to isolate the root cause of a failure.",
+    "zh": "程序员一次只改变一个变量，以定位故障根因。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Change one condition at a time so we can isolate the failure.",
+      "zh": "一次只改变一个条件，这样我们才能隔离故障。"
+    },
+    {
+      "speaker": "B",
+      "en": "Then we can find the root cause without a broad patch.",
+      "zh": "这样无需大范围补丁也能找到根因。"
+    },
+    {
+      "speaker": "A",
+      "en": "Use this cable as the only variable in the hardware test.",
+      "zh": "在硬件测试中，只把这根线缆作为变量。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll keep the patch minimal and compare the result.",
+      "zh": "我会保持补丁最小，并比较结果。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用最小改动验证假设，避免大范围修改掩盖原因。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer kneels at the left of a small simple device box on a low table. One single detachable cable lies fully visible at center, with both connector ends complete and separated from the device. The programmer points toward the cable without touching it. The floating white OpenAI knot is at the right. No other cables, labels, ports with letters, tools or screens.",
+  "status": "approved",
+  "image_path": "images/V029.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V029 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V029.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V029_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V029.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面上唯一断开的连接线及两端插头清晰可见；隔离、根因和补丁属于调试语境，不给虚假框。"
+  }
+}

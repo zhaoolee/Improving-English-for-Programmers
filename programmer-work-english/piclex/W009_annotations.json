@@ -1,0 +1,130 @@
+{
+  "filename": "W009-远程会议中自我介绍.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "introduce",
+      "chinese": "介绍",
+      "phoneticUS": "/ˌɪntrəˈduːs/",
+      "phoneticUK": "/ˌɪntrəˈdjuːs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“May I introduce myself before we start?”明确表达介绍；单幅画面不能独立证明，不设局部框。",
+        "association": "“May I introduce myself before we start?”明确表达介绍；单幅画面不能独立证明，不设局部框。",
+        "collocation": "introduce yourself; introduce someone to the team",
+        "example": "A: May I introduce myself before we start?\nB: Of course. It's great to have you join the team.\nA: I'm Sam. I support the mobile app. Can you hear me through this headset?\nB: Yes, you sound clear. Welcome, Sam!",
+        "exampleChinese": "A: 开始之前，我可以先介绍一下自己吗？\nB: 当然。很高兴你加入团队。\nA: 我是 Sam。我负责支持移动应用。你能听到我通过这个耳麦说话吗？\nB: 能，声音很清楚。欢迎你，Sam！"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "join",
+      "chinese": "加入",
+      "phoneticUS": "/dʒɔɪn/",
+      "phoneticUK": "/dʒɔɪn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Of course. It's great to have you join the team.”明确表达加入；单幅画面不能独立证明，不设局部框。",
+        "association": "“Of course. It's great to have you join the team.”明确表达加入；单幅画面不能独立证明，不设局部框。",
+        "collocation": "join the team; join a meeting",
+        "example": "Of course. It's great to have you join the team.",
+        "exampleChinese": "当然。很高兴你加入团队。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "support",
+      "chinese": "支持",
+      "phoneticUS": "/səˈpɔːrt/",
+      "phoneticUK": "/səˈpɔːt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'm Sam. I support the mobile app. Can you hear me through this headset?”明确表达支持；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'm Sam. I support the mobile app. Can you hear me through this headset?”明确表达支持；单幅画面不能独立证明，不设局部框。",
+        "collocation": "support the app; support a team",
+        "example": "I'm Sam. I support the mobile app. Can you hear me through this headset?",
+        "exampleChinese": "我是 Sam。我负责支持移动应用。你能听到我通过这个耳麦说话吗？"
+      }
+    },
+    {
+      "x": 273,
+      "y": 300,
+      "english": "headset",
+      "chinese": "耳麦",
+      "phoneticUS": "/ˈhedset/",
+      "phoneticUK": "/ˈhedset/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 350
+      },
+      "anchorPosition": {
+        "x": 273,
+        "y": 300
+      },
+      "boundingBox": {
+        "left": 216,
+        "top": 177,
+        "right": 435,
+        "bottom": 405
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "耳麦（headset）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "耳麦（headset）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "through this headset; wear a headset",
+        "example": "I'm Sam. I support the mobile app. Can you hear me through this headset?",
+        "exampleChinese": "我是 Sam。我负责支持移动应用。你能听到我通过这个耳麦说话吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer introduces themself in a remote team meeting.",
+    "chinese": "开发者在远程团队会议中做自我介绍。",
+    "source": "原创对话 · W009 远程会议中自我介绍",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

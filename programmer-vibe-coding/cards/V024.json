@@ -1,0 +1,246 @@
+{
+  "id": "V024",
+  "category": "interface",
+  "category_title": "界面与交互打磨",
+  "chapter": "界面与交互打磨",
+  "title": "把空状态和错误状态补齐",
+  "keyword": "state",
+  "scene": "用参考、反馈与异常状态提高可用性",
+  "target_count": 4,
+  "primary_words": [
+    "state",
+    "empty",
+    "error",
+    "panel"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "state",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "状态",
+      "pos": "noun",
+      "ipa_us": "/steɪt/",
+      "ipa_uk": "/steɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We handled success. What should the empty state explain?",
+        "matched_form": "state",
+        "referent_region_verified": false,
+        "context": "状态是界面条件，空白分区只提供设计语境，不证明具体状态。",
+        "image_verified": null
+      },
+      "example_en": "We handled success. What should the empty state explain?",
+      "example_zh": "成功状态已经处理了，空状态应该说明什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "an empty state",
+        "an error state"
+      ],
+      "example_en_highlighted": "We handled success. What should the empty **state** explain?",
+      "annotation_mode": "context",
+      "annotation_note": "状态是界面条件，空白分区只提供设计语境，不证明具体状态。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "empty",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "空的",
+      "pos": "adjective",
+      "ipa_us": "/ˈempti/",
+      "ipa_uk": "/ˈempti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We handled success. What should the empty state explain?",
+        "matched_form": "empty",
+        "referent_region_verified": false,
+        "context": "这里特指没有结果的界面状态，不把画面留白本身作为语义证据。",
+        "image_verified": null
+      },
+      "example_en": "We handled success. What should the empty state explain?",
+      "example_zh": "成功状态已经处理了，空状态应该说明什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "an empty state",
+        "empty results"
+      ],
+      "example_en_highlighted": "We handled success. What should the **empty** state explain?",
+      "annotation_mode": "context",
+      "annotation_note": "这里特指没有结果的界面状态，不把画面留白本身作为语义证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "error",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "错误",
+      "pos": "noun",
+      "ipa_us": "/ˈerər/",
+      "ipa_uk": "/ˈerə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "This panel also needs an error state when the request fails.",
+        "matched_form": "error",
+        "referent_region_verified": false,
+        "context": "错误来自请求失败的对白设定，画面不显示可读报错。",
+        "image_verified": null
+      },
+      "example_en": "This panel also needs an error state when the request fails.",
+      "example_zh": "请求失败时，这个面板还需要错误状态。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an error state",
+        "handle an error"
+      ],
+      "example_en_highlighted": "This panel also needs an **error** state when the request fails.",
+      "annotation_mode": "context",
+      "annotation_note": "错误来自请求失败的对白设定，画面不显示可读报错。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "panel",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "面板",
+      "pos": "noun",
+      "ipa_us": "/ˈpænəl/",
+      "ipa_uk": "/ˈpænəl/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "中央完整矩形界面面板是直接指代，只框其外轮廓。",
+        "sentence": "This panel also needs an error state when the request fails.",
+        "matched_form": "panel",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "This panel also needs an error state when the request fails.",
+      "example_zh": "请求失败时，这个面板还需要错误状态。",
+      "bbox_normalized": [
+        0.317,
+        0.233,
+        0.662,
+        0.722
+      ],
+      "collocations": [
+        "a results panel",
+        "this panel"
+      ],
+      "example_en_highlighted": "This **panel** also needs an error state when the request fails.",
+      "annotation_mode": "object",
+      "annotation_note": "中央完整矩形界面面板是直接指代，只框其外轮廓。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer and an AI assistant design distinct empty and error states for a results panel.",
+    "zh": "程序员与 AI 为结果面板设计不同的空状态和错误状态。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer and an AI assistant design distinct empty and error states for a results panel.",
+    "zh": "程序员与 AI 为结果面板设计不同的空状态和错误状态。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "We handled success. What should the empty state explain?",
+      "zh": "成功状态已经处理了，空状态应该说明什么？"
+    },
+    {
+      "speaker": "B",
+      "en": "It should say that no results were found and offer a next step.",
+      "zh": "它应该说明没有找到结果，并提供下一步操作。"
+    },
+    {
+      "speaker": "A",
+      "en": "This panel also needs an error state when the request fails.",
+      "zh": "请求失败时，这个面板还需要错误状态。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll design both states and keep their actions distinct.",
+      "zh": "我会设计这两种状态，并让它们的操作清楚区分。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "补齐异常状态，并为用户提供明确的下一步。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left and points toward one large upright rectangular interface panel at center. The panel is a complete white outline with a blank black interior divided into two empty unlabeled horizontal areas by one plain line. No words, icons, warning symbols or buttons. The floating white OpenAI knot is at the right. Keep the panel unobstructed and do not add another screen.",
+  "status": "approved",
+  "image_path": "images/V024.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V024 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V024.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V024_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V024.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。中央双区域空白面板边界完整且无遮挡，不含任何可读错误或空状态文案；状态含义由对白说明。"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "I007.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "ownership",
+      "chinese": "负责",
+      "phoneticUS": "/ˈoʊnərʃɪp/",
+      "phoneticUK": "/ˈəʊnəʃɪp/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：ownership。本卡例句：I took ownership of the payment API and had to implement its validation rules.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：ownership。本卡例句：I took ownership of the payment API and had to implement its validation rules.",
+        "collocation": "take ownership of; clear ownership",
+        "example": "A: I took ownership of the payment API and had to implement its validation rules.\nB: How did you collaborate with the rest of the team?\nA: I agreed on the contract with the frontend developer. My notebook lists our decisions.\nB: Which decision was most difficult?",
+        "exampleChinese": "A: 我负责支付 API，并需要实现其校验规则。\nB: 你如何与团队其他成员协作？\nA: 我与前端开发者一起确定了接口约定。笔记本里记着我们的决策。\nB: 哪项决策最困难？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "implement",
+      "chinese": "实现",
+      "phoneticUS": "/ˈɪmpləment/",
+      "phoneticUK": "/ˈɪmplɪment/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：implement。本卡例句：I took ownership of the payment API and had to implement its validation rules.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：implement。本卡例句：I took ownership of the payment API and had to implement its validation rules.",
+        "collocation": "implement a rule; implement a solution",
+        "example": "I took ownership of the payment API and had to implement its validation rules.",
+        "exampleChinese": "我负责支付 API，并需要实现其校验规则。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "collaborate",
+      "chinese": "协作",
+      "phoneticUS": "/kəˈlæbəreɪt/",
+      "phoneticUK": "/kəˈlæbəreɪt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：collaborate。本卡例句：How did you collaborate with the rest of the team?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：collaborate。本卡例句：How did you collaborate with the rest of the team?",
+        "collocation": "collaborate with a team; collaborate on a project",
+        "example": "How did you collaborate with the rest of the team?",
+        "exampleChinese": "你如何与团队其他成员协作？"
+      }
+    },
+    {
+      "x": 520,
+      "y": 756,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 625,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 520,
+        "y": 756
+      },
+      "boundingBox": {
+        "left": 245,
+        "top": 667,
+        "right": 780,
+        "bottom": 814
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后完整的打开式装订笔记本及三部分无字流程；接口决策具体含义由对白提供。",
+        "association": "修图后完整的打开式装订笔记本及三部分无字流程；接口决策具体含义由对白提供。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "I agreed on the contract with the frontend developer. My notebook lists our decisions.",
+        "exampleChinese": "我与前端开发者一起确定了接口约定。笔记本里记着我们的决策。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate distinguishes her own work from the team's contribution.",
+    "chinese": "候选人区分自己的工作与团队的共同贡献。",
+    "source": "原创配文 · I007 说清你个人负责的部分",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

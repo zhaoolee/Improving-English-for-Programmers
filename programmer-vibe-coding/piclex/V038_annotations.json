@@ -1,0 +1,130 @@
+{
+  "filename": "V038-发布之前先准备回滚.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "rollback",
+      "chinese": "回滚",
+      "phoneticUS": "/ˈroʊlbæk/",
+      "phoneticUK": "/ˈrəʊlbæk/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "回滚是恢复旧版本的操作，储物盒只作备份情境。",
+        "association": "回滚是恢复旧版本的操作，储物盒只作备份情境。",
+        "collocation": "prepare a rollback; start a rollback",
+        "example": "A: Before the release, prepare a rollback plan.\nB: I'll keep the previous package as a backup.\nA: Place the tested package in this box and record the restore steps.\nB: Then the rollback can start quickly if the health check fails.",
+        "exampleChinese": "A: 发布之前，先准备回滚方案。\nB: 我会把上一个软件包保留为备份。\nA: 把测试过的软件包放进这个盒子，并记录恢复步骤。\nB: 这样如果健康检查失败，我们就能快速回滚。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "release",
+      "chinese": "发布",
+      "phoneticUS": "/rɪˈliːs/",
+      "phoneticUK": "/rɪˈliːs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "发布是软件交付事件，静态包装盒不能证明已发布。",
+        "association": "发布是软件交付事件，静态包装盒不能证明已发布。",
+        "collocation": "before the release; a production release",
+        "example": "Before the release, prepare a rollback plan.",
+        "exampleChinese": "发布之前，先准备回滚方案。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "backup",
+      "chinese": "备份",
+      "phoneticUS": "/ˈbækʌp/",
+      "phoneticUK": "/ˈbækʌp/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "备份身份由版本与用途决定，不把盒中物件外观直接当作备份证据。",
+        "association": "备份身份由版本与用途决定，不把盒中物件外观直接当作备份证据。",
+        "collocation": "keep a backup; a release backup",
+        "example": "I'll keep the previous package as a backup.",
+        "exampleChinese": "我会把上一个软件包保留为备份。"
+      }
+    },
+    {
+      "x": 515,
+      "y": 550,
+      "english": "package",
+      "chinese": "软件包",
+      "phoneticUS": "/ˈpækɪdʒ/",
+      "phoneticUK": "/ˈpækɪdʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 515,
+        "y": 550
+      },
+      "boundingBox": {
+        "left": 392,
+        "top": 483,
+        "right": 635,
+        "bottom": 627
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "盒内唯一完整封装的矩形包裹是 package 的可见隐喻指代；软件版本仍由对白限定。",
+        "association": "盒内唯一完整封装的矩形包裹是 package 的可见隐喻指代；软件版本仍由对白限定。",
+        "collocation": "a software package; the tested package",
+        "example": "Place the tested package in this box and record the restore steps.",
+        "exampleChinese": "把测试过的软件包放进这个盒子，并记录恢复步骤。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to prepare a rollback before a release.",
+    "chinese": "程序员让 AI 在发布前准备回滚方案。",
+    "source": "原创对话 · V038 发布之前先准备回滚",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

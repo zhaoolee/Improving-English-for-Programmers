@@ -1,0 +1,130 @@
+{
+  "filename": "W078-介绍自己做过的项目.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "project",
+      "chinese": "项目",
+      "phoneticUS": "/ˈprɑːdʒekt/",
+      "phoneticUK": "/ˈprɒdʒekt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What was the biggest challenge in your last project?”明确表达项目；单幅画面不能独立证明，不设局部框。",
+        "association": "“What was the biggest challenge in your last project?”明确表达项目；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a project; a team project",
+        "example": "A: What was the biggest challenge in your last project?\nB: Reducing startup time without changing the user experience.\nA: What was the result? Can you show it on this laptop?\nB: Startup became much faster. I can walk you through the measurements.",
+        "exampleChinese": "A: 你上一个项目中最大的挑战是什么？\nB: 在不改变用户体验的前提下缩短启动时间。\nA: 结果怎样？能在这个笔记本电脑上展示吗？\nB: 启动明显更快了。我可以给你讲讲测量结果。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "challenge",
+      "chinese": "挑战",
+      "phoneticUS": "/ˈtʃælɪndʒ/",
+      "phoneticUK": "/ˈtʃælɪndʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What was the biggest challenge in your last project?”明确表达挑战；单幅画面不能独立证明，不设局部框。",
+        "association": "“What was the biggest challenge in your last project?”明确表达挑战；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a big challenge; face a challenge",
+        "example": "What was the biggest challenge in your last project?",
+        "exampleChinese": "你上一个项目中最大的挑战是什么？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "result",
+      "chinese": "结果",
+      "phoneticUS": "/rɪˈzʌlt/",
+      "phoneticUK": "/rɪˈzʌlt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What was the result? Can you show it on this laptop?”明确表达结果；单幅画面不能独立证明，不设局部框。",
+        "association": "“What was the result? Can you show it on this laptop?”明确表达结果；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the result; as a result",
+        "example": "What was the result? Can you show it on this laptop?",
+        "exampleChinese": "结果怎样？能在这个笔记本电脑上展示吗？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 551,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 720
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 551
+      },
+      "boundingBox": {
+        "left": 372,
+        "top": 435,
+        "right": 663,
+        "bottom": 624
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this laptop; an open laptop",
+        "example": "What was the result? Can you show it on this laptop?",
+        "exampleChinese": "结果怎样？能在这个笔记本电脑上展示吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer describes a past project and its results.",
+    "chinese": "开发者介绍自己做过的项目及其成果。",
+    "source": "原创对话 · W078 介绍自己做过的项目",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

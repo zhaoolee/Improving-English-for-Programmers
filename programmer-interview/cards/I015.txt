@@ -1,0 +1,123 @@
+I015  卡住后如何求助并修正思路
+========================================================================
+分类: 算法与现场编码（coding）
+关键词: hint
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I015.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I015.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I015.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T13:03:51Z → 2026-10-09T13:09:25Z
+  提示词文件: prompts/I015_image_final.txt
+
+场景: 美国女候选人在编码卡住时主动提问，欧洲女面试官给出提示，氛围支持而真实。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 候选人暂停键盘操作、面试官用笔指示笔记本简图，眼神与手部自然；完整电脑与笔记本可见，没有夸张紧张表情。窗侧光、暖肤色与柔和阴影形成安静面试气氛，提示与修正内容由未来对白明确 实际可见物件：桌前打开的笔记本电脑，背盖及底部边缘可见，正面键盘被背盖和杯子自然遮挡；代码讨论由对白支持。
+
+沟通目标: 澄清题意，边解题边说明思路，解释复杂度并应对提示。本卡主题：卡住后如何求助并修正思路。
+
+主配文（一句场景描述）:
+  英文: A candidate pauses to ask for a hint and revise her coding approach.
+  中文: 候选人停下来请求提示，并调整解题思路。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] I'm stuck on this edge case. Could you give me a hint?
+        我被这个边界情况卡住了。你能给我一点提示吗？
+  [B] What happens when the input contains only one item?
+        当输入只有一个元素时会发生什么？
+  [A] I need to reconsider my initial condition. I'll check it on the laptop with that example.
+        我需要重新考虑初始条件。我会在笔记本电脑上用这个例子检查。
+  [B] Good. Explain the change before you continue.
+        好的。继续前，先解释一下你作出的修改。
+
+目标词 (4): hint, reconsider, edge, laptop
+
+------------------------------------------------------------------------
+[1/4] hint
+  词义: 提示
+  词性: noun
+  音标: UK /hɪnt/ | US /hɪnt/
+  搭配: ask for a hint; give a hint
+  例句: I'm stuck on this edge case. Could you give me a hint?
+  例句高亮: I'm stuck on this edge case. Could you give me a **hint**?
+  例句中文: 我被这个边界情况卡住了。你能给我一点提示吗？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：hint。本卡例句：I'm stuck on this edge case. Could you give me a hint?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] reconsider
+  词义: 重新考虑
+  词性: verb
+  音标: UK /ˌriːkənˈsɪdə/ | US /ˌriːkənˈsɪdər/
+  搭配: reconsider an approach; reconsider a condition
+  例句: I need to reconsider my initial condition. I'll check it on the laptop with that example.
+  例句高亮: I need to **reconsider** my initial condition. I'll check it on the laptop with that example.
+  例句中文: 我需要重新考虑初始条件。我会在笔记本电脑上用这个例子检查。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reconsider。本卡例句：I need to reconsider my initial condition. I'll check it on the laptop with that example.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] edge
+  词义: 边界
+  词性: noun
+  音标: UK /edʒ/ | US /edʒ/
+  搭配: an edge case; handle an edge case
+  例句: I'm stuck on this edge case. Could you give me a hint?
+  例句高亮: I'm stuck on this **edge** case. Could you give me a hint?
+  例句中文: 我被这个边界情况卡住了。你能给我一点提示吗？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：edge。本卡例句：I'm stuck on this edge case. Could you give me a hint?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: an open laptop; on my laptop
+  例句: I need to reconsider my initial condition. I'll check it on the laptop with that example.
+  例句高亮: I need to reconsider my initial condition. I'll check it on the **laptop** with that example.
+  例句中文: 我需要重新考虑初始条件。我会在笔记本电脑上用这个例子检查。
+  标注模式: object
+  标注说明: 桌前打开的笔记本电脑，背盖及底部边缘可见，正面键盘被背盖和杯子自然遮挡；代码讨论由对白支持。
+  坐标(normalized): [0.177, 0.539, 0.65, 0.726]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I015 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.
+Interviewer or recruiter: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.
+Exactly two people midway through a coding interview. Maya, wearing a cream knit top, pauses at her laptop and asks Sofia, the interviewer in a navy blazer, for a small hint. Maya's expression is thoughtful and open, not distressed; her hands rest away from the keyboard for the pause. Sofia offers a restrained gesture toward a simple unlabeled notebook sketch without taking over the laptop. A 50mm medium two-person frame captures their eye contact and the full laptop. Gentle afternoon window light, a tidy desk, natural professional tension softened by helpful communication. No panic, sweating effects or triumphant finished-code screen.

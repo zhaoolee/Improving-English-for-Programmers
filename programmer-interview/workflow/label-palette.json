@@ -1,0 +1,277 @@
+{
+  "note": "程序员面试标注调色板默认值：复用现有 blue/teal/rose/lavender 四色，textColor 统一 #FFFFFF；mapping 在机械整理后按真实成品词填充。",
+  "textColor": "#FFFFFF",
+  "colors": {
+    "blue": {
+      "name": "blue",
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#224C73",
+      "renderedText": "#FFFFFF"
+    },
+    "teal": {
+      "name": "teal",
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#18524B",
+      "renderedText": "#FFFFFF"
+    },
+    "rose": {
+      "name": "rose",
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#802641",
+      "renderedText": "#FFFFFF"
+    },
+    "lavender": {
+      "name": "lavender",
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#452680",
+      "renderedText": "#FFFFFF"
+    }
+  },
+  "mapping": {
+    "I001": {
+      "background": "blue",
+      "experience": "teal",
+      "contribute": "rose",
+      "folder": "lavender"
+    },
+    "I002": {
+      "stack": "blue",
+      "proficient": "teal",
+      "production": "rose",
+      "laptop": "lavender"
+    },
+    "I003": {
+      "motivation": "blue",
+      "mission": "teal",
+      "align": "rose",
+      "notebook": "lavender"
+    },
+    "I004": {
+      "opportunity": "blue",
+      "growth": "teal",
+      "transition": "rose",
+      "notebook": "lavender"
+    },
+    "I005": {
+      "gap": "blue",
+      "transferable": "teal",
+      "resume": "rose",
+      "folder": "lavender"
+    },
+    "I006": {
+      "project": "blue",
+      "scope": "teal",
+      "deliver": "rose",
+      "laptop": "lavender"
+    },
+    "I007": {
+      "ownership": "blue",
+      "implement": "teal",
+      "collaborate": "rose",
+      "notebook": "lavender"
+    },
+    "I008": {
+      "challenge": "blue",
+      "constraint": "teal",
+      "resolve": "rose",
+      "whiteboard": "lavender"
+    },
+    "I009": {
+      "impact": "blue",
+      "metric": "teal",
+      "baseline": "rose",
+      "chart": "lavender"
+    },
+    "I010": {
+      "retrospective": "blue",
+      "assumption": "teal",
+      "outcome": "rose",
+      "notebook": "lavender"
+    },
+    "I011": {
+      "clarify": "blue",
+      "input": "teal",
+      "duplicate": "rose",
+      "laptop": "lavender"
+    },
+    "I012": {
+      "approach": "blue",
+      "iterate": "teal",
+      "update": "rose",
+      "laptop": "lavender"
+    },
+    "I013": {
+      "structure": "blue",
+      "lookup": "teal",
+      "efficient": "rose",
+      "whiteboard": "lavender"
+    },
+    "I014": {
+      "complexity": "blue",
+      "linear": "teal",
+      "space": "rose",
+      "notebook": "lavender"
+    },
+    "I015": {
+      "hint": "blue",
+      "reconsider": "teal",
+      "edge": "rose",
+      "laptop": "lavender"
+    },
+    "I016": {
+      "process": "blue",
+      "thread": "teal",
+      "share": "rose",
+      "whiteboard": "lavender"
+    },
+    "I017": {
+      "request": "blue",
+      "response": "teal",
+      "server": "rose",
+      "diagram": "lavender"
+    },
+    "I018": {
+      "index": "blue",
+      "query": "teal",
+      "overhead": "rose",
+      "notebook": "lavender"
+    },
+    "I019": {
+      "transaction": "blue",
+      "commit": "teal",
+      "atomic": "rose",
+      "whiteboard": "lavender"
+    },
+    "I020": {
+      "allocate": "blue",
+      "release": "teal",
+      "resource": "rose",
+      "whiteboard": "lavender"
+    },
+    "I021": {
+      "requirement": "blue",
+      "scale": "teal",
+      "traffic": "rose",
+      "whiteboard": "lavender"
+    },
+    "I022": {
+      "redirect": "blue",
+      "unique": "teal",
+      "mapping": "rose",
+      "whiteboard": "lavender"
+    },
+    "I023": {
+      "cache": "blue",
+      "latency": "teal",
+      "invalidate": "rose",
+      "whiteboard": "lavender"
+    },
+    "I024": {
+      "queue": "blue",
+      "synchronous": "teal",
+      "retry": "rose",
+      "whiteboard": "lavender"
+    },
+    "I025": {
+      "trade-off": "blue",
+      "reliability": "teal",
+      "cost": "rose",
+      "diagram": "lavender"
+    },
+    "I026": {
+      "test": "blue",
+      "boundary": "teal",
+      "exception": "rose",
+      "notebook": "lavender"
+    },
+    "I027": {
+      "refactor": "blue",
+      "readability": "teal",
+      "behavior": "rose",
+      "laptop": "lavender"
+    },
+    "I028": {
+      "diagnose": "blue",
+      "log": "teal",
+      "reproduce": "rose",
+      "laptop": "lavender"
+    },
+    "I029": {
+      "bottleneck": "blue",
+      "profile": "teal",
+      "optimize": "rose",
+      "notebook": "lavender"
+    },
+    "I030": {
+      "deployment": "blue",
+      "rollback": "teal",
+      "monitor": "rose",
+      "whiteboard": "lavender"
+    },
+    "I031": {
+      "disagreement": "blue",
+      "compromise": "teal",
+      "result": "rose",
+      "card": "lavender"
+    },
+    "I032": {
+      "responsibility": "blue",
+      "initiative": "teal",
+      "coordinate": "rose",
+      "notebook": "lavender"
+    },
+    "I033": {
+      "deadline": "blue",
+      "prioritize": "teal",
+      "negotiate": "rose",
+      "planner": "lavender"
+    },
+    "I034": {
+      "feedback": "blue",
+      "constructive": "teal",
+      "improve": "rose",
+      "notebook": "lavender"
+    },
+    "I035": {
+      "failure": "blue",
+      "lesson": "teal",
+      "adapt": "rose",
+      "notebook": "lavender"
+    },
+    "I036": {
+      "role": "blue",
+      "expectation": "teal",
+      "onboarding": "rose",
+      "folder": "lavender"
+    },
+    "I037": {
+      "success": "blue",
+      "mentorship": "teal",
+      "progression": "rose",
+      "diagram": "lavender"
+    },
+    "I038": {
+      "compensation": "blue",
+      "range": "teal",
+      "availability": "rose",
+      "planner": "lavender"
+    },
+    "I039": {
+      "follow-up": "blue",
+      "timeline": "teal",
+      "status": "rose",
+      "laptop": "lavender"
+    },
+    "I040": {
+      "offer": "blue",
+      "accept": "teal",
+      "decline": "rose",
+      "folder": "lavender"
+    }
+  },
+  "wordsTotal": 160
+}

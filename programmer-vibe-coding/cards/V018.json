@@ -1,0 +1,246 @@
+{
+  "id": "V018",
+  "category": "implementation",
+  "category_title": "拆任务、写功能",
+  "chapter": "拆任务、写功能",
+  "title": "一次改一个可验证的功能",
+  "keyword": "isolated",
+  "scene": "程序员让 AI 做一处独立改动，并验证其行为。",
+  "target_count": 4,
+  "primary_words": [
+    "isolated",
+    "behavior",
+    "incremental",
+    "switch"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "isolated",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "独立的",
+      "pos": "adjective",
+      "ipa_us": "/ˈaɪsəleɪtɪd/",
+      "ipa_uk": "/ˈaɪsəleɪtɪd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Add one switch for dark mode. Keep this change isolated.",
+        "matched_form": "isolated",
+        "referent_region_verified": false,
+        "context": "独立指改动边界，不把人物独处或单个控件位置当证据。",
+        "image_verified": null
+      },
+      "example_en": "Add one switch for dark mode. Keep this change isolated.",
+      "example_zh": "加一个深色模式开关，让这次改动保持独立。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an isolated change",
+        "keep a change isolated"
+      ],
+      "example_en_highlighted": "Add one switch for dark mode. Keep this change **isolated**.",
+      "annotation_mode": "context",
+      "annotation_note": "独立指改动边界，不把人物独处或单个控件位置当证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "behavior",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "行为",
+      "pos": "noun",
+      "ipa_us": "/bɪˈheɪvjər/",
+      "ipa_uk": "/bɪˈheɪvjə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll update only the setting and its behavior.",
+        "matched_form": "behavior",
+        "referent_region_verified": false,
+        "context": "这里指软件运行行为，静态开关外观不证明响应。",
+        "image_verified": null
+      },
+      "example_en": "I'll update only the setting and its behavior.",
+      "example_zh": "我只会更新这个设置及其行为。",
+      "bbox_normalized": null,
+      "collocations": [
+        "setting behavior",
+        "verify the behavior"
+      ],
+      "example_en_highlighted": "I'll update only the setting and its **behavior**.",
+      "annotation_mode": "context",
+      "annotation_note": "这里指软件运行行为，静态开关外观不证明响应。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "incremental",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "渐进的",
+      "pos": "adjective",
+      "ipa_us": "/ˌɪŋkrəˈmentəl/",
+      "ipa_uk": "/ˌɪŋkrəˈmentəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Verify it before starting the next incremental change.",
+        "matched_form": "incremental",
+        "referent_region_verified": false,
+        "context": "渐进是多步工作方式，没有局部可见指代。",
+        "image_verified": null
+      },
+      "example_en": "Verify it before starting the next incremental change.",
+      "example_zh": "开始下一次渐进改动前，先验证它。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an incremental change",
+        "incremental development"
+      ],
+      "example_en_highlighted": "Verify it before starting the next **incremental** change.",
+      "annotation_mode": "context",
+      "annotation_note": "渐进是多步工作方式，没有局部可见指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "switch",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "开关",
+      "pos": "noun",
+      "ipa_us": "/swɪtʃ/",
+      "ipa_uk": "/swɪtʃ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "屏幕中胶囊轨道与圆形滑块构成可见开关，只框该控件。",
+        "sentence": "Add one switch for dark mode. Keep this change isolated.",
+        "matched_form": "switch",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Add one switch for dark mode. Keep this change isolated.",
+      "example_zh": "加一个深色模式开关，让这次改动保持独立。",
+      "bbox_normalized": [
+        0.428,
+        0.365,
+        0.626,
+        0.451
+      ],
+      "collocations": [
+        "a dark-mode switch",
+        "toggle the switch"
+      ],
+      "example_en_highlighted": "Add one **switch** for dark mode. Keep this change isolated.",
+      "annotation_mode": "object",
+      "annotation_note": "屏幕中胶囊轨道与圆形滑块构成可见开关，只框该控件。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to make one isolated change and verify its behavior.",
+    "zh": "程序员让 AI 做一处独立改动，并验证其行为。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to make one isolated change and verify its behavior.",
+    "zh": "程序员让 AI 做一处独立改动，并验证其行为。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Add one switch for dark mode. Keep this change isolated.",
+      "zh": "加一个深色模式开关，让这次改动保持独立。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll update only the setting and its behavior.",
+      "zh": "我只会更新这个设置及其行为。"
+    },
+    {
+      "speaker": "A",
+      "en": "Verify it before starting the next incremental change.",
+      "zh": "开始下一次渐进改动前，先验证它。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll check both positions of the switch and report the result.",
+      "zh": "我会检查开关的两种状态，并报告结果。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "控制单次改动大小，先验证，再继续。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left beside a small desk and gestures toward a large desktop monitor at center. On the otherwise blank black screen draw exactly one large toggle switch: a horizontal pill-shaped white outline with one white circular knob visibly at its left end and black empty space to its right. Keep the toggle complete and unobstructed, with no on/off labels, numbers or symbols. The floating white OpenAI knot sits to the right outside the monitor. No other UI controls.",
+  "status": "approved",
+  "image_path": "images/V018.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V018 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V018.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T05:44:26Z",
+    "ended_at": "2026-10-09T05:46:23Z",
+    "prompt_path": "prompts/V018_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V018.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。单个胶囊形开关及圆形滑块完整，额外植物、椅子不参与教学。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。"
+  }
+}

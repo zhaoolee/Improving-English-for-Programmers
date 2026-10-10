@@ -1,21 +1,21 @@
 程序员工作英语 场景卡片计划 v0.1
 与《基础英语850词》并列的独立专题与独立免费 PicLex 卡组，deckID=121d190a-5d4c-4a09-8d50-4741acdbbb1b。
 
-当前制作状态（已完成 48 张：W001、W002、W003、W004、W005、W006、W011、W012、W013、W014、W015、W016、W021、W022、W023、W024、W025、W026、W031、W032、W033、W034、W035、W036、W041、W042、W043、W044、W045、W046、W051、W052、W053、W054、W055、W056、W061、W062、W063、W064、W065、W066、W071、W072、W073、W074、W075、W076；采用内置 image_gen + PicLex 快速导入流程；其余 32 张卡未制作）：
+当前制作状态（已完成 80 张：W001、W002、W003、W004、W005、W006、W007、W008、W009、W010、W011、W012、W013、W014、W015、W016、W017、W018、W019、W020、W021、W022、W023、W024、W025、W026、W027、W028、W029、W030、W031、W032、W033、W034、W035、W036、W037、W038、W039、W040、W041、W042、W043、W044、W045、W046、W047、W048、W049、W050、W051、W052、W053、W054、W055、W056、W057、W058、W059、W060、W061、W062、W063、W064、W065、W066、W067、W068、W069、W070、W071、W072、W073、W074、W075、W076、W077、W078、W079、W080；采用内置 image_gen + PicLex 快速导入流程；其余 0 张卡未制作）：
 
-当前公开发布 V9（免费公开，黑底白线）：
-- 48 图 / 192 词条 / 151 个不同词 / 53 局部框 / 139 语境词（每类 6 张）；原图与 V5–V8 历史版本保留。
-- publicationID=a59a61284b742183147fda597f1ac3ca；
-  packageSHA256=38931e23003acf1ea354397bf5b897ae15156bbc047679ed46fb5d1b7572e725（9698920 bytes）；
-  releaseSHA256=db077aa256e32aa0df73c7cfedfd1edd9a4bd79508b7296ba98a72344716b71c；
-  下载 https://piclex.v2fy.com/decks/121d190a-5d4c-4a09-8d50-4741acdbbb1b/v9-38931e23003acf1e/deck.piclexdeck；
-  目录 https://piclex.v2fy.com/decks/catalog.json；375px/600px 布局 0 警告；工作台观察 revision=159（历史值，不固定写入）。
-- 发布历史：V1（8 图）→ V2（英文对白修正，8 图）→ V3（每类第 2 张，16 图）→ V4（每类第 3 张，24 图）→ V5（每类第 4 张，32 图）→ V6（黑底白线新 photoID 版本，32 图）→ V7（黑底白线保留原 V5 photoID，32 图）→ V8（第五批，40 图）→ V9（第六批，48 图，当前）。
+当前公开发布 V10（免费公开，黑底白线）：
+- 80 图 / 320 词条 / 224 个不同词 / 85 局部框 / 235 语境词（每类 10 张）；原图与 V5–V9 历史版本保留。
+- publicationID=5df15a728161bd954f9ba7cbf01f70a7；
+  packageSHA256=86ccb63944b4da32b824861943f519e0ca283e272c0ee569ebc8a93ceea10f74（15486193 bytes）；
+  releaseSHA256=0d188797ef8df1c0f6670ed57f16a7b5446aac6c2431ea866b605fa08de353f6；
+  下载 https://piclex.v2fy.com/decks/121d190a-5d4c-4a09-8d50-4741acdbbb1b/v10-86ccb63944b4da32/deck.piclexdeck；
+  目录 https://piclex.v2fy.com/decks/catalog.json；375px/600px 布局 0 警告；工作台观察 revision=226（历史值，不固定写入）。
+- 发布历史：V1（8 图）→ V2（英文对白修正，8 图）→ V3（每类第 2 张，16 图）→ V4（每类第 3 张，24 图）→ V5（每类第 4 张，32 图）→ V6（黑底白线新 photoID 版本，32 图）→ V7（黑底白线保留原 V5 photoID，32 图）→ V8（第五批，40 图）→ V9（第六批，48 图）→ V10（每类第 7–10 张，32 张，80 图，当前）。
 
-第六批（V9 已公开发布）：
-- 8 张新卡 W006、W016、W026、W036、W046、W056、W066、W076（每类第 6），黑底白线、新 photoID；`description` 经官方 CLI 更新为“当前48张，每类6张”。
-- 公网计数：**48 图 / 192 词条 / 151 唯一词 / 53 局部框 / 139 语境词**；HTTP 200、目录与包哈希一致、与本地验收包全等，原 40 图字节全等，850 未变。
-- 几何以最终 `sixth-eight_review.json` 裁剪复核为准；无额外 layout apply。
+最后一批 final-thirty-two（V10 已公开发布，每类第 7–10 张）：
+- 32 张新卡 W007–W010、W017–W020、W027–W030、W037–W040、W047–W050、W057–W060、W067–W070、W077–W080，黑底白线、新 photoID；`description` 经官方 CLI 更新为“当前80张，每类10张”。
+- 本批 128 词条 / 111 本批不同词 / 32 局部框 / 96 语境词；整体公网计数：**80 图 / 320 词条 / 224 唯一词 / 85 局部框 / 235 语境词**；HTTP 200、目录与包哈希一致、与本地验收包全等，原 48 图字节全等，850 未变。
+- 几何以最终 `final-thirty-two_review.json` 裁剪复核为准；W008 `brief` 一处 bubblePosition 经官方 layout apply 修正（仅位置，revision 224）。
 
 黑底白线（V7：保留原 V5 photoID / 顺序）说明：
 - 32 张成品展示图为 `images/inverted/Wxxx.png`；原白底黑线 `images/Wxxx.png` 永久保留。
@@ -26,13 +26,13 @@
 - 手机端真机更新未验收；101 词隔离兼容复现见 `workflow/V6-practice-diagnosis/V7-card-update-compatibility.json`（非手机验收）。
 
 批次与材料：
-- cards_plan.json：80 张卡的固定编号（W001–W080）、8 类各 10、已完成 48 张的定稿内容与词序，其余 32 张为未定稿计划；meta 记录 first_batch…sixth_batch、inversion、published V9、publication_history（V1–V8）与 import_history。
-- workflow/first-eight_batch_content.json、second-eight_batch_content.json、third-eight_batch_content.json、fourth-eight_batch_content.json：各批 8 张定稿内容。
+- cards_plan.json：80 张卡的固定编号（W001–W080）、8 类各 10、已完成 80 张的定稿内容与词序；meta 记录 first_batch…sixth_batch、final_thirty_two_batch、inversion、published V10、publication_history（V1–V10）与 import_history。
+- workflow/first-eight_batch_content.json、second-eight_batch_content.json、third-eight_batch_content.json、fourth-eight_batch_content.json、fifth-eight_batch_content.json、sixth-eight_batch_content.json、final-thirty-two_batch_content.json：各批定稿内容（首六批各 8 张，最后一批 32 张）。
 - workflow/first-eight_review.json、second-eight_review.json、third-eight_review.json、fourth-eight_review.json：四批人工审图（ready=true，逐词 bubble/box/anchor）。
 - workflow/styles/stick-figure-black-white.txt：当前风格模板（黑底白线）；原白底黑线模板 provenance 见 workflow/styles/stick-figure-white-background.txt。
 - workflow/label-palette.json：标注调色板，colors 与 textColor 沿用 850 专题，mapping 已按 32 卡 128 词填充。
 - scripts/prepare-batch.py / validate.py / sync-readme.py / invert-images.sh / inversion-upload.mjs：批次机械整理、离线验收、README 生成、反色批量生成、反色上传准备。
-- cards/、images/、images/inverted/、prompts/、piclex/：四批共 32 套成品卡片、原图与反色图、最终提示词与 PicLex 标注/任务。
+- cards/、images/、images/inverted/、prompts/、piclex/：80 套成品卡片、原图与反色图、最终提示词与 PicLex 标注/任务。
 
 本地忽略材料（恢复入口，不在公开 checkout）：
 - 第一批：workflow/generation-index.json、first-eight_region-decisions.json、offline-acceptance.json、files-ready.json、first-eight_acceptance.json、first-eight-import-summary.json、first-eight_final-preview-index.json、first-eight_batch_content_timing.json。
@@ -42,7 +42,8 @@
 - 反色/V6（历史，新 photoID 版本）：workflow/inversion-manifest.json、inversion-draft-before.json、inversion-current-before.json、inversion-draft-applied.json、inversion-upload-map.json、inversion-card-map.json、inversion_review.json、inversion_final-preview-index.json、inversion-local-sync.json、V6-publication.json、V6-publication-verification.json、V6-after-publication.json。
 - V7（历史，保留原 V5 ID 换图）：workflow/V7-image-replacement-journal.json、V7-after-image-replacement.json、V7-check.json、V7-publication.json、V7-publication-verification.json、V7-after-publication.json、V7-final-preview-index.json、V7-final-local-sync.json。
 - 第五批/V8（历史）：workflow/fifth-eight_*（content/review/generation-index/import-summary/acceptance/final-draft/final-preview-index/files-ready/region-decisions/region-crops-final/timing/final-sync）、V8-publication.json、V8-publication-verification.json、V8-after-publication.json。
-- 第六批/V9（当前）：workflow/sixth-eight_batch_content.json、sixth-eight_review.json、sixth-eight_generation-index.json、sixth-eight_import-summary.json、sixth-eight_acceptance.json、sixth-eight-after-metadata.json、sixth-eight-final-draft.json、sixth-eight_final-preview-index.json、sixth-eight_files-ready.json、sixth-eight_region-decisions.json、sixth-eight_region-crops-final.png、sixth-eight_timing.json、sixth-eight_final-validation.json、sixth-eight_final-sync.json、V9-publication.json、V9-publication-verification.json、V9-after-publication.json。
+- 第六批/V9（历史）：workflow/sixth-eight_batch_content.json、sixth-eight_review.json、sixth-eight_generation-index.json、sixth-eight_import-summary.json、sixth-eight_acceptance.json、sixth-eight-after-metadata.json、sixth-eight-final-draft.json、sixth-eight_final-preview-index.json、sixth-eight_files-ready.json、sixth-eight_region-decisions.json、sixth-eight_region-crops-final.png、sixth-eight_timing.json、sixth-eight_final-validation.json、sixth-eight_final-sync.json、V9-publication.json、V9-publication-verification.json、V9-after-publication.json。
+- 最后一批/V10（当前，每类第 7–10 张）：workflow/final-thirty-two_batch_content.json、final-thirty-two_review.json、final-thirty-two_generation-index.json、final-thirty-two-import-summary.json、final-thirty-two_acceptance.json、final-thirty-two_visual-review.json、final-thirty-two_final-preview-index.json、final-thirty-two_preview-acceptance.json、final-thirty-two_preview-acceptance-pending.json、final-thirty-two_image-checks.json、final-thirty-two_region-decisions.json、final-thirty-two_region-crops-1..4.png、final-thirty-two_workbench-contact-1..8.png、final-thirty-two_crop-repair.json、final-thirty-two_prepublish-local-sync.json、final-thirty-two_final-sync.json、V10-publication.json、V10-publication-verification.json、V10-package-acceptance.json、V10-after-publication.json。
 - 发布历史：V1-*、V2-*、V3-*、V4-*、V5-*、V6-*；AB 适配材料 AB-cli-schema.json、AB-current-draft.json、AB-format-acceptance.json。
 
 编号与场景：
@@ -50,13 +51,13 @@
 - 第二批（每类第 2 个）：W002 介绍自己的开发经验（experience）、W012 用具体例子确认需求（example）、W022 站会上汇报进展（progress）、W032 解释接口的数据流（flow）、W042 解释一次代码修改（refactor）、W052 比较预期与实际结果（expected）、W062 发布前核对检查项（checklist）、W072 一对一讨论成长目标（goal）。
 - 第三批（每类第 3 个）：W003 申请仓库访问权限（permission）、W013 区分必须与可选功能（required）、W023 报告任务被阻塞（blocked）、W033 比较两种实现方案（compare）、W043 提出可选修改建议（suggestion）、W053 请求日志与截图（log）、W063 通知即将发布（notify）、W073 分享一次技术学习（lesson）。
 - 第四批（每类第 4 个）：W004 配置开发环境时求助（setup）、W014 讨论输入为空的情况（empty）、W024 估算任务完成时间（estimate）、W034 讨论性能瓶颈（bottleneck）、W044 回应必须修改的评论（required）、W054 确认问题出现的环境（environment）、W064 响应线上告警（alert）、W074 请求导师的建议（advice）。
-- 下一未制作卡：W007；若继续每类第 7 个场景，可选 W007/W017/W027/W037/W047/W057/W067/W077（仅制作范围，不改已定场景）。
+- 下一未制作卡：无（80 张计划卡已全部完成）。
 
 其他说明：
 - 对白以原始结构保存（roles + 逐句 speaker/en/zh）；PicLex quote 只保存一句双语场景描述（页脚显示高度有限，完整对白会被裁切）；48 个关键词标签 learning.example/exampleChinese 只保存 4 行逐句对白（speaker+文本，各 ≤500 字符），角色说明只保留元数据、不拼入练习；其余 144 标签为普通例句；cards.targets 仍为原摘录；cards.dialogue/roles/description 完整保留。
 - 官方 readingDialogue：恰好 A、B 两角色，canonical A,B,A,B，每句非空英文；A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读；中英逐话轮对应，中文仅展示；普通单句不得改成对白。schema 合规不等于手机 AB 评分验收。
 - 抽象词/功能词不设虚假框；可定位对象在最终底图上人工框选。
-- 已公开 V9（48 张，黑底白线）；公网 HTTP 200、包与本地验收包全等、原 40 图字节全等、850 未变。**手机端真机更新尚未验收**；其余 32 张未制作，本计划未完成。
+- 已公开 V10（80 张，黑底白线）；公网 HTTP 200、包与本地验收包全等、原 48 图字节全等、850 未变。**手机端真机更新尚未验收**；80 张计划卡已全部完成。
 - 公开源与本地运行材料分离，运行回执、预览、计时、generation-index、files-ready、offline-acceptance、region-decisions、反色恢复材料与发布审计等仅保留本地。
 
 2026-10-05 V7 已完成：用户手机更新 V6（新 photoID）后练习为空；确认原因为旧 V5 照片全局去重占词、V6 新照片 ID 筛选后为 0。已按用户要求通过官方换图接口在**原 V5 cardID** 上替换为黑底白线图片（`workflow/V7-image-replacement-journal.json`，final revision 122），保留 32 图 / 128 词条 / 101 唯一词 / 37 框 / 91 语境词与全部保护字段；已免费公开发布 **V7**（publicationID=f0db8be990d3359c45d5e083b71c27c5，packageSHA256=222dc1483176fca897c9364b11831dbf2f75a8f64a5c47af3efc57b37cf20f04，7059505 bytes），公网 HTTP 200 且与本地验收包全等。兼容性：手机来源代码未改，现有去重逻辑 101 词在 Mac 隔离复现（`workflow/V6-practice-diagnosis/V7-card-update-compatibility.json`）；**手机真机更新未验收**（未用模拟器）。恢复材料见 workflow/V7-*、V7-final-preview-index.json、V7-timing.json、V7-final-local-sync.json。

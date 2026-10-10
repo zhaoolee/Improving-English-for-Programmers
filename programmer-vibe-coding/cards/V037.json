@@ -1,0 +1,246 @@
+{
+  "id": "V037",
+  "category": "delivery",
+  "category_title": "从能跑到交付",
+  "chapter": "从能跑到交付",
+  "title": "让每次提交都能说清楚",
+  "keyword": "commit",
+  "scene": "使用 Git、发布、回滚与反馈完成交付",
+  "target_count": 4,
+  "primary_words": [
+    "commit",
+    "message",
+    "atomic",
+    "folder"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "commit",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "提交",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːmɪt/",
+      "ipa_uk": "/ˈkɒmɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Keep this commit atomic and give it a clear message.",
+        "matched_form": "commit",
+        "referent_region_verified": false,
+        "context": "这里是版本控制提交，不把文件夹或放置动作当作提交完成证据。",
+        "image_verified": null
+      },
+      "example_en": "Keep this commit atomic and give it a clear message.",
+      "example_zh": "让这次提交保持原子化，并写一条清楚的提交信息。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an atomic commit",
+        "a separate commit"
+      ],
+      "example_en_highlighted": "Keep this **commit** atomic and give it a clear message.",
+      "annotation_mode": "context",
+      "annotation_note": "这里是版本控制提交，不把文件夹或放置动作当作提交完成证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "message",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "信息",
+      "pos": "noun",
+      "ipa_us": "/ˈmesɪdʒ/",
+      "ipa_uk": "/ˈmesɪdʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Keep this commit atomic and give it a clear message.",
+        "matched_form": "message",
+        "referent_region_verified": false,
+        "context": "提交信息应为文字，但底图禁止可读文字，因此只由对白教学。",
+        "image_verified": null
+      },
+      "example_en": "Keep this commit atomic and give it a clear message.",
+      "example_zh": "让这次提交保持原子化，并写一条清楚的提交信息。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a commit message",
+        "a clear message"
+      ],
+      "example_en_highlighted": "Keep this commit atomic and give it a clear **message**.",
+      "annotation_mode": "context",
+      "annotation_note": "提交信息应为文字，但底图禁止可读文字，因此只由对白教学。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "atomic",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "原子化的",
+      "pos": "adjective",
+      "ipa_us": "/əˈtɑːmɪk/",
+      "ipa_uk": "/əˈtɒmɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Keep this commit atomic and give it a clear message.",
+        "matched_form": "atomic",
+        "referent_region_verified": false,
+        "context": "原子化指一次提交只含一个意图，与物理原子或文件夹大小无关。",
+        "image_verified": null
+      },
+      "example_en": "Keep this commit atomic and give it a clear message.",
+      "example_zh": "让这次提交保持原子化，并写一条清楚的提交信息。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an atomic commit",
+        "keep a change atomic"
+      ],
+      "example_en_highlighted": "Keep this commit **atomic** and give it a clear message.",
+      "annotation_mode": "context",
+      "annotation_note": "原子化指一次提交只含一个意图，与物理原子或文件夹大小无关。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "folder",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "文件夹",
+      "pos": "noun",
+      "ipa_us": "/ˈfoʊldər/",
+      "ipa_uk": "/ˈfəʊldə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌面上完整打开的实体文件夹及其标签页是直接指代，只框文件夹。",
+        "sentence": "No. Leave those files in this folder for a separate commit.",
+        "matched_form": "folder",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "No. Leave those files in this folder for a separate commit.",
+      "example_zh": "不要。把那些文件留在这个文件夹里，另做一次提交。",
+      "bbox_normalized": [
+        0.361,
+        0.411,
+        0.617,
+        0.602
+      ],
+      "collocations": [
+        "in this folder",
+        "a file folder"
+      ],
+      "example_en_highlighted": "No. Leave those files in this **folder** for a separate commit.",
+      "annotation_mode": "object",
+      "annotation_note": "桌面上完整打开的实体文件夹及其标签页是直接指代，只框文件夹。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to keep a commit atomic and its message clear.",
+    "zh": "程序员让 AI 保持提交原子化，并写清提交信息。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to keep a commit atomic and its message clear.",
+    "zh": "程序员让 AI 保持提交原子化，并写清提交信息。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Keep this commit atomic and give it a clear message.",
+      "zh": "让这次提交保持原子化，并写一条清楚的提交信息。"
+    },
+    {
+      "speaker": "B",
+      "en": "Should I include the unrelated formatting changes?",
+      "zh": "要把无关的格式修改也包含进去吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "No. Leave those files in this folder for a separate commit.",
+      "zh": "不要。把那些文件留在这个文件夹里，另做一次提交。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll commit only the behavior change and summarize why.",
+      "zh": "我只提交行为改动，并概括修改原因。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "让一次提交只表达一个可审查的意图。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small desk and points toward one large open file folder centered on the tabletop. The full folder outline, tab and two blank sheets inside are complete and unobstructed; the sheets have no writing, letters or symbols. The floating white OpenAI knot is at the right. No computer, branch diagram or extra folders.",
+  "status": "approved",
+  "image_path": "images/V037.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V037 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V037.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V037_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V037.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面上只有一个打开的文件夹，标签页和两张空白纸完整可见；提交、信息与原子性是版本控制语境。"
+  }
+}

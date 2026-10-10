@@ -1,0 +1,130 @@
+{
+  "filename": "I013.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "structure",
+      "chinese": "结构",
+      "phoneticUS": "/ˈstrʌktʃər/",
+      "phoneticUK": "/ˈstrʌktʃə/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：structure。本卡例句：I'd choose a hash table as the data structure for fast key lookup.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：structure。本卡例句：I'd choose a hash table as the data structure for fast key lookup.",
+        "collocation": "a data structure; choose a structure",
+        "example": "A: I'd choose a hash table as the data structure for fast key lookup.\nB: What makes it efficient, and what is the trade-off?\nA: With suitable hashing and load, expected lookup time is constant. It needs extra space. May I sketch it on the whiteboard?\nB: Yes. Also discuss possible collisions.",
+        "exampleChinese": "A: 我会选择哈希表这种数据结构，以便快速按键查找。\nB: 为什么它高效？需要作出什么取舍？\nA: 在哈希设计和负载适当的条件下，预期查找时间是常数级。它需要额外空间。我可以在白板上画个示意图吗？\nB: 可以。也请讨论可能发生的哈希冲突。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "lookup",
+      "chinese": "查找",
+      "phoneticUS": "/ˈlʊkʌp/",
+      "phoneticUK": "/ˈlʊkʌp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：lookup。本卡例句：I'd choose a hash table as the data structure for fast key lookup.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：lookup。本卡例句：I'd choose a hash table as the data structure for fast key lookup.",
+        "collocation": "a key lookup; lookup time",
+        "example": "I'd choose a hash table as the data structure for fast key lookup.",
+        "exampleChinese": "我会选择哈希表这种数据结构，以便快速按键查找。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "efficient",
+      "chinese": "高效的",
+      "phoneticUS": "/ɪˈfɪʃənt/",
+      "phoneticUK": "/ɪˈfɪʃənt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：efficient。本卡例句：What makes it efficient, and what is the trade-off?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：efficient。本卡例句：What makes it efficient, and what is the trade-off?",
+        "collocation": "an efficient lookup; an efficient solution",
+        "example": "What makes it efficient, and what is the trade-off?",
+        "exampleChinese": "为什么它高效？需要作出什么取舍？"
+      }
+    },
+    {
+      "x": 365,
+      "y": 758,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 540,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 365,
+        "y": 758
+      },
+      "boundingBox": {
+        "left": 129,
+        "top": 625,
+        "right": 639,
+        "bottom": 831
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后桌上的完整带浅灰边框白板及无字节点图；不把图形认定为正确实现的哈希表。",
+        "association": "修图后桌上的完整带浅灰边框白板及无字节点图；不把图形认定为正确实现的哈希表。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "With suitable hashing and load, expected lookup time is constant. It needs extra space. May I sketch it on the whiteboard?",
+        "exampleChinese": "在哈希设计和负载适当的条件下，预期查找时间是常数级。它需要额外空间。我可以在白板上画个示意图吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains a data-structure choice using a small whiteboard.",
+    "chinese": "候选人借助一块小白板解释选择某种数据结构的原因。",
+    "source": "原创配文 · I013 为什么选择这个数据结构？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

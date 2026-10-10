@@ -1,0 +1,246 @@
+{
+  "id": "W017",
+  "category": "requirements",
+  "category_title": "需求澄清",
+  "chapter": "需求澄清",
+  "title": "澄清错误提示文案",
+  "keyword": "wording",
+  "scene": "开发者与设计师澄清错误提示的措辞。",
+  "target_count": 4,
+  "primary_words": [
+    "wording",
+    "specific",
+    "retry",
+    "monitor"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "wording",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "措辞",
+      "pos": "noun",
+      "ipa_us": "/ˈwɜːrdɪŋ/",
+      "ipa_uk": "/ˈwɜːdɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could we make the wording of this error more specific?",
+        "matched_form": "wording",
+        "referent_region_verified": false,
+        "context": "“Could we make the wording of this error more specific?”明确表达措辞；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Could we make the wording of this error more specific?",
+      "example_zh": "我们能把这个错误提示的措辞写得更明确吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "the wording of a message",
+        "clear wording"
+      ],
+      "example_en_highlighted": "Could we make the **wording** of this error more specific?",
+      "annotation_mode": "context",
+      "annotation_note": "“Could we make the wording of this error more specific?”明确表达措辞；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "specific",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "明确的",
+      "pos": "adjective",
+      "ipa_us": "/spəˈsɪfɪk/",
+      "ipa_uk": "/spəˈsɪfɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could we make the wording of this error more specific?",
+        "matched_form": "specific",
+        "referent_region_verified": false,
+        "context": "“Could we make the wording of this error more specific?”明确表达明确的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Could we make the wording of this error more specific?",
+      "example_zh": "我们能把这个错误提示的措辞写得更明确吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "more specific",
+        "a specific example"
+      ],
+      "example_en_highlighted": "Could we make the wording of this error more **specific**?",
+      "annotation_mode": "context",
+      "annotation_note": "“Could we make the wording of this error more specific?”明确表达明确的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "retry",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "重试",
+      "pos": "noun",
+      "ipa_us": "/ˈriːtraɪ/",
+      "ipa_uk": "/ˈriːtraɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let's show a retry button on this monitor as well.",
+        "matched_form": "retry",
+        "referent_region_verified": false,
+        "context": "“Let's show a retry button on this monitor as well.”明确表达重试；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Let's show a retry button on this monitor as well.",
+      "example_zh": "我们也在这个显示器上展示重试按钮吧。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a retry button",
+        "one retry"
+      ],
+      "example_en_highlighted": "Let's show a **retry** button on this monitor as well.",
+      "annotation_mode": "context",
+      "annotation_note": "“Let's show a retry button on this monitor as well.”明确表达重试；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "monitor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "显示器",
+      "pos": "noun",
+      "ipa_us": "/ˈmɑːnɪtər/",
+      "ipa_uk": "/ˈmɒnɪtə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Let's show a retry button on this monitor as well.",
+        "matched_form": "monitor",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let's show a retry button on this monitor as well.",
+      "example_zh": "我们也在这个显示器上展示重试按钮吧。",
+      "bbox_normalized": [
+        0.331,
+        0.292,
+        0.645,
+        0.541
+      ],
+      "collocations": [
+        "on the monitor",
+        "a computer monitor"
+      ],
+      "example_en_highlighted": "Let's show a retry button on this **monitor** as well.",
+      "annotation_mode": "object",
+      "annotation_note": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer and a designer clarify an error message.",
+    "zh": "开发者与设计师澄清错误提示的措辞。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer and a designer clarify an error message.",
+    "zh": "开发者与设计师澄清错误提示的措辞。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could we make the wording of this error more specific?",
+      "zh": "我们能把这个错误提示的措辞写得更明确吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. It should explain why the upload failed.",
+      "zh": "可以。它应该解释上传为什么失败。"
+    },
+    {
+      "speaker": "A",
+      "en": "Let's show a retry button on this monitor as well.",
+      "zh": "我们也在这个显示器上展示重试按钮吧。"
+    },
+    {
+      "speaker": "B",
+      "en": "Agreed. The message should help people decide what to do next.",
+      "zh": "同意。提示应该帮助用户决定下一步怎么做。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "把错误提示的措辞写得更具体，帮助用户决定下一步。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand on opposite sides of a desk monitor. One points at an abstract warning triangle on the screen. Entire monitor and stand fully visible. No readable message or text.",
+  "status": "approved",
+  "image_path": "images/W017.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W017 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W017.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.174Z",
+    "ended_at": "2026-10-07T09:25:52.669Z",
+    "prompt_path": "prompts/W017_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W017.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整显示器与支架，屏幕警示图标不证明具体错误措辞。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "id": "I040",
+  "category": "closing",
+  "title_zh": "确认 Offer 或礼貌拒绝",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "亚洲男候选人与美国男招聘方确认Offer，候选人轻松而克制地表达接受，画面聚焦双方的清晰沟通。",
+  "cast": {
+    "candidate": "AS_ARJUN",
+    "interviewer": "US_MARCUS"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.\nInterviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.\nExactly two people in a final recruiting conversation. Arjun, the candidate in an ivory shirt and navy blazer, confirms acceptance of an offer to Marcus, the recruiter in a charcoal overshirt. Arjun rests one hand on a closed slim offer folder and speaks with a small, genuine smile; Marcus responds with a calm nod and relaxed posture. A single closed notebook and one glass of water complete the clean oak tabletop. A 50mm eye-level medium two-person photograph, soft linen-filtered afternoon light and realistic skin and fabric texture. No legible contract, signing close-up, handshake, confetti, champagne or exaggerated victory pose. One coherent acceptance scene, not a split image of accepting and declining.",
+  "prompt_path": "prompts/I040_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I040.png",
+  "image_sha256": "62b24f2b30ad564ae7b0bebd64997d5759f8b7c190770d7e1fecff1ae68b4fe3",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "两位男性面对合起的Offer文件夹平静确认，候选人有轻微笑意与克制手势，面试官自然倾听；没有握手或签字。面部、手部、文件夹与水杯未见明显异常，侧窗光和桌面层次呈现收尾场景的电影感 实际可见物件：候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I040_generate.txt",
+    "source_path": "images/I040.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:53:19 UTC",
+    "selected_image_path": "images/I040.png",
+    "selected_image_sha256": "62b24f2b30ad564ae7b0bebd64997d5759f8b7c190770d7e1fecff1ae68b4fe3",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:53:19Z",
+    "prompt_path": "prompts/I040_image_final.txt"
+  },
+  "title": "确认 Offer 或礼貌拒绝",
+  "scene": "亚洲男候选人与美国男招聘方确认Offer，候选人轻松而克制地表达接受，画面聚焦双方的清晰沟通。",
+  "category_title": "反问与面试后续",
+  "primary_words": [
+    "offer",
+    "accept",
+    "decline",
+    "folder"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "offer",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "录用通知",
+      "pos": "noun",
+      "ipa_us": "/ˈɔːfər/",
+      "ipa_uk": "/ˈɒfə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Thank you for the offer. May I review the written terms in this folder?",
+        "matched_form": "offer",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：offer。本卡例句：Thank you for the offer. May I review the written terms in this folder?",
+        "image_verified": null
+      },
+      "example_en": "Thank you for the offer. May I review the written terms in this folder?",
+      "example_zh": "谢谢你们的录用通知。我可以审阅这个文件夹里的书面条款吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a job offer",
+        "receive an offer"
+      ],
+      "example_en_highlighted": "Thank you for the **offer**. May I review the written terms in this folder?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：offer。本卡例句：Thank you for the offer. May I review the written terms in this folder?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "accept",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "接受",
+      "pos": "verb",
+      "ipa_us": "/əkˈsept/",
+      "ipa_uk": "/əkˈsept/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Of course. When can you let us know whether you accept?",
+        "matched_form": "accept",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：accept。本卡例句：Of course. When can you let us know whether you accept?",
+        "image_verified": null
+      },
+      "example_en": "Of course. When can you let us know whether you accept?",
+      "example_zh": "当然。你什么时候能告诉我们是否接受？",
+      "bbox_normalized": null,
+      "collocations": [
+        "accept an offer",
+        "accept the terms"
+      ],
+      "example_en_highlighted": "Of course. When can you let us know whether you **accept**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：accept。本卡例句：Of course. When can you let us know whether you accept?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "decline",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "谢绝",
+      "pos": "verb",
+      "ipa_us": "/dɪˈklaɪn/",
+      "ipa_uk": "/dɪˈklaɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+        "matched_form": "decline",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：decline。本卡例句：I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+        "image_verified": null
+      },
+      "example_en": "I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+      "example_zh": "我会在周五前回复。如果我需要谢绝，我会及时告知，并感谢你们付出的时间。",
+      "bbox_normalized": null,
+      "collocations": [
+        "decline an offer",
+        "politely decline"
+      ],
+      "example_en_highlighted": "I'll respond by Friday. If I need to **decline**, I'll let you know promptly and thank you for your time.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：decline。本卡例句：I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "folder",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "文件夹",
+      "pos": "noun",
+      "ipa_us": "/ˈfoʊldər/",
+      "ipa_uk": "/ˈfəʊldə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持。",
+        "sentence": "Thank you for the offer. May I review the written terms in this folder?",
+        "matched_form": "folder",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Thank you for the offer. May I review the written terms in this folder?",
+      "example_zh": "谢谢你们的录用通知。我可以审阅这个文件夹里的书面条款吗？",
+      "bbox_normalized": [
+        0.0,
+        0.635,
+        0.52,
+        0.73
+      ],
+      "collocations": [
+        "a document folder",
+        "open a folder"
+      ],
+      "example_en_highlighted": "Thank you for the offer. May I review the written terms in this **folder**?",
+      "annotation_mode": "object",
+      "annotation_note": "候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "反问与面试后续",
+  "keyword": "offer",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate discusses how to respond to an offer after reviewing the terms.",
+    "zh": "审阅条款后，候选人讨论如何回复录用通知。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate discusses how to respond to an offer after reviewing the terms.",
+    "zh": "审阅条款后，候选人讨论如何回复录用通知。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Thank you for the offer. May I review the written terms in this folder?",
+      "zh": "谢谢你们的录用通知。我可以审阅这个文件夹里的书面条款吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Of course. When can you let us know whether you accept?",
+      "zh": "当然。你什么时候能告诉我们是否接受？"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+      "zh": "我会在周五前回复。如果我需要谢绝，我会及时告知，并感谢你们付出的时间。"
+    },
+    {
+      "speaker": "B",
+      "en": "That works. Please contact me if you have any questions.",
+      "zh": "可以。有任何问题请联系我。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "了解岗位、团队和成长空间，并得体沟通薪酬、入职与面试结果。本卡主题：确认 Offer 或礼貌拒绝。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I040 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I040.png 宽高归一化至 0..1；由人工视觉定位。"
+}

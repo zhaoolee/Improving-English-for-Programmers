@@ -1,0 +1,21 @@
+{
+  "cardID": "I036",
+  "imagePath": "../images/I036.png",
+  "imageSHA256": "004746ff0f91dde597314a83bcd802060ec75ff109f5cdd78c8869667dff3f86",
+  "imageReviewed": true,
+  "annotationsPath": "I036_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "role",
+    "expectation",
+    "onboarding",
+    "folder"
+  ],
+  "receiptPath": "I036_learning_import_receipt.json",
+  "photoID": "c922ac68-93f0-4716-b4d9-fc7b33cda858",
+  "expectedAssetID": "dff33d9d3879335f8fd329df925ad1d309f7af26ebd1ada0ca49a4c42a7da011",
+  "expectedImageFilename": "I036.png",
+  "expectedSourceSHA256": "004746ff0f91dde597314a83bcd802060ec75ff109f5cdd78c8869667dff3f86",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

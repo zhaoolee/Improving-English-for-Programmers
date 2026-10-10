@@ -1,0 +1,130 @@
+{
+  "filename": "W027-确认本周交付范围.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "deliver",
+      "chinese": "交付",
+      "phoneticUS": "/dɪˈlɪvər/",
+      "phoneticUK": "/dɪˈlɪvə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What can we commit to deliver this week?”明确表达交付；单幅画面不能独立证明，不设局部框。",
+        "association": "“What can we commit to deliver this week?”明确表达交付；单幅画面不能独立证明，不设局部框。",
+        "collocation": "deliver a feature; deliver this week",
+        "example": "A: What can we commit to deliver this week?\nB: The login fix and the new search endpoint.\nA: Let's keep that scope and mark the date on the calendar.\nB: Agreed. We'll discuss any additional work separately.",
+        "exampleChinese": "A: 我们能承诺本周交付什么？\nB: 登录问题的修复和新的搜索接口。\nA: 我们就保持这个范围，并在日历上标记日期。\nB: 同意。其他新增工作我们另行讨论。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "scope",
+      "chinese": "范围",
+      "phoneticUS": "/skoʊp/",
+      "phoneticUK": "/skəʊp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let's keep that scope and mark the date on the calendar.”明确表达范围；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let's keep that scope and mark the date on the calendar.”明确表达范围；单幅画面不能独立证明，不设局部框。",
+        "collocation": "keep the scope; within scope",
+        "example": "Let's keep that scope and mark the date on the calendar.",
+        "exampleChinese": "我们就保持这个范围，并在日历上标记日期。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "commit",
+      "chinese": "承诺",
+      "phoneticUS": "/kəˈmɪt/",
+      "phoneticUK": "/kəˈmɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What can we commit to deliver this week?”明确表达承诺；单幅画面不能独立证明，不设局部框。",
+        "association": "“What can we commit to deliver this week?”明确表达承诺；单幅画面不能独立证明，不设局部框。",
+        "collocation": "commit to deliver; commit to a date",
+        "example": "What can we commit to deliver this week?",
+        "exampleChinese": "我们能承诺本周交付什么？"
+      }
+    },
+    {
+      "x": 531,
+      "y": 485,
+      "english": "calendar",
+      "chinese": "日历",
+      "phoneticUS": "/ˈkælɪndər/",
+      "phoneticUK": "/ˈkælɪndə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 690
+      },
+      "anchorPosition": {
+        "x": 531,
+        "y": 485
+      },
+      "boundingBox": {
+        "left": 312,
+        "top": 141,
+        "right": 700,
+        "bottom": 602
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this calendar; mark dates on a calendar",
+        "example": "Let's keep that scope and mark the date on the calendar.",
+        "exampleChinese": "我们就保持这个范围，并在日历上标记日期。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A team confirms what it can deliver this week.",
+    "chinese": "团队确认本周能够交付的范围。",
+    "source": "原创对话 · W027 确认本周交付范围",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "V021-功能都有了，为什么还是不好用？.png",
+  "labels": [
+    {
+      "x": 220,
+      "y": 95,
+      "english": "usability",
+      "chinese": "可用性",
+      "phoneticUS": "/ˌjuːzəˈbɪləti/",
+      "phoneticUK": "/ˌjuːzəˈbɪləti/",
+      "bubblePosition": {
+        "x": 220,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "可用性是使用评价，只由对白明确表达。",
+        "association": "可用性是使用评价，只由对白明确表达。",
+        "collocation": "improve usability; a usability issue",
+        "example": "A: The app runs on my phone. Why is the usability still poor?\nB: The layout hides the main action.\nA: What feedback should the interface show?\nB: Show loading, success, and failure clearly.",
+        "exampleChinese": "A: 应用在我的手机上能运行，为什么可用性还是很差？\nB: 布局把主要操作藏起来了。\nA: 界面应该显示哪些反馈？\nB: 清晰展示加载、成功和失败状态。"
+      }
+    },
+    {
+      "x": 730,
+      "y": 95,
+      "english": "layout",
+      "chinese": "布局",
+      "phoneticUS": "/ˈleɪaʊt/",
+      "phoneticUK": "/ˈleɪaʊt/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "布局的优劣由对话说明，不把泛化示意 UI 当作具体错误。",
+        "association": "布局的优劣由对话说明，不把泛化示意 UI 当作具体错误。",
+        "collocation": "a screen layout; improve the layout",
+        "example": "The layout hides the main action.",
+        "exampleChinese": "布局把主要操作藏起来了。"
+      }
+    },
+    {
+      "x": 470,
+      "y": 205,
+      "english": "feedback",
+      "chinese": "反馈",
+      "phoneticUS": "/ˈfiːdbæk/",
+      "phoneticUK": "/ˈfiːdbæk/",
+      "bubblePosition": {
+        "x": 470,
+        "y": 205
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "交互反馈类型由对白解释，抽象状态符号不代表真实运行反馈。",
+        "association": "交互反馈类型由对白解释，抽象状态符号不代表真实运行反馈。",
+        "collocation": "visual feedback; user feedback",
+        "example": "What feedback should the interface show?",
+        "exampleChinese": "界面应该显示哪些反馈？"
+      }
+    },
+    {
+      "x": 552,
+      "y": 435,
+      "english": "phone",
+      "chinese": "手机",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 552,
+        "y": 435
+      },
+      "boundingBox": {
+        "left": 444,
+        "top": 252,
+        "right": 690,
+        "bottom": 620
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整的手机外壳和屏幕是 phone 的局部对象。",
+        "association": "完整的手机外壳和屏幕是 phone 的局部对象。",
+        "collocation": "on my phone; a phone app",
+        "example": "The app runs on my phone. Why is the usability still poor?",
+        "exampleChinese": "应用在我的手机上能运行，为什么可用性还是很差？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant how to improve a phone app's layout and feedback.",
+    "chinese": "程序员向 AI 询问如何改善手机应用的布局与反馈。",
+    "source": "原创对话 · V021 功能都有了，为什么还是不好用？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

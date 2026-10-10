@@ -1,0 +1,130 @@
+{
+  "filename": "W007-午餐时聊工作习惯.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "habit",
+      "chinese": "习惯",
+      "phoneticUS": "/ˈhæbɪt/",
+      "phoneticUK": "/ˈhæbɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What habit helps you focus in the morning?”明确表达习惯；单幅画面不能独立证明，不设局部框。",
+        "association": "“What habit helps you focus in the morning?”明确表达习惯；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a good habit; break a habit",
+        "example": "A: What habit helps you focus in the morning?\nB: I check messages after my first task, then take a short break.\nA: That sounds useful. Shall I take your plate?\nB: Thanks. I try to keep lunch free of work messages too.",
+        "exampleChinese": "A: 什么习惯能帮助你在早上专注？\nB: 我完成第一项任务后才看消息，然后休息一小会儿。\nA: 听起来很实用。要我帮你拿走盘子吗？\nB: 谢谢。我也尽量不在午餐时间看工作消息。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "focus",
+      "chinese": "专注",
+      "phoneticUS": "/ˈfoʊkəs/",
+      "phoneticUK": "/ˈfəʊkəs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What habit helps you focus in the morning?”明确表达专注；单幅画面不能独立证明，不设局部框。",
+        "association": "“What habit helps you focus in the morning?”明确表达专注；单幅画面不能独立证明，不设局部框。",
+        "collocation": "focus on your work; focus in the morning",
+        "example": "What habit helps you focus in the morning?",
+        "exampleChinese": "什么习惯能帮助你在早上专注？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "break",
+      "chinese": "休息",
+      "phoneticUS": "/breɪk/",
+      "phoneticUK": "/breɪk/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I check messages after my first task, then take a short break.”明确表达休息；单幅画面不能独立证明，不设局部框。",
+        "association": "“I check messages after my first task, then take a short break.”明确表达休息；单幅画面不能独立证明，不设局部框。",
+        "collocation": "take a break; a short break",
+        "example": "I check messages after my first task, then take a short break.",
+        "exampleChinese": "我完成第一项任务后才看消息，然后休息一小会儿。"
+      }
+    },
+    {
+      "x": 612,
+      "y": 526,
+      "english": "plate",
+      "chinese": "盘子",
+      "phoneticUS": "/pleɪt/",
+      "phoneticUK": "/pleɪt/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 680
+      },
+      "anchorPosition": {
+        "x": 612,
+        "y": 526
+      },
+      "boundingBox": {
+        "left": 525,
+        "top": 474,
+        "right": 704,
+        "bottom": 558
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "盘子（plate）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "盘子（plate）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "take a plate; on the plate",
+        "example": "That sounds useful. Shall I take your plate?",
+        "exampleChinese": "听起来很实用。要我帮你拿走盘子吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers discuss their work habits over lunch.",
+    "chinese": "两位开发者在午餐时聊各自的工作习惯。",
+    "source": "原创对话 · W007 午餐时聊工作习惯",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

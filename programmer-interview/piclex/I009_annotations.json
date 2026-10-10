@@ -1,0 +1,130 @@
+{
+  "filename": "I009.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "impact",
+      "chinese": "影响",
+      "phoneticUS": "/ˈɪmpækt/",
+      "phoneticUK": "/ˈɪmpækt/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：impact。本卡例句：To measure impact, we chose median response time as our main metric.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：impact。本卡例句：To measure impact, we chose median response time as our main metric.",
+        "collocation": "measure impact; business impact",
+        "example": "A: To measure impact, we chose median response time as our main metric.\nB: What was the baseline?\nA: It was 400 milliseconds. This chart shows it fell to 250 under the same test load.\nB: Did you also check error rates?",
+        "exampleChinese": "A: 为了衡量影响，我们把响应时间中位数选作主要指标。\nB: 基准值是多少？\nA: 是 400 毫秒。这张图表显示，在相同测试负载下，它降到了 250 毫秒。\nB: 你们也检查了错误率吗？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "metric",
+      "chinese": "指标",
+      "phoneticUS": "/ˈmetrɪk/",
+      "phoneticUK": "/ˈmetrɪk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：metric。本卡例句：To measure impact, we chose median response time as our main metric.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：metric。本卡例句：To measure impact, we chose median response time as our main metric.",
+        "collocation": "a performance metric; choose a metric",
+        "example": "To measure impact, we chose median response time as our main metric.",
+        "exampleChinese": "为了衡量影响，我们把响应时间中位数选作主要指标。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "baseline",
+      "chinese": "基准值",
+      "phoneticUS": "/ˈbeɪslaɪn/",
+      "phoneticUK": "/ˈbeɪslaɪn/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：baseline。本卡例句：What was the baseline?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：baseline。本卡例句：What was the baseline?",
+        "collocation": "establish a baseline; compare with the baseline",
+        "example": "What was the baseline?",
+        "exampleChinese": "基准值是多少？"
+      }
+    },
+    {
+      "x": 490,
+      "y": 661,
+      "english": "chart",
+      "chinese": "图表",
+      "phoneticUS": "/tʃɑːrt/",
+      "phoneticUK": "/tʃɑːt/",
+      "bubblePosition": {
+        "x": 675,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 661
+      },
+      "boundingBox": {
+        "left": 282,
+        "top": 517,
+        "right": 571,
+        "bottom": 720
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。",
+        "association": "笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。",
+        "collocation": "a performance chart; show a chart",
+        "example": "It was 400 milliseconds. This chart shows it fell to 250 under the same test load.",
+        "exampleChinese": "是 400 毫秒。这张图表显示，在相同测试负载下，它降到了 250 毫秒。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate uses a chart to explain a measured project result.",
+    "chinese": "候选人借助图表说明项目经过测量的成果。",
+    "source": "原创配文 · I009 用数据说明项目成果",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

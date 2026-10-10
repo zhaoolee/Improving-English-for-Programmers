@@ -1,0 +1,1354 @@
+{
+  "ready": true,
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "reviewer": "Codex",
+  "coordinateSystem": "0..1000，按实际选定 images/Wxxx.png 归一化；cards 写 0–1，PicLex 写 0–1000。",
+  "semanticReview": "Codex 原创编辑复核词义、英美音标与本卡语境；不声称访问外部词典全文。前三词为语境词、第四词为可见道具；几何由人工在最终底图上标注。",
+  "reviewCompletedAt": "2026-10-07T09:59:53.537Z",
+  "cards": {
+    "W007": {
+      "sourcePath": "images/W007.png",
+      "imageReview": "通过：右侧完整盘子，食物不用于证明工作习惯。对白去掉空盘限定以匹配实图。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.165Z",
+      "generationEndedAt": "2026-10-07T09:25:26.650Z",
+      "geometry": {
+        "habit": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "focus": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "break": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "plate": {
+          "bubble": [
+            750,
+            680
+          ],
+          "box": [
+            525,
+            474,
+            704,
+            558
+          ],
+          "anchor": [
+            612,
+            526
+          ]
+        }
+      }
+    },
+    "W008": {
+      "sourcePath": "images/W008.png",
+      "imageReview": "通过：完整圆形时钟，包括外圈和指针，不凭指针推断预约时间。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。 brief 气泡经官方 layout apply 修正至 769.83,69.83（revision 224），仅位置变化。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:24:10.220Z",
+      "geometry": {
+        "available": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "discuss": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "brief": {
+          "bubble": [
+            769.830110669374,
+            69.83011066937398
+          ]
+        },
+        "clock": {
+          "bubble": [
+            750,
+            180
+          ],
+          "box": [
+            397,
+            100,
+            603,
+            304
+          ],
+          "anchor": [
+            505,
+            214
+          ]
+        }
+      }
+    },
+    "W009": {
+      "sourcePath": "images/W009.png",
+      "imageReview": "通过：耳麦外圈、耳罩与麦克风，佩戴在头上，裁剪必然包含部分头部。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:24:36.019Z",
+      "geometry": {
+        "introduce": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "join": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "support": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "headset": {
+          "bubble": [
+            150,
+            350
+          ],
+          "box": [
+            216,
+            177,
+            435,
+            405
+          ],
+          "anchor": [
+            273,
+            300
+          ]
+        }
+      }
+    },
+    "W010": {
+      "sourcePath": "images/W010.png",
+      "imageReview": "通过：双手间完整带标签的实体文件夹。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:25:02.401Z",
+      "geometry": {
+        "handover": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "locate": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "complete": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "folder": {
+          "bubble": [
+            500,
+            220
+          ],
+          "box": [
+            367,
+            297,
+            595,
+            467
+          ],
+          "anchor": [
+            505,
+            383
+          ]
+        }
+      }
+    },
+    "W017": {
+      "sourcePath": "images/W017.png",
+      "imageReview": "通过：完整显示器与支架，屏幕警示图标不证明具体错误措辞。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:25:52.669Z",
+      "geometry": {
+        "wording": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "specific": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "retry": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "monitor": {
+          "bubble": [
+            500,
+            650
+          ],
+          "box": [
+            331,
+            292,
+            645,
+            541
+          ],
+          "anchor": [
+            492,
+            470
+          ]
+        }
+      }
+    },
+    "W018": {
+      "sourcePath": "images/W018.png",
+      "imageReview": "通过：完整手持平板，黑白修正版已审查，界面无可读文字。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:56:51.002Z",
+      "geometry": {
+        "consistent": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "design": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "requirement": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "tablet": {
+          "bubble": [
+            500,
+            650
+          ],
+          "box": [
+            272,
+            342,
+            567,
+            566
+          ],
+          "anchor": [
+            419,
+            459
+          ]
+        }
+      }
+    },
+    "W019": {
+      "sourcePath": "images/W019.png",
+      "imageReview": "通过：桌上完整打开的纸质笔记本。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:26:15.912Z",
+      "geometry": {
+        "change": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "impact": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "approve": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            500,
+            730
+          ],
+          "box": [
+            334,
+            517,
+            645,
+            638
+          ],
+          "anchor": [
+            497,
+            572
+          ]
+        }
+      }
+    },
+    "W020": {
+      "sourcePath": "images/W020.png",
+      "imageReview": "通过：完整白板与支架；两组图形不证明已达成共同理解。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:27:10.121Z",
+      "geometry": {
+        "understanding": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "confirm": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "exclude": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "board": {
+          "bubble": [
+            500,
+            850
+          ],
+          "box": [
+            257,
+            203,
+            756,
+            776
+          ],
+          "anchor": [
+            505,
+            587
+          ]
+        }
+      }
+    },
+    "W027": {
+      "sourcePath": "images/W027.png",
+      "imageReview": "通过：完整挂历与挂环；空白格不用于证明交付日期。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:27:31.600Z",
+      "geometry": {
+        "deliver": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "scope": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "commit": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "calendar": {
+          "bubble": [
+            500,
+            690
+          ],
+          "box": [
+            312,
+            141,
+            700,
+            602
+          ],
+          "anchor": [
+            531,
+            485
+          ]
+        }
+      }
+    },
+    "W028": {
+      "sourcePath": "images/W028.png",
+      "imageReview": "通过：左侧人物手持电话听筒。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.174Z",
+      "generationEndedAt": "2026-10-07T09:27:55.167Z",
+      "geometry": {
+        "dependency": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "follow": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "ready": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "phone": {
+          "bubble": [
+            100,
+            290
+          ],
+          "box": [
+            151,
+            188,
+            245,
+            338
+          ],
+          "anchor": [
+            184,
+            270
+          ]
+        }
+      }
+    },
+    "W029": {
+      "sourcePath": "images/W029.png",
+      "imageReview": "通过：桌前完整键盘，手部覆盖少量键帽，整体形状可辨。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:28:46.467Z",
+      "geometry": {
+        "status": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "progress": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "remaining": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "keyboard": {
+          "bubble": [
+            500,
+            700
+          ],
+          "box": [
+            278,
+            496,
+            557,
+            574
+          ],
+          "anchor": [
+            439,
+            541
+          ]
+        }
+      }
+    },
+    "W030": {
+      "sourcePath": "images/W030.png",
+      "imageReview": "通过：传递的完整纸质文档，只有抽象横线。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:28:16.904Z",
+      "geometry": {
+        "unfinished": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "transfer": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "context": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "document": {
+          "bubble": [
+            550,
+            220
+          ],
+          "box": [
+            401,
+            291,
+            592,
+            503
+          ],
+          "anchor": [
+            500,
+            398
+          ]
+        }
+      }
+    },
+    "W037": {
+      "sourcePath": "images/W037.png",
+      "imageReview": "通过：白板和支架完整；simple指易维护的设计，不把少量图形等同维护简单。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:29:19.765Z",
+      "geometry": {
+        "maintenance": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "simple": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "cost": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "board": {
+          "bubble": [
+            500,
+            850
+          ],
+          "box": [
+            249,
+            219,
+            770,
+            749
+          ],
+          "anchor": [
+            510,
+            592
+          ]
+        }
+      }
+    },
+    "W038": {
+      "sourcePath": "images/W038.png",
+      "imageReview": "通过：完整打开的纸质笔记本，用于记录，风险与缓解由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:29:50.267Z",
+      "geometry": {
+        "risk": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "mitigate": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "limit": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            500,
+            780
+          ],
+          "box": [
+            375,
+            538,
+            708,
+            660
+          ],
+          "anchor": [
+            531,
+            607
+          ]
+        }
+      }
+    },
+    "W039": {
+      "sourcePath": "images/W039.png",
+      "imageReview": "通过：完整显示器与底座；未标注柱图不证明真实延迟数值。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:30:13.255Z",
+      "geometry": {
+        "tradeoff": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "latency": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "acceptable": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "monitor": {
+          "bubble": [
+            750,
+            630
+          ],
+          "box": [
+            369,
+            267,
+            725,
+            565
+          ],
+          "anchor": [
+            633,
+            480
+          ]
+        }
+      }
+    },
+    "W040": {
+      "sourcePath": "images/W040.png",
+      "imageReview": "通过：前景独立的完整笔，笔尖、笔身与笔帽可见。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:30:40.011Z",
+      "geometry": {
+        "decision": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "rationale": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "record": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "pen": {
+          "bubble": [
+            500,
+            890
+          ],
+          "box": [
+            362,
+            748,
+            675,
+            841
+          ],
+          "anchor": [
+            510,
+            796
+          ]
+        }
+      }
+    },
+    "W047": {
+      "sourcePath": "images/W047.png",
+      "imageReview": "通过：前景没有手部覆盖的完整键盘。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:31:01.346Z",
+      "geometry": {
+        "conflict": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "resolve": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "branch": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "keyboard": {
+          "bubble": [
+            650,
+            850
+          ],
+          "box": [
+            527,
+            579,
+            782,
+            703
+          ],
+          "anchor": [
+            658,
+            643
+          ]
+        }
+      }
+    },
+    "W048": {
+      "sourcePath": "images/W048.png",
+      "imageReview": "通过：完整打开的笔记本电脑，边界情况不是屏幕边缘。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:31:24.404Z",
+      "geometry": {
+        "coverage": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "edge": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "assert": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            450,
+            650
+          ],
+          "box": [
+            407,
+            413,
+            696,
+            584
+          ],
+          "anchor": [
+            510,
+            505
+          ]
+        }
+      }
+    },
+    "W049": {
+      "sourcePath": "images/W049.png",
+      "imageReview": "通过：桌前马克杯，包括完整杯把。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:31:51.036Z",
+      "geometry": {
+        "disagree": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "concern": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "alternative": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "mug": {
+          "bubble": [
+            500,
+            740
+          ],
+          "box": [
+            417,
+            527,
+            532,
+            625
+          ],
+          "anchor": [
+            470,
+            587
+          ]
+        }
+      }
+    },
+    "W050": {
+      "sourcePath": "images/W050.png",
+      "imageReview": "通过：手掌下仍可辨认的鼠标本体，保留完整底部外轮廓。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:32:19.120Z",
+      "geometry": {
+        "merge": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "review": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "pass": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "mouse": {
+          "bubble": [
+            550,
+            760
+          ],
+          "box": [
+            452,
+            558,
+            563,
+            630
+          ],
+          "anchor": [
+            510,
+            602
+          ]
+        }
+      }
+    },
+    "W057": {
+      "sourcePath": "images/W057.png",
+      "imageReview": "通过：完整白板与支架；受影响用户由对白限定，不从圈图猜区域身份。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:32:43.756Z",
+      "geometry": {
+        "isolate": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "affected": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "region": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "board": {
+          "bubble": [
+            500,
+            850
+          ],
+          "box": [
+            323,
+            217,
+            719,
+            768
+          ],
+          "anchor": [
+            510,
+            561
+          ]
+        }
+      }
+    },
+    "W058": {
+      "sourcePath": "images/W058.png",
+      "imageReview": "通过：完整笔记本电脑，含底座，不用勾号宣称没有回归。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:33:13.890Z",
+      "geometry": {
+        "verify": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "fix": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "regression": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            710
+          ],
+          "box": [
+            371,
+            400,
+            673,
+            618
+          ],
+          "anchor": [
+            521,
+            510
+          ]
+        }
+      }
+    },
+    "W059": {
+      "sourcePath": "images/W059.png",
+      "imageReview": "通过：右侧完整显示器与底座，复現环境和证据保持语境。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:33:37.962Z",
+      "geometry": {
+        "reproduce": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "environment": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "evidence": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "monitor": {
+          "bubble": [
+            795,
+            650
+          ],
+          "box": [
+            651,
+            274,
+            949,
+            582
+          ],
+          "anchor": [
+            827,
+            459
+          ]
+        }
+      }
+    },
+    "W060": {
+      "sourcePath": "images/W060.png",
+      "imageReview": "通过：右侧手持文档完整纸张；报告数据内容由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:34:04.380Z",
+      "geometry": {
+        "report": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "expected": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "actual": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "document": {
+          "bubble": [
+            500,
+            625
+          ],
+          "box": [
+            518,
+            329,
+            695,
+            534
+          ],
+          "anchor": [
+            602,
+            449
+          ]
+        }
+      }
+    },
+    "W067": {
+      "sourcePath": "images/W067.png",
+      "imageReview": "通过：左侧手持电话听筒，卷线不是必需的电话指代区域。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:34:32.687Z",
+      "geometry": {
+        "update": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "investigate": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "estimate": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "phone": {
+          "bubble": [
+            100,
+            450
+          ],
+          "box": [
+            127,
+            230,
+            256,
+            377
+          ],
+          "anchor": [
+            174,
+            276
+          ]
+        }
+      }
+    },
+    "W068": {
+      "sourcePath": "images/W068.png",
+      "imageReview": "通过：完整显示器与支架；稳定服务的含义由对白而非示意曲线证明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:34:53.719Z",
+      "geometry": {
+        "recover": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "stable": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "observe": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "monitor": {
+          "bubble": [
+            500,
+            650
+          ],
+          "box": [
+            332,
+            308,
+            675,
+            568
+          ],
+          "anchor": [
+            510,
+            480
+          ]
+        }
+      }
+    },
+    "W069": {
+      "sourcePath": "images/W069.png",
+      "imageReview": "通过：两人之间打开的纸质笔记本。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:35:20.409Z",
+      "geometry": {
+        "alert": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "shift": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "escalate": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            500,
+            235
+          ],
+          "box": [
+            416,
+            332,
+            648,
+            479
+          ],
+          "anchor": [
+            531,
+            388
+          ]
+        }
+      }
+    },
+    "W070": {
+      "sourcePath": "images/W070.png",
+      "imageReview": "通过：完整白板与支架，因果链是讨论示意，不作真实事故事实推断。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:35:45.763Z",
+      "geometry": {
+        "blameless": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "contribute": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "prevent": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "board": {
+          "bubble": [
+            500,
+            850
+          ],
+          "box": [
+            304,
+            225,
+            735,
+            750
+          ],
+          "anchor": [
+            510,
+            582
+          ]
+        }
+      }
+    },
+    "W077": {
+      "sourcePath": "images/W077.png",
+      "imageReview": "通过：前景完整纸质笔记本，反馈与改进内容由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:36:12.599Z",
+      "geometry": {
+        "feedback": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "specific": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "improve": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            300,
+            750
+          ],
+          "box": [
+            276,
+            534,
+            578,
+            663
+          ],
+          "anchor": [
+            408,
+            607
+          ]
+        }
+      }
+    },
+    "W078": {
+      "sourcePath": "images/W078.png",
+      "imageReview": "通过：完整笔记本电脑与底座，柱图仅示意，未给未经测量的性能数值。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:36:41.121Z",
+      "geometry": {
+        "project": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "challenge": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "result": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            500,
+            720
+          ],
+          "box": [
+            372,
+            435,
+            663,
+            624
+          ],
+          "anchor": [
+            510,
+            551
+          ]
+        }
+      }
+    },
+    "W079": {
+      "sourcePath": "images/W079.png",
+      "imageReview": "通过：完整立式日历与支架，职业成长与指导由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:37:16.836Z",
+      "geometry": {
+        "growth": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "skill": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "mentor": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "calendar": {
+          "bubble": [
+            500,
+            850
+          ],
+          "box": [
+            296,
+            278,
+            729,
+            783
+          ],
+          "anchor": [
+            510,
+            612
+          ]
+        }
+      }
+    },
+    "W080": {
+      "sourcePath": "images/W080.png",
+      "imageReview": "通过：前景完整马克杯和杯把，是画面道具，不把表情当作真实感谢或信心证据。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。",
+      "generationStartedAt": "2026-10-07T09:23:43.175Z",
+      "generationEndedAt": "2026-10-07T09:37:39.744Z",
+      "geometry": {
+        "appreciate": {
+          "bubble": [
+            200,
+            100
+          ]
+        },
+        "guidance": {
+          "bubble": [
+            500,
+            100
+          ]
+        },
+        "confidence": {
+          "bubble": [
+            800,
+            100
+          ]
+        },
+        "mug": {
+          "bubble": [
+            650,
+            860
+          ],
+          "box": [
+            332,
+            693,
+            544,
+            889
+          ],
+          "anchor": [
+            459,
+            817
+          ]
+        }
+      }
+    }
+  }
+}

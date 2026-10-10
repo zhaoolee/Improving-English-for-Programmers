@@ -1,0 +1,130 @@
+{
+  "filename": "I020.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "allocate",
+      "chinese": "分配",
+      "phoneticUS": "/ˈæləkeɪt/",
+      "phoneticUK": "/ˈæləkeɪt/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：allocate。本卡例句：When I allocate a buffer, I also plan when to release it.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：allocate。本卡例句：When I allocate a buffer, I also plan when to release it.",
+        "collocation": "allocate memory; allocate a buffer",
+        "example": "A: When I allocate a buffer, I also plan when to release it.\nB: What about a resource such as an open file?\nA: It needs explicit cleanup or a scoped cleanup mechanism. I'll show the lifetime on the whiteboard.\nB: How does that differ from garbage collection?",
+        "exampleChinese": "A: 分配缓冲区时，我也会规划何时释放它。\nB: 对于打开的文件这类资源呢？\nA: 它需要显式清理，或使用作用域清理机制。我会在白板上展示它的生命周期。\nB: 这与垃圾回收有什么区别？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "release",
+      "chinese": "释放",
+      "phoneticUS": "/rɪˈliːs/",
+      "phoneticUK": "/rɪˈliːs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：release。本卡例句：When I allocate a buffer, I also plan when to release it.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：release。本卡例句：When I allocate a buffer, I also plan when to release it.",
+        "collocation": "release a buffer; release memory",
+        "example": "When I allocate a buffer, I also plan when to release it.",
+        "exampleChinese": "分配缓冲区时，我也会规划何时释放它。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "resource",
+      "chinese": "资源",
+      "phoneticUS": "/ˈriːsɔːrs/",
+      "phoneticUK": "/rɪˈzɔːs/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resource。本卡例句：What about a resource such as an open file?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resource。本卡例句：What about a resource such as an open file?",
+        "collocation": "a system resource; release a resource",
+        "example": "What about a resource such as an open file?",
+        "exampleChinese": "对于打开的文件这类资源呢？"
+      }
+    },
+    {
+      "x": 660,
+      "y": 410,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 640,
+        "y": 570
+      },
+      "anchorPosition": {
+        "x": 660,
+        "y": 410
+      },
+      "boundingBox": {
+        "left": 565,
+        "top": 115,
+        "right": 803,
+        "bottom": 598
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板左侧真实可见范围与两组无字方格，避开右侧遮挡的人脸；内存与回收机制由对白解释。",
+        "association": "白板左侧真实可见范围与两组无字方格，避开右侧遮挡的人脸；内存与回收机制由对白解释。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "It needs explicit cleanup or a scoped cleanup mechanism. I'll show the lifetime on the whiteboard.",
+        "exampleChinese": "它需要显式清理，或使用作用域清理机制。我会在白板上展示它的生命周期。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate uses a whiteboard to explain memory and resource cleanup.",
+    "chinese": "候选人借助白板说明内存与资源清理。",
+    "source": "原创配文 · I020 解释内存管理与资源释放",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

@@ -1,0 +1,122 @@
+{
+  "filename": "V036-我电脑上能跑，别人电脑上呢？.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "deploy",
+      "chinese": "部署",
+      "phoneticUS": "/dɪˈplɔɪ/",
+      "phoneticUK": "/dɪˈplɔɪ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "部署过程不能由包装箱或箭头证明，仅用对白语境。",
+        "association": "部署过程不能由包装箱或箭头证明，仅用对白语境。",
+        "collocation": "deploy a release; deploy an app",
+        "example": "A: It works here. Can we deploy it now?\nB: First verify the release and prepare a backup.\nA: How will we roll back if the release fails?\nB: Keep the previous package and write down the recovery steps.",
+        "exampleChinese": "A: 它在这里能运行。我们现在可以部署了吗？\nB: 先验证发布包，再准备备份。\nA: 如果发布失败，我们怎样回滚？\nB: 保留上一个软件包，并写下恢复步骤。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "release",
+      "chinese": "发布包",
+      "phoneticUS": "/rɪˈliːs/",
+      "phoneticUK": "/rɪˈliːs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件发布包是抽象工程产物，实体箱子仅为故事隐喻，不设置物体框。",
+        "association": "软件发布包是抽象工程产物，实体箱子仅为故事隐喻，不设置物体框。",
+        "collocation": "verify a release; a stable release",
+        "example": "First verify the release and prepare a backup.",
+        "exampleChinese": "先验证发布包，再准备备份。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "backup",
+      "chinese": "备份",
+      "phoneticUS": "/ˈbækʌp/",
+      "phoneticUK": "/ˈbækʌp/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "备份资料与有效性由对白表达，箱子不是真实备份数据。",
+        "association": "备份资料与有效性由对白表达，箱子不是真实备份数据。",
+        "collocation": "prepare a backup; restore a backup",
+        "example": "First verify the release and prepare a backup.",
+        "exampleChinese": "先验证发布包，再准备备份。"
+      }
+    },
+    {
+      "x": 540,
+      "y": 860,
+      "english": "roll back",
+      "chinese": "回滚",
+      "phoneticUS": "/roʊl bæk/",
+      "phoneticUK": "/rəʊl bæk/",
+      "bubblePosition": {
+        "x": 540,
+        "y": 860
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb phrase",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "回滚过程与权限不能从箭头证明，保持语境词。",
+        "association": "回滚过程与权限不能从箭头证明，保持语境词。",
+        "collocation": "roll back a release; roll back a change",
+        "example": "How will we roll back if the release fails?",
+        "exampleChinese": "如果发布失败，我们怎样回滚？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant plan a release with a backup and a rollback path.",
+    "chinese": "程序员与 AI 规划发布前的备份与回滚路径。",
+    "source": "原创对话 · V036 我电脑上能跑，别人电脑上呢？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

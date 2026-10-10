@@ -1,0 +1,119 @@
+V025  从“能点”到“好用”
+========================================================================
+分类: 界面与交互打磨（interface）
+关键词: usable
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V025.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V025.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V025.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V025_image_final.txt
+
+场景: 用参考、反馈与异常状态提高可用性
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面键盘按键轮廓完整，没有字符，显示器保持空白；可用性、焦点和明显性仅按对白教学。
+
+沟通目标: 从可操作性、焦点顺序和清晰度改进真实使用体验。
+
+主配文（一句场景描述）:
+  英文: A programmer checks whether a working form is also usable from the keyboard.
+  中文: 程序员检查一个能工作的表单是否也能通过键盘顺畅使用。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] The form works with a mouse. Is it usable with this keyboard?
+        这个表单用鼠标能操作。用这把键盘也好用吗？
+  [B] Not yet. The focus order is confusing.
+        还不行。焦点顺序让人困惑。
+  [A] Make each action obvious and keep the controls easy to reach.
+        让每个操作都清楚明显，并让控件容易触达。
+  [B] I'll improve the keyboard path and test it again.
+        我会改进键盘操作路径，再测试一次。
+
+目标词 (4): usable, focus, obvious, keyboard
+
+------------------------------------------------------------------------
+[1/4] usable
+  词义: 好用的
+  词性: adjective
+  音标: UK /ˈjuːzəbəl/ | US /ˈjuːzəbəl/
+  搭配: a usable form; usable with a keyboard
+  例句: The form works with a mouse. Is it usable with this keyboard?
+  例句高亮: The form works with a mouse. Is it **usable** with this keyboard?
+  例句中文: 这个表单用鼠标能操作。用这把键盘也好用吗？
+  标注模式: context
+  标注说明: 好用程度需要实际操作验证，不能从设备外观判断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] focus
+  词义: 焦点
+  词性: noun
+  音标: UK /ˈfəʊkəs/ | US /ˈfoʊkəs/
+  搭配: focus order; move focus
+  例句: Not yet. The focus order is confusing.
+  例句高亮: Not yet. The **focus** order is confusing.
+  例句中文: 还不行。焦点顺序让人困惑。
+  标注模式: context
+  标注说明: 这里指界面键盘焦点，不是人物视线或摄影焦点。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] obvious
+  词义: 明显的
+  词性: adjective
+  音标: UK /ˈɒbviəs/ | US /ˈɑːbviəs/
+  搭配: make an action obvious; an obvious control
+  例句: Make each action obvious and keep the controls easy to reach.
+  例句高亮: Make each action **obvious** and keep the controls easy to reach.
+  例句中文: 让每个操作都清楚明显，并让控件容易触达。
+  标注模式: context
+  标注说明: 明显性是界面理解效果，静态无字画面不能证明。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] keyboard
+  词义: 键盘
+  词性: noun
+  音标: UK /ˈkiːbɔːd/ | US /ˈkiːbɔːrd/
+  搭配: with this keyboard; keyboard navigation
+  例句: The form works with a mouse. Is it usable with this keyboard?
+  例句高亮: The form works with a mouse. Is it usable with this **keyboard**?
+  例句中文: 这个表单用鼠标能操作。用这把键盘也好用吗？
+  标注模式: object
+  标注说明: 桌面上完整可见的电脑键盘是直接指代，只框键盘外缘。
+  坐标(normalized): [0.378, 0.491, 0.628, 0.552]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V025 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a simple desk with both hands beside, not on, one full-size computer keyboard centered on the tabletop. The keyboard has a complete outer frame and several blank unlabelled key rectangles, all fully visible. A monitor with a blank black screen sits behind it as secondary context. The floating white OpenAI knot is at the right. No mouse, letters or symbols.

@@ -1,0 +1,119 @@
+V027  先复现，再动代码
+========================================================================
+分类: Debug 救火现场（debugging）
+关键词: reproduce
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V027.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V027.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V027.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V027_image_final.txt
+
+场景: 复现问题、收集证据并寻找根因
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。竖直手机完整可见，屏幕裂纹是无文字的故障证据；复现、稳定和步骤仍由对白限定。
+
+沟通目标: 先记录复现步骤和环境，再开始修复。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to reproduce a bug consistently before editing code.
+  中文: 程序员让 AI 在修改代码前先稳定复现缺陷。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Can you reproduce the crash on this phone before changing the code?
+        改代码之前，你能在这部手机上复现崩溃吗？
+  [B] Not consistently. I need the exact steps and environment.
+        还不能稳定复现。我需要准确步骤和环境信息。
+  [A] I'll repeat each step and record when the crash appears.
+        我会重复每个步骤，并记录崩溃何时出现。
+  [B] Once it is consistent, I'll inspect the failing path.
+        能够稳定复现后，我再检查失败路径。
+
+目标词 (4): reproduce, consistent, step, phone
+
+------------------------------------------------------------------------
+[1/4] reproduce
+  词义: 复现
+  词性: verb
+  音标: UK /ˌriːprəˈdjuːs/ | US /ˌriːprəˈduːs/
+  搭配: reproduce a crash; reproduce consistently
+  例句: Can you reproduce the crash on this phone before changing the code?
+  例句高亮: Can you **reproduce** the crash on this phone before changing the code?
+  例句中文: 改代码之前，你能在这部手机上复现崩溃吗？
+  标注模式: context
+  标注说明: 复现是重复触发问题的过程，单张画面不能证明已经成功复现。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] consistent
+  词义: 稳定一致的
+  词性: adjective
+  音标: UK /kənˈsɪstənt/ | US /kənˈsɪstənt/
+  搭配: a consistent failure; reproduce consistently
+  例句: Once it is consistent, I'll inspect the failing path.
+  例句高亮: Once it is **consistent**, I'll inspect the failing path.
+  例句中文: 能够稳定复现后，我再检查失败路径。
+  标注模式: context
+  标注说明: 稳定性需要多次观察，不能由静态手机画面判断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] step
+  词义: 步骤
+  词性: noun
+  音标: UK /step/ | US /step/
+  搭配: repeat each step; reproduction steps
+  例句: I'll repeat each step and record when the crash appears.
+  例句高亮: I'll repeat each **step** and record when the crash appears.
+  例句中文: 我会重复每个步骤，并记录崩溃何时出现。
+  标注模式: context
+  标注说明: 步骤是操作序列，不给手机局部虚假框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] phone
+  词义: 手机
+  词性: noun
+  音标: UK /fəʊn/ | US /foʊn/
+  搭配: on this phone; a phone screen
+  例句: Can you reproduce the crash on this phone before changing the code?
+  例句高亮: Can you reproduce the crash on this **phone** before changing the code?
+  例句中文: 改代码之前，你能在这部手机上复现崩溃吗？
+  标注模式: object
+  标注说明: 完整可见的智能手机机身和屏幕是直接指代，只框整部手机。
+  坐标(normalized): [0.362, 0.272, 0.582, 0.688]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V027 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left holding one large smartphone upright at center with the full device border visible. The blank black phone screen contains only one simple unlabeled broken-line crack symbol near the middle, without letters or warning text. The hand grips the outer edge and does not cover the screen. The floating white OpenAI knot is at the right. No other devices.

@@ -1,0 +1,246 @@
+{
+  "id": "W038",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "提出技术风险",
+  "keyword": "risk",
+  "scene": "开发者提出技术风险，并建议防护措施。",
+  "target_count": 4,
+  "primary_words": [
+    "risk",
+    "mitigate",
+    "limit",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "risk",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "风险",
+      "pos": "noun",
+      "ipa_us": "/rɪsk/",
+      "ipa_uk": "/rɪsk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What is the main risk of calling the external service?",
+        "matched_form": "risk",
+        "referent_region_verified": false,
+        "context": "“What is the main risk of calling the external service?”明确表达风险；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "What is the main risk of calling the external service?",
+      "example_zh": "调用外部服务的主要风险是什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a technical risk",
+        "reduce the risk"
+      ],
+      "example_en_highlighted": "What is the main **risk** of calling the external service?",
+      "annotation_mode": "context",
+      "annotation_note": "“What is the main risk of calling the external service?”明确表达风险；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "mitigate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "降低风险",
+      "pos": "verb",
+      "ipa_us": "/ˈmɪtɪɡeɪt/",
+      "ipa_uk": "/ˈmɪtɪɡeɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll use this notebook to record how we can mitigate it.",
+        "matched_form": "mitigate",
+        "referent_region_verified": false,
+        "context": "“I'll use this notebook to record how we can mitigate it.”明确表达降低风险；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I'll use this notebook to record how we can mitigate it.",
+      "example_zh": "我用这个笔记本记录我们可以怎样降低风险。",
+      "bbox_normalized": null,
+      "collocations": [
+        "mitigate a risk",
+        "mitigate the impact"
+      ],
+      "example_en_highlighted": "I'll use this notebook to record how we can **mitigate** it.",
+      "annotation_mode": "context",
+      "annotation_note": "“I'll use this notebook to record how we can mitigate it.”明确表达降低风险；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "limit",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "限制",
+      "pos": "noun",
+      "ipa_us": "/ˈlɪmɪt/",
+      "ipa_uk": "/ˈlɪmɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Set a time limit and use a fallback when it expires.",
+        "matched_form": "limit",
+        "referent_region_verified": false,
+        "context": "“Set a time limit and use a fallback when it expires.”明确表达限制；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Set a time limit and use a fallback when it expires.",
+      "example_zh": "设置时限，超时后使用备用方案。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a time limit",
+        "set a limit"
+      ],
+      "example_en_highlighted": "Set a time **limit** and use a fallback when it expires.",
+      "annotation_mode": "context",
+      "annotation_note": "“Set a time limit and use a fallback when it expires.”明确表达限制；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "I'll use this notebook to record how we can mitigate it.",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll use this notebook to record how we can mitigate it.",
+      "example_zh": "我用这个笔记本记录我们可以怎样降低风险。",
+      "bbox_normalized": [
+        0.375,
+        0.538,
+        0.708,
+        0.66
+      ],
+      "collocations": [
+        "in this notebook",
+        "write in a notebook"
+      ],
+      "example_en_highlighted": "I'll use this **notebook** to record how we can mitigate it.",
+      "annotation_mode": "object",
+      "annotation_note": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer raises a technical risk and proposes a safeguard.",
+    "zh": "开发者提出技术风险，并建议防护措施。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer raises a technical risk and proposes a safeguard.",
+    "zh": "开发者提出技术风险，并建议防护措施。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What is the main risk of calling the external service?",
+      "zh": "调用外部服务的主要风险是什么？"
+    },
+    {
+      "speaker": "B",
+      "en": "A slow response could hold up the entire request.",
+      "zh": "响应缓慢可能拖住整个请求。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll use this notebook to record how we can mitigate it.",
+      "zh": "我用这个笔记本记录我们可以怎样降低风险。"
+    },
+    {
+      "speaker": "B",
+      "en": "Set a time limit and use a fallback when it expires.",
+      "zh": "设置时限，超时后使用备用方案。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "指出技术风险并提出降低风险的办法。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers discuss at a table. One points to a blank open notebook lying clearly visible in the foreground while the other raises a thoughtful hand. No writing or speech bubbles.",
+  "status": "approved",
+  "image_path": "images/W038.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W038 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W038.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:29:50.267Z",
+    "prompt_path": "prompts/W038_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W038.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整打开的纸质笔记本，用于记录，风险与缓解由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

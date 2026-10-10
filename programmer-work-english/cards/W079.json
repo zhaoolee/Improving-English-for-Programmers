@@ -1,0 +1,246 @@
+{
+  "id": "W079",
+  "category": "growth",
+  "category_title": "反馈与职业成长",
+  "chapter": "反馈与职业成长",
+  "title": "讨论职业发展方向",
+  "keyword": "growth",
+  "scene": "开发者与同事讨论职业成长计划。",
+  "target_count": 4,
+  "primary_words": [
+    "growth",
+    "skill",
+    "mentor",
+    "calendar"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "growth",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "成长",
+      "pos": "noun",
+      "ipa_us": "/ɡroʊθ/",
+      "ipa_uk": "/ɡrəʊθ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Which skill should I focus on for my growth this year?",
+        "matched_form": "growth",
+        "referent_region_verified": false,
+        "context": "“Which skill should I focus on for my growth this year?”明确表达成长；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Which skill should I focus on for my growth this year?",
+      "example_zh": "今年的成长中，我应该专注于哪项技能？",
+      "bbox_normalized": null,
+      "collocations": [
+        "career growth",
+        "personal growth"
+      ],
+      "example_en_highlighted": "Which skill should I focus on for my **growth** this year?",
+      "annotation_mode": "context",
+      "annotation_note": "“Which skill should I focus on for my growth this year?”明确表达成长；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "skill",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "技能",
+      "pos": "noun",
+      "ipa_us": "/skɪl/",
+      "ipa_uk": "/skɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Which skill should I focus on for my growth this year?",
+        "matched_form": "skill",
+        "referent_region_verified": false,
+        "context": "“Which skill should I focus on for my growth this year?”明确表达技能；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Which skill should I focus on for my growth this year?",
+      "example_zh": "今年的成长中，我应该专注于哪项技能？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a new skill",
+        "improve a skill"
+      ],
+      "example_en_highlighted": "Which **skill** should I focus on for my growth this year?",
+      "annotation_mode": "context",
+      "annotation_note": "“Which skill should I focus on for my growth this year?”明确表达技能；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "mentor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "指导",
+      "pos": "verb",
+      "ipa_us": "/ˈmentɔːr/",
+      "ipa_uk": "/ˈmentɔː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "System design would help. I can mentor you through a small project.",
+        "matched_form": "mentor",
+        "referent_region_verified": false,
+        "context": "“System design would help. I can mentor you through a small project.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "System design would help. I can mentor you through a small project.",
+      "example_zh": "系统设计会有帮助。我可以通过一个小项目指导你。",
+      "bbox_normalized": null,
+      "collocations": [
+        "mentor a teammate",
+        "mentor someone"
+      ],
+      "example_en_highlighted": "System design would help. I can **mentor** you through a small project.",
+      "annotation_mode": "context",
+      "annotation_note": "“System design would help. I can mentor you through a small project.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "calendar",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "日历",
+      "pos": "noun",
+      "ipa_us": "/ˈkælɪndər/",
+      "ipa_uk": "/ˈkælɪndə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Thanks. Let's put a monthly check-in on the calendar.",
+        "matched_form": "calendar",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Thanks. Let's put a monthly check-in on the calendar.",
+      "example_zh": "谢谢。我们在日历上安排每月一次的交流吧。",
+      "bbox_normalized": [
+        0.296,
+        0.278,
+        0.729,
+        0.783
+      ],
+      "collocations": [
+        "on this calendar",
+        "mark dates on a calendar"
+      ],
+      "example_en_highlighted": "Thanks. Let's put a monthly check-in on the **calendar**.",
+      "annotation_mode": "object",
+      "annotation_note": "日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer and a teammate discuss a career growth plan.",
+    "zh": "开发者与同事讨论职业成长计划。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer and a teammate discuss a career growth plan.",
+    "zh": "开发者与同事讨论职业成长计划。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Which skill should I focus on for my growth this year?",
+      "zh": "今年的成长中，我应该专注于哪项技能？"
+    },
+    {
+      "speaker": "B",
+      "en": "System design would help. I can mentor you through a small project.",
+      "zh": "系统设计会有帮助。我可以通过一个小项目指导你。"
+    },
+    {
+      "speaker": "A",
+      "en": "Thanks. Let's put a monthly check-in on the calendar.",
+      "zh": "谢谢。我们在日历上安排每月一次的交流吧。"
+    },
+    {
+      "speaker": "B",
+      "en": "Good idea. We can review progress and adjust the plan together.",
+      "zh": "好主意。我们可以一起回顾进展并调整计划。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "讨论成长目标并安排指导与回顾。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand beside a large calendar sheet with blank square grid and no numbers. One points to a square while the other discusses thoughtfully. Full calendar visible, no text.",
+  "status": "approved",
+  "image_path": "images/W079.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W079 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W079.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:37:16.836Z",
+    "prompt_path": "prompts/W079_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W079.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整立式日历与支架，职业成长与指导由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

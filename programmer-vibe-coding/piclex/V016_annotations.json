@@ -1,0 +1,130 @@
+{
+  "filename": "V016-一次写完，为什么跑不起来？.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "task",
+      "chinese": "任务",
+      "phoneticUS": "/tæsk/",
+      "phoneticUK": "/tɑːsk/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务的工作含义由对白支持，空白卡片不是可读任务。",
+        "association": "任务的工作含义由对白支持，空白卡片不是可读任务。",
+        "collocation": "a coding task; split a task",
+        "example": "A: Can you finish every task in one pass?\nB: Let's put a small plan on the board first.\nA: What is the first step?\nB: Implement one feature, verify it, and then continue.",
+        "exampleChinese": "A: 你能一次完成所有任务吗？\nB: 我们先把一个小计划放到白板上。\nA: 第一步是什么？\nB: 先实现一个功能，验证后再继续。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "plan",
+      "chinese": "计划",
+      "phoneticUS": "/plæn/",
+      "phoneticUK": "/plæn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "计划内容只由对白解释，箭头不证明真实计划已完成。",
+        "association": "计划内容只由对白解释，箭头不证明真实计划已完成。",
+        "collocation": "make a plan; an implementation plan",
+        "example": "Let's put a small plan on the board first.",
+        "exampleChinese": "我们先把一个小计划放到白板上。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "step",
+      "chinese": "步骤",
+      "phoneticUS": "/step/",
+      "phoneticUK": "/step/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "步骤顺序由对白表达，不虚构局部指代。",
+        "association": "步骤顺序由对白表达，不虚构局部指代。",
+        "collocation": "the first step; one step at a time",
+        "example": "What is the first step?",
+        "exampleChinese": "第一步是什么？"
+      }
+    },
+    {
+      "x": 549,
+      "y": 470,
+      "english": "board",
+      "chinese": "白板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 780,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 549,
+        "y": 470
+      },
+      "boundingBox": {
+        "left": 270,
+        "top": 282,
+        "right": 841,
+        "bottom": 772
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中完整的白板本体可独立定位。",
+        "association": "场景中完整的白板本体可独立定位。",
+        "collocation": "on the board; a planning board",
+        "example": "Let's put a small plan on the board first.",
+        "exampleChinese": "我们先把一个小计划放到白板上。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant break a large task into small steps on a board.",
+    "chinese": "程序员与 AI 用白板把大任务拆成小步骤。",
+    "source": "原创对话 · V016 一次写完，为什么跑不起来？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

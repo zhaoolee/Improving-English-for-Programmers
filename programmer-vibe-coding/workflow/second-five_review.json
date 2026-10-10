@@ -1,0 +1,238 @@
+{
+  "ready": true,
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "reviewedAt": "2026-10-09T03:19:32.128378+00:00",
+  "reviewer": "Codex visual and semantic review",
+  "cards": {
+    "V002": {
+      "sourcePath": "programmer-vibe-coding/images/V002.png",
+      "generationStartedAt": "2026-10-09T03:08:49Z",
+      "generationEndedAt": "2026-10-09T03:10:49Z",
+      "imageReview": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。夹板顶部纸夹、板体四边完整可见；握持的手轻遮左缘，裁剪保留正常握持语境，不能框成孤立纸张。额外盆栽与杯子不参与教学。",
+      "geometry": {
+        "responsibility": {
+          "bubble": [
+            250,
+            80
+          ]
+        },
+        "accountable": {
+          "bubble": [
+            740,
+            80
+          ]
+        },
+        "verify": {
+          "bubble": [
+            150,
+            230
+          ]
+        },
+        "clipboard": {
+          "bubble": [
+            690,
+            850
+          ],
+          "box": [
+            376,
+            354,
+            540,
+            590
+          ],
+          "anchor": [
+            468,
+            488
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V003": {
+      "sourcePath": "programmer-vibe-coding/images/V003.png",
+      "generationStartedAt": "2026-10-09T03:08:49Z",
+      "generationEndedAt": "2026-10-09T03:10:49Z",
+      "imageReview": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。纸质螺旋笔记本的两页和装订完整可见，手指未遮住主要对象。",
+      "geometry": {
+        "suitable": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "routine": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "risk": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            332,
+            486,
+            749,
+            603
+          ],
+          "anchor": [
+            554,
+            550
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V004": {
+      "sourcePath": "programmer-vibe-coding/images/V004.png",
+      "generationStartedAt": "2026-10-09T03:08:49Z",
+      "generationEndedAt": "2026-10-09T03:10:49Z",
+      "imageReview": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。键盘完整、按键无文字，画面抬手仅作暂停的情境表达，不宣称系统停止。",
+      "geometry": {
+        "intervene": {
+          "bubble": [
+            230,
+            80
+          ]
+        },
+        "uncertain": {
+          "bubble": [
+            730,
+            80
+          ]
+        },
+        "pause": {
+          "bubble": [
+            510,
+            250
+          ]
+        },
+        "keyboard": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            373,
+            546,
+            731,
+            613
+          ],
+          "anchor": [
+            551,
+            580
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V005": {
+      "sourcePath": "programmer-vibe-coding/images/V005.png",
+      "generationStartedAt": "2026-10-09T03:08:49Z",
+      "generationEndedAt": "2026-10-09T03:10:49Z",
+      "imageReview": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。框仅围住显示器上的完整文件夹图标；项目目录身份由对白支持，不误认成实体纸文件夹。",
+      "geometry": {
+        "permission": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "delete": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "confirm": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "folder": {
+          "bubble": [
+            730,
+            860
+          ],
+          "box": [
+            394,
+            368,
+            586,
+            504
+          ],
+          "anchor": [
+            488,
+            438
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V007": {
+      "sourcePath": "programmer-vibe-coding/images/V007.png",
+      "generationStartedAt": "2026-10-09T03:08:49Z",
+      "generationEndedAt": "2026-10-09T03:10:49Z",
+      "imageReview": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。框选显示器实际内屏，避开支架和外壳；无文字线框，不把间距或一致性要求当作已达标事实。",
+      "geometry": {
+        "spacing": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "consistent": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "align": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "screen": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            309,
+            325,
+            686,
+            588
+          ],
+          "anchor": [
+            498,
+            457
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    }
+  }
+}

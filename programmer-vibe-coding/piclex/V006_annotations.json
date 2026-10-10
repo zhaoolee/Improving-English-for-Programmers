@@ -1,0 +1,130 @@
+{
+  "filename": "V006-一句“做个网站”，为什么做歪了？.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 95,
+      "english": "scope",
+      "chinese": "范围",
+      "phoneticUS": "/skoʊp/",
+      "phoneticUK": "/skəʊp/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务范围由对白设定，不把纸面空白框当作范围。",
+        "association": "任务范围由对白设定，不把纸面空白框当作范围。",
+        "collocation": "define the scope; project scope",
+        "example": "A: Can you build a website from this notebook?\nB: First define the scope and each requirement.\nA: What constraint should I mention?\nB: Name the users, required features, and how you will verify them.",
+        "exampleChinese": "A: 你能根据这个笔记本里的内容做一个网站吗？\nB: 先明确范围和每项需求。\nA: 我应该说明什么约束？\nB: 说明使用者、必需功能，以及你将如何验证它们。"
+      }
+    },
+    {
+      "x": 700,
+      "y": 95,
+      "english": "requirement",
+      "chinese": "需求",
+      "phoneticUS": "/rɪˈkwaɪərmənt/",
+      "phoneticUK": "/rɪˈkwaɪəmənt/",
+      "bubblePosition": {
+        "x": 700,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "需求的含义在对白中明确，纸面无可读要求。",
+        "association": "需求的含义在对白中明确，纸面无可读要求。",
+        "collocation": "a user requirement; meet a requirement",
+        "example": "First define the scope and each requirement.",
+        "exampleChinese": "先明确范围和每项需求。"
+      }
+    },
+    {
+      "x": 460,
+      "y": 200,
+      "english": "constraint",
+      "chinese": "约束",
+      "phoneticUS": "/kənˈstreɪnt/",
+      "phoneticUK": "/kənˈstreɪnt/",
+      "bubblePosition": {
+        "x": 460,
+        "y": 200
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "约束是抽象限制，只由对话支撑。",
+        "association": "约束是抽象限制，只由对话支撑。",
+        "collocation": "a design constraint; a time constraint",
+        "example": "What constraint should I mention?",
+        "exampleChinese": "我应该说明什么约束？"
+      }
+    },
+    {
+      "x": 490,
+      "y": 554,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 720,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 554
+      },
+      "boundingBox": {
+        "left": 280,
+        "top": 465,
+        "right": 725,
+        "bottom": 655
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "带螺旋装订的纸质笔记本可独立定位。",
+        "association": "带螺旋装订的纸质笔记本可独立定位。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "Can you build a website from this notebook?",
+        "exampleChinese": "你能根据这个笔记本里的内容做一个网站吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer uses a notebook to explain a website's scope and constraints to an AI assistant.",
+    "chinese": "程序员用笔记本向 AI 说明网站的范围与约束。",
+    "source": "原创对话 · V006 一句“做个网站”，为什么做歪了？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

@@ -1,0 +1,119 @@
+W079  讨论职业发展方向
+========================================================================
+分类: 反馈与职业成长（growth）
+关键词: growth
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W079.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W079.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W079.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:37:16.836Z
+  提示词文件: prompts/W079_image_final.txt
+
+场景: 开发者与同事讨论职业成长计划。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：完整立式日历与支架，职业成长与指导由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 讨论成长目标并安排指导与回顾。
+
+主配文（一句场景描述）:
+  英文: A developer and a teammate discuss a career growth plan.
+  中文: 开发者与同事讨论职业成长计划。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Which skill should I focus on for my growth this year?
+        今年的成长中，我应该专注于哪项技能？
+  [B] System design would help. I can mentor you through a small project.
+        系统设计会有帮助。我可以通过一个小项目指导你。
+  [A] Thanks. Let's put a monthly check-in on the calendar.
+        谢谢。我们在日历上安排每月一次的交流吧。
+  [B] Good idea. We can review progress and adjust the plan together.
+        好主意。我们可以一起回顾进展并调整计划。
+
+目标词 (4): growth, skill, mentor, calendar
+
+------------------------------------------------------------------------
+[1/4] growth
+  词义: 成长
+  词性: noun
+  音标: UK /ɡrəʊθ/ | US /ɡroʊθ/
+  搭配: career growth; personal growth
+  例句: Which skill should I focus on for my growth this year?
+  例句高亮: Which skill should I focus on for my **growth** this year?
+  例句中文: 今年的成长中，我应该专注于哪项技能？
+  标注模式: context
+  标注说明: “Which skill should I focus on for my growth this year?”明确表达成长；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] skill
+  词义: 技能
+  词性: noun
+  音标: UK /skɪl/ | US /skɪl/
+  搭配: a new skill; improve a skill
+  例句: Which skill should I focus on for my growth this year?
+  例句高亮: Which **skill** should I focus on for my growth this year?
+  例句中文: 今年的成长中，我应该专注于哪项技能？
+  标注模式: context
+  标注说明: “Which skill should I focus on for my growth this year?”明确表达技能；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] mentor
+  词义: 指导
+  词性: verb
+  音标: UK /ˈmentɔː/ | US /ˈmentɔːr/
+  搭配: mentor a teammate; mentor someone
+  例句: System design would help. I can mentor you through a small project.
+  例句高亮: System design would help. I can **mentor** you through a small project.
+  例句中文: 系统设计会有帮助。我可以通过一个小项目指导你。
+  标注模式: context
+  标注说明: “System design would help. I can mentor you through a small project.”明确表达指导；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] calendar
+  词义: 日历
+  词性: noun
+  音标: UK /ˈkælɪndə/ | US /ˈkælɪndər/
+  搭配: on this calendar; mark dates on a calendar
+  例句: Thanks. Let's put a monthly check-in on the calendar.
+  例句高亮: Thanks. Let's put a monthly check-in on the **calendar**.
+  例句中文: 谢谢。我们在日历上安排每月一次的交流吧。
+  标注模式: object
+  标注说明: 日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.296, 0.278, 0.729, 0.783]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W079 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand beside a large calendar sheet with blank square grid and no numbers. One points to a square while the other discusses thoughtfully. Full calendar visible, no text.

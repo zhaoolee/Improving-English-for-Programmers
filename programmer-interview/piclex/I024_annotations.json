@@ -1,0 +1,130 @@
+{
+  "filename": "I024.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "queue",
+      "chinese": "队列",
+      "phoneticUS": "/kjuː/",
+      "phoneticUK": "/kjuː/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：queue。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：queue。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "collocation": "a message queue; process a queue",
+        "example": "A: A synchronous call waits for a result; a queue lets a worker process the task later.\nB: How would you retry a failed task?\nA: I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.\nB: What would you do after the retry limit?",
+        "exampleChinese": "A: 同步调用等待结果；队列让工作进程稍后处理任务。\nB: 你会如何重试失败的任务？\nA: 我会限制重试次数，并安全处理重复投递。我会在白板上比较两种流程。\nB: 达到重试上限后，你会怎么做？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "synchronous",
+      "chinese": "同步的",
+      "phoneticUS": "/ˈsɪŋkrənəs/",
+      "phoneticUK": "/ˈsɪŋkrənəs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：synchronous。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：synchronous。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "collocation": "a synchronous call; synchronous processing",
+        "example": "A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "exampleChinese": "同步调用等待结果；队列让工作进程稍后处理任务。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "retry",
+      "chinese": "重试",
+      "phoneticUS": "/ˌriːˈtraɪ/",
+      "phoneticUK": "/ˌriːˈtraɪ/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retry。本卡例句：How would you retry a failed task?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retry。本卡例句：How would you retry a failed task?",
+        "collocation": "retry a task; retry a request",
+        "example": "How would you retry a failed task?",
+        "exampleChinese": "你会如何重试失败的任务？"
+      }
+    },
+    {
+      "x": 208,
+      "y": 535,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 215,
+        "y": 660
+      },
+      "anchorPosition": {
+        "x": 208,
+        "y": 535
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 380,
+        "right": 365,
+        "bottom": 600
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。",
+        "association": "候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.",
+        "exampleChinese": "我会限制重试次数，并安全处理重复投递。我会在白板上比较两种流程。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate compares direct calls with a message queue at a whiteboard.",
+    "chinese": "候选人在白板旁比较直接调用与消息队列。",
+    "source": "原创配文 · I024 比较同步调用与消息队列",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

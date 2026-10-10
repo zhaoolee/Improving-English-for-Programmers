@@ -1,0 +1,130 @@
+{
+  "filename": "W028-跟进跨团队依赖.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "dependency",
+      "chinese": "依赖",
+      "phoneticUS": "/dɪˈpendənsi/",
+      "phoneticUK": "/dɪˈpendənsi/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is the API dependency ready for integration?”明确表达依赖；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is the API dependency ready for integration?”明确表达依赖；单幅画面不能独立证明，不设局部框。",
+        "collocation": "an API dependency; remove a dependency",
+        "example": "A: Is the API dependency ready for integration?\nB: Not yet. The other team is finishing its tests.\nA: I'll follow up by phone and ask for an updated estimate.\nB: Thanks. Please tell them which part is blocking us.",
+        "exampleChinese": "A: 这个 API 依赖已经可以用于集成了吗？\nB: 还没。他们团队正在完成测试。\nA: 我会打电话跟进，询问最新的预计时间。\nB: 谢谢。请告诉他们是哪一部分阻塞了我们。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "follow",
+      "chinese": "跟进（follow up）",
+      "phoneticUS": "/ˈfɑːloʊ/",
+      "phoneticUK": "/ˈfɒləʊ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll follow up by phone and ask for an updated estimate.”明确表达跟进；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll follow up by phone and ask for an updated estimate.”明确表达跟进；单幅画面不能独立证明，不设局部框。",
+        "collocation": "follow up; follow up on a dependency",
+        "example": "I'll follow up by phone and ask for an updated estimate.",
+        "exampleChinese": "我会打电话跟进，询问最新的预计时间。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "ready",
+      "chinese": "就绪的",
+      "phoneticUS": "/ˈredi/",
+      "phoneticUK": "/ˈredi/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is the API dependency ready for integration?”明确表达就绪的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is the API dependency ready for integration?”明确表达就绪的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "ready for integration; be ready",
+        "example": "Is the API dependency ready for integration?",
+        "exampleChinese": "这个 API 依赖已经可以用于集成了吗？"
+      }
+    },
+    {
+      "x": 184,
+      "y": 270,
+      "english": "phone",
+      "chinese": "电话",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 290
+      },
+      "anchorPosition": {
+        "x": 184,
+        "y": 270
+      },
+      "boundingBox": {
+        "left": 151,
+        "top": 188,
+        "right": 245,
+        "bottom": 338
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "电话（phone）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "电话（phone）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on the phone; by phone",
+        "example": "I'll follow up by phone and ask for an updated estimate.",
+        "exampleChinese": "我会打电话跟进，询问最新的预计时间。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer follows up on a dependency with another team.",
+    "chinese": "开发者跟进另一个团队提供的依赖。",
+    "source": "原创对话 · W028 跟进跨团队依赖",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

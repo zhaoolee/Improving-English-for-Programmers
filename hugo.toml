@@ -1,0 +1,17 @@
+baseURL = "https://zhaoolee.com/Improving-English-for-Programmers/"
+locale = "zh-CN"
+title = "程序员英语学习"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+  minifyOutput = true
+
+[params]
+  description = "用图片、单词、例句和真实对话学习程序员英语"
+  repository = "https://github.com/zhaoolee/Improving-English-for-Programmers"

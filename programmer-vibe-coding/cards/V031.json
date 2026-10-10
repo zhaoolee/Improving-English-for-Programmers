@@ -1,0 +1,246 @@
+{
+  "id": "V031",
+  "category": "quality",
+  "category_title": "测试与代码审查",
+  "chapter": "测试与代码审查",
+  "title": "你说完成了，证据呢？",
+  "keyword": "verify",
+  "scene": "程序员在接受已完成的工作前，要求 AI 提供测试证据。",
+  "target_count": 4,
+  "primary_words": [
+    "verify",
+    "test",
+    "evidence",
+    "checklist"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "verify",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "验证",
+      "pos": "verb",
+      "ipa_us": "/ˈverɪfaɪ/",
+      "ipa_uk": "/ˈverɪfaɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You said it was done. How did you verify it?",
+        "matched_form": "verify",
+        "referent_region_verified": false,
+        "context": "验证完成与否由对白报告，勾选示意不能证明真实测试执行。",
+        "image_verified": null
+      },
+      "example_en": "You said it was done. How did you verify it?",
+      "example_zh": "你说已经完成了。你是怎么验证的？",
+      "bbox_normalized": null,
+      "collocations": [
+        "verify the result",
+        "verify a change"
+      ],
+      "example_en_highlighted": "You said it was done. How did you **verify** it?",
+      "annotation_mode": "context",
+      "annotation_note": "验证完成与否由对白报告，勾选示意不能证明真实测试执行。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "test",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "测试",
+      "pos": "noun",
+      "ipa_us": "/test/",
+      "ipa_uk": "/test/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I ran the test and recorded the result.",
+        "matched_form": "test",
+        "referent_region_verified": false,
+        "context": "测试是运行过程与检查，不虚构静态局部框。",
+        "image_verified": null
+      },
+      "example_en": "I ran the test and recorded the result.",
+      "example_zh": "我运行了测试，并记录了结果。",
+      "bbox_normalized": null,
+      "collocations": [
+        "run a test",
+        "a regression test"
+      ],
+      "example_en_highlighted": "I ran the **test** and recorded the result.",
+      "annotation_mode": "context",
+      "annotation_note": "测试是运行过程与检查，不虚构静态局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "evidence",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "证据",
+      "pos": "noun",
+      "ipa_us": "/ˈevɪdəns/",
+      "ipa_uk": "/ˈevɪdəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Where is the evidence, and what is still unchecked?",
+        "matched_form": "evidence",
+        "referent_region_verified": false,
+        "context": "证据的有效性由对白讨论，纸面示意不是测试记录。",
+        "image_verified": null
+      },
+      "example_en": "Where is the evidence, and what is still unchecked?",
+      "example_zh": "证据在哪里，还有哪些部分没有检查？",
+      "bbox_normalized": null,
+      "collocations": [
+        "test evidence",
+        "collect evidence"
+      ],
+      "example_en_highlighted": "Where is the **evidence**, and what is still unchecked?",
+      "annotation_mode": "context",
+      "annotation_note": "证据的有效性由对白讨论，纸面示意不是测试记录。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "checklist",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "检查清单",
+      "pos": "noun",
+      "ipa_us": "/ˈtʃeklɪst/",
+      "ipa_uk": "/ˈtʃeklɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "夹板上可见的复选框清单是 checklist 的指代区域。",
+        "sentence": "Here is the checklist. The edge cases still need review.",
+        "matched_form": "checklist",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Here is the checklist. The edge cases still need review.",
+      "example_zh": "这是检查清单。边界情况仍然需要审查。",
+      "bbox_normalized": [
+        0.333,
+        0.277,
+        0.629,
+        0.697
+      ],
+      "collocations": [
+        "a review checklist",
+        "use a checklist"
+      ],
+      "example_en_highlighted": "Here is the **checklist**. The edge cases still need review.",
+      "annotation_mode": "object",
+      "annotation_note": "夹板上可见的复选框清单是 checklist 的指代区域。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant for test evidence before accepting completed work.",
+    "zh": "程序员在接受已完成的工作前，要求 AI 提供测试证据。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant for test evidence before accepting completed work.",
+    "zh": "程序员在接受已完成的工作前，要求 AI 提供测试证据。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "You said it was done. How did you verify it?",
+      "zh": "你说已经完成了。你是怎么验证的？"
+    },
+    {
+      "speaker": "B",
+      "en": "I ran the test and recorded the result.",
+      "zh": "我运行了测试，并记录了结果。"
+    },
+    {
+      "speaker": "A",
+      "en": "Where is the evidence, and what is still unchecked?",
+      "zh": "证据在哪里，还有哪些部分没有检查？"
+    },
+    {
+      "speaker": "B",
+      "en": "Here is the checklist. The edge cases still need review.",
+      "zh": "这是检查清单。边界情况仍然需要审查。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "报告实际验证结果与尚未检查的部分。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer left holds or points at a large complete clipboard near center, facing the OpenAI logo floating to the right. The clipboard has a clear top clip and FOUR checkbox rows: two ticked boxes and two empty boxes, with only short abstract lines beside them, NO text or numbers. Entire clipboard unobstructed, sized for a clean local learning crop.",
+  "status": "approved",
+  "image_path": "images/V031.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V031 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V031.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-06T06:57:40.149Z",
+    "ended_at": "2026-10-06T07:00:19.670Z",
+    "prompt_path": "prompts/V031_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V031.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。"
+  }
+}

@@ -1,0 +1,119 @@
+V011  昨天说过的，你怎么又忘了？
+========================================================================
+分类: 让 AI 理解项目（context）
+关键词: context
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/V011.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V011.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V011.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-06T06:57:40.149Z → 2026-10-06T06:58:24.880Z
+  提示词文件: prompts/V011_image_final.txt
+
+场景: 程序员与 AI 讨论如何用文档保留项目规则和上下文。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。
+
+沟通目标: 用可读取的项目文档保留规则和当前上下文。
+
+主配文（一句场景描述）:
+  英文: A programmer discusses keeping project rules and context in a document with an AI assistant.
+  中文: 程序员与 AI 讨论如何用文档保留项目规则和上下文。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Why did you forget the rule from yesterday?
+        你为什么忘了昨天说过的规则？
+  [B] I need that context in the current session.
+        我需要在当前会话里获得这些上下文。
+  [A] Should I add a document to the project folder?
+        我应该把文档放进项目文件夹吗？
+  [B] Yes. Record the build steps and rules, then ask me to read it.
+        是的。记录构建步骤和规则，然后让我读取它。
+
+目标词 (4): context, rule, document, folder
+
+------------------------------------------------------------------------
+[1/4] context
+  词义: 上下文
+  词性: noun
+  音标: UK /ˈkɒntekst/ | US /ˈkɑːntekst/
+  搭配: project context; provide context
+  例句: I need that context in the current session.
+  例句高亮: I need that **context** in the current session.
+  例句中文: 我需要在当前会话里获得这些上下文。
+  标注模式: context
+  标注说明: 上下文是会话资料，不能用文件夹外观证明资料内容。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] rule
+  词义: 规则
+  词性: noun
+  音标: UK /ruːl/ | US /ruːl/
+  搭配: a project rule; follow a rule
+  例句: Why did you forget the rule from yesterday?
+  例句高亮: Why did you forget the **rule** from yesterday?
+  例句中文: 你为什么忘了昨天说过的规则？
+  标注模式: context
+  标注说明: 规则只由对白说明，底图无文字。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] document
+  词义: 文档
+  词性: noun
+  音标: UK /ˈdɒkjumənt/ | US /ˈdɑːkjumənt/
+  搭配: a project document; read a document
+  例句: Should I add a document to the project folder?
+  例句高亮: Should I add a **document** to the project folder?
+  例句中文: 我应该把文档放进项目文件夹吗？
+  标注模式: object
+  标注说明: 单独的文档纸张是 document 的可定位对象，具体内容由对白说明。
+  坐标(normalized): [0.41, 0.322, 0.607, 0.503]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: a project folder; open a folder
+  例句: Should I add a document to the project folder?
+  例句高亮: Should I add a document to the project **folder**?
+  例句中文: 我应该把文档放进项目文件夹吗？
+  标注模式: object
+  标注说明: 有分页标签的实体文件夹可独立定位。
+  坐标(normalized): [0.395, 0.43, 0.716, 0.629]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 2
+  context_annotations: 2
+  scope: V011 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer left holds an open palm toward the OpenAI logo at upper right. On a low desk at center is a large physical open file folder with a visible tab and one separate blank document sheet being placed inside. The entire tabbed folder must remain visible as a distinct object, no writing on either sheet or folder. Simple clean shapes.

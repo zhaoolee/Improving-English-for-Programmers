@@ -1,0 +1,42 @@
+# 程序员 Vibe Coding：本地运行材料不公开，仅白名单公开源与成品。
+# 不改根 .gitignore；规则相对本专题目录。
+#
+# 公开（保留）：README.md、cards_plan.json、START_HERE.txt、cards/（json+txt）、
+# images/Vxxx.png、prompts/、piclex/*_annotations.json 与 piclex/*_job.json、scripts/、
+# workflow/README.md、workflow/label-palette.json、workflow/*_batch_content.json、
+# workflow/*_review.json、workflow/styles/*.txt。
+
+# 卡片：仅 Vxxx.json / Vxxx.txt
+cards/*
+!cards/*.json
+!cards/*.txt
+
+# 图片：仅 Vxxx.png（忽略预览、压缩、备份等）
+images/*
+!images/V[0-9][0-9][0-9].png
+
+# PicLex：仅 annotations 与 job（忽略 import receipt、预览、其它本地回执）
+piclex/*
+!piclex/*_annotations.json
+!piclex/*_job.json
+
+# 脚本：全部公开，除缓存与本地日志
+scripts/__pycache__/
+__pycache__/
+*.log
+/pi-*.json
+/pi-*.log
+/local-logs/
+
+# workflow：README、调色板、styles、批次内容与审图保留；其余一律本地忽略：
+# generation-index、*_timing、import receipt、preview、acceptance、CLI-schema、
+# deck-created、summary、region-decisions、pi 任务/日志等。
+workflow/*
+!workflow/README.md
+!workflow/label-palette.json
+!workflow/*_batch_content.json
+!workflow/*_review.json
+!workflow/styles/
+workflow/styles/*
+!workflow/styles/*.txt
+workflow/__pycache__/

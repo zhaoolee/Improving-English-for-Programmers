@@ -1,0 +1,119 @@
+W059  汇报暂时无法复现
+========================================================================
+分类: 测试与问题排查（debugging）
+关键词: reproduce
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W059.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W059.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W059.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:33:37.962Z
+  提示词文件: prompts/W059_image_final.txt
+
+场景: 开发者汇报暂时无法在本地复现缺陷。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：右侧完整显示器与底座，复現环境和证据保持语境。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 说明暂时无法复现并请求补充证据。
+
+主配文（一句场景描述）:
+  英文: A developer reports that a bug cannot yet be reproduced locally.
+  中文: 开发者汇报暂时无法在本地复现缺陷。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] I can't reproduce the issue in my local environment yet.
+        我暂时还无法在本地环境复现这个问题。
+  [B] What evidence would help you investigate?
+        哪些证据能帮助你调查？
+  [A] A recording and the exact steps. This monitor shows a normal result.
+        一段录像和确切步骤。这个显示器上显示的是正常结果。
+  [B] I'll ask the reporter for those details and the app version.
+        我会向反馈者询问这些细节和应用版本。
+
+目标词 (4): reproduce, environment, evidence, monitor
+
+------------------------------------------------------------------------
+[1/4] reproduce
+  词义: 复现
+  词性: verb
+  音标: UK /ˌriːprəˈdjuːs/ | US /ˌriːprəˈduːs/
+  搭配: reproduce an issue; reproduce the error
+  例句: I can't reproduce the issue in my local environment yet.
+  例句高亮: I can't **reproduce** the issue in my local environment yet.
+  例句中文: 我暂时还无法在本地环境复现这个问题。
+  标注模式: context
+  标注说明: “I can't reproduce the issue in my local environment yet.”明确表达复现；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] environment
+  词义: 环境
+  词性: noun
+  音标: UK /ɪnˈvaɪrənmənt/ | US /ɪnˈvaɪrənmənt/
+  搭配: a local environment; set up an environment
+  例句: I can't reproduce the issue in my local environment yet.
+  例句高亮: I can't reproduce the issue in my local **environment** yet.
+  例句中文: 我暂时还无法在本地环境复现这个问题。
+  标注模式: context
+  标注说明: “I can't reproduce the issue in my local environment yet.”明确表达环境；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] evidence
+  词义: 证据
+  词性: noun
+  音标: UK /ˈevɪdəns/ | US /ˈevɪdəns/
+  搭配: collect evidence; provide evidence
+  例句: What evidence would help you investigate?
+  例句高亮: What **evidence** would help you investigate?
+  例句中文: 哪些证据能帮助你调查？
+  标注模式: context
+  标注说明: “What evidence would help you investigate?”明确表达证据；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] monitor
+  词义: 显示器
+  词性: noun
+  音标: UK /ˈmɒnɪtə/ | US /ˈmɑːnɪtər/
+  搭配: on the monitor; a computer monitor
+  例句: A recording and the exact steps. This monitor shows a normal result.
+  例句高亮: A recording and the exact steps. This **monitor** shows a normal result.
+  例句中文: 一段录像和确切步骤。这个显示器上显示的是正常结果。
+  标注模式: object
+  标注说明: 显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.651, 0.274, 0.949, 0.582]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W059 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a workstation, one raising questioning hands and the other pointing at a fully visible monitor with empty rectangular UI shapes. No readable text, no error overlay required.

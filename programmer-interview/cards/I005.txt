@@ -1,0 +1,123 @@
+I005  解释职业空档或转岗经历
+========================================================================
+分类: 面试开场与自我介绍（introduction）
+关键词: gap
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I005.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I005.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I005.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-10T03:12:55Z → 2026-10-10T03:13:50Z
+  提示词文件: prompts/I005_image_final.txt
+
+场景: 欧洲女候选人说明职业空档或转岗经历，亚洲女招聘方在日历与简历旁倾听。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留 实际可见物件：修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。
+
+沟通目标: 简洁介绍背景、技术经验与求职动机，解释与岗位的匹配。本卡主题：解释职业空档或转岗经历。
+
+主配文（一句场景描述）:
+  英文: A candidate explains a career gap and the skills she brings to a new field.
+  中文: 候选人解释职业空档，以及自己能带到新领域的技能。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] The gap on my resume was a six-month break to care for a family member.
+        我简历上的空档是照顾家人的六个月休假。
+  [B] How did you prepare to return to development?
+        你为重返开发岗位做了哪些准备？
+  [A] I built a small web app. My folder includes examples of my transferable testing skills.
+        我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。
+  [B] Tell me how you tested the app.
+        说说你是如何测试这个应用的。
+
+目标词 (4): gap, transferable, resume, folder
+
+------------------------------------------------------------------------
+[1/4] gap
+  词义: 空档
+  词性: noun
+  音标: UK /ɡæp/ | US /ɡæp/
+  搭配: a career gap; a gap on a resume
+  例句: The gap on my resume was a six-month break to care for a family member.
+  例句高亮: The **gap** on my resume was a six-month break to care for a family member.
+  例句中文: 我简历上的空档是照顾家人的六个月休假。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：gap。本卡例句：The gap on my resume was a six-month break to care for a family member.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] transferable
+  词义: 可迁移的
+  词性: adjective
+  音标: UK /trænsˈfɜːrəbl/ | US /trænsˈfɜːrəbl/
+  搭配: transferable skills; transferable experience
+  例句: I built a small web app. My folder includes examples of my transferable testing skills.
+  例句高亮: I built a small web app. My folder includes examples of my **transferable** testing skills.
+  例句中文: 我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transferable。本卡例句：I built a small web app. My folder includes examples of my transferable testing skills.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] resume
+  词义: 简历
+  词性: noun
+  音标: UK /ˈrezjuːmeɪ/ | US /ˈrezəmeɪ/
+  搭配: a current resume; a gap on a resume
+  例句: The gap on my resume was a six-month break to care for a family member.
+  例句高亮: The gap on my **resume** was a six-month break to care for a family member.
+  例句中文: 我简历上的空档是照顾家人的六个月休假。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resume。本卡例句：The gap on my resume was a six-month break to care for a family member.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: a document folder; open a folder
+  例句: I built a small web app. My folder includes examples of my transferable testing skills.
+  例句高亮: I built a small web app. My **folder** includes examples of my transferable testing skills.
+  例句中文: 我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。
+  标注模式: object
+  标注说明: 修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。
+  坐标(normalized): [0.246, 0.793, 0.68, 0.93]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I005 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.
+Interviewer or recruiter: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.
+Exactly two people in a quiet interview room. Sofia, the candidate in a cream knit top and charcoal blazer, explains a career transition to Hana, the recruiter in a navy blouse. Sofia lightly indicates a paper with a few blank timeline blocks beside her resume folder, then meets Hana's eyes with a composed expression. Hana listens with her pen resting, not interrogating. Keep the paper unlettered and visually secondary; it is a conversation aid, not proof of the candidate's history. A three-quarter 50mm medium shot, diffuse afternoon daylight, tidy oak table and a single ceramic water cup. No travel montage, graduation costume or pitying mood.

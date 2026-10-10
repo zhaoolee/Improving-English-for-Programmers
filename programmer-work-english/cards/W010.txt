@@ -1,0 +1,119 @@
+W010  向交接同事确认资料
+========================================================================
+分类: 融入团队（team）
+关键词: handover
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W010.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W010.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W010.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.174Z → 2026-10-07T09:25:02.401Z
+  提示词文件: prompts/W010_image_final.txt
+
+场景: 两位同事确认工作交接所需的资料。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：双手间完整带标签的实体文件夹。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 确认交接清单完整并找到所需资料。
+
+主配文（一句场景描述）:
+  英文: Two teammates confirm the documents needed for a handover.
+  中文: 两位同事确认工作交接所需的资料。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Is the handover checklist complete?
+        交接清单完整了吗？
+  [B] Yes. You can locate the setup notes in the shared drive.
+        完整了。你可以在共享云盘中找到配置笔记。
+  [A] Does this folder contain the printed diagrams?
+        这个文件夹里装的是打印出来的图吗？
+  [B] It does. Let's review the diagrams together before I leave.
+        是的。离开之前，我们一起过一遍这些图吧。
+
+目标词 (4): handover, locate, complete, folder
+
+------------------------------------------------------------------------
+[1/4] handover
+  词义: 交接
+  词性: noun
+  音标: UK /ˈhændəʊvə/ | US /ˈhændoʊvər/
+  搭配: the handover checklist; a smooth handover
+  例句: Is the handover checklist complete?
+  例句高亮: Is the **handover** checklist complete?
+  例句中文: 交接清单完整了吗？
+  标注模式: context
+  标注说明: “Is the handover checklist complete?”明确表达交接；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] locate
+  词义: 找到
+  词性: verb
+  音标: UK /ləʊˈkeɪt/ | US /ˈloʊkeɪt/
+  搭配: locate the notes; locate a file
+  例句: Yes. You can locate the setup notes in the shared drive.
+  例句高亮: Yes. You can **locate** the setup notes in the shared drive.
+  例句中文: 完整了。你可以在共享云盘中找到配置笔记。
+  标注模式: context
+  标注说明: “Yes. You can locate the setup notes in the shared drive.”明确表达找到；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] complete
+  词义: 完整的
+  词性: adjective
+  音标: UK /kəmˈpliːt/ | US /kəmˈpliːt/
+  搭配: a complete checklist; a complete list
+  例句: Is the handover checklist complete?
+  例句高亮: Is the handover checklist **complete**?
+  例句中文: 交接清单完整了吗？
+  标注模式: context
+  标注说明: “Is the handover checklist complete?”明确表达完整的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: in this folder; open a folder
+  例句: Does this folder contain the printed diagrams?
+  例句高亮: Does this **folder** contain the printed diagrams?
+  例句中文: 这个文件夹里装的是打印出来的图吗？
+  标注模式: object
+  标注说明: 文件夹（folder）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.367, 0.297, 0.595, 0.467]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W010 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand at a desk. One passes a large physical tabbed folder to the other. The entire folder, its flap and tab, are visible between their hands. No writing.

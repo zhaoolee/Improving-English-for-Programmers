@@ -1,0 +1,130 @@
+{
+  "filename": "I008.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 900,
+      "english": "challenge",
+      "chinese": "挑战",
+      "phoneticUS": "/ˈtʃælɪndʒ/",
+      "phoneticUK": "/ˈtʃælɪndʒ/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：challenge。本卡例句：The main challenge was slow report generation under a tight memory constraint.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：challenge。本卡例句：The main challenge was slow report generation under a tight memory constraint.",
+        "collocation": "a technical challenge; meet a challenge",
+        "example": "A: The main challenge was slow report generation under a tight memory constraint.\nB: How did you resolve it?\nA: May I use the whiteboard? We processed records in batches and measured peak memory.\nB: How did you verify the reports were still correct?",
+        "exampleChinese": "A: 主要挑战是在内存严格受限的条件下，报表生成速度很慢。\nB: 你是如何解决这个问题的？\nA: 我可以用白板说明吗？我们分批处理记录，并测量了内存峰值。\nB: 你如何验证报表依然正确？"
+      }
+    },
+    {
+      "x": 560,
+      "y": 75,
+      "english": "constraint",
+      "chinese": "限制",
+      "phoneticUS": "/kənˈstreɪnt/",
+      "phoneticUK": "/kənˈstreɪnt/",
+      "bubblePosition": {
+        "x": 603,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：constraint。本卡例句：The main challenge was slow report generation under a tight memory constraint.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：constraint。本卡例句：The main challenge was slow report generation under a tight memory constraint.",
+        "collocation": "a memory constraint; a design constraint",
+        "example": "The main challenge was slow report generation under a tight memory constraint.",
+        "exampleChinese": "主要挑战是在内存严格受限的条件下，报表生成速度很慢。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 150,
+      "english": "resolve",
+      "chinese": "解决",
+      "phoneticUS": "/rɪˈzɑːlv/",
+      "phoneticUK": "/rɪˈzɒlv/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 150
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resolve。本卡例句：How did you resolve it?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resolve。本卡例句：How did you resolve it?",
+        "collocation": "resolve a problem; resolve a technical issue",
+        "example": "How did you resolve it?",
+        "exampleChinese": "你是如何解决这个问题的？"
+      }
+    },
+    {
+      "x": 110,
+      "y": 488,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 175,
+        "y": 740
+      },
+      "anchorPosition": {
+        "x": 110,
+        "y": 488
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 112,
+        "right": 217,
+        "bottom": 627
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "画面左侧实际可见白板范围；左缘被构图截断，如实保存可见范围，不补画不存在区域。",
+        "association": "画面左侧实际可见白板范围；左缘被构图截断，如实保存可见范围，不补画不存在区域。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "May I use the whiteboard? We processed records in batches and measured peak memory.",
+        "exampleChinese": "我可以用白板说明吗？我们分批处理记录，并测量了内存峰值。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate discusses a technical challenge at a whiteboard.",
+    "chinese": "候选人在白板旁讲述一次技术挑战。",
+    "source": "原创配文 · I008 讲一次最难的技术挑战",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

@@ -1,0 +1,246 @@
+{
+  "id": "V020",
+  "category": "implementation",
+  "category_title": "拆任务、写功能",
+  "chapter": "拆任务、写功能",
+  "title": "什么时候值得重构？",
+  "keyword": "maintainability",
+  "scene": "制定计划、小步实现并控制改动范围",
+  "target_count": 4,
+  "primary_words": [
+    "maintainability",
+    "refactor",
+    "duplicate",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "maintainability",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "可维护性",
+      "pos": "noun",
+      "ipa_us": "/meɪnˌteɪnəˈbɪləti/",
+      "ipa_uk": "/meɪnˌteɪnəˈbɪləti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can you explain whether a refactor would improve maintainability?",
+        "matched_form": "maintainability",
+        "referent_region_verified": false,
+        "context": "可维护性是代码长期修改难度，不能从静态图形直接判断。",
+        "image_verified": null
+      },
+      "example_en": "Can you explain whether a refactor would improve maintainability?",
+      "example_zh": "你能解释一下，重构是否会提升可维护性吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "improve maintainability",
+        "long-term maintainability"
+      ],
+      "example_en_highlighted": "Can you explain whether a refactor would improve **maintainability**?",
+      "annotation_mode": "context",
+      "annotation_note": "可维护性是代码长期修改难度，不能从静态图形直接判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "refactor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "重构",
+      "pos": "noun",
+      "ipa_us": "/ˌriːˈfæktər/",
+      "ipa_uk": "/ˌriːˈfæktə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can you explain whether a refactor would improve maintainability?",
+        "matched_form": "refactor",
+        "referent_region_verified": false,
+        "context": "这里指调整代码结构的工作，空白示意图不证明重构已经完成。",
+        "image_verified": null
+      },
+      "example_en": "Can you explain whether a refactor would improve maintainability?",
+      "example_zh": "你能解释一下，重构是否会提升可维护性吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a small refactor",
+        "justify a refactor"
+      ],
+      "example_en_highlighted": "Can you explain whether a **refactor** would improve maintainability?",
+      "annotation_mode": "context",
+      "annotation_note": "这里指调整代码结构的工作，空白示意图不证明重构已经完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "duplicate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "重复的",
+      "pos": "adjective",
+      "ipa_us": "/ˈduːplɪkət/",
+      "ipa_uk": "/ˈdjuːplɪkət/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. Duplicate logic is making every change harder.",
+        "matched_form": "duplicate",
+        "referent_region_verified": false,
+        "context": "重复性由代码内容决定，图中不展示可读代码。",
+        "image_verified": null
+      },
+      "example_en": "Yes. Duplicate logic is making every change harder.",
+      "example_zh": "可以。重复逻辑让每次修改都变得更困难。",
+      "bbox_normalized": null,
+      "collocations": [
+        "duplicate logic",
+        "duplicate code"
+      ],
+      "example_en_highlighted": "Yes. **Duplicate** logic is making every change harder.",
+      "annotation_mode": "context",
+      "annotation_note": "重复性由代码内容决定，图中不展示可读代码。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "图表",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "竖立的完整结构示意图纸是可见指代；框整张图纸，不解释其中无文字方框的具体含义。",
+        "sentence": "Sketch the proposed structure on this diagram before changing the code.",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Sketch the proposed structure on this diagram before changing the code.",
+      "example_zh": "改代码之前，先在这张图上画出建议的结构。",
+      "bbox_normalized": [
+        0.345,
+        0.235,
+        0.65,
+        0.605
+      ],
+      "collocations": [
+        "an architecture diagram",
+        "sketch on a diagram"
+      ],
+      "example_en_highlighted": "Sketch the proposed structure on this **diagram** before changing the code.",
+      "annotation_mode": "object",
+      "annotation_note": "竖立的完整结构示意图纸是可见指代；框整张图纸，不解释其中无文字方框的具体含义。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to justify a refactor before changing working code.",
+    "zh": "程序员让 AI 在修改可用代码之前，先说明重构的必要性。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to justify a refactor before changing working code.",
+    "zh": "程序员让 AI 在修改可用代码之前，先说明重构的必要性。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Can you explain whether a refactor would improve maintainability?",
+      "zh": "你能解释一下，重构是否会提升可维护性吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Duplicate logic is making every change harder.",
+      "zh": "可以。重复逻辑让每次修改都变得更困难。"
+    },
+    {
+      "speaker": "A",
+      "en": "Sketch the proposed structure on this diagram before changing the code.",
+      "zh": "改代码之前，先在这张图上画出建议的结构。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll compare a small refactor with leaving the code as it is.",
+      "zh": "我会比较小范围重构与保持现状这两种方案。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "根据重复逻辑与维护成本判断是否值得重构。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small table and points toward one large blank architecture diagram sheet mounted upright at center. The sheet has only three simple unlabeled rectangular boxes connected by plain lines, no letters or numbers. Its complete border is unobstructed. The floating white OpenAI knot is at the right. No computer screens or extra papers.",
+  "status": "approved",
+  "image_path": "images/V020.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V020 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V020.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V020_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V020.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，恰好一个成年火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。中央架构示意板完整可见，只有无标签矩形和连接线；其余三个抽象词仅由对白教学。"
+  }
+}

@@ -1,0 +1,119 @@
+V021  功能都有了，为什么还是不好用？
+========================================================================
+分类: 界面与交互打磨（interface）
+关键词: usability
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/V021.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V021.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V021.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-06T06:57:40.149Z → 2026-10-06T06:59:31.895Z
+  提示词文件: prompts/V021_image_final.txt
+
+场景: 程序员向 AI 询问如何改善手机应用的布局与反馈。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。
+
+沟通目标: 区分功能可运行和界面可用，补齐交互反馈。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant how to improve a phone app's layout and feedback.
+  中文: 程序员向 AI 询问如何改善手机应用的布局与反馈。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] The app runs on my phone. Why is the usability still poor?
+        应用在我的手机上能运行，为什么可用性还是很差？
+  [B] The layout hides the main action.
+        布局把主要操作藏起来了。
+  [A] What feedback should the interface show?
+        界面应该显示哪些反馈？
+  [B] Show loading, success, and failure clearly.
+        清晰展示加载、成功和失败状态。
+
+目标词 (4): usability, layout, feedback, phone
+
+------------------------------------------------------------------------
+[1/4] usability
+  词义: 可用性
+  词性: noun
+  音标: UK /ˌjuːzəˈbɪləti/ | US /ˌjuːzəˈbɪləti/
+  搭配: improve usability; a usability issue
+  例句: The app runs on my phone. Why is the usability still poor?
+  例句高亮: The app runs on my phone. Why is the **usability** still poor?
+  例句中文: 应用在我的手机上能运行，为什么可用性还是很差？
+  标注模式: context
+  标注说明: 可用性是使用评价，只由对白明确表达。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] layout
+  词义: 布局
+  词性: noun
+  音标: UK /ˈleɪaʊt/ | US /ˈleɪaʊt/
+  搭配: a screen layout; improve the layout
+  例句: The layout hides the main action.
+  例句高亮: The **layout** hides the main action.
+  例句中文: 布局把主要操作藏起来了。
+  标注模式: context
+  标注说明: 布局的优劣由对话说明，不把泛化示意 UI 当作具体错误。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] feedback
+  词义: 反馈
+  词性: noun
+  音标: UK /ˈfiːdbæk/ | US /ˈfiːdbæk/
+  搭配: visual feedback; user feedback
+  例句: What feedback should the interface show?
+  例句高亮: What **feedback** should the interface show?
+  例句中文: 界面应该显示哪些反馈？
+  标注模式: context
+  标注说明: 交互反馈类型由对白解释，抽象状态符号不代表真实运行反馈。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] phone
+  词义: 手机
+  词性: noun
+  音标: UK /fəʊn/ | US /foʊn/
+  搭配: on my phone; a phone app
+  例句: The app runs on my phone. Why is the usability still poor?
+  例句高亮: The app runs on my **phone**. Why is the usability still poor?
+  例句中文: 应用在我的手机上能运行，为什么可用性还是很差？
+  标注模式: object
+  标注说明: 完整的手机外壳和屏幕是 phone 的局部对象。
+  坐标(normalized): [0.444, 0.252, 0.69, 0.62]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V021 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer sits left and points toward a large upright smartphone standing on a small desk near center-right, with the white OpenAI knot floating above and to its right. The entire PHONE body and rounded screen are clearly visible. Its UI uses only blank boxes, a simple spinner ring and a small check symbol, no letters or digits. Keep the phone large and easy to crop.

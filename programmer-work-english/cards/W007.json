@@ -1,0 +1,246 @@
+{
+  "id": "W007",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "午餐时聊工作习惯",
+  "keyword": "habit",
+  "scene": "两位开发者在午餐时聊各自的工作习惯。",
+  "target_count": 4,
+  "primary_words": [
+    "habit",
+    "focus",
+    "break",
+    "plate"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "habit",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "习惯",
+      "pos": "noun",
+      "ipa_us": "/ˈhæbɪt/",
+      "ipa_uk": "/ˈhæbɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What habit helps you focus in the morning?",
+        "matched_form": "habit",
+        "referent_region_verified": false,
+        "context": "“What habit helps you focus in the morning?”明确表达习惯；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "What habit helps you focus in the morning?",
+      "example_zh": "什么习惯能帮助你在早上专注？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a good habit",
+        "break a habit"
+      ],
+      "example_en_highlighted": "What **habit** helps you focus in the morning?",
+      "annotation_mode": "context",
+      "annotation_note": "“What habit helps you focus in the morning?”明确表达习惯；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "focus",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "专注",
+      "pos": "verb",
+      "ipa_us": "/ˈfoʊkəs/",
+      "ipa_uk": "/ˈfəʊkəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What habit helps you focus in the morning?",
+        "matched_form": "focus",
+        "referent_region_verified": false,
+        "context": "“What habit helps you focus in the morning?”明确表达专注；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "What habit helps you focus in the morning?",
+      "example_zh": "什么习惯能帮助你在早上专注？",
+      "bbox_normalized": null,
+      "collocations": [
+        "focus on your work",
+        "focus in the morning"
+      ],
+      "example_en_highlighted": "What habit helps you **focus** in the morning?",
+      "annotation_mode": "context",
+      "annotation_note": "“What habit helps you focus in the morning?”明确表达专注；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "break",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "休息",
+      "pos": "noun",
+      "ipa_us": "/breɪk/",
+      "ipa_uk": "/breɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I check messages after my first task, then take a short break.",
+        "matched_form": "break",
+        "referent_region_verified": false,
+        "context": "“I check messages after my first task, then take a short break.”明确表达休息；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I check messages after my first task, then take a short break.",
+      "example_zh": "我完成第一项任务后才看消息，然后休息一小会儿。",
+      "bbox_normalized": null,
+      "collocations": [
+        "take a break",
+        "a short break"
+      ],
+      "example_en_highlighted": "I check messages after my first task, then take a short **break**.",
+      "annotation_mode": "context",
+      "annotation_note": "“I check messages after my first task, then take a short break.”明确表达休息；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "plate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "盘子",
+      "pos": "noun",
+      "ipa_us": "/pleɪt/",
+      "ipa_uk": "/pleɪt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "盘子（plate）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "That sounds useful. Shall I take your plate?",
+        "matched_form": "plate",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "That sounds useful. Shall I take your plate?",
+      "example_zh": "听起来很实用。要我帮你拿走盘子吗？",
+      "bbox_normalized": [
+        0.525,
+        0.474,
+        0.704,
+        0.558
+      ],
+      "collocations": [
+        "take a plate",
+        "on the plate"
+      ],
+      "example_en_highlighted": "That sounds useful. Shall I take your **plate**?",
+      "annotation_mode": "object",
+      "annotation_note": "盘子（plate）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers discuss their work habits over lunch.",
+    "zh": "两位开发者在午餐时聊各自的工作习惯。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers discuss their work habits over lunch.",
+    "zh": "两位开发者在午餐时聊各自的工作习惯。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What habit helps you focus in the morning?",
+      "zh": "什么习惯能帮助你在早上专注？"
+    },
+    {
+      "speaker": "B",
+      "en": "I check messages after my first task, then take a short break.",
+      "zh": "我完成第一项任务后才看消息，然后休息一小会儿。"
+    },
+    {
+      "speaker": "A",
+      "en": "That sounds useful. Shall I take your plate?",
+      "zh": "听起来很实用。要我帮你拿走盘子吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Thanks. I try to keep lunch free of work messages too.",
+      "zh": "谢谢。我也尽量不在午餐时间看工作消息。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "在午餐闲聊中交换彼此的工作习惯。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers sit facing each other at a small lunch table. One gestures while the other listens. Two complete shallow plates with simple food outlines lie clearly separated on the table.",
+  "status": "approved",
+  "image_path": "images/W007.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W007 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W007.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.165Z",
+    "ended_at": "2026-10-07T09:25:26.650Z",
+    "prompt_path": "prompts/W007_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W007.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：右侧完整盘子，食物不用于证明工作习惯。对白去掉空盘限定以匹配实图。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

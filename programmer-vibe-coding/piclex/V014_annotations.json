@@ -1,0 +1,130 @@
+{
+  "filename": "V014-上下文太多，也会迷路.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "relevant",
+      "chinese": "相关的",
+      "phoneticUS": "/ˈreləvənt/",
+      "phoneticUK": "/ˈreləvənt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "相关性由对白与任务决定，纸张或屏幕外观不能证明关联。",
+        "association": "相关性由对白与任务决定，纸张或屏幕外观不能证明关联。",
+        "collocation": "relevant files; relevant to this bug",
+        "example": "A: There is too much context. Which files are relevant to this bug?\nB: The error log and the request handler are useful. The old design notes are not needed.\nA: Filter out the unrelated files. I'll keep the error log on this screen.\nB: I'll focus on those two sources and ask if I need more information.",
+        "exampleChinese": "A: 上下文太多了，哪些文件与这个缺陷有关？\nB: 错误日志和请求处理代码有用，旧的设计笔记不需要。\nA: 筛掉无关文件。我会在这个屏幕上保留错误日志。\nB: 我会专注于这两份资料，需要更多信息时再问。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "context",
+      "chinese": "上下文",
+      "phoneticUS": "/ˈkɑːntekst/",
+      "phoneticUK": "/ˈkɒntekst/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是任务背景信息，不把整张图或纸堆当成其局部指代。",
+        "association": "这里是任务背景信息，不把整张图或纸堆当成其局部指代。",
+        "collocation": "task context; provide context",
+        "example": "There is too much context. Which files are relevant to this bug?",
+        "exampleChinese": "上下文太多了，哪些文件与这个缺陷有关？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "filter",
+      "chinese": "筛选",
+      "phoneticUS": "/ˈfɪltər/",
+      "phoneticUK": "/ˈfɪltə/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指筛掉无关资料，静态画面不能证明确实完成筛选。",
+        "association": "这里指筛掉无关资料，静态画面不能证明确实完成筛选。",
+        "collocation": "filter out unrelated files; filter the results",
+        "example": "Filter out the unrelated files. I'll keep the error log on this screen.",
+        "exampleChinese": "筛掉无关文件。我会在这个屏幕上保留错误日志。"
+      }
+    },
+    {
+      "x": 535,
+      "y": 410,
+      "english": "screen",
+      "chinese": "屏幕",
+      "phoneticUS": "/skriːn/",
+      "phoneticUK": "/skriːn/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 535,
+        "y": 410
+      },
+      "boundingBox": {
+        "left": 401,
+        "top": 329,
+        "right": 688,
+        "bottom": 503
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器内屏是实际可见指代；不声称能读取空白内屏中的日志。",
+        "association": "显示器内屏是实际可见指代；不声称能读取空白内屏中的日志。",
+        "collocation": "on this screen; a monitor screen",
+        "example": "Filter out the unrelated files. I'll keep the error log on this screen.",
+        "exampleChinese": "筛掉无关文件。我会在这个屏幕上保留错误日志。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to keep only the context relevant to the current task.",
+    "chinese": "程序员让 AI 只保留与当前任务相关的上下文。",
+    "source": "原创对话 · V014 上下文太多，也会迷路",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

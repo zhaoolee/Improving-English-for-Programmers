@@ -1,0 +1,130 @@
+{
+  "filename": "V027-先复现，再动代码.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "reproduce",
+      "chinese": "复现",
+      "phoneticUS": "/ˌriːprəˈduːs/",
+      "phoneticUK": "/ˌriːprəˈdjuːs/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "复现是重复触发问题的过程，单张画面不能证明已经成功复现。",
+        "association": "复现是重复触发问题的过程，单张画面不能证明已经成功复现。",
+        "collocation": "reproduce a crash; reproduce consistently",
+        "example": "A: Can you reproduce the crash on this phone before changing the code?\nB: Not consistently. I need the exact steps and environment.\nA: I'll repeat each step and record when the crash appears.\nB: Once it is consistent, I'll inspect the failing path.",
+        "exampleChinese": "A: 改代码之前，你能在这部手机上复现崩溃吗？\nB: 还不能稳定复现。我需要准确步骤和环境信息。\nA: 我会重复每个步骤，并记录崩溃何时出现。\nB: 能够稳定复现后，我再检查失败路径。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "consistent",
+      "chinese": "稳定一致的",
+      "phoneticUS": "/kənˈsɪstənt/",
+      "phoneticUK": "/kənˈsɪstənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "稳定性需要多次观察，不能由静态手机画面判断。",
+        "association": "稳定性需要多次观察，不能由静态手机画面判断。",
+        "collocation": "a consistent failure; reproduce consistently",
+        "example": "Once it is consistent, I'll inspect the failing path.",
+        "exampleChinese": "能够稳定复现后，我再检查失败路径。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "step",
+      "chinese": "步骤",
+      "phoneticUS": "/step/",
+      "phoneticUK": "/step/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "步骤是操作序列，不给手机局部虚假框。",
+        "association": "步骤是操作序列，不给手机局部虚假框。",
+        "collocation": "repeat each step; reproduction steps",
+        "example": "I'll repeat each step and record when the crash appears.",
+        "exampleChinese": "我会重复每个步骤，并记录崩溃何时出现。"
+      }
+    },
+    {
+      "x": 475,
+      "y": 480,
+      "english": "phone",
+      "chinese": "手机",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 475,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 362,
+        "top": 272,
+        "right": 582,
+        "bottom": 688
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的智能手机机身和屏幕是直接指代，只框整部手机。",
+        "association": "完整可见的智能手机机身和屏幕是直接指代，只框整部手机。",
+        "collocation": "on this phone; a phone screen",
+        "example": "Can you reproduce the crash on this phone before changing the code?",
+        "exampleChinese": "改代码之前，你能在这部手机上复现崩溃吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to reproduce a bug consistently before editing code.",
+    "chinese": "程序员让 AI 在修改代码前先稳定复现缺陷。",
+    "source": "原创对话 · V027 先复现，再动代码",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

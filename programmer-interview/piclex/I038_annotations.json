@@ -1,0 +1,130 @@
+{
+  "filename": "I038.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "compensation",
+      "chinese": "薪酬",
+      "phoneticUS": "/ˌkɑːmpenˈseɪʃən/",
+      "phoneticUK": "/ˌkɒmpenˈseɪʃən/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：compensation。本卡例句：Could you share the compensation range budgeted for this position?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：compensation。本卡例句：Could you share the compensation range budgeted for this position?",
+        "collocation": "a compensation package; compensation expectations",
+        "example": "A: Could you share the compensation range budgeted for this position?\nB: We'll discuss the full package after the final interview.\nA: My availability is four weeks after an offer. May we check the start date in the planner?\nB: Yes. We can confirm a date once the terms are agreed.",
+        "exampleChinese": "A: 你能介绍一下这个岗位预算中的薪酬范围吗？\nB: 最终面试后，我们会讨论完整的薪酬方案。\nA: 收到录用通知四周后，我可以入职。我们可以在计划本里核对开始日期吗？\nB: 可以。条款达成一致后，我们就能确认日期。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "range",
+      "chinese": "范围",
+      "phoneticUS": "/reɪndʒ/",
+      "phoneticUK": "/reɪndʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：range。本卡例句：Could you share the compensation range budgeted for this position?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：range。本卡例句：Could you share the compensation range budgeted for this position?",
+        "collocation": "a compensation range; a salary range",
+        "example": "Could you share the compensation range budgeted for this position?",
+        "exampleChinese": "你能介绍一下这个岗位预算中的薪酬范围吗？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "availability",
+      "chinese": "可入职时间",
+      "phoneticUS": "/əˌveɪləˈbɪləti/",
+      "phoneticUK": "/əˌveɪləˈbɪləti/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：availability。本卡例句：My availability is four weeks after an offer. May we check the start date in the planner?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：availability。本卡例句：My availability is four weeks after an offer. May we check the start date in the planner?",
+        "collocation": "confirm your availability; discuss availability",
+        "example": "My availability is four weeks after an offer. May we check the start date in the planner?",
+        "exampleChinese": "收到录用通知四周后，我可以入职。我们可以在计划本里核对开始日期吗？"
+      }
+    },
+    {
+      "x": 440,
+      "y": 880,
+      "english": "planner",
+      "chinese": "计划本",
+      "phoneticUS": "/ˈplænər/",
+      "phoneticUK": "/ˈplænə/",
+      "bubblePosition": {
+        "x": 160,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 440,
+        "y": 880
+      },
+      "boundingBox": {
+        "left": 274,
+        "top": 777,
+        "right": 948,
+        "bottom": 962
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后完整进入画面的纸质格状计划本；入职日期仅由对白设定。",
+        "association": "修图后完整进入画面的纸质格状计划本；入职日期仅由对白设定。",
+        "collocation": "a weekly planner; check the planner",
+        "example": "My availability is four weeks after an offer. May we check the start date in the planner?",
+        "exampleChinese": "收到录用通知四周后，我可以入职。我们可以在计划本里核对开始日期吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate discusses compensation expectations and a possible start date.",
+    "chinese": "候选人讨论薪酬期望与可能的入职日期。",
+    "source": "原创配文 · I038 讨论薪酬期望与入职时间",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

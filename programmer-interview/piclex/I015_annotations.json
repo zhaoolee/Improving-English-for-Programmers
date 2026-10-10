@@ -1,0 +1,130 @@
+{
+  "filename": "I015.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "hint",
+      "chinese": "提示",
+      "phoneticUS": "/hɪnt/",
+      "phoneticUK": "/hɪnt/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：hint。本卡例句：I'm stuck on this edge case. Could you give me a hint?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：hint。本卡例句：I'm stuck on this edge case. Could you give me a hint?",
+        "collocation": "ask for a hint; give a hint",
+        "example": "A: I'm stuck on this edge case. Could you give me a hint?\nB: What happens when the input contains only one item?\nA: I need to reconsider my initial condition. I'll check it on the laptop with that example.\nB: Good. Explain the change before you continue.",
+        "exampleChinese": "A: 我被这个边界情况卡住了。你能给我一点提示吗？\nB: 当输入只有一个元素时会发生什么？\nA: 我需要重新考虑初始条件。我会在笔记本电脑上用这个例子检查。\nB: 好的。继续前，先解释一下你作出的修改。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "reconsider",
+      "chinese": "重新考虑",
+      "phoneticUS": "/ˌriːkənˈsɪdər/",
+      "phoneticUK": "/ˌriːkənˈsɪdə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reconsider。本卡例句：I need to reconsider my initial condition. I'll check it on the laptop with that example.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reconsider。本卡例句：I need to reconsider my initial condition. I'll check it on the laptop with that example.",
+        "collocation": "reconsider an approach; reconsider a condition",
+        "example": "I need to reconsider my initial condition. I'll check it on the laptop with that example.",
+        "exampleChinese": "我需要重新考虑初始条件。我会在笔记本电脑上用这个例子检查。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "edge",
+      "chinese": "边界",
+      "phoneticUS": "/edʒ/",
+      "phoneticUK": "/edʒ/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：edge。本卡例句：I'm stuck on this edge case. Could you give me a hint?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：edge。本卡例句：I'm stuck on this edge case. Could you give me a hint?",
+        "collocation": "an edge case; handle an edge case",
+        "example": "I'm stuck on this edge case. Could you give me a hint?",
+        "exampleChinese": "我被这个边界情况卡住了。你能给我一点提示吗？"
+      }
+    },
+    {
+      "x": 410,
+      "y": 688,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 410,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 410,
+        "y": 688
+      },
+      "boundingBox": {
+        "left": 177,
+        "top": 539,
+        "right": 650,
+        "bottom": 726
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌前打开的笔记本电脑，背盖及底部边缘可见，正面键盘被背盖和杯子自然遮挡；代码讨论由对白支持。",
+        "association": "桌前打开的笔记本电脑，背盖及底部边缘可见，正面键盘被背盖和杯子自然遮挡；代码讨论由对白支持。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "I need to reconsider my initial condition. I'll check it on the laptop with that example.",
+        "exampleChinese": "我需要重新考虑初始条件。我会在笔记本电脑上用这个例子检查。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate pauses to ask for a hint and revise her coding approach.",
+    "chinese": "候选人停下来请求提示，并调整解题思路。",
+    "source": "原创配文 · I015 卡住后如何求助并修正思路",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

@@ -1,0 +1,268 @@
+{
+  "id": "I024",
+  "category": "system_design",
+  "title_zh": "比较同步调用与消息队列",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "美国男候选人比较直接调用与队列处理的两条路径，欧洲男面试官关注选择条件。",
+  "cast": {
+    "candidate": "US_MARCUS",
+    "interviewer": "EU_LUKAS"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.\nInterviewer or recruiter: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.\nExactly two people comparing synchronous calls with queued processing in an interview. Marcus, in an ivory shirt and charcoal blazer, uses a small whiteboard containing two unlabeled rows: two adjacent boxes linked directly in the upper row, and three small aligned queue blocks between endpoints in the lower row. He explains with a low open-hand gesture while Lukas, in a pale-blue shirt, asks a follow-up from the nearby chair. A 35mm medium shot from the room corner, soft neutral daylight and realistic marker strokes. Keep the sketch sparse and the discussion human. No robots, parcels, mechanical conveyor belts or readable technical terminology.",
+  "prompt_path": "prompts/I024_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I024.png",
+  "image_sha256": "f8c682e82bbc12c989b852249c3407db730d470d6fa89495fea6d3a4a94ffc0e",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "候选人展示上下两行无字方框对照并解释，面试官听取说明；举板和开放手势自然，主要对照图完整。人物肤质与侧光真实，前景和桌面构成层次；图形不等同于同步/队列的完整技术定义 实际可见物件：候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I024_generate.txt",
+    "source_path": "images/I024.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:40:39 UTC",
+    "selected_image_path": "images/I024.png",
+    "selected_image_sha256": "f8c682e82bbc12c989b852249c3407db730d470d6fa89495fea6d3a4a94ffc0e",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:40:39Z",
+    "prompt_path": "prompts/I024_image_final.txt"
+  },
+  "title": "比较同步调用与消息队列",
+  "scene": "美国男候选人比较直接调用与队列处理的两条路径，欧洲男面试官关注选择条件。",
+  "category_title": "系统设计与技术取舍",
+  "primary_words": [
+    "queue",
+    "synchronous",
+    "retry",
+    "whiteboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "queue",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "队列",
+      "pos": "noun",
+      "ipa_us": "/kjuː/",
+      "ipa_uk": "/kjuː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "matched_form": "queue",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：queue。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "image_verified": null
+      },
+      "example_en": "A synchronous call waits for a result; a queue lets a worker process the task later.",
+      "example_zh": "同步调用等待结果；队列让工作进程稍后处理任务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a message queue",
+        "process a queue"
+      ],
+      "example_en_highlighted": "A synchronous call waits for a result; a **queue** lets a worker process the task later.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：queue。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "synchronous",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "同步的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsɪŋkrənəs/",
+      "ipa_uk": "/ˈsɪŋkrənəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "matched_form": "synchronous",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：synchronous。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+        "image_verified": null
+      },
+      "example_en": "A synchronous call waits for a result; a queue lets a worker process the task later.",
+      "example_zh": "同步调用等待结果；队列让工作进程稍后处理任务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a synchronous call",
+        "synchronous processing"
+      ],
+      "example_en_highlighted": "A **synchronous** call waits for a result; a queue lets a worker process the task later.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：synchronous。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "retry",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "重试",
+      "pos": "verb",
+      "ipa_us": "/ˌriːˈtraɪ/",
+      "ipa_uk": "/ˌriːˈtraɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How would you retry a failed task?",
+        "matched_form": "retry",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retry。本卡例句：How would you retry a failed task?",
+        "image_verified": null
+      },
+      "example_en": "How would you retry a failed task?",
+      "example_zh": "你会如何重试失败的任务？",
+      "bbox_normalized": null,
+      "collocations": [
+        "retry a task",
+        "retry a request"
+      ],
+      "example_en_highlighted": "How would you **retry** a failed task?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retry。本卡例句：How would you retry a failed task?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "whiteboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/ˈwaɪtbɔːrd/",
+      "ipa_uk": "/ˈwaɪtbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。",
+        "sentence": "I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.",
+        "matched_form": "whiteboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.",
+      "example_zh": "我会限制重试次数，并安全处理重复投递。我会在白板上比较两种流程。",
+      "bbox_normalized": [
+        0.0,
+        0.38,
+        0.365,
+        0.6
+      ],
+      "collocations": [
+        "sketch on a whiteboard",
+        "use the whiteboard"
+      ],
+      "example_en_highlighted": "I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the **whiteboard**.",
+      "annotation_mode": "object",
+      "annotation_note": "候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "系统设计与技术取舍",
+  "keyword": "queue",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate compares direct calls with a message queue at a whiteboard.",
+    "zh": "候选人在白板旁比较直接调用与消息队列。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate compares direct calls with a message queue at a whiteboard.",
+    "zh": "候选人在白板旁比较直接调用与消息队列。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "A synchronous call waits for a result; a queue lets a worker process the task later.",
+      "zh": "同步调用等待结果；队列让工作进程稍后处理任务。"
+    },
+    {
+      "speaker": "B",
+      "en": "How would you retry a failed task?",
+      "zh": "你会如何重试失败的任务？"
+    },
+    {
+      "speaker": "A",
+      "en": "I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.",
+      "zh": "我会限制重试次数，并安全处理重复投递。我会在白板上比较两种流程。"
+    },
+    {
+      "speaker": "B",
+      "en": "What would you do after the retry limit?",
+      "zh": "达到重试上限后，你会怎么做？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先确认需求与规模，再说明设计、替代方案和取舍。本卡主题：比较同步调用与消息队列。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I024 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I024.png 宽高归一化至 0..1；由人工视觉定位。"
+}

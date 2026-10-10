@@ -1,0 +1,15 @@
+{
+  "cardID": "V020",
+  "imagePath": "../images/V020.png",
+  "imageSHA256": "7025f6952bbdd899d9b36ab0b305faa52582c58d8c8ec54d2b1c60f8b227bb35",
+  "imageReviewed": true,
+  "annotationsPath": "V020_annotations.json",
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "expectedWords": [
+    "maintainability",
+    "refactor",
+    "duplicate",
+    "diagram"
+  ],
+  "receiptPath": "V020_import_receipt.json"
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "I023.png",
+  "labels": [
+    {
+      "x": 230,
+      "y": 900,
+      "english": "cache",
+      "chinese": "缓存",
+      "phoneticUS": "/kæʃ/",
+      "phoneticUK": "/kæʃ/",
+      "bubblePosition": {
+        "x": 230,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：cache。本卡例句：A cache could reduce read latency for frequently requested data.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：cache。本卡例句：A cache could reduce read latency for frequently requested data.",
+        "collocation": "a cache entry; read from the cache",
+        "example": "A: A cache could reduce read latency for frequently requested data.\nB: How would you invalidate an outdated entry?\nA: I'd choose an expiry policy and handle updates. I'll sketch the paths on the whiteboard.\nB: What happens when the cache is unavailable?",
+        "exampleChinese": "A: 缓存可以降低频繁请求数据的读取延迟。\nB: 你会如何让过时的缓存条目失效？\nA: 我会选择过期策略，并处理数据更新。我会在白板上画出这些路径。\nB: 如果缓存不可用，会发生什么？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "latency",
+      "chinese": "延迟",
+      "phoneticUS": "/ˈleɪtənsi/",
+      "phoneticUK": "/ˈleɪtənsi/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：latency。本卡例句：A cache could reduce read latency for frequently requested data.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：latency。本卡例句：A cache could reduce read latency for frequently requested data.",
+        "collocation": "read latency; reduce latency",
+        "example": "A cache could reduce read latency for frequently requested data.",
+        "exampleChinese": "缓存可以降低频繁请求数据的读取延迟。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "invalidate",
+      "chinese": "使失效",
+      "phoneticUS": "/ɪnˈvælɪdeɪt/",
+      "phoneticUK": "/ɪnˈvælɪdeɪt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：invalidate。本卡例句：How would you invalidate an outdated entry?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：invalidate。本卡例句：How would you invalidate an outdated entry?",
+        "collocation": "invalidate a cache entry; invalidate outdated data",
+        "example": "How would you invalidate an outdated entry?",
+        "exampleChinese": "你会如何让过时的缓存条目失效？"
+      }
+    },
+    {
+      "x": 670,
+      "y": 490,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 805,
+        "y": 660
+      },
+      "anchorPosition": {
+        "x": 670,
+        "y": 490
+      },
+      "boundingBox": {
+        "left": 267,
+        "top": 185,
+        "right": 836,
+        "bottom": 576
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板上的两条无字分支路径；cache概念与降低延迟是对白解释，不是图片测量。",
+        "association": "白板上的两条无字分支路径；cache概念与降低延迟是对白解释，不是图片测量。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "I'd choose an expiry policy and handle updates. I'll sketch the paths on the whiteboard.",
+        "exampleChinese": "我会选择过期策略，并处理数据更新。我会在白板上画出这些路径。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate compares a cached read with a longer database path.",
+    "chinese": "候选人比较缓存读取与较长的数据库访问路径。",
+    "source": "原创配文 · I023 为什么使用缓存？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

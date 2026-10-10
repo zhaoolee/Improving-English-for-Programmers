@@ -47,13 +47,13 @@
 6. 先读最新草稿并备份，只同步已验证位置到 `annotations` 与恢复用 `review`，依 job 指定 `receipt` 刷新 read/check，不重复上传/写入；保留 `acceptance`/`check`/`preview` 与 850 唯一词及非 bubble 零差异证据，引用 `workflow/label-layout-20261004/` 与 `V6-publication-verification.json`。
 7. 词表主归属覆盖、实际 850 唯一词、局部区域有效性、标签布局、公开内容版本、手机 App 版本、手机卡组下载状态分开报告；本次 100/850、9 个 bubble 修正、504 框/346 语境、内容 V6、App 105、手机是否下载 V6 未验收。仅有布局授权不推断公开发布；已有明确发布授权则完成并核对目录/版本/count/hash 与下载 HTTP/尺寸，禁止重复询问；审批拒绝时不旁路，完成不受阻工作并说明需补充授权。
 
-### README 场景卡章节（机械生成）
+### README 与 GitHub Pages（机械生成）
 
-根 `README.md` 的 `## 850章节开始` … `## 850章节结束` 区间由 `python3 scene-cards-850/scripts/sync-readme.py` 从已审定卡片数据生成（100 个 `### Cxxx · 标题`，图片 + 单词/中文/例句三列表，保留目标词高亮），**请勿手改**。只读校验用 `--check`（不一致退出非零、不写）；临时文件用 `--readme PATH`（相对 cwd 解析，数据源仍本仓库）。图片 `src` 使用官方原图绝对地址（常量 `IMAGE_BASE_URL`，默认 `https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/`；Fork 可用 `--image-base-url` 切换），直接读取原图、避开相对路径重写重定向；保持 `<img width="480">`。**线上验收必须用浏览器实际确认 `naturalWidth > 0`（100 张），本地文件存在不等于 GitHub 加载成功**；实际是否修复以 Root 线上验收为准。选图按每卡 `piclex/Cxxx_job.json` 的 `imagePath`（相对 job 目录、仓库内）；**C001 当前绑定 `workflow/references/instagram-warm.png`，将来跟随 job 合法更新**，其余为 `images/Cxxx.png`，不用未绑定冷图或预览副本。
+根 `README.md` 不再展开数千行卡片正文，只保留四个系列的入口表（示例图、系列名、统计与 GitHub Pages 链接）。统一运行 `python3 scripts/update_readme.py` 生成，`--check` 只读校验；`scene-cards-850/scripts/sync-readme.py` 与 `programmer-work-english/scripts/sync-readme.py --root` 仅作为兼容入口委托同一脚本，禁止重新引入旧的 `## 850章节开始` / `## 程序员英语章节开始` 大段正文。专题自身 README 的同步方式不变。
 
-根 `README.md` 另有独立的 `## 程序员英语章节开始` … `## 程序员英语章节结束` 区间（位于 `## 850章节开始` 之前），由 `python3 programmer-work-english/scripts/sync-readme.py --root` 从本专题已审定 `cards/Wxxx.json`（仅 `status=approved`）机械生成：每个 `### Wxxx · 标题`（图片 + 双语场景描述 + 关键词 + 完整 4 话轮中英对白表 + 单词/中文/例句三列表，保留目标词高亮），数量随已审定卡自动变化，不展示未制作计划卡、不附每卡内部 PicLex 存储说明；脚本只维护该独立章节，不改专题概述与专题索引。首次运行紧邻 `## 850章节开始` 之前插入；已有区间仅替换自身；标记重复/残缺/反向，或程序员 `END` 未在 `## 850章节开始` 之前时报错且不写。只读校验用 `--root --check`（未同步或区间不存在退出非零、不写）；临时文件用 `--root --readme PATH`（相对 cwd 解析，数据源仍本仓库）。图片 `src` 使用官方原图绝对地址（`--image-base-url`，默认同一 raw main 前缀，URL 与属性转义），路径按每卡 `piclex/Wxxx_job.json` 的 `imagePath`（相对 job 目录）解析，必须仓库内存在、SHA-256 为 64 位十六进制且等于 job 声明、并与 `cards.image_path` 一致，不引用工作台预览、压缩副本或旧白底图；保持 `<img width="480">`。不带 `--root` 时仍维护专题 `programmer-work-english/README.md` 的 `<!-- W样卡开始 -->` / `<!-- W样卡结束 -->`，支持 `--check`，生成内容不变。更新顺序：先重跑专题与根两个模式，再分别跑 `--check`；更新根 README 时 `## 850章节开始` 及其后内容必须逐字节不变（根模式不写 850 区间，850 仍由 `scene-cards-850/scripts/sync-readme.py` 维护）。
+网站由 `python3 scripts/build_site.py` 从四个专题所有 `status=approved` 的 `cards/*.json` 与对应 `piclex/*_job.json` 构建，图片必须跟随 job 的 `imagePath` 且校验 SHA-256；因此 C001 仍自动使用其暖色绑定图。构建后运行 `python3 scripts/verify_site.py`，核对 4 个专题页、卡片集合、全部本地引用、图片哈希、无符号链接且 Pages artifact 小于 1 GiB。发布由 `.github/workflows/pages.yml` 在 `main` 上使用 GitHub Actions Pages 完成；项目站点继承账号级自定义域名，不生成 `CNAME`。本地文件存在不等于线上成功，发布后仍须浏览器检查首页、四个专题入口及所有页面图片 `naturalWidth > 0`。
 
-底图压缩可选：`python3 scene-cards-850/scripts/compress-card-images.py [--card Cxxx] [--force]` 用本地 ONEPUNCH 默认近视觉无损处理每卡 job 实际选图（原图不可变，`--force` 跳过旧回执复用供工具升级重试），输出 `images/compressed/`，逐张写 `manifest.json`；只在 `written` 且严格更小、宽高/源 SHA 一致时引用副本，`unchanged` 不复制。`sync-readme.py` 仅当 manifest 项与当前 job 选图的源/输出哈希匹配时才用压缩图，否则回退 job 原图（未来换图不套旧压缩版）。
+底图压缩可选：`python3 scene-cards-850/scripts/compress-card-images.py [--card Cxxx] [--force]` 用本地 ONEPUNCH 默认近视觉无损处理每卡 job 实际选图（原图不可变，`--force` 跳过旧回执复用供工具升级重试），输出 `images/compressed/`，逐张写 `manifest.json`；只在 `written` 且严格更小、宽高/源 SHA 一致时保留副本，`unchanged` 不复制。当前 README 与 Pages 构建都严格跟随 job 原图绑定，不自动套用压缩副本；未来若要启用，必须显式扩展统一 catalog 校验，不能复用旧图的 manifest。
 
 ### 五张批次与持久化材料
 
@@ -138,15 +138,15 @@
 
 - C046–C050试用确认：Codex整卡视觉35词/23框/12语境，五张原生预览一次通过零警告。预上传空白照片会使导入器的整卡组check在中间态失败；本批全部内容写入后按回执幂等read/check恢复，无重复写入/上传。默认Codex流程继续每卡完整上传+写入，避免这个中间态。复用调色板已定义颜色，未定义别名先映射到现有颜色，避免机械整理阶段拒绝。
 
-## 程序员工作英语专题交接（2026-10-04）
+## 程序员工作英语专题交接（2026-10-04，最近更新 2026-10-07）
 
 ### 定位与卡组
 
 - 《程序员工作英语》是与《基础英语850词》并列的独立专题和**独立免费 PicLex 卡组**；deckID=`121d190a-5d4c-4a09-8d50-4741acdbbb1b`，不得与 850 的 `add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f` 混用。
-- 用户明确指定本专题底图为**极简黑白火柴人**；当前实现为白底黑线、底图无文字、词条气泡彩色白字，**不要套用 850 的清冷韩系/摄影视觉默认**。
+- 用户明确指定本专题底图为**极简黑白火柴人**；当前公开版本为**黑底白线**、底图无文字、词条气泡彩色白字（原白底黑线图永久保留），**不要套用 850 的清冷韩系/摄影视觉默认**。
 - 计划 80 张：8 类各 10 场景（W001–W080）；每卡一句双语场景描述 + 4 句原创双人对话 + 4 个目标词（关键词 + 配套词）。首批为每类第 1 个场景：W001、W011、W021、W031、W041、W051、W061、W071。
 
-### 已发布事实（V1 → … → V8 → 当前 V9）
+### 已发布事实（V1 → … → V9 → 当前 V10）
 
 - 首批 8 张已完成底图（内置 image_gen）、人工审图、机械整理、导入并免费公开发布 **V1**（publicationID=`3a1872417949ed97d2a4d1919bed43e2`，packageSHA256=`f5c20a0534fb5aca5d9ad597badd067501c55901ed3660c9e00b1295c877cbb4`，1758190 bytes）；2026-10-04 修正英文对白后免费公开发布 **V2**（publicationID=`977ed174d8a8258e3b12e00694bdecb0`，packageSHA256=`38d316587bbb0a40bc72953b99700db4c1e4b15d099ea71e32a10984d60428fc`，1757332 bytes，已被取代）。
 - 第二批 8 张（W002、W012、W022、W032、W042、W052、W062、W072）已导入并免费公开发布 **V3**：publicationID=`194cd48c22ce4e66b5c989659d25141a`，packageSHA256=`e368c9b654325b59218b5a06fd8e0ca583d4c88033e58fe2c1b02c3da3ce9bcd`（3551774 bytes，已被 V4 取代）。
@@ -154,13 +154,14 @@
 - 第四批 8 张（W004、W014、W024、W034、W044、W054、W064、W074）已导入并免费公开发布 **V5**：publicationID=`8310c19c27152112253e51ca49e01988`，packageSHA256=`83baefa9c810f288612dbb0f58ec2ad20509a6e7af6f5cb82f373466e08d661a`（7048634 bytes，已被 V6 取代）。
 - **V6（历史，黑底白线新 photoID 版本，已被 V7 取代）**：32 张展示图由原白底黑线图精确 RGB 反色（新 photoID/assetID），publicationID=`22bdb1464bd779b0c0bc2857c2963ba9`，packageSHA256=`830870d27a71a3f516b92bdb36826a578e9900ab3de4508c1aadb7c62cc7120a`（7059505 bytes）；因手机更新后练习为空（旧 V5 照片全局去重 + 新 ID 筛选冲突），由 V7 原地换图修复。
 - **V7（历史，黑底白线保留原 V5 photoID/顺序）**：在 32 个**原 V5 photoID** 上通过官方换图接口替换图片 asset（`workflow/V7-image-replacement-journal.json`，final revision 122），publicationID=`f0db8be990d3359c45d5e083b71c27c5`，packageSHA256=`222dc1483176fca897c9364b11831dbf2f75a8f64a5c47af3efc57b37cf20f04`（7059505 bytes）；32 图/128 词条/101 唯一词/37 框/91 语境；`originalV5PhotoIDsPreserved=true`。
-- 统计：本地/已公开 **48 图 / 192 词条 / 151 个不同词 / 53 局部框 / 139 语境词**（当前公开 V9）；工作台观察 revision：V1=18、V2=27、V3=45、V4=63、V5=83、V6=89、V7=123、V8=141，V9 草稿/导入/发布观察 157/158/159，**均为历史观察值，不得固定为写入参数**，写入前必须读取最新草稿。
+- 统计：本地/已公开 **80 图 / 320 词条 / 224 个不同词 / 85 局部框 / 235 语境词**（当前公开 V10，每类 10 张）；工作台观察 revision：V1=18、V2=27、V3=45、V4=63、V5=83、V6=89、V7=123、V8=141，V9 观察 157/158/159，V10 导入/发布观察 223/226，**均为历史观察值，不得固定为写入参数**，写入前必须读取最新草稿。
 - **第六批（每类第 6 张）W006、W016、W026、W036、W046、W056、W066、W076**：直接生成黑底白线，每张新 photoID；已导入并免费公开发布 **V9**：publicationID=`a59a61284b742183147fda597f1ac3ca`，packageSHA256=`38931e23003acf1ea354397bf5b897ae15156bbc047679ed46fb5d1b7572e725`（9698920 bytes），releaseSHA256=`db077aa256e32aa0df73c7cfedfd1edd9a4bd79508b7296ba98a72344716b71c`，48 图/192 词条/151 唯一词/53 框/139 语境；HTTP 200、包与本地验收包全等、原 40 图字节全等、850 未变；`description` 经官方 CLI 更新为“当前48张，每类6张”。
-- **手机端真机更新未验收**（未使用模拟器）；兼容性：手机来源代码未改，现有去重逻辑在 Mac 隔离复现（`workflow/V6-practice-diagnosis/V7-card-update-compatibility.json`）。其余 **32 张未制作**；下一未制作卡按真实编号升序为 **W007**，若继续每类第 7 个场景可选 W007/W017/…（仅制作范围，不改已定场景标题）。
+- **最后一批 final-thirty-two（每类第 7–10 张，32 张：W007–W010、W017–W020、W027–W030、W037–W040、W047–W050、W057–W060、W067–W070、W077–W080）**：直接生成黑底白线，每张新 photoID；已导入并免费公开发布 **V10**：publicationID=`5df15a728161bd954f9ba7cbf01f70a7`，packageSHA256=`86ccb63944b4da32b824861943f519e0ca283e272c0ee569ebc8a93ceea10f74`（15486193 bytes），releaseSHA256=`0d188797ef8df1c0f6670ed57f16a7b5446aac6c2431ea866b605fa08de353f6`，80 图/320 词条/224 唯一词/85 框/235 语境；HTTP 200、包与本地验收包全等、原 48 图字节全等（release 差异 added32/modified0/removed0，V9 包 96 文件逐字节相等）、850 未变；`description` 经官方 CLI 更新为“当前80张，每类10张”；W008 `brief` 一处 bubblePosition 经官方 layout apply 修正（仅位置，revision 224）。
+- **手机端真机更新未验收**（未使用模拟器）；兼容性：手机来源代码未改，现有去重逻辑在 Mac 隔离复现（`workflow/V6-practice-diagnosis/V7-card-update-compatibility.json`）。**80 张计划卡已全部完成**，下一未制作卡为无。
 
 ### 对白映射（与 850 不同）
 
-- 官方 readingDialogue 约定（副本：`workflow/AB-cli-schema.json`）：`labels[].learning.example` 恰好 A、B 两个角色，canonical **A,B,A,B**，至少各一句，每句非空英文；**A=用户（学习者）朗读评分，B=机器朗读不评分**；角色标记不朗读/不评分；英文与中文逐话轮对应，英文/中文各 ≤500；中文只作展示、不参与识别；**普通单句不得改成对白**。本专题 48 个关键词使用对白，其余 144 个标签为普通例句。
+- 官方 readingDialogue 约定（副本：`workflow/AB-cli-schema.json`）：`labels[].learning.example` 恰好 A、B 两个角色，canonical **A,B,A,B**，至少各一句，每句非空英文；**A=用户（学习者）朗读评分，B=机器朗读不评分**；角色标记不朗读/不评分；英文与中文逐话轮对应，英文/中文各 ≤500；中文只作展示、不参与识别；**普通单句不得改成对白**。本专题 80 个关键词使用对白，其余 240 个标签为普通例句。
 - `annotations.quote.english/chinese` **只保存一句双语场景描述**（PicLex 页脚显示高度有限，完整双语对白会被裁切）。
 - 关键词那一个 label 的 `learning.example` / `exampleChinese` 保存**完整 4 话轮对白**（仅逐句 `speaker` + 文本，共 4 行，各 ≤500 字符；**角色说明只保留在 `cards.roles` 元数据，不拼入练习对白**）；其余 3 个词的 learning 例句保留 cards 原定稿摘录；`cards.targets` 各词例句仍为原摘录；`cards.dialogue` / `roles` / `description` 完整保留，并附 `dialogue_storage`。
 - `prepare-batch.py` / `validate.py` 拒绝：角色说明进入 learning、英文含中文、空话轮、第三个角色（C）、中英 speaker 顺序不一致。
@@ -169,7 +170,7 @@
 
 - 复用现有路径：`programmer-work-english/scripts/prepare-batch.py`（importlib 复用 850 的校验/构造核心，不修改旧脚本）、`validate.py`、`sync-readme.py`、`invert-images.sh`（仅用 ImageMagick 反色）、`inversion-upload.mjs`（官方 CLI 上传/候选草稿）；导入/换图沿用 `scene-cards-850/scripts/import-piclex.mjs`（dry-run）与官方 CLI `photos`/draft API，每卡独立 job/receipt。
 - V7 换图恢复材料（本地忽略）：`workflow/V7-image-replacement-journal.json`、`V7-after-image-replacement.json`、`V7-check.json`、`V7-local-backup/`、`V7-local-sync.json`、`V7-publication.json`、`V7-publication-verification.json`、`V7-after-publication.json`、`V7-release-created.json`、`V7-final-preview-index.json`、`V7-timing.json`、`V7-final-local-sync.json`。
-- 黑底白线方向（V6）：当前风格模板 `workflow/styles/stick-figure-black-white.txt`；原白底黑线模板 provenance 见 `workflow/styles/stick-figure-white-background.txt`；原图 `images/Wxxx.png` 永久保留，反色 `images/inverted/Wxxx.png` 为公开源。
+- 黑底白线方向：当前风格模板 `workflow/styles/stick-figure-black-white.txt`；原白底黑线模板 provenance 见 `workflow/styles/stick-figure-white-background.txt`；**新卡直接生成黑底白线（新 photoID）**；**旧 32 卡（V1–V5 那批）经官方换图接口在原 V5 photoID 上替换为黑底白线（V7）**，不把“新 ID 复制发布”当原位更新；原图 `images/Wxxx.png` 永久保留，反色 `images/inverted/Wxxx.png` 为旧批公开源。
 - 公开：本专题 README、计划、cards、images、prompts、styles、调色板、scripts、batch_content/review。本地忽略（不得公开）：generation-index、region-decisions、import receipt/summary、acceptance、preview、timing、files-ready、offline-acceptance、publication-verification、scaffold-result、pi 任务与日志等。
 - AB/对白格式恢复材料（本地忽略）：`workflow/AB-cli-schema.json`（官方 schema 副本）、`workflow/AB-current-draft.json`（V2 时期 revision 27 草稿）、`workflow/AB-format-acceptance.json`（Root 生成）。核对新版 CLI 时，已发布的 V2 内容已符合官方 readingDialogue，因此格式适配未改变 V2 内容、无需另发版本；**V3 因新增第二批 8 张而发布**；schema/格式合规不等于手机 AB 模式评分验收。
 - 不读密钥、不编辑 PicLex 源码/数据/配置、不擅自发布；已有明确发布授权时按现有流程完成并核对目录/版本/count/hash 与下载 HTTP/尺寸。
@@ -181,3 +182,42 @@
 - 2026-10-05 第四批（每类第 4 张）：W004、W014、W024、W034、W044、W054、W064、W074 已完成底图/审图/机械整理/离线校验/8 job 导入并随 **V5** 公开发布（W064 `phone`、W074 `notebook` 两处 bubblePosition 经官方 layout apply 修正，仅位置变化）；第四批 32 词条/32 不同词/8 局部框/24 语境词，整体 32 图/128 标签/101 唯一词/37 局部框/91 语境词；公网 version=5、HTTP 200、32 段英文无中文、已有 24 张内容 hash 未变、850 未变；其余 48 张未制作，下一张 W005；手机未验收。恢复材料 `programmer-work-english/workflow/fourth-eight_*` 与 `V5-*`（本地忽略）。
 
 - 2026-10-05 黑底白线版本演进（重要更正）：当时曾判断用户“不要求保留旧 photoID”并据此发布 V6（新 photoID）；该判断后被证明不符合卡组原位更新需求——手机更新 V6 后练习为空（旧 V5 照片全局去重与新 ID 筛选冲突）。V7 已通过官方换图接口在**原 V5 photoID**上替换黑底白线图片并公开发布，纠正了当时的错误判断；不把“新 ID 复制发布”当作卡组原位更新。32 张反色图仍由 `scripts/invert-images.sh`（`-channel RGB -negate +channel`）生成，未编辑 PicLex 源码/数据库。V6 保留为历史版本。恢复材料 `programmer-work-english/workflow/V6-*`、`V7-*`、`inversion-*`（本地忽略）。
+
+## 程序员 Vibe Coding 专题交接（2026-10-10）
+
+- 独立免费 PicLex 卡组 deckID=`56a51624-d8aa-4167-99c5-e1c727a938db`，与 Basic 850、程序员工作英语均独立，不得混用。
+- 底图为内置 image_gen 黑底白线「火柴人 × OpenAI 六环结 Logo」场景图；每卡一句双语场景描述 + canonical A,B,A,B 四话轮原创对白 + 4 个目标词。
+- 计划 40 期（8 类 × 5）已全部完成并导入工作台草稿：**40 图 / 160 词条 / 125 不同词 / 40 局部框 / 120 语境词 / 40 段四轮 A-B 对白**，无下一张。最后一批 17 张为 V020、V022–V025、V027–V030、V032–V035、V037–V040；17 个 job done/check 空，375px/600px 官方预览各 17/17 成功、0 warnings，工作台观察 revision=84（仅历史值）。
+- **V2（当前公开）**：23 图 / 92 词条 / 78 不同词 / 23 局部框 / 69 语境词 / 23 段四轮 A-B 对白；publicationID=`b08788d6e1787b09367f1bbd23e74221`，packageSHA256=`f51319dcd051bb07c5a6f16fe5911771b4d41dbca9ae0f760936d811e73287f4`（3149374 bytes），releaseSHA256=`4277f2f79cf0a8fcc41cd3b86cbee3170b264d0c4e8eaed32a1566a4fa0ee369`；公网目录 version=2。新增 15 张，首批 8 张照片/JSON 逐字节保留，旧其他公开卡组目录全等；历史 V1 保留在 `cards_plan.json` `meta.publication_history`。
+- **发布边界与未验收**：公开 PicLex 版本仍为 V2 的前 23 张，最后17张仅在草稿中，未获本轮明确 PicLex 发布授权；手机端真机未验收；本机 HTTPS 入口未验证通过。不得把草稿40张说成公开40张，也不得虚称手机或本机 HTTPS 已通过。
+- 发布经过：首次 publish 请求返回 502、本机 HTTPS 超时，先读回结果确认仍在 V1；Root 复用已连接 SSH（18109→18090）经官方 createApp 正常 publish API 重试，复用同一个已生成 V2，无重复版本；未改配置/源码/数据库，临时实例已关闭。
+- 恢复材料：公开源为各批 `*_batch_content.json`、`*_review.json`、`cards/Vxxx.json`、`prompts/Vxxx_image_final.txt`、`images/Vxxx.png`、`piclex/Vxxx_job.json` 与 `Vxxx_annotations.json`；最后一批为 `final-seventeen_batch_content.json` / `final-seventeen_review.json`。本地忽略为 `workflow/final-seventeen_acceptance.json`、`final-seventeen-preview-375|600/`、各批运行回执与 `piclex/Vxxx_import_receipt.json`；V2 历史发布回执继续保留。
+- **坐标与裁剪恢复提示**：坐标按实际原图宽高（1254×1254）归一化，**不以绘图/预览工具显示的宽度代替**（本批曾按 1280 预览换算导致右/下缘偏紧）；准确裁剪的**源坐标不扩张**（`pad=0`），联系表单元格可留白但不改变记录框；导入前先看准确框裁剪再确认。
+- 复用入口：`programmer-vibe-coding/scripts/prepare-batch.py`（importlib 复用程序员工作英语机械逻辑）、`validate.py`、`sync-readme.py`；导入沿用 `scene-cards-850/scripts/import-piclex.mjs`。
+
+## 程序员面试专题交接（2026-10-09）
+
+- 目录：`programmer-interview/`。
+- 规模：8 类 × 5 期，共 40 张场景卡（I001–I040），**40 张均已制作并导入，全部 `status=approved`**。
+- 当前状态：48 条生图 prompt（40 场景 + 8 可选封面）已准备并加入电影感全局模块；I001–I040 共四十张底图已生成并完成 Codex 底图视觉审查（其中 I003/I005/I007/I013/I017/I028/I038 七张按词条需求做过官方 `photos replace` 定向换图，旧图备份于 `programmer-interview/workflow/learning-40-20261010/image-before/`），剩余 0 张；8 张可选封面只有 prompt、未生成；**40 卡学习内容已完成并导入**：`approved_cards=40`、`content_final_cards=40`、`completed_images=40`、`generated_images=40`、`remaining_images=0`、`image_reviewed_images=40`、`learning_entries=160`、`unique_words=128`、`visible_regions=40`、`context_annotations=120`、`learning_import_status=done`、`deckPaid=true`、`currentRevision=103`、`finalLayoutStatus=applied_machine_verified_root_visual_accepted`、`rootFinalVisualReview=passed`、`next_image_undone=null`、`next_undone=null`；独立付费草稿 `deckID=a7e08e87-33ff-44a1-a686-8275696dcc93`（不复用另外三个专题的 deckID），详见本段末“独立付费工作台草稿交接（2026-10-10）”。
+- 生成来源：I001–I005 五张为初版生成 + 原图电影感定向编辑两步链；I006–I040 为内置 image_gen 依定稿电影感 prompt 各一次直接生成（I006–I010、I011–I015 为前几批，I016–I040 本批）。
+- 本轮范围：Codex 使用内置 image_gen 新生成并审查 I016–I040 二十五张底图；Pi 承担原图复制、实际 prompt 快照保存、状态与文档同步。未生成 8 张可选封面，词条、对白、几何、导入与发布未进行。
+- 恢复入口：`programmer-interview/README.md`、`programmer-interview/cards_plan.json`、`programmer-interview/START_HERE.txt`、`programmer-interview/images/README.md`、`programmer-interview/images/I001.png–I040.png`、`programmer-interview/workflow/I016-I040_image-review.json`、`programmer-interview/workflow/I016-I040_generation-journal.json`、`programmer-interview/workflow/I016-I040_timing.json`、`programmer-interview/workflow/I016-I040_baseline.json`、`programmer-interview/workflow/I016-I040_before/`、`programmer-interview/workflow/I016-I040-generated-prompts/`、`programmer-interview/workflow/I016-I040_files-ready.json`；上一批材料见 `programmer-interview/workflow/I011-I015_*`，更早见 `programmer-interview/workflow/I006-I010_*` 与 `programmer-interview/workflow/I001-I005_*`。
+- 下一张待生成场景底图：无（四十张已全部完成）；学习内容（词条、对白、几何）已完成并导入，无下一整卡待制作。
+- 本轮最终文件核对与真实耗时：`programmer-interview/workflow/I016-I040_root-verification.json`；图片视觉审查另见 `I016-I040_image-review.json`，不等同于学习内容或手机端验收。
+
+### 视觉 prompt 交接（2026-10-09 追加）
+
+- 48 条提示词（40 场景 + 8 可选封面，封面不计入 40 张学习卡）已全部加入电影感全局模块；I001–I040 共四十张底图已生成并完成 Codex 底图视觉审查（其中 7 张按词条需求做过官方定向换图），剩余 0 张；8 张可选封面只有 prompt、未生成；2026-10-10 已创建独立付费草稿 `deckID=a7e08e87-33ff-44a1-a686-8275696dcc93`、40 图已导入并补充 rights 来源说明，**40 卡学习内容已完成并导入（approved=40、160 词条、128 不同词）**、未发布；完成图 40、学习 approved 40；最终 9 卡 Root 视觉复查已通过。
+- 用户明确要求：亚洲、欧洲、美国成年、面貌姣好的虚构演员，真实面试氛围、干净、低 AI 感、Instagram 职场纪实写真（4:5）；**覆盖此前推荐的黑底白线火柴人风格**，本专题不使用火柴人、OpenAI Logo，也不复用 850 限定东亚女性形象。
+- 恢复入口：`programmer-interview/workflow/visual-plan.json`（完整创意来源）、`programmer-interview/workflow/styles/instagram-interview-natural.txt`（统一视觉风格与全局英文 prompt，含电影感模块）、`programmer-interview/workflow/styles/cinematic-addendum.txt`、`programmer-interview/workflow/I001-I005_image-review.json`、`programmer-interview/workflow/I001-I005_generation-journal.json`、`programmer-interview/workflow/I006-I010_image-review.json`、`programmer-interview/workflow/I006-I010_generation-journal.json`、`programmer-interview/workflow/I006-I010-generated-prompts/`、`programmer-interview/workflow/I011-I015_image-review.json`、`programmer-interview/workflow/I011-I015_generation-journal.json`、`programmer-interview/workflow/I011-I015-generated-prompts/`、`programmer-interview/workflow/I016-I040_image-review.json`、`programmer-interview/workflow/I016-I040_generation-journal.json`、`programmer-interview/workflow/I016-I040-generated-prompts/`、`programmer-interview/images/README.md` 与 `programmer-interview/images/I001.png–I040.png`、`programmer-interview/images/initial/`、`programmer-interview/workflow/prompt-history/20261009-before-cinematic/`、`programmer-interview/workflow/I001-I005-cinematic-edit-prompts/`、`programmer-interview/prompts/README.md`、`programmer-interview/prompts/all-prompts.md`、`programmer-interview/prompts/Ixxx_image_prompt.txt`、`programmer-interview/prompts/topic_<category-id>_cover_prompt.txt`。
+- 用户 2026-10-09 生成过程中追加艺术感电影感要求（现代职场电影剧照方向），适用于 I001–I040 及全部后续场景与封面；I006–I040 沿用同一视觉要求。
+- 后续生成使用 image_gen：40 张场景底图已全部完成，无下一张待生成场景底图；“再生成”不再续做场景底图，8 张可选封面只有 prompt、未生成；学习词条、对白和导入按后续具体任务执行；人物一致性需后续选定人物参考图确认，本轮未验收。
+### 独立付费工作台草稿交接（2026-10-10）
+
+- 本专题已创建独立一次买断付费工作台草稿：deckID=`a7e08e87-33ff-44a1-a686-8275696dcc93`，isFree=false，绑定非消耗型商品ID `com.zhaoolee.piclex.deck.programmer_interview`。2026-10-10 已在 App Store Connect 创建商品（Apple 商品 ID=`6821364832`），中国大陆基准价 ¥18，175 个国家或地区可售，状态“准备提交”；尚未添加以供审核、未获批准、未开售。工作台同日已生成本机 V1（40 图/160 词，package SHA-256=`0bd53e81c917a9dc0e8688ea12842f23a7319a5ae29e8c0d1916286e18a7896a`，14044940 bytes），releaseCount=1、publicationCount=0；V1 不等同公开发布/可购买的卡包。商品恢复记录：`programmer-interview/workflow/app-store-connect-product-20261010.json`；V1 与真机预览记录：`programmer-interview/workflow/developer-device-preview-20261010.json`。
+- 图片阶段：I001–I040 共 40 张底图已上传为草稿照片（连续唯一 filename/photoID/assetID），coverID 设为 I001；其中 I003/I005/I007/I013/I017/I028/I038 七张做过官方 `photos replace` 定向换图（旧图备份 `programmer-interview/workflow/learning-40-20261010/image-before/`，其余 33 图与原 40 prompts 逐字节未变）；草稿为 40 照片 / 160 学习词条；导入后 observed revision=93，最终布局修正后终稿 revision=103，生成 V1 后观察 revision=104（均不得冻结为写入参数）；当前 releaseCount=1 / publicationCount=0。
+- 来源说明（2026-10-10 补齐）：40 张照片 rights 已统一填写“内置 image_gen 生成的虚构成年人物面试场景图；生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中”（`photos update` 仅 rights 字段，逐卡串行读最新 revision）。官方 `check` 最初 80 条（40 张缺版权／授权说明 + 40 张缺单词），补齐来源说明后曾仅剩 40 条“每张至少需要一个单词”待办；**完成 40 卡学习内容导入后图片与内容检查已通过**，最终 9 卡 Root 视觉复查亦已通过。rights 仅说明生成来源，不等于法律版权资格核验。
+- 学习内容：40 卡逐词编辑、4 话轮 A,B,A,B 对白与几何均已完成并经 Root `root-review-approval.json` `ready=true`；`approved_cards=40`、`content_final_cards=40`、`learning_import_status=done`、`imported` 已记 40 卡/160 词条/revision 93，`published=null`；**最终布局修正（2026-10-10）：官方 `layout apply` 修正 8 卡 9 个 `bubblePosition`（I006/I008/I020/I021/I030/I032/I036/I037；I030 两处），revision 93→101；I018 仅修正 quote 中英、deck description 更新；终稿 `final-draft.json` revision=103、`final-check.json` `errors=[]`、`layout-protected-diff.json` 非 bubble 差异 0。本地 40 卡与 final-draft 递归核对 40/40 通过（machine verified）；Root 已依据真实 600px 最终预览完成 9 张受影响卡视觉复查，`root-final-acceptance.json` `status=pass`。** 已生成 V1，但未公开发布、未开售、未提交 Apple 商品审核。为满足用户无购买真机测试，使用干净提交 `60015dd` 构建临时开发者预览 Release 1.0.13(229)，以原 Bundle ID/团队/App Group 原位覆盖安装并启动；未卸载、未重置、未启动模拟器。预览不发起 StoreKit 交易、不扣款，可验证商品展示、本地安装与内容，但不等于购买/恢复购买/授权下载验收。
+- 恢复入口：`programmer-interview/workflow/paid-deck-20261010/`（创建/四批上传/封面/check/预览回执、照片映射 `mapping/photo-mapping.json`、基线与文档恢复材料）；I001 官方预览见 `programmer-interview/workflow/paid-deck-20261010/preview/`。学习内容制作材料见 `programmer-interview/workflow/learning-40-20261010/`（`authored-corrected.json`、`geometry-final.json`、`effective-photo-mapping.json`、`replacements.json`、`import-execute-report.json`、`after-learning-draft.json`、`final-draft.json`、`final-check.json`、`layout-protected-diff.json`、`current-bindings-verification.json`、`final-preview-index.json`、`final-preview-contact/`、`final-preview-cards/`、`preview-600/`、`preview-375/`）。
+- Codex 最终 CLI 回读与文件核对：`programmer-interview/workflow/paid-deck-20261010/root-verification.json`（创建阶段 24 项通过，40 图/来源说明/release·publication=0）；换图核验 `programmer-interview/workflow/learning-40-20261010/root-image-replacement-verification.json`（passed=true，46→53，仅 7 assetID 变化）；学习导入 `import-execute-report.json`（40 done、无 failed、`after-learning-draft.json` revision=93）；最终布局 apply `layout-protected-diff.json`（passed=true，9 bubble，非 bubble 差异 0）与 `final-check.json`（revision=103，errors=[]）；本地绑定核对 `current-bindings-verification.json`（40/40）；最终 9 卡视觉验收见 `root-final-acceptance.json`（pass）。发布检查的 40 项缺词条待办已随学习内容导入清除。后续复用既有 photoID/assetID，不重复上传图片。

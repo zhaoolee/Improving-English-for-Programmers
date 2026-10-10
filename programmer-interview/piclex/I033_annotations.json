@@ -1,0 +1,130 @@
+{
+  "filename": "I033.png",
+  "labels": [
+    {
+      "x": 210,
+      "y": 900,
+      "english": "deadline",
+      "chinese": "截止时间",
+      "phoneticUS": "/ˈdedlaɪn/",
+      "phoneticUK": "/ˈdedlaɪn/",
+      "bubblePosition": {
+        "x": 210,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：deadline。本卡例句：When new requests threatened the deadline, I asked the team to prioritize the essential work.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：deadline。本卡例句：When new requests threatened the deadline, I asked the team to prioritize the essential work.",
+        "collocation": "meet a deadline; a fixed deadline",
+        "example": "A: When new requests threatened the deadline, I asked the team to prioritize the essential work.\nB: How did you negotiate the scope?\nA: I used the planner to show the schedule and proposed moving optional features to a later release.\nB: How did you confirm agreement with the stakeholders?",
+        "exampleChinese": "A: 当新需求威胁到截止时间时，我请团队优先处理必要工作。\nB: 你如何协商项目范围？\nA: 我用计划本展示时间安排，并提议把可选功能移到后续版本。\nB: 你如何确认利益相关方已经达成一致？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "prioritize",
+      "chinese": "优先处理",
+      "phoneticUS": "/praɪˈɔːrətaɪz/",
+      "phoneticUK": "/praɪˈɒrɪtaɪz/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：prioritize。本卡例句：When new requests threatened the deadline, I asked the team to prioritize the essential work.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：prioritize。本卡例句：When new requests threatened the deadline, I asked the team to prioritize the essential work.",
+        "collocation": "prioritize essential work; prioritize requests",
+        "example": "When new requests threatened the deadline, I asked the team to prioritize the essential work.",
+        "exampleChinese": "当新需求威胁到截止时间时，我请团队优先处理必要工作。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "negotiate",
+      "chinese": "协商",
+      "phoneticUS": "/nɪˈɡoʊʃieɪt/",
+      "phoneticUK": "/nɪˈɡəʊʃieɪt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：negotiate。本卡例句：How did you negotiate the scope?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：negotiate。本卡例句：How did you negotiate the scope?",
+        "collocation": "negotiate the scope; negotiate the terms",
+        "example": "How did you negotiate the scope?",
+        "exampleChinese": "你如何协商项目范围？"
+      }
+    },
+    {
+      "x": 590,
+      "y": 730,
+      "english": "planner",
+      "chinese": "计划本",
+      "phoneticUS": "/ˈplænər/",
+      "phoneticUK": "/ˈplænə/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 590,
+        "y": 730
+      },
+      "boundingBox": {
+        "left": 375,
+        "top": 653,
+        "right": 815,
+        "bottom": 780
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上螺旋计划本与空白方格，结合对白明确作为planner；不从空白格推断真实截止日期。",
+        "association": "桌上螺旋计划本与空白方格，结合对白明确作为planner；不从空白格推断真实截止日期。",
+        "collocation": "a weekly planner; check the planner",
+        "example": "I used the planner to show the schedule and proposed moving optional features to a later release.",
+        "exampleChinese": "我用计划本展示时间安排，并提议把可选功能移到后续版本。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate discusses how to handle competing requests and a fixed deadline.",
+    "chinese": "候选人讨论如何处理相互冲突的需求与固定的截止时间。",
+    "source": "原创配文 · I033 需求和截止时间冲突时怎么办？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

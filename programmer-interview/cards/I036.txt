@@ -1,0 +1,123 @@
+I036  向面试官了解团队和岗位
+========================================================================
+分类: 反问与面试后续（closing）
+关键词: role
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I036.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I036.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I036.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T14:33:54Z → 2026-10-09T14:50:46Z
+  提示词文件: prompts/I036_image_final.txt
+
+场景: 美国男候选人向欧洲男面试官了解团队与岗位，双方形成自然反问交流。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 候选人与面试官在收尾提问时互动，闭合电脑与文件夹清楚，背后磨砂玻璃空间合理。手势与面貌自然，近景肩部、桌面与背景形成层次，没有额外同事或握手 实际可见物件：候选人面前薄文件夹；不声称其封面可读岗位或培训资料。
+
+沟通目标: 了解岗位、团队和成长空间，并得体沟通薪酬、入职与面试结果。本卡主题：向面试官了解团队和岗位。
+
+主配文（一句场景描述）:
+  英文: A candidate asks the interviewer about the role and the team's expectations.
+  中文: 候选人向面试官询问岗位与团队期望。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] Could you clarify the main expectation for this role in the first three months?
+        你能说明这个岗位在前三个月的主要期望吗？
+  [B] We'd like you to take responsibility for one small service.
+        我们希望你负责一个小型服务。
+  [A] What does onboarding involve? I have a few related questions in my folder.
+        入职培训包含什么？我的文件夹里还有几个相关问题。
+  [B] You'll pair with a teammate before taking on independent work.
+        你会先与同事结对，再开始独立工作。
+
+目标词 (4): role, expectation, onboarding, folder
+
+------------------------------------------------------------------------
+[1/4] role
+  词义: 岗位
+  词性: noun
+  音标: UK /rəʊl/ | US /roʊl/
+  搭配: a developer role; apply for a role
+  例句: Could you clarify the main expectation for this role in the first three months?
+  例句高亮: Could you clarify the main expectation for this **role** in the first three months?
+  例句中文: 你能说明这个岗位在前三个月的主要期望吗？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：role。本卡例句：Could you clarify the main expectation for this role in the first three months?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] expectation
+  词义: 期望
+  词性: noun
+  音标: UK /ˌekspekˈteɪʃən/ | US /ˌekspekˈteɪʃən/
+  搭配: a clear expectation; meet an expectation
+  例句: Could you clarify the main expectation for this role in the first three months?
+  例句高亮: Could you clarify the main **expectation** for this role in the first three months?
+  例句中文: 你能说明这个岗位在前三个月的主要期望吗？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：expectation。本卡例句：Could you clarify the main expectation for this role in the first three months?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] onboarding
+  词义: 入职培训
+  词性: noun
+  音标: UK /ˈɒnbɔːdɪŋ/ | US /ˈɑːnbɔːrdɪŋ/
+  搭配: onboarding support; the onboarding process
+  例句: What does onboarding involve? I have a few related questions in my folder.
+  例句高亮: What does **onboarding** involve? I have a few related questions in my folder.
+  例句中文: 入职培训包含什么？我的文件夹里还有几个相关问题。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：onboarding。本卡例句：What does onboarding involve? I have a few related questions in my folder.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: a document folder; open a folder
+  例句: What does onboarding involve? I have a few related questions in my folder.
+  例句高亮: What does onboarding involve? I have a few related questions in my **folder**.
+  例句中文: 入职培训包含什么？我的文件夹里还有几个相关问题。
+  标注模式: object
+  标注说明: 候选人面前薄文件夹；不声称其封面可读岗位或培训资料。
+  坐标(normalized): [0.18, 0.625, 0.62, 0.705]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I036 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.
+Interviewer or recruiter: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.
+Exactly two people near the end of an interview. Marcus, the candidate in a stone-gray shirt and navy blazer, asks Lukas, the interviewer in a pale-blue shirt, a question about the team and role. Marcus leans forward slightly with attentive eye contact; Lukas answers with a restrained open-hand gesture. A thin folder and one closed laptop sit on the table, and an indistinct empty workspace appears behind frosted glass. A 50mm medium environmental photograph, soft afternoon window light and believable room depth. The candidate is actively asking, not passively waiting. No extra colleagues, company branding or staged handshake.

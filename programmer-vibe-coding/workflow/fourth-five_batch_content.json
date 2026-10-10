@@ -1,0 +1,526 @@
+{
+  "title": "程序员 Vibe Coding 第四批五张",
+  "status": "content_final",
+  "startedAt": "2026-10-09T05:35:17Z",
+  "startedAtNote": "本轮首个记录时钟时间，更早工具起点未记录，不补造。",
+  "contentFinalizedAt": "2026-10-09T05:41:23.311443+00:00",
+  "displayTimeZone": "Asia/Shanghai",
+  "promptTemplate": "workflow/styles/stick-figure-openai-black-white.txt",
+  "cards": [
+    {
+      "id": "V014",
+      "category": "context",
+      "title": "上下文太多，也会迷路",
+      "keyword": "relevant",
+      "description_en": "A programmer asks an AI assistant to keep only the context relevant to the current task.",
+      "description_zh": "程序员让 AI 只保留与当前任务相关的上下文。",
+      "communication_goal": "筛选必要上下文，避免无关信息干扰当前任务。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "There is too much context. Which files are relevant to this bug?",
+          "zh": "上下文太多了，哪些文件与这个缺陷有关？"
+        },
+        {
+          "speaker": "B",
+          "en": "The error log and the request handler are useful. The old design notes are not needed.",
+          "zh": "错误日志和请求处理代码有用，旧的设计笔记不需要。"
+        },
+        {
+          "speaker": "A",
+          "en": "Filter out the unrelated files. I'll keep the error log on this screen.",
+          "zh": "筛掉无关文件。我会在这个屏幕上保留错误日志。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll focus on those two sources and ask if I need more information.",
+          "zh": "我会专注于这两份资料，需要更多信息时再问。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer sits at the left of a small desk and points toward a large desktop monitor at center. The monitor has a clear rectangular bezel and a fully blank black inner screen, outlined in white. Show the whole inner screen unobstructed; keep the pointing hand outside the bezel. The floating white OpenAI knot is at the right. A small pile of blank papers rests aside at the far left of the desk, representing unnecessary context, away from the monitor. No writing, symbols or UI text.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a small desk and points toward a large desktop monitor at center. The monitor has a clear rectangular bezel and a fully blank black inner screen, outlined in white. Show the whole inner screen unobstructed; keep the pointing hand outside the bezel. The floating white OpenAI knot is at the right. A small pile of blank papers rests aside at the far left of the desk, representing unnecessary context, away from the monitor. No writing, symbols or UI text.",
+      "words": [
+        {
+          "word": "relevant",
+          "zh": "相关的",
+          "pos": "adjective",
+          "us": "/ˈreləvənt/",
+          "uk": "/ˈreləvənt/",
+          "example": "There is too much context. Which files are relevant to this bug?",
+          "translation": "上下文太多了，哪些文件与这个缺陷有关？",
+          "mode": "context",
+          "collocations": [
+            "relevant files",
+            "relevant to this bug"
+          ],
+          "evidence": "相关性由对白与任务决定，纸张或屏幕外观不能证明关联。",
+          "color": "blue"
+        },
+        {
+          "word": "context",
+          "zh": "上下文",
+          "pos": "noun",
+          "us": "/ˈkɑːntekst/",
+          "uk": "/ˈkɒntekst/",
+          "example": "There is too much context. Which files are relevant to this bug?",
+          "translation": "上下文太多了，哪些文件与这个缺陷有关？",
+          "mode": "context",
+          "collocations": [
+            "task context",
+            "provide context"
+          ],
+          "evidence": "这里是任务背景信息，不把整张图或纸堆当成其局部指代。",
+          "color": "lavender"
+        },
+        {
+          "word": "filter",
+          "zh": "筛选",
+          "pos": "verb",
+          "us": "/ˈfɪltər/",
+          "uk": "/ˈfɪltə/",
+          "example": "Filter out the unrelated files. I'll keep the error log on this screen.",
+          "translation": "筛掉无关文件。我会在这个屏幕上保留错误日志。",
+          "mode": "context",
+          "collocations": [
+            "filter out unrelated files",
+            "filter the results"
+          ],
+          "evidence": "这里指筛掉无关资料，静态画面不能证明确实完成筛选。",
+          "color": "rose"
+        },
+        {
+          "word": "screen",
+          "zh": "屏幕",
+          "pos": "noun",
+          "us": "/skriːn/",
+          "uk": "/skriːn/",
+          "example": "Filter out the unrelated files. I'll keep the error log on this screen.",
+          "translation": "筛掉无关文件。我会在这个屏幕上保留错误日志。",
+          "mode": "object",
+          "collocations": [
+            "on this screen",
+            "a monitor screen"
+          ],
+          "evidence": "显示器内屏是实际可见指代；不声称能读取空白内屏中的日志。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V015",
+      "category": "context",
+      "title": "交接前留下能恢复的记录",
+      "keyword": "resume",
+      "description_en": "A programmer asks an AI assistant to leave a handoff record so work can resume later.",
+      "description_zh": "程序员让 AI 留下交接记录，以便稍后恢复工作。",
+      "communication_goal": "记录已完成事项、待办与恢复入口。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Before we stop, record our progress so I can resume tomorrow.",
+          "zh": "结束前，记录我们的进度，方便我明天继续。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll note what changed, what passed, and what is still pending.",
+          "zh": "我会记下改了什么、哪些检查通过了，以及哪些事项还待处理。"
+        },
+        {
+          "speaker": "A",
+          "en": "Add the next step and the file paths. I'll put a short summary in this notebook.",
+          "zh": "加上下一步和文件路径。我会在这个笔记本里记一份简短摘要。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll leave a handoff note in the project and include the commands needed to continue.",
+          "zh": "我会在项目里留下交接记录，并附上继续工作所需的命令。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at the left of a small table, holding a pen beside a closed spiral-bound notebook at center. The notebook is upright, resting its lower edge on the table, with the cover facing the viewer. Its left spiral binding and complete rectangular cover outline are clearly visible; the cover is blank black. Keep hands beside rather than over the cover. The white OpenAI knot floats to the right. Calm end-of-work discussion. No clocks, words or extra notebooks.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small table, holding a pen beside a closed spiral-bound notebook at center. The notebook is upright, resting its lower edge on the table, with the cover facing the viewer. Its left spiral binding and complete rectangular cover outline are clearly visible; the cover is blank black. Keep hands beside rather than over the cover. The white OpenAI knot floats to the right. Calm end-of-work discussion. No clocks, words or extra notebooks.",
+      "words": [
+        {
+          "word": "resume",
+          "zh": "继续",
+          "pos": "verb",
+          "us": "/rɪˈzuːm/",
+          "uk": "/rɪˈzjuːm/",
+          "example": "Before we stop, record our progress so I can resume tomorrow.",
+          "translation": "结束前，记录我们的进度，方便我明天继续。",
+          "mode": "context",
+          "collocations": [
+            "resume work",
+            "resume tomorrow"
+          ],
+          "evidence": "这里是恢复之前的工作，不是名词简历；由对白明确含义，没有局部可见指代。",
+          "color": "blue"
+        },
+        {
+          "word": "record",
+          "zh": "记录",
+          "pos": "verb",
+          "us": "/rɪˈkɔːrd/",
+          "uk": "/rɪˈkɔːd/",
+          "example": "Before we stop, record our progress so I can resume tomorrow.",
+          "translation": "结束前，记录我们的进度，方便我明天继续。",
+          "mode": "context",
+          "collocations": [
+            "record progress",
+            "record the results"
+          ],
+          "evidence": "这里为动词，写字道具只提供情境，不能证明记录内容已经保存。",
+          "color": "lavender"
+        },
+        {
+          "word": "pending",
+          "zh": "待处理的",
+          "pos": "adjective",
+          "us": "/ˈpendɪŋ/",
+          "uk": "/ˈpendɪŋ/",
+          "example": "I'll note what changed, what passed, and what is still pending.",
+          "translation": "我会记下改了什么、哪些检查通过了，以及哪些事项还待处理。",
+          "mode": "context",
+          "collocations": [
+            "pending tasks",
+            "still pending"
+          ],
+          "evidence": "任务状态来自交接对白，不能从静态笔记本判断。",
+          "color": "rose"
+        },
+        {
+          "word": "notebook",
+          "zh": "笔记本",
+          "pos": "noun",
+          "us": "/ˈnoʊtbʊk/",
+          "uk": "/ˈnəʊtbʊk/",
+          "example": "Add the next step and the file paths. I'll put a short summary in this notebook.",
+          "translation": "加上下一步和文件路径。我会在这个笔记本里记一份简短摘要。",
+          "mode": "object",
+          "collocations": [
+            "in this notebook",
+            "a work notebook"
+          ],
+          "evidence": "可见的纸质螺旋笔记本是直接指代，框完整封面与装订。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V017",
+      "category": "implementation",
+      "title": "先做一条能走通的主流程",
+      "keyword": "flow",
+      "description_en": "A programmer and an AI assistant build a minimal flow before adding extra features.",
+      "description_zh": "程序员与 AI 先打通最小主流程，再添加额外功能。",
+      "communication_goal": "先完成可运行的主流程，用实际操作验证。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Start with a minimal flow: click this button and save one item.",
+          "zh": "先做最小流程：点击这个按钮，保存一条记录。"
+        },
+        {
+          "speaker": "B",
+          "en": "Should I add filters and bulk editing now?",
+          "zh": "现在要加筛选和批量编辑吗？"
+        },
+        {
+          "speaker": "A",
+          "en": "Not yet. Complete the basic flow first, then let me try it.",
+          "zh": "先不用。先完成基本流程，再让我试一下。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll build that path and check that the saved item appears in the list.",
+          "zh": "我会先实现这条路径，并检查保存的记录是否出现在列表里。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer sits at the left of a simple desk beside a desktop monitor at center. On the blank black screen draw exactly one large rounded-rectangle outline button, horizontally centered. The button has no label, icon or letters and is clearly distinct from the larger monitor frame. Keep the entire button unobstructed. The programmer points toward it with the finger outside the monitor. A floating white OpenAI knot at right. No other UI elements or objects.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a simple desk beside a desktop monitor at center. On the blank black screen draw exactly one large rounded-rectangle outline button, horizontally centered. The button has no label, icon or letters and is clearly distinct from the larger monitor frame. Keep the entire button unobstructed. The programmer points toward it with the finger outside the monitor. A floating white OpenAI knot at right. No other UI elements or objects.",
+      "words": [
+        {
+          "word": "flow",
+          "zh": "流程",
+          "pos": "noun",
+          "us": "/floʊ/",
+          "uk": "/fləʊ/",
+          "example": "Start with a minimal flow: click this button and save one item.",
+          "translation": "先做最小流程：点击这个按钮，保存一条记录。",
+          "mode": "context",
+          "collocations": [
+            "a basic flow",
+            "complete the flow"
+          ],
+          "evidence": "这里是从点击到保存的操作流程，单个按钮不是流程本身，含义由对白支持。",
+          "color": "blue"
+        },
+        {
+          "word": "minimal",
+          "zh": "最小的",
+          "pos": "adjective",
+          "us": "/ˈmɪnɪməl/",
+          "uk": "/ˈmɪnɪməl/",
+          "example": "Start with a minimal flow: click this button and save one item.",
+          "translation": "先做最小流程：点击这个按钮，保存一条记录。",
+          "mode": "context",
+          "collocations": [
+            "a minimal flow",
+            "a minimal version"
+          ],
+          "evidence": "最小指功能范围，不是图中按钮的物理尺寸。",
+          "color": "lavender"
+        },
+        {
+          "word": "complete",
+          "zh": "完成",
+          "pos": "verb",
+          "us": "/kəmˈpliːt/",
+          "uk": "/kəmˈpliːt/",
+          "example": "Not yet. Complete the basic flow first, then let me try it.",
+          "translation": "先不用。先完成基本流程，再让我试一下。",
+          "mode": "context",
+          "collocations": [
+            "complete the flow",
+            "complete a task"
+          ],
+          "evidence": "完成是对白中的请求，画面不能证明功能已实现或测试通过。",
+          "color": "rose"
+        },
+        {
+          "word": "button",
+          "zh": "按钮",
+          "pos": "noun",
+          "us": "/ˈbʌtən/",
+          "uk": "/ˈbʌtən/",
+          "example": "Start with a minimal flow: click this button and save one item.",
+          "translation": "先做最小流程：点击这个按钮，保存一条记录。",
+          "mode": "object",
+          "collocations": [
+            "click this button",
+            "a save button"
+          ],
+          "evidence": "屏幕中唯一完整的圆角矩形按钮是实际可见指代，其保存功能由对白定义。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V018",
+      "category": "implementation",
+      "title": "一次改一个可验证的功能",
+      "keyword": "isolated",
+      "description_en": "A programmer asks an AI assistant to make one isolated change and verify its behavior.",
+      "description_zh": "程序员让 AI 做一处独立改动，并验证其行为。",
+      "communication_goal": "控制单次改动大小，先验证，再继续。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Add one switch for dark mode. Keep this change isolated.",
+          "zh": "加一个深色模式开关，让这次改动保持独立。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll update only the setting and its behavior.",
+          "zh": "我只会更新这个设置及其行为。"
+        },
+        {
+          "speaker": "A",
+          "en": "Verify it before starting the next incremental change.",
+          "zh": "开始下一次渐进改动前，先验证它。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll check both positions of the switch and report the result.",
+          "zh": "我会检查开关的两种状态，并报告结果。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at left beside a small desk and gestures toward a large desktop monitor at center. On the otherwise blank black screen draw exactly one large toggle switch: a horizontal pill-shaped white outline with one white circular knob visibly at its left end and black empty space to its right. Keep the toggle complete and unobstructed, with no on/off labels, numbers or symbols. The floating white OpenAI knot sits to the right outside the monitor. No other UI controls.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left beside a small desk and gestures toward a large desktop monitor at center. On the otherwise blank black screen draw exactly one large toggle switch: a horizontal pill-shaped white outline with one white circular knob visibly at its left end and black empty space to its right. Keep the toggle complete and unobstructed, with no on/off labels, numbers or symbols. The floating white OpenAI knot sits to the right outside the monitor. No other UI controls.",
+      "words": [
+        {
+          "word": "isolated",
+          "zh": "独立的",
+          "pos": "adjective",
+          "us": "/ˈaɪsəleɪtɪd/",
+          "uk": "/ˈaɪsəleɪtɪd/",
+          "example": "Add one switch for dark mode. Keep this change isolated.",
+          "translation": "加一个深色模式开关，让这次改动保持独立。",
+          "mode": "context",
+          "collocations": [
+            "an isolated change",
+            "keep a change isolated"
+          ],
+          "evidence": "独立指改动边界，不把人物独处或单个控件位置当证据。",
+          "color": "blue"
+        },
+        {
+          "word": "behavior",
+          "zh": "行为",
+          "pos": "noun",
+          "us": "/bɪˈheɪvjər/",
+          "uk": "/bɪˈheɪvjə/",
+          "example": "I'll update only the setting and its behavior.",
+          "translation": "我只会更新这个设置及其行为。",
+          "mode": "context",
+          "collocations": [
+            "setting behavior",
+            "verify the behavior"
+          ],
+          "evidence": "这里指软件运行行为，静态开关外观不证明响应。",
+          "color": "lavender"
+        },
+        {
+          "word": "incremental",
+          "zh": "渐进的",
+          "pos": "adjective",
+          "us": "/ˌɪŋkrəˈmentəl/",
+          "uk": "/ˌɪŋkrəˈmentəl/",
+          "example": "Verify it before starting the next incremental change.",
+          "translation": "开始下一次渐进改动前，先验证它。",
+          "mode": "context",
+          "collocations": [
+            "an incremental change",
+            "incremental development"
+          ],
+          "evidence": "渐进是多步工作方式，没有局部可见指代。",
+          "color": "rose"
+        },
+        {
+          "word": "switch",
+          "zh": "开关",
+          "pos": "noun",
+          "us": "/swɪtʃ/",
+          "uk": "/swɪtʃ/",
+          "example": "Add one switch for dark mode. Keep this change isolated.",
+          "translation": "加一个深色模式开关，让这次改动保持独立。",
+          "mode": "object",
+          "collocations": [
+            "a dark-mode switch",
+            "toggle the switch"
+          ],
+          "evidence": "屏幕中胶囊轨道与圆形滑块构成可见开关，只框该控件。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V019",
+      "category": "implementation",
+      "title": "别让小需求变成全项目重写",
+      "keyword": "scope",
+      "description_en": "A programmer keeps a small request from turning into an unrelated refactor.",
+      "description_zh": "程序员控制小需求的范围，避免扩展成无关重构。",
+      "communication_goal": "明确允许修改的范围，审查差异后再批准。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "The request is to rename a button. Keep the scope small.",
+          "zh": "需求是改一个按钮的名称，保持范围小。"
+        },
+        {
+          "speaker": "B",
+          "en": "Should I refactor the whole component while I'm here?",
+          "zh": "要不要顺便重构整个组件？"
+        },
+        {
+          "speaker": "A",
+          "en": "No. Leave unrelated code alone. I'll review the diff on this laptop.",
+          "zh": "不要。别动无关代码，我会在这台笔记本电脑上审查差异。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll change only the label and show you the diff.",
+          "zh": "我只会修改按钮文字，再把差异给你看。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer sits at left at a small desk, looking at an open laptop centered on the tabletop. The laptop has a clearly outlined blank screen, full lid edges, visible hinge and complete keyboard base with simple unlabelled key rectangles. The programmer holds one palm up in a gentle stop gesture toward the floating white OpenAI knot at the right. Keep the laptop unobstructed with hands away from it. No code, letters, captions or other objects.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at left at a small desk, looking at an open laptop centered on the tabletop. The laptop has a clearly outlined blank screen, full lid edges, visible hinge and complete keyboard base with simple unlabelled key rectangles. The programmer holds one palm up in a gentle stop gesture toward the floating white OpenAI knot at the right. Keep the laptop unobstructed with hands away from it. No code, letters, captions or other objects.",
+      "words": [
+        {
+          "word": "scope",
+          "zh": "范围",
+          "pos": "noun",
+          "us": "/skoʊp/",
+          "uk": "/skəʊp/",
+          "example": "The request is to rename a button. Keep the scope small.",
+          "translation": "需求是改一个按钮的名称，保持范围小。",
+          "mode": "context",
+          "collocations": [
+            "keep the scope small",
+            "the scope of a change"
+          ],
+          "evidence": "这里指需求改动范围，与物件大小无关，没有局部可见指代。",
+          "color": "blue"
+        },
+        {
+          "word": "refactor",
+          "zh": "重构",
+          "pos": "verb",
+          "us": "/ˌriːˈfæktər/",
+          "uk": "/ˌriːˈfæktə/",
+          "example": "Should I refactor the whole component while I'm here?",
+          "translation": "要不要顺便重构整个组件？",
+          "mode": "context",
+          "collocations": [
+            "refactor a component",
+            "refactor the code"
+          ],
+          "evidence": "代码重构由对白提出，空白屏幕不提供可定位代码。",
+          "color": "lavender"
+        },
+        {
+          "word": "unrelated",
+          "zh": "无关的",
+          "pos": "adjective",
+          "us": "/ˌʌnrɪˈleɪtɪd/",
+          "uk": "/ˌʌnrɪˈleɪtɪd/",
+          "example": "No. Leave unrelated code alone. I'll review the diff on this laptop.",
+          "translation": "不要。别动无关代码，我会在这台笔记本电脑上审查差异。",
+          "mode": "context",
+          "collocations": [
+            "unrelated code",
+            "unrelated changes"
+          ],
+          "evidence": "相关性由需求决定，不能从静态物体判断。",
+          "color": "rose"
+        },
+        {
+          "word": "laptop",
+          "zh": "笔记本电脑",
+          "pos": "noun",
+          "us": "/ˈlæptɑːp/",
+          "uk": "/ˈlæptɒp/",
+          "example": "No. Leave unrelated code alone. I'll review the diff on this laptop.",
+          "translation": "不要。别动无关代码，我会在这台笔记本电脑上审查差异。",
+          "mode": "object",
+          "collocations": [
+            "on this laptop",
+            "a laptop screen"
+          ],
+          "evidence": "完整可见的笔记本电脑屏幕、转轴与键盘底座是直接指代。",
+          "color": "teal"
+        }
+      ]
+    }
+  ]
+}

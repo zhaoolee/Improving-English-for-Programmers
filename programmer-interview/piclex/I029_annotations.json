@@ -1,0 +1,130 @@
+{
+  "filename": "I029.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "bottleneck",
+      "chinese": "瓶颈",
+      "phoneticUS": "/ˈbɑːtlnek/",
+      "phoneticUK": "/ˈbɒtlnek/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：bottleneck。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：bottleneck。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+        "collocation": "locate the bottleneck; a performance bottleneck",
+        "example": "A: I'd profile the slow request to locate the bottleneck before changing the code.\nB: What would you optimize first?\nA: The most expensive step. May I use your notebook to record the measurements and compare them after the change?\nB: How would you ensure the comparison is fair?",
+        "exampleChinese": "A: 修改代码前，我会对慢请求进行性能剖析，找出瓶颈。\nB: 你会先优化什么？\nA: 开销最大的步骤。我可以用你的笔记本记录测量结果，并在修改后进行比较吗？\nB: 你会如何确保比较公平？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "profile",
+      "chinese": "性能剖析",
+      "phoneticUS": "/ˈproʊfaɪl/",
+      "phoneticUK": "/ˈprəʊfaɪl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：profile。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：profile。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+        "collocation": "profile a request; profile the application",
+        "example": "I'd profile the slow request to locate the bottleneck before changing the code.",
+        "exampleChinese": "修改代码前，我会对慢请求进行性能剖析，找出瓶颈。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "optimize",
+      "chinese": "优化",
+      "phoneticUS": "/ˈɑːptɪmaɪz/",
+      "phoneticUK": "/ˈɒptɪmaɪz/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：optimize。本卡例句：What would you optimize first?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：optimize。本卡例句：What would you optimize first?",
+        "collocation": "optimize a request; optimize performance",
+        "example": "What would you optimize first?",
+        "exampleChinese": "你会先优化什么？"
+      }
+    },
+    {
+      "x": 680,
+      "y": 725,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 875
+      },
+      "anchorPosition": {
+        "x": 680,
+        "y": 725
+      },
+      "boundingBox": {
+        "left": 555,
+        "top": 680,
+        "right": 850,
+        "bottom": 775
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定。",
+        "association": "面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "The most expensive step. May I use your notebook to record the measurements and compare them after the change?",
+        "exampleChinese": "开销最大的步骤。我可以用你的笔记本记录测量结果，并在修改后进行比较吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate discusses performance measurements before proposing an optimization.",
+    "chinese": "候选人在提出优化方案前讨论性能测量。",
+    "source": "原创配文 · I029 分析并优化一个性能瓶颈",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

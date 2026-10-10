@@ -1,0 +1,130 @@
+{
+  "filename": "V025-从“能点”到“好用”.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "usable",
+      "chinese": "好用的",
+      "phoneticUS": "/ˈjuːzəbəl/",
+      "phoneticUK": "/ˈjuːzəbəl/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "好用程度需要实际操作验证，不能从设备外观判断。",
+        "association": "好用程度需要实际操作验证，不能从设备外观判断。",
+        "collocation": "a usable form; usable with a keyboard",
+        "example": "A: The form works with a mouse. Is it usable with this keyboard?\nB: Not yet. The focus order is confusing.\nA: Make each action obvious and keep the controls easy to reach.\nB: I'll improve the keyboard path and test it again.",
+        "exampleChinese": "A: 这个表单用鼠标能操作。用这把键盘也好用吗？\nB: 还不行。焦点顺序让人困惑。\nA: 让每个操作都清楚明显，并让控件容易触达。\nB: 我会改进键盘操作路径，再测试一次。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "focus",
+      "chinese": "焦点",
+      "phoneticUS": "/ˈfoʊkəs/",
+      "phoneticUK": "/ˈfəʊkəs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指界面键盘焦点，不是人物视线或摄影焦点。",
+        "association": "这里指界面键盘焦点，不是人物视线或摄影焦点。",
+        "collocation": "focus order; move focus",
+        "example": "Not yet. The focus order is confusing.",
+        "exampleChinese": "还不行。焦点顺序让人困惑。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "obvious",
+      "chinese": "明显的",
+      "phoneticUS": "/ˈɑːbviəs/",
+      "phoneticUK": "/ˈɒbviəs/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "明显性是界面理解效果，静态无字画面不能证明。",
+        "association": "明显性是界面理解效果，静态无字画面不能证明。",
+        "collocation": "make an action obvious; an obvious control",
+        "example": "Make each action obvious and keep the controls easy to reach.",
+        "exampleChinese": "让每个操作都清楚明显，并让控件容易触达。"
+      }
+    },
+    {
+      "x": 503,
+      "y": 520,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 503,
+        "y": 520
+      },
+      "boundingBox": {
+        "left": 378,
+        "top": 491,
+        "right": 628,
+        "bottom": 552
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面上完整可见的电脑键盘是直接指代，只框键盘外缘。",
+        "association": "桌面上完整可见的电脑键盘是直接指代，只框键盘外缘。",
+        "collocation": "with this keyboard; keyboard navigation",
+        "example": "The form works with a mouse. Is it usable with this keyboard?",
+        "exampleChinese": "这个表单用鼠标能操作。用这把键盘也好用吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer checks whether a working form is also usable from the keyboard.",
+    "chinese": "程序员检查一个能工作的表单是否也能通过键盘顺畅使用。",
+    "source": "原创对话 · V025 从“能点”到“好用”",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

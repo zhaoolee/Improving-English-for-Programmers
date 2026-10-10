@@ -1,0 +1,246 @@
+{
+  "id": "W050",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "确认修改后可以合并",
+  "keyword": "merge",
+  "scene": "开发者确认修改后的变更已可以合并。",
+  "target_count": 4,
+  "primary_words": [
+    "merge",
+    "review",
+    "pass",
+    "mouse"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "merge",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "合并",
+      "pos": "verb",
+      "ipa_us": "/mɜːrdʒ/",
+      "ipa_uk": "/mɜːdʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Great. I'll use this mouse to merge the pull request.",
+        "matched_form": "merge",
+        "referent_region_verified": false,
+        "context": "“Great. I'll use this mouse to merge the pull request.”明确表达合并；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Great. I'll use this mouse to merge the pull request.",
+      "example_zh": "好。我用这个鼠标合并拉取请求。",
+      "bbox_normalized": null,
+      "collocations": [
+        "merge a pull request",
+        "merge a branch"
+      ],
+      "example_en_highlighted": "Great. I'll use this mouse to **merge** the pull request.",
+      "annotation_mode": "context",
+      "annotation_note": "“Great. I'll use this mouse to merge the pull request.”明确表达合并；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "review",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "评审",
+      "pos": "noun",
+      "ipa_us": "/rɪˈvjuː/",
+      "ipa_uk": "/rɪˈvjuː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes, and I've finished the review. The change looks good.",
+        "matched_form": "review",
+        "referent_region_verified": false,
+        "context": "“Yes, and I've finished the review. The change looks good.”明确表达评审；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Yes, and I've finished the review. The change looks good.",
+      "example_zh": "是的，而且我完成了评审。这次变更看起来没问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a code review",
+        "finish the review"
+      ],
+      "example_en_highlighted": "Yes, and I've finished the **review**. The change looks good.",
+      "annotation_mode": "context",
+      "annotation_note": "“Yes, and I've finished the review. The change looks good.”明确表达评审；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "pass",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "通过",
+      "pos": "verb",
+      "ipa_us": "/pæs/",
+      "ipa_uk": "/pɑːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Do the tests pass after my latest update?",
+        "matched_form": "pass",
+        "referent_region_verified": false,
+        "context": "“Do the tests pass after my latest update?”明确表达通过；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Do the tests pass after my latest update?",
+      "example_zh": "我最新一次更新后，测试都通过了吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "pass the tests",
+        "pass a test"
+      ],
+      "example_en_highlighted": "Do the tests **pass** after my latest update?",
+      "annotation_mode": "context",
+      "annotation_note": "“Do the tests pass after my latest update?”明确表达通过；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "mouse",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "鼠标",
+      "pos": "noun",
+      "ipa_us": "/maʊs/",
+      "ipa_uk": "/maʊs/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "鼠标（mouse）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Great. I'll use this mouse to merge the pull request.",
+        "matched_form": "mouse",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Great. I'll use this mouse to merge the pull request.",
+      "example_zh": "好。我用这个鼠标合并拉取请求。",
+      "bbox_normalized": [
+        0.452,
+        0.558,
+        0.563,
+        0.63
+      ],
+      "collocations": [
+        "use the mouse",
+        "a computer mouse"
+      ],
+      "example_en_highlighted": "Great. I'll use this **mouse** to merge the pull request.",
+      "annotation_mode": "object",
+      "annotation_note": "鼠标（mouse）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer confirms that a revised change is ready to merge.",
+    "zh": "开发者确认修改后的变更已可以合并。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer confirms that a revised change is ready to merge.",
+    "zh": "开发者确认修改后的变更已可以合并。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Do the tests pass after my latest update?",
+      "zh": "我最新一次更新后，测试都通过了吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes, and I've finished the review. The change looks good.",
+      "zh": "是的，而且我完成了评审。这次变更看起来没问题。"
+    },
+    {
+      "speaker": "A",
+      "en": "Great. I'll use this mouse to merge the pull request.",
+      "zh": "好。我用这个鼠标合并拉取请求。"
+    },
+    {
+      "speaker": "B",
+      "en": "Go ahead. Thanks for addressing the comments.",
+      "zh": "可以合并。谢谢你处理了评审意见。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "确认测试通过、评审完成并可合并。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a desk monitor showing a simple checkmark. One gestures positively; the other has a hand near a clearly separated computer mouse in the foreground. Whole mouse fully visible.",
+  "status": "approved",
+  "image_path": "images/W050.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W050 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W050.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:32:19.120Z",
+    "prompt_path": "prompts/W050_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W050.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：手掌下仍可辨认的鼠标本体，保留完整底部外轮廓。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

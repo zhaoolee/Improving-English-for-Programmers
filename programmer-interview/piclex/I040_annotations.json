@@ -1,0 +1,130 @@
+{
+  "filename": "I040.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "offer",
+      "chinese": "录用通知",
+      "phoneticUS": "/ˈɔːfər/",
+      "phoneticUK": "/ˈɒfə/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：offer。本卡例句：Thank you for the offer. May I review the written terms in this folder?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：offer。本卡例句：Thank you for the offer. May I review the written terms in this folder?",
+        "collocation": "a job offer; receive an offer",
+        "example": "A: Thank you for the offer. May I review the written terms in this folder?\nB: Of course. When can you let us know whether you accept?\nA: I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.\nB: That works. Please contact me if you have any questions.",
+        "exampleChinese": "A: 谢谢你们的录用通知。我可以审阅这个文件夹里的书面条款吗？\nB: 当然。你什么时候能告诉我们是否接受？\nA: 我会在周五前回复。如果我需要谢绝，我会及时告知，并感谢你们付出的时间。\nB: 可以。有任何问题请联系我。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "accept",
+      "chinese": "接受",
+      "phoneticUS": "/əkˈsept/",
+      "phoneticUK": "/əkˈsept/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：accept。本卡例句：Of course. When can you let us know whether you accept?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：accept。本卡例句：Of course. When can you let us know whether you accept?",
+        "collocation": "accept an offer; accept the terms",
+        "example": "Of course. When can you let us know whether you accept?",
+        "exampleChinese": "当然。你什么时候能告诉我们是否接受？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "decline",
+      "chinese": "谢绝",
+      "phoneticUS": "/dɪˈklaɪn/",
+      "phoneticUK": "/dɪˈklaɪn/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：decline。本卡例句：I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：decline。本卡例句：I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+        "collocation": "decline an offer; politely decline",
+        "example": "I'll respond by Friday. If I need to decline, I'll let you know promptly and thank you for your time.",
+        "exampleChinese": "我会在周五前回复。如果我需要谢绝，我会及时告知，并感谢你们付出的时间。"
+      }
+    },
+    {
+      "x": 265,
+      "y": 682,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 400,
+        "y": 855
+      },
+      "anchorPosition": {
+        "x": 265,
+        "y": 682
+      },
+      "boundingBox": {
+        "left": 0,
+        "top": 635,
+        "right": 520,
+        "bottom": 730
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持。",
+        "association": "候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持。",
+        "collocation": "a document folder; open a folder",
+        "example": "Thank you for the offer. May I review the written terms in this folder?",
+        "exampleChinese": "谢谢你们的录用通知。我可以审阅这个文件夹里的书面条款吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate discusses how to respond to an offer after reviewing the terms.",
+    "chinese": "审阅条款后，候选人讨论如何回复录用通知。",
+    "source": "原创配文 · I040 确认 Offer 或礼貌拒绝",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

@@ -1,0 +1,55 @@
+程序员面试（Programmer Interview English，2026-10-09）
+
+恢复入口：
+- README.md：8 类总览与全部 40 期（I001–I040）。
+- cards_plan.json：8 类 × 5 期共 40 张的计划状态与图像阶段状态。
+- workflow/visual-plan.json：48 条提示词（40 场景 + 8 可选封面）的完整来源，已加入电影感全局模块。
+- workflow/styles/instagram-interview-natural.txt：统一视觉风格与全局英文 prompt（含电影感模块）。
+- workflow/styles/cinematic-addendum.txt：用户艺术感电影感补充。
+- workflow/I001-I005_image-review.json、workflow/I001-I005_generation-journal.json：首批五张底图的选定来源、时间与 Codex 底图视觉审查。
+- workflow/I006-I010_image-review.json、workflow/I006-I010_generation-journal.json、workflow/I006-I010_timing.json：第二批五张底图的选定来源、时间与 Codex 底图视觉审查。
+- workflow/I006-I010-generated-prompts/：I006–I010 实际生图 prompt 快照。
+- workflow/I006-I010_before/、workflow/I006-I010_baseline.json：上一批更新前快照与受保护材料哈希。
+- workflow/I011-I015_image-review.json、workflow/I011-I015_generation-journal.json、workflow/I011-I015_timing.json：第三批（上一批）五张底图的选定来源、时间与 Codex 底图视觉审查。
+- workflow/I011-I015-generated-prompts/：I011–I015 实际生图 prompt 快照。
+- workflow/I011-I015_before/、workflow/I011-I015_baseline.json：上一批更新前快照与受保护材料哈希。
+- workflow/I016-I040_image-review.json、workflow/I016-I040_generation-journal.json、workflow/I016-I040_timing.json：第四批（本批）二十五张底图的选定来源、时间与 Codex 底图视觉审查。
+- workflow/I016-I040-generated-prompts/：I016–I040 实际生图 prompt 快照。
+- workflow/I016-I040_before/、workflow/I016-I040_baseline.json：本批更新前快照与受保护材料哈希。
+- workflow/I016-I040_files-ready.json：本批机械核对结果。
+- workflow/I016-I040_root-verification.json：Codex 最终文件核对、40 张图片绑定与本轮实际耗时；仅底图阶段。
+- images/README.md、images/I001.png–I040.png、images/initial/：四十张选定底图与首批对应初版。
+- workflow/prompt-history/20261009-before-cinematic/：加入电影感前的旧 prompt 快照（用于恢复初版实际调用提示词）。
+- workflow/I001-I005-cinematic-edit-prompts/：五张卡的电影感定向编辑 prompt。
+- prompts/README.md、prompts/all-prompts.md：48 条提示词索引与集中审阅。
+- workflow/paid-deck-20261010/：独立付费工作台草稿的恢复材料（创建回执、四批上传回执、封面/check/预览回执、照片映射、基线与文档恢复材料）。
+- workflow/paid-deck-20261010/root-verification.json：Codex 最终 CLI 回读与文件核对；付费草稿创建通过。
+- workflow/learning-40-20261010/：学习内容制作与导入材料（`authored-corrected.json`、`geometry-final.json`、`effective-photo-mapping.json`、`replacements.json`、`import-execute-report.json`、`after-learning-draft.json`、`image-before/`、`final-preview-contact/`、`preview-600/`、`preview-375/`、`preview-avoid.json`、`root-final-acceptance.json`）。
+- workflow/learning-40-20261010/root-image-replacement-verification.json：7 张定向换图核验 passed=true（revision 46→53，仅 7 assetID 变化）。
+- workflow/I001-I040_batch_content.json、workflow/I001-I040_review.json：40 卡内容与几何（ready=true）来源。
+- 后续完善学习内容时复用 mapping/photo-mapping.json 与 learning-40-20261010/effective-photo-mapping.json 中的既有 photoID/assetID，并读最新草稿核对；40 张底图已上传，不再次上传。
+
+当前状态：
+- 40 期均已制作并导入（status=approved）；40 个场景 prompt 与 8 个可选子专题封面 prompt 已准备（共 48 条），全部已加入艺术感电影感全局模块。
+- 图像阶段：I001–I040 共四十张场景底图已生成并完成 Codex 底图视觉审查，image_status=generated，remaining_images=0，无下一张待生成场景底图。其中 I001–I005 为初版生成 + 对应原图电影感定向编辑两步链；I006–I040 为内置 image_gen 依定稿电影感 prompt 各一次直接生成（I006–I010、I011–I015 为前几批，I016–I040 本批）；I003/I005/I007/I013/I017/I028/I038 七张按词条需求做过官方定向换图，旧图备份 `workflow/learning-40-20261010/image-before/`，其余 33 图与原 40 prompts 逐字节未变。
+- 学习内容：40 卡已完成并导入，共 **160 个词条、128 个不同词、40 个可见区域、120 个 context**；40 双语 quote；approved_cards=40、content_final_cards=40、learning_import_status=done、completed_images=40、generated_images=40、image_reviewed_images=40、remaining_images=0。
+- 最终布局修正：官方 layout apply 修正 8 卡 9 个 bubblePosition（I006/I008/I020/I021/I030/I032/I036/I037；I030 两处），revision 93→101；I018 仅修正 quote 中英，deck description 已更新；终稿 final-draft revision=103、final-check errors=[]、layout-protected-diff 非 bubble 差异 0。本地 40 卡与 final-draft 递归核对 **40/40 machine verified**；Root 已依据真实 600px 最终预览完成 9 张受影响卡视觉复查，`root-final-acceptance.json` `status=pass`。
+- 8 个可选子专题封面只有 prompt，未生成。
+- 已创建独立一次买断付费工作台草稿 deckID=`a7e08e87-33ff-44a1-a686-8275696dcc93`（不与另外三个专题混用），isFree=false，绑定 productID=`com.zhaoolee.piclex.deck.programmer_interview`；40 张底图已上传、coverID=I001。2026-10-10 已生成本机 **V1**（40 图/160 词，package SHA-256=`0bd53e81c917a9dc0e8688ea12842f23a7319a5ae29e8c0d1916286e18a7896a`，14044940 bytes），当前 releaseCount=1、publicationCount=0，**仍未公开发布、未开售**。App Store Connect 已创建对应非消耗型商品（Apple 商品 ID=`6821364832`），中国大陆基准价 **¥18**，175 个国家或地区可售，状态为“准备提交”；尚未添加以供审核、未获批准、未开售。商品记录见 `workflow/app-store-connect-product-20261010.json`，V1 与真机预览记录见 `workflow/developer-device-preview-20261010.json`。
+- 来源说明：40 张照片 rights 已统一填写“内置 image_gen 生成的虚构成年人物面试场景图；生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中”；仅说明生成来源，不等于法律版权资格核验。
+- 官方 check：最初 80 条（40 张缺版权／授权说明 + 40 张缺单词）；补齐来源说明后曾仅剩 40 条“每张至少需要一个单词”；完成 40 卡学习内容导入后（after-learning-draft revision=93），图片与内容检查已通过；终稿 final-draft revision=103、final-check errors=[]；最终 9 卡 Root 视觉复查已通过。
+- 下一张待生成场景底图：无（已全部完成）；学习内容（词条、对白、几何）已完成并导入，无下一整卡待制作。
+
+用户视觉偏好：
+- 多地区成年虚构演员（亚洲、欧洲、美国）轮换担任候选人和面试官；4:5 真实 Instagram 职场纪实，干净、低 AI 感、无底图文字。
+- 用户 2026-10-09 生成过程中追加艺术感、电影感：现代职场电影剧照方向，非居中构图、前中后景层次、真实窗侧光、克制负补光、柔和深阴影与受控高光、克制色彩、轻微 35mm 胶片颗粒，保留 4:5 无黑边。适用全部场景与封面。
+
+本轮范围：
+- 用户授权在既有独立付费草稿上完成 40 卡学习内容，并于 2026-10-10 明确授权在 App Store Connect 创建商品、采用首发 ¥18；同日又明确要求把商品刷到真机测试。Root 语义/视觉/裁剪审查 `ready=true`；7 张按词条需求官方定向换图；机械展开内容与几何 → prepare-batch 写 cards/annotations/jobs → run-learning-imports 串行官方导入；生成真实工作台 preview 联系表与 preview-avoid；Apple 非消耗型商品已创建并保存；工作台 V1 已生成。PicLex 1.0.13(229) 的临时开发者预览 Release 包已用原 Bundle ID 原位覆盖安装并启动，未卸载、未重置、未启动模拟器。该预览不发起 StoreKit 交易、不扣款，只验证商品展示、本地安装与卡组内容；卡组未公开发布、商品未添加以供审核、未开售，真实购买/恢复购买/授权下载仍未验收。
+- I001–I040 四十张底图为草稿照片（40 学习词条已写入），rights 来源说明已填；8 张可选封面仍只有 prompt。
+
+后续制作顺序：
+1. 40 张场景底图已全部完成审查与保存，无下一张待生成场景底图；后续“再生成”不再续做场景底图，8 张可选封面只有 prompt、未生成。
+2. 学习词条与对白已完成并导入（A 候选人/学习者，B 面试官/招聘方，角色说明独立保留）；后续如需调整按新的具体任务执行。
+3. 人物一致性需后续以选定人物参考图确认；目前未验收。
+4. Root 已依据 `preview-600` 实际 PNG 完成最终视觉验收；Apple 商品已创建并设中国大陆基准价 ¥18；V1 已生成并通过无扣款开发者真机预览安装到 PicLex 1.0.13(229)。用户可在“设置 → 数据管理 → 照片卡组 → 官方卡组”找到“程序员面试卡组”，点“安装开发者预览 · ¥18.00”测试。卡组公开发布、商品“添加以供审核”、随新 App 版本提交、获批开售及真实购买/恢复购买/授权下载仍须按当前授权和真实外部状态分别推进。

@@ -1,0 +1,15 @@
+{
+  "cardID": "V036",
+  "imagePath": "../images/V036.png",
+  "imageSHA256": "21e2d5bfd6f37265b3688d19bcdbd0fcceebbc7c8fd5c01d70fc0b90b1cd3e8d",
+  "imageReviewed": true,
+  "annotationsPath": "V036_annotations.json",
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "expectedWords": [
+    "deploy",
+    "release",
+    "backup",
+    "roll back"
+  ],
+  "receiptPath": "V036_import_receipt.json"
+}

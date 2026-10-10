@@ -1,0 +1,123 @@
+I023  为什么使用缓存？
+========================================================================
+分类: 系统设计与技术取舍（system_design）
+关键词: cache
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I023.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I023.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I023.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T14:33:54Z → 2026-10-09T14:54:43Z
+  提示词文件: prompts/I023_image_final.txt
+
+场景: 欧洲女候选人比较缓存路径与回源路径，亚洲女面试官询问何时适合使用缓存。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 站立候选人讲解短分支与较长分支图，坐着的面试官专注倾听；图形完整，两位女性的面部、手部和动作自然，窗侧光与留白干净。笔记本背面只有小型通用椭圆装饰；不将白板草图认作已验证的缓存方案 实际可见物件：白板上的两条无字分支路径；cache概念与降低延迟是对白解释，不是图片测量。
+
+沟通目标: 先确认需求与规模，再说明设计、替代方案和取舍。本卡主题：为什么使用缓存？。
+
+主配文（一句场景描述）:
+  英文: A candidate compares a cached read with a longer database path.
+  中文: 候选人比较缓存读取与较长的数据库访问路径。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] A cache could reduce read latency for frequently requested data.
+        缓存可以降低频繁请求数据的读取延迟。
+  [B] How would you invalidate an outdated entry?
+        你会如何让过时的缓存条目失效？
+  [A] I'd choose an expiry policy and handle updates. I'll sketch the paths on the whiteboard.
+        我会选择过期策略，并处理数据更新。我会在白板上画出这些路径。
+  [B] What happens when the cache is unavailable?
+        如果缓存不可用，会发生什么？
+
+目标词 (4): cache, latency, invalidate, whiteboard
+
+------------------------------------------------------------------------
+[1/4] cache
+  词义: 缓存
+  词性: noun
+  音标: UK /kæʃ/ | US /kæʃ/
+  搭配: a cache entry; read from the cache
+  例句: A cache could reduce read latency for frequently requested data.
+  例句高亮: A **cache** could reduce read latency for frequently requested data.
+  例句中文: 缓存可以降低频繁请求数据的读取延迟。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：cache。本卡例句：A cache could reduce read latency for frequently requested data.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] latency
+  词义: 延迟
+  词性: noun
+  音标: UK /ˈleɪtənsi/ | US /ˈleɪtənsi/
+  搭配: read latency; reduce latency
+  例句: A cache could reduce read latency for frequently requested data.
+  例句高亮: A cache could reduce read **latency** for frequently requested data.
+  例句中文: 缓存可以降低频繁请求数据的读取延迟。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：latency。本卡例句：A cache could reduce read latency for frequently requested data.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] invalidate
+  词义: 使失效
+  词性: verb
+  音标: UK /ɪnˈvælɪdeɪt/ | US /ɪnˈvælɪdeɪt/
+  搭配: invalidate a cache entry; invalidate outdated data
+  例句: How would you invalidate an outdated entry?
+  例句高亮: How would you **invalidate** an outdated entry?
+  例句中文: 你会如何让过时的缓存条目失效？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：invalidate。本卡例句：How would you invalidate an outdated entry?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] whiteboard
+  词义: 白板
+  词性: noun
+  音标: UK /ˈwaɪtbɔːd/ | US /ˈwaɪtbɔːrd/
+  搭配: sketch on a whiteboard; use the whiteboard
+  例句: I'd choose an expiry policy and handle updates. I'll sketch the paths on the whiteboard.
+  例句高亮: I'd choose an expiry policy and handle updates. I'll sketch the paths on the **whiteboard**.
+  例句中文: 我会选择过期策略，并处理数据更新。我会在白板上画出这些路径。
+  标注模式: object
+  标注说明: 白板上的两条无字分支路径；cache概念与降低延迟是对白解释，不是图片测量。
+  坐标(normalized): [0.267, 0.185, 0.836, 0.576]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I023 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.
+Interviewer or recruiter: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.
+Exactly two people discussing a cache decision during a system-design interview. Sofia, in a navy knit top, shows Hana, in a cream blazer, a sparse whiteboard diagram: one short branch through a small rounded box and a second, longer branch through two simple boxes. The drawing is unlabeled. Sofia holds her marker away from her face and explains the trade-off, while Hana listens with a pen beside an open notebook. A 35mm medium environmental view includes both people and the small board. Diffuse morning light, pale-oak table and natural clothing folds. No glowing speed effects, stopwatch graphics or suggestion that caching always guarantees a better outcome.

@@ -1,0 +1,130 @@
+{
+  "filename": "V029-最小改动定位根因.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "isolate",
+      "chinese": "隔离",
+      "phoneticUS": "/ˈaɪsəleɪt/",
+      "phoneticUK": "/ˈaɪsəleɪt/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指控制变量并缩小问题范围，不把物体分开放置等同于完成隔离。",
+        "association": "这里指控制变量并缩小问题范围，不把物体分开放置等同于完成隔离。",
+        "collocation": "isolate a failure; isolate one variable",
+        "example": "A: Change one condition at a time so we can isolate the failure.\nB: Then we can find the root cause without a broad patch.\nA: Use this cable as the only variable in the hardware test.\nB: I'll keep the patch minimal and compare the result.",
+        "exampleChinese": "A: 一次只改变一个条件，这样我们才能隔离故障。\nB: 这样无需大范围补丁也能找到根因。\nA: 在硬件测试中，只把这根线缆作为变量。\nB: 我会保持补丁最小，并比较结果。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "cause",
+      "chinese": "原因",
+      "phoneticUS": "/kɔːz/",
+      "phoneticUK": "/kɔːz/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "根因需要实验与证据，静态线缆不能证明故障来源。",
+        "association": "根因需要实验与证据，静态线缆不能证明故障来源。",
+        "collocation": "root cause; find the cause",
+        "example": "Then we can find the root cause without a broad patch.",
+        "exampleChinese": "这样无需大范围补丁也能找到根因。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "patch",
+      "chinese": "补丁",
+      "phoneticUS": "/pætʃ/",
+      "phoneticUK": "/pætʃ/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指软件代码补丁，不能框选实体贴片或设备。",
+        "association": "这里指软件代码补丁，不能框选实体贴片或设备。",
+        "collocation": "a minimal patch; apply a patch",
+        "example": "I'll keep the patch minimal and compare the result.",
+        "exampleChinese": "我会保持补丁最小，并比较结果。"
+      }
+    },
+    {
+      "x": 490,
+      "y": 563,
+      "english": "cable",
+      "chinese": "线缆",
+      "phoneticUS": "/ˈkeɪbəl/",
+      "phoneticUK": "/ˈkeɪbəl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 563
+      },
+      "boundingBox": {
+        "left": 364,
+        "top": 542,
+        "right": 577,
+        "bottom": 614
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中央完整可见、两端清楚的单根线缆是直接指代。",
+        "association": "中央完整可见、两端清楚的单根线缆是直接指代。",
+        "collocation": "this cable; connect a cable",
+        "example": "Use this cable as the only variable in the hardware test.",
+        "exampleChinese": "在硬件测试中，只把这根线缆作为变量。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer changes one variable at a time to isolate the root cause of a failure.",
+    "chinese": "程序员一次只改变一个变量，以定位故障根因。",
+    "source": "原创对话 · V029 最小改动定位根因",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

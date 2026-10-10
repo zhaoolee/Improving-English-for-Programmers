@@ -1,0 +1,246 @@
+{
+  "id": "V001",
+  "category": "pairing",
+  "category_title": "和 AI 结对入门",
+  "chapter": "和 AI 结对入门",
+  "title": "你写代码，那我干什么？",
+  "keyword": "delegate",
+  "scene": "程序员与 AI 确认谁写代码、谁审查结果。",
+  "target_count": 4,
+  "primary_words": [
+    "delegate",
+    "decision",
+    "review",
+    "laptop"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "delegate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "委派",
+      "pos": "verb",
+      "ipa_us": "/ˈdelɪɡeɪt/",
+      "ipa_uk": "/ˈdelɪɡeɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "If I delegate the coding to you, what should I do?",
+        "matched_form": "delegate",
+        "referent_region_verified": false,
+        "context": "委派行为由对白明确说明，人物手势不能证明已委派。",
+        "image_verified": null
+      },
+      "example_en": "If I delegate the coding to you, what should I do?",
+      "example_zh": "如果我把编码委派给你，我应该做什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "delegate a task",
+        "delegate coding"
+      ],
+      "example_en_highlighted": "If I **delegate** the coding to you, what should I do?",
+      "annotation_mode": "context",
+      "annotation_note": "委派行为由对白明确说明，人物手势不能证明已委派。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "decision",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "决定",
+      "pos": "noun",
+      "ipa_us": "/dɪˈsɪʒən/",
+      "ipa_uk": "/dɪˈsɪʒən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You make each decision and review the changes.",
+        "matched_form": "decision",
+        "referent_region_verified": false,
+        "context": "决定是对话中的责任分工，无局部可见指代。",
+        "image_verified": null
+      },
+      "example_en": "You make each decision and review the changes.",
+      "example_zh": "你负责作出各项决定，并审查改动。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make a decision",
+        "a design decision"
+      ],
+      "example_en_highlighted": "You make each **decision** and review the changes.",
+      "annotation_mode": "context",
+      "annotation_note": "决定是对话中的责任分工，无局部可见指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "review",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "审查",
+      "pos": "verb",
+      "ipa_us": "/rɪˈvjuː/",
+      "ipa_uk": "/rɪˈvjuː/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You make each decision and review the changes.",
+        "matched_form": "review",
+        "referent_region_verified": false,
+        "context": "审查的完成与质量不能从静态电脑画面证明。",
+        "image_verified": null
+      },
+      "example_en": "You make each decision and review the changes.",
+      "example_zh": "你负责作出各项决定，并审查改动。",
+      "bbox_normalized": null,
+      "collocations": [
+        "review the changes",
+        "review code"
+      ],
+      "example_en_highlighted": "You make each decision and **review** the changes.",
+      "annotation_mode": "context",
+      "annotation_note": "审查的完成与质量不能从静态电脑画面证明。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "场景中的完整笔记本电脑是 laptop 的可定位指代对象。",
+        "sentence": "So I still need to check the result on my laptop?",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "So I still need to check the result on my laptop?",
+      "example_zh": "所以我仍然需要在笔记本电脑上检查结果？",
+      "bbox_normalized": [
+        0.375,
+        0.415,
+        0.71,
+        0.62
+      ],
+      "collocations": [
+        "on my laptop",
+        "a work laptop"
+      ],
+      "example_en_highlighted": "So I still need to check the result on my **laptop**?",
+      "annotation_mode": "object",
+      "annotation_note": "场景中的完整笔记本电脑是 laptop 的可定位指代对象。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer and an AI assistant agree on who writes code and who reviews the result.",
+    "zh": "程序员与 AI 确认谁写代码、谁审查结果。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer and an AI assistant agree on who writes code and who reviews the result.",
+    "zh": "程序员与 AI 确认谁写代码、谁审查结果。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "If I delegate the coding to you, what should I do?",
+      "zh": "如果我把编码委派给你，我应该做什么？"
+    },
+    {
+      "speaker": "B",
+      "en": "You make each decision and review the changes.",
+      "zh": "你负责作出各项决定，并审查改动。"
+    },
+    {
+      "speaker": "A",
+      "en": "So I still need to check the result on my laptop?",
+      "zh": "所以我仍然需要在笔记本电脑上检查结果？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. I can suggest code; you decide what to accept.",
+      "zh": "是的。我可以建议代码，由你决定接受哪些改动。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "明确 AI 执行与人类判断的分工。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands on the left, one palm open in a questioning conversation gesture toward the OpenAI logo floating at upper right. A simple open laptop sits fully visible on a small desk between them. Its screen has only three short abstract code-like white strokes, no readable characters. Keep the laptop large enough for a clear local learning crop.",
+  "status": "approved",
+  "image_path": "images/V001.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V001 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V001.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-06T06:57:40.149Z",
+    "ended_at": "2026-10-06T06:58:01.357Z",
+    "prompt_path": "prompts/V001_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V001.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。"
+  }
+}

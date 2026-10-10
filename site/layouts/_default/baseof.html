@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f4efe4">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ $style := resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ "" | relURL }}" aria-label="返回首页">
+      <span class="brand__mark" aria-hidden="true">Aa</span>
+      <span><strong>程序员英语学习</strong><small>English for Programmers</small></span>
+    </a>
+    <nav class="site-nav" aria-label="系列导航">
+      <a href="{{ "basic-english-850/" | relURL }}">基础 850</a>
+      <a href="{{ "programmer-work-english/" | relURL }}">工作英语</a>
+      <a href="{{ "programmer-interview/" | relURL }}">面试英语</a>
+      <a href="{{ "programmer-vibe-coding/" | relURL }}">Vibe Coding</a>
+      <a class="nav-github" href="{{ site.Params.repository }}">GitHub ↗</a>
+    </nav>
+  </header>
+  <main>{{ block "main" . }}{{ end }}</main>
+  <footer class="site-footer">
+    <p>用场景理解单词，用对话练习表达。</p>
+    <p><a href="{{ site.Params.repository }}">GitHub 仓库</a> · <a href="https://apps.apple.com/cn/app/id6808490052">摄影学英语 App</a></p>
+  </footer>
+  {{ $script := resources.Get "js/site.js" | minify | fingerprint }}
+  <script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+</body>
+</html>

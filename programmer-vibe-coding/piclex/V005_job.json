@@ -1,0 +1,15 @@
+{
+  "cardID": "V005",
+  "imagePath": "../images/V005.png",
+  "imageSHA256": "7c6c327753d6bc53db84741d7d950949e70e9905bbe8282179449e2a7edb7071",
+  "imageReviewed": true,
+  "annotationsPath": "V005_annotations.json",
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "expectedWords": [
+    "permission",
+    "delete",
+    "confirm",
+    "folder"
+  ],
+  "receiptPath": "V005_import_receipt.json"
+}

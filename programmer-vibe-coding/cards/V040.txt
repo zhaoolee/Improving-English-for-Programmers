@@ -1,0 +1,119 @@
+V040  从一次成功到可重复交付
+========================================================================
+分类: 从能跑到交付（delivery）
+关键词: repeatable
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V040.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V040.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V040.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V040_image_final.txt
+
+场景: 使用 Git、发布、回滚与反馈完成交付
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。大型四步骤空白流程模板边界完整，无文字、数字或额外图标；可重复、自动化和流程含义来自对白。
+
+沟通目标: 固定稳定步骤、人工检查与恢复入口，使他人也能重复执行。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to turn one successful release into a repeatable delivery process.
+  中文: 程序员让 AI 把一次成功发布变成可重复的交付流程。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] The release worked once. How do we make the delivery repeatable?
+        这次发布成功了。怎样让交付过程可以重复？
+  [B] Automate the stable steps and write a procedure for the manual checks.
+        把稳定步骤自动化，并为人工检查写一份流程。
+  [A] Put the sequence in this template so another person can follow it.
+        把步骤顺序写进这个模板，让其他人也能照着执行。
+  [B] Then we'll run the procedure again from a clean environment.
+        然后我们会在干净环境中再次执行这套流程。
+
+目标词 (4): repeatable, automate, procedure, template
+
+------------------------------------------------------------------------
+[1/4] repeatable
+  词义: 可重复的
+  词性: adjective
+  音标: UK /rɪˈpiːtəbəl/ | US /rɪˈpiːtəbəl/
+  搭配: a repeatable process; make delivery repeatable
+  例句: The release worked once. How do we make the delivery repeatable?
+  例句高亮: The release worked once. How do we make the delivery **repeatable**?
+  例句中文: 这次发布成功了。怎样让交付过程可以重复？
+  标注模式: context
+  标注说明: 可重复性需要多次独立执行验证，单张模板不能证明。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] automate
+  词义: 自动化
+  词性: verb
+  音标: UK /ˈɔːtəmeɪt/ | US /ˈɔːtəmeɪt/
+  搭配: automate a step; automate delivery
+  例句: Automate the stable steps and write a procedure for the manual checks.
+  例句高亮: **Automate** the stable steps and write a procedure for the manual checks.
+  例句中文: 把稳定步骤自动化，并为人工检查写一份流程。
+  标注模式: context
+  标注说明: 自动化是执行方式，画面没有运行中的工具或结果。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] procedure
+  词义: 流程
+  词性: noun
+  音标: UK /prəˈsiːdʒə/ | US /prəˈsiːdʒər/
+  搭配: write a procedure; follow the procedure
+  例句: Automate the stable steps and write a procedure for the manual checks.
+  例句高亮: Automate the stable steps and write a **procedure** for the manual checks.
+  例句中文: 把稳定步骤自动化，并为人工检查写一份流程。
+  标注模式: context
+  标注说明: 流程由有序步骤构成，模板中的无字框只提供记录语境。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] template
+  词义: 模板
+  词性: noun
+  音标: UK /ˈtempleɪt/ | US /ˈtempleɪt/
+  搭配: use this template; a delivery template
+  例句: Put the sequence in this template so another person can follow it.
+  例句高亮: Put the sequence in this **template** so another person can follow it.
+  例句中文: 把步骤顺序写进这个模板，让其他人也能照着执行。
+  标注模式: object
+  标注说明: 手中完整可见、带空白步骤框的模板纸是直接指代，只框整张纸。
+  坐标(normalized): [0.312, 0.206, 0.664, 0.751]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V040 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left holding one large reusable template sheet upright at center. The complete sheet has a bold outer border, four evenly spaced empty rounded rectangles connected vertically by plain lines, with no letters, numbers, arrows or check marks. The hand grips only the edge. The floating white OpenAI knot is at the right. No computers or extra sheets.

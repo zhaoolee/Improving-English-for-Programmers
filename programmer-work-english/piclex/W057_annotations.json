@@ -1,0 +1,130 @@
+{
+  "filename": "W057-缩小问题影响范围.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "isolate",
+      "chinese": "隔离定位",
+      "phoneticUS": "/ˈaɪsəleɪt/",
+      "phoneticUK": "/ˈaɪsəleɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Can we isolate the affected users?”明确表达隔离定位；单幅画面不能独立证明，不设局部框。",
+        "association": "“Can we isolate the affected users?”明确表达隔离定位；单幅画面不能独立证明，不设局部框。",
+        "collocation": "isolate the problem; isolate users",
+        "example": "A: Can we isolate the affected users?\nB: So far, only new accounts in one region have reported it.\nA: Let's mark that group on the board and check older accounts.\nB: Good idea. That will help us narrow down the cause.",
+        "exampleChinese": "A: 我们能定位出受影响的用户吗？\nB: 目前只有一个区域的新账户报告了这个问题。\nA: 我们在白板上标记这个群体，再检查旧账户。\nB: 好主意。这能帮助我们缩小原因范围。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "affected",
+      "chinese": "受影响的",
+      "phoneticUS": "/əˈfektɪd/",
+      "phoneticUK": "/əˈfektɪd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Can we isolate the affected users?”明确表达受影响的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Can we isolate the affected users?”明确表达受影响的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "affected users; be affected",
+        "example": "Can we isolate the affected users?",
+        "exampleChinese": "我们能定位出受影响的用户吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "region",
+      "chinese": "区域",
+      "phoneticUS": "/ˈriːdʒən/",
+      "phoneticUK": "/ˈriːdʒən/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“So far, only new accounts in one region have reported it.”明确表达区域；单幅画面不能独立证明，不设局部框。",
+        "association": "“So far, only new accounts in one region have reported it.”明确表达区域；单幅画面不能独立证明，不设局部框。",
+        "collocation": "in one region; a region of users",
+        "example": "So far, only new accounts in one region have reported it.",
+        "exampleChinese": "目前只有一个区域的新账户报告了这个问题。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 561,
+      "english": "board",
+      "chinese": "白板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 561
+      },
+      "boundingBox": {
+        "left": 323,
+        "top": 217,
+        "right": 719,
+        "bottom": 768
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "update the board; a task board",
+        "example": "Let's mark that group on the board and check older accounts.",
+        "exampleChinese": "我们在白板上标记这个群体，再检查旧账户。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers narrow down which users are affected by a bug.",
+    "chinese": "两位开发者缩小缺陷所影响的用户范围。",
+    "source": "原创对话 · W057 缩小问题影响范围",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

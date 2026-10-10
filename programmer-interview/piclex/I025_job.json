@@ -1,0 +1,21 @@
+{
+  "cardID": "I025",
+  "imagePath": "../images/I025.png",
+  "imageSHA256": "27ea4b5af43b6ba2d4634a83ddc01652161ca6ec8c792f50a046f29957dbbbd5",
+  "imageReviewed": true,
+  "annotationsPath": "I025_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "trade-off",
+    "reliability",
+    "cost",
+    "diagram"
+  ],
+  "receiptPath": "I025_learning_import_receipt.json",
+  "photoID": "a3c825ca-b3f1-4aa6-bd2b-e5cad2cd87be",
+  "expectedAssetID": "30e201c3de7c1d91db3b47a91071cd2724ab15b69f62f7b87b988593ed672c39",
+  "expectedImageFilename": "I025.png",
+  "expectedSourceSHA256": "27ea4b5af43b6ba2d4634a83ddc01652161ca6ec8c792f50a046f29957dbbbd5",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

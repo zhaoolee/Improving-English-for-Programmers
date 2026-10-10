@@ -1,0 +1,119 @@
+V034  让 AI 解释安全与性能取舍
+========================================================================
+分类: 测试与代码审查（quality）
+关键词: trade-off
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V034.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V034.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V034.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V034_image_final.txt
+
+场景: 按验收标准验证结果、检查边界与风险
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。中央天平底座、横梁与双盘完整无遮挡；trade-off、security、performance 不因天平隐喻而伪装成局部物件。
+
+沟通目标: 把收益、代价与适用条件说清楚，再由人作决定。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to explain a security and performance trade-off.
+  中文: 程序员让 AI 解释安全与性能之间的取舍。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Explain the trade-off between security and performance.
+        解释一下安全性与性能之间的取舍。
+  [B] Stronger checks improve security but add work to every request.
+        更严格的检查会提升安全性，但也会增加每个请求的处理工作。
+  [A] Use this balance scale to compare both costs clearly.
+        用这架天平把两边的代价比较清楚。
+  [B] I'll describe the performance cost and when the security benefit matters.
+        我会说明性能代价，以及安全收益在什么情况下重要。
+
+目标词 (4): trade-off, security, performance, scale
+
+------------------------------------------------------------------------
+[1/4] trade-off
+  词义: 取舍
+  词性: noun
+  音标: UK /ˈtreɪd ɒf/ | US /ˈtreɪd ɔːf/
+  搭配: explain a trade-off; a security trade-off
+  例句: Explain the trade-off between security and performance.
+  例句高亮: Explain the **trade-off** between security and performance.
+  例句中文: 解释一下安全性与性能之间的取舍。
+  标注模式: context
+  标注说明: 取舍是两个目标间的决策关系，天平只作情境道具。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] security
+  词义: 安全性
+  词性: noun
+  音标: UK /sɪˈkjʊərəti/ | US /sɪˈkjʊrəti/
+  搭配: improve security; security checks
+  例句: Stronger checks improve security but add work to every request.
+  例句高亮: Stronger checks improve **security** but add work to every request.
+  例句中文: 更严格的检查会提升安全性，但也会增加每个请求的处理工作。
+  标注模式: context
+  标注说明: 软件安全性来自机制与验证，不能从天平外观判断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] performance
+  词义: 性能
+  词性: noun
+  音标: UK /pəˈfɔːməns/ | US /pərˈfɔːrməns/
+  搭配: performance cost; improve performance
+  例句: Explain the trade-off between security and performance.
+  例句高亮: Explain the trade-off between security and **performance**.
+  例句中文: 解释一下安全性与性能之间的取舍。
+  标注模式: context
+  标注说明: 性能需要测量运行行为，静态插画没有测速证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] scale
+  词义: 天平
+  词性: noun
+  音标: UK /skeɪl/ | US /skeɪl/
+  搭配: a balance scale; both pans of the scale
+  例句: Use this balance scale to compare both costs clearly.
+  例句高亮: Use this balance **scale** to compare both costs clearly.
+  例句中文: 用这架天平把两边的代价比较清楚。
+  标注模式: object
+  标注说明: 中央完整可见的传统双盘天平是直接指代，只框整架天平。
+  坐标(normalized): [0.316, 0.301, 0.721, 0.606]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V034 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left beside one large classic balance scale centered on a low table. The full base, central post, beam and two empty round pans are complete and symmetrical, with no labels, shield icons, arrows or weights. The programmer gestures toward both pans without touching them. The floating white OpenAI knot is at the right. No screens or extra props.

@@ -1,0 +1,130 @@
+{
+  "filename": "W070-进行无责事故复盘.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "blameless",
+      "chinese": "无责的",
+      "phoneticUS": "/ˈbleɪmləs/",
+      "phoneticUK": "/ˈbleɪmləs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let's keep this review blameless and focus on what happened.”明确表达无责的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let's keep this review blameless and focus on what happened.”明确表达无责的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a blameless review; a blameless process",
+        "example": "A: Let's keep this review blameless and focus on what happened.\nB: Agreed. Several conditions seemed to contribute to the outage.\nA: Let's map them on the board. How can we prevent a repeat?\nB: Add a safer rollout check and improve the alert threshold.",
+        "exampleChinese": "A: 这次复盘保持无责，专注于实际发生了什么。\nB: 同意。看来有多个条件促成了这次故障。\nA: 我们把它们画在白板上。怎样预防再次发生？\nB: 增加更稳妥的发布检查，并改进告警阈值。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "contribute",
+      "chinese": "促成",
+      "phoneticUS": "/kənˈtrɪbjuːt/",
+      "phoneticUK": "/kənˈtrɪbjuːt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Agreed. Several conditions seemed to contribute to the outage.”明确表达促成；单幅画面不能独立证明，不设局部框。",
+        "association": "“Agreed. Several conditions seemed to contribute to the outage.”明确表达促成；单幅画面不能独立证明，不设局部框。",
+        "collocation": "contribute to an outage; contribute to a problem",
+        "example": "Agreed. Several conditions seemed to contribute to the outage.",
+        "exampleChinese": "同意。看来有多个条件促成了这次故障。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "prevent",
+      "chinese": "预防",
+      "phoneticUS": "/prɪˈvent/",
+      "phoneticUK": "/prɪˈvent/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let's map them on the board. How can we prevent a repeat?”明确表达预防；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let's map them on the board. How can we prevent a repeat?”明确表达预防；单幅画面不能独立证明，不设局部框。",
+        "collocation": "prevent a repeat; prevent an issue",
+        "example": "Let's map them on the board. How can we prevent a repeat?",
+        "exampleChinese": "我们把它们画在白板上。怎样预防再次发生？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 582,
+      "english": "board",
+      "chinese": "白板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 582
+      },
+      "boundingBox": {
+        "left": 304,
+        "top": 225,
+        "right": 735,
+        "bottom": 750
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "update the board; a task board",
+        "example": "Let's map them on the board. How can we prevent a repeat?",
+        "exampleChinese": "我们把它们画在白板上。怎样预防再次发生？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A team reviews an incident without blame and identifies improvements.",
+    "chinese": "团队进行无责事故复盘，并寻找改进措施。",
+    "source": "原创对话 · W070 进行无责事故复盘",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

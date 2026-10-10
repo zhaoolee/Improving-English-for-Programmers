@@ -1,0 +1,344 @@
+{
+  "ready": true,
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "reviewedAt": "2026-10-06T07:01:31.685Z",
+  "reviewer": "Codex visual review",
+  "cards": {
+    "V001": {
+      "sourcePath": "programmer-vibe-coding/images/V001.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T06:58:01.357Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "delegate": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "decision": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "review": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            730,
+            860
+          ],
+          "box": [
+            375,
+            415,
+            710,
+            620
+          ],
+          "anchor": [
+            545,
+            522
+          ]
+        }
+      }
+    },
+    "V006": {
+      "sourcePath": "programmer-vibe-coding/images/V006.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T06:58:45.215Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "scope": {
+          "bubble": [
+            190,
+            95
+          ]
+        },
+        "requirement": {
+          "bubble": [
+            700,
+            95
+          ]
+        },
+        "constraint": {
+          "bubble": [
+            460,
+            200
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            720,
+            860
+          ],
+          "box": [
+            280,
+            465,
+            725,
+            655
+          ],
+          "anchor": [
+            490,
+            554
+          ]
+        }
+      }
+    },
+    "V011": {
+      "sourcePath": "programmer-vibe-coding/images/V011.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T06:58:24.880Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "context": {
+          "bubble": [
+            180,
+            95
+          ]
+        },
+        "rule": {
+          "bubble": [
+            470,
+            95
+          ]
+        },
+        "document": {
+          "bubble": [
+            540,
+            230
+          ],
+          "box": [
+            410,
+            322,
+            607,
+            503
+          ],
+          "anchor": [
+            501,
+            415
+          ]
+        },
+        "folder": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            395,
+            430,
+            716,
+            629
+          ],
+          "anchor": [
+            550,
+            535
+          ]
+        }
+      }
+    },
+    "V016": {
+      "sourcePath": "programmer-vibe-coding/images/V016.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T06:59:07.208Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "task": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "plan": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "step": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "board": {
+          "bubble": [
+            780,
+            860
+          ],
+          "box": [
+            270,
+            282,
+            841,
+            772
+          ],
+          "anchor": [
+            549,
+            470
+          ]
+        }
+      }
+    },
+    "V021": {
+      "sourcePath": "programmer-vibe-coding/images/V021.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T06:59:31.895Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "usability": {
+          "bubble": [
+            220,
+            95
+          ]
+        },
+        "layout": {
+          "bubble": [
+            730,
+            95
+          ]
+        },
+        "feedback": {
+          "bubble": [
+            470,
+            205
+          ]
+        },
+        "phone": {
+          "bubble": [
+            750,
+            860
+          ],
+          "box": [
+            444,
+            252,
+            690,
+            620
+          ],
+          "anchor": [
+            552,
+            435
+          ]
+        }
+      }
+    },
+    "V026": {
+      "sourcePath": "programmer-vibe-coding/images/V026.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T06:59:57.161Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "reproduce": {
+          "bubble": [
+            190,
+            95
+          ]
+        },
+        "log": {
+          "bubble": [
+            520,
+            95
+          ]
+        },
+        "cause": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "screen": {
+          "bubble": [
+            730,
+            860
+          ],
+          "box": [
+            315,
+            341,
+            686,
+            572
+          ],
+          "anchor": [
+            490,
+            445
+          ]
+        }
+      }
+    },
+    "V031": {
+      "sourcePath": "programmer-vibe-coding/images/V031.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T07:00:19.670Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "verify": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "test": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "evidence": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "checklist": {
+          "bubble": [
+            660,
+            860
+          ],
+          "box": [
+            333,
+            277,
+            629,
+            697
+          ],
+          "anchor": [
+            468,
+            490
+          ]
+        }
+      }
+    },
+    "V036": {
+      "sourcePath": "programmer-vibe-coding/images/V036.png",
+      "generationStartedAt": "2026-10-06T06:57:40.149Z",
+      "generationEndedAt": "2026-10-06T07:00:37.922Z",
+      "imageReview": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。",
+      "geometry": {
+        "deploy": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "release": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "backup": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "roll back": {
+          "bubble": [
+            540,
+            860
+          ]
+        }
+      }
+    }
+  }
+}

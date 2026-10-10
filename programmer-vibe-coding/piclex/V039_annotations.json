@@ -1,0 +1,130 @@
+{
+  "filename": "V039-第一位用户说不好用怎么办？.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "feedback",
+      "chinese": "反馈",
+      "phoneticUS": "/ˈfiːdbæk/",
+      "phoneticUK": "/ˈfiːdbæk/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "反馈内容来自用户表达，耳麦只能提供沟通语境。",
+        "association": "反馈内容来自用户表达，耳麦只能提供沟通语境。",
+        "collocation": "user feedback; handle feedback",
+        "example": "A: Our first user says the flow feels awkward. How should we handle the feedback?\nB: Ask what they tried and observe where they hesitate.\nA: I'll use this headset to clarify the problem without defending the design.\nB: Then we'll change the smallest part that blocks them.",
+        "exampleChinese": "A: 第一位用户说流程很别扭。我们该如何处理这条反馈？\nB: 问清他们尝试了什么，并观察他们在哪里犹豫。\nA: 我会用这个耳麦澄清问题，而不是急着为设计辩护。\nB: 然后我们只改真正阻碍他们的最小部分。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "observe",
+      "chinese": "观察",
+      "phoneticUS": "/əbˈzɜːrv/",
+      "phoneticUK": "/əbˈzɜːv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "观察是研究动作，静态画面不能证明已经收集结果。",
+        "association": "观察是研究动作，静态画面不能证明已经收集结果。",
+        "collocation": "observe a user; observe behavior",
+        "example": "Ask what they tried and observe where they hesitate.",
+        "exampleChinese": "问清他们尝试了什么，并观察他们在哪里犹豫。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "clarify",
+      "chinese": "澄清",
+      "phoneticUS": "/ˈklerəfaɪ/",
+      "phoneticUK": "/ˈklærəfaɪ/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "澄清是沟通过程，不能从持有耳麦推断已经完成。",
+        "association": "澄清是沟通过程，不能从持有耳麦推断已经完成。",
+        "collocation": "clarify the problem; clarify feedback",
+        "example": "I'll use this headset to clarify the problem without defending the design.",
+        "exampleChinese": "我会用这个耳麦澄清问题，而不是急着为设计辩护。"
+      }
+    },
+    {
+      "x": 480,
+      "y": 370,
+      "english": "headset",
+      "chinese": "耳麦",
+      "phoneticUS": "/ˈhedset/",
+      "phoneticUK": "/ˈhedset/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 480,
+        "y": 370
+      },
+      "boundingBox": {
+        "left": 404,
+        "top": 273,
+        "right": 566,
+        "bottom": 472
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的头梁、耳罩和麦克风杆构成耳麦直接指代。",
+        "association": "完整可见的头梁、耳罩和麦克风杆构成耳麦直接指代。",
+        "collocation": "use a headset; an over-ear headset",
+        "example": "I'll use this headset to clarify the problem without defending the design.",
+        "exampleChinese": "我会用这个耳麦澄清问题，而不是急着为设计辩护。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks how to respond when the first user gives negative feedback.",
+    "chinese": "第一位用户给出负面反馈后，程序员询问该如何回应。",
+    "source": "原创对话 · V039 第一位用户说不好用怎么办？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

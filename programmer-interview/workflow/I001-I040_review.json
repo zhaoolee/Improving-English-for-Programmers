@@ -1,0 +1,2886 @@
+{
+  "ready": true,
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "reviewer": "Codex: actual crop contacts 01–08 and full image checks",
+  "coordinateSystem": "0–1000 in the selected original image, excluding footer",
+  "semanticReview": "技术配文是简短面试口语示例，不冒充完整系统设计答案；所标记的物件来自实际照片，概念来自明确对白。",
+  "contextDecision": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。",
+  "generatedAtUTC": "2026-10-10T05:28:54Z",
+  "expandedAtUTC": "2026-10-10T05:28:54Z",
+  "correctedAtUTC": "2026-10-10T05:28:54Z",
+  "rootReviewApproval": {
+    "approvedAtUTC": "2026-10-10T05:14:10.027185+00:00",
+    "reviewer": "Codex",
+    "conditions": [
+      "Apply final-semantic-corrections.json to authored files and corrected aggregate, re-expand and set review ready true based on this approval.",
+      "Do formal prepare only after effective mapping has actual new assetIDs for the 7 official photo replacements.",
+      "No publishing or phone verification authorization implied."
+    ]
+  },
+  "cropReview": {
+    "reviewer": "Codex: actual crop contacts 01–08 and full image checks",
+    "recordedAtUTC": "2026-10-10T05:12:19.813906+00:00",
+    "appliedCards": [
+      "I001",
+      "I002",
+      "I004",
+      "I006",
+      "I010",
+      "I011",
+      "I014",
+      "I015",
+      "I018",
+      "I019",
+      "I020",
+      "I029",
+      "I033",
+      "I034",
+      "I035",
+      "I036",
+      "I040"
+    ],
+    "note": "recordedAtUTC 仅为审查记录时间，不是生成起止时间。"
+  },
+  "note": "Root 已复核全部 40 件实际物件与 17 处修正裁剪，root-review-approval.json ready=true；final-semantic-corrections.json 已应用到 I004/I029；等待 7 张官方换图完成后正式 prepare。",
+  "cards": {
+    "I001": {
+      "sourcePath": "programmer-interview/images/I001.png",
+      "imageReview": "两位女性对话自然，候选人开放手势、面试官握笔和脸部未见明显结构异常；玻璃杯、文件夹与笔记本清楚，窗侧光与远侧阴影、前景植物形成层次。相较初版更有电影剧照气氛 实际可见物件：桌面前方深色薄文件夹；不把文件夹外观当成简历内容证明 实际可见物件：桌面前方深色薄文件夹；不把文件夹外观当成简历内容证明。",
+      "geometry": {
+        "background": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "experience": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "contribute": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "folder": {
+          "bubble": [
+            650,
+            900
+          ],
+          "box": [
+            145,
+            715,
+            650,
+            835
+          ],
+          "anchor": [
+            420,
+            773
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I001-avoid-1",
+          "bounds": [
+            55,
+            205,
+            321,
+            481
+          ]
+        },
+        {
+          "id": "I001-avoid-2",
+          "bounds": [
+            694,
+            230,
+            985,
+            493
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:20:22Z",
+      "generationEndedAt": "2026-10-09T11:24:02Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I001_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-47ee8aca-64a2-4c53-b08c-7823f3b7a19d.png",
+        "selected_image_sha256": "e3416d91fe10ad143a760e40fca51aa17e7bb4b35c62e46ed40e3557da0169c3",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I002": {
+      "sourcePath": "programmer-interview/images/I002.png",
+      "imageReview": "两位男性与技术经验面试匹配，脸部和可见手指自然；电脑完整，屏幕仅保留无字框和连线，首版小字已移除。窗光、玻璃分区和前景构成层次，主体可辨 实际可见物件：候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息 实际可见物件：候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。",
+      "geometry": {
+        "stack": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "proficient": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "production": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            520,
+            820
+          ],
+          "box": [
+            115,
+            430,
+            555,
+            670
+          ],
+          "anchor": [
+            355,
+            602
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I002-avoid-1",
+          "bounds": [
+            227,
+            157,
+            408,
+            387
+          ]
+        },
+        {
+          "id": "I002-avoid-2",
+          "bounds": [
+            690,
+            180,
+            970,
+            414
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:20:22Z",
+      "generationEndedAt": "2026-10-09T11:24:02Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I002_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-0401c044-9634-495a-87fc-ec7f410b700d.png",
+        "selected_image_sha256": "dee25ad61cbbd5d130951f0d5d2d0962c7276794e2781b737e33a69e8a7d9725",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I003": {
+      "sourcePath": "programmer-interview/images/I003.png",
+      "imageReview": "候选人一侧的纸质笔记本完整清晰，原采访者笔记本保留；人像与电影光线保持 实际可见物件：修图后候选人一侧的完整纸质笔记本；她的项目例子由对白设定支持，B原持有的另一本笔记本不混用。",
+      "geometry": {
+        "motivation": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "mission": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "align": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            650,
+            920
+          ],
+          "box": [
+            90,
+            815,
+            525,
+            950
+          ],
+          "anchor": [
+            310,
+            905
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I003-avoid-1",
+          "bounds": [
+            145,
+            175,
+            412,
+            500
+          ]
+        },
+        {
+          "id": "I003-avoid-2",
+          "bounds": [
+            752,
+            140,
+            1000,
+            475
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T02:31:52Z",
+      "generationEndedAt": "2026-10-10T02:32:27Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I003_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "定向物件编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I003_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-df31a3ac-f080-4899-bb63-4af003e070b7.png",
+            "started_at_utc": "2026-10-10T02:31:52Z",
+            "finished_at_utc": "2026-10-10T02:32:27Z",
+            "review": "候选人一侧的纸质笔记本完整清晰，原采访者笔记本保留；人像与电影光线保持。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-df31a3ac-f080-4899-bb63-4af003e070b7.png",
+        "selected_image_sha256": "45d75c4b641639ef20dd6d0e3b3dd6c574e79514787949731e3607201917ae1d",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I004": {
+      "sourcePath": "programmer-interview/images/I004.png",
+      "imageReview": "候选人双手放松、招聘方记录，人物姿态自然；文件夹、电脑和笔记本清楚。侧光、柔和阴影和前景形成安静的职业变动讨论氛围 实际可见物件：面试官书写的打开式笔记本；右侧被电脑自然遮挡，框选真实可见笔记本范围，不声称记录内容可读 实际可见物件：面试官书写的打开式笔记本；右侧被电脑自然遮挡，框选真实可见笔记本范围，不声称记录内容可读。",
+      "geometry": {
+        "opportunity": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "growth": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "transition": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            750,
+            800
+          ],
+          "box": [
+            605,
+            598,
+            820,
+            658
+          ],
+          "anchor": [
+            715,
+            638
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I004-avoid-1",
+          "bounds": [
+            157,
+            165,
+            374,
+            408
+          ]
+        },
+        {
+          "id": "I004-avoid-2",
+          "bounds": [
+            673,
+            210,
+            897,
+            437
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:20:22Z",
+      "generationEndedAt": "2026-10-09T11:22:45Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I004_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-7f97fd2d-050e-4655-86b3-1ddc7a9f000e.png",
+        "selected_image_sha256": "3cabebf4ee591707435e06d7f2753114adfbe88ee720ceb002d99157ffbce933",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I005": {
+      "sourcePath": "programmer-interview/images/I005.png",
+      "imageReview": "首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留 实际可见物件：修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。",
+      "geometry": {
+        "gap": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "transferable": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "resume": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "folder": {
+          "bubble": [
+            785,
+            900
+          ],
+          "box": [
+            246,
+            793,
+            680,
+            930
+          ],
+          "anchor": [
+            465,
+            872
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I005-avoid-1",
+          "bounds": [
+            105,
+            140,
+            327,
+            490
+          ]
+        },
+        {
+          "id": "I005-avoid-2",
+          "bounds": [
+            806,
+            165,
+            1000,
+            493
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T03:12:55Z",
+      "generationEndedAt": "2026-10-10T03:13:50Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I005_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "首次定向编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I005_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-3c7e0bd4-e57d-43bf-9f86-ac0494d0725a.png",
+            "started_at_utc": "2026-10-10T02:32:27Z",
+            "finished_at_utc": "2026-10-10T02:33:12Z",
+            "review": "首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留。"
+          },
+          {
+            "step": 2,
+            "note": "重试：把文件夹完整移入画面",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I005_retry_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-80c1d5cb-772c-47b3-b0fc-3c7041fb4696.png",
+            "started_at_utc": "2026-10-10T03:12:55Z",
+            "finished_at_utc": "2026-10-10T03:13:50Z",
+            "review": "首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-80c1d5cb-772c-47b3-b0fc-3c7041fb4696.png",
+        "selected_image_sha256": "7d42650cadad396780feb551eee5479ad4d70d6c6170c98facccb074bf754839",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I006": {
+      "sourcePath": "programmer-interview/images/I006.png",
+      "imageReview": "候选人展示笔记本电脑、面试官倾听，双方面貌与手部自然；电脑与项目文件夹完整可见，窗侧光、桌面前景和近远景形成层次。界面以无字形状为主，符合项目展示面试氛围 实际可见物件：候选人展示的打开式笔记本电脑，包括可见屏幕与键盘 实际可见物件：候选人展示的打开式笔记本电脑，包括可见屏幕与键盘。",
+      "geometry": {
+        "project": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "scope": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "deliver": {
+          "bubble": [
+            810,
+            41
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            270,
+            820
+          ],
+          "box": [
+            40,
+            415,
+            425,
+            675
+          ],
+          "anchor": [
+            225,
+            620
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I006-avoid-1",
+          "bounds": [
+            115,
+            150,
+            376,
+            424
+          ]
+        },
+        {
+          "id": "I006-avoid-2",
+          "bounds": [
+            735,
+            102,
+            1000,
+            457
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:46:35Z",
+      "generationEndedAt": "2026-10-09T11:49:53Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I006_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "a0501e8242f23d638b0d2b990cdff2bc0b05c2c22471651865439ac8a925d662",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I007": {
+      "sourcePath": "programmer-interview/images/I007.png",
+      "imageReview": "纸张改成有真实装订与页边的笔记本，工作流三部分与手部指向清楚；人像保持 实际可见物件：修图后完整的打开式装订笔记本及三部分无字流程；接口决策具体含义由对白提供。",
+      "geometry": {
+        "ownership": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "implement": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "collaborate": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            625,
+            925
+          ],
+          "box": [
+            245,
+            667,
+            780,
+            814
+          ],
+          "anchor": [
+            520,
+            756
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I007-avoid-1",
+          "bounds": [
+            184,
+            164,
+            468,
+            483
+          ]
+        },
+        {
+          "id": "I007-avoid-2",
+          "bounds": [
+            650,
+            140,
+            1000,
+            486
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T02:33:12Z",
+      "generationEndedAt": "2026-10-10T02:34:36Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I007_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "定向物件编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I007_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-f0c13bd6-f7ad-4d71-a76d-f241ff1ba05c.png",
+            "started_at_utc": "2026-10-10T02:33:12Z",
+            "finished_at_utc": "2026-10-10T02:34:36Z",
+            "review": "纸张改成有真实装订与页边的笔记本，工作流三部分与手部指向清楚；人像保持。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-f0c13bd6-f7ad-4d71-a76d-f241ff1ba05c.png",
+        "selected_image_sha256": "58d9017665c87a25bc056a3fbaf7254dcf9eef3879d4a35052771e76a33639ed",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I008": {
+      "sourcePath": "programmer-interview/images/I008.png",
+      "imageReview": "候选人在白板旁讲解，面试官坐着记录；三框和箭头可见，人物手部、握笔和姿态自然，桌面前景与窗侧光形成空间层次。技术挑战由未来对白明确，不从图中推断具体技术结论 实际可见物件：画面左侧实际可见白板范围；左缘被构图截断，如实保存可见范围，不补画不存在区域 实际可见物件：画面左侧实际可见白板范围；左缘被构图截断，如实保存可见范围，不补画不存在区域。",
+      "geometry": {
+        "challenge": {
+          "bubble": [
+            180,
+            900
+          ]
+        },
+        "constraint": {
+          "bubble": [
+            603,
+            75
+          ]
+        },
+        "resolve": {
+          "bubble": [
+            810,
+            150
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            175,
+            740
+          ],
+          "box": [
+            0,
+            112,
+            217,
+            627
+          ],
+          "anchor": [
+            110,
+            488
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I008-avoid-1",
+          "bounds": [
+            285,
+            45,
+            485,
+            258
+          ]
+        },
+        {
+          "id": "I008-avoid-2",
+          "bounds": [
+            743,
+            330,
+            945,
+            506
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:46:35Z",
+      "generationEndedAt": "2026-10-09T11:49:53Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I008_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "8e165378863673f1f18a51295a07300b08180e11457ac285dcb2d024b10aaf43",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I009": {
+      "sourcePath": "programmer-interview/images/I009.png",
+      "imageReview": "两位女性围绕笔记本电脑上的两组柱形与趋势线交流，电脑完整，脸部、开放手势与握笔自然；背景光影、前景桌面与柔和阴影有层次。图表未提供可核实业绩数字 实际可见物件：笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定 实际可见物件：笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。",
+      "geometry": {
+        "impact": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "metric": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "baseline": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "chart": {
+          "bubble": [
+            675,
+            820
+          ],
+          "box": [
+            282,
+            517,
+            571,
+            720
+          ],
+          "anchor": [
+            490,
+            661
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I009-avoid-1",
+          "bounds": [
+            155,
+            157,
+            436,
+            490
+          ]
+        },
+        {
+          "id": "I009-avoid-2",
+          "bounds": [
+            730,
+            185,
+            985,
+            518
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:46:35Z",
+      "generationEndedAt": "2026-10-09T11:49:14Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I009_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "a6ca409b44fa99fe60901b83d03432a3e72aefb6ce7335d1f38974ba2130b4a8",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I010": {
+      "sourcePath": "programmer-interview/images/I010.png",
+      "imageReview": "候选人说明经历、面试官专注倾听，握笔与开放手势自然，笔记本和电脑趋势图可辨；电脑靠画面右侧，主要屏幕可见。前景玻璃杯、窗侧光与桌面构成层次，氛围理性、平静；不将趋势形状当作项目失败的证据 实际可见物件：候选人面前打开的纸质笔记本；复盘结论来自原创对白 实际可见物件：候选人面前打开的纸质笔记本；复盘结论来自原创对白。",
+      "geometry": {
+        "retrospective": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "assumption": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "outcome": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            310,
+            870
+          ],
+          "box": [
+            130,
+            681,
+            635,
+            760
+          ],
+          "anchor": [
+            395,
+            720
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I010-avoid-1",
+          "bounds": [
+            100,
+            134,
+            370,
+            488
+          ]
+        },
+        {
+          "id": "I010-avoid-2",
+          "bounds": [
+            741,
+            180,
+            982,
+            494
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T11:46:35Z",
+      "generationEndedAt": "2026-10-09T11:49:53Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I010_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "d766d78f2a57aaefb30dcb6f08d9d2905da6af739b8ec7f144a770381a834fae",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I011": {
+      "sourcePath": "programmer-interview/images/I011.png",
+      "imageReview": "两位女性在编码面试开场交流，候选人握笔而未打字，面试官以开放手势回应；面貌、握笔与手部自然，完整笔记本电脑及笔记本可见。窗侧光、桌面前景和背景分层，符合澄清问题的专业氛围。屏幕细节不作为具体题目或代码证据 实际可见物件：桌面中央打开的笔记本电脑，实际屏幕和键盘可见；不根据模糊代码确认输入 实际可见物件：桌面中央打开的笔记本电脑，实际屏幕和键盘可见；不根据模糊代码确认输入。",
+      "geometry": {
+        "clarify": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "input": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "duplicate": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            720,
+            925
+          ],
+          "box": [
+            310,
+            565,
+            915,
+            850
+          ],
+          "anchor": [
+            638,
+            780
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I011-avoid-1",
+          "bounds": [
+            91,
+            178,
+            383,
+            480
+          ]
+        },
+        {
+          "id": "I011-avoid-2",
+          "bounds": [
+            682,
+            184,
+            982,
+            484
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T13:03:51Z",
+      "generationEndedAt": "2026-10-09T13:09:25Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I011_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "27468b58064638274f2ca71aaad9a9ef30986cda732200ddfc94597664f79fa7",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I012": {
+      "sourcePath": "programmer-interview/images/I012.png",
+      "imageReview": "候选人一手在键盘、一手低位解释，面试官专注倾听；手部、脸部及电脑结构未见明显异常，主要电脑完整，屏幕为不可辨认的编辑器色块。窗光与阴影、前景笔记本和杯子形成层次；未验收屏幕代码正确性 实际可见物件：画面右侧打开的电脑屏幕和键盘可见部分，右缘如实按实际截断范围取框 实际可见物件：画面右侧打开的电脑屏幕和键盘可见部分，右缘如实按实际截断范围取框。",
+      "geometry": {
+        "approach": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "iterate": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "update": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            770,
+            925
+          ],
+          "box": [
+            555,
+            488,
+            1000,
+            795
+          ],
+          "anchor": [
+            805,
+            725
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I012-avoid-1",
+          "bounds": [
+            61,
+            210,
+            291,
+            477
+          ]
+        },
+        {
+          "id": "I012-avoid-2",
+          "bounds": [
+            650,
+            227,
+            900,
+            484
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T13:03:51Z",
+      "generationEndedAt": "2026-10-09T13:08:45Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I012_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "1f55355fb69639f5a2322840f637335ca0c6373496420a0ef6cdfa18524ecd2f",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I013": {
+      "sourcePath": "programmer-interview/images/I013.png",
+      "imageReview": "纸张改成完整带框桌面白板及白板笔，图形仍稀疏无字；人物与环境保持 实际可见物件：修图后桌上的完整带浅灰边框白板及无字节点图；不把图形认定为正确实现的哈希表。",
+      "geometry": {
+        "structure": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "lookup": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "efficient": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            540,
+            925
+          ],
+          "box": [
+            129,
+            625,
+            639,
+            831
+          ],
+          "anchor": [
+            365,
+            758
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I013-avoid-1",
+          "bounds": [
+            228,
+            119,
+            493,
+            470
+          ]
+        },
+        {
+          "id": "I013-avoid-2",
+          "bounds": [
+            801,
+            184,
+            1000,
+            484
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T02:33:52Z",
+      "generationEndedAt": "2026-10-10T02:34:36Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I013_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "定向物件编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I013_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-1745299e-4c58-485d-bf24-28608d970fd1.png",
+            "started_at_utc": "2026-10-10T02:33:52Z",
+            "finished_at_utc": "2026-10-10T02:34:36Z",
+            "review": "纸张改成完整带框桌面白板及白板笔，图形仍稀疏无字；人物与环境保持。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-1745299e-4c58-485d-bf24-28608d970fd1.png",
+        "selected_image_sha256": "ebc37996505569a748e86e8f966707e72b156d9dc0596a8ca0735915af149bc9",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I014": {
+      "sourcePath": "programmer-interview/images/I014.png",
+      "imageReview": "站立候选人与坐姿面试官自然交流，握笔及开放手势未见明显结构异常；白板两组无字曲线、桌面笔记本和人物清楚，前中后景有层次。曲线只作讨论道具，不据此声称时间/空间复杂度正确 实际可见物件：原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画 实际可见物件：原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画。",
+      "geometry": {
+        "complexity": {
+          "bubble": [
+            180,
+            75
+          ]
+        },
+        "linear": {
+          "bubble": [
+            565,
+            75
+          ]
+        },
+        "space": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            650,
+            850
+          ],
+          "box": [
+            470,
+            665,
+            785,
+            725
+          ],
+          "anchor": [
+            620,
+            696
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I014-avoid-1",
+          "bounds": [
+            321,
+            77,
+            464,
+            269
+          ]
+        },
+        {
+          "id": "I014-avoid-2",
+          "bounds": [
+            734,
+            302,
+            975,
+            584
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T13:03:51Z",
+      "generationEndedAt": "2026-10-09T13:07:03Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I014_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "79549a3824dea72082d77aebbca6d194d7cf884a1a0540e961410e941c61982d",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I015": {
+      "sourcePath": "programmer-interview/images/I015.png",
+      "imageReview": "候选人暂停键盘操作、面试官用笔指示笔记本简图，眼神与手部自然；完整电脑与笔记本可见，没有夸张紧张表情。窗侧光、暖肤色与柔和阴影形成安静面试气氛，提示与修正内容由未来对白明确 实际可见物件：桌前打开的笔记本电脑，背盖及底部边缘可见，正面键盘被背盖和杯子自然遮挡；代码讨论由对白支持 实际可见物件：桌前打开的笔记本电脑，背盖及底部边缘可见，正面键盘被背盖和杯子自然遮挡；代码讨论由对白支持。",
+      "geometry": {
+        "hint": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "reconsider": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "edge": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            410,
+            900
+          ],
+          "box": [
+            177,
+            539,
+            650,
+            726
+          ],
+          "anchor": [
+            410,
+            688
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I015-avoid-1",
+          "bounds": [
+            83,
+            163,
+            376,
+            476
+          ]
+        },
+        {
+          "id": "I015-avoid-2",
+          "bounds": [
+            653,
+            173,
+            950,
+            498
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T13:03:51Z",
+      "generationEndedAt": "2026-10-09T13:09:25Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I015_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "e8d1f34e7ed1f036de21cb88a85adcb0a5d504154740ed7c0b465d7989a2da22",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I016": {
+      "sourcePath": "programmer-interview/images/I016.png",
+      "imageReview": "两位男性演出面试问答，候选人在白板两组边界与平行箭头旁讲解，面试官自然倾听。手部、面貌、笔和白板结构未见明显异常；侧窗光、前景桌面和景深形成电影层次。图形作为场景辅助，不能据图验证进程与线程的技术语义 实际可见物件：右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体 实际可见物件：右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体。",
+      "geometry": {
+        "process": {
+          "bubble": [
+            180,
+            75
+          ]
+        },
+        "thread": {
+          "bubble": [
+            500,
+            900
+          ]
+        },
+        "share": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            835,
+            680
+          ],
+          "box": [
+            722,
+            0,
+            1000,
+            620
+          ],
+          "anchor": [
+            840,
+            557
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I016-avoid-1",
+          "bounds": [
+            448,
+            56,
+            630,
+            265
+          ]
+        },
+        {
+          "id": "I016-avoid-2",
+          "bounds": [
+            61,
+            273,
+            315,
+            542
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:54:43Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I016_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "c6b4412270bd85e03707d1b6ec0e9232d9ef64a099177a4419020b38b9ac97c8",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I017": {
+      "sourcePath": "programmer-interview/images/I017.png",
+      "imageReview": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留 实际可见物件：修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。",
+      "geometry": {
+        "request": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "response": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "server": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            545,
+            850
+          ],
+          "box": [
+            315,
+            655,
+            745,
+            741
+          ],
+          "anchor": [
+            525,
+            700
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I017-avoid-1",
+          "bounds": [
+            123,
+            170,
+            405,
+            490
+          ]
+        },
+        {
+          "id": "I017-avoid-2",
+          "bounds": [
+            766,
+            177,
+            1000,
+            512
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T02:34:36Z",
+      "generationEndedAt": "2026-10-10T02:35:14Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I017_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "定向物件编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I017_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-cca58cfe-f7c3-465e-bbbe-1905e20c3e30.png",
+            "started_at_utc": "2026-10-10T02:34:36Z",
+            "finished_at_utc": "2026-10-10T02:35:14Z",
+            "review": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-cca58cfe-f7c3-465e-bbbe-1905e20c3e30.png",
+        "selected_image_sha256": "f697538eb0c7a24a87ef61e1f910aec6a081d7e7036224a8440b11850b7f61cc",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I018": {
+      "sourcePath": "programmer-interview/images/I018.png",
+      "imageReview": "候选人举起笔记本解释两条无字查找路径，面试官倾听；握笔与持本手部自然，笔记本完整。电脑作为左侧次要道具部分出框，人物和主要讨论图清楚。肤质、纸张和柔和侧光真实，索引效果由后续对白说明 实际可见物件：候选人举起的螺旋纸质笔记本及无字路径图；索引实际运行特性由对白支持 实际可见物件：候选人举起的螺旋纸质笔记本及无字路径图；索引实际运行特性由对白支持。",
+      "geometry": {
+        "index": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "query": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "overhead": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            490,
+            860
+          ],
+          "box": [
+            275,
+            455,
+            570,
+            645
+          ],
+          "anchor": [
+            428,
+            550
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I018-avoid-1",
+          "bounds": [
+            158,
+            112,
+            406,
+            443
+          ]
+        },
+        {
+          "id": "I018-avoid-2",
+          "bounds": [
+            775,
+            158,
+            1000,
+            490
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:37:16Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I018_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "e04a15b89c39cdb51dc3435c7766f02cc2f83652a562bb1975b4aaf3968c5bd9",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I019": {
+      "sourcePath": "programmer-interview/images/I019.png",
+      "imageReview": "两位女性围绕白板的两个矩形、箭头和分组括号讨论，候选人手势与面试官倾听姿态自然。面部与手部未见明显异常，主要图形完整，冷暖受控的窗光与背景层次符合本系列。不能单凭图形认定事务或一致性机制 实际可见物件：白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供 实际可见物件：白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供。",
+      "geometry": {
+        "transaction": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "commit": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "atomic": {
+          "bubble": [
+            220,
+            900
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            870,
+            110
+          ],
+          "box": [
+            705,
+            65,
+            995,
+            265
+          ],
+          "anchor": [
+            870,
+            185
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I019-avoid-1",
+          "bounds": [
+            102,
+            218,
+            371,
+            556
+          ]
+        },
+        {
+          "id": "I019-avoid-2",
+          "bounds": [
+            787,
+            295,
+            1000,
+            607
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:54:43Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I019_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "e01ef152548684d0d0e279b856b69bd6a1d3baf38b1d2f8c5083800aa2914b88",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I020": {
+      "sourcePath": "programmer-interview/images/I020.png",
+      "imageReview": "候选人持笔解释，白板两组方格分别部分填充和空置，面试官倾听；手部、持笔与脸部未见明显异常。图示和笔记本清楚，侧光与背景有层次，内存/资源语义需后续对白明确 实际可见物件：白板左侧真实可见范围与两组无字方格，避开右侧遮挡的人脸；内存与回收机制由对白解释 实际可见物件：白板左侧真实可见范围与两组无字方格，避开右侧遮挡的人脸；内存与回收机制由对白解释。",
+      "geometry": {
+        "allocate": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "release": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "resource": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            640,
+            570
+          ],
+          "box": [
+            565,
+            115,
+            803,
+            598
+          ],
+          "anchor": [
+            660,
+            410
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I020-avoid-1",
+          "bounds": [
+            107,
+            186,
+            365,
+            510
+          ]
+        },
+        {
+          "id": "I020-avoid-2",
+          "bounds": [
+            816,
+            225,
+            1000,
+            534
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:41:29Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I020_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "06c801dffaca0879bc39a2263334f95a0ffef80da3227269fd3aaa516a942007",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I021": {
+      "sourcePath": "programmer-interview/images/I021.png",
+      "imageReview": "站立候选人持盖好且低放的笔询问需求，坐姿面试官回应；白板大部分为空且只有两小框，尚未给出复杂方案。人物手部与眼神自然，前中后景和侧窗光有层次 实际可见物件：候选人身后的白板与少量无字框；用户数与系统需求由对白给定 实际可见物件：候选人身后的白板与少量无字框；用户数与系统需求由对白给定。",
+      "geometry": {
+        "requirement": {
+          "bubble": [
+            230,
+            865
+          ]
+        },
+        "scale": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "traffic": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            560,
+            420
+          ],
+          "box": [
+            372,
+            138,
+            767,
+            538
+          ],
+          "anchor": [
+            635,
+            470
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I021-avoid-1",
+          "bounds": [
+            122,
+            86,
+            320,
+            335
+          ]
+        },
+        {
+          "id": "I021-avoid-2",
+          "bounds": [
+            736,
+            297,
+            997,
+            575
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:37:59Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I021_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "5fe462a6d9404548532e8c165d1c9cc2c008a756f444ccc11295fd08d78b8797",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I022": {
+      "sourcePath": "programmer-interview/images/I022.png",
+      "imageReview": "候选人站在白板旁说明三框与存储圆柱图，面试官坐着倾听；握笔、开放手势及面部自然，主要图完整。桌面和窗侧光有层次，没有可读URL或夸张服务器场景 实际可见物件：画面右侧白板的框图和存储圆柱；短链接语义不能由无字形状单独确认 实际可见物件：画面右侧白板的框图和存储圆柱；短链接语义不能由无字形状单独确认。",
+      "geometry": {
+        "redirect": {
+          "bubble": [
+            180,
+            75
+          ]
+        },
+        "unique": {
+          "bubble": [
+            500,
+            925
+          ]
+        },
+        "mapping": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            880,
+            730
+          ],
+          "box": [
+            725,
+            80,
+            1000,
+            629
+          ],
+          "anchor": [
+            832,
+            530
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I022-avoid-1",
+          "bounds": [
+            400,
+            83,
+            605,
+            320
+          ]
+        },
+        {
+          "id": "I022-avoid-2",
+          "bounds": [
+            6,
+            265,
+            282,
+            553
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:44:13Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I022_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "9b452664c6bdb235bf999fb7ac4246aa4fd3de48a7817e7f89f0f675224b425a",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I023": {
+      "sourcePath": "programmer-interview/images/I023.png",
+      "imageReview": "站立候选人讲解短分支与较长分支图，坐着的面试官专注倾听；图形完整，两位女性的面部、手部和动作自然，窗侧光与留白干净。笔记本背面只有小型通用椭圆装饰；不将白板草图认作已验证的缓存方案 实际可见物件：白板上的两条无字分支路径；cache概念与降低延迟是对白解释，不是图片测量 实际可见物件：白板上的两条无字分支路径；cache概念与降低延迟是对白解释，不是图片测量。",
+      "geometry": {
+        "cache": {
+          "bubble": [
+            230,
+            900
+          ]
+        },
+        "latency": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "invalidate": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            805,
+            660
+          ],
+          "box": [
+            267,
+            185,
+            836,
+            576
+          ],
+          "anchor": [
+            670,
+            490
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I023-avoid-1",
+          "bounds": [
+            146,
+            130,
+            292,
+            354
+          ]
+        },
+        {
+          "id": "I023-avoid-2",
+          "bounds": [
+            863,
+            325,
+            1000,
+            565
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:54:43Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I023_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "dd59ebc651463694bb561703db84001d6ecdbf3ceeb4ee29621dd274b487e396",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I024": {
+      "sourcePath": "programmer-interview/images/I024.png",
+      "imageReview": "候选人展示上下两行无字方框对照并解释，面试官听取说明；举板和开放手势自然，主要对照图完整。人物肤质与侧光真实，前景和桌面构成层次；图形不等同于同步/队列的完整技术定义 实际可见物件：候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白 实际可见物件：候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。",
+      "geometry": {
+        "queue": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "synchronous": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "retry": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            215,
+            660
+          ],
+          "box": [
+            0,
+            380,
+            365,
+            600
+          ],
+          "anchor": [
+            208,
+            535
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I024-avoid-1",
+          "bounds": [
+            335,
+            166,
+            603,
+            445
+          ]
+        },
+        {
+          "id": "I024-avoid-2",
+          "bounds": [
+            780,
+            147,
+            1000,
+            492
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:40:39Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I024_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "f8c682e82bbc12c989b852249c3407db730d470d6fa89495fea6d3a4a94ffc0e",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I025": {
+      "sourcePath": "programmer-interview/images/I025.png",
+      "imageReview": "候选人用笔解释纸面两个架构选项，面试官倾听；完整纸面、握笔和开放手势清楚，人物肤质与服装自然。窗侧光和前景层次克制，成本/可靠性由未来对白说明 实际可见物件：桌上白纸的两组选项示意图；可靠性和成本不能从无字图中读取 实际可见物件：桌上白纸的两组选项示意图；可靠性和成本不能从无字图中读取。",
+      "geometry": {
+        "trade-off": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "reliability": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "cost": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            570,
+            910
+          ],
+          "box": [
+            245,
+            685,
+            745,
+            800
+          ],
+          "anchor": [
+            480,
+            738
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I025-avoid-1",
+          "bounds": [
+            118,
+            120,
+            422,
+            494
+          ]
+        },
+        {
+          "id": "I025-avoid-2",
+          "bounds": [
+            704,
+            149,
+            988,
+            520
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:42:58Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I025_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "27ea4b5af43b6ba2d4634a83ddc01652161ca6ec8c792f50a046f29957dbbbd5",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I026": {
+      "sourcePath": "programmer-interview/images/I026.png",
+      "imageReview": "两位男性在笔记本电脑和纸面测试草图旁讨论，候选人书写、面试官倾听，主屏幕和纸面均在画面内。手部、面貌及电脑透视未见明显异常，窗侧光与桌面前后层次自然。模糊屏幕仅传达代码讨论氛围，不能证明测试内容正确 实际可见物件：桌面中央螺旋笔记本；测试场景为对白设定，不声称照片里代码已通过测试 实际可见物件：桌面中央螺旋笔记本；测试场景为对白设定，不声称照片里代码已通过测试。",
+      "geometry": {
+        "test": {
+          "bubble": [
+            180,
+            570
+          ]
+        },
+        "boundary": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "exception": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            440,
+            925
+          ],
+          "box": [
+            215,
+            700,
+            599,
+            825
+          ],
+          "anchor": [
+            430,
+            785
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I026-avoid-1",
+          "bounds": [
+            160,
+            123,
+            409,
+            401
+          ]
+        },
+        {
+          "id": "I026-avoid-2",
+          "bounds": [
+            656,
+            154,
+            895,
+            468
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:53:59Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I026_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "a9b3a4fd57fb1ce81c6b4cf0c4e3de403799ca4a39f17497e4c2e6b0d9c94739",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I027": {
+      "sourcePath": "programmer-interview/images/I027.png",
+      "imageReview": "两位女性在电脑旁交流，候选人持笔低位说明，面试官倾听；面貌和手部自然，电脑与笔记本可辨。电脑屏幕朝人物侧，未提供可读代码；无夸张姿势，窗光与色调保持真实纪实感 实际可见物件：两人面前打开的笔记本电脑，屏幕背面和键盘部分完整可辨 实际可见物件：两人面前打开的笔记本电脑，屏幕背面和键盘部分完整可辨。",
+      "geometry": {
+        "refactor": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "readability": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "behavior": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            760,
+            910
+          ],
+          "box": [
+            308,
+            520,
+            928,
+            772
+          ],
+          "anchor": [
+            632,
+            717
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I027-avoid-1",
+          "bounds": [
+            119,
+            169,
+            408,
+            503
+          ]
+        },
+        {
+          "id": "I027-avoid-2",
+          "bounds": [
+            635,
+            169,
+            928,
+            535
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:42:18Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I027_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "acbb3583ec1d2942c6dcf5edf2827867915423fb9c75546ff861adcbdaf37bfc",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I028": {
+      "sourcePath": "programmer-interview/images/I028.png",
+      "imageReview": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留 实际可见物件：修图后完整的笔记本电脑屏幕与键盘；模糊日志不作为具体故障原因证明。",
+      "geometry": {
+        "diagnose": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "log": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "reproduce": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            460,
+            925
+          ],
+          "box": [
+            28,
+            543,
+            535,
+            829
+          ],
+          "anchor": [
+            345,
+            765
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I028-avoid-1",
+          "bounds": [
+            142,
+            168,
+            404,
+            489
+          ]
+        },
+        {
+          "id": "I028-avoid-2",
+          "bounds": [
+            671,
+            181,
+            965,
+            520
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T02:35:14Z",
+      "generationEndedAt": "2026-10-10T02:35:54Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I028_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "定向物件编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I028_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-7d891176-2157-461e-ad30-6ccd022ca3c7.png",
+            "started_at_utc": "2026-10-10T02:35:14Z",
+            "finished_at_utc": "2026-10-10T02:35:54Z",
+            "review": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-7d891176-2157-461e-ad30-6ccd022ca3c7.png",
+        "selected_image_sha256": "a2974db81c7df5eb01516c73eef290df1735d882b4dedb6e3df37dcc8ccf2dd0",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I029": {
+      "sourcePath": "programmer-interview/images/I029.png",
+      "imageReview": "候选人说明电脑上的柱形对比，面试官倾听；电脑在左侧部分出框，主要柱形可辨，手部与脸部自然。侧窗光和真实桌面材质有层次，具体性能指标与收益不由画面验证 实际可见物件：面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定 实际可见物件：面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定。",
+      "geometry": {
+        "bottleneck": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "profile": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "optimize": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            650,
+            875
+          ],
+          "box": [
+            555,
+            680,
+            850,
+            775
+          ],
+          "anchor": [
+            680,
+            725
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I029-avoid-1",
+          "bounds": [
+            163,
+            170,
+            421,
+            489
+          ]
+        },
+        {
+          "id": "I029-avoid-2",
+          "bounds": [
+            741,
+            170,
+            1000,
+            484
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:45:35Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I029_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "2c52139b3ea2bfe25ce578c3213f86d4f4e4989f0bdbc330105942169e709155",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I030": {
+      "sourcePath": "programmer-interview/images/I030.png",
+      "imageReview": "站立候选人持低放笔，坐姿面试官提出追问；白板三框路径及返回箭头完整，人物手部和面貌自然。前景桌面和柔和窗光清楚，发布/回滚细节留待对白 实际可见物件：候选人身旁白板及带返回箭头的无字流程；发布/回滚方案由对白解释 实际可见物件：候选人身旁白板及带返回箭头的无字流程；发布/回滚方案由对白解释。",
+      "geometry": {
+        "deployment": {
+          "bubble": [
+            190,
+            41
+          ]
+        },
+        "rollback": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "monitor": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "whiteboard": {
+          "bubble": [
+            555,
+            490
+          ],
+          "box": [
+            388,
+            159,
+            861,
+            610
+          ],
+          "anchor": [
+            690,
+            480
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I030-avoid-1",
+          "bounds": [
+            139,
+            100,
+            339,
+            335
+          ]
+        },
+        {
+          "id": "I030-avoid-2",
+          "bounds": [
+            850,
+            323,
+            1000,
+            604
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:46:19Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I030_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "220a50b336738635d717480fedc0d9ccdafe08b26626f1e95cff336b582cd3f7",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I031": {
+      "sourcePath": "programmer-interview/images/I031.png",
+      "imageReview": "两位女性在独立座椅上交流，候选人开放手势，面试官记录；腿部、手部、脸部和两张空白卡片未见明显异常。画面留有空间与前景层次，不出现冲突闪回；STAR内容由未来对白明确 实际可见物件：桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据 实际可见物件：桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据。",
+      "geometry": {
+        "disagreement": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "compromise": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "result": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "card": {
+          "bubble": [
+            710,
+            925
+          ],
+          "box": [
+            670,
+            767,
+            882,
+            825
+          ],
+          "anchor": [
+            758,
+            790
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I031-avoid-1",
+          "bounds": [
+            151,
+            142,
+            331,
+            426
+          ]
+        },
+        {
+          "id": "I031-avoid-2",
+          "bounds": [
+            711,
+            168,
+            980,
+            459
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:48:01Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I031_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "08ce11d63934d9449fa03b1a02fc33f3455b52e6835482c310a4c16ff648dbf4",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I032": {
+      "sourcePath": "programmer-interview/images/I032.png",
+      "imageReview": "候选人一手放在合起的笔记本上，另一手以克制手势讲述经历，另一位男性面试官以肩背前景倾听。面部、手部与桌面物件自然，窗侧光和景深形成安静的面试氛围；责任经历由场景设定支持 实际可见物件：候选人手旁闭合的纸质笔记本；具体行动记录为对白设定 实际可见物件：候选人手旁闭合的纸质笔记本；具体行动记录为对白设定。",
+      "geometry": {
+        "responsibility": {
+          "bubble": [
+            180,
+            900
+          ]
+        },
+        "initiative": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "coordinate": {
+          "bubble": [
+            810,
+            41
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            650,
+            880
+          ],
+          "box": [
+            310,
+            671,
+            505,
+            715
+          ],
+          "anchor": [
+            405,
+            694
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I032-avoid-1",
+          "bounds": [
+            214,
+            123,
+            407,
+            435
+          ]
+        },
+        {
+          "id": "I032-avoid-2",
+          "bounds": [
+            777,
+            80,
+            1000,
+            512
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:52:06Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I032_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "5b6e118b4ff96fac825e0b7bf9a30cc4808093212d3439d74f8b9537d3342f11",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I033": {
+      "sourcePath": "programmer-interview/images/I033.png",
+      "imageReview": "候选人移动空白卡片说明优先顺序，面试官在笔记本旁倾听；完整规划本可见，握笔、移动卡片和开放手势自然。桌面清楚、窗光柔和，没有倒计时或夸张焦虑；冲突决策由对白明确 实际可见物件：桌上螺旋计划本与空白方格，结合对白明确作为planner；不从空白格推断真实截止日期 实际可见物件：桌上螺旋计划本与空白方格，结合对白明确作为planner；不从空白格推断真实截止日期。",
+      "geometry": {
+        "deadline": {
+          "bubble": [
+            210,
+            900
+          ]
+        },
+        "prioritize": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "negotiate": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "planner": {
+          "bubble": [
+            650,
+            850
+          ],
+          "box": [
+            375,
+            653,
+            815,
+            780
+          ],
+          "anchor": [
+            590,
+            730
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I033-avoid-1",
+          "bounds": [
+            160,
+            131,
+            409,
+            459
+          ]
+        },
+        {
+          "id": "I033-avoid-2",
+          "bounds": [
+            740,
+            173,
+            995,
+            490
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:48:45Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I033_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "6d7f3a561ba49c67efc0310c06548d5339b83e1459b766bb6b4a81e956d709a8",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I034": {
+      "sourcePath": "programmer-interview/images/I034.png",
+      "imageReview": "候选人在笔记本上记笔记并倾听，面试官低位解释；面貌、握笔及手部未见明显异常，主要电脑和笔记本可辨。自然侧窗光与克制阴影有层次，沟通氛围专业 实际可见物件：候选人面前正在书写的打开式笔记本；接受反馈、改进发生的事实由故事设定 实际可见物件：候选人面前正在书写的打开式笔记本；接受反馈、改进发生的事实由故事设定。",
+      "geometry": {
+        "feedback": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "constructive": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "improve": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            265,
+            820
+          ],
+          "box": [
+            45,
+            615,
+            375,
+            700
+          ],
+          "anchor": [
+            245,
+            661
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I034-avoid-1",
+          "bounds": [
+            135,
+            168,
+            352,
+            478
+          ]
+        },
+        {
+          "id": "I034-avoid-2",
+          "bounds": [
+            686,
+            146,
+            925,
+            478
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:49:23Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I034_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "631a5f245676ed05e90e696d6d1c7fa4ce242b2c39b156083597f5e4b15ddaf3",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I035": {
+      "sourcePath": "programmer-interview/images/I035.png",
+      "imageReview": "候选人平静讲述，面试官持文件夹倾听；手势、持夹手和面貌未见明显异常，笔记本和桌面道具合理。窗光、自然肤质及轻微微笑保留真实纪实氛围，不由表情推断失败经历 实际可见物件：候选人前方绿色封面的纸质笔记本；复盘经历由对白支持 实际可见物件：候选人前方绿色封面的纸质笔记本；复盘经历由对白支持。",
+      "geometry": {
+        "failure": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "lesson": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "adapt": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            390,
+            870
+          ],
+          "box": [
+            185,
+            668,
+            505,
+            765
+          ],
+          "anchor": [
+            360,
+            714
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I035-avoid-1",
+          "bounds": [
+            160,
+            134,
+            401,
+            526
+          ]
+        },
+        {
+          "id": "I035-avoid-2",
+          "bounds": [
+            753,
+            198,
+            1000,
+            499
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:47:16Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I035_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "6e172c289ba92a0f149ae648bccc21ceb99eccf9b2f19c2bd1a0b727df6e29ed",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I036": {
+      "sourcePath": "programmer-interview/images/I036.png",
+      "imageReview": "候选人与面试官在收尾提问时互动，闭合电脑与文件夹清楚，背后磨砂玻璃空间合理。手势与面貌自然，近景肩部、桌面与背景形成层次，没有额外同事或握手 实际可见物件：候选人面前薄文件夹；不声称其封面可读岗位或培训资料 实际可见物件：候选人面前薄文件夹；不声称其封面可读岗位或培训资料。",
+      "geometry": {
+        "role": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "expectation": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "onboarding": {
+          "bubble": [
+            697,
+            166
+          ]
+        },
+        "folder": {
+          "bubble": [
+            440,
+            850
+          ],
+          "box": [
+            180,
+            625,
+            620,
+            705
+          ],
+          "anchor": [
+            390,
+            668
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I036-avoid-1",
+          "bounds": [
+            164,
+            150,
+            433,
+            503
+          ]
+        },
+        {
+          "id": "I036-avoid-2",
+          "bounds": [
+            816,
+            78,
+            1000,
+            478
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:50:46Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I036_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "004746ff0f91dde597314a83bcd802060ec75ff109f5cdd78c8869667dff3f86",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I037": {
+      "sourcePath": "programmer-interview/images/I037.png",
+      "imageReview": "候选人倾听、面试官用纸面三步简图解释，双方脸部和手部自然；图示完整，电脑为次要道具。窗光、暖肤色和桌面留白统一，期望与成长内容需对白说明 实际可见物件：桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准 实际可见物件：桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准。",
+      "geometry": {
+        "success": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "mentorship": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "progression": {
+          "bubble": [
+            810,
+            41
+          ]
+        },
+        "diagram": {
+          "bubble": [
+            535,
+            940
+          ],
+          "box": [
+            278,
+            727,
+            836,
+            884
+          ],
+          "anchor": [
+            557,
+            811
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I037-avoid-1",
+          "bounds": [
+            190,
+            175,
+            437,
+            496
+          ]
+        },
+        {
+          "id": "I037-avoid-2",
+          "bounds": [
+            768,
+            102,
+            1000,
+            490
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:50:07Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I037_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "3d2175f8afe696164f5af70ac0b65a4d23baf8dd42f4f51faf7e6e56ee2312d2",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I038": {
+      "sourcePath": "programmer-interview/images/I038.png",
+      "imageReview": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留 实际可见物件：修图后完整进入画面的纸质格状计划本；入职日期仅由对白设定。",
+      "geometry": {
+        "compensation": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "range": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "availability": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "planner": {
+          "bubble": [
+            160,
+            850
+          ],
+          "box": [
+            274,
+            777,
+            948,
+            962
+          ],
+          "anchor": [
+            440,
+            880
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I038-avoid-1",
+          "bounds": [
+            172,
+            145,
+            431,
+            446
+          ]
+        },
+        {
+          "id": "I038-avoid-2",
+          "bounds": [
+            725,
+            198,
+            973,
+            507
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-10T02:35:54Z",
+      "generationEndedAt": "2026-10-10T02:36:33Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I038_image_prompt.txt",
+        "edit_chain": [
+          {
+            "step": 1,
+            "note": "定向物件编辑",
+            "prompt_path": "workflow/learning-40-20261010/edit-prompts/I038_edit.txt",
+            "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-80ab88c5-f9dd-4d4f-9bae-2c375a6f6907.png",
+            "started_at_utc": "2026-10-10T02:35:54Z",
+            "finished_at_utc": "2026-10-10T02:36:33Z",
+            "review": "原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留。"
+          }
+        ],
+        "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-80ab88c5-f9dd-4d4f-9bae-2c375a6f6907.png",
+        "selected_image_sha256": "c4736f62a913f16c6407a06a530604fcd9f9e378044313e9aba8aa5112f6d106",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I039": {
+      "sourcePath": "programmer-interview/images/I039.png",
+      "imageReview": "居家桌前的女性与笔记本视频窗口内唯一一位女性交谈，人物数量符合设定，无额外参与者缩略图。前景手势、笔记本透视与人物面貌自然，侧窗光、衣物纹理和室内层次克制；场景表达面试后视频跟进 实际可见物件：桌上打开的笔记本电脑，视频窗口中的B面部另作为人工避让区；申请状态由对白说明 实际可见物件：桌上打开的笔记本电脑，视频窗口中的B面部另作为人工避让区；申请状态由对白说明。",
+      "geometry": {
+        "follow-up": {
+          "bubble": [
+            190,
+            900
+          ]
+        },
+        "timeline": {
+          "bubble": [
+            620,
+            75
+          ]
+        },
+        "status": {
+          "bubble": [
+            845,
+            230
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            785,
+            820
+          ],
+          "box": [
+            520,
+            369,
+            993,
+            661
+          ],
+          "anchor": [
+            777,
+            608
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I039-avoid-1",
+          "bounds": [
+            259,
+            58,
+            508,
+            358
+          ]
+        },
+        {
+          "id": "I039-avoid-2",
+          "bounds": [
+            741,
+            386,
+            929,
+            564
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:52:51Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I039_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "7268ecae22c54f51e8d7ea2c14a7f136f3956a0a8baae4f42553ff67ac07b038",
+        "selected_image_dimensions": "1122x1402"
+      }
+    },
+    "I040": {
+      "sourcePath": "programmer-interview/images/I040.png",
+      "imageReview": "两位男性面对合起的Offer文件夹平静确认，候选人有轻微笑意与克制手势，面试官自然倾听；没有握手或签字。面部、手部、文件夹与水杯未见明显异常，侧窗光和桌面层次呈现收尾场景的电影感 实际可见物件：候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持 实际可见物件：候选人手旁蓝色薄文件夹；录用通知及接受或拒绝决定仅由明确对白支持。",
+      "geometry": {
+        "offer": {
+          "bubble": [
+            190,
+            75
+          ]
+        },
+        "accept": {
+          "bubble": [
+            500,
+            75
+          ]
+        },
+        "decline": {
+          "bubble": [
+            810,
+            75
+          ]
+        },
+        "folder": {
+          "bubble": [
+            400,
+            855
+          ],
+          "box": [
+            0,
+            635,
+            520,
+            730
+          ],
+          "anchor": [
+            265,
+            682
+          ]
+        }
+      },
+      "avoid": [
+        {
+          "id": "I040-avoid-1",
+          "bounds": [
+            90,
+            168,
+            350,
+            479
+          ]
+        },
+        {
+          "id": "I040-avoid-2",
+          "bounds": [
+            707,
+            163,
+            947,
+            471
+          ]
+        }
+      ],
+      "generationStartedAt": "2026-10-09T14:33:54Z",
+      "generationEndedAt": "2026-10-09T14:53:19Z",
+      "image_source": {
+        "original_prompt_path": "prompts/I040_image_prompt.txt",
+        "edit_chain": [],
+        "selected_source_path": null,
+        "selected_image_sha256": "62b24f2b30ad564ae7b0bebd64997d5759f8b7c190770d7e1fecff1ae68b4fe3",
+        "selected_image_dimensions": "1122x1402"
+      }
+    }
+  }
+}

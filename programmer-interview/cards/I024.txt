@@ -1,0 +1,123 @@
+I024  比较同步调用与消息队列
+========================================================================
+分类: 系统设计与技术取舍（system_design）
+关键词: queue
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I024.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I024.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I024.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T14:33:54Z → 2026-10-09T14:40:39Z
+  提示词文件: prompts/I024_image_final.txt
+
+场景: 美国男候选人比较直接调用与队列处理的两条路径，欧洲男面试官关注选择条件。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 候选人展示上下两行无字方框对照并解释，面试官听取说明；举板和开放手势自然，主要对照图完整。人物肤质与侧光真实，前景和桌面构成层次；图形不等同于同步/队列的完整技术定义 实际可见物件：候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。
+
+沟通目标: 先确认需求与规模，再说明设计、替代方案和取舍。本卡主题：比较同步调用与消息队列。
+
+主配文（一句场景描述）:
+  英文: A candidate compares direct calls with a message queue at a whiteboard.
+  中文: 候选人在白板旁比较直接调用与消息队列。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] A synchronous call waits for a result; a queue lets a worker process the task later.
+        同步调用等待结果；队列让工作进程稍后处理任务。
+  [B] How would you retry a failed task?
+        你会如何重试失败的任务？
+  [A] I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.
+        我会限制重试次数，并安全处理重复投递。我会在白板上比较两种流程。
+  [B] What would you do after the retry limit?
+        达到重试上限后，你会怎么做？
+
+目标词 (4): queue, synchronous, retry, whiteboard
+
+------------------------------------------------------------------------
+[1/4] queue
+  词义: 队列
+  词性: noun
+  音标: UK /kjuː/ | US /kjuː/
+  搭配: a message queue; process a queue
+  例句: A synchronous call waits for a result; a queue lets a worker process the task later.
+  例句高亮: A synchronous call waits for a result; a **queue** lets a worker process the task later.
+  例句中文: 同步调用等待结果；队列让工作进程稍后处理任务。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：queue。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] synchronous
+  词义: 同步的
+  词性: adjective
+  音标: UK /ˈsɪŋkrənəs/ | US /ˈsɪŋkrənəs/
+  搭配: a synchronous call; synchronous processing
+  例句: A synchronous call waits for a result; a queue lets a worker process the task later.
+  例句高亮: A **synchronous** call waits for a result; a queue lets a worker process the task later.
+  例句中文: 同步调用等待结果；队列让工作进程稍后处理任务。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：synchronous。本卡例句：A synchronous call waits for a result; a queue lets a worker process the task later.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] retry
+  词义: 重试
+  词性: verb
+  音标: UK /ˌriːˈtraɪ/ | US /ˌriːˈtraɪ/
+  搭配: retry a task; retry a request
+  例句: How would you retry a failed task?
+  例句高亮: How would you **retry** a failed task?
+  例句中文: 你会如何重试失败的任务？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retry。本卡例句：How would you retry a failed task?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] whiteboard
+  词义: 白板
+  词性: noun
+  音标: UK /ˈwaɪtbɔːd/ | US /ˈwaɪtbɔːrd/
+  搭配: sketch on a whiteboard; use the whiteboard
+  例句: I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the whiteboard.
+  例句高亮: I'd limit retries and handle duplicate delivery safely. I'll compare the flows on the **whiteboard**.
+  例句中文: 我会限制重试次数，并安全处理重复投递。我会在白板上比较两种流程。
+  标注模式: object
+  标注说明: 候选人实际手持小型白板与两排无字流程；同步/队列语义来自对白。
+  坐标(normalized): [0.0, 0.38, 0.365, 0.6]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I024 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.
+Interviewer or recruiter: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.
+Exactly two people comparing synchronous calls with queued processing in an interview. Marcus, in an ivory shirt and charcoal blazer, uses a small whiteboard containing two unlabeled rows: two adjacent boxes linked directly in the upper row, and three small aligned queue blocks between endpoints in the lower row. He explains with a low open-hand gesture while Lukas, in a pale-blue shirt, asks a follow-up from the nearby chair. A 35mm medium shot from the room corner, soft neutral daylight and realistic marker strokes. Keep the sketch sparse and the discussion human. No robots, parcels, mechanical conveyor belts or readable technical terminology.

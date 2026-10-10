@@ -1,0 +1,130 @@
+{
+  "filename": "W030-交接未完成的任务.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "unfinished",
+      "chinese": "未完成的",
+      "phoneticUS": "/ʌnˈfɪnɪʃt/",
+      "phoneticUK": "/ʌnˈfɪnɪʃt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Can I transfer this unfinished task to you before my leave?”明确表达未完成的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Can I transfer this unfinished task to you before my leave?”明确表达未完成的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "an unfinished task; leave work unfinished",
+        "example": "A: Can I transfer this unfinished task to you before my leave?\nB: Yes. Could you share the context and the current blocker?\nA: This document explains the approach. The last test still fails.\nB: Thanks. I'll read it and continue from there.",
+        "exampleChinese": "A: 我休假之前能把这项未完成的任务移交给你吗？\nB: 可以。你能介绍一下背景和当前的阻塞点吗？\nA: 这份文档解释了实现思路。最后一项测试还没通过。\nB: 谢谢。我读完后会接着做。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "transfer",
+      "chinese": "移交",
+      "phoneticUS": "/trænsˈfɜːr/",
+      "phoneticUK": "/trænsˈfɜː/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Can I transfer this unfinished task to you before my leave?”明确表达移交；单幅画面不能独立证明，不设局部框。",
+        "association": "“Can I transfer this unfinished task to you before my leave?”明确表达移交；单幅画面不能独立证明，不设局部框。",
+        "collocation": "transfer a task; transfer to a teammate",
+        "example": "Can I transfer this unfinished task to you before my leave?",
+        "exampleChinese": "我休假之前能把这项未完成的任务移交给你吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "context",
+      "chinese": "背景信息",
+      "phoneticUS": "/ˈkɑːntekst/",
+      "phoneticUK": "/ˈkɒntekst/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Yes. Could you share the context and the current blocker?”明确表达背景信息；单幅画面不能独立证明，不设局部框。",
+        "association": "“Yes. Could you share the context and the current blocker?”明确表达背景信息；单幅画面不能独立证明，不设局部框。",
+        "collocation": "share the context; the context of a task",
+        "example": "Yes. Could you share the context and the current blocker?",
+        "exampleChinese": "可以。你能介绍一下背景和当前的阻塞点吗？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 398,
+      "english": "document",
+      "chinese": "文档",
+      "phoneticUS": "/ˈdɑːkjumənt/",
+      "phoneticUK": "/ˈdɒkjumənt/",
+      "bubblePosition": {
+        "x": 550,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 398
+      },
+      "boundingBox": {
+        "left": 401,
+        "top": 291,
+        "right": 592,
+        "bottom": 503
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "this document; a design document",
+        "example": "This document explains the approach. The last test still fails.",
+        "exampleChinese": "这份文档解释了实现思路。最后一项测试还没通过。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer hands over an unfinished task with useful context.",
+    "chinese": "开发者带着必要的背景信息交接未完成的任务。",
+    "source": "原创对话 · W030 交接未完成的任务",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

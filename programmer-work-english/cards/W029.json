@@ -1,0 +1,246 @@
+{
+  "id": "W029",
+  "category": "planning",
+  "category_title": "计划与进度",
+  "chapter": "计划与进度",
+  "title": "更新任务状态",
+  "keyword": "status",
+  "scene": "开发者向同事更新任务进展。",
+  "target_count": 4,
+  "primary_words": [
+    "status",
+    "progress",
+    "remaining",
+    "keyboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "status",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "状态",
+      "pos": "noun",
+      "ipa_us": "/ˈsteɪtəs/",
+      "ipa_uk": "/ˈsteɪtəs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could you update the task status before our meeting?",
+        "matched_form": "status",
+        "referent_region_verified": false,
+        "context": "“Could you update the task status before our meeting?”明确表达状态；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Could you update the task status before our meeting?",
+      "example_zh": "开会之前，你能更新一下任务状态吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "update the status",
+        "the status of a task"
+      ],
+      "example_en_highlighted": "Could you update the task **status** before our meeting?",
+      "annotation_mode": "context",
+      "annotation_note": "“Could you update the task status before our meeting?”明确表达状态；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "progress",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "进展",
+      "pos": "noun",
+      "ipa_us": "/ˈprɑːɡres/",
+      "ipa_uk": "/ˈprəʊɡres/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Sure. I've made good progress on the API tests.",
+        "matched_form": "progress",
+        "referent_region_verified": false,
+        "context": "“Sure. I've made good progress on the API tests.”明确表达进展；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Sure. I've made good progress on the API tests.",
+      "example_zh": "当然。API 测试已经取得不错的进展。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make progress",
+        "good progress"
+      ],
+      "example_en_highlighted": "Sure. I've made good **progress** on the API tests.",
+      "annotation_mode": "context",
+      "annotation_note": "“Sure. I've made good progress on the API tests.”明确表达进展；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "remaining",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "剩余的",
+      "pos": "adjective",
+      "ipa_us": "/rɪˈmeɪnɪŋ/",
+      "ipa_uk": "/rɪˈmeɪnɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What's the remaining work? I'll enter it using this keyboard.",
+        "matched_form": "remaining",
+        "referent_region_verified": false,
+        "context": "“What's the remaining work? I'll enter it using this keyboard.”明确表达剩余的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "What's the remaining work? I'll enter it using this keyboard.",
+      "example_zh": "还有哪些工作剩下？我用这个键盘录入。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the remaining work",
+        "remaining tasks"
+      ],
+      "example_en_highlighted": "What's the **remaining** work? I'll enter it using this keyboard.",
+      "annotation_mode": "context",
+      "annotation_note": "“What's the remaining work? I'll enter it using this keyboard.”明确表达剩余的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "keyboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "键盘",
+      "pos": "noun",
+      "ipa_us": "/ˈkiːbɔːrd/",
+      "ipa_uk": "/ˈkiːbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "What's the remaining work? I'll enter it using this keyboard.",
+        "matched_form": "keyboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "What's the remaining work? I'll enter it using this keyboard.",
+      "example_zh": "还有哪些工作剩下？我用这个键盘录入。",
+      "bbox_normalized": [
+        0.278,
+        0.496,
+        0.557,
+        0.574
+      ],
+      "collocations": [
+        "on this keyboard",
+        "a computer keyboard"
+      ],
+      "example_en_highlighted": "What's the remaining work? I'll enter it using this **keyboard**.",
+      "annotation_mode": "object",
+      "annotation_note": "键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer updates a teammate on task progress.",
+    "zh": "开发者向同事更新任务进展。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer updates a teammate on task progress.",
+    "zh": "开发者向同事更新任务进展。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could you update the task status before our meeting?",
+      "zh": "开会之前，你能更新一下任务状态吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. I've made good progress on the API tests.",
+      "zh": "当然。API 测试已经取得不错的进展。"
+    },
+    {
+      "speaker": "A",
+      "en": "What's the remaining work? I'll enter it using this keyboard.",
+      "zh": "还有哪些工作剩下？我用这个键盘录入。"
+    },
+    {
+      "speaker": "B",
+      "en": "Just the timeout case. I expect to finish it this afternoon.",
+      "zh": "只剩超时的情况。我预计今天下午能完成。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "更新任务状态，说明进展与剩余工作。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a desk, one typing at a separate fully visible keyboard in the foreground and looking toward the listening colleague. A monitor has abstract rectangular task rows, no text.",
+  "status": "approved",
+  "image_path": "images/W029.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W029 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W029.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:28:46.467Z",
+    "prompt_path": "prompts/W029_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W029.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：桌前完整键盘，手部覆盖少量键帽，整体形状可辨。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

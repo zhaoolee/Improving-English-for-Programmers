@@ -1,0 +1,130 @@
+{
+  "filename": "W020-复述讨论后的共同理解.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "understanding",
+      "chinese": "理解",
+      "phoneticUS": "/ˌʌndərˈstændɪŋ/",
+      "phoneticUK": "/ˌʌndəˈstændɪŋ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let me confirm my understanding of the plan.”明确表达理解；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let me confirm my understanding of the plan.”明确表达理解；单幅画面不能独立证明，不设局部框。",
+        "collocation": "my understanding of; a clear understanding",
+        "example": "A: Let me confirm my understanding of the plan.\nB: Sure. What will the first version include?\nA: Search and filters. We'll exclude export and update the board.\nB: Exactly. We agree on the scope now.",
+        "exampleChinese": "A: 我来确认一下我对计划的理解。\nB: 好。第一版会包含哪些内容？\nA: 搜索和筛选。我们会排除导出功能，并更新白板。\nB: 没错。现在我们对范围达成一致了。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "confirm",
+      "chinese": "确认",
+      "phoneticUS": "/kənˈfɜːrm/",
+      "phoneticUK": "/kənˈfɜːm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let me confirm my understanding of the plan.”明确表达确认；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let me confirm my understanding of the plan.”明确表达确认；单幅画面不能独立证明，不设局部框。",
+        "collocation": "confirm the plan; confirm details",
+        "example": "Let me confirm my understanding of the plan.",
+        "exampleChinese": "我来确认一下我对计划的理解。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "exclude",
+      "chinese": "排除",
+      "phoneticUS": "/ɪkˈskluːd/",
+      "phoneticUK": "/ɪkˈskluːd/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Search and filters. We'll exclude export and update the board.”明确表达排除；单幅画面不能独立证明，不设局部框。",
+        "association": "“Search and filters. We'll exclude export and update the board.”明确表达排除；单幅画面不能独立证明，不设局部框。",
+        "collocation": "exclude a feature; exclude from the list",
+        "example": "Search and filters. We'll exclude export and update the board.",
+        "exampleChinese": "搜索和筛选。我们会排除导出功能，并更新白板。"
+      }
+    },
+    {
+      "x": 505,
+      "y": 587,
+      "english": "board",
+      "chinese": "白板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 505,
+        "y": 587
+      },
+      "boundingBox": {
+        "left": 257,
+        "top": 203,
+        "right": 756,
+        "bottom": 776
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "update the board; a task board",
+        "example": "Search and filters. We'll exclude export and update the board.",
+        "exampleChinese": "搜索和筛选。我们会排除导出功能，并更新白板。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two teammates restate the scope to confirm a shared understanding.",
+    "chinese": "两位同事复述范围，确认双方理解一致。",
+    "source": "原创对话 · W020 复述讨论后的共同理解",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,246 @@
+{
+  "id": "V035",
+  "category": "quality",
+  "category_title": "测试与代码审查",
+  "chapter": "测试与代码审查",
+  "title": "把未验证的部分讲清楚",
+  "keyword": "unverified",
+  "scene": "按验收标准验证结果、检查边界与风险",
+  "target_count": 4,
+  "primary_words": [
+    "unverified",
+    "limitation",
+    "confirm",
+    "report"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "unverified",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "未经验证的",
+      "pos": "adjective",
+      "ipa_us": "/ʌnˈverɪfaɪd/",
+      "ipa_uk": "/ʌnˈverɪfaɪd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What remains unverified in this report?",
+        "matched_form": "unverified",
+        "referent_region_verified": false,
+        "context": "是否验证取决于实际检查证据，不能从报告版式判断。",
+        "image_verified": null
+      },
+      "example_en": "What remains unverified in this report?",
+      "example_zh": "这份报告里还有哪些内容未经验证？",
+      "bbox_normalized": null,
+      "collocations": [
+        "remain unverified",
+        "an unverified result"
+      ],
+      "example_en_highlighted": "What remains **unverified** in this report?",
+      "annotation_mode": "context",
+      "annotation_note": "是否验证取决于实际检查证据，不能从报告版式判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "limitation",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "限制",
+      "pos": "noun",
+      "ipa_us": "/ˌlɪmɪˈteɪʃən/",
+      "ipa_uk": "/ˌlɪmɪˈteɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The mobile path is a limitation because I only checked desktop.",
+        "matched_form": "limitation",
+        "referent_region_verified": false,
+        "context": "限制来自测试范围，静态文档没有具体范围文字。",
+        "image_verified": null
+      },
+      "example_en": "The mobile path is a limitation because I only checked desktop.",
+      "example_zh": "移动端路径仍是限制，因为我只检查了桌面端。",
+      "bbox_normalized": null,
+      "collocations": [
+        "state a limitation",
+        "a testing limitation"
+      ],
+      "example_en_highlighted": "The mobile path is a **limitation** because I only checked desktop.",
+      "annotation_mode": "context",
+      "annotation_note": "限制来自测试范围，静态文档没有具体范围文字。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "confirm",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "确认",
+      "pos": "verb",
+      "ipa_us": "/kənˈfɜːrm/",
+      "ipa_uk": "/kənˈfɜːm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Mark that clearly and say what someone must confirm.",
+        "matched_form": "confirm",
+        "referent_region_verified": false,
+        "context": "确认是后续验证动作，画面不能证明已完成。",
+        "image_verified": null
+      },
+      "example_en": "Mark that clearly and say what someone must confirm.",
+      "example_zh": "把这一点标清楚，并说明还需要确认什么。",
+      "bbox_normalized": null,
+      "collocations": [
+        "confirm a result",
+        "confirm the behavior"
+      ],
+      "example_en_highlighted": "Mark that clearly and say what someone must **confirm**.",
+      "annotation_mode": "context",
+      "annotation_note": "确认是后续验证动作，画面不能证明已完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "report",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "报告",
+      "pos": "noun",
+      "ipa_us": "/rɪˈpɔːrt/",
+      "ipa_uk": "/rɪˈpɔːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "手中完整可见、分为两段的纸质报告是直接指代，只框整张纸。",
+        "sentence": "What remains unverified in this report?",
+        "matched_form": "report",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "What remains unverified in this report?",
+      "example_zh": "这份报告里还有哪些内容未经验证？",
+      "bbox_normalized": [
+        0.367,
+        0.239,
+        0.628,
+        0.642
+      ],
+      "collocations": [
+        "in this report",
+        "a test report"
+      ],
+      "example_en_highlighted": "What remains unverified in this **report**?",
+      "annotation_mode": "object",
+      "annotation_note": "手中完整可见、分为两段的纸质报告是直接指代，只框整张纸。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant to separate verified results from limitations in a report.",
+    "zh": "程序员让 AI 在报告中区分已验证结果与限制。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant to separate verified results from limitations in a report.",
+    "zh": "程序员让 AI 在报告中区分已验证结果与限制。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What remains unverified in this report?",
+      "zh": "这份报告里还有哪些内容未经验证？"
+    },
+    {
+      "speaker": "B",
+      "en": "The mobile path is a limitation because I only checked desktop.",
+      "zh": "移动端路径仍是限制，因为我只检查了桌面端。"
+    },
+    {
+      "speaker": "A",
+      "en": "Mark that clearly and say what someone must confirm.",
+      "zh": "把这一点标清楚，并说明还需要确认什么。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll separate confirmed results from open questions in the report.",
+      "zh": "我会在报告中把已确认结果与待解问题分开。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "清楚说明未验证范围、限制和下一步确认方式。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left holding one large report sheet upright at center. The complete sheet has two blank sections separated by a horizontal divider and several short abstract unreadable lines, with no letters, numbers, check marks or icons. The hand grips only the edge. The floating white OpenAI knot is at the right. No other papers or devices.",
+  "status": "approved",
+  "image_path": "images/V035.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V035 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V035.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V035_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V035.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。手持双段报告纸张外框完整，内部横线不可读；未验证、限制和确认状态均由对白表达。"
+  }
+}

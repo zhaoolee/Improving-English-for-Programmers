@@ -1,0 +1,130 @@
+{
+  "filename": "I017.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "request",
+      "chinese": "请求",
+      "phoneticUS": "/rɪˈkwest/",
+      "phoneticUK": "/rɪˈkwest/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：request。本卡例句：The client sends a request to the server, which returns a response.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：request。本卡例句：The client sends a request to the server, which returns a response.",
+        "collocation": "an HTTP request; handle a request",
+        "example": "A: The client sends a request to the server, which returns a response.\nB: What information does an HTTP response contain?\nA: A status code, headers, and possibly a body. This diagram shows the two directions.\nB: How would you handle a failed request?",
+        "exampleChinese": "A: 客户端向服务器发送请求，服务器返回响应。\nB: HTTP 响应包含哪些信息？\nA: 状态码、响应头，以及可能存在的响应体。这张示意图展示了两个方向。\nB: 你会如何处理失败的请求？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "response",
+      "chinese": "响应",
+      "phoneticUS": "/rɪˈspɑːns/",
+      "phoneticUK": "/rɪˈspɒns/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：response。本卡例句：The client sends a request to the server, which returns a response.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：response。本卡例句：The client sends a request to the server, which returns a response.",
+        "collocation": "an HTTP response; a response body",
+        "example": "The client sends a request to the server, which returns a response.",
+        "exampleChinese": "客户端向服务器发送请求，服务器返回响应。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "server",
+      "chinese": "服务器",
+      "phoneticUS": "/ˈsɜːrvər/",
+      "phoneticUK": "/ˈsɜːvə/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：server。本卡例句：The client sends a request to the server, which returns a response.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：server。本卡例句：The client sends a request to the server, which returns a response.",
+        "collocation": "a web server; the server response",
+        "example": "The client sends a request to the server, which returns a response.",
+        "exampleChinese": "客户端向服务器发送请求，服务器返回响应。"
+      }
+    },
+    {
+      "x": 525,
+      "y": 700,
+      "english": "diagram",
+      "chinese": "示意图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 545,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 525,
+        "y": 700
+      },
+      "boundingBox": {
+        "left": 315,
+        "top": 655,
+        "right": 745,
+        "bottom": 741
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。",
+        "association": "修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。",
+        "collocation": "a flow diagram; explain a diagram",
+        "example": "A status code, headers, and possibly a body. This diagram shows the two directions.",
+        "exampleChinese": "状态码、响应头，以及可能存在的响应体。这张示意图展示了两个方向。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate uses a paper diagram to describe an HTTP exchange.",
+    "chinese": "候选人借助纸上的示意图说明一次 HTTP 交互。",
+    "source": "原创配文 · I017 说明一次 HTTP 请求的流程",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

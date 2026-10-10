@@ -1,0 +1,246 @@
+{
+  "id": "W080",
+  "category": "growth",
+  "category_title": "反馈与职业成长",
+  "chapter": "反馈与职业成长",
+  "title": "感谢同事的具体帮助",
+  "keyword": "appreciate",
+  "scene": "开发者感谢同事在困难任务中提供的帮助。",
+  "target_count": 4,
+  "primary_words": [
+    "appreciate",
+    "guidance",
+    "confidence",
+    "mug"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "appreciate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "感谢",
+      "pos": "verb",
+      "ipa_us": "/əˈpriːʃieɪt/",
+      "ipa_uk": "/əˈpriːʃieɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I really appreciate your guidance on that tricky bug.",
+        "matched_form": "appreciate",
+        "referent_region_verified": false,
+        "context": "“I really appreciate your guidance on that tricky bug.”明确表达感谢；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I really appreciate your guidance on that tricky bug.",
+      "example_zh": "非常感谢你在那个棘手缺陷上给我的指导。",
+      "bbox_normalized": null,
+      "collocations": [
+        "appreciate your help",
+        "really appreciate"
+      ],
+      "example_en_highlighted": "I really **appreciate** your guidance on that tricky bug.",
+      "annotation_mode": "context",
+      "annotation_note": "“I really appreciate your guidance on that tricky bug.”明确表达感谢；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "guidance",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "指导",
+      "pos": "noun",
+      "ipa_us": "/ˈɡaɪdns/",
+      "ipa_uk": "/ˈɡaɪdns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I really appreciate your guidance on that tricky bug.",
+        "matched_form": "guidance",
+        "referent_region_verified": false,
+        "context": "“I really appreciate your guidance on that tricky bug.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I really appreciate your guidance on that tricky bug.",
+      "example_zh": "非常感谢你在那个棘手缺陷上给我的指导。",
+      "bbox_normalized": null,
+      "collocations": [
+        "ask for guidance",
+        "your guidance on"
+      ],
+      "example_en_highlighted": "I really appreciate your **guidance** on that tricky bug.",
+      "annotation_mode": "context",
+      "annotation_note": "“I really appreciate your guidance on that tricky bug.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "confidence",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "信心",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːnfɪdəns/",
+      "ipa_uk": "/ˈkɒnfɪdəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "It gave me more confidence. Let me get you a mug of coffee.",
+        "matched_form": "confidence",
+        "referent_region_verified": false,
+        "context": "“It gave me more confidence. Let me get you a mug of coffee.”明确表达信心；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "It gave me more confidence. Let me get you a mug of coffee.",
+      "example_zh": "这让我更有信心。让我请你喝一杯咖啡吧。",
+      "bbox_normalized": null,
+      "collocations": [
+        "give confidence",
+        "more confidence"
+      ],
+      "example_en_highlighted": "It gave me more **confidence**. Let me get you a mug of coffee.",
+      "annotation_mode": "context",
+      "annotation_note": "“It gave me more confidence. Let me get you a mug of coffee.”明确表达信心；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "mug",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "马克杯",
+      "pos": "noun",
+      "ipa_us": "/mʌɡ/",
+      "ipa_uk": "/mʌɡ/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "It gave me more confidence. Let me get you a mug of coffee.",
+        "matched_form": "mug",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "It gave me more confidence. Let me get you a mug of coffee.",
+      "example_zh": "这让我更有信心。让我请你喝一杯咖啡吧。",
+      "bbox_normalized": [
+        0.332,
+        0.693,
+        0.544,
+        0.889
+      ],
+      "collocations": [
+        "a mug of tea",
+        "a coffee mug"
+      ],
+      "example_en_highlighted": "It gave me more confidence. Let me get you a **mug** of coffee.",
+      "annotation_mode": "object",
+      "annotation_note": "马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer thanks a teammate for help with a difficult task.",
+    "zh": "开发者感谢同事在困难任务中提供的帮助。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer thanks a teammate for help with a difficult task.",
+    "zh": "开发者感谢同事在困难任务中提供的帮助。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "I really appreciate your guidance on that tricky bug.",
+      "zh": "非常感谢你在那个棘手缺陷上给我的指导。"
+    },
+    {
+      "speaker": "B",
+      "en": "You're welcome. You did the hard work of testing each idea.",
+      "zh": "不客气。逐个验证思路的辛苦工作是你做的。"
+    },
+    {
+      "speaker": "A",
+      "en": "It gave me more confidence. Let me get you a mug of coffee.",
+      "zh": "这让我更有信心。让我请你喝一杯咖啡吧。"
+    },
+    {
+      "speaker": "B",
+      "en": "Thanks! I'm glad we could work through it together.",
+      "zh": "谢谢！很高兴我们能一起解决它。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "具体感谢同事的指导与帮助。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a small table, one smiling and offering an open-hand thank-you gesture, other smiling back. A large mug with loop handle stands alone in the foreground fully visible. No speech bubbles.",
+  "status": "approved",
+  "image_path": "images/W080.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W080 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W080.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:37:39.744Z",
+    "prompt_path": "prompts/W080_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W080.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：前景完整马克杯和杯把，是画面道具，不把表情当作真实感谢或信心证据。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

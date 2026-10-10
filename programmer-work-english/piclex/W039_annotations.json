@@ -1,0 +1,130 @@
+{
+  "filename": "W039-回答方案评审问题.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "tradeoff",
+      "chinese": "权衡",
+      "phoneticUS": "/ˈtreɪdɔːf/",
+      "phoneticUK": "/ˈtreɪdɒf/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What tradeoff are we making with this cache?”明确表达权衡；单幅画面不能独立证明，不设局部框。",
+        "association": "“What tradeoff are we making with this cache?”明确表达权衡；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a tradeoff between; make a tradeoff",
+        "example": "A: What tradeoff are we making with this cache?\nB: We lower latency, but updates may take longer to appear.\nA: Is that delay acceptable? Let's compare the charts on this monitor.\nB: For this page, yes. Users don't need live updates here.",
+        "exampleChinese": "A: 使用这个缓存，我们在做什么权衡？\nB: 我们降低了延迟，但更新可能需要更久才显示出来。\nA: 这个延迟可以接受吗？我们对比一下这个显示器上的图表吧。\nB: 对于这个页面，可以。用户在这里不需要实时更新。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "latency",
+      "chinese": "延迟",
+      "phoneticUS": "/ˈleɪtənsi/",
+      "phoneticUK": "/ˈleɪtənsi/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“We lower latency, but updates may take longer to appear.”明确表达延迟；单幅画面不能独立证明，不设局部框。",
+        "association": "“We lower latency, but updates may take longer to appear.”明确表达延迟；单幅画面不能独立证明，不设局部框。",
+        "collocation": "lower latency; reduce latency",
+        "example": "We lower latency, but updates may take longer to appear.",
+        "exampleChinese": "我们降低了延迟，但更新可能需要更久才显示出来。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "acceptable",
+      "chinese": "可接受的",
+      "phoneticUS": "/əkˈseptəbl/",
+      "phoneticUK": "/əkˈseptəbl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is that delay acceptable? Let's compare the charts on this monitor.”明确表达可接受的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is that delay acceptable? Let's compare the charts on this monitor.”明确表达可接受的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "acceptable delay; be acceptable",
+        "example": "Is that delay acceptable? Let's compare the charts on this monitor.",
+        "exampleChinese": "这个延迟可以接受吗？我们对比一下这个显示器上的图表吧。"
+      }
+    },
+    {
+      "x": 633,
+      "y": 480,
+      "english": "monitor",
+      "chinese": "显示器",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 630
+      },
+      "anchorPosition": {
+        "x": 633,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 369,
+        "top": 267,
+        "right": 725,
+        "bottom": 565
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on the monitor; a computer monitor",
+        "example": "Is that delay acceptable? Let's compare the charts on this monitor.",
+        "exampleChinese": "这个延迟可以接受吗？我们对比一下这个显示器上的图表吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer answers a question about a design tradeoff.",
+    "chinese": "开发者回答关于方案权衡的评审问题。",
+    "source": "原创对话 · W039 回答方案评审问题",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "V002-AI 会写，不等于 AI 会负责.png",
+  "labels": [
+    {
+      "x": 250,
+      "y": 80,
+      "english": "responsibility",
+      "chinese": "责任",
+      "phoneticUS": "/rɪˌspɑːnsəˈbɪləti/",
+      "phoneticUK": "/rɪˌspɒnsəˈbɪləti/",
+      "bubblePosition": {
+        "x": 250,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "责任由对白明确提出，不能从签署手势或夹板外观判定。",
+        "association": "责任由对白明确提出，不能从签署手势或夹板外观判定。",
+        "collocation": "take responsibility; responsibility for the changes",
+        "example": "A: Before I sign off on the changes, who takes responsibility for the result?\nB: You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.\nA: I'll use this clipboard to record checks and verify the behavior myself before we ship.\nB: Good. Check the tests and review anything that affects users.",
+        "exampleChinese": "A: 在我批准这些改动前，谁对结果负责？\nB: 你仍要对自己批准的内容负责。我可以建议代码，但不能替你承担结果。\nA: 我会用这张夹板记录检查结果，并在交付前亲自验证行为。\nB: 好的。检查测试，并审查任何影响用户的改动。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 80,
+      "english": "accountable",
+      "chinese": "需负责的",
+      "phoneticUS": "/əˈkaʊntəbl/",
+      "phoneticUK": "/əˈkaʊntəbl/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对批准结果负责是对白中的责任关系，没有局部可见指代。",
+        "association": "对批准结果负责是对白中的责任关系，没有局部可见指代。",
+        "collocation": "remain accountable; accountable for a decision",
+        "example": "You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.",
+        "exampleChinese": "你仍要对自己批准的内容负责。我可以建议代码，但不能替你承担结果。"
+      }
+    },
+    {
+      "x": 150,
+      "y": 230,
+      "english": "verify",
+      "chinese": "验证",
+      "phoneticUS": "/ˈverɪfaɪ/",
+      "phoneticUK": "/ˈverɪfaɪ/",
+      "bubblePosition": {
+        "x": 150,
+        "y": 230
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "验证尚未发生，图片不证明测试结果。",
+        "association": "验证尚未发生，图片不证明测试结果。",
+        "collocation": "verify the behavior; verify a result",
+        "example": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+        "exampleChinese": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。"
+      }
+    },
+    {
+      "x": 468,
+      "y": 488,
+      "english": "clipboard",
+      "chinese": "写字夹板",
+      "phoneticUS": "/ˈklɪpbɔːrd/",
+      "phoneticUK": "/ˈklɪpbɔːd/",
+      "bubblePosition": {
+        "x": 690,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 468,
+        "y": 488
+      },
+      "boundingBox": {
+        "left": 376,
+        "top": 354,
+        "right": 540,
+        "bottom": 590
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的夹板及顶部纸夹是 clipboard 的直接指代。",
+        "association": "完整可见的夹板及顶部纸夹是 clipboard 的直接指代。",
+        "collocation": "on a clipboard; a review clipboard",
+        "example": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+        "exampleChinese": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant who takes responsibility for approving generated changes.",
+    "chinese": "程序员询问 AI：谁对生成改动的批准负责。",
+    "source": "原创对话 · V002 AI 会写，不等于 AI 会负责",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

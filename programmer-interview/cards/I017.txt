@@ -1,0 +1,123 @@
+I017  说明一次 HTTP 请求的流程
+========================================================================
+分类: 技术基础与原理问答（fundamentals）
+关键词: request
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I017.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I017.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I017.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-10T02:34:36Z → 2026-10-10T02:35:14Z
+  提示词文件: prompts/I017_image_final.txt
+
+场景: 欧洲女候选人从浏览器请求出发讲解 HTTP 流程，亚洲女面试官看小型节点图。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留 实际可见物件：修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。
+
+沟通目标: 用清晰英语解释常见技术概念、区别和适用条件。本卡主题：说明一次 HTTP 请求的流程。
+
+主配文（一句场景描述）:
+  英文: A candidate uses a paper diagram to describe an HTTP exchange.
+  中文: 候选人借助纸上的示意图说明一次 HTTP 交互。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] The client sends a request to the server, which returns a response.
+        客户端向服务器发送请求，服务器返回响应。
+  [B] What information does an HTTP response contain?
+        HTTP 响应包含哪些信息？
+  [A] A status code, headers, and possibly a body. This diagram shows the two directions.
+        状态码、响应头，以及可能存在的响应体。这张示意图展示了两个方向。
+  [B] How would you handle a failed request?
+        你会如何处理失败的请求？
+
+目标词 (4): request, response, server, diagram
+
+------------------------------------------------------------------------
+[1/4] request
+  词义: 请求
+  词性: noun
+  音标: UK /rɪˈkwest/ | US /rɪˈkwest/
+  搭配: an HTTP request; handle a request
+  例句: The client sends a request to the server, which returns a response.
+  例句高亮: The client sends a **request** to the server, which returns a response.
+  例句中文: 客户端向服务器发送请求，服务器返回响应。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：request。本卡例句：The client sends a request to the server, which returns a response.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] response
+  词义: 响应
+  词性: noun
+  音标: UK /rɪˈspɒns/ | US /rɪˈspɑːns/
+  搭配: an HTTP response; a response body
+  例句: The client sends a request to the server, which returns a response.
+  例句高亮: The client sends a request to the server, which returns a **response**.
+  例句中文: 客户端向服务器发送请求，服务器返回响应。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：response。本卡例句：The client sends a request to the server, which returns a response.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] server
+  词义: 服务器
+  词性: noun
+  音标: UK /ˈsɜːvə/ | US /ˈsɜːrvər/
+  搭配: a web server; the server response
+  例句: The client sends a request to the server, which returns a response.
+  例句高亮: The client sends a request to the **server**, which returns a response.
+  例句中文: 客户端向服务器发送请求，服务器返回响应。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：server。本卡例句：The client sends a request to the server, which returns a response.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] diagram
+  词义: 示意图
+  词性: noun
+  音标: UK /ˈdaɪəɡræm/ | US /ˈdaɪəɡræm/
+  搭配: a flow diagram; explain a diagram
+  例句: A status code, headers, and possibly a body. This diagram shows the two directions.
+  例句高亮: A status code, headers, and possibly a body. This **diagram** shows the two directions.
+  例句中文: 状态码、响应头，以及可能存在的响应体。这张示意图展示了两个方向。
+  标注模式: object
+  标注说明: 修图后桌中央完整的三方框纸质示意图；电脑已完整进入画面，HTTP语义仍来自对白。
+  坐标(normalized): [0.315, 0.655, 0.745, 0.741]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I017 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.
+Interviewer or recruiter: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.
+Exactly two people discussing an HTTP request in an interview. Sofia, in a sage blouse, sits beside an open laptop and a small paper sketch with three unlabeled boxes linked by arrows. She traces the sequence gently with a pen, then makes eye contact with Hana, the interviewer in an ivory blouse and navy blazer. The laptop screen has a neutral browser-like rectangle without legible content. Photograph at seated eye level with a 50mm three-quarter view, showing both faces, the whole laptop and the sketch. Soft morning daylight, a clean cream interior and grounded material detail. No floating network globe, visible URLs or magical streams of data.

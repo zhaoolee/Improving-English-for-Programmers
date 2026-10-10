@@ -1,0 +1,15 @@
+{
+  "cardID": "V006",
+  "imagePath": "../images/V006.png",
+  "imageSHA256": "0fd50e6b4274d00549c6ab5a4cada01b8e0862b2460868e86d86adc5c1922f27",
+  "imageReviewed": true,
+  "annotationsPath": "V006_annotations.json",
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "expectedWords": [
+    "scope",
+    "requirement",
+    "constraint",
+    "notebook"
+  ],
+  "receiptPath": "V006_import_receipt.json"
+}

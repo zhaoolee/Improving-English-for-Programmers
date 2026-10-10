@@ -1,0 +1,246 @@
+{
+  "id": "W057",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "缩小问题影响范围",
+  "keyword": "isolate",
+  "scene": "两位开发者缩小缺陷所影响的用户范围。",
+  "target_count": 4,
+  "primary_words": [
+    "isolate",
+    "affected",
+    "region",
+    "board"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "isolate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "隔离定位",
+      "pos": "verb",
+      "ipa_us": "/ˈaɪsəleɪt/",
+      "ipa_uk": "/ˈaɪsəleɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can we isolate the affected users?",
+        "matched_form": "isolate",
+        "referent_region_verified": false,
+        "context": "“Can we isolate the affected users?”明确表达隔离定位；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Can we isolate the affected users?",
+      "example_zh": "我们能定位出受影响的用户吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "isolate the problem",
+        "isolate users"
+      ],
+      "example_en_highlighted": "Can we **isolate** the affected users?",
+      "annotation_mode": "context",
+      "annotation_note": "“Can we isolate the affected users?”明确表达隔离定位；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "affected",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "受影响的",
+      "pos": "adjective",
+      "ipa_us": "/əˈfektɪd/",
+      "ipa_uk": "/əˈfektɪd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can we isolate the affected users?",
+        "matched_form": "affected",
+        "referent_region_verified": false,
+        "context": "“Can we isolate the affected users?”明确表达受影响的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Can we isolate the affected users?",
+      "example_zh": "我们能定位出受影响的用户吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "affected users",
+        "be affected"
+      ],
+      "example_en_highlighted": "Can we isolate the **affected** users?",
+      "annotation_mode": "context",
+      "annotation_note": "“Can we isolate the affected users?”明确表达受影响的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "region",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "区域",
+      "pos": "noun",
+      "ipa_us": "/ˈriːdʒən/",
+      "ipa_uk": "/ˈriːdʒən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "So far, only new accounts in one region have reported it.",
+        "matched_form": "region",
+        "referent_region_verified": false,
+        "context": "“So far, only new accounts in one region have reported it.”明确表达区域；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "So far, only new accounts in one region have reported it.",
+      "example_zh": "目前只有一个区域的新账户报告了这个问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "in one region",
+        "a region of users"
+      ],
+      "example_en_highlighted": "So far, only new accounts in one **region** have reported it.",
+      "annotation_mode": "context",
+      "annotation_note": "“So far, only new accounts in one region have reported it.”明确表达区域；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "board",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/bɔːrd/",
+      "ipa_uk": "/bɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Let's mark that group on the board and check older accounts.",
+        "matched_form": "board",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let's mark that group on the board and check older accounts.",
+      "example_zh": "我们在白板上标记这个群体，再检查旧账户。",
+      "bbox_normalized": [
+        0.323,
+        0.217,
+        0.719,
+        0.768
+      ],
+      "collocations": [
+        "update the board",
+        "a task board"
+      ],
+      "example_en_highlighted": "Let's mark that group on the **board** and check older accounts.",
+      "annotation_mode": "object",
+      "annotation_note": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two developers narrow down which users are affected by a bug.",
+    "zh": "两位开发者缩小缺陷所影响的用户范围。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two developers narrow down which users are affected by a bug.",
+    "zh": "两位开发者缩小缺陷所影响的用户范围。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Can we isolate the affected users?",
+      "zh": "我们能定位出受影响的用户吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "So far, only new accounts in one region have reported it.",
+      "zh": "目前只有一个区域的新账户报告了这个问题。"
+    },
+    {
+      "speaker": "A",
+      "en": "Let's mark that group on the board and check older accounts.",
+      "zh": "我们在白板上标记这个群体，再检查旧账户。"
+    },
+    {
+      "speaker": "B",
+      "en": "Good idea. That will help us narrow down the cause.",
+      "zh": "好主意。这能帮助我们缩小原因范围。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "定位受影响的用户范围以缩小原因。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers point at a fully visible freestanding board with several simple circles, one circle inside an outlined grouping shape. No map letters or numbers. Conversation gestures.",
+  "status": "approved",
+  "image_path": "images/W057.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W057 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W057.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:32:43.756Z",
+    "prompt_path": "prompts/W057_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W057.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整白板与支架；受影响用户由对白限定，不从圈图猜区域身份。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

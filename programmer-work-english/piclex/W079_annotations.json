@@ -1,0 +1,130 @@
+{
+  "filename": "W079-讨论职业发展方向.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "growth",
+      "chinese": "成长",
+      "phoneticUS": "/ɡroʊθ/",
+      "phoneticUK": "/ɡrəʊθ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Which skill should I focus on for my growth this year?”明确表达成长；单幅画面不能独立证明，不设局部框。",
+        "association": "“Which skill should I focus on for my growth this year?”明确表达成长；单幅画面不能独立证明，不设局部框。",
+        "collocation": "career growth; personal growth",
+        "example": "A: Which skill should I focus on for my growth this year?\nB: System design would help. I can mentor you through a small project.\nA: Thanks. Let's put a monthly check-in on the calendar.\nB: Good idea. We can review progress and adjust the plan together.",
+        "exampleChinese": "A: 今年的成长中，我应该专注于哪项技能？\nB: 系统设计会有帮助。我可以通过一个小项目指导你。\nA: 谢谢。我们在日历上安排每月一次的交流吧。\nB: 好主意。我们可以一起回顾进展并调整计划。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "skill",
+      "chinese": "技能",
+      "phoneticUS": "/skɪl/",
+      "phoneticUK": "/skɪl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Which skill should I focus on for my growth this year?”明确表达技能；单幅画面不能独立证明，不设局部框。",
+        "association": "“Which skill should I focus on for my growth this year?”明确表达技能；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a new skill; improve a skill",
+        "example": "Which skill should I focus on for my growth this year?",
+        "exampleChinese": "今年的成长中，我应该专注于哪项技能？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "mentor",
+      "chinese": "指导",
+      "phoneticUS": "/ˈmentɔːr/",
+      "phoneticUK": "/ˈmentɔː/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“System design would help. I can mentor you through a small project.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+        "association": "“System design would help. I can mentor you through a small project.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+        "collocation": "mentor a teammate; mentor someone",
+        "example": "System design would help. I can mentor you through a small project.",
+        "exampleChinese": "系统设计会有帮助。我可以通过一个小项目指导你。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 612,
+      "english": "calendar",
+      "chinese": "日历",
+      "phoneticUS": "/ˈkælɪndər/",
+      "phoneticUK": "/ˈkælɪndə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 612
+      },
+      "boundingBox": {
+        "left": 296,
+        "top": 278,
+        "right": 729,
+        "bottom": 783
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "日历（calendar）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this calendar; mark dates on a calendar",
+        "example": "Thanks. Let's put a monthly check-in on the calendar.",
+        "exampleChinese": "谢谢。我们在日历上安排每月一次的交流吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer and a teammate discuss a career growth plan.",
+    "chinese": "开发者与同事讨论职业成长计划。",
+    "source": "原创对话 · W079 讨论职业发展方向",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "I018.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "index",
+      "chinese": "索引",
+      "phoneticUS": "/ˈɪndeks/",
+      "phoneticUK": "/ˈɪndeks/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：index。本卡例句：An index can help a query find matching rows without scanning the whole table.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：index。本卡例句：An index can help a query find matching rows without scanning the whole table.",
+        "collocation": "a database index; create an index",
+        "example": "A: An index can help a query find matching rows without scanning the whole table.\nB: What overhead does it add?\nA: It uses storage and adds work to writes. I'll compare both paths in this notebook.\nB: How would you check whether the query actually uses it?",
+        "exampleChinese": "A: 索引可以帮助查询找到匹配行，避免扫描整张表。\nB: 它会增加哪些开销？\nA: 它会占用存储空间，也会增加写入工作量。我会在这本笔记本里比较两条路径。\nB: 你会如何检查查询是否真的使用了索引？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "query",
+      "chinese": "查询",
+      "phoneticUS": "/ˈkwɪri/",
+      "phoneticUK": "/ˈkwɪəri/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：query。本卡例句：An index can help a query find matching rows without scanning the whole table.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：query。本卡例句：An index can help a query find matching rows without scanning the whole table.",
+        "collocation": "a database query; optimize a query",
+        "example": "An index can help a query find matching rows without scanning the whole table.",
+        "exampleChinese": "索引可以帮助查询找到匹配行，避免扫描整张表。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "overhead",
+      "chinese": "额外开销",
+      "phoneticUS": "/ˈoʊvərhed/",
+      "phoneticUK": "/ˈəʊvəhed/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：overhead。本卡例句：What overhead does it add?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：overhead。本卡例句：What overhead does it add?",
+        "collocation": "storage overhead; write overhead",
+        "example": "What overhead does it add?",
+        "exampleChinese": "它会增加哪些开销？"
+      }
+    },
+    {
+      "x": 428,
+      "y": 550,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 490,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 428,
+        "y": 550
+      },
+      "boundingBox": {
+        "left": 275,
+        "top": 455,
+        "right": 570,
+        "bottom": 645
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人举起的螺旋纸质笔记本及无字路径图；索引实际运行特性由对白支持。",
+        "association": "候选人举起的螺旋纸质笔记本及无字路径图；索引实际运行特性由对白支持。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "It uses storage and adds work to writes. I'll compare both paths in this notebook.",
+        "exampleChinese": "它会占用存储空间，也会增加写入工作量。我会在这本笔记本里比较两条路径。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate holds an open notebook while discussing database indexes.",
+    "chinese": "候选人手持打开的笔记本，讨论数据库索引。",
+    "source": "原创配文 · I018 解释数据库索引的作用与代价",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "W059-汇报暂时无法复现.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "reproduce",
+      "chinese": "复现",
+      "phoneticUS": "/ˌriːprəˈduːs/",
+      "phoneticUK": "/ˌriːprəˈdjuːs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I can't reproduce the issue in my local environment yet.”明确表达复现；单幅画面不能独立证明，不设局部框。",
+        "association": "“I can't reproduce the issue in my local environment yet.”明确表达复现；单幅画面不能独立证明，不设局部框。",
+        "collocation": "reproduce an issue; reproduce the error",
+        "example": "A: I can't reproduce the issue in my local environment yet.\nB: What evidence would help you investigate?\nA: A recording and the exact steps. This monitor shows a normal result.\nB: I'll ask the reporter for those details and the app version.",
+        "exampleChinese": "A: 我暂时还无法在本地环境复现这个问题。\nB: 哪些证据能帮助你调查？\nA: 一段录像和确切步骤。这个显示器上显示的是正常结果。\nB: 我会向反馈者询问这些细节和应用版本。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "environment",
+      "chinese": "环境",
+      "phoneticUS": "/ɪnˈvaɪrənmənt/",
+      "phoneticUK": "/ɪnˈvaɪrənmənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I can't reproduce the issue in my local environment yet.”明确表达环境；单幅画面不能独立证明，不设局部框。",
+        "association": "“I can't reproduce the issue in my local environment yet.”明确表达环境；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a local environment; set up an environment",
+        "example": "I can't reproduce the issue in my local environment yet.",
+        "exampleChinese": "我暂时还无法在本地环境复现这个问题。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "evidence",
+      "chinese": "证据",
+      "phoneticUS": "/ˈevɪdəns/",
+      "phoneticUK": "/ˈevɪdəns/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What evidence would help you investigate?”明确表达证据；单幅画面不能独立证明，不设局部框。",
+        "association": "“What evidence would help you investigate?”明确表达证据；单幅画面不能独立证明，不设局部框。",
+        "collocation": "collect evidence; provide evidence",
+        "example": "What evidence would help you investigate?",
+        "exampleChinese": "哪些证据能帮助你调查？"
+      }
+    },
+    {
+      "x": 827,
+      "y": 459,
+      "english": "monitor",
+      "chinese": "显示器",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 795,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 827,
+        "y": 459
+      },
+      "boundingBox": {
+        "left": 651,
+        "top": 274,
+        "right": 949,
+        "bottom": 582
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on the monitor; a computer monitor",
+        "example": "A recording and the exact steps. This monitor shows a normal result.",
+        "exampleChinese": "一段录像和确切步骤。这个显示器上显示的是正常结果。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer reports that a bug cannot yet be reproduced locally.",
+    "chinese": "开发者汇报暂时无法在本地复现缺陷。",
+    "source": "原创对话 · W059 汇报暂时无法复现",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

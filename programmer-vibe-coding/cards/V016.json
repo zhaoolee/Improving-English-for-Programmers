@@ -1,0 +1,246 @@
+{
+  "id": "V016",
+  "category": "implementation",
+  "category_title": "拆任务、写功能",
+  "chapter": "拆任务、写功能",
+  "title": "一次写完，为什么跑不起来？",
+  "keyword": "task",
+  "scene": "程序员与 AI 用白板把大任务拆成小步骤。",
+  "target_count": 4,
+  "primary_words": [
+    "task",
+    "plan",
+    "step",
+    "board"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "task",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "任务",
+      "pos": "noun",
+      "ipa_us": "/tæsk/",
+      "ipa_uk": "/tɑːsk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Can you finish every task in one pass?",
+        "matched_form": "task",
+        "referent_region_verified": false,
+        "context": "任务的工作含义由对白支持，空白卡片不是可读任务。",
+        "image_verified": null
+      },
+      "example_en": "Can you finish every task in one pass?",
+      "example_zh": "你能一次完成所有任务吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a coding task",
+        "split a task"
+      ],
+      "example_en_highlighted": "Can you finish every **task** in one pass?",
+      "annotation_mode": "context",
+      "annotation_note": "任务的工作含义由对白支持，空白卡片不是可读任务。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "plan",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "计划",
+      "pos": "noun",
+      "ipa_us": "/plæn/",
+      "ipa_uk": "/plæn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let's put a small plan on the board first.",
+        "matched_form": "plan",
+        "referent_region_verified": false,
+        "context": "计划内容只由对白解释，箭头不证明真实计划已完成。",
+        "image_verified": null
+      },
+      "example_en": "Let's put a small plan on the board first.",
+      "example_zh": "我们先把一个小计划放到白板上。",
+      "bbox_normalized": null,
+      "collocations": [
+        "make a plan",
+        "an implementation plan"
+      ],
+      "example_en_highlighted": "Let's put a small **plan** on the board first.",
+      "annotation_mode": "context",
+      "annotation_note": "计划内容只由对白解释，箭头不证明真实计划已完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "step",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "步骤",
+      "pos": "noun",
+      "ipa_us": "/step/",
+      "ipa_uk": "/step/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What is the first step?",
+        "matched_form": "step",
+        "referent_region_verified": false,
+        "context": "步骤顺序由对白表达，不虚构局部指代。",
+        "image_verified": null
+      },
+      "example_en": "What is the first step?",
+      "example_zh": "第一步是什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "the first step",
+        "one step at a time"
+      ],
+      "example_en_highlighted": "What is the first **step**?",
+      "annotation_mode": "context",
+      "annotation_note": "步骤顺序由对白表达，不虚构局部指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "board",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/bɔːrd/",
+      "ipa_uk": "/bɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "场景中完整的白板本体可独立定位。",
+        "sentence": "Let's put a small plan on the board first.",
+        "matched_form": "board",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let's put a small plan on the board first.",
+      "example_zh": "我们先把一个小计划放到白板上。",
+      "bbox_normalized": [
+        0.27,
+        0.282,
+        0.841,
+        0.772
+      ],
+      "collocations": [
+        "on the board",
+        "a planning board"
+      ],
+      "example_en_highlighted": "Let's put a small plan on the **board** first.",
+      "annotation_mode": "object",
+      "annotation_note": "场景中完整的白板本体可独立定位。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer and an AI assistant break a large task into small steps on a board.",
+    "zh": "程序员与 AI 用白板把大任务拆成小步骤。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer and an AI assistant break a large task into small steps on a board.",
+    "zh": "程序员与 AI 用白板把大任务拆成小步骤。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Can you finish every task in one pass?",
+      "zh": "你能一次完成所有任务吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Let's put a small plan on the board first.",
+      "zh": "我们先把一个小计划放到白板上。"
+    },
+    {
+      "speaker": "A",
+      "en": "What is the first step?",
+      "zh": "第一步是什么？"
+    },
+    {
+      "speaker": "B",
+      "en": "Implement one feature, verify it, and then continue.",
+      "zh": "先实现一个功能，验证后再继续。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "先制定小计划，再逐项实现与验证。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer left points to a large freestanding rectangular planning whiteboard at center-right. The whiteboard is fully visible with its frame and stand, containing three empty rounded rectangular task cards connected by short arrows but no text or numbers. The OpenAI logo floats above and to the right of the board without covering it.",
+  "status": "approved",
+  "image_path": "images/V016.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V016 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V016.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-06T06:57:40.149Z",
+    "ended_at": "2026-10-06T06:59:07.208Z",
+    "prompt_path": "prompts/V016_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V016.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。"
+  }
+}

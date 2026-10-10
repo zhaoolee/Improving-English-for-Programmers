@@ -1,0 +1,130 @@
+{
+  "filename": "V004-什么时候应该自己接手？.png",
+  "labels": [
+    {
+      "x": 230,
+      "y": 80,
+      "english": "intervene",
+      "chinese": "介入",
+      "phoneticUS": "/ˌɪntərˈviːn/",
+      "phoneticUK": "/ˌɪntəˈviːn/",
+      "bubblePosition": {
+        "x": 230,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "介入的理由与意图由对白说明，静态抬手不能证明接管过程完成。",
+        "association": "介入的理由与意图由对白说明，静态抬手不能证明接管过程完成。",
+        "collocation": "intervene when needed; intervene in a process",
+        "example": "A: You've changed the same function three times. Should I intervene?\nB: Yes. I'm uncertain about the root cause, so please pause the edits.\nA: I'll take the keyboard and inspect the failing test.\nB: I'll summarize what I tried and wait for your direction.",
+        "exampleChinese": "A: 你已经修改同一个函数三次了。我该介入吗？\nB: 是的。我不确定根因，所以请暂停修改。\nA: 我会接过键盘，检查失败的测试。\nB: 我会总结已经尝试过的办法，等待你的指示。"
+      }
+    },
+    {
+      "x": 730,
+      "y": 80,
+      "english": "uncertain",
+      "chinese": "不确定的",
+      "phoneticUS": "/ʌnˈsɜːrtn/",
+      "phoneticUK": "/ʌnˈsɜːtn/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "AI 的不确定性由台词表达，不以 Logo 或表情编造框。",
+        "association": "AI 的不确定性由台词表达，不以 Logo 或表情编造框。",
+        "collocation": "uncertain about the cause; remain uncertain",
+        "example": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+        "exampleChinese": "是的。我不确定根因，所以请暂停修改。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 250,
+      "english": "pause",
+      "chinese": "暂停",
+      "phoneticUS": "/pɔːz/",
+      "phoneticUK": "/pɔːz/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 250
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "暂停修改是对话中的请求，不把抬手当作已停止的系统状态。",
+        "association": "暂停修改是对话中的请求，不把抬手当作已停止的系统状态。",
+        "collocation": "pause the edits; pause a task",
+        "example": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+        "exampleChinese": "是的。我不确定根因，所以请暂停修改。"
+      }
+    },
+    {
+      "x": 551,
+      "y": 580,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 551,
+        "y": 580
+      },
+      "boundingBox": {
+        "left": 373,
+        "top": 546,
+        "right": 731,
+        "bottom": 613
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上完整独立键盘对应对白指代，框选包含全部按键与外缘。",
+        "association": "桌上完整独立键盘对应对白指代，框选包含全部按键与外缘。",
+        "collocation": "take the keyboard; a computer keyboard",
+        "example": "I'll take the keyboard and inspect the failing test.",
+        "exampleChinese": "我会接过键盘，检查失败的测试。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer pauses uncertain AI edits and takes over at the keyboard.",
+    "chinese": "程序员暂停 AI 不确定的修改，并接过键盘亲自检查。",
+    "source": "原创对话 · V004 什么时候应该自己接手？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "V017-先做一条能走通的主流程.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "flow",
+      "chinese": "流程",
+      "phoneticUS": "/floʊ/",
+      "phoneticUK": "/fləʊ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是从点击到保存的操作流程，单个按钮不是流程本身，含义由对白支持。",
+        "association": "这里是从点击到保存的操作流程，单个按钮不是流程本身，含义由对白支持。",
+        "collocation": "a basic flow; complete the flow",
+        "example": "A: Start with a minimal flow: click this button and save one item.\nB: Should I add filters and bulk editing now?\nA: Not yet. Complete the basic flow first, then let me try it.\nB: I'll build that path and check that the saved item appears in the list.",
+        "exampleChinese": "A: 先做最小流程：点击这个按钮，保存一条记录。\nB: 现在要加筛选和批量编辑吗？\nA: 先不用。先完成基本流程，再让我试一下。\nB: 我会先实现这条路径，并检查保存的记录是否出现在列表里。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "minimal",
+      "chinese": "最小的",
+      "phoneticUS": "/ˈmɪnɪməl/",
+      "phoneticUK": "/ˈmɪnɪməl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "最小指功能范围，不是图中按钮的物理尺寸。",
+        "association": "最小指功能范围，不是图中按钮的物理尺寸。",
+        "collocation": "a minimal flow; a minimal version",
+        "example": "Start with a minimal flow: click this button and save one item.",
+        "exampleChinese": "先做最小流程：点击这个按钮，保存一条记录。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "complete",
+      "chinese": "完成",
+      "phoneticUS": "/kəmˈpliːt/",
+      "phoneticUK": "/kəmˈpliːt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "完成是对白中的请求，画面不能证明功能已实现或测试通过。",
+        "association": "完成是对白中的请求，画面不能证明功能已实现或测试通过。",
+        "collocation": "complete the flow; complete a task",
+        "example": "Not yet. Complete the basic flow first, then let me try it.",
+        "exampleChinese": "先不用。先完成基本流程，再让我试一下。"
+      }
+    },
+    {
+      "x": 520,
+      "y": 399,
+      "english": "button",
+      "chinese": "按钮",
+      "phoneticUS": "/ˈbʌtən/",
+      "phoneticUK": "/ˈbʌtən/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 520,
+        "y": 399
+      },
+      "boundingBox": {
+        "left": 427,
+        "top": 370,
+        "right": 634,
+        "bottom": 440
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕中唯一完整的圆角矩形按钮是实际可见指代，其保存功能由对白定义。",
+        "association": "屏幕中唯一完整的圆角矩形按钮是实际可见指代，其保存功能由对白定义。",
+        "collocation": "click this button; a save button",
+        "example": "Start with a minimal flow: click this button and save one item.",
+        "exampleChinese": "先做最小流程：点击这个按钮，保存一条记录。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant build a minimal flow before adding extra features.",
+    "chinese": "程序员与 AI 先打通最小主流程，再添加额外功能。",
+    "source": "原创对话 · V017 先做一条能走通的主流程",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

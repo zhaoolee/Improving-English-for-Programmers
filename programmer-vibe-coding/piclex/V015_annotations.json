@@ -1,0 +1,130 @@
+{
+  "filename": "V015-交接前留下能恢复的记录.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "resume",
+      "chinese": "继续",
+      "phoneticUS": "/rɪˈzuːm/",
+      "phoneticUK": "/rɪˈzjuːm/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是恢复之前的工作，不是名词简历；由对白明确含义，没有局部可见指代。",
+        "association": "这里是恢复之前的工作，不是名词简历；由对白明确含义，没有局部可见指代。",
+        "collocation": "resume work; resume tomorrow",
+        "example": "A: Before we stop, record our progress so I can resume tomorrow.\nB: I'll note what changed, what passed, and what is still pending.\nA: Add the next step and the file paths. I'll put a short summary in this notebook.\nB: I'll leave a handoff note in the project and include the commands needed to continue.",
+        "exampleChinese": "A: 结束前，记录我们的进度，方便我明天继续。\nB: 我会记下改了什么、哪些检查通过了，以及哪些事项还待处理。\nA: 加上下一步和文件路径。我会在这个笔记本里记一份简短摘要。\nB: 我会在项目里留下交接记录，并附上继续工作所需的命令。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "record",
+      "chinese": "记录",
+      "phoneticUS": "/rɪˈkɔːrd/",
+      "phoneticUK": "/rɪˈkɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里为动词，写字道具只提供情境，不能证明记录内容已经保存。",
+        "association": "这里为动词，写字道具只提供情境，不能证明记录内容已经保存。",
+        "collocation": "record progress; record the results",
+        "example": "Before we stop, record our progress so I can resume tomorrow.",
+        "exampleChinese": "结束前，记录我们的进度，方便我明天继续。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "pending",
+      "chinese": "待处理的",
+      "phoneticUS": "/ˈpendɪŋ/",
+      "phoneticUK": "/ˈpendɪŋ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务状态来自交接对白，不能从静态笔记本判断。",
+        "association": "任务状态来自交接对白，不能从静态笔记本判断。",
+        "collocation": "pending tasks; still pending",
+        "example": "I'll note what changed, what passed, and what is still pending.",
+        "exampleChinese": "我会记下改了什么、哪些检查通过了，以及哪些事项还待处理。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 545,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 545
+      },
+      "boundingBox": {
+        "left": 432,
+        "top": 475,
+        "right": 576,
+        "bottom": 640
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "可见的纸质螺旋笔记本是直接指代，框完整封面与装订。",
+        "association": "可见的纸质螺旋笔记本是直接指代，框完整封面与装订。",
+        "collocation": "in this notebook; a work notebook",
+        "example": "Add the next step and the file paths. I'll put a short summary in this notebook.",
+        "exampleChinese": "加上下一步和文件路径。我会在这个笔记本里记一份简短摘要。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to leave a handoff record so work can resume later.",
+    "chinese": "程序员让 AI 留下交接记录，以便稍后恢复工作。",
+    "source": "原创对话 · V015 交接前留下能恢复的记录",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

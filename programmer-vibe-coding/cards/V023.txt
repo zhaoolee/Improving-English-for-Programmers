@@ -1,0 +1,119 @@
+V023  加载中，也需要交代
+========================================================================
+分类: 界面与交互打磨（interface）
+关键词: feedback
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V023.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V023.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V023.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V023_image_final.txt
+
+场景: 用参考、反馈与异常状态提高可用性
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。显示器中央唯一的环形加载指示器清晰完整，无文字或数字；只框加载指示器，不把整块屏幕误当 spinner。
+
+沟通目标: 为等待过程提供状态反馈，不制造虚假的完成承诺。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to show clear feedback while a slow request is loading.
+  中文: 程序员让 AI 在慢请求加载期间给出清楚反馈。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] The request takes several seconds. What feedback should we show while it is loading?
+        这个请求需要几秒钟。加载时应该展示什么反馈？
+  [B] Show a spinner so people know the page is still working.
+        显示一个加载转圈，让用户知道页面仍在工作。
+  [A] Can we report progress without promising an exact finish time?
+        我们能否报告进度，但不承诺精确完成时间？
+  [B] Yes. Keep the spinner visible until the result appears.
+        可以。结果出现前一直显示加载转圈。
+
+目标词 (4): feedback, loading, progress, spinner
+
+------------------------------------------------------------------------
+[1/4] feedback
+  词义: 反馈
+  词性: noun
+  音标: UK /ˈfiːdbæk/ | US /ˈfiːdbæk/
+  搭配: show feedback; clear feedback
+  例句: The request takes several seconds. What feedback should we show while it is loading?
+  例句高亮: The request takes several seconds. What **feedback** should we show while it is loading?
+  例句中文: 这个请求需要几秒钟。加载时应该展示什么反馈？
+  标注模式: context
+  标注说明: 这里是界面向用户说明状态的反馈，不能只凭转圈外观证明反馈是否充分。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] loading
+  词义: 加载中
+  词性: adjective
+  音标: UK /ˈləʊdɪŋ/ | US /ˈloʊdɪŋ/
+  搭配: while it is loading; a loading state
+  例句: The request takes several seconds. What feedback should we show while it is loading?
+  例句高亮: The request takes several seconds. What feedback should we show while it is **loading**?
+  例句中文: 这个请求需要几秒钟。加载时应该展示什么反馈？
+  标注模式: context
+  标注说明: 加载状态由对白设定，静态图只能提供界面语境。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] progress
+  词义: 进度
+  词性: noun
+  音标: UK /ˈprəʊɡres/ | US /ˈprɑːɡres/
+  搭配: report progress; show progress
+  例句: Can we report progress without promising an exact finish time?
+  例句高亮: Can we report **progress** without promising an exact finish time?
+  例句中文: 我们能否报告进度，但不承诺精确完成时间？
+  标注模式: context
+  标注说明: 进度是过程信息，单帧转圈不表示完成比例。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] spinner
+  词义: 加载转圈
+  词性: noun
+  音标: UK /ˈspɪnə/ | US /ˈspɪnər/
+  搭配: show a spinner; loading spinner
+  例句: Show a spinner so people know the page is still working.
+  例句高亮: Show a **spinner** so people know the page is still working.
+  例句中文: 显示一个加载转圈，让用户知道页面仍在工作。
+  标注模式: object
+  标注说明: 屏幕中央带缺口的完整圆环是可见加载转圈，只框该控件。
+  坐标(normalized): [0.455, 0.354, 0.579, 0.48]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V023 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a small desk and gestures toward a large desktop monitor at center. The monitor's blank black inner screen contains exactly one large circular loading spinner made from a broken white ring with a clear gap; no arrows, text, percentages or other controls. Keep the spinner complete and unobstructed. The floating white OpenAI knot is at the right.

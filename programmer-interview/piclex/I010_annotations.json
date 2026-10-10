@@ -1,0 +1,130 @@
+{
+  "filename": "I010.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "retrospective",
+      "chinese": "复盘",
+      "phoneticUS": "/ˌretrəˈspektɪv/",
+      "phoneticUK": "/ˌretrəˈspektɪv/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retrospective。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retrospective。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+        "collocation": "a project retrospective; hold a retrospective",
+        "example": "A: Our retrospective showed that the outcome fell short of our adoption target.\nB: Which assumption turned out to be wrong?\nA: We assumed users wanted every feature. My notebook records requests for a simpler workflow.\nB: What would you change in your next project?",
+        "exampleChinese": "A: 项目复盘表明，实际结果没有达到我们设定的使用率目标。\nB: 哪项假设后来被证明是错的？\nA: 我们以为用户需要所有功能。笔记本里记录的却是简化工作流程的需求。\nB: 在下一个项目中，你会作出什么改变？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "assumption",
+      "chinese": "假设",
+      "phoneticUS": "/əˈsʌmpʃən/",
+      "phoneticUK": "/əˈsʌmpʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：assumption。本卡例句：Which assumption turned out to be wrong?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：assumption。本卡例句：Which assumption turned out to be wrong?",
+        "collocation": "check an assumption; a wrong assumption",
+        "example": "Which assumption turned out to be wrong?",
+        "exampleChinese": "哪项假设后来被证明是错的？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "outcome",
+      "chinese": "结果",
+      "phoneticUS": "/ˈaʊtkʌm/",
+      "phoneticUK": "/ˈaʊtkʌm/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：outcome。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：outcome。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+        "collocation": "a project outcome; a measurable outcome",
+        "example": "Our retrospective showed that the outcome fell short of our adoption target.",
+        "exampleChinese": "项目复盘表明，实际结果没有达到我们设定的使用率目标。"
+      }
+    },
+    {
+      "x": 395,
+      "y": 720,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 310,
+        "y": 870
+      },
+      "anchorPosition": {
+        "x": 395,
+        "y": 720
+      },
+      "boundingBox": {
+        "left": 130,
+        "top": 681,
+        "right": 635,
+        "bottom": 760
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人面前打开的纸质笔记本；复盘结论来自原创对白。",
+        "association": "候选人面前打开的纸质笔记本；复盘结论来自原创对白。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "We assumed users wanted every feature. My notebook records requests for a simpler workflow.",
+        "exampleChinese": "我们以为用户需要所有功能。笔记本里记录的却是简化工作流程的需求。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate reflects on a project whose outcome fell short of expectations.",
+    "chinese": "候选人复盘一个结果未达预期的项目。",
+    "source": "原创配文 · I010 复盘一次没有达到预期的项目",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

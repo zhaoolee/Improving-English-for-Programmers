@@ -1,0 +1,123 @@
+I009  用数据说明项目成果
+========================================================================
+分类: 项目经历与成果表达（projects）
+关键词: impact
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I009.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I009.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I009.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T11:46:35Z → 2026-10-09T11:49:14Z
+  提示词文件: prompts/I009_image_final.txt
+
+场景: 美国女候选人用无字趋势图说明项目成果，欧洲女面试官追问测量方法。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 两位女性围绕笔记本电脑上的两组柱形与趋势线交流，电脑完整，脸部、开放手势与握笔自然；背景光影、前景桌面与柔和阴影有层次。图表未提供可核实业绩数字 实际可见物件：笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。
+
+沟通目标: 讲清项目背景、个人贡献、技术挑战和可核实的结果。本卡主题：用数据说明项目成果。
+
+主配文（一句场景描述）:
+  英文: A candidate uses a chart to explain a measured project result.
+  中文: 候选人借助图表说明项目经过测量的成果。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] To measure impact, we chose median response time as our main metric.
+        为了衡量影响，我们把响应时间中位数选作主要指标。
+  [B] What was the baseline?
+        基准值是多少？
+  [A] It was 400 milliseconds. This chart shows it fell to 250 under the same test load.
+        是 400 毫秒。这张图表显示，在相同测试负载下，它降到了 250 毫秒。
+  [B] Did you also check error rates?
+        你们也检查了错误率吗？
+
+目标词 (4): impact, metric, baseline, chart
+
+------------------------------------------------------------------------
+[1/4] impact
+  词义: 影响
+  词性: noun
+  音标: UK /ˈɪmpækt/ | US /ˈɪmpækt/
+  搭配: measure impact; business impact
+  例句: To measure impact, we chose median response time as our main metric.
+  例句高亮: To measure **impact**, we chose median response time as our main metric.
+  例句中文: 为了衡量影响，我们把响应时间中位数选作主要指标。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：impact。本卡例句：To measure impact, we chose median response time as our main metric.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] metric
+  词义: 指标
+  词性: noun
+  音标: UK /ˈmetrɪk/ | US /ˈmetrɪk/
+  搭配: a performance metric; choose a metric
+  例句: To measure impact, we chose median response time as our main metric.
+  例句高亮: To measure impact, we chose median response time as our main **metric**.
+  例句中文: 为了衡量影响，我们把响应时间中位数选作主要指标。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：metric。本卡例句：To measure impact, we chose median response time as our main metric.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] baseline
+  词义: 基准值
+  词性: noun
+  音标: UK /ˈbeɪslaɪn/ | US /ˈbeɪslaɪn/
+  搭配: establish a baseline; compare with the baseline
+  例句: What was the baseline?
+  例句高亮: What was the **baseline**?
+  例句中文: 基准值是多少？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：baseline。本卡例句：What was the baseline?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] chart
+  词义: 图表
+  词性: noun
+  音标: UK /tʃɑːt/ | US /tʃɑːrt/
+  搭配: a performance chart; show a chart
+  例句: It was 400 milliseconds. This chart shows it fell to 250 under the same test load.
+  例句高亮: It was 400 milliseconds. This **chart** shows it fell to 250 under the same test load.
+  例句中文: 是 400 毫秒。这张图表显示，在相同测试负载下，它降到了 250 毫秒。
+  标注模式: object
+  标注说明: 笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。
+  坐标(normalized): [0.282, 0.517, 0.571, 0.72]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I009 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.
+Interviewer or recruiter: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.
+Exactly two people in a project-impact interview. Maya, in an ivory blouse, shows Sofia, in a charcoal blazer, a laptop with a simple unlabeled comparison chart: two small muted bar groups and a discreet trend line. Maya speaks with quiet confidence, an open hand near the laptop rather than a finger covering the screen. Sofia watches thoughtfully with a pen beside her notebook. A 50mm eye-level medium shot keeps both faces and the complete laptop visible. Soft late-morning daylight, restrained cream and sage colors, real skin texture. No readable metrics, currency, trophies, exaggerated success smile or claim that the photograph proves a measured outcome.

@@ -1,0 +1,119 @@
+W078  介绍自己做过的项目
+========================================================================
+分类: 反馈与职业成长（growth）
+关键词: project
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W078.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W078.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W078.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:36:41.121Z
+  提示词文件: prompts/W078_image_final.txt
+
+场景: 开发者介绍自己做过的项目及其成果。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：完整笔记本电脑与底座，柱图仅示意，未给未经测量的性能数值。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 介绍项目中的挑战与结果。
+
+主配文（一句场景描述）:
+  英文: A developer describes a past project and its results.
+  中文: 开发者介绍自己做过的项目及其成果。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] What was the biggest challenge in your last project?
+        你上一个项目中最大的挑战是什么？
+  [B] Reducing startup time without changing the user experience.
+        在不改变用户体验的前提下缩短启动时间。
+  [A] What was the result? Can you show it on this laptop?
+        结果怎样？能在这个笔记本电脑上展示吗？
+  [B] Startup became much faster. I can walk you through the measurements.
+        启动明显更快了。我可以给你讲讲测量结果。
+
+目标词 (4): project, challenge, result, laptop
+
+------------------------------------------------------------------------
+[1/4] project
+  词义: 项目
+  词性: noun
+  音标: UK /ˈprɒdʒekt/ | US /ˈprɑːdʒekt/
+  搭配: a project; a team project
+  例句: What was the biggest challenge in your last project?
+  例句高亮: What was the biggest challenge in your last **project**?
+  例句中文: 你上一个项目中最大的挑战是什么？
+  标注模式: context
+  标注说明: “What was the biggest challenge in your last project?”明确表达项目；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] challenge
+  词义: 挑战
+  词性: noun
+  音标: UK /ˈtʃælɪndʒ/ | US /ˈtʃælɪndʒ/
+  搭配: a big challenge; face a challenge
+  例句: What was the biggest challenge in your last project?
+  例句高亮: What was the biggest **challenge** in your last project?
+  例句中文: 你上一个项目中最大的挑战是什么？
+  标注模式: context
+  标注说明: “What was the biggest challenge in your last project?”明确表达挑战；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] result
+  词义: 结果
+  词性: noun
+  音标: UK /rɪˈzʌlt/ | US /rɪˈzʌlt/
+  搭配: the result; as a result
+  例句: What was the result? Can you show it on this laptop?
+  例句高亮: What was the **result**? Can you show it on this laptop?
+  例句中文: 结果怎样？能在这个笔记本电脑上展示吗？
+  标注模式: context
+  标注说明: “What was the result? Can you show it on this laptop?”明确表达结果；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: on this laptop; an open laptop
+  例句: What was the result? Can you show it on this laptop?
+  例句高亮: What was the result? Can you show it on this **laptop**?
+  例句中文: 结果怎样？能在这个笔记本电脑上展示吗？
+  标注模式: object
+  标注说明: 笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.372, 0.435, 0.663, 0.624]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W078 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers beside a fully visible open laptop showing a simple unlabeled upward bar chart. One presenting with open palm, other listening. Minimal desk, no writing.

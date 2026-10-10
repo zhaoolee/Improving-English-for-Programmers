@@ -1,0 +1,268 @@
+{
+  "id": "I009",
+  "category": "projects",
+  "title_zh": "用数据说明项目成果",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "美国女候选人用无字趋势图说明项目成果，欧洲女面试官追问测量方法。",
+  "cast": {
+    "candidate": "US_MAYA",
+    "interviewer": "EU_SOFIA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.\nInterviewer or recruiter: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.\nExactly two people in a project-impact interview. Maya, in an ivory blouse, shows Sofia, in a charcoal blazer, a laptop with a simple unlabeled comparison chart: two small muted bar groups and a discreet trend line. Maya speaks with quiet confidence, an open hand near the laptop rather than a finger covering the screen. Sofia watches thoughtfully with a pen beside her notebook. A 50mm eye-level medium shot keeps both faces and the complete laptop visible. Soft late-morning daylight, restrained cream and sage colors, real skin texture. No readable metrics, currency, trophies, exaggerated success smile or claim that the photograph proves a measured outcome.",
+  "prompt_path": "prompts/I009_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I009.png",
+  "image_sha256": "a6ca409b44fa99fe60901b83d03432a3e72aefb6ce7335d1f38974ba2130b4a8",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "两位女性围绕笔记本电脑上的两组柱形与趋势线交流，电脑完整，脸部、开放手势与握笔自然；背景光影、前景桌面与柔和阴影有层次。图表未提供可核实业绩数字 实际可见物件：笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I006-I010-generated-prompts/I009_generate.txt",
+    "source_path": "images/I009.png",
+    "started_at_utc": "2026-10-09 11:46:35 UTC",
+    "finished_at_utc": "2026-10-09 11:49:14 UTC",
+    "selected_image_path": "images/I009.png",
+    "selected_image_sha256": "a6ca409b44fa99fe60901b83d03432a3e72aefb6ce7335d1f38974ba2130b4a8",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I006-I010_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T11:52:45Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T11:46:35Z",
+    "ended_at": "2026-10-09T11:49:14Z",
+    "prompt_path": "prompts/I009_image_final.txt"
+  },
+  "title": "用数据说明项目成果",
+  "scene": "美国女候选人用无字趋势图说明项目成果，欧洲女面试官追问测量方法。",
+  "category_title": "项目经历与成果表达",
+  "primary_words": [
+    "impact",
+    "metric",
+    "baseline",
+    "chart"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "impact",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "影响",
+      "pos": "noun",
+      "ipa_us": "/ˈɪmpækt/",
+      "ipa_uk": "/ˈɪmpækt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "To measure impact, we chose median response time as our main metric.",
+        "matched_form": "impact",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：impact。本卡例句：To measure impact, we chose median response time as our main metric.",
+        "image_verified": null
+      },
+      "example_en": "To measure impact, we chose median response time as our main metric.",
+      "example_zh": "为了衡量影响，我们把响应时间中位数选作主要指标。",
+      "bbox_normalized": null,
+      "collocations": [
+        "measure impact",
+        "business impact"
+      ],
+      "example_en_highlighted": "To measure **impact**, we chose median response time as our main metric.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：impact。本卡例句：To measure impact, we chose median response time as our main metric.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "metric",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "指标",
+      "pos": "noun",
+      "ipa_us": "/ˈmetrɪk/",
+      "ipa_uk": "/ˈmetrɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "To measure impact, we chose median response time as our main metric.",
+        "matched_form": "metric",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：metric。本卡例句：To measure impact, we chose median response time as our main metric.",
+        "image_verified": null
+      },
+      "example_en": "To measure impact, we chose median response time as our main metric.",
+      "example_zh": "为了衡量影响，我们把响应时间中位数选作主要指标。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a performance metric",
+        "choose a metric"
+      ],
+      "example_en_highlighted": "To measure impact, we chose median response time as our main **metric**.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：metric。本卡例句：To measure impact, we chose median response time as our main metric.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "baseline",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "基准值",
+      "pos": "noun",
+      "ipa_us": "/ˈbeɪslaɪn/",
+      "ipa_uk": "/ˈbeɪslaɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What was the baseline?",
+        "matched_form": "baseline",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：baseline。本卡例句：What was the baseline?",
+        "image_verified": null
+      },
+      "example_en": "What was the baseline?",
+      "example_zh": "基准值是多少？",
+      "bbox_normalized": null,
+      "collocations": [
+        "establish a baseline",
+        "compare with the baseline"
+      ],
+      "example_en_highlighted": "What was the **baseline**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：baseline。本卡例句：What was the baseline?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "chart",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "图表",
+      "pos": "noun",
+      "ipa_us": "/tʃɑːrt/",
+      "ipa_uk": "/tʃɑːt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。",
+        "sentence": "It was 400 milliseconds. This chart shows it fell to 250 under the same test load.",
+        "matched_form": "chart",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "It was 400 milliseconds. This chart shows it fell to 250 under the same test load.",
+      "example_zh": "是 400 毫秒。这张图表显示，在相同测试负载下，它降到了 250 毫秒。",
+      "bbox_normalized": [
+        0.282,
+        0.517,
+        0.571,
+        0.72
+      ],
+      "collocations": [
+        "a performance chart",
+        "show a chart"
+      ],
+      "example_en_highlighted": "It was 400 milliseconds. This **chart** shows it fell to 250 under the same test load.",
+      "annotation_mode": "object",
+      "annotation_note": "笔记本屏幕内柱形与折线图表区域；数值与单位没有在图中可读，400/250毫秒仅为原创对白设定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "项目经历与成果表达",
+  "keyword": "impact",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate uses a chart to explain a measured project result.",
+    "zh": "候选人借助图表说明项目经过测量的成果。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate uses a chart to explain a measured project result.",
+    "zh": "候选人借助图表说明项目经过测量的成果。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "To measure impact, we chose median response time as our main metric.",
+      "zh": "为了衡量影响，我们把响应时间中位数选作主要指标。"
+    },
+    {
+      "speaker": "B",
+      "en": "What was the baseline?",
+      "zh": "基准值是多少？"
+    },
+    {
+      "speaker": "A",
+      "en": "It was 400 milliseconds. This chart shows it fell to 250 under the same test load.",
+      "zh": "是 400 毫秒。这张图表显示，在相同测试负载下，它降到了 250 毫秒。"
+    },
+    {
+      "speaker": "B",
+      "en": "Did you also check error rates?",
+      "zh": "你们也检查了错误率吗？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "讲清项目背景、个人贡献、技术挑战和可核实的结果。本卡主题：用数据说明项目成果。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I009 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I009.png 宽高归一化至 0..1；由人工视觉定位。"
+}

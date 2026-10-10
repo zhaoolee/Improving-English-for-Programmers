@@ -1,0 +1,21 @@
+{
+  "cardID": "I037",
+  "imagePath": "../images/I037.png",
+  "imageSHA256": "3d2175f8afe696164f5af70ac0b65a4d23baf8dd42f4f51faf7e6e56ee2312d2",
+  "imageReviewed": true,
+  "annotationsPath": "I037_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "success",
+    "mentorship",
+    "progression",
+    "diagram"
+  ],
+  "receiptPath": "I037_learning_import_receipt.json",
+  "photoID": "d6223888-7a22-41f9-86ce-8787e454573d",
+  "expectedAssetID": "1c3bb56f19e7b9c1ed04b8d8b053767597de632b3a24570a6c2456af2cca22ba",
+  "expectedImageFilename": "I037.png",
+  "expectedSourceSHA256": "3d2175f8afe696164f5af70ac0b65a4d23baf8dd42f4f51faf7e6e56ee2312d2",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

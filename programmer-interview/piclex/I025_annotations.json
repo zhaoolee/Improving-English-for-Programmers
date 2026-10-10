@@ -1,0 +1,130 @@
+{
+  "filename": "I025.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "trade-off",
+      "chinese": "取舍",
+      "phoneticUS": "/ˈtreɪd ɔːf/",
+      "phoneticUK": "/ˈtreɪd ɒf/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：trade-off。本卡例句：The main trade-off is between reliability and cost.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：trade-off。本卡例句：The main trade-off is between reliability and cost.",
+        "collocation": "a design trade-off; discuss a trade-off",
+        "example": "A: The main trade-off is between reliability and cost.\nB: How would an extra replica affect the design?\nA: It adds capacity and redundancy, but also expense. This diagram shows both options.\nB: Which option meets our availability target?",
+        "exampleChinese": "A: 主要取舍在于可靠性与成本。\nB: 增加一个副本会如何影响设计？\nA: 它增加容量与冗余，也会增加费用。这张示意图展示了两种方案。\nB: 哪种方案能达到我们的可用性目标？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "reliability",
+      "chinese": "可靠性",
+      "phoneticUS": "/rɪˌlaɪəˈbɪləti/",
+      "phoneticUK": "/rɪˌlaɪəˈbɪləti/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reliability。本卡例句：The main trade-off is between reliability and cost.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reliability。本卡例句：The main trade-off is between reliability and cost.",
+        "collocation": "system reliability; improve reliability",
+        "example": "The main trade-off is between reliability and cost.",
+        "exampleChinese": "主要取舍在于可靠性与成本。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "cost",
+      "chinese": "成本",
+      "phoneticUS": "/kɔːst/",
+      "phoneticUK": "/kɒst/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：cost。本卡例句：The main trade-off is between reliability and cost.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：cost。本卡例句：The main trade-off is between reliability and cost.",
+        "collocation": "operating cost; reduce the cost",
+        "example": "The main trade-off is between reliability and cost.",
+        "exampleChinese": "主要取舍在于可靠性与成本。"
+      }
+    },
+    {
+      "x": 480,
+      "y": 738,
+      "english": "diagram",
+      "chinese": "示意图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 570,
+        "y": 910
+      },
+      "anchorPosition": {
+        "x": 480,
+        "y": 738
+      },
+      "boundingBox": {
+        "left": 245,
+        "top": 685,
+        "right": 745,
+        "bottom": 800
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上白纸的两组选项示意图；可靠性和成本不能从无字图中读取。",
+        "association": "桌上白纸的两组选项示意图；可靠性和成本不能从无字图中读取。",
+        "collocation": "a flow diagram; explain a diagram",
+        "example": "It adds capacity and redundancy, but also expense. This diagram shows both options.",
+        "exampleChinese": "它增加容量与冗余，也会增加费用。这张示意图展示了两种方案。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate compares two design options on a paper diagram.",
+    "chinese": "候选人借助纸上的示意图比较两种设计方案。",
+    "source": "原创配文 · I025 讨论扩容、可靠性与成本",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

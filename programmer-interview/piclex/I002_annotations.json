@@ -1,0 +1,130 @@
+{
+  "filename": "I002.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "stack",
+      "chinese": "技术栈",
+      "phoneticUS": "/stæk/",
+      "phoneticUK": "/stæk/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：stack。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：stack。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "collocation": "a technical stack; choose a stack",
+        "example": "A: My main stack is Python and PostgreSQL. I'm proficient in building web APIs.\nB: Have you used them in production?\nA: Yes. On this laptop, I can show the service I maintained for our customers.\nB: What did you learn from operating it?",
+        "exampleChinese": "A: 我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。\nB: 你在生产环境中使用过它们吗？\nA: 用过。我可以在这台笔记本电脑上展示我为客户维护的服务。\nB: 你从运营这个服务的经历中学到了什么？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "proficient",
+      "chinese": "熟练的",
+      "phoneticUS": "/prəˈfɪʃənt/",
+      "phoneticUK": "/prəˈfɪʃənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：proficient。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：proficient。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "collocation": "proficient in Python; proficient in building APIs",
+        "example": "My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "exampleChinese": "我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "production",
+      "chinese": "生产环境",
+      "phoneticUS": "/prəˈdʌkʃən/",
+      "phoneticUK": "/prəˈdʌkʃən/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：production。本卡例句：Have you used them in production?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：production。本卡例句：Have you used them in production?",
+        "collocation": "in production; a production service",
+        "example": "Have you used them in production?",
+        "exampleChinese": "你在生产环境中使用过它们吗？"
+      }
+    },
+    {
+      "x": 355,
+      "y": 602,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 520,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 355,
+        "y": 602
+      },
+      "boundingBox": {
+        "left": 115,
+        "top": 430,
+        "right": 555,
+        "bottom": 670
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。",
+        "association": "候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "Yes. On this laptop, I can show the service I maintained for our customers.",
+        "exampleChinese": "用过。我可以在这台笔记本电脑上展示我为客户维护的服务。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate discusses his technical stack beside an open laptop.",
+    "chinese": "候选人坐在打开的笔记本电脑旁，介绍自己的技术栈。",
+    "source": "原创配文 · I002 说明自己的技术栈与经验",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

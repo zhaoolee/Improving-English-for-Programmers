@@ -1,0 +1,119 @@
+V026  修了一个 Bug，怎么又来了三个？
+========================================================================
+分类: Debug 救火现场（debugging）
+关键词: reproduce
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/V026.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V026.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V026.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-06T06:57:40.149Z → 2026-10-06T06:59:57.161Z
+  提示词文件: prompts/V026_image_final.txt
+
+场景: 程序员与 AI 根据错误画面和日志排查问题。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。
+
+沟通目标: 先复现和收集日志，再根据证据修改。
+
+主配文（一句场景描述）:
+  英文: A programmer and an AI assistant use an error screen and logs to investigate a bug.
+  中文: 程序员与 AI 根据错误画面和日志排查问题。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Can you fix the error on this screen?
+        你能修复这个屏幕上的错误吗？
+  [B] First reproduce it and collect the log.
+        先复现它，再收集日志。
+  [A] Should we change the code before finding the cause?
+        找出原因之前，我们应该修改代码吗？
+  [B] No. Use the evidence to choose the smallest fix.
+        先不要。根据证据选择最小的修复。
+
+目标词 (4): reproduce, log, cause, screen
+
+------------------------------------------------------------------------
+[1/4] reproduce
+  词义: 复现
+  词性: verb
+  音标: UK /ˌriːprəˈdjuːs/ | US /ˌriːprəˈduːs/
+  搭配: reproduce a bug; reproduce an error
+  例句: First reproduce it and collect the log.
+  例句高亮: First **reproduce** it and collect the log.
+  例句中文: 先复现它，再收集日志。
+  标注模式: context
+  标注说明: 复现是一段操作过程，静态报错示意不能证明已复现。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] log
+  词义: 日志
+  词性: noun
+  音标: UK /lɒɡ/ | US /lɔːɡ/
+  搭配: collect the log; an error log
+  例句: First reproduce it and collect the log.
+  例句高亮: First reproduce it and collect the **log**.
+  例句中文: 先复现它，再收集日志。
+  标注模式: context
+  标注说明: 屏幕无可读日志，具体日志资料由对白说明。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] cause
+  词义: 原因
+  词性: noun
+  音标: UK /kɔːz/ | US /kɔːz/
+  搭配: find the cause; the root cause
+  例句: Should we change the code before finding the cause?
+  例句高亮: Should we change the code before finding the **cause**?
+  例句中文: 找出原因之前，我们应该修改代码吗？
+  标注模式: context
+  标注说明: 原因是抽象因果解释，无可定位物体。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] screen
+  词义: 屏幕
+  词性: noun
+  音标: UK /skriːn/ | US /skriːn/
+  搭配: on the screen; an error screen
+  例句: Can you fix the error on this screen?
+  例句高亮: Can you fix the error on this **screen**?
+  例句中文: 你能修复这个屏幕上的错误吗？
+  标注模式: object
+  标注说明: 显示器的屏幕面板可定位，错误内容由对白与示意标志共同表达。
+  坐标(normalized): [0.315, 0.341, 0.686, 0.572]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V026 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands left, slightly puzzled, pointing toward a large complete desktop monitor on a low desk at center. The MONITOR screen shows only a simple warning triangle with an exclamation-shaped mark and three short horizontal log-like strokes, no readable text. The white OpenAI logo floats on the right as the conversational partner. Fully show the screen bezel and stand.

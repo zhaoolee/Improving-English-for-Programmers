@@ -1,0 +1,19 @@
+style_id: instagram-interview-natural
+aspect_ratio: 4:5
+scope: 程序员面试专题（I001–I040）40 个场景 prompt + 8 个可选子专题封面 prompt；全部并入艺术感电影感全局模块（见 cinematic-addendum.txt）
+
+## 中文视觉风格（style_zh）
+精致 Instagram 职场纪实写真，暖白自然光，奶油白、浅橡木、暖灰、海军蓝和少量鼠尾草绿；自然肤质、真实织物与生活细节，人物面貌姣好但表现专业，男女均担任候选人和面试官。面试室、玻璃会议室、桌面编码面试、白板技术面、安静远程面试均合理使用，不能把全部图片做成同一张会议桌摆拍。中近景与环境中景交替，保留完整学习道具与人脸；上方自然墙面、下方桌面适量留白供后续叠加标签。无底图标题、气泡或文字，技术屏幕和白板只保留无字图形或不可辨认的背景内容。视觉只能说明人物在面试讨论，不能凭面貌认定国籍、岗位能力、情绪故事、薪酬或某个技术结论。人物地区是虚构演员设定；美国演员不限定单一族裔。
+
+## 说明
+- 成年虚构演员（亚洲、欧洲、美国），干净、低 AI 感的 Instagram 真实职场纪实摄影。
+- 4:5 真实面试氛围：面试室、玻璃会议室、桌面编码面试、白板技术面、安静远程面试。
+- 覆盖此前推荐的“黑底白线火柴人”风格；本专题不使用火柴人、OpenAI Logo，也不复用 850 限定东亚女性形象。
+- 本轮更新全局 prompt 并已在 I001–I005 生成五张底图（初版生成 + 对应原图电影感定向编辑），其余 35 张未生成；词条与对白、导入与发布未做。
+
+## 电影感补充（2026-10-09）
+用户在本批生成过程中追加要求艺术感、电影感，适用于 I001–I005 及全部后续场景与可选封面。导演方向：以现代职场电影剧照呈现安静、真实的面试瞬间；有意图的非居中构图、前中后景层次、真实窗侧光、克制负补光、柔和深阴影与受控高光；肤色暖白自然，背景阴影微冷，色彩克制，轻微 35mm 胶片颗粒；依靠眼神、停顿与手势形成叙事，面貌、手部和关键道具保持清晰；画幅仍为 4:5，不加黑边。完整英文模块已并入下方全局 prompt，独立保存于 [cinematic-addendum.txt](cinematic-addendum.txt)。
+
+## Global prompt (English, exact)
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.

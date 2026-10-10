@@ -1,0 +1,119 @@
+W069  交接值班信息
+========================================================================
+分类: 发布与线上协作（operations）
+关键词: alert
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W069.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W069.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W069.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:35:20.409Z
+  提示词文件: prompts/W069_image_final.txt
+
+场景: 两位值班开发者在交班时交换重要信息。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：两人之间打开的纸质笔记本。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 交接班次注意事项与升级处理条件。
+
+主配文（一句场景描述）:
+  英文: Two on-call developers exchange important information at a shift handover.
+  中文: 两位值班开发者在交班时交换重要信息。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] What should I watch during my shift?
+        我的班次中需要注意什么？
+  [B] There's an intermittent alert from the payment service.
+        支付服务有一条间歇性的告警。
+  [A] I'll keep this notebook nearby. When should I escalate it?
+        我会把这个笔记本放在旁边。什么情况下需要升级处理？
+  [B] If failures continue for five minutes, contact the service owner.
+        如果失败持续五分钟，就联系服务负责人。
+
+目标词 (4): alert, shift, escalate, notebook
+
+------------------------------------------------------------------------
+[1/4] alert
+  词义: 告警
+  词性: noun
+  音标: UK /əˈlɜːt/ | US /əˈlɜːrt/
+  搭配: a system alert; receive an alert
+  例句: There's an intermittent alert from the payment service.
+  例句高亮: There's an intermittent **alert** from the payment service.
+  例句中文: 支付服务有一条间歇性的告警。
+  标注模式: context
+  标注说明: “There's an intermittent alert from the payment service.”明确表达告警；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] shift
+  词义: 班次
+  词性: noun
+  音标: UK /ʃɪft/ | US /ʃɪft/
+  搭配: during my shift; a night shift
+  例句: What should I watch during my shift?
+  例句高亮: What should I watch during my **shift**?
+  例句中文: 我的班次中需要注意什么？
+  标注模式: context
+  标注说明: “What should I watch during my shift?”明确表达班次；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] escalate
+  词义: 升级处理
+  词性: verb
+  音标: UK /ˈeskəleɪt/ | US /ˈeskəleɪt/
+  搭配: escalate an issue; escalate to the owner
+  例句: I'll keep this notebook nearby. When should I escalate it?
+  例句高亮: I'll keep this notebook nearby. When should I **escalate** it?
+  例句中文: 我会把这个笔记本放在旁边。什么情况下需要升级处理？
+  标注模式: context
+  标注说明: “I'll keep this notebook nearby. When should I escalate it?”明确表达升级处理；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] notebook
+  词义: 笔记本
+  词性: noun
+  音标: UK /ˈnəʊtbʊk/ | US /ˈnoʊtbʊk/
+  搭配: in this notebook; write in a notebook
+  例句: I'll keep this notebook nearby. When should I escalate it?
+  例句高亮: I'll keep this **notebook** nearby. When should I escalate it?
+  例句中文: 我会把这个笔记本放在旁边。什么情况下需要升级处理？
+  标注模式: object
+  标注说明: 笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.416, 0.332, 0.648, 0.479]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W069 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand at a small desk, one passes an open notebook to the other. Notebook covers and blank pages fully visible between hands. Simple office environment no writing.

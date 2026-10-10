@@ -1,0 +1,285 @@
+{
+  "id": "I003",
+  "category": "introduction",
+  "title_zh": "为什么想加入这家公司？",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "美国女候选人说明求职动机，亚洲男面试官倾听；窗后的工作区弱化为真实背景。",
+  "cast": {
+    "candidate": "US_MAYA",
+    "interviewer": "AS_ARJUN"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.\nInterviewer or recruiter: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.\nExactly two people in a bright contemporary company interview room. Maya, in a cream blouse with a navy blazer, explains why the role interests her to Arjun, in a stone-gray shirt. Maya shows a small, genuine smile and a restrained open-hand gesture; Arjun listens with an open notebook. Through the frosted glass, only soft shapes of empty desks are visible, with no extra people or brand signage. Use a 50mm medium portrait from slightly off the table corner, keeping both faces clear and the office context subtle. Diffuse late-morning light, pale oak, a warm but credible conversation rather than a recruitment advertisement.",
+  "prompt_path": "prompts/I003_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I003.png",
+  "image_sha256": "45d75c4b641639ef20dd6d0e3b3dd6c574e79514787949731e3607201917ae1d",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "候选人一侧的纸质笔记本完整清晰，原采访者笔记本保留；人像与电影光线保持 实际可见物件：修图后候选人一侧的完整纸质笔记本；她的项目例子由对白设定支持，B原持有的另一本笔记本不混用。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "initial_prompt_snapshot_path": "programmer-interview/workflow/prompt-history/20261009-before-cinematic/prompts/I003_image_prompt.txt",
+    "initial_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-832e0971-afd2-415e-9d86-4616d19ad7de.png",
+    "initial_started_at_utc": "2026-10-09T11:14:06Z",
+    "initial_finished_at_utc": "2026-10-09T11:17:12Z",
+    "cinematic_edit_prompt_path": "programmer-interview/workflow/I001-I005-cinematic-edit-prompts/I003_edit.txt",
+    "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-df31a3ac-f080-4899-bb63-4af003e070b7.png",
+    "cinematic_started_at_utc": "2026-10-09T11:20:22Z",
+    "cinematic_finished_at_utc": "2026-10-09T11:23:35Z",
+    "selected_image_path": "images/I003.png",
+    "selected_image_sha256": "45d75c4b641639ef20dd6d0e3b3dd6c574e79514787949731e3607201917ae1d",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I001-I005_image-review.json",
+    "note": "两步链：初版 prompt 生成原图，再基于该原图定向编辑为选定电影感版；非由现升级后的 prompt 一次生成。",
+    "pre_edit_selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-f0be44b5-4ffe-436d-8e6d-19fb83e212a9.png",
+    "pre_edit_selected_image_sha256": "eef87afd55d461568c15f8230f247eac93122da69d6a8661eb057ab4c7bea20f",
+    "pre_edit_selected_image_dimensions": "1122x1402",
+    "edit_chain": [
+      {
+        "step": 1,
+        "note": "定向物件编辑",
+        "prompt_path": "workflow/learning-40-20261010/edit-prompts/I003_edit.txt",
+        "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-df31a3ac-f080-4899-bb63-4af003e070b7.png",
+        "started_at_utc": "2026-10-10T02:31:52Z",
+        "finished_at_utc": "2026-10-10T02:32:27Z",
+        "review": "候选人一侧的纸质笔记本完整清晰，原采访者笔记本保留；人像与电影光线保持。"
+      }
+    ],
+    "edit_journal_path": "workflow/learning-40-20261010/image-edit-journal.json",
+    "source_path": "images/I003.png",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-10T02:31:52Z",
+    "ended_at": "2026-10-10T02:32:27Z",
+    "prompt_path": "prompts/I003_image_final.txt"
+  },
+  "title": "为什么想加入这家公司？",
+  "scene": "美国女候选人说明求职动机，亚洲男面试官倾听；窗后的工作区弱化为真实背景。",
+  "category_title": "面试开场与自我介绍",
+  "primary_words": [
+    "motivation",
+    "mission",
+    "align",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "motivation",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "动机",
+      "pos": "noun",
+      "ipa_us": "/ˌmoʊtɪˈveɪʃən/",
+      "ipa_uk": "/ˌməʊtɪˈveɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My motivation is to build tools that help people work more effectively.",
+        "matched_form": "motivation",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：motivation。本卡例句：My motivation is to build tools that help people work more effectively.",
+        "image_verified": null
+      },
+      "example_en": "My motivation is to build tools that help people work more effectively.",
+      "example_zh": "我的求职动机是开发帮助人们提高工作效率的工具。",
+      "bbox_normalized": null,
+      "collocations": [
+        "explain your motivation",
+        "career motivation"
+      ],
+      "example_en_highlighted": "My **motivation** is to build tools that help people work more effectively.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：motivation。本卡例句：My motivation is to build tools that help people work more effectively.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "mission",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "使命",
+      "pos": "noun",
+      "ipa_us": "/ˈmɪʃən/",
+      "ipa_uk": "/ˈmɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How does that connect with our mission?",
+        "matched_form": "mission",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mission。本卡例句：How does that connect with our mission?",
+        "image_verified": null
+      },
+      "example_en": "How does that connect with our mission?",
+      "example_zh": "这与你理解的公司使命有什么联系？",
+      "bbox_normalized": null,
+      "collocations": [
+        "the company mission",
+        "connect with the mission"
+      ],
+      "example_en_highlighted": "How does that connect with our **mission**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mission。本卡例句：How does that connect with our mission?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "align",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "契合",
+      "pos": "verb",
+      "ipa_us": "/əˈlaɪn/",
+      "ipa_uk": "/əˈlaɪn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "matched_form": "align",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：align。本卡例句：Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "image_verified": null
+      },
+      "example_en": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+      "example_zh": "你们的开发者工具与我的兴趣契合。我在笔记本里记了两个例子。",
+      "bbox_normalized": null,
+      "collocations": [
+        "align with my interests",
+        "align with the mission"
+      ],
+      "example_en_highlighted": "Your developer tools **align** with my interests. I've noted two examples in my notebook.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：align。本卡例句：Your developer tools align with my interests. I've noted two examples in my notebook.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "修图后候选人一侧的完整纸质笔记本；她的项目例子由对白设定支持，B原持有的另一本笔记本不混用。",
+        "sentence": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+      "example_zh": "你们的开发者工具与我的兴趣契合。我在笔记本里记了两个例子。",
+      "bbox_normalized": [
+        0.09,
+        0.815,
+        0.525,
+        0.95
+      ],
+      "collocations": [
+        "write in a notebook",
+        "an open notebook"
+      ],
+      "example_en_highlighted": "Your developer tools align with my interests. I've noted two examples in my **notebook**.",
+      "annotation_mode": "object",
+      "annotation_note": "修图后候选人一侧的完整纸质笔记本；她的项目例子由对白设定支持，B原持有的另一本笔记本不混用。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "面试开场与自我介绍",
+  "keyword": "motivation",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate explains why the company's work interests her during an initial interview.",
+    "zh": "在初轮面试中，候选人说明自己为什么对这家公司的工作感兴趣。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate explains why the company's work interests her during an initial interview.",
+    "zh": "在初轮面试中，候选人说明自己为什么对这家公司的工作感兴趣。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "My motivation is to build tools that help people work more effectively.",
+      "zh": "我的求职动机是开发帮助人们提高工作效率的工具。"
+    },
+    {
+      "speaker": "B",
+      "en": "How does that connect with our mission?",
+      "zh": "这与你理解的公司使命有什么联系？"
+    },
+    {
+      "speaker": "A",
+      "en": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+      "zh": "你们的开发者工具与我的兴趣契合。我在笔记本里记了两个例子。"
+    },
+    {
+      "speaker": "B",
+      "en": "Which example would you like to discuss?",
+      "zh": "你想讨论哪一个例子？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "简洁介绍背景、技术经验与求职动机，解释与岗位的匹配。本卡主题：为什么想加入这家公司？。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I003 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I003.png 宽高归一化至 0..1；由人工视觉定位。"
+}

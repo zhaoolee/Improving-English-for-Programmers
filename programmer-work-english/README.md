@@ -8,14 +8,14 @@
 - deckID：`121d190a-5d4c-4a09-8d50-4741acdbbb1b`
 - 底图风格：极简黑白火柴人，**黑底白线**，**底图内不含任何文字或对话气泡**；单词气泡使用本专题 `workflow/label-palette.json` 的协调配色与白色文字。
 - 学习内容：每张卡一句双语场景描述、一段 4 句原创双人对话、4 个目标词（关键词 + 配套词），逐一给出短释义、词性、英美音标、搭配与例句。
-- 当前公开发布：**V9（免费公开，黑底白线）**，48 图 / 192 词条 / 151 个不同词（53 局部框 / 139 语境词），每类 6 张；原图与 V5–V8 历史版本保留。
-  - 下载：https://piclex.v2fy.com/decks/121d190a-5d4c-4a09-8d50-4741acdbbb1b/v9-38931e23003acf1e/deck.piclexdeck
+- 当前公开发布：**V10（免费公开，黑底白线）**，80 图 / 320 词条 / 224 个不同词（85 局部框 / 235 语境词），每类 10 张；原图与 V5–V9 历史版本保留。
+  - 下载：https://piclex.v2fy.com/decks/121d190a-5d4c-4a09-8d50-4741acdbbb1b/v10-86ccb63944b4da32/deck.piclexdeck
   - 目录：https://piclex.v2fy.com/decks/catalog.json
-  - packageSHA256：`38931e23003acf1ea354397bf5b897ae15156bbc047679ed46fb5d1b7572e725`（9698920 bytes）
-  - publicationID：`a59a61284b742183147fda597f1ac3ca`
-- 发布历史：V1（8 图）→ V2（英文对白修正，8 图）→ V3（每类第 2 张，16 图，`194cd48c22ce4e66b5c989659d25141a`）→ V4（每类第 3 张，24 图，`1414dbb07cd2b79a17eff0124f78971f`）→ V5（每类第 4 张，32 图，`8310c19c27152112253e51ca49e01988`）→ V6（黑底白线新 photoID 版本，32 图，`22bdb1464bd779b0c0bc2857c2963ba9`）→ V7（黑底白线，保留原 V5 photoID，32 图，`f0db8be990d3359c45d5e083b71c27c5`）→ V8（第五批，40 图，`5ed8d5031bcfc3e15784cb00886943ec`）→ 当前 V9（第六批，48 图，`a59a61284b742183147fda597f1ac3ca`）。
-- 第六批 **W006、W016、W026、W036、W046、W056、W066、W076** 已完成本地成品、导入并随 **V9** 免费公开发布（48 图 / 192 词条 / 151 唯一词 / 53 局部框 / 139 语境词，每类 6 张）；公网 HTTP 200、目录与包哈希一致、与本地验收包全等，原 40 图字节全等，850 未变；description 经官方 CLI 更新为“当前48张，每类6张”。
-- 下一未制作卡（按真实编号升序）：**W007**；若继续每类第 7 个场景，可选范围 W007、W017、W027、W037、W047、W057、W067、W077（仅制作范围，不改变已定场景标题）。
+  - packageSHA256：`86ccb63944b4da32b824861943f519e0ca283e272c0ee569ebc8a93ceea10f74`（15486193 bytes）
+  - publicationID：`5df15a728161bd954f9ba7cbf01f70a7`
+- 发布历史：V1（8 图）→ V2（英文对白修正，8 图）→ V3（每类第 2 张，16 图，`194cd48c22ce4e66b5c989659d25141a`）→ V4（每类第 3 张，24 图，`1414dbb07cd2b79a17eff0124f78971f`）→ V5（每类第 4 张，32 图，`8310c19c27152112253e51ca49e01988`）→ V6（黑底白线新 photoID 版本，32 图，`22bdb1464bd779b0c0bc2857c2963ba9`）→ V7（黑底白线，保留原 V5 photoID，32 图，`f0db8be990d3359c45d5e083b71c27c5`）→ V8（第五批，40 图，`5ed8d5031bcfc3e15784cb00886943ec`）→ V9（第六批，48 图，`a59a61284b742183147fda597f1ac3ca`）→ 当前 V10（每类第 7–10 张共 32 张，80 图，`5df15a728161bd954f9ba7cbf01f70a7`）。
+- 最后一批 **final-thirty-two**（每类第 7–10 张，共 32 张：W007–W010、W017–W020、W027–W030、W037–W040、W047–W050、W057–W060、W067–W070、W077–W080）已完成本地成品、导入并随 **V10** 免费公开发布（80 图 / 320 词条 / 224 唯一词 / 85 局部框 / 235 语境词，每类 10 张）；公网 HTTP 200、目录与包哈希一致、与本地验收包全等，原 48 图字节全等，850 未变；description 经官方 CLI 更新为“当前80张，每类10张”。
+- 本专题 80 张计划卡**已全部完成**；下一未制作卡：无。
 
 ## 计划规模
 
@@ -29,14 +29,15 @@
 | 第三批（历史，V4） | 8 张：W003、W013、W023、W033、W043、W053、W063、W073（32 词条 / 31 不同词） |
 | 第四批（历史，V5） | 8 张：W004、W014、W024、W034、W044、W054、W064、W074（32 词条 / 32 不同词） |
 | 第五批（历史，V8） | 8 张：W005、W015、W025、W035、W045、W055、W065、W075（32 词条 / 31 本批不同词） |
-| 第六批（已发布 V9） | 8 张：W006、W016、W026、W036、W046、W056、W066、W076（32 词条 / 32 本批不同词） |
-| 当前已完成总量（公开 V9，黑底白线） | **48 张 / 192 词条 / 151 个不同词（53 局部框 / 139 语境词）** |
-| 尚未制作 | 32 张（下一张 W007） |
+| 第六批（历史，V9） | 8 张：W006、W016、W026、W036、W046、W056、W066、W076（32 词条 / 32 本批不同词） |
+| 最后一批（每类第 7–10 张，已发布 V10） | 32 张：W007–W010、W017–W020、W027–W030、W037–W040、W047–W050、W057–W060、W067–W070、W077–W080（128 词条 / 111 本批不同词） |
+| 当前已完成总量（公开 V10，黑底白线） | **80 张 / 320 词条 / 224 个不同词（85 局部框 / 235 语境词）** |
+| 尚未制作 | 0 张 |
 | 每卡目标词 | 4 个 |
 
 编号按分类预留：W001–W010（融入团队）、W011–W020（需求澄清）、W021–W030（计划与进度）、W031–W040（技术方案讨论）、W041–W050（开发与代码评审）、W051–W060（测试与问题排查）、W061–W070（发布与线上协作）、W071–W080（反馈与职业成长）。首批为每类第 1 个场景。
 
-> 已完成 **首批 W001/W011/W021/W031/W041/W051/W061/W071**、**第二批 W002/W012/W022/W032/W042/W052/W062/W072**、**第三批 W003/W013/W023/W033/W043/W053/W063/W073**、**第四批 W004/W014/W024/W034/W044/W054/W064/W074**、**第五批 W005/W015/W025/W035/W045/W055/W065/W075** 与 **第六批 W006/W016/W026/W036/W046/W056/W066/W076** 共 **48 张（每类 6 张）**：底图、审图、导入、布局检查并免费公开发布 **V9**（黑底白线，48 图 / 192 词条 / 151 不同词 / 53 局部框 / 139 语境词）。其余 **32 张未制作**（下一张 W007），数量以真实文件为准，不代表已定稿。
+> 已完成 **首批 W001/W011/W021/W031/W041/W051/W061/W071**、**第二批 W002/W012/W022/W032/W042/W052/W062/W072**、**第三批 W003/W013/W023/W033/W043/W053/W063/W073**、**第四批 W004/W014/W024/W034/W044/W054/W064/W074**、**第五批 W005/W015/W025/W035/W045/W055/W065/W075**、**第六批 W006/W016/W026/W036/W046/W056/W066/W076** 与 **最后一批（final-thirty-two）W007–W010/W017–W020/W027–W030/W037–W040/W047–W050/W057–W060/W067–W070/W077–W080** 共 **80 张（每类 10 张）**：底图、审图、导入、布局检查并免费公开发布 **V10**（黑底白线，80 图 / 320 词条 / 224 不同词 / 85 局部框 / 235 语境词）。**80 张计划卡已全部完成**，数量以真实文件为准。
 
 ## 对白与展示
 
@@ -44,14 +45,14 @@
 - `caption` / `description` 保持一句场景描述。
 - PicLex 页脚显示高度有限（页脚固定高度），完整双语对白会被裁切；因此 `annotations.quote.english/chinese` **只保存一句双语场景描述**（等于 `description`），不拼入对白，`quote.source` 为 `原创对话 · Wxxx 标题`。
 - 关键词那一个 label 的 `learning.example` / `exampleChinese` 保存**完整 4 话轮对白**（仅逐句 `speaker` + 文本，共 4 行，各 ≤500 字符，直接来自定稿对白）；**角色说明只保留在 `cards.roles` 元数据，不拼入练习对白**。其余 3 个词的 learning 例句保留 cards 原定稿摘录。`cards.targets` 各词例句仍为原摘录。
-- 官方 `readingDialogue` 约定：`labels[].learning.example` 恰好 A、B 两个角色，canonical `A,B,A,B`，至少各一句，每句非空英文；**A=用户（学习者）朗读评分，B=机器朗读不评分**，角色标记不朗读/不评分；中英逐话轮对应，各 ≤500；中文只作展示、不参与识别；**普通单句不得改成对白**。本专题只有 8 个关键词使用对白，其余 24 个标签为普通例句。schema/格式合规**不等于手机 AB 模式评分验收**。
+- 官方 `readingDialogue` 约定：`labels[].learning.example` 恰好 A、B 两个角色，canonical `A,B,A,B`，至少各一句，每句非空英文；**A=用户（学习者）朗读评分，B=机器朗读不评分**，角色标记不朗读/不评分；中英逐话轮对应，各 ≤500；中文只作展示、不参与识别；**普通单句不得改成对白**。本专题 80 个关键词使用对白，其余 240 个标签为普通例句。schema/格式合规**不等于手机 AB 模式评分验收**。
 - 抽象词、功能词不设虚假框；可定位对象由人工在最终底图上框选（cards 为 0–1，PicLex 为 0–1000）。
 
 ## 已完成场景卡
 
 <!-- W样卡开始 -->
 
-以下为**已完成本地样卡 48 张**（按编号：W001、W002、W003、W004、W005、W006、W011、W012、W013、W014、W015、W016、W021、W022、W023、W024、W025、W026、W031、W032、W033、W034、W035、W036、W041、W042、W043、W044、W045、W046、W051、W052、W053、W054、W055、W056、W061、W062、W063、W064、W065、W066、W071、W072、W073、W074、W075、W076）：图片、一句双语场景描述、关键词、完整 4 话轮中英对白与 4 词学习表。内容来自本专题已审定数据，由 `scripts/sync-readme.py` 机械生成；练习对白只含角色标记与句子（角色定义见 `cards.roles` 元数据），英文学习字段不含中文字符；导入与发布状态见本页状态段与 `cards_plan.json` 的 meta。
+以下为**已完成本地样卡 80 张**（按编号：W001、W002、W003、W004、W005、W006、W007、W008、W009、W010、W011、W012、W013、W014、W015、W016、W017、W018、W019、W020、W021、W022、W023、W024、W025、W026、W027、W028、W029、W030、W031、W032、W033、W034、W035、W036、W037、W038、W039、W040、W041、W042、W043、W044、W045、W046、W047、W048、W049、W050、W051、W052、W053、W054、W055、W056、W057、W058、W059、W060、W061、W062、W063、W064、W065、W066、W067、W068、W069、W070、W071、W072、W073、W074、W075、W076、W077、W078、W079、W080）：图片、一句双语场景描述、关键词、完整 4 话轮中英对白与 4 词学习表。内容来自本专题已审定数据，由 `scripts/sync-readme.py` 机械生成；练习对白只含角色标记与句子（角色定义见 `cards.roles` 元数据），英文学习字段不含中文字符；导入与发布状态见本页状态段与 `cards_plan.json` 的 meta。
 
 ### W001 · 入职第一天的介绍
 
@@ -221,6 +222,118 @@
 
 > 说明：`ownership` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
+### W007 · 午餐时聊工作习惯
+
+<img src="images/W007.png" width="480" alt="W007 午餐时聊工作习惯">
+
+**场景**：Two developers discuss their work habits over lunch.<br>两位开发者在午餐时聊各自的工作习惯。
+
+**关键词**：`habit`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What habit helps you focus in the morning? | 什么习惯能帮助你在早上专注？ |
+| B（Speaker B） | I check messages after my first task, then take a short break. | 我完成第一项任务后才看消息，然后休息一小会儿。 |
+| A（Speaker A） | That sounds useful. Shall I take your plate? | 听起来很实用。要我帮你拿走盘子吗？ |
+| B（Speaker B） | Thanks. I try to keep lunch free of work messages too. | 谢谢。我也尽量不在午餐时间看工作消息。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| habit | 习惯 | What **habit** helps you focus in the morning?<br>什么习惯能帮助你在早上专注？ |
+| focus | 专注 | What habit helps you **focus** in the morning?<br>什么习惯能帮助你在早上专注？ |
+| break | 休息 | I check messages after my first task, then take a short **break**.<br>我完成第一项任务后才看消息，然后休息一小会儿。 |
+| plate | 盘子 | That sounds useful. Shall I take your **plate**?<br>听起来很实用。要我帮你拿走盘子吗？ |
+
+> 说明：`habit` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W008 · 预约同事的沟通时间
+
+<img src="images/W008.png" width="480" alt="W008 预约同事的沟通时间">
+
+**场景**：A developer asks a teammate for a brief conversation.<br>开发者向同事预约一次简短的交流。
+
+**关键词**：`available`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Are you available for a brief chat this afternoon? | 你今天下午有空简短聊一下吗？ |
+| B（Speaker B） | Yes. What would you like to discuss? | 有空。你想讨论什么？ |
+| A（Speaker A） | The new API. Let's check the clock and meet in ten minutes. | 新的 API。我们看一下时钟，十分钟后碰面吧。 |
+| B（Speaker B） | Works for me. I'll finish this task first. | 可以。我先把这项任务做完。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| available | 有空的 | Are you **available** for a brief chat this afternoon?<br>你今天下午有空简短聊一下吗？ |
+| discuss | 讨论 | Yes. What would you like to **discuss**?<br>有空。你想讨论什么？ |
+| brief | 简短的 | Are you available for a **brief** chat this afternoon?<br>你今天下午有空简短聊一下吗？ |
+| clock | 时钟 | The new API. Let's check the **clock** and meet in ten minutes.<br>新的 API。我们看一下时钟，十分钟后碰面吧。 |
+
+> 说明：`available` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W009 · 远程会议中自我介绍
+
+<img src="images/W009.png" width="480" alt="W009 远程会议中自我介绍">
+
+**场景**：A developer introduces themself in a remote team meeting.<br>开发者在远程团队会议中做自我介绍。
+
+**关键词**：`introduce`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | May I introduce myself before we start? | 开始之前，我可以先介绍一下自己吗？ |
+| B（Speaker B） | Of course. It's great to have you join the team. | 当然。很高兴你加入团队。 |
+| A（Speaker A） | I'm Sam. I support the mobile app. Can you hear me through this headset? | 我是 Sam。我负责支持移动应用。你能听到我通过这个耳麦说话吗？ |
+| B（Speaker B） | Yes, you sound clear. Welcome, Sam! | 能，声音很清楚。欢迎你，Sam！ |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| introduce | 介绍 | May I **introduce** myself before we start?<br>开始之前，我可以先介绍一下自己吗？ |
+| join | 加入 | Of course. It's great to have you **join** the team.<br>当然。很高兴你加入团队。 |
+| support | 支持 | I'm Sam. I **support** the mobile app. Can you hear me through this headset?<br>我是 Sam。我负责支持移动应用。你能听到我通过这个耳麦说话吗？ |
+| headset | 耳麦 | I'm Sam. I support the mobile app. Can you hear me through this **headset**?<br>我是 Sam。我负责支持移动应用。你能听到我通过这个耳麦说话吗？ |
+
+> 说明：`introduce` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W010 · 向交接同事确认资料
+
+<img src="images/W010.png" width="480" alt="W010 向交接同事确认资料">
+
+**场景**：Two teammates confirm the documents needed for a handover.<br>两位同事确认工作交接所需的资料。
+
+**关键词**：`handover`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Is the handover checklist complete? | 交接清单完整了吗？ |
+| B（Speaker B） | Yes. You can locate the setup notes in the shared drive. | 完整了。你可以在共享云盘中找到配置笔记。 |
+| A（Speaker A） | Does this folder contain the printed diagrams? | 这个文件夹里装的是打印出来的图吗？ |
+| B（Speaker B） | It does. Let's review the diagrams together before I leave. | 是的。离开之前，我们一起过一遍这些图吧。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| handover | 交接 | Is the **handover** checklist complete?<br>交接清单完整了吗？ |
+| locate | 找到 | Yes. You can **locate** the setup notes in the shared drive.<br>完整了。你可以在共享云盘中找到配置笔记。 |
+| complete | 完整的 | Is the handover checklist **complete**?<br>交接清单完整了吗？ |
+| folder | 文件夹 | Does this **folder** contain the printed diagrams?<br>这个文件夹里装的是打印出来的图吗？ |
+
+> 说明：`handover` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
 ### W011 · 澄清提交按钮的需求
 
 <img src="images/inverted/W011.png" width="480" alt="W011 澄清提交按钮的需求">
@@ -388,6 +501,118 @@
 | laptop | 笔记本电脑 | Should the edit button disappear on the **laptop** screen?<br>笔记本电脑屏幕上的编辑按钮应该隐藏吗？ |
 
 > 说明：`role` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W017 · 澄清错误提示文案
+
+<img src="images/W017.png" width="480" alt="W017 澄清错误提示文案">
+
+**场景**：A developer and a designer clarify an error message.<br>开发者与设计师澄清错误提示的措辞。
+
+**关键词**：`wording`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Could we make the wording of this error more specific? | 我们能把这个错误提示的措辞写得更明确吗？ |
+| B（Speaker B） | Yes. It should explain why the upload failed. | 可以。它应该解释上传为什么失败。 |
+| A（Speaker A） | Let's show a retry button on this monitor as well. | 我们也在这个显示器上展示重试按钮吧。 |
+| B（Speaker B） | Agreed. The message should help people decide what to do next. | 同意。提示应该帮助用户决定下一步怎么做。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| wording | 措辞 | Could we make the **wording** of this error more specific?<br>我们能把这个错误提示的措辞写得更明确吗？ |
+| specific | 明确的 | Could we make the wording of this error more **specific**?<br>我们能把这个错误提示的措辞写得更明确吗？ |
+| retry | 重试 | Let's show a **retry** button on this monitor as well.<br>我们也在这个显示器上展示重试按钮吧。 |
+| monitor | 显示器 | Let's show a retry button on this **monitor** as well.<br>我们也在这个显示器上展示重试按钮吧。 |
+
+> 说明：`wording` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W018 · 核对设计稿与需求
+
+<img src="images/W018.png" width="480" alt="W018 核对设计稿与需求">
+
+**场景**：A developer checks a design against the agreed requirements.<br>开发者核对设计稿是否符合已确认的需求。
+
+**关键词**：`consistent`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Is this design consistent with the requirement we agreed on? | 这个设计与我们确认的需求一致吗？ |
+| B（Speaker B） | Almost. The search field should also appear on smaller screens. | 基本一致。较小的屏幕上也应该显示搜索框。 |
+| A（Speaker A） | I can show the mobile layout on this tablet. | 我可以用这个平板电脑展示移动端布局。 |
+| B（Speaker B） | Great. Let's compare both layouts before implementation. | 好。实现之前，我们对比一下这两种布局吧。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| consistent | 一致的 | Is this design **consistent** with the requirement we agreed on?<br>这个设计与我们确认的需求一致吗？ |
+| design | 设计 | Is this **design** consistent with the requirement we agreed on?<br>这个设计与我们确认的需求一致吗？ |
+| requirement | 需求 | Is this design consistent with the **requirement** we agreed on?<br>这个设计与我们确认的需求一致吗？ |
+| tablet | 平板电脑 | I can show the mobile layout on this **tablet**.<br>我可以用这个平板电脑展示移动端布局。 |
+
+> 说明：`consistent` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W019 · 处理临时需求变更
+
+<img src="images/W019.png" width="480" alt="W019 处理临时需求变更">
+
+**场景**：A developer discusses the impact of a late requirement change.<br>开发者讨论临时需求变更带来的影响。
+
+**关键词**：`change`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What impact would this change have on the release? | 这次变更会对发布产生什么影响？ |
+| B（Speaker B） | It would add two days of work and require new tests. | 会增加两天的工作量，还需要新增测试。 |
+| A（Speaker A） | I'll note that in my notebook. Who can approve the extra scope? | 我把这些记在笔记本里。谁能批准增加的范围？ |
+| B（Speaker B） | The product lead. Let's confirm with her before we start. | 产品负责人。我们开始之前先找她确认吧。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| change | 变更 | What impact would this **change** have on the release?<br>这次变更会对发布产生什么影响？ |
+| impact | 影响 | What **impact** would this change have on the release?<br>这次变更会对发布产生什么影响？ |
+| approve | 批准 | I'll note that in my notebook. Who can **approve** the extra scope?<br>我把这些记在笔记本里。谁能批准增加的范围？ |
+| notebook | 笔记本 | I'll note that in my **notebook**. Who can approve the extra scope?<br>我把这些记在笔记本里。谁能批准增加的范围？ |
+
+> 说明：`change` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W020 · 复述讨论后的共同理解
+
+<img src="images/W020.png" width="480" alt="W020 复述讨论后的共同理解">
+
+**场景**：Two teammates restate the scope to confirm a shared understanding.<br>两位同事复述范围，确认双方理解一致。
+
+**关键词**：`understanding`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Let me confirm my understanding of the plan. | 我来确认一下我对计划的理解。 |
+| B（Speaker B） | Sure. What will the first version include? | 好。第一版会包含哪些内容？ |
+| A（Speaker A） | Search and filters. We'll exclude export and update the board. | 搜索和筛选。我们会排除导出功能，并更新白板。 |
+| B（Speaker B） | Exactly. We agree on the scope now. | 没错。现在我们对范围达成一致了。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| understanding | 理解 | Let me confirm my **understanding** of the plan.<br>我来确认一下我对计划的理解。 |
+| confirm | 确认 | Let me **confirm** my understanding of the plan.<br>我来确认一下我对计划的理解。 |
+| exclude | 排除 | Search and filters. We'll **exclude** export and update the board.<br>搜索和筛选。我们会排除导出功能，并更新白板。 |
+| board | 白板 | Search and filters. We'll exclude export and update the **board**.<br>搜索和筛选。我们会排除导出功能，并更新白板。 |
+
+> 说明：`understanding` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
 ### W021 · 确认任务优先级
 
@@ -557,6 +782,118 @@
 
 > 说明：`split` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
+### W027 · 确认本周交付范围
+
+<img src="images/W027.png" width="480" alt="W027 确认本周交付范围">
+
+**场景**：A team confirms what it can deliver this week.<br>团队确认本周能够交付的范围。
+
+**关键词**：`deliver`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What can we commit to deliver this week? | 我们能承诺本周交付什么？ |
+| B（Speaker B） | The login fix and the new search endpoint. | 登录问题的修复和新的搜索接口。 |
+| A（Speaker A） | Let's keep that scope and mark the date on the calendar. | 我们就保持这个范围，并在日历上标记日期。 |
+| B（Speaker B） | Agreed. We'll discuss any additional work separately. | 同意。其他新增工作我们另行讨论。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| deliver | 交付 | What can we commit to **deliver** this week?<br>我们能承诺本周交付什么？ |
+| scope | 范围 | Let's keep that **scope** and mark the date on the calendar.<br>我们就保持这个范围，并在日历上标记日期。 |
+| commit | 承诺 | What can we **commit** to deliver this week?<br>我们能承诺本周交付什么？ |
+| calendar | 日历 | Let's keep that scope and mark the date on the **calendar**.<br>我们就保持这个范围，并在日历上标记日期。 |
+
+> 说明：`deliver` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W028 · 跟进跨团队依赖
+
+<img src="images/W028.png" width="480" alt="W028 跟进跨团队依赖">
+
+**场景**：A developer follows up on a dependency with another team.<br>开发者跟进另一个团队提供的依赖。
+
+**关键词**：`dependency`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Is the API dependency ready for integration? | 这个 API 依赖已经可以用于集成了吗？ |
+| B（Speaker B） | Not yet. The other team is finishing its tests. | 还没。他们团队正在完成测试。 |
+| A（Speaker A） | I'll follow up by phone and ask for an updated estimate. | 我会打电话跟进，询问最新的预计时间。 |
+| B（Speaker B） | Thanks. Please tell them which part is blocking us. | 谢谢。请告诉他们是哪一部分阻塞了我们。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| dependency | 依赖 | Is the API **dependency** ready for integration?<br>这个 API 依赖已经可以用于集成了吗？ |
+| follow | 跟进（follow up） | I'll **follow** up by phone and ask for an updated estimate.<br>我会打电话跟进，询问最新的预计时间。 |
+| ready | 就绪的 | Is the API dependency **ready** for integration?<br>这个 API 依赖已经可以用于集成了吗？ |
+| phone | 电话 | I'll follow up by **phone** and ask for an updated estimate.<br>我会打电话跟进，询问最新的预计时间。 |
+
+> 说明：`dependency` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W029 · 更新任务状态
+
+<img src="images/W029.png" width="480" alt="W029 更新任务状态">
+
+**场景**：A developer updates a teammate on task progress.<br>开发者向同事更新任务进展。
+
+**关键词**：`status`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Could you update the task status before our meeting? | 开会之前，你能更新一下任务状态吗？ |
+| B（Speaker B） | Sure. I've made good progress on the API tests. | 当然。API 测试已经取得不错的进展。 |
+| A（Speaker A） | What's the remaining work? I'll enter it using this keyboard. | 还有哪些工作剩下？我用这个键盘录入。 |
+| B（Speaker B） | Just the timeout case. I expect to finish it this afternoon. | 只剩超时的情况。我预计今天下午能完成。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| status | 状态 | Could you update the task **status** before our meeting?<br>开会之前，你能更新一下任务状态吗？ |
+| progress | 进展 | Sure. I've made good **progress** on the API tests.<br>当然。API 测试已经取得不错的进展。 |
+| remaining | 剩余的 | What's the **remaining** work? I'll enter it using this keyboard.<br>还有哪些工作剩下？我用这个键盘录入。 |
+| keyboard | 键盘 | What's the remaining work? I'll enter it using this **keyboard**.<br>还有哪些工作剩下？我用这个键盘录入。 |
+
+> 说明：`status` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W030 · 交接未完成的任务
+
+<img src="images/W030.png" width="480" alt="W030 交接未完成的任务">
+
+**场景**：A developer hands over an unfinished task with useful context.<br>开发者带着必要的背景信息交接未完成的任务。
+
+**关键词**：`unfinished`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Can I transfer this unfinished task to you before my leave? | 我休假之前能把这项未完成的任务移交给你吗？ |
+| B（Speaker B） | Yes. Could you share the context and the current blocker? | 可以。你能介绍一下背景和当前的阻塞点吗？ |
+| A（Speaker A） | This document explains the approach. The last test still fails. | 这份文档解释了实现思路。最后一项测试还没通过。 |
+| B（Speaker B） | Thanks. I'll read it and continue from there. | 谢谢。我读完后会接着做。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| unfinished | 未完成的 | Can I transfer this **unfinished** task to you before my leave?<br>我休假之前能把这项未完成的任务移交给你吗？ |
+| transfer | 移交 | Can I **transfer** this unfinished task to you before my leave?<br>我休假之前能把这项未完成的任务移交给你吗？ |
+| context | 背景信息 | Yes. Could you share the **context** and the current blocker?<br>可以。你能介绍一下背景和当前的阻塞点吗？ |
+| document | 文档 | This **document** explains the approach. The last test still fails.<br>这份文档解释了实现思路。最后一项测试还没通过。 |
+
+> 说明：`unfinished` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
 ### W031 · 讨论缓存方案的取舍
 
 <img src="images/inverted/W031.png" width="480" alt="W031 讨论缓存方案的取舍">
@@ -724,6 +1061,118 @@
 | monitor | 显示器 | Will the **monitor** keep showing the user's previous result?<br>显示器上会继续显示用户之前的结果吗？ |
 
 > 说明：`fallback` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W037 · 解释维护成本
+
+<img src="images/W037.png" width="480" alt="W037 解释维护成本">
+
+**场景**：A developer explains how a simpler design lowers maintenance cost.<br>开发者解释简单的设计如何降低维护成本。
+
+**关键词**：`maintenance`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Why do you prefer the simple design? | 你为什么更倾向于简单的设计？ |
+| B（Speaker B） | It reduces maintenance cost because fewer parts can fail. | 它能降低维护成本，因为可能出故障的部分更少。 |
+| A（Speaker A） | Could you sketch the difference on the board? | 你能在白板上画出差异吗？ |
+| B（Speaker B） | Sure. This smaller diagram is easier for the team to understand. | 可以。这个更小的图更容易让团队理解。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| maintenance | 维护 | It reduces **maintenance** cost because fewer parts can fail.<br>它能降低维护成本，因为可能出故障的部分更少。 |
+| simple | 简单的 | Why do you prefer the **simple** design?<br>你为什么更倾向于简单的设计？ |
+| cost | 成本 | It reduces maintenance **cost** because fewer parts can fail.<br>它能降低维护成本，因为可能出故障的部分更少。 |
+| board | 白板 | Could you sketch the difference on the **board**?<br>你能在白板上画出差异吗？ |
+
+> 说明：`maintenance` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W038 · 提出技术风险
+
+<img src="images/W038.png" width="480" alt="W038 提出技术风险">
+
+**场景**：A developer raises a technical risk and proposes a safeguard.<br>开发者提出技术风险，并建议防护措施。
+
+**关键词**：`risk`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What is the main risk of calling the external service? | 调用外部服务的主要风险是什么？ |
+| B（Speaker B） | A slow response could hold up the entire request. | 响应缓慢可能拖住整个请求。 |
+| A（Speaker A） | I'll use this notebook to record how we can mitigate it. | 我用这个笔记本记录我们可以怎样降低风险。 |
+| B（Speaker B） | Set a time limit and use a fallback when it expires. | 设置时限，超时后使用备用方案。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| risk | 风险 | What is the main **risk** of calling the external service?<br>调用外部服务的主要风险是什么？ |
+| mitigate | 降低风险 | I'll use this notebook to record how we can **mitigate** it.<br>我用这个笔记本记录我们可以怎样降低风险。 |
+| limit | 限制 | Set a time **limit** and use a fallback when it expires.<br>设置时限，超时后使用备用方案。 |
+| notebook | 笔记本 | I'll use this **notebook** to record how we can mitigate it.<br>我用这个笔记本记录我们可以怎样降低风险。 |
+
+> 说明：`risk` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W039 · 回答方案评审问题
+
+<img src="images/W039.png" width="480" alt="W039 回答方案评审问题">
+
+**场景**：A developer answers a question about a design tradeoff.<br>开发者回答关于方案权衡的评审问题。
+
+**关键词**：`tradeoff`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What tradeoff are we making with this cache? | 使用这个缓存，我们在做什么权衡？ |
+| B（Speaker B） | We lower latency, but updates may take longer to appear. | 我们降低了延迟，但更新可能需要更久才显示出来。 |
+| A（Speaker A） | Is that delay acceptable? Let's compare the charts on this monitor. | 这个延迟可以接受吗？我们对比一下这个显示器上的图表吧。 |
+| B（Speaker B） | For this page, yes. Users don't need live updates here. | 对于这个页面，可以。用户在这里不需要实时更新。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| tradeoff | 权衡 | What **tradeoff** are we making with this cache?<br>使用这个缓存，我们在做什么权衡？ |
+| latency | 延迟 | We lower **latency**, but updates may take longer to appear.<br>我们降低了延迟，但更新可能需要更久才显示出来。 |
+| acceptable | 可接受的 | Is that delay **acceptable**? Let's compare the charts on this monitor.<br>这个延迟可以接受吗？我们对比一下这个显示器上的图表吧。 |
+| monitor | 显示器 | Is that delay acceptable? Let's compare the charts on this **monitor**.<br>这个延迟可以接受吗？我们对比一下这个显示器上的图表吧。 |
+
+> 说明：`tradeoff` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W040 · 记录最终技术决定
+
+<img src="images/W040.png" width="480" alt="W040 记录最终技术决定">
+
+**场景**：A team records its final technical decision and the reasoning behind it.<br>团队记录最终技术决定及其理由。
+
+**关键词**：`decision`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Have we reached a decision on the storage layer? | 我们对存储层做出决定了吗？ |
+| B（Speaker B） | Yes. We'll keep the existing database for this release. | 是的。这次发布继续使用现有数据库。 |
+| A（Speaker A） | I'll use this pen to record the rationale as well. | 我也会用这支笔记录理由。 |
+| B（Speaker B） | Good. Note the migration cost and the options we considered. | 好。记下迁移成本和我们考虑过的方案。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| decision | 决定 | Have we reached a **decision** on the storage layer?<br>我们对存储层做出决定了吗？ |
+| rationale | 理由 | I'll use this pen to record the **rationale** as well.<br>我也会用这支笔记录理由。 |
+| record | 记录 | I'll use this pen to **record** the rationale as well.<br>我也会用这支笔记录理由。 |
+| pen | 笔 | I'll use this **pen** to record the rationale as well.<br>我也会用这支笔记录理由。 |
+
+> 说明：`decision` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
 ### W041 · 请求代码评审
 
@@ -893,6 +1342,118 @@
 
 > 说明：`approach` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
+### W047 · 处理合并冲突
+
+<img src="images/W047.png" width="480" alt="W047 处理合并冲突">
+
+**场景**：Two developers work together to resolve a merge conflict.<br>两位开发者一起解决合并冲突。
+
+**关键词**：`conflict`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | My branch has a conflict with the latest changes. | 我的分支与最新修改发生了冲突。 |
+| B（Speaker B） | Let's resolve it together. Which file changed on both sides? | 我们一起解决。哪一个文件双方都修改了？ |
+| A（Speaker A） | The settings file. I'll use this keyboard to open both versions. | 设置文件。我用这个键盘打开两个版本。 |
+| B（Speaker B） | Great. Keep the new validation and your default values. | 好。保留新的校验逻辑和你设置的默认值。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| conflict | 冲突 | My branch has a **conflict** with the latest changes.<br>我的分支与最新修改发生了冲突。 |
+| resolve | 解决 | Let's **resolve** it together. Which file changed on both sides?<br>我们一起解决。哪一个文件双方都修改了？ |
+| branch | 分支 | My **branch** has a conflict with the latest changes.<br>我的分支与最新修改发生了冲突。 |
+| keyboard | 键盘 | The settings file. I'll use this **keyboard** to open both versions.<br>设置文件。我用这个键盘打开两个版本。 |
+
+> 说明：`conflict` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W048 · 请求补充测试
+
+<img src="images/W048.png" width="480" alt="W048 请求补充测试">
+
+**场景**：A reviewer asks for tests covering an edge case.<br>评审者请求补充覆盖边界情况的测试。
+
+**关键词**：`coverage`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Could we improve test coverage for this change? | 我们能提高这次变更的测试覆盖范围吗？ |
+| B（Speaker B） | Sure. Which edge case should I add? | 当然。应该补哪个边界情况？ |
+| A（Speaker A） | Empty input. Please assert the result and run it on this laptop. | 空输入。请对结果做断言，并在这个笔记本电脑上运行测试。 |
+| B（Speaker B） | Got it. I'll add that case before the next review. | 明白。我会在下一次评审之前补上。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| coverage | 覆盖范围 | Could we improve test **coverage** for this change?<br>我们能提高这次变更的测试覆盖范围吗？ |
+| edge | 边界 | Sure. Which **edge** case should I add?<br>当然。应该补哪个边界情况？ |
+| assert | 断言 | Empty input. Please **assert** the result and run it on this laptop.<br>空输入。请对结果做断言，并在这个笔记本电脑上运行测试。 |
+| laptop | 笔记本电脑 | Empty input. Please assert the result and run it on this **laptop**.<br>空输入。请对结果做断言，并在这个笔记本电脑上运行测试。 |
+
+> 说明：`coverage` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W049 · 礼貌回应评审分歧
+
+<img src="images/W049.png" width="480" alt="W049 礼貌回应评审分歧">
+
+**场景**：Two developers discuss a review disagreement respectfully.<br>两位开发者礼貌地讨论代码评审中的分歧。
+
+**关键词**：`disagree`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | I disagree with moving this logic into the controller. | 我不同意把这段逻辑移到控制器里。 |
+| B（Speaker B） | Thanks for explaining. What's your main concern? | 谢谢你说明。你主要有什么顾虑？ |
+| A（Speaker A） | Testing would be harder. Can we discuss an alternative over a mug of tea? | 测试会更难。我们能喝杯茶，讨论一个替代方案吗？ |
+| B（Speaker B） | Absolutely. Let's compare both approaches with a small example. | 当然。我们用一个小例子比较两种做法吧。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| disagree | 不同意 | I **disagree** with moving this logic into the controller.<br>我不同意把这段逻辑移到控制器里。 |
+| concern | 顾虑 | Thanks for explaining. What's your main **concern**?<br>谢谢你说明。你主要有什么顾虑？ |
+| alternative | 替代方案 | Testing would be harder. Can we discuss an **alternative** over a mug of tea?<br>测试会更难。我们能喝杯茶，讨论一个替代方案吗？ |
+| mug | 马克杯 | Testing would be harder. Can we discuss an alternative over a **mug** of tea?<br>测试会更难。我们能喝杯茶，讨论一个替代方案吗？ |
+
+> 说明：`disagree` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W050 · 确认修改后可以合并
+
+<img src="images/W050.png" width="480" alt="W050 确认修改后可以合并">
+
+**场景**：A developer confirms that a revised change is ready to merge.<br>开发者确认修改后的变更已可以合并。
+
+**关键词**：`merge`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Do the tests pass after my latest update? | 我最新一次更新后，测试都通过了吗？ |
+| B（Speaker B） | Yes, and I've finished the review. The change looks good. | 是的，而且我完成了评审。这次变更看起来没问题。 |
+| A（Speaker A） | Great. I'll use this mouse to merge the pull request. | 好。我用这个鼠标合并拉取请求。 |
+| B（Speaker B） | Go ahead. Thanks for addressing the comments. | 可以合并。谢谢你处理了评审意见。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| merge | 合并 | Great. I'll use this mouse to **merge** the pull request.<br>好。我用这个鼠标合并拉取请求。 |
+| review | 评审 | Yes, and I've finished the **review**. The change looks good.<br>是的，而且我完成了评审。这次变更看起来没问题。 |
+| pass | 通过 | Do the tests **pass** after my latest update?<br>我最新一次更新后，测试都通过了吗？ |
+| mouse | 鼠标 | Great. I'll use this **mouse** to merge the pull request.<br>好。我用这个鼠标合并拉取请求。 |
+
+> 说明：`merge` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
 ### W051 · 确认错误复现步骤
 
 <img src="images/inverted/W051.png" width="480" alt="W051 确认错误复现步骤">
@@ -1060,6 +1621,118 @@
 | cable | 连接线 | My hypothesis is that this **cable** causes the connection failures.<br>我的假设是这根线导致了连接失败。 |
 
 > 说明：`hypothesis` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W057 · 缩小问题影响范围
+
+<img src="images/W057.png" width="480" alt="W057 缩小问题影响范围">
+
+**场景**：Two developers narrow down which users are affected by a bug.<br>两位开发者缩小缺陷所影响的用户范围。
+
+**关键词**：`isolate`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Can we isolate the affected users? | 我们能定位出受影响的用户吗？ |
+| B（Speaker B） | So far, only new accounts in one region have reported it. | 目前只有一个区域的新账户报告了这个问题。 |
+| A（Speaker A） | Let's mark that group on the board and check older accounts. | 我们在白板上标记这个群体，再检查旧账户。 |
+| B（Speaker B） | Good idea. That will help us narrow down the cause. | 好主意。这能帮助我们缩小原因范围。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| isolate | 隔离定位 | Can we **isolate** the affected users?<br>我们能定位出受影响的用户吗？ |
+| affected | 受影响的 | Can we isolate the **affected** users?<br>我们能定位出受影响的用户吗？ |
+| region | 区域 | So far, only new accounts in one **region** have reported it.<br>目前只有一个区域的新账户报告了这个问题。 |
+| board | 白板 | Let's mark that group on the **board** and check older accounts.<br>我们在白板上标记这个群体，再检查旧账户。 |
+
+> 说明：`isolate` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W058 · 验证修复是否有效
+
+<img src="images/W058.png" width="480" alt="W058 验证修复是否有效">
+
+**场景**：A tester and a developer verify a fix and check for regressions.<br>测试人员与开发者验证修复，并检查是否引入回归缺陷。
+
+**关键词**：`verify`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | How can we verify this fix? | 我们怎样验证这次修复？ |
+| B（Speaker B） | Repeat the original steps, then run the related tests. | 重复原来的操作步骤，再运行相关测试。 |
+| A（Speaker A） | I'll use this laptop to check for a regression in checkout too. | 我也会用这个笔记本电脑检查结账流程有没有回归缺陷。 |
+| B（Speaker B） | Thanks. Let me know if any existing behavior changes. | 谢谢。如果现有行为有任何变化，请告诉我。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| verify | 验证 | How can we **verify** this fix?<br>我们怎样验证这次修复？ |
+| fix | 修复 | How can we verify this **fix**?<br>我们怎样验证这次修复？ |
+| regression | 回归缺陷 | I'll use this laptop to check for a **regression** in checkout too.<br>我也会用这个笔记本电脑检查结账流程有没有回归缺陷。 |
+| laptop | 笔记本电脑 | I'll use this **laptop** to check for a regression in checkout too.<br>我也会用这个笔记本电脑检查结账流程有没有回归缺陷。 |
+
+> 说明：`verify` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W059 · 汇报暂时无法复现
+
+<img src="images/W059.png" width="480" alt="W059 汇报暂时无法复现">
+
+**场景**：A developer reports that a bug cannot yet be reproduced locally.<br>开发者汇报暂时无法在本地复现缺陷。
+
+**关键词**：`reproduce`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | I can't reproduce the issue in my local environment yet. | 我暂时还无法在本地环境复现这个问题。 |
+| B（Speaker B） | What evidence would help you investigate? | 哪些证据能帮助你调查？ |
+| A（Speaker A） | A recording and the exact steps. This monitor shows a normal result. | 一段录像和确切步骤。这个显示器上显示的是正常结果。 |
+| B（Speaker B） | I'll ask the reporter for those details and the app version. | 我会向反馈者询问这些细节和应用版本。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| reproduce | 复现 | I can't **reproduce** the issue in my local environment yet.<br>我暂时还无法在本地环境复现这个问题。 |
+| environment | 环境 | I can't reproduce the issue in my local **environment** yet.<br>我暂时还无法在本地环境复现这个问题。 |
+| evidence | 证据 | What **evidence** would help you investigate?<br>哪些证据能帮助你调查？ |
+| monitor | 显示器 | A recording and the exact steps. This **monitor** shows a normal result.<br>一段录像和确切步骤。这个显示器上显示的是正常结果。 |
+
+> 说明：`reproduce` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W060 · 整理完整的缺陷报告
+
+<img src="images/W060.png" width="480" alt="W060 整理完整的缺陷报告">
+
+**场景**：A developer prepares a bug report with clear steps and results.<br>开发者整理操作步骤与结果明确的缺陷报告。
+
+**关键词**：`report`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Does the bug report include the expected and actual results? | 缺陷报告包含预期结果和实际结果了吗？ |
+| B（Speaker B） | Yes. I also added the steps and a screenshot. | 包含了。我还加了操作步骤和截图。 |
+| A（Speaker A） | Let's check this document for the app version and device details. | 我们检查一下这份文档里有没有应用版本和设备信息。 |
+| B（Speaker B） | They're included. The report is ready to share now. | 都有。现在报告已经可以分享了。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| report | 报告 | Does the bug **report** include the expected and actual results?<br>缺陷报告包含预期结果和实际结果了吗？ |
+| expected | 预期的 | Does the bug report include the **expected** and actual results?<br>缺陷报告包含预期结果和实际结果了吗？ |
+| actual | 实际的 | Does the bug report include the expected and **actual** results?<br>缺陷报告包含预期结果和实际结果了吗？ |
+| document | 文档 | Let's check this **document** for the app version and device details.<br>我们检查一下这份文档里有没有应用版本和设备信息。 |
+
+> 说明：`report` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
 ### W061 · 讨论发布回滚
 
@@ -1229,6 +1902,118 @@
 
 > 说明：`coordinate` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
+### W067 · 同步排查进展
+
+<img src="images/W067.png" width="480" alt="W067 同步排查进展">
+
+**场景**：An on-call developer shares an investigation update.<br>值班开发者同步故障排查进展。
+
+**关键词**：`update`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Do you have an update on the outage? | 关于这次故障，你有新的进展吗？ |
+| B（Speaker B） | We're still working to investigate the database errors. | 我们还在排查数据库错误。 |
+| A（Speaker A） | I'll share that by phone. Can we give a recovery estimate? | 我会通过电话同步。我们能给出预计恢复时间吗？ |
+| B（Speaker B） | Not yet. Let's send another update in fifteen minutes. | 暂时不能。我们十五分钟后再同步一次进展。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| update | 更新 | Do you have an **update** on the outage?<br>关于这次故障，你有新的进展吗？ |
+| investigate | 排查 | We're still working to **investigate** the database errors.<br>我们还在排查数据库错误。 |
+| estimate | 预计时间 | I'll share that by phone. Can we give a recovery **estimate**?<br>我会通过电话同步。我们能给出预计恢复时间吗？ |
+| phone | 电话 | I'll share that by **phone**. Can we give a recovery estimate?<br>我会通过电话同步。我们能给出预计恢复时间吗？ |
+
+> 说明：`update` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W068 · 确认服务恢复
+
+<img src="images/W068.png" width="480" alt="W068 确认服务恢复">
+
+**场景**：Two developers confirm that a service has recovered and keep watching it.<br>两位开发者确认服务已恢复，并继续观察。
+
+**关键词**：`recover`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Did the service recover after the rollback? | 回滚后服务恢复了吗？ |
+| B（Speaker B） | Yes. Requests are succeeding, and response times are stable. | 是的。请求已经成功，响应时间也稳定了。 |
+| A（Speaker A） | Let's observe this monitor for a while before closing the incident. | 关闭事故之前，我们再观察这个显示器一会儿吧。 |
+| B（Speaker B） | Agreed. I'll also confirm with the support team. | 同意。我也会和客服团队确认。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| recover | 恢复 | Did the service **recover** after the rollback?<br>回滚后服务恢复了吗？ |
+| stable | 稳定的 | Yes. Requests are succeeding, and response times are **stable**.<br>是的。请求已经成功，响应时间也稳定了。 |
+| observe | 观察 | Let's **observe** this monitor for a while before closing the incident.<br>关闭事故之前，我们再观察这个显示器一会儿吧。 |
+| monitor | 显示器 | Let's observe this **monitor** for a while before closing the incident.<br>关闭事故之前，我们再观察这个显示器一会儿吧。 |
+
+> 说明：`recover` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W069 · 交接值班信息
+
+<img src="images/W069.png" width="480" alt="W069 交接值班信息">
+
+**场景**：Two on-call developers exchange important information at a shift handover.<br>两位值班开发者在交班时交换重要信息。
+
+**关键词**：`alert`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What should I watch during my shift? | 我的班次中需要注意什么？ |
+| B（Speaker B） | There's an intermittent alert from the payment service. | 支付服务有一条间歇性的告警。 |
+| A（Speaker A） | I'll keep this notebook nearby. When should I escalate it? | 我会把这个笔记本放在旁边。什么情况下需要升级处理？ |
+| B（Speaker B） | If failures continue for five minutes, contact the service owner. | 如果失败持续五分钟，就联系服务负责人。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| alert | 告警 | There's an intermittent **alert** from the payment service.<br>支付服务有一条间歇性的告警。 |
+| shift | 班次 | What should I watch during my **shift**?<br>我的班次中需要注意什么？ |
+| escalate | 升级处理 | I'll keep this notebook nearby. When should I **escalate** it?<br>我会把这个笔记本放在旁边。什么情况下需要升级处理？ |
+| notebook | 笔记本 | I'll keep this **notebook** nearby. When should I escalate it?<br>我会把这个笔记本放在旁边。什么情况下需要升级处理？ |
+
+> 说明：`alert` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W070 · 进行无责事故复盘
+
+<img src="images/W070.png" width="480" alt="W070 进行无责事故复盘">
+
+**场景**：A team reviews an incident without blame and identifies improvements.<br>团队进行无责事故复盘，并寻找改进措施。
+
+**关键词**：`blameless`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Let's keep this review blameless and focus on what happened. | 这次复盘保持无责，专注于实际发生了什么。 |
+| B（Speaker B） | Agreed. Several conditions seemed to contribute to the outage. | 同意。看来有多个条件促成了这次故障。 |
+| A（Speaker A） | Let's map them on the board. How can we prevent a repeat? | 我们把它们画在白板上。怎样预防再次发生？ |
+| B（Speaker B） | Add a safer rollout check and improve the alert threshold. | 增加更稳妥的发布检查，并改进告警阈值。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| blameless | 无责的 | Let's keep this review **blameless** and focus on what happened.<br>这次复盘保持无责，专注于实际发生了什么。 |
+| contribute | 促成 | Agreed. Several conditions seemed to **contribute** to the outage.<br>同意。看来有多个条件促成了这次故障。 |
+| prevent | 预防 | Let's map them on the board. How can we **prevent** a repeat?<br>我们把它们画在白板上。怎样预防再次发生？ |
+| board | 白板 | Let's map them on the **board**. How can we prevent a repeat?<br>我们把它们画在白板上。怎样预防再次发生？ |
+
+> 说明：`blameless` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
 ### W071 · 请求事故沟通反馈
 
 <img src="images/inverted/W071.png" width="480" alt="W071 请求事故沟通反馈">
@@ -1396,6 +2181,118 @@
 | timer | 计时器 | I'll set the **timer** and be available again at eleven.<br>我会设置计时器，到十一点再恢复联系。 |
 
 > 说明：`focus` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W077 · 接受建设性反馈
+
+<img src="images/W077.png" width="480" alt="W077 接受建设性反馈">
+
+**场景**：A developer accepts feedback and asks how to improve.<br>开发者接受反馈，并询问如何改进。
+
+**关键词**：`feedback`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Thanks for the feedback. Could you give me a specific example? | 谢谢你的反馈。能给我一个具体例子吗？ |
+| B（Speaker B） | Your last update explained the problem but didn't state the next step. | 你上一次更新说明了问题，但没有说下一步做什么。 |
+| A（Speaker A） | I'll note that in this notebook. How can I improve the next update? | 我把这点记在这个笔记本里。下次更新怎样改进？ |
+| B（Speaker B） | End with the next action and when people can expect an update. | 最后说清下一步行动，以及大家何时能收到进展更新。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| feedback | 反馈 | Thanks for the **feedback**. Could you give me a specific example?<br>谢谢你的反馈。能给我一个具体例子吗？ |
+| specific | 具体的 | Thanks for the feedback. Could you give me a **specific** example?<br>谢谢你的反馈。能给我一个具体例子吗？ |
+| improve | 改进 | I'll note that in this notebook. How can I **improve** the next update?<br>我把这点记在这个笔记本里。下次更新怎样改进？ |
+| notebook | 笔记本 | I'll note that in this **notebook**. How can I improve the next update?<br>我把这点记在这个笔记本里。下次更新怎样改进？ |
+
+> 说明：`feedback` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W078 · 介绍自己做过的项目
+
+<img src="images/W078.png" width="480" alt="W078 介绍自己做过的项目">
+
+**场景**：A developer describes a past project and its results.<br>开发者介绍自己做过的项目及其成果。
+
+**关键词**：`project`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | What was the biggest challenge in your last project? | 你上一个项目中最大的挑战是什么？ |
+| B（Speaker B） | Reducing startup time without changing the user experience. | 在不改变用户体验的前提下缩短启动时间。 |
+| A（Speaker A） | What was the result? Can you show it on this laptop? | 结果怎样？能在这个笔记本电脑上展示吗？ |
+| B（Speaker B） | Startup became much faster. I can walk you through the measurements. | 启动明显更快了。我可以给你讲讲测量结果。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| project | 项目 | What was the biggest challenge in your last **project**?<br>你上一个项目中最大的挑战是什么？ |
+| challenge | 挑战 | What was the biggest **challenge** in your last project?<br>你上一个项目中最大的挑战是什么？ |
+| result | 结果 | What was the **result**? Can you show it on this laptop?<br>结果怎样？能在这个笔记本电脑上展示吗？ |
+| laptop | 笔记本电脑 | What was the result? Can you show it on this **laptop**?<br>结果怎样？能在这个笔记本电脑上展示吗？ |
+
+> 说明：`project` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W079 · 讨论职业发展方向
+
+<img src="images/W079.png" width="480" alt="W079 讨论职业发展方向">
+
+**场景**：A developer and a teammate discuss a career growth plan.<br>开发者与同事讨论职业成长计划。
+
+**关键词**：`growth`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | Which skill should I focus on for my growth this year? | 今年的成长中，我应该专注于哪项技能？ |
+| B（Speaker B） | System design would help. I can mentor you through a small project. | 系统设计会有帮助。我可以通过一个小项目指导你。 |
+| A（Speaker A） | Thanks. Let's put a monthly check-in on the calendar. | 谢谢。我们在日历上安排每月一次的交流吧。 |
+| B（Speaker B） | Good idea. We can review progress and adjust the plan together. | 好主意。我们可以一起回顾进展并调整计划。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| growth | 成长 | Which skill should I focus on for my **growth** this year?<br>今年的成长中，我应该专注于哪项技能？ |
+| skill | 技能 | Which **skill** should I focus on for my growth this year?<br>今年的成长中，我应该专注于哪项技能？ |
+| mentor | 指导 | System design would help. I can **mentor** you through a small project.<br>系统设计会有帮助。我可以通过一个小项目指导你。 |
+| calendar | 日历 | Thanks. Let's put a monthly check-in on the **calendar**.<br>谢谢。我们在日历上安排每月一次的交流吧。 |
+
+> 说明：`growth` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
+
+### W080 · 感谢同事的具体帮助
+
+<img src="images/W080.png" width="480" alt="W080 感谢同事的具体帮助">
+
+**场景**：A developer thanks a teammate for help with a difficult task.<br>开发者感谢同事在困难任务中提供的帮助。
+
+**关键词**：`appreciate`
+
+**完整对白（4 话轮）**：
+
+| 角色 | 英文 | 中文 |
+| --- | --- | --- |
+| A（Speaker A） | I really appreciate your guidance on that tricky bug. | 非常感谢你在那个棘手缺陷上给我的指导。 |
+| B（Speaker B） | You're welcome. You did the hard work of testing each idea. | 不客气。逐个验证思路的辛苦工作是你做的。 |
+| A（Speaker A） | It gave me more confidence. Let me get you a mug of coffee. | 这让我更有信心。让我请你喝一杯咖啡吧。 |
+| B（Speaker B） | Thanks! I'm glad we could work through it together. | 谢谢！很高兴我们能一起解决它。 |
+
+**4 词学习表**：
+
+| 单词 | 中文 | 例句 |
+| --- | --- | --- |
+| appreciate | 感谢 | I really **appreciate** your guidance on that tricky bug.<br>非常感谢你在那个棘手缺陷上给我的指导。 |
+| guidance | 指导 | I really appreciate your **guidance** on that tricky bug.<br>非常感谢你在那个棘手缺陷上给我的指导。 |
+| confidence | 信心 | It gave me more **confidence**. Let me get you a mug of coffee.<br>这让我更有信心。让我请你喝一杯咖啡吧。 |
+| mug | 马克杯 | It gave me more confidence. Let me get you a **mug** of coffee.<br>这让我更有信心。让我请你喝一杯咖啡吧。 |
+
+> 说明：`appreciate` 在 PicLex 关键词标签中的学习例句为上面的完整 4 话轮对白（仅逐句 `speaker` + 文本；角色说明见 `cards.roles` 元数据）；cards 中各词例句仍为定稿摘录。
 
 
 <!-- W样卡结束 -->

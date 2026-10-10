@@ -1,0 +1,312 @@
+{
+  "note": "程序员 Vibe Coding 场景卡片标注调色板。colors 与 textColor 沿用《程序员工作英语》专题；backgroundColor 为写入工作台的给定背景色，textColor 统一 #FFFFFF。renderedTint 由 PicLex deck-workbench/src/palette.mjs 的 labelStyle 计算，仅供展示审查，不是写入值。mapping 在机械整理后按真实成品词填充。",
+  "textColor": "#FFFFFF",
+  "colors": {
+    "blue": {
+      "name": "blue",
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#224C73",
+      "renderedText": "#FFFFFF"
+    },
+    "teal": {
+      "name": "teal",
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#18524B",
+      "renderedText": "#FFFFFF"
+    },
+    "sage": {
+      "name": "sage",
+      "backgroundColor": "#79986E",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#295419",
+      "renderedText": "#FFFFFF"
+    },
+    "rose": {
+      "name": "rose",
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#802641",
+      "renderedText": "#FFFFFF"
+    },
+    "lavender": {
+      "name": "lavender",
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#452680",
+      "renderedText": "#FFFFFF"
+    },
+    "violet": {
+      "name": "violet",
+      "backgroundColor": "#8B6FC4",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#442680",
+      "renderedText": "#FFFFFF"
+    },
+    "amber": {
+      "name": "amber",
+      "backgroundColor": "#B28A48",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#5E451C",
+      "renderedText": "#FFFFFF"
+    },
+    "ochre": {
+      "name": "ochre",
+      "backgroundColor": "#B0793A",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#694216",
+      "renderedText": "#FFFFFF"
+    },
+    "indigo": {
+      "name": "indigo",
+      "backgroundColor": "#687CB0",
+      "textColor": "#FFFFFF",
+      "renderedTint": "#263F80",
+      "renderedText": "#FFFFFF"
+    }
+  },
+  "mapping": {
+    "V001": {
+      "delegate": "blue",
+      "decision": "lavender",
+      "review": "rose",
+      "laptop": "teal"
+    },
+    "V006": {
+      "scope": "blue",
+      "requirement": "lavender",
+      "constraint": "rose",
+      "notebook": "teal"
+    },
+    "V011": {
+      "context": "blue",
+      "rule": "lavender",
+      "document": "rose",
+      "folder": "teal"
+    },
+    "V016": {
+      "task": "blue",
+      "plan": "lavender",
+      "step": "rose",
+      "board": "teal"
+    },
+    "V021": {
+      "usability": "blue",
+      "layout": "lavender",
+      "feedback": "rose",
+      "phone": "teal"
+    },
+    "V026": {
+      "reproduce": "blue",
+      "log": "lavender",
+      "cause": "rose",
+      "screen": "teal"
+    },
+    "V031": {
+      "verify": "blue",
+      "test": "lavender",
+      "evidence": "rose",
+      "checklist": "teal"
+    },
+    "V036": {
+      "deploy": "blue",
+      "release": "lavender",
+      "backup": "rose",
+      "roll back": "teal"
+    },
+    "V002": {
+      "responsibility": "blue",
+      "accountable": "lavender",
+      "verify": "rose",
+      "clipboard": "teal"
+    },
+    "V003": {
+      "suitable": "blue",
+      "routine": "lavender",
+      "risk": "rose",
+      "notebook": "teal"
+    },
+    "V004": {
+      "intervene": "blue",
+      "uncertain": "lavender",
+      "pause": "rose",
+      "keyboard": "teal"
+    },
+    "V005": {
+      "permission": "blue",
+      "delete": "lavender",
+      "confirm": "rose",
+      "folder": "teal"
+    },
+    "V007": {
+      "spacing": "blue",
+      "consistent": "lavender",
+      "align": "rose",
+      "screen": "teal"
+    },
+    "V008": {
+      "criteria": "blue",
+      "expected": "lavender",
+      "confirm": "rose",
+      "document": "teal"
+    },
+    "V009": {
+      "example": "blue",
+      "input": "lavender",
+      "output": "rose",
+      "tablet": "teal"
+    },
+    "V010": {
+      "revise": "blue",
+      "outdated": "lavender",
+      "scope": "rose",
+      "notebook": "teal"
+    },
+    "V012": {
+      "structure": "blue",
+      "module": "lavender",
+      "dependency": "rose",
+      "folder": "teal"
+    },
+    "V013": {
+      "instruction": "blue",
+      "convention": "lavender",
+      "follow": "rose",
+      "book": "teal"
+    },
+    "V014": {
+      "relevant": "blue",
+      "context": "lavender",
+      "filter": "rose",
+      "screen": "teal"
+    },
+    "V015": {
+      "resume": "blue",
+      "record": "lavender",
+      "pending": "rose",
+      "notebook": "teal"
+    },
+    "V017": {
+      "flow": "blue",
+      "minimal": "lavender",
+      "complete": "rose",
+      "button": "teal"
+    },
+    "V018": {
+      "isolated": "blue",
+      "behavior": "lavender",
+      "incremental": "rose",
+      "switch": "teal"
+    },
+    "V019": {
+      "scope": "blue",
+      "refactor": "lavender",
+      "unrelated": "rose",
+      "laptop": "teal"
+    },
+    "V020": {
+      "maintainability": "blue",
+      "refactor": "lavender",
+      "duplicate": "rose",
+      "diagram": "teal"
+    },
+    "V022": {
+      "reference": "blue",
+      "match": "lavender",
+      "preserve": "rose",
+      "tablet": "teal"
+    },
+    "V023": {
+      "feedback": "blue",
+      "loading": "lavender",
+      "progress": "rose",
+      "spinner": "teal"
+    },
+    "V024": {
+      "state": "blue",
+      "empty": "lavender",
+      "error": "rose",
+      "panel": "teal"
+    },
+    "V025": {
+      "usable": "blue",
+      "focus": "lavender",
+      "obvious": "rose",
+      "keyboard": "teal"
+    },
+    "V027": {
+      "reproduce": "blue",
+      "consistent": "lavender",
+      "step": "rose",
+      "phone": "teal"
+    },
+    "V028": {
+      "evidence": "blue",
+      "error": "lavender",
+      "log": "rose",
+      "terminal": "teal"
+    },
+    "V029": {
+      "isolate": "blue",
+      "cause": "lavender",
+      "patch": "rose",
+      "cable": "teal"
+    },
+    "V030": {
+      "escalate": "blue",
+      "retry": "lavender",
+      "uncertain": "rose",
+      "clipboard": "teal"
+    },
+    "V032": {
+      "coverage": "blue",
+      "scenario": "lavender",
+      "assumption": "rose",
+      "checklist": "teal"
+    },
+    "V033": {
+      "inspect": "blue",
+      "boundary": "lavender",
+      "failure": "rose",
+      "document": "teal"
+    },
+    "V034": {
+      "trade-off": "blue",
+      "security": "lavender",
+      "performance": "rose",
+      "scale": "teal"
+    },
+    "V035": {
+      "unverified": "blue",
+      "limitation": "lavender",
+      "confirm": "rose",
+      "report": "teal"
+    },
+    "V037": {
+      "commit": "blue",
+      "message": "lavender",
+      "atomic": "rose",
+      "folder": "teal"
+    },
+    "V038": {
+      "rollback": "blue",
+      "release": "lavender",
+      "backup": "rose",
+      "package": "teal"
+    },
+    "V039": {
+      "feedback": "blue",
+      "observe": "lavender",
+      "clarify": "rose",
+      "headset": "teal"
+    },
+    "V040": {
+      "repeatable": "blue",
+      "automate": "lavender",
+      "procedure": "rose",
+      "template": "teal"
+    }
+  },
+  "wordsTotal": 160
+}

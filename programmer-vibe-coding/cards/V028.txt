@@ -1,0 +1,119 @@
+V028  把报错和日志一起交给 AI
+========================================================================
+分类: Debug 救火现场（debugging）
+关键词: evidence
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V028.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V028.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V028.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V028_image_final.txt
+
+场景: 复现问题、收集证据并寻找根因
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。终端窗口边界完整，内部只有不可读的抽象横线，不含代码字符；evidence、error、log 只依对白语境。
+
+沟通目标: 提供完整问题证据，让分析建立在同一上下文上。
+
+主配文（一句场景描述）:
+  英文: A programmer gives an AI assistant both the error and the log from a terminal.
+  中文: 程序员把报错与终端日志一起交给 AI。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] I'll send the error and the log from this terminal.
+        我会把这个终端里的报错和日志一起发给你。
+  [B] Good. That evidence helps me see when the request failed.
+        很好。这些证据能帮助我判断请求何时失败。
+  [A] Compare the request path with the surrounding log entries.
+        把请求路径与前后的日志条目进行比较。
+  [B] I'll use both sources before suggesting a fix.
+        提出修复建议前，我会同时使用这两份资料。
+
+目标词 (4): evidence, error, log, terminal
+
+------------------------------------------------------------------------
+[1/4] evidence
+  词义: 证据
+  词性: noun
+  音标: UK /ˈevɪdəns/ | US /ˈevɪdəns/
+  搭配: collect evidence; use the evidence
+  例句: Good. That evidence helps me see when the request failed.
+  例句高亮: Good. That **evidence** helps me see when the request failed.
+  例句中文: 很好。这些证据能帮助我判断请求何时失败。
+  标注模式: context
+  标注说明: 证据价值取决于内容与问题的关系，画面只提供终端语境。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] error
+  词义: 报错
+  词性: noun
+  音标: UK /ˈerə/ | US /ˈerər/
+  搭配: an error message; send the error
+  例句: I'll send the error and the log from this terminal.
+  例句高亮: I'll send the **error** and the log from this terminal.
+  例句中文: 我会把这个终端里的报错和日志一起发给你。
+  标注模式: context
+  标注说明: 报错由对白说明，画面中的抽象线段不作为可读报错内容。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] log
+  词义: 日志
+  词性: noun
+  音标: UK /lɒɡ/ | US /lɔːɡ/
+  搭配: an error log; log entries
+  例句: I'll send the error and the log from this terminal.
+  例句高亮: I'll send the error and the **log** from this terminal.
+  例句中文: 我会把这个终端里的报错和日志一起发给你。
+  标注模式: context
+  标注说明: 日志内容不可读，不能把任意线段定位成特定日志条目。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] terminal
+  词义: 终端
+  词性: noun
+  音标: UK /ˈtɜːmɪnəl/ | US /ˈtɜːrmɪnəl/
+  搭配: from this terminal; a terminal window
+  例句: I'll send the error and the log from this terminal.
+  例句高亮: I'll send the error and the log from this **terminal**.
+  例句中文: 我会把这个终端里的报错和日志一起发给你。
+  标注模式: object
+  标注说明: 中央完整终端窗口的外框与抽象行是可见指代，只框整个窗口。
+  坐标(normalized): [0.347, 0.268, 0.662, 0.494]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V028 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a desk and points toward one large desktop terminal window at center. The terminal is shown as a complete rectangular screen with several short horizontal white line segments inside, all abstract and unreadable, with no letters, numbers or symbols. Keep the window unobstructed. The floating white OpenAI knot is at the right. No papers or extra monitors.

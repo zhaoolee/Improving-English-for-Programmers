@@ -1,0 +1,268 @@
+{
+  "id": "I037",
+  "category": "closing",
+  "title_zh": "询问成功标准与成长空间",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "亚洲女候选人询问岗位成功标准与成长空间，美国女面试官说明预期。",
+  "cast": {
+    "candidate": "AS_HANA",
+    "interviewer": "US_MAYA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.\nInterviewer or recruiter: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.\nExactly two people in the closing questions of an interview. Hana, in an ivory blouse with a charcoal blazer, asks Maya, the interviewer in a muted sage blouse, about expectations and growth. Hana's pen rests near her notebook while she listens to the answer; Maya gestures toward a simple unlabeled three-step sketch on a paper sheet. Keep the sketch secondary and the facial exchange central. A 50mm eye-level medium two-person shot, natural warm-white daylight, cream walls and pale-oak furniture. Convey mutual clarity and thoughtful curiosity. No promotion ladder props, trophies, salary figures or career-success symbols inserted into the room.",
+  "prompt_path": "prompts/I037_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I037.png",
+  "image_sha256": "3d2175f8afe696164f5af70ac0b65a4d23baf8dd42f4f51faf7e6e56ee2312d2",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "候选人倾听、面试官用纸面三步简图解释，双方脸部和手部自然；图示完整，电脑为次要道具。窗光、暖肤色和桌面留白统一，期望与成长内容需对白说明 实际可见物件：桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I037_generate.txt",
+    "source_path": "images/I037.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:50:07 UTC",
+    "selected_image_path": "images/I037.png",
+    "selected_image_sha256": "3d2175f8afe696164f5af70ac0b65a4d23baf8dd42f4f51faf7e6e56ee2312d2",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:50:07Z",
+    "prompt_path": "prompts/I037_image_final.txt"
+  },
+  "title": "询问成功标准与成长空间",
+  "scene": "亚洲女候选人询问岗位成功标准与成长空间，美国女面试官说明预期。",
+  "category_title": "反问与面试后续",
+  "primary_words": [
+    "success",
+    "mentorship",
+    "progression",
+    "diagram"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "success",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "成功",
+      "pos": "noun",
+      "ipa_us": "/səkˈses/",
+      "ipa_uk": "/səkˈses/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How do you define success for a developer in this team?",
+        "matched_form": "success",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：success。本卡例句：How do you define success for a developer in this team?",
+        "image_verified": null
+      },
+      "example_en": "How do you define success for a developer in this team?",
+      "example_zh": "你们如何定义团队中开发者的成功？",
+      "bbox_normalized": null,
+      "collocations": [
+        "define success",
+        "measure success"
+      ],
+      "example_en_highlighted": "How do you define **success** for a developer in this team?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：success。本卡例句：How do you define success for a developer in this team?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "mentorship",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "导师支持",
+      "pos": "noun",
+      "ipa_us": "/ˈmentɔːrʃɪp/",
+      "ipa_uk": "/ˈmentɔːʃɪp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "matched_form": "mentorship",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mentorship。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "image_verified": null
+      },
+      "example_en": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+      "example_zh": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "provide mentorship",
+        "a mentorship program"
+      ],
+      "example_en_highlighted": "Is **mentorship** available, and how is career progression assessed? Could you explain this diagram?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mentorship。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "progression",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "职业发展",
+      "pos": "noun",
+      "ipa_us": "/prəˈɡreʃən/",
+      "ipa_uk": "/prəˈɡreʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "matched_form": "progression",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：progression。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "image_verified": null
+      },
+      "example_en": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+      "example_zh": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "career progression",
+        "assess progression"
+      ],
+      "example_en_highlighted": "Is mentorship available, and how is career **progression** assessed? Could you explain this diagram?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：progression。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "diagram",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "示意图",
+      "pos": "noun",
+      "ipa_us": "/ˈdaɪəɡræm/",
+      "ipa_uk": "/ˈdaɪəɡræm/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准。",
+        "sentence": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "matched_form": "diagram",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+      "example_zh": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？",
+      "bbox_normalized": [
+        0.278,
+        0.727,
+        0.836,
+        0.884
+      ],
+      "collocations": [
+        "a flow diagram",
+        "explain a diagram"
+      ],
+      "example_en_highlighted": "Is mentorship available, and how is career progression assessed? Could you explain this **diagram**?",
+      "annotation_mode": "object",
+      "annotation_note": "桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "反问与面试后续",
+  "keyword": "success",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate asks how success and career development are supported in the team.",
+    "zh": "候选人询问团队如何支持工作成果与职业发展。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate asks how success and career development are supported in the team.",
+    "zh": "候选人询问团队如何支持工作成果与职业发展。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "How do you define success for a developer in this team?",
+      "zh": "你们如何定义团队中开发者的成功？"
+    },
+    {
+      "speaker": "B",
+      "en": "We value reliable delivery and clear communication.",
+      "zh": "我们重视可靠交付与清晰沟通。"
+    },
+    {
+      "speaker": "A",
+      "en": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+      "zh": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Mentors support new hires, and we review growth through regular conversations.",
+      "zh": "导师会支持新员工，我们也会通过定期交流评估成长。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "了解岗位、团队和成长空间，并得体沟通薪酬、入职与面试结果。本卡主题：询问成功标准与成长空间。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I037 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I037.png 宽高归一化至 0..1；由人工视觉定位。"
+}

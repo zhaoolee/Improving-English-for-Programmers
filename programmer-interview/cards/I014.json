@@ -1,0 +1,268 @@
+{
+  "id": "I014",
+  "category": "coding",
+  "title_zh": "解释时间和空间复杂度",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "欧洲男候选人在小白板上比较增长趋势，亚洲男面试官听复杂度解释。",
+  "cast": {
+    "candidate": "EU_LUKAS",
+    "interviewer": "AS_ARJUN"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.\nInterviewer or recruiter: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.\nExactly two people at a technical interview. Lukas, the candidate in a white shirt and charcoal blazer, stands near a small whiteboard containing two sparse unlabeled growth-curve sketches, without formulas, numbers or exact complexity labels. He holds the marker lowered and explains the trade-off to Arjun, the seated interviewer in a light-blue shirt. Arjun keeps a slim notebook on the table. A 35mm medium environmental shot shows the people clearly and the whiteboard only as a modest discussion aid. Diffuse daylight, pale oak, realistic marker marks and thoughtful expressions. The mathematical meaning belongs in the later dialogue, not in invented visible notation.",
+  "prompt_path": "prompts/I014_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I014.png",
+  "image_sha256": "79549a3824dea72082d77aebbca6d194d7cf884a1a0540e961410e941c61982d",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "站立候选人与坐姿面试官自然交流，握笔及开放手势未见明显结构异常；白板两组无字曲线、桌面笔记本和人物清楚，前中后景有层次。曲线只作讨论道具，不据此声称时间/空间复杂度正确 实际可见物件：原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I011-I015-generated-prompts/I014_generate.txt",
+    "source_path": "images/I014.png",
+    "started_at_utc": "2026-10-09 13:03:51 UTC",
+    "finished_at_utc": "2026-10-09 13:07:03 UTC",
+    "selected_image_path": "images/I014.png",
+    "selected_image_sha256": "79549a3824dea72082d77aebbca6d194d7cf884a1a0540e961410e941c61982d",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I011-I015_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T13:14:28Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T13:03:51Z",
+    "ended_at": "2026-10-09T13:07:03Z",
+    "prompt_path": "prompts/I014_image_final.txt"
+  },
+  "title": "解释时间和空间复杂度",
+  "scene": "欧洲男候选人在小白板上比较增长趋势，亚洲男面试官听复杂度解释。",
+  "category_title": "算法与现场编码",
+  "primary_words": [
+    "complexity",
+    "linear",
+    "space",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "complexity",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "复杂度",
+      "pos": "noun",
+      "ipa_us": "/kəmˈpleksəti/",
+      "ipa_uk": "/kəmˈpleksəti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The time complexity is linear because the algorithm scans the array once.",
+        "matched_form": "complexity",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：complexity。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+        "image_verified": null
+      },
+      "example_en": "The time complexity is linear because the algorithm scans the array once.",
+      "example_zh": "时间复杂度是线性的，因为算法只扫描数组一次。",
+      "bbox_normalized": null,
+      "collocations": [
+        "time complexity",
+        "space complexity"
+      ],
+      "example_en_highlighted": "The time **complexity** is linear because the algorithm scans the array once.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：complexity。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "linear",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "线性的",
+      "pos": "adjective",
+      "ipa_us": "/ˈlɪniər/",
+      "ipa_uk": "/ˈlɪniə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The time complexity is linear because the algorithm scans the array once.",
+        "matched_form": "linear",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：linear。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+        "image_verified": null
+      },
+      "example_en": "The time complexity is linear because the algorithm scans the array once.",
+      "example_zh": "时间复杂度是线性的，因为算法只扫描数组一次。",
+      "bbox_normalized": null,
+      "collocations": [
+        "linear time",
+        "linear complexity"
+      ],
+      "example_en_highlighted": "The time complexity is **linear** because the algorithm scans the array once.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：linear。本卡例句：The time complexity is linear because the algorithm scans the array once.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "space",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "空间",
+      "pos": "noun",
+      "ipa_us": "/speɪs/",
+      "ipa_uk": "/speɪs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How much extra space does it use?",
+        "matched_form": "space",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：space。本卡例句：How much extra space does it use?",
+        "image_verified": null
+      },
+      "example_en": "How much extra space does it use?",
+      "example_zh": "它需要多少额外空间？",
+      "bbox_normalized": null,
+      "collocations": [
+        "extra space",
+        "space complexity"
+      ],
+      "example_en_highlighted": "How much extra **space** does it use?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：space。本卡例句：How much extra space does it use?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画。",
+        "sentence": "Only a fixed set of counters. May I trace an example in your notebook?",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Only a fixed set of counters. May I trace an example in your notebook?",
+      "example_zh": "只需要固定数量的计数器。我可以在你的笔记本里演示一个例子吗？",
+      "bbox_normalized": [
+        0.47,
+        0.665,
+        0.785,
+        0.725
+      ],
+      "collocations": [
+        "write in a notebook",
+        "an open notebook"
+      ],
+      "example_en_highlighted": "Only a fixed set of counters. May I trace an example in your **notebook**?",
+      "annotation_mode": "object",
+      "annotation_note": "原图中面试官手边实际打开的笔记本；候选人请求借其演示。原图本已满足此物件，不重画。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "算法与现场编码",
+  "keyword": "complexity",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate explains the cost of an algorithm while the interviewer keeps a notebook open.",
+    "zh": "候选人解释算法的开销，面试官打开笔记本记录。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate explains the cost of an algorithm while the interviewer keeps a notebook open.",
+    "zh": "候选人解释算法的开销，面试官打开笔记本记录。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "The time complexity is linear because the algorithm scans the array once.",
+      "zh": "时间复杂度是线性的，因为算法只扫描数组一次。"
+    },
+    {
+      "speaker": "B",
+      "en": "How much extra space does it use?",
+      "zh": "它需要多少额外空间？"
+    },
+    {
+      "speaker": "A",
+      "en": "Only a fixed set of counters. May I trace an example in your notebook?",
+      "zh": "只需要固定数量的计数器。我可以在你的笔记本里演示一个例子吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Explain why that space does not grow with the input.",
+      "zh": "请说明为什么这部分空间不会随输入规模增长。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "澄清题意，边解题边说明思路，解释复杂度并应对提示。本卡主题：解释时间和空间复杂度。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I014 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I014.png 宽高归一化至 0..1；由人工视觉定位。"
+}

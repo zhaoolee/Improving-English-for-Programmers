@@ -1,0 +1,130 @@
+{
+  "filename": "I006.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "project",
+      "chinese": "项目",
+      "phoneticUS": "/ˈprɑːdʒekt/",
+      "phoneticUK": "/ˈprɒdʒekt/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：project。本卡例句：My strongest project was a dashboard for our support team.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：project。本卡例句：My strongest project was a dashboard for our support team.",
+        "collocation": "a software project; a project summary",
+        "example": "A: My strongest project was a dashboard for our support team.\nB: What was its scope, and what did you deliver?\nA: We replaced three manual reports. I can show the dashboard on this laptop.\nB: Which part did you build yourself?",
+        "exampleChinese": "A: 我最有代表性的项目是为客服团队开发的仪表盘。\nB: 项目范围是什么？你们交付了什么？\nA: 我们替换了三份手工报表。我可以在这台笔记本电脑上展示仪表盘。\nB: 其中哪一部分是你亲自开发的？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "scope",
+      "chinese": "范围",
+      "phoneticUS": "/skoʊp/",
+      "phoneticUK": "/skəʊp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：scope。本卡例句：What was its scope, and what did you deliver?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：scope。本卡例句：What was its scope, and what did you deliver?",
+        "collocation": "project scope; define the scope",
+        "example": "What was its scope, and what did you deliver?",
+        "exampleChinese": "项目范围是什么？你们交付了什么？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "deliver",
+      "chinese": "交付",
+      "phoneticUS": "/dɪˈlɪvər/",
+      "phoneticUK": "/dɪˈlɪvə/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 41
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：deliver。本卡例句：What was its scope, and what did you deliver?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：deliver。本卡例句：What was its scope, and what did you deliver?",
+        "collocation": "deliver a project; deliver a feature",
+        "example": "What was its scope, and what did you deliver?",
+        "exampleChinese": "项目范围是什么？你们交付了什么？"
+      }
+    },
+    {
+      "x": 225,
+      "y": 620,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 270,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 225,
+        "y": 620
+      },
+      "boundingBox": {
+        "left": 40,
+        "top": 415,
+        "right": 425,
+        "bottom": 675
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人展示的打开式笔记本电脑，包括可见屏幕与键盘。",
+        "association": "候选人展示的打开式笔记本电脑，包括可见屏幕与键盘。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "We replaced three manual reports. I can show the dashboard on this laptop.",
+        "exampleChinese": "我们替换了三份手工报表。我可以在这台笔记本电脑上展示仪表盘。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate uses a laptop to introduce a project and explain its scope.",
+    "chinese": "候选人借助笔记本电脑介绍一个项目，并说明其范围。",
+    "source": "原创配文 · I006 介绍最有代表性的项目",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

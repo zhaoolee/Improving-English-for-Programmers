@@ -1,0 +1,268 @@
+{
+  "id": "I029",
+  "category": "engineering",
+  "title_zh": "分析并优化一个性能瓶颈",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "欧洲女候选人比较简洁性能图并解释瓶颈，亚洲女面试官讨论如何验证优化。",
+  "cast": {
+    "candidate": "EU_SOFIA",
+    "interviewer": "AS_HANA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.\nInterviewer or recruiter: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.\nExactly two people discussing a performance bottleneck during an interview. Sofia, in a muted sage blouse, presents a laptop with a sparse unlabeled bar profile and one modest comparison group to Hana, in an ivory blouse and navy blazer. Sofia gestures near the laptop edge while maintaining eye contact; Hana studies the explanation with a pen laid beside her notebook. A 50mm medium two-person view, slightly offset from the table corner, preserves the chart as a secondary prop and shows both faces clearly. Soft morning light and restrained cream tones. No numerical speed claims, racing imagery, superhero confidence or a photograph presented as measurement evidence.",
+  "prompt_path": "prompts/I029_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I029.png",
+  "image_sha256": "2c52139b3ea2bfe25ce578c3213f86d4f4e4989f0bdbc330105942169e709155",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "候选人说明电脑上的柱形对比，面试官倾听；电脑在左侧部分出框，主要柱形可辨，手部与脸部自然。侧窗光和真实桌面材质有层次，具体性能指标与收益不由画面验证 实际可见物件：面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I029_generate.txt",
+    "source_path": "images/I029.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:45:35 UTC",
+    "selected_image_path": "images/I029.png",
+    "selected_image_sha256": "2c52139b3ea2bfe25ce578c3213f86d4f4e4989f0bdbc330105942169e709155",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:45:35Z",
+    "prompt_path": "prompts/I029_image_final.txt"
+  },
+  "title": "分析并优化一个性能瓶颈",
+  "scene": "欧洲女候选人比较简洁性能图并解释瓶颈，亚洲女面试官讨论如何验证优化。",
+  "category_title": "工程实践与问题排查",
+  "primary_words": [
+    "bottleneck",
+    "profile",
+    "optimize",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "bottleneck",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "瓶颈",
+      "pos": "noun",
+      "ipa_us": "/ˈbɑːtlnek/",
+      "ipa_uk": "/ˈbɒtlnek/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'd profile the slow request to locate the bottleneck before changing the code.",
+        "matched_form": "bottleneck",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：bottleneck。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+        "image_verified": null
+      },
+      "example_en": "I'd profile the slow request to locate the bottleneck before changing the code.",
+      "example_zh": "修改代码前，我会对慢请求进行性能剖析，找出瓶颈。",
+      "bbox_normalized": null,
+      "collocations": [
+        "locate the bottleneck",
+        "a performance bottleneck"
+      ],
+      "example_en_highlighted": "I'd profile the slow request to locate the **bottleneck** before changing the code.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：bottleneck。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "profile",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "性能剖析",
+      "pos": "verb",
+      "ipa_us": "/ˈproʊfaɪl/",
+      "ipa_uk": "/ˈprəʊfaɪl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'd profile the slow request to locate the bottleneck before changing the code.",
+        "matched_form": "profile",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：profile。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+        "image_verified": null
+      },
+      "example_en": "I'd profile the slow request to locate the bottleneck before changing the code.",
+      "example_zh": "修改代码前，我会对慢请求进行性能剖析，找出瓶颈。",
+      "bbox_normalized": null,
+      "collocations": [
+        "profile a request",
+        "profile the application"
+      ],
+      "example_en_highlighted": "I'd **profile** the slow request to locate the bottleneck before changing the code.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：profile。本卡例句：I'd profile the slow request to locate the bottleneck before changing the code.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "optimize",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "优化",
+      "pos": "verb",
+      "ipa_us": "/ˈɑːptɪmaɪz/",
+      "ipa_uk": "/ˈɒptɪmaɪz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What would you optimize first?",
+        "matched_form": "optimize",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：optimize。本卡例句：What would you optimize first?",
+        "image_verified": null
+      },
+      "example_en": "What would you optimize first?",
+      "example_zh": "你会先优化什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "optimize a request",
+        "optimize performance"
+      ],
+      "example_en_highlighted": "What would you **optimize** first?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：optimize。本卡例句：What would you optimize first?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定。",
+        "sentence": "The most expensive step. May I use your notebook to record the measurements and compare them after the change?",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The most expensive step. May I use your notebook to record the measurements and compare them after the change?",
+      "example_zh": "开销最大的步骤。我可以用你的笔记本记录测量结果，并在修改后进行比较吗？",
+      "bbox_normalized": [
+        0.555,
+        0.68,
+        0.85,
+        0.775
+      ],
+      "collocations": [
+        "write in a notebook",
+        "an open notebook"
+      ],
+      "example_en_highlighted": "The most expensive step. May I use your **notebook** to record the measurements and compare them after the change?",
+      "annotation_mode": "object",
+      "annotation_note": "面试官前方打开的纸质笔记本；测量过程与公平比较由对白设定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "工程实践与问题排查",
+  "keyword": "bottleneck",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate discusses performance measurements before proposing an optimization.",
+    "zh": "候选人在提出优化方案前讨论性能测量。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate discusses performance measurements before proposing an optimization.",
+    "zh": "候选人在提出优化方案前讨论性能测量。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "I'd profile the slow request to locate the bottleneck before changing the code.",
+      "zh": "修改代码前，我会对慢请求进行性能剖析，找出瓶颈。"
+    },
+    {
+      "speaker": "B",
+      "en": "What would you optimize first?",
+      "zh": "你会先优化什么？"
+    },
+    {
+      "speaker": "A",
+      "en": "The most expensive step. May I use your notebook to record the measurements and compare them after the change?",
+      "zh": "开销最大的步骤。我可以用你的笔记本记录测量结果，并在修改后进行比较吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "How would you ensure the comparison is fair?",
+      "zh": "你会如何确保比较公平？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "在面试给定的代码或故障场景中说明测试、排查、改进与交付步骤。本卡主题：分析并优化一个性能瓶颈。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I029 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I029.png 宽高归一化至 0..1；由人工视觉定位。"
+}

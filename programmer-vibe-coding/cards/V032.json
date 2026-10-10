@@ -1,0 +1,246 @@
+{
+  "id": "V032",
+  "category": "quality",
+  "category_title": "测试与代码审查",
+  "chapter": "测试与代码审查",
+  "title": "测试通过，还漏了什么？",
+  "keyword": "coverage",
+  "scene": "按验收标准验证结果、检查边界与风险",
+  "target_count": 4,
+  "primary_words": [
+    "coverage",
+    "scenario",
+    "assumption",
+    "checklist"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "coverage",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "覆盖范围",
+      "pos": "noun",
+      "ipa_us": "/ˈkʌvərɪdʒ/",
+      "ipa_uk": "/ˈkʌvərɪdʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The main tests passed. What coverage is still missing?",
+        "matched_form": "coverage",
+        "referent_region_verified": false,
+        "context": "测试覆盖范围由用例集合决定，不能从清单外观判断。",
+        "image_verified": null
+      },
+      "example_en": "The main tests passed. What coverage is still missing?",
+      "example_zh": "主要测试通过了。还缺少哪些覆盖？",
+      "bbox_normalized": null,
+      "collocations": [
+        "test coverage",
+        "missing coverage"
+      ],
+      "example_en_highlighted": "The main tests passed. What **coverage** is still missing?",
+      "annotation_mode": "context",
+      "annotation_note": "测试覆盖范围由用例集合决定，不能从清单外观判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "scenario",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "场景",
+      "pos": "noun",
+      "ipa_us": "/səˈnerioʊ/",
+      "ipa_uk": "/səˈnɑːriəʊ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We have not checked the offline scenario or the timeout.",
+        "matched_form": "scenario",
+        "referent_region_verified": false,
+        "context": "这里是待测试的使用情境，不把纸张中的一行当作具体场景。",
+        "image_verified": null
+      },
+      "example_en": "We have not checked the offline scenario or the timeout.",
+      "example_zh": "我们还没有检查离线场景和超时。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an offline scenario",
+        "test a scenario"
+      ],
+      "example_en_highlighted": "We have not checked the offline **scenario** or the timeout.",
+      "annotation_mode": "context",
+      "annotation_note": "这里是待测试的使用情境，不把纸张中的一行当作具体场景。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "assumption",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "假设",
+      "pos": "noun",
+      "ipa_us": "/əˈsʌmpʃən/",
+      "ipa_uk": "/əˈsʌmpʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Add each assumption and missing scenario to this checklist.",
+        "matched_form": "assumption",
+        "referent_region_verified": false,
+        "context": "假设是需要验证的判断，画面不展示其文字内容。",
+        "image_verified": null
+      },
+      "example_en": "Add each assumption and missing scenario to this checklist.",
+      "example_zh": "把每个假设和缺失场景都加到这份检查清单里。",
+      "bbox_normalized": null,
+      "collocations": [
+        "check an assumption",
+        "hidden assumption"
+      ],
+      "example_en_highlighted": "Add each **assumption** and missing scenario to this checklist.",
+      "annotation_mode": "context",
+      "annotation_note": "假设是需要验证的判断，画面不展示其文字内容。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "checklist",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "检查清单",
+      "pos": "noun",
+      "ipa_us": "/ˈtʃeklɪst/",
+      "ipa_uk": "/ˈtʃeklɪst/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "带空方框与空白横线的完整纸质清单是直接指代，只框整张清单。",
+        "sentence": "Add each assumption and missing scenario to this checklist.",
+        "matched_form": "checklist",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Add each assumption and missing scenario to this checklist.",
+      "example_zh": "把每个假设和缺失场景都加到这份检查清单里。",
+      "bbox_normalized": [
+        0.361,
+        0.235,
+        0.632,
+        0.588
+      ],
+      "collocations": [
+        "this checklist",
+        "a test checklist"
+      ],
+      "example_en_highlighted": "Add each assumption and missing scenario to this **checklist**.",
+      "annotation_mode": "object",
+      "annotation_note": "带空方框与空白横线的完整纸质清单是直接指代，只框整张清单。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks what test coverage is still missing after the main checks pass.",
+    "zh": "主要检查通过后，程序员追问测试覆盖还遗漏了什么。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks what test coverage is still missing after the main checks pass.",
+    "zh": "主要检查通过后，程序员追问测试覆盖还遗漏了什么。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "The main tests passed. What coverage is still missing?",
+      "zh": "主要测试通过了。还缺少哪些覆盖？"
+    },
+    {
+      "speaker": "B",
+      "en": "We have not checked the offline scenario or the timeout.",
+      "zh": "我们还没有检查离线场景和超时。"
+    },
+    {
+      "speaker": "A",
+      "en": "Add each assumption and missing scenario to this checklist.",
+      "zh": "把每个假设和缺失场景都加到这份检查清单里。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll test those cases before calling the feature complete.",
+      "zh": "在宣布功能完成前，我会测试这些情况。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "补充异常场景与隐含假设，不把测试通过等同于全部正确。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small table and points toward one large checklist sheet mounted upright at center. The sheet has a complete border, four empty square checkboxes and four short blank horizontal lines, with no check marks, letters or numbers. Keep it fully visible and unobstructed. The floating white OpenAI knot is at the right. No other papers or screens.",
+  "status": "approved",
+  "image_path": "images/V032.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-10",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V032 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-10",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V032.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": null,
+    "ended_at": null,
+    "prompt_path": "prompts/V032_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V032.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。大型检查清单完整可见，包含四个空框和无文字横线；覆盖率、场景和假设仍是抽象语境词。"
+  }
+}

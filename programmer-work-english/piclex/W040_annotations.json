@@ -1,0 +1,130 @@
+{
+  "filename": "W040-记录最终技术决定.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "decision",
+      "chinese": "决定",
+      "phoneticUS": "/dɪˈsɪʒn/",
+      "phoneticUK": "/dɪˈsɪʒn/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Have we reached a decision on the storage layer?”明确表达决定；单幅画面不能独立证明，不设局部框。",
+        "association": "“Have we reached a decision on the storage layer?”明确表达决定；单幅画面不能独立证明，不设局部框。",
+        "collocation": "reach a decision; make a decision",
+        "example": "A: Have we reached a decision on the storage layer?\nB: Yes. We'll keep the existing database for this release.\nA: I'll use this pen to record the rationale as well.\nB: Good. Note the migration cost and the options we considered.",
+        "exampleChinese": "A: 我们对存储层做出决定了吗？\nB: 是的。这次发布继续使用现有数据库。\nA: 我也会用这支笔记录理由。\nB: 好。记下迁移成本和我们考虑过的方案。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "rationale",
+      "chinese": "理由",
+      "phoneticUS": "/ˌræʃəˈnæl/",
+      "phoneticUK": "/ˌræʃəˈnɑːl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll use this pen to record the rationale as well.”明确表达理由；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll use this pen to record the rationale as well.”明确表达理由；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the rationale for; record the rationale",
+        "example": "I'll use this pen to record the rationale as well.",
+        "exampleChinese": "我也会用这支笔记录理由。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "record",
+      "chinese": "记录",
+      "phoneticUS": "/rɪˈkɔːrd/",
+      "phoneticUK": "/rɪˈkɔːd/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll use this pen to record the rationale as well.”明确表达记录；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll use this pen to record the rationale as well.”明确表达记录；单幅画面不能独立证明，不设局部框。",
+        "collocation": "record the decision; record the details",
+        "example": "I'll use this pen to record the rationale as well.",
+        "exampleChinese": "我也会用这支笔记录理由。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 796,
+      "english": "pen",
+      "chinese": "笔",
+      "phoneticUS": "/pen/",
+      "phoneticUK": "/pen/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 890
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 796
+      },
+      "boundingBox": {
+        "left": 362,
+        "top": 748,
+        "right": 675,
+        "bottom": 841
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔（pen）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔（pen）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "use a pen; with a pen",
+        "example": "I'll use this pen to record the rationale as well.",
+        "exampleChinese": "我也会用这支笔记录理由。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A team records its final technical decision and the reasoning behind it.",
+    "chinese": "团队记录最终技术决定及其理由。",
+    "source": "原创对话 · W040 记录最终技术决定",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

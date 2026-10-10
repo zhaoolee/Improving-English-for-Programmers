@@ -1,0 +1,123 @@
+I008  讲一次最难的技术挑战
+========================================================================
+分类: 项目经历与成果表达（projects）
+关键词: challenge
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I008.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I008.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I008.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T11:46:35Z → 2026-10-09T11:49:53Z
+  提示词文件: prompts/I008_image_final.txt
+
+场景: 欧洲男候选人在白板旁讲解项目中最难的技术挑战，亚洲男面试官关注解决思路。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 候选人在白板旁讲解，面试官坐着记录；三框和箭头可见，人物手部、握笔和姿态自然，桌面前景与窗侧光形成空间层次。技术挑战由未来对白明确，不从图中推断具体技术结论 实际可见物件：画面左侧实际可见白板范围；左缘被构图截断，如实保存可见范围，不补画不存在区域。
+
+沟通目标: 讲清项目背景、个人贡献、技术挑战和可核实的结果。本卡主题：讲一次最难的技术挑战。
+
+主配文（一句场景描述）:
+  英文: A candidate discusses a technical challenge at a whiteboard.
+  中文: 候选人在白板旁讲述一次技术挑战。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] The main challenge was slow report generation under a tight memory constraint.
+        主要挑战是在内存严格受限的条件下，报表生成速度很慢。
+  [B] How did you resolve it?
+        你是如何解决这个问题的？
+  [A] May I use the whiteboard? We processed records in batches and measured peak memory.
+        我可以用白板说明吗？我们分批处理记录，并测量了内存峰值。
+  [B] How did you verify the reports were still correct?
+        你如何验证报表依然正确？
+
+目标词 (4): challenge, constraint, resolve, whiteboard
+
+------------------------------------------------------------------------
+[1/4] challenge
+  词义: 挑战
+  词性: noun
+  音标: UK /ˈtʃælɪndʒ/ | US /ˈtʃælɪndʒ/
+  搭配: a technical challenge; meet a challenge
+  例句: The main challenge was slow report generation under a tight memory constraint.
+  例句高亮: The main **challenge** was slow report generation under a tight memory constraint.
+  例句中文: 主要挑战是在内存严格受限的条件下，报表生成速度很慢。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：challenge。本卡例句：The main challenge was slow report generation under a tight memory constraint.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] constraint
+  词义: 限制
+  词性: noun
+  音标: UK /kənˈstreɪnt/ | US /kənˈstreɪnt/
+  搭配: a memory constraint; a design constraint
+  例句: The main challenge was slow report generation under a tight memory constraint.
+  例句高亮: The main challenge was slow report generation under a tight memory **constraint**.
+  例句中文: 主要挑战是在内存严格受限的条件下，报表生成速度很慢。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：constraint。本卡例句：The main challenge was slow report generation under a tight memory constraint.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] resolve
+  词义: 解决
+  词性: verb
+  音标: UK /rɪˈzɒlv/ | US /rɪˈzɑːlv/
+  搭配: resolve a problem; resolve a technical issue
+  例句: How did you resolve it?
+  例句高亮: How did you **resolve** it?
+  例句中文: 你是如何解决这个问题的？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resolve。本卡例句：How did you resolve it?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] whiteboard
+  词义: 白板
+  词性: noun
+  音标: UK /ˈwaɪtbɔːd/ | US /ˈwaɪtbɔːrd/
+  搭配: sketch on a whiteboard; use the whiteboard
+  例句: May I use the whiteboard? We processed records in batches and measured peak memory.
+  例句高亮: May I use the **whiteboard**? We processed records in batches and measured peak memory.
+  例句中文: 我可以用白板说明吗？我们分批处理记录，并测量了内存峰值。
+  标注模式: object
+  标注说明: 画面左侧实际可见白板范围；左缘被构图截断，如实保存可见范围，不补画不存在区域。
+  坐标(normalized): [0.0, 0.112, 0.217, 0.627]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I008 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.
+Interviewer or recruiter: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.
+Exactly two people: Lukas, the candidate in a light-blue shirt with rolled sleeves, stands beside a small whiteboard while Arjun, in a charcoal blazer, listens from a chair. Lukas indicates a single junction in a sparse three-box diagram, marker held naturally below his face, while explaining a difficult project challenge. Arjun keeps a notebook open on his lap. Show both faces, the complete small diagram and part of the oak meeting table in a 35mm medium environmental photograph. Soft side-window light, realistic faint marker smudges and natural clothing creases. A focused interview explanation, not an outage reenactment or a futuristic engineering laboratory.

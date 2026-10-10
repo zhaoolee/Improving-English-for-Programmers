@@ -1,0 +1,130 @@
+{
+  "filename": "I016.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 75,
+      "english": "process",
+      "chinese": "进程",
+      "phoneticUS": "/ˈprɑːses/",
+      "phoneticUK": "/ˈprəʊses/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：process。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：process。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+        "collocation": "a running process; a process boundary",
+        "example": "A: A process has its own virtual address space. A thread runs within a process.\nB: What do threads in the same process share?\nA: They share that address space and other resources. I'll mark the boundary on the whiteboard.\nB: How would you protect shared data from concurrent writes?",
+        "exampleChinese": "A: 进程有自己的虚拟地址空间。线程在进程内部运行。\nB: 同一进程中的线程共享什么？\nA: 它们共享那个地址空间以及其他资源。我会在白板上标出边界。\nB: 你会如何保护共享数据，避免并发写入带来的问题？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 900,
+      "english": "thread",
+      "chinese": "线程",
+      "phoneticUS": "/θred/",
+      "phoneticUK": "/θred/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：thread。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：thread。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+        "collocation": "a running thread; a thread within a process",
+        "example": "A process has its own virtual address space. A thread runs within a process.",
+        "exampleChinese": "进程有自己的虚拟地址空间。线程在进程内部运行。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "share",
+      "chinese": "共享",
+      "phoneticUS": "/ʃer/",
+      "phoneticUK": "/ʃeə/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：share。本卡例句：What do threads in the same process share?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：share。本卡例句：What do threads in the same process share?",
+        "collocation": "share resources; share an address space",
+        "example": "What do threads in the same process share?",
+        "exampleChinese": "同一进程中的线程共享什么？"
+      }
+    },
+    {
+      "x": 840,
+      "y": 557,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 835,
+        "y": 680
+      },
+      "anchorPosition": {
+        "x": 840,
+        "y": 557
+      },
+      "boundingBox": {
+        "left": 722,
+        "top": 0,
+        "right": 1000,
+        "bottom": 620
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体。",
+        "association": "右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "They share that address space and other resources. I'll mark the boundary on the whiteboard.",
+        "exampleChinese": "它们共享那个地址空间以及其他资源。我会在白板上标出边界。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "At a whiteboard, a candidate compares processes and threads.",
+    "chinese": "候选人在白板旁比较进程和线程。",
+    "source": "原创配文 · I016 解释进程与线程的区别",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

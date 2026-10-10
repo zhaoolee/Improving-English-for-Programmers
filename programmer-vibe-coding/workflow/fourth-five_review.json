@@ -1,0 +1,243 @@
+{
+  "ready": true,
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "reviewedAt": "2026-10-09T05:59:55.272957+00:00",
+  "reviewer": "Codex visual and semantic review",
+  "cards": {
+    "V014": {
+      "sourcePath": "programmer-vibe-coding/images/V014.png",
+      "generationStartedAt": "2026-10-09T05:44:26Z",
+      "generationEndedAt": "2026-10-09T05:46:23Z",
+      "imageReview": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。显示器内屏完整，指手不遮主体；额外键盘、鼠标与纸堆不参与教学，只框内屏。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。",
+      "geometry": {
+        "relevant": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "context": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "filter": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "screen": {
+          "bubble": [
+            740,
+            865
+          ],
+          "box": [
+            401,
+            329,
+            688,
+            503
+          ],
+          "anchor": [
+            535,
+            410
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V015": {
+      "sourcePath": "programmer-vibe-coding/images/V015.png",
+      "generationStartedAt": "2026-10-09T05:44:26Z",
+      "generationEndedAt": "2026-10-09T05:46:23Z",
+      "imageReview": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。竖立的纸质螺旋笔记本封面和装订完整可见，无可读交接内容。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。",
+      "geometry": {
+        "resume": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "record": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "pending": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            740,
+            865
+          ],
+          "box": [
+            432,
+            475,
+            576,
+            640
+          ],
+          "anchor": [
+            500,
+            545
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V017": {
+      "sourcePath": "programmer-vibe-coding/images/V017.png",
+      "generationStartedAt": "2026-10-09T05:44:26Z",
+      "generationEndedAt": "2026-10-09T05:46:23Z",
+      "imageReview": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。屏幕中唯一圆角按钮边界完整；其功能来自对白，不从空白按钮推断保存成功。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。",
+      "geometry": {
+        "flow": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "minimal": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "complete": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "button": {
+          "bubble": [
+            740,
+            865
+          ],
+          "box": [
+            427,
+            370,
+            634,
+            440
+          ],
+          "anchor": [
+            520,
+            399
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V018": {
+      "sourcePath": "programmer-vibe-coding/images/V018.png",
+      "generationStartedAt": "2026-10-09T05:44:26Z",
+      "generationEndedAt": "2026-10-09T05:46:23Z",
+      "imageReview": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。单个胶囊形开关及圆形滑块完整，额外植物、椅子不参与教学。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。",
+      "geometry": {
+        "isolated": {
+          "bubble": [
+            260,
+            80
+          ]
+        },
+        "behavior": {
+          "bubble": [
+            740,
+            80
+          ]
+        },
+        "incremental": {
+          "bubble": [
+            510,
+            220
+          ]
+        },
+        "switch": {
+          "bubble": [
+            740,
+            865
+          ],
+          "box": [
+            428,
+            365,
+            626,
+            451
+          ],
+          "anchor": [
+            514,
+            400
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V019": {
+      "sourcePath": "programmer-vibe-coding/images/V019.png",
+      "generationStartedAt": "2026-10-09T05:44:26Z",
+      "generationEndedAt": "2026-10-09T05:46:23Z",
+      "imageReview": "通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。笔记本电脑的屏幕、转轴、键盘底座完整，手离开设备；停止手势只作情境，不证明代码范围。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。",
+      "geometry": {
+        "scope": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "refactor": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "unrelated": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "laptop": {
+          "bubble": [
+            740,
+            865
+          ],
+          "box": [
+            389,
+            427,
+            640,
+            574
+          ],
+          "anchor": [
+            531,
+            475
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    }
+  },
+  "cropCorrection": {
+    "reason": "初稿误以1280预览宽度换算；原图真实1254，紧框裁剪暴露边缘遗漏。按原图像素重新归一化。",
+    "at": "2026-10-09T05:59:55.272957+00:00",
+    "anchorAndBubblesUnchanged": true
+  }
+}

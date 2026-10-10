@@ -1,0 +1,130 @@
+{
+  "filename": "I021.png",
+  "labels": [
+    {
+      "x": 230,
+      "y": 865,
+      "english": "requirement",
+      "chinese": "需求",
+      "phoneticUS": "/rɪˈkwaɪərmənt/",
+      "phoneticUK": "/rɪˈkwaɪəmənt/",
+      "bubblePosition": {
+        "x": 230,
+        "y": 865
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：requirement。本卡例句：Before I draw on the whiteboard, may I confirm the main requirement?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：requirement。本卡例句：Before I draw on the whiteboard, may I confirm the main requirement?",
+        "collocation": "a system requirement; confirm a requirement",
+        "example": "A: Before I draw on the whiteboard, may I confirm the main requirement?\nB: We need a service for storing and sharing photos.\nA: What scale should I design for, and how much traffic do you expect at peak times?\nB: Assume one million users. Start by explaining your estimates.",
+        "exampleChinese": "A: 在白板上画图前，我可以确认一下主要需求吗？\nB: 我们需要一个存储和分享照片的服务。\nA: 我应该按多大的规模设计？你们预计高峰期会有多大的流量？\nB: 假设有一百万用户。请先说明你的估算。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "scale",
+      "chinese": "规模",
+      "phoneticUS": "/skeɪl/",
+      "phoneticUK": "/skeɪl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：scale。本卡例句：What scale should I design for, and how much traffic do you expect at peak times?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：scale。本卡例句：What scale should I design for, and how much traffic do you expect at peak times?",
+        "collocation": "define the scale; at a large scale",
+        "example": "What scale should I design for, and how much traffic do you expect at peak times?",
+        "exampleChinese": "我应该按多大的规模设计？你们预计高峰期会有多大的流量？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "traffic",
+      "chinese": "流量",
+      "phoneticUS": "/ˈtræfɪk/",
+      "phoneticUK": "/ˈtræfɪk/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：traffic。本卡例句：What scale should I design for, and how much traffic do you expect at peak times?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：traffic。本卡例句：What scale should I design for, and how much traffic do you expect at peak times?",
+        "collocation": "peak traffic; expected traffic",
+        "example": "What scale should I design for, and how much traffic do you expect at peak times?",
+        "exampleChinese": "我应该按多大的规模设计？你们预计高峰期会有多大的流量？"
+      }
+    },
+    {
+      "x": 635,
+      "y": 470,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 560,
+        "y": 420
+      },
+      "anchorPosition": {
+        "x": 635,
+        "y": 470
+      },
+      "boundingBox": {
+        "left": 372,
+        "top": 138,
+        "right": 767,
+        "bottom": 538
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人身后的白板与少量无字框；用户数与系统需求由对白给定。",
+        "association": "候选人身后的白板与少量无字框；用户数与系统需求由对白给定。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "Before I draw on the whiteboard, may I confirm the main requirement?",
+        "exampleChinese": "在白板上画图前，我可以确认一下主要需求吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Before drawing a design, a candidate asks about requirements and expected scale.",
+    "chinese": "绘制设计方案前，候选人询问系统需求和预期规模。",
+    "source": "原创配文 · I021 先确认规模与系统需求",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

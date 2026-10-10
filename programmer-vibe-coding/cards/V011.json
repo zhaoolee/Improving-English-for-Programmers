@@ -1,0 +1,250 @@
+{
+  "id": "V011",
+  "category": "context",
+  "category_title": "让 AI 理解项目",
+  "chapter": "让 AI 理解项目",
+  "title": "昨天说过的，你怎么又忘了？",
+  "keyword": "context",
+  "scene": "程序员与 AI 讨论如何用文档保留项目规则和上下文。",
+  "target_count": 4,
+  "primary_words": [
+    "context",
+    "rule",
+    "document",
+    "folder"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "context",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "上下文",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːntekst/",
+      "ipa_uk": "/ˈkɒntekst/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I need that context in the current session.",
+        "matched_form": "context",
+        "referent_region_verified": false,
+        "context": "上下文是会话资料，不能用文件夹外观证明资料内容。",
+        "image_verified": null
+      },
+      "example_en": "I need that context in the current session.",
+      "example_zh": "我需要在当前会话里获得这些上下文。",
+      "bbox_normalized": null,
+      "collocations": [
+        "project context",
+        "provide context"
+      ],
+      "example_en_highlighted": "I need that **context** in the current session.",
+      "annotation_mode": "context",
+      "annotation_note": "上下文是会话资料，不能用文件夹外观证明资料内容。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "rule",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "规则",
+      "pos": "noun",
+      "ipa_us": "/ruːl/",
+      "ipa_uk": "/ruːl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Why did you forget the rule from yesterday?",
+        "matched_form": "rule",
+        "referent_region_verified": false,
+        "context": "规则只由对白说明，底图无文字。",
+        "image_verified": null
+      },
+      "example_en": "Why did you forget the rule from yesterday?",
+      "example_zh": "你为什么忘了昨天说过的规则？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a project rule",
+        "follow a rule"
+      ],
+      "example_en_highlighted": "Why did you forget the **rule** from yesterday?",
+      "annotation_mode": "context",
+      "annotation_note": "规则只由对白说明，底图无文字。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "document",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "文档",
+      "pos": "noun",
+      "ipa_us": "/ˈdɑːkjumənt/",
+      "ipa_uk": "/ˈdɒkjumənt/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "单独的文档纸张是 document 的可定位对象，具体内容由对白说明。",
+        "sentence": "Should I add a document to the project folder?",
+        "matched_form": "document",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Should I add a document to the project folder?",
+      "example_zh": "我应该把文档放进项目文件夹吗？",
+      "bbox_normalized": [
+        0.41,
+        0.322,
+        0.607,
+        0.503
+      ],
+      "collocations": [
+        "a project document",
+        "read a document"
+      ],
+      "example_en_highlighted": "Should I add a **document** to the project folder?",
+      "annotation_mode": "object",
+      "annotation_note": "单独的文档纸张是 document 的可定位对象，具体内容由对白说明。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "folder",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "文件夹",
+      "pos": "noun",
+      "ipa_us": "/ˈfoʊldər/",
+      "ipa_uk": "/ˈfəʊldə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "有分页标签的实体文件夹可独立定位。",
+        "sentence": "Should I add a document to the project folder?",
+        "matched_form": "folder",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Should I add a document to the project folder?",
+      "example_zh": "我应该把文档放进项目文件夹吗？",
+      "bbox_normalized": [
+        0.395,
+        0.43,
+        0.716,
+        0.629
+      ],
+      "collocations": [
+        "a project folder",
+        "open a folder"
+      ],
+      "example_en_highlighted": "Should I add a document to the project **folder**?",
+      "annotation_mode": "object",
+      "annotation_note": "有分页标签的实体文件夹可独立定位。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-06",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer discusses keeping project rules and context in a document with an AI assistant.",
+    "zh": "程序员与 AI 讨论如何用文档保留项目规则和上下文。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer discusses keeping project rules and context in a document with an AI assistant.",
+    "zh": "程序员与 AI 讨论如何用文档保留项目规则和上下文。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Why did you forget the rule from yesterday?",
+      "zh": "你为什么忘了昨天说过的规则？"
+    },
+    {
+      "speaker": "B",
+      "en": "I need that context in the current session.",
+      "zh": "我需要在当前会话里获得这些上下文。"
+    },
+    {
+      "speaker": "A",
+      "en": "Should I add a document to the project folder?",
+      "zh": "我应该把文档放进项目文件夹吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. Record the build steps and rules, then ask me to read it.",
+      "zh": "是的。记录构建步骤和规则，然后让我读取它。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用可读取的项目文档保留规则和当前上下文。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer left holds an open palm toward the OpenAI logo at upper right. On a low desk at center is a large physical open file folder with a visible tab and one separate blank document sheet being placed inside. The entire tabbed folder must remain visible as a distinct object, no writing on either sheet or folder. Simple clean shapes.",
+  "status": "approved",
+  "image_path": "images/V011.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-06",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 2,
+    "context_annotations": 2,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V011 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-06",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V011.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-06T06:57:40.149Z",
+    "ended_at": "2026-10-06T06:58:24.880Z",
+    "prompt_path": "prompts/V011_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V011.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。"
+  }
+}

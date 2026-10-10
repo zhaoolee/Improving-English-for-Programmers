@@ -1,0 +1,130 @@
+{
+  "filename": "V005-给 AI 划清操作边界.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "permission",
+      "chinese": "权限",
+      "phoneticUS": "/pərˈmɪʃən/",
+      "phoneticUK": "/pəˈmɪʃən/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "是否拥有删除权限由对白明确说明，不从图标或人物动作推断。",
+        "association": "是否拥有删除权限由对白明确说明，不从图标或人物动作推断。",
+        "collocation": "have permission; permission to delete files",
+        "example": "A: You can edit this project folder, but do you have permission to delete files?\nB: No. I'll keep the files and confirm the scope with you first.\nA: Also ask before installing packages or publishing changes.\nB: Understood. I'll stay within the actions you've approved.",
+        "exampleChinese": "A: 你可以编辑这个项目文件夹，但你有权限删除文件吗？\nB: 没有。我会保留文件，并先与你确认操作范围。\nA: 安装依赖包或发布改动前也要先询问。\nB: 明白。我会限定在你已经批准的操作范围内。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "delete",
+      "chinese": "删除",
+      "phoneticUS": "/dɪˈliːt/",
+      "phoneticUK": "/dɪˈliːt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "删除是被限制的操作，并未实际发生；不为它编造可见框。",
+        "association": "删除是被限制的操作，并未实际发生；不为它编造可见框。",
+        "collocation": "delete files; delete a record",
+        "example": "You can edit this project folder, but do you have permission to delete files?",
+        "exampleChinese": "你可以编辑这个项目文件夹，但你有权限删除文件吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "confirm",
+      "chinese": "确认",
+      "phoneticUS": "/kənˈfɜːrm/",
+      "phoneticUK": "/kənˈfɜːm/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "确认范围是对白中的承诺，不从指向动作认定已经确认。",
+        "association": "确认范围是对白中的承诺，不从指向动作认定已经确认。",
+        "collocation": "confirm the scope; confirm a requirement",
+        "example": "No. I'll keep the files and confirm the scope with you first.",
+        "exampleChinese": "没有。我会保留文件，并先与你确认操作范围。"
+      }
+    },
+    {
+      "x": 488,
+      "y": 438,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 488,
+        "y": 438
+      },
+      "boundingBox": {
+        "left": 394,
+        "top": 368,
+        "right": 586,
+        "bottom": 504
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器上清楚可见的文件夹图标对应对话中的项目目录；局部框仅指向图标，权限另由对白支持。",
+        "association": "显示器上清楚可见的文件夹图标对应对话中的项目目录；局部框仅指向图标，权限另由对白支持。",
+        "collocation": "a project folder; edit a folder",
+        "example": "You can edit this project folder, but do you have permission to delete files?",
+        "exampleChinese": "你可以编辑这个项目文件夹，但你有权限删除文件吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer sets editing permissions for a project folder and asks the AI to confirm its scope.",
+    "chinese": "程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。",
+    "source": "原创对话 · V005 给 AI 划清操作边界",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

@@ -1,0 +1,21 @@
+{
+  "cardID": "I004",
+  "imagePath": "../images/I004.png",
+  "imageSHA256": "3cabebf4ee591707435e06d7f2753114adfbe88ee720ceb002d99157ffbce933",
+  "imageReviewed": true,
+  "annotationsPath": "I004_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "opportunity",
+    "growth",
+    "transition",
+    "notebook"
+  ],
+  "receiptPath": "I004_learning_import_receipt.json",
+  "photoID": "447a676b-ac08-4d49-b313-6f5aad30cbca",
+  "expectedAssetID": "25910081c2e7181005e773ff69148aae1da7d65f7525913b33605aa17592bd3e",
+  "expectedImageFilename": "I004.png",
+  "expectedSourceSHA256": "3cabebf4ee591707435e06d7f2753114adfbe88ee720ceb002d99157ffbce933",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

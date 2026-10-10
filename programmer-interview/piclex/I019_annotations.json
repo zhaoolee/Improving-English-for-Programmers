@@ -1,0 +1,130 @@
+{
+  "filename": "I019.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "transaction",
+      "chinese": "事务",
+      "phoneticUS": "/trænˈzækʃən/",
+      "phoneticUK": "/trænˈzækʃən/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transaction。本卡例句：A transaction groups related changes into an atomic operation.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transaction。本卡例句：A transaction groups related changes into an atomic operation.",
+        "collocation": "a database transaction; commit a transaction",
+        "example": "A: A transaction groups related changes into an atomic operation.\nB: What happens if one step fails before you commit?\nA: We can roll back the changes. The whiteboard shows the two steps of a transfer.\nB: Which data must remain consistent after that transfer?",
+        "exampleChinese": "A: 事务把相关修改组成一个原子操作。\nB: 如果在提交前有一个步骤失败，会怎样？\nA: 我们可以回滚这些修改。白板展示了一次转账的两个步骤。\nB: 转账后，哪些数据必须保持一致？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "commit",
+      "chinese": "提交",
+      "phoneticUS": "/kəˈmɪt/",
+      "phoneticUK": "/kəˈmɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：commit。本卡例句：What happens if one step fails before you commit?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：commit。本卡例句：What happens if one step fails before you commit?",
+        "collocation": "commit a transaction; commit the changes",
+        "example": "What happens if one step fails before you commit?",
+        "exampleChinese": "如果在提交前有一个步骤失败，会怎样？"
+      }
+    },
+    {
+      "x": 220,
+      "y": 900,
+      "english": "atomic",
+      "chinese": "原子的",
+      "phoneticUS": "/əˈtɑːmɪk/",
+      "phoneticUK": "/əˈtɒmɪk/",
+      "bubblePosition": {
+        "x": 220,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：atomic。本卡例句：A transaction groups related changes into an atomic operation.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：atomic。本卡例句：A transaction groups related changes into an atomic operation.",
+        "collocation": "an atomic operation; atomic changes",
+        "example": "A transaction groups related changes into an atomic operation.",
+        "exampleChinese": "事务把相关修改组成一个原子操作。"
+      }
+    },
+    {
+      "x": 870,
+      "y": 185,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 870,
+        "y": 110
+      },
+      "anchorPosition": {
+        "x": 870,
+        "y": 185
+      },
+      "boundingBox": {
+        "left": 705,
+        "top": 65,
+        "right": 995,
+        "bottom": 265
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供。",
+        "association": "白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "We can roll back the changes. The whiteboard shows the two steps of a transfer.",
+        "exampleChinese": "我们可以回滚这些修改。白板展示了一次转账的两个步骤。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains how a database transaction groups related changes.",
+    "chinese": "候选人解释数据库事务如何把相关修改组成一个整体。",
+    "source": "原创配文 · I019 说明事务与数据一致性",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

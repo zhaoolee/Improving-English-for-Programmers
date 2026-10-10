@@ -1,0 +1,130 @@
+{
+  "filename": "W080-感谢同事的具体帮助.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "appreciate",
+      "chinese": "感谢",
+      "phoneticUS": "/əˈpriːʃieɪt/",
+      "phoneticUK": "/əˈpriːʃieɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I really appreciate your guidance on that tricky bug.”明确表达感谢；单幅画面不能独立证明，不设局部框。",
+        "association": "“I really appreciate your guidance on that tricky bug.”明确表达感谢；单幅画面不能独立证明，不设局部框。",
+        "collocation": "appreciate your help; really appreciate",
+        "example": "A: I really appreciate your guidance on that tricky bug.\nB: You're welcome. You did the hard work of testing each idea.\nA: It gave me more confidence. Let me get you a mug of coffee.\nB: Thanks! I'm glad we could work through it together.",
+        "exampleChinese": "A: 非常感谢你在那个棘手缺陷上给我的指导。\nB: 不客气。逐个验证思路的辛苦工作是你做的。\nA: 这让我更有信心。让我请你喝一杯咖啡吧。\nB: 谢谢！很高兴我们能一起解决它。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "guidance",
+      "chinese": "指导",
+      "phoneticUS": "/ˈɡaɪdns/",
+      "phoneticUK": "/ˈɡaɪdns/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I really appreciate your guidance on that tricky bug.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+        "association": "“I really appreciate your guidance on that tricky bug.”明确表达指导；单幅画面不能独立证明，不设局部框。",
+        "collocation": "ask for guidance; your guidance on",
+        "example": "I really appreciate your guidance on that tricky bug.",
+        "exampleChinese": "非常感谢你在那个棘手缺陷上给我的指导。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "confidence",
+      "chinese": "信心",
+      "phoneticUS": "/ˈkɑːnfɪdəns/",
+      "phoneticUK": "/ˈkɒnfɪdəns/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“It gave me more confidence. Let me get you a mug of coffee.”明确表达信心；单幅画面不能独立证明，不设局部框。",
+        "association": "“It gave me more confidence. Let me get you a mug of coffee.”明确表达信心；单幅画面不能独立证明，不设局部框。",
+        "collocation": "give confidence; more confidence",
+        "example": "It gave me more confidence. Let me get you a mug of coffee.",
+        "exampleChinese": "这让我更有信心。让我请你喝一杯咖啡吧。"
+      }
+    },
+    {
+      "x": 459,
+      "y": 817,
+      "english": "mug",
+      "chinese": "马克杯",
+      "phoneticUS": "/mʌɡ/",
+      "phoneticUK": "/mʌɡ/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 459,
+        "y": 817
+      },
+      "boundingBox": {
+        "left": 332,
+        "top": 693,
+        "right": 544,
+        "bottom": 889
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "a mug of tea; a coffee mug",
+        "example": "It gave me more confidence. Let me get you a mug of coffee.",
+        "exampleChinese": "这让我更有信心。让我请你喝一杯咖啡吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer thanks a teammate for help with a difficult task.",
+    "chinese": "开发者感谢同事在困难任务中提供的帮助。",
+    "source": "原创对话 · W080 感谢同事的具体帮助",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

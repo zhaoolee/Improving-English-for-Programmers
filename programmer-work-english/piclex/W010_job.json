@@ -1,0 +1,15 @@
+{
+  "cardID": "W010",
+  "imagePath": "../images/W010.png",
+  "imageSHA256": "8106a491adf18a44e382a131e608b7c8f4e64164ab2e28fc30a474ec0ddc41af",
+  "imageReviewed": true,
+  "annotationsPath": "W010_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "handover",
+    "locate",
+    "complete",
+    "folder"
+  ],
+  "receiptPath": "W010_import_receipt.json"
+}

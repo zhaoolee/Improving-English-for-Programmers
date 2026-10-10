@@ -1,0 +1,294 @@
+{
+  "id": "I005",
+  "category": "introduction",
+  "title_zh": "解释职业空档或转岗经历",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "欧洲女候选人说明职业空档或转岗经历，亚洲女招聘方在日历与简历旁倾听。",
+  "cast": {
+    "candidate": "EU_SOFIA",
+    "interviewer": "AS_HANA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Sofia, a fictional attractive 33-year-old European woman from France, with light olive skin, hazel eyes, softly wavy chestnut hair cut just above the shoulders, subtle freckles, and understated natural makeup.\nInterviewer or recruiter: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.\nExactly two people in a quiet interview room. Sofia, the candidate in a cream knit top and charcoal blazer, explains a career transition to Hana, the recruiter in a navy blouse. Sofia lightly indicates a paper with a few blank timeline blocks beside her resume folder, then meets Hana's eyes with a composed expression. Hana listens with her pen resting, not interrogating. Keep the paper unlettered and visually secondary; it is a conversation aid, not proof of the candidate's history. A three-quarter 50mm medium shot, diffuse afternoon daylight, tidy oak table and a single ceramic water cup. No travel montage, graduation costume or pitying mood.",
+  "prompt_path": "prompts/I005_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I005.png",
+  "image_sha256": "7d42650cadad396780feb551eee5479ad4d70d6c6170c98facccb074bf754839",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留 实际可见物件：修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "initial_prompt_snapshot_path": "programmer-interview/workflow/prompt-history/20261009-before-cinematic/prompts/I005_image_prompt.txt",
+    "initial_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-393c90c3-d35a-47cf-a5f9-a62cab858056.png",
+    "initial_started_at_utc": "2026-10-09T11:14:06Z",
+    "initial_finished_at_utc": "2026-10-09T11:17:12Z",
+    "cinematic_edit_prompt_path": "programmer-interview/workflow/I001-I005-cinematic-edit-prompts/I005_edit.txt",
+    "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-80c1d5cb-772c-47b3-b0fc-3c7041fb4696.png",
+    "cinematic_started_at_utc": "2026-10-09T11:20:22Z",
+    "cinematic_finished_at_utc": "2026-10-09T11:24:02Z",
+    "selected_image_path": "images/I005.png",
+    "selected_image_sha256": "7d42650cadad396780feb551eee5479ad4d70d6c6170c98facccb074bf754839",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I001-I005_image-review.json",
+    "note": "两步链：初版 prompt 生成原图，再基于该原图定向编辑为选定电影感版；非由现升级后的 prompt 一次生成。",
+    "pre_edit_selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-cdafd12a-5015-4304-9e54-ee42e9341b4d.png",
+    "pre_edit_selected_image_sha256": "6346848eb5f3e63e8eabc90b9c15c31ca7e889c805ca21993a165c14959d9ab1",
+    "pre_edit_selected_image_dimensions": "1122x1402",
+    "edit_chain": [
+      {
+        "step": 1,
+        "note": "首次定向编辑",
+        "prompt_path": "workflow/learning-40-20261010/edit-prompts/I005_edit.txt",
+        "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-3c7e0bd4-e57d-43bf-9f86-ac0494d0725a.png",
+        "started_at_utc": "2026-10-10T02:32:27Z",
+        "finished_at_utc": "2026-10-10T02:33:12Z",
+        "review": "首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留。"
+      },
+      {
+        "step": 2,
+        "note": "重试：把文件夹完整移入画面",
+        "prompt_path": "workflow/learning-40-20261010/edit-prompts/I005_retry_edit.txt",
+        "output_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-80c1d5cb-772c-47b3-b0fc-3c7041fb4696.png",
+        "started_at_utc": "2026-10-10T03:12:55Z",
+        "finished_at_utc": "2026-10-10T03:13:50Z",
+        "review": "首版文件夹仍截断，定向移动后全轮廓清楚，脸部/手势/原电影光线保留。"
+      }
+    ],
+    "edit_journal_path": "workflow/learning-40-20261010/image-edit-journal.json",
+    "source_path": "images/I005.png",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-10T03:12:55Z",
+    "ended_at": "2026-10-10T03:13:50Z",
+    "prompt_path": "prompts/I005_image_final.txt"
+  },
+  "title": "解释职业空档或转岗经历",
+  "scene": "欧洲女候选人说明职业空档或转岗经历，亚洲女招聘方在日历与简历旁倾听。",
+  "category_title": "面试开场与自我介绍",
+  "primary_words": [
+    "gap",
+    "transferable",
+    "resume",
+    "folder"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "gap",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "空档",
+      "pos": "noun",
+      "ipa_us": "/ɡæp/",
+      "ipa_uk": "/ɡæp/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The gap on my resume was a six-month break to care for a family member.",
+        "matched_form": "gap",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：gap。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+        "image_verified": null
+      },
+      "example_en": "The gap on my resume was a six-month break to care for a family member.",
+      "example_zh": "我简历上的空档是照顾家人的六个月休假。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a career gap",
+        "a gap on a resume"
+      ],
+      "example_en_highlighted": "The **gap** on my resume was a six-month break to care for a family member.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：gap。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "transferable",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "可迁移的",
+      "pos": "adjective",
+      "ipa_us": "/trænsˈfɜːrəbl/",
+      "ipa_uk": "/trænsˈfɜːrəbl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I built a small web app. My folder includes examples of my transferable testing skills.",
+        "matched_form": "transferable",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transferable。本卡例句：I built a small web app. My folder includes examples of my transferable testing skills.",
+        "image_verified": null
+      },
+      "example_en": "I built a small web app. My folder includes examples of my transferable testing skills.",
+      "example_zh": "我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。",
+      "bbox_normalized": null,
+      "collocations": [
+        "transferable skills",
+        "transferable experience"
+      ],
+      "example_en_highlighted": "I built a small web app. My folder includes examples of my **transferable** testing skills.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transferable。本卡例句：I built a small web app. My folder includes examples of my transferable testing skills.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "resume",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "简历",
+      "pos": "noun",
+      "ipa_us": "/ˈrezəmeɪ/",
+      "ipa_uk": "/ˈrezjuːmeɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "The gap on my resume was a six-month break to care for a family member.",
+        "matched_form": "resume",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resume。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+        "image_verified": null
+      },
+      "example_en": "The gap on my resume was a six-month break to care for a family member.",
+      "example_zh": "我简历上的空档是照顾家人的六个月休假。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a current resume",
+        "a gap on a resume"
+      ],
+      "example_en_highlighted": "The gap on my **resume** was a six-month break to care for a family member.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：resume。本卡例句：The gap on my resume was a six-month break to care for a family member.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "folder",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "文件夹",
+      "pos": "noun",
+      "ipa_us": "/ˈfoʊldər/",
+      "ipa_uk": "/ˈfəʊldə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。",
+        "sentence": "I built a small web app. My folder includes examples of my transferable testing skills.",
+        "matched_form": "folder",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I built a small web app. My folder includes examples of my transferable testing skills.",
+      "example_zh": "我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。",
+      "bbox_normalized": [
+        0.246,
+        0.793,
+        0.68,
+        0.93
+      ],
+      "collocations": [
+        "a document folder",
+        "open a folder"
+      ],
+      "example_en_highlighted": "I built a small web app. My **folder** includes examples of my transferable testing skills.",
+      "annotation_mode": "object",
+      "annotation_note": "修图后桌前方完整清楚的文件夹，可见封面与纸页边缘；文件中的技能例子由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "面试开场与自我介绍",
+  "keyword": "gap",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate explains a career gap and the skills she brings to a new field.",
+    "zh": "候选人解释职业空档，以及自己能带到新领域的技能。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate explains a career gap and the skills she brings to a new field.",
+    "zh": "候选人解释职业空档，以及自己能带到新领域的技能。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "The gap on my resume was a six-month break to care for a family member.",
+      "zh": "我简历上的空档是照顾家人的六个月休假。"
+    },
+    {
+      "speaker": "B",
+      "en": "How did you prepare to return to development?",
+      "zh": "你为重返开发岗位做了哪些准备？"
+    },
+    {
+      "speaker": "A",
+      "en": "I built a small web app. My folder includes examples of my transferable testing skills.",
+      "zh": "我开发了一个小型 Web 应用。文件夹里有体现我可迁移测试技能的例子。"
+    },
+    {
+      "speaker": "B",
+      "en": "Tell me how you tested the app.",
+      "zh": "说说你是如何测试这个应用的。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "简洁介绍背景、技术经验与求职动机，解释与岗位的匹配。本卡主题：解释职业空档或转岗经历。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I005 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I005.png 宽高归一化至 0..1；由人工视觉定位。"
+}

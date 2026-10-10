@@ -1,0 +1,130 @@
+{
+  "filename": "W029-更新任务状态.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "status",
+      "chinese": "状态",
+      "phoneticUS": "/ˈsteɪtəs/",
+      "phoneticUK": "/ˈsteɪtəs/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Could you update the task status before our meeting?”明确表达状态；单幅画面不能独立证明，不设局部框。",
+        "association": "“Could you update the task status before our meeting?”明确表达状态；单幅画面不能独立证明，不设局部框。",
+        "collocation": "update the status; the status of a task",
+        "example": "A: Could you update the task status before our meeting?\nB: Sure. I've made good progress on the API tests.\nA: What's the remaining work? I'll enter it using this keyboard.\nB: Just the timeout case. I expect to finish it this afternoon.",
+        "exampleChinese": "A: 开会之前，你能更新一下任务状态吗？\nB: 当然。API 测试已经取得不错的进展。\nA: 还有哪些工作剩下？我用这个键盘录入。\nB: 只剩超时的情况。我预计今天下午能完成。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "progress",
+      "chinese": "进展",
+      "phoneticUS": "/ˈprɑːɡres/",
+      "phoneticUK": "/ˈprəʊɡres/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Sure. I've made good progress on the API tests.”明确表达进展；单幅画面不能独立证明，不设局部框。",
+        "association": "“Sure. I've made good progress on the API tests.”明确表达进展；单幅画面不能独立证明，不设局部框。",
+        "collocation": "make progress; good progress",
+        "example": "Sure. I've made good progress on the API tests.",
+        "exampleChinese": "当然。API 测试已经取得不错的进展。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "remaining",
+      "chinese": "剩余的",
+      "phoneticUS": "/rɪˈmeɪnɪŋ/",
+      "phoneticUK": "/rɪˈmeɪnɪŋ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What's the remaining work? I'll enter it using this keyboard.”明确表达剩余的；单幅画面不能独立证明，不设局部框。",
+        "association": "“What's the remaining work? I'll enter it using this keyboard.”明确表达剩余的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the remaining work; remaining tasks",
+        "example": "What's the remaining work? I'll enter it using this keyboard.",
+        "exampleChinese": "还有哪些工作剩下？我用这个键盘录入。"
+      }
+    },
+    {
+      "x": 439,
+      "y": 541,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 700
+      },
+      "anchorPosition": {
+        "x": 439,
+        "y": 541
+      },
+      "boundingBox": {
+        "left": 278,
+        "top": 496,
+        "right": 557,
+        "bottom": 574
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this keyboard; a computer keyboard",
+        "example": "What's the remaining work? I'll enter it using this keyboard.",
+        "exampleChinese": "还有哪些工作剩下？我用这个键盘录入。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer updates a teammate on task progress.",
+    "chinese": "开发者向同事更新任务进展。",
+    "source": "原创对话 · W029 更新任务状态",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

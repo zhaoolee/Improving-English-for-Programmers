@@ -1,0 +1,21 @@
+{
+  "cardID": "I028",
+  "imagePath": "../images/I028.png",
+  "imageSHA256": "a2974db81c7df5eb01516c73eef290df1735d882b4dedb6e3df37dcc8ccf2dd0",
+  "imageReviewed": true,
+  "annotationsPath": "I028_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "diagnose",
+    "log",
+    "reproduce",
+    "laptop"
+  ],
+  "receiptPath": "I028_learning_import_receipt.json",
+  "photoID": "db6a1638-ea92-46e8-bdc9-721e252781c7",
+  "expectedAssetID": "5f5e2d8bb5a33b005eaccc51c444f81871b0e35bbd14fe1a719f62755e2cb8c9",
+  "expectedImageFilename": "I028.png",
+  "expectedSourceSHA256": "a2974db81c7df5eb01516c73eef290df1735d882b4dedb6e3df37dcc8ccf2dd0",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

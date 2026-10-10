@@ -1,0 +1,119 @@
+W037  解释维护成本
+========================================================================
+分类: 技术方案讨论（design）
+关键词: maintenance
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W037.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W037.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W037.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:29:19.765Z
+  提示词文件: prompts/W037_image_final.txt
+
+场景: 开发者解释简单的设计如何降低维护成本。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：白板和支架完整；simple指易维护的设计，不把少量图形等同维护简单。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 解释简单设计如何降低维护成本。
+
+主配文（一句场景描述）:
+  英文: A developer explains how a simpler design lowers maintenance cost.
+  中文: 开发者解释简单的设计如何降低维护成本。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Why do you prefer the simple design?
+        你为什么更倾向于简单的设计？
+  [B] It reduces maintenance cost because fewer parts can fail.
+        它能降低维护成本，因为可能出故障的部分更少。
+  [A] Could you sketch the difference on the board?
+        你能在白板上画出差异吗？
+  [B] Sure. This smaller diagram is easier for the team to understand.
+        可以。这个更小的图更容易让团队理解。
+
+目标词 (4): maintenance, simple, cost, board
+
+------------------------------------------------------------------------
+[1/4] maintenance
+  词义: 维护
+  词性: noun
+  音标: UK /ˈmeɪntənəns/ | US /ˈmeɪntənəns/
+  搭配: maintenance cost; routine maintenance
+  例句: It reduces maintenance cost because fewer parts can fail.
+  例句高亮: It reduces **maintenance** cost because fewer parts can fail.
+  例句中文: 它能降低维护成本，因为可能出故障的部分更少。
+  标注模式: context
+  标注说明: “It reduces maintenance cost because fewer parts can fail.”明确表达维护；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] simple
+  词义: 简单的
+  词性: adjective
+  音标: UK /ˈsɪmpl/ | US /ˈsɪmpl/
+  搭配: a simple design; keep it simple
+  例句: Why do you prefer the simple design?
+  例句高亮: Why do you prefer the **simple** design?
+  例句中文: 你为什么更倾向于简单的设计？
+  标注模式: context
+  标注说明: “Why do you prefer the simple design?”明确表达简单的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] cost
+  词义: 成本
+  词性: noun
+  音标: UK /kɒst/ | US /kɔːst/
+  搭配: maintenance cost; reduce the cost
+  例句: It reduces maintenance cost because fewer parts can fail.
+  例句高亮: It reduces maintenance **cost** because fewer parts can fail.
+  例句中文: 它能降低维护成本，因为可能出故障的部分更少。
+  标注模式: context
+  标注说明: “It reduces maintenance cost because fewer parts can fail.”明确表达成本；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] board
+  词义: 白板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: update the board; a task board
+  例句: Could you sketch the difference on the board?
+  例句高亮: Could you sketch the difference on the **board**?
+  例句中文: 你能在白板上画出差异吗？
+  标注模式: object
+  标注说明: 白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.249, 0.219, 0.77, 0.749]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W037 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand beside a freestanding board. One points at two abstract diagrams: one small cluster and one tangled cluster. No letters or numbers, board fully visible.

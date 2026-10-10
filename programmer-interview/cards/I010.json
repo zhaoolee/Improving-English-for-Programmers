@@ -1,0 +1,268 @@
+{
+  "id": "I010",
+  "category": "projects",
+  "title_zh": "复盘一次没有达到预期的项目",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "亚洲男候选人理性复盘未达预期的项目，美国男面试官讨论原因与改进。",
+  "cast": {
+    "candidate": "AS_ARJUN",
+    "interviewer": "US_MARCUS"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.\nInterviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.\nExactly two people at a project-review interview. Arjun, in a stone-gray shirt, reflects on a project that fell short while Marcus, in a navy overshirt, asks a considered follow-up. A laptop showing one subdued unlabeled flat trend sits next to an open notebook. Arjun looks thoughtful but composed, one hand on the notebook edge; Marcus maintains respectful eye contact. Use a candid 50mm medium two-person frame from a table corner, with natural afternoon window light and a tidy warm-gray office. The mood is reflective and constructive. No dejected head-in-hands pose, red disaster screens, broken equipment or visual flashback of a failed project.",
+  "prompt_path": "prompts/I010_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I010.png",
+  "image_sha256": "d766d78f2a57aaefb30dcb6f08d9d2905da6af739b8ec7f144a770381a834fae",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "候选人说明经历、面试官专注倾听，握笔与开放手势自然，笔记本和电脑趋势图可辨；电脑靠画面右侧，主要屏幕可见。前景玻璃杯、窗侧光与桌面构成层次，氛围理性、平静；不将趋势形状当作项目失败的证据 实际可见物件：候选人面前打开的纸质笔记本；复盘结论来自原创对白。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I006-I010-generated-prompts/I010_generate.txt",
+    "source_path": "images/I010.png",
+    "started_at_utc": "2026-10-09 11:46:35 UTC",
+    "finished_at_utc": "2026-10-09 11:49:53 UTC",
+    "selected_image_path": "images/I010.png",
+    "selected_image_sha256": "d766d78f2a57aaefb30dcb6f08d9d2905da6af739b8ec7f144a770381a834fae",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I006-I010_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T11:52:45Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T11:46:35Z",
+    "ended_at": "2026-10-09T11:49:53Z",
+    "prompt_path": "prompts/I010_image_final.txt"
+  },
+  "title": "复盘一次没有达到预期的项目",
+  "scene": "亚洲男候选人理性复盘未达预期的项目，美国男面试官讨论原因与改进。",
+  "category_title": "项目经历与成果表达",
+  "primary_words": [
+    "retrospective",
+    "assumption",
+    "outcome",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "retrospective",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "复盘",
+      "pos": "noun",
+      "ipa_us": "/ˌretrəˈspektɪv/",
+      "ipa_uk": "/ˌretrəˈspektɪv/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our retrospective showed that the outcome fell short of our adoption target.",
+        "matched_form": "retrospective",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retrospective。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+        "image_verified": null
+      },
+      "example_en": "Our retrospective showed that the outcome fell short of our adoption target.",
+      "example_zh": "项目复盘表明，实际结果没有达到我们设定的使用率目标。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a project retrospective",
+        "hold a retrospective"
+      ],
+      "example_en_highlighted": "Our **retrospective** showed that the outcome fell short of our adoption target.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retrospective。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "assumption",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "假设",
+      "pos": "noun",
+      "ipa_us": "/əˈsʌmpʃən/",
+      "ipa_uk": "/əˈsʌmpʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Which assumption turned out to be wrong?",
+        "matched_form": "assumption",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：assumption。本卡例句：Which assumption turned out to be wrong?",
+        "image_verified": null
+      },
+      "example_en": "Which assumption turned out to be wrong?",
+      "example_zh": "哪项假设后来被证明是错的？",
+      "bbox_normalized": null,
+      "collocations": [
+        "check an assumption",
+        "a wrong assumption"
+      ],
+      "example_en_highlighted": "Which **assumption** turned out to be wrong?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：assumption。本卡例句：Which assumption turned out to be wrong?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "outcome",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "结果",
+      "pos": "noun",
+      "ipa_us": "/ˈaʊtkʌm/",
+      "ipa_uk": "/ˈaʊtkʌm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Our retrospective showed that the outcome fell short of our adoption target.",
+        "matched_form": "outcome",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：outcome。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+        "image_verified": null
+      },
+      "example_en": "Our retrospective showed that the outcome fell short of our adoption target.",
+      "example_zh": "项目复盘表明，实际结果没有达到我们设定的使用率目标。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a project outcome",
+        "a measurable outcome"
+      ],
+      "example_en_highlighted": "Our retrospective showed that the **outcome** fell short of our adoption target.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：outcome。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "候选人面前打开的纸质笔记本；复盘结论来自原创对白。",
+        "sentence": "We assumed users wanted every feature. My notebook records requests for a simpler workflow.",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We assumed users wanted every feature. My notebook records requests for a simpler workflow.",
+      "example_zh": "我们以为用户需要所有功能。笔记本里记录的却是简化工作流程的需求。",
+      "bbox_normalized": [
+        0.13,
+        0.681,
+        0.635,
+        0.76
+      ],
+      "collocations": [
+        "write in a notebook",
+        "an open notebook"
+      ],
+      "example_en_highlighted": "We assumed users wanted every feature. My **notebook** records requests for a simpler workflow.",
+      "annotation_mode": "object",
+      "annotation_note": "候选人面前打开的纸质笔记本；复盘结论来自原创对白。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "项目经历与成果表达",
+  "keyword": "retrospective",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate reflects on a project whose outcome fell short of expectations.",
+    "zh": "候选人复盘一个结果未达预期的项目。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate reflects on a project whose outcome fell short of expectations.",
+    "zh": "候选人复盘一个结果未达预期的项目。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Our retrospective showed that the outcome fell short of our adoption target.",
+      "zh": "项目复盘表明，实际结果没有达到我们设定的使用率目标。"
+    },
+    {
+      "speaker": "B",
+      "en": "Which assumption turned out to be wrong?",
+      "zh": "哪项假设后来被证明是错的？"
+    },
+    {
+      "speaker": "A",
+      "en": "We assumed users wanted every feature. My notebook records requests for a simpler workflow.",
+      "zh": "我们以为用户需要所有功能。笔记本里记录的却是简化工作流程的需求。"
+    },
+    {
+      "speaker": "B",
+      "en": "What would you change in your next project?",
+      "zh": "在下一个项目中，你会作出什么改变？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "讲清项目背景、个人贡献、技术挑战和可核实的结果。本卡主题：复盘一次没有达到预期的项目。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I010 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I010.png 宽高归一化至 0..1；由人工视觉定位。"
+}

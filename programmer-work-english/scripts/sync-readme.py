@@ -9,13 +9,8 @@
    ``<!-- W样卡开始 -->`` 与 ``<!-- W样卡结束 -->`` 之间生成样卡章节：图片 + 一句双语
    场景描述 + 关键词 + 完整 4 话轮中英对白 + 4 词学习表。
 
-2. ``--root``（仓库根模式），在仓库根 ``README.md`` 的
-   ``## 程序员英语章节开始`` / ``## 程序员英语章节结束`` 之间生成面向读者的程序员英语章节。
-   首次运行紧邻 ``## 850章节开始`` 之前插入；已有区间只替换自身。仅收录已审定成品
-   （``cards/Wxxx.json`` 且 ``status=approved``），不展示未制作计划卡。图片按每卡
-   ``piclex/Wxxx_job.json`` 的 ``imagePath``（相对 job 目录）绑定，校验仓库内存在、
-   SHA-256 与 job 声明一致且与 ``cards.image_path`` 相同；``src`` 使用官方 raw 原图绝对
-   URL，可用 ``--image-base-url`` 切换。
+2. ``--root``（兼容模式），委托仓库根 ``scripts/update_readme.py`` 生成四个系列的
+   GitHub Pages 入口表。根 README 不再展开数千行卡片正文。
 
 用法::
 
@@ -36,6 +31,7 @@ import hashlib
 import html
 import json
 import os
+import subprocess
 import sys
 from urllib.parse import quote
 
@@ -285,13 +281,18 @@ def root_intro(meta, n_cards, entries, unique):
     published = meta.get("published") or {}
     version = published.get("version")
     version_text = "V%d" % version if isinstance(version, int) else "当前免费版"
+    total = meta.get("total_cards")
+    if isinstance(total, int) and n_cards >= total:
+        tail = "计划卡已全部完成。"
+    else:
+        tail = "其余计划卡尚未制作。"
     return (
         "这里汇总《程序员工作英语》专题的 **%d 类工作沟通场景**（%s）中已完成并审定的 "
         "**%d 张场景卡、%d 个词条、%d 个不同词**（免费公开发布 %s，黑底白线）：每张卡配一张"
         "极简黑白火柴人场景图，含一句双语场景描述、关键词、完整 4 话轮中英对白与 4 词学习表"
         "（例句保留目标词高亮）。完整专题说明见[专题 README](programmer-work-english/README.md)；"
-        "其余计划卡尚未制作。"
         % (len(categories), cat_text, n_cards, entries, unique, version_text)
+        + tail
     )
 
 
@@ -360,6 +361,15 @@ def render_root(text, body):
 
 def run_root(args):
     root = repo_root()
+    command = [sys.executable, os.path.join(root, "scripts", "update_readme.py")]
+    if args.check:
+        command.append("--check")
+    if args.readme:
+        command.extend(["--readme", os.path.abspath(args.readme)])
+    command.extend(["--raw-base", args.image_base_url])
+    return subprocess.run(command, cwd=root, check=False).returncode
+
+    # 旧的章节生成实现保留在此函数下方，方便追溯历史格式；兼容入口已在上方返回。
     readme_path = os.path.abspath(args.readme) if args.readme else os.path.join(root, "README.md")
     if not os.path.isfile(readme_path):
         fail("README 不存在：%s" % readme_path)

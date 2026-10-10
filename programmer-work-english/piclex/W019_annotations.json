@@ -1,0 +1,130 @@
+{
+  "filename": "W019-处理临时需求变更.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "change",
+      "chinese": "变更",
+      "phoneticUS": "/tʃeɪndʒ/",
+      "phoneticUK": "/tʃeɪndʒ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What impact would this change have on the release?”明确表达变更；单幅画面不能独立证明，不设局部框。",
+        "association": "“What impact would this change have on the release?”明确表达变更；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a change to the plan; make a change",
+        "example": "A: What impact would this change have on the release?\nB: It would add two days of work and require new tests.\nA: I'll note that in my notebook. Who can approve the extra scope?\nB: The product lead. Let's confirm with her before we start.",
+        "exampleChinese": "A: 这次变更会对发布产生什么影响？\nB: 会增加两天的工作量，还需要新增测试。\nA: 我把这些记在笔记本里。谁能批准增加的范围？\nB: 产品负责人。我们开始之前先找她确认吧。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "impact",
+      "chinese": "影响",
+      "phoneticUS": "/ˈɪmpækt/",
+      "phoneticUK": "/ˈɪmpækt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What impact would this change have on the release?”明确表达影响；单幅画面不能独立证明，不设局部框。",
+        "association": "“What impact would this change have on the release?”明确表达影响；单幅画面不能独立证明，不设局部框。",
+        "collocation": "have an impact; the impact on the release",
+        "example": "What impact would this change have on the release?",
+        "exampleChinese": "这次变更会对发布产生什么影响？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "approve",
+      "chinese": "批准",
+      "phoneticUS": "/əˈpruːv/",
+      "phoneticUK": "/əˈpruːv/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll note that in my notebook. Who can approve the extra scope?”明确表达批准；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll note that in my notebook. Who can approve the extra scope?”明确表达批准；单幅画面不能独立证明，不设局部框。",
+        "collocation": "approve the scope; approve a plan",
+        "example": "I'll note that in my notebook. Who can approve the extra scope?",
+        "exampleChinese": "我把这些记在笔记本里。谁能批准增加的范围？"
+      }
+    },
+    {
+      "x": 497,
+      "y": 572,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 730
+      },
+      "anchorPosition": {
+        "x": 497,
+        "y": 572
+      },
+      "boundingBox": {
+        "left": 334,
+        "top": 517,
+        "right": 645,
+        "bottom": 638
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "in this notebook; write in a notebook",
+        "example": "I'll note that in my notebook. Who can approve the extra scope?",
+        "exampleChinese": "我把这些记在笔记本里。谁能批准增加的范围？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer discusses the impact of a late requirement change.",
+    "chinese": "开发者讨论临时需求变更带来的影响。",
+    "source": "原创对话 · W019 处理临时需求变更",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

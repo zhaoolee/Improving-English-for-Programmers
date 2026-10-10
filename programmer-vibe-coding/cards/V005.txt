@@ -1,0 +1,119 @@
+V005  给 AI 划清操作边界
+========================================================================
+分类: 和 AI 结对入门（pairing）
+关键词: permission
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V005.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V005.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V005.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T03:08:49Z → 2026-10-09T03:10:49Z
+  提示词文件: prompts/V005_image_final.txt
+
+场景: 程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。框仅围住显示器上的完整文件夹图标；项目目录身份由对白支持，不误认成实体纸文件夹。
+
+沟通目标: 区分已批准的编辑与需要另行确认的操作。
+
+主配文（一句场景描述）:
+  英文: A programmer sets editing permissions for a project folder and asks the AI to confirm its scope.
+  中文: 程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] You can edit this project folder, but do you have permission to delete files?
+        你可以编辑这个项目文件夹，但你有权限删除文件吗？
+  [B] No. I'll keep the files and confirm the scope with you first.
+        没有。我会保留文件，并先与你确认操作范围。
+  [A] Also ask before installing packages or publishing changes.
+        安装依赖包或发布改动前也要先询问。
+  [B] Understood. I'll stay within the actions you've approved.
+        明白。我会限定在你已经批准的操作范围内。
+
+目标词 (4): permission, delete, confirm, folder
+
+------------------------------------------------------------------------
+[1/4] permission
+  词义: 权限
+  词性: noun
+  音标: UK /pəˈmɪʃən/ | US /pərˈmɪʃən/
+  搭配: have permission; permission to delete files
+  例句: You can edit this project folder, but do you have permission to delete files?
+  例句高亮: You can edit this project folder, but do you have **permission** to delete files?
+  例句中文: 你可以编辑这个项目文件夹，但你有权限删除文件吗？
+  标注模式: context
+  标注说明: 是否拥有删除权限由对白明确说明，不从图标或人物动作推断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] delete
+  词义: 删除
+  词性: verb
+  音标: UK /dɪˈliːt/ | US /dɪˈliːt/
+  搭配: delete files; delete a record
+  例句: You can edit this project folder, but do you have permission to delete files?
+  例句高亮: You can edit this project folder, but do you have permission to **delete** files?
+  例句中文: 你可以编辑这个项目文件夹，但你有权限删除文件吗？
+  标注模式: context
+  标注说明: 删除是被限制的操作，并未实际发生；不为它编造可见框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] confirm
+  词义: 确认
+  词性: verb
+  音标: UK /kənˈfɜːm/ | US /kənˈfɜːrm/
+  搭配: confirm the scope; confirm a requirement
+  例句: No. I'll keep the files and confirm the scope with you first.
+  例句高亮: No. I'll keep the files and **confirm** the scope with you first.
+  例句中文: 没有。我会保留文件，并先与你确认操作范围。
+  标注模式: context
+  标注说明: 确认范围是对白中的承诺，不从指向动作认定已经确认。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: a project folder; edit a folder
+  例句: You can edit this project folder, but do you have permission to delete files?
+  例句高亮: You can edit this project **folder**, but do you have permission to delete files?
+  例句中文: 你可以编辑这个项目文件夹，但你有权限删除文件吗？
+  标注模式: object
+  标注说明: 显示器上清楚可见的文件夹图标对应对话中的项目目录；局部框仅指向图标，权限另由对白支持。
+  坐标(normalized): [0.394, 0.368, 0.586, 0.504]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V005 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=13 | meta.approved_cards=13
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands at left of a simple desktop monitor on a small desk and points toward the monitor, while the white OpenAI knot floats at right. Show one LARGE unmistakable outlined folder icon centered on the otherwise blank monitor screen: its tab and folder outline clearly recognizable, with no letters or code. This visible folder icon represents the project directory discussed in the conversation, not a physical paper folder. Make the complete icon large enough for a local crop, with generous space around it. No other screen icons or props.

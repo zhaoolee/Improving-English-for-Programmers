@@ -1,0 +1,246 @@
+{
+  "id": "W008",
+  "category": "team",
+  "category_title": "融入团队",
+  "chapter": "融入团队",
+  "title": "预约同事的沟通时间",
+  "keyword": "available",
+  "scene": "开发者向同事预约一次简短的交流。",
+  "target_count": 4,
+  "primary_words": [
+    "available",
+    "discuss",
+    "brief",
+    "clock"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "available",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "有空的",
+      "pos": "adjective",
+      "ipa_us": "/əˈveɪləbl/",
+      "ipa_uk": "/əˈveɪləbl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Are you available for a brief chat this afternoon?",
+        "matched_form": "available",
+        "referent_region_verified": false,
+        "context": "“Are you available for a brief chat this afternoon?”明确表达有空的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Are you available for a brief chat this afternoon?",
+      "example_zh": "你今天下午有空简短聊一下吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "be available",
+        "available this afternoon"
+      ],
+      "example_en_highlighted": "Are you **available** for a brief chat this afternoon?",
+      "annotation_mode": "context",
+      "annotation_note": "“Are you available for a brief chat this afternoon?”明确表达有空的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "discuss",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "讨论",
+      "pos": "verb",
+      "ipa_us": "/dɪˈskʌs/",
+      "ipa_uk": "/dɪˈskʌs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. What would you like to discuss?",
+        "matched_form": "discuss",
+        "referent_region_verified": false,
+        "context": "“Yes. What would you like to discuss?”明确表达讨论；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Yes. What would you like to discuss?",
+      "example_zh": "有空。你想讨论什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "discuss the plan",
+        "discuss a topic"
+      ],
+      "example_en_highlighted": "Yes. What would you like to **discuss**?",
+      "annotation_mode": "context",
+      "annotation_note": "“Yes. What would you like to discuss?”明确表达讨论；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "brief",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "简短的",
+      "pos": "adjective",
+      "ipa_us": "/briːf/",
+      "ipa_uk": "/briːf/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Are you available for a brief chat this afternoon?",
+        "matched_form": "brief",
+        "referent_region_verified": false,
+        "context": "“Are you available for a brief chat this afternoon?”明确表达简短的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Are you available for a brief chat this afternoon?",
+      "example_zh": "你今天下午有空简短聊一下吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a brief chat",
+        "keep it brief"
+      ],
+      "example_en_highlighted": "Are you available for a **brief** chat this afternoon?",
+      "annotation_mode": "context",
+      "annotation_note": "“Are you available for a brief chat this afternoon?”明确表达简短的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "clock",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "时钟",
+      "pos": "noun",
+      "ipa_us": "/klɑːk/",
+      "ipa_uk": "/klɒk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "时钟（clock）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "The new API. Let's check the clock and meet in ten minutes.",
+        "matched_form": "clock",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "The new API. Let's check the clock and meet in ten minutes.",
+      "example_zh": "新的 API。我们看一下时钟，十分钟后碰面吧。",
+      "bbox_normalized": [
+        0.397,
+        0.1,
+        0.603,
+        0.304
+      ],
+      "collocations": [
+        "check the clock",
+        "on the clock"
+      ],
+      "example_en_highlighted": "The new API. Let's check the **clock** and meet in ten minutes.",
+      "annotation_mode": "object",
+      "annotation_note": "时钟（clock）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer asks a teammate for a brief conversation.",
+    "zh": "开发者向同事预约一次简短的交流。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer asks a teammate for a brief conversation.",
+    "zh": "开发者向同事预约一次简短的交流。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Are you available for a brief chat this afternoon?",
+      "zh": "你今天下午有空简短聊一下吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. What would you like to discuss?",
+      "zh": "有空。你想讨论什么？"
+    },
+    {
+      "speaker": "A",
+      "en": "The new API. Let's check the clock and meet in ten minutes.",
+      "zh": "新的 API。我们看一下时钟，十分钟后碰面吧。"
+    },
+    {
+      "speaker": "B",
+      "en": "Works for me. I'll finish this task first.",
+      "zh": "可以。我先把这项任务做完。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "预约一次简短的交流并确认时间安排。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two standing coworkers talk beside an office desk. A clearly visible large round wall clock with simple hands and NO numerals hangs above the desk, away from both heads.",
+  "status": "approved",
+  "image_path": "images/W008.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W008 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W008.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.174Z",
+    "ended_at": "2026-10-07T09:24:10.220Z",
+    "prompt_path": "prompts/W008_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W008.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整圆形时钟，包括外圈和指针，不凭指针推断预约时间。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

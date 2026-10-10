@@ -1,0 +1,15 @@
+{
+  "cardID": "W029",
+  "imagePath": "../images/W029.png",
+  "imageSHA256": "e4ce79f3bb28d3846e32fa924d5ad8898b1cb450bc725eda7dae61d60b9fc54f",
+  "imageReviewed": true,
+  "annotationsPath": "W029_annotations.json",
+  "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+  "expectedWords": [
+    "status",
+    "progress",
+    "remaining",
+    "keyboard"
+  ],
+  "receiptPath": "W029_import_receipt.json"
+}

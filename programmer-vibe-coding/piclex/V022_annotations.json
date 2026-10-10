@@ -1,0 +1,130 @@
+{
+  "filename": "V022-给 AI 一张参考图怎么说？.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "reference",
+      "chinese": "参考",
+      "phoneticUS": "/ˈrefərəns/",
+      "phoneticUK": "/ˈrefərəns/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "参考关系由对白说明，不把设备本身等同于参考原则。",
+        "association": "参考关系由对白说明，不把设备本身等同于参考原则。",
+        "collocation": "a visual reference; use as a reference",
+        "example": "A: Use the reference image on this tablet for spacing and visual rhythm.\nB: Which parts should I match, and which parts should stay original?\nA: Preserve our layout and use the reference only as guidance.\nB: I'll match the spacing without copying its content.",
+        "exampleChinese": "A: 用这台平板上的参考图来借鉴间距和视觉节奏。\nB: 哪些部分需要匹配，哪些部分应该保持原创？\nA: 保留我们的布局，只把参考图当作指导。\nB: 我会匹配间距，但不会复制它的内容。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "match",
+      "chinese": "匹配",
+      "phoneticUS": "/mætʃ/",
+      "phoneticUK": "/mætʃ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "匹配是设计要求，静态画面不能证明结果一致。",
+        "association": "匹配是设计要求，静态画面不能证明结果一致。",
+        "collocation": "match the spacing; match a style",
+        "example": "Which parts should I match, and which parts should stay original?",
+        "exampleChinese": "哪些部分需要匹配，哪些部分应该保持原创？"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "preserve",
+      "chinese": "保留",
+      "phoneticUS": "/prɪˈzɜːrv/",
+      "phoneticUK": "/prɪˈzɜːv/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "保留指修改约束，由对白明确，没有局部物体框。",
+        "association": "保留指修改约束，由对白明确，没有局部物体框。",
+        "collocation": "preserve the layout; preserve existing behavior",
+        "example": "Preserve our layout and use the reference only as guidance.",
+        "exampleChinese": "保留我们的布局，只把参考图当作指导。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 480,
+      "english": "tablet",
+      "chinese": "平板电脑",
+      "phoneticUS": "/ˈtæblət/",
+      "phoneticUK": "/ˈtæblət/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 362,
+        "top": 292,
+        "right": 618,
+        "bottom": 650
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的平板边框与屏幕是直接指代，只框设备。",
+        "association": "完整可见的平板边框与屏幕是直接指代，只框设备。",
+        "collocation": "on this tablet; a tablet screen",
+        "example": "Use the reference image on this tablet for spacing and visual rhythm.",
+        "exampleChinese": "用这台平板上的参考图来借鉴间距和视觉节奏。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer explains how an AI assistant should use a visual reference without copying it blindly.",
+    "chinese": "程序员说明 AI 应如何使用视觉参考，而不是盲目照搬。",
+    "source": "原创对话 · V022 给 AI 一张参考图怎么说？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

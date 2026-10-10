@@ -1,0 +1,123 @@
+I010  复盘一次没有达到预期的项目
+========================================================================
+分类: 项目经历与成果表达（projects）
+关键词: retrospective
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I010.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I010.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I010.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T11:46:35Z → 2026-10-09T11:49:53Z
+  提示词文件: prompts/I010_image_final.txt
+
+场景: 亚洲男候选人理性复盘未达预期的项目，美国男面试官讨论原因与改进。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 候选人说明经历、面试官专注倾听，握笔与开放手势自然，笔记本和电脑趋势图可辨；电脑靠画面右侧，主要屏幕可见。前景玻璃杯、窗侧光与桌面构成层次，氛围理性、平静；不将趋势形状当作项目失败的证据 实际可见物件：候选人面前打开的纸质笔记本；复盘结论来自原创对白。
+
+沟通目标: 讲清项目背景、个人贡献、技术挑战和可核实的结果。本卡主题：复盘一次没有达到预期的项目。
+
+主配文（一句场景描述）:
+  英文: A candidate reflects on a project whose outcome fell short of expectations.
+  中文: 候选人复盘一个结果未达预期的项目。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] Our retrospective showed that the outcome fell short of our adoption target.
+        项目复盘表明，实际结果没有达到我们设定的使用率目标。
+  [B] Which assumption turned out to be wrong?
+        哪项假设后来被证明是错的？
+  [A] We assumed users wanted every feature. My notebook records requests for a simpler workflow.
+        我们以为用户需要所有功能。笔记本里记录的却是简化工作流程的需求。
+  [B] What would you change in your next project?
+        在下一个项目中，你会作出什么改变？
+
+目标词 (4): retrospective, assumption, outcome, notebook
+
+------------------------------------------------------------------------
+[1/4] retrospective
+  词义: 复盘
+  词性: noun
+  音标: UK /ˌretrəˈspektɪv/ | US /ˌretrəˈspektɪv/
+  搭配: a project retrospective; hold a retrospective
+  例句: Our retrospective showed that the outcome fell short of our adoption target.
+  例句高亮: Our **retrospective** showed that the outcome fell short of our adoption target.
+  例句中文: 项目复盘表明，实际结果没有达到我们设定的使用率目标。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：retrospective。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] assumption
+  词义: 假设
+  词性: noun
+  音标: UK /əˈsʌmpʃən/ | US /əˈsʌmpʃən/
+  搭配: check an assumption; a wrong assumption
+  例句: Which assumption turned out to be wrong?
+  例句高亮: Which **assumption** turned out to be wrong?
+  例句中文: 哪项假设后来被证明是错的？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：assumption。本卡例句：Which assumption turned out to be wrong?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] outcome
+  词义: 结果
+  词性: noun
+  音标: UK /ˈaʊtkʌm/ | US /ˈaʊtkʌm/
+  搭配: a project outcome; a measurable outcome
+  例句: Our retrospective showed that the outcome fell short of our adoption target.
+  例句高亮: Our retrospective showed that the **outcome** fell short of our adoption target.
+  例句中文: 项目复盘表明，实际结果没有达到我们设定的使用率目标。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：outcome。本卡例句：Our retrospective showed that the outcome fell short of our adoption target.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] notebook
+  词义: 笔记本
+  词性: noun
+  音标: UK /ˈnəʊtbʊk/ | US /ˈnoʊtbʊk/
+  搭配: write in a notebook; an open notebook
+  例句: We assumed users wanted every feature. My notebook records requests for a simpler workflow.
+  例句高亮: We assumed users wanted every feature. My **notebook** records requests for a simpler workflow.
+  例句中文: 我们以为用户需要所有功能。笔记本里记录的却是简化工作流程的需求。
+  标注模式: object
+  标注说明: 候选人面前打开的纸质笔记本；复盘结论来自原创对白。
+  坐标(normalized): [0.13, 0.681, 0.635, 0.76]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I010 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.
+Interviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.
+Exactly two people at a project-review interview. Arjun, in a stone-gray shirt, reflects on a project that fell short while Marcus, in a navy overshirt, asks a considered follow-up. A laptop showing one subdued unlabeled flat trend sits next to an open notebook. Arjun looks thoughtful but composed, one hand on the notebook edge; Marcus maintains respectful eye contact. Use a candid 50mm medium two-person frame from a table corner, with natural afternoon window light and a tidy warm-gray office. The mood is reflective and constructive. No dejected head-in-hands pose, red disaster screens, broken equipment or visual flashback of a failed project.

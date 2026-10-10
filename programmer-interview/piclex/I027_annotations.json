@@ -1,0 +1,130 @@
+{
+  "filename": "I027.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "refactor",
+      "chinese": "重构",
+      "phoneticUS": "/ˌriːˈfæktər/",
+      "phoneticUK": "/ˌriːˈfæktə/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：refactor。本卡例句：I'd refactor this long function to improve readability.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：refactor。本卡例句：I'd refactor this long function to improve readability.",
+        "collocation": "refactor a function; refactor existing code",
+        "example": "A: I'd refactor this long function to improve readability.\nB: How would you preserve its behavior?\nA: I'd add characterization tests first, then make small changes on the laptop.\nB: Which change would you make first, and why?",
+        "exampleChinese": "A: 我会重构这个长函数，提高可读性。\nB: 你会如何保持它现有的行为？\nA: 我会先添加记录现有行为的测试，再在笔记本电脑上作小幅修改。\nB: 你会先改哪一处？为什么？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "readability",
+      "chinese": "可读性",
+      "phoneticUS": "/ˌriːdəˈbɪləti/",
+      "phoneticUK": "/ˌriːdəˈbɪləti/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：readability。本卡例句：I'd refactor this long function to improve readability.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：readability。本卡例句：I'd refactor this long function to improve readability.",
+        "collocation": "code readability; improve readability",
+        "example": "I'd refactor this long function to improve readability.",
+        "exampleChinese": "我会重构这个长函数，提高可读性。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "behavior",
+      "chinese": "行为",
+      "phoneticUS": "/bɪˈheɪvjər/",
+      "phoneticUK": "/bɪˈheɪvjə/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：behavior。本卡例句：How would you preserve its behavior?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：behavior。本卡例句：How would you preserve its behavior?",
+        "collocation": "preserve the behavior; expected behavior",
+        "example": "How would you preserve its behavior?",
+        "exampleChinese": "你会如何保持它现有的行为？"
+      }
+    },
+    {
+      "x": 632,
+      "y": 717,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 760,
+        "y": 910
+      },
+      "anchorPosition": {
+        "x": 632,
+        "y": 717
+      },
+      "boundingBox": {
+        "left": 308,
+        "top": 520,
+        "right": 928,
+        "bottom": 772
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "两人面前打开的笔记本电脑，屏幕背面和键盘部分完整可辨。",
+        "association": "两人面前打开的笔记本电脑，屏幕背面和键盘部分完整可辨。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "I'd add characterization tests first, then make small changes on the laptop.",
+        "exampleChinese": "我会先添加记录现有行为的测试，再在笔记本电脑上作小幅修改。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate reviews unfamiliar code and explains a possible improvement.",
+    "chinese": "候选人阅读陌生代码，并说明一种可能的改进。",
+    "source": "原创配文 · I027 阅读陌生代码并提出改进",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

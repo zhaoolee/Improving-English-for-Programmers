@@ -1,0 +1,123 @@
+I002  说明自己的技术栈与经验
+========================================================================
+分类: 面试开场与自我介绍（introduction）
+关键词: stack
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I002.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I002.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I002.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-09T11:20:22Z → 2026-10-09T11:24:02Z
+  提示词文件: prompts/I002_image_final.txt
+
+场景: 欧洲男候选人结合电脑上的简洁项目示意介绍技术经验，美国男面试官追问。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 两位男性与技术经验面试匹配，脸部和可见手指自然；电脑完整，屏幕仅保留无字框和连线，首版小字已移除。窗光、玻璃分区和前景构成层次，主体可辨 实际可见物件：候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。
+
+沟通目标: 简洁介绍背景、技术经验与求职动机，解释与岗位的匹配。本卡主题：说明自己的技术栈与经验。
+
+主配文（一句场景描述）:
+  英文: A candidate discusses his technical stack beside an open laptop.
+  中文: 候选人坐在打开的笔记本电脑旁，介绍自己的技术栈。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] My main stack is Python and PostgreSQL. I'm proficient in building web APIs.
+        我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。
+  [B] Have you used them in production?
+        你在生产环境中使用过它们吗？
+  [A] Yes. On this laptop, I can show the service I maintained for our customers.
+        用过。我可以在这台笔记本电脑上展示我为客户维护的服务。
+  [B] What did you learn from operating it?
+        你从运营这个服务的经历中学到了什么？
+
+目标词 (4): stack, proficient, production, laptop
+
+------------------------------------------------------------------------
+[1/4] stack
+  词义: 技术栈
+  词性: noun
+  音标: UK /stæk/ | US /stæk/
+  搭配: a technical stack; choose a stack
+  例句: My main stack is Python and PostgreSQL. I'm proficient in building web APIs.
+  例句高亮: My main **stack** is Python and PostgreSQL. I'm proficient in building web APIs.
+  例句中文: 我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：stack。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] proficient
+  词义: 熟练的
+  词性: adjective
+  音标: UK /prəˈfɪʃənt/ | US /prəˈfɪʃənt/
+  搭配: proficient in Python; proficient in building APIs
+  例句: My main stack is Python and PostgreSQL. I'm proficient in building web APIs.
+  例句高亮: My main stack is Python and PostgreSQL. I'm **proficient** in building web APIs.
+  例句中文: 我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：proficient。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] production
+  词义: 生产环境
+  词性: noun
+  音标: UK /prəˈdʌkʃən/ | US /prəˈdʌkʃən/
+  搭配: in production; a production service
+  例句: Have you used them in production?
+  例句高亮: Have you used them in **production**?
+  例句中文: 你在生产环境中使用过它们吗？
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：production。本卡例句：Have you used them in production?
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: an open laptop; on my laptop
+  例句: Yes. On this laptop, I can show the service I maintained for our customers.
+  例句高亮: Yes. On this **laptop**, I can show the service I maintained for our customers.
+  例句中文: 用过。我可以在这台笔记本电脑上展示我为客户维护的服务。
+  标注模式: object
+  标注说明: 候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。
+  坐标(normalized): [0.115, 0.43, 0.555, 0.67]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I002 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.
+Interviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.
+Exactly two people: Lukas, in a pale-blue shirt, introduces his development experience to Marcus, in a charcoal blazer, during an interview. Lukas turns a laptop toward Marcus and gestures once toward a sparse unlabeled workflow of boxes on the screen; he continues looking at Marcus rather than selling to the camera. Marcus leans forward slightly with attentive interest. One thin portfolio folder lies beside the laptop. A diagonal 35mm medium environmental view shows the bright glass meeting room, both people and the complete laptop. Soft warm-white daylight, natural shirt folds, professional and matter-of-fact mood; no floating technology logos.

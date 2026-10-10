@@ -1,0 +1,119 @@
+W040  记录最终技术决定
+========================================================================
+分类: 技术方案讨论（design）
+关键词: decision
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W040.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W040.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W040.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:30:40.011Z
+  提示词文件: prompts/W040_image_final.txt
+
+场景: 团队记录最终技术决定及其理由。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：前景独立的完整笔，笔尖、笔身与笔帽可见。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 记录最终技术决定及其理由。
+
+主配文（一句场景描述）:
+  英文: A team records its final technical decision and the reasoning behind it.
+  中文: 团队记录最终技术决定及其理由。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Have we reached a decision on the storage layer?
+        我们对存储层做出决定了吗？
+  [B] Yes. We'll keep the existing database for this release.
+        是的。这次发布继续使用现有数据库。
+  [A] I'll use this pen to record the rationale as well.
+        我也会用这支笔记录理由。
+  [B] Good. Note the migration cost and the options we considered.
+        好。记下迁移成本和我们考虑过的方案。
+
+目标词 (4): decision, rationale, record, pen
+
+------------------------------------------------------------------------
+[1/4] decision
+  词义: 决定
+  词性: noun
+  音标: UK /dɪˈsɪʒn/ | US /dɪˈsɪʒn/
+  搭配: reach a decision; make a decision
+  例句: Have we reached a decision on the storage layer?
+  例句高亮: Have we reached a **decision** on the storage layer?
+  例句中文: 我们对存储层做出决定了吗？
+  标注模式: context
+  标注说明: “Have we reached a decision on the storage layer?”明确表达决定；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] rationale
+  词义: 理由
+  词性: noun
+  音标: UK /ˌræʃəˈnɑːl/ | US /ˌræʃəˈnæl/
+  搭配: the rationale for; record the rationale
+  例句: I'll use this pen to record the rationale as well.
+  例句高亮: I'll use this pen to record the **rationale** as well.
+  例句中文: 我也会用这支笔记录理由。
+  标注模式: context
+  标注说明: “I'll use this pen to record the rationale as well.”明确表达理由；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] record
+  词义: 记录
+  词性: verb
+  音标: UK /rɪˈkɔːd/ | US /rɪˈkɔːrd/
+  搭配: record the decision; record the details
+  例句: I'll use this pen to record the rationale as well.
+  例句高亮: I'll use this pen to **record** the rationale as well.
+  例句中文: 我也会用这支笔记录理由。
+  标注模式: context
+  标注说明: “I'll use this pen to record the rationale as well.”明确表达记录；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] pen
+  词义: 笔
+  词性: noun
+  音标: UK /pen/ | US /pen/
+  搭配: use a pen; with a pen
+  例句: I'll use this pen to record the rationale as well.
+  例句高亮: I'll use this **pen** to record the rationale as well.
+  例句中文: 我也会用这支笔记录理由。
+  标注模式: object
+  标注说明: 笔（pen）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.362, 0.748, 0.675, 0.841]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W040 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers sit at a table. One holds a pen above a paper sheet, explaining to the other. A second spare pen lies horizontally alone in the foreground, large and fully visible for annotation. No writing.

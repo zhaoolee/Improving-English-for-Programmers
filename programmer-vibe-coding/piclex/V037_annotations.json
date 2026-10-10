@@ -1,0 +1,130 @@
+{
+  "filename": "V037-让每次提交都能说清楚.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "commit",
+      "chinese": "提交",
+      "phoneticUS": "/ˈkɑːmɪt/",
+      "phoneticUK": "/ˈkɒmɪt/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是版本控制提交，不把文件夹或放置动作当作提交完成证据。",
+        "association": "这里是版本控制提交，不把文件夹或放置动作当作提交完成证据。",
+        "collocation": "an atomic commit; a separate commit",
+        "example": "A: Keep this commit atomic and give it a clear message.\nB: Should I include the unrelated formatting changes?\nA: No. Leave those files in this folder for a separate commit.\nB: I'll commit only the behavior change and summarize why.",
+        "exampleChinese": "A: 让这次提交保持原子化，并写一条清楚的提交信息。\nB: 要把无关的格式修改也包含进去吗？\nA: 不要。把那些文件留在这个文件夹里，另做一次提交。\nB: 我只提交行为改动，并概括修改原因。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "message",
+      "chinese": "信息",
+      "phoneticUS": "/ˈmesɪdʒ/",
+      "phoneticUK": "/ˈmesɪdʒ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "提交信息应为文字，但底图禁止可读文字，因此只由对白教学。",
+        "association": "提交信息应为文字，但底图禁止可读文字，因此只由对白教学。",
+        "collocation": "a commit message; a clear message",
+        "example": "Keep this commit atomic and give it a clear message.",
+        "exampleChinese": "让这次提交保持原子化，并写一条清楚的提交信息。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "atomic",
+      "chinese": "原子化的",
+      "phoneticUS": "/əˈtɑːmɪk/",
+      "phoneticUK": "/əˈtɒmɪk/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "原子化指一次提交只含一个意图，与物理原子或文件夹大小无关。",
+        "association": "原子化指一次提交只含一个意图，与物理原子或文件夹大小无关。",
+        "collocation": "an atomic commit; keep a change atomic",
+        "example": "Keep this commit atomic and give it a clear message.",
+        "exampleChinese": "让这次提交保持原子化，并写一条清楚的提交信息。"
+      }
+    },
+    {
+      "x": 490,
+      "y": 520,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 490,
+        "y": 520
+      },
+      "boundingBox": {
+        "left": 361,
+        "top": 411,
+        "right": 617,
+        "bottom": 602
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面上完整打开的实体文件夹及其标签页是直接指代，只框文件夹。",
+        "association": "桌面上完整打开的实体文件夹及其标签页是直接指代，只框文件夹。",
+        "collocation": "in this folder; a file folder",
+        "example": "No. Leave those files in this folder for a separate commit.",
+        "exampleChinese": "不要。把那些文件留在这个文件夹里，另做一次提交。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to keep a commit atomic and its message clear.",
+    "chinese": "程序员让 AI 保持提交原子化，并写清提交信息。",
+    "source": "原创对话 · V037 让每次提交都能说清楚",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

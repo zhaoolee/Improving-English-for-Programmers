@@ -1,0 +1,130 @@
+{
+  "filename": "W010-向交接同事确认资料.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "handover",
+      "chinese": "交接",
+      "phoneticUS": "/ˈhændoʊvər/",
+      "phoneticUK": "/ˈhændəʊvə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is the handover checklist complete?”明确表达交接；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is the handover checklist complete?”明确表达交接；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the handover checklist; a smooth handover",
+        "example": "A: Is the handover checklist complete?\nB: Yes. You can locate the setup notes in the shared drive.\nA: Does this folder contain the printed diagrams?\nB: It does. Let's review the diagrams together before I leave.",
+        "exampleChinese": "A: 交接清单完整了吗？\nB: 完整了。你可以在共享云盘中找到配置笔记。\nA: 这个文件夹里装的是打印出来的图吗？\nB: 是的。离开之前，我们一起过一遍这些图吧。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "locate",
+      "chinese": "找到",
+      "phoneticUS": "/ˈloʊkeɪt/",
+      "phoneticUK": "/ləʊˈkeɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Yes. You can locate the setup notes in the shared drive.”明确表达找到；单幅画面不能独立证明，不设局部框。",
+        "association": "“Yes. You can locate the setup notes in the shared drive.”明确表达找到；单幅画面不能独立证明，不设局部框。",
+        "collocation": "locate the notes; locate a file",
+        "example": "Yes. You can locate the setup notes in the shared drive.",
+        "exampleChinese": "完整了。你可以在共享云盘中找到配置笔记。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "complete",
+      "chinese": "完整的",
+      "phoneticUS": "/kəmˈpliːt/",
+      "phoneticUK": "/kəmˈpliːt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is the handover checklist complete?”明确表达完整的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is the handover checklist complete?”明确表达完整的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a complete checklist; a complete list",
+        "example": "Is the handover checklist complete?",
+        "exampleChinese": "交接清单完整了吗？"
+      }
+    },
+    {
+      "x": 505,
+      "y": 383,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 220
+      },
+      "anchorPosition": {
+        "x": 505,
+        "y": 383
+      },
+      "boundingBox": {
+        "left": 367,
+        "top": 297,
+        "right": 595,
+        "bottom": 467
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "文件夹（folder）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "文件夹（folder）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "in this folder; open a folder",
+        "example": "Does this folder contain the printed diagrams?",
+        "exampleChinese": "这个文件夹里装的是打印出来的图吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two teammates confirm the documents needed for a handover.",
+    "chinese": "两位同事确认工作交接所需的资料。",
+    "source": "原创对话 · W010 向交接同事确认资料",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

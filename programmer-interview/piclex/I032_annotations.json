@@ -1,0 +1,130 @@
+{
+  "filename": "I032.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 900,
+      "english": "responsibility",
+      "chinese": "责任",
+      "phoneticUS": "/rɪˌspɑːnsəˈbɪləti/",
+      "phoneticUK": "/rɪˌspɒnsəˈbɪləti/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：responsibility。本卡例句：I took responsibility for a failing integration and had to coordinate the fix.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：responsibility。本卡例句：I took responsibility for a failing integration and had to coordinate the fix.",
+        "collocation": "take responsibility for; share responsibility",
+        "example": "A: I took responsibility for a failing integration and had to coordinate the fix.\nB: What initiative did you take?\nA: I brought both teams together and tracked actions in my notebook. We restored the integration that day.\nB: How did you keep everyone informed?",
+        "exampleChinese": "A: 我承担了处理集成故障的责任，并需要协调修复工作。\nB: 你主动采取了什么行动？\nA: 我召集了两边的团队，并在笔记本里跟踪行动项。当天我们恢复了集成。\nB: 你如何让每个人及时了解情况？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "initiative",
+      "chinese": "主动行动",
+      "phoneticUS": "/ɪˈnɪʃətɪv/",
+      "phoneticUK": "/ɪˈnɪʃətɪv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：initiative。本卡例句：What initiative did you take?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：initiative。本卡例句：What initiative did you take?",
+        "collocation": "take initiative; show initiative",
+        "example": "What initiative did you take?",
+        "exampleChinese": "你主动采取了什么行动？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "coordinate",
+      "chinese": "协调",
+      "phoneticUS": "/koʊˈɔːrdɪneɪt/",
+      "phoneticUK": "/kəʊˈɔːdɪneɪt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 41
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：coordinate。本卡例句：I took responsibility for a failing integration and had to coordinate the fix.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：coordinate。本卡例句：I took responsibility for a failing integration and had to coordinate the fix.",
+        "collocation": "coordinate a fix; coordinate with another team",
+        "example": "I took responsibility for a failing integration and had to coordinate the fix.",
+        "exampleChinese": "我承担了处理集成故障的责任，并需要协调修复工作。"
+      }
+    },
+    {
+      "x": 405,
+      "y": 694,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 880
+      },
+      "anchorPosition": {
+        "x": 405,
+        "y": 694
+      },
+      "boundingBox": {
+        "left": 310,
+        "top": 671,
+        "right": 505,
+        "bottom": 715
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人手旁闭合的纸质笔记本；具体行动记录为对白设定。",
+        "association": "候选人手旁闭合的纸质笔记本；具体行动记录为对白设定。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "I brought both teams together and tracked actions in my notebook. We restored the integration that day.",
+        "exampleChinese": "我召集了两边的团队，并在笔记本里跟踪行动项。当天我们恢复了集成。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate describes a time he took responsibility for resolving a problem.",
+    "chinese": "候选人讲述一次主动承担解决问题责任的经历。",
+    "source": "原创配文 · I032 讲一次主动承担责任的经历",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

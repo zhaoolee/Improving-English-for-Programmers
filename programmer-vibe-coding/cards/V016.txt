@@ -1,0 +1,119 @@
+V016  一次写完，为什么跑不起来？
+========================================================================
+分类: 拆任务、写功能（implementation）
+关键词: task
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-06）
+图片状态: generated
+图片路径: images/V016.png
+复核日期: 2026-10-06
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V016.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V016.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-06T06:57:40.149Z → 2026-10-06T06:59:07.208Z
+  提示词文件: prompts/V016_image_final.txt
+
+场景: 程序员与 AI 用白板把大任务拆成小步骤。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：黑底白线单幅场景，一个火柴人与一个可辨认 OpenAI 六环结 Logo；命名道具清楚可见，底图无对白文字。逐词框仅标注真实指代对象；抽象过程以四话轮对白作证据。
+
+沟通目标: 先制定小计划，再逐项实现与验证。
+
+主配文（一句场景描述）:
+  英文: A programmer and an AI assistant break a large task into small steps on a board.
+  中文: 程序员与 AI 用白板把大任务拆成小步骤。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Can you finish every task in one pass?
+        你能一次完成所有任务吗？
+  [B] Let's put a small plan on the board first.
+        我们先把一个小计划放到白板上。
+  [A] What is the first step?
+        第一步是什么？
+  [B] Implement one feature, verify it, and then continue.
+        先实现一个功能，验证后再继续。
+
+目标词 (4): task, plan, step, board
+
+------------------------------------------------------------------------
+[1/4] task
+  词义: 任务
+  词性: noun
+  音标: UK /tɑːsk/ | US /tæsk/
+  搭配: a coding task; split a task
+  例句: Can you finish every task in one pass?
+  例句高亮: Can you finish every **task** in one pass?
+  例句中文: 你能一次完成所有任务吗？
+  标注模式: context
+  标注说明: 任务的工作含义由对白支持，空白卡片不是可读任务。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] plan
+  词义: 计划
+  词性: noun
+  音标: UK /plæn/ | US /plæn/
+  搭配: make a plan; an implementation plan
+  例句: Let's put a small plan on the board first.
+  例句高亮: Let's put a small **plan** on the board first.
+  例句中文: 我们先把一个小计划放到白板上。
+  标注模式: context
+  标注说明: 计划内容只由对白解释，箭头不证明真实计划已完成。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] step
+  词义: 步骤
+  词性: noun
+  音标: UK /step/ | US /step/
+  搭配: the first step; one step at a time
+  例句: What is the first step?
+  例句高亮: What is the first **step**?
+  例句中文: 第一步是什么？
+  标注模式: context
+  标注说明: 步骤顺序由对白表达，不虚构局部指代。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] board
+  词义: 白板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: on the board; a planning board
+  例句: Let's put a small plan on the board first.
+  例句高亮: Let's put a small plan on the **board** first.
+  例句中文: 我们先把一个小计划放到白板上。
+  标注模式: object
+  标注说明: 场景中完整的白板本体可独立定位。
+  坐标(normalized): [0.27, 0.282, 0.841, 0.772]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V016 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=8 | meta.approved_cards=8
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer left points to a large freestanding rectangular planning whiteboard at center-right. The whiteboard is fully visible with its frame and stand, containing three empty rounded rectangular task cards connected by short arrows but no text or numbers. The OpenAI logo floats above and to the right of the board without covering it.

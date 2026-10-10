@@ -1,0 +1,130 @@
+{
+  "filename": "V035-把未验证的部分讲清楚.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "unverified",
+      "chinese": "未经验证的",
+      "phoneticUS": "/ʌnˈverɪfaɪd/",
+      "phoneticUK": "/ʌnˈverɪfaɪd/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "是否验证取决于实际检查证据，不能从报告版式判断。",
+        "association": "是否验证取决于实际检查证据，不能从报告版式判断。",
+        "collocation": "remain unverified; an unverified result",
+        "example": "A: What remains unverified in this report?\nB: The mobile path is a limitation because I only checked desktop.\nA: Mark that clearly and say what someone must confirm.\nB: I'll separate confirmed results from open questions in the report.",
+        "exampleChinese": "A: 这份报告里还有哪些内容未经验证？\nB: 移动端路径仍是限制，因为我只检查了桌面端。\nA: 把这一点标清楚，并说明还需要确认什么。\nB: 我会在报告中把已确认结果与待解问题分开。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "limitation",
+      "chinese": "限制",
+      "phoneticUS": "/ˌlɪmɪˈteɪʃən/",
+      "phoneticUK": "/ˌlɪmɪˈteɪʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "限制来自测试范围，静态文档没有具体范围文字。",
+        "association": "限制来自测试范围，静态文档没有具体范围文字。",
+        "collocation": "state a limitation; a testing limitation",
+        "example": "The mobile path is a limitation because I only checked desktop.",
+        "exampleChinese": "移动端路径仍是限制，因为我只检查了桌面端。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "confirm",
+      "chinese": "确认",
+      "phoneticUS": "/kənˈfɜːrm/",
+      "phoneticUK": "/kənˈfɜːm/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "确认是后续验证动作，画面不能证明已完成。",
+        "association": "确认是后续验证动作，画面不能证明已完成。",
+        "collocation": "confirm a result; confirm the behavior",
+        "example": "Mark that clearly and say what someone must confirm.",
+        "exampleChinese": "把这一点标清楚，并说明还需要确认什么。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 450,
+      "english": "report",
+      "chinese": "报告",
+      "phoneticUS": "/rɪˈpɔːrt/",
+      "phoneticUK": "/rɪˈpɔːt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 450
+      },
+      "boundingBox": {
+        "left": 367,
+        "top": 239,
+        "right": 628,
+        "bottom": 642
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "手中完整可见、分为两段的纸质报告是直接指代，只框整张纸。",
+        "association": "手中完整可见、分为两段的纸质报告是直接指代，只框整张纸。",
+        "collocation": "in this report; a test report",
+        "example": "What remains unverified in this report?",
+        "exampleChinese": "这份报告里还有哪些内容未经验证？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to separate verified results from limitations in a report.",
+    "chinese": "程序员让 AI 在报告中区分已验证结果与限制。",
+    "source": "原创对话 · V035 把未验证的部分讲清楚",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

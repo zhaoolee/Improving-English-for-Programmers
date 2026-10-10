@@ -1,0 +1,119 @@
+V024  把空状态和错误状态补齐
+========================================================================
+分类: 界面与交互打磨（interface）
+关键词: state
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V024.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V024.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V024.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V024_image_final.txt
+
+场景: 用参考、反馈与异常状态提高可用性
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。中央双区域空白面板边界完整且无遮挡，不含任何可读错误或空状态文案；状态含义由对白说明。
+
+沟通目标: 补齐异常状态，并为用户提供明确的下一步。
+
+主配文（一句场景描述）:
+  英文: A programmer and an AI assistant design distinct empty and error states for a results panel.
+  中文: 程序员与 AI 为结果面板设计不同的空状态和错误状态。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] We handled success. What should the empty state explain?
+        成功状态已经处理了，空状态应该说明什么？
+  [B] It should say that no results were found and offer a next step.
+        它应该说明没有找到结果，并提供下一步操作。
+  [A] This panel also needs an error state when the request fails.
+        请求失败时，这个面板还需要错误状态。
+  [B] I'll design both states and keep their actions distinct.
+        我会设计这两种状态，并让它们的操作清楚区分。
+
+目标词 (4): state, empty, error, panel
+
+------------------------------------------------------------------------
+[1/4] state
+  词义: 状态
+  词性: noun
+  音标: UK /steɪt/ | US /steɪt/
+  搭配: an empty state; an error state
+  例句: We handled success. What should the empty state explain?
+  例句高亮: We handled success. What should the empty **state** explain?
+  例句中文: 成功状态已经处理了，空状态应该说明什么？
+  标注模式: context
+  标注说明: 状态是界面条件，空白分区只提供设计语境，不证明具体状态。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] empty
+  词义: 空的
+  词性: adjective
+  音标: UK /ˈempti/ | US /ˈempti/
+  搭配: an empty state; empty results
+  例句: We handled success. What should the empty state explain?
+  例句高亮: We handled success. What should the **empty** state explain?
+  例句中文: 成功状态已经处理了，空状态应该说明什么？
+  标注模式: context
+  标注说明: 这里特指没有结果的界面状态，不把画面留白本身作为语义证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] error
+  词义: 错误
+  词性: noun
+  音标: UK /ˈerə/ | US /ˈerər/
+  搭配: an error state; handle an error
+  例句: This panel also needs an error state when the request fails.
+  例句高亮: This panel also needs an **error** state when the request fails.
+  例句中文: 请求失败时，这个面板还需要错误状态。
+  标注模式: context
+  标注说明: 错误来自请求失败的对白设定，画面不显示可读报错。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] panel
+  词义: 面板
+  词性: noun
+  音标: UK /ˈpænəl/ | US /ˈpænəl/
+  搭配: a results panel; this panel
+  例句: This panel also needs an error state when the request fails.
+  例句高亮: This **panel** also needs an error state when the request fails.
+  例句中文: 请求失败时，这个面板还需要错误状态。
+  标注模式: object
+  标注说明: 中央完整矩形界面面板是直接指代，只框其外轮廓。
+  坐标(normalized): [0.317, 0.233, 0.662, 0.722]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V024 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left and points toward one large upright rectangular interface panel at center. The panel is a complete white outline with a blank black interior divided into two empty unlabeled horizontal areas by one plain line. No words, icons, warning symbols or buttons. The floating white OpenAI knot is at the right. Keep the panel unobstructed and do not add another screen.

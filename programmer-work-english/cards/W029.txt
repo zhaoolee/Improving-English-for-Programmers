@@ -1,0 +1,119 @@
+W029  更新任务状态
+========================================================================
+分类: 计划与进度（planning）
+关键词: status
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W029.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W029.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W029.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:28:46.467Z
+  提示词文件: prompts/W029_image_final.txt
+
+场景: 开发者向同事更新任务进展。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：桌前完整键盘，手部覆盖少量键帽，整体形状可辨。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 更新任务状态，说明进展与剩余工作。
+
+主配文（一句场景描述）:
+  英文: A developer updates a teammate on task progress.
+  中文: 开发者向同事更新任务进展。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Could you update the task status before our meeting?
+        开会之前，你能更新一下任务状态吗？
+  [B] Sure. I've made good progress on the API tests.
+        当然。API 测试已经取得不错的进展。
+  [A] What's the remaining work? I'll enter it using this keyboard.
+        还有哪些工作剩下？我用这个键盘录入。
+  [B] Just the timeout case. I expect to finish it this afternoon.
+        只剩超时的情况。我预计今天下午能完成。
+
+目标词 (4): status, progress, remaining, keyboard
+
+------------------------------------------------------------------------
+[1/4] status
+  词义: 状态
+  词性: noun
+  音标: UK /ˈsteɪtəs/ | US /ˈsteɪtəs/
+  搭配: update the status; the status of a task
+  例句: Could you update the task status before our meeting?
+  例句高亮: Could you update the task **status** before our meeting?
+  例句中文: 开会之前，你能更新一下任务状态吗？
+  标注模式: context
+  标注说明: “Could you update the task status before our meeting?”明确表达状态；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] progress
+  词义: 进展
+  词性: noun
+  音标: UK /ˈprəʊɡres/ | US /ˈprɑːɡres/
+  搭配: make progress; good progress
+  例句: Sure. I've made good progress on the API tests.
+  例句高亮: Sure. I've made good **progress** on the API tests.
+  例句中文: 当然。API 测试已经取得不错的进展。
+  标注模式: context
+  标注说明: “Sure. I've made good progress on the API tests.”明确表达进展；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] remaining
+  词义: 剩余的
+  词性: adjective
+  音标: UK /rɪˈmeɪnɪŋ/ | US /rɪˈmeɪnɪŋ/
+  搭配: the remaining work; remaining tasks
+  例句: What's the remaining work? I'll enter it using this keyboard.
+  例句高亮: What's the **remaining** work? I'll enter it using this keyboard.
+  例句中文: 还有哪些工作剩下？我用这个键盘录入。
+  标注模式: context
+  标注说明: “What's the remaining work? I'll enter it using this keyboard.”明确表达剩余的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] keyboard
+  词义: 键盘
+  词性: noun
+  音标: UK /ˈkiːbɔːd/ | US /ˈkiːbɔːrd/
+  搭配: on this keyboard; a computer keyboard
+  例句: What's the remaining work? I'll enter it using this keyboard.
+  例句高亮: What's the remaining work? I'll enter it using this **keyboard**.
+  例句中文: 还有哪些工作剩下？我用这个键盘录入。
+  标注模式: object
+  标注说明: 键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.278, 0.496, 0.557, 0.574]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W029 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a desk, one typing at a separate fully visible keyboard in the foreground and looking toward the listening colleague. A monitor has abstract rectangular task rows, no text.

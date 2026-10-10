@@ -1,0 +1,130 @@
+{
+  "filename": "V019-别让小需求变成全项目重写.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "scope",
+      "chinese": "范围",
+      "phoneticUS": "/skoʊp/",
+      "phoneticUK": "/skəʊp/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指需求改动范围，与物件大小无关，没有局部可见指代。",
+        "association": "这里指需求改动范围，与物件大小无关，没有局部可见指代。",
+        "collocation": "keep the scope small; the scope of a change",
+        "example": "A: The request is to rename a button. Keep the scope small.\nB: Should I refactor the whole component while I'm here?\nA: No. Leave unrelated code alone. I'll review the diff on this laptop.\nB: I'll change only the label and show you the diff.",
+        "exampleChinese": "A: 需求是改一个按钮的名称，保持范围小。\nB: 要不要顺便重构整个组件？\nA: 不要。别动无关代码，我会在这台笔记本电脑上审查差异。\nB: 我只会修改按钮文字，再把差异给你看。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "refactor",
+      "chinese": "重构",
+      "phoneticUS": "/ˌriːˈfæktər/",
+      "phoneticUK": "/ˌriːˈfæktə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "代码重构由对白提出，空白屏幕不提供可定位代码。",
+        "association": "代码重构由对白提出，空白屏幕不提供可定位代码。",
+        "collocation": "refactor a component; refactor the code",
+        "example": "Should I refactor the whole component while I'm here?",
+        "exampleChinese": "要不要顺便重构整个组件？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "unrelated",
+      "chinese": "无关的",
+      "phoneticUS": "/ˌʌnrɪˈleɪtɪd/",
+      "phoneticUK": "/ˌʌnrɪˈleɪtɪd/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "相关性由需求决定，不能从静态物体判断。",
+        "association": "相关性由需求决定，不能从静态物体判断。",
+        "collocation": "unrelated code; unrelated changes",
+        "example": "No. Leave unrelated code alone. I'll review the diff on this laptop.",
+        "exampleChinese": "不要。别动无关代码，我会在这台笔记本电脑上审查差异。"
+      }
+    },
+    {
+      "x": 531,
+      "y": 475,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 531,
+        "y": 475
+      },
+      "boundingBox": {
+        "left": 389,
+        "top": 427,
+        "right": 640,
+        "bottom": 574
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的笔记本电脑屏幕、转轴与键盘底座是直接指代。",
+        "association": "完整可见的笔记本电脑屏幕、转轴与键盘底座是直接指代。",
+        "collocation": "on this laptop; a laptop screen",
+        "example": "No. Leave unrelated code alone. I'll review the diff on this laptop.",
+        "exampleChinese": "不要。别动无关代码，我会在这台笔记本电脑上审查差异。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer keeps a small request from turning into an unrelated refactor.",
+    "chinese": "程序员控制小需求的范围，避免扩展成无关重构。",
+    "source": "原创对话 · V019 别让小需求变成全项目重写",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

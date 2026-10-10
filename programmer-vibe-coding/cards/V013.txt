@@ -1,0 +1,119 @@
+V013  把项目规矩写进 AGENTS.md
+========================================================================
+分类: 让 AI 理解项目（context）
+关键词: instruction
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V013.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V013.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V013.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T05:14:22Z → 2026-10-09T05:16:12Z
+  提示词文件: prompts/V013_image_final.txt
+
+场景: 程序员让 AI 在编辑前读取 AGENTS.md 中的项目规则。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。硬壳书页、书脊和封面完整可见，无可读规则；纸页为纯黑白平面。
+
+沟通目标: 把约定写进规则文件，遇到冲突先询问。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to read the project rules in AGENTS.md before editing.
+  中文: 程序员让 AI 在编辑前读取 AGENTS.md 中的项目规则。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Read each instruction in AGENTS.md before you edit. The rules are also in this book.
+        编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。
+  [B] Should I follow the existing naming convention?
+        我应该遵循已有的命名约定吗？
+  [A] Yes. Follow the project rules, and ask me if two instructions conflict.
+        是的。遵循项目规则，如果两条指令冲突就问我。
+  [B] Understood. I'll check the rules before proposing any changes.
+        明白了。我会先检查规则，再提出改动建议。
+
+目标词 (4): instruction, convention, follow, book
+
+------------------------------------------------------------------------
+[1/4] instruction
+  词义: 指令
+  词性: noun
+  音标: UK /ɪnˈstrʌkʃən/ | US /ɪnˈstrʌkʃən/
+  搭配: read an instruction; follow instructions
+  例句: Read each instruction in AGENTS.md before you edit. The rules are also in this book.
+  例句高亮: Read each **instruction** in AGENTS.md before you edit. The rules are also in this book.
+  例句中文: 编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。
+  标注模式: context
+  标注说明: 指令内容由对白提供，不能从空白书页读取项目规则。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] convention
+  词义: 约定
+  词性: noun
+  音标: UK /kənˈvenʃən/ | US /kənˈvenʃən/
+  搭配: a naming convention; follow a convention
+  例句: Should I follow the existing naming convention?
+  例句高亮: Should I follow the existing naming **convention**?
+  例句中文: 我应该遵循已有的命名约定吗？
+  标注模式: context
+  标注说明: 命名约定是项目规则，没有可见局部指代。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] follow
+  词义: 遵循
+  词性: verb
+  音标: UK /ˈfɒləʊ/ | US /ˈfɑːloʊ/
+  搭配: follow the rules; follow a convention
+  例句: Yes. Follow the project rules, and ask me if two instructions conflict.
+  例句高亮: Yes. **Follow** the project rules, and ask me if two instructions conflict.
+  例句中文: 是的。遵循项目规则，如果两条指令冲突就问我。
+  标注模式: context
+  标注说明: 这里是遵循规则的抽象含义，不框选动作或脚步。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] book
+  词义: 书
+  词性: noun
+  音标: UK /bʊk/ | US /bʊk/
+  搭配: in this book; a reference book
+  例句: Read each instruction in AGENTS.md before you edit. The rules are also in this book.
+  例句高亮: Read each instruction in AGENTS.md before you edit. The rules are also in this **book**.
+  例句中文: 编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。
+  标注模式: object
+  标注说明: 完整可见的硬壳书、书脊与书页是直接指代；项目规则的内容由对白说明。
+  坐标(normalized): [0.329, 0.454, 0.721, 0.59]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V013 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=18 | meta.approved_cards=18
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at left at a small desk with a large open hardcover reference book at the center. The book has two blank pages, a clear central gutter, thick layered page edges and visible rigid cover under the pages; it is clearly NOT spiral-bound. The programmer points beside the book. The floating white OpenAI knot at the right is the conversational partner. Keep the whole book unobstructed. No titles, writing, laptop or other objects.

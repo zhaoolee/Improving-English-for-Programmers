@@ -1,0 +1,246 @@
+{
+  "id": "V009",
+  "category": "requirements",
+  "category_title": "把需求说清楚",
+  "chapter": "把需求说清楚",
+  "title": "用一个例子消除十种误解",
+  "keyword": "example",
+  "scene": "程序员用具体的输入与输出示例澄清需求。",
+  "target_count": 4,
+  "primary_words": [
+    "example",
+    "input",
+    "output",
+    "tablet"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "example",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "示例",
+      "pos": "noun",
+      "ipa_us": "/ɪɡˈzæmpəl/",
+      "ipa_uk": "/ɪɡˈzɑːmpəl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let me show you an example on this tablet before you build the search.",
+        "matched_form": "example",
+        "referent_region_verified": false,
+        "context": "具体示例来自对白，空白屏幕不提供可读示例内容。",
+        "image_verified": null
+      },
+      "example_en": "Let me show you an example on this tablet before you build the search.",
+      "example_zh": "在你实现搜索前，我先在这台平板上给你看一个例子。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a concrete example",
+        "show an example"
+      ],
+      "example_en_highlighted": "Let me show you an **example** on this tablet before you build the search.",
+      "annotation_mode": "context",
+      "annotation_note": "具体示例来自对白，空白屏幕不提供可读示例内容。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "input",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "输入",
+      "pos": "noun",
+      "ipa_us": "/ˈɪnpʊt/",
+      "ipa_uk": "/ˈɪnpʊt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What input should I use, and what output should I expect?",
+        "matched_form": "input",
+        "referent_region_verified": false,
+        "context": "这里指搜索的输入数据，而非可定位的输入设备。",
+        "image_verified": null
+      },
+      "example_en": "What input should I use, and what output should I expect?",
+      "example_zh": "应该使用什么输入，预期得到什么输出？",
+      "bbox_normalized": null,
+      "collocations": [
+        "search input",
+        "valid input"
+      ],
+      "example_en_highlighted": "What **input** should I use, and what output should I expect?",
+      "annotation_mode": "context",
+      "annotation_note": "这里指搜索的输入数据，而非可定位的输入设备。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "output",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "输出",
+      "pos": "noun",
+      "ipa_us": "/ˈaʊtpʊt/",
+      "ipa_uk": "/ˈaʊtpʊt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What input should I use, and what output should I expect?",
+        "matched_form": "output",
+        "referent_region_verified": false,
+        "context": "这里指搜索结果数据，静态空白屏幕不能证明结果。",
+        "image_verified": null
+      },
+      "example_en": "What input should I use, and what output should I expect?",
+      "example_zh": "应该使用什么输入，预期得到什么输出？",
+      "bbox_normalized": null,
+      "collocations": [
+        "expected output",
+        "check the output"
+      ],
+      "example_en_highlighted": "What input should I use, and what **output** should I expect?",
+      "annotation_mode": "context",
+      "annotation_note": "这里指搜索结果数据，静态空白屏幕不能证明结果。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "tablet",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "平板电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈtæblət/",
+      "ipa_uk": "/ˈtæblət/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整手持平板的屏幕、边框与机身是直接可见指代。",
+        "sentence": "Let me show you an example on this tablet before you build the search.",
+        "matched_form": "tablet",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Let me show you an example on this tablet before you build the search.",
+      "example_zh": "在你实现搜索前，我先在这台平板上给你看一个例子。",
+      "bbox_normalized": [
+        0.357,
+        0.382,
+        0.614,
+        0.537
+      ],
+      "collocations": [
+        "on this tablet",
+        "a tablet screen"
+      ],
+      "example_en_highlighted": "Let me show you an example on this **tablet** before you build the search.",
+      "annotation_mode": "object",
+      "annotation_note": "完整手持平板的屏幕、边框与机身是直接可见指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer uses a concrete input and output example to clarify a requirement.",
+    "zh": "程序员用具体的输入与输出示例澄清需求。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer uses a concrete input and output example to clarify a requirement.",
+    "zh": "程序员用具体的输入与输出示例澄清需求。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Let me show you an example on this tablet before you build the search.",
+      "zh": "在你实现搜索前，我先在这台平板上给你看一个例子。"
+    },
+    {
+      "speaker": "B",
+      "en": "What input should I use, and what output should I expect?",
+      "zh": "应该使用什么输入，预期得到什么输出？"
+    },
+    {
+      "speaker": "A",
+      "en": "If I search for a title with extra spaces, trim the spaces and return the matching item.",
+      "zh": "如果我搜索的标题带有多余空格，就去掉空格并返回匹配项。"
+    },
+    {
+      "speaker": "B",
+      "en": "Got it. I'll also check a search with no matches.",
+      "zh": "明白了。我还会检查没有匹配结果的搜索。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "通过输入和预期输出消除需求歧义。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left behind a simple desk and holds a single large tablet upright in landscape orientation at the center. The tablet has a rounded rectangular outer body, blank screen, thin bezel and a small circular home button on the right bezel. One hand supports the lower edge; the other gestures toward the floating white OpenAI knot at the right. Show the complete tablet perimeter. No stand, keyboard, writing or other props.",
+  "status": "approved",
+  "image_path": "images/V009.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V009 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V009.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T05:14:22Z",
+    "ended_at": "2026-10-09T05:16:12Z",
+    "prompt_path": "prompts/V009_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V009.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。平板屏幕与机身边界清楚，支持的手轻遮下缘，裁剪保留持握语境。"
+  }
+}

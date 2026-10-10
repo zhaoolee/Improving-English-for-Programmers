@@ -1,0 +1,130 @@
+{
+  "filename": "V018-一次改一个可验证的功能.png",
+  "labels": [
+    {
+      "x": 260,
+      "y": 80,
+      "english": "isolated",
+      "chinese": "独立的",
+      "phoneticUS": "/ˈaɪsəleɪtɪd/",
+      "phoneticUK": "/ˈaɪsəleɪtɪd/",
+      "bubblePosition": {
+        "x": 260,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "独立指改动边界，不把人物独处或单个控件位置当证据。",
+        "association": "独立指改动边界，不把人物独处或单个控件位置当证据。",
+        "collocation": "an isolated change; keep a change isolated",
+        "example": "A: Add one switch for dark mode. Keep this change isolated.\nB: I'll update only the setting and its behavior.\nA: Verify it before starting the next incremental change.\nB: I'll check both positions of the switch and report the result.",
+        "exampleChinese": "A: 加一个深色模式开关，让这次改动保持独立。\nB: 我只会更新这个设置及其行为。\nA: 开始下一次渐进改动前，先验证它。\nB: 我会检查开关的两种状态，并报告结果。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 80,
+      "english": "behavior",
+      "chinese": "行为",
+      "phoneticUS": "/bɪˈheɪvjər/",
+      "phoneticUK": "/bɪˈheɪvjə/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指软件运行行为，静态开关外观不证明响应。",
+        "association": "这里指软件运行行为，静态开关外观不证明响应。",
+        "collocation": "setting behavior; verify the behavior",
+        "example": "I'll update only the setting and its behavior.",
+        "exampleChinese": "我只会更新这个设置及其行为。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 220,
+      "english": "incremental",
+      "chinese": "渐进的",
+      "phoneticUS": "/ˌɪŋkrəˈmentəl/",
+      "phoneticUK": "/ˌɪŋkrəˈmentəl/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 220
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "渐进是多步工作方式，没有局部可见指代。",
+        "association": "渐进是多步工作方式，没有局部可见指代。",
+        "collocation": "an incremental change; incremental development",
+        "example": "Verify it before starting the next incremental change.",
+        "exampleChinese": "开始下一次渐进改动前，先验证它。"
+      }
+    },
+    {
+      "x": 514,
+      "y": 400,
+      "english": "switch",
+      "chinese": "开关",
+      "phoneticUS": "/swɪtʃ/",
+      "phoneticUK": "/swɪtʃ/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 514,
+        "y": 400
+      },
+      "boundingBox": {
+        "left": 428,
+        "top": 365,
+        "right": 626,
+        "bottom": 451
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕中胶囊轨道与圆形滑块构成可见开关，只框该控件。",
+        "association": "屏幕中胶囊轨道与圆形滑块构成可见开关，只框该控件。",
+        "collocation": "a dark-mode switch; toggle the switch",
+        "example": "Add one switch for dark mode. Keep this change isolated.",
+        "exampleChinese": "加一个深色模式开关，让这次改动保持独立。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to make one isolated change and verify its behavior.",
+    "chinese": "程序员让 AI 做一处独立改动，并验证其行为。",
+    "source": "原创对话 · V018 一次改一个可验证的功能",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

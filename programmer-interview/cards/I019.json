@@ -1,0 +1,268 @@
+{
+  "id": "I019",
+  "category": "fundamentals",
+  "title_zh": "说明事务与数据一致性",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "亚洲女候选人与美国女面试官讨论事务和一致性，用简洁示意支撑表达。",
+  "cast": {
+    "candidate": "AS_HANA",
+    "interviewer": "US_MAYA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.\nInterviewer or recruiter: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.\nExactly two people discussing transactions and consistency. Hana, in a cream blouse with a charcoal blazer, explains an all-or-nothing update scenario to Maya, in a sage knit top. A small whiteboard beside the table shows only two unlettered rectangles connected by one arrow and a simple bracket grouping them. Hana's marker is lowered as she speaks, and Maya asks a follow-up with a relaxed hand near her notebook. Eye-level 35mm medium environmental framing, soft daylight, realistic faces and quiet professional attention. Keep the diagram minimal and illustrative; no banknotes, currency signs, readable values or symbolic padlocks suggesting a technical guarantee.",
+  "prompt_path": "prompts/I019_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I019.png",
+  "image_sha256": "e01ef152548684d0d0e279b856b69bd6a1d3baf38b1d2f8c5083800aa2914b88",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "两位女性围绕白板的两个矩形、箭头和分组括号讨论，候选人手势与面试官倾听姿态自然。面部与手部未见明显异常，主要图形完整，冷暖受控的窗光与背景层次符合本系列。不能单凭图形认定事务或一致性机制 实际可见物件：白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I019_generate.txt",
+    "source_path": "images/I019.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:54:43 UTC",
+    "selected_image_path": "images/I019.png",
+    "selected_image_sha256": "e01ef152548684d0d0e279b856b69bd6a1d3baf38b1d2f8c5083800aa2914b88",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:54:43Z",
+    "prompt_path": "prompts/I019_image_final.txt"
+  },
+  "title": "说明事务与数据一致性",
+  "scene": "亚洲女候选人与美国女面试官讨论事务和一致性，用简洁示意支撑表达。",
+  "category_title": "技术基础与原理问答",
+  "primary_words": [
+    "transaction",
+    "commit",
+    "atomic",
+    "whiteboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "transaction",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "事务",
+      "pos": "noun",
+      "ipa_us": "/trænˈzækʃən/",
+      "ipa_uk": "/trænˈzækʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A transaction groups related changes into an atomic operation.",
+        "matched_form": "transaction",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transaction。本卡例句：A transaction groups related changes into an atomic operation.",
+        "image_verified": null
+      },
+      "example_en": "A transaction groups related changes into an atomic operation.",
+      "example_zh": "事务把相关修改组成一个原子操作。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a database transaction",
+        "commit a transaction"
+      ],
+      "example_en_highlighted": "A **transaction** groups related changes into an atomic operation.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transaction。本卡例句：A transaction groups related changes into an atomic operation.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "commit",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "提交",
+      "pos": "verb",
+      "ipa_us": "/kəˈmɪt/",
+      "ipa_uk": "/kəˈmɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What happens if one step fails before you commit?",
+        "matched_form": "commit",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：commit。本卡例句：What happens if one step fails before you commit?",
+        "image_verified": null
+      },
+      "example_en": "What happens if one step fails before you commit?",
+      "example_zh": "如果在提交前有一个步骤失败，会怎样？",
+      "bbox_normalized": null,
+      "collocations": [
+        "commit a transaction",
+        "commit the changes"
+      ],
+      "example_en_highlighted": "What happens if one step fails before you **commit**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：commit。本卡例句：What happens if one step fails before you commit?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "atomic",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "原子的",
+      "pos": "adjective",
+      "ipa_us": "/əˈtɑːmɪk/",
+      "ipa_uk": "/əˈtɒmɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A transaction groups related changes into an atomic operation.",
+        "matched_form": "atomic",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：atomic。本卡例句：A transaction groups related changes into an atomic operation.",
+        "image_verified": null
+      },
+      "example_en": "A transaction groups related changes into an atomic operation.",
+      "example_zh": "事务把相关修改组成一个原子操作。",
+      "bbox_normalized": null,
+      "collocations": [
+        "an atomic operation",
+        "atomic changes"
+      ],
+      "example_en_highlighted": "A transaction groups related changes into an **atomic** operation.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：atomic。本卡例句：A transaction groups related changes into an atomic operation.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "whiteboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/ˈwaɪtbɔːrd/",
+      "ipa_uk": "/ˈwaɪtbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供。",
+        "sentence": "We can roll back the changes. The whiteboard shows the two steps of a transfer.",
+        "matched_form": "whiteboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "We can roll back the changes. The whiteboard shows the two steps of a transfer.",
+      "example_zh": "我们可以回滚这些修改。白板展示了一次转账的两个步骤。",
+      "bbox_normalized": [
+        0.705,
+        0.065,
+        0.995,
+        0.265
+      ],
+      "collocations": [
+        "sketch on a whiteboard",
+        "use the whiteboard"
+      ],
+      "example_en_highlighted": "We can roll back the changes. The **whiteboard** shows the two steps of a transfer.",
+      "annotation_mode": "object",
+      "annotation_note": "白板上方实际可见的两框及箭头区域；避开下方遮挡的人脸，事务含义由对白提供。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "技术基础与原理问答",
+  "keyword": "transaction",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate explains how a database transaction groups related changes.",
+    "zh": "候选人解释数据库事务如何把相关修改组成一个整体。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate explains how a database transaction groups related changes.",
+    "zh": "候选人解释数据库事务如何把相关修改组成一个整体。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "A transaction groups related changes into an atomic operation.",
+      "zh": "事务把相关修改组成一个原子操作。"
+    },
+    {
+      "speaker": "B",
+      "en": "What happens if one step fails before you commit?",
+      "zh": "如果在提交前有一个步骤失败，会怎样？"
+    },
+    {
+      "speaker": "A",
+      "en": "We can roll back the changes. The whiteboard shows the two steps of a transfer.",
+      "zh": "我们可以回滚这些修改。白板展示了一次转账的两个步骤。"
+    },
+    {
+      "speaker": "B",
+      "en": "Which data must remain consistent after that transfer?",
+      "zh": "转账后，哪些数据必须保持一致？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用清晰英语解释常见技术概念、区别和适用条件。本卡主题：说明事务与数据一致性。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I019 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I019.png 宽高归一化至 0..1；由人工视觉定位。"
+}

@@ -1,0 +1,195 @@
+{
+  "ready": true,
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "reviewedAt": "2026-10-10T15:24:13Z",
+  "reviewer": "Codex visual and semantic review",
+  "cards": {
+    "V020": {
+      "sourcePath": "programmer-vibe-coding/images/V020.png",
+      "imageReview": "通过：单幅黑底白线插画，恰好一个成年火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。中央架构示意板完整可见，只有无标签矩形和连接线；其余三个抽象词仅由对白教学。",
+      "geometry": {
+        "maintainability": {"bubble": [185, 85]},
+        "refactor": {"bubble": [500, 85]},
+        "duplicate": {"bubble": [815, 85]},
+        "diagram": {"bubble": [500, 885], "box": [345, 235, 650, 605], "anchor": [500, 400]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V022": {
+      "sourcePath": "programmer-vibe-coding/images/V022.png",
+      "imageReview": "通过：单幅黑底白线插画，恰好一个成年火柴人和一个 OpenAI 标识。平板电脑边框、屏幕和按键完整可见且没有可读内容；reference、match、preserve 保持语境词。",
+      "geometry": {
+        "reference": {"bubble": [185, 85]},
+        "match": {"bubble": [500, 85]},
+        "preserve": {"bubble": [815, 85]},
+        "tablet": {"bubble": [500, 885], "box": [362, 292, 618, 650], "anchor": [500, 480]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V023": {
+      "sourcePath": "programmer-vibe-coding/images/V023.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。显示器中央唯一的环形加载指示器清晰完整，无文字或数字；只框加载指示器，不把整块屏幕误当 spinner。",
+      "geometry": {
+        "feedback": {"bubble": [185, 85]},
+        "loading": {"bubble": [500, 85]},
+        "progress": {"bubble": [815, 85]},
+        "spinner": {"bubble": [500, 885], "box": [455, 354, 579, 480], "anchor": [518, 416]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V024": {
+      "sourcePath": "programmer-vibe-coding/images/V024.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。中央双区域空白面板边界完整且无遮挡，不含任何可读错误或空状态文案；状态含义由对白说明。",
+      "geometry": {
+        "state": {"bubble": [185, 85]},
+        "empty": {"bubble": [500, 85]},
+        "error": {"bubble": [815, 85]},
+        "panel": {"bubble": [500, 885], "box": [317, 233, 662, 722], "anchor": [500, 480]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V025": {
+      "sourcePath": "programmer-vibe-coding/images/V025.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面键盘按键轮廓完整，没有字符，显示器保持空白；可用性、焦点和明显性仅按对白教学。",
+      "geometry": {
+        "usable": {"bubble": [185, 85]},
+        "focus": {"bubble": [500, 85]},
+        "obvious": {"bubble": [815, 85]},
+        "keyboard": {"bubble": [500, 885], "box": [378, 491, 628, 552], "anchor": [503, 520]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V027": {
+      "sourcePath": "programmer-vibe-coding/images/V027.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。竖直手机完整可见，屏幕裂纹是无文字的故障证据；复现、稳定和步骤仍由对白限定。",
+      "geometry": {
+        "reproduce": {"bubble": [185, 85]},
+        "consistent": {"bubble": [500, 85]},
+        "step": {"bubble": [815, 85]},
+        "phone": {"bubble": [500, 885], "box": [362, 272, 582, 688], "anchor": [475, 480]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V028": {
+      "sourcePath": "programmer-vibe-coding/images/V028.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。终端窗口边界完整，内部只有不可读的抽象横线，不含代码字符；evidence、error、log 只依对白语境。",
+      "geometry": {
+        "evidence": {"bubble": [185, 85]},
+        "error": {"bubble": [500, 85]},
+        "log": {"bubble": [815, 85]},
+        "terminal": {"bubble": [500, 885], "box": [347, 268, 662, 494], "anchor": [510, 380]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V029": {
+      "sourcePath": "programmer-vibe-coding/images/V029.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面上唯一断开的连接线及两端插头清晰可见；隔离、根因和补丁属于调试语境，不给虚假框。",
+      "geometry": {
+        "isolate": {"bubble": [185, 85]},
+        "cause": {"bubble": [500, 85]},
+        "patch": {"bubble": [815, 85]},
+        "cable": {"bubble": [500, 885], "box": [364, 542, 577, 614], "anchor": [490, 563]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V030": {
+      "sourcePath": "programmer-vibe-coding/images/V030.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。手持夹板边框和顶部夹具完整，纸面只有三条不可读横线；升级、重试和不确定性按对白教学。",
+      "geometry": {
+        "escalate": {"bubble": [185, 85]},
+        "retry": {"bubble": [500, 85]},
+        "uncertain": {"bubble": [815, 85]},
+        "clipboard": {"bubble": [500, 885], "box": [155, 383, 310, 595], "anchor": [230, 490]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V032": {
+      "sourcePath": "programmer-vibe-coding/images/V032.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。大型检查清单完整可见，包含四个空框和无文字横线；覆盖率、场景和假设仍是抽象语境词。",
+      "geometry": {
+        "coverage": {"bubble": [185, 85]},
+        "scenario": {"bubble": [500, 85]},
+        "assumption": {"bubble": [815, 85]},
+        "checklist": {"bubble": [500, 885], "box": [361, 235, 632, 588], "anchor": [500, 410]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V033": {
+      "sourcePath": "programmer-vibe-coding/images/V033.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。竖立文档纸张边界完整，内部只有无意义横线；审查、边界和失败含义不从纸张外观推断。",
+      "geometry": {
+        "inspect": {"bubble": [185, 85]},
+        "boundary": {"bubble": [500, 85]},
+        "failure": {"bubble": [815, 85]},
+        "document": {"bubble": [500, 885], "box": [400, 222, 625, 522], "anchor": [515, 370]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V034": {
+      "sourcePath": "programmer-vibe-coding/images/V034.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。中央天平底座、横梁与双盘完整无遮挡；trade-off、security、performance 不因天平隐喻而伪装成局部物件。",
+      "geometry": {
+        "trade-off": {"bubble": [185, 85]},
+        "security": {"bubble": [500, 85]},
+        "performance": {"bubble": [815, 85]},
+        "scale": {"bubble": [500, 885], "box": [316, 301, 721, 606], "anchor": [515, 430]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V035": {
+      "sourcePath": "programmer-vibe-coding/images/V035.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。手持双段报告纸张外框完整，内部横线不可读；未验证、限制和确认状态均由对白表达。",
+      "geometry": {
+        "unverified": {"bubble": [185, 85]},
+        "limitation": {"bubble": [500, 85]},
+        "confirm": {"bubble": [815, 85]},
+        "report": {"bubble": [500, 885], "box": [367, 239, 628, 642], "anchor": [500, 450]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V037": {
+      "sourcePath": "programmer-vibe-coding/images/V037.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面上只有一个打开的文件夹，标签页和两张空白纸完整可见；提交、信息与原子性是版本控制语境。",
+      "geometry": {
+        "commit": {"bubble": [185, 85]},
+        "message": {"bubble": [500, 85]},
+        "atomic": {"bubble": [815, 85]},
+        "folder": {"bubble": [500, 885], "box": [361, 411, 617, 602], "anchor": [490, 520]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V038": {
+      "sourcePath": "programmer-vibe-coding/images/V038.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。打开的归档盒中唯一密封长方体软件包完整可见且无标签；只框软件包，不把盒子整体当 package。",
+      "geometry": {
+        "rollback": {"bubble": [185, 85]},
+        "release": {"bubble": [500, 85]},
+        "backup": {"bubble": [815, 85]},
+        "package": {"bubble": [500, 885], "box": [392, 483, 635, 627], "anchor": [515, 550]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V039": {
+      "sourcePath": "programmer-vibe-coding/images/V039.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。程序员手持唯一头戴式耳机，耳罩、头梁和麦克风完整可见；反馈、观察和澄清由用户沟通对白表达。",
+      "geometry": {
+        "feedback": {"bubble": [185, 85]},
+        "observe": {"bubble": [500, 85]},
+        "clarify": {"bubble": [815, 85]},
+        "headset": {"bubble": [500, 885], "box": [404, 273, 566, 472], "anchor": [480, 370]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    },
+    "V040": {
+      "sourcePath": "programmer-vibe-coding/images/V040.png",
+      "imageReview": "通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。大型四步骤空白流程模板边界完整，无文字、数字或额外图标；可重复、自动化和流程含义来自对白。",
+      "geometry": {
+        "repeatable": {"bubble": [185, 85]},
+        "automate": {"bubble": [500, 85]},
+        "procedure": {"bubble": [815, 85]},
+        "template": {"bubble": [500, 885], "box": [312, 206, 664, 751], "anchor": [500, 480]}
+      },
+      "actualImageDimensions": [1254, 1254]
+    }
+  }
+}

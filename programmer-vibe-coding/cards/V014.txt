@@ -1,0 +1,119 @@
+V014  上下文太多，也会迷路
+========================================================================
+分类: 让 AI 理解项目（context）
+关键词: relevant
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V014.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V014.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V014.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T05:44:26Z → 2026-10-09T05:46:23Z
+  提示词文件: prompts/V014_image_final.txt
+
+场景: 程序员让 AI 只保留与当前任务相关的上下文。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。显示器内屏完整，指手不遮主体；额外键盘、鼠标与纸堆不参与教学，只框内屏。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。
+
+沟通目标: 筛选必要上下文，避免无关信息干扰当前任务。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to keep only the context relevant to the current task.
+  中文: 程序员让 AI 只保留与当前任务相关的上下文。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] There is too much context. Which files are relevant to this bug?
+        上下文太多了，哪些文件与这个缺陷有关？
+  [B] The error log and the request handler are useful. The old design notes are not needed.
+        错误日志和请求处理代码有用，旧的设计笔记不需要。
+  [A] Filter out the unrelated files. I'll keep the error log on this screen.
+        筛掉无关文件。我会在这个屏幕上保留错误日志。
+  [B] I'll focus on those two sources and ask if I need more information.
+        我会专注于这两份资料，需要更多信息时再问。
+
+目标词 (4): relevant, context, filter, screen
+
+------------------------------------------------------------------------
+[1/4] relevant
+  词义: 相关的
+  词性: adjective
+  音标: UK /ˈreləvənt/ | US /ˈreləvənt/
+  搭配: relevant files; relevant to this bug
+  例句: There is too much context. Which files are relevant to this bug?
+  例句高亮: There is too much context. Which files are **relevant** to this bug?
+  例句中文: 上下文太多了，哪些文件与这个缺陷有关？
+  标注模式: context
+  标注说明: 相关性由对白与任务决定，纸张或屏幕外观不能证明关联。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] context
+  词义: 上下文
+  词性: noun
+  音标: UK /ˈkɒntekst/ | US /ˈkɑːntekst/
+  搭配: task context; provide context
+  例句: There is too much context. Which files are relevant to this bug?
+  例句高亮: There is too much **context**. Which files are relevant to this bug?
+  例句中文: 上下文太多了，哪些文件与这个缺陷有关？
+  标注模式: context
+  标注说明: 这里是任务背景信息，不把整张图或纸堆当成其局部指代。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] filter
+  词义: 筛选
+  词性: verb
+  音标: UK /ˈfɪltə/ | US /ˈfɪltər/
+  搭配: filter out unrelated files; filter the results
+  例句: Filter out the unrelated files. I'll keep the error log on this screen.
+  例句高亮: **Filter** out the unrelated files. I'll keep the error log on this screen.
+  例句中文: 筛掉无关文件。我会在这个屏幕上保留错误日志。
+  标注模式: context
+  标注说明: 这里指筛掉无关资料，静态画面不能证明确实完成筛选。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] screen
+  词义: 屏幕
+  词性: noun
+  音标: UK /skriːn/ | US /skriːn/
+  搭配: on this screen; a monitor screen
+  例句: Filter out the unrelated files. I'll keep the error log on this screen.
+  例句高亮: Filter out the unrelated files. I'll keep the error log on this **screen**.
+  例句中文: 筛掉无关文件。我会在这个屏幕上保留错误日志。
+  标注模式: object
+  标注说明: 显示器内屏是实际可见指代；不声称能读取空白内屏中的日志。
+  坐标(normalized): [0.401, 0.329, 0.688, 0.503]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V014 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=23 | meta.approved_cards=23
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a small desk and points toward a large desktop monitor at center. The monitor has a clear rectangular bezel and a fully blank black inner screen, outlined in white. Show the whole inner screen unobstructed; keep the pointing hand outside the bezel. The floating white OpenAI knot is at the right. A small pile of blank papers rests aside at the far left of the desk, representing unnecessary context, away from the monitor. No writing, symbols or UI text.

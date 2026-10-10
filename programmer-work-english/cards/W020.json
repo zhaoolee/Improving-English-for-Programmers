@@ -1,0 +1,246 @@
+{
+  "id": "W020",
+  "category": "requirements",
+  "category_title": "需求澄清",
+  "chapter": "需求澄清",
+  "title": "复述讨论后的共同理解",
+  "keyword": "understanding",
+  "scene": "两位同事复述范围，确认双方理解一致。",
+  "target_count": 4,
+  "primary_words": [
+    "understanding",
+    "confirm",
+    "exclude",
+    "board"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "understanding",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "理解",
+      "pos": "noun",
+      "ipa_us": "/ˌʌndərˈstændɪŋ/",
+      "ipa_uk": "/ˌʌndəˈstændɪŋ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let me confirm my understanding of the plan.",
+        "matched_form": "understanding",
+        "referent_region_verified": false,
+        "context": "“Let me confirm my understanding of the plan.”明确表达理解；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Let me confirm my understanding of the plan.",
+      "example_zh": "我来确认一下我对计划的理解。",
+      "bbox_normalized": null,
+      "collocations": [
+        "my understanding of",
+        "a clear understanding"
+      ],
+      "example_en_highlighted": "Let me confirm my **understanding** of the plan.",
+      "annotation_mode": "context",
+      "annotation_note": "“Let me confirm my understanding of the plan.”明确表达理解；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "confirm",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "确认",
+      "pos": "verb",
+      "ipa_us": "/kənˈfɜːrm/",
+      "ipa_uk": "/kənˈfɜːm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Let me confirm my understanding of the plan.",
+        "matched_form": "confirm",
+        "referent_region_verified": false,
+        "context": "“Let me confirm my understanding of the plan.”明确表达确认；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Let me confirm my understanding of the plan.",
+      "example_zh": "我来确认一下我对计划的理解。",
+      "bbox_normalized": null,
+      "collocations": [
+        "confirm the plan",
+        "confirm details"
+      ],
+      "example_en_highlighted": "Let me **confirm** my understanding of the plan.",
+      "annotation_mode": "context",
+      "annotation_note": "“Let me confirm my understanding of the plan.”明确表达确认；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "exclude",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "排除",
+      "pos": "verb",
+      "ipa_us": "/ɪkˈskluːd/",
+      "ipa_uk": "/ɪkˈskluːd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Search and filters. We'll exclude export and update the board.",
+        "matched_form": "exclude",
+        "referent_region_verified": false,
+        "context": "“Search and filters. We'll exclude export and update the board.”明确表达排除；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Search and filters. We'll exclude export and update the board.",
+      "example_zh": "搜索和筛选。我们会排除导出功能，并更新白板。",
+      "bbox_normalized": null,
+      "collocations": [
+        "exclude a feature",
+        "exclude from the list"
+      ],
+      "example_en_highlighted": "Search and filters. We'll **exclude** export and update the board.",
+      "annotation_mode": "context",
+      "annotation_note": "“Search and filters. We'll exclude export and update the board.”明确表达排除；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "board",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/bɔːrd/",
+      "ipa_uk": "/bɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Search and filters. We'll exclude export and update the board.",
+        "matched_form": "board",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Search and filters. We'll exclude export and update the board.",
+      "example_zh": "搜索和筛选。我们会排除导出功能，并更新白板。",
+      "bbox_normalized": [
+        0.257,
+        0.203,
+        0.756,
+        0.776
+      ],
+      "collocations": [
+        "update the board",
+        "a task board"
+      ],
+      "example_en_highlighted": "Search and filters. We'll exclude export and update the **board**.",
+      "annotation_mode": "object",
+      "annotation_note": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two teammates restate the scope to confirm a shared understanding.",
+    "zh": "两位同事复述范围，确认双方理解一致。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two teammates restate the scope to confirm a shared understanding.",
+    "zh": "两位同事复述范围，确认双方理解一致。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Let me confirm my understanding of the plan.",
+      "zh": "我来确认一下我对计划的理解。"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. What will the first version include?",
+      "zh": "好。第一版会包含哪些内容？"
+    },
+    {
+      "speaker": "A",
+      "en": "Search and filters. We'll exclude export and update the board.",
+      "zh": "搜索和筛选。我们会排除导出功能，并更新白板。"
+    },
+    {
+      "speaker": "B",
+      "en": "Exactly. We agree on the scope now.",
+      "zh": "没错。现在我们对范围达成一致了。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "复述并确认对计划与范围的理解。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers beside a large freestanding board containing two simple abstract grouping shapes, no writing. One points at the board while the other nods. Whole board frame and stand clearly visible.",
+  "status": "approved",
+  "image_path": "images/W020.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W020 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W020.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.174Z",
+    "ended_at": "2026-10-07T09:27:10.121Z",
+    "prompt_path": "prompts/W020_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W020.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整白板与支架；两组图形不证明已达成共同理解。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

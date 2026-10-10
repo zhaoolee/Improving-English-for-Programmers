@@ -1,0 +1,246 @@
+{
+  "id": "W048",
+  "category": "development",
+  "category_title": "开发与代码评审",
+  "chapter": "开发与代码评审",
+  "title": "请求补充测试",
+  "keyword": "coverage",
+  "scene": "评审者请求补充覆盖边界情况的测试。",
+  "target_count": 4,
+  "primary_words": [
+    "coverage",
+    "edge",
+    "assert",
+    "laptop"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "coverage",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "覆盖范围",
+      "pos": "noun",
+      "ipa_us": "/ˈkʌvərɪdʒ/",
+      "ipa_uk": "/ˈkʌvərɪdʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Could we improve test coverage for this change?",
+        "matched_form": "coverage",
+        "referent_region_verified": false,
+        "context": "“Could we improve test coverage for this change?”明确表达覆盖范围；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Could we improve test coverage for this change?",
+      "example_zh": "我们能提高这次变更的测试覆盖范围吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "test coverage",
+        "improve coverage"
+      ],
+      "example_en_highlighted": "Could we improve test **coverage** for this change?",
+      "annotation_mode": "context",
+      "annotation_note": "“Could we improve test coverage for this change?”明确表达覆盖范围；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "edge",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "边界",
+      "pos": "noun",
+      "ipa_us": "/edʒ/",
+      "ipa_uk": "/edʒ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Sure. Which edge case should I add?",
+        "matched_form": "edge",
+        "referent_region_verified": false,
+        "context": "“Sure. Which edge case should I add?”明确表达边界；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Sure. Which edge case should I add?",
+      "example_zh": "当然。应该补哪个边界情况？",
+      "bbox_normalized": null,
+      "collocations": [
+        "an edge case",
+        "at the edge"
+      ],
+      "example_en_highlighted": "Sure. Which **edge** case should I add?",
+      "annotation_mode": "context",
+      "annotation_note": "“Sure. Which edge case should I add?”明确表达边界；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "assert",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "断言",
+      "pos": "verb",
+      "ipa_us": "/əˈsɜːrt/",
+      "ipa_uk": "/əˈsɜːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Empty input. Please assert the result and run it on this laptop.",
+        "matched_form": "assert",
+        "referent_region_verified": false,
+        "context": "“Empty input. Please assert the result and run it on this laptop.”明确表达断言；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Empty input. Please assert the result and run it on this laptop.",
+      "example_zh": "空输入。请对结果做断言，并在这个笔记本电脑上运行测试。",
+      "bbox_normalized": null,
+      "collocations": [
+        "assert the result",
+        "assert a value"
+      ],
+      "example_en_highlighted": "Empty input. Please **assert** the result and run it on this laptop.",
+      "annotation_mode": "context",
+      "annotation_note": "“Empty input. Please assert the result and run it on this laptop.”明确表达断言；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "Empty input. Please assert the result and run it on this laptop.",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Empty input. Please assert the result and run it on this laptop.",
+      "example_zh": "空输入。请对结果做断言，并在这个笔记本电脑上运行测试。",
+      "bbox_normalized": [
+        0.407,
+        0.413,
+        0.696,
+        0.584
+      ],
+      "collocations": [
+        "on this laptop",
+        "an open laptop"
+      ],
+      "example_en_highlighted": "Empty input. Please assert the result and run it on this **laptop**.",
+      "annotation_mode": "object",
+      "annotation_note": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A reviewer asks for tests covering an edge case.",
+    "zh": "评审者请求补充覆盖边界情况的测试。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A reviewer asks for tests covering an edge case.",
+    "zh": "评审者请求补充覆盖边界情况的测试。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Could we improve test coverage for this change?",
+      "zh": "我们能提高这次变更的测试覆盖范围吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Sure. Which edge case should I add?",
+      "zh": "当然。应该补哪个边界情况？"
+    },
+    {
+      "speaker": "A",
+      "en": "Empty input. Please assert the result and run it on this laptop.",
+      "zh": "空输入。请对结果做断言，并在这个笔记本电脑上运行测试。"
+    },
+    {
+      "speaker": "B",
+      "en": "Got it. I'll add that case before the next review.",
+      "zh": "明白。我会在下一次评审之前补上。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "请求补充边界测试并运行验证。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers lean toward a fully visible open laptop on a small table. Screen has only abstract check symbols and empty rectangles, no text. One points while the other nods.",
+  "status": "approved",
+  "image_path": "images/W048.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W048 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W048.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:31:24.404Z",
+    "prompt_path": "prompts/W048_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W048.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：完整打开的笔记本电脑，边界情况不是屏幕边缘。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

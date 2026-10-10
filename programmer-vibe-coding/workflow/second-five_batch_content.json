@@ -1,0 +1,528 @@
+{
+  "title": "程序员 Vibe Coding 继续五张",
+  "status": "content_final",
+  "startedAt": "2026-10-09T03:00:42Z",
+  "startedAtNote": "本轮首个已记录时钟时间，首次工具检查略早，未记录的起点不补造。",
+  "contentFinalizedAt": "2026-10-09T03:06:41.899755+00:00",
+  "displayTimeZone": "Asia/Shanghai",
+  "promptTemplate": "workflow/styles/stick-figure-openai-black-white.txt",
+  "cards": [
+    {
+      "id": "V002",
+      "category": "pairing",
+      "title": "AI 会写，不等于 AI 会负责",
+      "keyword": "responsibility",
+      "description_en": "A programmer asks an AI assistant who takes responsibility for approving generated changes.",
+      "description_zh": "程序员询问 AI：谁对生成改动的批准负责。",
+      "communication_goal": "明确 AI 提供建议，人类对批准结果负责。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Before I sign off on the changes, who takes responsibility for the result?",
+          "zh": "在我批准这些改动前，谁对结果负责？"
+        },
+        {
+          "speaker": "B",
+          "en": "You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.",
+          "zh": "你仍要对自己批准的内容负责。我可以建议代码，但不能替你承担结果。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+          "zh": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。"
+        },
+        {
+          "speaker": "B",
+          "en": "Good. Check the tests and review anything that affects users.",
+          "zh": "好的。检查测试，并审查任何影响用户的改动。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at left beside a small desk, holding a large rectangular clipboard upright at the center of the composition. The clipboard has a prominent metal clip, a single blank paper sheet and NO writing or check marks. Keep the entire clipboard clear, including its bottom edge, separated from the hands enough for a complete object crop. The programmer points toward the floating white OpenAI knot on the right while discussing accountability. No laptop is needed.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left beside a small desk, holding a large rectangular clipboard upright at the center of the composition. The clipboard has a prominent metal clip, a single blank paper sheet and NO writing or check marks. Keep the entire clipboard clear, including its bottom edge, separated from the hands enough for a complete object crop. The programmer points toward the floating white OpenAI knot on the right while discussing accountability. No laptop is needed.",
+      "words": [
+        {
+          "word": "responsibility",
+          "zh": "责任",
+          "pos": "noun",
+          "us": "/rɪˌspɑːnsəˈbɪləti/",
+          "uk": "/rɪˌspɒnsəˈbɪləti/",
+          "example": "Before I sign off on the changes, who takes responsibility for the result?",
+          "translation": "在我批准这些改动前，谁对结果负责？",
+          "mode": "context",
+          "collocations": [
+            "take responsibility",
+            "responsibility for the changes"
+          ],
+          "evidence": "责任由对白明确提出，不能从签署手势或夹板外观判定。",
+          "color": "blue"
+        },
+        {
+          "word": "accountable",
+          "zh": "需负责的",
+          "pos": "adjective",
+          "us": "/əˈkaʊntəbl/",
+          "uk": "/əˈkaʊntəbl/",
+          "example": "You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.",
+          "translation": "你仍要对自己批准的内容负责。我可以建议代码，但不能替你承担结果。",
+          "mode": "context",
+          "collocations": [
+            "remain accountable",
+            "accountable for a decision"
+          ],
+          "evidence": "对批准结果负责是对白中的责任关系，没有局部可见指代。",
+          "color": "lavender"
+        },
+        {
+          "word": "verify",
+          "zh": "验证",
+          "pos": "verb",
+          "us": "/ˈverɪfaɪ/",
+          "uk": "/ˈverɪfaɪ/",
+          "example": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+          "translation": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。",
+          "mode": "context",
+          "collocations": [
+            "verify the behavior",
+            "verify a result"
+          ],
+          "evidence": "验证尚未发生，图片不证明测试结果。",
+          "color": "rose"
+        },
+        {
+          "word": "clipboard",
+          "zh": "写字夹板",
+          "pos": "noun",
+          "us": "/ˈklɪpbɔːrd/",
+          "uk": "/ˈklɪpbɔːd/",
+          "example": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+          "translation": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。",
+          "mode": "object",
+          "collocations": [
+            "on a clipboard",
+            "a review clipboard"
+          ],
+          "evidence": "完整可见的夹板及顶部纸夹是 clipboard 的直接指代。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V003",
+      "category": "pairing",
+      "title": "选对任务再开工",
+      "keyword": "suitable",
+      "description_en": "A programmer and an AI assistant choose a suitable first task and discuss its risk.",
+      "description_zh": "程序员与 AI 选择适合先做的任务，并讨论其风险。",
+      "communication_goal": "优先挑选边界清晰、易验证的任务。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Which task in this notebook is suitable for you to start with?",
+          "zh": "这个笔记本里的哪项任务适合让你先开始？"
+        },
+        {
+          "speaker": "B",
+          "en": "A routine formatting change is a good first task.",
+          "zh": "常规的格式调整很适合作为第一项任务。"
+        },
+        {
+          "speaker": "A",
+          "en": "What about changing the login flow?",
+          "zh": "那修改登录流程呢？"
+        },
+        {
+          "speaker": "B",
+          "en": "That carries more risk. Keep it small and review the security decisions yourself.",
+          "zh": "那样的风险更高。缩小改动范围，并亲自审查安全方面的决定。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The stick-figure programmer is seated at a small table, pointing at a large open spiral-bound paper notebook lying clearly visible on the table. Its two pages are blank and its spiral binding is obvious. Draw the complete notebook including all page edges, separate from the pointing finger. The white OpenAI knot floats at the right, listening. A thoughtful face and a calm discussion gesture. No other props.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer is seated at a small table, pointing at a large open spiral-bound paper notebook lying clearly visible on the table. Its two pages are blank and its spiral binding is obvious. Draw the complete notebook including all page edges, separate from the pointing finger. The white OpenAI knot floats at the right, listening. A thoughtful face and a calm discussion gesture. No other props.",
+      "words": [
+        {
+          "word": "suitable",
+          "zh": "合适的",
+          "pos": "adjective",
+          "us": "/ˈsuːtəbl/",
+          "uk": "/ˈsuːtəbl/",
+          "example": "Which task in this notebook is suitable for you to start with?",
+          "translation": "这个笔记本里的哪项任务适合让你先开始？",
+          "mode": "context",
+          "collocations": [
+            "a suitable task",
+            "suitable for beginners"
+          ],
+          "evidence": "任务是否合适由对白中的条件说明，不能从空白笔记页判断。",
+          "color": "blue"
+        },
+        {
+          "word": "routine",
+          "zh": "常规的",
+          "pos": "adjective",
+          "us": "/ruːˈtiːn/",
+          "uk": "/ruːˈtiːn/",
+          "example": "A routine formatting change is a good first task.",
+          "translation": "常规的格式调整很适合作为第一项任务。",
+          "mode": "context",
+          "collocations": [
+            "a routine change",
+            "routine maintenance"
+          ],
+          "evidence": "routine 修饰格式调整，属于任务性质，没有局部可见指代。",
+          "color": "lavender"
+        },
+        {
+          "word": "risk",
+          "zh": "风险",
+          "pos": "noun",
+          "us": "/rɪsk/",
+          "uk": "/rɪsk/",
+          "example": "That carries more risk. Keep it small and review the security decisions yourself.",
+          "translation": "那样的风险更高。缩小改动范围，并亲自审查安全方面的决定。",
+          "mode": "context",
+          "collocations": [
+            "carry more risk",
+            "reduce the risk"
+          ],
+          "evidence": "登录流程风险由对白讨论，不以人物表情或笔记本当作风险框。",
+          "color": "rose"
+        },
+        {
+          "word": "notebook",
+          "zh": "笔记本",
+          "pos": "noun",
+          "us": "/ˈnoʊtbʊk/",
+          "uk": "/ˈnəʊtbʊk/",
+          "example": "Which task in this notebook is suitable for you to start with?",
+          "translation": "这个笔记本里的哪项任务适合让你先开始？",
+          "mode": "object",
+          "collocations": [
+            "in this notebook",
+            "an open notebook"
+          ],
+          "evidence": "画面中的完整纸质螺旋笔记本对应对白指代。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V004",
+      "category": "pairing",
+      "title": "什么时候应该自己接手？",
+      "keyword": "intervene",
+      "description_en": "A programmer pauses uncertain AI edits and takes over at the keyboard.",
+      "description_zh": "程序员暂停 AI 不确定的修改，并接过键盘亲自检查。",
+      "communication_goal": "发现反复试错时暂停修改、交接证据。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "You've changed the same function three times. Should I intervene?",
+          "zh": "你已经修改同一个函数三次了。我该介入吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+          "zh": "是的。我不确定根因，所以请暂停修改。"
+        },
+        {
+          "speaker": "A",
+          "en": "I'll take the keyboard and inspect the failing test.",
+          "zh": "我会接过键盘，检查失败的测试。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll summarize what I tried and wait for your direction.",
+          "zh": "我会总结已经尝试过的办法，等待你的指示。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at left of a desk and raises one open palm toward the floating OpenAI knot at right to pause the discussion. A large standalone computer keyboard lies fully visible in front of a simple desktop monitor. Draw the keyboard as a clean rectangular object with several rows of small blank outlined keys, no letters or numbers. Keep hands away from the keyboard so all edges remain visible. The monitor is blank. The keyboard is the main visible learning prop.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left of a desk and raises one open palm toward the floating OpenAI knot at right to pause the discussion. A large standalone computer keyboard lies fully visible in front of a simple desktop monitor. Draw the keyboard as a clean rectangular object with several rows of small blank outlined keys, no letters or numbers. Keep hands away from the keyboard so all edges remain visible. The monitor is blank. The keyboard is the main visible learning prop.",
+      "words": [
+        {
+          "word": "intervene",
+          "zh": "介入",
+          "pos": "verb",
+          "us": "/ˌɪntərˈviːn/",
+          "uk": "/ˌɪntəˈviːn/",
+          "example": "You've changed the same function three times. Should I intervene?",
+          "translation": "你已经修改同一个函数三次了。我该介入吗？",
+          "mode": "context",
+          "collocations": [
+            "intervene when needed",
+            "intervene in a process"
+          ],
+          "evidence": "介入的理由与意图由对白说明，静态抬手不能证明接管过程完成。",
+          "color": "blue"
+        },
+        {
+          "word": "uncertain",
+          "zh": "不确定的",
+          "pos": "adjective",
+          "us": "/ʌnˈsɜːrtn/",
+          "uk": "/ʌnˈsɜːtn/",
+          "example": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+          "translation": "是的。我不确定根因，所以请暂停修改。",
+          "mode": "context",
+          "collocations": [
+            "uncertain about the cause",
+            "remain uncertain"
+          ],
+          "evidence": "AI 的不确定性由台词表达，不以 Logo 或表情编造框。",
+          "color": "lavender"
+        },
+        {
+          "word": "pause",
+          "zh": "暂停",
+          "pos": "verb",
+          "us": "/pɔːz/",
+          "uk": "/pɔːz/",
+          "example": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+          "translation": "是的。我不确定根因，所以请暂停修改。",
+          "mode": "context",
+          "collocations": [
+            "pause the edits",
+            "pause a task"
+          ],
+          "evidence": "暂停修改是对话中的请求，不把抬手当作已停止的系统状态。",
+          "color": "rose"
+        },
+        {
+          "word": "keyboard",
+          "zh": "键盘",
+          "pos": "noun",
+          "us": "/ˈkiːbɔːrd/",
+          "uk": "/ˈkiːbɔːd/",
+          "example": "I'll take the keyboard and inspect the failing test.",
+          "translation": "我会接过键盘，检查失败的测试。",
+          "mode": "object",
+          "collocations": [
+            "take the keyboard",
+            "a computer keyboard"
+          ],
+          "evidence": "桌上完整独立键盘对应对白指代，框选包含全部按键与外缘。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V005",
+      "category": "pairing",
+      "title": "给 AI 划清操作边界",
+      "keyword": "permission",
+      "description_en": "A programmer sets editing permissions for a project folder and asks the AI to confirm its scope.",
+      "description_zh": "程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。",
+      "communication_goal": "区分已批准的编辑与需要另行确认的操作。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "You can edit this project folder, but do you have permission to delete files?",
+          "zh": "你可以编辑这个项目文件夹，但你有权限删除文件吗？"
+        },
+        {
+          "speaker": "B",
+          "en": "No. I'll keep the files and confirm the scope with you first.",
+          "zh": "没有。我会保留文件，并先与你确认操作范围。"
+        },
+        {
+          "speaker": "A",
+          "en": "Also ask before installing packages or publishing changes.",
+          "zh": "安装依赖包或发布改动前也要先询问。"
+        },
+        {
+          "speaker": "B",
+          "en": "Understood. I'll stay within the actions you've approved.",
+          "zh": "明白。我会限定在你已经批准的操作范围内。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The stick-figure programmer stands at left of a simple desktop monitor on a small desk and points toward the monitor, while the white OpenAI knot floats at right. Show one LARGE unmistakable outlined folder icon centered on the otherwise blank monitor screen: its tab and folder outline clearly recognizable, with no letters or code. This visible folder icon represents the project directory discussed in the conversation, not a physical paper folder. Make the complete icon large enough for a local crop, with generous space around it. No other screen icons or props.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands at left of a simple desktop monitor on a small desk and points toward the monitor, while the white OpenAI knot floats at right. Show one LARGE unmistakable outlined folder icon centered on the otherwise blank monitor screen: its tab and folder outline clearly recognizable, with no letters or code. This visible folder icon represents the project directory discussed in the conversation, not a physical paper folder. Make the complete icon large enough for a local crop, with generous space around it. No other screen icons or props.",
+      "words": [
+        {
+          "word": "permission",
+          "zh": "权限",
+          "pos": "noun",
+          "us": "/pərˈmɪʃən/",
+          "uk": "/pəˈmɪʃən/",
+          "example": "You can edit this project folder, but do you have permission to delete files?",
+          "translation": "你可以编辑这个项目文件夹，但你有权限删除文件吗？",
+          "mode": "context",
+          "collocations": [
+            "have permission",
+            "permission to delete files"
+          ],
+          "evidence": "是否拥有删除权限由对白明确说明，不从图标或人物动作推断。",
+          "color": "blue"
+        },
+        {
+          "word": "delete",
+          "zh": "删除",
+          "pos": "verb",
+          "us": "/dɪˈliːt/",
+          "uk": "/dɪˈliːt/",
+          "example": "You can edit this project folder, but do you have permission to delete files?",
+          "translation": "你可以编辑这个项目文件夹，但你有权限删除文件吗？",
+          "mode": "context",
+          "collocations": [
+            "delete files",
+            "delete a record"
+          ],
+          "evidence": "删除是被限制的操作，并未实际发生；不为它编造可见框。",
+          "color": "lavender"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认",
+          "pos": "verb",
+          "us": "/kənˈfɜːrm/",
+          "uk": "/kənˈfɜːm/",
+          "example": "No. I'll keep the files and confirm the scope with you first.",
+          "translation": "没有。我会保留文件，并先与你确认操作范围。",
+          "mode": "context",
+          "collocations": [
+            "confirm the scope",
+            "confirm a requirement"
+          ],
+          "evidence": "确认范围是对白中的承诺，不从指向动作认定已经确认。",
+          "color": "rose"
+        },
+        {
+          "word": "folder",
+          "zh": "文件夹",
+          "pos": "noun",
+          "us": "/ˈfoʊldər/",
+          "uk": "/ˈfəʊldə/",
+          "example": "You can edit this project folder, but do you have permission to delete files?",
+          "translation": "你可以编辑这个项目文件夹，但你有权限删除文件吗？",
+          "mode": "object",
+          "collocations": [
+            "a project folder",
+            "edit a folder"
+          ],
+          "evidence": "显示器上清楚可见的文件夹图标对应对话中的项目目录；局部框仅指向图标，权限另由对白支持。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V007",
+      "category": "requirements",
+      "title": "把“好看一点”变成可执行要求",
+      "keyword": "spacing",
+      "description_en": "A programmer gives an AI assistant concrete spacing and alignment requirements for a screen.",
+      "description_zh": "程序员向 AI 提供屏幕布局的具体间距与对齐要求。",
+      "communication_goal": "把模糊审美反馈变成可检查的界面要求。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Please make the spacing on this screen more consistent.",
+          "zh": "请让这个屏幕上的间距更一致。"
+        },
+        {
+          "speaker": "B",
+          "en": "How should I align the headings and buttons?",
+          "zh": "标题和按钮应该怎样对齐？"
+        },
+        {
+          "speaker": "A",
+          "en": "Use the same left edge and leave more space between sections.",
+          "zh": "沿同一条左边线对齐，并在各区域之间留出更多空间。"
+        },
+        {
+          "speaker": "B",
+          "en": "Got it. I'll show you a preview so you can check the layout.",
+          "zh": "明白。我会展示预览，让你检查布局。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The stick-figure programmer stands at left and uses an open-hand gesture toward a large upright desktop monitor at center. The monitor screen is fully visible and displays a simple unlabelled wireframe with three horizontal outlined rectangles and two small blank rounded rectangular button shapes; no words, letters, numbers or code. The white OpenAI knot floats to the right as the conversation partner. Keep the whole screen unobstructed, clearly separate from the pointing hand, and make its visible inner display area large for a learning crop. Only the monitor and its simple support stand.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands at left and uses an open-hand gesture toward a large upright desktop monitor at center. The monitor screen is fully visible and displays a simple unlabelled wireframe with three horizontal outlined rectangles and two small blank rounded rectangular button shapes; no words, letters, numbers or code. The white OpenAI knot floats to the right as the conversation partner. Keep the whole screen unobstructed, clearly separate from the pointing hand, and make its visible inner display area large for a learning crop. Only the monitor and its simple support stand.",
+      "words": [
+        {
+          "word": "spacing",
+          "zh": "间距",
+          "pos": "noun",
+          "us": "/ˈspeɪsɪŋ/",
+          "uk": "/ˈspeɪsɪŋ/",
+          "example": "Please make the spacing on this screen more consistent.",
+          "translation": "请让这个屏幕上的间距更一致。",
+          "mode": "context",
+          "collocations": [
+            "consistent spacing",
+            "spacing between sections"
+          ],
+          "evidence": "间距调整由对白提出，是尚待实现的要求；不把图中任意空白当作目标完成状态。",
+          "color": "blue"
+        },
+        {
+          "word": "consistent",
+          "zh": "一致的",
+          "pos": "adjective",
+          "us": "/kənˈsɪstənt/",
+          "uk": "/kənˈsɪstənt/",
+          "example": "Please make the spacing on this screen more consistent.",
+          "translation": "请让这个屏幕上的间距更一致。",
+          "mode": "context",
+          "collocations": [
+            "consistent spacing",
+            "a consistent layout"
+          ],
+          "evidence": "一致性是对未来布局的要求，图中简化线框不能证明质量达标。",
+          "color": "lavender"
+        },
+        {
+          "word": "align",
+          "zh": "对齐",
+          "pos": "verb",
+          "us": "/əˈlaɪn/",
+          "uk": "/əˈlaɪn/",
+          "example": "How should I align the headings and buttons?",
+          "translation": "标题和按钮应该怎样对齐？",
+          "mode": "context",
+          "collocations": [
+            "align the headings",
+            "align along the left edge"
+          ],
+          "evidence": "对齐是对话中的操作要求，未以静态线框声称完成。",
+          "color": "rose"
+        },
+        {
+          "word": "screen",
+          "zh": "屏幕",
+          "pos": "noun",
+          "us": "/skriːn/",
+          "uk": "/skriːn/",
+          "example": "Please make the spacing on this screen more consistent.",
+          "translation": "请让这个屏幕上的间距更一致。",
+          "mode": "object",
+          "collocations": [
+            "on this screen",
+            "a monitor screen"
+          ],
+          "evidence": "显示器的实际内屏区域为 screen 的指代，不将支架或人物纳入屏幕框。",
+          "color": "teal"
+        }
+      ]
+    }
+  ],
+  "editorialRefinementAt": "2026-10-09T03:30:48.845960+00:00",
+  "editorialRefinementNote": "V002批准对象明确为改动；夹板用于记录检查，消除 sign off on this clipboard 的歧义。图与坐标不变。"
+}

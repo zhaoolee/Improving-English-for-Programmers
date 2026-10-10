@@ -1,0 +1,119 @@
+V009  用一个例子消除十种误解
+========================================================================
+分类: 把需求说清楚（requirements）
+关键词: example
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V009.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V009.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V009.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T05:14:22Z → 2026-10-09T05:16:12Z
+  提示词文件: prompts/V009_image_final.txt
+
+场景: 程序员用具体的输入与输出示例澄清需求。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。平板屏幕与机身边界清楚，支持的手轻遮下缘，裁剪保留持握语境。
+
+沟通目标: 通过输入和预期输出消除需求歧义。
+
+主配文（一句场景描述）:
+  英文: A programmer uses a concrete input and output example to clarify a requirement.
+  中文: 程序员用具体的输入与输出示例澄清需求。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Let me show you an example on this tablet before you build the search.
+        在你实现搜索前，我先在这台平板上给你看一个例子。
+  [B] What input should I use, and what output should I expect?
+        应该使用什么输入，预期得到什么输出？
+  [A] If I search for a title with extra spaces, trim the spaces and return the matching item.
+        如果我搜索的标题带有多余空格，就去掉空格并返回匹配项。
+  [B] Got it. I'll also check a search with no matches.
+        明白了。我还会检查没有匹配结果的搜索。
+
+目标词 (4): example, input, output, tablet
+
+------------------------------------------------------------------------
+[1/4] example
+  词义: 示例
+  词性: noun
+  音标: UK /ɪɡˈzɑːmpəl/ | US /ɪɡˈzæmpəl/
+  搭配: a concrete example; show an example
+  例句: Let me show you an example on this tablet before you build the search.
+  例句高亮: Let me show you an **example** on this tablet before you build the search.
+  例句中文: 在你实现搜索前，我先在这台平板上给你看一个例子。
+  标注模式: context
+  标注说明: 具体示例来自对白，空白屏幕不提供可读示例内容。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] input
+  词义: 输入
+  词性: noun
+  音标: UK /ˈɪnpʊt/ | US /ˈɪnpʊt/
+  搭配: search input; valid input
+  例句: What input should I use, and what output should I expect?
+  例句高亮: What **input** should I use, and what output should I expect?
+  例句中文: 应该使用什么输入，预期得到什么输出？
+  标注模式: context
+  标注说明: 这里指搜索的输入数据，而非可定位的输入设备。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] output
+  词义: 输出
+  词性: noun
+  音标: UK /ˈaʊtpʊt/ | US /ˈaʊtpʊt/
+  搭配: expected output; check the output
+  例句: What input should I use, and what output should I expect?
+  例句高亮: What input should I use, and what **output** should I expect?
+  例句中文: 应该使用什么输入，预期得到什么输出？
+  标注模式: context
+  标注说明: 这里指搜索结果数据，静态空白屏幕不能证明结果。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] tablet
+  词义: 平板电脑
+  词性: noun
+  音标: UK /ˈtæblət/ | US /ˈtæblət/
+  搭配: on this tablet; a tablet screen
+  例句: Let me show you an example on this tablet before you build the search.
+  例句高亮: Let me show you an example on this **tablet** before you build the search.
+  例句中文: 在你实现搜索前，我先在这台平板上给你看一个例子。
+  标注模式: object
+  标注说明: 完整手持平板的屏幕、边框与机身是直接可见指代。
+  坐标(normalized): [0.357, 0.382, 0.614, 0.537]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V009 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=18 | meta.approved_cards=18
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left behind a simple desk and holds a single large tablet upright in landscape orientation at the center. The tablet has a rounded rectangular outer body, blank screen, thin bezel and a small circular home button on the right bezel. One hand supports the lower edge; the other gestures toward the floating white OpenAI knot at the right. Show the complete tablet perimeter. No stand, keyboard, writing or other props.

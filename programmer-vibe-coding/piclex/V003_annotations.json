@@ -1,0 +1,130 @@
+{
+  "filename": "V003-选对任务再开工.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "suitable",
+      "chinese": "合适的",
+      "phoneticUS": "/ˈsuːtəbl/",
+      "phoneticUK": "/ˈsuːtəbl/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "任务是否合适由对白中的条件说明，不能从空白笔记页判断。",
+        "association": "任务是否合适由对白中的条件说明，不能从空白笔记页判断。",
+        "collocation": "a suitable task; suitable for beginners",
+        "example": "A: Which task in this notebook is suitable for you to start with?\nB: A routine formatting change is a good first task.\nA: What about changing the login flow?\nB: That carries more risk. Keep it small and review the security decisions yourself.",
+        "exampleChinese": "A: 这个笔记本里的哪项任务适合让你先开始？\nB: 常规的格式调整很适合作为第一项任务。\nA: 那修改登录流程呢？\nB: 那样的风险更高。缩小改动范围，并亲自审查安全方面的决定。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "routine",
+      "chinese": "常规的",
+      "phoneticUS": "/ruːˈtiːn/",
+      "phoneticUK": "/ruːˈtiːn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "routine 修饰格式调整，属于任务性质，没有局部可见指代。",
+        "association": "routine 修饰格式调整，属于任务性质，没有局部可见指代。",
+        "collocation": "a routine change; routine maintenance",
+        "example": "A routine formatting change is a good first task.",
+        "exampleChinese": "常规的格式调整很适合作为第一项任务。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "risk",
+      "chinese": "风险",
+      "phoneticUS": "/rɪsk/",
+      "phoneticUK": "/rɪsk/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "登录流程风险由对白讨论，不以人物表情或笔记本当作风险框。",
+        "association": "登录流程风险由对白讨论，不以人物表情或笔记本当作风险框。",
+        "collocation": "carry more risk; reduce the risk",
+        "example": "That carries more risk. Keep it small and review the security decisions yourself.",
+        "exampleChinese": "那样的风险更高。缩小改动范围，并亲自审查安全方面的决定。"
+      }
+    },
+    {
+      "x": 554,
+      "y": 550,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 554,
+        "y": 550
+      },
+      "boundingBox": {
+        "left": 332,
+        "top": 486,
+        "right": 749,
+        "bottom": 603
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "画面中的完整纸质螺旋笔记本对应对白指代。",
+        "association": "画面中的完整纸质螺旋笔记本对应对白指代。",
+        "collocation": "in this notebook; an open notebook",
+        "example": "Which task in this notebook is suitable for you to start with?",
+        "exampleChinese": "这个笔记本里的哪项任务适合让你先开始？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant choose a suitable first task and discuss its risk.",
+    "chinese": "程序员与 AI 选择适合先做的任务，并讨论其风险。",
+    "source": "原创对话 · V003 选对任务再开工",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

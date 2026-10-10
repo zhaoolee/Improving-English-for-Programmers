@@ -1,0 +1,130 @@
+{
+  "filename": "I026.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 570,
+      "english": "test",
+      "chinese": "测试",
+      "phoneticUS": "/test/",
+      "phoneticUK": "/test/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 570
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：test。本卡例句：I'd test the boundary values and check how the code handles an exception.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：test。本卡例句：I'd test the boundary values and check how the code handles an exception.",
+        "collocation": "test a boundary; test the code",
+        "example": "A: I'd test the boundary values and check how the code handles an exception.\nB: Which case would you try first?\nA: An empty input. I'll list it in my notebook, then add an invalid value and a large input.\nB: How will you decide what each test should expect?",
+        "exampleChinese": "A: 我会测试边界值，并检查代码如何处理异常。\nB: 你会先尝试哪种情况？\nA: 空输入。我会先把它记在笔记本里，再加入一个非法值和一个大规模输入。\nB: 你会如何确定每项测试的预期结果？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "boundary",
+      "chinese": "边界",
+      "phoneticUS": "/ˈbaʊndəri/",
+      "phoneticUK": "/ˈbaʊndəri/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：boundary。本卡例句：I'd test the boundary values and check how the code handles an exception.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：boundary。本卡例句：I'd test the boundary values and check how the code handles an exception.",
+        "collocation": "boundary values; test the boundary",
+        "example": "I'd test the boundary values and check how the code handles an exception.",
+        "exampleChinese": "我会测试边界值，并检查代码如何处理异常。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "exception",
+      "chinese": "异常",
+      "phoneticUS": "/ɪkˈsepʃən/",
+      "phoneticUK": "/ɪkˈsepʃən/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：exception。本卡例句：I'd test the boundary values and check how the code handles an exception.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：exception。本卡例句：I'd test the boundary values and check how the code handles an exception.",
+        "collocation": "handle an exception; throw an exception",
+        "example": "I'd test the boundary values and check how the code handles an exception.",
+        "exampleChinese": "我会测试边界值，并检查代码如何处理异常。"
+      }
+    },
+    {
+      "x": 430,
+      "y": 785,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 440,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 430,
+        "y": 785
+      },
+      "boundingBox": {
+        "left": 215,
+        "top": 700,
+        "right": 599,
+        "bottom": 825
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面中央螺旋笔记本；测试场景为对白设定，不声称照片里代码已通过测试。",
+        "association": "桌面中央螺旋笔记本；测试场景为对白设定，不声称照片里代码已通过测试。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "An empty input. I'll list it in my notebook, then add an invalid value and a large input.",
+        "exampleChinese": "空输入。我会先把它记在笔记本里，再加入一个非法值和一个大规模输入。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate considers boundary and error tests beside a laptop and notebook.",
+    "chinese": "候选人在笔记本电脑与笔记本旁思考边界测试和错误测试。",
+    "source": "原创配文 · I026 为代码补充边界与异常测试",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

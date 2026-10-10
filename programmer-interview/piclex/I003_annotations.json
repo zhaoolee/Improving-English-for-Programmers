@@ -1,0 +1,130 @@
+{
+  "filename": "I003.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "motivation",
+      "chinese": "动机",
+      "phoneticUS": "/ˌmoʊtɪˈveɪʃən/",
+      "phoneticUK": "/ˌməʊtɪˈveɪʃən/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：motivation。本卡例句：My motivation is to build tools that help people work more effectively.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：motivation。本卡例句：My motivation is to build tools that help people work more effectively.",
+        "collocation": "explain your motivation; career motivation",
+        "example": "A: My motivation is to build tools that help people work more effectively.\nB: How does that connect with our mission?\nA: Your developer tools align with my interests. I've noted two examples in my notebook.\nB: Which example would you like to discuss?",
+        "exampleChinese": "A: 我的求职动机是开发帮助人们提高工作效率的工具。\nB: 这与你理解的公司使命有什么联系？\nA: 你们的开发者工具与我的兴趣契合。我在笔记本里记了两个例子。\nB: 你想讨论哪一个例子？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "mission",
+      "chinese": "使命",
+      "phoneticUS": "/ˈmɪʃən/",
+      "phoneticUK": "/ˈmɪʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mission。本卡例句：How does that connect with our mission?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mission。本卡例句：How does that connect with our mission?",
+        "collocation": "the company mission; connect with the mission",
+        "example": "How does that connect with our mission?",
+        "exampleChinese": "这与你理解的公司使命有什么联系？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "align",
+      "chinese": "契合",
+      "phoneticUS": "/əˈlaɪn/",
+      "phoneticUK": "/əˈlaɪn/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：align。本卡例句：Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：align。本卡例句：Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "collocation": "align with my interests; align with the mission",
+        "example": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "exampleChinese": "你们的开发者工具与我的兴趣契合。我在笔记本里记了两个例子。"
+      }
+    },
+    {
+      "x": 310,
+      "y": 905,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 920
+      },
+      "anchorPosition": {
+        "x": 310,
+        "y": 905
+      },
+      "boundingBox": {
+        "left": 90,
+        "top": 815,
+        "right": 525,
+        "bottom": 950
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后候选人一侧的完整纸质笔记本；她的项目例子由对白设定支持，B原持有的另一本笔记本不混用。",
+        "association": "修图后候选人一侧的完整纸质笔记本；她的项目例子由对白设定支持，B原持有的另一本笔记本不混用。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "Your developer tools align with my interests. I've noted two examples in my notebook.",
+        "exampleChinese": "你们的开发者工具与我的兴趣契合。我在笔记本里记了两个例子。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains why the company's work interests her during an initial interview.",
+    "chinese": "在初轮面试中，候选人说明自己为什么对这家公司的工作感兴趣。",
+    "source": "原创配文 · I003 为什么想加入这家公司？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

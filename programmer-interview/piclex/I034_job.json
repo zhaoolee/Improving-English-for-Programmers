@@ -1,0 +1,21 @@
+{
+  "cardID": "I034",
+  "imagePath": "../images/I034.png",
+  "imageSHA256": "631a5f245676ed05e90e696d6d1c7fa4ce242b2c39b156083597f5e4b15ddaf3",
+  "imageReviewed": true,
+  "annotationsPath": "I034_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "feedback",
+    "constructive",
+    "improve",
+    "notebook"
+  ],
+  "receiptPath": "I034_learning_import_receipt.json",
+  "photoID": "0c50c019-f31f-4201-b106-75e3089e856d",
+  "expectedAssetID": "4d8b497d02517a8e1f2f44391bb25ef594a306bd53ce20341c31a86ecda78257",
+  "expectedImageFilename": "I034.png",
+  "expectedSourceSHA256": "631a5f245676ed05e90e696d6d1c7fa4ce242b2c39b156083597f5e4b15ddaf3",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

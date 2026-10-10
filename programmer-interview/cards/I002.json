@@ -1,0 +1,270 @@
+{
+  "id": "I002",
+  "category": "introduction",
+  "title_zh": "说明自己的技术栈与经验",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "欧洲男候选人结合电脑上的简洁项目示意介绍技术经验，美国男面试官追问。",
+  "cast": {
+    "candidate": "EU_LUKAS",
+    "interviewer": "US_MARCUS"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Lukas, a fictional handsome 35-year-old European man from Sweden, with fair skin, gray-green eyes, short light-brown hair, light stubble, and natural smile lines.\nInterviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.\nExactly two people: Lukas, in a pale-blue shirt, introduces his development experience to Marcus, in a charcoal blazer, during an interview. Lukas turns a laptop toward Marcus and gestures once toward a sparse unlabeled workflow of boxes on the screen; he continues looking at Marcus rather than selling to the camera. Marcus leans forward slightly with attentive interest. One thin portfolio folder lies beside the laptop. A diagonal 35mm medium environmental view shows the bright glass meeting room, both people and the complete laptop. Soft warm-white daylight, natural shirt folds, professional and matter-of-fact mood; no floating technology logos.",
+  "prompt_path": "prompts/I002_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I002.png",
+  "image_sha256": "dee25ad61cbbd5d130951f0d5d2d0962c7276794e2781b737e33a69e8a7d9725",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "两位男性与技术经验面试匹配，脸部和可见手指自然；电脑完整，屏幕仅保留无字框和连线，首版小字已移除。窗光、玻璃分区和前景构成层次，主体可辨 实际可见物件：候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "initial_prompt_snapshot_path": "programmer-interview/workflow/prompt-history/20261009-before-cinematic/prompts/I002_image_prompt.txt",
+    "initial_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-1ee5c77f-c63e-413f-a91c-5c05ff04dc6c.png",
+    "initial_started_at_utc": "2026-10-09T11:14:06Z",
+    "initial_finished_at_utc": "2026-10-09T11:17:12Z",
+    "cinematic_edit_prompt_path": "programmer-interview/workflow/I001-I005-cinematic-edit-prompts/I002_edit.txt",
+    "selected_source_path": "/Users/zhaoolee/.codex/generated_images/01a11fb3-f214-7952-bd85-c3acb7ec40d6/exec-0401c044-9634-495a-87fc-ec7f410b700d.png",
+    "cinematic_started_at_utc": "2026-10-09T11:20:22Z",
+    "cinematic_finished_at_utc": "2026-10-09T11:24:02Z",
+    "selected_image_path": "images/I002.png",
+    "selected_image_sha256": "dee25ad61cbbd5d130951f0d5d2d0962c7276794e2781b737e33a69e8a7d9725",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I001-I005_image-review.json",
+    "note": "两步链：初版 prompt 生成原图，再基于该原图定向编辑为选定电影感版；非由现升级后的 prompt 一次生成。",
+    "source_path": "images/I002.png",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T11:20:22Z",
+    "ended_at": "2026-10-09T11:24:02Z",
+    "prompt_path": "prompts/I002_image_final.txt"
+  },
+  "title": "说明自己的技术栈与经验",
+  "scene": "欧洲男候选人结合电脑上的简洁项目示意介绍技术经验，美国男面试官追问。",
+  "category_title": "面试开场与自我介绍",
+  "primary_words": [
+    "stack",
+    "proficient",
+    "production",
+    "laptop"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "stack",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "技术栈",
+      "pos": "noun",
+      "ipa_us": "/stæk/",
+      "ipa_uk": "/stæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "matched_form": "stack",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：stack。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "image_verified": null
+      },
+      "example_en": "My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+      "example_zh": "我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a technical stack",
+        "choose a stack"
+      ],
+      "example_en_highlighted": "My main **stack** is Python and PostgreSQL. I'm proficient in building web APIs.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：stack。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "proficient",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "熟练的",
+      "pos": "adjective",
+      "ipa_us": "/prəˈfɪʃənt/",
+      "ipa_uk": "/prəˈfɪʃənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "matched_form": "proficient",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：proficient。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+        "image_verified": null
+      },
+      "example_en": "My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+      "example_zh": "我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。",
+      "bbox_normalized": null,
+      "collocations": [
+        "proficient in Python",
+        "proficient in building APIs"
+      ],
+      "example_en_highlighted": "My main stack is Python and PostgreSQL. I'm **proficient** in building web APIs.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：proficient。本卡例句：My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "production",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "生产环境",
+      "pos": "noun",
+      "ipa_us": "/prəˈdʌkʃən/",
+      "ipa_uk": "/prəˈdʌkʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Have you used them in production?",
+        "matched_form": "production",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：production。本卡例句：Have you used them in production?",
+        "image_verified": null
+      },
+      "example_en": "Have you used them in production?",
+      "example_zh": "你在生产环境中使用过它们吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "in production",
+        "a production service"
+      ],
+      "example_en_highlighted": "Have you used them in **production**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：production。本卡例句：Have you used them in production?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "laptop",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本电脑",
+      "pos": "noun",
+      "ipa_us": "/ˈlæptɑːp/",
+      "ipa_uk": "/ˈlæptɒp/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。",
+        "sentence": "Yes. On this laptop, I can show the service I maintained for our customers.",
+        "matched_form": "laptop",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Yes. On this laptop, I can show the service I maintained for our customers.",
+      "example_zh": "用过。我可以在这台笔记本电脑上展示我为客户维护的服务。",
+      "bbox_normalized": [
+        0.115,
+        0.43,
+        0.555,
+        0.67
+      ],
+      "collocations": [
+        "an open laptop",
+        "on my laptop"
+      ],
+      "example_en_highlighted": "Yes. On this **laptop**, I can show the service I maintained for our customers.",
+      "annotation_mode": "object",
+      "annotation_note": "候选人面前打开的笔记本电脑，含屏幕与键盘；屏幕图形无可读技术栈信息。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "面试开场与自我介绍",
+  "keyword": "stack",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate discusses his technical stack beside an open laptop.",
+    "zh": "候选人坐在打开的笔记本电脑旁，介绍自己的技术栈。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate discusses his technical stack beside an open laptop.",
+    "zh": "候选人坐在打开的笔记本电脑旁，介绍自己的技术栈。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "My main stack is Python and PostgreSQL. I'm proficient in building web APIs.",
+      "zh": "我的主要技术栈是 Python 和 PostgreSQL。我熟练掌握 Web API 的开发。"
+    },
+    {
+      "speaker": "B",
+      "en": "Have you used them in production?",
+      "zh": "你在生产环境中使用过它们吗？"
+    },
+    {
+      "speaker": "A",
+      "en": "Yes. On this laptop, I can show the service I maintained for our customers.",
+      "zh": "用过。我可以在这台笔记本电脑上展示我为客户维护的服务。"
+    },
+    {
+      "speaker": "B",
+      "en": "What did you learn from operating it?",
+      "zh": "你从运营这个服务的经历中学到了什么？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "简洁介绍背景、技术经验与求职动机，解释与岗位的匹配。本卡主题：说明自己的技术栈与经验。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I002 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I002.png 宽高归一化至 0..1；由人工视觉定位。"
+}

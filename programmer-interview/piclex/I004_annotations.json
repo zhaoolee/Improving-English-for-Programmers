@@ -1,0 +1,130 @@
+{
+  "filename": "I004.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "opportunity",
+      "chinese": "机会",
+      "phoneticUS": "/ˌɑːpərˈtuːnəti/",
+      "phoneticUK": "/ˌɒpəˈtjuːnəti/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：opportunity。本卡例句：I'm looking for an opportunity to take more responsibility for system design.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：opportunity。本卡例句：I'm looking for an opportunity to take more responsibility for system design.",
+        "collocation": "a career opportunity; an opportunity to lead",
+        "example": "A: I'm looking for an opportunity to take more responsibility for system design.\nB: What kind of growth are you seeking?\nA: I'd like to lead a small project. May I outline this transition in your notebook?\nB: How would you prepare for that responsibility?",
+        "exampleChinese": "A: 我在寻找能承担更多系统设计职责的机会。\nB: 你希望获得哪方面的成长？\nA: 我希望负责一个小型项目。我可以在你的笔记本里梳理这次职业转变吗？\nB: 你会如何为这项职责做好准备？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "growth",
+      "chinese": "成长",
+      "phoneticUS": "/ɡroʊθ/",
+      "phoneticUK": "/ɡrəʊθ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：growth。本卡例句：What kind of growth are you seeking?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：growth。本卡例句：What kind of growth are you seeking?",
+        "collocation": "professional growth; an opportunity for growth",
+        "example": "What kind of growth are you seeking?",
+        "exampleChinese": "你希望获得哪方面的成长？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "transition",
+      "chinese": "转变",
+      "phoneticUS": "/trænˈzɪʃən/",
+      "phoneticUK": "/trænˈzɪʃən/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transition。本卡例句：I'd like to lead a small project. May I outline this transition in your notebook?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：transition。本卡例句：I'd like to lead a small project. May I outline this transition in your notebook?",
+        "collocation": "a career transition; prepare for a transition",
+        "example": "I'd like to lead a small project. May I outline this transition in your notebook?",
+        "exampleChinese": "我希望负责一个小型项目。我可以在你的笔记本里梳理这次职业转变吗？"
+      }
+    },
+    {
+      "x": 715,
+      "y": 638,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 800
+      },
+      "anchorPosition": {
+        "x": 715,
+        "y": 638
+      },
+      "boundingBox": {
+        "left": 605,
+        "top": 598,
+        "right": 820,
+        "bottom": 658
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "面试官书写的打开式笔记本；右侧被电脑自然遮挡，框选真实可见笔记本范围，不声称记录内容可读。",
+        "association": "面试官书写的打开式笔记本；右侧被电脑自然遮挡，框选真实可见笔记本范围，不声称记录内容可读。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "I'd like to lead a small project. May I outline this transition in your notebook?",
+        "exampleChinese": "我希望负责一个小型项目。我可以在你的笔记本里梳理这次职业转变吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains his reasons for considering a new role to a recruiter.",
+    "chinese": "候选人向招聘人员说明自己考虑新岗位的原因。",
+    "source": "原创配文 · I004 为什么考虑换工作？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

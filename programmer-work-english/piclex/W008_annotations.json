@@ -1,0 +1,130 @@
+{
+  "filename": "W008-预约同事的沟通时间.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "available",
+      "chinese": "有空的",
+      "phoneticUS": "/əˈveɪləbl/",
+      "phoneticUK": "/əˈveɪləbl/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Are you available for a brief chat this afternoon?”明确表达有空的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Are you available for a brief chat this afternoon?”明确表达有空的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "be available; available this afternoon",
+        "example": "A: Are you available for a brief chat this afternoon?\nB: Yes. What would you like to discuss?\nA: The new API. Let's check the clock and meet in ten minutes.\nB: Works for me. I'll finish this task first.",
+        "exampleChinese": "A: 你今天下午有空简短聊一下吗？\nB: 有空。你想讨论什么？\nA: 新的 API。我们看一下时钟，十分钟后碰面吧。\nB: 可以。我先把这项任务做完。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "discuss",
+      "chinese": "讨论",
+      "phoneticUS": "/dɪˈskʌs/",
+      "phoneticUK": "/dɪˈskʌs/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Yes. What would you like to discuss?”明确表达讨论；单幅画面不能独立证明，不设局部框。",
+        "association": "“Yes. What would you like to discuss?”明确表达讨论；单幅画面不能独立证明，不设局部框。",
+        "collocation": "discuss the plan; discuss a topic",
+        "example": "Yes. What would you like to discuss?",
+        "exampleChinese": "有空。你想讨论什么？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "brief",
+      "chinese": "简短的",
+      "phoneticUS": "/briːf/",
+      "phoneticUK": "/briːf/",
+      "bubblePosition": {
+        "x": 769.830110669374,
+        "y": 69.83011066937398
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Are you available for a brief chat this afternoon?”明确表达简短的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Are you available for a brief chat this afternoon?”明确表达简短的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a brief chat; keep it brief",
+        "example": "Are you available for a brief chat this afternoon?",
+        "exampleChinese": "你今天下午有空简短聊一下吗？"
+      }
+    },
+    {
+      "x": 505,
+      "y": 214,
+      "english": "clock",
+      "chinese": "时钟",
+      "phoneticUS": "/klɑːk/",
+      "phoneticUK": "/klɒk/",
+      "bubblePosition": {
+        "x": 750,
+        "y": 180
+      },
+      "anchorPosition": {
+        "x": 505,
+        "y": 214
+      },
+      "boundingBox": {
+        "left": 397,
+        "top": 100,
+        "right": 603,
+        "bottom": 304
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "时钟（clock）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "时钟（clock）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "check the clock; on the clock",
+        "example": "The new API. Let's check the clock and meet in ten minutes.",
+        "exampleChinese": "新的 API。我们看一下时钟，十分钟后碰面吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer asks a teammate for a brief conversation.",
+    "chinese": "开发者向同事预约一次简短的交流。",
+    "source": "原创对话 · W008 预约同事的沟通时间",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

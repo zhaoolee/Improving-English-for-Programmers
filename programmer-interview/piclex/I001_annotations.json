@@ -1,0 +1,130 @@
+{
+  "filename": "I001.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "background",
+      "chinese": "背景",
+      "phoneticUS": "/ˈbækɡraʊnd/",
+      "phoneticUK": "/ˈbækɡraʊnd/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：background。本卡例句：I'll briefly describe my background. I have three years of backend experience.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：background。本卡例句：I'll briefly describe my background. I have three years of backend experience.",
+        "collocation": "a technical background; describe your background",
+        "example": "A: I'll briefly describe my background. I have three years of backend experience.\nB: What would you bring to this team?\nA: I can contribute by designing reliable APIs. My folder includes a recent project summary.\nB: Please walk me through that project.",
+        "exampleChinese": "A: 我简要介绍一下自己的背景。我有三年后端开发经验。\nB: 你能为这个团队带来什么？\nA: 我可以通过设计可靠的 API 作出贡献。我的文件夹里有最近一个项目的简介。\nB: 请向我介绍一下那个项目。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "experience",
+      "chinese": "经验",
+      "phoneticUS": "/ɪkˈspɪriəns/",
+      "phoneticUK": "/ɪkˈspɪəriəns/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：experience。本卡例句：I'll briefly describe my background. I have three years of backend experience.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：experience。本卡例句：I'll briefly describe my background. I have three years of backend experience.",
+        "collocation": "backend experience; practical experience",
+        "example": "I'll briefly describe my background. I have three years of backend experience.",
+        "exampleChinese": "我简要介绍一下自己的背景。我有三年后端开发经验。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "contribute",
+      "chinese": "作出贡献",
+      "phoneticUS": "/kənˈtrɪbjuːt/",
+      "phoneticUK": "/kənˈtrɪbjuːt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：contribute。本卡例句：I can contribute by designing reliable APIs. My folder includes a recent project summary.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：contribute。本卡例句：I can contribute by designing reliable APIs. My folder includes a recent project summary.",
+        "collocation": "contribute to a team; contribute an idea",
+        "example": "I can contribute by designing reliable APIs. My folder includes a recent project summary.",
+        "exampleChinese": "我可以通过设计可靠的 API 作出贡献。我的文件夹里有最近一个项目的简介。"
+      }
+    },
+    {
+      "x": 420,
+      "y": 773,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 900
+      },
+      "anchorPosition": {
+        "x": 420,
+        "y": 773
+      },
+      "boundingBox": {
+        "left": 145,
+        "top": 715,
+        "right": 650,
+        "bottom": 835
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面前方深色薄文件夹；不把文件夹外观当成简历内容证明。",
+        "association": "桌面前方深色薄文件夹；不把文件夹外观当成简历内容证明。",
+        "collocation": "a document folder; open a folder",
+        "example": "I can contribute by designing reliable APIs. My folder includes a recent project summary.",
+        "exampleChinese": "我可以通过设计可靠的 API 作出贡献。我的文件夹里有最近一个项目的简介。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate introduces her background while the interviewer listens across the table.",
+    "chinese": "候选人介绍自己的背景，桌子对面的面试官专注倾听。",
+    "source": "原创配文 · I001 用一分钟介绍自己",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

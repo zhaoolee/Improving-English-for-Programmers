@@ -1,0 +1,246 @@
+{
+  "id": "W069",
+  "category": "operations",
+  "category_title": "发布与线上协作",
+  "chapter": "发布与线上协作",
+  "title": "交接值班信息",
+  "keyword": "alert",
+  "scene": "两位值班开发者在交班时交换重要信息。",
+  "target_count": 4,
+  "primary_words": [
+    "alert",
+    "shift",
+    "escalate",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "alert",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "告警",
+      "pos": "noun",
+      "ipa_us": "/əˈlɜːrt/",
+      "ipa_uk": "/əˈlɜːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "There's an intermittent alert from the payment service.",
+        "matched_form": "alert",
+        "referent_region_verified": false,
+        "context": "“There's an intermittent alert from the payment service.”明确表达告警；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "There's an intermittent alert from the payment service.",
+      "example_zh": "支付服务有一条间歇性的告警。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a system alert",
+        "receive an alert"
+      ],
+      "example_en_highlighted": "There's an intermittent **alert** from the payment service.",
+      "annotation_mode": "context",
+      "annotation_note": "“There's an intermittent alert from the payment service.”明确表达告警；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "shift",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "班次",
+      "pos": "noun",
+      "ipa_us": "/ʃɪft/",
+      "ipa_uk": "/ʃɪft/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What should I watch during my shift?",
+        "matched_form": "shift",
+        "referent_region_verified": false,
+        "context": "“What should I watch during my shift?”明确表达班次；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "What should I watch during my shift?",
+      "example_zh": "我的班次中需要注意什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "during my shift",
+        "a night shift"
+      ],
+      "example_en_highlighted": "What should I watch during my **shift**?",
+      "annotation_mode": "context",
+      "annotation_note": "“What should I watch during my shift?”明确表达班次；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "escalate",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "升级处理",
+      "pos": "verb",
+      "ipa_us": "/ˈeskəleɪt/",
+      "ipa_uk": "/ˈeskəleɪt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll keep this notebook nearby. When should I escalate it?",
+        "matched_form": "escalate",
+        "referent_region_verified": false,
+        "context": "“I'll keep this notebook nearby. When should I escalate it?”明确表达升级处理；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I'll keep this notebook nearby. When should I escalate it?",
+      "example_zh": "我会把这个笔记本放在旁边。什么情况下需要升级处理？",
+      "bbox_normalized": null,
+      "collocations": [
+        "escalate an issue",
+        "escalate to the owner"
+      ],
+      "example_en_highlighted": "I'll keep this notebook nearby. When should I **escalate** it?",
+      "annotation_mode": "context",
+      "annotation_note": "“I'll keep this notebook nearby. When should I escalate it?”明确表达升级处理；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "I'll keep this notebook nearby. When should I escalate it?",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll keep this notebook nearby. When should I escalate it?",
+      "example_zh": "我会把这个笔记本放在旁边。什么情况下需要升级处理？",
+      "bbox_normalized": [
+        0.416,
+        0.332,
+        0.648,
+        0.479
+      ],
+      "collocations": [
+        "in this notebook",
+        "write in a notebook"
+      ],
+      "example_en_highlighted": "I'll keep this **notebook** nearby. When should I escalate it?",
+      "annotation_mode": "object",
+      "annotation_note": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "Two on-call developers exchange important information at a shift handover.",
+    "zh": "两位值班开发者在交班时交换重要信息。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "Two on-call developers exchange important information at a shift handover.",
+    "zh": "两位值班开发者在交班时交换重要信息。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "What should I watch during my shift?",
+      "zh": "我的班次中需要注意什么？"
+    },
+    {
+      "speaker": "B",
+      "en": "There's an intermittent alert from the payment service.",
+      "zh": "支付服务有一条间歇性的告警。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll keep this notebook nearby. When should I escalate it?",
+      "zh": "我会把这个笔记本放在旁边。什么情况下需要升级处理？"
+    },
+    {
+      "speaker": "B",
+      "en": "If failures continue for five minutes, contact the service owner.",
+      "zh": "如果失败持续五分钟，就联系服务负责人。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "交接班次注意事项与升级处理条件。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers stand at a small desk, one passes an open notebook to the other. Notebook covers and blank pages fully visible between hands. Simple office environment no writing.",
+  "status": "approved",
+  "image_path": "images/W069.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W069 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W069.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:35:20.409Z",
+    "prompt_path": "prompts/W069_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W069.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：两人之间打开的纸质笔记本。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

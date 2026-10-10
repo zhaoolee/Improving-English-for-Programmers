@@ -1,0 +1,130 @@
+{
+  "filename": "W058-验证修复是否有效.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "verify",
+      "chinese": "验证",
+      "phoneticUS": "/ˈverɪfaɪ/",
+      "phoneticUK": "/ˈverɪfaɪ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“How can we verify this fix?”明确表达验证；单幅画面不能独立证明，不设局部框。",
+        "association": "“How can we verify this fix?”明确表达验证；单幅画面不能独立证明，不设局部框。",
+        "collocation": "verify a fix; verify the result",
+        "example": "A: How can we verify this fix?\nB: Repeat the original steps, then run the related tests.\nA: I'll use this laptop to check for a regression in checkout too.\nB: Thanks. Let me know if any existing behavior changes.",
+        "exampleChinese": "A: 我们怎样验证这次修复？\nB: 重复原来的操作步骤，再运行相关测试。\nA: 我也会用这个笔记本电脑检查结账流程有没有回归缺陷。\nB: 谢谢。如果现有行为有任何变化，请告诉我。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "fix",
+      "chinese": "修复",
+      "phoneticUS": "/fɪks/",
+      "phoneticUK": "/fɪks/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“How can we verify this fix?”明确表达修复；单幅画面不能独立证明，不设局部框。",
+        "association": "“How can we verify this fix?”明确表达修复；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a quick fix; the login fix",
+        "example": "How can we verify this fix?",
+        "exampleChinese": "我们怎样验证这次修复？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "regression",
+      "chinese": "回归缺陷",
+      "phoneticUS": "/rɪˈɡreʃn/",
+      "phoneticUK": "/rɪˈɡreʃn/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll use this laptop to check for a regression in checkout too.”明确表达回归缺陷；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll use this laptop to check for a regression in checkout too.”明确表达回归缺陷；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a regression; check for a regression",
+        "example": "I'll use this laptop to check for a regression in checkout too.",
+        "exampleChinese": "我也会用这个笔记本电脑检查结账流程有没有回归缺陷。"
+      }
+    },
+    {
+      "x": 521,
+      "y": 510,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 710
+      },
+      "anchorPosition": {
+        "x": 521,
+        "y": 510
+      },
+      "boundingBox": {
+        "left": 371,
+        "top": 400,
+        "right": 673,
+        "bottom": 618
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本电脑（laptop）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this laptop; an open laptop",
+        "example": "I'll use this laptop to check for a regression in checkout too.",
+        "exampleChinese": "我也会用这个笔记本电脑检查结账流程有没有回归缺陷。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A tester and a developer verify a fix and check for regressions.",
+    "chinese": "测试人员与开发者验证修复，并检查是否引入回归缺陷。",
+    "source": "原创对话 · W058 验证修复是否有效",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

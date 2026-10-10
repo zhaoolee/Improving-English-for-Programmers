@@ -1,0 +1,21 @@
+{
+  "cardID": "I003",
+  "imagePath": "../images/I003.png",
+  "imageSHA256": "45d75c4b641639ef20dd6d0e3b3dd6c574e79514787949731e3607201917ae1d",
+  "imageReviewed": true,
+  "annotationsPath": "I003_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "motivation",
+    "mission",
+    "align",
+    "notebook"
+  ],
+  "receiptPath": "I003_learning_import_receipt.json",
+  "photoID": "8c074d30-1219-4b65-a1b9-0c6e9e3350ec",
+  "expectedAssetID": "dd0e45c76189463113f17519e83a52cc26402c2dda740ab043fa7729c9b7293c",
+  "expectedImageFilename": "I003.png",
+  "expectedSourceSHA256": "45d75c4b641639ef20dd6d0e3b3dd6c574e79514787949731e3607201917ae1d",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

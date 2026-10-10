@@ -1,0 +1,130 @@
+{
+  "filename": "I036.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "role",
+      "chinese": "岗位",
+      "phoneticUS": "/roʊl/",
+      "phoneticUK": "/rəʊl/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：role。本卡例句：Could you clarify the main expectation for this role in the first three months?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：role。本卡例句：Could you clarify the main expectation for this role in the first three months?",
+        "collocation": "a developer role; apply for a role",
+        "example": "A: Could you clarify the main expectation for this role in the first three months?\nB: We'd like you to take responsibility for one small service.\nA: What does onboarding involve? I have a few related questions in my folder.\nB: You'll pair with a teammate before taking on independent work.",
+        "exampleChinese": "A: 你能说明这个岗位在前三个月的主要期望吗？\nB: 我们希望你负责一个小型服务。\nA: 入职培训包含什么？我的文件夹里还有几个相关问题。\nB: 你会先与同事结对，再开始独立工作。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "expectation",
+      "chinese": "期望",
+      "phoneticUS": "/ˌekspekˈteɪʃən/",
+      "phoneticUK": "/ˌekspekˈteɪʃən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：expectation。本卡例句：Could you clarify the main expectation for this role in the first three months?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：expectation。本卡例句：Could you clarify the main expectation for this role in the first three months?",
+        "collocation": "a clear expectation; meet an expectation",
+        "example": "Could you clarify the main expectation for this role in the first three months?",
+        "exampleChinese": "你能说明这个岗位在前三个月的主要期望吗？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "onboarding",
+      "chinese": "入职培训",
+      "phoneticUS": "/ˈɑːnbɔːrdɪŋ/",
+      "phoneticUK": "/ˈɒnbɔːdɪŋ/",
+      "bubblePosition": {
+        "x": 697,
+        "y": 166
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：onboarding。本卡例句：What does onboarding involve? I have a few related questions in my folder.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：onboarding。本卡例句：What does onboarding involve? I have a few related questions in my folder.",
+        "collocation": "onboarding support; the onboarding process",
+        "example": "What does onboarding involve? I have a few related questions in my folder.",
+        "exampleChinese": "入职培训包含什么？我的文件夹里还有几个相关问题。"
+      }
+    },
+    {
+      "x": 390,
+      "y": 668,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 440,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 390,
+        "y": 668
+      },
+      "boundingBox": {
+        "left": 180,
+        "top": 625,
+        "right": 620,
+        "bottom": 705
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人面前薄文件夹；不声称其封面可读岗位或培训资料。",
+        "association": "候选人面前薄文件夹；不声称其封面可读岗位或培训资料。",
+        "collocation": "a document folder; open a folder",
+        "example": "What does onboarding involve? I have a few related questions in my folder.",
+        "exampleChinese": "入职培训包含什么？我的文件夹里还有几个相关问题。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate asks the interviewer about the role and the team's expectations.",
+    "chinese": "候选人向面试官询问岗位与团队期望。",
+    "source": "原创配文 · I036 向面试官了解团队和岗位",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

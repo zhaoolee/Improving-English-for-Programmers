@@ -1,0 +1,130 @@
+{
+  "filename": "V008-先写验收标准，再写代码.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "criteria",
+      "chinese": "标准",
+      "phoneticUS": "/kraɪˈtɪriə/",
+      "phoneticUK": "/kraɪˈtɪəriə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "验收标准由对白定义，空白纸张不能证明具体规则。",
+        "association": "验收标准由对白定义，空白纸张不能证明具体规则。",
+        "collocation": "acceptance criteria; meet the criteria",
+        "example": "A: Before you code, let's put the acceptance criteria in this document.\nB: What is the expected behavior when a required field is empty?\nA: Show an error and keep the form open. Do not save an incomplete record.\nB: Please confirm that rule. I'll use it to check the implementation.",
+        "exampleChinese": "A: 写代码前，我们先把验收标准写进这份文档。\nB: 必填字段为空时，预期行为是什么？\nA: 显示错误并保持表单打开，不保存不完整的记录。\nB: 请确认这条规则。我会用它检查实现。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "expected",
+      "chinese": "预期的",
+      "phoneticUS": "/ɪkˈspektɪd/",
+      "phoneticUK": "/ɪkˈspektɪd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "预期行为是对白中的约定，没有局部可见指代。",
+        "association": "预期行为是对白中的约定，没有局部可见指代。",
+        "collocation": "expected behavior; the expected result",
+        "example": "What is the expected behavior when a required field is empty?",
+        "exampleChinese": "必填字段为空时，预期行为是什么？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "confirm",
+      "chinese": "确认",
+      "phoneticUS": "/kənˈfɜːrm/",
+      "phoneticUK": "/kənˈfɜːm/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "确认是请求中的交流行为，静态手势不能证明确认完成。",
+        "association": "确认是请求中的交流行为，静态手势不能证明确认完成。",
+        "collocation": "confirm a rule; confirm the requirements",
+        "example": "Please confirm that rule. I'll use it to check the implementation.",
+        "exampleChinese": "请确认这条规则。我会用它检查实现。"
+      }
+    },
+    {
+      "x": 488,
+      "y": 540,
+      "english": "document",
+      "chinese": "文档",
+      "phoneticUS": "/ˈdɑːkjəmənt/",
+      "phoneticUK": "/ˈdɒkjəmənt/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 488,
+        "y": 540
+      },
+      "boundingBox": {
+        "left": 381,
+        "top": 462,
+        "right": 604,
+        "bottom": 598
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "对白指定纸质文档，实际纸张是局部指代；不声称能读出其内容。",
+        "association": "对白指定纸质文档，实际纸张是局部指代；不声称能读出其内容。",
+        "collocation": "in this document; a requirements document",
+        "example": "Before you code, let's put the acceptance criteria in this document.",
+        "exampleChinese": "写代码前，我们先把验收标准写进这份文档。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant agree on acceptance criteria before writing code.",
+    "chinese": "程序员与 AI 在写代码前约定验收标准。",
+    "source": "原创对话 · V008 先写验收标准，再写代码",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

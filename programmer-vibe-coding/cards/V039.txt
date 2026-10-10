@@ -1,0 +1,119 @@
+V039  第一位用户说不好用怎么办？
+========================================================================
+分类: 从能跑到交付（delivery）
+关键词: feedback
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V039.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V039.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V039.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V039_image_final.txt
+
+场景: 使用 Git、发布、回滚与反馈完成交付
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。程序员手持唯一头戴式耳机，耳罩、头梁和麦克风完整可见；反馈、观察和澄清由用户沟通对白表达。
+
+沟通目标: 先倾听、观察和澄清真实阻碍，再做最小改进。
+
+主配文（一句场景描述）:
+  英文: A programmer asks how to respond when the first user gives negative feedback.
+  中文: 第一位用户给出负面反馈后，程序员询问该如何回应。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Our first user says the flow feels awkward. How should we handle the feedback?
+        第一位用户说流程很别扭。我们该如何处理这条反馈？
+  [B] Ask what they tried and observe where they hesitate.
+        问清他们尝试了什么，并观察他们在哪里犹豫。
+  [A] I'll use this headset to clarify the problem without defending the design.
+        我会用这个耳麦澄清问题，而不是急着为设计辩护。
+  [B] Then we'll change the smallest part that blocks them.
+        然后我们只改真正阻碍他们的最小部分。
+
+目标词 (4): feedback, observe, clarify, headset
+
+------------------------------------------------------------------------
+[1/4] feedback
+  词义: 反馈
+  词性: noun
+  音标: UK /ˈfiːdbæk/ | US /ˈfiːdbæk/
+  搭配: user feedback; handle feedback
+  例句: Our first user says the flow feels awkward. How should we handle the feedback?
+  例句高亮: Our first user says the flow feels awkward. How should we handle the **feedback**?
+  例句中文: 第一位用户说流程很别扭。我们该如何处理这条反馈？
+  标注模式: context
+  标注说明: 反馈内容来自用户表达，耳麦只能提供沟通语境。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] observe
+  词义: 观察
+  词性: verb
+  音标: UK /əbˈzɜːv/ | US /əbˈzɜːrv/
+  搭配: observe a user; observe behavior
+  例句: Ask what they tried and observe where they hesitate.
+  例句高亮: Ask what they tried and **observe** where they hesitate.
+  例句中文: 问清他们尝试了什么，并观察他们在哪里犹豫。
+  标注模式: context
+  标注说明: 观察是研究动作，静态画面不能证明已经收集结果。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] clarify
+  词义: 澄清
+  词性: verb
+  音标: UK /ˈklærəfaɪ/ | US /ˈklerəfaɪ/
+  搭配: clarify the problem; clarify feedback
+  例句: I'll use this headset to clarify the problem without defending the design.
+  例句高亮: I'll use this headset to **clarify** the problem without defending the design.
+  例句中文: 我会用这个耳麦澄清问题，而不是急着为设计辩护。
+  标注模式: context
+  标注说明: 澄清是沟通过程，不能从持有耳麦推断已经完成。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] headset
+  词义: 耳麦
+  词性: noun
+  音标: UK /ˈhedset/ | US /ˈhedset/
+  搭配: use a headset; an over-ear headset
+  例句: I'll use this headset to clarify the problem without defending the design.
+  例句高亮: I'll use this **headset** to clarify the problem without defending the design.
+  例句中文: 我会用这个耳麦澄清问题，而不是急着为设计辩护。
+  标注模式: object
+  标注说明: 完整可见的头梁、耳罩和麦克风杆构成耳麦直接指代。
+  坐标(normalized): [0.404, 0.273, 0.566, 0.472]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V039 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a small desk holding one over-ear headset at center. The headset's full curved headband, two ear cups and short microphone boom are clearly visible and unobstructed, with no logos. The other hand rests away from it. The floating white OpenAI knot is at the right as the conversation partner. No phone, screen, text or second headset.

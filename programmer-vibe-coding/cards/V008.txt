@@ -1,0 +1,119 @@
+V008  先写验收标准，再写代码
+========================================================================
+分类: 把需求说清楚（requirements）
+关键词: criteria
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V008.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V008.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V008.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T05:14:22Z → 2026-10-09T05:16:12Z
+  提示词文件: prompts/V008_image_final.txt
+
+场景: 程序员与 AI 在写代码前约定验收标准。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。折角纸质文档完整可见，无可读规则。
+
+沟通目标: 把验收标准写成可检查的预期行为。
+
+主配文（一句场景描述）:
+  英文: A programmer and an AI assistant agree on acceptance criteria before writing code.
+  中文: 程序员与 AI 在写代码前约定验收标准。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Before you code, let's put the acceptance criteria in this document.
+        写代码前，我们先把验收标准写进这份文档。
+  [B] What is the expected behavior when a required field is empty?
+        必填字段为空时，预期行为是什么？
+  [A] Show an error and keep the form open. Do not save an incomplete record.
+        显示错误并保持表单打开，不保存不完整的记录。
+  [B] Please confirm that rule. I'll use it to check the implementation.
+        请确认这条规则。我会用它检查实现。
+
+目标词 (4): criteria, expected, confirm, document
+
+------------------------------------------------------------------------
+[1/4] criteria
+  词义: 标准
+  词性: noun
+  音标: UK /kraɪˈtɪəriə/ | US /kraɪˈtɪriə/
+  搭配: acceptance criteria; meet the criteria
+  例句: Before you code, let's put the acceptance criteria in this document.
+  例句高亮: Before you code, let's put the acceptance **criteria** in this document.
+  例句中文: 写代码前，我们先把验收标准写进这份文档。
+  标注模式: context
+  标注说明: 验收标准由对白定义，空白纸张不能证明具体规则。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] expected
+  词义: 预期的
+  词性: adjective
+  音标: UK /ɪkˈspektɪd/ | US /ɪkˈspektɪd/
+  搭配: expected behavior; the expected result
+  例句: What is the expected behavior when a required field is empty?
+  例句高亮: What is the **expected** behavior when a required field is empty?
+  例句中文: 必填字段为空时，预期行为是什么？
+  标注模式: context
+  标注说明: 预期行为是对白中的约定，没有局部可见指代。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] confirm
+  词义: 确认
+  词性: verb
+  音标: UK /kənˈfɜːm/ | US /kənˈfɜːrm/
+  搭配: confirm a rule; confirm the requirements
+  例句: Please confirm that rule. I'll use it to check the implementation.
+  例句高亮: Please **confirm** that rule. I'll use it to check the implementation.
+  例句中文: 请确认这条规则。我会用它检查实现。
+  标注模式: context
+  标注说明: 确认是请求中的交流行为，静态手势不能证明确认完成。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] document
+  词义: 文档
+  词性: noun
+  音标: UK /ˈdɒkjəmənt/ | US /ˈdɑːkjəmənt/
+  搭配: in this document; a requirements document
+  例句: Before you code, let's put the acceptance criteria in this document.
+  例句高亮: Before you code, let's put the acceptance criteria in this **document**.
+  例句中文: 写代码前，我们先把验收标准写进这份文档。
+  标注模式: object
+  标注说明: 对白指定纸质文档，实际纸张是局部指代；不声称能读出其内容。
+  坐标(normalized): [0.381, 0.462, 0.604, 0.598]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V008 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=18 | meta.approved_cards=18
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small desk, pointing to one large rectangular paper document lying diagonally on the desk. The sheet has a clearly folded upper-right corner and completely blank black interior outlined in white. Show all four page edges, with the pointing finger beside it rather than covering it. The white OpenAI knot floats to the right. Calm discussion pose. No laptop or other paper.

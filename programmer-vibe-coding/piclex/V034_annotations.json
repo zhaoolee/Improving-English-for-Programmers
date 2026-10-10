@@ -1,0 +1,130 @@
+{
+  "filename": "V034-让 AI 解释安全与性能取舍.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "trade-off",
+      "chinese": "取舍",
+      "phoneticUS": "/ˈtreɪd ɔːf/",
+      "phoneticUK": "/ˈtreɪd ɒf/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "取舍是两个目标间的决策关系，天平只作情境道具。",
+        "association": "取舍是两个目标间的决策关系，天平只作情境道具。",
+        "collocation": "explain a trade-off; a security trade-off",
+        "example": "A: Explain the trade-off between security and performance.\nB: Stronger checks improve security but add work to every request.\nA: Use this balance scale to compare both costs clearly.\nB: I'll describe the performance cost and when the security benefit matters.",
+        "exampleChinese": "A: 解释一下安全性与性能之间的取舍。\nB: 更严格的检查会提升安全性，但也会增加每个请求的处理工作。\nA: 用这架天平把两边的代价比较清楚。\nB: 我会说明性能代价，以及安全收益在什么情况下重要。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "security",
+      "chinese": "安全性",
+      "phoneticUS": "/sɪˈkjʊrəti/",
+      "phoneticUK": "/sɪˈkjʊərəti/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "软件安全性来自机制与验证，不能从天平外观判断。",
+        "association": "软件安全性来自机制与验证，不能从天平外观判断。",
+        "collocation": "improve security; security checks",
+        "example": "Stronger checks improve security but add work to every request.",
+        "exampleChinese": "更严格的检查会提升安全性，但也会增加每个请求的处理工作。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "performance",
+      "chinese": "性能",
+      "phoneticUS": "/pərˈfɔːrməns/",
+      "phoneticUK": "/pəˈfɔːməns/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "性能需要测量运行行为，静态插画没有测速证据。",
+        "association": "性能需要测量运行行为，静态插画没有测速证据。",
+        "collocation": "performance cost; improve performance",
+        "example": "Explain the trade-off between security and performance.",
+        "exampleChinese": "解释一下安全性与性能之间的取舍。"
+      }
+    },
+    {
+      "x": 515,
+      "y": 430,
+      "english": "scale",
+      "chinese": "天平",
+      "phoneticUS": "/skeɪl/",
+      "phoneticUK": "/skeɪl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 515,
+        "y": 430
+      },
+      "boundingBox": {
+        "left": 316,
+        "top": 301,
+        "right": 721,
+        "bottom": 606
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中央完整可见的传统双盘天平是直接指代，只框整架天平。",
+        "association": "中央完整可见的传统双盘天平是直接指代，只框整架天平。",
+        "collocation": "a balance scale; both pans of the scale",
+        "example": "Use this balance scale to compare both costs clearly.",
+        "exampleChinese": "用这架天平把两边的代价比较清楚。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to explain a security and performance trade-off.",
+    "chinese": "程序员让 AI 解释安全与性能之间的取舍。",
+    "source": "原创对话 · V034 让 AI 解释安全与性能取舍",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

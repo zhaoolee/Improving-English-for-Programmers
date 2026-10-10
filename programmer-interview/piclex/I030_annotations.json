@@ -1,0 +1,130 @@
+{
+  "filename": "I030.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "deployment",
+      "chinese": "部署",
+      "phoneticUS": "/dɪˈplɔɪmənt/",
+      "phoneticUK": "/dɪˈplɔɪmənt/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 41
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：deployment。本卡例句：I'd start with a small deployment and monitor error rates before expanding it.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：deployment。本卡例句：I'd start with a small deployment and monitor error rates before expanding it.",
+        "collocation": "a small deployment; a deployment plan",
+        "example": "A: I'd start with a small deployment and monitor error rates before expanding it.\nB: What would trigger a rollback?\nA: A sustained rise above our agreed error threshold. The whiteboard shows the return path.\nB: How would you check that the previous version is compatible with the data?",
+        "exampleChinese": "A: 我会先进行小范围部署，并在扩大范围前监控错误率。\nB: 什么情况会触发回滚？\nA: 错误率持续超过事先约定的阈值。白板展示了返回路径。\nB: 你会如何检查旧版本是否与当前数据兼容？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "rollback",
+      "chinese": "回滚",
+      "phoneticUS": "/ˈroʊlbæk/",
+      "phoneticUK": "/ˈrəʊlbæk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：rollback。本卡例句：What would trigger a rollback?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：rollback。本卡例句：What would trigger a rollback?",
+        "collocation": "trigger a rollback; a rollback plan",
+        "example": "What would trigger a rollback?",
+        "exampleChinese": "什么情况会触发回滚？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "monitor",
+      "chinese": "监控",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：monitor。本卡例句：I'd start with a small deployment and monitor error rates before expanding it.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：monitor。本卡例句：I'd start with a small deployment and monitor error rates before expanding it.",
+        "collocation": "monitor error rates; monitor a deployment",
+        "example": "I'd start with a small deployment and monitor error rates before expanding it.",
+        "exampleChinese": "我会先进行小范围部署，并在扩大范围前监控错误率。"
+      }
+    },
+    {
+      "x": 690,
+      "y": 480,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 555,
+        "y": 490
+      },
+      "anchorPosition": {
+        "x": 690,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 388,
+        "top": 159,
+        "right": 861,
+        "bottom": 610
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人身旁白板及带返回箭头的无字流程；发布/回滚方案由对白解释。",
+        "association": "候选人身旁白板及带返回箭头的无字流程；发布/回滚方案由对白解释。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "A sustained rise above our agreed error threshold. The whiteboard shows the return path.",
+        "exampleChinese": "错误率持续超过事先约定的阈值。白板展示了返回路径。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate describes a release plan and a rollback path at a whiteboard.",
+    "chinese": "候选人在白板旁说明发布计划与回滚路径。",
+    "source": "原创配文 · I030 说明一次发布与回滚方案",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

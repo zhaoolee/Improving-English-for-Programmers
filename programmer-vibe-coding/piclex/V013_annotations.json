@@ -1,0 +1,130 @@
+{
+  "filename": "V013-把项目规矩写进 AGENTS.md.png",
+  "labels": [
+    {
+      "x": 260,
+      "y": 80,
+      "english": "instruction",
+      "chinese": "指令",
+      "phoneticUS": "/ɪnˈstrʌkʃən/",
+      "phoneticUK": "/ɪnˈstrʌkʃən/",
+      "bubblePosition": {
+        "x": 260,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "指令内容由对白提供，不能从空白书页读取项目规则。",
+        "association": "指令内容由对白提供，不能从空白书页读取项目规则。",
+        "collocation": "read an instruction; follow instructions",
+        "example": "A: Read each instruction in AGENTS.md before you edit. The rules are also in this book.\nB: Should I follow the existing naming convention?\nA: Yes. Follow the project rules, and ask me if two instructions conflict.\nB: Understood. I'll check the rules before proposing any changes.",
+        "exampleChinese": "A: 编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。\nB: 我应该遵循已有的命名约定吗？\nA: 是的。遵循项目规则，如果两条指令冲突就问我。\nB: 明白了。我会先检查规则，再提出改动建议。"
+      }
+    },
+    {
+      "x": 740,
+      "y": 80,
+      "english": "convention",
+      "chinese": "约定",
+      "phoneticUS": "/kənˈvenʃən/",
+      "phoneticUK": "/kənˈvenʃən/",
+      "bubblePosition": {
+        "x": 740,
+        "y": 80
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "命名约定是项目规则，没有可见局部指代。",
+        "association": "命名约定是项目规则，没有可见局部指代。",
+        "collocation": "a naming convention; follow a convention",
+        "example": "Should I follow the existing naming convention?",
+        "exampleChinese": "我应该遵循已有的命名约定吗？"
+      }
+    },
+    {
+      "x": 510,
+      "y": 220,
+      "english": "follow",
+      "chinese": "遵循",
+      "phoneticUS": "/ˈfɑːloʊ/",
+      "phoneticUK": "/ˈfɒləʊ/",
+      "bubblePosition": {
+        "x": 510,
+        "y": 220
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是遵循规则的抽象含义，不框选动作或脚步。",
+        "association": "这里是遵循规则的抽象含义，不框选动作或脚步。",
+        "collocation": "follow the rules; follow a convention",
+        "example": "Yes. Follow the project rules, and ask me if two instructions conflict.",
+        "exampleChinese": "是的。遵循项目规则，如果两条指令冲突就问我。"
+      }
+    },
+    {
+      "x": 525,
+      "y": 535,
+      "english": "book",
+      "chinese": "书",
+      "phoneticUS": "/bʊk/",
+      "phoneticUK": "/bʊk/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 525,
+        "y": 535
+      },
+      "boundingBox": {
+        "left": 329,
+        "top": 454,
+        "right": 721,
+        "bottom": 590
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的硬壳书、书脊与书页是直接指代；项目规则的内容由对白说明。",
+        "association": "完整可见的硬壳书、书脊与书页是直接指代；项目规则的内容由对白说明。",
+        "collocation": "in this book; a reference book",
+        "example": "Read each instruction in AGENTS.md before you edit. The rules are also in this book.",
+        "exampleChinese": "编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to read the project rules in AGENTS.md before editing.",
+    "chinese": "程序员让 AI 在编辑前读取 AGENTS.md 中的项目规则。",
+    "source": "原创对话 · V013 把项目规矩写进 AGENTS.md",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

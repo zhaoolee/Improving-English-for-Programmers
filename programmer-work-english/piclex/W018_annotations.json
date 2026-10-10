@@ -1,0 +1,130 @@
+{
+  "filename": "W018-核对设计稿与需求.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "consistent",
+      "chinese": "一致的",
+      "phoneticUS": "/kənˈsɪstənt/",
+      "phoneticUK": "/kənˈsɪstənt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is this design consistent with the requirement we agreed on?”明确表达一致的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is this design consistent with the requirement we agreed on?”明确表达一致的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "consistent with; be consistent",
+        "example": "A: Is this design consistent with the requirement we agreed on?\nB: Almost. The search field should also appear on smaller screens.\nA: I can show the mobile layout on this tablet.\nB: Great. Let's compare both layouts before implementation.",
+        "exampleChinese": "A: 这个设计与我们确认的需求一致吗？\nB: 基本一致。较小的屏幕上也应该显示搜索框。\nA: 我可以用这个平板电脑展示移动端布局。\nB: 好。实现之前，我们对比一下这两种布局吧。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "design",
+      "chinese": "设计",
+      "phoneticUS": "/dɪˈzaɪn/",
+      "phoneticUK": "/dɪˈzaɪn/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is this design consistent with the requirement we agreed on?”明确表达设计；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is this design consistent with the requirement we agreed on?”明确表达设计；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the design; a simple design",
+        "example": "Is this design consistent with the requirement we agreed on?",
+        "exampleChinese": "这个设计与我们确认的需求一致吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "requirement",
+      "chinese": "需求",
+      "phoneticUS": "/rɪˈkwaɪərmənt/",
+      "phoneticUK": "/rɪˈkwaɪəmənt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Is this design consistent with the requirement we agreed on?”明确表达需求；单幅画面不能独立证明，不设局部框。",
+        "association": "“Is this design consistent with the requirement we agreed on?”明确表达需求；单幅画面不能独立证明，不设局部框。",
+        "collocation": "meet a requirement; the requirement we agreed on",
+        "example": "Is this design consistent with the requirement we agreed on?",
+        "exampleChinese": "这个设计与我们确认的需求一致吗？"
+      }
+    },
+    {
+      "x": 419,
+      "y": 459,
+      "english": "tablet",
+      "chinese": "平板电脑",
+      "phoneticUS": "/ˈtæblət/",
+      "phoneticUK": "/ˈtæblət/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 419,
+        "y": 459
+      },
+      "boundingBox": {
+        "left": 272,
+        "top": 342,
+        "right": 567,
+        "bottom": 566
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "平板电脑（tablet）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "平板电脑（tablet）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this tablet; a tablet screen",
+        "example": "I can show the mobile layout on this tablet.",
+        "exampleChinese": "我可以用这个平板电脑展示移动端布局。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer checks a design against the agreed requirements.",
+    "chinese": "开发者核对设计稿是否符合已确认的需求。",
+    "source": "原创对话 · W018 核对设计稿与需求",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

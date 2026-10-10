@@ -1,0 +1,130 @@
+{
+  "filename": "W077-接受建设性反馈.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "feedback",
+      "chinese": "反馈",
+      "phoneticUS": "/ˈfiːdbæk/",
+      "phoneticUK": "/ˈfiːdbæk/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Thanks for the feedback. Could you give me a specific example?”明确表达反馈；单幅画面不能独立证明，不设局部框。",
+        "association": "“Thanks for the feedback. Could you give me a specific example?”明确表达反馈；单幅画面不能独立证明，不设局部框。",
+        "collocation": "give feedback; ask for feedback",
+        "example": "A: Thanks for the feedback. Could you give me a specific example?\nB: Your last update explained the problem but didn't state the next step.\nA: I'll note that in this notebook. How can I improve the next update?\nB: End with the next action and when people can expect an update.",
+        "exampleChinese": "A: 谢谢你的反馈。能给我一个具体例子吗？\nB: 你上一次更新说明了问题，但没有说下一步做什么。\nA: 我把这点记在这个笔记本里。下次更新怎样改进？\nB: 最后说清下一步行动，以及大家何时能收到进展更新。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "specific",
+      "chinese": "具体的",
+      "phoneticUS": "/spəˈsɪfɪk/",
+      "phoneticUK": "/spəˈsɪfɪk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Thanks for the feedback. Could you give me a specific example?”明确表达具体的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Thanks for the feedback. Could you give me a specific example?”明确表达具体的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "more specific; a specific example",
+        "example": "Thanks for the feedback. Could you give me a specific example?",
+        "exampleChinese": "谢谢你的反馈。能给我一个具体例子吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "improve",
+      "chinese": "改进",
+      "phoneticUS": "/ɪmˈpruːv/",
+      "phoneticUK": "/ɪmˈpruːv/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll note that in this notebook. How can I improve the next update?”明确表达改进；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll note that in this notebook. How can I improve the next update?”明确表达改进；单幅画面不能独立证明，不设局部框。",
+        "collocation": "improve a process; improve your skills",
+        "example": "I'll note that in this notebook. How can I improve the next update?",
+        "exampleChinese": "我把这点记在这个笔记本里。下次更新怎样改进？"
+      }
+    },
+    {
+      "x": 408,
+      "y": 607,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 300,
+        "y": 750
+      },
+      "anchorPosition": {
+        "x": 408,
+        "y": 607
+      },
+      "boundingBox": {
+        "left": 276,
+        "top": 534,
+        "right": 578,
+        "bottom": 663
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "in this notebook; write in a notebook",
+        "example": "I'll note that in this notebook. How can I improve the next update?",
+        "exampleChinese": "我把这点记在这个笔记本里。下次更新怎样改进？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer accepts feedback and asks how to improve.",
+    "chinese": "开发者接受反馈，并询问如何改进。",
+    "source": "原创对话 · W077 接受建设性反馈",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

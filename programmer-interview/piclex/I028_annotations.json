@@ -1,0 +1,130 @@
+{
+  "filename": "I028.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "diagnose",
+      "chinese": "诊断",
+      "phoneticUS": "/ˌdaɪəɡˈnoʊs/",
+      "phoneticUK": "/ˌdaɪəɡˈnəʊz/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：diagnose。本卡例句：To diagnose the failure, I'd inspect the log around the request's timestamp.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：diagnose。本卡例句：To diagnose the failure, I'd inspect the log around the request's timestamp.",
+        "collocation": "diagnose a failure; diagnose the cause",
+        "example": "A: To diagnose the failure, I'd inspect the log around the request's timestamp.\nB: What would you do after finding an error?\nA: I'd try to reproduce it in a safe test environment using the laptop.\nB: How would you distinguish the cause from a secondary error?",
+        "exampleChinese": "A: 为了诊断故障，我会检查请求时间戳附近的日志。\nB: 发现错误后，你会怎么做？\nA: 我会用笔记本电脑，在安全的测试环境中尝试复现。\nB: 你会如何区分根本原因与随后出现的错误？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "log",
+      "chinese": "日志",
+      "phoneticUS": "/lɔːɡ/",
+      "phoneticUK": "/lɒɡ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：log。本卡例句：To diagnose the failure, I'd inspect the log around the request's timestamp.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：log。本卡例句：To diagnose the failure, I'd inspect the log around the request's timestamp.",
+        "collocation": "an error log; inspect the log",
+        "example": "To diagnose the failure, I'd inspect the log around the request's timestamp.",
+        "exampleChinese": "为了诊断故障，我会检查请求时间戳附近的日志。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "reproduce",
+      "chinese": "复现",
+      "phoneticUS": "/ˌriːprəˈduːs/",
+      "phoneticUK": "/ˌriːprəˈdjuːs/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reproduce。本卡例句：I'd try to reproduce it in a safe test environment using the laptop.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reproduce。本卡例句：I'd try to reproduce it in a safe test environment using the laptop.",
+        "collocation": "reproduce an error; reproduce a failure",
+        "example": "I'd try to reproduce it in a safe test environment using the laptop.",
+        "exampleChinese": "我会用笔记本电脑，在安全的测试环境中尝试复现。"
+      }
+    },
+    {
+      "x": 345,
+      "y": 765,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 460,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 345,
+        "y": 765
+      },
+      "boundingBox": {
+        "left": 28,
+        "top": 543,
+        "right": 535,
+        "bottom": 829
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "修图后完整的笔记本电脑屏幕与键盘；模糊日志不作为具体故障原因证明。",
+        "association": "修图后完整的笔记本电脑屏幕与键盘；模糊日志不作为具体故障原因证明。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "I'd try to reproduce it in a safe test environment using the laptop.",
+        "exampleChinese": "我会用笔记本电脑，在安全的测试环境中尝试复现。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains how he would investigate a failure using logs.",
+    "chinese": "候选人说明如何利用日志调查一次故障。",
+    "source": "原创配文 · I028 从日志定位一次故障",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

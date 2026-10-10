@@ -1,0 +1,246 @@
+{
+  "id": "V002",
+  "category": "pairing",
+  "category_title": "和 AI 结对入门",
+  "chapter": "和 AI 结对入门",
+  "title": "AI 会写，不等于 AI 会负责",
+  "keyword": "responsibility",
+  "scene": "程序员询问 AI：谁对生成改动的批准负责。",
+  "target_count": 4,
+  "primary_words": [
+    "responsibility",
+    "accountable",
+    "verify",
+    "clipboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "responsibility",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "责任",
+      "pos": "noun",
+      "ipa_us": "/rɪˌspɑːnsəˈbɪləti/",
+      "ipa_uk": "/rɪˌspɒnsəˈbɪləti/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Before I sign off on the changes, who takes responsibility for the result?",
+        "matched_form": "responsibility",
+        "referent_region_verified": false,
+        "context": "责任由对白明确提出，不能从签署手势或夹板外观判定。",
+        "image_verified": null
+      },
+      "example_en": "Before I sign off on the changes, who takes responsibility for the result?",
+      "example_zh": "在我批准这些改动前，谁对结果负责？",
+      "bbox_normalized": null,
+      "collocations": [
+        "take responsibility",
+        "responsibility for the changes"
+      ],
+      "example_en_highlighted": "Before I sign off on the changes, who takes **responsibility** for the result?",
+      "annotation_mode": "context",
+      "annotation_note": "责任由对白明确提出，不能从签署手势或夹板外观判定。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "accountable",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "需负责的",
+      "pos": "adjective",
+      "ipa_us": "/əˈkaʊntəbl/",
+      "ipa_uk": "/əˈkaʊntəbl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.",
+        "matched_form": "accountable",
+        "referent_region_verified": false,
+        "context": "对批准结果负责是对白中的责任关系，没有局部可见指代。",
+        "image_verified": null
+      },
+      "example_en": "You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.",
+      "example_zh": "你仍要对自己批准的内容负责。我可以建议代码，但不能替你承担结果。",
+      "bbox_normalized": null,
+      "collocations": [
+        "remain accountable",
+        "accountable for a decision"
+      ],
+      "example_en_highlighted": "You remain **accountable** for what you approve. I can suggest code, but I cannot own the outcome.",
+      "annotation_mode": "context",
+      "annotation_note": "对批准结果负责是对白中的责任关系，没有局部可见指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "verify",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "验证",
+      "pos": "verb",
+      "ipa_us": "/ˈverɪfaɪ/",
+      "ipa_uk": "/ˈverɪfaɪ/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+        "matched_form": "verify",
+        "referent_region_verified": false,
+        "context": "验证尚未发生，图片不证明测试结果。",
+        "image_verified": null
+      },
+      "example_en": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+      "example_zh": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。",
+      "bbox_normalized": null,
+      "collocations": [
+        "verify the behavior",
+        "verify a result"
+      ],
+      "example_en_highlighted": "I'll use this clipboard to record checks and **verify** the behavior myself before we ship.",
+      "annotation_mode": "context",
+      "annotation_note": "验证尚未发生，图片不证明测试结果。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "clipboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "写字夹板",
+      "pos": "noun",
+      "ipa_us": "/ˈklɪpbɔːrd/",
+      "ipa_uk": "/ˈklɪpbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "完整可见的夹板及顶部纸夹是 clipboard 的直接指代。",
+        "sentence": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+        "matched_form": "clipboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+      "example_zh": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。",
+      "bbox_normalized": [
+        0.376,
+        0.354,
+        0.54,
+        0.59
+      ],
+      "collocations": [
+        "on a clipboard",
+        "a review clipboard"
+      ],
+      "example_en_highlighted": "I'll use this **clipboard** to record checks and verify the behavior myself before we ship.",
+      "annotation_mode": "object",
+      "annotation_note": "完整可见的夹板及顶部纸夹是 clipboard 的直接指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer asks an AI assistant who takes responsibility for approving generated changes.",
+    "zh": "程序员询问 AI：谁对生成改动的批准负责。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer asks an AI assistant who takes responsibility for approving generated changes.",
+    "zh": "程序员询问 AI：谁对生成改动的批准负责。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Before I sign off on the changes, who takes responsibility for the result?",
+      "zh": "在我批准这些改动前，谁对结果负责？"
+    },
+    {
+      "speaker": "B",
+      "en": "You remain accountable for what you approve. I can suggest code, but I cannot own the outcome.",
+      "zh": "你仍要对自己批准的内容负责。我可以建议代码，但不能替你承担结果。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll use this clipboard to record checks and verify the behavior myself before we ship.",
+      "zh": "我会用这张夹板记录检查结果，并在交付前亲自验证行为。"
+    },
+    {
+      "speaker": "B",
+      "en": "Good. Check the tests and review anything that affects users.",
+      "zh": "好的。检查测试，并审查任何影响用户的改动。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "明确 AI 提供建议，人类对批准结果负责。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left beside a small desk, holding a large rectangular clipboard upright at the center of the composition. The clipboard has a prominent metal clip, a single blank paper sheet and NO writing or check marks. Keep the entire clipboard clear, including its bottom edge, separated from the hands enough for a complete object crop. The programmer points toward the floating white OpenAI knot on the right while discussing accountability. No laptop is needed.",
+  "status": "approved",
+  "image_path": "images/V002.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V002 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V002.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T03:08:49Z",
+    "ended_at": "2026-10-09T03:10:49Z",
+    "prompt_path": "prompts/V002_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V002.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。夹板顶部纸夹、板体四边完整可见；握持的手轻遮左缘，裁剪保留正常握持语境，不能框成孤立纸张。额外盆栽与杯子不参与教学。"
+  }
+}

@@ -1,0 +1,119 @@
+V017  先做一条能走通的主流程
+========================================================================
+分类: 拆任务、写功能（implementation）
+关键词: flow
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-09）
+图片状态: generated
+图片路径: images/V017.png
+复核日期: 2026-10-09
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V017.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V017.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-09T05:44:26Z → 2026-10-09T05:46:23Z
+  提示词文件: prompts/V017_image_final.txt
+
+场景: 程序员与 AI 先打通最小主流程，再添加额外功能。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图文字。屏幕中唯一圆角按钮边界完整；其功能来自对白，不从空白按钮推断保存成功。 准确无扩张裁剪发现初稿右/下缘过紧，已按1254原图像素位置重新归一化并保留小余量；不改变词义与对象指代。
+
+沟通目标: 先完成可运行的主流程，用实际操作验证。
+
+主配文（一句场景描述）:
+  英文: A programmer and an AI assistant build a minimal flow before adding extra features.
+  中文: 程序员与 AI 先打通最小主流程，再添加额外功能。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Start with a minimal flow: click this button and save one item.
+        先做最小流程：点击这个按钮，保存一条记录。
+  [B] Should I add filters and bulk editing now?
+        现在要加筛选和批量编辑吗？
+  [A] Not yet. Complete the basic flow first, then let me try it.
+        先不用。先完成基本流程，再让我试一下。
+  [B] I'll build that path and check that the saved item appears in the list.
+        我会先实现这条路径，并检查保存的记录是否出现在列表里。
+
+目标词 (4): flow, minimal, complete, button
+
+------------------------------------------------------------------------
+[1/4] flow
+  词义: 流程
+  词性: noun
+  音标: UK /fləʊ/ | US /floʊ/
+  搭配: a basic flow; complete the flow
+  例句: Start with a minimal flow: click this button and save one item.
+  例句高亮: Start with a minimal **flow**: click this button and save one item.
+  例句中文: 先做最小流程：点击这个按钮，保存一条记录。
+  标注模式: context
+  标注说明: 这里是从点击到保存的操作流程，单个按钮不是流程本身，含义由对白支持。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] minimal
+  词义: 最小的
+  词性: adjective
+  音标: UK /ˈmɪnɪməl/ | US /ˈmɪnɪməl/
+  搭配: a minimal flow; a minimal version
+  例句: Start with a minimal flow: click this button and save one item.
+  例句高亮: Start with a **minimal** flow: click this button and save one item.
+  例句中文: 先做最小流程：点击这个按钮，保存一条记录。
+  标注模式: context
+  标注说明: 最小指功能范围，不是图中按钮的物理尺寸。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] complete
+  词义: 完成
+  词性: verb
+  音标: UK /kəmˈpliːt/ | US /kəmˈpliːt/
+  搭配: complete the flow; complete a task
+  例句: Not yet. Complete the basic flow first, then let me try it.
+  例句高亮: Not yet. **Complete** the basic flow first, then let me try it.
+  例句中文: 先不用。先完成基本流程，再让我试一下。
+  标注模式: context
+  标注说明: 完成是对白中的请求，画面不能证明功能已实现或测试通过。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] button
+  词义: 按钮
+  词性: noun
+  音标: UK /ˈbʌtən/ | US /ˈbʌtən/
+  搭配: click this button; a save button
+  例句: Start with a minimal flow: click this button and save one item.
+  例句高亮: Start with a minimal flow: click this **button** and save one item.
+  例句中文: 先做最小流程：点击这个按钮，保存一条记录。
+  标注模式: object
+  标注说明: 屏幕中唯一完整的圆角矩形按钮是实际可见指代，其保存功能由对白定义。
+  坐标(normalized): [0.427, 0.37, 0.634, 0.44]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V017 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=23 | meta.approved_cards=23
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left of a simple desk beside a desktop monitor at center. On the blank black screen draw exactly one large rounded-rectangle outline button, horizontally centered. The button has no label, icon or letters and is clearly distinct from the larger monitor frame. Keep the entire button unobstructed. The programmer points toward it with the finger outside the monitor. A floating white OpenAI knot at right. No other UI elements or objects.

@@ -1,0 +1,130 @@
+{
+  "filename": "V007-把“好看一点”变成可执行要求.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "spacing",
+      "chinese": "间距",
+      "phoneticUS": "/ˈspeɪsɪŋ/",
+      "phoneticUK": "/ˈspeɪsɪŋ/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "间距调整由对白提出，是尚待实现的要求；不把图中任意空白当作目标完成状态。",
+        "association": "间距调整由对白提出，是尚待实现的要求；不把图中任意空白当作目标完成状态。",
+        "collocation": "consistent spacing; spacing between sections",
+        "example": "A: Please make the spacing on this screen more consistent.\nB: How should I align the headings and buttons?\nA: Use the same left edge and leave more space between sections.\nB: Got it. I'll show you a preview so you can check the layout.",
+        "exampleChinese": "A: 请让这个屏幕上的间距更一致。\nB: 标题和按钮应该怎样对齐？\nA: 沿同一条左边线对齐，并在各区域之间留出更多空间。\nB: 明白。我会展示预览，让你检查布局。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "consistent",
+      "chinese": "一致的",
+      "phoneticUS": "/kənˈsɪstənt/",
+      "phoneticUK": "/kənˈsɪstənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "一致性是对未来布局的要求，图中简化线框不能证明质量达标。",
+        "association": "一致性是对未来布局的要求，图中简化线框不能证明质量达标。",
+        "collocation": "consistent spacing; a consistent layout",
+        "example": "Please make the spacing on this screen more consistent.",
+        "exampleChinese": "请让这个屏幕上的间距更一致。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "align",
+      "chinese": "对齐",
+      "phoneticUS": "/əˈlaɪn/",
+      "phoneticUK": "/əˈlaɪn/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "对齐是对话中的操作要求，未以静态线框声称完成。",
+        "association": "对齐是对话中的操作要求，未以静态线框声称完成。",
+        "collocation": "align the headings; align along the left edge",
+        "example": "How should I align the headings and buttons?",
+        "exampleChinese": "标题和按钮应该怎样对齐？"
+      }
+    },
+    {
+      "x": 498,
+      "y": 457,
+      "english": "screen",
+      "chinese": "屏幕",
+      "phoneticUS": "/skriːn/",
+      "phoneticUK": "/skriːn/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 498,
+        "y": 457
+      },
+      "boundingBox": {
+        "left": 309,
+        "top": 325,
+        "right": 686,
+        "bottom": 588
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器的实际内屏区域为 screen 的指代，不将支架或人物纳入屏幕框。",
+        "association": "显示器的实际内屏区域为 screen 的指代，不将支架或人物纳入屏幕框。",
+        "collocation": "on this screen; a monitor screen",
+        "example": "Please make the spacing on this screen more consistent.",
+        "exampleChinese": "请让这个屏幕上的间距更一致。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer gives an AI assistant concrete spacing and alignment requirements for a screen.",
+    "chinese": "程序员向 AI 提供屏幕布局的具体间距与对齐要求。",
+    "source": "原创对话 · V007 把“好看一点”变成可执行要求",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

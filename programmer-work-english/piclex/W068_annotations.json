@@ -1,0 +1,130 @@
+{
+  "filename": "W068-确认服务恢复.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "recover",
+      "chinese": "恢复",
+      "phoneticUS": "/rɪˈkʌvər/",
+      "phoneticUK": "/rɪˈkʌvə/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Did the service recover after the rollback?”明确表达恢复；单幅画面不能独立证明，不设局部框。",
+        "association": "“Did the service recover after the rollback?”明确表达恢复；单幅画面不能独立证明，不设局部框。",
+        "collocation": "recover after a rollback; recover the service",
+        "example": "A: Did the service recover after the rollback?\nB: Yes. Requests are succeeding, and response times are stable.\nA: Let's observe this monitor for a while before closing the incident.\nB: Agreed. I'll also confirm with the support team.",
+        "exampleChinese": "A: 回滚后服务恢复了吗？\nB: 是的。请求已经成功，响应时间也稳定了。\nA: 关闭事故之前，我们再观察这个显示器一会儿吧。\nB: 同意。我也会和客服团队确认。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "stable",
+      "chinese": "稳定的",
+      "phoneticUS": "/ˈsteɪbl/",
+      "phoneticUK": "/ˈsteɪbl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Yes. Requests are succeeding, and response times are stable.”明确表达稳定的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Yes. Requests are succeeding, and response times are stable.”明确表达稳定的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "remain stable; a stable service",
+        "example": "Yes. Requests are succeeding, and response times are stable.",
+        "exampleChinese": "是的。请求已经成功，响应时间也稳定了。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "observe",
+      "chinese": "观察",
+      "phoneticUS": "/əbˈzɜːrv/",
+      "phoneticUK": "/əbˈzɜːv/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let's observe this monitor for a while before closing the incident.”明确表达观察；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let's observe this monitor for a while before closing the incident.”明确表达观察；单幅画面不能独立证明，不设局部框。",
+        "collocation": "observe the monitor; observe for a while",
+        "example": "Let's observe this monitor for a while before closing the incident.",
+        "exampleChinese": "关闭事故之前，我们再观察这个显示器一会儿吧。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 480,
+      "english": "monitor",
+      "chinese": "显示器",
+      "phoneticUS": "/ˈmɑːnɪtər/",
+      "phoneticUK": "/ˈmɒnɪtə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 650
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 332,
+        "top": 308,
+        "right": 675,
+        "bottom": 568
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on the monitor; a computer monitor",
+        "example": "Let's observe this monitor for a while before closing the incident.",
+        "exampleChinese": "关闭事故之前，我们再观察这个显示器一会儿吧。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers confirm that a service has recovered and keep watching it.",
+    "chinese": "两位开发者确认服务已恢复，并继续观察。",
+    "source": "原创对话 · W068 确认服务恢复",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

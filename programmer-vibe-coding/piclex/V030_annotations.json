@@ -1,0 +1,130 @@
+{
+  "filename": "V030-卡住时怎样停止无效重试？.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "escalate",
+      "chinese": "升级处理",
+      "phoneticUS": "/ˈeskəleɪt/",
+      "phoneticUK": "/ˈeskəleɪt/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "升级处理是把决定交给合适的人，不是物体移动或手势本身。",
+        "association": "升级处理是把决定交给合适的人，不是物体移动或手势本身。",
+        "collocation": "escalate a decision; escalate an issue",
+        "example": "A: We have tried the same fix three times. Do not retry it again.\nB: I'm still uncertain about the root cause.\nA: Put the evidence on this clipboard and escalate the decision to me.\nB: I'll stop here and wait for your direction.",
+        "exampleChinese": "A: 同一个修复已经试了三次，不要再重试。\nB: 我仍然不确定根因。\nA: 把证据整理到这块写字夹板上，并把决定升级交给我。\nB: 我会停在这里，等待你的指示。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "retry",
+      "chinese": "重试",
+      "phoneticUS": "/ˌriːˈtraɪ/",
+      "phoneticUK": "/ˌriːˈtraɪ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "重试是重复执行动作，静态画面不证明次数。",
+        "association": "重试是重复执行动作，静态画面不证明次数。",
+        "collocation": "retry a fix; retry the request",
+        "example": "We have tried the same fix three times. Do not retry it again.",
+        "exampleChinese": "同一个修复已经试了三次，不要再重试。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "uncertain",
+      "chinese": "不确定的",
+      "phoneticUS": "/ʌnˈsɜːrtn/",
+      "phoneticUK": "/ʌnˈsɜːtn/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "不确定性由对白直接表达，不从人物表情推断。",
+        "association": "不确定性由对白直接表达，不从人物表情推断。",
+        "collocation": "be uncertain about; an uncertain result",
+        "example": "I'm still uncertain about the root cause.",
+        "exampleChinese": "我仍然不确定根因。"
+      }
+    },
+    {
+      "x": 230,
+      "y": 490,
+      "english": "clipboard",
+      "chinese": "写字夹板",
+      "phoneticUS": "/ˈklɪpbɔːrd/",
+      "phoneticUK": "/ˈklɪpbɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 230,
+        "y": 490
+      },
+      "boundingBox": {
+        "left": 155,
+        "top": 383,
+        "right": 310,
+        "bottom": 595
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "完整可见的夹板、夹子与空白纸张是直接指代，只框整块夹板。",
+        "association": "完整可见的夹板、夹子与空白纸张是直接指代，只框整块夹板。",
+        "collocation": "on this clipboard; a review clipboard",
+        "example": "Put the evidence on this clipboard and escalate the decision to me.",
+        "exampleChinese": "把证据整理到这块写字夹板上，并把决定升级交给我。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer stops repeated failed attempts and asks an AI assistant to escalate with evidence.",
+    "chinese": "程序员停止反复失败的尝试，让 AI 带着证据升级处理。",
+    "source": "原创对话 · V030 卡住时怎样停止无效重试？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

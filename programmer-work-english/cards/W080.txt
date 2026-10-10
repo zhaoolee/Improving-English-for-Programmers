@@ -1,0 +1,119 @@
+W080  感谢同事的具体帮助
+========================================================================
+分类: 反馈与职业成长（growth）
+关键词: appreciate
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W080.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W080.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W080.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:37:39.744Z
+  提示词文件: prompts/W080_image_final.txt
+
+场景: 开发者感谢同事在困难任务中提供的帮助。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：前景完整马克杯和杯把，是画面道具，不把表情当作真实感谢或信心证据。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 具体感谢同事的指导与帮助。
+
+主配文（一句场景描述）:
+  英文: A developer thanks a teammate for help with a difficult task.
+  中文: 开发者感谢同事在困难任务中提供的帮助。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] I really appreciate your guidance on that tricky bug.
+        非常感谢你在那个棘手缺陷上给我的指导。
+  [B] You're welcome. You did the hard work of testing each idea.
+        不客气。逐个验证思路的辛苦工作是你做的。
+  [A] It gave me more confidence. Let me get you a mug of coffee.
+        这让我更有信心。让我请你喝一杯咖啡吧。
+  [B] Thanks! I'm glad we could work through it together.
+        谢谢！很高兴我们能一起解决它。
+
+目标词 (4): appreciate, guidance, confidence, mug
+
+------------------------------------------------------------------------
+[1/4] appreciate
+  词义: 感谢
+  词性: verb
+  音标: UK /əˈpriːʃieɪt/ | US /əˈpriːʃieɪt/
+  搭配: appreciate your help; really appreciate
+  例句: I really appreciate your guidance on that tricky bug.
+  例句高亮: I really **appreciate** your guidance on that tricky bug.
+  例句中文: 非常感谢你在那个棘手缺陷上给我的指导。
+  标注模式: context
+  标注说明: “I really appreciate your guidance on that tricky bug.”明确表达感谢；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] guidance
+  词义: 指导
+  词性: noun
+  音标: UK /ˈɡaɪdns/ | US /ˈɡaɪdns/
+  搭配: ask for guidance; your guidance on
+  例句: I really appreciate your guidance on that tricky bug.
+  例句高亮: I really appreciate your **guidance** on that tricky bug.
+  例句中文: 非常感谢你在那个棘手缺陷上给我的指导。
+  标注模式: context
+  标注说明: “I really appreciate your guidance on that tricky bug.”明确表达指导；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] confidence
+  词义: 信心
+  词性: noun
+  音标: UK /ˈkɒnfɪdəns/ | US /ˈkɑːnfɪdəns/
+  搭配: give confidence; more confidence
+  例句: It gave me more confidence. Let me get you a mug of coffee.
+  例句高亮: It gave me more **confidence**. Let me get you a mug of coffee.
+  例句中文: 这让我更有信心。让我请你喝一杯咖啡吧。
+  标注模式: context
+  标注说明: “It gave me more confidence. Let me get you a mug of coffee.”明确表达信心；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] mug
+  词义: 马克杯
+  词性: noun
+  音标: UK /mʌɡ/ | US /mʌɡ/
+  搭配: a mug of tea; a coffee mug
+  例句: It gave me more confidence. Let me get you a mug of coffee.
+  例句高亮: It gave me more confidence. Let me get you a **mug** of coffee.
+  例句中文: 这让我更有信心。让我请你喝一杯咖啡吧。
+  标注模式: object
+  标注说明: 马克杯（mug）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.332, 0.693, 0.544, 0.889]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W080 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a small table, one smiling and offering an open-hand thank-you gesture, other smiling back. A large mug with loop handle stands alone in the foreground fully visible. No speech bubbles.

@@ -1,0 +1,119 @@
+W070  进行无责事故复盘
+========================================================================
+分类: 发布与线上协作（operations）
+关键词: blameless
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W070.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W070.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W070.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.175Z → 2026-10-07T09:35:45.763Z
+  提示词文件: prompts/W070_image_final.txt
+
+场景: 团队进行无责事故复盘，并寻找改进措施。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：完整白板与支架，因果链是讨论示意，不作真实事故事实推断。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 进行无责事故复盘并制定预防措施。
+
+主配文（一句场景描述）:
+  英文: A team reviews an incident without blame and identifies improvements.
+  中文: 团队进行无责事故复盘，并寻找改进措施。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Let's keep this review blameless and focus on what happened.
+        这次复盘保持无责，专注于实际发生了什么。
+  [B] Agreed. Several conditions seemed to contribute to the outage.
+        同意。看来有多个条件促成了这次故障。
+  [A] Let's map them on the board. How can we prevent a repeat?
+        我们把它们画在白板上。怎样预防再次发生？
+  [B] Add a safer rollout check and improve the alert threshold.
+        增加更稳妥的发布检查，并改进告警阈值。
+
+目标词 (4): blameless, contribute, prevent, board
+
+------------------------------------------------------------------------
+[1/4] blameless
+  词义: 无责的
+  词性: adjective
+  音标: UK /ˈbleɪmləs/ | US /ˈbleɪmləs/
+  搭配: a blameless review; a blameless process
+  例句: Let's keep this review blameless and focus on what happened.
+  例句高亮: Let's keep this review **blameless** and focus on what happened.
+  例句中文: 这次复盘保持无责，专注于实际发生了什么。
+  标注模式: context
+  标注说明: “Let's keep this review blameless and focus on what happened.”明确表达无责的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] contribute
+  词义: 促成
+  词性: verb
+  音标: UK /kənˈtrɪbjuːt/ | US /kənˈtrɪbjuːt/
+  搭配: contribute to an outage; contribute to a problem
+  例句: Agreed. Several conditions seemed to contribute to the outage.
+  例句高亮: Agreed. Several conditions seemed to **contribute** to the outage.
+  例句中文: 同意。看来有多个条件促成了这次故障。
+  标注模式: context
+  标注说明: “Agreed. Several conditions seemed to contribute to the outage.”明确表达促成；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] prevent
+  词义: 预防
+  词性: verb
+  音标: UK /prɪˈvent/ | US /prɪˈvent/
+  搭配: prevent a repeat; prevent an issue
+  例句: Let's map them on the board. How can we prevent a repeat?
+  例句高亮: Let's map them on the board. How can we **prevent** a repeat?
+  例句中文: 我们把它们画在白板上。怎样预防再次发生？
+  标注模式: context
+  标注说明: “Let's map them on the board. How can we prevent a repeat?”明确表达预防；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] board
+  词义: 白板
+  词性: noun
+  音标: UK /bɔːd/ | US /bɔːrd/
+  搭配: update the board; a task board
+  例句: Let's map them on the board. How can we prevent a repeat?
+  例句高亮: Let's map them on the **board**. How can we prevent a repeat?
+  例句中文: 我们把它们画在白板上。怎样预防再次发生？
+  标注模式: object
+  标注说明: 白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.304, 0.225, 0.735, 0.75]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W070 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers having a calm discussion beside a complete freestanding board with a simple chain of circles linked by arrows, no writing. One points to a link, other considers it.

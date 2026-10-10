@@ -1,0 +1,130 @@
+{
+  "filename": "I035.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "failure",
+      "chinese": "失败",
+      "phoneticUS": "/ˈfeɪljər/",
+      "phoneticUK": "/ˈfeɪljə/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：failure。本卡例句：A missed release was a failure that taught me an important lesson about estimates.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：failure。本卡例句：A missed release was a failure that taught me an important lesson about estimates.",
+        "collocation": "learn from failure; a project failure",
+        "example": "A: A missed release was a failure that taught me an important lesson about estimates.\nB: How did you adapt your approach?\nA: I now record uncertainty in my notebook and review risks early with the team.\nB: Give me an example of how that changed a later project.",
+        "exampleChinese": "A: 一次错过发布日期的失败，让我学到了关于估算的重要教训。\nB: 你如何调整自己的做法？\nA: 现在我会在笔记本里记录不确定性，并尽早与团队一起评估风险。\nB: 举个例子，说明这如何改变了后来的项目。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "lesson",
+      "chinese": "教训",
+      "phoneticUS": "/ˈlesən/",
+      "phoneticUK": "/ˈlesən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：lesson。本卡例句：A missed release was a failure that taught me an important lesson about estimates.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：lesson。本卡例句：A missed release was a failure that taught me an important lesson about estimates.",
+        "collocation": "learn a lesson; an important lesson",
+        "example": "A missed release was a failure that taught me an important lesson about estimates.",
+        "exampleChinese": "一次错过发布日期的失败，让我学到了关于估算的重要教训。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "adapt",
+      "chinese": "调整",
+      "phoneticUS": "/əˈdæpt/",
+      "phoneticUK": "/əˈdæpt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：adapt。本卡例句：How did you adapt your approach?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：adapt。本卡例句：How did you adapt your approach?",
+        "collocation": "adapt your approach; adapt to change",
+        "example": "How did you adapt your approach?",
+        "exampleChinese": "你如何调整自己的做法？"
+      }
+    },
+    {
+      "x": 360,
+      "y": 714,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 390,
+        "y": 870
+      },
+      "anchorPosition": {
+        "x": 360,
+        "y": 714
+      },
+      "boundingBox": {
+        "left": 185,
+        "top": 668,
+        "right": 505,
+        "bottom": 765
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "候选人前方绿色封面的纸质笔记本；复盘经历由对白支持。",
+        "association": "候选人前方绿色封面的纸质笔记本；复盘经历由对白支持。",
+        "collocation": "write in a notebook; an open notebook",
+        "example": "I now record uncertainty in my notebook and review risks early with the team.",
+        "exampleChinese": "现在我会在笔记本里记录不确定性，并尽早与团队一起评估风险。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate reflects on a failure and explains how she changed her approach.",
+    "chinese": "候选人反思一次失败，并说明自己如何改变做法。",
+    "source": "原创配文 · I035 讲一次失败后的学习与成长",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

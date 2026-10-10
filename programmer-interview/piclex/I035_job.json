@@ -1,0 +1,21 @@
+{
+  "cardID": "I035",
+  "imagePath": "../images/I035.png",
+  "imageSHA256": "6e172c289ba92a0f149ae648bccc21ceb99eccf9b2f19c2bd1a0b727df6e29ed",
+  "imageReviewed": true,
+  "annotationsPath": "I035_annotations.json",
+  "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+  "expectedWords": [
+    "failure",
+    "lesson",
+    "adapt",
+    "notebook"
+  ],
+  "receiptPath": "I035_learning_import_receipt.json",
+  "photoID": "c005cf78-ed31-47de-80a0-7a8918bf4d36",
+  "expectedAssetID": "80a4bc29592eec826e4bca0864cad1827494a9066a8cbad1c0a7427622d6beb1",
+  "expectedImageFilename": "I035.png",
+  "expectedSourceSHA256": "6e172c289ba92a0f149ae648bccc21ceb99eccf9b2f19c2bd1a0b727df6e29ed",
+  "photoMappingPath": "workflow/learning-40-20261010/effective-photo-mapping.json",
+  "uploadPolicy": "reuse_existing_draft_photo_do_not_reupload"
+}

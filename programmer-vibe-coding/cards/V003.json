@@ -1,0 +1,246 @@
+{
+  "id": "V003",
+  "category": "pairing",
+  "category_title": "和 AI 结对入门",
+  "chapter": "和 AI 结对入门",
+  "title": "选对任务再开工",
+  "keyword": "suitable",
+  "scene": "程序员与 AI 选择适合先做的任务，并讨论其风险。",
+  "target_count": 4,
+  "primary_words": [
+    "suitable",
+    "routine",
+    "risk",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "suitable",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "合适的",
+      "pos": "adjective",
+      "ipa_us": "/ˈsuːtəbl/",
+      "ipa_uk": "/ˈsuːtəbl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Which task in this notebook is suitable for you to start with?",
+        "matched_form": "suitable",
+        "referent_region_verified": false,
+        "context": "任务是否合适由对白中的条件说明，不能从空白笔记页判断。",
+        "image_verified": null
+      },
+      "example_en": "Which task in this notebook is suitable for you to start with?",
+      "example_zh": "这个笔记本里的哪项任务适合让你先开始？",
+      "bbox_normalized": null,
+      "collocations": [
+        "a suitable task",
+        "suitable for beginners"
+      ],
+      "example_en_highlighted": "Which task in this notebook is **suitable** for you to start with?",
+      "annotation_mode": "context",
+      "annotation_note": "任务是否合适由对白中的条件说明，不能从空白笔记页判断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "routine",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "常规的",
+      "pos": "adjective",
+      "ipa_us": "/ruːˈtiːn/",
+      "ipa_uk": "/ruːˈtiːn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A routine formatting change is a good first task.",
+        "matched_form": "routine",
+        "referent_region_verified": false,
+        "context": "routine 修饰格式调整，属于任务性质，没有局部可见指代。",
+        "image_verified": null
+      },
+      "example_en": "A routine formatting change is a good first task.",
+      "example_zh": "常规的格式调整很适合作为第一项任务。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a routine change",
+        "routine maintenance"
+      ],
+      "example_en_highlighted": "A **routine** formatting change is a good first task.",
+      "annotation_mode": "context",
+      "annotation_note": "routine 修饰格式调整，属于任务性质，没有局部可见指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "risk",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "风险",
+      "pos": "noun",
+      "ipa_us": "/rɪsk/",
+      "ipa_uk": "/rɪsk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "That carries more risk. Keep it small and review the security decisions yourself.",
+        "matched_form": "risk",
+        "referent_region_verified": false,
+        "context": "登录流程风险由对白讨论，不以人物表情或笔记本当作风险框。",
+        "image_verified": null
+      },
+      "example_en": "That carries more risk. Keep it small and review the security decisions yourself.",
+      "example_zh": "那样的风险更高。缩小改动范围，并亲自审查安全方面的决定。",
+      "bbox_normalized": null,
+      "collocations": [
+        "carry more risk",
+        "reduce the risk"
+      ],
+      "example_en_highlighted": "That carries more **risk**. Keep it small and review the security decisions yourself.",
+      "annotation_mode": "context",
+      "annotation_note": "登录流程风险由对白讨论，不以人物表情或笔记本当作风险框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "画面中的完整纸质螺旋笔记本对应对白指代。",
+        "sentence": "Which task in this notebook is suitable for you to start with?",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "Which task in this notebook is suitable for you to start with?",
+      "example_zh": "这个笔记本里的哪项任务适合让你先开始？",
+      "bbox_normalized": [
+        0.332,
+        0.486,
+        0.749,
+        0.603
+      ],
+      "collocations": [
+        "in this notebook",
+        "an open notebook"
+      ],
+      "example_en_highlighted": "Which task in this **notebook** is suitable for you to start with?",
+      "annotation_mode": "object",
+      "annotation_note": "画面中的完整纸质螺旋笔记本对应对白指代。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer and an AI assistant choose a suitable first task and discuss its risk.",
+    "zh": "程序员与 AI 选择适合先做的任务，并讨论其风险。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer and an AI assistant choose a suitable first task and discuss its risk.",
+    "zh": "程序员与 AI 选择适合先做的任务，并讨论其风险。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Which task in this notebook is suitable for you to start with?",
+      "zh": "这个笔记本里的哪项任务适合让你先开始？"
+    },
+    {
+      "speaker": "B",
+      "en": "A routine formatting change is a good first task.",
+      "zh": "常规的格式调整很适合作为第一项任务。"
+    },
+    {
+      "speaker": "A",
+      "en": "What about changing the login flow?",
+      "zh": "那修改登录流程呢？"
+    },
+    {
+      "speaker": "B",
+      "en": "That carries more risk. Keep it small and review the security decisions yourself.",
+      "zh": "那样的风险更高。缩小改动范围，并亲自审查安全方面的决定。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "优先挑选边界清晰、易验证的任务。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer is seated at a small table, pointing at a large open spiral-bound paper notebook lying clearly visible on the table. Its two pages are blank and its spiral binding is obvious. Draw the complete notebook including all page edges, separate from the pointing finger. The white OpenAI knot floats at the right, listening. A thoughtful face and a calm discussion gesture. No other props.",
+  "status": "approved",
+  "image_path": "images/V003.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V003 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V003.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T03:08:49Z",
+    "ended_at": "2026-10-09T03:10:49Z",
+    "prompt_path": "prompts/V003_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V003.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。纸质螺旋笔记本的两页和装订完整可见，手指未遮住主要对象。"
+  }
+}

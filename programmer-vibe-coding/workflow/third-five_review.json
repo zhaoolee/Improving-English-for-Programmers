@@ -1,0 +1,238 @@
+{
+  "ready": true,
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "reviewedAt": "2026-10-09T05:18:00.975662+00:00",
+  "reviewer": "Codex visual and semantic review",
+  "cards": {
+    "V008": {
+      "sourcePath": "programmer-vibe-coding/images/V008.png",
+      "generationStartedAt": "2026-10-09T05:14:22Z",
+      "generationEndedAt": "2026-10-09T05:16:12Z",
+      "imageReview": "通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。折角纸质文档完整可见，无可读规则。",
+      "geometry": {
+        "criteria": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "expected": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "confirm": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "document": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            381,
+            462,
+            604,
+            598
+          ],
+          "anchor": [
+            488,
+            540
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V009": {
+      "sourcePath": "programmer-vibe-coding/images/V009.png",
+      "generationStartedAt": "2026-10-09T05:14:22Z",
+      "generationEndedAt": "2026-10-09T05:16:12Z",
+      "imageReview": "通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。平板屏幕与机身边界清楚，支持的手轻遮下缘，裁剪保留持握语境。",
+      "geometry": {
+        "example": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "input": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "output": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "tablet": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            357,
+            382,
+            614,
+            537
+          ],
+          "anchor": [
+            484,
+            460
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V010": {
+      "sourcePath": "programmer-vibe-coding/images/V010.png",
+      "generationStartedAt": "2026-10-09T05:14:22Z",
+      "generationEndedAt": "2026-10-09T05:16:12Z",
+      "imageReview": "通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。双页螺旋笔记本、装订和页边完整可见，铅笔轻触页缘不遮住主体；白色纸页仍为纯黑白平面。",
+      "geometry": {
+        "revise": {
+          "bubble": [
+            200,
+            95
+          ]
+        },
+        "outdated": {
+          "bubble": [
+            500,
+            95
+          ]
+        },
+        "scope": {
+          "bubble": [
+            800,
+            95
+          ]
+        },
+        "notebook": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            309,
+            518,
+            711,
+            620
+          ],
+          "anchor": [
+            510,
+            563
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V012": {
+      "sourcePath": "programmer-vibe-coding/images/V012.png",
+      "generationStartedAt": "2026-10-09T05:14:22Z",
+      "generationEndedAt": "2026-10-09T05:16:12Z",
+      "imageReview": "通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。屏幕中的文件夹图标完整、无文字，只框图标而非整个显示器，不宣称已读取实际目录。",
+      "geometry": {
+        "structure": {
+          "bubble": [
+            260,
+            80
+          ]
+        },
+        "module": {
+          "bubble": [
+            740,
+            80
+          ]
+        },
+        "dependency": {
+          "bubble": [
+            510,
+            220
+          ]
+        },
+        "folder": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            384,
+            318,
+            596,
+            478
+          ],
+          "anchor": [
+            490,
+            409
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    },
+    "V013": {
+      "sourcePath": "programmer-vibe-coding/images/V013.png",
+      "generationStartedAt": "2026-10-09T05:14:22Z",
+      "generationEndedAt": "2026-10-09T05:16:12Z",
+      "imageReview": "通过：单幅黑底白线，一个火柴人和一个可辨认的 OpenAI 六环结标识，无底图对白文字。硬壳书页、书脊和封面完整可见，无可读规则；纸页为纯黑白平面。",
+      "geometry": {
+        "instruction": {
+          "bubble": [
+            260,
+            80
+          ]
+        },
+        "convention": {
+          "bubble": [
+            740,
+            80
+          ]
+        },
+        "follow": {
+          "bubble": [
+            510,
+            220
+          ]
+        },
+        "book": {
+          "bubble": [
+            730,
+            865
+          ],
+          "box": [
+            329,
+            454,
+            721,
+            590
+          ],
+          "anchor": [
+            525,
+            535
+          ]
+        }
+      },
+      "actualImageDimensions": [
+        1254,
+        1254
+      ]
+    }
+  }
+}

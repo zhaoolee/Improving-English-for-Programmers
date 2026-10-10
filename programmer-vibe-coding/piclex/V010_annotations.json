@@ -1,0 +1,130 @@
+{
+  "filename": "V010-需求变了，怎样让 AI 跟上？.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "revise",
+      "chinese": "修订",
+      "phoneticUS": "/rɪˈvaɪz/",
+      "phoneticUK": "/rɪˈvaɪz/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "修订的是计划内容；持笔只能提供情境，不能证明内容已改。",
+        "association": "修订的是计划内容；持笔只能提供情境，不能证明内容已改。",
+        "collocation": "revise the plan; revise a requirement",
+        "example": "A: The requirement has changed. Please revise the plan in this notebook.\nB: Which part of the old plan is outdated?\nA: Remove the email step. Keep the rest of the scope the same.\nB: I'll update the plan and wait for your approval before changing the code.",
+        "exampleChinese": "A: 需求变了，请修订这个笔记本里的计划。\nB: 旧计划的哪一部分已经过时？\nA: 移除邮件步骤，其余范围保持不变。\nB: 我会更新计划，等你批准后再改代码。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "outdated",
+      "chinese": "过时的",
+      "phoneticUS": "/ˌaʊtˈdeɪtɪd/",
+      "phoneticUK": "/ˌaʊtˈdeɪtɪd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "过时指旧规则不再适用，不是物件外观或年龄。",
+        "association": "过时指旧规则不再适用，不是物件外观或年龄。",
+        "collocation": "an outdated plan; outdated information",
+        "example": "Which part of the old plan is outdated?",
+        "exampleChinese": "旧计划的哪一部分已经过时？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "scope",
+      "chinese": "范围",
+      "phoneticUS": "/skoʊp/",
+      "phoneticUK": "/skəʊp/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "范围是需求边界，没有可见的局部指代。",
+        "association": "范围是需求边界，没有可见的局部指代。",
+        "collocation": "the project scope; keep the scope the same",
+        "example": "Remove the email step. Keep the rest of the scope the same.",
+        "exampleChinese": "移除邮件步骤，其余范围保持不变。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 563,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 563
+      },
+      "boundingBox": {
+        "left": 309,
+        "top": 518,
+        "right": 711,
+        "bottom": 620
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "实际可见的纸质螺旋笔记本，不是笔记本电脑。",
+        "association": "实际可见的纸质螺旋笔记本，不是笔记本电脑。",
+        "collocation": "in this notebook; a planning notebook",
+        "example": "The requirement has changed. Please revise the plan in this notebook.",
+        "exampleChinese": "需求变了，请修订这个笔记本里的计划。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to revise the plan after a requirement changes.",
+    "chinese": "需求变更后，程序员让 AI 修订计划。",
+    "source": "原创对话 · V010 需求变了，怎样让 AI 跟上？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

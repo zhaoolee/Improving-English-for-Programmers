@@ -1,0 +1,526 @@
+{
+  "title": "程序员 Vibe Coding 第三批五张",
+  "status": "content_final",
+  "startedAt": "2026-10-09T05:07:21Z",
+  "startedAtNote": "本轮首个已记录时钟时间，未记录的更早起点不补造。",
+  "contentFinalizedAt": "2026-10-09T05:13:21.686210+00:00",
+  "displayTimeZone": "Asia/Shanghai",
+  "promptTemplate": "workflow/styles/stick-figure-openai-black-white.txt",
+  "cards": [
+    {
+      "id": "V008",
+      "category": "requirements",
+      "title": "先写验收标准，再写代码",
+      "keyword": "criteria",
+      "description_en": "A programmer and an AI assistant agree on acceptance criteria before writing code.",
+      "description_zh": "程序员与 AI 在写代码前约定验收标准。",
+      "communication_goal": "把验收标准写成可检查的预期行为。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Before you code, let's put the acceptance criteria in this document.",
+          "zh": "写代码前，我们先把验收标准写进这份文档。"
+        },
+        {
+          "speaker": "B",
+          "en": "What is the expected behavior when a required field is empty?",
+          "zh": "必填字段为空时，预期行为是什么？"
+        },
+        {
+          "speaker": "A",
+          "en": "Show an error and keep the form open. Do not save an incomplete record.",
+          "zh": "显示错误并保持表单打开，不保存不完整的记录。"
+        },
+        {
+          "speaker": "B",
+          "en": "Please confirm that rule. I'll use it to check the implementation.",
+          "zh": "请确认这条规则。我会用它检查实现。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at the left of a small desk, pointing to one large rectangular paper document lying diagonally on the desk. The sheet has a clearly folded upper-right corner and completely blank black interior outlined in white. Show all four page edges, with the pointing finger beside it rather than covering it. The white OpenAI knot floats to the right. Calm discussion pose. No laptop or other paper.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small desk, pointing to one large rectangular paper document lying diagonally on the desk. The sheet has a clearly folded upper-right corner and completely blank black interior outlined in white. Show all four page edges, with the pointing finger beside it rather than covering it. The white OpenAI knot floats to the right. Calm discussion pose. No laptop or other paper.",
+      "words": [
+        {
+          "word": "criteria",
+          "zh": "标准",
+          "pos": "noun",
+          "us": "/kraɪˈtɪriə/",
+          "uk": "/kraɪˈtɪəriə/",
+          "example": "Before you code, let's put the acceptance criteria in this document.",
+          "translation": "写代码前，我们先把验收标准写进这份文档。",
+          "mode": "context",
+          "collocations": [
+            "acceptance criteria",
+            "meet the criteria"
+          ],
+          "evidence": "验收标准由对白定义，空白纸张不能证明具体规则。",
+          "color": "blue"
+        },
+        {
+          "word": "expected",
+          "zh": "预期的",
+          "pos": "adjective",
+          "us": "/ɪkˈspektɪd/",
+          "uk": "/ɪkˈspektɪd/",
+          "example": "What is the expected behavior when a required field is empty?",
+          "translation": "必填字段为空时，预期行为是什么？",
+          "mode": "context",
+          "collocations": [
+            "expected behavior",
+            "the expected result"
+          ],
+          "evidence": "预期行为是对白中的约定，没有局部可见指代。",
+          "color": "lavender"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认",
+          "pos": "verb",
+          "us": "/kənˈfɜːrm/",
+          "uk": "/kənˈfɜːm/",
+          "example": "Please confirm that rule. I'll use it to check the implementation.",
+          "translation": "请确认这条规则。我会用它检查实现。",
+          "mode": "context",
+          "collocations": [
+            "confirm a rule",
+            "confirm the requirements"
+          ],
+          "evidence": "确认是请求中的交流行为，静态手势不能证明确认完成。",
+          "color": "rose"
+        },
+        {
+          "word": "document",
+          "zh": "文档",
+          "pos": "noun",
+          "us": "/ˈdɑːkjəmənt/",
+          "uk": "/ˈdɒkjəmənt/",
+          "example": "Before you code, let's put the acceptance criteria in this document.",
+          "translation": "写代码前，我们先把验收标准写进这份文档。",
+          "mode": "object",
+          "collocations": [
+            "in this document",
+            "a requirements document"
+          ],
+          "evidence": "对白指定纸质文档，实际纸张是局部指代；不声称能读出其内容。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V009",
+      "category": "requirements",
+      "title": "用一个例子消除十种误解",
+      "keyword": "example",
+      "description_en": "A programmer uses a concrete input and output example to clarify a requirement.",
+      "description_zh": "程序员用具体的输入与输出示例澄清需求。",
+      "communication_goal": "通过输入和预期输出消除需求歧义。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Let me show you an example on this tablet before you build the search.",
+          "zh": "在你实现搜索前，我先在这台平板上给你看一个例子。"
+        },
+        {
+          "speaker": "B",
+          "en": "What input should I use, and what output should I expect?",
+          "zh": "应该使用什么输入，预期得到什么输出？"
+        },
+        {
+          "speaker": "A",
+          "en": "If I search for a title with extra spaces, trim the spaces and return the matching item.",
+          "zh": "如果我搜索的标题带有多余空格，就去掉空格并返回匹配项。"
+        },
+        {
+          "speaker": "B",
+          "en": "Got it. I'll also check a search with no matches.",
+          "zh": "明白了。我还会检查没有匹配结果的搜索。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer sits at the left behind a simple desk and holds a single large tablet upright in landscape orientation at the center. The tablet has a rounded rectangular outer body, blank screen, thin bezel and a small circular home button on the right bezel. One hand supports the lower edge; the other gestures toward the floating white OpenAI knot at the right. Show the complete tablet perimeter. No stand, keyboard, writing or other props.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at the left behind a simple desk and holds a single large tablet upright in landscape orientation at the center. The tablet has a rounded rectangular outer body, blank screen, thin bezel and a small circular home button on the right bezel. One hand supports the lower edge; the other gestures toward the floating white OpenAI knot at the right. Show the complete tablet perimeter. No stand, keyboard, writing or other props.",
+      "words": [
+        {
+          "word": "example",
+          "zh": "示例",
+          "pos": "noun",
+          "us": "/ɪɡˈzæmpəl/",
+          "uk": "/ɪɡˈzɑːmpəl/",
+          "example": "Let me show you an example on this tablet before you build the search.",
+          "translation": "在你实现搜索前，我先在这台平板上给你看一个例子。",
+          "mode": "context",
+          "collocations": [
+            "a concrete example",
+            "show an example"
+          ],
+          "evidence": "具体示例来自对白，空白屏幕不提供可读示例内容。",
+          "color": "blue"
+        },
+        {
+          "word": "input",
+          "zh": "输入",
+          "pos": "noun",
+          "us": "/ˈɪnpʊt/",
+          "uk": "/ˈɪnpʊt/",
+          "example": "What input should I use, and what output should I expect?",
+          "translation": "应该使用什么输入，预期得到什么输出？",
+          "mode": "context",
+          "collocations": [
+            "search input",
+            "valid input"
+          ],
+          "evidence": "这里指搜索的输入数据，而非可定位的输入设备。",
+          "color": "lavender"
+        },
+        {
+          "word": "output",
+          "zh": "输出",
+          "pos": "noun",
+          "us": "/ˈaʊtpʊt/",
+          "uk": "/ˈaʊtpʊt/",
+          "example": "What input should I use, and what output should I expect?",
+          "translation": "应该使用什么输入，预期得到什么输出？",
+          "mode": "context",
+          "collocations": [
+            "expected output",
+            "check the output"
+          ],
+          "evidence": "这里指搜索结果数据，静态空白屏幕不能证明结果。",
+          "color": "rose"
+        },
+        {
+          "word": "tablet",
+          "zh": "平板电脑",
+          "pos": "noun",
+          "us": "/ˈtæblət/",
+          "uk": "/ˈtæblət/",
+          "example": "Let me show you an example on this tablet before you build the search.",
+          "translation": "在你实现搜索前，我先在这台平板上给你看一个例子。",
+          "mode": "object",
+          "collocations": [
+            "on this tablet",
+            "a tablet screen"
+          ],
+          "evidence": "完整手持平板的屏幕、边框与机身是直接可见指代。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V010",
+      "category": "requirements",
+      "title": "需求变了，怎样让 AI 跟上？",
+      "keyword": "revise",
+      "description_en": "A programmer asks an AI assistant to revise the plan after a requirement changes.",
+      "description_zh": "需求变更后，程序员让 AI 修订计划。",
+      "communication_goal": "标明过时规则，更新范围，并先确认新计划。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "The requirement has changed. Please revise the plan in this notebook.",
+          "zh": "需求变了，请修订这个笔记本里的计划。"
+        },
+        {
+          "speaker": "B",
+          "en": "Which part of the old plan is outdated?",
+          "zh": "旧计划的哪一部分已经过时？"
+        },
+        {
+          "speaker": "A",
+          "en": "Remove the email step. Keep the rest of the scope the same.",
+          "zh": "移除邮件步骤，其余范围保持不变。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll update the plan and wait for your approval before changing the code.",
+          "zh": "我会更新计划，等你批准后再改代码。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at the left of a small table, holding a pencil over a large open spiral-bound notebook lying flat at center. The two blank pages, spiral binding and entire page edges are clearly visible. Keep the pencil tip just above the page so it does not obscure the notebook. The white OpenAI knot floats to the right. Thoughtful face, revising a plan. No eraser, readable writing or other objects.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small table, holding a pencil over a large open spiral-bound notebook lying flat at center. The two blank pages, spiral binding and entire page edges are clearly visible. Keep the pencil tip just above the page so it does not obscure the notebook. The white OpenAI knot floats to the right. Thoughtful face, revising a plan. No eraser, readable writing or other objects.",
+      "words": [
+        {
+          "word": "revise",
+          "zh": "修订",
+          "pos": "verb",
+          "us": "/rɪˈvaɪz/",
+          "uk": "/rɪˈvaɪz/",
+          "example": "The requirement has changed. Please revise the plan in this notebook.",
+          "translation": "需求变了，请修订这个笔记本里的计划。",
+          "mode": "context",
+          "collocations": [
+            "revise the plan",
+            "revise a requirement"
+          ],
+          "evidence": "修订的是计划内容；持笔只能提供情境，不能证明内容已改。",
+          "color": "blue"
+        },
+        {
+          "word": "outdated",
+          "zh": "过时的",
+          "pos": "adjective",
+          "us": "/ˌaʊtˈdeɪtɪd/",
+          "uk": "/ˌaʊtˈdeɪtɪd/",
+          "example": "Which part of the old plan is outdated?",
+          "translation": "旧计划的哪一部分已经过时？",
+          "mode": "context",
+          "collocations": [
+            "an outdated plan",
+            "outdated information"
+          ],
+          "evidence": "过时指旧规则不再适用，不是物件外观或年龄。",
+          "color": "lavender"
+        },
+        {
+          "word": "scope",
+          "zh": "范围",
+          "pos": "noun",
+          "us": "/skoʊp/",
+          "uk": "/skəʊp/",
+          "example": "Remove the email step. Keep the rest of the scope the same.",
+          "translation": "移除邮件步骤，其余范围保持不变。",
+          "mode": "context",
+          "collocations": [
+            "the project scope",
+            "keep the scope the same"
+          ],
+          "evidence": "范围是需求边界，没有可见的局部指代。",
+          "color": "rose"
+        },
+        {
+          "word": "notebook",
+          "zh": "笔记本",
+          "pos": "noun",
+          "us": "/ˈnoʊtbʊk/",
+          "uk": "/ˈnəʊtbʊk/",
+          "example": "The requirement has changed. Please revise the plan in this notebook.",
+          "translation": "需求变了，请修订这个笔记本里的计划。",
+          "mode": "object",
+          "collocations": [
+            "in this notebook",
+            "a planning notebook"
+          ],
+          "evidence": "实际可见的纸质螺旋笔记本，不是笔记本电脑。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V012",
+      "category": "context",
+      "title": "让 AI 先读项目地图",
+      "keyword": "structure",
+      "description_en": "A programmer asks an AI assistant to inspect the project structure before proposing changes.",
+      "description_zh": "程序员让 AI 先检查项目结构，再提出改动建议。",
+      "communication_goal": "先理解模块与依赖，再确定改动位置。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Before editing, inspect the project structure and open the source folder.",
+          "zh": "编辑前，先检查项目结构并打开源代码文件夹。"
+        },
+        {
+          "speaker": "B",
+          "en": "Which module handles requests from the browser?",
+          "zh": "哪个模块处理来自浏览器的请求？"
+        },
+        {
+          "speaker": "A",
+          "en": "Start with the API module, then trace its dependency on the database layer.",
+          "zh": "先从 API 模块开始，再追踪它对数据库层的依赖。"
+        },
+        {
+          "speaker": "B",
+          "en": "I'll summarize what I find before proposing a change.",
+          "zh": "我会先总结发现，再提出改动建议。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer stands at left beside a simple desk and points to a large desktop monitor at center. On its otherwise blank screen show exactly one large WHITE outlined generic folder icon with a clear raised tab at upper left, no contents and no writing. Keep the folder icon large, complete and unobstructed for cropping. The white OpenAI knot floats to the right outside the monitor. No other icons, arrows, laptop or objects.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left beside a simple desk and points to a large desktop monitor at center. On its otherwise blank screen show exactly one large WHITE outlined generic folder icon with a clear raised tab at upper left, no contents and no writing. Keep the folder icon large, complete and unobstructed for cropping. The white OpenAI knot floats to the right outside the monitor. No other icons, arrows, laptop or objects.",
+      "words": [
+        {
+          "word": "structure",
+          "zh": "结构",
+          "pos": "noun",
+          "us": "/ˈstrʌktʃər/",
+          "uk": "/ˈstrʌktʃə/",
+          "example": "Before editing, inspect the project structure and open the source folder.",
+          "translation": "编辑前，先检查项目结构并打开源代码文件夹。",
+          "mode": "context",
+          "collocations": [
+            "project structure",
+            "inspect the structure"
+          ],
+          "evidence": "项目组织由对白指定，单个文件夹图标无法展示真实项目结构。",
+          "color": "blue"
+        },
+        {
+          "word": "module",
+          "zh": "模块",
+          "pos": "noun",
+          "us": "/ˈmɑːdʒuːl/",
+          "uk": "/ˈmɒdjuːl/",
+          "example": "Which module handles requests from the browser?",
+          "translation": "哪个模块处理来自浏览器的请求？",
+          "mode": "context",
+          "collocations": [
+            "the API module",
+            "a software module"
+          ],
+          "evidence": "这里是软件代码模块，不能把图标框当代码模块。",
+          "color": "lavender"
+        },
+        {
+          "word": "dependency",
+          "zh": "依赖",
+          "pos": "noun",
+          "us": "/dɪˈpendənsi/",
+          "uk": "/dɪˈpendənsi/",
+          "example": "Start with the API module, then trace its dependency on the database layer.",
+          "translation": "先从 API 模块开始，再追踪它对数据库层的依赖。",
+          "mode": "context",
+          "collocations": [
+            "a dependency on",
+            "trace a dependency"
+          ],
+          "evidence": "软件依赖由对白说明，没有局部可见指代。",
+          "color": "rose"
+        },
+        {
+          "word": "folder",
+          "zh": "文件夹",
+          "pos": "noun",
+          "us": "/ˈfoʊldər/",
+          "uk": "/ˈfəʊldə/",
+          "example": "Before editing, inspect the project structure and open the source folder.",
+          "translation": "编辑前，先检查项目结构并打开源代码文件夹。",
+          "mode": "object",
+          "collocations": [
+            "the source folder",
+            "open a folder"
+          ],
+          "evidence": "屏幕中的文件夹图标是可定位的指代，不证明其实际内容。",
+          "color": "teal"
+        }
+      ]
+    },
+    {
+      "id": "V013",
+      "category": "context",
+      "title": "把项目规矩写进 AGENTS.md",
+      "keyword": "instruction",
+      "description_en": "A programmer asks an AI assistant to read the project rules in AGENTS.md before editing.",
+      "description_zh": "程序员让 AI 在编辑前读取 AGENTS.md 中的项目规则。",
+      "communication_goal": "把约定写进规则文件，遇到冲突先询问。",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "en": "Read each instruction in AGENTS.md before you edit. The rules are also in this book.",
+          "zh": "编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。"
+        },
+        {
+          "speaker": "B",
+          "en": "Should I follow the existing naming convention?",
+          "zh": "我应该遵循已有的命名约定吗？"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes. Follow the project rules, and ask me if two instructions conflict.",
+          "zh": "是的。遵循项目规则，如果两条指令冲突就问我。"
+        },
+        {
+          "speaker": "B",
+          "en": "Understood. I'll check the rules before proposing any changes.",
+          "zh": "明白了。我会先检查规则，再提出改动建议。"
+        }
+      ],
+      "roles": {
+        "A": "Programmer 程序员（火柴人）",
+        "B": "AI assistant AI 助手（OpenAI Logo）"
+      },
+      "scene_prompt": "The adult stick-figure programmer sits at left at a small desk with a large open hardcover reference book at the center. The book has two blank pages, a clear central gutter, thick layered page edges and visible rigid cover under the pages; it is clearly NOT spiral-bound. The programmer points beside the book. The floating white OpenAI knot at the right is the conversational partner. Keep the whole book unobstructed. No titles, writing, laptop or other objects.",
+      "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer sits at left at a small desk with a large open hardcover reference book at the center. The book has two blank pages, a clear central gutter, thick layered page edges and visible rigid cover under the pages; it is clearly NOT spiral-bound. The programmer points beside the book. The floating white OpenAI knot at the right is the conversational partner. Keep the whole book unobstructed. No titles, writing, laptop or other objects.",
+      "words": [
+        {
+          "word": "instruction",
+          "zh": "指令",
+          "pos": "noun",
+          "us": "/ɪnˈstrʌkʃən/",
+          "uk": "/ɪnˈstrʌkʃən/",
+          "example": "Read each instruction in AGENTS.md before you edit. The rules are also in this book.",
+          "translation": "编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。",
+          "mode": "context",
+          "collocations": [
+            "read an instruction",
+            "follow instructions"
+          ],
+          "evidence": "指令内容由对白提供，不能从空白书页读取项目规则。",
+          "color": "blue"
+        },
+        {
+          "word": "convention",
+          "zh": "约定",
+          "pos": "noun",
+          "us": "/kənˈvenʃən/",
+          "uk": "/kənˈvenʃən/",
+          "example": "Should I follow the existing naming convention?",
+          "translation": "我应该遵循已有的命名约定吗？",
+          "mode": "context",
+          "collocations": [
+            "a naming convention",
+            "follow a convention"
+          ],
+          "evidence": "命名约定是项目规则，没有可见局部指代。",
+          "color": "lavender"
+        },
+        {
+          "word": "follow",
+          "zh": "遵循",
+          "pos": "verb",
+          "us": "/ˈfɑːloʊ/",
+          "uk": "/ˈfɒləʊ/",
+          "example": "Yes. Follow the project rules, and ask me if two instructions conflict.",
+          "translation": "是的。遵循项目规则，如果两条指令冲突就问我。",
+          "mode": "context",
+          "collocations": [
+            "follow the rules",
+            "follow a convention"
+          ],
+          "evidence": "这里是遵循规则的抽象含义，不框选动作或脚步。",
+          "color": "rose"
+        },
+        {
+          "word": "book",
+          "zh": "书",
+          "pos": "noun",
+          "us": "/bʊk/",
+          "uk": "/bʊk/",
+          "example": "Read each instruction in AGENTS.md before you edit. The rules are also in this book.",
+          "translation": "编辑前，请读取 AGENTS.md 中的每条指令。这本书里也有这些规则。",
+          "mode": "object",
+          "collocations": [
+            "in this book",
+            "a reference book"
+          ],
+          "evidence": "完整可见的硬壳书、书脊与书页是直接指代；项目规则的内容由对白说明。",
+          "color": "teal"
+        }
+      ]
+    }
+  ]
+}

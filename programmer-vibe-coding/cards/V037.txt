@@ -1,0 +1,119 @@
+V037  让每次提交都能说清楚
+========================================================================
+分类: 从能跑到交付（delivery）
+关键词: commit
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V037.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V037.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V037.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V037_image_final.txt
+
+场景: 使用 Git、发布、回滚与反馈完成交付
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。桌面上只有一个打开的文件夹，标签页和两张空白纸完整可见；提交、信息与原子性是版本控制语境。
+
+沟通目标: 让一次提交只表达一个可审查的意图。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to keep a commit atomic and its message clear.
+  中文: 程序员让 AI 保持提交原子化，并写清提交信息。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] Keep this commit atomic and give it a clear message.
+        让这次提交保持原子化，并写一条清楚的提交信息。
+  [B] Should I include the unrelated formatting changes?
+        要把无关的格式修改也包含进去吗？
+  [A] No. Leave those files in this folder for a separate commit.
+        不要。把那些文件留在这个文件夹里，另做一次提交。
+  [B] I'll commit only the behavior change and summarize why.
+        我只提交行为改动，并概括修改原因。
+
+目标词 (4): commit, message, atomic, folder
+
+------------------------------------------------------------------------
+[1/4] commit
+  词义: 提交
+  词性: noun
+  音标: UK /ˈkɒmɪt/ | US /ˈkɑːmɪt/
+  搭配: an atomic commit; a separate commit
+  例句: Keep this commit atomic and give it a clear message.
+  例句高亮: Keep this **commit** atomic and give it a clear message.
+  例句中文: 让这次提交保持原子化，并写一条清楚的提交信息。
+  标注模式: context
+  标注说明: 这里是版本控制提交，不把文件夹或放置动作当作提交完成证据。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] message
+  词义: 信息
+  词性: noun
+  音标: UK /ˈmesɪdʒ/ | US /ˈmesɪdʒ/
+  搭配: a commit message; a clear message
+  例句: Keep this commit atomic and give it a clear message.
+  例句高亮: Keep this commit atomic and give it a clear **message**.
+  例句中文: 让这次提交保持原子化，并写一条清楚的提交信息。
+  标注模式: context
+  标注说明: 提交信息应为文字，但底图禁止可读文字，因此只由对白教学。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] atomic
+  词义: 原子化的
+  词性: adjective
+  音标: UK /əˈtɒmɪk/ | US /əˈtɑːmɪk/
+  搭配: an atomic commit; keep a change atomic
+  例句: Keep this commit atomic and give it a clear message.
+  例句高亮: Keep this commit **atomic** and give it a clear message.
+  例句中文: 让这次提交保持原子化，并写一条清楚的提交信息。
+  标注模式: context
+  标注说明: 原子化指一次提交只含一个意图，与物理原子或文件夹大小无关。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] folder
+  词义: 文件夹
+  词性: noun
+  音标: UK /ˈfəʊldə/ | US /ˈfoʊldər/
+  搭配: in this folder; a file folder
+  例句: No. Leave those files in this folder for a separate commit.
+  例句高亮: No. Leave those files in this **folder** for a separate commit.
+  例句中文: 不要。把那些文件留在这个文件夹里，另做一次提交。
+  标注模式: object
+  标注说明: 桌面上完整打开的实体文件夹及其标签页是直接指代，只框文件夹。
+  坐标(normalized): [0.361, 0.411, 0.617, 0.602]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V037 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left of a small desk and points toward one large open file folder centered on the tabletop. The full folder outline, tab and two blank sheets inside are complete and unobstructed; the sheets have no writing, letters or symbols. The floating white OpenAI knot is at the right. No computer, branch diagram or extra folders.

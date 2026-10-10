@@ -1,0 +1,15 @@
+{
+  "cardID": "V001",
+  "imagePath": "../images/V001.png",
+  "imageSHA256": "9e606faecbf0d83ffa2ea36fd109d11ddcfc1944d6ff42edddd0b3cdf98fd2cf",
+  "imageReviewed": true,
+  "annotationsPath": "V001_annotations.json",
+  "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+  "expectedWords": [
+    "delegate",
+    "decision",
+    "review",
+    "laptop"
+  ],
+  "receiptPath": "V001_import_receipt.json"
+}

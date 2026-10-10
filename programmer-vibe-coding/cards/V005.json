@@ -1,0 +1,246 @@
+{
+  "id": "V005",
+  "category": "pairing",
+  "category_title": "和 AI 结对入门",
+  "chapter": "和 AI 结对入门",
+  "title": "给 AI 划清操作边界",
+  "keyword": "permission",
+  "scene": "程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。",
+  "target_count": 4,
+  "primary_words": [
+    "permission",
+    "delete",
+    "confirm",
+    "folder"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "permission",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "权限",
+      "pos": "noun",
+      "ipa_us": "/pərˈmɪʃən/",
+      "ipa_uk": "/pəˈmɪʃən/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You can edit this project folder, but do you have permission to delete files?",
+        "matched_form": "permission",
+        "referent_region_verified": false,
+        "context": "是否拥有删除权限由对白明确说明，不从图标或人物动作推断。",
+        "image_verified": null
+      },
+      "example_en": "You can edit this project folder, but do you have permission to delete files?",
+      "example_zh": "你可以编辑这个项目文件夹，但你有权限删除文件吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "have permission",
+        "permission to delete files"
+      ],
+      "example_en_highlighted": "You can edit this project folder, but do you have **permission** to delete files?",
+      "annotation_mode": "context",
+      "annotation_note": "是否拥有删除权限由对白明确说明，不从图标或人物动作推断。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "delete",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "删除",
+      "pos": "verb",
+      "ipa_us": "/dɪˈliːt/",
+      "ipa_uk": "/dɪˈliːt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You can edit this project folder, but do you have permission to delete files?",
+        "matched_form": "delete",
+        "referent_region_verified": false,
+        "context": "删除是被限制的操作，并未实际发生；不为它编造可见框。",
+        "image_verified": null
+      },
+      "example_en": "You can edit this project folder, but do you have permission to delete files?",
+      "example_zh": "你可以编辑这个项目文件夹，但你有权限删除文件吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "delete files",
+        "delete a record"
+      ],
+      "example_en_highlighted": "You can edit this project folder, but do you have permission to **delete** files?",
+      "annotation_mode": "context",
+      "annotation_note": "删除是被限制的操作，并未实际发生；不为它编造可见框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "confirm",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "确认",
+      "pos": "verb",
+      "ipa_us": "/kənˈfɜːrm/",
+      "ipa_uk": "/kənˈfɜːm/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "No. I'll keep the files and confirm the scope with you first.",
+        "matched_form": "confirm",
+        "referent_region_verified": false,
+        "context": "确认范围是对白中的承诺，不从指向动作认定已经确认。",
+        "image_verified": null
+      },
+      "example_en": "No. I'll keep the files and confirm the scope with you first.",
+      "example_zh": "没有。我会保留文件，并先与你确认操作范围。",
+      "bbox_normalized": null,
+      "collocations": [
+        "confirm the scope",
+        "confirm a requirement"
+      ],
+      "example_en_highlighted": "No. I'll keep the files and **confirm** the scope with you first.",
+      "annotation_mode": "context",
+      "annotation_note": "确认范围是对白中的承诺，不从指向动作认定已经确认。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "folder",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "文件夹",
+      "pos": "noun",
+      "ipa_us": "/ˈfoʊldər/",
+      "ipa_uk": "/ˈfəʊldə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示器上清楚可见的文件夹图标对应对话中的项目目录；局部框仅指向图标，权限另由对白支持。",
+        "sentence": "You can edit this project folder, but do you have permission to delete files?",
+        "matched_form": "folder",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "You can edit this project folder, but do you have permission to delete files?",
+      "example_zh": "你可以编辑这个项目文件夹，但你有权限删除文件吗？",
+      "bbox_normalized": [
+        0.394,
+        0.368,
+        0.586,
+        0.504
+      ],
+      "collocations": [
+        "a project folder",
+        "edit a folder"
+      ],
+      "example_en_highlighted": "You can edit this project **folder**, but do you have permission to delete files?",
+      "annotation_mode": "object",
+      "annotation_note": "显示器上清楚可见的文件夹图标对应对话中的项目目录；局部框仅指向图标，权限另由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer sets editing permissions for a project folder and asks the AI to confirm its scope.",
+    "zh": "程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer sets editing permissions for a project folder and asks the AI to confirm its scope.",
+    "zh": "程序员为项目文件夹设定编辑权限，并要求 AI 确认操作范围。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "You can edit this project folder, but do you have permission to delete files?",
+      "zh": "你可以编辑这个项目文件夹，但你有权限删除文件吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "No. I'll keep the files and confirm the scope with you first.",
+      "zh": "没有。我会保留文件，并先与你确认操作范围。"
+    },
+    {
+      "speaker": "A",
+      "en": "Also ask before installing packages or publishing changes.",
+      "zh": "安装依赖包或发布改动前也要先询问。"
+    },
+    {
+      "speaker": "B",
+      "en": "Understood. I'll stay within the actions you've approved.",
+      "zh": "明白。我会限定在你已经批准的操作范围内。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "区分已批准的编辑与需要另行确认的操作。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The stick-figure programmer stands at left of a simple desktop monitor on a small desk and points toward the monitor, while the white OpenAI knot floats at right. Show one LARGE unmistakable outlined folder icon centered on the otherwise blank monitor screen: its tab and folder outline clearly recognizable, with no letters or code. This visible folder icon represents the project directory discussed in the conversation, not a physical paper folder. Make the complete icon large enough for a local crop, with generous space around it. No other screen icons or props.",
+  "status": "approved",
+  "image_path": "images/V005.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V005 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V005.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T03:08:49Z",
+    "ended_at": "2026-10-09T03:10:49Z",
+    "prompt_path": "prompts/V005_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V005.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。框仅围住显示器上的完整文件夹图标；项目目录身份由对白支持，不误认成实体纸文件夹。"
+  }
+}

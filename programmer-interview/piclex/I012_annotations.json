@@ -1,0 +1,130 @@
+{
+  "filename": "I012.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "approach",
+      "chinese": "思路",
+      "phoneticUS": "/əˈproʊtʃ/",
+      "phoneticUK": "/əˈprəʊtʃ/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：approach。本卡例句：My approach is to keep a running total as I iterate through the array.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：approach。本卡例句：My approach is to keep a running total as I iterate through the array.",
+        "collocation": "an alternative approach; explain your approach",
+        "example": "A: My approach is to keep a running total as I iterate through the array.\nB: What do you update at each step?\nA: I add the current value to the total. I'll type that loop on the laptop now.\nB: Please trace it with a small example first.",
+        "exampleChinese": "A: 我的思路是在遍历数组时维护一个累计总和。\nB: 每一步你会更新什么？\nA: 我把当前值加到总和中。我现在会在笔记本电脑上输入这个循环。\nB: 请先用一个小例子逐步演示。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "iterate",
+      "chinese": "遍历",
+      "phoneticUS": "/ˈɪtəreɪt/",
+      "phoneticUK": "/ˈɪtəreɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：iterate。本卡例句：My approach is to keep a running total as I iterate through the array.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：iterate。本卡例句：My approach is to keep a running total as I iterate through the array.",
+        "collocation": "iterate through an array; iterate over items",
+        "example": "My approach is to keep a running total as I iterate through the array.",
+        "exampleChinese": "我的思路是在遍历数组时维护一个累计总和。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "update",
+      "chinese": "更新",
+      "phoneticUS": "/ʌpˈdeɪt/",
+      "phoneticUK": "/ʌpˈdeɪt/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：update。本卡例句：What do you update at each step?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：update。本卡例句：What do you update at each step?",
+        "collocation": "update a counter; update a value",
+        "example": "What do you update at each step?",
+        "exampleChinese": "每一步你会更新什么？"
+      }
+    },
+    {
+      "x": 805,
+      "y": 725,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 770,
+        "y": 925
+      },
+      "anchorPosition": {
+        "x": 805,
+        "y": 725
+      },
+      "boundingBox": {
+        "left": 555,
+        "top": 488,
+        "right": 1000,
+        "bottom": 795
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "画面右侧打开的电脑屏幕和键盘可见部分，右缘如实按实际截断范围取框。",
+        "association": "画面右侧打开的电脑屏幕和键盘可见部分，右缘如实按实际截断范围取框。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "I add the current value to the total. I'll type that loop on the laptop now.",
+        "exampleChinese": "我把当前值加到总和中。我现在会在笔记本电脑上输入这个循环。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate explains his approach as he works through a coding problem.",
+    "chinese": "候选人在解编码题的过程中说明自己的思路。",
+    "source": "原创配文 · I012 边写边解释解题思路",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

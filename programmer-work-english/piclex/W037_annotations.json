@@ -1,0 +1,130 @@
+{
+  "filename": "W037-解释维护成本.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "maintenance",
+      "chinese": "维护",
+      "phoneticUS": "/ˈmeɪntənəns/",
+      "phoneticUK": "/ˈmeɪntənəns/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“It reduces maintenance cost because fewer parts can fail.”明确表达维护；单幅画面不能独立证明，不设局部框。",
+        "association": "“It reduces maintenance cost because fewer parts can fail.”明确表达维护；单幅画面不能独立证明，不设局部框。",
+        "collocation": "maintenance cost; routine maintenance",
+        "example": "A: Why do you prefer the simple design?\nB: It reduces maintenance cost because fewer parts can fail.\nA: Could you sketch the difference on the board?\nB: Sure. This smaller diagram is easier for the team to understand.",
+        "exampleChinese": "A: 你为什么更倾向于简单的设计？\nB: 它能降低维护成本，因为可能出故障的部分更少。\nA: 你能在白板上画出差异吗？\nB: 可以。这个更小的图更容易让团队理解。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "simple",
+      "chinese": "简单的",
+      "phoneticUS": "/ˈsɪmpl/",
+      "phoneticUK": "/ˈsɪmpl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Why do you prefer the simple design?”明确表达简单的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Why do you prefer the simple design?”明确表达简单的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a simple design; keep it simple",
+        "example": "Why do you prefer the simple design?",
+        "exampleChinese": "你为什么更倾向于简单的设计？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "cost",
+      "chinese": "成本",
+      "phoneticUS": "/kɔːst/",
+      "phoneticUK": "/kɒst/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“It reduces maintenance cost because fewer parts can fail.”明确表达成本；单幅画面不能独立证明，不设局部框。",
+        "association": "“It reduces maintenance cost because fewer parts can fail.”明确表达成本；单幅画面不能独立证明，不设局部框。",
+        "collocation": "maintenance cost; reduce the cost",
+        "example": "It reduces maintenance cost because fewer parts can fail.",
+        "exampleChinese": "它能降低维护成本，因为可能出故障的部分更少。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 592,
+      "english": "board",
+      "chinese": "白板",
+      "phoneticUS": "/bɔːrd/",
+      "phoneticUK": "/bɔːd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 592
+      },
+      "boundingBox": {
+        "left": 249,
+        "top": 219,
+        "right": 770,
+        "bottom": 749
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "白板（board）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "update the board; a task board",
+        "example": "Could you sketch the difference on the board?",
+        "exampleChinese": "你能在白板上画出差异吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer explains how a simpler design lowers maintenance cost.",
+    "chinese": "开发者解释简单的设计如何降低维护成本。",
+    "source": "原创对话 · W037 解释维护成本",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

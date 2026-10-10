@@ -1,0 +1,130 @@
+{
+  "filename": "I022.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 75,
+      "english": "redirect",
+      "chinese": "重定向",
+      "phoneticUS": "/ˌriːdəˈrekt/",
+      "phoneticUK": "/ˌriːdəˈrekt/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：redirect。本卡例句：I'd look it up and redirect the client. The whiteboard shows the lookup path.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：redirect。本卡例句：I'd look it up and redirect the client. The whiteboard shows the lookup path.",
+        "collocation": "redirect the client; redirect a request",
+        "example": "A: I'd store a mapping from each unique short code to its original URL.\nB: How would you handle a request for that code?\nA: I'd look it up and redirect the client. The whiteboard shows the lookup path.\nB: What would you return if the code didn't exist?",
+        "exampleChinese": "A: 我会保存从每个唯一短码到原始网址的映射。\nB: 你会如何处理对那个短码的请求？\nA: 我会查找映射，再将客户端重定向。白板展示了查找路径。\nB: 如果短码不存在，你会返回什么？"
+      }
+    },
+    {
+      "x": 500,
+      "y": 925,
+      "english": "unique",
+      "chinese": "唯一的",
+      "phoneticUS": "/juˈniːk/",
+      "phoneticUK": "/juˈniːk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 925
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：unique。本卡例句：I'd store a mapping from each unique short code to its original URL.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：unique。本卡例句：I'd store a mapping from each unique short code to its original URL.",
+        "collocation": "a unique code; a unique identifier",
+        "example": "I'd store a mapping from each unique short code to its original URL.",
+        "exampleChinese": "我会保存从每个唯一短码到原始网址的映射。"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "mapping",
+      "chinese": "映射",
+      "phoneticUS": "/ˈmæpɪŋ/",
+      "phoneticUK": "/ˈmæpɪŋ/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mapping。本卡例句：I'd store a mapping from each unique short code to its original URL.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mapping。本卡例句：I'd store a mapping from each unique short code to its original URL.",
+        "collocation": "a URL mapping; store a mapping",
+        "example": "I'd store a mapping from each unique short code to its original URL.",
+        "exampleChinese": "我会保存从每个唯一短码到原始网址的映射。"
+      }
+    },
+    {
+      "x": 832,
+      "y": 530,
+      "english": "whiteboard",
+      "chinese": "白板",
+      "phoneticUS": "/ˈwaɪtbɔːrd/",
+      "phoneticUK": "/ˈwaɪtbɔːd/",
+      "bubblePosition": {
+        "x": 880,
+        "y": 730
+      },
+      "anchorPosition": {
+        "x": 832,
+        "y": 530
+      },
+      "boundingBox": {
+        "left": 725,
+        "top": 80,
+        "right": 1000,
+        "bottom": 629
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "画面右侧白板的框图和存储圆柱；短链接语义不能由无字形状单独确认。",
+        "association": "画面右侧白板的框图和存储圆柱；短链接语义不能由无字形状单独确认。",
+        "collocation": "sketch on a whiteboard; use the whiteboard",
+        "example": "I'd look it up and redirect the client. The whiteboard shows the lookup path.",
+        "exampleChinese": "我会查找映射，再将客户端重定向。白板展示了查找路径。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate sketches the flow of a URL-shortening service on a whiteboard.",
+    "chinese": "候选人在白板上勾勒短链接服务的处理流程。",
+    "source": "原创配文 · I022 设计一个短链接服务",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

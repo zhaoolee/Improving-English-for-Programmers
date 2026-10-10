@@ -1,0 +1,246 @@
+{
+  "id": "W077",
+  "category": "growth",
+  "category_title": "反馈与职业成长",
+  "chapter": "反馈与职业成长",
+  "title": "接受建设性反馈",
+  "keyword": "feedback",
+  "scene": "开发者接受反馈，并询问如何改进。",
+  "target_count": 4,
+  "primary_words": [
+    "feedback",
+    "specific",
+    "improve",
+    "notebook"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "feedback",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "反馈",
+      "pos": "noun",
+      "ipa_us": "/ˈfiːdbæk/",
+      "ipa_uk": "/ˈfiːdbæk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Thanks for the feedback. Could you give me a specific example?",
+        "matched_form": "feedback",
+        "referent_region_verified": false,
+        "context": "“Thanks for the feedback. Could you give me a specific example?”明确表达反馈；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Thanks for the feedback. Could you give me a specific example?",
+      "example_zh": "谢谢你的反馈。能给我一个具体例子吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "give feedback",
+        "ask for feedback"
+      ],
+      "example_en_highlighted": "Thanks for the **feedback**. Could you give me a specific example?",
+      "annotation_mode": "context",
+      "annotation_note": "“Thanks for the feedback. Could you give me a specific example?”明确表达反馈；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "specific",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "具体的",
+      "pos": "adjective",
+      "ipa_us": "/spəˈsɪfɪk/",
+      "ipa_uk": "/spəˈsɪfɪk/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Thanks for the feedback. Could you give me a specific example?",
+        "matched_form": "specific",
+        "referent_region_verified": false,
+        "context": "“Thanks for the feedback. Could you give me a specific example?”明确表达具体的；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Thanks for the feedback. Could you give me a specific example?",
+      "example_zh": "谢谢你的反馈。能给我一个具体例子吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "more specific",
+        "a specific example"
+      ],
+      "example_en_highlighted": "Thanks for the feedback. Could you give me a **specific** example?",
+      "annotation_mode": "context",
+      "annotation_note": "“Thanks for the feedback. Could you give me a specific example?”明确表达具体的；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "improve",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "改进",
+      "pos": "verb",
+      "ipa_us": "/ɪmˈpruːv/",
+      "ipa_uk": "/ɪmˈpruːv/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll note that in this notebook. How can I improve the next update?",
+        "matched_form": "improve",
+        "referent_region_verified": false,
+        "context": "“I'll note that in this notebook. How can I improve the next update?”明确表达改进；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I'll note that in this notebook. How can I improve the next update?",
+      "example_zh": "我把这点记在这个笔记本里。下次更新怎样改进？",
+      "bbox_normalized": null,
+      "collocations": [
+        "improve a process",
+        "improve your skills"
+      ],
+      "example_en_highlighted": "I'll note that in this notebook. How can I **improve** the next update?",
+      "annotation_mode": "context",
+      "annotation_note": "“I'll note that in this notebook. How can I improve the next update?”明确表达改进；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "notebook",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔记本",
+      "pos": "noun",
+      "ipa_us": "/ˈnoʊtbʊk/",
+      "ipa_uk": "/ˈnəʊtbʊk/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "I'll note that in this notebook. How can I improve the next update?",
+        "matched_form": "notebook",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll note that in this notebook. How can I improve the next update?",
+      "example_zh": "我把这点记在这个笔记本里。下次更新怎样改进？",
+      "bbox_normalized": [
+        0.276,
+        0.534,
+        0.578,
+        0.663
+      ],
+      "collocations": [
+        "in this notebook",
+        "write in a notebook"
+      ],
+      "example_en_highlighted": "I'll note that in this **notebook**. How can I improve the next update?",
+      "annotation_mode": "object",
+      "annotation_note": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer accepts feedback and asks how to improve.",
+    "zh": "开发者接受反馈，并询问如何改进。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer accepts feedback and asks how to improve.",
+    "zh": "开发者接受反馈，并询问如何改进。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Thanks for the feedback. Could you give me a specific example?",
+      "zh": "谢谢你的反馈。能给我一个具体例子吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Your last update explained the problem but didn't state the next step.",
+      "zh": "你上一次更新说明了问题，但没有说下一步做什么。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll note that in this notebook. How can I improve the next update?",
+      "zh": "我把这点记在这个笔记本里。下次更新怎样改进？"
+    },
+    {
+      "speaker": "B",
+      "en": "End with the next action and when people can expect an update.",
+      "zh": "最后说清下一步行动，以及大家何时能收到进展更新。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "接受具体反馈并制定下一次改进动作。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers sit at a small table discussing calmly. One listens attentively and points to a blank notebook lying open in clear foreground, other gives a gentle explaining gesture.",
+  "status": "approved",
+  "image_path": "images/W077.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W077 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W077.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:36:12.599Z",
+    "prompt_path": "prompts/W077_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W077.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：前景完整纸质笔记本，反馈与改进内容由对白说明。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

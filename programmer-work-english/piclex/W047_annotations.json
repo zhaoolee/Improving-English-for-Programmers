@@ -1,0 +1,130 @@
+{
+  "filename": "W047-处理合并冲突.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "conflict",
+      "chinese": "冲突",
+      "phoneticUS": "/ˈkɑːnflɪkt/",
+      "phoneticUK": "/ˈkɒnflɪkt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“My branch has a conflict with the latest changes.”明确表达冲突；单幅画面不能独立证明，不设局部框。",
+        "association": "“My branch has a conflict with the latest changes.”明确表达冲突；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a merge conflict; resolve a conflict",
+        "example": "A: My branch has a conflict with the latest changes.\nB: Let's resolve it together. Which file changed on both sides?\nA: The settings file. I'll use this keyboard to open both versions.\nB: Great. Keep the new validation and your default values.",
+        "exampleChinese": "A: 我的分支与最新修改发生了冲突。\nB: 我们一起解决。哪一个文件双方都修改了？\nA: 设置文件。我用这个键盘打开两个版本。\nB: 好。保留新的校验逻辑和你设置的默认值。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "resolve",
+      "chinese": "解决",
+      "phoneticUS": "/rɪˈzɑːlv/",
+      "phoneticUK": "/rɪˈzɒlv/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Let's resolve it together. Which file changed on both sides?”明确表达解决；单幅画面不能独立证明，不设局部框。",
+        "association": "“Let's resolve it together. Which file changed on both sides?”明确表达解决；单幅画面不能独立证明，不设局部框。",
+        "collocation": "resolve a conflict; resolve an issue",
+        "example": "Let's resolve it together. Which file changed on both sides?",
+        "exampleChinese": "我们一起解决。哪一个文件双方都修改了？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "branch",
+      "chinese": "分支",
+      "phoneticUS": "/bræntʃ/",
+      "phoneticUK": "/brɑːntʃ/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“My branch has a conflict with the latest changes.”明确表达分支；单幅画面不能独立证明，不设局部框。",
+        "association": "“My branch has a conflict with the latest changes.”明确表达分支；单幅画面不能独立证明，不设局部框。",
+        "collocation": "my branch; a feature branch",
+        "example": "My branch has a conflict with the latest changes.",
+        "exampleChinese": "我的分支与最新修改发生了冲突。"
+      }
+    },
+    {
+      "x": 658,
+      "y": 643,
+      "english": "keyboard",
+      "chinese": "键盘",
+      "phoneticUS": "/ˈkiːbɔːrd/",
+      "phoneticUK": "/ˈkiːbɔːd/",
+      "bubblePosition": {
+        "x": 650,
+        "y": 850
+      },
+      "anchorPosition": {
+        "x": 658,
+        "y": 643
+      },
+      "boundingBox": {
+        "left": 527,
+        "top": 579,
+        "right": 782,
+        "bottom": 703
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "键盘（keyboard）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on this keyboard; a computer keyboard",
+        "example": "The settings file. I'll use this keyboard to open both versions.",
+        "exampleChinese": "设置文件。我用这个键盘打开两个版本。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two developers work together to resolve a merge conflict.",
+    "chinese": "两位开发者一起解决合并冲突。",
+    "source": "原创对话 · W047 处理合并冲突",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "W069-交接值班信息.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "alert",
+      "chinese": "告警",
+      "phoneticUS": "/əˈlɜːrt/",
+      "phoneticUK": "/əˈlɜːt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“There's an intermittent alert from the payment service.”明确表达告警；单幅画面不能独立证明，不设局部框。",
+        "association": "“There's an intermittent alert from the payment service.”明确表达告警；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a system alert; receive an alert",
+        "example": "A: What should I watch during my shift?\nB: There's an intermittent alert from the payment service.\nA: I'll keep this notebook nearby. When should I escalate it?\nB: If failures continue for five minutes, contact the service owner.",
+        "exampleChinese": "A: 我的班次中需要注意什么？\nB: 支付服务有一条间歇性的告警。\nA: 我会把这个笔记本放在旁边。什么情况下需要升级处理？\nB: 如果失败持续五分钟，就联系服务负责人。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "shift",
+      "chinese": "班次",
+      "phoneticUS": "/ʃɪft/",
+      "phoneticUK": "/ʃɪft/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“What should I watch during my shift?”明确表达班次；单幅画面不能独立证明，不设局部框。",
+        "association": "“What should I watch during my shift?”明确表达班次；单幅画面不能独立证明，不设局部框。",
+        "collocation": "during my shift; a night shift",
+        "example": "What should I watch during my shift?",
+        "exampleChinese": "我的班次中需要注意什么？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "escalate",
+      "chinese": "升级处理",
+      "phoneticUS": "/ˈeskəleɪt/",
+      "phoneticUK": "/ˈeskəleɪt/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll keep this notebook nearby. When should I escalate it?”明确表达升级处理；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll keep this notebook nearby. When should I escalate it?”明确表达升级处理；单幅画面不能独立证明，不设局部框。",
+        "collocation": "escalate an issue; escalate to the owner",
+        "example": "I'll keep this notebook nearby. When should I escalate it?",
+        "exampleChinese": "我会把这个笔记本放在旁边。什么情况下需要升级处理？"
+      }
+    },
+    {
+      "x": 531,
+      "y": 388,
+      "english": "notebook",
+      "chinese": "笔记本",
+      "phoneticUS": "/ˈnoʊtbʊk/",
+      "phoneticUK": "/ˈnəʊtbʊk/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 235
+      },
+      "anchorPosition": {
+        "x": 531,
+        "y": 388
+      },
+      "boundingBox": {
+        "left": 416,
+        "top": 332,
+        "right": 648,
+        "bottom": 479
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "笔记本（notebook）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "in this notebook; write in a notebook",
+        "example": "I'll keep this notebook nearby. When should I escalate it?",
+        "exampleChinese": "我会把这个笔记本放在旁边。什么情况下需要升级处理？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "Two on-call developers exchange important information at a shift handover.",
+    "chinese": "两位值班开发者在交班时交换重要信息。",
+    "source": "原创对话 · W069 交接值班信息",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

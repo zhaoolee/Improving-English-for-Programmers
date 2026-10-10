@@ -1,0 +1,138 @@
+{
+  "filename": "V011-昨天说过的，你怎么又忘了？.png",
+  "labels": [
+    {
+      "x": 180,
+      "y": 95,
+      "english": "context",
+      "chinese": "上下文",
+      "phoneticUS": "/ˈkɑːntekst/",
+      "phoneticUK": "/ˈkɒntekst/",
+      "bubblePosition": {
+        "x": 180,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "上下文是会话资料，不能用文件夹外观证明资料内容。",
+        "association": "上下文是会话资料，不能用文件夹外观证明资料内容。",
+        "collocation": "project context; provide context",
+        "example": "A: Why did you forget the rule from yesterday?\nB: I need that context in the current session.\nA: Should I add a document to the project folder?\nB: Yes. Record the build steps and rules, then ask me to read it.",
+        "exampleChinese": "A: 你为什么忘了昨天说过的规则？\nB: 我需要在当前会话里获得这些上下文。\nA: 我应该把文档放进项目文件夹吗？\nB: 是的。记录构建步骤和规则，然后让我读取它。"
+      }
+    },
+    {
+      "x": 470,
+      "y": 95,
+      "english": "rule",
+      "chinese": "规则",
+      "phoneticUS": "/ruːl/",
+      "phoneticUK": "/ruːl/",
+      "bubblePosition": {
+        "x": 470,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "规则只由对白说明，底图无文字。",
+        "association": "规则只由对白说明，底图无文字。",
+        "collocation": "a project rule; follow a rule",
+        "example": "Why did you forget the rule from yesterday?",
+        "exampleChinese": "你为什么忘了昨天说过的规则？"
+      }
+    },
+    {
+      "x": 501,
+      "y": 415,
+      "english": "document",
+      "chinese": "文档",
+      "phoneticUS": "/ˈdɑːkjumənt/",
+      "phoneticUK": "/ˈdɒkjumənt/",
+      "bubblePosition": {
+        "x": 540,
+        "y": 230
+      },
+      "anchorPosition": {
+        "x": 501,
+        "y": 415
+      },
+      "boundingBox": {
+        "left": 410,
+        "top": 322,
+        "right": 607,
+        "bottom": 503
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "单独的文档纸张是 document 的可定位对象，具体内容由对白说明。",
+        "association": "单独的文档纸张是 document 的可定位对象，具体内容由对白说明。",
+        "collocation": "a project document; read a document",
+        "example": "Should I add a document to the project folder?",
+        "exampleChinese": "我应该把文档放进项目文件夹吗？"
+      }
+    },
+    {
+      "x": 550,
+      "y": 535,
+      "english": "folder",
+      "chinese": "文件夹",
+      "phoneticUS": "/ˈfoʊldər/",
+      "phoneticUK": "/ˈfəʊldə/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 865
+      },
+      "anchorPosition": {
+        "x": 550,
+        "y": 535
+      },
+      "boundingBox": {
+        "left": 395,
+        "top": 430,
+        "right": 716,
+        "bottom": 629
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "有分页标签的实体文件夹可独立定位。",
+        "association": "有分页标签的实体文件夹可独立定位。",
+        "collocation": "a project folder; open a folder",
+        "example": "Should I add a document to the project folder?",
+        "exampleChinese": "我应该把文档放进项目文件夹吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer discusses keeping project rules and context in a document with an AI assistant.",
+    "chinese": "程序员与 AI 讨论如何用文档保留项目规则和上下文。",
+    "source": "原创对话 · V011 昨天说过的，你怎么又忘了？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

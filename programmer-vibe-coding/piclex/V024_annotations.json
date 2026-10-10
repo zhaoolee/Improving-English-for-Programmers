@@ -1,0 +1,130 @@
+{
+  "filename": "V024-把空状态和错误状态补齐.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "state",
+      "chinese": "状态",
+      "phoneticUS": "/steɪt/",
+      "phoneticUK": "/steɪt/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "状态是界面条件，空白分区只提供设计语境，不证明具体状态。",
+        "association": "状态是界面条件，空白分区只提供设计语境，不证明具体状态。",
+        "collocation": "an empty state; an error state",
+        "example": "A: We handled success. What should the empty state explain?\nB: It should say that no results were found and offer a next step.\nA: This panel also needs an error state when the request fails.\nB: I'll design both states and keep their actions distinct.",
+        "exampleChinese": "A: 成功状态已经处理了，空状态应该说明什么？\nB: 它应该说明没有找到结果，并提供下一步操作。\nA: 请求失败时，这个面板还需要错误状态。\nB: 我会设计这两种状态，并让它们的操作清楚区分。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "empty",
+      "chinese": "空的",
+      "phoneticUS": "/ˈempti/",
+      "phoneticUK": "/ˈempti/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里特指没有结果的界面状态，不把画面留白本身作为语义证据。",
+        "association": "这里特指没有结果的界面状态，不把画面留白本身作为语义证据。",
+        "collocation": "an empty state; empty results",
+        "example": "We handled success. What should the empty state explain?",
+        "exampleChinese": "成功状态已经处理了，空状态应该说明什么？"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "error",
+      "chinese": "错误",
+      "phoneticUS": "/ˈerər/",
+      "phoneticUK": "/ˈerə/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "错误来自请求失败的对白设定，画面不显示可读报错。",
+        "association": "错误来自请求失败的对白设定，画面不显示可读报错。",
+        "collocation": "an error state; handle an error",
+        "example": "This panel also needs an error state when the request fails.",
+        "exampleChinese": "请求失败时，这个面板还需要错误状态。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 480,
+      "english": "panel",
+      "chinese": "面板",
+      "phoneticUS": "/ˈpænəl/",
+      "phoneticUK": "/ˈpænəl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 480
+      },
+      "boundingBox": {
+        "left": 317,
+        "top": 233,
+        "right": 662,
+        "bottom": 722
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中央完整矩形界面面板是直接指代，只框其外轮廓。",
+        "association": "中央完整矩形界面面板是直接指代，只框其外轮廓。",
+        "collocation": "a results panel; this panel",
+        "example": "This panel also needs an error state when the request fails.",
+        "exampleChinese": "请求失败时，这个面板还需要错误状态。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant design distinct empty and error states for a results panel.",
+    "chinese": "程序员与 AI 为结果面板设计不同的空状态和错误状态。",
+    "source": "原创对话 · V024 把空状态和错误状态补齐",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

@@ -1,0 +1,123 @@
+I028  从日志定位一次故障
+========================================================================
+分类: 工程实践与问题排查（engineering）
+关键词: diagnose
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/I028.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I028.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/I028.png
+  尺寸: 1122 x 1402
+  起止时间: 2026-10-10T02:35:14Z → 2026-10-10T02:35:54Z
+  提示词文件: prompts/I028_image_final.txt
+
+场景: 亚洲男候选人依据笔记和屏幕资料解释日志排查，美国男面试官追问下一步。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 原来被裁切的学习道具完整进入画面，人物互动、手部及环境电影风格保留 实际可见物件：修图后完整的笔记本电脑屏幕与键盘；模糊日志不作为具体故障原因证明。
+
+沟通目标: 在面试给定的代码或故障场景中说明测试、排查、改进与交付步骤。本卡主题：从日志定位一次故障。
+
+主配文（一句场景描述）:
+  英文: A candidate explains how he would investigate a failure using logs.
+  中文: 候选人说明如何利用日志调查一次故障。
+
+角色与对白:
+  A = Candidate 候选人
+  B = Interviewer or recruiter 面试官/招聘方
+  [A] To diagnose the failure, I'd inspect the log around the request's timestamp.
+        为了诊断故障，我会检查请求时间戳附近的日志。
+  [B] What would you do after finding an error?
+        发现错误后，你会怎么做？
+  [A] I'd try to reproduce it in a safe test environment using the laptop.
+        我会用笔记本电脑，在安全的测试环境中尝试复现。
+  [B] How would you distinguish the cause from a secondary error?
+        你会如何区分根本原因与随后出现的错误？
+
+目标词 (4): diagnose, log, reproduce, laptop
+
+------------------------------------------------------------------------
+[1/4] diagnose
+  词义: 诊断
+  词性: verb
+  音标: UK /ˌdaɪəɡˈnəʊz/ | US /ˌdaɪəɡˈnoʊs/
+  搭配: diagnose a failure; diagnose the cause
+  例句: To diagnose the failure, I'd inspect the log around the request's timestamp.
+  例句高亮: To **diagnose** the failure, I'd inspect the log around the request's timestamp.
+  例句中文: 为了诊断故障，我会检查请求时间戳附近的日志。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：diagnose。本卡例句：To diagnose the failure, I'd inspect the log around the request's timestamp.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] log
+  词义: 日志
+  词性: noun
+  音标: UK /lɒɡ/ | US /lɔːɡ/
+  搭配: an error log; inspect the log
+  例句: To diagnose the failure, I'd inspect the log around the request's timestamp.
+  例句高亮: To diagnose the failure, I'd inspect the **log** around the request's timestamp.
+  例句中文: 为了诊断故障，我会检查请求时间戳附近的日志。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：log。本卡例句：To diagnose the failure, I'd inspect the log around the request's timestamp.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] reproduce
+  词义: 复现
+  词性: verb
+  音标: UK /ˌriːprəˈdjuːs/ | US /ˌriːprəˈduːs/
+  搭配: reproduce an error; reproduce a failure
+  例句: I'd try to reproduce it in a safe test environment using the laptop.
+  例句高亮: I'd try to **reproduce** it in a safe test environment using the laptop.
+  例句中文: 我会用笔记本电脑，在安全的测试环境中尝试复现。
+  标注模式: context
+  标注说明: 前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：reproduce。本卡例句：I'd try to reproduce it in a safe test environment using the laptop.
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] laptop
+  词义: 笔记本电脑
+  词性: noun
+  音标: UK /ˈlæptɒp/ | US /ˈlæptɑːp/
+  搭配: an open laptop; on my laptop
+  例句: I'd try to reproduce it in a safe test environment using the laptop.
+  例句高亮: I'd try to reproduce it in a safe test environment using the **laptop**.
+  例句中文: 我会用笔记本电脑，在安全的测试环境中尝试复现。
+  标注模式: object
+  标注说明: 修图后完整的笔记本电脑屏幕与键盘；模糊日志不作为具体故障原因证明。
+  坐标(normalized): [0.028, 0.543, 0.535, 0.829]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: I028 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.
+Cinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.
+Candidate: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.
+Interviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.
+Exactly two people working through a troubleshooting scenario in an interview. Arjun, in a pale-blue shirt, examines a laptop displaying a series of discreet, illegible horizontal log-like blocks with one muted amber accent. He explains the evidence to Marcus, in a stone-gray blazer, with a small open-hand gesture beside the notebook. Marcus asks a follow-up, keeping calm eye contact. Photograph from a table corner with a 50mm medium perspective, showing both people and the complete laptop. Diffuse daylight, warm-gray walls and authentic paper texture. A rational interview exercise, no actual crisis, flashing red alarms, exhausted posture or screens full of fabricated text.

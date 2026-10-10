@@ -1,0 +1,246 @@
+{
+  "id": "V004",
+  "category": "pairing",
+  "category_title": "和 AI 结对入门",
+  "chapter": "和 AI 结对入门",
+  "title": "什么时候应该自己接手？",
+  "keyword": "intervene",
+  "scene": "程序员暂停 AI 不确定的修改，并接过键盘亲自检查。",
+  "target_count": 4,
+  "primary_words": [
+    "intervene",
+    "uncertain",
+    "pause",
+    "keyboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "intervene",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "介入",
+      "pos": "verb",
+      "ipa_us": "/ˌɪntərˈviːn/",
+      "ipa_uk": "/ˌɪntəˈviːn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "You've changed the same function three times. Should I intervene?",
+        "matched_form": "intervene",
+        "referent_region_verified": false,
+        "context": "介入的理由与意图由对白说明，静态抬手不能证明接管过程完成。",
+        "image_verified": null
+      },
+      "example_en": "You've changed the same function three times. Should I intervene?",
+      "example_zh": "你已经修改同一个函数三次了。我该介入吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "intervene when needed",
+        "intervene in a process"
+      ],
+      "example_en_highlighted": "You've changed the same function three times. Should I **intervene**?",
+      "annotation_mode": "context",
+      "annotation_note": "介入的理由与意图由对白说明，静态抬手不能证明接管过程完成。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "uncertain",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "不确定的",
+      "pos": "adjective",
+      "ipa_us": "/ʌnˈsɜːrtn/",
+      "ipa_uk": "/ʌnˈsɜːtn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+        "matched_form": "uncertain",
+        "referent_region_verified": false,
+        "context": "AI 的不确定性由台词表达，不以 Logo 或表情编造框。",
+        "image_verified": null
+      },
+      "example_en": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+      "example_zh": "是的。我不确定根因，所以请暂停修改。",
+      "bbox_normalized": null,
+      "collocations": [
+        "uncertain about the cause",
+        "remain uncertain"
+      ],
+      "example_en_highlighted": "Yes. I'm **uncertain** about the root cause, so please pause the edits.",
+      "annotation_mode": "context",
+      "annotation_note": "AI 的不确定性由台词表达，不以 Logo 或表情编造框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "pause",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "暂停",
+      "pos": "verb",
+      "ipa_us": "/pɔːz/",
+      "ipa_uk": "/pɔːz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+        "matched_form": "pause",
+        "referent_region_verified": false,
+        "context": "暂停修改是对话中的请求，不把抬手当作已停止的系统状态。",
+        "image_verified": null
+      },
+      "example_en": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+      "example_zh": "是的。我不确定根因，所以请暂停修改。",
+      "bbox_normalized": null,
+      "collocations": [
+        "pause the edits",
+        "pause a task"
+      ],
+      "example_en_highlighted": "Yes. I'm uncertain about the root cause, so please **pause** the edits.",
+      "annotation_mode": "context",
+      "annotation_note": "暂停修改是对话中的请求，不把抬手当作已停止的系统状态。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "keyboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "键盘",
+      "pos": "noun",
+      "ipa_us": "/ˈkiːbɔːrd/",
+      "ipa_uk": "/ˈkiːbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌上完整独立键盘对应对白指代，框选包含全部按键与外缘。",
+        "sentence": "I'll take the keyboard and inspect the failing test.",
+        "matched_form": "keyboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll take the keyboard and inspect the failing test.",
+      "example_zh": "我会接过键盘，检查失败的测试。",
+      "bbox_normalized": [
+        0.373,
+        0.546,
+        0.731,
+        0.613
+      ],
+      "collocations": [
+        "take the keyboard",
+        "a computer keyboard"
+      ],
+      "example_en_highlighted": "I'll take the **keyboard** and inspect the failing test.",
+      "annotation_mode": "object",
+      "annotation_note": "桌上完整独立键盘对应对白指代，框选包含全部按键与外缘。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-09",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A programmer pauses uncertain AI edits and takes over at the keyboard.",
+    "zh": "程序员暂停 AI 不确定的修改，并接过键盘亲自检查。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A programmer pauses uncertain AI edits and takes over at the keyboard.",
+    "zh": "程序员暂停 AI 不确定的修改，并接过键盘亲自检查。"
+  },
+  "roles": {
+    "A": "Programmer 程序员（火柴人）",
+    "B": "AI assistant AI 助手（OpenAI Logo）"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "You've changed the same function three times. Should I intervene?",
+      "zh": "你已经修改同一个函数三次了。我该介入吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. I'm uncertain about the root cause, so please pause the edits.",
+      "zh": "是的。我不确定根因，所以请暂停修改。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll take the keyboard and inspect the failing test.",
+      "zh": "我会接过键盘，检查失败的测试。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll summarize what I tried and wait for your direction.",
+      "zh": "我会总结已经尝试过的办法，等待你的指示。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "发现反复试错时暂停修改、交接证据。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at left of a desk and raises one open palm toward the floating OpenAI knot at right to pause the discussion. A large standalone computer keyboard lies fully visible in front of a simple desktop monitor. Draw the keyboard as a clean rectangular object with several rows of small blank outlined keys, no letters or numbers. Keep hands away from the keyboard so all edges remain visible. The monitor is blank. The keyboard is the main visible learning prop.",
+  "status": "approved",
+  "image_path": "images/V004.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-09",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "V004 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-09",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/V004.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-09T03:08:49Z",
+    "ended_at": "2026-10-09T03:10:49Z",
+    "prompt_path": "prompts/V004_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V004.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：黑底白线单幅插画，一个成年火柴人和一个可辨认的白色 OpenAI 六环结标识，底图无对白文字。键盘完整、按键无文字，画面抬手仅作暂停的情境表达，不宣称系统停止。"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "W040",
+  "category": "design",
+  "category_title": "技术方案讨论",
+  "chapter": "技术方案讨论",
+  "title": "记录最终技术决定",
+  "keyword": "decision",
+  "scene": "团队记录最终技术决定及其理由。",
+  "target_count": 4,
+  "primary_words": [
+    "decision",
+    "rationale",
+    "record",
+    "pen"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "decision",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "决定",
+      "pos": "noun",
+      "ipa_us": "/dɪˈsɪʒn/",
+      "ipa_uk": "/dɪˈsɪʒn/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "Have we reached a decision on the storage layer?",
+        "matched_form": "decision",
+        "referent_region_verified": false,
+        "context": "“Have we reached a decision on the storage layer?”明确表达决定；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "Have we reached a decision on the storage layer?",
+      "example_zh": "我们对存储层做出决定了吗？",
+      "bbox_normalized": null,
+      "collocations": [
+        "reach a decision",
+        "make a decision"
+      ],
+      "example_en_highlighted": "Have we reached a **decision** on the storage layer?",
+      "annotation_mode": "context",
+      "annotation_note": "“Have we reached a decision on the storage layer?”明确表达决定；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "rationale",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "理由",
+      "pos": "noun",
+      "ipa_us": "/ˌræʃəˈnæl/",
+      "ipa_uk": "/ˌræʃəˈnɑːl/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll use this pen to record the rationale as well.",
+        "matched_form": "rationale",
+        "referent_region_verified": false,
+        "context": "“I'll use this pen to record the rationale as well.”明确表达理由；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I'll use this pen to record the rationale as well.",
+      "example_zh": "我也会用这支笔记录理由。",
+      "bbox_normalized": null,
+      "collocations": [
+        "the rationale for",
+        "record the rationale"
+      ],
+      "example_en_highlighted": "I'll use this pen to record the **rationale** as well.",
+      "annotation_mode": "context",
+      "annotation_note": "“I'll use this pen to record the rationale as well.”明确表达理由；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "record",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "记录",
+      "pos": "verb",
+      "ipa_us": "/rɪˈkɔːrd/",
+      "ipa_uk": "/rɪˈkɔːd/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I'll use this pen to record the rationale as well.",
+        "matched_form": "record",
+        "referent_region_verified": false,
+        "context": "“I'll use this pen to record the rationale as well.”明确表达记录；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I'll use this pen to record the rationale as well.",
+      "example_zh": "我也会用这支笔记录理由。",
+      "bbox_normalized": null,
+      "collocations": [
+        "record the decision",
+        "record the details"
+      ],
+      "example_en_highlighted": "I'll use this pen to **record** the rationale as well.",
+      "annotation_mode": "context",
+      "annotation_note": "“I'll use this pen to record the rationale as well.”明确表达记录；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "pen",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "笔",
+      "pos": "noun",
+      "ipa_us": "/pen/",
+      "ipa_uk": "/pen/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "笔（pen）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "I'll use this pen to record the rationale as well.",
+        "matched_form": "pen",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I'll use this pen to record the rationale as well.",
+      "example_zh": "我也会用这支笔记录理由。",
+      "bbox_normalized": [
+        0.362,
+        0.748,
+        0.675,
+        0.841
+      ],
+      "collocations": [
+        "use a pen",
+        "with a pen"
+      ],
+      "example_en_highlighted": "I'll use this **pen** to record the rationale as well.",
+      "annotation_mode": "object",
+      "annotation_note": "笔（pen）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A team records its final technical decision and the reasoning behind it.",
+    "zh": "团队记录最终技术决定及其理由。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A team records its final technical decision and the reasoning behind it.",
+    "zh": "团队记录最终技术决定及其理由。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "Have we reached a decision on the storage layer?",
+      "zh": "我们对存储层做出决定了吗？"
+    },
+    {
+      "speaker": "B",
+      "en": "Yes. We'll keep the existing database for this release.",
+      "zh": "是的。这次发布继续使用现有数据库。"
+    },
+    {
+      "speaker": "A",
+      "en": "I'll use this pen to record the rationale as well.",
+      "zh": "我也会用这支笔记录理由。"
+    },
+    {
+      "speaker": "B",
+      "en": "Good. Note the migration cost and the options we considered.",
+      "zh": "好。记下迁移成本和我们考虑过的方案。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "记录最终技术决定及其理由。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers sit at a table. One holds a pen above a paper sheet, explaining to the other. A second spare pen lies horizontally alone in the foreground, large and fully visible for annotation. No writing.",
+  "status": "approved",
+  "image_path": "images/W040.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W040 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W040.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:30:40.011Z",
+    "prompt_path": "prompts/W040_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W040.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：前景独立的完整笔，笔尖、笔身与笔帽可见。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

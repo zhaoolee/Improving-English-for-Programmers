@@ -1,0 +1,130 @@
+{
+  "filename": "V028-把报错和日志一起交给 AI.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "evidence",
+      "chinese": "证据",
+      "phoneticUS": "/ˈevɪdəns/",
+      "phoneticUK": "/ˈevɪdəns/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "证据价值取决于内容与问题的关系，画面只提供终端语境。",
+        "association": "证据价值取决于内容与问题的关系，画面只提供终端语境。",
+        "collocation": "collect evidence; use the evidence",
+        "example": "A: I'll send the error and the log from this terminal.\nB: Good. That evidence helps me see when the request failed.\nA: Compare the request path with the surrounding log entries.\nB: I'll use both sources before suggesting a fix.",
+        "exampleChinese": "A: 我会把这个终端里的报错和日志一起发给你。\nB: 很好。这些证据能帮助我判断请求何时失败。\nA: 把请求路径与前后的日志条目进行比较。\nB: 提出修复建议前，我会同时使用这两份资料。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "error",
+      "chinese": "报错",
+      "phoneticUS": "/ˈerər/",
+      "phoneticUK": "/ˈerə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "报错由对白说明，画面中的抽象线段不作为可读报错内容。",
+        "association": "报错由对白说明，画面中的抽象线段不作为可读报错内容。",
+        "collocation": "an error message; send the error",
+        "example": "I'll send the error and the log from this terminal.",
+        "exampleChinese": "我会把这个终端里的报错和日志一起发给你。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "log",
+      "chinese": "日志",
+      "phoneticUS": "/lɔːɡ/",
+      "phoneticUK": "/lɒɡ/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "日志内容不可读，不能把任意线段定位成特定日志条目。",
+        "association": "日志内容不可读，不能把任意线段定位成特定日志条目。",
+        "collocation": "an error log; log entries",
+        "example": "I'll send the error and the log from this terminal.",
+        "exampleChinese": "我会把这个终端里的报错和日志一起发给你。"
+      }
+    },
+    {
+      "x": 510,
+      "y": 380,
+      "english": "terminal",
+      "chinese": "终端",
+      "phoneticUS": "/ˈtɜːrmɪnəl/",
+      "phoneticUK": "/ˈtɜːmɪnəl/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 510,
+        "y": 380
+      },
+      "boundingBox": {
+        "left": 347,
+        "top": 268,
+        "right": 662,
+        "bottom": 494
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "中央完整终端窗口的外框与抽象行是可见指代，只框整个窗口。",
+        "association": "中央完整终端窗口的外框与抽象行是可见指代，只框整个窗口。",
+        "collocation": "from this terminal; a terminal window",
+        "example": "I'll send the error and the log from this terminal.",
+        "exampleChinese": "我会把这个终端里的报错和日志一起发给你。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer gives an AI assistant both the error and the log from a terminal.",
+    "chinese": "程序员把报错与终端日志一起交给 AI。",
+    "source": "原创对话 · V028 把报错和日志一起交给 AI",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

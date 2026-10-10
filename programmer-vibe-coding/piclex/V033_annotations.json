@@ -1,0 +1,130 @@
+{
+  "filename": "V033-审查代码时先看哪几处？.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "inspect",
+      "chinese": "检查",
+      "phoneticUS": "/ɪnˈspekt/",
+      "phoneticUK": "/ɪnˈspekt/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "检查是审查动作，静态文档不证明检查已经完成。",
+        "association": "检查是审查动作，静态文档不证明检查已经完成。",
+        "collocation": "inspect a change; inspect behavior",
+        "example": "A: Inspect the risky boundary and failure path before reviewing style.\nB: Should I start with input validation and permission checks?\nA: Yes. Mark those sections on this document and explain their impact.\nB: I'll inspect behavior changes before minor formatting.",
+        "exampleChinese": "A: 先检查高风险边界和失败路径，再看代码风格。\nB: 我应该先看输入校验和权限检查吗？\nA: 对。在这份文档上标出那些部分，并解释其影响。\nB: 我会先检查行为变化，再看小的格式问题。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "boundary",
+      "chinese": "边界",
+      "phoneticUS": "/ˈbaʊndri/",
+      "phoneticUK": "/ˈbaʊndri/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指系统输入与权限边界，不是纸张物理边缘。",
+        "association": "这里指系统输入与权限边界，不是纸张物理边缘。",
+        "collocation": "a system boundary; boundary condition",
+        "example": "Inspect the risky boundary and failure path before reviewing style.",
+        "exampleChinese": "先检查高风险边界和失败路径，再看代码风格。"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "failure",
+      "chinese": "失败",
+      "phoneticUS": "/ˈfeɪljər/",
+      "phoneticUK": "/ˈfeɪljə/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "失败路径是代码行为，画面没有可读代码或运行结果。",
+        "association": "失败路径是代码行为，画面没有可读代码或运行结果。",
+        "collocation": "a failure path; handle failure",
+        "example": "Inspect the risky boundary and failure path before reviewing style.",
+        "exampleChinese": "先检查高风险边界和失败路径，再看代码风格。"
+      }
+    },
+    {
+      "x": 515,
+      "y": 370,
+      "english": "document",
+      "chinese": "文档",
+      "phoneticUS": "/ˈdɑːkjumənt/",
+      "phoneticUK": "/ˈdɒkjəmənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 515,
+        "y": 370
+      },
+      "boundingBox": {
+        "left": 400,
+        "top": 222,
+        "right": 625,
+        "bottom": 522
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "支架上完整可见的纸质审查文档是直接指代，只框整张纸。",
+        "association": "支架上完整可见的纸质审查文档是直接指代，只框整张纸。",
+        "collocation": "this document; a review document",
+        "example": "Yes. Mark those sections on this document and explain their impact.",
+        "exampleChinese": "对。在这份文档上标出那些部分，并解释其影响。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to inspect risky boundaries and failure paths first.",
+    "chinese": "程序员让 AI 优先检查高风险边界与失败路径。",
+    "source": "原创对话 · V033 审查代码时先看哪几处？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

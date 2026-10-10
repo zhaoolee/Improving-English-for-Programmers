@@ -1,0 +1,268 @@
+{
+  "id": "I016",
+  "category": "fundamentals",
+  "title_zh": "解释进程与线程的区别",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "亚洲男候选人利用无字分组示意解释进程与线程，美国男面试官追问。",
+  "cast": {
+    "candidate": "AS_ARJUN",
+    "interviewer": "US_MARCUS"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Arjun, a fictional handsome 32-year-old South Asian man from India, with medium-brown skin, thoughtful dark eyes, short softly textured black hair, a neatly trimmed light beard, and a relaxed, professional presence.\nInterviewer or recruiter: Marcus, a fictional handsome 36-year-old Black American man, with deep-brown skin, attentive brown eyes, short tightly curled black hair, a closely trimmed beard, and a calm, approachable expression.\nExactly two people in a technical-principles interview. Arjun, in an ivory shirt, stands at a whiteboard with two separated rectangular boundaries, each containing a few short parallel paths. The marks are unlabeled and intentionally sparse. He gestures near one boundary while explaining process and thread concepts to Marcus, in a charcoal blazer, seated beside the oak table. Marcus looks at Arjun rather than staring only at the board. A 35mm medium environmental view, bright diffuse window light, natural marker smudges and authentic posture. No giant circuitry, robot imagery or readable technical labels; the sketch is a conversation aid rather than a complete operating-system diagram.",
+  "prompt_path": "prompts/I016_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I016.png",
+  "image_sha256": "c6b4412270bd85e03707d1b6ec0e9232d9ef64a099177a4419020b38b9ac97c8",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "两位男性演出面试问答，候选人在白板两组边界与平行箭头旁讲解，面试官自然倾听。手部、面貌、笔和白板结构未见明显异常；侧窗光、前景桌面和景深形成电影层次。图形作为场景辅助，不能据图验证进程与线程的技术语义 实际可见物件：右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I016_generate.txt",
+    "source_path": "images/I016.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:54:43 UTC",
+    "selected_image_path": "images/I016.png",
+    "selected_image_sha256": "c6b4412270bd85e03707d1b6ec0e9232d9ef64a099177a4419020b38b9ac97c8",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:54:43Z",
+    "prompt_path": "prompts/I016_image_final.txt"
+  },
+  "title": "解释进程与线程的区别",
+  "scene": "亚洲男候选人利用无字分组示意解释进程与线程，美国男面试官追问。",
+  "category_title": "技术基础与原理问答",
+  "primary_words": [
+    "process",
+    "thread",
+    "share",
+    "whiteboard"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "process",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "进程",
+      "pos": "noun",
+      "ipa_us": "/ˈprɑːses/",
+      "ipa_uk": "/ˈprəʊses/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A process has its own virtual address space. A thread runs within a process.",
+        "matched_form": "process",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：process。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+        "image_verified": null
+      },
+      "example_en": "A process has its own virtual address space. A thread runs within a process.",
+      "example_zh": "进程有自己的虚拟地址空间。线程在进程内部运行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a running process",
+        "a process boundary"
+      ],
+      "example_en_highlighted": "A **process** has its own virtual address space. A thread runs within a process.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：process。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "thread",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "线程",
+      "pos": "noun",
+      "ipa_us": "/θred/",
+      "ipa_uk": "/θred/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "A process has its own virtual address space. A thread runs within a process.",
+        "matched_form": "thread",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：thread。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+        "image_verified": null
+      },
+      "example_en": "A process has its own virtual address space. A thread runs within a process.",
+      "example_zh": "进程有自己的虚拟地址空间。线程在进程内部运行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a running thread",
+        "a thread within a process"
+      ],
+      "example_en_highlighted": "A process has its own virtual address space. A **thread** runs within a process.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：thread。本卡例句：A process has its own virtual address space. A thread runs within a process.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "share",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "共享",
+      "pos": "verb",
+      "ipa_us": "/ʃer/",
+      "ipa_uk": "/ʃeə/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What do threads in the same process share?",
+        "matched_form": "share",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：share。本卡例句：What do threads in the same process share?",
+        "image_verified": null
+      },
+      "example_en": "What do threads in the same process share?",
+      "example_zh": "同一进程中的线程共享什么？",
+      "bbox_normalized": null,
+      "collocations": [
+        "share resources",
+        "share an address space"
+      ],
+      "example_en_highlighted": "What do threads in the same process **share**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：share。本卡例句：What do threads in the same process share?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "whiteboard",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "白板",
+      "pos": "noun",
+      "ipa_us": "/ˈwaɪtbɔːrd/",
+      "ipa_uk": "/ˈwaɪtbɔːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体。",
+        "sentence": "They share that address space and other resources. I'll mark the boundary on the whiteboard.",
+        "matched_form": "whiteboard",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "They share that address space and other resources. I'll mark the boundary on the whiteboard.",
+      "example_zh": "它们共享那个地址空间以及其他资源。我会在白板上标出边界。",
+      "bbox_normalized": [
+        0.722,
+        0.0,
+        1.0,
+        0.62
+      ],
+      "collocations": [
+        "sketch on a whiteboard",
+        "use the whiteboard"
+      ],
+      "example_en_highlighted": "They share that address space and other resources. I'll mark the boundary on the **whiteboard**.",
+      "annotation_mode": "object",
+      "annotation_note": "右侧可见白板边框及无字分组箭头；进程/线程不是照片中的局部物体。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "技术基础与原理问答",
+  "keyword": "process",
+  "target_count": 4,
+  "caption": {
+    "en": "At a whiteboard, a candidate compares processes and threads.",
+    "zh": "候选人在白板旁比较进程和线程。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "At a whiteboard, a candidate compares processes and threads.",
+    "zh": "候选人在白板旁比较进程和线程。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "A process has its own virtual address space. A thread runs within a process.",
+      "zh": "进程有自己的虚拟地址空间。线程在进程内部运行。"
+    },
+    {
+      "speaker": "B",
+      "en": "What do threads in the same process share?",
+      "zh": "同一进程中的线程共享什么？"
+    },
+    {
+      "speaker": "A",
+      "en": "They share that address space and other resources. I'll mark the boundary on the whiteboard.",
+      "zh": "它们共享那个地址空间以及其他资源。我会在白板上标出边界。"
+    },
+    {
+      "speaker": "B",
+      "en": "How would you protect shared data from concurrent writes?",
+      "zh": "你会如何保护共享数据，避免并发写入带来的问题？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用清晰英语解释常见技术概念、区别和适用条件。本卡主题：解释进程与线程的区别。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I016 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I016.png 宽高归一化至 0..1；由人工视觉定位。"
+}

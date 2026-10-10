@@ -1,0 +1,130 @@
+{
+  "filename": "W067-同步排查进展.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "update",
+      "chinese": "更新",
+      "phoneticUS": "/ˈʌpdeɪt/",
+      "phoneticUK": "/ˈʌpdeɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Do you have an update on the outage?”明确表达更新；单幅画面不能独立证明，不设局部框。",
+        "association": "“Do you have an update on the outage?”明确表达更新；单幅画面不能独立证明，不设局部框。",
+        "collocation": "send an update; get an update",
+        "example": "A: Do you have an update on the outage?\nB: We're still working to investigate the database errors.\nA: I'll share that by phone. Can we give a recovery estimate?\nB: Not yet. Let's send another update in fifteen minutes.",
+        "exampleChinese": "A: 关于这次故障，你有新的进展吗？\nB: 我们还在排查数据库错误。\nA: 我会通过电话同步。我们能给出预计恢复时间吗？\nB: 暂时不能。我们十五分钟后再同步一次进展。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "investigate",
+      "chinese": "排查",
+      "phoneticUS": "/ɪnˈvestɪɡeɪt/",
+      "phoneticUK": "/ɪnˈvestɪɡeɪt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“We're still working to investigate the database errors.”明确表达排查；单幅画面不能独立证明，不设局部框。",
+        "association": "“We're still working to investigate the database errors.”明确表达排查；单幅画面不能独立证明，不设局部框。",
+        "collocation": "investigate an issue; investigate the cause",
+        "example": "We're still working to investigate the database errors.",
+        "exampleChinese": "我们还在排查数据库错误。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "estimate",
+      "chinese": "预计时间",
+      "phoneticUS": "/ˈestɪmət/",
+      "phoneticUK": "/ˈestɪmət/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“I'll share that by phone. Can we give a recovery estimate?”明确表达预计时间；单幅画面不能独立证明，不设局部框。",
+        "association": "“I'll share that by phone. Can we give a recovery estimate?”明确表达预计时间；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a recovery estimate; give an estimate",
+        "example": "I'll share that by phone. Can we give a recovery estimate?",
+        "exampleChinese": "我会通过电话同步。我们能给出预计恢复时间吗？"
+      }
+    },
+    {
+      "x": 174,
+      "y": 276,
+      "english": "phone",
+      "chinese": "电话",
+      "phoneticUS": "/foʊn/",
+      "phoneticUK": "/fəʊn/",
+      "bubblePosition": {
+        "x": 100,
+        "y": 450
+      },
+      "anchorPosition": {
+        "x": 174,
+        "y": 276
+      },
+      "boundingBox": {
+        "left": 127,
+        "top": 230,
+        "right": 256,
+        "bottom": 377
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "电话（phone）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "电话（phone）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "on the phone; by phone",
+        "example": "I'll share that by phone. Can we give a recovery estimate?",
+        "exampleChinese": "我会通过电话同步。我们能给出预计恢复时间吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "An on-call developer shares an investigation update.",
+    "chinese": "值班开发者同步故障排查进展。",
+    "source": "原创对话 · W067 同步排查进展",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

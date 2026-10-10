@@ -1,0 +1,130 @@
+{
+  "filename": "V001-你写代码，那我干什么？.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 95,
+      "english": "delegate",
+      "chinese": "委派",
+      "phoneticUS": "/ˈdelɪɡeɪt/",
+      "phoneticUK": "/ˈdelɪɡeɪt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "委派行为由对白明确说明，人物手势不能证明已委派。",
+        "association": "委派行为由对白明确说明，人物手势不能证明已委派。",
+        "collocation": "delegate a task; delegate coding",
+        "example": "A: If I delegate the coding to you, what should I do?\nB: You make each decision and review the changes.\nA: So I still need to check the result on my laptop?\nB: Yes. I can suggest code; you decide what to accept.",
+        "exampleChinese": "A: 如果我把编码委派给你，我应该做什么？\nB: 你负责作出各项决定，并审查改动。\nA: 所以我仍然需要在笔记本电脑上检查结果？\nB: 是的。我可以建议代码，由你决定接受哪些改动。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 95,
+      "english": "decision",
+      "chinese": "决定",
+      "phoneticUS": "/dɪˈsɪʒən/",
+      "phoneticUK": "/dɪˈsɪʒən/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "决定是对话中的责任分工，无局部可见指代。",
+        "association": "决定是对话中的责任分工，无局部可见指代。",
+        "collocation": "make a decision; a design decision",
+        "example": "You make each decision and review the changes.",
+        "exampleChinese": "你负责作出各项决定，并审查改动。"
+      }
+    },
+    {
+      "x": 800,
+      "y": 95,
+      "english": "review",
+      "chinese": "审查",
+      "phoneticUS": "/rɪˈvjuː/",
+      "phoneticUK": "/rɪˈvjuː/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 95
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "verb",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "审查的完成与质量不能从静态电脑画面证明。",
+        "association": "审查的完成与质量不能从静态电脑画面证明。",
+        "collocation": "review the changes; review code",
+        "example": "You make each decision and review the changes.",
+        "exampleChinese": "你负责作出各项决定，并审查改动。"
+      }
+    },
+    {
+      "x": 545,
+      "y": 522,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 730,
+        "y": 860
+      },
+      "anchorPosition": {
+        "x": 545,
+        "y": 522
+      },
+      "boundingBox": {
+        "left": 375,
+        "top": 415,
+        "right": 710,
+        "bottom": 620
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "场景中的完整笔记本电脑是 laptop 的可定位指代对象。",
+        "association": "场景中的完整笔记本电脑是 laptop 的可定位指代对象。",
+        "collocation": "on my laptop; a work laptop",
+        "example": "So I still need to check the result on my laptop?",
+        "exampleChinese": "所以我仍然需要在笔记本电脑上检查结果？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer and an AI assistant agree on who writes code and who reviews the result.",
+    "chinese": "程序员与 AI 确认谁写代码、谁审查结果。",
+    "source": "原创对话 · V001 你写代码，那我干什么？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

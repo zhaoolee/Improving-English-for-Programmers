@@ -1,0 +1,130 @@
+{
+  "filename": "V023-加载中，也需要交代.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "feedback",
+      "chinese": "反馈",
+      "phoneticUS": "/ˈfiːdbæk/",
+      "phoneticUK": "/ˈfiːdbæk/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里是界面向用户说明状态的反馈，不能只凭转圈外观证明反馈是否充分。",
+        "association": "这里是界面向用户说明状态的反馈，不能只凭转圈外观证明反馈是否充分。",
+        "collocation": "show feedback; clear feedback",
+        "example": "A: The request takes several seconds. What feedback should we show while it is loading?\nB: Show a spinner so people know the page is still working.\nA: Can we report progress without promising an exact finish time?\nB: Yes. Keep the spinner visible until the result appears.",
+        "exampleChinese": "A: 这个请求需要几秒钟。加载时应该展示什么反馈？\nB: 显示一个加载转圈，让用户知道页面仍在工作。\nA: 我们能否报告进度，但不承诺精确完成时间？\nB: 可以。结果出现前一直显示加载转圈。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "loading",
+      "chinese": "加载中",
+      "phoneticUS": "/ˈloʊdɪŋ/",
+      "phoneticUK": "/ˈləʊdɪŋ/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "加载状态由对白设定，静态图只能提供界面语境。",
+        "association": "加载状态由对白设定，静态图只能提供界面语境。",
+        "collocation": "while it is loading; a loading state",
+        "example": "The request takes several seconds. What feedback should we show while it is loading?",
+        "exampleChinese": "这个请求需要几秒钟。加载时应该展示什么反馈？"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "progress",
+      "chinese": "进度",
+      "phoneticUS": "/ˈprɑːɡres/",
+      "phoneticUK": "/ˈprəʊɡres/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "进度是过程信息，单帧转圈不表示完成比例。",
+        "association": "进度是过程信息，单帧转圈不表示完成比例。",
+        "collocation": "report progress; show progress",
+        "example": "Can we report progress without promising an exact finish time?",
+        "exampleChinese": "我们能否报告进度，但不承诺精确完成时间？"
+      }
+    },
+    {
+      "x": 518,
+      "y": 416,
+      "english": "spinner",
+      "chinese": "加载转圈",
+      "phoneticUS": "/ˈspɪnər/",
+      "phoneticUK": "/ˈspɪnə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 518,
+        "y": 416
+      },
+      "boundingBox": {
+        "left": 455,
+        "top": 354,
+        "right": 579,
+        "bottom": 480
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "屏幕中央带缺口的完整圆环是可见加载转圈，只框该控件。",
+        "association": "屏幕中央带缺口的完整圆环是可见加载转圈，只框该控件。",
+        "collocation": "show a spinner; loading spinner",
+        "example": "Show a spinner so people know the page is still working.",
+        "exampleChinese": "显示一个加载转圈，让用户知道页面仍在工作。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to show clear feedback while a slow request is loading.",
+    "chinese": "程序员让 AI 在慢请求加载期间给出清楚反馈。",
+    "source": "原创对话 · V023 加载中，也需要交代",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

@@ -1,0 +1,130 @@
+{
+  "filename": "I039.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 900,
+      "english": "follow-up",
+      "chinese": "跟进",
+      "phoneticUS": "/ˈfɑːloʊ ʌp/",
+      "phoneticUK": "/ˈfɒləʊ ʌp/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 900
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun modifier",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：follow-up。本卡例句：Thank you for this follow-up call. Could you share the current status of my application?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：follow-up。本卡例句：Thank you for this follow-up call. Could you share the current status of my application?",
+        "collocation": "a follow-up call; a follow-up email",
+        "example": "A: Thank you for this follow-up call. Could you share the current status of my application?\nB: The team is completing the final interviews.\nA: Is there an updated timeline for a decision? I can send any additional material from my laptop.\nB: We expect an update next week and will contact you then.",
+        "exampleChinese": "A: 谢谢你安排这次跟进通话。能介绍一下我的申请目前进展如何吗？\nB: 团队正在完成最后几场面试。\nA: 作出决定的时间安排有更新吗？我可以从笔记本电脑发送任何补充材料。\nB: 我们预计下周会有进展，届时会联系你。"
+      }
+    },
+    {
+      "x": 620,
+      "y": 75,
+      "english": "timeline",
+      "chinese": "时间安排",
+      "phoneticUS": "/ˈtaɪmlaɪn/",
+      "phoneticUK": "/ˈtaɪmlaɪn/",
+      "bubblePosition": {
+        "x": 620,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：timeline。本卡例句：Is there an updated timeline for a decision? I can send any additional material from my laptop.",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：timeline。本卡例句：Is there an updated timeline for a decision? I can send any additional material from my laptop.",
+        "collocation": "an updated timeline; a hiring timeline",
+        "example": "Is there an updated timeline for a decision? I can send any additional material from my laptop.",
+        "exampleChinese": "作出决定的时间安排有更新吗？我可以从笔记本电脑发送任何补充材料。"
+      }
+    },
+    {
+      "x": 845,
+      "y": 230,
+      "english": "status",
+      "chinese": "进展",
+      "phoneticUS": "/ˈsteɪtəs/",
+      "phoneticUK": "/ˈsteɪtəs/",
+      "bubblePosition": {
+        "x": 845,
+        "y": 230
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：status。本卡例句：Thank you for this follow-up call. Could you share the current status of my application?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：status。本卡例句：Thank you for this follow-up call. Could you share the current status of my application?",
+        "collocation": "application status; a status update",
+        "example": "Thank you for this follow-up call. Could you share the current status of my application?",
+        "exampleChinese": "谢谢你安排这次跟进通话。能介绍一下我的申请目前进展如何吗？"
+      }
+    },
+    {
+      "x": 777,
+      "y": 608,
+      "english": "laptop",
+      "chinese": "笔记本电脑",
+      "phoneticUS": "/ˈlæptɑːp/",
+      "phoneticUK": "/ˈlæptɒp/",
+      "bubblePosition": {
+        "x": 785,
+        "y": 820
+      },
+      "anchorPosition": {
+        "x": 777,
+        "y": 608
+      },
+      "boundingBox": {
+        "left": 520,
+        "top": 369,
+        "right": 993,
+        "bottom": 661
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌上打开的笔记本电脑，视频窗口中的B面部另作为人工避让区；申请状态由对白说明。",
+        "association": "桌上打开的笔记本电脑，视频窗口中的B面部另作为人工避让区；申请状态由对白说明。",
+        "collocation": "an open laptop; on my laptop",
+        "example": "Is there an updated timeline for a decision? I can send any additional material from my laptop.",
+        "exampleChinese": "作出决定的时间安排有更新吗？我可以从笔记本电脑发送任何补充材料。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate speaks with a recruiter on a laptop to follow up after an interview.",
+    "chinese": "面试后，候选人通过笔记本电脑与招聘人员沟通后续进展。",
+    "source": "原创配文 · I039 面试后跟进结果与反馈",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

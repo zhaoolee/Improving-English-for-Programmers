@@ -1,0 +1,68 @@
+程序员 Vibe Coding 底图风格模板：黑底白线火柴人 × OpenAI 六环结 Logo
+====================================================================
+
+定位
+----
+- 本模板用于《程序员 Vibe Coding》专属免费 PicLex 卡组（deckID=56a51624-d8aa-4167-99c5-e1c727a938db）。
+- 单幅黑白火柴人对话场景：**一位成年火柴人程序员**与**一个 OpenAI 白色六环结 Logo**对话。
+- 与《程序员工作英语》的差别：本专题允许并明确要求出现 **OpenAI 六环结 Logo** 作为 AI 对话角色
+  （不沿用“禁止所有 logo”的旧规则）；除该 Logo 外仍不得出现其他品牌符号。
+
+核心视觉
+--------
+- 纯黑背景（pure solid BLACK），干净、统一的白色线稿（crisp clean WHITE line art only），
+  高对比、无灰度阴影。
+- 成年火柴人：圆形头部、简单表情、细线条四肢，呈现程序员思考、沟通与操作场景。
+- OpenAI 六环结 Logo：官方可识别的六环交织结，白色线条、黑色负空间，**悬浮**在画面中，
+  代表 AI 对话角色，**没有人类身体**。
+- 恰好一个火柴人与一个 OpenAI Logo；单幅完整场景，无分镜。
+- 克制、精致的程序员职场漫画审美。
+
+构图
+----
+- 方形画布，约 1024x1024（最终成品可按生成工具输出，保持正方形）。
+- 人物与关键道具集中在 x≈180..820、y≈230..770（0..1000 画布）。
+- 顶部 y<200 与底部 y>820 保留充足空白，供之后叠加学习标签。
+- 场景中命名的道具必须清晰可辨、完整可见、互不遮挡，并**为该对象留出足够面积**，
+  以便人工框选局部拼词裁剪。
+- 用姿势与手势体现对话；**不画对话气泡、不写任何文字**。
+
+禁止
+----
+- 不出现任何文字、字母、数字、可读代码、字幕、标签、水印或二维码。
+- 不使用颜色、渐变、灰度渲染或写实照片质感。
+- 不画多格漫画、装饰性数学符号或无关道具。
+- 除明确要求的 OpenAI 六环结 Logo 外，不出现其他品牌标志；Logo 不带任何文字。
+- 允许简单抽象 UI 标记（无文字）。
+
+标签关系
+--------
+- 黑底白线底图；学习标签使用 workflow/label-palette.json 的协调配色与白色文字。
+- 可定位对象（道具、Logo、可见对象/动作）在最终底图上人工框选
+  （cards 0–1 归一化框、PicLex 0–1000 框）。
+- 抽象词、情感词与功能词使用对白语境，不编造框。
+
+提示词骨架（按卡填写 Scene 段）
+------------------------------
+Use case: illustration-story. Create ONE polished educational scene illustration,
+square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean
+WHITE line art only. Minimalist adult stick-figure programmer with circular head,
+thin limbs and simple expressive face. The programmer is conversing with a
+recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in
+white with black negative spaces; the logo itself represents the AI conversational
+partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo.
+Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the
+main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave
+generous empty black space at the top y<200 and bottom y>820 for later learning
+labels. Props named in the scene must be recognizable, complete and unobstructed.
+No colored elements, gradients, gray shading, photorealism, textures, glow.
+NO speech bubbles, letters, numbers, readable code, captions, watermark or other
+logos. The only brand symbol is the requested OpenAI knot. Scene: <本卡场景，见
+workflow/first-eight_batch_content.json 的 image_prompt>.
+
+来源与授权
+----------
+- 本专题底图由内置 image_gen 生成，纯原创插画。
+- OpenAI 六环结 Logo 仅作为“AI 对话角色”的视觉标识出现在教学场景中，
+  不代表任何官方关联、合作或背书。
+- 场景描述、对白、例句与中文译文均为原创。

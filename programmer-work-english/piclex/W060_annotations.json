@@ -1,0 +1,130 @@
+{
+  "filename": "W060-整理完整的缺陷报告.png",
+  "labels": [
+    {
+      "x": 200,
+      "y": 100,
+      "english": "report",
+      "chinese": "报告",
+      "phoneticUS": "/rɪˈpɔːrt/",
+      "phoneticUK": "/rɪˈpɔːt/",
+      "bubblePosition": {
+        "x": 200,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Does the bug report include the expected and actual results?”明确表达报告；单幅画面不能独立证明，不设局部框。",
+        "association": "“Does the bug report include the expected and actual results?”明确表达报告；单幅画面不能独立证明，不设局部框。",
+        "collocation": "a bug report; write a report",
+        "example": "A: Does the bug report include the expected and actual results?\nB: Yes. I also added the steps and a screenshot.\nA: Let's check this document for the app version and device details.\nB: They're included. The report is ready to share now.",
+        "exampleChinese": "A: 缺陷报告包含预期结果和实际结果了吗？\nB: 包含了。我还加了操作步骤和截图。\nA: 我们检查一下这份文档里有没有应用版本和设备信息。\nB: 都有。现在报告已经可以分享了。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 100,
+      "english": "expected",
+      "chinese": "预期的",
+      "phoneticUS": "/ɪkˈspektɪd/",
+      "phoneticUK": "/ɪkˈspektɪd/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Does the bug report include the expected and actual results?”明确表达预期的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Does the bug report include the expected and actual results?”明确表达预期的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the expected result; be expected",
+        "example": "Does the bug report include the expected and actual results?",
+        "exampleChinese": "缺陷报告包含预期结果和实际结果了吗？"
+      }
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "english": "actual",
+      "chinese": "实际的",
+      "phoneticUS": "/ˈæktʃuəl/",
+      "phoneticUK": "/ˈæktʃuəl/",
+      "bubblePosition": {
+        "x": 800,
+        "y": 100
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "“Does the bug report include the expected and actual results?”明确表达实际的；单幅画面不能独立证明，不设局部框。",
+        "association": "“Does the bug report include the expected and actual results?”明确表达实际的；单幅画面不能独立证明，不设局部框。",
+        "collocation": "the actual result; in actual use",
+        "example": "Does the bug report include the expected and actual results?",
+        "exampleChinese": "缺陷报告包含预期结果和实际结果了吗？"
+      }
+    },
+    {
+      "x": 602,
+      "y": 449,
+      "english": "document",
+      "chinese": "文档",
+      "phoneticUS": "/ˈdɑːkjumənt/",
+      "phoneticUK": "/ˈdɒkjumənt/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 625
+      },
+      "anchorPosition": {
+        "x": 602,
+        "y": 449
+      },
+      "boundingBox": {
+        "left": 518,
+        "top": 329,
+        "right": 695,
+        "bottom": 534
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "association": "文档（document）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "collocation": "this document; a design document",
+        "example": "Let's check this document for the app version and device details.",
+        "exampleChinese": "我们检查一下这份文档里有没有应用版本和设备信息。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A developer prepares a bug report with clear steps and results.",
+    "chinese": "开发者整理操作步骤与结果明确的缺陷报告。",
+    "source": "原创对话 · W060 整理完整的缺陷报告",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑白火柴人底图；场景描述、对白、例句与中文译文原创。",
+  "sourceURL": ""
+}

@@ -1,0 +1,246 @@
+{
+  "id": "W059",
+  "category": "debugging",
+  "category_title": "测试与问题排查",
+  "chapter": "测试与问题排查",
+  "title": "汇报暂时无法复现",
+  "keyword": "reproduce",
+  "scene": "开发者汇报暂时无法在本地复现缺陷。",
+  "target_count": 4,
+  "primary_words": [
+    "reproduce",
+    "environment",
+    "evidence",
+    "monitor"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "reproduce",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "复现",
+      "pos": "verb",
+      "ipa_us": "/ˌriːprəˈduːs/",
+      "ipa_uk": "/ˌriːprəˈdjuːs/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I can't reproduce the issue in my local environment yet.",
+        "matched_form": "reproduce",
+        "referent_region_verified": false,
+        "context": "“I can't reproduce the issue in my local environment yet.”明确表达复现；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I can't reproduce the issue in my local environment yet.",
+      "example_zh": "我暂时还无法在本地环境复现这个问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "reproduce an issue",
+        "reproduce the error"
+      ],
+      "example_en_highlighted": "I can't **reproduce** the issue in my local environment yet.",
+      "annotation_mode": "context",
+      "annotation_note": "“I can't reproduce the issue in my local environment yet.”明确表达复现；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "environment",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "环境",
+      "pos": "noun",
+      "ipa_us": "/ɪnˈvaɪrənmənt/",
+      "ipa_uk": "/ɪnˈvaɪrənmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I can't reproduce the issue in my local environment yet.",
+        "matched_form": "environment",
+        "referent_region_verified": false,
+        "context": "“I can't reproduce the issue in my local environment yet.”明确表达环境；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "I can't reproduce the issue in my local environment yet.",
+      "example_zh": "我暂时还无法在本地环境复现这个问题。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a local environment",
+        "set up an environment"
+      ],
+      "example_en_highlighted": "I can't reproduce the issue in my local **environment** yet.",
+      "annotation_mode": "context",
+      "annotation_note": "“I can't reproduce the issue in my local environment yet.”明确表达环境；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "evidence",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "context",
+      "sense_zh": "证据",
+      "pos": "noun",
+      "ipa_us": "/ˈevɪdəns/",
+      "ipa_uk": "/ˈevɪdəns/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "What evidence would help you investigate?",
+        "matched_form": "evidence",
+        "referent_region_verified": false,
+        "context": "“What evidence would help you investigate?”明确表达证据；单幅画面不能独立证明，不设局部框。",
+        "image_verified": null
+      },
+      "example_en": "What evidence would help you investigate?",
+      "example_zh": "哪些证据能帮助你调查？",
+      "bbox_normalized": null,
+      "collocations": [
+        "collect evidence",
+        "provide evidence"
+      ],
+      "example_en_highlighted": "What **evidence** would help you investigate?",
+      "annotation_mode": "context",
+      "annotation_note": "“What evidence would help you investigate?”明确表达证据；单幅画面不能独立证明，不设局部框。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "monitor",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": "object",
+      "sense_zh": "显示器",
+      "pos": "noun",
+      "ipa_us": "/ˈmɑːnɪtər/",
+      "ipa_uk": "/ˈmɒnɪtə/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+        "sentence": "A recording and the exact steps. This monitor shows a normal result.",
+        "matched_form": "monitor",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "A recording and the exact steps. This monitor shows a normal result.",
+      "example_zh": "一段录像和确切步骤。这个显示器上显示的是正常结果。",
+      "bbox_normalized": [
+        0.651,
+        0.274,
+        0.949,
+        0.582
+      ],
+      "collocations": [
+        "on the monitor",
+        "a computer monitor"
+      ],
+      "example_en_highlighted": "A recording and the exact steps. This **monitor** shows a normal result.",
+      "annotation_mode": "object",
+      "annotation_note": "显示器（monitor）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-07",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "caption": {
+    "en": "A developer reports that a bug cannot yet be reproduced locally.",
+    "zh": "开发者汇报暂时无法在本地复现缺陷。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A developer reports that a bug cannot yet be reproduced locally.",
+    "zh": "开发者汇报暂时无法在本地复现缺陷。"
+  },
+  "roles": {
+    "A": "Speaker A",
+    "B": "Speaker B"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "I can't reproduce the issue in my local environment yet.",
+      "zh": "我暂时还无法在本地环境复现这个问题。"
+    },
+    {
+      "speaker": "B",
+      "en": "What evidence would help you investigate?",
+      "zh": "哪些证据能帮助你调查？"
+    },
+    {
+      "speaker": "A",
+      "en": "A recording and the exact steps. This monitor shows a normal result.",
+      "zh": "一段录像和确切步骤。这个显示器上显示的是正常结果。"
+    },
+    {
+      "speaker": "B",
+      "en": "I'll ask the reporter for those details and the app version.",
+      "zh": "我会向反馈者询问这些细节和应用版本。"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "说明暂时无法复现并请求补充证据。",
+  "editor_note": "",
+  "content_prompt": null,
+  "image_prompt": "Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two coworkers at a workstation, one raising questioning hands and the other pointing at a fully visible monitor with empty rectangular UI shapes. No readable text, no error overlay required.",
+  "status": "approved",
+  "image_path": "images/W059.png",
+  "review_status": "approved",
+  "content_status": "final",
+  "content_finalized_on": "2026-10-07",
+  "image_status": "generated",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "W059 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。"
+  },
+  "reviewed_on": "2026-10-07",
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "source_path": "images/W059.png",
+    "width": 1254,
+    "height": 1254,
+    "started_at": "2026-10-07T09:23:43.175Z",
+    "ended_at": "2026-10-07T09:33:37.962Z",
+    "prompt_path": "prompts/W059_image_final.txt"
+  },
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W059.png 宽高归一化至 0..1；由人工视觉定位。",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "result": "pass",
+    "summary": "通过：右侧完整显示器与底座，复現环境和证据保持语境。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。"
+  }
+}

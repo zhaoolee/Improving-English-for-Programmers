@@ -1,0 +1,130 @@
+{
+  "filename": "I037.png",
+  "labels": [
+    {
+      "x": 190,
+      "y": 75,
+      "english": "success",
+      "chinese": "成功",
+      "phoneticUS": "/səkˈses/",
+      "phoneticUK": "/səkˈses/",
+      "bubblePosition": {
+        "x": 190,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：success。本卡例句：How do you define success for a developer in this team?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：success。本卡例句：How do you define success for a developer in this team?",
+        "collocation": "define success; measure success",
+        "example": "A: How do you define success for a developer in this team?\nB: We value reliable delivery and clear communication.\nA: Is mentorship available, and how is career progression assessed? Could you explain this diagram?\nB: Mentors support new hires, and we review growth through regular conversations.",
+        "exampleChinese": "A: 你们如何定义团队中开发者的成功？\nB: 我们重视可靠交付与清晰沟通。\nA: 团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？\nB: 导师会支持新员工，我们也会通过定期交流评估成长。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 75,
+      "english": "mentorship",
+      "chinese": "导师支持",
+      "phoneticUS": "/ˈmentɔːrʃɪp/",
+      "phoneticUK": "/ˈmentɔːʃɪp/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 75
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mentorship。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：mentorship。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "collocation": "provide mentorship; a mentorship program",
+        "example": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "exampleChinese": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？"
+      }
+    },
+    {
+      "x": 810,
+      "y": 75,
+      "english": "progression",
+      "chinese": "职业发展",
+      "phoneticUS": "/prəˈɡreʃən/",
+      "phoneticUK": "/prəˈɡreʃən/",
+      "bubblePosition": {
+        "x": 810,
+        "y": 41
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：progression。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "association": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：progression。本卡例句：Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "collocation": "career progression; assess progression",
+        "example": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "exampleChinese": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？"
+      }
+    },
+    {
+      "x": 557,
+      "y": 811,
+      "english": "diagram",
+      "chinese": "示意图",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 535,
+        "y": 940
+      },
+      "anchorPosition": {
+        "x": 557,
+        "y": 811
+      },
+      "boundingBox": {
+        "left": 278,
+        "top": 727,
+        "right": 836,
+        "bottom": 884
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准。",
+        "association": "桌面纸张中的圆形及箭头示意图；职业成长步骤由对白表达，图中没有可读成功标准。",
+        "collocation": "a flow diagram; explain a diagram",
+        "example": "Is mentorship available, and how is career progression assessed? Could you explain this diagram?",
+        "exampleChinese": "团队提供导师支持吗？如何评估职业发展？你能说明这张示意图吗？"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A candidate asks how success and career development are supported in the team.",
+    "chinese": "候选人询问团队如何支持工作成果与职业发展。",
+    "source": "原创配文 · I037 询问成功标准与成长空间",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 生成的虚构成年人物面试场景摄影图；场景描述、对白、例句与中文译文原创。生成来源、实际提示词与原图 SHA-256 保存在程序员面试专题制作记录中。",
+  "sourceURL": ""
+}

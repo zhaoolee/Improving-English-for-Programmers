@@ -1,0 +1,130 @@
+{
+  "filename": "V020-什么时候值得重构？.png",
+  "labels": [
+    {
+      "x": 185,
+      "y": 85,
+      "english": "maintainability",
+      "chinese": "可维护性",
+      "phoneticUS": "/meɪnˌteɪnəˈbɪləti/",
+      "phoneticUK": "/meɪnˌteɪnəˈbɪləti/",
+      "bubblePosition": {
+        "x": 185,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#5886B0",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "可维护性是代码长期修改难度，不能从静态图形直接判断。",
+        "association": "可维护性是代码长期修改难度，不能从静态图形直接判断。",
+        "collocation": "improve maintainability; long-term maintainability",
+        "example": "A: Can you explain whether a refactor would improve maintainability?\nB: Yes. Duplicate logic is making every change harder.\nA: Sketch the proposed structure on this diagram before changing the code.\nB: I'll compare a small refactor with leaving the code as it is.",
+        "exampleChinese": "A: 你能解释一下，重构是否会提升可维护性吗？\nB: 可以。重复逻辑让每次修改都变得更困难。\nA: 改代码之前，先在这张图上画出建议的结构。\nB: 我会比较小范围重构与保持现状这两种方案。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 85,
+      "english": "refactor",
+      "chinese": "重构",
+      "phoneticUS": "/ˌriːˈfæktər/",
+      "phoneticUK": "/ˌriːˈfæktə/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#9380B8",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "这里指调整代码结构的工作，空白示意图不证明重构已经完成。",
+        "association": "这里指调整代码结构的工作，空白示意图不证明重构已经完成。",
+        "collocation": "a small refactor; justify a refactor",
+        "example": "Can you explain whether a refactor would improve maintainability?",
+        "exampleChinese": "你能解释一下，重构是否会提升可维护性吗？"
+      }
+    },
+    {
+      "x": 815,
+      "y": 85,
+      "english": "duplicate",
+      "chinese": "重复的",
+      "phoneticUS": "/ˈduːplɪkət/",
+      "phoneticUK": "/ˈdjuːplɪkət/",
+      "bubblePosition": {
+        "x": 815,
+        "y": 85
+      },
+      "anchorPosition": null,
+      "boundingBox": null,
+      "positionUnavailable": true,
+      "backgroundColor": "#B77387",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "adjective",
+        "targetEntryID": null,
+        "relation": "scene_extension",
+        "sceneConnection": "重复性由代码内容决定，图中不展示可读代码。",
+        "association": "重复性由代码内容决定，图中不展示可读代码。",
+        "collocation": "duplicate logic; duplicate code",
+        "example": "Yes. Duplicate logic is making every change harder.",
+        "exampleChinese": "可以。重复逻辑让每次修改都变得更困难。"
+      }
+    },
+    {
+      "x": 500,
+      "y": 400,
+      "english": "diagram",
+      "chinese": "图表",
+      "phoneticUS": "/ˈdaɪəɡræm/",
+      "phoneticUK": "/ˈdaɪəɡræm/",
+      "bubblePosition": {
+        "x": 500,
+        "y": 885
+      },
+      "anchorPosition": {
+        "x": 500,
+        "y": 400
+      },
+      "boundingBox": {
+        "left": 345,
+        "top": 235,
+        "right": 650,
+        "bottom": 605
+      },
+      "positionUnavailable": false,
+      "backgroundColor": "#518F88",
+      "textColor": "#FFFFFF",
+      "learning": {
+        "partOfSpeech": "noun",
+        "targetEntryID": null,
+        "relation": "visible",
+        "sceneConnection": "竖立的完整结构示意图纸是可见指代；框整张图纸，不解释其中无文字方框的具体含义。",
+        "association": "竖立的完整结构示意图纸是可见指代；框整张图纸，不解释其中无文字方框的具体含义。",
+        "collocation": "an architecture diagram; sketch on a diagram",
+        "example": "Sketch the proposed structure on this diagram before changing the code.",
+        "exampleChinese": "改代码之前，先在这张图上画出建议的结构。"
+      }
+    }
+  ],
+  "quote": {
+    "english": "A programmer asks an AI assistant to justify a refactor before changing working code.",
+    "chinese": "程序员让 AI 在修改可用代码之前，先说明重构的必要性。",
+    "source": "原创对话 · V020 什么时候值得重构？",
+    "sourceURL": "",
+    "provenance": "model"
+  },
+  "rights": "内置 image_gen 黑底白线火柴人插画；场景描述、对白、例句与中文译文原创；OpenAI Logo 用作 AI 对话角色标识。",
+  "sourceURL": ""
+}

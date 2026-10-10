@@ -1,0 +1,119 @@
+W008  预约同事的沟通时间
+========================================================================
+分类: 融入团队（team）
+关键词: available
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-07）
+图片状态: generated
+图片路径: images/W008.png
+复核日期: 2026-10-07
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/W008.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/W008.png
+  尺寸: 1254 x 1254
+  起止时间: 2026-10-07T09:23:43.174Z → 2026-10-07T09:24:10.220Z
+  提示词文件: prompts/W008_image_final.txt
+
+场景: 开发者向同事预约一次简短的交流。
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：完整圆形时钟，包括外圈和指针，不凭指针推断预约时间。 前三词由对白提供语境证据，静态画面不能单独证明，不设局部框。 真实裁剪发现切边后按1254尺寸修正并增加6/1000边缘余量。
+
+沟通目标: 预约一次简短的交流并确认时间安排。
+
+主配文（一句场景描述）:
+  英文: A developer asks a teammate for a brief conversation.
+  中文: 开发者向同事预约一次简短的交流。
+
+角色与对白:
+  A = Speaker A
+  B = Speaker B
+  [A] Are you available for a brief chat this afternoon?
+        你今天下午有空简短聊一下吗？
+  [B] Yes. What would you like to discuss?
+        有空。你想讨论什么？
+  [A] The new API. Let's check the clock and meet in ten minutes.
+        新的 API。我们看一下时钟，十分钟后碰面吧。
+  [B] Works for me. I'll finish this task first.
+        可以。我先把这项任务做完。
+
+目标词 (4): available, discuss, brief, clock
+
+------------------------------------------------------------------------
+[1/4] available
+  词义: 有空的
+  词性: adjective
+  音标: UK /əˈveɪləbl/ | US /əˈveɪləbl/
+  搭配: be available; available this afternoon
+  例句: Are you available for a brief chat this afternoon?
+  例句高亮: Are you **available** for a brief chat this afternoon?
+  例句中文: 你今天下午有空简短聊一下吗？
+  标注模式: context
+  标注说明: “Are you available for a brief chat this afternoon?”明确表达有空的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] discuss
+  词义: 讨论
+  词性: verb
+  音标: UK /dɪˈskʌs/ | US /dɪˈskʌs/
+  搭配: discuss the plan; discuss a topic
+  例句: Yes. What would you like to discuss?
+  例句高亮: Yes. What would you like to **discuss**?
+  例句中文: 有空。你想讨论什么？
+  标注模式: context
+  标注说明: “Yes. What would you like to discuss?”明确表达讨论；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] brief
+  词义: 简短的
+  词性: adjective
+  音标: UK /briːf/ | US /briːf/
+  搭配: a brief chat; keep it brief
+  例句: Are you available for a brief chat this afternoon?
+  例句高亮: Are you available for a **brief** chat this afternoon?
+  例句中文: 你今天下午有空简短聊一下吗？
+  标注模式: context
+  标注说明: “Are you available for a brief chat this afternoon?”明确表达简短的；单幅画面不能独立证明，不设局部框。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] clock
+  词义: 时钟
+  词性: noun
+  音标: UK /klɒk/ | US /klɑːk/
+  搭配: check the clock; on the clock
+  例句: The new API. Let's check the clock and meet in ten minutes.
+  例句高亮: The new API. Let's check the **clock** and meet in ten minutes.
+  例句中文: 新的 API。我们看一下时钟，十分钟后碰面吧。
+  标注模式: object
+  标注说明: 时钟（clock）在场景中作为可见道具出现，可在最终底图局部框选；具体用途由对白支持。
+  坐标(normalized): [0.397, 0.1, 0.603, 0.304]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: W008 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=80 | meta.approved_cards=80
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE standalone educational scene illustration, square 1024x1024. Pure SOLID BLACK background, bright clean WHITE line art. Minimalist adult stick figures with circular heads, simple expressive faces, thin limbs, polished programmer workplace comic aesthetic. No colors, gradients, shading or photographic rendering. Single coherent scene, no panels. People and props central, approximately x=180..820 and y=220..790 on 0..1000 canvas. Generous blank space at top y<180, bottom y>850 and sides for later learning labels. Learning props recognizable and fully visible. Conversation gestures. NO speech bubbles, letters, numbers, captions, logos, watermark, readable code or writing. Simple abstract UI symbols allowed. Scene: Two standing coworkers talk beside an office desk. A clearly visible large round wall clock with simple hands and NO numerals hangs above the desk, away from both heads.

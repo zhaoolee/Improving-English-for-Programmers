@@ -1,0 +1,119 @@
+V035  把未验证的部分讲清楚
+========================================================================
+分类: 测试与代码审查（quality）
+关键词: unverified
+状态: approved
+复核状态: approved
+内容状态: final（定稿于 2026-10-10）
+图片状态: generated
+图片路径: images/V035.png
+复核日期: 2026-10-10
+
+坐标系统: [x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/V035.png 宽高归一化至 0..1；由人工视觉定位。
+
+图像生成:
+  工具: built-in image_gen
+  源文件: images/V035.png
+  尺寸: 1254 x 1254
+  起止时间: None → None
+  提示词文件: prompts/V035_image_final.txt
+
+场景: 按验收标准验证结果、检查边界与风险
+图像复核 (image_review):
+  复核人: Codex visual review
+  结果: pass
+  说明: 通过：单幅黑底白线插画，一个成年火柴人和一个 OpenAI 标识。手持双段报告纸张外框完整，内部横线不可读；未验证、限制和确认状态均由对白表达。
+
+沟通目标: 清楚说明未验证范围、限制和下一步确认方式。
+
+主配文（一句场景描述）:
+  英文: A programmer asks an AI assistant to separate verified results from limitations in a report.
+  中文: 程序员让 AI 在报告中区分已验证结果与限制。
+
+角色与对白:
+  A = Programmer 程序员（火柴人）
+  B = AI assistant AI 助手（OpenAI Logo）
+  [A] What remains unverified in this report?
+        这份报告里还有哪些内容未经验证？
+  [B] The mobile path is a limitation because I only checked desktop.
+        移动端路径仍是限制，因为我只检查了桌面端。
+  [A] Mark that clearly and say what someone must confirm.
+        把这一点标清楚，并说明还需要确认什么。
+  [B] I'll separate confirmed results from open questions in the report.
+        我会在报告中把已确认结果与待解问题分开。
+
+目标词 (4): unverified, limitation, confirm, report
+
+------------------------------------------------------------------------
+[1/4] unverified
+  词义: 未经验证的
+  词性: adjective
+  音标: UK /ʌnˈverɪfaɪd/ | US /ʌnˈverɪfaɪd/
+  搭配: remain unverified; an unverified result
+  例句: What remains unverified in this report?
+  例句高亮: What remains **unverified** in this report?
+  例句中文: 这份报告里还有哪些内容未经验证？
+  标注模式: context
+  标注说明: 是否验证取决于实际检查证据，不能从报告版式判断。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[2/4] limitation
+  词义: 限制
+  词性: noun
+  音标: UK /ˌlɪmɪˈteɪʃən/ | US /ˌlɪmɪˈteɪʃən/
+  搭配: state a limitation; a testing limitation
+  例句: The mobile path is a limitation because I only checked desktop.
+  例句高亮: The mobile path is a **limitation** because I only checked desktop.
+  例句中文: 移动端路径仍是限制，因为我只检查了桌面端。
+  标注模式: context
+  标注说明: 限制来自测试范围，静态文档没有具体范围文字。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[3/4] confirm
+  词义: 确认
+  词性: verb
+  音标: UK /kənˈfɜːm/ | US /kənˈfɜːrm/
+  搭配: confirm a result; confirm the behavior
+  例句: Mark that clearly and say what someone must confirm.
+  例句高亮: Mark that clearly and say what someone must **confirm**.
+  例句中文: 把这一点标清楚，并说明还需要确认什么。
+  标注模式: context
+  标注说明: 确认是后续验证动作，画面不能证明已完成。
+  坐标(normalized): None
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+[4/4] report
+  词义: 报告
+  词性: noun
+  音标: UK /rɪˈpɔːt/ | US /rɪˈpɔːrt/
+  搭配: in this report; a test report
+  例句: What remains unverified in this report?
+  例句高亮: What remains unverified in this **report**?
+  例句中文: 这份报告里还有哪些内容未经验证？
+  标注模式: object
+  标注说明: 手中完整可见、分为两段的纸质报告是直接指代，只框整张纸。
+  坐标(normalized): [0.367, 0.239, 0.628, 0.642]
+  覆盖状态: verified
+
+------------------------------------------------------------------------
+
+覆盖复核 (coverage_review):
+  target_count: 4
+  content_entries_complete: 4
+  sentence_evidence_complete: 4
+  verified_targets: 4
+  image_review: pass
+  object_or_region_boxes: 1
+  context_annotations: 3
+  scope: V035 的逐词编辑与底图视觉核对完成；本专题其他计划卡未制作，不声称学习效果或手机端验收。
+
+全局状态: meta.completed_images=40 | meta.approved_cards=40
+
+底图提示词 (image_prompt 原文):
+
+Use case: illustration-story. Create ONE polished educational scene illustration, square canvas approximately 1024x1024. Pure solid BLACK background with crisp clean WHITE line art only. Minimalist adult stick-figure programmer with circular head, thin limbs and simple expressive face. The programmer is conversing with a recognizable official OpenAI six-loop interwoven knot logo floating nearby, drawn in white with black negative spaces; the logo itself represents the AI conversational partner and has no human body. EXACTLY ONE human programmer and ONE OpenAI logo. Single coherent scene, no panels. Restrained programmer comic aesthetic. Keep the main scene approximately x=180..820 and y=230..770 on a 0..1000 canvas. Leave generous empty black space at the top y<200 and bottom y>820 for later learning labels. Props named in the scene must be recognizable, complete and unobstructed. No colored elements, gradients, gray shading, photorealism, textures, glow. NO speech bubbles, letters, numbers, readable code, captions, watermark or other logos. The only brand symbol is the requested OpenAI knot. Scene: The adult stick-figure programmer stands at the left holding one large report sheet upright at center. The complete sheet has two blank sections separated by a horizontal divider and several short abstract unreadable lines, with no letters, numbers, check marks or icons. The hand grips only the edge. The floating white OpenAI knot is at the right. No other papers or devices.

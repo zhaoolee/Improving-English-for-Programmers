@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""机械同步根 README 的「850 场景卡」章节。
+"""兼容入口：同步根 README 的 GitHub Pages 系列目录。
 
-只读取本仓库已审定的卡片数据（cards_plan.json / cards/Cxxx.json /
-piclex/Cxxx_job.json），在 README 中生成/替换两个标记之间的区间：
-
-    ## 850章节开始
-    ... 100 个三级小章节（图片 + 单词/中文/例句三列表）...
-    ## 850章节结束
+实际实现已集中到仓库根 ``scripts/update_readme.py``；README 不再展开 100 张卡正文。
 
 用法::
 
@@ -31,6 +26,7 @@ import hashlib
 import html
 import json
 import os
+import subprocess
 import struct
 import sys
 from urllib.parse import quote
@@ -258,6 +254,15 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     root = repo_root()
+    command = [sys.executable, os.path.join(root, "scripts", "update_readme.py")]
+    if args.check:
+        command.append("--check")
+    if args.readme:
+        command.extend(["--readme", os.path.abspath(args.readme)])
+    command.extend(["--raw-base", args.image_base_url])
+    return subprocess.run(command, cwd=root, check=False).returncode
+
+    # 旧的章节生成实现保留在此函数下方，方便追溯历史格式；兼容入口已在上方返回。
     readme_path = os.path.abspath(args.readme) if args.readme else os.path.join(root, "README.md")
     if not os.path.isfile(readme_path):
         fail("README 不存在：%s" % readme_path)

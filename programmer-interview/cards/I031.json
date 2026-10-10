@@ -1,0 +1,268 @@
+{
+  "id": "I031",
+  "category": "behavioral",
+  "title_zh": "用 STAR 讲一次团队分歧",
+  "status": "approved",
+  "content_status": "final",
+  "image_status": "generated",
+  "review_status": "approved",
+  "scene_zh": "亚洲女候选人讲述一次团队分歧，美国女面试官认真听；当前画面是平和面试而非争吵重演。",
+  "cast": {
+    "candidate": "AS_HANA",
+    "interviewer": "US_MAYA"
+  },
+  "image_prompt": "Use case: photorealistic-natural. Create ONE 4:5 portrait photograph, a refined Instagram workplace editorial captured during a believable programmer job interview. Attractive, well-groomed adult actors in understated professional clothing; candid interaction, not runway posing. Warm-white daylight, cream walls, pale oak, warm gray, restrained navy and sage accents. Natural skin pores, subtle facial asymmetry, flyaway hair, realistic fabric creases and material texture; polished exposure without beauty-filter smoothing. Keep faces, naturally formed hands and the essential interview prop clearly visible. Leave gentle breathing room in the upper wall and lower tabletop for later labels, with no artificial blank bands. One coherent photographic moment with plausible perspective, grounded shadows and restrained depth of field. No readable writing, letters, numbers, code, captions, speech bubbles, interface overlays, logos or watermark. Screens and papers may contain only discreet unlabeled shapes or content softened beyond legibility. Avoid plastic skin, excessive HDR, orange color cast, exaggerated bokeh, duplicated people and deformed anatomy.\nCinematic art direction: an artful still frame from a contemporary workplace drama with a refined Instagram editorial finish. Use intentional off-center framing, layered foreground, people and background, realistic directional window side light, gentle negative fill on the shadow side, controlled highlights and rich soft shadows. Keep skin tones warm-neutral with subtly cooler background shadows, a restrained film palette, delicate 35mm film grain and natural fine texture. Build quiet narrative tension through the existing glances, pauses and gestures. Keep the interview setting clean and believable, essential props recognizable, and faces readable. Preserve the 4:5 portrait composition without black bars; avoid heavy teal-orange grading, crushed blacks, theatrical spotlights and artificial glamour.\nCandidate: Hana, a fictional attractive 29-year-old East Asian woman from South Korea, with warm fair skin, expressive brown eyes, an oval face, straight shoulder-length dark hair tucked behind one ear, and subtle natural makeup. Her appearance is individual and realistic, not a beauty stereotype.\nInterviewer or recruiter: Maya, a fictional attractive 30-year-old American woman of mixed heritage, with warm tan skin, brown eyes, dark shoulder-length loose curls, a softly defined face, and minimal natural makeup.\nExactly two people in a behavioral interview. Hana, the candidate in a cream blouse, describes a past team disagreement to Maya, the interviewer in a charcoal blazer. Hana uses a restrained open-hand gesture, thoughtful and composed; Maya listens with a slim notebook on her lap. Two simple blank muted-color cards lie on a small side table as a modest conversation aid, not a conflict symbol. A medium 50mm two-person portrait at eye level in a warm-white room, soft linen-filtered daylight and space between the chairs. Keep the present interview setting; no arguing colleagues, accusing fingers, hostile expressions or flashback panels.",
+  "prompt_path": "prompts/I031_image_prompt.txt",
+  "prompt_status": "ready",
+  "image_path": "images/I031.png",
+  "image_sha256": "08ce11d63934d9449fa03b1a02fc33f3455b52e6835482c310a4c16ff648dbf4",
+  "image_dimensions": "1122x1402",
+  "image_review": {
+    "reviewer": "Codex visual review",
+    "verdict": "pass",
+    "summary": "两位女性在独立座椅上交流，候选人开放手势，面试官记录；腿部、手部、脸部和两张空白卡片未见明显异常。画面留有空间与前景层次，不出现冲突闪回；STAR内容由未来对白明确 实际可见物件：桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据。",
+    "result": "pass"
+  },
+  "image_generation": {
+    "tool": "built-in image_gen",
+    "generation_mode": "single_pass_cinematic_prompt",
+    "prompt_snapshot_path": "programmer-interview/workflow/I016-I040-generated-prompts/I031_generate.txt",
+    "source_path": "images/I031.png",
+    "started_at_utc": "2026-10-09 14:33:54 UTC",
+    "finished_at_utc": "2026-10-09 14:48:01 UTC",
+    "selected_image_path": "images/I031.png",
+    "selected_image_sha256": "08ce11d63934d9449fa03b1a02fc33f3455b52e6835482c310a4c16ff648dbf4",
+    "selected_image_dimensions": "1122x1402",
+    "review_path": "workflow/I016-I040_image-review.json",
+    "materialized": true,
+    "materialized_at_utc": "2026-10-09T15:10:38Z",
+    "note": "本轮内置 image_gen 单次生成：直接使用定稿电影感 prompt 生成选定版；与首批 I001–I005 的「初版生成 + 原图定向编辑」两步链不同。未做定向编辑。",
+    "width": 1122,
+    "height": 1402,
+    "started_at": "2026-10-09T14:33:54Z",
+    "ended_at": "2026-10-09T14:48:01Z",
+    "prompt_path": "prompts/I031_image_final.txt"
+  },
+  "title": "用 STAR 讲一次团队分歧",
+  "scene": "亚洲女候选人讲述一次团队分歧，美国女面试官认真听；当前画面是平和面试而非争吵重演。",
+  "category_title": "行为面试与团队协作",
+  "primary_words": [
+    "disagreement",
+    "compromise",
+    "result",
+    "card"
+  ],
+  "targets": [
+    {
+      "word_id": null,
+      "word": "disagreement",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "分歧",
+      "pos": "noun",
+      "ipa_us": "/ˌdɪsəˈɡriːmənt/",
+      "ipa_uk": "/ˌdɪsəˈɡriːmənt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+        "matched_form": "disagreement",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：disagreement。本卡例句：We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+        "image_verified": null
+      },
+      "example_en": "We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+      "example_zh": "我们曾对是否在上线前增加功能产生分歧。我的任务是让发布按期进行。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a team disagreement",
+        "resolve a disagreement"
+      ],
+      "example_en_highlighted": "We had a **disagreement** about adding a feature before launch. I needed to keep the release on schedule.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：disagreement。本卡例句：We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "compromise",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "折中方案",
+      "pos": "noun",
+      "ipa_us": "/ˈkɑːmprəmaɪz/",
+      "ipa_uk": "/ˈkɒmprəmaɪz/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "How did you reach a compromise?",
+        "matched_form": "compromise",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：compromise。本卡例句：How did you reach a compromise?",
+        "image_verified": null
+      },
+      "example_en": "How did you reach a compromise?",
+      "example_zh": "你们如何达成折中方案？",
+      "bbox_normalized": null,
+      "collocations": [
+        "reach a compromise",
+        "a practical compromise"
+      ],
+      "example_en_highlighted": "How did you reach a **compromise**?",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：compromise。本卡例句：How did you reach a compromise?",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "result",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "结果",
+      "pos": "noun",
+      "ipa_us": "/rɪˈzʌlt/",
+      "ipa_uk": "/rɪˈzʌlt/",
+      "evidence": {
+        "type": "context_sentence",
+        "image": null,
+        "sentence": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "matched_form": "result",
+        "referent_region_verified": false,
+        "context": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：result。本卡例句：I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "image_verified": null
+      },
+      "example_en": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+      "example_zh": "我提议先做一个较小的版本。我用这张卡片说明结果：我们按时上线了。",
+      "bbox_normalized": null,
+      "collocations": [
+        "a measurable result",
+        "explain the result"
+      ],
+      "example_en_highlighted": "I proposed a smaller first version. I'll use this card to outline the **result**: we launched on time.",
+      "annotation_mode": "context",
+      "annotation_note": "前3词均由本卡明确对白提供所选词义证据；人物经历、职业动机、技术概念、运行特性和测量结果不能从静态写真或无字图形中确认，没有局部指代，保留语境词及其自然例句。 本词：result。本卡例句：I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    },
+    {
+      "word_id": null,
+      "word": "card",
+      "aliases": [],
+      "source_zh_unreviewed": null,
+      "planned_mode": null,
+      "sense_zh": "卡片",
+      "pos": "noun",
+      "ipa_us": "/kɑːrd/",
+      "ipa_uk": "/kɑːd/",
+      "evidence": {
+        "type": "referent_region_and_sentence",
+        "image": "桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据。",
+        "sentence": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+        "matched_form": "card",
+        "referent_region_verified": true,
+        "image_verified": null
+      },
+      "example_en": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+      "example_zh": "我提议先做一个较小的版本。我用这张卡片说明结果：我们按时上线了。",
+      "bbox_normalized": [
+        0.67,
+        0.767,
+        0.882,
+        0.825
+      ],
+      "collocations": [
+        "a note card",
+        "write on a card"
+      ],
+      "example_en_highlighted": "I proposed a smaller first version. I'll use this **card** to outline the result: we launched on time.",
+      "annotation_mode": "object",
+      "annotation_note": "桌面右边浅色空白卡片；不把静态互动当成历史分歧或妥协的可见证据。",
+      "lexical_source": {
+        "name": "Codex 按本卡工作语境编辑复核",
+        "url": "",
+        "checked_on": "2026-10-10",
+        "note": "Codex 按本卡工作语境独立编辑复核，不声称已访问词典全文。"
+      },
+      "coverage_status": "verified"
+    }
+  ],
+  "chapter": "行为面试与团队协作",
+  "keyword": "disagreement",
+  "target_count": 4,
+  "caption": {
+    "en": "A candidate recounts a team disagreement during a behavioral interview.",
+    "zh": "在行为面试中，候选人讲述一次团队分歧。",
+    "type": "original",
+    "source": null,
+    "status": "final"
+  },
+  "description": {
+    "en": "A candidate recounts a team disagreement during a behavioral interview.",
+    "zh": "在行为面试中，候选人讲述一次团队分歧。"
+  },
+  "roles": {
+    "A": "Candidate 候选人",
+    "B": "Interviewer or recruiter 面试官/招聘方"
+  },
+  "dialogue": [
+    {
+      "speaker": "A",
+      "en": "We had a disagreement about adding a feature before launch. I needed to keep the release on schedule.",
+      "zh": "我们曾对是否在上线前增加功能产生分歧。我的任务是让发布按期进行。"
+    },
+    {
+      "speaker": "B",
+      "en": "How did you reach a compromise?",
+      "zh": "你们如何达成折中方案？"
+    },
+    {
+      "speaker": "A",
+      "en": "I proposed a smaller first version. I'll use this card to outline the result: we launched on time.",
+      "zh": "我提议先做一个较小的版本。我用这张卡片说明结果：我们按时上线了。"
+    },
+    {
+      "speaker": "B",
+      "en": "What did you learn about handling different priorities?",
+      "zh": "关于处理不同的优先事项，你学到了什么？"
+    }
+  ],
+  "dialogue_storage": "PicLex 关键词标签 learning.example/exampleChinese 保存 canonical A,B,A,B 4 话轮对白（A=学习者朗读评分，B=机器朗读不评分，角色标记不朗读）；角色说明仅保留在 cards.roles 元数据；cards.targets 各词 example_en/example_zh 仍为定稿摘录。",
+  "communication_goal": "用具体经历说明沟通、责任、判断与成长；STAR 指情境、任务、行动、结果。本卡主题：用 STAR 讲一次团队分歧。",
+  "editor_note": "",
+  "content_prompt": null,
+  "content_finalized_on": "2026-10-10",
+  "coverage_review": {
+    "target_count": 4,
+    "content_entries_complete": 4,
+    "sentence_evidence_complete": 4,
+    "verified_targets": 4,
+    "image_review": "pass",
+    "object_or_region_boxes": 1,
+    "context_annotations": 3,
+    "assignment_changes": [],
+    "unfinished_items": [],
+    "scope": "I031 的逐词编辑与底图视觉核对完成；本批覆盖全部 40 张计划卡（I001–I040）。"
+  },
+  "reviewed_on": "2026-10-10",
+  "annotation_coordinate_system": "[x_min, y_min, x_max, y_max]，左上角为原点，按最终 images/I031.png 宽高归一化至 0..1；由人工视觉定位。"
+}
