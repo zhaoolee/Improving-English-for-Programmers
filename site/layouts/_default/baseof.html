@@ -4,33 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#f4efe4">
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <meta name="theme-color" content="#fbf7ed">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
-  {{ $style := resources.Get "css/site.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  {{ with resources.Get "css/site.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{ end }}
+  {{ with resources.Get "js/site.js" | minify | fingerprint }}
+    <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+  {{ end }}
 </head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="{{ "" | relURL }}" aria-label="返回首页">
-      <span class="brand__mark" aria-hidden="true">Aa</span>
-      <span><strong>程序员英语学习</strong><small>English for Programmers</small></span>
-    </a>
-    <nav class="site-nav" aria-label="系列导航">
-      <a href="{{ "basic-english-850/" | relURL }}">基础 850</a>
-      <a href="{{ "programmer-work-english/" | relURL }}">工作英语</a>
-      <a href="{{ "programmer-interview/" | relURL }}">面试英语</a>
-      <a href="{{ "programmer-vibe-coding/" | relURL }}">Vibe Coding</a>
-      <a class="nav-github" href="{{ site.Params.repository }}">GitHub ↗</a>
-    </nav>
+<body data-base="{{ "" | relURL }}" data-series="{{ .Params.series }}">
+  <a class="skip-link" href="#main">跳到内容</a>
+  <header class="mobile-bar">
+    <button id="menu-button" aria-expanded="false" aria-controls="sidebar" aria-label="打开系列目录">☰</button>
+    <a href="{{ "" | relURL }}">程序员英语</a>
+    <a href="{{ "" | relURL }}#series">系列</a>
   </header>
-  <main>{{ block "main" . }}{{ end }}</main>
-  <footer class="site-footer">
-    <p>用场景理解单词，用对话练习表达。</p>
-    <p><a href="{{ site.Params.repository }}">GitHub 仓库</a> · <a href="https://apps.apple.com/cn/app/id6808490052">摄影学英语 App</a></p>
-  </footer>
-  {{ $script := resources.Get "js/site.js" | minify | fingerprint }}
-  <script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  <button class="nav-backdrop" id="nav-backdrop" aria-label="关闭系列目录" hidden></button>
+  <div class="site-shell">
+    {{ partial "sidebar.html" . }}
+    <main class="site-main" id="main">
+      <section class="reader-sheet">
+        <span class="sheet-corner corner-tl" aria-hidden="true"></span>
+        <span class="sheet-corner corner-tr" aria-hidden="true"></span>
+        <span class="sheet-corner corner-bl" aria-hidden="true"></span>
+        <span class="sheet-corner corner-br" aria-hidden="true"></span>
+        <div class="page-content">{{ block "main" . }}{{ end }}</div>
+        {{ partial "footer.html" . }}
+      </section>
+    </main>
+  </div>
+  <dialog id="preview" aria-labelledby="preview-title">
+    <div class="preview-head"><p id="preview-title"></p><button type="button" class="icon-button" id="preview-close" aria-label="关闭预览">×</button></div>
+    <div class="preview-stage"><button type="button" class="icon-button" id="preview-prev" aria-label="上一张">‹</button><img id="preview-image" alt=""><button type="button" class="icon-button" id="preview-next" aria-label="下一张">›</button></div>
+    <p class="preview-note" id="preview-position"></p>
+    <div class="preview-actions"><a class="button primary" id="preview-download" download>保存原图</a><a class="button" id="preview-original" target="_blank" rel="noopener">打开原图</a></div>
+  </dialog>
 </body>
 </html>

@@ -1,0 +1,19 @@
+<aside class="sidebar" id="sidebar" aria-label="系列目录">
+  <div class="sidebar-head">
+    <div class="sidebar-brand-row">
+      <a class="site-brand" href="{{ "" | relURL }}">
+        <span class="site-mark" aria-hidden="true">Aa</span>
+        <span>程序员英语<small>English for Programmers</small></span>
+      </a>
+      <a class="github-link" href="{{ site.Params.repository }}" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看项目" title="在 GitHub 查看项目"><span aria-hidden="true"></span></a>
+    </div>
+    <label class="sidebar-search"><span aria-hidden="true">⌕</span><input type="search" id="category-filter" placeholder="查找系列…" aria-label="查找系列"></label>
+    <a class="all-categories {{ if .IsHome }}active{{ end }}" href="{{ "" | relURL }}"><span>▦ &nbsp; 全部系列</span><span>{{ len hugo.Data.catalog.series }}</span></a>
+    <div class="sidebar-caption"><span>学习目录</span><span>{{ hugo.Data.catalog.totals.cards }} 张卡</span></div>
+  </div>
+  <nav class="sidebar-nav"><ul>
+  {{ range $index, $series := hugo.Data.catalog.series }}
+    <li data-category-label="{{ $series.title }} {{ $series.eyebrow }}"><a href="{{ printf "%s/" $series.slug | relURL }}" {{ if eq $.Params.series $series.slug }}aria-current="page"{{ end }}><span class="category-number">{{ printf "%02d" (add $index 1) }}</span><span class="category-title">{{ $series.title }}</span></a></li>
+  {{ end }}
+  </ul><p id="no-categories" class="sidebar-empty" hidden>没有匹配的系列</p></nav>
+</aside>

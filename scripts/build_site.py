@@ -39,62 +39,41 @@ def highlighted(text: str, word: str) -> str:
     return "".join(pieces)
 
 
-def front_matter(title: str, description: str) -> str:
-    return "+++\ntitle = %s\ndescription = %s\n+++\n\n" % (
-        json.dumps(title, ensure_ascii=False),
-        json.dumps(description, ensure_ascii=False),
-    )
+def front_matter(title: str, description: str, series: str = "") -> str:
+    fields = [
+        "title = %s" % json.dumps(title, ensure_ascii=False),
+        "description = %s" % json.dumps(description, ensure_ascii=False),
+    ]
+    if series:
+        fields.append("series = %s" % json.dumps(series, ensure_ascii=False))
+    return "+++\n%s\n+++\n\n" % "\n".join(fields)
 
 
 def render_home(catalog: dict) -> str:
     totals = catalog["totals"]
     cards = []
-    for series in catalog["series"]:
+    for index, series in enumerate(catalog["series"], start=1):
         cover = series["cover"]
         cards.append(f"""
-<article class="series-card series-card--{esc(series['accent'])}">
-  <a class="series-card__visual" href="{esc(series['slug'])}/" aria-label="进入{esc(series['title'])}">
+<a class="collection-card" href="{esc(series['slug'])}/" data-series-card data-search="{esc((series['title'] + ' ' + series['eyebrow'] + ' ' + series['description']).lower())}">
+  <div class="collection-cover">
     <img src="media/{esc(series['slug'])}/{esc(cover['id'])}{esc(cover['image_extension'])}" alt="{esc(series['title'])}示例卡 {esc(cover['id'])}" loading="lazy" decoding="async">
-  </a>
-  <div class="series-card__body">
-    <p class="eyebrow">{esc(series['eyebrow'])}</p>
-    <h2><a href="{esc(series['slug'])}/">{esc(series['title'])}</a></h2>
-    <p>{esc(series['description'])}</p>
-    <dl class="series-stats">
-      <div><dt>场景卡</dt><dd>{series['card_count']}</dd></div>
-      <div><dt>词条</dt><dd>{series['entry_count']}</dd></div>
-      <div><dt>不同词</dt><dd>{series['unique_word_count']}</dd></div>
-    </dl>
-    <a class="button-link" href="{esc(series['slug'])}/">打开完整系列 <span aria-hidden="true">→</span></a>
   </div>
-</article>""")
+  <div class="collection-info">
+    <h3>{index:02d} {esc(series['title'])}</h3>
+    <p>{esc(series['eyebrow'])}</p>
+    <p class="collection-counts">{series['card_count']} 张卡 · {series['entry_count']} 个词条</p>
+  </div>
+</a>""")
 
     return front_matter("程序员英语学习", "四个图片英语学习系列的网页入口") + f"""
-<section class="home-hero">
-  <div class="home-hero__copy">
-    <p class="eyebrow">Learn with scenes, not word lists</p>
-    <h1>把英语放回<br><em>真实场景</em>里。</h1>
-    <p class="lede">从基础 850 词，到工作沟通、技术面试和 Vibe Coding。每张图都配有单词、例句或完整中英对白。</p>
-    <div class="hero-actions">
-      <a class="button-link button-link--primary" href="#series">选择一个系列</a>
-      <a class="text-link" href="https://github.com/zhaoolee/Improving-English-for-Programmers">查看 GitHub 仓库</a>
-    </div>
-  </div>
-  <div class="hero-tally" aria-label="内容统计">
-    <span><strong>{totals['series']}</strong> 个系列</span>
-    <span><strong>{totals['cards']}</strong> 张场景卡</span>
-    <span><strong>{totals['entries']}</strong> 个学习词条</span>
-  </div>
-</section>
-
-<section class="series-section" id="series">
-  <header class="section-heading">
-    <p class="eyebrow">Series library</p>
-    <h2>选择你的学习路径</h2>
-    <p>点进任意系列，即可查看这个系列的全部图片、单词、例句和对话。</p>
-  </header>
-  <div class="series-grid">{''.join(cards)}</div>
-</section>
+<div class="hero">
+  <h1>用图片、单词与真实对话，学会程序员真正用得上的英语。</h1>
+  <div class="stats"><span><strong>{totals['series']}</strong> 个系列</span><span><strong>{totals['cards']}</strong> 张场景卡</span><span><strong>{totals['entries']}</strong> 个学习词条</span></div>
+  <form class="main-search" id="series-search" role="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="搜一搜：工作、面试、Vibe Coding…" aria-label="搜索学习系列" data-series-search><button type="submit">找系列</button></form>
+</div>
+<div class="category-grid" id="series">{''.join(cards)}</div>
+<p class="empty-state series-empty" data-series-empty hidden>没有找到这个系列，换个词试试吧。</p>
 """
 
 
@@ -146,11 +125,10 @@ def render_card(series: dict, card: dict) -> str:
     ])
     dialogue = render_dialogue(card)
     return f"""
-<article class="learning-card" id="{esc(card['id'])}" data-card-id="{esc(card['id'])}" data-search="{esc(search.lower())}">
-  <figure class="learning-card__image">
+<article class="learning-card image-card" id="{esc(card['id'])}" data-card-id="{esc(card['id'])}" data-search="{esc(search.lower())}">
+  <a class="image-preview" href="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}" data-preview data-name="{esc(card['id'])} · {esc(card['title'])}" data-filename="{esc(card['id'])}{esc(card['image_extension'])}" data-src="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}">
     <img src="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}" alt="{esc(card['id'])} {esc(card['title'])}" loading="lazy" decoding="async">
-    <figcaption>{esc(card['id'])}</figcaption>
-  </figure>
+  </a>
   <div class="learning-card__content">
     <div class="learning-card__heading">
       <div><p class="card-category">{esc(card.get('category_title') or series['eyebrow'])}</p><h2>{esc(card['title'])}</h2></div>
@@ -169,12 +147,13 @@ def render_card(series: dict, card: dict) -> str:
 
 def render_series(series: dict) -> str:
     cards = "".join(render_card(series, card) for card in series["cards"])
-    return front_matter(series["title"], series["description"]) + f"""
-<section class="series-hero series-hero--{esc(series['accent'])}">
+    return front_matter(series["title"], series["description"], series["slug"]) + f"""
+<nav class="breadcrumbs" aria-label="当前位置"><a href="../">全部系列</a><span>/</span><span>{esc(series['title'])}</span></nav>
+<section class="series-intro">
   <p class="eyebrow">{esc(series['eyebrow'])}</p>
   <h1>{esc(series['title'])}</h1>
   <p>{esc(series['description'])}</p>
-  <dl class="series-hero__stats">
+  <dl class="series-stats">
     <div><dt>场景卡</dt><dd>{series['card_count']}</dd></div>
     <div><dt>词条</dt><dd>{series['entry_count']}</dd></div>
     <div><dt>不同词</dt><dd>{series['unique_word_count']}</dd></div>
@@ -182,10 +161,9 @@ def render_series(series: dict) -> str:
   </dl>
 </section>
 
-<section class="catalog-toolbar" aria-label="筛选卡片">
-  <label for="card-search">搜索本系列</label>
-  <div class="search-field"><span aria-hidden="true">⌕</span><input id="card-search" type="search" placeholder="输入编号、标题或单词…" autocomplete="off" data-card-search></div>
-  <p><strong data-visible-count>{series['card_count']}</strong> / {series['card_count']} 张</p>
+<section class="gallery-toolbar" aria-label="筛选卡片">
+  <label class="filter-field"><span aria-hidden="true">⌕</span><input id="card-search" type="search" placeholder="在这个系列里找编号、标题或单词…" autocomplete="off" aria-label="搜索本系列" data-card-search></label>
+  <p class="gallery-count"><strong data-visible-count>{series['card_count']}</strong> / {series['card_count']} 张</p>
 </section>
 
 <section class="learning-grid" data-card-grid>{cards}</section>
@@ -208,6 +186,7 @@ def build(base_url: str, skip_hugo: bool = False):
 
     shutil.copytree(SITE_SOURCE / "layouts", GENERATED / "layouts")
     shutil.copytree(SITE_SOURCE / "assets", GENERATED / "assets")
+    shutil.copytree(SITE_SOURCE / "static", GENERATED / "static")
     config = (REPO_ROOT / "hugo.toml").read_text(encoding="utf-8")
     config = re.sub(r'^baseURL\s*=.*$', 'baseURL = %s' % json.dumps(base_url), config, flags=re.MULTILINE)
     write_text(GENERATED / "hugo.toml", config)
