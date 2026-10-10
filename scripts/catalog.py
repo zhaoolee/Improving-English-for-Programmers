@@ -187,8 +187,13 @@ def load_catalog() -> dict:
 
 
 def serializable_catalog(catalog: dict) -> dict:
-    result = {"totals": catalog["totals"], "series": []}
-    for series in catalog["series"]:
+    result = {
+        "total": catalog["totals"]["cards"],
+        "totals": catalog["totals"],
+        "categories": [],
+        "series": [],
+    }
+    for index, series in enumerate(catalog["series"], start=1):
         item = {key: value for key, value in series.items() if key not in {"cards", "cover"}}
         item["cover_id"] = series["cover"]["id"]
         item["cards"] = [
@@ -203,4 +208,21 @@ def serializable_catalog(catalog: dict) -> dict:
             for card in series["cards"]
         ]
         result["series"].append(item)
+        cover_src = "media/%s/%s%s" % (
+            series["slug"], series["cover"]["id"], series["cover"]["image_extension"]
+        )
+        result["categories"].append({
+            "slug": series["slug"],
+            "number": f"{index:02d}",
+            "title": series["title"],
+            "folder": "%s %s" % (series["eyebrow"], series["title"]),
+            "count": series["card_count"],
+            "url": series["slug"] + "/",
+            "cover": {
+                "src": cover_src,
+                "thumb": cover_src,
+                "animated": False,
+                "label": "%s 示例卡 %s" % (series["title"], series["cover"]["id"]),
+            },
+        })
     return result

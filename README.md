@@ -7,14 +7,16 @@
 > 网站入口：<https://zhaoolee.com/Improving-English-for-Programmers/>
 
 <!-- SERIES_TABLE_START -->
-## 系列目录
+## 系列目录（共 260 张场景卡） / Series directory
 
-| 示例 | 系列 | 内容 | GitHub Pages |
-| --- | --- | --- | --- |
-| [<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/workflow/references/instagram-warm.png" width="220" alt="基础英语 850 词 示例图">](https://zhaoolee.com/Improving-English-for-Programmers/basic-english-850/) | **[基础英语 850 词](https://zhaoolee.com/Improving-English-for-Programmers/basic-english-850/)**<br>100 张生活场景卡，把 850 个基础词放回具体画面与原创例句。 | 100 张场景卡<br>850 个词条 · 850 个不同词 | **[进入系列 →](https://zhaoolee.com/Improving-English-for-Programmers/basic-english-850/)** |
-| [<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/programmer-work-english/images/inverted/W001.png" width="220" alt="程序员工作英语 示例图">](https://zhaoolee.com/Improving-English-for-Programmers/programmer-work-english/) | **[程序员工作英语](https://zhaoolee.com/Improving-English-for-Programmers/programmer-work-english/)**<br>从入职、需求澄清到发布协作，80 张卡覆盖真实开发沟通。 | 80 张场景卡<br>320 个词条 · 224 个不同词 | **[进入系列 →](https://zhaoolee.com/Improving-English-for-Programmers/programmer-work-english/)** |
-| [<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/programmer-interview/images/I001.png" width="220" alt="程序员面试英语 示例图">](https://zhaoolee.com/Improving-English-for-Programmers/programmer-interview/) | **[程序员面试英语](https://zhaoolee.com/Improving-English-for-Programmers/programmer-interview/)**<br>40 张双人面试场景卡，练习自我介绍、技术问答与行为面试。 | 40 张场景卡<br>160 个词条 · 128 个不同词 | **[进入系列 →](https://zhaoolee.com/Improving-English-for-Programmers/programmer-interview/)** |
-| [<img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/programmer-vibe-coding/images/V001.png" width="220" alt="程序员 Vibe Coding 示例图">](https://zhaoolee.com/Improving-English-for-Programmers/programmer-vibe-coding/) | **[程序员 Vibe Coding](https://zhaoolee.com/Improving-English-for-Programmers/programmer-vibe-coding/)**<br>40 张人与 AI 协作场景卡，从写提示到调试、审查与交付。 | 40 张场景卡<br>160 个词条 · 125 个不同词 | **[进入系列 →](https://zhaoolee.com/Improving-English-for-Programmers/programmer-vibe-coding/)** |
+> 根据已审定卡片自动更新，共 4 个系列。点击“进入系列”即可查看该系列的全部图片、单词、例句与对白。
+
+| 示例 / Preview | 系列 / Series | GitHub Pages / Browse |
+| :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/scene-cards-850/workflow/references/instagram-warm.png" height="100" alt="基础英语 850 词 示例图" /> | [基础英语 850 词（100 张场景卡 · 850 个词条）](https://zhaoolee.com/Improving-English-for-Programmers/basic-english-850/) | [进入系列](https://zhaoolee.com/Improving-English-for-Programmers/basic-english-850/) |
+| <img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/programmer-work-english/images/inverted/W001.png" height="100" alt="程序员工作英语 示例图" /> | [程序员工作英语（80 张场景卡 · 320 个词条）](https://zhaoolee.com/Improving-English-for-Programmers/programmer-work-english/) | [进入系列](https://zhaoolee.com/Improving-English-for-Programmers/programmer-work-english/) |
+| <img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/programmer-interview/images/I001.png" height="100" alt="程序员面试英语 示例图" /> | [程序员面试英语（40 张场景卡 · 160 个词条）](https://zhaoolee.com/Improving-English-for-Programmers/programmer-interview/) | [进入系列](https://zhaoolee.com/Improving-English-for-Programmers/programmer-interview/) |
+| <img src="https://raw.githubusercontent.com/zhaoolee/Improving-English-for-Programmers/main/programmer-vibe-coding/images/V001.png" height="100" alt="程序员 Vibe Coding 示例图" /> | [程序员 Vibe Coding（40 张场景卡 · 160 个词条）](https://zhaoolee.com/Improving-English-for-Programmers/programmer-vibe-coding/) | [进入系列](https://zhaoolee.com/Improving-English-for-Programmers/programmer-vibe-coding/) |
 <!-- SERIES_TABLE_END -->
 
 ## 如何使用

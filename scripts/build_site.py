@@ -50,31 +50,7 @@ def front_matter(title: str, description: str, series: str = "") -> str:
 
 
 def render_home(catalog: dict) -> str:
-    totals = catalog["totals"]
-    cards = []
-    for index, series in enumerate(catalog["series"], start=1):
-        cover = series["cover"]
-        cards.append(f"""
-<a class="collection-card" href="{esc(series['slug'])}/" data-series-card data-search="{esc((series['title'] + ' ' + series['eyebrow'] + ' ' + series['description']).lower())}">
-  <div class="collection-cover">
-    <img src="media/{esc(series['slug'])}/{esc(cover['id'])}{esc(cover['image_extension'])}" alt="{esc(series['title'])}示例卡 {esc(cover['id'])}" loading="lazy" decoding="async">
-  </div>
-  <div class="collection-info">
-    <h3>{index:02d} {esc(series['title'])}</h3>
-    <p>{esc(series['eyebrow'])}</p>
-    <p class="collection-counts">{series['card_count']} 张卡 · {series['entry_count']} 个词条</p>
-  </div>
-</a>""")
-
-    return front_matter("程序员英语学习", "四个图片英语学习系列的网页入口") + f"""
-<div class="hero">
-  <h1>用图片、单词与真实对话，学会程序员真正用得上的英语。</h1>
-  <div class="stats"><span><strong>{totals['series']}</strong> 个系列</span><span><strong>{totals['cards']}</strong> 张场景卡</span><span><strong>{totals['entries']}</strong> 个学习词条</span></div>
-  <form class="main-search" id="series-search" role="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="搜一搜：工作、面试、Vibe Coding…" aria-label="搜索学习系列" data-series-search><button type="submit">找系列</button></form>
-</div>
-<div class="category-grid" id="series">{''.join(cards)}</div>
-<p class="empty-state series-empty" data-series-empty hidden>没有找到这个系列，换个词试试吧。</p>
-"""
+    return front_matter("程序员英语学习", "四个图片英语学习系列的网页入口")
 
 
 def render_dialogue(card: dict) -> str:
@@ -125,7 +101,7 @@ def render_card(series: dict, card: dict) -> str:
     ])
     dialogue = render_dialogue(card)
     return f"""
-<article class="learning-card image-card" id="{esc(card['id'])}" data-card-id="{esc(card['id'])}" data-search="{esc(search.lower())}">
+<article class="learning-card image-card" id="{esc(card['id'])}" data-card-id="{esc(card['id'])}" data-name="{esc(search.lower())}">
   <a class="image-preview" href="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}" data-preview data-name="{esc(card['id'])} · {esc(card['title'])}" data-filename="{esc(card['id'])}{esc(card['image_extension'])}" data-src="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}">
     <img src="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}" alt="{esc(card['id'])} {esc(card['title'])}" loading="lazy" decoding="async">
   </a>
@@ -162,12 +138,12 @@ def render_series(series: dict) -> str:
 </section>
 
 <section class="gallery-toolbar" aria-label="筛选卡片">
-  <label class="filter-field"><span aria-hidden="true">⌕</span><input id="card-search" type="search" placeholder="在这个系列里找编号、标题或单词…" autocomplete="off" aria-label="搜索本系列" data-card-search></label>
+  <label class="filter-field"><span aria-hidden="true">⌕</span><input id="gallery-filter" type="search" placeholder="在这个系列里找编号、标题或单词…" autocomplete="off" aria-label="搜索本系列"></label>
   <p class="gallery-count"><strong data-visible-count>{series['card_count']}</strong> / {series['card_count']} 张</p>
 </section>
 
-<section class="learning-grid" data-card-grid>{cards}</section>
-<p class="empty-state" data-empty-state hidden>没有找到匹配的卡片。</p>
+<section class="image-grid learning-grid" id="image-grid">{cards}</section>
+<p class="empty-state" id="gallery-empty" role="status" hidden>没有找到匹配的卡片。</p>
 """
 
 

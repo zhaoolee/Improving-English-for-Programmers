@@ -3,34 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
   <meta name="description" content="{{ .Description | default site.Params.description }}">
   <meta name="theme-color" content="#fbf7ed">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
   <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "assets/icon.png" | relURL }}">
   {{ with resources.Get "css/site.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
   {{ end }}
-  {{ with resources.Get "js/site.js" | minify | fingerprint }}
+  {{ with resources.Get "css/learning.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{ end }}
+  {{ $scripts := slice (resources.Get "js/zip.js") (resources.Get "js/site.js") }}
+  {{ with $scripts | resources.Concat "js/app.js" | minify | fingerprint }}
+    <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+  {{ end }}
+  {{ with resources.Get "js/learning.js" | minify | fingerprint }}
     <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
   {{ end }}
 </head>
-<body data-base="{{ "" | relURL }}" data-series="{{ .Params.series }}">
+<body data-base="{{ "" | relURL }}" data-category="{{ .Params.series }}" data-layout="{{ .Layout }}">
   <a class="skip-link" href="#main">跳到内容</a>
-  <header class="mobile-bar">
-    <button id="menu-button" aria-expanded="false" aria-controls="sidebar" aria-label="打开系列目录">☰</button>
-    <a href="{{ "" | relURL }}">程序员英语</a>
-    <a href="{{ "" | relURL }}#series">系列</a>
-  </header>
+  <header class="mobile-bar"><button id="menu-button" aria-expanded="false" aria-controls="sidebar" aria-label="打开系列目录">☰</button><a href="{{ "" | relURL }}">程序员英语</a><a href="{{ "" | relURL }}#collections" aria-label="查看全部系列">系列</a></header>
   <button class="nav-backdrop" id="nav-backdrop" aria-label="关闭系列目录" hidden></button>
   <div class="site-shell">
     {{ partial "sidebar.html" . }}
     <main class="site-main" id="main">
       <section class="reader-sheet">
-        <span class="sheet-corner corner-tl" aria-hidden="true"></span>
-        <span class="sheet-corner corner-tr" aria-hidden="true"></span>
-        <span class="sheet-corner corner-bl" aria-hidden="true"></span>
-        <span class="sheet-corner corner-br" aria-hidden="true"></span>
+        <span class="sheet-corner corner-tl" aria-hidden="true"></span><span class="sheet-corner corner-tr" aria-hidden="true"></span><span class="sheet-corner corner-bl" aria-hidden="true"></span><span class="sheet-corner corner-br" aria-hidden="true"></span>
         <div class="page-content">{{ block "main" . }}{{ end }}</div>
         {{ partial "footer.html" . }}
       </section>
@@ -42,5 +42,6 @@
     <p class="preview-note" id="preview-position"></p>
     <div class="preview-actions"><a class="button primary" id="preview-download" download>保存原图</a><a class="button" id="preview-original" target="_blank" rel="noopener">打开原图</a></div>
   </dialog>
+  <p class="toast" id="toast" role="status" hidden></p>
 </body>
 </html>

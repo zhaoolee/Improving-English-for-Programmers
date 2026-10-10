@@ -1,3 +1,9 @@
 {{ define "main" }}
-<div class="page-shell">{{ .Content }}</div>
+  <div class="hero">
+    <h1>用图片、单词与真实对话，学会程序员真正用得上的英语。</h1>
+    <div class="stats"><span><strong>{{ hugo.Data.catalog.total | lang.FormatNumber 0 }}</strong> 张场景卡</span><span><strong>{{ len hugo.Data.catalog.categories }}</strong> 个系列</span></div>
+    <form class="main-search" id="series-search" role="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="搜一搜：工作、面试、Vibe Coding…" aria-label="搜索学习系列"><button type="submit">找系列</button></form>
+  </div>
+  {{ partial "categories.html" . }}
+  <p class="empty-state" id="series-empty" role="status" hidden>没有找到这个系列，换个词试试吧。</p>
 {{ end }}

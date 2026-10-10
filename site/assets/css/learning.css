@@ -1,0 +1,49 @@
+/* Learning-card additions. The shared shell remains byte-for-byte ChineseBQB site.css. */
+.collection-cover img{mix-blend-mode:normal;object-fit:cover}
+.series-intro{padding:2px 0 30px;border-bottom:1px solid var(--line)}
+.series-intro .eyebrow{margin-bottom:10px}
+.series-intro h1{margin:0;font-size:44px;line-height:1.35;letter-spacing:.5px}
+.series-intro>p:not(.eyebrow){max-width:760px;margin:14px 0 0;color:var(--muted);font-size:16px;line-height:1.8}
+.series-stats{display:flex;gap:28px;flex-wrap:wrap;margin:24px 0 0}
+.series-stats div{min-width:92px}
+.series-stats dt{color:var(--muted);font-size:12px}
+.series-stats dd{margin:2px 0 0;color:var(--ink);font-size:22px;font-weight:500}
+.gallery-toolbar{margin-top:0}
+.gallery-count{margin:0;color:var(--muted);font-size:13px;white-space:nowrap}
+.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.learning-card{scroll-margin-top:20px}
+.learning-card .image-preview{aspect-ratio:1;padding:0;background:#f3eee5}
+.learning-card .image-preview img{object-fit:cover}
+.learning-card__content{padding:16px 17px 18px}
+.learning-card__heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.learning-card__heading h2{margin:0;font-size:20px;line-height:1.45;font-weight:700}
+.card-category{margin:0 0 4px;color:var(--muted);font-size:11px;letter-spacing:1px}
+.anchor-link{flex-shrink:0;color:var(--muted);font-family:ui-monospace,monospace;font-size:12px}
+.caption-en{margin:15px 0 4px;font-size:15px;line-height:1.65}
+.caption-zh{margin:0;color:var(--muted);font-size:14px;line-height:1.65}
+.word-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.word-chips span{padding:4px 8px;border:1px solid var(--line);border-radius:12px;background:#f8f2e8;color:#63472e;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px}
+.card-details{margin-top:16px;border-top:1px solid var(--line)}
+.card-details summary{padding-top:14px;cursor:pointer;color:var(--accent-strong);font-size:13px;list-style-position:inside}
+.card-details__body{padding-top:16px}
+.dialogue-block h4{margin:0 0 10px;font-size:14px}
+.dialogue-block ol{display:grid;gap:8px;margin:0 0 18px;padding:0;list-style:none}
+.dialogue-turn{padding:10px 12px;border-radius:5px;background:#f6efe4}
+.dialogue-turn--b{margin-left:7%;background:#efe7dc}
+.dialogue-speaker{color:var(--muted);font-size:10px;font-weight:700}
+.dialogue-turn p{margin:3px 0;font-size:13px;line-height:1.55}
+.dialogue-turn p[lang]{color:var(--muted)}
+.word-table-wrap{overflow-x:auto}
+.word-table{width:100%;border-collapse:collapse;font-size:12px}
+.word-table th,.word-table td{min-width:98px;padding:11px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.word-table thead th{color:var(--muted);font-size:10px;letter-spacing:.5px}
+.word-table tbody th{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.word-table small{display:block;margin-top:4px;color:var(--muted);font-family:var(--font);font-weight:400}
+.word-table p{margin:0 0 4px}
+.word-table p[lang]{color:var(--muted)}
+.word-table strong{background:linear-gradient(transparent 60%,#f0d57d 60%)}
+.collocation{margin-top:7px!important}
+.site-footer a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1200px){.series-intro h1{font-size:40px}}
+@media(max-width:800px){.series-intro h1{font-size:36px}.learning-grid{gap:16px 12px}}
+@media(max-width:620px){.learning-grid{grid-template-columns:1fr}.series-intro h1{font-size:32px}.learning-card__content{padding:15px}.gallery-toolbar{align-items:flex-end}.filter-field{max-width:none}}

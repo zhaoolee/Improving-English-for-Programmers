@@ -22,14 +22,12 @@ def render(page_base: str, raw_base: str) -> str:
         cover_url = raw_base + series["cover"]["image_repo_path"]
         page_url = page_base + series["slug"] + "/"
         rows.append(
-            "| [<img src=\"%s\" width=\"220\" alt=\"%s 示例图\">](%s) "
-            "| **[%s](%s)**<br>%s "
-            "| %d 张场景卡<br>%d 个词条 · %d 个不同词 "
-            "| **[进入系列 →](%s)** |"
+            "| <img src=\"%s\" height=\"100\" alt=\"%s 示例图\" /> "
+            "| [%s（%d 张场景卡 · %d 个词条）](%s) "
+            "| [进入系列](%s) |"
             % (
-                cover_url, series["title"], page_url,
-                series["title"], page_url, series["description"],
-                series["card_count"], series["entry_count"], series["unique_word_count"],
+                cover_url, series["title"],
+                series["title"], series["card_count"], series["entry_count"], page_url,
                 page_url,
             )
         )
@@ -43,10 +41,12 @@ def render(page_base: str, raw_base: str) -> str:
 > 网站入口：<https://zhaoolee.com/Improving-English-for-Programmers/>
 
 <!-- SERIES_TABLE_START -->
-## 系列目录
+## 系列目录（共 %d 张场景卡） / Series directory
 
-| 示例 | 系列 | 内容 | GitHub Pages |
-| --- | --- | --- | --- |
+> 根据已审定卡片自动更新，共 %d 个系列。点击“进入系列”即可查看该系列的全部图片、单词、例句与对白。
+
+| 示例 / Preview | 系列 / Series | GitHub Pages / Browse |
+| :---: | :---: | :---: |
 %s
 <!-- SERIES_TABLE_END -->
 
@@ -65,7 +65,10 @@ def render(page_base: str, raw_base: str) -> str:
 - 同步 README：`python3 scripts/update_readme.py`
 
 本项目中的场景描述、对白、例句与中文译文为原创学习内容；图片来源与权利说明保存在各专题卡片数据中。
-""" % (totals["series"], totals["cards"], totals["entries"], "\n".join(rows))
+""" % (
+        totals["series"], totals["cards"], totals["entries"],
+        totals["cards"], totals["series"], "\n".join(rows),
+    )
 
 
 def main():
