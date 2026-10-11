@@ -33,6 +33,18 @@ jobs:
         run: python3 scripts/build_site.py
       - name: Verify site
         run: python3 scripts/verify_site.py
+      - name: Upload download archives
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: scene-card-downloads
+          path: |
+            .hugo-generated/downloads/manifest.json
+            .hugo-generated/downloads/*.zip
+          include-hidden-files: true
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 7
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
@@ -42,9 +54,34 @@ jobs:
         with:
           path: public-hugo
 
-  deploy:
-    if: github.event_name != 'pull_request'
+  publish-downloads:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && github.repository == 'zhaoolee/Improving-English-for-Programmers'
     needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout ZIP publisher
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/catalog.py
+            scripts/downloads.py
+            scripts/publish_downloads.py
+          sparse-checkout-cone-mode: false
+      - name: Download generated ZIP archives
+        uses: actions/download-artifact@v4
+        with:
+          name: scene-card-downloads
+          path: ${{ runner.temp }}/scene-card-downloads
+      - name: Publish and verify ZIP direct downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/publish_downloads.py publish --manifest "$RUNNER_TEMP/scene-card-downloads/manifest.json"
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: publish-downloads
     runs-on: ubuntu-latest
     environment:
       name: github-pages

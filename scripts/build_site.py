@@ -12,6 +12,7 @@ import subprocess
 from pathlib import Path
 
 from catalog import REPO_ROOT, load_catalog, serializable_catalog
+from downloads import build_downloads
 
 
 DEFAULT_BASE_URL = "https://zhaoolee.com/Improving-English-for-Programmers/"
@@ -178,6 +179,9 @@ def build(base_url: str, skip_hugo: bool = False):
     serial = serializable_catalog(catalog)
     write_text(GENERATED / "data" / "catalog.json", json.dumps(serial, ensure_ascii=False, indent=2) + "\n")
 
+    downloads_dir = GENERATED / "downloads"
+    downloads = build_downloads(catalog, downloads_dir)
+
     if not skip_hugo:
         subprocess.run([
             "hugo", "--source", str(GENERATED), "--destination", str(PUBLIC),
@@ -192,6 +196,8 @@ def build(base_url: str, skip_hugo: bool = False):
         "cards": catalog["totals"]["cards"],
         "entries": catalog["totals"]["entries"],
         "artifactBytes": size,
+        "downloads": {asset["name"]: asset["size"] for asset in downloads["assets"]},
+        "downloadBytes": sum(asset["size"] for asset in downloads["assets"]),
         "output": str(PUBLIC),
     }, ensure_ascii=False))
 

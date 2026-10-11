@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 from catalog import REPO_ROOT, sha256_file
+from downloads import DOWNLOADS_DIR, DownloadError, verify_downloads
 
 
 class ReferenceParser(HTMLParser):
@@ -89,6 +90,11 @@ def verify(public: Path):
     symlinks = [path for path in public.rglob("*") if path.is_symlink()]
     if symlinks:
         errors.append("Pages artifact 含符号链接：" + ", ".join(str(x) for x in symlinks[:5]))
+    download_summary = None
+    try:
+        download_summary = verify_downloads(catalog, DOWNLOADS_DIR)
+    except DownloadError as exc:
+        errors.append(str(exc))
     size = sum(path.stat().st_size for path in public.rglob("*") if path.is_file())
     if size >= 1024 * 1024 * 1024:
         errors.append(f"Pages artifact 超过 1 GiB：{size}")
@@ -102,6 +108,7 @@ def verify(public: Path):
         "entries": catalog["totals"]["entries"],
         "localReferences": checked_refs,
         "artifactBytes": size,
+        "downloads": download_summary,
     }, ensure_ascii=False))
 
 

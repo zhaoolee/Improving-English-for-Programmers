@@ -7,6 +7,7 @@ import argparse
 from pathlib import Path
 
 from catalog import REPO_ROOT, load_catalog
+from downloads import asset_name, asset_url
 
 
 PAGE_BASE = "https://zhaoolee.com/Improving-English-for-Programmers/"
@@ -21,14 +22,15 @@ def render(page_base: str, raw_base: str) -> str:
     for series in catalog["series"]:
         cover_url = raw_base + series["cover"]["image_repo_path"]
         page_url = page_base + series["slug"] + "/"
+        download_url = asset_url(asset_name(series["slug"], series["cards"]))
         rows.append(
             "| <img src=\"%s\" height=\"100\" alt=\"%s 示例图\" /> "
             "| [%s（%d 张场景卡 · %d 个词条）](%s) "
-            "| [进入系列](%s) |"
+            "| [直链下载（ZIP）](%s) |"
             % (
                 cover_url, series["title"],
                 series["title"], series["card_count"], series["entry_count"], page_url,
-                page_url,
+                download_url,
             )
         )
     totals = catalog["totals"]
@@ -43,9 +45,9 @@ def render(page_base: str, raw_base: str) -> str:
 <!-- SERIES_TABLE_START -->
 ## 系列目录（共 %d 张场景卡） / Series directory
 
-> 根据已审定卡片自动更新，共 %d 个系列。点击“进入系列”即可查看该系列的全部图片、单词、例句与对白。
+> 根据已审定卡片自动更新，共 %d 个系列。点击系列名称可浏览全部图片、单词、例句与对白；点击“直链下载（ZIP）”可下载该系列的原始图片合集。
 
-| 示例 / Preview | 系列 / Series | GitHub Pages / Browse |
+| 示例 / Preview | 系列 / Series | 下载 / Download |
 | :---: | :---: | :---: |
 %s
 <!-- SERIES_TABLE_END -->
