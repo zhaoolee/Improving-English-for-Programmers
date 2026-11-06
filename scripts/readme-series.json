@@ -1,0 +1,62 @@
+{
+  "basic-english-850": {
+    "deckID": "add03b54-d0a7-46fd-88c8-2aa0fa7f0c7f",
+    "version": 1,
+    "cover": "site/static/series/basic-english-850-cover.jpg",
+    "coverSHA256": "e336346eb7e95aecec0c16f7e5bc1f8ee26260b6649b8a9588e6f647cd6292f9",
+    "rights": "为摄影学英语原创定制的 AI 生成封面；独立于学习卡片。"
+  },
+  "programmer-work-english": {
+    "deckID": "121d190a-5d4c-4a09-8d50-4741acdbbb1b",
+    "version": 1,
+    "cover": "site/static/series/programmer-work-english-cover.jpg",
+    "coverSHA256": "7098994e3e21d3d9c34705f4b96d3f780ec2b0913129e8c5448509e1f0a5d7f0",
+    "rights": "为摄影学英语原创定制的 AI 生成封面；独立于学习卡片。"
+  },
+  "programmer-interview": {
+    "deckID": "a7e08e87-33ff-44a1-a686-8275696dcc93",
+    "version": 1,
+    "cover": "site/static/series/programmer-interview-cover.jpg",
+    "coverSHA256": "4a3050d2805c8bb710c4ba58505395f6e6819dfe3d76dc9a07f92b39b23f0fdc",
+    "rights": "为摄影学英语原创定制的 AI 生成封面；独立于学习卡片。"
+  },
+  "programmer-vibe-coding": {
+    "deckID": "56a51624-d8aa-4167-99c5-e1c727a938db",
+    "version": 1,
+    "cover": "site/static/series/programmer-vibe-coding-cover.jpg",
+    "coverSHA256": "396d587a4ce2f261d9c6c97b3577949263a3ee7280b61665b8ac9572bcf8232e",
+    "rights": "为摄影学英语原创定制的 AI 生成封面；独立于学习卡片。"
+  },
+  "classic-english-songs": {
+    "external": true,
+    "deckID": "0a1ff2e2-3db0-4bb1-889a-b27b62798cbe",
+    "title": "经典英语歌曲",
+    "card_count": 53,
+    "entry_count": 342,
+    "version": 9,
+    "cover": "site/static/series/classic-english-songs-cover.jpg",
+    "coverSHA256": "5fbd162a687559d9b1f973155d5f85b8f422a1eeb34d707fd87d692c699b4db3",
+    "feedURL": "https://piclex.v2fy.com/public/subscriptions/classic-english-songs/feed.json",
+    "pageURL": "https://piclex.v2fy.com/piclex-web/#/deck/0a1ff2e2-3db0-4bb1-889a-b27b62798cbe",
+    "packageURL": "https://piclex.v2fy.com/public/subscriptions/classic-english-songs/versions/9/deck-39249cf0db903249.piclexdeck",
+    "packageSHA256": "39249cf0db90324959011dd78ab7355b5cb5c425db513072bc6d42ee22f576a1",
+    "packageBytes": 36251864,
+    "verifiedOn": "2026-11-06"
+  },
+  "classic-movie-quotes": {
+    "external": true,
+    "deckID": "b33417a7-0f7e-4081-be35-2fe44d9d30c4",
+    "title": "经典电影台词",
+    "card_count": 100,
+    "entry_count": 100,
+    "version": 22,
+    "cover": "site/static/series/classic-movie-quotes-cover.jpg",
+    "coverSHA256": "531f32a58c785ee1d45d972f53d7bc3a0e58ab51f7f95f85a732536c06698ae0",
+    "feedURL": "https://piclex.v2fy.com/public/subscriptions/classic-movie-quotes/feed.json",
+    "pageURL": "https://piclex.v2fy.com/piclex-web/#/deck/b33417a7-0f7e-4081-be35-2fe44d9d30c4",
+    "packageURL": "https://piclex.v2fy.com/public/subscriptions/classic-movie-quotes/versions/22/deck-f4bb004d34964873.piclexdeck",
+    "packageSHA256": "f4bb004d34964873bc4971397a562294409f1288201a28c9ad2e68054c977a77",
+    "packageBytes": 30354570,
+    "verifiedOn": "2026-11-06"
+  }
+}

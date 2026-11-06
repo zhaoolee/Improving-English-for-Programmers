@@ -13,6 +13,7 @@ from pathlib import Path
 
 from catalog import REPO_ROOT, load_catalog, serializable_catalog
 from downloads import build_downloads
+from subscriptions import build_subscriptions
 
 
 DEFAULT_BASE_URL = "https://zhaoolee.com/Improving-English-for-Programmers/"
@@ -181,6 +182,7 @@ def build(base_url: str, skip_hugo: bool = False):
 
     downloads_dir = GENERATED / "downloads"
     downloads = build_downloads(catalog, downloads_dir)
+    build_subscriptions(catalog, GENERATED / "static", base_url)
 
     if not skip_hugo:
         subprocess.run([

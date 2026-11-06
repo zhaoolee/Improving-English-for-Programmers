@@ -10,8 +10,9 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from catalog import REPO_ROOT, sha256_file
+from catalog import REPO_ROOT, sha256_file, load_catalog
 from downloads import DOWNLOADS_DIR, DownloadError, verify_downloads
+from subscriptions import verify_subscriptions
 
 
 class ReferenceParser(HTMLParser):
@@ -57,6 +58,7 @@ def verify(public: Path):
         raise SystemExit("项目站点不得生成 CNAME，以免覆盖账号级自定义域名")
 
     errors = []
+    subscription_summary = verify_subscriptions(load_catalog(), public)
     checked_refs = 0
     seen_cards = []
     for html_path in public.rglob("*.html"):
@@ -109,6 +111,7 @@ def verify(public: Path):
         "localReferences": checked_refs,
         "artifactBytes": size,
         "downloads": download_summary,
+        "subscriptions": subscription_summary,
     }, ensure_ascii=False))
 
 
