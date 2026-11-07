@@ -15,6 +15,7 @@ subscription manifests) this validates the Web image layer:
 from __future__ import annotations
 
 import argparse
+import html as html_module
 import json
 from html.parser import HTMLParser
 from pathlib import Path
@@ -28,6 +29,7 @@ from subscriptions import verify_subscriptions
 
 GENERATED = REPO_ROOT / ".hugo-generated"
 WEB_MANIFEST = GENERATED / "data" / "web-images.json"
+SERIES_SETTINGS = REPO_ROOT / "scripts" / "readme-series.json"
 LOSSY_LABELS = ("保存高清图", "打开高清图")
 ORIGINAL_LABELS = ("保存原图", "打开原图")
 
@@ -135,6 +137,85 @@ def job_source_binding(series: dict, card: dict) -> tuple[Path, str]:
     if digest != job.get("imageSHA256"):
         raise SystemExit(f"原图与其 job 记录哈希不一致：{card['id']}")
     return resolved, digest
+
+
+def verify_external_directories(catalog: dict, public: Path, errors: list) -> dict:
+    """Independent series are listed only: absolute page URL + approved local cover."""
+    settings = json.loads(SERIES_SETTINGS.read_text(encoding="utf-8"))
+    externals = [(slug, config) for slug, config in settings.items() if config.get("external")]
+    categories = {item["slug"]: item for item in catalog["categories"]}
+    source_cards = sum(len(series["cards"]) for series in catalog["series"])
+    expected_total = source_cards + sum(int(config.get("card_count") or 0) for _, config in externals)
+    expected_directories = len(catalog["series"]) + len(externals)
+
+    if catalog.get("totals", {}).get("cards") != source_cards:
+        errors.append(
+            f"catalog.totals.cards 应保持本仓库 {source_cards} 张，实际 {catalog.get('totals', {}).get('cards')}"
+        )
+    if catalog.get("sourceCardTotal") != source_cards:
+        errors.append("catalog.sourceCardTotal 与本地卡片数不一致")
+    if catalog.get("total") != expected_total:
+        errors.append(f"catalog.total 展示总数应为 {expected_total}，实际 {catalog.get('total')}")
+    if catalog.get("directoryCount") != expected_directories:
+        errors.append(
+            f"catalog.directoryCount 应为 {expected_directories}，实际 {catalog.get('directoryCount')}"
+        )
+    if len(catalog["categories"]) != expected_directories:
+        errors.append(
+            f"目录条目应为 {expected_directories}，实际 {len(catalog['categories'])}"
+        )
+
+    local_slugs = [series["slug"] for series in catalog["series"]]
+    for position, (slug, config) in enumerate(externals, start=len(local_slugs) + 1):
+        category = categories.get(slug)
+        if not category:
+            errors.append(f"缺少外部系列目录项：{slug}")
+            continue
+        if slug in local_slugs:
+            errors.append(f"外部系列被混入本地系列：{slug}")
+        if not category.get("external"):
+            errors.append(f"外部系列缺少 external 标记：{slug}")
+        if category.get("url") != config.get("pageURL"):
+            errors.append(f"{slug} 目录链接未使用绝对 pageURL")
+        if not str(category.get("url", "")).startswith("https://"):
+            errors.append(f"{slug} 目录链接不是绝对 https 地址")
+        if category.get("count") != int(config.get("card_count") or 0):
+            errors.append(f"{slug} 目录卡片数与配置不一致")
+        if category.get("number") != f"{position:02d}":
+            errors.append(f"{slug} 目录编号异常")
+        cover = (category.get("cover") or {})
+        cover_src = cover.get("src") or ""
+        if cover_src != "series/" + Path(config["cover"]).name:
+            errors.append(f"{slug} 封面路径异常：{cover_src}")
+        cover_file = public / cover_src
+        if not cover_file.is_file():
+            errors.append(f"{slug} 封面未发布：{cover_src}")
+        elif sha256_file(cover_file) != config.get("coverSHA256"):
+            errors.append(f"{slug} 封面哈希与已批准值不一致")
+        if (public / "media" / slug).exists():
+            errors.append(f"{slug} 不应复制本地媒体：media/{slug}")
+
+    index_text = html_module.unescape((public / "index.html").read_text(encoding="utf-8"))
+    for slug, config in externals:
+        if config.get("pageURL") not in index_text:
+            errors.append(f"首页缺少外部系列链接：{slug}")
+        if "series/" + Path(config["cover"]).name not in index_text:
+            errors.append(f"首页缺少外部系列封面：{slug}")
+    if str(expected_total) not in index_text:
+        errors.append(f"首页未展示总数 {expected_total}")
+    if f"{expected_directories} 个系列" not in index_text:
+        errors.append(f"首页未展示目录数 {expected_directories}")
+
+    return {
+        "directories": expected_directories,
+        "displayTotal": expected_total,
+        "sourceCardTotal": source_cards,
+        "external": [
+            {"slug": slug, "cards": int(config.get("card_count") or 0),
+             "url": config.get("pageURL"), "cover": "series/" + Path(config["cover"]).name}
+            for slug, config in externals
+        ],
+    }
 
 
 def verify_web_images(catalog: dict, public: Path, manifest: dict, errors: list) -> dict:
@@ -344,6 +425,7 @@ def verify(public: Path):
     if source_cards != built_cards:
         errors.append("构建 catalog 的卡片集合与当前 approved 源卡片不一致")
     subscription_summary = verify_subscriptions(source_catalog, public)
+    directory_summary = verify_external_directories(catalog, public, errors)
     web_summary = verify_web_images(catalog, public, manifest, errors)
 
     checked_refs = 0
@@ -425,6 +507,7 @@ def verify(public: Path):
         "localReferences": checked_refs,
         "artifactBytes": size,
         "webImages": web_summary,
+        "directories": directory_summary,
         "downloads": download_summary,
         "subscriptions": subscription_summary,
     }, ensure_ascii=False))

@@ -9,6 +9,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+SERIES_SETTINGS = REPO_ROOT / "scripts" / "readme-series.json"
 SERIES = (
     {
         "slug": "basic-english-850",
@@ -186,12 +187,60 @@ def load_catalog() -> dict:
     }
 
 
+def external_directories() -> list[dict]:
+    """Independent series hosted elsewhere (absolute pageURL + approved local cover).
+
+    They are listed in the public directory but are not part of this repository's
+    card catalog: no cards, images, ZIPs or App packages are copied for them.
+    """
+    settings = json.loads(SERIES_SETTINGS.read_text(encoding="utf-8"))
+    entries = []
+    for slug, config in settings.items():
+        if not config.get("external"):
+            continue
+        cover_rel = config.get("cover") or ""
+        cover_path = REPO_ROOT / cover_rel
+        if not cover_rel or not cover_path.is_file():
+            raise CatalogError(f"外部系列缺少封面文件：{slug} -> {cover_rel}")
+        actual = sha256_file(cover_path)
+        if actual != config.get("coverSHA256"):
+            raise CatalogError(f"外部系列封面哈希不一致：{slug}")
+        page_url = config.get("pageURL")
+        if not isinstance(page_url, str) or not page_url.startswith("https://"):
+            raise CatalogError(f"外部系列缺少绝对 pageURL：{slug}")
+        entries.append({
+            "slug": slug,
+            "title": config.get("title") or slug,
+            "count": int(config.get("card_count") or 0),
+            "entryCount": int(config.get("entry_count") or 0),
+            "pageURL": page_url,
+            "feedURL": config.get("feedURL"),
+            "cover": "series/" + cover_path.name,
+            "coverSHA256": actual,
+            "deckID": config.get("deckID"),
+            "version": config.get("version"),
+        })
+    return entries
+
+
 def serializable_catalog(catalog: dict) -> dict:
+    externals = external_directories()
+    source_cards = catalog["totals"]["cards"]
+    display_cards = source_cards + sum(item["count"] for item in externals)
     result = {
-        "total": catalog["totals"]["cards"],
+        # homepage/sidebar display totals: repository series + independent series
+        "total": display_cards,
+        "directoryCount": len(catalog["series"]) + len(externals),
+        "sourceCardTotal": source_cards,
+        "externalCardTotal": display_cards - source_cards,
+        # asset/build bookkeeping stays limited to this repository's cards
         "totals": catalog["totals"],
         "categories": [],
         "series": [],
+        "externalSeries": [
+            {key: item[key] for key in ("slug", "title", "count", "entryCount", "pageURL", "feedURL", "coverSHA256", "deckID", "version")}
+            for item in externals
+        ],
     }
     for index, series in enumerate(catalog["series"], start=1):
         item = {key: value for key, value in series.items() if key not in {"cards", "cover"}}
@@ -261,6 +310,27 @@ def serializable_catalog(catalog: dict) -> dict:
                 "label": "%s 示例卡 %s" % (series["title"], cover["id"]),
                 "width": cover_size["width"],
                 "height": cover_size["height"],
+            },
+        })
+
+    for offset, entry in enumerate(externals, start=len(catalog["series"]) + 1):
+        result["categories"].append({
+            "slug": entry["slug"],
+            "number": f"{offset:02d}",
+            "title": entry["title"],
+            "folder": "%s %s" % (entry["title"], "独立专题"),
+            "count": entry["count"],
+            "entryCount": entry["entryCount"],
+            "url": entry["pageURL"],
+            "external": True,
+            "feedURL": entry["feedURL"],
+            "cover": {
+                "src": entry["cover"],
+                "thumb": entry["cover"],
+                "animated": False,
+                "label": "%s 系列封面" % entry["title"],
+                "width": None,
+                "height": None,
             },
         })
     return result
