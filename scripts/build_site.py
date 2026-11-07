@@ -11,6 +11,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
+import web_images
 from catalog import REPO_ROOT, load_catalog, serializable_catalog
 from downloads import build_downloads
 from subscriptions import build_subscriptions
@@ -93,6 +94,53 @@ def render_words(card: dict) -> str:
 </div>""" % "".join(rows)
 
 
+SIZES = (
+    "(max-width: 620px) calc(100vw - 60px), "
+    "(max-width: 800px) calc(50vw - 30px), "
+    "(max-width: 1200px) calc(50vw - 70px), "
+    "520px"
+)
+
+
+def image_markup(series: dict, card: dict) -> tuple[str, str, str]:
+    """<img> plus preview link markup for one card.
+
+    With web images the card points at the full-size Web asset and offers 480/960
+    previews through srcset; without them this reproduces the original markup.
+    """
+    web = card.get("web_image")
+    if not web:
+        path = "../media/%s/%s%s" % (series["slug"], card["id"], card["image_extension"])
+        return (
+            '<img src="%s" alt="%s" loading="lazy" decoding="async">'
+            % (esc(path), esc("%s %s" % (card["id"], card["title"]))),
+            path,
+            "%s%s" % (card["id"], card["image_extension"]),
+        )
+    full = web["full"]
+    full_path = "../" + full["path"]
+    variants = web["variants"]
+    candidates = []
+    for width in sorted(int(value) for value in variants):
+        variant = variants[str(width)]
+        candidates.append("../%s %dw" % (variant["path"], width))
+    candidates.append("%s %dw" % (full_path, full["width"]))
+    srcset = ", ".join(candidates) if len(candidates) > 1 else ""
+    img = (
+        '<img src="%s"%s%s width="%d" height="%d" alt="%s" loading="lazy" decoding="async">'
+        % (
+            esc(full_path),
+            (' srcset="%s"' % esc(srcset)) if srcset else "",
+            (' sizes="%s"' % esc(SIZES)) if srcset else "",
+            full["width"],
+            full["height"],
+            esc("%s %s" % (card["id"], card["title"])),
+        )
+    )
+    suffix = full["path"].rsplit(".", 1)[-1]
+    return img, full_path, "%s.%s" % (card["id"], suffix)
+
+
 def render_card(series: dict, card: dict) -> str:
     caption = card["caption"] or {}
     caption_en = caption.get("en") or ""
@@ -102,10 +150,11 @@ def render_card(series: dict, card: dict) -> str:
         " ".join(card["primary_words"]),
     ])
     dialogue = render_dialogue(card)
+    img, full_path, filename = image_markup(series, card)
     return f"""
 <article class="learning-card image-card" id="{esc(card['id'])}" data-card-id="{esc(card['id'])}" data-name="{esc(search.lower())}">
-  <a class="image-preview" href="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}" data-preview data-name="{esc(card['id'])} · {esc(card['title'])}" data-filename="{esc(card['id'])}{esc(card['image_extension'])}" data-src="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}">
-    <img src="../media/{esc(series['slug'])}/{esc(card['id'])}{esc(card['image_extension'])}" alt="{esc(card['id'])} {esc(card['title'])}" loading="lazy" decoding="async">
+  <a class="image-preview" href="{esc(full_path)}" data-preview data-name="{esc(card['id'])} · {esc(card['title'])}" data-filename="{esc(filename)}" data-src="{esc(full_path)}">
+    {img}
   </a>
   <div class="learning-card__content">
     <div class="learning-card__heading">
@@ -154,7 +203,7 @@ def write_text(path: Path, text: str):
     path.write_text(text, encoding="utf-8")
 
 
-def build(base_url: str, skip_hugo: bool = False):
+def build(base_url: str, skip_hugo: bool = False, original_images: bool = False, workers: int = 3):
     catalog = load_catalog()
     if GENERATED.exists():
         shutil.rmtree(GENERATED)
@@ -165,17 +214,22 @@ def build(base_url: str, skip_hugo: bool = False):
     shutil.copytree(SITE_SOURCE / "layouts", GENERATED / "layouts")
     shutil.copytree(SITE_SOURCE / "assets", GENERATED / "assets")
     shutil.copytree(SITE_SOURCE / "static", GENERATED / "static")
+
+    # Web derivatives must exist (and be bound to the cards) before rendering.
+    manifest = web_images.build(catalog, original=original_images, workers=workers)
+
     config = (REPO_ROOT / "hugo.toml").read_text(encoding="utf-8")
     config = re.sub(r'^baseURL\s*=.*$', 'baseURL = %s' % json.dumps(base_url), config, flags=re.MULTILINE)
+    if manifest["mode"] == "web":
+        if "[params]" in config:
+            config = config.replace("[params]\n", "[params]\n  webImages = true\n", 1)
+        else:
+            config += "\n[params]\n  webImages = true\n"
     write_text(GENERATED / "hugo.toml", config)
 
     write_text(GENERATED / "content" / "_index.md", render_home(catalog))
     for series in catalog["series"]:
         write_text(GENERATED / "content" / series["slug"] / "_index.md", render_series(series))
-        media_dir = GENERATED / "static" / "media" / series["slug"]
-        media_dir.mkdir(parents=True, exist_ok=True)
-        for card in series["cards"]:
-            shutil.copy2(card["image_path"], media_dir / f"{card['id']}{card['image_extension']}")
 
     serial = serializable_catalog(catalog)
     write_text(GENERATED / "data" / "catalog.json", json.dumps(serial, ensure_ascii=False, indent=2) + "\n")
@@ -198,6 +252,15 @@ def build(base_url: str, skip_hugo: bool = False):
         "cards": catalog["totals"]["cards"],
         "entries": catalog["totals"]["entries"],
         "artifactBytes": size,
+        "webImages": {
+            "mode": manifest["mode"],
+            "cards": manifest["totals"]["cards"],
+            "sourceBytes": manifest["totals"]["sourceBytes"],
+            "fullBytes": manifest["totals"]["fullBytes"],
+            "variantBytes": manifest["totals"]["variantTotalBytes"],
+            "webTotalBytes": manifest["totals"]["webTotalBytes"],
+            "methods": manifest["totals"]["methods"],
+        },
         "downloads": {asset["name"]: asset["size"] for asset in downloads["assets"]},
         "downloadBytes": sum(asset["size"] for asset in downloads["assets"]),
         "output": str(PUBLIC),
@@ -208,8 +271,17 @@ def main():
     parser = argparse.ArgumentParser(description="构建 GitHub Pages 学习网站")
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL)
     parser.add_argument("--skip-hugo", action="store_true", help="只生成 Hugo 输入，不执行 hugo")
+    parser.add_argument(
+        "--original-images",
+        action="store_true",
+        help="关闭 Web 图片优化，直接复制 job 绑定的原图（原流程保留）",
+    )
+    parser.add_argument("--workers", type=int, default=3, help="并行生成 Web 图片的 worker 数（默认 3）")
     args = parser.parse_args()
-    build(args.base_url, args.skip_hugo)
+    try:
+        build(args.base_url, args.skip_hugo, args.original_images, args.workers)
+    except web_images.WebImageError as exc:
+        raise SystemExit(f"error: {exc}")
 
 
 if __name__ == "__main__":

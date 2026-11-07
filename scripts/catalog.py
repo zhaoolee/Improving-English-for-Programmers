@@ -196,8 +196,9 @@ def serializable_catalog(catalog: dict) -> dict:
     for index, series in enumerate(catalog["series"], start=1):
         item = {key: value for key, value in series.items() if key not in {"cards", "cover"}}
         item["cover_id"] = series["cover"]["id"]
-        item["cards"] = [
-            {
+        item["cards"] = []
+        for card in series["cards"]:
+            serialized = {
                 "id": card["id"],
                 "title": card["title"],
                 "image_repo_path": card["image_repo_path"],
@@ -205,12 +206,47 @@ def serializable_catalog(catalog: dict) -> dict:
                 "image_extension": card["image_extension"],
                 "word_count": len(card["targets"]),
             }
-            for card in series["cards"]
-        ]
+            web_image = card.get("web_image")
+            if web_image:
+                serialized["web_image"] = {
+                    "mode": web_image.get("mode"),
+                    "full": {
+                        "path": web_image["full"]["path"],
+                        "sha256": web_image["full"]["sha256"],
+                        "width": web_image["full"]["width"],
+                        "height": web_image["full"]["height"],
+                        "bytes": web_image["full"]["bytes"],
+                    },
+                    "variants": {
+                        width: {
+                            "path": variant["path"],
+                            "sha256": variant["sha256"],
+                            "width": variant["width"],
+                            "height": variant["height"],
+                            "bytes": variant["bytes"],
+                        }
+                        for width, variant in (web_image.get("variants") or {}).items()
+                    },
+                }
+            item["cards"].append(serialized)
         result["series"].append(item)
-        cover_src = "media/%s/%s%s" % (
-            series["slug"], series["cover"]["id"], series["cover"]["image_extension"]
-        )
+
+        cover = series["cover"]
+        cover_web = cover.get("web_image")
+        if cover_web:
+            cover_src = cover_web["full"]["path"]
+            cover_thumb_entry = cover_web["variants"].get("960") or cover_web["full"]
+            cover_thumb = cover_thumb_entry["path"]
+            cover_size = {
+                "width": cover_web["full"]["width"],
+                "height": cover_web["full"]["height"],
+            }
+        else:
+            cover_src = "media/%s/%s%s" % (
+                series["slug"], cover["id"], cover["image_extension"]
+            )
+            cover_thumb = cover_src
+            cover_size = {"width": None, "height": None}
         result["categories"].append({
             "slug": series["slug"],
             "number": f"{index:02d}",
@@ -220,9 +256,11 @@ def serializable_catalog(catalog: dict) -> dict:
             "url": series["slug"] + "/",
             "cover": {
                 "src": cover_src,
-                "thumb": cover_src,
+                "thumb": cover_thumb,
                 "animated": False,
-                "label": "%s 示例卡 %s" % (series["title"], series["cover"]["id"]),
+                "label": "%s 示例卡 %s" % (series["title"], cover["id"]),
+                "width": cover_size["width"],
+                "height": cover_size["height"],
             },
         })
     return result
